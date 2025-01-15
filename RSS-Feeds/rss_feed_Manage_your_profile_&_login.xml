@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Manage your profile & login</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Change the default Hub you see when you log in</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360041155612-Change-the-default-Hub-you-see-when-you-log-in</link>
+         <description><![CDATA[<p>Learn how to choose which Hub is selected each time you log in to your Uberflip account.</p>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>There are no specific permissions required to change your default Hub — <strong>anyone with an Uberflip account</strong> can change this for themselves.</li>
+</ul>
+<p> </p>
+<h2>About Setting a Default Hub</h2>
+<p>Whenever you log in to Uberflip, you will automatically be taken to the <strong>default Hub</strong> in your Uberflip account (for most users, on the <em>Content</em> page):</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360053263912/Hubs___Manage_-_Uberflip_-_Mozilla_Firefox.png" alt="Hubs___Manage_-_Uberflip_-_Mozilla_Firefox.png"></p>
+<p>If you have multiple Hubs, the default Hub will usually be the oldest Hub in your account (i.e. the one that was created first). But in some cases, that might not be the Hub you work in the most.</p>
+<p>In this case, you can <strong>set your own default Hub</strong>. When you do this, you'll be taken directly to your preferred Hub each time you log in.</p>
+<p> </p>
+<h2>Set a Default Hub</h2>
+<p>You can set or change your default Hub at any time. Setting a default Hub is <strong>optional</strong>: if you don't explicitly set one, your default Hub will simply be the oldest/first-created Hub in your Uberflip account.</p>
+<p>Setting a default Hub is a user preference, so it's a <strong>per-user setting</strong>. This means that:</p>
+<ul>
+<li>Each user has to set it for their own Uberflip account</li>
+<li>Account Administrators can't set it on behalf of other users</li>
+</ul>
+<p><strong>To set a default Hub for your Uberflip account:</strong></p>
+<ol>
+<li>Log in to your Uberflip account.</li>
+<li>In the top right corner, click on your name, then click on <strong>Account Settings</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360053267272/Fullscreen_2020-03-27__4_02_PM.png" alt="Fullscreen_2020-03-27__4_02_PM.png">
+</li>
+<li>You'll be taken to your <strong>My Profile </strong>page. Here, <strong>click on the dropdown</strong> next to <em>Default Hub</em>:<br><img src="https://help.uberflip.com/hc/article_attachments/360053404611/My_Profile_-_Uberflip_-_Mozilla_Firefox.png" alt="My_Profile_-_Uberflip_-_Mozilla_Firefox.png">
+</li>
+<li>Using the dropdown, <strong>select the Hub</strong> you want to set as your default Hub.</li>
+<li>Once you've made your selection, your preference will be saved automatically. The next time you log in, you will automatically be taken to your selected default Hub.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360041155612</guid>
+         <pubDate>Fri, 27 Mar 2020 19:15:26 GMT</pubDate>
+      </item>
+      <item>
+         <title>Change Your Password</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360018984031-Change-Your-Password</link>
+         <description><![CDATA[<hr>
+<p>Time for a new password? Here's how to change it.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>There are<strong> no restrictions</strong> on this feature — all users can do this.</li>
+<li>This article is about changing your password when you <strong>still know your current password</strong>. If you have forgotten your password and need to reset it, check out <a href="https://help.uberflip.com/hc/en-us/articles/360018978191">this article</a> instead.</li>
+</ul>
+<p> </p>
+<h2>Change your password</h2>
+<ol>
+<li>Log in to Uberflip at <a href="https://app.uberflip.com/">app.uberflip.com</a>.</li>
+<li>In the top right corner, hover the mouse over your name to expand the menu, then click on <strong>Account Settings</strong> to go to your<strong> My Profile</strong> page.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360014613891/blobid0.png" alt="">
+</li>
+<li>In the sidebar menu on the left, the <strong>Account</strong> section should already be expanded. Click on <strong>Change Password</strong> here.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360014593172/blobid1.png" alt="">
+</li>
+<li>Using the fields on the right, type in your current password, then type the new password you want to use (you'll need to type in the new password a second time to confirm it).</li>
+<li>When you're finished, click on <strong>Save</strong> to save your changes. Your password change will take effect right away.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360018984031</guid>
+         <pubDate>Thu, 01 Nov 2018 15:53:15 GMT</pubDate>
+      </item>
+      <item>
+         <title>Forgot Password / Can&apos;t Log In</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360018978191-Forgot-Password-Can-t-Log-In</link>
+         <description><![CDATA[<hr>
+<p>Having some trouble remembering your Uberflip password? Don't worry, you can easily reset your password at any time.</p>
+<hr>
+<div class="callout callout--warning">
+<h4 class="callout__title">Need help with an <strong>Uber</strong> or <strong>Uber Eats</strong> account?</h4>
+<p><strong>Uh-oh — you've taken a wrong turn! </strong>This article is about <strong>Uberflip</strong> accounts. If you've forgotten the password for your <strong>Uber/Uber Eats </strong>account, go here:</p>
+<p><a href="https://help.uber.com/riders/article/i-forgot-my-password-?nodeId=6949160d-3eb6-42cd-8155-1ae3cf25be0b">Uber: I forgot my password</a></p>
+</div>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>There are<strong> no restrictions</strong> on this feature — all users can do this.</li>
+<li>You'll need to know the <strong>email address or username</strong> you use to log in to Uberflip. Don't have that? <a href="#h_98185615941541084757134">See below</a> for help.</li>
+</ul>
+<p> </p>
+<h2>Reset your password</h2>
+<ol>
+<li>Go to to the Uberflip login page at <a href="https://app.uberflip.com/users/login">app.uberflip.com/users/login</a>
+</li>
+<li>Type in your username (usually your email address), then click on the <strong>Next</strong> button.
+<ul>
+<li>Can't remember your username/email address? <a href="#h_98185615941541084757134">See below for help</a>.</li>
+</ul>
+</li>
+<li>On the next page, click on the <strong>Forgot your password?</strong> link below the password field.<br> <br> <img src="https://help.uberflip.com/hc/article_attachments/360014588612/blobid0.png" alt="">
+</li>
+<li>Type the email address associated with your Uberflip user profile into the field, then click on <strong>Request Password Reset</strong>.<br> <br> <img src="https://help.uberflip.com/hc/article_attachments/360014610111/blobid1.png" alt="">
+</li>
+<li>A password reset email should arrive in your inbox within a few minutes. Follow the instructions inside the email to choose a new password for your user profile.</li>
+</ol>
+<div class="callout">
+<h4 class="callout__title">Important</h4>
+<p>As soon as you request a password reset, your old password will no longer work — you must use the password reset email to choose a new password.</p>
+</div>
+<p> </p>
+<h2>Didn't get a password reset email?</h2>
+<p>If it's been a few minutes and you still haven't received the password reset email, here are a few things you can try:</p>
+<ul>
+<li>
+<strong>Look in your spam/junk mail folder</strong>: You know the drill! Often, the spam filter gets it wrong and eats those password reset emails. Make sure to check here first!</li>
+<li>
+<strong>Check that you got the email right: </strong>Whenever you request a password reset, you'll <em>always</em> see a message saying that the email was sent — even if you put in the <strong>wrong email</strong>, or you <strong>made a typo</strong>. But if the system can't actually find a matching Uberflip user, it won't send a password reset email. If you're not sure if you got the email right, give it another try.</li>
+</ul>
+<p> </p>
+<h2 id="h_98185615941541084757134">Still having trouble?</h2>
+<p>To reset your Uberflip password, you need to know at least the email address associated with your user profile. But if you <strong>can't remember your email address</strong>, or you're just not getting any password reset emails, please get in touch with us by <a href="https://help.uberflip.com/hc/en-us/requests/new">submitting a support request</a>, and we'll be happy to help you out.</p>]]></description>
+         <guid isPermaLink="false">360018978191</guid>
+         <pubDate>Thu, 01 Nov 2018 13:51:38 GMT</pubDate>
+      </item>
+      <item>
+         <title>View and Update Your User Profile and Author Bio</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360018679312-View-and-Update-Your-User-Profile-and-Author-Bio</link>
+         <description><![CDATA[<hr>
+<p>On your Uberflip user profile, you can set and update your personal details and contact information, as well as the author bio that appears with Hub content you create.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>There are<strong> no restrictions</strong> on this feature — all users can do this.</li>
+</ul>
+<p> </p>
+<h2>Navigate to the My Profile page</h2>
+<p>To get started, you'll need to visit the My Profile page in your Uberflip account.</p>
+<ol>
+<li>Log in to Uberflip at <a href="https://app.uberflip.com/">app.uberflip.com</a>.</li>
+<li>In the top right corner, hover the mouse over your name to expand the menu, then click on <strong>Account Settings</strong> to go to your<strong> My Profile</strong> page.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360014613891/blobid0.png" alt="">
+</li>
+<li>In the sidebar menu on the left, the <strong>Account</strong> section should already be expanded, and you should see the <strong>My Profile</strong> page in the main part of the window on the right.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360014623991/blobid0.png" alt="" width="701" height="333">
+</li>
+</ol>
+<p> </p>
+<h2>Set or update your personal and contact information</h2>
+<p>Whenever you visit the My Profile page, you'll be on the <strong>User Information</strong> tab by default. From here, you can update the following details:<br><br><img src="https://help.uberflip.com/hc/article_attachments/360014603292/blobid1.png" alt=""></p>
+<ol>
+<li>
+<strong>First and Last Name:</strong> Your first and last name, as you want them to appear in Uberflip (such as on any content you author)</li>
+<li>
+<strong>Email Address:</strong> The contact email address that you want to use with your account. Note that if you are responsible for billing in your organization, this is <strong>not </strong>where you set or change your billing email address! To do that, see <a href="https://help.uberflip.com/hc/en-us/articles/360018684852">this article</a>.</li>
+<li>
+<strong>Federation ID</strong>: Used for your Federation ID if you use Single-Sign On (SSO). If you're not sure what this is, you don't need it — so just leave it blank.</li>
+</ol>
+<p>Any changes you make are <strong>saved automatically</strong>.</p>
+<p>You can also see your Uberflip User ID and Account ID, as well as your account creation date and the date/time and location when you last logged in.</p>
+<p> </p>
+<h2>Set your Author Bio and other contact details</h2>
+<p>Switch over to the <strong>Bio</strong> tab by clicking on it, and you can add all kinds of optional details. <br><br><img src="https://help.uberflip.com/hc/article_attachments/360014604092/blobid3.png" alt="" width="700" height="496"><br><br>Fill any of these in, and they will appear in your <strong>About the Author</strong> box below any content you author in your Hubs. The text you type into the <strong>Bio </strong>field will appear there, as well:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360014665072/Master_Personalized_Marketing_With_the_Help_of_Uberflip_and_Bombora.png" alt="Master_Personalized_Marketing_With_the_Help_of_Uberflip_and_Bombora.png" width="630" height="207"></p>
+<p>Any changes you make here are also <strong>saved automatically.</strong></p>
+<p>By the way: you can change the <strong>URL Path</strong> field to give your author profile page a custom URL, if you like.</p>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360018679312</guid>
+         <pubDate>Thu, 01 Nov 2018 16:05:38 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

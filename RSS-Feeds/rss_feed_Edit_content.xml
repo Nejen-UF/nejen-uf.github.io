@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Edit content</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Edit content Items</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/27116424565773-Edit-content-Items</link>
+         <description><![CDATA[<p>All of your Items in Uberflip have a content area. It may be the main event of an Item (like in a blog post) or some content below a video that adds a bit of context. This area can include text, images, and other elements used to add context to the Item.<br><img src="https://help.uberflip.com/hc/article_attachments/27143074502925" width="499" height="408"><br>Your Items may already have content you want to edit, or you may want to add something new. Either way, you can edit content for all Items with the Item editor. This article will show you how.</p>
+<div class="callout callout--danger">
+<h4 id="h_01HZ0JMFKKTM3D6VHDM1N1V1CZ" class="callout__title">Warning</h4>
+<p><strong>For imported content,</strong> <strong>changing the content will break the connection Uberflip has with the original source content.</strong> This means that if you change the content in Uberflip, then the content also changes at its original source, those source location changes won't sync to Uberflip moving forward.<br>Learn more about <a href="https://help.uberflip.com/hc/en-us/articles/360045488551">changes that break an Items source connection</a>.</p>
+</div>
+<div class="callout callout--success">
+<h4 id="h_01HZ2V243C0K8V40G5ADST8Z0J" class="callout__title">Use the Item editor to craft blog posts from scratch</h4>
+<p>Check out <a href="https://help.uberflip.com/hc/en-us/articles/25430088305677">Create a new blog post</a> for a focused guide on how that's done. </p>
+</div>
+<p> </p>
+<h2 id="h_01HYE5X3ZEPMX8MRCB2BXTX3ZF">Before you begin</h2>
+<ul>
+<li>To edit Items, you’ll need <strong>Account Admin</strong> or <strong>Content Manager </strong>permissions</li>
+<li>
+<strong>Making content changes to imported content in Uberflip won't affect the content at its source</strong> <strong>location</strong> <em>(where it was imported from)</em>. But it will likely break the source connection, preventing any updates made at the source from being imported into Uberflip's version of the content.</li>
+</ul>
+<p> </p>
+<h2 id="h_01HYE5XHC2G89CMFKXGAR28K2J">Accessing the Item editor</h2>
+<p>Here’s how to open the Item editor:</p>
+<ol>
+<li>Click Content in the sidebar menu<br><img src="https://help.uberflip.com/hc/article_attachments/27136254868877" width="301" height="195">
+</li>
+<li>Click the<strong> Items tab<br></strong>
+</li>
+<li>Find the Item you want to edit and double-click it<br><img src="https://help.uberflip.com/hc/article_attachments/27136247698829" width="500" height="164">
+</li>
+</ol>
+<p>That’s it! You’re now in the Item editor.<br><img src="https://help.uberflip.com/hc/article_attachments/27136247707533" alt="Screen Shot 2024-05-29 at 9.14.30 AM.png" width="599" height="225"></p>
+<div class="callout callout--success">
+<h4 id="h_01HZ2J53Y9EPVNJR9AA4R0RP8N" class="callout__title">Tip</h4>
+<p>You can also open the Item editor from the Stream editor page (Items tab) by hovering over an Item and clicking <strong>Edit Item</strong>. (Content &gt; <em>select a Stream</em> &gt; <em>hover over Item</em> &gt; Edit Item)</p>
+</div>
+<p> </p>
+<h2 id="h_01HYE61Y4M6YRXDBJ82PM0RRK0">Item editor basics</h2>
+<p>Here are the basic features of the Item editor that you can use to edit and enhance your content Item. </p>
+<p> </p>
+<h3 id="h_01HYE61Y4MQB1AVP0X5B1RYDMS"><span style="color: #434343;">Rich text editor </span></h3>
+<p>Uberflip’s Item editor includes a rich text editor, similar to the ones you’d find in any text editor <em>(like Google Docs and Word)</em>. </p>
+<p>Depending on the size of your screen, more or less rich text will be shown in the toolbar. You can click the more menu (three dot icon •••) to see all of the rich text tools. <img src="https://help.uberflip.com/hc/article_attachments/27116454758157" width="624" height="80"></p>
+<p> </p>
+<h3 id="h_01HYE61Y4MH1WTEA2JCTAVEGTE">
+<span style="color: #434343;">Insert stuff </span><em><span style="color: #434343;">(other than text)</span></em>
+</h3>
+<p>The Item editor allows you to easily insert useful web elements into your Item page, including: </p>
+<ul>
+<li>
+<a href="https://help.uberflip.com/hc/en-us/articles/25430157641741">Media images</a> <em>(with captions)</em>
+</li>
+<li>Links</li>
+<li>Videos (<em>and embeddable presentations, like Google Slides)</em>
+</li>
+<li>Code samples</li>
+<li>Tables</li>
+<li>Special characters</li>
+<li>Horizontal lines</li>
+<li>Anchors</li>
+</ul>
+<p>Click the corresponding icon in the toolbar to add these. If you don’t know the icons, you can find a labeled list by clicking<strong> Insert</strong>.<br><img src="https://help.uberflip.com/hc/article_attachments/27116424563213" width="295" height="264"></p>
+<p> </p>
+<h3 id="h_01HYE630NT3BRQKVDB5XY81PY9"><span style="color: #434343;">Edit the source code</span></h3>
+<p>Want deeper technical customization of your Item? Looking to embed a code snippet to bring some cool tech into your Item? You can! </p>
+<p>To open the code editor, click <strong>View &gt; Source Code</strong>.<br><img src="https://help.uberflip.com/hc/article_attachments/27136247736205" width="601" height="91"><br><br><br></p>
+<h2 id="h_01HZ2KWP7RPFADC7GS0W360RP2">Publish your changes</h2>
+<p>When you're done updating your Item, it'll be saved as a draft automatically. <strong>Click Publish Changes</strong> to publish your changes.<br><img src="https://help.uberflip.com/hc/article_attachments/27137927993485" width="601" height="232"></p>]]></description>
+         <guid isPermaLink="false">27116424565773</guid>
+         <pubDate>Tue, 28 May 2024 22:37:53 GMT</pubDate>
+      </item>
+      <item>
+         <title>Show image captions from Media in content Items</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/28532927030669-Show-image-captions-from-Media-in-content-Items</link>
+         <description><![CDATA[<h2 id="h_01J33ER0EMYJZFR907ESS47XPB"><span class="wysiwyg-color-black" style="color: #041b64;">Get started</span></h2>
+<p><span style="color: #030d36;">The image title (caption) and description (alt text) can be set on an image in </span><a href="https://help.uberflip.com/hc/en-us/articles/25430157641741-Media-Image-management-in-Uberflip-explained"><span style="color: #1155cc;">Uberflip’s Media tool</span></a><span style="color: #030d36;">. </span></p>
+<p><span style="color: #030d36;">The title and description applied in the Media widget is inherited when the image is added to an Item. However it is possible to overwrite the title and description in the Item editor if you’d like.</span></p>
+<p><span style="color: #030d36;">Captions can not be turned on for all images by default. You must turn captions on for each individual image when you add it to an Item. </span></p>
+<p><span style="color: #030d36;">The description you assign to the image in the Media tool will be applied as the alt text for use by accessibility tools, wherever the image is placed. </span></p>
+<p><strong><span style="color: #030d36;">Note: </span></strong><span style="color: #030d36;">Image captions are supported in content Items, but not in microsites built with Uberflip Pages.  </span></p>
+<p> </p>
+<h2 id="h_01J33EM1GE9RSRWRGQ7XK43A3A"><span style="color: #030d36;">Image title &amp; caption</span></h2>
+<p><strong><span style="color: #030d36;">The ‘title’ you add to your image in either the Media tool will serve as the default caption for your image,</span></strong><span style="color: #030d36;"> but you can edit the caption in the Item editor to override that if you’d like. </span></p>
+<p><strong><span style="color: #030d36;">Tip:</span></strong><span style="color: #030d36;"> The title can be used to search for images in the Media widget as well. </span></p>
+<p><span style="color: #030d36;">Image captions have to be turned on for each image at the Item level. There is no way to turn on captions for all images. </span></p>
+<h3 id="h_01J33EM1GE9CY4483QTV4VKY5V"><span style="color: #434343;">Turn on image captions</span></h3>
+<ol>
+<li><span style="color: #030d36;">Open an Uberflip Item that contains an image that you’d like to add a caption to </span></li>
+<li>
+<span style="color: #030d36;">Right-click on the image and click </span><strong><span style="color: #030d36;">Image...</span></strong><span style="color: #030d36;"> in the menu that appears<br><img src="https://help.uberflip.com/hc/article_attachments/28538670488717" width="500" height="168"><br></span>
+</li>
+<li>
+<span style="color: #030d36;">In the modal that opens, ensure that the <strong>Image title field</strong> is populated, and click the “Show Caption” checkbox. This is also a great time to ensure your image has alt text. <br></span><span style="color: #030d36;"><img src="https://help.uberflip.com/hc/article_attachments/28538638550797" width="400" height="352"><br></span><strong><span style="color: #030d36;">Note: </span></strong><span style="color: #030d36;">You can edit the caption in the modal, or the Item editor after adding, to override the preset title. Changing the title here won’t affect the image's title saved in Media.</span>
+</li>
+<li>
+<span style="color: #030d36;">Click </span><strong><span style="color: #030d36;">Save</span></strong>
+</li>
+</ol>
+<p><span style="color: #030d36;">That's it. Your image title will be shown under the image as a caption. Remember to publish the changes to your article to update that caption for visitors. </span></p>
+<p> </p>
+<h2 id="h_01J33EM1GEMEC9KNPQGANKK3MK"><span style="color: #030d36;">Image descriptions &amp; alt text</span></h2>
+<p><span style="color: #030d36;">The description you add to your image, in either the Media tool or when adding the image in the editor, will serve as the alt text for your image. If set, this is added automatically when the image is added to an Item. This is available for screen readers but t</span><span style="color: #030d36;">he alt-text/description can not be made visible on the Item.</span></p>]]></description>
+         <guid isPermaLink="false">28532927030669</guid>
+         <pubDate>Thu, 18 Jul 2024 17:36:27 GMT</pubDate>
+      </item>
+      <item>
+         <title>Embed web content in Uberflip blog posts</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/15325347043469-Embed-web-content-in-Uberflip-blog-posts</link>
+         <description><![CDATA[<p>Documents, videos, maps, and more, can often be embedded all over the web these days. Have embeddable content you want to embed in an Uberflip blog post? This article will show you how.</p>
+<p> </p>
+<h2>Place an embed code into an Uberflip blog post</h2>
+<ol>
+<li>
+<strong>Log in to Uberflip</strong> and navigate to the Hub you want to work with.</li>
+<li>In the <strong>Content</strong> section, find the Blog Stream Item where you want to embed the social content (or create a new Item).</li>
+<li>Open the Item so that you are viewing it in <strong>Edit Article</strong> mode.</li>
+<li>In the article editor toolbar, click on the <strong>Source</strong> button:<br><img src="https://help.uberflip.com/hc/article_attachments/360017281471/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png" width="626" height="180">
+</li>
+<li>Find the place in the article where you want the social content to appear, and simply <strong>paste in the embed code</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360058649351/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png">
+</li>
+<li>Click on the <strong>Source</strong> button again to exit source code mode, and you should see that an <em>IFRAME</em> placeholder (or, in some cases, a preview of the content) now appears where you placed the embed code:<br><img src="https://help.uberflip.com/hc/article_attachments/360017394412/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png" width="692" height="376">
+</li>
+<li>Click on <strong>Publish</strong> when you're ready, and the embedded element will appear where the iframe placeholder/preview is when the blog post is viewed on your Hub.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">15325347043469</guid>
+         <pubDate>Fri, 28 Apr 2023 20:58:48 GMT</pubDate>
+      </item>
+      <item>
+         <title>Embed social content into a blog post</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360043910832-Embed-social-content-into-a-blog-post</link>
+         <description><![CDATA[<hr>
+<p>Learn how you can embed content from social media sites like Facebook, Instagram, Twitter, and LinkedIn into your Uberflip blog posts.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>To do this, you need to be an <strong>Account Administrator </strong>or <strong>Content Manager</strong>.</li>
+</ul>
+<p> </p>
+<h2>About embedding social content in Uberflip</h2>
+<p>Having a presence on social media is essential, so chances are your organization is already generating a lot of great content on your social media accounts. Virtually all social media platforms make their content embeddable, so you can easily bring your social content into your Hubs to make it part of your content experiences.</p>
+<p>Below are some examples of how this looks:</p>
+<div class="tabs tabs--colored-1">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Facebook</span> <span class="tabs-link">Instagram</span> <span class="tabs-link">Twitter</span> <span class="tabs-link">LinkedIn</span>
+</div>
+<div class="tab"><img src="https://help.uberflip.com/hc/article_attachments/360058485512/facebook.png" alt="facebook.png"></div>
+<div class="tab is-hidden"><img src="https://help.uberflip.com/hc/article_attachments/360058650451/instagram.png" alt="instagram.png"></div>
+<div class="tab is-hidden"><img src="https://help.uberflip.com/hc/article_attachments/360058485612/twitter.png" alt="twitter.png"></div>
+<div class="tab is-hidden"><img src="https://help.uberflip.com/hc/article_attachments/360058650651/linkedin.png" alt="linkedin.png"></div>
+</div>
+<p> </p>
+<h2>Get an embed code from Facebook, Instagram, or Twitter</h2>
+<p>The first thing you need to do is get an <strong>embed code</strong> for the content you want to bring into your Hub. This is usually easy to get for all social platforms, even for accounts that you don't own (or that belong to your organization, but to which you don't have admin access).</p>
+<p>Remember that you'll need to get the embed code separately for each individual piece of content (Facebook post, tweet, etc.) that you want to bring in to your Hub.</p>
+<p>Here's how to find embed codes for each of the major platforms:</p>
+<ul>
+<li>
+<a href="https://developers.facebook.com/docs/plugins/embedded-posts/" target="_blank" rel="noopener noreferrer">Facebook</a> (use the <em>Code Generator</em> option)</li>
+<li><a href="https://help.instagram.com/620154495870484" target="_blank" rel="noopener">Instagram</a></li>
+<li><a href="https://help.twitter.com/en/using-twitter/how-to-embed-a-tweet" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+<li><a href="https://www.linkedin.com/help/linkedin/answer/86529/embed-content-from-the-linkedin-feed?lang=en" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+</ul>
+<p>The embed code should look something like this:</p>
+<pre class="prettyprint _3t10 prettyprinted"><span class="tag">&lt;iframe</span> <span class="atn">src</span><span class="pun">=</span><span class="atv">"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fuberflip%2Fposts%2F3081105938612087&amp;show_text=true&amp;width=552&amp;height=533&amp;appId"</span> <span class="atn">width</span><span class="pun">=</span><span class="atv">"552"</span> <span class="atn">height</span><span class="pun">=</span><span class="atv">"533"</span> <span class="atn">style</span><span class="pun">=</span><span class="atv">"</span><span class="pln">border</span><span class="pun">:</span><span class="pln">none</span><span class="pun">;</span><span class="pln">overflow</span><span class="pun">:</span><span class="pln">hidden</span><span class="atv">"</span> <span class="atn">scrolling</span><span class="pun">=</span><span class="atv">"no"</span> <span class="atn">frameborder</span><span class="pun">=</span><span class="atv">"0"</span> <span class="atn">allowTransparency</span><span class="pun">=</span><span class="atv">"true"</span> <span class="atn">allow</span><span class="pun">=</span><span class="atv">"encrypted-media"</span><span class="tag">&gt;&lt;/iframe&gt;</span></pre>
+<p>(The example above is for a Facebook post, but in general, the embed codes will look similar across all platforms.)</p>
+<p><strong>Copy the embed code</strong>, then proceed to the next step.</p>
+<p> </p>
+<h2>Embed a social post in a blog Item</h2>
+<p>When you have the embed code, you can easily add it to a Blog Item in Uberflip to display the social content when the Item is viewed in your Hub.</p>
+<ol>
+<li>
+<strong>Log in to Uberflip</strong> and navigate to the Hub you want to work with.</li>
+<li>In the <strong>Content</strong> section, find the Blog Stream Item where you want to embed the social content (or create a new Item).</li>
+<li>Open the Item so that you are viewing it in <strong>Edit Article</strong> mode.</li>
+<li>In the article editor toolbar, click on the <strong>Source</strong> button:<br><img src="https://help.uberflip.com/hc/article_attachments/360017281471/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png" width="626" height="180">
+</li>
+<li>Find the place in the article where you want the social content to appear, and simply <strong>paste in the embed code</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360058649351/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png">
+</li>
+<li>Click on the <strong>Source</strong> button again to exit source code mode, and you should see that an <em>IFRAME</em> placeholder (or, in some cases, a preview of the content) now appears where you placed the embed code:<br><img src="https://help.uberflip.com/hc/article_attachments/360017394412/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png" width="692" height="376">
+</li>
+<li>Click on <strong>Publish</strong> when you're ready, and the social content will appear where the iframe placeholder/preview is when the blog post is viewed on your Hub.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360043910832</guid>
+         <pubDate>Mon, 01 Jun 2020 15:10:36 GMT</pubDate>
+      </item>
+      <item>
+         <title>Add thumbnails to Item tiles on imported blog Streams</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020840711-Add-thumbnails-to-Item-tiles-on-imported-blog-Streams</link>
+         <description><![CDATA[<hr>
+<p>Follow these guidelines to ensure that thumbnails are displayed on Item tiles for Blog Streams imported via RSS.</p>
+<hr>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p>The guidelines in this article apply to Item tiles in Hubs using default Uberflip technology. If you're using custom code that affects Item tiles, this may alter the experience in your Hub.</p>
+</div>
+<h2>About Blog Stream Thumbnails</h2>
+<p>When you create a Blog Stream that imports posts from an external blog, Uberflip will try to automatically add a thumbnail image to each Item in the Stream. Your Streams will look a lot more attractive with thumbnails, so you should always try to ensure that a suitable thumbnail can be assigned to each Item by following the guidelines in this article.</p>
+<p>Here's how it works: to find a suitable image, Uberflip checks in three locations in a particular order. The locations and the order they are checked is as follows:</p>
+<ol>
+<li>Image tags in the RSS feed</li>
+<li>Media tags in the RSS feed</li>
+<li>Facebook Open Graph tags in source page HTML</li>
+</ol>
+<p>If no suitable image is found in one location, Uberflip moves onto the next location. Uberflip looks for just the <em>first</em> match in each location (e.g. the first image tag, the first media tag, etc.) and then checks if it meets the minimum requirements (see below). If the requirements aren't met, then Uberflip does not check for additional matches in the same location (e.g. any other image tags), but instead moves on to the next location.</p>
+<p>To make sure that your preferred image is used as an Item's thumbnail, it should:</p>
+<ul class="list-bullet">
+<li>Appear in the RSS version of the blog post wrapped in image tags</li>
+<li>Be the <strong>first</strong> image</li>
+<li>Meet the requirements to be selected, as well as the size requirements (see below)</li>
+</ul>
+<p>You can find more details on the size requirements for images, and how Uberflip looks for images in each location, below.</p>
+<p> </p>
+<h2 id="h_640872973231544638679801">General Thumbnail Image Size Requirements</h2>
+<p>Regardless of the location a thumbnail image is found in, it must meet minimum width and length requirements to be used. These are:</p>
+<ul>
+<li>
+<strong>Minimum width:</strong> 180 pixels</li>
+<li>
+<strong>Minimum height:</strong> 100 pixels</li>
+</ul>
+<p>By default, images below the minimum size on one or both of these dimensions will not be used as thumbnails.</p>
+<p>If you want, you can override the minimum image size requirement for thumbnails. You can do this when you initially create the Blog Stream by checking the box next to <strong>Allow small images to be used for thumbnails</strong>:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017252131/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png" width="358" height="373"></p>
+<p>You can also override the requirement on already created Blog Streams by opening the Stream and going to the <strong>Options tab</strong>. Here, turn the setting for <strong>Prevent using small images as thumbnails</strong> to the <strong>off (grey) </strong>position:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017252471/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png" width="693" height="88"></p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Caution</h4>
+<p>We don't recommend using these overrides, as the minimum image size requirement is in place to ensure that your Blog Stream Item thumbnails look acceptable on most displays. In general, images smaller than the minimum size requirement will look pixelated and unclear. You can find more information about our recommended image sizes in <a href="https://help.uberflip.com/hc/en-us/articles/360020030752">this article</a>.</p>
+</div>
+<p> </p>
+<h2>HTML Image Tags</h2>
+<p>The first place our system will always look for thumbnail images is in the RSS feed itself. Specifically, it will look for HTML <em>&lt;img&gt;</em> tags in the RSS version of each article. These tags must:</p>
+<ul>
+<li>Define the <strong>width </strong><strong>and </strong><strong>height</strong> of the image in pixels, and</li>
+<li>Those dimensions must meet the <a href="#h_640872973231544638679801">minimum size requirements</a> (W:180px x H:100px)</li>
+</ul>
+<p>Images that do not have dimensions specified in the tag, or where either width or height are under the minimum, will be ignored by the system. For example:</p>
+<p><strong>Image that will be used as a thumbnail<br></strong></p>
+<pre> &lt;img src="http://www.mycompany.com/blog/image.png" width="300px" height="296px" /&gt;</pre>
+<p><strong>Images that will not be used as a thumbnail<br></strong></p>
+<pre> &lt;img src="http://www.mycompany.com/blog/image.png" /&gt;</pre>
+<p><em>Image dimensions not specified</em></p>
+<pre>&lt;img src="http://www.mycompany.com/blog/image.png" width="50px" height="100px" /&gt; </pre>
+<p><em>Width is below minimum</em></p>
+<p>If there are multiple valid <em>&lt;img&gt;</em> tags in the article, only the first-appearing image will be evaluated and (if it meets the requirements) selected.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note: WordPress Featured Images</h4>
+<p>If the blog you are importing is hosted on <strong>WordPress</strong>, and you use <strong>Featured Images</strong> on that blog, note that WordPress does <strong>not</strong> include Featured Images in the RSS Feed. As a result, these images won't be pulled in to your Hub via RSS by default.</p>
+<p>In WordPress, you can include Featured Images in the RSS feed by using a plugin. While we can't recommend any particular plugin, you can use <a href="https://wordpress.org/plugins/search/featured+image+rss/">this sample search</a> as a starting point. In general, any plugin that includes Features Images in your RSS feed should work for bringing those images into your Uberflip Hub.</p>
+</div>
+<p> </p>
+<h2>RSS Media Tags</h2>
+<p>If our system is unable to find a valid thumbnail image within the <em>&lt;img&gt;</em> tags in the RSS version of an article, it will look in the <em>&lt;media:content&gt;</em> tags next. This is an RSS tag that is used to specify the attributes of media objects in RSS items (see <a href="http://www.rssboard.org/media-rss#media-content">this page</a> for more information).</p>
+<p>RSS <em>&lt;media:content&gt;</em> tags have numerous attributes, most of which are optional. In order for Uberflip to select a thumbnail image from a <em>&lt;media:content&gt;</em> tag, the following attributes must be set:</p>
+<ul>
+<li>url</li>
+<li>medium (value must be <em>image</em>)</li>
+<li>width (minimum value <em>180</em>)</li>
+<li>height (minimum value <em>100</em>)</li>
+</ul>
+<p>If there are multiple valid <em>&lt;media:content&gt;</em> tags in the article, only the first-appearing image will be evaluated and (if it meets the requirements) selected.</p>
+<p> </p>
+<h2>Open Graph Tags</h2>
+<p>If our system can't find a thumbnail in the <em>&lt;img&gt;</em> tags or <em>&lt;media:content&gt;</em> tags in the RSS version of the article, it will look for Facebook <a href="https://davidwalsh.name/facebook-meta-tags">Open Graph Meta Tags</a> as a fallback.</p>
+<p>To do this, we go to the source URL for the article and parse the page's full HTML for instances of Open Graph image tags, which look like this:</p>
+<pre>&lt;meta property="og:image" content="image source url" /&gt;</pre>
+<p>or</p>
+<pre>&lt;link rel="image_src" href="image source url" /&gt;</pre>
+<p>If an image is found in these tags, and it meets the minimum size requirements, then it will be used as the Item's thumbnail. This is intended as a last resort only: for best results, you should try to make sure that one of the other two locations (ideally the image tags) contain a suitable image to be used as a thumbnail.</p>]]></description>
+         <guid isPermaLink="false">360020840711</guid>
+         <pubDate>Tue, 11 Dec 2018 22:04:28 GMT</pubDate>
+      </item>
+      <item>
+         <title>Embed a YouTube Video into a Blog Post</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020883491-Embed-a-YouTube-Video-into-a-Blog-Post</link>
+         <description><![CDATA[<hr>
+<p>Learn how you can embed videos from YouTube in your blog posts.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>To create or modify blog posts, you need to be an <strong>Account Admin</strong>, <strong>Content Manager</strong> or <strong>Author</strong>.</li>
+</ul>
+<p> </p>
+<h2>Embed a YouTube Video in a Blog Stream Item</h2>
+<p>YouTube helpfully provides embed codes for all videos, which means it's easy to embed videos in your Blog Stream Items.</p>
+<ol>
+<li>Start by going to the YouTube video that you want to embed. Click on the <strong>Share</strong> button:<br><br><img src="https://help.uberflip.com/hc/article_attachments/360017392332/What_is_Uberflip__-_YouTube.png" alt="What_is_Uberflip__-_YouTube.png">
+</li>
+<li>The <strong>Share a link</strong> overlay will appear. Click on the <strong>Embed</strong> button.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360017392632/What_is_Uberflip__-_YouTube.png" alt="What_is_Uberflip__-_YouTube.png">
+</li>
+<li>The overlay will change to display <strong>Embed Video</strong> options. Look for the <strong>embed code</strong> on the right side and <strong>copy it</strong> (you can click on the <strong>Copy</strong> button in the lower right).<br><br><img src="https://help.uberflip.com/hc/article_attachments/360017280411/What_is_Uberflip__-_YouTube.png" alt="What_is_Uberflip__-_YouTube.png" width="464" height="373">
+</li>
+<li>Now, log in to Uberflip and navigate to the Blog Stream Item where you want to embed the video (or create a new Item). Open the Item so that you are viewing it in <strong>Edit Article</strong> mode.</li>
+<li>In the article editor toolbar, click on the <strong>Source</strong> button:<br><br><img src="https://help.uberflip.com/hc/article_attachments/360017281471/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png" width="626" height="180">
+</li>
+<li>Now, simply <strong>paste in the embed code</strong> you copied from YouTube in the place in the article where you want it to appear:<br><br><img src="https://help.uberflip.com/hc/article_attachments/360017394272/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png">
+</li>
+<li>Click on the <strong>Source</strong> button again to exit source code mode, and you should see that an <strong>IFRAME</strong> placeholder now appears where you placed the embed code:<br><br><img src="https://help.uberflip.com/hc/article_attachments/360017394412/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png" width="692" height="376">
+</li>
+<li>Click on <strong>Publish</strong> when you're ready, and the video will appear within the placeholder when you view the article on your Hub:<br><br><img src="https://help.uberflip.com/hc/article_attachments/360017282211/New_Article.png" alt="New_Article.png" width="700" height="613">
+</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360020883491</guid>
+         <pubDate>Wed, 12 Dec 2018 18:25:22 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

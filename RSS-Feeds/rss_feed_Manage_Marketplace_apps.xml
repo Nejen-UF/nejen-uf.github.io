@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Manage Marketplace apps</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Update Uberflip Marketplace apps</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4420855021837-Update-Uberflip-Marketplace-apps</link>
+         <description><![CDATA[<hr>
+<p>Learn how you can update apps that you have installed from the <a href="https://app.uberflip.com/marketplace">Uberflip Marketplace</a> to ensure you're on the latest version.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>To get updates for Marketplace apps installed on your organization's Uberflip account, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+</ul>
+<p> </p>
+<h2>About Uberflip Marketplace app updates</h2>
+<p>Just like the main Uberflip platform, apps you install from the Uberflip Marketplace will be routinely <strong>updated with new features, enhancements, and bug fixes</strong>. We recommend that you <strong>always install the latest updates</strong> for your installed apps whenever they're available so you can take advantage of the latest features</p>
+<p>At this time, the Uberflip Marketplace does not (yet) support auto-updating of apps or notifications of pending updates. As a result, you'll need to <strong>periodically check for updates</strong> and <strong>manually install</strong> any available updates to your apps. This article describes how you can do that.</p>
+<p> </p>
+<h2>Check for and install Marketplace app updates</h2>
+<p>Follow these steps to check if any updates are available for your installed apps, and to install any updates that are available.</p>
+<ol>
+<li>Log in to your Uberflip account.</li>
+<li>In the menu bar at the top, hover your mouse over <strong>Marketplace.</strong>
+</li>
+<li>In the sub-menu that appears, click on <strong>Browse Apps</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/4420855112205/image.png" alt="image.png">
+</li>
+<li>This will open the Uberflip Marketplace. Click on <strong>Installed Apps</strong>: <br><img src="https://help.uberflip.com/hc/article_attachments/4420871976589/Marketplace_-_Uberflip.png" alt="Marketplace_-_Uberflip.png">
+</li>
+<li>You'll see a list of apps that are currently installed in your Uberflip account. <strong>Click on any app</strong> in the list to see if there are updates available for that app:<img src="https://help.uberflip.com/hc/article_attachments/4420880375821/image.png" alt="image.png">
+</li>
+<li>This will open the app's listing page. If an update is available for the selected app, you'll see an <strong>Update button:<br></strong><img src="https://help.uberflip.com/hc/article_attachments/4420880475021/image.png" alt="image.png">
+</li>
+<li>
+<strong>Click on</strong> <strong>Update</strong>, then <strong>click on Update in the confirmation window</strong> to install the updated version of the app in your Uberflip account:<br><img src="https://help.uberflip.com/hc/article_attachments/4420872214157/image.png" alt="image.png">
+</li>
+<li>That's it! <strong>The update should now be installed</strong>.</li>
+<li>You can confirm that the update was installed by checking the app's listing page. If there is <strong>no Update button </strong>and you only see an Uninstall button, <strong>the latest version is installed</strong> and no updates are currently available for the app:<br><img src="https://help.uberflip.com/hc/article_attachments/4420880700429/image.png" alt="image.png" width="496" height="292">
+</li>
+</ol>]]></description>
+         <guid isPermaLink="false">4420855021837</guid>
+         <pubDate>Fri, 14 Jan 2022 22:15:34 GMT</pubDate>
+      </item>
+      <item>
+         <title>Configure settings for Uberflip Marketplace apps</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360042582411-Configure-settings-for-Uberflip-Marketplace-apps</link>
+         <description><![CDATA[<hr>
+<p>Learn how you can set up and change settings for apps that you have installed from the <a href="https://app.uberflip.com/marketplace">Uberflip Marketplace</a>.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>To configure settings for Marketplace apps installed on your organization's Uberflip account, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+</ul>
+<p> </p>
+<h2>About Uberflip Marketplace app settings</h2>
+<p>Many Uberflip Marketplace apps have <strong>settings</strong> that you need to configure to make the app work in your Uberflip Hubs. There are three <strong>levels</strong> at which app settings can be applied:</p>
+<ul class="list-bullet">
+<li>
+<strong>Account Level Settings:</strong> These settings apply across all Hubs in your Uberflip account — even Hubs you add after you first installed and configured an app. Account level settings allow you to quickly configure an app for multiple Hubs at once.</li>
+<li>
+<strong>Hub Level Settings: </strong>These settings apply only to the Hub where they were configured. When you configure an app's settings at the Hub level, they will override any account level settings for that app in just that Hub (other Hubs without their own Hub level settings will still use the account level settings, if configured).</li>
+<li>
+<strong>Stream Level Settings: </strong>These settings apply only to the Stream where they were configured. When you configure an app's settings at the Stream level, they will override any account or Hub level settings for that app in just that Stream (other Streams without their own Stream level settings will still use the account or Hub level settings, if configured).</li>
+</ul>
+<p>In this article, we'll look at <strong>how to open the Account Level, Hub Level, and Stream Level settings pages</strong> in the Uberflip platform to configure your installed apps.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>This article provides general instructions on how to find the Uberflip platform's built-in app settings pages. App developers can choose if they want to implement Account Level settings, Hub Level settings, Stream Level settings, or any combination of these options for their app. As a result, you may find only some levels of settings for certain apps.</p>
+<p>In addition, app developers can also opt to not use the built-in app settings pages at all, and may instead place all settings directly in their app's user interface (for an example, see the <a href="https://help.uberflip.com/hc/en-us/articles/360039098812" target="_self">Image Migrator app</a>). For these apps, you will not see Account, Hub, or Stream Level settings as described in this article.</p>
+<p>Make sure to always check an app's <em>Documentation</em> <em>tab</em> in the Marketplace for detailed instructions on how to configure that app.</p>
+</div>
+<p> </p>
+<h2>Open Account Level app settings</h2>
+<p>If an app uses <strong>Account Level</strong> settings, follow these steps to configure that app <strong>for all Hubs</strong> in your Uberflip account.</p>
+<ol>
+<li>Log in to your Uberflip account.</li>
+<li>In the menu bar at the top, hover your mouse over <strong>Marketplace.</strong>
+</li>
+<li>In the sub-menu that appears, click on <strong>Installed Apps</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360055319971/Fullscreen_2020-04-22__2_42_PM.png" alt="Fullscreen_2020-04-22__2_42_PM.png">
+<ul>
+<li>You can also get here by clicking on your name in the top right, then <strong>Account Settings &gt; Integration (sidebar menu) &gt; Installed Apps</strong>.</li>
+</ul>
+</li>
+<li>You will now be on the <strong>Installed Apps </strong>menu, which lists all of the apps that are currently installed in your Uberflip account.
+<ul>
+<li>This list includes all apps installed by any user with app installation permissions in your account — not just apps that you have installed.</li>
+<li>It also includes all apps installed in your account, even apps that do not have Account Level permissions.</li>
+</ul>
+</li>
+<li>In the list of installed apps, find the app for which you want to configure settings at the account level, and <strong>hover your mouse over it</strong>. If the app has account level settings, an <strong>Edit (pencil) button</strong> will appear on the right:<br><img src="https://help.uberflip.com/hc/article_attachments/360055327391/Fullscreen_2020-04-22__3_36_PM.png" alt="Fullscreen_2020-04-22__3_36_PM.png">
+<ul>
+<li>If no <em>Edit (pencil)</em> button appears, the app does not have Account Level settings (but may still have <a href="#h_01F8DW4S5VMFD8HX9Z9YPM34Q7" target="_self">Hub Level settings</a>).</li>
+</ul>
+</li>
+<li>
+<strong>Click on the Edit (pencil) button</strong> to open the app's Account Level settings page.</li>
+</ol>
+<p> </p>
+<h2 id="h_01F8DW4S5VMFD8HX9Z9YPM34Q7">Open Hub Level app settings</h2>
+<p>If an app uses <strong>Hub Level</strong> settings, follow these steps to configure that app <strong>for a specific Hub</strong> in your Uberflip account.</p>
+<ol>
+<li>Log in to your Uberflip account and use the <strong>Hubs</strong> menu to select the Hub for which you want to configure an app's settings.</li>
+<li>In the sidebar menu on the left, click on <strong>Integrations</strong> <strong>&gt; Installed Apps:<br></strong>
+<p><img src="https://help.uberflip.com/hc/article_attachments/4403261825805/image.png" alt="image.png"></p>
+</li>
+<li>On the right, you will see a list of your installed apps that <strong>can be configured at the Hub Level</strong>.
+<ul>
+<li>If an app does not appear in this list, it either can't be configured at the Hub Level, or is configurable in a different way (i.e. directly within the app itself).</li>
+</ul>
+</li>
+<li>Find the app for which you want to configure settings at the Hub level, and <strong>hover your mouse over it</strong>. An <strong>Edit (pencil) button</strong> will appear on the right:<br><img src="https://help.uberflip.com/hc/article_attachments/360055327391/Fullscreen_2020-04-22__3_36_PM.png" alt="Fullscreen_2020-04-22__3_36_PM.png">
+</li>
+<li>
+<strong>Click on the Edit (pencil) button</strong> to open the app's Hub Level settings page.</li>
+</ol>
+<p> </p>
+<h2 id="h_01F8DW4S5VMFD8HX9Z9YPM34Q7">Open Stream Level app settings</h2>
+<p>If an app uses <strong>Stream Level</strong> settings, follow these steps to configure that app <strong>for a specific Stream</strong> in your Uberflip account.</p>
+<ol>
+<li>Log in to your Uberflip account and use the <strong>Hubs</strong> menu to select the Hub that contains the Stream for which you want to configure app settings.</li>
+<li>In the sidebar menu on the left, click on <strong>Content</strong>.</li>
+<li>On the right, click on the <strong>Streams</strong> tab, then find and <strong>click on the Stream</strong> where you want to configure the app to open it.</li>
+<li>Click on the <strong>App Configuration</strong> tab:<br><img src="https://help.uberflip.com/hc/article_attachments/4410691251085/image.png" alt="image.png">
+</li>
+<li>Use the <strong>dropdown menu</strong> to find the app you want to configure:<br><img src="https://help.uberflip.com/hc/article_attachments/4410691307149/image.png" alt="image.png">
+<ul>
+<li>If an app does not appear in this list, it either can't be configured at the Stream Level, or is configurable in a different way (i.e. directly within the app itself).</li>
+</ul>
+</li>
+<li>
+<strong>Click on the app in the dropdown menu</strong> to open the app's Stream Level settings page.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360042582411</guid>
+         <pubDate>Tue, 21 Apr 2020 21:14:26 GMT</pubDate>
+      </item>
+      <item>
+         <title>Support for Uberflip Marketplace Apps</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360033736071-Support-for-Uberflip-Marketplace-Apps</link>
+         <description><![CDATA[<hr>
+<p>Find out where to get help when you run into problems with an Uberflip Marketplace app.</p>
+<hr>
+<p> </p>
+<h2>Where do I get help for an app that I installed from the Uberflip Marketplace?</h2>
+<p>In general, the <strong>publisher/developer</strong> of an Uberflip Marketplace app will be your primary source of support for their app. You can find their contact details in the app's Marketplace listing, in the links on the left side:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360054923071/Uberflip_Marketplace_-_Flipbot.png" alt="Uberflip_Marketplace_-_Flipbot.png" width="563" height="401"></p>
+<p>Publishers will usually include information about how to get support in the app listing itself, or you can click on the publisher name to find their contact details.</p>
+<p>For any questions relating to an app itself, its features and functionality, or bugs and other issues, please be sure to contact the publisher directly. Uberflip Support doesn't have any insight into most third-party apps, so unfortunately we can only provide basic Marketplace-related troubleshooting, e.g. if you're having trouble finding or installing an app, etc.</p>
+<p> </p>
+<h2>What about apps where Uberflip is listed as the publisher?</h2>
+<p>Certain apps are made by Uberflip to help connect Hubs with a third-party service: on these apps, you will find Uberflip listed as the publisher.  Apps on our marketplace may not be tested, documented or supported by Uberflip in the same way we support our core offerings.  Although these apps connect to third parties, those companies do not provide support for the apps directly.</p>
+<p>If you need some help with an app where Uberflip is the publisher, please <a href="https://help.uberflip.com/hc/en-us/requests/new">contact Uberflip Support</a>.</p>]]></description>
+         <guid isPermaLink="false">360033736071</guid>
+         <pubDate>Fri, 13 Sep 2019 17:51:02 GMT</pubDate>
+      </item>
+      <item>
+         <title>Where can I find developer documentation for Uberflip?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360051446431-Where-can-I-find-developer-documentation-for-Uberflip</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>I am a developer, and I'm looking for more information and documentation about developing for the Uberflip platform. Where can I find that?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>You can find Uberflip's developer resources at <a href="https://developers.uberflip.com/">developers.uberflip.com</a>. There, you'll find information about developing apps for the Uberflip Marketplace, customizing the Uberflip hub front end, and working with the Uberflip API.</p>]]></description>
+         <guid isPermaLink="false">360051446431</guid>
+         <pubDate>Thu, 22 Oct 2020 17:16:25 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

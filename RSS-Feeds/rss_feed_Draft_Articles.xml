@@ -1,0 +1,1489 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Draft Articles</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>**Tyler&apos;s editing space**</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/10679283348749--Tyler-s-editing-space</link>
+         <description><![CDATA[<ol>
+<li>This will open the underlying Sales Stream that powers the selected template. Click on the Stream's <strong>Appearance</strong> tab to <strong>customize the template's visual elements</strong>:<br><img style="height: auto;" src="https://help.uberflip.com/hc/article_attachments/16980807179789" alt="image.png">
+</li>
+<li>Sales Assist has already set the <em>Banner+Logo</em> appearance option for this Stream, so just <strong>set the Stream's appearance options as desired</strong>, i.e. the banner, text, colors, etc.<br>
+<ul>
+<li>For instructions on how to configure these options, see <a href="https://help.uberflip.com/hc/en-us/articles/360020637332">this article</a>.</li>
+</ul>
+</li>
+<li>Optionally, you can also <strong>add default Items to the template</strong>: these Items will be "pre-filled" in any Sales Stream created from this template (alongside Items added by the user who created the Sales Stream). To add default items, <strong>go to the Items tab,</strong> <strong>click on Manage Items</strong>, then simply <strong>add the desired</strong><strong> Items to the Stream</strong>.</li>
+<li>When you've finished customizing the template Stream, <strong>go back to Sales Assist </strong>and click on <strong>Admin &gt; Templates</strong> to view the list of templates again.</li>
+<li>To make your new template available to Sales Users in your organization, make it <strong>public</strong> by clicking on the <strong>eye button</strong> beside it:<br><img style="height: auto;" src="https://help.uberflip.com/hc/article_attachments/16980821275789" alt="image.png">
+</li>
+<li>This will move the template to the list of <strong>public templates</strong>:<br><img style="height: auto;" src="https://help.uberflip.com/hc/article_attachments/16980807211661" alt="image.png">
+</li>
+<li>When you make a template <strong>public</strong>, any Sales User who creates a new Sales Stream in Sales Assist will be able to select that template as an option in the <em>Template</em> dropdown:<br><img style="height: auto;" src="https://help.uberflip.com/hc/article_attachments/16980821285261" alt="Fullscreen_2021-03-15__9_11_PM.png" width="405" height="288">
+</li>
+</ol>
+<p> </p>
+<hr>
+<p>Learn how to install, set up, and administer Sales Assist in your Uberflip account.</p>
+<hr>
+<p> </p>
+<h2>Before you </h2>
+<ul>
+<li>Anyone can use Sales Assist to share Sales collections. But only users with a<strong> Sales license</strong> can <em>create</em> Sales collections in Sales Assist. </li>
+<li>To register your Uberflip account in Sales Assist and perform the initial setup, you must be logged in as the <a href="https://help.uberflip.com/hc/en-us/articles/360018726352" target="_self"><strong>Primary User</strong></a> on your Uberflip account.</li>
+<li>To perform the other actions described in this guide, you must be a member of the <strong>Account Administrators </strong>user group in Uberflip.
+<ul>
+<li>You can optionally <a href="#h_01F0HYK97872R90KF47XMQP3TD" target="_self">modify which user group can perform administrative actions in Sales Assist</a> in the app's settings.</li>
+</ul>
+</li>
+<li>If your Hub uses <strong>Front End V2</strong>, you must also install the <a href="https://marketplace.uberflip.com/details/compatibility-pack/"><strong>Compatibility Pack app</strong></a> to use Sales Assist. If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</li>
+</ul>
+<p> </p>
+<h2>About Sales Assist</h2>
+<h3>What is Sales Assist?</h3>
+<p>Sales Assist is a next-generation sales engagement app for Uberflip. It's designed to help your Sales team leverage your Uberflip content for outreach, in a way that meshes seamlessly with their existing tools and workflows.</p>
+<p>Because Sales Assist is a responsive web app, it works pretty much everywhere: users can access it on a desktop or mobile browser, as a Chrome extension, or as an Outlook add-in. As a result, Sales Assist gives your organization's Sales reps a way to access your Uberflip content wherever they happen to be working: in sales tools like Salesloft, in their emails, or on their phones.</p>
+<h3>Feature overview</h3>
+<p>Using Sales Assist, your Sales team can:</p>
+<ul class="list-bullet">
+<li>
+<strong>Quickly</strong> <strong>search your Uberflip library</strong> to find the perfect content for their needs, using smart search powered by <strong>tag groups</strong>
+</li>
+<li>
+<strong>Create their own content</strong> <strong>Items</strong> for super-personalized outreach</li>
+<li>
+<strong>Build and personalize Sales collections in seconds</strong>, using brand-compliant templates</li>
+<li>
+<strong>Easily share Sales collections</strong> (or individual Items) with prospects by choosing from <strong>a variety of embed options</strong>, then simply copying and pasting an embed into an email</li>
+<li>
+<strong>Automatically track</strong> <strong>how prospects are engaging</strong> <strong>with shared content</strong>, and receive <strong>real-time notifications </strong>when someone visits a shared link</li>
+</ul>
+<h3>What you'll learn</h3>
+<p>Follow this guide to learn <strong>how to get your organization up and running with Sales Assist</strong>, including:</p>
+<ul>
+<li>How to <strong>install and configure</strong> the Sales Assist app in your Uberflip account</li>
+<li>How to <strong>set up your Sales Assist environment</strong>, including:
+<ul>
+<li>Creating <strong>templates</strong>, preset Sales collection <a href="https://help.uberflip.com/hc/en-us/articles/360020637332" target="_self"><em>Banner+Logo </em></a>collection styles for different use cases, verticals, etc.</li>
+<li>Creating <strong>tag groups</strong>, collections of related tags to help users quickly surface relevant content</li>
+<li>Building an <strong>image library </strong>for Sales reps to use on their self-created Items</li>
+</ul>
+</li>
+<li>How to <strong>onboard your users</strong> to Sales Assist</li>
+<li>How to <strong>configure optional settings</strong> to tweak Sales Assist to your specific needs and preferences</li>
+</ul>
+<p><strong>Just want to get started with Sales Assist as quickly as possible?</strong> Here are the basics:</p>
+<ol>
+<li>
+<strong>Install the app: </strong>Go <strong><a href="https://marketplace.uberflip.com/details/sales-assist-1/" target="_self">here</a></strong> to install Sales Assist in your Uberflip account.</li>
+<li>
+<strong>Complete the registration process</strong>:
+<ol>
+<li>Log in to Uberflip as the <strong>Primary User </strong>and click on <strong>Sales Assist</strong> in the sidebar menu.</li>
+<li>Click on <strong>Login with Uberflip</strong> (you'll be logged in automatically).</li>
+<li>After you have logged in, <strong>select the Hub</strong> in which you want to use Sales Assist to complete the registration process.</li>
+<li>You're done!</li>
+</ol>
+</li>
+<li>
+<strong>Explore the app:</strong> Now that you've set up the app, <strong>feel free to start playing around</strong>! To help you get oriented, all you need to know is that Sales Assist consists of<strong> four main areas</strong>:
+<ul>
+<li>
+<strong>Search</strong>: Find content Items (or create a new Item) and use it to create and share a new Sales collection.</li>
+<li>
+<strong>collections</strong>: View previously created Sales collections to share, edit, or copy them.</li>
+<li>
+<strong>Shares</strong>: Track how recipients are engaging with Items and Sales collections shared through Sales Assist.</li>
+<li>
+<strong>Admin</strong>: Administer the behind-the-scenes functions of the app, which includes setting up <strong>tag groups</strong>, <strong>templates</strong>, and <strong>images </strong>to help your Sales users find content and create more attractive Sales collections.</li>
+</ul>
+</li>
+<li>
+<strong>Onboard Sales users</strong>: When you're ready to to get your Sales reps into Sales Assist, simply <strong>ask them to log in</strong>, either by going to <strong><a href="https://sa.uberflip.com" target="_self" rel="undefined">https://sa.uberflip.com</a> </strong>in any browser, or by using the <a href="https://chrome.google.com/webstore/detail/sales-assist-by-uberflip/kcbkakmlohgokmebhdmhcffdpegnlobk"><strong>Chrome extension</strong></a>. Be sure to point them towards the <strong><a href="https://help.uberflip.com/hc/en-us/articles/360057052132">Quick Start Guide for Sales Users</a> </strong>to help them get started.</li>
+</ol>
+<p><strong>For in-depth instructions on how to set up and use Sales Assist, read on for the full guide.</strong></p>
+<p> </p>
+<h2>Install and configure Sales Assist</h2>
+<p>In this section, we'll look at the <strong>setup process for adding Sales Assist to your Uberflip account</strong>.</p>
+<h3>Step 1: Install the Sales Assist app</h3>
+<p>To begin using Sales Assist with your Uberflip account, simply<strong> install the app</strong> from the Uberflip Marketplace by following these instructions:</p>
+<div class="accordion accordion--default">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>How to install the Sales Assist app</strong></div>
+<div class="accordion__item-content">
+<ol>
+<li>
+<strong>Log in</strong> to your Uberflip account.</li>
+<li>Go to the <a href="https://marketplace.uberflip.com/details/sales-assist-1/">Sales Assist listing page in Uberflip Marketplace</a>.</li>
+<li>Click on <strong>Install</strong>.</li>
+<li>If the app has been successfully installed, you'll see <strong>Sales Assist </strong>listed under <strong>Marketplace &gt; Installed Apps</strong> in Uberflip.<br><img src="https://help.uberflip.com/hc/article_attachments/16980807219853" alt="image.png">
+</li>
+<li>After you've successfully installed Sales Assist, you can <strong>register your Uberflip account in the app</strong>.</li>
+</ol>
+</div>
+</div>
+</div>
+<h3>Step 2: Register your Uberflip account in Sales Assist</h3>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p>This step must be completed by your Uberflip account's <strong>Primary User</strong>.</p>
+</div>
+<p>After you have installed the Sales Assist app, you need to <strong>register your Uberflip account in Sales Assist</strong>. As part of this registration process, Sales Assist will:</p>
+<ul class="list-bullet">
+<li>
+<strong>Create a Sales Assist account for your organization:</strong> This account is tied to your Uberflip account, allowing users in that account to create their own Sales Assist users.</li>
+<li>
+<strong>Give the <em>Sales Reps</em> user group in your account access to the app</strong>: Sales Assist will assign the <em>Sales Reps</em> user group the necessary permissions to use the app (<a href="#h_01F0MHEF7JMH13D3Z4RFA9GBWX" target="_self">see below</a>).</li>
+<li>
+<strong>Allow you to choose which Hub to use with Sales Assist</strong>: The selected Hub will be the home of all Sales collections created through Sales Assist, as well as templates and Items created by users (however, if you have multiple Hubs, users will still have access to content from all Hubs when creating Sales collections).</li>
+<li>
+<strong>Create a special Blog collection within the selected Hub</strong>: To house content Items created by Sales Assist users, the app will create a special Blog collection in your designated Hub.</li>
+</ul>
+<p>Follow these instructions to register:</p>
+<div class="accordion accordion--default">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>How to register your Uberflip account in Sales Assist</strong></div>
+<div class="accordion__item-content">
+<ol>
+<li>Log in to Uberflip as the <strong>Primary User</strong>.</li>
+<li>In the sidebar menu, click on <strong>Sales Assist</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/16980807224333" alt="image.png">
+<ul>
+<li>If you do not see the Sales Assist menu option in the sidebar, the app has not yet been installed: make sure to <a href="#h_01F0GZ5A79J7X0MQZJBG6W1SJX" target="_self">install the app</a> first.</li>
+</ul>
+</li>
+<li>Click on <strong>Login with Uberflip</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/16980821302157" alt="image.png">
+</li>
+<li>After you successfully log in, use the dropdown to <strong>select the Hub</strong> <strong>that you want to use with Sales Assist</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/16980821305869" alt="image.png">
+<ul>
+<li>
+<strong>IMPORTANT: </strong>Choose the Hub carefully, because you won't be able change your selection later! Remember that this selection does <strong>not</strong> affect which content your users will have access to, only where their Sales collections, templates, etc. will be created.</li>
+</ul>
+</li>
+<li>Click on the <strong>Select Hub </strong>button to proceed.</li>
+<li>Sales Assist will take you to the <strong>Defaults</strong> tab in the <strong><em>Admin </em>section</strong>. You'll see a message indicating that the special Sales Assist Blog collection has been created, as well as the IDs of the selected Hub and the new Sales Assist Blog collection:<br><img src="https://help.uberflip.com/hc/article_attachments/16980807239565" alt="image.png">
+</li>
+<li>You're done! <strong>The registration is complete</strong>, and you can now begin using the app.</li>
+</ol>
+</div>
+</div>
+</div>
+<p>Once you've successfully installed the app and completed the registration process, you can begin to <a href="#h_01F0HYVTNJAC5DPM2Y5XDT34G2" target="_self"><strong>set up your Sales Assist environment</strong></a>. Or, skip ahead and <a href="#h_01F0HJAV9A82545JP56NVEJ5E3" target="_self"><strong>start adding users</strong></a> to Sales Assist.</p>
+<p> </p>
+<h2 id="h_01F0HYVTNJAC5DPM2Y5XDT34G2">Set up and manage your Sales Assist environment</h2>
+<p>In this section, we'll look at <strong>how you can set up your Sales Assist environment</strong> to help your users get the most out of the app.</p>
+<h3>Access the Sales Assist <em>Admin</em> section</h3>
+<p>To <strong>set up and manage your Sales Assist environment</strong>, you'll use the app's <em>Admin </em>section. To access the <em>Admin </em>section, follow these instructions:</p>
+<ol>
+<li>
+<strong>Log in </strong>to Sales Assist <strong>as an Admin</strong> <strong>User</strong>
+<ul>
+<li>See <a href="#h_01F0VGAXCXZCRHAWP7RJ1117SM" target="_self"><strong>User types</strong></a> below for more information on who can sign in to Sales Assist as an Admin User</li>
+</ul>
+</li>
+<li>Click the <strong>Admin</strong> button:<br><img src="https://help.uberflip.com/hc/article_attachments/16980807243661" alt="mceclip3.png" width="401" height="244">
+</li>
+<li>This will open a dropdown menu, which contains <strong>five options</strong>:</li>
+</ol>
+<div class="accordion accordion--default">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Analytics: track your team's collection share performance</strong></div>
+<div class="accordion__item-content">
+<p>See how your team's <em>shares</em> are performing with Sales Assist's Analytics summary dashboard.</p>
+<p>See <a href="https://help.uberflip.com/hc/en-us/articles/6450083020301" target="_self">Sales Assist: Team stats for admins </a> to learn more.</p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Tags: create and manage tag groups</strong></div>
+<div class="accordion__item-content">
+<p>Sales Assist makes your <a href="https://help.uberflip.com/hc/en-us/articles/360029638391">Uberflip tags</a> even more useful by allowing you to <strong>collect thematically related tags</strong> into <strong>tag groups</strong>. For example, you might create a<strong> Stage</strong> tag group if you tag content based on the audience's funnel stage (i.e. <code class="no-padding">BOFU</code>, <code class="no-padding">MOFU</code>, <code class="no-padding">TOFU</code>), or create tag groups for industry, buyer persona, product, etc.</p>
+<p>With tag groups, your Sales Users don't need to know what tags you use, or spend a lot of time searching for the right ones. Instead, you can <strong>use tag groups to</strong><strong>display just the tags that are relevant to your Sales team</strong>, organized by category, right in Sales Assist's <em>Search</em> section:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/16980807248653" alt="image.png"></p>
+<p>If you want to use tag groups in your Sales Assist environment, follow these instructions to learn how to <strong>create a tag group and add tags </strong>and <strong>delete tags and tag groups</strong>:</p>
+<h4>Create a tag group and add tags</h4>
+<ol>
+<li>Log in to Sales Assist as an <strong>Admin User</strong>
+</li>
+<li>Click <strong>Admin &gt; Tags<br><img src="https://help.uberflip.com/hc/article_attachments/16980807254285" alt="mceclip1.png" width="350" height="221"><br></strong>
+</li>
+<li>Initially there is only the default tag group, <strong>Content</strong>, which is empty:<br><img src="https://help.uberflip.com/hc/article_attachments/16980807258381" alt="image.png">
+</li>
+<li>To <strong>create a new tag group</strong>, simply type the name of the tag group you want to create into the <strong>Create New Tag Group </strong>box:<br><img src="https://help.uberflip.com/hc/article_attachments/16980807262349" alt="image.png">
+</li>
+<li>Click on <strong>Create</strong>. The newly created tag group will appear below the default <strong>Content</strong> tag group:<br><img src="https://help.uberflip.com/hc/article_attachments/16980807266701" alt="image.png">
+</li>
+<li>To <strong>add tags to a tag group</strong>, start typing the name of a tag into the <strong>search box</strong>. Sales Assist will display any tags that match your search:<br><img src="https://help.uberflip.com/hc/article_attachments/16980821354125" alt="image.png">
+</li>
+<li>To add a tag to a tag group, <strong>click on it in the search results</strong>. Whenever you add a tag, it is always added to the <strong>Content</strong> tag group first:<br><img src="https://help.uberflip.com/hc/article_attachments/16980821358221" alt="image.png">
+</li>
+<li>From here, simply <strong>click-and-drag</strong> <strong>the tag to the tag group</strong> you want to assign it to:<br><img src="https://help.uberflip.com/hc/article_attachments/16980807289869" alt="tag_group.gif">
+</li>
+<li>
+<strong>Repeat this process</strong> to create more tag groups and add further tags to them. You can create as many tag groups as you need.</li>
+<li>Any tag group that <strong>contains at least one tag </strong>is displayed in the <em>Search </em>section of the app below the search box. The tags it contains are shown in a dropdown:<br><img src="https://help.uberflip.com/hc/article_attachments/16980807294733" alt="image.png">
+</li>
+<li>
+<strong>Optional:</strong> Drag-and-drop tag groups to reorder them however you'd like</li>
+</ol>
+<h4>Delete tags and tag groups</h4>
+<ol>
+<li>Go to <strong>Admin &gt; Tags</strong>.</li>
+<li>To <strong>remove a tag from a tag group</strong>, just <strong>click the <em>x</em> </strong>beside the tag:<br><img src="https://help.uberflip.com/hc/article_attachments/16980821377165" alt="image.png">
+</li>
+<li>To <strong>delete a tag group</strong>, first <strong>delete all tags from the tag group </strong>(or move them to other tag groups), then <strong>click on its delete button:<br></strong> <img src="https://help.uberflip.com/hc/article_attachments/16980821381389" alt="image.png">
+<ul>
+<li>You can delete any empty tag group <strong>except</strong> the default <strong>Content</strong> tag group.</li>
+</ul>
+</li>
+</ol>
+<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>To improve performance, Sales Assist pulls in tags from your Uberflip account and stores them in its own database. After a tag has been pulled in, <strong>Sales Assist does not check for any changes to that tag on the Uberflip side</strong>.</p>
+<p>This means that <strong>if you rename a tag in Uberflip, this name change will not be automatically reflected in Sales Assist</strong>. Whenever you rename a tag in Uberflip, you will also need to <strong>delete this tag from your Sales Assist tag group(s)</strong>, then <strong>add it again</strong> under its new name.</p>
+</div>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Templates: create and manage templates</strong></div>
+<div class="accordion__item-content">
+<p>In Sales Assist, you can <strong>create templates</strong> which your<strong> Sales Users can use to quickly build great-looking Sales collections</strong>. These templates leverage Uberflip's built-in <a href="https://help.uberflip.com/hc/en-us/articles/360020637332"><em>Banner+Logo </em>collection appearance options</a>, so you can add <strong>banners</strong>, <strong>titles</strong>, <strong>auto-selected </strong><strong>company and prospect logos</strong>, and even <strong>pre-selected content </strong>to create preset collection styles for a variety of use cases.</p>
+<p>For example, you could create templates for each industry you target, such as a <em>Manufacturing</em> template with an industrial-themed banner and a few pieces of your best manufacturing-specific content. Then, all your Sales Users need to do is select the template as a base for their own Sales collection, add a few pieces of content and their own personalized message, and their collection is ready to go in just minutes:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/16980807415693" alt="image.png"></p>
+<div class="callout">
+<h4 class="callout__title">How does this work?</h4>
+<p>A Sales Assist template is essentially a <strong>special Sales collection</strong>. Whenever a Sales User creates a new Sales collection in Sales Assist and selects a template, <strong>Sales Assist makes a copy of the underlying "template" Sales collection to create the new Sales collection</strong>, which applies the same appearance options and Items to the newly created collection.</p>
+</div>
+<p>If you want to use templates your Sales Assist environment, follow these instructions to learn how to <strong>create and build up a template</strong>, <strong>modify or delete a template</strong>, and <strong>set a default template</strong>:</p>
+<h4>Create and build up a template</h4>
+<ol>
+<li>Log in to Sales Assist <strong>as an Admin User</strong>
+</li>
+<li>Click <strong>Admin &gt; Templates<br><img src="https://help.uberflip.com/hc/article_attachments/16980807418253" alt="mceclip0.png" width="349" height="221"><br></strong>
+</li>
+<li>Click on the <strong>Create New Template</strong> button:<br><img src="https://help.uberflip.com/hc/article_attachments/16980807422861" alt="image.png">
+</li>
+<li>Give your new template a name, then click on <strong>Create Template</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/16980807426829" alt="Hubs___Sales_Assist_-_Uberflip.png">
+</li>
+<li>Your newly created template will be listed on the <strong>Templates tab </strong>as a <strong>private template</strong>. This means that it is currently only visible to you, and that you are able to <strong>manage</strong> the template:<br><img src="https://help.uberflip.com/hc/article_attachments/16980807432333" alt="image.png">
+</li>
+<li>Click on <strong>Manage</strong> beside the template to <strong>customize its appearance and (optionally) add default Items</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/16980807436045" alt="image.png">
+</li>
+<li>This will open the underlying Sales collection that powers the selected template. Click on the collection's <strong>Appearance</strong> tab to <strong>customize the template's visual elements</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/16980807179789" alt="image.png">
+</li>
+<li>Sales Assist has already set the <em>Banner+Logo</em> appearance option for this collection, so just <strong>set the collection's appearance options as desired</strong>, i.e. the banner, text, colors, etc.<br>
+<ul>
+<li>For instructions on how to configure these options, see <a href="https://help.uberflip.com/hc/en-us/articles/360020637332">this article</a>.</li>
+</ul>
+</li>
+<li>Optionally, you can also <strong>add default Items to the template</strong>: these Items will be "pre-filled" in any Sales collection created from this template (alongside Items added by the user who created the Sales collection). To add default items, <strong>go to the Items tab,</strong> <strong>click on Manage Items</strong>, then simply <strong>add the desired</strong><strong> Items to the collection</strong>.</li>
+<li>When you've finished customizing the template collection, <strong>go back to Sales Assist </strong>and click on <strong>Admin &gt; Templates</strong> to view the list of templates again.</li>
+<li>To make your new template available to Sales Users in your organization, make it <strong>public</strong> by clicking on the <strong>eye button</strong> beside it:<br><img src="https://help.uberflip.com/hc/article_attachments/16980821275789" alt="image.png">
+</li>
+<li>This will move the template to the list of <strong>public templates</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/16980807211661" alt="image.png">
+</li>
+<li>When you make a template <strong>public</strong>, any Sales User who creates a new Sales collection in Sales Assist will be able to select that template as an option in the <em>Template</em> dropdown:<br><img src="https://help.uberflip.com/hc/article_attachments/16980821285261" alt="Fullscreen_2021-03-15__9_11_PM.png" width="405" height="288">
+</li>
+</ol>
+<h4>Modify or delete a template</h4>
+<ol>
+<li>Log in to Sales Assist <strong>as an Admin User</strong> and go to <strong>Admin &gt; Templates</strong>.</li>
+<li>If the template is currently <strong>public</strong>, you must first make it <strong>private</strong> before you can modify or delete it. To do so, click on the <strong>eye button</strong> beside the template you want to manage in the list of public templates:<br><img src="https://help.uberflip.com/hc/article_attachments/16980821408653" alt="image.png">
+</li>
+<li>To <strong>modify a template</strong>, click on the <strong>Manage</strong> button beside it, then make changes to the underlying Sales collection as needed.</li>
+<li>To <strong>delete a template</strong>, click on the <strong>Manage</strong> button beside it. While viewing the underlying Sales collection, click on the <strong>...</strong> button on the right, then click on <strong>Archive collection:<br><img src="https://help.uberflip.com/hc/article_attachments/16980807444109" alt="image.png" width="609" height="290"></strong>
+</li>
+</ol>
+<h4>Set a default template</h4>
+<p>You can set any template as the <strong>default template</strong>. This means it is <strong>automatically pre-selected in the <em>Template</em></strong><strong> dropdown</strong> when creating a new Sales collection in Sales Assist (rather than the <em>None</em> option).</p>
+<ol>
+<li>Log in to Sales Assist as an <strong>Admin User </strong>and go to <strong>Admin &gt; Templates</strong>
+</li>
+<li>Find the template you want to set as the default and <strong>click on the star beside it</strong> <strong>to</strong> <strong>set it as the default</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/16980807449229" alt="image.png" width="513" height="198">
+</li>
+<li>The selected template will now <strong>appear as the default choice</strong> when creating a new Sales collection in Sales Assist:<br><img src="https://help.uberflip.com/hc/article_attachments/16980807452045" alt="image.png" width="437" height="309">
+</li>
+</ol>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Images: create and manage an image library</strong></div>
+<div class="accordion__item-content">
+<p>When they <strong>create Items </strong>in Sales Assist, Sales Users can <strong>add an image</strong> that is displayed as a thumbnail on that Item's tile. By default, users must <strong>enter the URL where the image is hosted </strong>to add it to Sales Assist.</p>
+<p>To make it <strong>faster and easier for your Sales Users to add images</strong> to their self-created Items (and to encourage them to use images that are<strong> consistent with your branding</strong>), you can <strong>create an image library in Sales Assist</strong>. The image library is displayed by default whenever a Sales User creates a new Item in Sales Assist, allowing them to<strong> add images</strong><strong> with just a click:<br></strong></p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/16980807455629" alt="image_library.gif"></p>
+<p>If you want to create an image library in your Sales Assist environment, follow these instructions to learn how to <strong>add images by URL</strong>, <strong>add images from the Uberflip Image Manager</strong>, and <strong>delete images from the image library</strong>:</p>
+<h4>Add images by URL</h4>
+<p>You can <strong>add any image hosted outside Uberflip </strong>(i.e. on your own server or any other image host) to the image library using its URL:</p>
+<ol>
+<li>Start by <strong>copying the image's URL</strong>. The image URL must:
+<ul>
+<li>
+<strong>Point directly to the image: </strong>it must end with the image file extension (i.e. <em>.png, .jpg</em>, etc.) to be valid.</li>
+<li>
+<strong>Be the full URL</strong>: it must include the "<em>https://</em>" portion.</li>
+<li>
+<strong>Be publicly accessible</strong>: it must not require a login to access (or be otherwise restricted).</li>
+</ul>
+</li>
+<li>Log in to Sales Assist as an <strong>Admin User</strong>
+</li>
+<li>Click <strong>Admin &gt; Images<br><img src="https://help.uberflip.com/hc/article_attachments/16980821427213" alt="mceclip2.png" width="350" height="221"><br></strong>
+</li>
+<li>
+<strong>Paste the image URL </strong>into the <strong>Add an Image by URL </strong>field, then <strong>click on the green checkmark button</strong> to upload the image to the Sales Assist image library:<br><img src="https://help.uberflip.com/hc/article_attachments/16980821431181" alt="image.png">
+</li>
+<li>Images you've successfully added to the library will <strong>appear below the URL field</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/16980821437837" alt="image.png">
+</li>
+<li>Any images you add to the library will appear in the <strong>Create Your Own Item</strong> dialog, below the <strong>Image URL field:<br></strong><img src="https://help.uberflip.com/hc/article_attachments/16980807478029" alt="image.png" width="505" height="386">
+</li>
+</ol>
+<h4>Add images from the Image Manager</h4>
+<p>You can also easily <strong>add images that have already been uploaded to your Uberflip account</strong>, and which appear in the <a href="https://help.uberflip.com/hc/en-us/articles/360020277571" target="_self">Image Manager</a>:</p>
+<ol>
+<li>Go to <strong>Admin &gt; Images</strong>.</li>
+<li>Click on the <strong>magnifying glass button</strong> to the right of the <strong>Add an Image by URL</strong> field:<br><img src="https://help.uberflip.com/hc/article_attachments/16980807482253" alt="image.png">
+</li>
+<li>The Image Manager will open in a new window. Using the Image Manager, <strong>find the image you want to add</strong>.</li>
+<li> <strong>Copy the</strong> <strong>URL </strong>that appears beside the image, in the <strong>URL</strong> column:<br><img src="https://help.uberflip.com/hc/article_attachments/16980821454605" alt="image.png">
+</li>
+<li>
+<strong>Close the Image Manager window</strong> and return to the Sales Assist Images tab.</li>
+<li>
+<strong>Paste the image URL </strong>into the <strong>Add an Image by URL </strong>field, then <strong>click on the green checkmark button</strong> to upload the image to the Sales Assist image library.</li>
+</ol>
+<h4>Delete images from the image library</h4>
+<ol>
+<li>Go to <strong>Admin &gt; Images</strong>.</li>
+<li>Find the image you want to delete from the library and <strong>hover your mouse over it</strong>.</li>
+<li>Click on the <strong>delete button</strong> that appears:<br><img src="https://help.uberflip.com/hc/article_attachments/16980807495693" alt="image.png">
+</li>
+<li>The image will be <strong>removed from the image library immediately</strong>, and will no longer appear when creating a new Item in Sales Assist.</li>
+</ol>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Settings: view and manage your Sales Assist settings</strong></div>
+<div class="accordion__item-content">
+<p>On the Settings page, you can: </p>
+<ol>
+<li>Change the admin user group (see below)</li>
+<li>
+<a href="https://help.uberflip.com/hc/en-us/articles/6999040063757" target="_self">Manage auto archiving</a> of unused collections and Items</li>
+<li>See the ID of the Hub where all Sales collections are created</li>
+<li>See the ID of the Blog collection where sales reps can author custom Items</li>
+<li>Add keywords for <em>quick search </em>(see below)</li>
+<li>
+<p>Change the language used for destination pages your team creates</p>
+</li>
+</ol>
+<h3 id="h_01F0HYK97872R90KF47XMQP3TD">Change the admin user group</h3>
+<p>By default, Sales Assist administrators must be members of the <strong>Account Administrators </strong>user group in the connected Uberflip account. If you prefer to <strong>give a different user group admin access to Sales Assist instead</strong> (e.g. if your Sales Assist admins do not need to have administrator access to your Uberflip account), you can <strong>change the designated "admin user group"</strong> in Sales Assist.</p>
+<p>Follow these instructions to change the Sales Assist admin user group:</p>
+<div class="accordion__item-content">
+<ol>
+<li>Ensure that the Uberflip account you are using belongs to <strong>both the current admin user group</strong>, <strong>AND</strong><strong> the user group you want to switch to</strong>.
+<ul>
+<li>For example, if the current admin user group in Sales Assist is <strong>Account Administrators</strong>, and you want to switch it to <strong>Content Managers</strong>, your Uberflip account must be a member of both user groups.</li>
+</ul>
+</li>
+<li>Log in to Sales Assist <strong>as an Admin User</strong>
+</li>
+<li> Click <strong>Admin &gt; Settings<br><img src="https://help.uberflip.com/hc/article_attachments/16980821464205" alt="mceclip0.png" width="299" height="182"><br></strong>
+</li>
+<li>Under the <strong>Basic</strong> section, see <strong>Admin User Group</strong>  and use the dropdown to select the user group that you want to give admin access to:<br><img src="https://help.uberflip.com/hc/article_attachments/16980821469069" alt="mceclip1.png" width="501" height="222"><br>
+<ul>
+<li>You can select <strong>any existing user group</strong> in the connected Uberflip account, including any custom user group.</li>
+<li>To prevent you from accidentally removing your own admin access, <strong>only user groups that you are a member of will be listed here</strong> <em>(if you're logged in as the Primary User, you'll be able to see all user groups)</em>.</li>
+</ul>
+</li>
+<li>The change will take effect immediately. Once changed, <strong>only members of the newly designated user group will be able to access Sales Assist's <em>Admin</em> section</strong><em>.</em>
+<ul>
+<li>Previous Admin Users who are not members of the new admin user group will still be able to access Sales Assist, but will be downgraded to Sales Users (i.e. they will no longer be able to access the <em>Admin </em>section).</li>
+</ul>
+</li>
+</ol>
+<h3>Add quick search keywords</h3>
+<ol>
+<li>Log in to Sales Assist <strong>as an Admin User</strong>
+</li>
+<li> Click <strong>Admin &gt; Settings<br><img src="https://help.uberflip.com/hc/article_attachments/16980821464205" alt="mceclip0.png" width="299" height="182"></strong>
+</li>
+<li>In the <em>Settings</em> tab, select <em><strong>Marketing collections: Quick Search</strong></em>
+</li>
+<li>In the <em>Quick Search List</em> field, enter your keywords<br><img src="https://help.uberflip.com/hc/article_attachments/16980821472141" alt="mceclip0.png" width="499" height="255">
+</li>
+<li>Click the enter key on your keyboard after each keyword or term. Each new line while appear as a new quick search option.</li>
+</ol>
+<p>That's it! All account users will now see your quick search terms on the <em>Search</em> page &gt; <em>Marketing collections</em> tab.</p>
+</div>
+</div>
+</div>
+</div>
+<h3>Marketing collection discoverability </h3>
+<p>In addition to the Admin section settings, you as an admin also have the ability to pin or hide Marketing collections from the search in Sales Assist, just as you would in Uberflip. </p>
+<div class="accordion accordion--default">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Pin or hide Marketing collection from search in Sales Assist </strong></div>
+<div class="accordion__item-content">
+<ol>
+<li>In Sales Assist, go to the Search section</li>
+<li>Select the <strong>Marketing collections</strong> tab</li>
+<li>Find the Marketing collection you want to pin or hide</li>
+<li>Hover the Marketing collection and click <strong>Configure</strong>
+</li>
+<li>In the modal that opens
+<ol>
+<li>Turn the <strong>Show in search results </strong><em>(on by default)</em> toggle off to hide the collection from search </li>
+<li>Turn the <strong>Pin in app</strong> <em>(off by default)</em> toggle on to pin the collection in the Sales Assist search <br><img src="https://content.cdntwrk.com/files/aHViPTkyOTkwJmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzYyZDY5MmQzYmI1NDguZ2lmJnZlcnNpb249MDAwMCZzaWc9YTg5Y2E3MGNlMzNhODZkMjc0NjRmZTA2NzgxN2QyMmM%253D" width="400" height="366">
+</li>
+</ol>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<h2>Onboard your users to Sales Assist</h2>
+<p>In this section, we'll look at <strong>how to add users</strong> to your Sales Assist environment.</p>
+<h3 id="h_01F0MHEF7JMH13D3Z4RFA9GBWX">Requirements</h3>
+<p>With the correct permissions granted, any user in your Uberflip account can use Sales Assist to share collections. And with a sales license, your reps can use Sales Assist to create new collections for prospects.</p>
+<p><strong>Grant access your team access </strong>with the <strong>following Uberflip system permissions and </strong><strong>licenses</strong>:</p>
+<div class="accordion accordion--colored">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>System permissions and licenses required to use Sales Assist:</strong></div>
+<div class="accordion__item-content">
+<p><strong>Permissions:</strong></p>
+<ul>
+<li>
+<strong>API Access:</strong> Required to access the app</li>
+<li>
+<strong>Edit collection Appearance:</strong> Required for the user to edit the appearance of templates and Sales collections</li>
+<li>
+<strong>All Users &gt; List and export:</strong> Required for core app functionality</li>
+<li>
+<strong>User Groups &gt; List and export:</strong> Required for core app functionality</li>
+<li>
+<strong>Current User &gt; View:</strong> Required for core app functionality</li>
+<li>
+<strong>Current User &gt; License &gt;  List and export:</strong> Required for the app to check if the user has an Uberflip for Sales license</li>
+<li>
+<strong>Sales collections &gt; Update Authentication:</strong> Required to enable the Passphrase Protect feature</li>
+</ul>
+<p><strong>License:</strong></p>
+<ul>
+<li>
+<strong>Sales license:</strong> Required to create Sales collections</li>
+</ul>
+</div>
+</div>
+</div>
+<p>In addition to these Uberflip system permissions, <strong>Sales Assist also has its own permissions system</strong> that is used to control access to various app features (e.g. creating Items, accessing <em>Advanced Edit</em> options, etc.). These <strong>Sales Assist</strong> <strong>app permissions </strong>are automatically granted to the <strong>Account Administrators</strong> and <strong>Sales Reps</strong> user groups, but <strong>must be granted manually to other users/user groups</strong> to give them access to the corresponding app functionality. <a href="#h_01F2WH5XP93ZJSWNQN8HDBRS3M" target="_self">See below</a> for further details.</p>
+<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>When granting the necessary license and permissions, you can do so at either the individual user level, or at the user group level. If granted at the user group level, the license and permissions will be granted to all members of the user group automatically, including any members added in the future.</p>
+</div>
+<h3 id="h_01F0VGAXCXZCRHAWP7RJ1117SM">User types</h3>
+<p>Sales Assist has <strong>two user types </strong>that provide <strong>different levels of access</strong> to the app:</p>
+<dl class="dl-horizontal">
+<dt>Admin User</dt>
+<dd>Has access to all areas of the app <strong>including the</strong> <em><strong>Admin </strong></em><strong>section</strong>.</dd>
+<dd>Uberflip users who are members of the <strong>Account Administrators user group </strong>(or members of admin user group, <a href="#h_01F0HYK97872R90KF47XMQP3TD" target="_self">if set to a different user group</a>) are created as this user type.</dd>
+<dt>Sales User</dt>
+<dd>Has access to all areas of the app <strong>except the <em>Admin </em>section</strong>.</dd>
+<dd>Users who are members of the <strong>Sales Reps user group</strong> (or users who are a member of any other user group and who meet the <a href="#h_01F0MHEF7JMH13D3Z4RFA9GBWX" target="_self">requirements</a>) are created as this user type.</dd>
+</dl>
+<h3>Creating users</h3>
+<p>To onboard your users to Sales Assist, simply <strong>ask them to log in to the app using their Uberflip account login credentials </strong>(the email and password they use to log in to Uberflip, or <a href="https://help.uberflip.com/hc/en-us/articles/360020132311" target="_self">your Single Sign-On service</a>).</p>
+<p>Your users can <strong>log in to and use Sales Assist</strong> with any of these options:</p>
+<ul>
+<li>By going to <strong><a href="https://sa.uberflip.com/">https://sa.uberflip.com/</a></strong> in any browser (desktop or mobile)</li>
+<li>By logging in to Uberflip and clicking on <strong>Sales Assist</strong> in the sidebar menu</li>
+<li>By installing and opening the <strong>Sales Assist Chrome extension</strong> (<a href="https://chrome.google.com/webstore/detail/sales-assist-by-uberflip/kcbkakmlohgokmebhdmhcffdpegnlobk">available from the Chrome Web Store here</a>)</li>
+<li>By installing and opening the <strong>Sales Assist Outlook Add-in</strong> (<a href="https://help.uberflip.com/hc/en-us/articles/360058009392">see this article for installation instructions</a>)</li>
+</ul>
+<p>After a user logs in successfully there is no further setup needed, so your users can <strong>immediately start using Sales Assist</strong>.</p>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>To get your <strong>Sales Users</strong> up and running with Sales Assist, give them the <a href="https://help.uberflip.com/hc/en-us/articles/360057052132">Quick Start Guide for Sales Reps</a>.</p>
+</div>
+<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>If any user in an Uberflip account (regardless of user group) attempts to log in to Sales Assist <strong>before</strong> <strong>the Primary User has <a href="#h_01F0HSW8BBH29V2CBEBAV2Q90S" target="_self">completed the registration process</a></strong>, they will see an error message indicating that their account could not be created.</p>
+</div>
+<p> </p>
+<h2>Configure optional settings</h2>
+<p>In this section, we'll look at <strong>optional Sales Assist settings</strong> that you can use to adjust the app to your preferences.</p>
+<h3 id="h_01F0F6B9WA04TFXG2PCYANAAZ4">Enable enriched notifications</h3>
+<p>Sales Assist will send notifications to users whenever someone visits a link that was shared through the app. By default, the app sends <strong>basic notifications</strong>, which do not identify the visitor.</p>
+<p>If you have integrated your Hub with a supported <strong>Marketing Automation Platform</strong> (MAP; any of <a href="https://help.uberflip.com/hc/en-us/articles/360022207231" target="_self"><strong>Oracle Eloqua</strong></a>, <a href="https://help.uberflip.com/hc/en-us/articles/360022063751" target="_self"><strong>Marketo</strong></a>, <a href="https://help.uberflip.com/hc/en-us/articles/360021942272" target="_self"><strong>Pardot</strong></a>, or <a href="https://help.uberflip.com/hc/en-us/articles/360021562692" target="_self"><strong>HubSpot</strong></a>) you can <strong>configure Sales Assist to send enriched notifications</strong> that incorporate visitor information from the connected MAP. In addition, you can also configure a <strong>backup enrichment source</strong> to include additional detail in notifications for cases when the visitor is not known to your MAP.</p>
+<p>To learn how to enable and configure enriched notifications in Sales Assist, see this article:</p>
+<p><a class="btn btn--primary" href="https://help.uberflip.com/hc/en-us/articles/360059624771" target="_blank" rel="noopener noreferrer"><strong>Sales Assist: Configure engagement notifications</strong> </a></p>
+<h3 id="h_01F2WH5XP93ZJSWNQN8HDBRS3M">Configure access to app features using permissions</h3>
+<p>Sales Assist has its own system of <strong>app permissions</strong> which are used to control access to various features within the app. By default, the <strong>Account Administrators</strong> and <strong>Sales Reps</strong> user groups are granted all permissions, which means they have access to all features in the app. You can <strong>configure these permissions to customize access within the Sales Assist</strong> app to your needs:</p>
+<ul>
+<li>If you prefer for your Sales Users not to have access to certain features, you can simply revoke the corresponding permissions from those users. For example, if you do not want your Sales Users to be able to create their own Items, you can revoke that permission, and the option to create Items will be hidden in Sales Assist. Alternatively, you can also configure the permissions to give varying levels of access to different users or user groups, e.g. Account Executives are able create Items while BDRs are not, etc.</li>
+<li>If you use a different user group than the default <strong>Sales Reps</strong> user group for your Sales Users, you'll need to grant the necessary permissions to the appropriate user group.</li>
+</ul>
+<p>To learn about Sales Assist's app permissions and how to configure them, see this article:</p>
+<p><a class="btn btn--primary" href="https://help.uberflip.com/hc/en-us/articles/360059650691" target="_blank" rel="noopener noreferrer"><strong>Sales Assist: Configure permissions to control access to app features</strong> </a></p>
+<h3>Set up separate Sales Assist experiences for different user groups</h3>
+<p>By default, you'll set up a single Sales Assist environment for all your Sales Users. But if a one-size-fits-all approach doesn't work for your organization, you can choose to set up <strong>separate</strong> <strong>environments </strong><strong>for different user groups </strong>within your Sales Assist account.</p>
+<p>Sales Assist environments are completely distinct from one another: each environment can have its own unique tag groups, templates, and image library, so you can <strong>customize the experience to the specific needs of each user group</strong>. When you create a new environment you can also choose which Hub it should be linked to, so you can either <strong>create multiple separate ways to use Sales Assist within the same Hub</strong>, or even use environments to <strong>use Sales Assist with multiple Hubs</strong>.</p>
+<p>To learn how to create separate environments in Sales Assist, see this article:</p>
+<p><a class="btn btn--primary" href="https://help.uberflip.com/hc/en-us/articles/360060350751" target="_blank" rel="noopener noreferrer"><strong>Sales Assist: Create separate environments for different user groups</strong></a></p>
+<h2>What's next?</h2>
+<p>Want to learn more about Sales Assist? Check out these articles:</p>
+<ul>
+<li>
+<strong><a href="https://help.uberflip.com/hc/en-us/articles/360057767692">User Guide for Sales Users</a></strong>: Learn how to use the Sales Assist features that Sales Users can access.</li>
+<li>
+<a href="https://help.uberflip.com/hc/en-us/articles/4423803775245#view-team-engagement-stats-admins-only" target="_self"><strong>Track your teams share engagement:</strong></a> See how your team's <em>shares</em> are performing with Sales Assist's Analytics summary dashboard</li>
+<li>
+<strong><a href="https://help.uberflip.com/hc/en-us/articles/360058465311">Frequently Asked Questions</a></strong>: Have questions about the app? Find answers to the most commonly asked questions here.</li>
+<li>
+<a href="https://help.uberflip.com/hc/en-us/articles/360058009392"><strong>Install the Outlook Add-In</strong></a>: Learn how to install the Sales Assist Add-in for Outlook.</li>
+</ul>]]></description>
+         <guid isPermaLink="false">10679283348749</guid>
+         <pubDate>Wed, 16 Nov 2022 19:10:24 GMT</pubDate>
+      </item>
+      <item>
+         <title>[COPY] Sales Assist: User Guide for Sales Users</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4426932031885--COPY-Sales-Assist-User-Guide-for-Sales-Users</link>
+         <description><![CDATA[<hr>
+<p>Learn how to use all of Sales Assist's features as a Sales User.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>
+<strong>Just need the basics</strong>? Check out the <a href="https://help.uberflip.com/hc/en-us/articles/360057052132">Quick Start Guide</a>.</li>
+<li>To use Sales Assist, you'll need your <strong>Uberflip username and password</strong>. If you're not sure what they are, <strong>contact your Uberflip administrator </strong>for help.</li>
+</ul>
+<p> </p>
+<h2>About Sales Assist</h2>
+<h3>What is Sales Assist?</h3>
+<p>Sales Assist is a <strong>sales engagement app</strong> for Uberflip, the platform your Marketing team uses to create and manage content. Sales Assist is specifically designed to <strong>help Sales teams to leverage that content for outreach</strong>, by making it easy to find and share content right <strong>within the tools you use every day</strong>.</p>
+<p>You can use Sales Assist pretty much anywhere: in a browser <strong>on your desktop or phone</strong>, <strong>in</strong> <strong>Outlook</strong> (as an Add-in), or <strong>in sales tools</strong> <strong>like Salesloft or Outreach</strong> (using the Chrome extension).</p>
+<p>With Sales Assist, you can:</p>
+<ul class="list-bullet">
+<li>
+<strong>Quickly</strong> <strong>find the perfect content </strong>for your outreach (and even <strong>create your own content</strong> for super-personalized outreach)</li>
+<li>
+<strong>Build personalized content destinations</strong> in seconds<strong><br></strong>
+</li>
+<li>
+<strong>Easily share content </strong>with prospects by simply copying and pasting embeds into your emails</li>
+<li>
+<strong>Get</strong> <strong>real-time notifications </strong>when a prospect visits content you've shared</li>
+</ul>
+<h3>What you'll learn</h3>
+<p>Follow this guide to learn <strong>how to use all of the tools available to you in Sales Assist</strong>, including:</p>
+<ul>
+<li>How to<strong> access and log in to Sales Assist</strong>, including how to <strong>install the Chrome extension</strong>
+</li>
+<li>How to <strong>navigate the app</strong>
+</li>
+<li>How to <strong>find content using keywords, tags, and content type</strong>
+</li>
+<li>How to <strong>share individual pieces of content</strong>
+</li>
+<li>How to <strong>select multiple pieces of content to create and share custom destinations </strong>with your prospects, including:<br>
+<ul>
+<li>Using templates to <strong>style your destinations<br></strong>
+</li>
+<li>
+<strong>Protecting destinations</strong> with sensitive content by adding a passphrase</li>
+<li>
+<strong>Managing your existing destinations </strong>to modify, share, and duplicate them to create new destinations</li>
+</ul>
+</li>
+<li>How to <strong>create your own content </strong>and <strong>templates</strong>
+</li>
+<li>How to <strong>track how prospects are engaging</strong> with content you've shared</li>
+</ul>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>Depending on how your Sales Assist admin has configured the app for your organization, some of the tools and functionality described in this guide may not be available to you.</p>
+</div>
+<p> </p>
+<h2>Accessing Sales Assist</h2>
+<p>In this section, we'll look at your <strong>options for accessing Sales Assist</strong>, as well as <strong>how to log in </strong>to the app.</p>
+<h3>Options for accessing Sales Assist</h3>
+<p>Because Sales Assist is a web app, there are multiple ways to access it. Simply choose the option(s) that best fit your outreach workflow:</p>
+<div class="tabs tabs--colored-2">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Browser (desktop and mobile)</span> <span class="tabs-link">Chrome extension</span> <span class="tabs-link">Outlook Add-in</span>
+</div>
+<div class="tab">
+<ul class="list-bullet">
+<li>Works with <strong>any browser</strong>, on <strong>any desktop or mobile device</strong>.</li>
+<li>Choose this option if want to use Sales Assist on a phone or tablet, or if you prefer to use a larger version of the Sales Assist interface on your desktop.</li>
+</ul>
+<p><strong>To access Sales Assist in a browser:</strong></p>
+<ul>
+<li>Go to <a href="https://sa.uberflip.com/" target="_self"><strong>https://sa.uberflip.com/</strong></a>
+</li>
+</ul>
+</div>
+<div class="tab is-hidden">
+<ul class="list-bullet">
+<li>Requires the <strong>Google Chrome browser</strong>.</li>
+<li>Opens Sales Assist in a sidebar, next to your current Chrome tab.</li>
+<li>Choose this option to use Sales Assist without having to leave the tab you're currently working in. This allows you to easily access Sales Assist while you're doing outreach by email (e.g. in Gmail), or using a web-based sales engagement tool (like Salesloft).</li>
+</ul>
+<p><strong>To access Sales Assist using the Chrome extension:</strong></p>
+<ul>
+<li>Go to the Chrome Web Store and <a href="https://chrome.google.com/webstore/detail/sales-assist-by-uberflip/kcbkakmlohgokmebhdmhcffdpegnlobk"><strong>download and install the Sales Assist extension</strong>.</a>
+</li>
+<li>Click on the <strong>Extensions (puzzle piece) </strong>button in Chrome, then click on <strong>Sales Assist by Uberflip</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360088738211/image.png" alt="image.png">
+</li>
+</ul>
+</div>
+<div class="tab is-hidden">
+<ul class="list-bullet">
+<li>Requires <strong>Outlook 2016 or newer</strong>, or <strong>Outlook Office 365 (Outlook on the web)</strong>, or <strong>Outlook.com</strong>.</li>
+<li>Opens Sales Assist in a sidebar within Outlook.</li>
+<li>Choose this option to use Sales Assist without having to leave Outlook. This allows you to easily access Sales Assist while you're doing email outreach.</li>
+</ul>
+<p><strong>To access Sales Assist using the Outlook Add-in:</strong></p>
+<ul>
+<li>
+<strong>Install the Sales Assist Add-in for Outlook</strong>: see <a href="https://help.uberflip.com/hc/en-us/articles/360058009392">this article</a> for detailed instructions on how to get and install the Add-in.</li>
+</ul>
+</div>
+</div>
+<h3>Logging in to Sales Assist</h3>
+<p>No matter which option you choose to access Sales Assist, <strong>the login process is the same</strong>:</p>
+<ol>
+<li>Click on <strong>Login with Uberflip</strong>.</li>
+<li>Enter your <strong>Uberflip username (email) </strong>and click <strong>Next.</strong>
+</li>
+<li>Enter your <strong>password</strong> and click <strong>Log In</strong>.
+<ul>
+<li>If your organization uses a Single Sign-On service (like Okta) to log in to Uberflip, click on the <strong>Log in with...</strong> button instead of entering your password, then sign in as normal. After you sign in, you'll be redirected back to Sales Assist.</li>
+</ul>
+</li>
+<li>That's it! You're logged in to Sales Assist, and can <strong>begin using the app</strong>.</li>
+</ol>
+<p> </p>
+<h2>Navigating the app</h2>
+<p>In this section, we'll look at how to <strong>navigate the app</strong>.</p>
+<h3>Basic navigation</h3>
+<p>Sales Assist has three main sections: <strong>Search</strong>, <strong>My</strong> <strong>Streams</strong>, and <strong>My Shares</strong>. </p>
+<ul>
+<li>To navigate between these three sections, <strong>use the navigation menu </strong>at the top:<br><img src="https://help.uberflip.com/hc/article_attachments/4422920152333/Untitled_design__8_.png" alt="Untitled_design__8_.png">
+</li>
+</ul>
+<p><strong>Note:</strong> If you are a Sales Assist administrator, you'll also see an <strong>Admin</strong> section. </p>
+<ul>
+<li>
+<strong>Click your name in the top right</strong> to open the <strong>user menu</strong>, where you can edit your profile, access Sales Assist help and documentation, or sign out of the app:<br><img src="https://help.uberflip.com/hc/article_attachments/360090283632/image.png" alt="image.png">
+</li>
+<li>From anywhere in the app, you can also always hit the <strong>back button</strong> in the top left to go back to the last page you were on:<br><img src="https://help.uberflip.com/hc/article_attachments/360090300212/image.png" alt="image.png">
+</li>
+</ul>
+<p> </p>
+<h3>Section overview</h3>
+<p>Here's a quick overview of what you'll find in each section:</p>
+<div class="tabs tabs--colored-2">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Search section</span> <span class="tabs-link">My Streams section</span> <span class="tabs-link">My Shares section</span>
+</div>
+<div class="tab">
+<p>Click on <img src="https://help.uberflip.com/hc/article_attachments/360090302352/image.png" alt="Search button"> in the navigation menu to open the <em>Search</em> section:<img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" src="https://help.uberflip.com/hc/article_attachments/4422928326669/1.png" alt="1.png" width="601" height="357"></p>
+<p> </p>
+<p>This section contains:</p>
+<ol>
+<li>The <strong>search tools</strong>, which allow you to find pieces of content ("Items"). You can search by <strong>keywords</strong>, <strong>tags</strong>, and <strong>content type</strong>, or just content within predefined content collections (Marketing Streams). You can also view the <strong>most shared Items</strong> in your organization, <strong>Items you've created yourself, </strong>or your<strong> favorited Items.</strong>
+</li>
+<li>The <strong>results panel</strong>, which lists all of the available content Items that match your search criteria. Here you can <strong>Add</strong> Items to your basket, see Items' <strong>preview or stats,</strong> or share Items directly. </li>
+<li>The <strong>basket</strong>, which is where you "save" Items (even across different searches) to include in a personalized <strong>destination</strong> ("Stream").</li>
+</ol>
+</div>
+<div class="tab is-hidden">
+<p>Click on <img src="https://help.uberflip.com/hc/article_attachments/360090275811/image.png" alt="My Streams button"> in the navigation menu to open the <em>My Streams</em> section:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360090287731/image.png" alt="image.png"></p>
+<p>This section displays <strong>a list of your previously created Streams</strong>, and allows you to <strong>view </strong>and <strong>edit</strong> them, as well as <strong>share </strong>them and <strong>see activity </strong>on Streams you've shared.</p>
+</div>
+<div class="tab is-hidden">
+<p>Click on <em><img src="https://help.uberflip.com/hc/article_attachments/360090303532/image.png" alt="My Shares button"></em> in the navigation menu to open the <em>My Shares</em> section:</p>
+<p><img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" src="https://help.uberflip.com/hc/article_attachments/4422938841741/Untitled_design__9_.png" alt="Untitled_design__9_.png"></p>
+<p>This section shows you <strong>activity and stats on Items and Streams you've shared</strong> in the past 48 hours, so you can follow up at the right time.</p>
+</div>
+</div>
+<p> </p>
+<h2>Finding and sharing content</h2>
+<p>In this section, we'll look at how you can <strong>find content</strong> in Sales Assist, and how you can <strong>share an individual piece of content</strong>.</p>
+<h3>Finding content</h3>
+<p>Sales Assist gives you <strong>four ways to search</strong> the Items in your organization's content library: by <strong>keyword</strong>, by <strong>tags</strong>, by <strong>content type</strong>, and by <strong>collection (Marketing Stream)</strong>.</p>
+<div class="tabs tabs--colored-2">
+<div class="tabs-menu">
+<span class="tabs-link is-active">By keyword</span> <span class="tabs-link">By tags</span> <span class="tabs-link">By type</span> <span class="tabs-link">By collection<br></span>
+</div>
+<div class="tab">
+<p>To find content Items that <strong>match one or more keywords</strong>:</p>
+<ul>
+<li>On the <strong>All Items</strong> tab,<strong> enter the keywords you want</strong> into the<strong> search field</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/4411406257037/image.png" alt="image.png">
+</li>
+<li>Sales Assist will start searching as soon as you begin typing, and will display<strong> up to 50 results containing the entered keywords</strong>.
+<ul>
+<li>Sales Assist will also try to match <strong>partial</strong> keywords. For example, the keyword "market" would bring up content that contains not just the word itself, but also "markets" and "marketing".</li>
+</ul>
+</li>
+</ul>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>Keywords must be <strong>at least two characters long</strong>: any single character entered into the search field will be ignored.</p>
+</div>
+</div>
+<div class="tab is-hidden">
+<p>To find content Items by their <strong>tags</strong>:</p>
+<ul>
+<li>On the <strong>All Items</strong> tab, use the <strong>tag group dropdowns</strong> below the search field to view the available tags:<br><img src="https://help.uberflip.com/hc/article_attachments/360090424532/image.png" alt="image.png" width="510" height="313">
+</li>
+<li>
+<strong>Click on a tag to select it</strong>. Sales Assist will immediately start searching for <strong>content tagged with the selected tag</strong>.</li>
+<li>You can select <strong>one tag per available tag group</strong>.</li>
+<li>You can select <strong>multiple tags</strong> (i.e. select a tag from two or more tag groups). If you select multiple tags, Sales Assist will search for <strong>content tagged with ALL of the selected tags</strong>.</li>
+</ul>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>Tag groups are set up by <strong>Sales Assist administrators</strong> and are <strong>specific to each organization</strong>. As a result, the tag groups (and tags) you see in Sales Assist will likely be <strong>different from what is shown here</strong>.</p>
+</div>
+</div>
+<div class="tab is-hidden">
+<p>To find content Items based on the <strong>type of content</strong>:</p>
+<ul>
+<li>On the <strong>All Items</strong> tab, use the <strong>content type dropdown </strong>to the right of the search field to view available content types:<br><img src="https://help.uberflip.com/hc/article_attachments/360090446852/image.png" alt="image.png">
+</li>
+<li>Click on the <strong>content type</strong> that you want. Sales Assist will immediately display <strong>the top 50 pieces of content of the selected type</strong>.</li>
+</ul>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>You might see <strong>multiple instances of the same content type</strong>, as in the screenshot shown here. This happens when your organization has multiple <strong>sources</strong> of the same <strong>general type</strong> of content — in this case, videos from YouTube, Wistia, and Vidyard.</p>
+</div>
+</div>
+<div class="tab is-hidden">
+<p>To find content Items based on the <strong>content collection</strong> (Marketing Stream) they are in:</p>
+<ul>
+<li>Click on the <strong>Marketing Streams tab</strong> above the search field to view preset collections of content ("Streams") that your Sales Assist administrator has made available to you:<br><img src="https://help.uberflip.com/hc/article_attachments/4411405512973/Search___Sales_Assist.png" alt="Search___Sales_Assist.png">
+</li>
+<li>By default, the <strong>results panel</strong> will display <strong>highlighted </strong><strong>Streams</strong>:<strong><br><img src="https://help.uberflip.com/hc/article_attachments/4411418113677/image.png" alt="image.png"></strong>
+</li>
+<li>You can also use the <strong>search field</strong> to search through all available Streams.</li>
+<li>
+<strong>Hover your mouse over the Stream</strong>, then <strong>click on <em>Items</em></strong> on the right to view all available content in the Stream:<br><img src="https://help.uberflip.com/hc/article_attachments/4411418162445/image.png" alt="image.png">
+</li>
+</ul>
+</div>
+</div>
+<p>You can use each of the methods of finding content on the <strong>All Items</strong> tab either <strong>by itself</strong>, or <strong>in combination</strong> with the other methods. For example, you could search for content matching certain keywords, then further filter the results by tags and/or content type.</p>
+<p>When you search for content on the <strong>All Items</strong> tab, the results will be sorted by <strong>Most Shared</strong> by default. Use the <strong>sorting dropdown</strong> in the top right of the search results area to sort the results in other ways, i.e. by<strong> Newest </strong>(publish date, most to least recent), or by <strong>Alphabetical</strong> (title, A to Z):</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/4407930827277/image.png" alt="image.png" width="227" height="364"></p>
+<div class="callout">
+<h4 class="callout__title">Other ways to find content</h4>
+<ul>
+<li>
+<strong>Search for the most shared Items</strong>: Click on the <img src="https://help.uberflip.com/hc/article_attachments/360090378831/image.png" alt="See Most Shared"> button when you first visit the <em>Search</em> section to view the 50 Items that other Sales Users in your organization have shared the most.</li>
+<li>
+<strong>See just Items you have created</strong>: If you have created your own Items in Sales Assist, click on the <img src="https://help.uberflip.com/hc/article_attachments/360090426591/Search___Sales_Assist.png" alt="My Items" width="81" height="22"> button (to the right of the tag group buttons) to view them.</li>
+</ul>
+</div>
+<h3 id="h_01F1P2329ATNRRQRT9GNGH549E">See an Items details, preview, and stats</h3>
+<p>You can see detailed info, a preview, and 90 day performance stats for any piece of content that appears in the search results. Here's how:</p>
+<ol>
+<li>In the <em>Search</em> section, <strong>hover your mouse over a piece of content that you want to preview</strong>.</li>
+<li>Click on the <strong>Details </strong>button:<br><img src="https://help.uberflip.com/hc/article_attachments/4422932477325/Untitled_design__10_.png" alt="Untitled_design__10_.png" width="609" height="93">
+</li>
+<li>A model will open. Here you can select a tab to view the Items details, a preview, or its stats. </li>
+</ol>
+<h3 id="h_01F1GR4JKC8KRCW74C5T4XJBS5">Sharing a single Item or a Marketing Stream</h3>
+<p>You can <strong>share an individual piece of content</strong> (an <strong>Item</strong>), or a <strong>full premade collection of content </strong>(a <strong>Marketing Stream</strong>) with your prospects directly from the search results.</p>
+<p>Sales Assist will generate a variety of <strong>embed options</strong> for content you choose to share, and you can simply <strong>paste the embed directly into an email</strong>:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360090462132/image.png" alt="image.png" width="580" height="407"></p>
+<p>To <strong>share a single piece of content </strong>or<strong> a Marketing Stream </strong>in Sales Assist, follow these instructions:</p>
+<div class="accordion accordion--default">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>How to share a single Item</strong></div>
+<div class="accordion__item-content">
+<p>You can share individual pieces of content directly from the <em>Search</em> section in Sales Assist.</p>
+<ol>
+<li>In the <em>Search</em> section, click on the <strong>All Items </strong>tab.</li>
+<li>
+<strong>Find the content Item you want to share</strong>, then <strong>hover your mouse over it</strong>.</li>
+<li>Click on the <strong>Share</strong> button:<br>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360090456292/image.png" alt="image.png"></p>
+</li>
+<li>Under <strong>Share Item with</strong>, enter the email address of the prospect you want to share this content with, then click the <strong>green checkmark button</strong> to the right.<br><img src="https://help.uberflip.com/hc/article_attachments/360090457012/image.png" alt="image.png"><br>
+<ul>
+<li>Sales Assist will <strong>not</strong> send an email to this person — this is just to help you remember who this share was created for later on.</li>
+</ul>
+</li>
+<li>When you share a single Item, it will be shown to the recipient in the context of your organization's resource center. If the same content appears in multiple different places (Streams), you can use the <strong>In Stream </strong>dropdown to choose which of the available contexts you want to use for this content:<br><img src="https://help.uberflip.com/hc/article_attachments/360090457372/image.png" alt="image.png"> 
+<ul>
+<li>Your shared Item will have a <strong>breadcrumb link</strong> to the Stream you select here, and your recipient will be able to navigate to and explore other content in the Stream.</li>
+</ul>
+</li>
+<li>Next, <strong>choose the embed option</strong> you want to use. There are four options, with previews:<br><img src="https://help.uberflip.com/hc/article_attachments/360090436111/image.png" alt="image.png">
+<ol>
+<li>
+<strong>Image and Text</strong>: Like a Facebook or Twitter link preview, with a large image and a text link.</li>
+<li>
+<strong>Tile Image</strong>: A compact image that functions as a clickable link to the content.</li>
+<li>
+<strong>Just Text</strong>: Just a text link, no image.</li>
+<li>
+<strong>Just the Link:</strong> No embed, just the underlying URL (including its share tracking code) that you can link to.</li>
+</ol>
+</li>
+<li>Each option will appear just as shown in its preview. Click on <strong>Copy to Clipboard</strong> below the option you want to use.</li>
+<li>Finally, just <strong>paste the embed</strong> into an email (or elsewhere) to share it with your prospect (e.g. right-click anywhere in the email and click <strong>Paste</strong>, or just press <em>Ctrl+V/Command+V</em>).</li>
+</ol>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>When you share a link to an individual Item through Sales Assist, that link contains a <strong>unique share tracking code</strong>. Whenever someone views the Item using that link, you'll get a notification, and Sales Assist will also record this activity in the <em>My Shares</em> section.</p>
+</div>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>How to share a Marketing Stream</strong></div>
+<div class="accordion__item-content">
+<p>You can share full Marketing Streams directly from the <em>Search</em> section in Sales Assist.</p>
+<ol>
+<li>In the <em>Search</em> section, click on the <strong>Marketing Streams </strong>tab.</li>
+<li>
+<strong>Find the Stream you want to share</strong>, then <strong>hover your mouse over it</strong>.</li>
+<li>Click on the <strong>Share</strong> button:<br><img src="https://help.uberflip.com/hc/article_attachments/4411406445965/image.png" alt="image.png">
+</li>
+<li>Under <strong>Share Stream with</strong>, enter the email address of the prospect you want to share this content with, then click the <strong>green checkmark button</strong> to the right.<br><img src="https://help.uberflip.com/hc/article_attachments/4411406514317/image.png" alt="image.png"><br>
+<ul>
+<li>Sales Assist will <strong>not</strong> send an email to this person — this is just to help you remember who this share was created for later on.</li>
+</ul>
+</li>
+<li>Next, <strong>choose the embed option</strong> you want to use. There are four options, with previews:<br><img src="https://help.uberflip.com/hc/article_attachments/4411406566669/image.png" alt="image.png"><br>
+<ol>
+<li>
+<strong>Image and Text</strong>: Like a Facebook or Twitter link preview, with a large image and a text link.</li>
+<li>
+<strong>Tile Image</strong>: A compact image that functions as a clickable link to the content.</li>
+<li>
+<strong>Just Text</strong>: Just a text link, no image.</li>
+<li>
+<strong>Just the Link:</strong> No embed, just the underlying URL (including its share tracking code) that you can link to.</li>
+</ol>
+</li>
+<li>Each option will appear just as shown in its preview. Click on <strong>Copy to Clipboard</strong> below the option you want to use.</li>
+<li>Finally, just <strong>paste the embed</strong> into an email (or elsewhere) to share it with your prospect (e.g. right-click anywhere in the email and click <strong>Paste</strong>, or just press <em>Ctrl+V/Command+V</em>).</li>
+</ol>
+</div>
+</div>
+</div>
+<p> </p>
+<h2 id="h_01F1NQQMW6WGCM6THQZD9TSB69">Creating, customizing, and sharing Streams</h2>
+<p>In this section, we'll look at how you can create your own <strong>custom personalized Streams </strong>(destinations) for your prospects, as well as how to <strong>customize </strong>and <strong>share</strong> your Streams.</p>
+<h3 id="h_01F1K9YJKZRHJ2BV8E0SV4RQ5R">Creating a Stream</h3>
+<p>In addition to <a href="#h_01F1GR4JKC8KRCW74C5T4XJBS5" target="_self">sharing individual pieces of content</a>, Sales Assist also allows you to <strong>collect multiple pieces of content</strong>, and use them to create a <strong>self-contained microsite</strong> called a <strong>Stream</strong>.</p>
+<p>Streams allow you to <strong>showcase a small collection of content</strong> that you've curated for your prospect. You can personalize a Stream with a custom headline and message, and use a template to make it look great:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360090472852/image2.png" alt="image2.png"></p>
+<p>To <strong>create Streams</strong>, follow these instructions:</p>
+<div class="accordion accordion--default">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>How to create a Stream</strong></div>
+<div class="accordion__item-content">
+<p>You can create your own Streams to quickly build personalized destinations for your prospects.</p>
+<h4>Option 1: Start by selecting content</h4>
+<p>You can start creating a new Stream by first choosing the content that will be in it. This option is useful if you have some specific content in mind, or if you want to really personalize the Stream for your prospect.</p>
+<ol>
+<li>In the <em>Search</em> section, <strong>find some content you want to add to your Stream</strong>, then <strong>hover your mouse over it</strong>.</li>
+<li>Click on the <strong>Add</strong> button:<br><img src="https://help.uberflip.com/hc/article_attachments/360090472872/image3.png" alt="image3.png">
+</li>
+<li>This will add the content to your <strong>basket</strong>, which means it's selected to be included in your Stream. <strong>Repeat the process of adding content to your basket</strong> until you've added all the Items you want.<br>
+<ul>
+<li>You can add <strong>up to 20 Items</strong> to a Stream in total.</li>
+<li>
+<strong>Items that have been added to your basket will stay there</strong>, even if you change your search filters or perform a whole new search. Don't be afraid to keep searching to find the perfect content!</li>
+</ul>
+</li>
+<li>When you're ready to proceed, click on the <strong>New Stream</strong> button.<br><img src="https://help.uberflip.com/hc/article_attachments/4422946551693/Untitled_design__11_.png" alt="Untitled_design__11_.png">
+</li>
+<li>Fill out the <strong>Create a New Sales Stream </strong>form to personalize the destination for your prospect:<br><img src="https://help.uberflip.com/hc/article_attachments/360090473272/Search___Sales_Assist.png" alt="Search___Sales_Assist.png" width="403" height="336"><br>
+<ul>
+<li>
+<strong>Heading (required): </strong>This is your destination's headline, shown in large text across the top.</li>
+<li>
+<strong>Message (optional)</strong>: Use this to enter a brief personalized message for your prospect. It's shown immediately below the heading.</li>
+<li>
+<strong>Prospect (optional)</strong>: Enter the email or just the domain (the part of the email after the @ symbol) of your prospect. Don't worry, nothing will be sent to them yet! Sales Assist just uses this information to find the prospect's company logo.</li>
+<li>
+<strong>Template (optional)</strong>: Select a premade template to style your destination (i.e. the banner, colors, etc.).</li>
+</ul>
+</li>
+<li>Click on <strong>Create Stream</strong>.</li>
+<li>Your Stream will now be created, and the <strong>Manage Stream </strong>page will be shown. Here, you can <strong>customize your Stream </strong>(see below) before <a href="#h_01F1K9WJ7EZ7VJPXFN0VXTTAHW" target="_self">sharing</a> it.</li>
+</ol>
+<h4>Option 2: Start without selecting content</h4>
+<p>You can also create a new Stream without first selecting content. This option is useful if your organization uses templates that "pre-fill" your Stream with selected content: in this case, just choose the appropriate template while creating the Stream, then either keep only the pre-filled content, or add/remove content as needed.</p>
+<ol>
+<li>In Sales Assist, click on the <strong>Streams</strong> button in the navigation menu.</li>
+<li>In the top right corner, click on the <strong>+New</strong> button.<br><img src="https://help.uberflip.com/hc/article_attachments/360091971952/image.png" alt="image.png">
+</li>
+<li>This will open the <strong>Create a New Sales Stream</strong> form. Simply complete this form as described in <em>Option 1</em> above, then click on <strong>Create Stream</strong>.</li>
+<li>Your Stream will be created, and you'll be taken to the <strong>Manage Stream</strong> page. From here, you can <strong>customize your Stream </strong>(see below), for example by adding or removing Items.</li>
+</ol>
+<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>Once you've created at least one Stream, you'll also see an <strong>Existing</strong> button below the basket. Use this button to select an existing Stream to add the content in the basket to (rather than creating a new Stream):</p>
+</div>
+<h3 id="h_01F1K9Y6PX1JJXJYJYY181PA5H"><img src="https://help.uberflip.com/hc/article_attachments/4422933375757/Untitled__840___260_px_.png" alt="Untitled__840___260_px_.png" width="414" height="128"></h3>
+</div>
+</div>
+</div>
+<h3 id="h_01F1K9Y6PX1JJXJYJYY181PA5H">Customizing a Stream</h3>
+<p>After creating a Stream, you can customize it in various ways. Sales Assist will show a live preview as you make changes so you can see how it looks. You can:</p>
+<ul class="list-bullet">
+<li>Change the <strong>heading</strong>, <strong>message</strong>, <strong>prospect</strong>, or <strong>template</strong>
+</li>
+<li>Add a <strong>welcome video</strong>
+</li>
+<li>Add<strong> Stream sections</strong>
+</li>
+<li>Add a <strong>custom banner image</strong>
+</li>
+<li>Add a <strong>passphrase</strong>, to protect Streams with sensitive contents</li>
+<li>
+<strong>Add</strong>, <strong>remove</strong>, or <strong>change the order</strong> of Items in the Stream</li>
+</ul>
+<p>To customize a Stream, use the <strong>Manage Stream</strong> page. This page is shown automatically whenever you create a Stream, but you can also reopen it manually at any time:</p>
+<ol>
+<li>In Sales Assist, click on the <strong>Streams</strong> button in the navigation menu.</li>
+<li>In the list of Streams, <strong>hover your mouse over the Stream </strong>you want to customize.</li>
+<li>Click on <strong>Edit</strong>:<br>
+<h4><img src="https://help.uberflip.com/hc/article_attachments/360090549192/image.png" alt="image.png"></h4>
+</li>
+<li>The <strong>Manage Stream</strong> page for the selected Stream will open.</li>
+</ol>
+<p>To learn <strong>how to use the various customization options</strong>, follow the instructions below:</p>
+<div class="accordion accordion--default">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>How to change a Stream's heading, message, or prospect logo</strong></div>
+<div class="accordion__item-content">
+<p>You can modify a Stream's heading, message, or prospect and logo at any time.</p>
+<ul>
+<li>Open the <strong>Manage Stream</strong> page for the Stream you want to customize. Then:<br><img src="https://help.uberflip.com/hc/article_attachments/4422934197645/1__1_.png" alt="1__1_.png"><br>
+<ol>
+<li>
+<strong>To change the heading</strong>: Enter new text you want to use into the <strong>Heading</strong> field. The heading on the Stream will be updated immediately.</li>
+<li>
+<strong>To change the message</strong>: Enter the new text you want to use into the <strong>Message</strong> field (or remove the text). The message on the Stream will be updated immediately.</li>
+<li>
+<strong>To change the prospect logo</strong>: Click on the current logo to open the <strong>Set Stream Logo</strong> window. Search for the company name, then click on the option you want:<br><img src="https://help.uberflip.com/hc/article_attachments/360095968052/image.png" alt="image.png" width="384" height="376"><br>The new logo will appear in the preview to the right, and will be updated on the Stream immediately.<br>
+<ul>
+<li>You can also change the prospect by entering a new prospect email address (or domain) into the <strong>Prospect </strong>field. Doing this will not change the current prospect logo.</li>
+<li>If you want to just remove the prospect logo altogether, click on <strong>remove logo</strong> below the preview.</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>How to add a welcome video</strong></div>
+<div class="accordion__item-content">
+<p>Add a welcome video that will auto-open when your prospect visits your Stream for the first time. </p>
+<ol>
+<li>Go to the<strong> Streams </strong>page in Sales Assist.</li>
+<li>Hover over the Stream you want to add a welcome video to and click<strong> Edit</strong>.</li>
+<li>Under the <strong>Details</strong> tab, enter the video URL into the <strong>Welcome Video URL</strong> field.<br><strong>Note:</strong> This can be hosted on any platform that supports embeddable video. <br><img src="https://help.uberflip.com/hc/article_attachments/4423057229709/Untitled_design__18_.png" alt="Untitled_design__18_.png">
+</li>
+</ol>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>How to add Stream section headings</strong></div>
+<div class="accordion__item-content">
+<p>Break your Stream into organized sections by adding section headings.</p>
+<ol>
+<li>Go to the<strong> Streams </strong>page in Sales Assist.</li>
+<li>Hover over the Stream you want to add a heading to and click<strong> Edit</strong>.</li>
+<li>Click the <strong>Items</strong> tab.</li>
+<li>Click the meatball (three dot) menu icon, then click <strong>Add a Section Heading</strong>.<br>A new section heading will appear at the top of the Items list.<br><img src="https://help.uberflip.com/hc/article_attachments/4423063394317/Untitled_design__19_.png" alt="Untitled_design__19_.png" width="553" height="148">
+</li>
+<li>Hover over the section heading Item and click <strong>Edit</strong>.<br><img src="https://help.uberflip.com/hc/article_attachments/4423051234317/Untitled_design__20_.png" alt="Untitled_design__20_.png" width="551" height="171">
+</li>
+<li>In the modal that appears, enter a heading name, then click <strong>Update</strong>.</li>
+<li>Drag and drop your new section heading to where you'd like it in your Stream.</li>
+<li>Drag and drop your other items into place if needed. </li>
+</ol>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>How to add a calendar booking CTA</strong></div>
+<div class="accordion__item-content">
+<p>Add a calendar booking CTA to your Stream or Items, so your Stream viewers can instantly book a meeting with you. </p>
+<ol>
+<li>Go to the<strong> Streams </strong>page in Sales Assist.</li>
+<li>Hover over the Stream you want to add a heading to and click<strong> Edit</strong>.</li>
+<li>Select the <strong>Items</strong> tab.</li>
+<li>Click the <strong>Add Calendar</strong> button.<br><strong>Note:</strong> If the button is grayed out, there is already a Calendar Item in your Stream. Find it, hover over it, and click <strong>Configure </strong>to continue.<br><img src="https://help.uberflip.com/hc/article_attachments/4423064016525/Untitled_design__21_.png" alt="Untitled_design__21_.png" width="567" height="288">
+</li>
+<li>In the modal that opens, enter the URL of your calendar, then click <strong>Confirm</strong>.<br><strong>Note:</strong> Sales Assist can integrate with most embeddable calendar booking services.  </li>
+<li>Enter a tagline, button label, and choose to display the CTA at Item level, Stream level, or both.</li>
+<li>Drag and drop your calendar CTA where you'd like it displayed among your Items.</li>
+</ol>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>How to change a Stream's template</strong></div>
+<div class="accordion__item-content">
+<p>The template you have applied to a Stream determines its appearance. Even after you have created a Stream, you can still change the template used by the Stream at any time.</p>
+<ol>
+<li>Open the <strong>Manage Stream</strong> page for the Stream you want to customize.</li>
+<li>Click on <strong>More Settings</strong>.</li>
+<li>Use the <strong>Template </strong>dropdown to select a new template:<br><img src="https://help.uberflip.com/hc/article_attachments/360090544571/image.png" alt="image.png">
+</li>
+<li>The new template will be <strong>applied immediately</strong>. To see the change, click on <strong>Preview Stream</strong>.</li>
+</ol>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>How to add a custom banner image to a Stream</strong></div>
+<div class="accordion__item-content">
+<p>When you choose a template for your Stream, it will (typically) include a preset banner image. If you want, you can replace the template-default banner image with one of your choice.</p>
+<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>To do this, you'll need the URL where the new banner image is hosted. The URL must end with the image file extension (e.g.<em> .jpg</em>, <em>.png</em>, etc.) to work.</p>
+</div>
+<ol>
+<li>Open the <strong>Manage Stream</strong> page for the Stream you want to customize.</li>
+<li>Click on <strong>More Settings</strong>.</li>
+<li>Enter the <strong>URL of the banner image</strong> you want to use instead into the <strong>Custom Banner Image </strong>field:<br><img src="https://help.uberflip.com/hc/article_attachments/360090555031/image.png" alt="image.png">
+</li>
+<li>The new banner will be <strong>applied immediately</strong>. To see the change, click on <strong>Preview Stream</strong>.</li>
+</ol>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>If you <a href="#h_01F1JYZRDZ0R1A6045WDQHGM0S" target="_self">change the template of this Stream</a> <strong>after</strong> setting a custom banner, the custom banner will be removed and replaced with the banner specified in the template.</p>
+</div>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>How to add a passphrase to a Stream</strong></div>
+<div class="accordion__item-content">
+<p>If you need to ensure that only a specific audience can view the Stream, you can protect it by adding a passphrase: anyone who visits the link must enter the correct passphrase before they can view the content in the Stream.</p>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>This option is especially useful for Streams that include sensitive content, such as pricing information.</p>
+</div>
+<ol>
+<li>Open the <strong>Manage Stream</strong> page for the Stream you want to customize.</li>
+<li>Click on <strong>More Settings</strong>.</li>
+<li>Enter the passphrase you want to use into the <strong>Passphrase Protect</strong> field:<br><img src="https://help.uberflip.com/hc/article_attachments/360090580672/image.png" alt="image.png">
+<ul>
+<li>The passphrase must be <strong>between 6 and 40 characters</strong> in length, and <strong>must contain at least one letter and one number</strong>.</li>
+</ul>
+</li>
+<li>If the passphrase meets the requirements, you'll see a green checkmark beside the Passphrase Protect field, and the passphrase will be <strong>applied immediately</strong>. To see the change, click on <strong>Preview Stream</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360090580852/image.png" alt="image.png">
+</li>
+<li>Lastly, <strong>don't forget to tell your prospect what the passphrase is</strong>!</li>
+</ol>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>How to add, remove, or change the order of Items in a Stream</strong></div>
+<div class="accordion__item-content">
+<h4>Add an Item</h4>
+<p>You can add Items to an existing Stream.</p>
+<ol>
+<li>Open the <strong>Manage Stream</strong> page for the Stream to which you want to add Items.</li>
+<li>Select the <strong>Items</strong> tab.</li>
+<li>Click on <strong>Add Items</strong><br>
+<p><img src="https://help.uberflip.com/hc/article_attachments/4422953439885/Untitled_design__13_.png" alt="Untitled_design__13_.png" width="503" height="207"></p>
+</li>
+<li>
+<strong>Add Items to your basket</strong> as usual.</li>
+<li>Below the basket, click on <strong>Current Stream</strong><br>
+<h4 class="callout__title"><img src="https://help.uberflip.com/hc/article_attachments/360093224791/image.png" alt="image.png"></h4>
+</li>
+<li>The new Items will be <strong>added to the Stream immediately</strong>.</li>
+</ol>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>You can also add Items to an existing Stream from the <em>Search</em> section. Just scroll down to the basket, then click on <strong>Existing</strong> and <strong>choose the Stream</strong> you want to add the Items in the basket to:<img src="https://help.uberflip.com/hc/article_attachments/360091128791/image.png" alt="image.png"></p>
+<p>(Note that this list will display the Streams you've used most recently. If the Stream you want doesn't appear in this list, <strong>use the search field</strong> to find it.)</p>
+</div>
+<h4>Remove an Item</h4>
+<p>You can also remove Items from an existing Stream.</p>
+<ol>
+<li>Open the <strong>Manage Stream</strong> page for the Stream from which you want to remove Items.</li>
+<li>Select the <strong>Items</strong> tab.</li>
+<li>In the basket, <strong>hover your mouse over the Item </strong>and click on<strong> Remove</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360090710411/image.png" alt="image.png">
+</li>
+<li>The Item will <strong>removed from the Stream immediately</strong>. </li>
+</ol>
+<h4 id="h_01F1NQRA2E520F6AKDW47GK164">Change the order of Items in a Stream</h4>
+<p>The order of content Items in your Stream's basket also determines the order in which content appears in the Stream. For example, this basket:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360090582152/image.png" alt="image.png"></p>
+<p>Would result in a Stream that looks like this:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360090582292/image.png" alt="image.png" width="429" height="404"></p>
+<p>You can change the order of Items in a Stream by simply dragging-and-dropping them in the basket:</p>
+<ol>
+<li>Open the <strong>Manage Stream</strong> page for the Stream you want to customize.</li>
+<li>Click on the <strong>Items</strong> tab.</li>
+<li>
+<strong>Click-and-hold </strong>on any Item you want to move to a different place in the order, then <strong>drag it to the desired position</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/4411583263757/Items_Tab_Reorder.gif" alt="Items_Tab_Reorder.gif">
+</li>
+<li>The new Item order will be <strong>applied immediately</strong>. To see the change, click on <strong>Preview Stream</strong>.</li>
+</ol>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>This works anywhere the basket is shown, so you can even determine the order of Items in your Stream <em>while</em> still filling the basket.</p>
+</div>
+</div>
+</div>
+</div>
+<h3 id="h_01F1K9WJ7EZ7VJPXFN0VXTTAHW">Sharing a Stream</h3>
+<p>When your Stream is ready, you can easily <strong>share it with your prospect</strong>.</p>
+<p>Just like <a href="#h_01F1GR4JKC8KRCW74C5T4XJBS5" target="_self">sharing a single Item</a>, sharing a Stream creates a variety of <strong>embed options</strong>. All you need to do is choose which embed option you want, then simply <strong>paste into an email</strong>:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360090708431/image5.png" alt="image5.png"></p>
+<p>As with all content you share through Sales Assist, embed links for Streams contain a unique <strong>share tracking code </strong>that allow the app to <a href="#h_01F1KCKGKRTPP23CP1GQV1TMHA" target="_self">keep track and notify you when a prospect engages</a> with your shared content.</p>
+<p>To <strong>share a Stream</strong>, follow these instructions:</p>
+<div class="accordion accordion--default">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>How to share a Stream</strong></div>
+<div class="accordion__item-content">
+<p>You can share any new or existing Stream that you've created in Sales Assist.</p>
+<ol>
+<li>Open the <strong>Manage Stream</strong> page for the Stream you want to share.</li>
+<li>Click on the <strong>Share</strong> button:<br><img src="https://help.uberflip.com/hc/article_attachments/4422961823501/Untitled_design__14_.png" alt="Untitled_design__14_.png" width="564" height="93">
+</li>
+<li>
+<strong>Choose the embed option</strong> you want to use. There are four options, with previews:<br><img src="https://help.uberflip.com/hc/article_attachments/360090711111/image.png" alt="image.png">
+<ol>
+<li>
+<strong>Image and Text</strong>: Like a Facebook or Twitter link preview, with a large image and a text link.</li>
+<li>
+<strong>Tile Image</strong>: A compact image that functions as a clickable link to the content.</li>
+<li>
+<strong>Just Text</strong>: Just a text link, no image.</li>
+<li>
+<strong>Just the Link:</strong> No embed, just the underlying URL (including its share tracking code) that you can link to.</li>
+</ol>
+</li>
+<li>Each option will appear just as shown in its preview. Click on <strong>Copy to Clipboard</strong> below the option you want to use.</li>
+<li>Finally, just <strong>paste the embed</strong> into an email (or elsewhere) to share it with your prospect (e.g. right-click anywhere in the email and click <strong>Paste</strong>, or just press <em>Ctrl+V/Command+V</em>).</li>
+</ol>
+<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>The image used for the embed will be taken from the first Item in the Stream. If you want to use a different image, just <a href="#h_01F1K9Y6PX1JJXJYJYY181PA5H" target="_self" rel="undefined">change the order of Items</a> in the Stream.</p>
+</div>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>You can also share an existing Stream directly from the <em>My Streams</em> section. Just hover your mouse over the Stream, then click on <strong>Share</strong>:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360090743412/image.png" alt="image.png"></p>
+</div>
+</div>
+</div>
+</div>
+<p> </p>
+<h2>Managing your Streams</h2>
+<p>In this section, we'll look at how to <strong>manage the Streams you have created</strong>.</p>
+<h3>Managing Streams</h3>
+<p>You can manage your own Streams in various ways. You can:</p>
+<ul class="list-bullet">
+<li>
+<strong>Duplicate </strong>a Stream to create a new Stream from an existing Stream</li>
+<li>
+<strong>Archive </strong>Streams that are no longer needed</li>
+<li>
+<strong>Use</strong> <strong>advanced edit options</strong> to make changes to a Stream beyond what is available within Sales Assist</li>
+<li>
+<strong>Transfer</strong> a Stream to a teammate</li>
+</ul>
+<p>To manage your Streams, go to the <em>My Streams</em> section:</p>
+<ol>
+<li>Click on the <strong>Streams</strong> button in the navigation menu.</li>
+<li>You will see a list of Streams you have created. <strong>Hover your mouse </strong>over the Stream you want to manage.</li>
+<li>Click on the <strong>Edit</strong> button:<img src="https://help.uberflip.com/hc/article_attachments/360090549192/image.png" alt="image.png">
+</li>
+<li>The <strong>Manage Stream </strong>page will open for the selected Stream.</li>
+</ol>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>From the <em>My </em><em>Streams</em> section, you can also directly <strong>preview</strong>, <a href="#h_01F1K9WJ7EZ7VJPXFN0VXTTAHW" target="_self"><strong>share</strong></a>, or <a href="#h_01F1KCKGKRTPP23CP1GQV1TMHA" target="_self"><strong>view engagement activity</strong></a> for each of your Streams.</p>
+</div>
+<p>To <strong>duplicate</strong>, <strong>archive</strong>, or <strong>access advanced edit options</strong> for a Stream, follow these instructions:</p>
+<div class="accordion accordion--default">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>How to duplicate a Stream</strong></div>
+<div class="accordion__item-content">
+<p>You can copy any existing Stream to create a new Stream. This is useful if you have an existing Stream that you want to reuse for a different prospect.</p>
+<ol>
+<li>Open the <strong>Manage Stream </strong>page for the Stream you want to duplicate.</li>
+<li>In the top right, click on the <strong>Duplicate Stream</strong> button:<br><img src="https://help.uberflip.com/hc/article_attachments/4411407171469/image.png" alt="image.png">
+</li>
+<li>In the <strong>Duplicate This Stream</strong> window, enter a <strong>heading</strong>, <strong>message</strong>, and <strong>prospect</strong> for the new Stream:<br><img src="https://help.uberflip.com/hc/article_attachments/360090713451/image.png" alt="image.png">
+</li>
+<li>Click on <strong>Create Stream</strong>.</li>
+<li>Your <strong>new Stream will immediately be created</strong>. The new Stream will have the new heading, message, and prospect and logo you just set, but will otherwise be an exact duplicate of the existing Stream (the same template, content, customizations, etc.). From here, you can either modify the Stream further, or just share it right away.</li>
+</ol>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>How to archive a Stream</strong></div>
+<div class="accordion__item-content">
+<p>When you no longer need a Stream, you can archive it. This will effectively delete the Stream, removing it from your list of Streams in Sales Assist.</p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p>When you archive a Stream, a Sales Assist admin can still recover it for you if needed. However, any share data associated with the Stream will be lost forever as soon as you archive it.</p>
+</div>
+<ol>
+<li>Open the <strong>Manage Stream </strong>page for the Stream you want to archive.</li>
+<li>In the top right, click on the <strong>Archive Stream</strong> button:<br><img src="https://help.uberflip.com/hc/article_attachments/4411407197069/image.png" alt="image.png">
+</li>
+<li>After confirming that you want to archive the Stream, it will be <strong>removed from your list of Streams immediately </strong>(and associated share data will be removed from the <em>My Shares</em> section).</li>
+</ol>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>How to access advanced edit options for a Stream</strong></div>
+<div class="accordion__item-content">
+<p>If you want to customize your Stream beyond what's possible with the options available in Sales Assist, you can access advanced edit options in the Uberflip backend.</p>
+<ol>
+<li>Open the <strong>Manage Stream </strong>page for the Stream you want to archive.</li>
+<li>In the top right, click on the <strong>Advanced Edit in Uberflip</strong> button:<br><img src="https://help.uberflip.com/hc/article_attachments/4411407203213/image.png" alt="image.png">
+</li>
+<li>The Stream will <strong>open in the Uberflip backend</strong> in a new tab. Here, you can customize the Stream's settings as needed: for more details, see <a href="https://help.uberflip.com/hc/en-us/articles/360030689211" target="_blank" rel="noopener"><strong>this article</strong></a>.</li>
+</ol>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>How to transfer a Stream to a teammate</strong></div>
+<div class="accordion__item-content">
+<p>Transfer a Stream you've created to a teammate so they can continue the work.</p>
+<p><strong>Note:</strong> Transferring a Stream will remove it from your Streams list. You'll no longer have access to this Stream unless it's transferred back to you.</p>
+<ol>
+<li>Go to the <strong>Streams</strong> page in Sales Assist.  </li>
+<li>Click the meatball (three dot) icon, then click <strong>Transfer to Teammate.</strong> <img src="https://help.uberflip.com/hc/article_attachments/4423064539661/Untitled_design__22_.png" alt="Untitled_design__22_.png" width="600" height="234">
+</li>
+<li>Search for your teammate, and click their name once you find them. </li>
+<li>Click <strong>Confirm</strong>.</li>
+</ol>
+<p>The Stream will now appear in your teammates Streams list in Sales Assist. </p>
+</div>
+</div>
+</div>
+<p> </p>
+<h2>Creating your own content and templates</h2>
+<p>In this section, we'll look at how you can <strong>create your own content Items</strong> <strong>and templates</strong> in Sales Assist.</p>
+<h3>Creating and managing your own Items</h3>
+<p>You can <strong>create your own content Items</strong> directly within Sales Assist. This is useful for bringing documents you've created outside of Uberflip into Sales Assist, such as <strong>slide decks</strong>, <strong>spreadsheets</strong>, etc., or other <strong>one-off documents</strong> you've created especially for certain prospects. Unlike Items from your organization's content library, <strong>Items you have created are available only to you</strong>.</p>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>This feature is great for bringing in pricing sheets — especially in combination with the <a href="#h_01F1NQQMW6WGCM6THQZD9TSB69" target="_self" rel="undefined">passphrase protect feature</a>.</p>
+</div>
+<p>Depending on the content you're working with, you have two options when creating your own Items: you can either <strong>embed (iframe) the content</strong>, or <strong>display a link to open the content in a new tab</strong>.</p>
+<h4>Embed the content</h4>
+<p>If the content you want to share is allowed to be embedded, you can simply <strong>enter the URL where the content is hosted</strong> (e.g. a Google Docs URL), and Sales Assist will display that content within the Item:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360090720011/image.png" alt="image.png"></p>
+<p>You can embed almost any content that is <strong>hosted on the web</strong> and which is <strong>allowed to be embedded </strong>(not all content can be displayed in an iframe):</p>
+<ul class="list-bullet">
+<li>URLs that end with a supported Office Document filetype extension (<em>.doc/.docx/.ppt/.pptx/.xls/.xlsx</em>) will be displayed using the Office Web Viewer</li>
+<li>URLs ending with <em>.pdf</em> will be displayed using the Google PDF Viewer</li>
+<li>URLs to Google Docs file (including Docs, Sheets, Slides, etc.) will be displayed using the relevant Google viewer for that file type</li>
+</ul>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>Due to Dropbox restrictions, <strong>Sales Assist can't display content hosted on Dropbox </strong>by default. If you want to bring in content from Dropbox, your Sales Assist admin must complete <a href="https://help.uberflip.com/hc/en-us/articles/360058465311#when-i-create-a-content-item-using-a-link-to-dropbox-why-does-it-show-view-file-on-dropbox-instead-of-the-file-itself">additional setup steps</a>.</p>
+</div>
+<h4>Display a Link</h4>
+<p>Some content <strong>can't be embedded</strong>, such as Zoom or Gong recordings. In these cases you have the option of <strong>displaying a placeholder </strong>within your Item instead, with a <strong>button that opens the content in a new tab</strong>:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/4411583458445/Open_in_New_Window_Demo.gif" alt="Open_in_New_Window_Demo.gif"></p>
+<p>Using this option allows you to "embed" any kind of content in your Items, even if that content does not allow embedding.</p>
+<p>To <strong>create and manage your own Items</strong>, follow these instructions:</p>
+<div class="accordion accordion--default">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>How to create an Item</strong></div>
+<div class="accordion__item-content">
+<p>You can create your own Items, which you can share directly or add to Streams like any other Item in Sales Assist.</p>
+<ol>
+<li>Click on <strong>Search</strong> in the navigation menu.</li>
+<li>Below the search box, click on the <strong>My Items</strong> button:<br><img src="https://help.uberflip.com/hc/article_attachments/360090719671/image.png" alt="image.png">
+</li>
+<li>Click on the <strong>Create an Item </strong>button.</li>
+<li>In the <strong>Create and Insert Your Own Item</strong> window, <strong>paste the URL </strong>of your content into the <strong>Embed URL </strong>field:<br><img src="https://help.uberflip.com/hc/article_attachments/4411418509325/image.png" alt="image.png"><br>
+<ul>
+<li>Sales Assist will attempt to get an appropriate <strong>title</strong>, <strong>description</strong>, and <strong>thumbnail image</strong> for your content from the metadata of the URL you provided. If it can find these details, it will <strong>automatically prefill</strong><strong> the relevant fields</strong> for you.</li>
+</ul>
+</li>
+<li>If the content <strong>can't be embedded</strong> (e.g. because the website prevents embedding of their content), <strong>check the box</strong> beside <strong>Display Link instead of iFrame</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/4411583561229/image.png" alt="image.png">
+</li>
+<li>If needed, <strong>complete (or edit) the Title and Description</strong> <strong>fields</strong>.</li>
+<li>If you want to change the <strong>thumbnail image </strong>(or set one, if none was found) for your Item, either:
+<ul>
+<li>
+<strong>Enter the URL </strong>of the image you want to use (the URL must end in an image extension, like <em>.jpg, </em><em>.png</em>, etc.), or</li>
+<li>
+<strong>Click on an image</strong> in the image library created by your Sales Assist admin, to use it for your Item:<br><img src="https://help.uberflip.com/hc/article_attachments/360090719871/image.png" alt="image.png">
+</li>
+</ul>
+</li>
+<li>Optionally, you can also <strong>add some additional text</strong> that will be displayed below the embedded content. To do so, click on <strong>Add Context for Prospect</strong>, then type your text into the field that appears.</li>
+<li>When you're ready, click on the <strong>Create</strong> button to create your new Item.</li>
+<li>You'll be returned to the <strong>My Items</strong> view in the <em>Search</em> section, where you'll see your new Item listed:<br><img src="https://help.uberflip.com/hc/article_attachments/360090754592/image.png" alt="image.png">
+</li>
+<li>From here, you can <a href="#h_01F1P2329ATNRRQRT9GNGH549E" target="_self"><strong>preview</strong></a> your new Item, <a href="#h_01F1K9YJKZRHJ2BV8E0SV4RQ5R" target="_self"><strong>add it to a Stream</strong></a>, or <a href="#h_01F1GR4JKC8KRCW74C5T4XJBS5" target="_self"><strong>share it directly</strong></a> — just like any other content Item.</li>
+</ol>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>How to edit or delete your Items</strong></div>
+<div class="accordion__item-content">
+<p>You can modify or delete Items you have created at any time.</p>
+<ol>
+<li>Click on <strong>Search</strong> in the navigation menu.</li>
+<li>Below the search field, click on <strong>My Items</strong>.</li>
+<li>Find the Item you want to edit or delete in the list and <strong>hover your mouse over it</strong>.</li>
+<li>Click on the <strong>Edit</strong> button:<br><img src="https://help.uberflip.com/hc/article_attachments/360090765391/image.png" alt="image.png" width="601" height="209">
+</li>
+<li>The <strong>Edit Your Item</strong> window will open:<br><img src="https://help.uberflip.com/hc/article_attachments/360090799832/image.png" alt="image.png" width="482" height="499"><br>
+<ol>
+<li>To <strong>edit</strong> the Item: Use the fields to make any changes, then click on the <strong>Edit Item</strong> button to save your changes.</li>
+<li>To <strong>delete</strong> the Item: Click on the <strong>delete (trash) </strong>button in the lower left corner. After confirming that you want to continue, your Item will be deleted immediately (removing it from any Streams you had placed it in).</li>
+</ol>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<h3>Creating your own templates</h3>
+<p>In addition to the system templates that are created by your Sales Assist admins, you can also <strong>create personal templates</strong> to style your Streams. Unlike system templates, <strong>personal templates are available only to you</strong>.</p>
+<p>To <strong>create and manage personal templates</strong>, follow these instructions:</p>
+<div class="accordion accordion--default">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>How to create and customize a personal template</strong></div>
+<div class="accordion__item-content">
+<p>You can create your own personal templates, which you can use just like system templates in Sales Assist.</p>
+<ol>
+<li>Click on <strong>Search</strong>.</li>
+<li>
+<strong>Add Items that you want to be part of the template</strong> to your basket, then click on the <strong>New Stream</strong> button.
+<ul>
+<li>The Item(s) you add to your basket in this step will be part of the template, i.e. they will be added to the Stream anytime you select this template. If you prefer to create a template with <strong>no</strong> <strong>Items included</strong>, simply <strong>choose any random Item</strong> for this step, then <strong>remove it later</strong>.</li>
+</ul>
+</li>
+<li>In the <strong>Create a New Sales Stream</strong> form, <strong>skip directly to the template</strong> <strong>dropdown </strong>and choose the option <strong>+ Create New</strong>:<strong><br></strong><strong><img src="https://help.uberflip.com/hc/article_attachments/360090806352/image.png" alt="image.png"></strong>
+</li>
+<li>The <strong>Create a New Sales Stream</strong> form will change. <strong>Enter a name</strong> for your template, then click on the <strong>Create New Template</strong> button:<br><img src="https://help.uberflip.com/hc/article_attachments/360090774971/image.png" alt="image.png">
+</li>
+<li>The <strong>Manage Template</strong> page will open. Here, you can <strong>customize your template</strong> in the same way you would <a href="#h_01F1K9Y6PX1JJXJYJYY181PA5H" target="_self"><strong>customize a Stream</strong></a>. On templates specifically, you can:
+<ul>
+<li>Set the <strong>name </strong>and <strong>description</strong> of your template (these are only visible to you, and are not part of any Streams you create from this template)</li>
+<li>Add a <strong>custom banner image</strong> which will appear on all Streams created from this template</li>
+<li>Add a <strong>passphrase </strong>which will be applied to all Streams created from this template</li>
+<li>Use the <strong>advanced edit options</strong> by clicking on the <strong>Advanced Edit Template in Uberflip</strong> button in the top right to further customize the template:<br><img src="https://help.uberflip.com/hc/article_attachments/360090785731/image.png" alt="image.png">
+</li>
+</ul>
+</li>
+<li>At this stage you can also <strong>remove items from the template</strong> that you added in Step 2 (if you want a template with no Items):<br><img src="https://help.uberflip.com/hc/article_attachments/360090785791/image.png" alt="image.png">
+</li>
+<li>Any changes you make on this page will be <strong>saved automatically</strong>, so you can simply <strong>exit this page </strong>at any time (by navigating to another part of the app).</li>
+<li>Once created, <strong>your </strong><strong>templates will appear as an option</strong> when creating or editing a Stream:<br><img src="https://help.uberflip.com/hc/article_attachments/360090816792/image.png" alt="image.png">
+</li>
+</ol>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>How to edit or delete a personal template</strong></div>
+<div class="accordion__item-content">
+<p>You can modify or delete your personal templates at any time.</p>
+<ol>
+<li>Click on <strong>Streams</strong> in the navigation menu.</li>
+<li>The <em>My Streams</em> section will list your personal templates alongside your Streams, marked with a <strong>Template</strong> badge:<br><img src="https://help.uberflip.com/hc/article_attachments/360090818232/image.png" alt="image.png">
+</li>
+<li>
+<strong>Hover your mouse</strong> over the template you want to manage, then click on the <strong>Edit </strong>button:<br><img src="https://help.uberflip.com/hc/article_attachments/360090788631/image.png" alt="image.png">
+</li>
+<li>The <strong>Manage Template</strong> window will open:<br><img src="https://help.uberflip.com/hc/article_attachments/360090819532/image.png" alt="image.png"><br>
+<ol>
+<li>To <strong>edit</strong> the template: Use the fields to make any changes, or click on the <strong>Advanced Edit</strong> button in the top right for additional options. Any changes you make are <strong>saved automatically</strong>.</li>
+<li>To <strong>add Items</strong>: Click on <strong>Add more</strong>, add the Items to your basket, then click on <strong>Existing</strong> and choose the template from the list:<br><img src="https://help.uberflip.com/hc/article_attachments/360091162792/image.png" alt="image.png">
+</li>
+<li>To <strong>remove Items</strong>: Hover your mouse on the Item in the basket, then click on <strong>Remove</strong>.</li>
+<li>To <strong>delete</strong> the template: Click on the <strong>delete (trash) </strong>button in the lower left corner. After confirming that you want to continue, your Item will be deleted immediately (removing it from any Streams you had placed it in).</li>
+</ol>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<h2 id="h_01F1KCKGKRTPP23CP1GQV1TMHA">Tracking share engagement</h2>
+<p>In this section, we'll look at how you can <strong>keep track of how prospects are engaging</strong> with content you've shared through Sales Assist.</p>
+<h3>Tracking engagement in real-time with notifications</h3>
+<p>Sales Assist is able to <strong>notify you in real-time </strong>whenever there is activity on a link you've shared through the app. And because links created by Sales Assist are unique to specific shares, Sales Assist can <strong>attribute activity to specific shares</strong> (and, by extension, to the prospect associated with a share). As a result, you'll <strong>know exactly when your prospects are engaging</strong> with the content you've shared, and can <strong>follow up at just the right time</strong>.</p>
+<p>Here's how it works:</p>
+<ul class="list-bullet">
+<li>When you share a link to content, Sales Assist starts<strong> monitoring that content</strong> for activity</li>
+<li>While the app is open, Sales Assist checks every two minutes if there has been<strong> new activity</strong> on your shares</li>
+<li>If there is new activity, and that activity came from a link that's tied to a particular share, <strong>Sales Assist will send you a notification:<br><img src="https://help.uberflip.com/hc/article_attachments/360090829352/image.png" alt="image.png"></strong>
+</li>
+<li>You can then simply <strong>click on the notification to see more details</strong>
+</li>
+</ul>
+<p>Sales Assist can send you <strong>two types of notifications</strong>:</p>
+<ul>
+<li>If you're <strong>currently working in the app</strong>, it will send you an <strong>in-app notification</strong>.</li>
+<li>If the app is <strong>open, but not on the active tab</strong>, it will send you a <strong>desktop notification</strong>.</li>
+</ul>
+<p>If the app is <strong>not open</strong>, you won't get a notification — but you can still <strong>catch up on historical engagement</strong> <strong>records</strong> in the app when you log in again later.</p>
+<h3>Viewing share engagement and stats</h3>
+<p>Your prospects won't always be checking out your shares while you have Sales Assist open. For activity that took place <strong>while you were logged off</strong>, or for <strong>notifications you missed</strong>, you can use the <em>My Shares</em> section in Sales Assist to catch up.</p>
+<div class="accordion accordion--default">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>How to view engagement stats</strong></div>
+<div class="accordion__item-content">
+<ol>
+<li>To access the<em> My Shares</em> section, click on <strong>Shares </strong>in the navigation menu:<img src="https://help.uberflip.com/hc/article_attachments/360090830092/image.png" alt="image.png" width="582" height="54">
+</li>
+<li>Here, in the <strong>Stats</strong> tab, you'll see your Stream's activity data from the <strong>last 90 days</strong>. This includes <strong>Items views</strong>, how many <strong>people</strong> viewed your Stream, and for <strong>how long </strong>it was viewed. You'll also see <strong>performance over time</strong> and your <strong>top performing Items</strong>.<br><img src="https://help.uberflip.com/hc/article_attachments/4423036954253/Untitled_design__16_.png" alt="Untitled_design__16_.png" width="653" height="396">
+</li>
+</ol>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>How to view historical share engagement</strong></div>
+<div class="accordion__item-content">
+<p>You can visit the <em>My Shares</em> section at any time to review past engagement activity on your shares.</p>
+<ol>
+<li>To access the<em> My Shares</em> section, click on <strong>Shares </strong>in the navigation menu:<img src="https://help.uberflip.com/hc/article_attachments/360090830092/image.png" alt="image.png" width="582" height="54">
+</li>
+<li>Select the <strong>Events Log</strong> tab</li>
+<li>The <em>Event Log</em> section displays <strong>specific activity details</strong>, broken down by <strong>individual</strong> <strong>shares</strong> (prospect emails), for any of your shares that <strong>had activity in the past 90 days</strong>. By default, it will show <strong>only share activity that happened in the last 48 hours</strong>:<img src="https://help.uberflip.com/hc/article_attachments/4423046184717/Untitled_design__17_.png" alt="Untitled_design__17_.png">
+</li>
+<li>
+<strong>Use the filter dropdown</strong> to view older share activity for other shares (which had at least some share activity in the past 90 days). By default, the filter dropdown lists just shares with recent activity. You can also use the <strong>search field </strong>in the filter dropdown to find shares that do not appear in this list:<br><img src="https://help.uberflip.com/hc/article_attachments/360091083951/image.png" alt="image.png">
+</li>
+<li>You can also view historical share engagement for any Stream you've created directly from the <em>My Streams</em> section. To do so, just click on <strong>Streams</strong>, then <strong>hover your mouse over the Stream</strong> and click on the <strong>Activity</strong> button:<br><img src="https://help.uberflip.com/hc/article_attachments/360090831252/image.png" alt="image.png">
+</li>
+</ol>
+<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>Although Sales Assist attributes activity to specific prospects, keep in mind that <strong>this is an assumption</strong>: since the activity came from a link that's unique to your prospect, it's <em>most likely</em> that this is the person who visited the link — but Sales Assist has no way of knowing for certain.</p>
+</div>
+</div>
+</div>
+</div>
+<p> </p>
+<h2>What's next?</h2>
+<p>Now that you're a Sales Assist power user, go check out our FAQ, which has answers to common questions you might have as you use Sales Assist:</p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360058465311"><strong>Sales Assist: Frequently Asked Questions</strong></a></li>
+</ul>]]></description>
+         <guid isPermaLink="false">4426932031885</guid>
+         <pubDate>Mon, 14 Feb 2022 23:10:52 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

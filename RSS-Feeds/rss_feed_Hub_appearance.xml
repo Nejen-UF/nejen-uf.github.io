@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Hub appearance</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Create or edit a custom Hub menu</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/6275055448845-Create-or-edit-a-custom-Hub-menu</link>
+         <description><![CDATA[<p>Menus help you organize your content contextually, making it easier for your visitors to find what they’re looking for. Creating a Custom menu in Uberflip lets you fully customize and build your Hub’s navigation and content collections exactly how you want. This article will show you how it’s done.</p>
+<div class="callout callout--warning">
+<h4 id="h_01HNNGRJ2VCFH2PT1FH520K19J" class="callout__title">Important</h4>
+<p><span style="font-weight: 400;">With a custom menu, any newly added Streams need to be manually added to your menu.</span></p>
+</div>
+<h2 id="h_01HNNGRJ2VFB3H0STGZ6GJDVPN"><span style="font-weight: 400;">Create a Custom Menu</span></h2>
+<ol>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">In Uberflip, select <strong>Appearance</strong> from the sidebar menu, then click <strong>Menu</strong><br><img src="https://help.uberflip.com/hc/article_attachments/6276566129933" alt="oijhoij.png" width="200" height="382"></span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Toggle</span> <strong><em>Menu Settings</em></strong><span style="font-weight: 400;"> to </span><strong>Custom</strong><span style="font-weight: 400;"><br></span><strong>Note:</strong><span style="font-weight: 400;"> Default Hub menu settings means everything will be updated automatically based on your Streams.</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">Under <strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Custom Menu Structure</strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">, you can begin creating your custom menu<br><img src="https://help.uberflip.com/hc/article_attachments/6276613472269" alt="mceclip0.png" width="401" height="259"><br></span>
+</li>
+</ol>
+<h3 id="h_01HNNGRJ2VVR0XDQPPNK63GBS7"><span style="font-weight: 400;">Add a new menu item</span></h3>
+<ol>
+<li><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"><span style="font-weight: 400;">At the bottom of the </span><strong><em>Custom Menu Structure</em></strong><span style="font-weight: 400;"> section, click the rectangular box labeled </span><strong>+ Add Menu Item<br><img style="font-weight: 400;" src="https://help.uberflip.com/hc/article_attachments/6276658119821" alt="oijhb.png" width="497" height="130"><br></strong></span></li>
+<li>
+<span style="font-weight: 400;">In the modal that opens, choose to add either:</span>
+<ul>
+<li><span style="font-weight: 400;">a section head (which can have other categories nested under it)</span></li>
+<li><span style="font-weight: 400;">a website </span></li>
+<li><span style="font-weight: 400;">a stream link<br><img src="https://help.uberflip.com/hc/article_attachments/6276693860749" alt="Screen_Shot_2022-05-16_at_2.09.44_PM.png" width="401" height="335"><br></span></li>
+</ul>
+</li>
+<li>
+<span style="font-weight: 400;">Fill out the needed information for your selection:<br><br></span>
+<div class="tabs tabs--colored-1">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Section Head</span> <span class="tabs-link">Website</span> <span class="tabs-link">Stream Link</span>
+</div>
+<div class="tab">
+<span style="font-weight: 400;"><strong>Label</strong> (</span><em><span style="font-weight: 400;">required</span></em><span style="font-weight: 400;">): The text that appears in the menu </span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;"><strong>Class name</strong> (</span><em><span style="font-weight: 400;">optional</span></em><span style="font-weight: 400;">): Used for custom coding </span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;"><strong>Link</strong> (</span><em><span style="font-weight: 400;">optional</span></em><span style="font-weight: 400;">): Link to an existing Stream</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;"><strong>Icon</strong> (</span><em><span style="font-weight: 400;">required</span></em><span style="font-weight: 400;">): An icon to represent this item</span>
+</div>
+<div class="tab is-hidden">
+<span style="font-weight: 400;"><strong>URL</strong> (</span><em><span style="font-weight: 400;">required</span></em><span style="font-weight: 400;">): The destination URL when the menu item is clicked</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;"><strong>Label</strong> (</span><em><span style="font-weight: 400;">required</span></em><span style="font-weight: 400;">): The text that appears in the menu</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;"><strong>Class name</strong> (</span><em><span style="font-weight: 400;">optional</span></em><span style="font-weight: 400;">): Used for custom coding </span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;"><strong>Icon</strong> (</span><em><span style="font-weight: 400;">required</span></em><span style="font-weight: 400;"><span style="font-weight: 400;">): An icon to represent this item<br></span></span>
+<p> </p>
+<div class="callout callout--warning">
+<h4 id="h_01HNNJSD8ADPG0RY783EK1PE2Z" class="callout__title">Linking to your homepage?</h4>
+To add a link back to your homepage, use the "Stream Link" option and select "All (Hub Home)" in the Stream dropdown. Other methods of homepage linking may bypass important homepage functionalities built into Uberflip. </div>
+</div>
+<div class="tab is-hidden">
+<span style="font-weight: 400;"><strong>Stream</strong> (</span><em><span style="font-weight: 400;">required</span></em><span style="font-weight: 400;">): Link to an existing Stream</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;"><strong>Label</strong> (</span><em><span style="font-weight: 400;">required</span></em><span style="font-weight: 400;">): The text that appears in the menu</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;"><strong>Class name</strong> (</span><em><span style="font-weight: 400;">optional</span></em><span style="font-weight: 400;">): Used for custom coding </span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;"><strong>Icon</strong> (</span><em><span style="font-weight: 400;">required</span></em><span style="font-weight: 400;"><span style="font-weight: 400;">): An icon to represent this item<br></span></span>
+<p> </p>
+<div class="callout callout--warning">
+<h4 id="01HNNK0GP7YJRKJTYP9PRFSRVH" class="callout__title">Linking to your homepage?</h4>
+To add a link back to your homepage, use this "Stream Link" option and select "All (Hub Home)" in the Stream dropdown. Other methods of homepage linking may bypass important homepage functionalities built into Uberflip.</div>
+</div>
+</div>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>Add to Menu</strong>
+</li>
+</ol>
+<p> </p>
+<h3 id="h_01HNNGRJ2W7GAD3S9M1WYY1TB7"><span style="font-weight: 400;">Add a nested menu item</span></h3>
+<ol>
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In the </span><strong><em>Custom Menu Structure</em></strong><span style="font-weight: 400;"> section, find the menu item you want to add a nested item to</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">Under the item (and any current nested items), click the smaller rectangular box labeled<strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"> + Add Nested Menu Item<br><img src="https://help.uberflip.com/hc/article_attachments/6276143165325" alt="oijnmj.png" width="500" height="223"><br></strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In the modal that opens, choose to add either:</span>
+<ul>
+<li style="font-weight: 400;" aria-level="2"><span style="font-weight: 400;">a website </span></li>
+<li style="font-weight: 400;" aria-level="2"><span style="font-weight: 400;">a stream link</span></li>
+</ul>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Fill out the needed information for your selection:<br><br></span>
+<div class="tabs tabs--colored-1">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Website</span> <span class="tabs-link">Stream link</span> </div>
+<div class="tab">
+<span style="font-weight: 400;"><strong>URL</strong> (</span><em><span style="font-weight: 400;">required</span></em><span style="font-weight: 400;">): The destination URL when the menu item is clicked</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;"><strong>Label</strong> (</span><em><span style="font-weight: 400;">required</span></em><span style="font-weight: 400;">): The text that appears in the menu </span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;"><strong>Class name</strong> (</span><em><span style="font-weight: 400;">optional</span></em><span style="font-weight: 400;">): Used for custom coding</span>
+</div>
+<div class="tab is-hidden">
+<span style="font-weight: 400;"><strong>Stream</strong> (</span><em><span style="font-weight: 400;">required</span></em><span style="font-weight: 400;">): Link to an existing Stream</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;"><strong>Label</strong> (</span><em><span style="font-weight: 400;">required</span></em><span style="font-weight: 400;">): The text that appears in the menu </span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;"><strong>Class name</strong> (</span><em><span style="font-weight: 400;">optional</span></em><span style="font-weight: 400;">): Used for custom coding</span>
+</div>
+</div>
+</li>
+</ol>
+</ol>
+<h3 id="h_01HNNGRJ2W2NF1BHH344XR2855">Rearrange menu items</h3>
+<p>Once your menu items have been added, re-arrange them however you'd like by drag-and-dropping them on the menu editor page. </p>
+<p><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/6320933427469" alt="May-18-2022_09-58-16.gif" width="449" height="125"></span></p>
+<p><span style="font-weight: 400;">Now, you have full control over the way your content is organized and displayed.</span></p>
+<p><span style="font-weight: 400;">You can freely switch between the default menu and the custom menu you’ve created at any time—your custom menu settings will be saved for future use.</span></p>
+<p> </p>
+<h2 id="h_01HNNGRJ2WS0BV4HGZH90SF0QQ"><span style="font-weight: 400;">Delete or edit a menu item</span></h2>
+<h4 id="h_01HNNGRJ2WJ73D7BQ1E3F98TWK"><span style="font-weight: 400;">Edit a menu item: </span></h4>
+<p><span style="font-weight: 400;">Head to the Menu settings page (Appearance &gt; Menu) and click the pencil icon on any menu item to edit it.</span></p>
+<p><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/6320380773389" alt="mceclip0.png" width="501" height="91"></span></p>
+<h4 id="h_01HNNGRJ2W2H4QPAFNQSFF6YVF"><span style="font-weight: 400;">Delete a menu item:</span></h4>
+<p><span style="font-weight: 400;">Head to the Menu settings page (Appearance &gt; Menu) and click the trash icon on any menu item to delete it.</span></p>
+<p><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/6276571719181" alt="qedasd.png" width="502" height="91"></span></p>
+<p> </p>
+<p> </p>]]></description>
+         <guid isPermaLink="false">6275055448845</guid>
+         <pubDate>Mon, 16 May 2022 20:13:15 GMT</pubDate>
+      </item>
+      <item>
+         <title>Customize Hub page UI text or language with Custom Labels</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360028690851-Customize-Hub-page-UI-text-or-language-with-Custom-Labels</link>
+         <description><![CDATA[<hr>
+<p>Hubs have numerous predefined labels, such as "Latest Content", "Continue Reading", etc. With the Custom Labels tool, you can easily change these to anything you want, and even specify translations for non-English Hubs.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>Access to this feature is controlled by the <strong>Hub &gt; Custom Labels</strong> permissions (<strong>View</strong> and <strong>Edit</strong>).</li>
+<li>By default, the permissions necessary to use this feature are granted to all users in the <strong>Account Administrators</strong>, <strong>Content Managers</strong>, and <strong>Developers/Designers </strong>user groups.</li>
+</ul>
+<p> </p>
+<h2>About Custom Labels</h2>
+<p>Your Hub comes with standard labels for all of the various interface elements that users see and can interact with: titles, headings, buttons — basically, anywhere that text appears in your Hub's interface. Of course, one size doesn't fit all, so you can customize nearly all of these labels to make them consistent with your brand, and the language your company uses.</p>
+<p>To do that, you use the Custom Labels tool. This tool allows you to view all the labels across your Hub and modify them to whatever you want. And, if needed, you can also customize labels specifically at the Stream and Item levels, so that you can set custom labels for specific Streams and Items.</p>
+<p>Custom Labels also works with the <a href="https://help.uberflip.com/hc/en-us/articles/360020065732" target="_self">Hub Locale setting</a> to translate your Hub into other languages. Translations of the default labels are available for a number of languages, and you can customize any of the translated labels to fit your needs. Plus, for languages where no ready-made translation is available yet, you can use Custom Labels to create your own custom translation.</p>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p>If you have previously enabled custom labels or translations on a Hub through OnBrand customizations, you must <strong>disable these customizations before enabling Custom Labels</strong>. If you don't do this, the <strong>OnBrand customizations will override the functionality of the Custom Labels tool</strong>, which can lead to unexpected behavior in your Hub.</p>
+</div>
+<p> </p>
+<h2>Customize labels</h2>
+<h3>At the Hub Level</h3>
+<p>The main Custom Labels tool allows you to set custom labels that apply across your entire Hub: anywhere that a given label appears, any custom label you set will be displayed.</p>
+<ol>
+<li>Log in to Uberflip and navigate to the Hub you want to work with.</li>
+<li>In the sidebar menu on the left, click on <strong>Appearance &gt; Custom Labels</strong>.<br><img src="https://help.uberflip.com/hc/article_attachments/4405404979853/Hubs___Appearance_-_Custom_Labels_-_Uberflip.png" alt="Hubs___Appearance_-_Custom_Labels_-_Uberflip.png">
+</li>
+<li>You should now see a list of all the labels in your Hub. For instructions on how to modify these labels, <a href="#h_e132f767-d638-45e4-a92b-04ee06a589b3" target="_self">see below</a>.</li>
+</ol>
+<p> </p>
+<h3>At the Stream Level</h3>
+<p>You can also customize labels at the Stream level, which means that the custom labels you set will appear only on the specified Stream. Custom labels set at the Stream level will override any Hub-level customizations for the same label for that Stream.</p>
+<ol>
+<li>In Uberflip, click on <strong>Content</strong> in the sidebar menu on the left.</li>
+<li>On the right, <strong>click on the Stream</strong> for which you want to set custom labels (under the <strong>Streams</strong> tab).</li>
+<li>On the next page, click on the <strong>Custom Labels</strong> tab near the top:<br><img src="https://help.uberflip.com/hc/article_attachments/360029156291/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png" width="540" height="204">
+</li>
+<li>You should now see a list of all the labels that can be modified for this Stream. For instructions on how to modify these labels, <a href="#h_e132f767-d638-45e4-a92b-04ee06a589b3" target="_self">see below</a>.</li>
+</ol>
+<p> </p>
+<h3>At the Item Level</h3>
+<p>You can also customize labels at the Item level, which means that the custom labels you set are applicable only to that specific Item. Custom labels set at the Item level will override any Stream-level and Hub-level customizations for the same label for that particular Item.</p>
+<ol>
+<li>In Uberflip, click on <strong>Content</strong> in the sidebar menu on the left.</li>
+<li>On the right, click on the <strong>Items</strong> tab, then click on the <strong>Item</strong> for which you want to set a custom label.</li>
+<li>On the next page, click on the <strong>Custom Labels </strong>tab near the top:<br><strong><img src="https://help.uberflip.com/hc/article_attachments/360029155492/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png" width="507" height="198"></strong>
+</li>
+<li>You should now see a list of all the labels that can be modified for this Item. For instructions on how to modify these labels, <a href="#h_e132f767-d638-45e4-a92b-04ee06a589b3" target="_self">see below</a>.</li>
+</ol>
+<p> </p>
+<h3 id="h_e132f767-d638-45e4-a92b-04ee06a589b3">Set a Custom Label</h3>
+<p>The method for setting a custom label is the same regardless of whether you're doing so at the Hub, Stream, or Item level.</p>
+<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>The list of labels will be filtered automatically depending on where you are viewing it (i.e. at the Hub, Stream, or Item level) to only show labels that are relevant to that level.</p>
+</div>
+<ol>
+<li>Once you're on the Custom Labels tab, you will see a list of all available labels by default. You can use the <strong>Search box </strong>near the top to filter this list using keywords:<br><img src="https://help.uberflip.com/hc/article_attachments/360030077712/Hubs___Appearance_-_Custom_Labels_-_Uberflip.png" alt="Hubs___Appearance_-_Custom_Labels_-_Uberflip.png" width="701" height="216">
+</li>
+<li>You can also use the dropdown to the right to filter the list based on the interface categories that the labels belong to:<br><img src="https://help.uberflip.com/hc/article_attachments/360030077732/Hubs___Appearance_-_Custom_Labels_-_Uberflip.png" alt="Hubs___Appearance_-_Custom_Labels_-_Uberflip.png" width="491" height="344">
+</li>
+<li>The table of labels consists of three columns. Each line shows the default label (essentially the "label name") under the <strong>Standard Label</strong> column, the category it belongs to under the <strong>Category </strong>column, and a text box under the <strong>Custom Label</strong> column:<br><img src="https://help.uberflip.com/hc/article_attachments/360030046691/Hubs___Appearance_-_Custom_Labels_-_Uberflip.png" alt="Hubs___Appearance_-_Custom_Labels_-_Uberflip.png">
+</li>
+<li>By default, the same label text will appear in both the <strong>Standard Label </strong>and <strong>Custom Label </strong>boxes. To use a custom label instead of the default for a given label, <strong>type the text you want to use into the text box</strong> under the Custom Label column:<img src="https://help.uberflip.com/hc/article_attachments/360029146812/Hubs___Appearance_-_Custom_Labels_-_Uberflip.png" alt="Hubs___Appearance_-_Custom_Labels_-_Uberflip.png" width="602" height="73">
+</li>
+<li>To undo a custom label, simply remove the text from the text box. When no custom label is in use, the default label will appear in the text box in grey text.</li>
+<li>Whenever you make any change, it will be saved automatically, and will take effect immediately.</li>
+</ol>
+<div class="callout">
+<h4 class="callout__title">Info: Text Variables</h4>
+<p>Some of the labels contain text variables. You can identify them by the use of curly brackets around the variable, like this:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360029159491/Hubs___Appearance_-_Custom_Labels_-_Uberflip.png" alt="Hubs___Appearance_-_Custom_Labels_-_Uberflip.png"></p>
+<p>These variables are automatically filled in with information from your Hub. There are three variables:</p>
+<table style="height: 256px;" width="639">
+<tbody>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 209.667px;"><strong>Variable</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 209.667px;"><strong>Definition</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 209.667px;"><strong>Set under</strong></td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 209.667px;">
+<p><code class="no-padding">{{collectiontitle}}</code></p>
+</td>
+<td class="wysiwyg-text-align-center" style="width: 209.667px;">The title of the relevant Stream</td>
+<td class="wysiwyg-text-align-center" style="width: 209.667px;"><em>Content &gt; Streams &gt; Stream Name</em></td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 209.667px;">
+<p><code class="no-padding">{{company}}</code></p>
+</td>
+<td class="wysiwyg-text-align-center" style="width: 209.667px;">The name of your company</td>
+<td class="wysiwyg-text-align-center" style="width: 209.667px;"><em> Appearance &gt; Branding &gt; Company Name</em></td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 209.667px;">
+<p><code class="no-padding">{{author-full-name}}</code></p>
+</td>
+<td class="wysiwyg-text-align-center" style="width: 209.667px;">The name of the Item's author</td>
+<td class="wysiwyg-text-align-center" style="width: 209.667px;"><em>Account Settings &gt; Organization &gt; Users &gt; User Profile &gt; First Name/Last Name</em></td>
+</tr>
+</tbody>
+</table>
+<p>You can insert these variables into any custom label (including labels that do not include a variable by default).</p>
+</div>
+<p> </p>
+<h2>Translate labels with Hub Locale</h2>
+<p>The <a href="https://help.uberflip.com/hc/en-us/articles/360020065732" target="_self">Hub Locale setting</a> for your Hub defines the Hub's language and region for search engines and browsers, and determines the language of all the label text that appears across the Hub.</p>
+<p>The default setting of <em>English (United States</em><em>)</em> sets all label text to English (with US-style spelling where applicable). You can translate this label text to another language by changing the Hub Locale:</p>
+<ul>
+<li>If you change the Hub Locale to a language where a default translation is available (<a href="#h_09963153-4d6a-4a08-b8c4-5e3514a9e4dd" target="_self">see below</a>), all labels will be translated automatically (but you can still customize them with Custom Labels if you want).</li>
+<li>If you change the Hub Locale to a language without a preset translation, you can use Custom Labels to provide your own translations.</li>
+</ul>
+<p>To learn more about Hub Locale and how to set it, see <a href="https://help.uberflip.com/hc/en-us/articles/360020065732" target="_self">this article</a>.</p>
+<h3 id="h_09963153-4d6a-4a08-b8c4-5e3514a9e4dd">Default translation available</h3>
+<p>Ready-made translations of the default Hub labels are available for the most popular Hub languages. These are:</p>
+<ul>
+<li>Chinese (Simplified)</li>
+<li>French (Canadian)</li>
+<li>German</li>
+<li>Italian</li>
+<li>Spanish</li>
+</ul>
+<p>If you set your Hub Locale to any of these languages, all of the labels will be translated into that language automatically. For example, here is a set of default labels in <strong>English (United States)</strong>:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360029112812/Hubs___Appearance_-_Custom_Labels_-_Uberflip.png" alt="Hubs___Appearance_-_Custom_Labels_-_Uberflip.png"></p>
+<p>And the same labels when the Hub Locale has been set to <strong>Spanish (Spain)</strong>:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360029112792/Hubs___Appearance_-_Custom_Labels_-_Uberflip.png" alt="Hubs___Appearance_-_Custom_Labels_-_Uberflip.png"></p>
+<p>As with the English-language labels, you can also customize the default translations in any way you want.</p>
+<h3>No default translation available</h3>
+<p>If you set your Hub Locale to any language for which a default translation is <strong>not</strong> available, the standard labels will be the same as for <em>English (United States)</em>. For these languages, you can use the Custom Labels tool to translate them manually: simply type the translation into the appropriate Custom Label text box for each label.</p>
+<p>Once you have created custom translations for a given Hub Locale language, the translated labels will be saved to that Hub Locale setting, and can be applied to other Hubs by setting them to that Hub Locale.</p>]]></description>
+         <guid isPermaLink="false">360028690851</guid>
+         <pubDate>Wed, 22 May 2019 16:01:32 GMT</pubDate>
+      </item>
+      <item>
+         <title>How do I change the image when I share a Hub?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360025783112-How-do-I-change-the-image-when-I-share-a-Hub</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>How do I change the image that is shown when I share my Hub?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>The image that is shown whenever you share your Hub is the <strong>Hub Thumbnail</strong> that you set. You can change it in your Hub under <strong>Appearance &gt; Branding &gt; Images &gt; Hub Thumbnail</strong>. For more information on branding and customizing the appearance of your Hub, see <a href="https://help.uberflip.com/hc/en-us/articles/360020130171-Get-Started-Branding-Customization-Options-on-Your-Hub#hero-logo-background-banner-favicon-images">this article</a>.</p>]]></description>
+         <guid isPermaLink="false">360025783112</guid>
+         <pubDate>Fri, 29 Mar 2019 19:48:30 GMT</pubDate>
+      </item>
+      <item>
+         <title>What are the SEO Title and SEO Description fields used for?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360021612892-What-are-the-SEO-Title-and-SEO-Description-fields-used-for</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>I have seen <strong>SEO Title</strong> and <strong>SEO Description</strong> fields in various places around the Hub. What do these fields do?</p>
+<p>For example:</p>
+<ul>
+<li>
+<strong>Hub Level </strong>(<em>Appearance &gt; Branding &gt; </em><em>Text</em> <em>&gt; SEO Title</em>):<br> <img src="https://help.uberflip.com/hc/article_attachments/360018632212/Hubs___Branding_-_Uberflip_-__Private_Browsing_.png" alt="Hubs___Branding_-_Uberflip_-__Private_Browsing_.png" width="699" height="420">
+</li>
+<li>
+<strong>Stream Level </strong>(<em>Content &gt; </em><em>Manage Stream</em> &gt; <em>Metadata</em>):<br> <img src="https://help.uberflip.com/hc/article_attachments/360018632312/Hubs___Manage_-_Uberflip_-__Private_Browsing_.png" alt="Hubs___Manage_-_Uberflip_-__Private_Browsing_.png" width="701" height="243">
+</li>
+<li>
+<strong>Item Level</strong> (<em>Content &gt; Edit Item &gt; SEO</em>):<br> <img src="https://help.uberflip.com/hc/article_attachments/360018632392/Hubs___Edit_Video_-_Uberflip_-__Private_Browsing_.png" alt="Hubs___Edit_Video_-_Uberflip_-__Private_Browsing_.png" width="700" height="307">
+</li>
+</ul>
+<p> </p>
+<h2>Answer</h2>
+<p>The purpose of the <strong>SEO Title</strong> and <strong>SEO Description</strong> fields is basically as the names suggest: these fields are used to tell search engines what to display when your Hubs, Streams or Items appear in search results. For example, here are the Hub-level SEO Title and SEO Description as set on the <a href="https://hub.uberflip.com/">Uberflip Content Experience Hub</a>:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360018633212/Hubs___Branding_-_Uberflip_-__Private_Browsing_.png" alt="Hubs___Branding_-_Uberflip_-__Private_Browsing_.png"></p>
+<p>And here's what it looks like when you Google "content experience hub":</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360018507691/content_experience_hub_-_Google_Search_-__Private_Browsing_.png" alt="content_experience_hub_-_Google_Search_-__Private_Browsing_.png" width="700" height="226"></p>
+<p>On a technical level, the SEO Title and SEO Description fields are used to set the<strong> meta tags</strong> that appear in the HTML of all pages in your Hubs. Specifically, the SEO Title and SEO Description settings define the values of the <code class="no-padding">meta name="title"</code> and <code class="no-padding">meta name="description"</code> tags, respectively. Search engines typically use the values of these tags for the titles and blurbs of pages that appear in their search results.</p>
+<p>On a related note, you might have noticed that the SEO Title and SEO Description fields are blank by default. What happens if you leave them that way? In this case the meta tags are populated using the primary title and description fields for that page, which are also used to set the page's Open Graph tags. You can learn more about this topic, and about Open Graph tags specifically, in <a href="https://help.uberflip.com/hc/en-us/articles/360021612952" target="_self">this article</a>.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>Keep in mind that, even if you set an SEO Title and SEO Description for a page, Google will not always use them in search results: in some cases, Google might use alternative text (e.g. from the body of the content) if it has deemed that it's more relevant to the search query.</p>
+</div>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360021612892</guid>
+         <pubDate>Thu, 10 Jan 2019 16:17:59 GMT</pubDate>
+      </item>
+      <item>
+         <title>How do I animate my CTAs?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360021798571-How-do-I-animate-my-CTAs</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>I've noticed that some Hubs (such as <a href="https://hub.uberflip.com/">Uberflip's Resource Hub</a>) have CTAs where the background image is animated. How can I use animated CTAs on my own Hub?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>Creating a CTA which is "animated" is actually pretty simple: you just set an animated GIF to be the background image for the CTA. The animated GIF then plays in a loop wherever the CTA is displayed.</p>
+<p>What makes this a little trickier is that you can't upload an animated GIF as the background image within the CTA Editor. Instead, you need to upload the GIF using the <a href="https://help.uberflip.com/hc/en-us/articles/360020277571" target="_self">Image Manager</a>, then use some <a href="https://help.uberflip.com/hc/en-us/articles/360018841312" target="_self">custom code</a> to add the GIF to the CTA as the background image. For instructions on how to do this, see <a href="https://help.uberflip.com/hc/en-us/articles/360029680311">this article.</a></p>]]></description>
+         <guid isPermaLink="false">360021798571</guid>
+         <pubDate>Wed, 09 Jan 2019 18:14:03 GMT</pubDate>
+      </item>
+      <item>
+         <title>Import a Custom Font Into Your Hub</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020344751-Import-a-Custom-Font-Into-Your-Hub</link>
+         <description><![CDATA[<hr>
+<p>Want to use a custom font on your Hub? Here's how to import and use it in your content.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>To follow the instructions in this article, you will need to use the <strong>Custom Code feature</strong> in Uberflip. To use this feature, and therefore to import a font, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+<li>You should also be generally familiar with the <a href="https://help.uberflip.com/hc/en-us/articles/360018841312" target="_self">Custom Code feature</a>, and comfortable with using it and working with custom code in your Hub.</li>
+<li>While not required, a basic understanding of HTML and CSS is helpful for following this guide.</li>
+</ul>
+<p> </p>
+<h2>About Importing Fonts</h2>
+<p>Uberflip comes with a variety of fonts for you to use in your Hub, so there's usually one for most tastes. But if there's a specific font you want to use that's not among the standard fonts, you can also import custom fonts into your Hub.</p>
+<p>If you want to import a custom font, that font needs to be hosted online. This could either be as part of a font library like the excellent (and free) <a href="https://fonts.google.com/">Google Fonts</a>, or simply on your own server — as long as it's available on the web, you can import any font you like. You can even import multiple fonts, such as if you want to use different fonts for headers and body text.</p>
+<p> </p>
+<h2>Import a Custom Font</h2>
+<p>To import a custom font into your Hub, you will use Custom Code to download the font and specify where it should be used. To do that, you will need to first get the URL where the custom font can be downloaded. This can either be <a href="#h_997172616391543514854516">from a font library on the web</a> (like Google Fonts), or <a href="#h_691532495771543514866946">from your own web server</a>. Once you have the URL, you can create a Custom Code Block to import the font into your Hub using HTML/CSS.</p>
+<p>The instructions below will look at importing a single font, but you can also import multiple fonts by simply repeating these steps.</p>
+<p> </p>
+<h3 id="h_997172616391543514854516">Option 1: Import the Custom Font From a Font Library</h3>
+<p>For this example we'll use Google Fonts, but the basic principle is the same if you use any other font library.</p>
+<ol>
+<li>Visit Google Fonts at <a href="https://fonts.google.com/">https://fonts.google.com/</a>.</li>
+<li>Find the font you want to import, and click on the <strong>+ </strong>button to add it to your selection.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016201251/Google_Fonts.png" alt="Google_Fonts.png">
+</li>
+<li>You'll see your selection appear in a black bar at the bottom of the screen. Click on this bar to expand it. <br><br><img src="https://help.uberflip.com/hc/article_attachments/360016150892/Google_Fonts_and_Zendesk_KB_Project.png" alt="Google_Fonts_and_Zendesk_KB_Project.png" width="701" height="383"><br><br>
+</li>
+<li>In the menu that appears, scroll down to the <strong>Embed</strong> tab (it should already be selected) and look at the <strong>Embed Font</strong> section. Here, you'll find two tabs: <strong>Standard</strong> and <strong>@Import</strong>. <br><br><img src="https://help.uberflip.com/hc/article_attachments/360016205891/Google_Fonts.png" alt="Google_Fonts.png"><br><br>
+</li>
+<li>These refer to the two methods you can use to <strong>get the URL for the font</strong> and therefore import it into your Hub. Both methods will work; we recommend using <strong>Standard</strong>, as it's faster. For either method, copy the code snippets from the boxes underneath <strong>Embed Font </strong>and <strong>Specify in CSS</strong>, then paste them somewhere you can get them again later (or just leave the Google Fonts browser window open).<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016152712/Google_Fonts.png" alt="Google_Fonts.png"><br><br>
+</li>
+<li>Now that you have the URL for the font, you can import it into your Hub with Custom Code. To begin, log in to your Uberflip account, click on <strong>Hubs</strong> (and select your Hub, if you have multiple), then click on <strong>Appearance &gt; Custom Code</strong> in the sidebar menu on the left.</li>
+<li>Click on the <strong>+</strong><strong>Add Code </strong>button and give your new Custom Code block a name and description, then click the blue <strong>Add Code</strong> button to create the block.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016207531/Hubs___Appearance_-_Custom_Code_-_Uberflip.png" alt="Hubs___Appearance_-_Custom_Code_-_Uberflip.png">
+</li>
+<li>On the next page, scroll down and click on the <strong>Code</strong> tab.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016154352/Hubs___Custom_Code_-_Uberflip.png" alt="Hubs___Custom_Code_-_Uberflip.png">
+</li>
+<li>Using the <strong>Placement</strong> dropdown menu, select the option specified by the font vendor. For the Google Fonts <strong>Standard</strong> option, for example, you would choose <strong>Head</strong>.</li>
+<li>
+<strong>Paste the embed code</strong> you copied earlier into the code field. For Google Fonts, for example, we need the code from the <strong>Embed Font </strong>field, like this:
+<pre>&lt;link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"&gt; </pre>
+</li>
+<li>Click on <strong>Save</strong> to save your Custom Code Block. <br><br><img src="https://help.uberflip.com/hc/article_attachments/360016157152/Hubs___Custom_Code_-_Uberflip.png" alt="Hubs___Custom_Code_-_Uberflip.png" width="491" height="504">
+</li>
+<li>Lastly, don't forget to switch the toggle under <strong>Enable Custom Code</strong> to the <strong>on (green)</strong> position!<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016157192/Hubs___Custom_Code_-_Uberflip.png" alt="Hubs___Custom_Code_-_Uberflip.png">
+</li>
+</ol>
+<div class="callout callout--info">
+<h4 class="callout__title">Info</h4>
+<p>If you're using <strong>a font library other than Google Fonts</strong>, the methods available may be similar, or they may be very different. Either way, the basic concept is usually the same: there should be a URL provided (typically as part of a code snippet), and you need to bring it into your Hub by creating a Custom Code Block. The font library will nearly always provide their own instructions for use, and these should provide the necessary details on how to import the font.</p>
+</div>
+<p> </p>
+<h3 id="h_691532495771543514866946">Option 2: Import the Custom Font From Your Web Server</h3>
+<p>The custom font you want to use might already be hosted on your web server, for example if it's also used on your website. If that's the case, you can simply import it from there using the CSS <em>@font-face</em> rule.</p>
+<ol>
+<li>First, you'll need to <strong>get the URL</strong> to download the font. Your website admin should be able to provide it to you. The URL needs to point specifically at the font file, and will usually look something like this:
+<pre>http://www.mywebsite.com/assets/fonts/fontname.woff</pre>
+</li>
+<li>Once you have the URL, you can import the font into your Hub with Custom Code. To begin, log in to your Uberflip account, click on <strong>Hubs</strong> (and select your Hub, if you have multiple), then click on <strong>Appearance &gt; Custom Code</strong> in the sidebar menu on the left.</li>
+<li>Click on the <strong>+</strong><strong>Add Code </strong>button and give your new Custom Code block a name and description, then click the blue <strong>Add Code</strong> button to create the block.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016157572/Hubs___Appearance_-_Custom_Code_-_Uberflip.png" alt="Hubs___Appearance_-_Custom_Code_-_Uberflip.png" width="608" height="415"><br><br>
+</li>
+<li>On the next page, scroll down and click on the <strong>Code</strong> tab.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016154352/Hubs___Custom_Code_-_Uberflip.png" alt="Hubs___Custom_Code_-_Uberflip.png">
+</li>
+<li>Using the <strong>Placement</strong> dropdown menu, select <strong>Head</strong>.</li>
+<li>
+<strong>Paste this <em>@font-face</em> code template</strong> into the code field:<br>
+<pre>&lt;style&gt;<br>@font-face {<br> font-family: <strong>Font-Name;</strong><br> src: url(<strong>http://www.mywebsite.com/assets/fonts/fontname.woff</strong>) format("<strong>extension</strong>");<br>}<br>&lt;/style&gt;</pre>
+</li>
+<li>Use the code field to <strong>edit the bolded parts</strong> shown in the snippet above as follows:
+<ul>
+<li>
+<strong>Font-Name:</strong> Replace with the name of the custom font you're importing.</li>
+<li>
+<strong>http://www.mywebsite.com/...: </strong>Replace with the URL where the custom font is hosted on your web server (the URL you got earlier).</li>
+<li>
+<strong>extension</strong>: Replace with the file type of the custom font, which should be visible in the URL. For example, for <em>fontname.woff</em> enter <strong>woff</strong>; for <em>fontname.ttf</em> enter <strong>ttf</strong>, etc.</li>
+</ul>
+</li>
+<li>You should end up with something that looks like this:<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016213191/Hubs___Custom_Code_-_Uberflip.png" alt="Hubs___Custom_Code_-_Uberflip.png">
+</li>
+<li>Click on <strong>Save</strong> to save your Custom Code Block.</li>
+<li>Lastly, don't forget to switch the toggle under <strong>Enable Custom Code</strong> to the <strong>on (green)</strong> position!<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016157192/Hubs___Custom_Code_-_Uberflip.png" alt="Hubs___Custom_Code_-_Uberflip.png">
+</li>
+</ol>
+<p> </p>
+<h2>Use a Custom Font in Your Hub</h2>
+<p>By following the steps up to this point, you have specified where your custom font can be downloaded. You can now use the font anywhere in your Hub by simply referencing it, and a visitor's browser will know where to download that font so that your content displays properly.</p>
+<p>To use your custom font in your Hub, you need to create Custom Code that tells your Hub where it should override the default font with your custom font.</p>
+<p>Start by creating a new Custom Code Block (<strong>Appearance &gt; Custom Code &gt; +Add Code button &gt; Type in name/description &gt; Add Code button</strong>). Open it up and switch to the <strong>Code</strong> tab, then set the <strong>Placement</strong> dropdown to <strong>Head</strong>.</p>
+<p>Now, type CSS into the code field to specify where you want to use the font. You can be as general or specific as you like. The exact code you'll use will depend on what exactly you're trying to achieve, but in general:</p>
+<ul>
+<li>You will use the CSS <a href="https://www.w3schools.com/cssref/pr_font_font-family.asp"><strong><em>font-family</em> property</strong></a> to specify the font to be used</li>
+<li>The value you will use for <em>font-family</em> will be the <strong>font name specified in your import code</strong>. For example, Google Fonts provides a snippet you can use:<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016215171/Google_Fonts.png" alt="Google_Fonts.png"><br><br>
+</li>
+<li>You can specify exactly where the font should be used as follows:
+<ul>
+<li>Define particular HTML elements referencing HTML tags, like <em>h1</em>, <em>p</em>, etc.</li>
+<li>Define particular parts of the Hub by referencing CSS classes, like <em>.header-intro</em>
+</li>
+<li>Combine both tags and classes to narrow it down further</li>
+</ul>
+</li>
+<li>Also, don't forget to include fallback fonts for compatibility! Declare two or three <a href="https://www.w3schools.com/cssref/css_websafe_fonts.asp">web-safe fallback fonts</a> along with a generic family (e.g. <em>serif</em>, <em>sans-serif</em>, <em>cursive</em>, etc.), just in case a visitor's browser doesn't support your custom font.</li>
+</ul>
+<p>Below, we've provided some code examples for general cases to get you started:</p>
+<h3>Example 1: Same Custom Font for Everything</h3>
+<p>If you just want to use the one custom font for all text in your Hub, you can use this snippet. Don't forget to replace the name of the custom font and the fallbacks with the appropriate values.</p>
+<pre>&lt;style&gt;<br>body {<br>      font-family: 'Raleway', Arial, sans-serif; <br>}<br>&lt;/style&gt;</pre>
+<p> </p>
+<h3>Example 2: Different Custom Fonts for Headings and Paragraphs</h3>
+<p>If you want to use different custom fonts for headings and paragraphs, you can use this snippet. Remember that you must have also imported all custom fonts that you're referencing. Don't forget to replace the name of the custom font and the fallbacks with the appropriate values.</p>
+<pre>&lt;style&gt;<br>h1, h2, h3, h4, h5, h6 {<br>      font-family: 'Roboto Slab', Times New Roman, serif;<br>}<br>p, a, li, ul {<br>      font-family: 'Roboto', Arial, sans-serif;<br>&lt;/style&gt;</pre>
+<div class="callout callout--info">
+<h4 class="callout__title">Info</h4>
+<p>Note that neither of the above snippets will override the font used for CTA <strong>buttons</strong> (although the CTA tagline on a Link CTA, and the form text on a Form CTA <em>will</em> use the custom font).</p>
+<p>To also modify the font for CTA buttons, you will also need to separately target <strong>.cta-button</strong> in your code, for example:</p>
+<pre>&lt;style&gt;<br>body, .cta .cta-button {<br> font-family: 'Raleway', Arial, sans-serif; <br>}<br>&lt;/style&gt;</pre>
+</div>]]></description>
+         <guid isPermaLink="false">360020344751</guid>
+         <pubDate>Wed, 28 Nov 2018 23:01:37 GMT</pubDate>
+      </item>
+      <item>
+         <title>Customize and brand your Hub</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020130171-Customize-and-brand-your-Hub</link>
+         <description><![CDATA[<p>Learn how to customize the look and feel of your Hub to be consistent with your company's brand.</p>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>To use the features described in this article, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+</ul>
+<p> </p>
+<h2>Customize Your Hub's Branding</h2>
+<p>Your Hub will look great even if you do absolutely nothing to customize it. But let's be honest: that's not going to cut it. You're using your Hub to present your content for your audience, so it's important that it reflects your brand. That's why we have all kinds of ways for you to customize the appearance of your Hub. In this article, we'll give you an overview of the things you can do to get your Hub looking the way you want.</p>
+<p> </p>
+<h2>Custom Domains</h2>
+<p>How do visitors get to your Hub? With a URL, which means that your Hub's domain is the first thing they'll see. When you set up a brand new Hub, the default, co-branded domain usually looks something like this:</p>
+<pre><em>http://mycompany.uberflip.com</em></pre>
+<p>Make a great first impression by using a <strong>custom domain</strong> instead. This will allow you to host your Hub on a domain that looks like this:</p>
+<pre><em>http://resources.mycompany.com</em></pre>
+<p>Or like this:</p>
+<pre><em>http://www.mycompany.com/resources</em></pre>
+<p>Learn all about custom domains in <a href="https://help.uberflip.com/hc/en-us/articles/360018876192">this article</a>.</p>
+<p> </p>
+<h2>Hero Logo, Background, Banner &amp; Favicon Images</h2>
+<p>There are several ways you can customize your Hub's branding with images. You can customize all of these under <strong>Hubs &gt; Appearance &gt; Branding &gt; Images</strong>.</p>
+<p>The <strong>background and hero</strong> images are what visitors will see first when they arrive at your Hub — so if you don't add any, it'll look something like this:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360015842012/itemeditorimage_53ac853d99ee4.png" alt="itemeditorimage_53ac853d99ee4.png"></p>
+<p>Pretty boring, right? Now let's add a <strong>hero </strong><strong>logo</strong> and <strong>background</strong> image:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360015842032/itemeditorimage_53ac85592ec04.png" alt="itemeditorimage_53ac85592ec04.png"></p>
+<p>Much better! With a hero logo and background in place, your visitors will be greeted with a visually appealing experience that's also consistent with the rest of your brand's online presence.</p>
+<p>The same thing goes for your <strong>banner</strong>, as well. The banner sits at the top of your Hub as visitors navigate through your content. It reminds your visitors of who you are and where they are. Without a banner, your Hub will look like this:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360015890611/itemeditorimage_53ac85936f512.png" alt="itemeditorimage_53ac85936f512.png"></p>
+<p>Add your logo to the banner, and this is what it will look like instead:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360015890591/itemeditorimage_53ac85afd4f0a.png" alt="itemeditorimage_53ac85afd4f0a.png"></p>
+<p>As you can see, uploading your logo will go a long way towards branding your Hub.</p>
+<p>Finally, don't forget the <strong>favicon</strong>! It's a subtle detail that's easy to overlook, but it can make a big difference. Here's what it might look like when you add your favicon:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360015841992/itemeditorimage_53ac85d467c93.png" alt="itemeditorimage_53ac85d467c93.png"></p>
+<p>So what's the big deal? When someone bookmarks your Hub, this little favicon will be its visual representation. That's especially important on mobile device browsers, where bookmark favicons are often very prominent on the browser's homescreen. With no favicon, this space will be blank — and who wants to click on that?</p>
+<p> </p>
+<h2>Colors</h2>
+<p>Colors are a huge part of most brand identities, so it's important that your Hub uses your brand's colors as well. You can customize these under <strong>Hubs &gt; Appearance &gt; Branding &gt; Colors</strong>. We recommend using the hexadecimal color values for your brand colors, which you should be able to get from your web designer/developer.</p>
+<p>If you opt for a side menu rather than a top menu for your Hub, the menu items will be represented by icons. <strong>Navigation color </strong>determines the background color of those icons. Our example company <em>Targetly</em> uses turquoise as one of its brand colors, so if we change the navigation color to turquoise, it will look like this:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360015891311/itemeditorimage_53ac861322e19.png" alt="itemeditorimage_53ac861322e19.png"></p>
+<p><strong>Background + Link Color</strong> determines the color of the background on your Hub's homepage, as well as the color of links. This will only apply to the background if you didn't replace it with a background image as we recommended above, so it usually applies to links primarily. <em>Targetly</em>'s other brand color is red, so here's what it looks like if we set the background + link color to red:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360015842872/itemeditorimage_53ac8637167be.png" alt="itemeditorimage_53ac8637167be.png"></p>
+<p>It's a great way to feature another of your brand's colors in your Hub, and really helps to create a unified experience.</p>
+<p> </p>
+<h2>Light/Dark Theme</h2>
+<p>The default look for all Hubs is a clean, bright white theme. But maybe that doesn't really work for your brand? If so, no problem - just switch to the <strong>Dark Theme</strong> under <strong>Hubs &gt; Appearance &gt; Hubs Lab</strong>. This will give your Hub a dark appearance with prominent grays and blacks, like this:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360015891291/itemeditorimage_53ac865fee60d.png" alt="itemeditorimage_53ac865fee60d.png"></p>
+<p>The Dark Theme won't work for all brands, but it's an option if a darker appearance is what you're going for.</p>
+<p> </p>
+<h2>Custom Labels and Hub Descriptions</h2>
+<h4>Labels:</h4>
+<p>Your Hub comes with standard labels for the various interface elements that users see and can interact with. But since one size doesn't fit all, you can modify all of these labels however you like to make them more consistent with your brand and the language your company uses. Learn what you can change, and how to do it, in <a href="https://help.uberflip.com/hc/en-us/articles/360019827532">this article</a>.</p>
+<h4>Hub descriptions: </h4>
+<p>Your Hub descriptions can be edited at anytime. To do so, click <strong>Appearance</strong> in the sidebar menu, then click <strong>Branding</strong>. From here you can update: </p>
+<div class="input-box">
+<ul>
+<li class="input-box-header"><label>Company Name</label></li>
+<li class="input-box-header"><label style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Company Website</label></li>
+<li class="input-box-header">Font</li>
+<li class="input-box-header">Introduction</li>
+<li class="input-box-header">Full Description</li>
+<li class="input-box-header">Footer</li>
+<li class="input-box-header">SEO Title</li>
+<li class="input-box-header">SEO Description</li>
+</ul>
+</div>
+<p> </p>
+<h2>Advanced Customization: HTML, CSS and JavaScript</h2>
+<p>As you can see, you can do quite a lot to customize and brand your Hub with our basic customization tools. But these only scratch the surface of what's possible, and if you have the technical know-how (or a resource who does), you can take your Hub to a whole other level with Custom Code. Using Custom Code, you can add custom HTML, CSS and JavaScript to change pretty much anything in your Hub — the possibilities are endless.</p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Caution</h4>
+<p>Using custom code in your Hub does come with risks. Check out <a href="https://help.uberflip.com/hc/en-us/articles/13648673352333" target="_self">Using Custom Code: considerations and warnings</a> to learn more before implementing custom code.</p>
+</div>
+<p>Want to learn more? Check out <a href="https://help.uberflip.com/hc/en-us/articles/360018841312" target="_self" rel="undefined">Add HTML, CSS, and JavaScript to your Hub with Custom Code. </a></p>]]></description>
+         <guid isPermaLink="false">360020130171</guid>
+         <pubDate>Thu, 22 Nov 2018 17:12:21 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

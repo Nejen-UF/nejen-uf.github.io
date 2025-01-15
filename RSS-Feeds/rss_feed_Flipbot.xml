@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Flipbot</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Flipbot: What is Flipbot?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4492714153613-Flipbot-What-is-Flipbot</link>
+         <description><![CDATA[<div class="callout callout--danger">
+<h4 class="callout__title">Flipbot is being retired</h4>
+<p><strong>Flipbot will be going away on Nov. 1st, 2023.</strong> Check out <a href="https://help.uberflip.com/hc/en-us/articles/14929481971341" target="_self">Flipbot is being retired [Nov. 2023]</a> for details. </p>
+</div>
+<h2 id="how-does-flipbot-work">What is Flipbot?</h2>
+<p>Flipbot is an Uberflip app designed to help you track a prospect's content journey. When a prospect views a Sales Stream, Flipbot notifies the owner of that Sales Stream by sending them a direct message in <strong>Slack</strong> (from <em>@flipbot</em>), or by <strong>email</strong> (or both).</p>
+<h2 id="how-does-flipbot-work">How Does Flipbot Work?</h2>
+<p>When a prospect visits your Sales Stream, you'll be notified (by Slack, Email, or both). This way you'll have the where, what, when and who information needed to follow up with prospect at the perfect time. Each notification is a bit different than the last, so you can easily follow their journey. </p>
+<h3 id="initial-notification">Initial Notification</h3>
+<p>When an <strong>unknown</strong> prospect visits a Sales Stream (i.e. an anonymous visitor), Flipbot will send a simple message to that Stream’s owner. It looks like this in Slack:</p>
+<p><img src="https://flipbot.uberflip.com/images/flipbot-slack.png" alt="img" width="498" height="126"></p>
+<p>And like this by email:</p>
+<p><img src="https://flipbot.uberflip.com/images/flipbot-email.png" alt="img" width="601" height="430"></p>
+<p>Flipbot also connects to your Marketing Automation Platform (MAP), so if the prospect is <strong>known</strong> (has a profile in your MAP), Flipbot will send a much more detailed message:</p>
+<p><img src="https://flipbot.uberflip.com/images/o7ZwNpJ0BIfvZPSJNTv_j14XRD5blPogjq_8lrzq25HvzKKoiy1_iCO0MlMm0jfaMKyiuzcpGpl50eEe59L_S7FbxppCpgpSyFUHDAB_I4O5dRcKRRM8rzUS_7zcSdZLgr1vpDKH.png" alt="img" width="501" height="231"></p>
+<p>The information displayed in this message (i.e. email, title, etc.) is fully customizable. To help distinguish between different prospects, each individual prospect is randomly assigned one of 30 emoji faces (like the Koala in the screenshot above).</p>
+<h3 id="subsequent-notifications">Subsequent Notifications</h3>
+<p>After the initial visit, every time a known or unknown prospect subsequently views an Item in a Stream, Flipbot will notify the Stream owner with a shorter, “partial” message:</p>
+<p><strong><img src="https://flipbot.uberflip.com/images/lYk8Vi1vlna6H9aOy_FGqhAc8cntND6_LklnOtICZ8zvsT3g0JHie8u8mgxUlakLtk3RTjUHv87gTZtaX3x9hieSZ9y_yZBWLfa5ud6HuaG34yP-pmT3o6QUyZTggOi240FSqdmu.png" alt="img" width="593" height="50"></strong></p>
+<ul>
+<li>Each of these messages also indicates the total number of Items viewed by the prospect to date. This number only counts unique views, so repeated views of the same Item are not included. Likewise, views of the Stream homepage are not included in this count, either.</li>
+<li>If a prospect views an Item that they have previously viewed again, Flipbot will only send a new message notification if more than 30 minutes have passed since they last viewed the Item.</li>
+</ul>
+<p>As a prospect visits more Items within a Stream, Flipbot modifies the “partial” messages with indicators to highlight particularly engaged prospects. When a prospect views their third Item, the message looks like this:</p>
+<p><img src="https://flipbot.uberflip.com/images/jHHY5gXhM_IkOm90T6nR6OQeQp6y9hMGj5W-OWmDpE0SkXArndpzAUn0q8QoPHLwPfCogW322-A0Q5YxKwcuTP_GACw4n5_ocLxYaSN-YI2q48iqUL7YHwcJ_h7spEq4WuqMzsJ1.png" alt="img" width="597" height="58"></p>
+<p>On the fourth Item, the message looks like this:</p>
+<p><img src="https://flipbot.uberflip.com/images/image08.png" alt="img" width="603" height="56"></p>
+<p>And after five or more Items, the message looks like this:</p>
+<p><img src="https://flipbot.uberflip.com/images/svMKSaqv6rr5XNQbNZEHuMYn92A-iwyW7eMY-7uofsQVvfntO-pOu4K3WHRsxy30BV4lJyYyHadPFKo8EK_QrhQwQuyG8W5TKVK39G4N7HaO5BIkycEhA2BBfz3CSEE88S8pzaga.png" alt="img" width="606" height="58"></p>
+<h3 id="cta-gating">CTA Gating</h3>
+<p>Lastly, you can also optionally profile unknown prospects by configuring Flipbot to gate Sales Streams with a Form CTA. When an unknown prospect visits a gated Sales Stream and completes the Form CTA, Flipbot will send a corresponding notification to the Stream’s owner:</p>
+<p><img src="https://flipbot.uberflip.com/images/lw6O-j2DjQYXT0tqo22bl9QmTngxoWtth7481DxUxU9fIEet_aG8WJ-m665mwcZZSiGlJAlPZ9FoyJUUd8njRn7FrTL87iP01JBekMX3YeT25XXPfHoqsa9JZsU5eUt6JL-HMjRp.png" alt="img" width="443" height="279"></p>
+<p>Want to try out Flipbot? Then head over to <a href="https://help.uberflip.com/hc/en-us/articles/4492852547085" target="_self" rel="undefined">Flipbot: Install and configure Flipbot</a> to learn how to get set up.</p>]]></description>
+         <guid isPermaLink="false">4492714153613</guid>
+         <pubDate>Thu, 24 Feb 2022 18:47:27 GMT</pubDate>
+      </item>
+      <item>
+         <title>Flipbot: Install and configure Flipbot</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4492852547085-Flipbot-Install-and-configure-Flipbot</link>
+         <description><![CDATA[<p>Ready to get started with Flipbot? This article will show you how to install and configure the app for all of its features.  </p>
+<div class="callout callout--danger">
+<h4 class="callout__title">Flipbot is being retired</h4>
+<p><strong>Flipbot will be going away on Nov. 1st, 2023.</strong> Check out <a href="https://help.uberflip.com/hc/en-us/articles/14929481971341" target="_self">Flipbot is being retired [Nov. 2023]</a> for details. </p>
+</div>
+<h2 id="requirements">Before you begin</h2>
+<ul>
+<li>To receive Slack notifications, you'll need a <strong>Slack</strong> workspace. If you don’t use Slack, Flipbot can also send email notifications instead.</li>
+<li>Flipbot only works with <strong>Sales Streams</strong>, so you must have this feature enabled in your Uberflip account.</li>
+<li>Flipbot identifies the owner of a Stream based on their email address. As a result, <strong>the Stream owner’s email address must be the same in both Uberflip and Slack</strong> in order for Flipbot to work correctly. For example, if the Stream owner has the email address <em>john.smith@example.com</em> in Uberflip, they must also use <em>john.smith@example.com</em> as their email address in Slack in order to receive Flipbot notifications.</li>
+</ul>
+<h2 id="installation--setup">Installation &amp; Setup</h2>
+<h2 id="step-1-install-the-flipbot-app">Step 1: Install the Flipbot App</h2>
+<p>The first thing you need to do is install Flipbot in your Uberflip account. You can do that from the Uberflip Marketplace, here:</p>
+<p><strong><a href="https://marketplace.uberflip.com/details/flipbot/">Uberflip Marketplace: Flipbot</a></strong></p>
+<h2 id="step-2-create-a-flipbot-form-cta">Step 2: Create a Flipbot Form CTA</h2>
+<p>Next, you need to <a href="https://help.uberflip.com/hc/en-us/articles/360020989871-Set-Up-a-Form-CTA">create a dedicated Form CTA</a> for Flipbot in Uberflip. Flipbot uses this Form CTA to communicate with your Marketing Automation Platform (MAP) and pull prospect details.</p>
+<ul>
+<li>When you create the Form CTA, the fields you choose to include will determine the information that Flipbot provides when it messages a Sales Stream owner (e.g. name, email, company, etc.).</li>
+<li>We also recommend adding the field “ID” (supported in most MAPs) to the Form CTA and setting it as hidden, as this allows Flipbot to differentiate prospect messages by including an emoji face.</li>
+<li>You can design the Form CTA any way you like, as you do not need to place/display it anywhere. The only exception to this is if you configure Flipbot to gate Sales Streams: in this case, the CTA will be displayed to unknown (not yet profiled) prospects.</li>
+<li>If you want to enable the gating option but also want to include fields that should not be visible to prospects, make sure to set these fields to “hidden”.</li>
+</ul>
+<p>When you create your Flipbot Form CTA, make a note of its CTA ID. You can find it in Uberflip under <em>Hubs &gt; Calls-To-Action</em>: hover your mouse over the CTA, and its ID will appear at the bottom of the CTA’s tile:</p>
+<p><img src="https://flipbot.uberflip.com/images/dAhPzTULOpnmpPVDwAdgdAlP6Qg25x7OcU6nGL5g_hoAhkWORp3YHVs5eN8xTwPC6ovUi9xekpD1VHVtpCdb9ixuKM4_JrIxVaxUxMJzR3bDd0OKdKSd_h83tAGW9rzmwURKgLAd.png" alt="img"></p>
+<h2 id="step-3-configure-flipbot">Step 3: Configure Flipbot</h2>
+<p>Now, you can configure Flipbot so that it works properly with your Slack workspace and MAP.</p>
+<p>You can configure Flipbot at the <strong>account level</strong> and at the <strong>Hub level</strong>. Setting up Flipbot at the account level will apply to all Hubs under that account. If you separately configure Flipbot at the Hub level for any Hub, these settings will override any account-level settings.</p>
+<p><strong>Here’s where you can find Flipbot’s settings:</strong></p>
+<ul>
+<li>
+<p><strong>Account Level:</strong> Navigate to <em>Account Settings &gt; Integration &gt; Connected Services &gt; Apps tab</em>, hover your mouse over Flipbot, then click on the <strong>Edit</strong> (pencil) button.</p>
+</li>
+<li>
+<p><strong>Hub Level:</strong> Navigate to <em>Hubs &gt; Integrations &gt; Apps</em> <em>tab</em>, hover your mouse over Flipbot, then click on the <strong>Edit</strong> (pencil) button.</p>
+</li>
+</ul>
+<p>For help with configuring Flipbot’s various settings, proceed to the <a href="#configuration" target="_self" rel="undefined">Configuration</a> section.</p>
+<h2 id="step-4-add-flipbot-to-slack-optional">Step 4: Add Flipbot to Slack (Optional)</h2>
+<p>The last thing to do is to add Flipbot to your Slack workspace. This is <strong>optional</strong>: if you only want to use email notifications, you can skip this step.</p>
+<p>To add Flipbot to Slack, click on the <strong>Add to Slack</strong> button:</p>
+<p><a href="https://slack.com/oauth/authorize?scope=users:read,users:read.email,bot,chat:write:bot,files:write:user&amp;client_id=2165772963.122484605042"><img src="https://platform.slack-edge.com/img/add_to_slack.png" alt="Add to Slack"></a></p>
+<p>Once added to your Slack workspace, Flipbot will be available to all users in that workspace.</p>
+<h2 id="configuration">Configuration</h2>
+<p>This page describes what Flipbot’s various settings do, and how to configure them.</p>
+<p>You can find the settings under <em>Account Settings &gt; Integration &gt; Connected Services &gt; Apps tab</em> (account-level settings) or <em>Hubs &gt; Integrations &gt; Apps tab</em> (Hub-level settings). In either place, hover your mouse over <em>Flipbot</em> and click on the <em>Edit</em> (pencil) button to open Flipbot’s settings.</p>
+<p>There are three types of settings:</p>
+<ul>
+<li>
+<strong>Required Settings</strong>: These settings must be configured for Flipbot to work.</li>
+<li>
+<strong>Optional Settings</strong>: These settings control non-essential functionality, and only need to be configured if you want to use the corresponding features.</li>
+<li>
+<strong>Extra Feature Settings</strong>: These settings control optional add-on features that aren’t part of Flipbot’s core functionality, but which are available when you install Flipbot.</li>
+</ul>
+<hr>
+<h2 id="required-settings">Required Settings</h2>
+<p>You must configure the following <strong>required</strong> settings:</p>
+<h4 id="map-integration-type"><strong>MAP Integration Type</strong></h4>
+<p>Use this field to specify the Marketing Automation Platform you’re using. You can enter any of the following values:</p>
+<ul>
+<li>
+<p><code class="no-padding">marketo</code></p>
+</li>
+<li>
+<p><code class="no-padding">hubspot</code></p>
+</li>
+<li>
+<p><code class="no-padding">eloqua</code></p>
+</li>
+<li>
+<p><code class="no-padding">pardot</code></p>
+</li>
+</ul>
+<h4 id="cta-id"><strong>CTA ID</strong></h4>
+<p>Use this field to enter the CTA ID for the dedicated Flipbot Form CTA that you created.</p>
+<h4 id="slack-team-id"><strong>Slack Team ID</strong></h4>
+<p>Enter your Slack Team ID into this field to receive Slack notifications from Flipbot. Slack notifications will be sent as direct messages to Sales Stream owners.</p>
+<p>To get your Team ID, log in to your Slack workspace in a browser and click on any channel, then look at the URL: the second-to-last part of the URL is your Team ID.</p>
+<p><img src="https://flipbot.uberflip.com/images/I0PnjX45xN4Ufv2nYH9HnCGm4h_2JYTsXPFx-5AjCVG32rm40LXtaFIqHPkO-E1boU4f-JHeNdfsd8wIC3IRND7mUDpq8tNez2_wl1ZpdQbfRAr4eUeYyNbTH3BPspZ8Pe8O2ZcS.png" alt="img"></p>
+<ul>
+<li>If the <em>Email Notification</em> setting is turned <strong>on</strong>, this setting is <strong>optional</strong>. Leave this field blank if you do <strong>not</strong> want to use Slack notifications (i.e. email notifications only).</li>
+</ul>
+<h4 id="email-notification">Email Notification</h4>
+<p>Toggle this switch on (green) to receive email notifications from Flipbot. Email notifications will be sent to the email address set in the Sales Stream owner’s Uberflip user account profile.</p>
+<ul>
+<li>If the <em>Slack Team ID</em> setting has been configured, this setting is <strong>optional</strong>. Leave this setting turned off if you do <strong>not</strong> want to use email notifications (i.e. Slack notifications only).</li>
+</ul>
+<blockquote>
+<p><strong>Note:</strong> You can also have Flipbot send <strong>both</strong> types of notifications by simply configuring both settings.</p>
+</blockquote>
+<hr>
+<h3 id="optional-settings">Optional Settings</h3>
+<p>You can also configure the following <strong>optional</strong> settings:</p>
+<h4 id="cta-gate"><strong>CTA Gate</strong></h4>
+<p>Use this setting to turn on the CTA gating option, which will display the designated Form CTA as an overlay when an unknown prospect views the Stream. The following values are accepted:</p>
+<ul>
+<li>
+<p><code class="no-padding">soft</code></p>
+</li>
+<li>
+<p><code class="no-padding">hard</code></p>
+</li>
+</ul>
+<p>Choose <code class="no-padding">soft</code> if you want prospects to be able to dismiss the CTA without completing it.<br>Choose <code class="no-padding">hard</code> if you want to force prospects to complete the CTA before they can view the Stream.</p>
+<p>Leave this field blank if you do <strong>not</strong> want to gate Sales Streams.</p>
+<blockquote>
+<p><strong>Note:</strong> The <em>CTA Gate</em> feature is not supported on mobile devices, so no CTA will be shown there even if the option is enabled.</p>
+</blockquote>
+<h4 id="cta-gate--delay-in-seconds"><strong>CTA Gate &gt; Delay (in seconds)</strong></h4>
+<p>If the <em>CTA Gate</em> feature is turned on, use this setting to specify an (optional) delay before the CTA appears as an overlay after the Stream loads.</p>
+<p>Leave this field blank if you want the CTA to appear immediately (no delay).</p>
+<h4 id="cta-gate--dismiss-label"><strong>CTA Gate &gt; Dismiss Label</strong></h4>
+<p>If the <em>CTA Gate</em> feature is turned on, and is set to the <code class="no-padding">soft</code> option, you can optionally use this setting to customize the link prospects can click to dismiss the CTA.</p>
+<p>Leave this field blank to use the default dismiss label (“No Thanks”).</p>
+<h4 id="ignore-ip-addresses"><strong>Ignore IP Addresses</strong></h4>
+<p>Use this setting to specify any IP addresses that you want Flipbot to ignore: if any listed IP visits a Sales Stream, Flipbot will not send a notification. This is useful for your own internal IP addresses, for example.</p>
+<ul>
+<li>Enter complete IP addresses in single quotes, e.g. <code class="no-padding">198.51.100.1</code>
+</li>
+<li>Separate multiple IP addresses with a comma, e.g. <code class="no-padding">198.51.100.1</code>, <code class="no-padding">198.51.100.24</code>
+</li>
+<li>Wildcard characters and CIDR notation are <strong>not</strong> supported.</li>
+</ul>
+<p>Leave this field blank if you do not want Flipbot to ignore any IP addresses.</p>
+<hr>
+<h3 id="extra-feature-settings">Extra Feature Settings</h3>
+<p>Flipbot also includes features, like <a href="https://help.uberflip.com/hc/en-us/articles/4494384049805" target="_self" rel="undefined">Magic Logo.</a> Use these settings to enable and configure these features. </p>
+<h4 id="magic-logo-header"><strong>Magic Logo Header</strong></h4>
+<p>Toggle this switch on (green) if you want to use the Magic Logo feature, which generates a personalized header for Sales Streams that do not use the <em>Banner+Logo</em> template. For more details and examples, see <a href="https://help.uberflip.com/hc/en-us/articles/4494384049805" target="_self" rel="undefined">this page</a>.</p>
+<h4 id="magic-logo-header--background-color"><strong>Magic Logo Header &gt; Background Color</strong></h4>
+<p>If the <em>Magic Logo</em> feature is turned on, use this setting to specify the background color for the header, e.g. your primary brand color.</p>
+<ul>
+<li>To use, type in the desired color’s Hex value (preceded by a #, e.g. <em>#0000FF</em>).</li>
+<li>If not set, the background color will default to <em>#CE0058</em> (rubine red).</li>
+</ul>
+<h4 id="magic-logo-header--background-image"><strong>Magic Logo Header &gt; Background Image</strong></h4>
+<p>If the <em>Magic Logo</em> feature is turned on, use this setting to optionally specify a background image to be displayed in the header.</p>
+<ul>
+<li>To use, enter the complete URL where the desired background image is hosted, e.g. <a href="https://www.mysite.com/background.jpg">https://www.mysite.com/background.jpg</a>.</li>
+<li>If not set, a random skyline image will be displayed.</li>
+</ul>
+<h4 id="blacklist-block-competitor-domains"><strong>Blacklist: Block Competitor Domains</strong></h4>
+<p>Use this setting to specify any web domains you want to block from accessing Sales Streams (e.g. competitor domains): if a visitor arrives on a Sales Stream with a specified domain (as reported by Bombora data), they will not be able to access the Stream, and will be shown a (customizable) message.</p>
+<ul>
+<li>To use, type in the domain(s) to be blocked, separated by a comma e.g. <em>mycompetitor.com,myothercompetitor.com</em>
+</li>
+<li>If not set, no domains will be blocked.</li>
+</ul>
+<h4 id="blacklist-denial-message"><strong>Blacklist: Denial Message</strong></h4>
+<p>If the <em>Blacklist: Block Competitor Domains</em> feature is configured, use this setting to specify the message to be displayed when a visitor is denied access to a Sales Stream.</p>
+<ul>
+<li>To use, type in the desired message.</li>
+<li>If not set, “Access Denied.” will be displayed by default.</li>
+</ul>
+<h4 id="debug-mode"><strong>Debug Mode</strong></h4>
+<p>Toggle this switch to on (green) to enable debug mode.</p>
+<ul>
+<li>When enabled, Flipbot will output more detailed information in the browser console for troubleshooting purposes.</li>
+</ul>
+<div class="pager"> </div>
+<div class="pager"> </div>]]></description>
+         <guid isPermaLink="false">4492852547085</guid>
+         <pubDate>Thu, 24 Feb 2022 18:59:35 GMT</pubDate>
+      </item>
+      <item>
+         <title>Flipbot: Activity Dashboard </title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4493588196749-Flipbot-Activity-Dashboard</link>
+         <description><![CDATA[<p>Uberflip's Flipbot app features a built-in <strong>Activity Dashboard</strong>, which gives you an overview of all Flipbot activity in your organization. This article will help you understand the dashboard and how to use it. </p>
+<div class="callout callout--danger">
+<h4 class="callout__title">Flipbot is being retired</h4>
+<p><strong>Flipbot will be going away on Nov. 1st, 2023.</strong> Check out <a href="https://help.uberflip.com/hc/en-us/articles/14929481971341" target="_self">Flipbot is being retired [Nov. 2023]</a> for details. </p>
+</div>
+<h2 id="what-is-the-flipbot-dashboard">What is the Flipbot Dashboard?</h2>
+<p>The Flipbot dashboard shows you which of your Sales Reps are receiving notifications about visitors to their Sales Streams, in particular:</p>
+<ul>
+<li>The total number of notifications for a selected period</li>
+<li>The top three Sales Reps who received the most Flipbot notifications over that period</li>
+<li>The trend of notifications over the selected period</li>
+<li>A listing of all Sales Reps and the proportion of total notifications that each received</li>
+<li>A breakdown of multi-Item visits by prospects across all Sales Streams</li>
+</ul>
+<p><img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" src="https://flipbot.uberflip.com/images/saMMDZe5YNVnnSNfpGu1GyBKwHYUHcXZ6aW3YDx-O_u50tsOXyCM9hKzVFqYl7vvEyqCZWLpTJ6coXQx0Qe7nZkmvD8HeyyK4-SBfmL-7-9kDvgvrrsHF2F4tcvbCVeevXR-rGIx.png" alt="img" width="600" height="537"></p>
+<p>When Flipbot is installed in your Uberflip account, the Flipbot dashboard will automatically be added to the <em>Hubs</em> menu in the Uberflip app.</p>
+<blockquote>
+<p><strong>Note:</strong> The Activity Dashboard is only available if you have configured Flipbot to send <strong>Slack</strong> notifications — it does <strong>not</strong> work if you’re using Flipbot with <strong>email</strong> notifications only.</p>
+</blockquote>
+<h2 id="how-to-use-the-flipbot-activity-dashboard">How To Use The Flipbot Activity Dashboard</h2>
+<p>To find the dashboard, <a href="https://app.uberflip.com/">log in to Uberflip</a> and select a Hub from the <em>Hubs</em> menu at the top. Click on <strong>Dashboard</strong> in the left sidebar menu to expand the list of available dashboards, then click on <strong>Flipbot Activity</strong>:</p>
+<p><img src="https://flipbot.uberflip.com/images/flipbot_dashboard.png" alt="img"></p>
+<p>On the right, click on <strong>Sign in with Slack</strong>. Once you have signed in, the dashboard should appear.</p>
+<p>To use the dashboard, simply choose the time period you want to view with the controls at the top. You can choose between eight different preset periods (from as recently as the current date up to the previous 90 days), or view data for all time (back to when you first installed Flipbot).</p>]]></description>
+         <guid isPermaLink="false">4493588196749</guid>
+         <pubDate>Thu, 24 Feb 2022 19:47:20 GMT</pubDate>
+      </item>
+      <item>
+         <title>Announcement: Video and calendar features removed from Flipbot [Feb. 2022]</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4494408627981-Announcement-Video-and-calendar-features-removed-from-Flipbot-Feb-2022</link>
+         <description><![CDATA[<h2><span style="font-weight: 400;">What is changing?</span></h2>
+<p><span style="font-weight: 400;">As of February 25th, 2022, </span><strong>Vidyard GoVideo</strong><span style="font-weight: 400;"> and </span><strong>Calendly CTA</strong><span style="font-weight: 400;"> features have been removed from the Flipbot app. These features cannot be accessed after that date. </span></p>
+<h2><span style="font-weight: 400;">Why is this changing?</span></h2>
+<p><span style="font-weight: 400;">These functionalities have moved to the Uberflip Sales Assist app.</span></p>
+<p><span style="font-weight: 400;">In 2021, we unveiled Sales Assist, an app that enables Sales reps to quickly build, share, and monitor personalized Streams for prospects. </span></p>
+<p><span style="font-weight: 400;">In January 2022, embedded video and calendar CTAs features arrived in Sales Assist, bringing even more capabilities than those available in Flipbot. </span></p>
+<p><span style="font-weight: 400;">As we now see how much our users love and utilize Sales Assist, we’ve decided to focus on the continued expansion of that tool. Sales Assist can do all the things Flipbot does, but with more features to back it up.</span></p>
+<h2><span style="font-weight: 400;">How can I continue to access video and calendar booking features?</span></h2>
+<p><span style="font-weight: 400;">Moving forward, you can access these features by installing the Sales Assist app. Get in touch with your Uberflip account manager to learn more. </span></p>
+<h2><span style="font-weight: 400;">What is Sales Assist?</span></h2>
+<p><span style="font-weight: 400;">Sales Assist is </span><strong>Uberflip's next-generation sales engagement tool</strong><span style="font-weight: 400;">. Marketing teams use Uberflip to create content, and Sales Assist </span><strong>empowers sales representatives with that content</strong><span style="font-weight: 400;"> by making it easy to find and use at any point during the sales cycle.</span></p>
+<p><span style="font-weight: 400;">With Sales Assist, you can:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Easily find content </strong><span style="font-weight: 400;">your prospects will love (or even create your own)</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Personalize content</strong><span style="font-weight: 400;"> in seconds</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Deliver content </strong><span style="font-weight: 400;">to prospects through </span><strong>personalized destinations</strong><span style="font-weight: 400;"> (Streams)</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Track engagement </strong><span style="font-weight: 400;">on content you've shared </span><strong>in real time</strong><span style="font-weight: 400;"> with desktop notifications</span>
+</li>
+</ul>
+<p><span style="font-weight: 400;">Sales Assist </span><strong>works within your existing sales workflows and tools</strong><span style="font-weight: 400;">, so it seamlessly integrates into your day-to-day and won't slow you down.</span></p>
+<h2><span style="font-weight: 400;">What is the future of Flipbot?</span></h2>
+<div class="callout callout--danger">
+<h4 class="callout__title">Flipbot is being retired</h4>
+<p><strong>Flipbot will be going away on Nov. 1st, 2023.</strong> Check out <a href="https://help.uberflip.com/hc/en-us/articles/14929481971341" target="_self">Flipbot is being retired [Nov. 2023]</a> for details. </p>
+</div>]]></description>
+         <guid isPermaLink="false">4494408627981</guid>
+         <pubDate>Thu, 24 Feb 2022 20:46:23 GMT</pubDate>
+      </item>
+      <item>
+         <title>Flipbot: Magic Logo feature</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4494384049805-Flipbot-Magic-Logo-feature</link>
+         <description><![CDATA[<p>Add a little personalization magic to your Sales Streams with Flipbot's Magic Logo feature.</p>
+<div class="callout callout--danger">
+<h4 class="callout__title">Flipbot is being retired</h4>
+<p><strong>Flipbot will be going away on Nov. 1st, 2023.</strong> Check out <a href="https://help.uberflip.com/hc/en-us/articles/14929481971341" target="_self">Flipbot is being retired [Nov. 2023]</a> for details. </p>
+</div>
+<hr>
+<h2 id="what-does-this-feature-do">What does Magic Logo do?</h2>
+<p>The Magic Logo feature personalizes your Sales Streams with an automatically generated banner.</p>
+<p>This feature is essentially an automated version of the <em>Banner+Logo</em> template option that is available for Sales Streams (and Marketing Streams). By default, Sales Stream headers look like this:</p>
+<p><img src="https://flipbot.uberflip.com/images/T0G1XZlVGrNsDXX6tF8_vlBK0YeS50kcfvxdKqtS7vXnFi9wXVzKJqgj__vr4EYlqZ3BUz1Sc_1p_fkhtjWU_ewNPNDxEAT96gnF4aJTVSyRaySYcwRLOx7_-1UZOePURW9OXNbg.png" alt="img"></p>
+<p>But with Magic Logo (or the <em>Banner+Logo</em> template) turned on, they look like this:</p>
+<p><img src="https://flipbot.uberflip.com/images/v_ijEsXn7IGqw6S2MdqESdzsz_2fcgL_ZFcRIj76pLhz6gZc1F8jH6-EGzsHTbKQR5tBhFWyemcrZ_fGNR_a4hnzApRALrG6fa4SEovOb-TUUppz3bXeq-sPr7AWNMSj64NhELPu.png" alt="img"></p>
+<p>When enabled, Magic Logo adds a banner to the top of your Sales Stream with the following elements:</p>
+<ul>
+<li>Your company logo (derived from your Hub’s favicon) and the recipient’s company logo (from Clearbit), separated by a heart glyphicon</li>
+<li>A slightly faded background image (either specified by you, or a randomized city skyline)</li>
+<li>A transparent background color overlaid on the background image (customizable in Flipbot settings)</li>
+</ul>
+<p>With Magic Logo, you don’t have to create a banner manually for every Sales Stream — just let Flipbot do it for you! This is especially useful when you create a Stream through the Uberflip Extension (where you can’t manually add a banner to your Stream).</p>
+<h2 id="how-to-enable-magic-logo">How To Enable Magic Logo</h2>
+<p>To use Magic Logo, simply turn on the option <strong>Magic Logo Header</strong> in Flipbot’s settings, and configure the additional options according to your preference. See here [link to Configuration page &gt; Extra Feature Settings] for instructions.</p>
+<blockquote>
+<p><strong>Note:</strong> Once Magic Logo is turned on, it will be active for all Sales Streams in the Hub(s) where Flipbot is installed! It’s not possible to turn it on/off for individual Sales Streams, but a workaround is available if Magic Logo isn’t returning the desired logo or you simply don’t want to use it on a particular Stream — see below for details.</p>
+</blockquote>
+<h2 id="how-magic-logo-works">How Magic Logo Works</h2>
+<p>Flipbot uses the <a href="https://clearbit.com/logo">free Logo API from Clearbit</a> to search for company logos. To know which company name to search for, Flipbot looks at the <strong>URL</strong> <strong>of the Sales Stream</strong>.</p>
+<p>A Stream’s URL is generated automatically from the Stream title, so a Stream with the title:</p>
+<p><em>A Stream for Microsoft</em></p>
+<p>Will generate this URL:</p>
+<p><em>…/a-stream-for-microsoft</em></p>
+<p>When Magic Logo is enabled, Flipbot searches for the string “-for-” in the URL, and assumes that the next word will be the company name, e.g. “<em>…/a-stream-for-</em><strong><em>microsoft</em></strong>". If it finds a match, Flipbot searches Clearbit for this company name, and uses the top hit to create the banner:</p>
+<p><img src="https://flipbot.uberflip.com/images/ojFN-F7QnZuQiHNG6q0D0ibrB3fPXGc3IoZ_RQcWXs9edTPpn1TY9D4gHTB3SIKIJ-rL8yrcGRF_0MyO3EbL2dB1KLCrBR3uJ3IQjDz5Zo9KOovRYoWBCX0Z060tGDUW5vcmIVOE.png" alt="img"></p>
+<p>If there are any dashes in the company name in the URL, Flipbot assumes these are spaces when searching Clearbit. For example, if the URL is “<em>…/a-stream-for-schneider-electric</em>", Flipbot will search for “schneider electric”:</p>
+<p><img src="https://flipbot.uberflip.com/images/dLyFGDL9kUj8KFrW6TrWRbaY15kiQIxf8sNf-oLh99QfV-w6O6_AByKGGTYF6Jso04Q0W-FW6C0xwq9bitwKuh7zrcOXqPO--2VhWNEfqo8WY55Qq0uqjdp6pPLfeRD73kABw88i.png" alt="img"></p>
+<h2 id="using--troubleshooting-magic-logo">Using &amp; Troubleshooting Magic Logo</h2>
+<p>For best results when using Magic Logo with Flipbot, you should name your Sales Streams using a format that Flipbot can understand: ideally, the resulting URL should end in “<em>…-for-[company]</em>".</p>
+<p>If Flipbot can’t find “-for-” in the URL, it simply searches for the full URL slug. This works fine if the URL is only the company name, but will generally fail if it includes any other words.</p>
+<p>Note that Flipbot will search Clearbit for <em>any</em> word(s) found after “-for-” in the URL, and this can lead to unexpected/undesirable results. For example, if you use the Stream title “Hi Bob, here’s some content for you”, Flipbot will search Clearbit for the word “you”, which will return this result:</p>
+<p><img src="https://flipbot.uberflip.com/images/zyPCsTg5Gm1Rh6pfUBwRkoB0DE5h2teGEYVfpngnMeqF6y_jxQWcXXh0Ss20eUU3QR8UTZfeqsFIktWNWTlF0OWTLr9g5fJMZbY1hNM39VUlVxFxPhwnAO2atZxo9v0qyggNInia.png" alt="img"></p>
+<p>As a result, we strongly recommend following a consistent naming format with your Sales Streams if you choose to use Magic Logo.</p>
+<h3 id="test-magic-logo">Test Magic Logo</h3>
+<p>You can check which logo the Magic Logo feature will use by sending a direct message to <strong>@flipbot</strong> in Slack. Use the command <em>/logocheck [company name]</em>, and insert the name of the company.</p>
+<p>If Flipbot can find a matching logo on Clearbit, it will show a preview:</p>
+<p><img src="https://flipbot.uberflip.com/images/n2etUhcJpEwISssb76-U7YD_FI7PtlNEVNWQmH_-RrldDKl2GF5XxU3zDivw1D6L0lAaqJwhWSe5246d4tu6pWqGDD6dggQRb_Zjyja3q0lt70oCZTjilTBWUI454Q6AEy5r9FKl.png" alt="img"></p>
+<p>If no match can be found, it will let you know:</p>
+<p><img src="https://flipbot.uberflip.com/images/Iwr3mMTwsNioEVkYWYqfWKKpK8ACbNf_gKIPWqmhI6GYzOMdTo5vwlsKx_Hafj1WF_fk-E2GBlYmP2U0wh0_H5WCmFCxTuV340fneYnBME1y4h3OWroH4a0OxdnvCsFx9EVZVq3V.png" alt="img"></p>
+<blockquote>
+<p><strong>Note:</strong> This works as long as you have installed Flipbot in your Slack workspace, even if you have configured it not to send Slack notifications.</p>
+</blockquote>
+<h3 id="workaround-to-disable-magic-logo">Workaround to Disable Magic Logo</h3>
+<p>If Magic Logo is not returning the logo you want, or if you simply don’t want to use it on a particular Stream, simply change the Stream URL to something that won’t return a result when Flipbot searches for a logo. You can verify that no result will be returned by using the <em>/logocheck</em> command in Slack detailed above.</p>
+<blockquote>
+<p><strong>Note:</strong> You can change the Stream URL independently of the title, so there’s no need to change the title when you do this.</p>
+</blockquote>
+<div class="pager"> </div>]]></description>
+         <guid isPermaLink="false">4494384049805</guid>
+         <pubDate>Thu, 24 Feb 2022 20:44:40 GMT</pubDate>
+      </item>
+      <item>
+         <title>Flipbot: Developer guide</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4493842270861-Flipbot-Developer-guide</link>
+         <description><![CDATA[<p>If you want to extend Flipbot’s capabilities, you can do so with Custom Code. Flipbot has a number of events that you can hook into with JavaScript to create custom functionality.</p>
+<div class="callout callout--danger">
+<h4 class="callout__title">Flipbot is being retired</h4>
+<p><strong>Flipbot will be going away on Nov. 1st, 2023.</strong> Check out <a href="https://help.uberflip.com/hc/en-us/articles/14929481971341" target="_self">Flipbot is being retired [Nov. 2023]</a> for details. </p>
+</div>
+<h2 id="method">Method</h2>
+<p>You can add functionality to Flipbook by using <code class="no-padding">FlipbotCustomFunction();</code>. Create this function in a Custom Code Block in the Uberflip app (with the <em>Body Bottom</em> placement), then use the following events and variables within it:</p>
+<h2 id="flipbot-events">Flipbot Events</h2>
+<p>You can trigger on the following events:</p>
+<ul>
+<li>
+<code class="no-padding">intrigued</code> fires when a visitor views their 2nd unique Item</li>
+<li>
+<p><code class="no-padding">engaged</code> fires when a visitor views their 3rd unique Item</p>
+</li>
+<li>
+<p><code class="no-padding">inLove</code> fires when a visitor views their 4th unique Item</p>
+</li>
+<li>
+<p><code class="no-padding">onFire</code> fires when a visitor views their 5th unique Item, or any unique Item thereafter</p>
+</li>
+<li>
+<p><code class="no-padding">reEngaged</code> fires when a visitor returns to view any Item after at least 30 minutes of inactivity</p>
+</li>
+<li>
+<p><code class="no-padding">gotMapUser</code> fires when the user’s MAP profile data is retrieved</p>
+<blockquote>
+<p><strong>Note:</strong> MAP profile data is available in the variable <code class="no-padding">Flipbot.vars.mapUser</code>. Before using, you should ensure that the variable is not empty.</p>
+</blockquote>
+</li>
+<li>
+<p><code class="no-padding">gotGeoData</code> fires when the visitor’s location data is retrieved</p>
+<blockquote>
+<p><strong>Note:</strong> Location data is available in the variable <code class="no-padding">Flipbot.vars.geoData</code>.</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="flipbot-variables">Flipbot Variables</h2>
+<p>Flipbot has a number of variables that you can leverage. These are listed in<code class="no-padding">Flipbot.vars</code>. To view a list of variables, use <code class="no-padding">console.log(Flipbot.vars)</code>.</p>
+<h2 id="example">Example</h2>
+<p>Below is an example of how you might customize Flipbot. This code snippet triggers a soft-gated CTA only when an unknown visitor engages with their second piece of content:</p>
+<div class="highlight">
+<div class="chroma">
+<pre><code class="language-javascript" data-lang="javascript"><span class="nx">Flipbot</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">'intrigued'</span><span class="p">,</span> <span class="kd">function</span><span class="p">(){</span>
+    <span class="k">if</span><span class="p">(</span><span class="nx">Flipbot</span><span class="p">.</span><span class="nx">vars</span><span class="p">.</span><span class="nx">mapUser</span> <span class="o">===</span> <span class="kc">false</span><span class="p">){</span>
+        <span class="nx">Flipbot</span><span class="p">.</span><span class="nx">showCta</span><span class="p">({</span><span class="s2">"id"</span><span class="o">:</span><span class="nx">Flipbot</span><span class="p">.</span><span class="nx">vars</span><span class="p">.</span><span class="nx">ctaConfig</span><span class="p">.</span><span class="nx">id</span><span class="p">,</span> 
+                         <span class="s2">"gate"</span><span class="o">:</span><span class="s2">"soft"</span><span class="p">,</span> <span class="s2">"delay"</span><span class="o">:</span><span class="mi">0</span><span class="p">,</span> <span class="s2">"dismiss"</span><span class="o">:</span><span class="s2">"Maybe later"</span><span class="p">})</span>
+    <span class="p">}</span>
+<span class="p">});</span></code></pre>
+</div>
+</div>
+<p>In this example, the initial configuration only provides a CTA ID, therefore no CTA is displayed initially, and instead is triggered manually.</p>
+<p><strong>Note:</strong> Using this method, the CTA <em>will</em> be displayed on mobile devices. This experience is not ideal, so we recommend that you specifically exclude mobile devices with any custom configuration. To check for mobile devices, use this variable: <code class="no-padding">Hubs.Config.isMobile</code>.</p>]]></description>
+         <guid isPermaLink="false">4493842270861</guid>
+         <pubDate>Thu, 24 Feb 2022 20:04:26 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

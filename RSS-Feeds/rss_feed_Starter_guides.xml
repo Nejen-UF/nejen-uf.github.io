@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Starter guides</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Get started: What is Uberflip?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/16545169557901-Get-started-What-is-Uberflip</link>
+         <description><![CDATA[<h2 id="h_01H98WJ8DY21HQ52XCBFP6ZJ4V">What is Uberflip?</h2>
+<p>Uberflip is a <strong>content experience platform. </strong></p>
+<div class="callout callout--info">
+<h3 id="h_01H98WJ8DY86WXM0YMXRJBH629">Content·Experience <span class="wysiwyg-font-size-medium"><em>(noun)</em></span>
+</h3>
+<p>Content experience can be defined as the environment in which your content lives, how it’s structured, and how it compels your prospects and customers to engage with your company throughout the entirety of the buyer’s journey.</p>
+</div>
+<p>Marketers and sales teams use Uberflip to create personalized, content-driven web pages for various audiences and prospects. These pages are designed to influence and control the buyer journey using existing marketing content. </p>
+<p> </p>
+<h2 id="h_01H98WJ8DYDETEP1MJYSR6CTC2">What can I do with Uberflip?</h2>
+<p><strong>With Uberflip, you can: </strong></p>
+<ul class="list-bullet">
+<li>
+<a href="https://help.uberflip.com/hc/en-us/articles/8469735684621" target="_self">Import</a> and <a href="https://help.uberflip.com/hc/en-us/articles/16548646155533" target="_self">organize</a> existing marketing content</li>
+<li>Curate collections of content for specific audiences/prospects</li>
+<li>Create various web pages filled with relevant content collections and Items</li>
+<li>Personalize those webpages for any audience/prospect</li>
+<li>
+<a href="https://help.uberflip.com/hc/en-us/articles/360020683852" target="_self">Add CTA Tiles to web pages</a> to capture visitor info and clicks</li>
+<li>
+<a href="https://help.uberflip.com/hc/en-us/articles/360024053672" target="_self">Recommend content anywhere</a> on the web</li>
+</ul>
+<p><strong>After pages and content are published, you can:</strong></p>
+<ul class="list-bullet">
+<li>
+<a href="https://help.uberflip.com/hc/en-us/articles/360035433571" target="_self">View analytics</a> on how your content experience pages are performing</li>
+<li>
+<a href="https://help.uberflip.com/hc/en-us/articles/10038158221709" target="_self">See who’s engaging with your content</a> <em>(with MAP and sales intelligence integrations)</em>
+</li>
+<li>Improve and iterate on your content experience pages</li>
+</ul>
+<p>And more… learn about all of our core features in <a href="https://help.uberflip.com/hc/en-us/articles/16546094896013">Get started: Uberflip’s core features</a>. </p>
+<p> </p>
+<h2 id="h_01H98WJ8DY7MS72NANYZ3YGCKE">Apps &amp; integrations</h2>
+<p>Uberflip integrates with your existing tech-stack to help connect and centralize your marketing efforts. Uberflip integrates with: </p>
+<ul>
+<li>Various <a href="https://help.uberflip.com/hc/en-us/articles/8469735684621">content hosting platforms</a> </li>
+<li>Marketing Automation Platforms (MAPs)</li>
+<li>Popular ABM &amp; Sales Intelligence platforms</li>
+<li><a href="https://help.uberflip.com/hc/en-us/sections/360002696591">Google tools </a></li>
+</ul>
+<p>And more!</p>
+<p>Uberflip also offers a Marketplace full of apps built by Uberflip and its partners, allowing you to expand on what you can do with your pages and content.</p>
+<p><strong>Learn about all of our apps &amp; integrations in the <a href="https://help.uberflip.com/hc/en-us/categories/360001113632">Marketplace &amp; Apps section of the Help Center</a>.</strong></p>
+<p> </p>
+<h2 id="h_01H98WJ8DYNEW8JNZP284G5BVJ">What’s next?</h2>
+<p>Now that you know what Uberflip is, learn about it’s core features in: <a href="https://help.uberflip.com/hc/en-us/articles/16546094896013" target="_self">Get started: Uberflip’s core features</a></p>
+<p>Or check out these other starter series articles: </p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/16548646155533" target="_self">Get started: Centralize and organize content with Uberflip</a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/16549425779853">Get started: Create a content collection</a></li>
+</ul>]]></description>
+         <guid isPermaLink="false">16545169557901</guid>
+         <pubDate>Thu, 08 Jun 2023 16:56:08 GMT</pubDate>
+      </item>
+      <item>
+         <title>Get started: Uberflip’s core features</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/16546094896013-Get-started-Uberflip-s-core-features</link>
+         <description><![CDATA[<p>New to Uberflip? Looking to get up-to-speed on the basics? You’re in the right place. </p>
+<p><strong>This article will cover Uberflip’s core features.</strong></p>
+<p> </p>
+<h2 id="h_01H990FAT9EATGE5ETY19MT9J6">The Uberflip platform </h2>
+<p>Uberflip can be broken up into <strong>5 core areas</strong>: </p>
+<ul>
+<li><a href="#h_01H2Y21DC2QB6GZ26PF68SRK24" target="_self">Hubs</a></li>
+<li>
+<a href="#h_01H2Y21Y0BWB8MMTG792H2PG46" target="_self">Pages</a><em> (rolling out now!)</em>
+</li>
+<li><a href="#h_01H2Y224W2D1JZHWX906PJ5KQK" target="_self">Flipbooks</a></li>
+<li><a href="#h_01H2Y22ABR4XK0PW68B8R5NQ98" target="_self">Uberflip Analytics (UFA)</a></li>
+<li><a href="#h_01H2Y22HX971NDQ3NJMK6YJF8Z" target="_self">Marketplace </a></li>
+</ul>
+<p>These 5 areas can be found separated in the topbar of your Uberflip account.<br><img style="width: 702px;" src="https://help.uberflip.com/hc/article_attachments/16545674028813" height="62"><br>Each of these core areas contain feature sets designed to help with one aspect of your marketing efforts. The expectation being Marketplace, which is where you'll find and install apps to expand your accounts capabilities. </p>
+<h3 id="h_01H990FAT9G712SRVCQR5N2MT2">Sales Assist</h3>
+<p>In addition to the 5 core areas found in the topbar, <a href="#h_01H93N9VNK8HRVTFT1EA4YCG7Q" target="_self"><strong>Sales Assist</strong> </a>is Uberflip's core app for sales enablement. </p>
+<p>Here’s a breakdown of each product area, including what it’s for and what you’ll find there: </p>
+<p> </p>
+<h2 id="h_01H2Y21DC2QB6GZ26PF68SRK24">Hubs</h2>
+<p>Hubs is your content curation and organization station. This is where you’ll import your videos, documents, and blog posts, then organize them into ready-to-consume collections. </p>
+<p><strong>A Hub is a top level container for related content</strong>. Every Uberflip account has at least 1 Hub, but some will benefit from more. Hubs generally separate content you wouldn’t use at the same time, like different locales, languages, or brands. But a Hub can separate content anyway you want. </p>
+<p>Within Hubs, you’ll <strong>organize your content into collections</strong>. Source collections <em>(aka Source Streams)</em> are created automatically from any content source you've connected. But curated collections, known as Marketing Streams and Digital Sales Rooms, allow you to pre-package content for your audiences and prospects. </p>
+<ul>
+<li>
+<strong>A Marketing collection <em>(aka Marketing Stream)</em> is content chosen for a specific audience.</strong> This collection will be used in your marketing campaigns to draw people into the funnel.</li>
+<li>
+<strong>A Digital Sales Room is a content handpicked for a prospect already in the funnel.</strong> It’s meant to give a known person or organization everything they need to make a buying decision. </li>
+</ul>
+<p>These collections are used to organize and prepare your content into packages you’ll use in <a href="#h_01H2Y21Y0BWB8MMTG792H2PG46" target="_self">Pages</a>. You and your team can just drag and drop Items or full collections into a page, and presto! A content-driven, hyper-personalized webpage <em>(aka a content experience)</em> is born.</p>
+<p>Within Hubs, you’ll also find features to help you manage and activate your content in more ways, including: </p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/8129396439053" target="_self">Item tagging</a></li>
+<li>
+<a href="https://help.uberflip.com/hc/en-us/articles/360022891612" target="_self">Smart Filters</a> </li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360025600951" target="_self">Content recommendation features</a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360020683852" target="_self">CTA Tiles</a></li>
+<li>And more</li>
+</ul>
+<p><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Learn more about Hubs and collections in: <a href="https://help.uberflip.com/hc/en-us/articles/16548646155533" target="_self">Get started: Centralize and organize content with Uberflip</a></strong></p>
+<p> </p>
+<h2 id="h_01H2Y21Y0BWB8MMTG792H2PG46">Pages <em> (rolling out now!)</em>
+</h2>
+<p>Uberflip Pages is an all-in-one page builder and management tool, used to create web pages, filled with relevant content for any audience or prospect. </p>
+<p>In Pages, you’ll find the page management area, and a page builder for designing your pages. </p>
+<p>With the page builder, what you see is what you get. Drag &amp; drop sections and components allow you to: build with a few clicks, populate with relevant content, and publish–without the need for a web designer.</p>
+<p><strong>Learn more about Uberflip Pages in: <a href="https://help.uberflip.com/hc/en-us/articles/17703415334669" target="_self" rel="undefined">Uberflip Pages explained</a></strong></p>
+<div class="callout">
+<h4 id="h_01H990FAT9W119ZFZABVEHNBXB" class="callout__title">Don't see Pages in your account yet?</h4>
+<p>Pages started rolling out in August 2023, but is not available in all accounts just yet. To ensure a smooth onboarding for all accounts, <strong>Pages is being rolled out slowly throughout the rest of 2023.</strong></p>
+<p>We understand that some users are keen to get their hands on this new feature. If you have any questions about the rollout, please reach out to your Customer Success Manager, or <a href="https://help.uberflip.com/hc/en-us/requests/new" target="_self">Uberflip Support</a> to discuss.  </p>
+</div>
+<p> </p>
+<h2 id="h_01H2Y224W2D1JZHWX906PJ5KQK">Flipbooks</h2>
+<p>An original Uberflip product, Flipbooks allows you to upload PDFs, add interactive elements to them, to give your readers an enhanced (and trackable) document experience.</p>
+<p>Using <a href="https://help.uberflip.com/hc/en-us/articles/360020665071" target="_self">the Flipbook editor</a>, you can turn any PDF into a multimedia experience. Links become clickable, videos become playable, forms gather reader info, and much more. </p>
+<p>Flipbooks adds intrigue to PDFs while allowing you to add more context in just the right places. All in a way that can be measured in <a href="https://help.uberflip.com/hc/en-us/articles/360035433571" target="_self">Uberflip Analytics</a>. This way you know how far your readers are going, and what they're interacting with, so you know when and where to strike. </p>
+<p> </p>
+<h2 id="h_01H2Y22ABR4XK0PW68B8R5NQ98">Uberflip Analytics (UFA)</h2>
+<p>With Uberflip Analytics, you’ll get the full picture. </p>
+<p>See how your audience moves through the buyer journey. The numbers will show you what’s going well, and what could use improvement. </p>
+<p><strong>Learn more about Uberflip Analytics in: <a href="https://help.uberflip.com/hc/en-us/articles/360035433571" target="_self">Get started with Uberflip Analytics</a></strong></p>
+<p> </p>
+<h2 id="h_01H2Y22HX971NDQ3NJMK6YJF8Z">Marketplace</h2>
+<p>EVEN MORE POWER! The Uberflip Marketplace is the place to find add-on and enhancement apps to take your content experiences up a notch. </p>
+<p>Uberflip and our partners worked together to create a slew of apps to enhance all aspects of your account.</p>
+<p>Personalization, UX/UI enhancement, tracking &amp; analytics, productivity, and more–the Uberflip marketplace is always growing to give you more capabilities. </p>
+<p>Poke around the <a href="https://app.uberflip.com/marketplace"><span style="color: #1155cc;">Uberflip</span><span style="color: #1155cc;"> Marketplace</span></a> and see how you can get even more out of Uberflip.</p>
+<p>One of Uberflip’s most popular apps is a little something we call Sales Assist: </p>
+<p> </p>
+<h2 id="h_01H93N9VNK8HRVTFT1EA4YCG7Q">The Sales Assist app</h2>
+<p>Sales Assist is Uberflip's next-generation sales engagement tool. While marketing teams use Uberflip to create campaign destinations, Sales Assist empowers sales reps with that same content, making it easy to find and use in the Digital Sales Rooms (DSRs) they create.</p>
+<p>A Digital Sales Room<em> (or DSR)</em> is a personalized web destination that facilitates the sales process. It provides a centralized location where sales teams and potential customers can interact, collaborate, and exchange information to support the sales process. </p>
+<p><strong>With Sales Assist, you can:</strong></p>
+<ul>
+<li>Easily find content your prospects will love (or create your own)</li>
+<li>Personalize content in seconds</li>
+<li>Deliver content to prospects through web destinations you create and personalize</li>
+<li>Get with real-time notifications when your prospects are engaged</li>
+<li>Track engagement on content you've shared </li>
+</ul>
+<p><strong>Learn more about Sales Assist in: </strong></p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360057767632" target="_self">Sales Assist: Admin Guide</a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360057767692" target="_self">Sales Assist: Get started as a Sales User</a></li>
+</ul>
+<p> </p>
+<h2 id="h_01H990FAT94QFSZ265P7JH29NJ">What’s next?</h2>
+<p>Now you know the core features of the Uberflip platform. </p>
+<p><strong>Next, learn about importing and organizing your content in: </strong><a href="https://help.uberflip.com/hc/en-us/articles/16548646155533" target="_self">Get started: Centralize and organize content with Uberflip</a></p>
+<p>Or check out these other starter series articles: </p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/16545169557901" target="_self">Get started: What is Uberflip?</a></li>
+<li>
+<a href="https://help.uberflip.com/hc/en-us/articles/16549425779853">Get started: Create a content collection</a><em> </em>
+</li>
+</ul>]]></description>
+         <guid isPermaLink="false">16546094896013</guid>
+         <pubDate>Thu, 08 Jun 2023 17:17:33 GMT</pubDate>
+      </item>
+      <item>
+         <title>Get started: Centralize and organize content in Uberflip</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/16548646155533-Get-started-Centralize-and-organize-content-in-Uberflip</link>
+         <description><![CDATA[<p>Uberflip brings all of your content together in one place, making it easy to curate and publish content, packaged for any audience.</p>
+<div class="callout callout--success">
+<h4 id="h_01H9943CT0M5D1NPG5A66VZM5C" class="callout__title">Good to know</h4>
+<p>In Uberflip, each piece of content you import or create is known as an <strong>Item</strong>.</p>
+</div>
+<p>Broadly, there are 2 levels of organization in Uberflip: <strong>Hubs</strong> and<strong><em> content collections (Streams &amp; Digital Sales Rooms)</em></strong>. This article will outline how Items can be organized and curated using these organizational tools. </p>
+<p><em><strong>Account organization at a glance:<br></strong></em><img src="https://help.uberflip.com/hc/article_attachments/19090462062989" width="599" height="368"></p>
+<p> </p>
+<h2 id="h_01H9943CT0VVZX0JD5AGRH2RHA">Hubs explained</h2>
+<p>Every Uberflip account contains at least one Hub. But depending on your situation, you may benefit from a multi-Hub situation. </p>
+<p>A Hub is the highest organizational level in Uberflip. They’re generally used to separate things like locale, language, or brands. It’s an easy way to keep non-relevant content separated, so your users only have access to the content they’ll need for the content experiences they create. </p>
+<div class="callout callout--info">
+<h4 id="h_01H9943CT0Z8YVWB3SGY8M94E8" class="callout__title">Example</h4>
+<p>If you have teams in LATAM, North America, and Europe, your content may be translated in Spanish, French, and English. But the English language content won’t be as useful for your LATAM team.</p>
+<p>In this case, you may have a Spanish Hub for your Spanish Content, an English Hub for the North American team, and a French Hub for your francophone marketers.</p>
+</div>
+<p>If you have multiple Hubs in your account, you can switch between them by clicking “Hubs” in the topbar menu in Uberflip.<br><img src="https://help.uberflip.com/hc/article_attachments/16763465499789" width="599" height="167"></p>
+<p>The Hub level is where you'll <a href="https://help.uberflip.com/hc/en-us/articles/8469735684621">import content</a> into your account. <strong>That content is then curated into <a href="https://help.uberflip.com/hc/en-us/articles/16548646155533#h_01H9943CT07PAJH8MGC4VCF6JP">content collections</a> that live within that Hub.</strong></p>
+<p>Within a Hub, you also have access to features to manage and activate the<strong> content and collections specific to that Hub, </strong>features like: <a href="https://help.uberflip.com/hc/en-us/articles/360022595791-Set-Up-Site-Engager-to-Recommend-Hub-Content-on-Your-Website" target="_self" rel="undefined">Site Engager</a>, <a href="https://help.uberflip.com/hc/en-us/articles/360020683852-Get-started-with-CTA-Tiles" target="_self" rel="undefined">CTA Tiles</a>, <a href="https://help.uberflip.com/hc/en-us/articles/360022891612-Use-Smart-Filters-to-automate-content-workflows" target="_self" rel="undefined">Smart Filters</a> and more.</p>
+<p> </p>
+<h2 id="h_01H9943CT07PAJH8MGC4VCF6JP">Content collections explained</h2>
+<p>Content collections, are smaller containers for any number of Items within Hubs. They allow you to curate groupings of content to use in your content experience pages. A single Item can be part of as many collections as you’d like.</p>
+<p><strong>There are 3 types of content collections in Uberflip: </strong></p>
+<ul>
+<li>
+<strong>Marketing Streams: </strong>Curated collections chosen for a specific audience. Used in marketing campaigns.</li>
+<li>
+<strong>Digital Sales Rooms (DSRs): </strong>A collection of content hand-chosen for a specific prospect. Generally created by sales teams using <a href="https://help.uberflip.com/hc/en-us/articles/360057767692">Sales Assist</a>.</li>
+<li>
+<strong>Source Streams: </strong>Auto-generated collections that house all the Items imported from a single content source into your Uberflip account. </li>
+</ul>
+<p>All collection types can be easily added to the pages you create in Uberflip, including those created in<a href="https://help.uberflip.com/hc/en-us/sections/17703393596301-Uberflip-Pages" target="_self"> Uberflip Pages</a> and <a href="https://help.uberflip.com/hc/en-us/categories/360003709111" target="_self">Sales Assist</a>. This makes it easy for your team to find and use approved content for any audience.</p>
+<p><strong>Ready to start curating content collections? </strong>Check out: <a href="https://help.uberflip.com/hc/en-us/articles/16549425779853" target="_self">Get Started: Create a content collection</a></p>
+<p> </p>
+<h2 id="h_01H9943CT0WCWEQFP9979S6EHY">Tags and Tag Groups</h2>
+<p>Now that you have an understanding of the ways you can organize your content in Uberflip, learn how to use Tags and Tag Groups to make finding, curating, and utilizing content even faster. </p>
+<p><strong>Check out: </strong><a href="https://help.uberflip.com/hc/en-us/articles/8129396439053-Item-tags-and-Tag-Groups-explained" target="_self" rel="undefined">Item tags and Tag Groups explained</a></p>
+<p> </p>
+<h2 id="h_01H9943CT0D3V01015EC2B1S4P">What’s next?</h2>
+<p><strong>Check out: </strong><a href="https://help.uberflip.com/hc/en-us/articles/16549425779853" target="_self">Get Started: Create a content collection</a></p>
+<p>Or check out these are starter series articles: </p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/16545169557901" target="_self">Get started: What is Uberflip?</a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/16546094896013" target="_self">Get started: Uberflip’s core features</a></li>
+</ul>]]></description>
+         <guid isPermaLink="false">16548646155533</guid>
+         <pubDate>Thu, 08 Jun 2023 18:27:07 GMT</pubDate>
+      </item>
+      <item>
+         <title>Get started: Create a content collection</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/16549425779853-Get-started-Create-a-content-collection</link>
+         <description><![CDATA[<p>One of the core advantages of Uberflip is the ability to centralize and organize your content. With your content all in one place, you can create curated collections for use in all of your marketing and sales pages. And Items can be part of as many collections as needed, so your multipurpose content can be used again and again.</p>
+<div class="callout callout--success">
+<h4 id="h_01H9959X5040NMA8R0QCCW9Q4X" class="callout__title">Example</h4>
+<p>You have a bunch of content about how the manufacturing industry can use your product. You have some public YouTube videos, some videos in Wistia, some PDFs, and a few blog posts. </p>
+<p>When creating pages in Uberflip, you don’t want to have to find all of the individual Items each time, so you make a collection containing all that related content. Now that collection is easily added to any page that targets the manufacturing industry.</p>
+</div>
+<p> </p>
+<h2 id="h_01H9959X50JBED9KA18KM7YSVB">Before you begin</h2>
+<ul>
+<li>To create collections, you must be a member of the <strong>Sales Reps</strong>, <strong>Account Administrators</strong>, or <strong>Content Managers</strong> user groups.</li>
+<li>
+<strong>Missing content?</strong> If there content you want to centralize in your Uberflip account that isn't already there, check out <a href="https://help.uberflip.com/hc/en-us/articles/8469735684621" target="_self">Import content into Uberflip</a>
+</li>
+</ul>
+<p> </p>
+<h2 id="h_01H9959X50VDA5ED9PHBQFQY63">Create a new collection</h2>
+<p>To create a content collection, we'll use Uberflip's Marketing Stream feature. Follow these steps to create a collection you can use again and again in your marketing pages.</p>
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In Uberflip, head to the </span><strong>Content</strong><span style="font-weight: 400;"> page from the sidebar menu</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In the </span><strong>Streams</strong><span style="font-weight: 400;"> tab, click </span><strong>New Stream<br></strong><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/16766679229709" alt="iuh.png" width="500" height="161"></span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">The <strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Add a Stream</strong> modal will open. Click the <strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Marketing </strong>icon in the <em>Curated Streams</em> list<br><img src="https://help.uberflip.com/hc/article_attachments/16766679231245" alt="mceclip0.png" width="400" height="402"><br></span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Fill out the details of your collection, which includes: <br></span>
+<ul>
+<li>
+<strong>Internal Stream Name</strong> <em>(optional)<br></em>A name for your collection that <strong>won't</strong> be shown publicly. It's just for you and your team.</li>
+<li>
+<strong>Stream Page Title</strong> <em>(required)<br></em>A title for your collection. <em>This will appear at the top of the Stream page that's generated, but not on any landing pages you create with Uberflip Pages.</em>
+</li>
+<li>
+<strong>Stream Page </strong><strong>Description</strong> <em>(optional)<br></em>A brief description of the collection. <em>When using Marketing Stream pages or DSRs, you can use this field to personalize your Stream and include a brief message to your prospect.</em>
+</li>
+<li>
+<strong>Stream Purpose</strong> <em>(required)<br></em>Choose a purpose for this collection. This won't be shown to your prospect.<br><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/16766679360525" alt="Screen_Shot_2023-02-14_at_3.35.00_PM.png" width="400" height="402"></span>
+</li>
+</ul>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">When ready, click </span><strong>Create</strong><span style="font-weight: 400;"> </span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Your collection has been created, and you'll see the Stream editor page. Here you can add content Items to it. Click <strong>Add Items</strong> to begin<br><img src="https://help.uberflip.com/hc/article_attachments/16766695689485" alt="mceclip1.png"><br></span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">A modal will open. Here you can choose which Items you want to include. All Items in your Hub(s) will be shown. Using the dropdown filters and search field, find and select the Items you want to add. <br><img src="https://help.uberflip.com/hc/article_attachments/16766679366029" alt="Screen_Shot_2022-05-04_at_9.56.06_AM.png" width="400" height="274"></span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">When you've selected all the Items you want, click </span><strong>Add</strong>
+</li>
+</ol>
+<p><span style="font-weight: 400;">That's it! You'll be returned to the Stream view, where the content Items you added will now be shown</span></p>
+<p><span style="font-weight: 400;"><br></span><strong>Tip: </strong><span style="font-weight: 400;">Content will display in the order shown here when used in a page. To reorder Items, simply drag &amp; drop the content tiles into the desired order.</span><span style="font-weight: 400;"><strong><br></strong></span></p>
+<p> </p>
+<h2 id="h_01H9959X506Y73BT0FMFH6X276">Duplicate a collection</h2>
+<p><span style="font-weight: 400;">When you duplicate a collection, your new collection will be pre-populated with the content from the Stream/collection you copied. From there, you can simply add or remove content to customize it.</span></p>
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In Uberflip, head to the </span><strong>Content</strong><span style="font-weight: 400;"> page from the sidebar menu</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In the </span><strong>Streams</strong><span style="font-weight: 400;"> tab, find the collection/Stream you want to copy and </span><strong>click it</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">In the Stream editor page that opens, click on the three-dot "meatball" menu in the top right. Then click <strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Copy to Another Marketing Stream. <br><span style="font-weight: 400;"><strong><img src="https://help.uberflip.com/hc/article_attachments/16766695691661" alt="iuhb.png" width="502" height="152"></strong></span></strong>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">In the modal that appears, fill out the details of your collection, just like you would for a new Stream/collection</span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">When done, click </span><strong>Copy</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Your collection will be created with all of the Items from the original. From here, add or remove Items</span><span style="font-weight: 400;"> as needed.</span>
+</li>
+</ol>
+<p><span style="font-weight: 400;">That’s it! Your new collection is ready to go.</span></p>
+<p>Want to learn the best way to get that collection in front of your audience or prospect? <strong>Check out <a href="https://help.uberflip.com/hc/en-us/articles/17703444581261" target="_self">Uberflip Pages: Create and edit a page</a>.</strong></p>]]></description>
+         <guid isPermaLink="false">16549425779853</guid>
+         <pubDate>Thu, 08 Jun 2023 18:50:12 GMT</pubDate>
+      </item>
+      <item>
+         <title>Get Started: Use Form CTAs to capture leads</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/22243951435405-Get-Started-Use-Form-CTAs-to-capture-leads</link>
+         <description><![CDATA[<p>Learn about Form CTA tiles: what they are, what they do, and how to use them.</p>
+<h2 id="h_01HHJM08CBDMRP0A7YZVV0P7MS">What are CTA tiles in Uberflip?</h2>
+<p>You're probably familiar with the concept of calls-to-action (CTAs), which urge your visitors to take an action that brings them into (or advances them through) your funnel. CTAs are an essential marketing tool, which is why they're also an integral part of Uberflip. While your pages allow you to showcase your content and create great experiences around it, CTAs are how you leverage that content to generate leads and drive conversions.</p>
+<p>Most commonly, CTAs on the web come in the form of banners, buttons, and forms. In Uberflip, we combine these concepts to present CTAs as a specialty tile. They look similar to Item tiles, but encourage the user to either fill out a form or click a link.<br><img src="https://help.uberflip.com/hc/article_attachments/22332163332621" width="483" height="380"><br>CTA tiles are designed to be eye-catching: they have bold graphics and colors, a large tagline, and a prominent button or text field to indicate that visitors can interact with them.</p>
+<p>There are <strong>two types of CTA tiles:</strong> Form CTAs and Link CTAs. <strong>This article outlines Form CTAs specifically</strong>, but if you want to learn more about Link CTAs, check out: <a href="https://help.uberflip.com/hc/en-us/articles/360020683852">Link CTAs explained</a></p>
+<p> </p>
+<h2 id="h_01HHJM08CBJ4SKFDRQR4WR7K0Y">How do Form CTA tiles work?</h2>
+<p>Form CTA tiles look similar to Item tiles at first glance, but Form CTA Tiles differ in how visitors interact with them, how they can be styled, and how they are placed.</p>
+<p><strong>Form CTAs </strong>prompted action is to <strong>fill out a form</strong>. The purpose of a Form CTA is to <strong>collect information</strong> from visitors to generate leads.</p>
+<p> </p>
+<h2 id="h_01HHJM08CBVDMMQYPEPN10GB2V"><span style="color: #434343;">What do Form CTAs look like?</span></h2>
+<p>Form CTAs have a basic layout, consisting of:</p>
+<ul>
+<li>A background color or image </li>
+<li>A tagline to grab the visitor's attention </li>
+<li>Text fields that allow visitors to give you their information </li>
+</ul>
+<p>You can customize any of these elements to match your brand and use case.<br><img src="https://help.uberflip.com/hc/article_attachments/22332099765005" width="235" height="303"></p>
+<p> </p>
+<h2 id="h_01HHJM08CB8JV3KYSMWQABDXR4"><span style="color: #434343;">Where do I use Form CTAs?</span></h2>
+<p>You can use Form CTAs in five different ways:</p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/22243951435405#h_01HHJM08CBAFFZX7MFYMS0S21K"><em>In any microsite made with Uberflip Pages</em></a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/22243951435405#h_01HHJM08CBVZW09A049D184P2Q"><em>In a Stream (when viewed in a Stream page)</em></a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/22243951435405#h_01HHJM08CBDXWNFMPQSFGGKPW9"><em>On Item pages (beside the Item content)</em></a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/22243951435405#h_01HHJM08CBYG8VANV5X844Z95K"><em>Over an Item (as a gate)</em></a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/22243951435405#h_01HHJM08CBAM2YX14M8GED0GX2"><em>Embedded in a external webpage</em></a></li>
+</ul>
+<h4 id="h_01HHJM08CBAFFZX7MFYMS0S21K"><span style="color: #666666;">In a Pages microsite:</span></h4>
+<p>You can place a Form CTA directly into any microsite you create in <a href="https://help.uberflip.com/hc/en-us/articles/17703415334669">Pages</a>. This allows you to capture visitors' attention and information in one visit.<br><img src="https://help.uberflip.com/hc/article_attachments/22332163332621" width="483" height="380"></p>
+<p>To see how to add Form CTAs to microsites made with Uberflip Pages, check out <a href="https://help.uberflip.com/hc/en-us/articles/17991109743629"><span style="color: #1155cc;">Uberflip Pages: Add Items, Streams, and Form CTAs to a page</span></a>.</p>
+<h3 id="h_01HHJM08CBVZW09A049D184P2Q"><span style="color: #666666;">At Stream level (Stream pages):</span></h3>
+<p>When placed at Stream level, a Form CTA appears among the Item tiles in that Stream page. You specify this type of placement in relation to content Items, i.e. "appear after Item #___".</p>
+<p>For example, in this screenshot, CTAs have been placed after Item 1, Item 3, and Item 4:<br><span style="color: #1a304f;"><img src="https://help.uberflip.com/hc/article_attachments/22332163341453" alt="Content_Marketing_with_Web_Content_Management___Uberflip.png" width="500" height="260"></span><br>If your Stream is long, you can also have CTAs placed at Stream level repeat after a given number of Items.</p>
+<h3 id="h_01HHJM08CBDXWNFMPQSFGGKPW9"><span style="color: #666666;">At Item level (Show Beside):</span></h3>
+<p>You can also place CTAs at Item level. There are two ways you can do this, one of which is <em>Show Beside</em>, which makes the CTA appear beside the content. With this option, the CTA tile will be displayed in the top right corner when the Item is viewed:<br><span style="color: #1a304f;"><img src="https://help.uberflip.com/hc/article_attachments/22332163348365" alt="How_Top-Performing_Marketers_Drive_Success_with_Content_Recommendations.png" width="500" height="295"></span><br><em>Show Beside</em> CTA tiles float, so they remain fixed in the same position as visitors scroll down the page.</p>
+<h3 id="h_01HHJM08CBYG8VANV5X844Z95K"><span style="color: #666666;">At Item level (Gate):</span></h3>
+<p>The other type of Item level placement is <em>Gate</em>. This means that the CTA is placed "in front of" the Item, so that the visitor has to interact with the CTA before they can access the Item, like this:<br><span style="color: #1a304f;"><img src="https://help.uberflip.com/hc/article_attachments/22332099793677" alt="Who_Owns_the_Content_Experience__ebook___Uberflip.png" width="500" height="443"></span><br>This CTA placement is especially useful for high-value content like ebooks or white papers. </p>
+<h4 id="h_01HHJM08CBAM2YX14M8GED0GX2"><span style="color: #666666;">Embedded in a webpage: </span></h4>
+<p>You can place an Uberflip CTA into any webpage that accepts embedded HTML. Just use the CTA embed button to grab the code, and add it to the source code of your site or blog. </p>
+<p><strong>Tip:</strong> Embed a CTA directly into an Uberflip blog post to encourage viewers to act while engaging with relevant content.<br><span style="color: #1a304f;"><img src="https://help.uberflip.com/hc/article_attachments/22332163370509" alt="Screen_Shot_2022-05-30_at_1.27.47_PM.png" width="499" height="396"></span></p>
+<div class="callout callout--info">
+<h4 id="h_01HHN342X8ER08FCT5Q2CV9442" class="callout__title">Note</h4>
+<p>You can place Form CTAs within or beside any Source Stream or Marketing Stream, but you can't use them in a Digital Sales Room (DSR).</p>
+</div>
+<p> </p>
+<h2 id="h_01HHJM08CBF9N19W2P28DPK47F"><span style="color: #434343;">How do Form CTAs function?</span></h2>
+<p>Form CTAs have a few features built in to increase the chances that visitors will interact with them. For example, no matter how many fields a Form CTA actually contains, only one field is ever displayed by default. The additional fields only become visible when a visitor interacts with a Form CTA, and are displayed on a second "page" (which also scrolls to accommodate all fields):<br><img src="https://help.uberflip.com/hc/article_attachments/22332099809933" width="213" height="281"><br>You can also enable <a href="https://help.uberflip.com/hc/en-us/articles/360021016412"><strong>progressive profiling</strong></a>, which automatically hides any fields that a known visitor (as identified by a cookie) has previously completed. </p>
+<p>For example, if they had earlier signed up for your newsletter and provided their name and email address at that time, those fields would be hidden from any other Form CTAs they interact with (and automatically filled in on the backend).</p>
+<p>Lastly, <strong>Form CTAs can also have fields that are optional</strong>, so that visitors can choose not to complete them. Or, you can <strong>make fields conditional</strong>, so they are displayed only if certain conditions are met. This allows you to present different fields to different visitors based on their inputs: for example, you could present additional fields to visitors from the EU, which is useful for GDPR compliance.</p>
+<p> </p>
+<h2 id="h_01HHJM08CBZPE8RRBATR2P4K0V">What do I use Form CTAs for? </h2>
+<p>Form CTAs are essentially a kind of registration form, like the kind you would find on a landing page, and are designed to collect information from a visitor. Form CTAs can contain just a single field (such as for an email address), or can serve a full multi-field form that collects all kinds of information.</p>
+<p>Form CTAs can be used for:</p>
+<ul>
+<li>Gating content </li>
+<li>Gathering newsletter subscribers</li>
+<li>Event registration</li>
+<li>Demo booking</li>
+</ul>
+<p>Or anything else you'd want to gather visitor info for.</p>
+<p> </p>
+<h2 id="h_01HHJM08CBG68W2NJCDD4GHYPZ">Where does the visitor information go?</h2>
+<p>Form CTA data is sent directly to your <strong>Marketing Automation Platform</strong> (MAP) through your <a href="https://help.uberflip.com/hc/en-us/articles/360020907752-Get-started-with-Uberflip-s-built-in-integrations"><span style="color: #1155cc;">MAP integration</span></a> set up in Uberflip. When building your Form CTA, you will choose which integration to use.</p>
+<p> </p>
+<h2 id="h_01HHJM08CBQHMYMCA35C365P78">Next Steps</h2>
+<p>Ready to get started with Form CTAs? Check out: <a href="https://help.uberflip.com/hc/en-us/articles/360020989871"><span style="color: #1155cc;">Set Up a Form CTA</span></a></p>
+<p>Or check out <a href="https://help.uberflip.com/hc/en-us/articles/17991109743629-Uberflip-Pages-Add-Items-Streams-and-Form-CTAs-to-a-page"><span style="color: #1155cc;">Uberflip Pages: Add Items, Streams, and Form CTAs to a page</span></a> to see how to add From CTAs in Pages.</p>]]></description>
+         <guid isPermaLink="false">22243951435405</guid>
+         <pubDate>Mon, 11 Dec 2023 20:00:39 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

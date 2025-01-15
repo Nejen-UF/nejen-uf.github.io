@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Implementing Uberflip </title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Using Custom Code: considerations and warnings</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/13648673352333-Using-Custom-Code-considerations-and-warnings</link>
+         <description><![CDATA[<p>Uberflip has an easy to use feature for <a href="https://help.uberflip.com/hc/en-us/articles/360018841312" target="_self" rel="undefined">adding custom code into a Hub</a>, which gives you the power to make endless customizations to your Hubs. But custom code comes with risks, as code can be very finicky. Being aware of the risks associated with custom code can help you avoid frustrations in the future. </p>
+<p><strong>This article outlines: </strong></p>
+<ul>
+<li>Warnings and things to be aware of</li>
+<li>Uberflip’s official stance on the use of custom code</li>
+<li>When to use custom code</li>
+<li>Your options for implementing custom code</li>
+<li>The future of custom code at Uberflip </li>
+</ul>
+<p> </p>
+<h2>Warnings (and things to be aware of)</h2>
+<div class="callout callout--warning">
+<h4 class="callout__title">Caution</h4>
+<p><strong><span style="background-color: #fff2cc;">If you choose to use custom code in your Hub, you do so at your own risk.</span></strong><span style="background-color: #fff2cc;"> The troubleshooting support we can offer may be limited depending on the nature of the problem.</span></p>
+</div>
+<ul>
+<li>If you experience problems with custom code and need help from our Support team, it may be necessary to disable your custom code to troubleshoot the issue.</li>
+<li>The Custom Code feature does not have built-in version control. We strongly recommend that you keep backups of your code outside of Uberflip, or use the <a href="https://marketplace.uberflip.com/details/code-saver" target="_self" rel="undefined">Code Saver app</a> found in the Uberflip Marketplace. There is no way to undo changes to custom code directly in the Custom Code feature.</li>
+<li>The underlying Uberflip code base that your custom code is built for can change at any time and without prior notice, which may impact your custom code. If you use custom code, you must actively maintain it and adjust for such changes as needed.</li>
+<li>If the custom code you add is not compliant with any regional laws or regulations, it is your responsibility to update or remove that custom code. Uberflip is not responsible for any legal implication your custom code may cause.</li>
+<li>Certain types of custom code (e.g. cookies and data tracking) may require a visitor to opt-in to stay compliant with regional regulations (such as GDPR). It is your responsibility to know what regulations you need to comply with. You can use <a href="https://help.uberflip.com/hc/en-us/articles/360020222131-GDPR-Feature-Custom-Code-Blocks-Privacy-Groups" target="_self" rel="undefined">Privacy Groups with custom code</a> to give users the option of opting in or out of a custom code block.</li>
+</ul>
+<p> </p>
+<h2>Uberflip’s official stance on using custom code</h2>
+<p>Uberflip has built in the ability to add custom code into your Hub, and we fully support your freedom to customize your Hub as you’d like. But because of the nature of custom code, Uberflip is unable to apply our standard support policies and timeframes to custom code elements. </p>
+<p>This means that while we will try to help where we can, any custom code in your Hub is ultimately your responsibility to maintain.</p>
+<p>Also, if we make platform changes that affect or clash with your custom code, it is your responsibility to see that it’s rectified in your Hub (this includes custom code created by Uberflip). Rectifying <strong><em>could</em></strong> include: </p>
+<ul>
+<li>
+<a href="https://help.uberflip.com/hc/en-us/requests/new?request_from_search=true&amp;ticket_form_id=360000466612&amp;request_from_search=true" target="_self" rel="undefined">Asking Uberflip's Onbrand Support</a> to help you fix it <em>(fees may apply)</em>
+</li>
+<li>Having your team rewrite the code to work with the new code in Uberflip </li>
+<li>Removing the custom code from your Hub </li>
+</ul>
+<p>Understandably, Uberflip can not alter platform code to work with your custom code. Our base code is built to work for all of our users equally. As we innovate and make changes, your code may become incompatible or redundant. </p>
+<p> </p>
+<h2>When should I use custom code?</h2>
+<p>Code comes in many forms, some of which are easier and safer to implement than others. </p>
+<h3><span style="color: #434343;">Easy-to-implement code: </span></h3>
+<p>Code snippets built by other applications for use across the internet tend to be more stable and secure. These are often used for things like tracking analytics, embedding chatbots, adding widgets, etc. </p>
+<p><strong>These code snippets can usually be added with no issues or fuss</strong>.</p>
+<h3><span style="color: #434343;">More volatile code options:</span></h3>
+<p>Code written specifically for a single Hub is often less predictable over time, because this code is more specific and less flexible. Changes to the Hub technology can break this type of custom code.  </p>
+<p>Code like this can open you up to any number of issues. So while it is very useful and very powerful, <strong>it’s best used only when truly needed.</strong> </p>
+<p>For any functionality you’re looking for, there may be features, workarounds, or upcoming releases that will do exactly what you have in mind. Chat with your account rep or <a href="https://help.uberflip.com/hc/en-us/requests/new?ticket_form_id=360000089411&amp;request_from_search=true" target="_self" rel="undefined">Uberflip support</a> if you have questions about our current or future feature offering. </p>
+<p>If you <strong>need</strong> something that doesn’t exist natively (<em>and won’t for a while</em>), a custom code solution may be a great option. </p>
+<p> </p>
+<h2>What are my options if I do want to use custom code?</h2>
+<p>Custom code can be created and implemented in one of two ways: </p>
+<ol>
+<li>It can be built <em>(or copied)</em> then added by you or your team</li>
+<li>It can be built or added by the Uberflip Onbrand team <em>(Usually at a cost to you) </em>
+</li>
+</ol>
+<p>In some cases, a combination of both may be best. If you’re eyeing up a custom code option, reach out to Uberflip’s Support or Onbrand teams. They can help you choose the option that best suits your needs.</p>
+<p> </p>
+<h2>The future of custom code at Uberflip </h2>
+<p>Uberflip aims to be the best no-code option for creating content experiences. We’re always working to make things easier for our users. </p>
+<p>We hope to reduce, and maybe someday eliminate, the need for custom code in Hubs. This will be done by adding functionality that allows changes using settings and wysiwyg editors. </p>
+<p>This future state may reduce your need or desire to implement custom code today. It could also require that you remove or change your custom code at some point. This is not something you have to worry about in the immediate future, but something to keep in mind. </p>
+<p>If Uberflip makes any changes to the Custom Code capabilities, we’ll give you ample time to prepare. </p>
+<p>If you have any questions about using custom code in your Hub, <a href="https://help.uberflip.com/hc/en-us/requests/new?ticket_form_id=360000089411&amp;request_from_search=true" target="_self" rel="undefined">reach out to support.</a> </p>]]></description>
+         <guid isPermaLink="false">13648673352333</guid>
+         <pubDate>Thu, 02 Mar 2023 19:30:32 GMT</pubDate>
+      </item>
+      <item>
+         <title>Uberflip Platform Cookies Explained</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360039954991-Uberflip-Platform-Cookies-Explained</link>
+         <description><![CDATA[<hr>
+<p>A guide to the <strong>cookies and web storage data</strong> that the Uberflip platform creates in visitor browsers.</p>
+<hr>
+<p> </p>
+<h2>What is this guide about?</h2>
+<p>Your Uberflip Hubs and associated services are powered by the Uberflip platform. Like most web applications and services, the Uberflip platform must write data to a visitor's browser to enable various types of functionality. It does this in the form of both traditional <strong>browser cookies</strong> as well as a similar HTML5 technology known as <a href="https://www.w3schools.com/html/html5_webstorage.asp"><strong>web storage</strong></a>. (As these two types of data serve essentially the same purpose, for simplicity we will use the term "cookies" throughout this guide to mean <strong>both</strong> browser cookies <strong>and</strong> web storage data.)</p>
+<p>This guide describes the cookies that the Uberflip platform may create in a visitor's browser when they visit <strong>your web properties</strong> <strong>on which Uberflip-hosted content is present</strong>. It lists all cookies which may be set, and outlines their purposes.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>This reference guide only discusses cookies that are specifically <strong>created by the Uberflip platform</strong>. If you integrate your Uberflip Hubs and other web properties with certain third-party services (such as Marketing Automation Platforms, web analytics services, etc.), these services may create <strong>additional</strong> <strong>cookies not listed on this page</strong> whenever a visitor accesses your Hub content. For more information, please refer to the support resources for each service that you integrate with your Hubs.</p>
+</div>
+<p> </p>
+<h2>How does the Uberflip platform use cookies?</h2>
+<p>The Uberflip platform uses various cookies that can be broadly classified into three categories:</p>
+<ul>
+<li>
+<strong>Essential Functions</strong>: These cookies are essential for making core Uberflip platform functionality work. If these cookies are refused by a visitor, Uberflip-powered websites and their features will not work.</li>
+<li>
+<strong>Performance &amp; Functionality</strong>: These cookies support non-essential functionality and enhance the performance of Uberflip-powered websites. The websites will still generally work if these cookies can't be set, although some functionality will become unavailable.</li>
+<li>
+<strong>Analytics</strong>: These cookies collect information that is used in aggregate form to power Uberflip's web analytics products (<a href="https://help.uberflip.com/hc/en-us/articles/360035433571" target="_self">Uberflip Analytics</a>, Legacy Metrics <em>(discontinued)</em>, and Hub dashboards).</li>
+</ul>
+<p> </p>
+<h2>When does the Uberflip platform set cookies?</h2>
+<p>In general, the Uberflip platform will set cookies whenever a visitor accesses any type of web content that is hosted on the Uberflip platform (though not all cookies may be set in every situation). This includes Hub content (such as blog posts, etc.), Flipbooks, and any Uberflip-hosted content that is delivered in a non-Hub context. Examples of "non-Hub contexts" include embedded Tiles, Streams, and CTAs, or <a href="https://help.uberflip.com/hc/en-us/articles/360022595791" target="_self">Site Engager</a>, on your non-Uberflip web properties.</p>
+<p> Examples of situations where the Uberflip platform will set cookies include:</p>
+<ul class="list-bullet">
+<li>When a visitor views any page in a Hub</li>
+<li>When a visitor views a Flipbook</li>
+<li>When a visitor accesses a (non-Hub) domain on which Site Engager is being used</li>
+<li>When a visitor views a (non-Hub) webpage or email where embedded content is displayed</li>
+</ul>
+<p> </p>
+<h2>What HTTP cookies does the Uberflip platform create?</h2>
+<p>The following table lists all HTTP cookies that may be created by the Uberflip platform:</p>
+<table class="table table--bordered">
+<tbody>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 153.5px;"><strong>Name</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 153.5px;"><strong>Type</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 153.5px;"><strong>Expires</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 153.5px;"><strong>Purpose</strong></td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 153.5px;"><em>_MGZ_</em></td>
+<td class="wysiwyg-text-align-center" style="width: 153.5px;">Essential Functions</td>
+<td class="wysiwyg-text-align-center" style="width: 153.5px;">Session</td>
+<td style="width: 153.5px;">Used to distinguish the sessions of different users, required for core platform functionality.</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 153.5px;"><em>uiState</em></td>
+<td class="wysiwyg-text-align-center" style="width: 153.5px;">Performance &amp; Functionality</td>
+<td class="wysiwyg-text-align-center" style="width: 153.5px;">Session</td>
+<td style="width: 153.5px;">Enables default header functionality on Uberflip Hubs, where the header image is hidden after a user scrolls past it.</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 153.5px;"><em>uf_privacy_prefs</em></td>
+<td class="wysiwyg-text-align-center" style="width: 153.5px;">Performance &amp; Functionality</td>
+<td class="wysiwyg-text-align-center" style="width: 153.5px;">365 days</td>
+<td style="width: 153.5px;">Allows the Uberflip platform to remember user preferences when Uberflip privacy features are enabled.</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 153.5px;"><em>ufentry</em></td>
+<td class="wysiwyg-text-align-center" style="width: 153.5px;">Analytics</td>
+<td class="wysiwyg-text-align-center" style="width: 153.5px;">30 min. after user inactivity</td>
+<td style="width: 153.5px;">Used to determine a user's entry time to the Uberflip platform, to calculate various data points in Legacy Metrics.</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 153.5px;"><em>pdf_event</em></td>
+<td class="wysiwyg-text-align-center" style="width: 153.5px;">Analytics</td>
+<td class="wysiwyg-text-align-center" style="width: 153.5px;">365 days</td>
+<td style="width: 153.5px;">Used to distinguish users of the platform for Legacy Metrics.</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 153.5px;"><em>_ufas</em></td>
+<td class="wysiwyg-text-align-center" style="width: 153.5px;">Analytics</td>
+<td class="wysiwyg-text-align-center" style="width: 153.5px;">60 min.</td>
+<td style="width: 153.5px;">Used to distinguish users of the platform for Uberflip Analytics during a single session on the platform.</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 153.5px;"><em>_ufav</em></td>
+<td class="wysiwyg-text-align-center" style="width: 153.5px;">Analytics</td>
+<td class="wysiwyg-text-align-center" style="width: 153.5px;">365 days</td>
+<td style="width: 153.5px;">Used to distinguish users of the platform for Uberflip Analytics to aggregate session data over time.</td>
+</tr>
+<tr>
+<td style="width: 153.5px; text-align: center; vertical-align: middle;"><em>ufcc_themesv2<br></em></td>
+<td style="width: 153.5px; text-align: center; vertical-align: middle;">Performance &amp; Functionality</td>
+<td style="width: 153.5px; text-align: center; vertical-align: middle;">Session</td>
+<td style="width: 153.5px; vertical-align: middle; text-align: left;">Supports parts of the theme and branding of <a href="https://help.uberflip.com/hc/en-us/articles/360051466431" target="_self">Front End V2</a> Hubs.</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>All cookies will be set under the same domain as the associated Hub or Flipbook.</li>
+<li>On domains using HTTPS (SSL/TLS), all cookies will be set as <a href="https://en.wikipedia.org/wiki/Secure_cookie">secure</a> and only sent on encrypted requests.</li>
+<li>On domains using HTTP, the cookie will be set as insecure and sent on unencrypted requests.</li>
+<li>In the <em>Expires</em> column, <em>Session</em> indicates that the cookie will expire when the user's session ends (i.e. when they close the relevant tabs/windows in their browser).</li>
+</ul>
+<p> </p>
+<h2>How does the Uberflip platform use HTML5 web storage?</h2>
+<p>HTML5 web storage allows web applications to store data in a user's browser, similar to the way cookies work. Web storage has several advantages over cookies, such as improved security and better website performance. If you'd like to learn more about HTML5 Web Storage, see <a href="https://www.w3schools.com/html/html5_webstorage.asp">this page</a>.</p>
+<p>Web storage provides two <em>objects</em> in which data can be stored in a user's browser: <code class="no-padding">window.localStorage</code> and <code class="no-padding">window.sessionStorage</code>. The Uberflip platform uses <strong>only</strong> the <code class="no-padding">window.sessionStorage</code> object. This means that the data it creates in web storage expires (and is deleted) whenever the user closes the relevant browser tabs/windows.</p>
+<p>The following table lists all web storage entries that may be created by the Uberflip platform:</p>
+<table class="table table--bordered">
+<tbody>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 156.25px;"><strong>Name</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 156.25px;"><strong>Type</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 156.25px;"><strong>Expires</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 156.25px;"><strong>Purpose</strong></td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 156.25px;"><em>_ufaw_</em></td>
+<td class="wysiwyg-text-align-center" style="width: 156.25px;">Analytics</td>
+<td class="wysiwyg-text-align-center" style="width: 156.25px;">Session</td>
+<td style="width: 156.25px;"> Used to distinguish users of the platform for Uberflip Analytics during a single session on the platform.</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>More than one entry of <em>_ufaw_</em> may be created, in the format of <code class="no-padding"><span style="font-weight: 400;">_ufaw_&lt;unique identifier&gt;_&lt;unique identifier&gt;</span></code> (e.g. <code class="no-padding"><span style="font-weight: 400;">_ufaw_fc5b7adcb5c14c7ba967488c6d8a51fb_8e1b85fe1d774de49b6092ae03089cc7</span></code>)</li>
+</ul>
+<p> </p>
+<h2>Do Uberflip platform cookies store personal data?</h2>
+<p>The Uberflip platform uses cookies which store random identifiers only. Cookies used by the Uberflip platform do not contain any type of information that can identify an individual, such as data sourced from Form CTAs, connected Marketing Automation Platforms, or any other connected systems. As a result, these cookies can distinguish between individual users, but can not alone identify them.</p>
+<p> </p>
+<h2>How do Uberflip platform cookies work with Uberflip's privacy features?</h2>
+<p>If you use the built-in <a href="https://help.uberflip.com/hc/en-us/articles/360020222171">Uberflip privacy features</a> (<em>Privacy Policy Page</em> and <em>Privacy Banner</em>) that are controlled by the <em>Privacy Groups</em> system, <strong>cookies set by the Uberflip platform all fall under the default "Uberflip" functionality</strong>. As a result, they will be associated with the Privacy Group to which you have assigned the "Uberflip" functionality, and Uberflip platform cookies will be set only if and when a visitor opts into this Privacy Group.</p>]]></description>
+         <guid isPermaLink="false">360039954991</guid>
+         <pubDate>Tue, 18 Feb 2020 21:37:30 GMT</pubDate>
+      </item>
+      <item>
+         <title>Can I upload CSS or JS files to Uberflip?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360037584052-Can-I-upload-CSS-or-JS-files-to-Uberflip</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>I have existing stylesheets (.css files) or scripts (.js files) that I'd like to use with my Uberflip Hub(s). Can I upload these files to Uberflip?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>Uberflip doesn't support directly uploading .css or .js files to our servers. All custom code on your Hub(s) must be implemented using code blocks via the built-in Custom Code feature. (To learn more about Custom Code with Uberflip, and how to create code blocks, see <a href="https://help.uberflip.com/hc/en-us/articles/360018841312" target="_self">this article</a>.)</p>
+<p>To bring external code files into your Hubs(s), you have two options:</p>
+<ol>
+<li>Paste the full contents of the files into custom code blocks, or</li>
+<li>Host the files externally (on your own server) and call them from a custom code block in Uberflip.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360037584052</guid>
+         <pubDate>Mon, 16 Dec 2019 18:32:54 GMT</pubDate>
+      </item>
+      <item>
+         <title>Create Multi-Language Links Between Hubs, Streams, and Items</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360035196932-Create-Multi-Language-Links-Between-Hubs-Streams-and-Items</link>
+         <description><![CDATA[<hr>
+<p>Do you translate and localize your content for different languages and regions? Learn how to improve your international SEO and visitor experience by linking your language-specific Hubs, Streams, and Items.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>To use the <strong>Multi-Language Links </strong>feature, your Uberflip account must contain <strong>multiple Hubs</strong>. Each Hub must have a <a href="https://help.uberflip.com/hc/en-us/articles/360020065732" target="_self">Hub Locale</a> set.</li>
+<li>Access to this feature is controlled by the <strong>Update Language Links</strong> and <strong>List and Export Language Links</strong> permissions. These permissions are found under the following parent permissions:<br>
+<ul>
+<li>
+<em>Hub &gt; Language Links</em>: Controls Hub-level links</li>
+<li>
+<em>Streams &gt; Native Streams</em>: Controls Stream-level links for Source Streams</li>
+<li>
+<em>Streams &gt; Marketing Streams</em>: Controls Stream-level links for Marketing Streams</li>
+<li>
+<em>Streams &gt; Sales Streams</em>: Controls Stream-level links for Sales Streams</li>
+<li>
+<em>Items</em>: Controls Item-level links</li>
+</ul>
+</li>
+<li>By default, the permissions necessary to use this feature are granted to all users in the <strong>Account Administrators</strong> and <strong>Content Managers</strong> user groups.</li>
+</ul>
+<p> </p>
+<h2>About Multi-Language Links</h2>
+<h3>Hreflang Tags</h3>
+<p>Whenever you create content that is localized for particular languages and regions, it's important to set <strong>hreflang tags</strong> on those pages. An hreflang tag is an HTML attribute that tells search engines what language a page is in, and which <em>other</em> languages that same page is also available in (and where to find them). Hreflang tags are crucial for SEO: they help to surface your content for people searching in particular languages, and they prevent duplicate content issues.</p>
+<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>If you'd like to learn more about hreflang tags and how they impact your SEO, check out <a href="https://moz.com/learn/seo/hreflang-tag">this helpful article from Moz</a>.</p>
+</div>
+<p>In Uberflip, you set hreflang tags by creating <strong>Multi-Language Links</strong>. Multi-Language Links allow you to link pages across your Hubs into groups, with each group representing all the localized variations of a given page. For example, if you had Hubs in English, French, and Spanish, you could link their individual Hub home pages into a group to signify that they are all translated versions of the same Hub home page.</p>
+<p>Whenever you link a group of pages with Multi-Language Links, Uberflip automatically sets the appropriate hreflang tags on all pages in the group. In that example above, the relevant hreflang tags would look like this:</p>
+<pre><code>&lt;link rel="alternate" href="https://french.example.com/" hreflang="fr-ca" /&gt;<br>&lt;link rel="alternate" href="https://spanish.example.com/" hreflang="es-es" /&gt;<br>&lt;link rel="alternate" href="https://english.example.com/" hreflang="en-us" /&gt;</code></pre>
+<p>These tags tell search engines that these three pages are alternate versions of one another, which language each alternate version is in, and where to find each one.</p>
+<h3 id="h_b5958c62-0a4f-4e50-ad6f-1a657afa9b16">Locale Selector</h3>
+<p>In addition to setting hreflang tags, creating Multi-Language Links also gives you the option of displaying the <strong>Locale Selector </strong>on your Hubs. This is a language selection menu that allows visitors to switch between linked translations of a page:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360041682851/Fullscreen_2019-10-28__4_40_PM.png" alt="Fullscreen_2019-10-28__4_40_PM.png" width="570" height="179"></p>
+<p>The language menu is dynamic, so it appears only on pages with linked translations, and automatically adjusts the options that are shown based on their availability for the current page.</p>
+<h3 id="h_b5958c62-0a4f-4e50-ad6f-1a657afa9b16">Contextual Linking</h3>
+<p>If a visitor switches languages, Multi-Language Links can also <strong>preserve the Stream context of Items</strong>. For example, say a visitor enters an English-language Marketing Stream and views an Item, then switches their language to Spanish. In this case, you would want to send them to the Spanish-language version of the Item, ideally in the context of <em>that same Marketing Stream</em>. We call this <strong>contextual linking</strong>, and as long as you have linked the two Marketing Streams in addition to the Items, Multi-Language Links is smart enough to do this automatically.</p>
+<p>Here's how contextual linking works:</p>
+<p>If <strong>you only link the Items</strong>, but <strong>not the Marketing Streams</strong>, the visitor would be taken to the Spanish-language version of the Item <strong>in its Source Stream</strong>:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360041776372/Multi_Lang_Contextual_Linking_-_draw_io.png" alt="Multi_Lang_Contextual_Linking_-_draw_io.png" width="401" height="283"></p>
+<p>But if you <strong>also link the corresponding Marketing Streams</strong>, Multi-Language links knows that the linked Items appear in both Streams, and will automatically take the visitor to the Item <strong>in the Spanish-language version of the linked Marketing Stream</strong>:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360041776432/Multi_Lang_Contextual_Linking_-_draw_io.png" alt="Multi_Lang_Contextual_Linking_-_draw_io.png" width="401" height="284"></p>
+<p> </p>
+<p>In other words, Multi-Language Links' contextual linking feature makes it easy to ensure that visitors can consume your content in the context you intended — even if they land on the "wrong" language and need to switch.</p>
+<p> </p>
+<h2 id="h_4fc1af9a-201b-4afa-803a-0fd8fc120f94">Create Multi-Language Links</h2>
+<p>Here are some basic guidelines to keep in mind when you create Multi-Language Links:</p>
+<ul class="list-bullet">
+<li>You can create Multi-Language Links at all levels (<strong>Hub</strong>, <strong>Stream</strong>, and <strong>Item</strong>). Because links are intended to indicate that the linked pages are alternate versions of one another, links must be between pages <strong>at the same level</strong> as one another, i.e. Hub-to-Hub, Stream-to-Stream, or Item-to-Item.</li>
+<li>In Uberflip, the <strong>Hub Locale</strong> is used as the basis of localization: a Hub's Locale specifies the language of that Hub, and all the Streams and Items within it. As a result, links between Streams and between Items are always <strong>across Hubs</strong> — it's not possible to link Streams or Items within the same Hub.</li>
+<li>For the same reason, you can only link Hubs, Streams, or Items that have <strong>different Hub Locales</strong>. Each page in a group of linked pages represents a single localized version, so no two can be set to the same Hub Locale. Note that this applies to Hub Locales, <strong>not</strong> languages: regional variations of the same language that have their own Hub Locale setting (e.g. <em>English (United States) </em>and <em>English (United Kingdom)</em>) can have Hub/Stream/Item links between them.</li>
+<li>Links created at any level exist independently of links at all other levels. This means that you can create links between Items without needing to link the Streams they belong to, or the Hubs that they are in. Likewise, you can link Streams even if no link exists between their Hubs. In addition, removing a link at a higher level does not affect any of the links below it.</li>
+</ul>
+<p>To learn how to create links at each level, click on the tabs below:</p>
+<div class="tabs">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Link Hubs</span> <span class="tabs-link">Link Streams</span> <span class="tabs-link">Link Items</span>
+</div>
+<div class="tab">
+<p>Multi-Language Links between <strong>Hubs</strong> link their individual <strong>Hub home pages</strong>. When you link Hubs, this will:</p>
+<ul>
+<li>Create hreflang tags on all of the linked Hub home pages (pointing to one another as alternates)</li>
+<li>Display the <a href="#h_8d468c13-07cc-4ec4-9441-4da814dc8ca9" target="_self">Locale Selector</a> on the linked Hub home pages (only on Hubs where the feature is enabled).</li>
+</ul>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>You can also create <strong>distinct</strong> <strong>groups of linked Hubs</strong>, which can be useful if you have multiple "types" of Hubs with different audiences and purposes.</p>
+<p>For example, say you have an "Education" Hub type and a "Resources" Hub type, and each type has localized versions in several languages: in this case, you could link all of the <em>Education</em> Hubs together in one group, and all of the <em>Resources</em> Hubs together in a separate group.</p>
+<p>When creating groups in this way, keep in mind that they must be completely distinct — no Hub can be in more than one group.</p>
+</div>
+<p><strong>To create Multi-Language Links between Hubs:</strong></p>
+<ol>
+<li>Log in to your Uberflip account.</li>
+<li>Using the <strong>Hubs</strong> menu at the top, navigate to <strong>one</strong> of the Hubs that you want to link.
+<ul>
+<li>When creating a new group of linked Hubs, you can go to <strong>any</strong> of the Hubs that you plan to link together — you do not have to start with any specific Hub.</li>
+<li>If you want to link a new Hub to an <strong>already existing group of linked Hubs</strong>, you can't do this from within the Hub to be added: you must go to a Hub that is already part of the group.</li>
+<li>The Hub you choose (and all Hubs it will be linked with) must have a <a href="https://help.uberflip.com/hc/en-us/articles/360020065732" target="_self">Hub Locale</a> set.</li>
+</ul>
+</li>
+<li>In the sidebar menu on the left, click on <strong>Hub Options &gt; Multi-Language</strong>.</li>
+<li>The <strong>Hub Links for [Hub Name]</strong> menu will appear on the right. By default, no links should be shown here yet.</li>
+<li>Click on the <strong>Add Hub Link</strong> button near the top left:<br> <img src="https://help.uberflip.com/hc/article_attachments/360042067331/Hubs___Options_-_Multi_Language_-_Uberflip.png" alt="Hubs___Options_-_Multi_Language_-_Uberflip.png">
+</li>
+<li>The <strong>Link This Hub to Other Hubs</strong> window will open as an overlay. Here, you will see a list of other Hubs that can be linked. Hubs with the<strong> same Hub Locale as the Hub you are in</strong> (or with no Hub Locale set) can't be linked, so they will not be shown.<br> <img src="https://help.uberflip.com/hc/article_attachments/360042067991/Hubs___Options_-_Multi_Language_-_Uberflip.png" alt="Hubs___Options_-_Multi_Language_-_Uberflip.png">
+</li>
+<li>Select the Hubs that are localized variations of the Hub you are in. To add a Hub to your selection,<strong> click on its tile</strong>.
+<ul>
+<li>A checkmark will be displayed on the tiles of selected Hubs, and any Hubs with the same Hub Locale as an already selected Hub will become unselectable (greyed out).</li>
+<li>If needed, you can also use the dropdown menu in the top left to filter the list of Hubs to a specific Hub Locale:<br> <img src="https://help.uberflip.com/hc/article_attachments/360042068072/Hubs___Options_-_Multi_Language_-_Uberflip.png" alt="Hubs___Options_-_Multi_Language_-_Uberflip.png" width="233" height="227">
+</li>
+</ul>
+</li>
+<li>As you select Hubs, the counter at the bottom of the window will increase to show how many Hubs you have selected. To save your selection and link the selected Hubs, click on the <strong>Add</strong> button in the lower right.<br> <img src="https://help.uberflip.com/hc/article_attachments/360042199411/Hubs___Options_-_Multi_Language_-_Uberflip.png" alt="Hubs___Options_-_Multi_Language_-_Uberflip.png">
+</li>
+<li>You'll be returned to the <strong>Hub Links for [Hub Name]</strong> menu, where the links you created will now be shown:<br> <img src="https://help.uberflip.com/hc/article_attachments/360042070351/Hubs___Options_-_Multi_Language_-_Uberflip.png" alt="Hubs___Options_-_Multi_Language_-_Uberflip.png">
+</li>
+<li>Once created, the links will take effect immediately. The same links will also be shown on the <strong>Hub Options &gt; Multi-Language</strong> menu when you are in any of the other linked Hubs:<br> <img src="https://help.uberflip.com/hc/article_attachments/360042070431/Hubs___Options_-_Multi_Language_-_Uberflip.png" alt="Hubs___Options_-_Multi_Language_-_Uberflip.png">
+</li>
+</ol>
+<p><a href="#h_4fc1af9a-201b-4afa-803a-0fd8fc120f94" target="_self">Back to Top</a></p>
+</div>
+<div class="tab is-hidden">
+<p>Multi-Language Links between <strong>Streams</strong> link their individual <strong>Stream pages</strong>. When you link Streams, this will:</p>
+<ul>
+<li>Create hreflang tags on all of the linked Stream pages (pointing to one another as alternates)</li>
+<li>Display the <a href="#h_8d468c13-07cc-4ec4-9441-4da814dc8ca9" target="_self">Locale Selector</a> on the linked Stream pages (only for Streams on Hubs where the feature is enabled).</li>
+<li>Enable <a href="#h_b5958c62-0a4f-4e50-ad6f-1a657afa9b16" target="_self">Contextual Linking</a> for any linked Items that appear within the linked Streams.</li>
+</ul>
+<p>Linked Streams do <strong>not</strong> have to be of the same type: you can link any type of Stream to any other type, e.g. Source-to-Marketing, Sales-to-Marketing, etc.</p>
+<p><strong>To create Multi-Language Links between Streams:</strong></p>
+<ol>
+<li>Log in to your Uberflip account.</li>
+<li>Using the <strong>Hubs</strong> menu at the top, navigate to <strong>one</strong> of the Hubs that contains a Stream you want to link.
+<ul>
+<li>You can choose <strong>any </strong>Hub that contains one of the Streams that will be linked.</li>
+<li>The Hub you choose must have a <a href="https://help.uberflip.com/hc/en-us/articles/360020065732" target="_self">Hub Locale</a> set.</li>
+</ul>
+</li>
+<li>In the sidebar menu on the left, click on <strong>Content</strong>.</li>
+<li>Under the <strong>Streams</strong> tab on the right, click on the <strong>Stream</strong> you want to link.
+<ul>
+<li>This can be any type of Stream: Source, Marketing, or Sales.</li>
+</ul>
+</li>
+<li>Click on the <strong>Multi-Language</strong> <strong>tab</strong> near the top of the page:<br> <img src="https://help.uberflip.com/hc/article_attachments/360042176892/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png">
+</li>
+<li>By default, no links should be shown here yet. Click on the <strong>Add Stream Link</strong> button near the top left:<br> <img src="https://help.uberflip.com/hc/article_attachments/360042176992/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png">
+</li>
+<li>The <strong>Link This Stream to Other Streams</strong> window will open as an overlay. Here, you will see a list of Streams in other Hubs that can be linked. Streams in the same Hub, and Streams in Hubs with the<strong> same Hub Locale as the Hub you are in </strong>(or with with no Hub Locale set) can't be linked, so they are not shown.<br> <img src="https://help.uberflip.com/hc/article_attachments/360042184231/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png">
+</li>
+<li>Select the Streams that are localized variations of the Stream you are viewing. To add a Stream to your selection,<strong> click on its tile</strong>.
+<ul>
+<li>A checkmark will be displayed on selected Streams, and any Streams that are in Hubs with the same Hub Locale as an already selected Stream will become unselectable (greyed out):<br> <img src="https://help.uberflip.com/hc/article_attachments/360042257431/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png">
+</li>
+<li>If needed, you can also use the Search box in the top left to search for Streams matching particular keywords, and the dropdown menu in the top right to filter the list of Streams to a specific Hub Locale:<br> <img src="https://help.uberflip.com/hc/article_attachments/360042191812/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png">
+</li>
+</ul>
+</li>
+<li>As you select Streams, the counter at the bottom of the window will increase to show how many Streams you have selected. To save your selection and link the selected Streams, click on the <strong>Add</strong> button in the lower right.<br> <img src="https://help.uberflip.com/hc/article_attachments/360042200951/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png">
+</li>
+<li>You'll be returned to the Stream's <strong>Multi-Language tab</strong>, where the links you created will now be shown:<br> <img src="https://help.uberflip.com/hc/article_attachments/360042201391/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png">
+</li>
+<li>Once created, the links will take effect immediately. The same links will also be shown on the <strong>Multi-Language tab</strong> when you view any of the other linked Streams.</li>
+</ol>
+<p><a href="#h_4fc1af9a-201b-4afa-803a-0fd8fc120f94" target="_self">Back to Top</a></p>
+</div>
+<div class="tab is-hidden">
+<p>Multi-Language Links between <strong>Items</strong> link their individual <strong>Item pages</strong>. When you link Items, this will:</p>
+<ul>
+<li>Create hreflang tags on all of the linked Item pages (pointing to one another as alternates)</li>
+<li>Display the <a href="#h_8d468c13-07cc-4ec4-9441-4da814dc8ca9" target="_self">Locale Selector</a> on the linked Item pages (only for Items in Hubs where the feature is enabled).</li>
+</ul>
+<p>Linked Items do <strong>not</strong> have to be of the same type, but for consistency, we recommend only linking Items of the same type (e.g. Blog-to-Blog, Video-to-Video, etc.).</p>
+<p><strong>To create Multi-Language Links between Items:</strong></p>
+<ol>
+<li>Log in to your Uberflip account.</li>
+<li>Using the <strong>Hubs</strong> menu at the top, navigate to <strong>any</strong> Hub.
+<ul>
+<li>You can choose <strong>any </strong>Hub, as the <strong>Items</strong> tab always displays Items across all Hubs.</li>
+</ul>
+</li>
+<li>In the sidebar menu on the left, click on <strong>Content</strong>.</li>
+<li>On the right, click on the <strong>Items</strong> tab. In the list below, click on the <strong>Item</strong> you want to link.</li>
+<li>In the Edit Item view, click on the <strong>Multi-Language</strong> <strong>tab</strong> near the top of the page.<br> <img src="https://help.uberflip.com/hc/article_attachments/360042256831/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png">
+</li>
+<li>By default, no links should be shown here yet. Click on the <strong>Add Item Link</strong> button near the top left:<br> <img src="https://help.uberflip.com/hc/article_attachments/360042246032/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png" width="502" height="276">
+</li>
+<li>The <strong>Link This Item to Other Items</strong> window will open as an overlay. Here, you will see a list of Items in other Hubs that can be linked. Items in the same Hub, and Items in Hubs with the<strong> same Hub Locale as the Hub you are in </strong>(or with with no Hub Locale set) can't be linked, so they are not shown.<br> <img src="https://help.uberflip.com/hc/article_attachments/360042246132/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png">
+</li>
+<li>Select the Items that are localized variations of the Item you are viewing. To add an Item to your selection,<strong> click on its tile</strong>.
+<ul>
+<li>A checkmark will be displayed on selected Items, and any Items that are in Hubs with the same Hub Locale as an already selected Item will become unselectable (greyed out).<br> <img src="https://help.uberflip.com/hc/article_attachments/360042257171/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png">
+</li>
+<li>If needed, you can also use the Search box in the top left to search for Streams matching particular keywords, and the dropdown menu in the top right to filter the list of Streams to a specific Hub Locale:<br> <img src="https://help.uberflip.com/hc/article_attachments/360042246252/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png">
+</li>
+</ul>
+</li>
+<li>As you select Items, the counter at the bottom of the window will increase to show how many Items you have selected. To save your selection and link the selected Items, click on the <strong>Add</strong> button in the lower right.<br> <img src="https://help.uberflip.com/hc/article_attachments/360042246332/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png">
+</li>
+<li>You'll be returned to the Items's <strong>Multi-Language tab</strong>, where the links you created will now be shown:<br> <img src="https://help.uberflip.com/hc/article_attachments/360042257331/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png">
+</li>
+<li>Once created, the links will take effect immediately. The same links will also be shown on the <strong>Multi-Language tab</strong> when you view any of the other linked Items.</li>
+</ol>
+<p><a href="#h_4fc1af9a-201b-4afa-803a-0fd8fc120f94" target="_self">Back to Top</a></p>
+</div>
+</div>
+<p> </p>
+<h2 id="h_792a7d40-f564-4f6b-b1d1-93ed46227d96">Remove Multi-Language Links</h2>
+<p>You can remove Multi-Language Links between Hubs, Streams, and Items at any time.</p>
+<ul class="list-bullet">
+<li>Because links at any level are independent from links at other levels, <strong>removing a link does not have any cascading effects on links at lower levels</strong>. For example, removing a link between two Hubs will not affect links between Streams or Items within those Hubs.</li>
+<li>Links <strong>must be removed one at a time</strong>, e.g. you can unlink one Hub from a group of linked Hubs, but you cannot break the links between all Hubs at once (the same also applies to Streams and Items).</li>
+</ul>
+<p>When you unlink a page at any level, this will:</p>
+<ul>
+<li>Remove hreflang tags from the unlinked page, and remove references to the unlinked page from the hreflang tags on other pages it was previously linked to.</li>
+<li>Remove the <a href="#h_8d468c13-07cc-4ec4-9441-4da814dc8ca9" target="_self">Locale Selector</a> from the unlinked page (only within Hubs where the feature is enabled).</li>
+<li>Disable <a href="#h_b5958c62-0a4f-4e50-ad6f-1a657afa9b16" target="_self">Contextual Linking</a> for Items in the Stream if the unlinked page is a Stream page.</li>
+</ul>
+<p>To learn how to remove links at each level, click on the tabs below:</p>
+<div class="tabs">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Unlink Hubs</span> <span class="tabs-link">Unlink Streams</span> <span class="tabs-link">Unlink Items</span>
+</div>
+<div class="tab">
+<p>You can unlink any Hub from a group of linked Hubs, including the Hub you are currently in.</p>
+<p><strong>To remove Multi-Language Links between Hubs:</strong></p>
+<ol>
+<li>Log in to your Uberflip account.</li>
+<li>Using the <strong>Hubs</strong> menu at the top, navigate to the Hub you want to unlink (or any other Hub that it is currently linked with).</li>
+<li>In the sidebar menu on the left, click on <strong>Hub Options &gt; Multi-Language</strong>. The <strong>Hub Links for [Hub Name]</strong> menu will appear on the right.</li>
+<li>You will see a list of Hubs that are linked with the Hub you are in:
+<ul>
+<li>
+<strong>To unlink the Hub you are in from this group:</strong> click on the <strong>three-dot ("meatball") menu button</strong> near the top right, then click on <strong>Remove this Hub from the Group</strong>.<br> <img src="https://help.uberflip.com/hc/article_attachments/360042258632/Hubs___Options_-_Multi_Language_-_Uberflip.png" alt="Hubs___Options_-_Multi_Language_-_Uberflip.png">
+</li>
+<li>
+<strong>To unlink another Hub from this group</strong>: click on the <strong>delete </strong>(trash) button to the right of the Hub you want to unlink.<br> <img src="https://help.uberflip.com/hc/article_attachments/360042258672/Hubs___Options_-_Multi_Language_-_Uberflip.png" alt="Hubs___Options_-_Multi_Language_-_Uberflip.png">
+</li>
+</ul>
+</li>
+<li>You will see a confirmation message asking whether you want to unlink the Hub. Click on <strong>Confirm</strong> to remove the link.</li>
+</ol>
+<p><a href="#h_792a7d40-f564-4f6b-b1d1-93ed46227d96" target="_self">Back to Top</a></p>
+</div>
+<div class="tab is-hidden">
+<p>You unlink any Stream from a group of linked Streams, including the Stream you are currently viewing.</p>
+<p><strong>To remove Multi-Language Links between Streams:</strong></p>
+<ol>
+<li>Log in to your Uberflip account.</li>
+<li>Using the <strong>Hubs</strong> menu at the top, navigate to the Hub that contains the Stream you want to unlink.
+<ul>
+<li>You can also go to any Hub that contains a Stream which is linked with the one you want to unlink.</li>
+</ul>
+</li>
+<li>In the sidebar menu on the left, click on <strong>Content</strong>.</li>
+<li>Under the <strong>Streams</strong> tab on the right, click on the <strong>Stream</strong> you want to unlink (or a Stream that is currently linked to it).</li>
+<li>Click on the <strong>Multi-Language</strong> <strong>tab</strong> near the top of the page:<br> <img src="https://help.uberflip.com/hc/article_attachments/360042176892/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png">
+</li>
+<li>You will see a list of Streams that are linked with the Stream you are viewing:<br>
+<ul>
+<li>
+<strong>To unlink the Stream you are viewing from this group:</strong> click on the <strong>three-dot ("meatball") menu button</strong> near the top right (the lower of the two buttons), then click on <strong>Remove this Stream from the Group</strong>.<br> <img src="https://help.uberflip.com/hc/article_attachments/360042282191/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png">
+</li>
+<li>
+<strong>To unlink another Stream from this group</strong>: click on the <strong>delete </strong>(trash) button to the right of the Stream you want to unlink.<br> <img src="https://help.uberflip.com/hc/article_attachments/360042267192/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png">
+</li>
+</ul>
+</li>
+<li>You will see a confirmation message asking whether you want to unlink the Stream. Click on <strong>Confirm</strong> to remove the link.</li>
+</ol>
+<p><a href="#h_792a7d40-f564-4f6b-b1d1-93ed46227d96" target="_self">Back to Top</a></p>
+</div>
+<div class="tab is-hidden">
+<p>You can remove any Item from a group of linked Items, including the Item you are currently viewing.</p>
+<p><strong>To remove Multi-Language Links between Items:</strong></p>
+<ol>
+<li>Log in to your Uberflip account.</li>
+<li>Using the <strong>Hubs</strong> menu at the top, navigate to <strong>any</strong> Hub.
+<ul>
+<li>You can choose <strong>any </strong>Hub, as the <strong>Items</strong> tab always displays Items across all Hubs.</li>
+</ul>
+</li>
+<li>In the sidebar menu on the left, click on <strong>Content</strong>.</li>
+<li>On the right, click on the <strong>Items</strong> tab. In the list below, click on the <strong>Item</strong> you want to unlink (or any Item that is currently linked with the Item you want to unlink).</li>
+<li>Click on the <strong>Multi-Language</strong> <strong>tab</strong> near the top of the page:<br> <img src="https://help.uberflip.com/hc/article_attachments/360042256831/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png">
+</li>
+<li>You will see a list of Items that are linked with the Item you are viewing:<br>
+<ul>
+<li>
+<strong>To unlink the Item you are viewing from this group:</strong> click on the <strong>three-dot ("meatball") menu button</strong> near the top right, then click on <strong>Remove this Item from the Group</strong>.<br> <img src="https://help.uberflip.com/hc/article_attachments/360042267972/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png">
+</li>
+<li>
+<strong>To unlink another Item from this group</strong>: click on the <strong>delete </strong>(trash) button to the right of the Item you want to unlink.<br> <img src="https://help.uberflip.com/hc/article_attachments/360042282831/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png">
+</li>
+</ul>
+</li>
+<li>You will see a confirmation message asking whether you want to unlink the Item. Click on <strong>Confirm</strong> to remove the link.</li>
+</ol>
+<p><a href="#h_792a7d40-f564-4f6b-b1d1-93ed46227d96" target="_self">Back to Top</a></p>
+</div>
+</div>
+<p> </p>
+<h2>Set a Default Language Hub (Optional)</h2>
+<p>If you have created Multi-Language Links between Hubs, you can also optionally designate one of the Hubs as the default language. This will set it's hreflang tag to the value <code class="no-padding">x-default</code>, rather than its own language/region code (e.g. <code class="no-padding">en-us</code>), like this:</p>
+<pre><code>&lt;link rel="alternate" href="https://french.example.com/" hreflang="fr-ca" /&gt;<br>&lt;link rel="alternate" href="https://spanish.example.com/" hreflang="es-es" /&gt;<br>&lt;link rel="alternate" href="https://english.example.com/" <strong>hreflang="x-default"</strong> /&gt;</code></pre>
+<p>An <em>x-default</em> hreflang tag tells search engines that language-specific versions of a page are available, but to <strong>prefer the designated default version</strong> for anyone who does not speak any of those languages. In the example above, for instance, a German speaker or a Mandarin speaker would see the English-language version of the Hub in their search results. If you'd like to learn more about the <em>x-default</em> hreflang tag, see <a href="https://webmasters.googleblog.com/2013/04/x-default-hreflang-for-international-pages.html">this post from Google</a>.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>If you do not explicitly set a default language, none of your Hubs will have the <em>x-default</em> hreflang tag.</p>
+</div>
+<p><strong>To set a Hub as the default language Hub:</strong></p>
+<ol>
+<li>After creating Multi-Language Links between Hubs, navigate to <strong>any</strong> of the linked Hubs.</li>
+<li>Click on <strong>Hub Options &gt; Multi-Language</strong> in the sidebar menu.</li>
+<li>While viewing the <strong>Hub Links for [Hub Name]</strong> menu, click on the <strong>three-dot ("meatball") menu button</strong> near the top right:<br> <img src="https://help.uberflip.com/hc/article_attachments/360042078712/Hubs___Options_-_Multi_Language_-_Uberflip.png" alt="Hubs___Options_-_Multi_Language_-_Uberflip.png">
+</li>
+<li>In the menu options that appear, click on <strong>Manage Group Default</strong>:<br> <img src="https://help.uberflip.com/hc/article_attachments/360042078872/Hubs___Options_-_Multi_Language_-_Uberflip.png" alt="Hubs___Options_-_Multi_Language_-_Uberflip.png">
+</li>
+<li>The <strong>Set Default Hub</strong> menu will appear, and will list all of the Hubs that are linked to the Hub you are in. <strong>Click on the circle</strong> next to the Hub that you want to set as the default language:<br> <img src="https://help.uberflip.com/hc/article_attachments/360042083231/Hubs___Options_-_Multi_Language_-_Uberflip.png" alt="Hubs___Options_-_Multi_Language_-_Uberflip.png" width="525" height="372">
+</li>
+<li>To save your selection, click on the <strong>Confirm</strong> button.</li>
+<li>You'll be returned to the <strong>Hub Links for [Hub Name]</strong> menu, where you will now see <em>Yes</em> under the <em>Is Default</em> column beside the Hub you selected:<br> <img src="https://help.uberflip.com/hc/article_attachments/360042083332/Hubs___Options_-_Multi_Language_-_Uberflip.png" alt="Hubs___Options_-_Multi_Language_-_Uberflip.png">
+</li>
+<li>The change will take effect immediately, and this Hub will be assigned the value <code class="no-padding">x-default</code> for its hreflang tag.</li>
+</ol>
+<p>If you want to <strong>unset</strong> or <strong>change</strong> the default language Hub, repeat the steps above and select <em>None</em> or a different Hub in Step 5.</p>
+<h3> </h3>
+<h2 id="h_8d468c13-07cc-4ec4-9441-4da814dc8ca9">Enable Locale Selector (Optional)</h2>
+<p>If you want visitors to be able to switch between available linked languages for any given page, you can turn on the Locale Selector. When enabled, this feature will add a language selection menu to any Hub home page, Stream page, or Item page that has Multi-Language Links (it will not appear on pages without Multi-Language Links). The language options displayed by the Locale Selector are  populated dynamically using the the Hub Locales of pages linked to the current page.</p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p>The Locale Selector is a <strong>Hub-specific setting</strong>, so you have to <strong>configure it separately for each Hub</strong>.</p>
+<p>To ensure a consistent visitor experience, we recommend that you <strong>use the same setting across all Hubs that are connected with Multi-Language Links at any level</strong>. If you use different settings, visitors can find themselves in a situation where they have switched from a Hub with the Locale Selector to one without it, but are not able to switch back again (due to the missing Locale Selector).</p>
+</div>
+<p><strong>To enable the Locale Selector:</strong></p>
+<ol>
+<li>Log in to your Uberflip account, and navigate to the Hub where you want to enable the Locale Selector.</li>
+<li>In the sidebar menu on the left, click on <strong>Hub Options &gt; Advanced</strong>.</li>
+<li>In the settings menu on the right, scroll down to the <strong>Internationalization</strong> section.</li>
+<li>Check the box next to <strong>Enable Locale Selector</strong>:<br> <img src="https://help.uberflip.com/hc/article_attachments/360042369051/Hubs___Options_-_Advanced_-_Uberflip.png" alt="Hubs___Options_-_Advanced_-_Uberflip.png">
+</li>
+<li>The change will saved automatically, and the Locale Selector will immediately begin appearing on all pages that have Multi-Language Links.</li>
+</ol>
+<p>If you want to <strong>disable</strong> the Locale Selector for any Hub, simply uncheck the <strong>Enable Locale Selector</strong> box.</p>]]></description>
+         <guid isPermaLink="false">360035196932</guid>
+         <pubDate>Fri, 25 Oct 2019 17:53:46 GMT</pubDate>
+      </item>
+      <item>
+         <title>Switch between live and staging versions of an in-development Hub</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360032870191-Switch-between-live-and-staging-versions-of-an-in-development-Hub</link>
+         <description><![CDATA[<hr>
+<p>Learn how to switch to a "staging" version of your Hub to review OnBrand customizations during development, as well as how to switch back to the live version again.</p>
+<hr>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>This article applies to Hubs which are using the new OnBrand staging process. While this process is used for the majority of Hubs, in some cases it may be necessary to use an alternative process (separate staging Hubs), or to apply changes without staging. In these cases, the process described in this article is not applicable.</p>
+</div>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>We suggest using <strong>Incognito Mode</strong> in your browser to view your staging Hub. This way, when you exit Incognito Mode, you'll be back in the live version of your Hub automatically in your regular browser window.</p>
+<p>If you do use staging in a regular browser window, you can use the steps in the <a href="#h_01H914NWT8VB49E7GJC82Z4G7B" target="_self">Switch back to live</a> section to exit staging mode.</p>
+</div>
+<p> </p>
+<h2>About OnBrand staging</h2>
+<p>When developing and deploying software, it's standard practice to use distinct software <em>environments</em> for different stages in the process. These environments are separate from one another, and allow developers to write and test new code without affecting (and possibly breaking) the software that end users interact with (known as the <em>production environment</em>).</p>
+<p>One type of environment that is commonly used is the <strong>staging environment</strong>, which is a duplicate of the production environment. The purpose of a staging environment is to allow stakeholders to try out changes in the software in a way that closely resembles the final experience, but without any risk to the production environment.</p>
+<p>For this reason, Uberflip's OnBrand team uses a staging version of your Hub when deploying customizations you have requested. The staging version incorporates the changes that OnBrand has made, but is otherwise identical to your production Hub. This gives you the opportunity to review and approve the changes before they are pushed to your live Hub.</p>
+<p>In this article, you will learn how you can access the staging version of your Hub, as well as how to switch back to the live version once you've finished reviewing the changes.</p>
+<p> </p>
+<h2>How it works</h2>
+<p>Uberflip's servers send you the live or staging version of a Hub based on whether or not a cookie exists in your browser. By default, this cookie does not exist, and the server returns the live Hub.</p>
+<p>To <strong>switch to staging</strong>, you simply access your Hub using a modified version of its normal URL. Using this URL sets the staging cookie, and returns the staging version of the Hub at the same time.</p>
+<p>Once the cookie is set, it will remain in your browser until you delete it. This means that you'll remain on the staging version of the Hub, <strong>even if you use your Hub's normal URL</strong> (or your bookmarks). To <strong>switch back to the live Hub</strong>, you must delete the cookie either by using a different modified URL, or by manually deleting your browser cookies.</p>
+<p><strong>Tip:</strong> Use an incognito browser window to avoid having to delete the staging cookie when you're done reviewing changes.</p>
+<p> </p>
+<h2>Switch to staging</h2>
+<p>To switch to the staging version of your Hub, your Onbrand Coordinator will provide the unique query string that can be added to the end of your Hub URL. </p>
+<p>For example, if your Hub URL is:</p>
+<p><code class="no-padding">https://resources.mycompany.com/</code></p>
+<p>Then the URL to switch to the staging version would be something like:</p>
+<p><code class="no-padding">https://resources.mycompany.com/?ufcc_onbrand_branch=OB-1234</code></p>
+<p>When you use this modified URL, Uberflip's server will set a cookie in your browser to indicate that you are now on the staging version of the requested Hub. Note that when you use this URL, <strong>the query string will</strong> <strong>disappear</strong> as soon as the page loads. This is intentional: as you have been successfully switched to the staging version of the Hub, the query string is no longer needed.</p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>The cookie used to switch to staging will remain in your browser until it is deleted. </strong>As long as the cookie is present, you will be served the staging version of your Hub, <strong>even if you use the normal, unmodified URL</strong>, or browse to different pages in the Hub.</p>
+<p>This only affects <strong>your</strong> browser: any other visitor to your Hub will still see the unchanged, live version of the Hub.</p>
+<p><strong>Tip:</strong> Use an incognito browser window to avoid having to delete the staging cookie when you're done reviewing changes.</p>
+</div>
+<p><strong>The representative of the Onbrand team that's working on your request will provide the special query string/link.</strong> This allows to review changes before they're published to your Hub.</p>
+<p>To request assistance from an Onbrand Development Coordinator, head to <a class="c-link" href="https://help.uberflip.com/" target="_blank" rel="noopener noreferrer" data-stringify-link="https://help.uberflip.com/" data-sk="tooltip_parent">https://help.uberflip.com/</a> and select 'Onbrand Request'.</p>
+<h3> </h3>
+<h2 id="h_01H914NWT8VB49E7GJC82Z4G7B">Switch back to live</h2>
+<p>Once you have switched to the staging version of your Hub, you will continue to remain on that version <strong>as long as the cookie remains in your browser</strong>.</p>
+<p>To switch back to the live version of your Hub, you need to <strong>delete the cookie </strong>by adding the following query string to the end of your Hub's normal URL: <code class="no-padding">?ufcc_reset</code>.</p>
+<p>For example, if your Hub URL is:</p>
+<p><code class="no-padding">https://resources.mycompany.com/</code></p>
+<p>Then the URL to switch back to the live version would be something like:</p>
+<p><code class="no-padding">https://resources.mycompany.com/?ufcc_reset</code></p>
+<p>When you visit this URL in our browser, the cookie that switches you to the staging version is deleted, and Uberflip's servers will once again serve the live version of your Hub.</p>
+<p>Alternatively, you can also simply clear your browser's cookies, which will have the same effect: after you delete your cookies, visiting your Hub's regular URL will once again return the live version.</p>]]></description>
+         <guid isPermaLink="false">360032870191</guid>
+         <pubDate>Fri, 23 Aug 2019 16:08:07 GMT</pubDate>
+      </item>
+      <item>
+         <title>Get started with Uberflip&apos;s GDPR features</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360019972472-Get-started-with-Uberflip-s-GDPR-features</link>
+         <description><![CDATA[<hr>
+<p>Learn about Uberflip's GDPR-specific features that make it easier for you to stay in compliance with this important data privacy regulation.</p>
+<hr>
+<p> </p>
+<h2>GDPR and Uberflip Hubs</h2>
+<p>As a marketer, you probably already know all about the EU General Data Protection Regulation (GDPR), which came into force on 25 May 2018. The GDPR introduced numerous requirements for how companies can collect and handle the personal data of EU citizens, and failing to comply can be very costly.</p>
+<p>Since your Uberflip Hub is one of the ways you collect the kind of customer data covered by the GDPR, it's important that you set it up in a way that is GDPR-compliant. If that sounds like it might be complicated, don't worry: we've built a number of GPDR features into Uberflip to help make it easier for you to stay compliant with the regulation.</p>
+<p> </p>
+<h2>Uberflip GDPR Features</h2>
+<p>Below, you'll find an overview of the various GDPR features in Uberflip, and how they can help you meet GDPR requirements. Click on the link under each one to learn more about the feature, and how to implement it in your Hub.</p>
+<p> </p>
+<h3>Conditional CTA Fields &amp; Label Only Field Type</h3>
+<p>With <strong>Conditional CTA Fields,</strong> you can selectively display different fields to different users on a Call-to-Action. This allows you to make your CTAs GDPR-compliant by displaying required fields (like opt-ins) and privacy policy language to EU citizens.</p>
+<p>Using the <strong>Label Only Field Type</strong>, you can display a text box inside your CTA — perfect for displaying the privacy policy language required by the GDPR (or linking to it).</p>
+<p><a href="https://help.uberflip.com/hc/en-us/articles/360020221931">Click here</a> to learn more.</p>
+<p> </p>
+<h3>Hub Privacy Banner, Privacy Policy Page, and Privacy Groups</h3>
+<p>GDPR requires that you notify Hub visitors of cookies and tracking scripts, explain how their data will be used, and give them the ability to opt-in or opt-out at any time. Do all this using the <strong>Privacy Banner</strong>, <strong>Pr</strong><strong>ivacy Policy Page</strong> and <strong>P</strong><strong>rivacy Groups functions</strong>.</p>
+<p><a href="https://help.uberflip.com/hc/en-us/articles/360020222171">Click here</a> to learn more.</p>
+<p> </p>
+<h3>Custom Code Blocks</h3>
+<p><strong>Custom Code Blocks</strong> give you the ability to separate tracking scrips on your Hub into specific blocks that can be mapped to Privacy Groups, allowing you to comply with visitor permissions as required by GDPR.</p>
+<p><a href="https://help.uberflip.com/hc/en-us/articles/360020222131">Click here</a> to learn more.</p>]]></description>
+         <guid isPermaLink="false">360019972472</guid>
+         <pubDate>Mon, 26 Nov 2018 18:00:18 GMT</pubDate>
+      </item>
+      <item>
+         <title>Add HTML, CSS, and JavaScript to your Hub with Custom Code</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360018841312-Add-HTML-CSS-and-JavaScript-to-your-Hub-with-Custom-Code</link>
+         <description><![CDATA[<p>Learn how to add Custom Code to your Hub to customize nearly any aspect of it's appearance and functionality.</p>
+<p> </p>
+<h2>Before you begin</h2>
+<div class="callout callout--warning">
+<h4 class="callout__title">IMPORTANT: considerations and warnings</h4>
+<p><strong>If you choose to Custom Code in your Hub, you do so at your own risk</strong>. There are many things to consider before using custom code, such as:</p>
+<ul>
+<li>The limited troubleshooting we can do at Uberflip if issues arise</li>
+<li>How you'll implement<strong> version control</strong> (this is not native to the Custom Code feature)</li>
+<li>How changes to the Uberflip base code may impact your Custom Code in the future</li>
+<li>Local regulations (such as GDPR)</li>
+</ul>
+<p><strong>Please read <a href="https://help.uberflip.com/hc/en-us/articles/13648673352333" target="_self">Using custom code: considerations and warnings</a> before implementing custom code.</strong> That article outlines warnings and things to consider before perusing a custom code solution.</p>
+</div>
+<ul>
+<li>To use Custom Code, you need to be an <strong>Account Admin </strong>or <strong>Content Manager</strong>.</li>
+<li>If you do not feel comfortable using Custom Code yourself, but want to take advantage of the customization options it offers, our OnBrand Team can help. For more information, please contact your Customer Success Manager or <a href="https://help.uberflip.com/hc/en-us/requests/new">Uberflip Support</a>.</li>
+<li>This article does not include a description of how the Uberflip Hub front end works, such as element IDs, classes, etc. For this type of information, please refer to our <a href="https://developers.uberflip.com/docs/getting-started">developer guide to customizing the Uberflip Hub front end</a>.</li>
+</ul>
+<p> </p>
+<h2>What does Custom Code do?</h2>
+<p>Uberflip comes with <a href="https://help.uberflip.com/hc/en-us/articles/360020130171">a variety of built-in options for customizing the look and feel of your Hub</a>. But what if you have a vision for your Hub that you can't achieve with these tools? If you're comfortable with writing code, you can use the Custom Code feature to go beyond the standard customization options and change your Hub's appearance and functionality in all kinds of ways.</p>
+<p>With Custom Code, you can create your own snippets of code in HTML, CSS, JavaScript, or any combination of these languages. You can then add these snippets to your Hub, and run them on top of the code that runs the Hub.</p>
+<p>Here are just a few of the things you can do with Custom Code:</p>
+<ul>
+<li>Customize your Hub's design elements, including menus, text, images, and more</li>
+<li>Modify the behaviour of different Hub elements, such as Item Tiles and CTAs</li>
+<li>Import and use custom fonts</li>
+<li>Add tracking pixels and other third-party scripts and plugins to your Hub</li>
+</ul>
+<p>Need a little inspiration? Check out our <a href="https://help.uberflip.com/hc/en-us/sections/360002680272">Hub Hacks</a> to see a variety of prebuilt code snippets.</p>
+<p> </p>
+<h2>How do I use Custom Code?</h2>
+<p>To use Custom Code in your Hub, you create Custom Code blocks. These blocks contain your code snippets along with metadata about the block, such as its name and a brief description of the code functionality.</p>
+<p>Organizing into blocks makes it easy to manage your Custom Code. You can see at a glance what you've added to your Hub, and can quickly enable or disable specific code snippets by toggling their respective blocks on and off.</p>
+<p>Within a block, you can create code snippets with any combination of HTML, CSS and JavaScript, and define the placement of the snippet within the larger Hub code.</p>
+<p>Lastly, if you use Custom Code to implement tracking pixels or other functionality with privacy implications, you can assign specific blocks to Privacy Groups. These are tied to settings that visitors to your site can use to opt into or opt out of tracking scripts, which is a GDPR compliance requirement. You can find more information about Privacy Groups and how to use them in <a href="https://help.uberflip.com/hc/en-us/articles/360020222131">this article</a>.</p>
+<p> </p>
+<h2>Step 1: Create a Custom Code block</h2>
+<p>If you want to deploy Custom Code on your Hub, the first thing you need to do is create a new Custom Code block to contain the code.</p>
+<ol>
+<li>Log in to your Uberflip account and navigate to the Hub where you want to add the Custom Code block.</li>
+<li>In the sidebar menu on the left, click on <strong>Appearance</strong>, then click on <strong>Custom Code</strong>.<br><img src="https://help.uberflip.com/hc/article_attachments/360018246311/Hubs___Custom_Code_-_Uberflip.png" alt="Hubs___Custom_Code_-_Uberflip.png">
+</li>
+<li>The <strong>Custom Code</strong> menu will appear on the right. In the grey bar below the heading, <strong>click on the +Add Code button.<br><img src="https://help.uberflip.com/hc/article_attachments/360018246471/Hubs___Appearance_-_Custom_Code_-_Uberflip.png" alt="Hubs___Appearance_-_Custom_Code_-_Uberflip.png"></strong>
+</li>
+<li>The <strong>Add New Code</strong> window will appear. Here, type in a <strong>Name</strong> and a <strong>Description</strong> for the block into the corresponding fields. These will help you to identify the block and its purpose/functionality later. When you're ready to proceed, click on <strong>Add Code</strong>.<br><img src="https://help.uberflip.com/hc/article_attachments/360018246531/Hubs___Appearance_-_Custom_Code_-_Uberflip.png" alt="Hubs___Appearance_-_Custom_Code_-_Uberflip.png" width="466" height="319">
+</li>
+<li>Your Custom Code block will be created, and you'll be taken to the <strong>Edit block</strong> page, where you can enter your code.</li>
+</ol>
+<div class="callout callout--info">
+<h4 class="callout__title">Item-Level Custom Code Blocks</h4>
+<p>By default, Custom Code blocks are added at the Hub level, and the code they contain is inserted into every page on your Hub. As this is the way custom code is most commonly used, the instructions in this article assume that you are creating Hub-level Custom Code blocks.</p>
+<p>Alternatively, you can also create Custom Code blocks <strong>at the</strong> <strong>Item level</strong>. The code contained within these blocks will be inserted into <em>only that Item's page</em>, <strong>not</strong> the rest of the Hub.</p>
+<p>To create a Custom Code block on a specific Item, navigate to the Item (under <em>Content &gt; Items tab</em>) and then click on <strong>Edit Item</strong>. Here, click on the <strong>Custom Code </strong>tab:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360018696892/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png"></p>
+<p>The process for creating and working with Item-level blocks is otherwise identical to Hub-level blocks, so the instructions in this article are directly applicable.</p>
+</div>
+<p> </p>
+<h2 id="h_6812550582701546883446863">Step 2: Choose a placement</h2>
+<p>With the block created, you now need to choose where the code will be placed within the HTML of your Hub. In general, the placement of your code will determine where it is loaded as each page of your Hub loads. The available placements, and the order in which they're loaded, are:</p>
+<dl class="dl-horizontal">
+<dt><strong>1. Head</strong></dt>
+<dd>Code is placed immediately before the <em>&lt;/head&gt;</em> tag, i.e. at the very end of the <em>Head</em> section.</dd>
+<dt><strong>2. Body Top</strong></dt>
+<dd>Code is placed immediately after the <em>&lt;body&gt;</em> tag, i.e. at the very beginning of the <em>Body</em> section.</dd>
+<dt><strong>3. Below Footer</strong></dt>
+<dd>Code is placed immediately after the <em>&lt;/footer&gt;</em> tag, i.e. right after the end of the <em>Footer</em> section.</dd>
+<dt><strong>4. Body Bottom</strong></dt>
+<dd>Code is placed immediately before the <em>&lt;/body&gt;</em> tag, i.e. at the very end of the <em>Body</em> section.</dd>
+</dl>
+<p>For example, all the code in the <em>Head</em> section will be loaded before any code in the <em>Body Top</em> section, and so on.</p>
+<p>Within the HTML document, the placements look like this (<em>standard Hub</em> code refers to Uberflip's own code that runs the Hub):</p>
+<pre><code class="html">&lt;html&gt;<br> &lt;head&gt;<br> &lt;!-- Standard Hub code goes here --&gt;<strong><br></strong> &lt;!-- Custom Code in <strong>Head</strong> goes here --&gt;<br> &lt;/head&gt;<br> &lt;body&gt;<br> &lt;!-- Custom Code in <strong>Body Top</strong> goes here --&gt;<br> &lt;!-- Standard Hub code goes here --&gt;<br>  &lt;footer&gt;<br>  &lt;!-- Standard Hub code goes here --&gt;<br>  &lt;/footer&gt;<br> &lt;!-- Custom Code in <strong>Below Footer</strong> goes here --&gt;<br> &lt;!-- Standard Hub code goes here --&gt;<br> &lt;!-- Custom Code in <strong>Body Bottom</strong> goes here --&gt;<br> &lt;/body&gt;<br>&lt;/html&gt;</code></pre>
+<p>Below are some general guidelines for choosing a placement:</p>
+<table style="height: 199px;" width="744">
+<tbody>
+<tr>
+<td style="width: 368.5px;"><strong>Type</strong></td>
+<td style="width: 368.5px;"><strong>Placement</strong></td>
+<td style="width: 368.5px;"><strong>Reason</strong></td>
+</tr>
+<tr>
+<td style="width: 368.5px;">All CSS</td>
+<td style="width: 368.5px;">Head</td>
+<td style="width: 368.5px;">Loads the CSS before the rest of the page, ensuring that the page loads fully styled.</td>
+</tr>
+<tr>
+<td style="width: 368.5px;">All JavaScript</td>
+<td style="width: 368.5px;">
+<p>Body Bottom</p>
+</td>
+<td style="width: 368.5px;">JavaScript can take a long time to load; loading it last avoids slow loading of the rest of the page.</td>
+</tr>
+<tr>
+<td style="width: 368.5px;">Tracking Scripts</td>
+<td style="width: 368.5px;">
+<p>Body Bottom (jQuery)</p>
+<p>Head (non-jQuery)</p>
+</td>
+<td style="width: 368.5px;">
+<p>Tracking scripts that use <em>jQuery</em> <strong>must be placed in Body Bottom</strong> (otherwise an error will be thrown).</p>
+<p>All others can be placed in Head.<br><br>For more information about using jQuery, see the <a href="#h_fe252264-f5af-40e3-a626-2a144225d8e3" target="_self">note</a> below.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 368.5px;">Corporate header</td>
+<td style="width: 368.5px;">Body Top</td>
+<td style="width: 368.5px;">Places your corporate website's header above all visual elements belonging to the Hub.</td>
+</tr>
+<tr>
+<td style="width: 368.5px;">Corporate footer</td>
+<td style="width: 368.5px;">Below footer</td>
+<td style="width: 368.5px;">Places your corporate website's footer below all visual elements belonging to the Hub.</td>
+</tr>
+</tbody>
+</table>
+<p>To choose the placement of your block, click on the <strong>Code</strong> tab on the <strong>Edit block</strong> page:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360018371532/Hubs___Custom_Code_-_Uberflip.png" alt="Hubs___Custom_Code_-_Uberflip.png" width="253" height="208"></p>
+<p>Then, <strong>use the dropdown menu </strong>under <strong>Placement </strong>to choose the placement you want to use.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360018248571/Hubs___Custom_Code_-_Uberflip.png" alt="Hubs___Custom_Code_-_Uberflip.png" width="270" height="295"></p>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>This dropdown will immediately change the placement of the Custom Code block!</strong></p>
+<p>In other applications, you may have encountered similar dropdowns which are used to browse and view the code in different parts of an HTML document. This dropdown does <strong>not</strong> work the same way!</p>
+<p>The <em>Placement</em> dropdown only specifies the placement of the custom code displayed below it, so <strong>changing the selection will change the placement of the code</strong>. This can have unexpected negative effects on your Hub's appearance and functionality, so please use caution when using it.</p>
+</div>
+<p> </p>
+<h2>Step 3: Enter code</h2>
+<p>Once you've chosen where to place it, you can add the actual code to your block. This can be HTML, CSS, JavaScript, or any combination. Simply type your code directly into the box provided on the <strong>Code</strong> tab of the <strong>Edit Block</strong> page:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360018306591/Hubs___Custom_Code_-_Uberflip.png" alt="Hubs___Custom_Code_-_Uberflip.png" width="700" height="604"></p>
+<p>The placement you chose will determine the tags shown above and below the code box, i.e. if you chose <strong>Head</strong>, then you would see <em>&lt;head&gt;</em> and <em>&lt;/head&gt;</em> tags above and below the code box, respectively.</p>
+<p>Keep the following in mind when entering your code:</p>
+<ul class="list-bullet">
+<li>Simply type <strong>HTML</strong> directly into the field</li>
+<li>To include <strong>CSS</strong>, enclose the CSS code within <em>&lt;style&gt;</em> tags</li>
+<li>To include <strong>JavaScript</strong>, enclose the JavaScript code within <em>&lt;script&gt;</em> tags
+<ul>
+<li>You can find a reference to Uberflip JavaScript Hub events that you can hook into in <a href="https://help.uberflip.com/hc/en-us/articles/360021648891">this article</a>.</li>
+</ul>
+</li>
+</ul>
+<div class="callout callout--warning">
+<h4 id="h_fe252264-f5af-40e3-a626-2a144225d8e3" class="callout__title">Important</h4>
+<p>Uberflip loads the <strong>jQuery 3.3.1 library</strong> into all Hub code by default. To use jQuery in your Custom Code, simply write jQuery within <em>&lt;script&gt;</em> tags, using the Body Bottom placement.</p>
+<p><strong>Please do NOT link the jQuery library from jQuery's public CDN in your code</strong>. Doing so can cause conflicting versions of jQuery to be loaded, which can break key functionality in your Hub.</p>
+</div>
+<p>You can  expand the code box to fullscreen by clicking on the <strong>Expand</strong> button in the top right:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360018430292/Hubs___Custom_Code_-_Uberflip.png" alt="Hubs___Custom_Code_-_Uberflip.png"></p>
+<p>To save your code at any time, click on the <strong>Save</strong> button in the lower right corner:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360018430352/Hubs___Custom_Code_-_Uberflip.png" alt="Hubs___Custom_Code_-_Uberflip.png"></p>
+<p>Changes to the code you enter aren't saved automatically, so remember to save your work regularly!</p>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>The code editor we use here is called <strong>Ace Editor</strong>, and it has lots of useful keyboard shortcuts. For example:</p>
+<ul>
+<li>Press <code class="no-padding">Ctrl+F</code> or <code class="no-padding">Cmd+F</code> once to open <strong>Find</strong>, and twice to open <strong>Replace</strong>
+</li>
+<li>Press <code class="no-padding">Ctrl+,</code> or <code class="no-padding">Cmd+,</code> to open the options menu</li>
+</ul>
+<p>You can find a full list of keyboard shortcuts <a href="https://github.com/ajaxorg/ace/wiki/Default-Keyboard-Shortcuts" target="_self">here</a>.</p>
+</div>
+<p> </p>
+<h2>Step 4: Enable the Custom Code block</h2>
+<p>The last step is enabling your block, which makes the code it contains take effect. To do that, simply toggle the switch under <strong>Enable Custom Code</strong> to the <strong>on (green) </strong>position:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360018326231/Hubs___Custom_Code_-_Uberflip.png" alt="Hubs___Custom_Code_-_Uberflip.png"></p>
+<p>This switch is accessible on the <strong>Edit block</strong> menu, regardless of whether you are on the <strong>Code Info </strong>or <strong>Code</strong> tabs.</p>
+<p>Enabling a Custom Code block will cause all the code it contains to be used as part of your Hub. This change will take effect immediately.</p>
+<p>At this point, you can also optionally choose to assign the block to a <strong>Privacy Group</strong>. For details about what Privacy Groups are, and how to set them up and use them, see <a href="https://help.uberflip.com/hc/en-us/articles/360020222131">this article</a>.</p>
+<p> </p>
+<h2>Manage Custom Code</h2>
+<p>Whenever you create a Custom Code block, it is added to the <strong>Custom Code</strong> table in your Hub (<em>Appearance &gt; Custom Code</em>):</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360018446892/Hubs___Appearance_-_Custom_Code_-_Uberflip.png" alt="Hubs___Appearance_-_Custom_Code_-_Uberflip.png" width="701" height="268"></p>
+<p>This table lists every existing Custom Code block in your Hub. For each block, you can see:</p>
+<ul>
+<li>
+<strong>Order</strong>: The order in which the block is loaded, relative to other blocks with the same placement</li>
+<li>
+<strong>Name</strong>: The name that was given to the block</li>
+<li>
+<strong>Description</strong>: The description that was entered for the block</li>
+<li>
+<strong>Placement</strong>: The block's placement</li>
+<li>
+<strong>Privacy Group</strong>: The Privacy Group that the block is assigned to, if any</li>
+<li>
+<strong>Enabled Status</strong>: Whether or not the block is currently enabled</li>
+</ul>
+<p>From here, you can <strong>enable/disable blocks</strong>, <strong>edit/delete blocks </strong>and<strong> change the block order</strong>.</p>
+<h3>Enable or disable blocks</h3>
+<p>You can quickly <strong>enable or disable any block</strong> directly from custom code table. Simply use the toggle switch to the right of the block you want to enable or disable:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360018327631/Hubs___Appearance_-_Custom_Code_-_Uberflip.png" alt="Hubs___Appearance_-_Custom_Code_-_Uberflip.png" width="699" height="166"></p>
+<p>Your change will take effect immediately.</p>
+<p> </p>
+<h3>Edit or delete blocks</h3>
+<p>You can <strong>make changes</strong> to an existing block, or <strong>delete</strong> it, at any time. To do that, hover your mouse over the block in the Custom Code table, and the <strong>Edit</strong> and <strong>Delete</strong> buttons will appear:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360018328071/Fullscreen_2019-01-07__12_46_PM.png" alt="Fullscreen_2019-01-07__12_46_PM.png" width="699" height="107"></p>
+<p>Click on the <strong>Edit</strong> <strong>(pencil)</strong> button to enter the <strong>Edit block</strong> menu, or on the <strong>Delete</strong> <strong>(</strong><strong>trash)</strong> button to permanently delete the block.</p>
+<p> </p>
+<h3>Change block order</h3>
+<p>The order in which Custom Code blocks are inserted into the Hub code is determined by their <a href="#h_6812550582701546883446863">placement</a>. As a result, we generally recommend grouping related functionality into the same block, i.e. placing all CSS in a single block, etc. Within a single block, code is executed from top to bottom as normal, so you can determine the order in which functionality loads by structuring the code accordingly.</p>
+<p>Sometimes, you may need to break out different functionality into separate blocks, for example if you need to be able to turn on and off specific tracking scripts independently of one another. If you have multiple separate blocks that all use the same placement, the order in which they will be loaded is the order shown in the Custom Code table:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360018464412/Hubs___Appearance_-_Custom_Code_-_Uberflip.png" alt="Hubs___Appearance_-_Custom_Code_-_Uberflip.png" width="696" height="189"></p>
+<p>If needed, you can modify this order by assigning a specific place in the order to any given block. To do so, <strong>click on the block's order number</strong> under the <strong>Order </strong>column, which will make it editable:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360018344191/Hubs___Appearance_-_Custom_Code_-_Uberflip.png" alt="Hubs___Appearance_-_Custom_Code_-_Uberflip.png"></p>
+<p>Now, simply <strong>type in the number</strong> in the order where you want the block to appear (or use the arrow buttons), and press <strong>Enter</strong>. The block will be moved to the specified position in the order:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360018344251/Hubs___Appearance_-_Custom_Code_-_Uberflip.png" alt="Hubs___Appearance_-_Custom_Code_-_Uberflip.png" width="701" height="178"></p>
+<p>All other blocks affected by this change (i.e. any blocks below the new position of the block that was moved) will automatically be pushed down in the order by one position.</p>
+<p>Keep in mind that all blocks will still be loaded based on placement <em>first</em>. For example, a block with a <em>Head </em>placement will always be loaded before a block with a <em>Below Footer</em> placement, regardless of their places in the order.</p>
+<p> </p>
+<h2 id="h_fe55d914-443d-4d8e-80ff-853d1e88431a">Notes</h2>
+<ul>
+<li>If you have OnBrand customizations in your Hub, keep in mind that these are also added as Custom Code blocks. While you are still able to add your own Custom Code, be careful not to accidentally disable the OnBrand blocks, or to modify the existing code inside them.</li>
+<li>As a best practice, you should put all JavaScript in one block if possible. If you also have OnBrand customizations, this means placing your own JavaScript code in the same block as the OnBrand JavaScript code. In this case, your code should go <em>above</em> the OnBrand code.</li>
+<li>All JavaScript must be ES5; ES6 is not supported.</li>
+<li>When creating blocks, keep dependencies in mind: in some cases, a section of code might require other code that lives in a separate block to be executed first. The execution order is determined by placement and block order, so be sure to account for any dependencies when choosing your placements and/or order.</li>
+</ul>]]></description>
+         <guid isPermaLink="false">360018841312</guid>
+         <pubDate>Tue, 06 Nov 2018 21:28:32 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Localization Features Explained</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360035997751-Hub-Localization-Features-Explained</link>
+         <description><![CDATA[<hr>
+<p>Thinking about targeting new regions and languages with your content? Learn about the Uberflip features you can use to build effective localized content experiences.</p>
+<hr>
+<p> </p>
+<h2>About Hub Localization</h2>
+<p>As of 2019, <a href="https://w3techs.com/technologies/history_overview/content_language/ms/y">over 55%</a> of content on the web was in English. But while English might be the dominant language on the web, you're missing out on a lot of potential customers if you're offering your content in English alone. In 2014, <a href="https://csa-research.com/More/Media/Press-Releases/ArticleID/31/Survey-of-3-000-Online-Shoppers-Across-10-Countries-Finds-that-60-Rarely-or-Never-Buy-from-English-only-Websites">CSA Research</a> surveyed consumers across 10 non-Anglophone countries about their language preferences on the web. The survey found that:</p>
+<ul class="list-bullet">
+<li>
+<strong>75%</strong> of those surveyed<strong> prefer to buy in their first language</strong>
+</li>
+<li>
+<strong>60% </strong>would <strong>rarely or never buy from English-only websites</strong>
+</li>
+<li>
+<strong>56% </strong>either<strong> spend more time on sites in their own language</strong>, or<strong> deliberately boycott English-language websites<br></strong>
+</li>
+</ul>
+<p>In other words, you'll never reach these potential customers with English-language content alone. That's why, if you want to maximize the reach and impact of your content, <strong>localization</strong> is essential.</p>
+<p>Uberflip has a suite of built-in tools and features that make it simple to localize your Hub content without the need to involve your IT team or other technical resources:</p>
+<ul>
+<li>
+<strong>Language Hubs</strong> and <strong>Hub Locale </strong>to house localized content and set language HTML tags</li>
+<li>
+<strong>Custom Label Translations</strong> to translate navigation and other UI elements in a Hub</li>
+<li>
+<strong>Multi-Language Links </strong>to set hreflang HTML tags for international SEO</li>
+</ul>
+<p>In this article, we'll provide an overview of these features and how you can use them to localize your content in Uberflip.</p>
+<p> </p>
+<h2 id="h_c47c28f3-0f35-4ab9-a4e7-1a50028bc25f">Step 1: Create Language Hubs With Hub Locale</h2>
+<h3>Language Hubs</h3>
+<p>Localizing your Uberflip content starts with creating <strong>language Hubs</strong>. Uberflip's localization features are designed around using separate Hubs for each language or region you want to support. For example, say you wanted to offer your content in Spanish in addition to English. In this case, you'd have two Hubs: your original English-language Hub, and a Spanish-language Hub that contains the same content translated into Spanish.</p>
+<p><strong><span class="text-primary">⇒</span></strong> If you want to add further Hubs to your Uberflip account, please <strong>contact your Customer Success Manager</strong>.</p>
+<div class="callout">
+<h4 class="callout__title">Can I have different languages in a single Hub?</h4>
+<p>In purely practical terms, yes: you're able to add content in different languages to a single Hub if you want. However, we <strong>don't recommend doing this</strong>, because you won't be able to take advantage of the other localization features, which rely on using separate Hubs for distinct languages/regions.</p>
+</div>
+<h3>Hub Locale</h3>
+<p>The key Uberflip setting that enables language-specific Hubs (as well as all other localization features) is <strong>Hub Locale</strong>. This is a Hub-level setting that specifies the <strong>language and region</strong> of a Hub:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360042873472/Hubs___Options_-_Advanced_-_Uberflip.png" alt="Hubs___Options_-_Advanced_-_Uberflip.png"></p>
+<p>Setting the Hub Locale is one of the first things you should do whenever you add a new Hub to your account. Primarily, it sets an HTML tag on the Hub that <strong>declares the Hub's language and region in a format that browsers and search engines can understand</strong>. Just as importantly, it works with other localization features to <a href="#h_875517a0-5a16-47d0-ab0e-20838b965547" target="_self">translate Hub UI labels</a> and <a href="#h_86bd467f-8d07-40f6-a6d4-90959b1f066d" target="_self">set the appropriate SEO tags</a>.</p>
+<p><strong><span class="text-primary">⇒</span></strong> To learn more about Hub Locale, including what it does and how to set or change it, see this article: <a href="https://help.uberflip.com/hc/en-us/articles/360020065732"><strong>Hub Locale Explained</strong></a></p>
+<p> </p>
+<h2 id="h_875517a0-5a16-47d0-ab0e-20838b965547">Step 2: Translate UI Elements With Custom Labels</h2>
+<p>Hubs contain all kinds of user interface text labels, such as headings, buttons, and so on. Once you have a Hub set up for a particular language, you need to make sure that the Hub interface is in that language as well.</p>
+<p>The <strong>Custom Labels</strong> feature makes this easy. Once you have set a <a href="#h_c47c28f3-0f35-4ab9-a4e7-1a50028bc25f" target="_self">Hub Locale</a>, Custom Labels will automatically translate all Hub interface text into the appropriate language. Pre-made translations are available for a number of widely-used languages (e.g. Simplified Chinese, Spanish, etc.). If a pre-made translation is not available for a language you want to support, adding the translations yourself is simple.</p>
+<p><strong><span class="text-primary">⇒</span></strong> To learn more about <strong>Custom Labels</strong>, including which languages have pre-made translations and how to add your own, see this article: <a href="https://help.uberflip.com/hc/en-us/articles/360028690851" target="_self"><strong>Customize Hub Interface Text or Change Hub Language with Custom Labels</strong></a></p>
+<p> </p>
+<h2 id="h_86bd467f-8d07-40f6-a6d4-90959b1f066d">Step 3: Set Hreflang Tags With Multi-Language Links</h2>
+<p>Lastly, one of the most important aspects of any localization project is SEO: ensuring that your localized content is being surfaced to people who are searching in that language, or who are in regions where that language is spoken.</p>
+<p>The primary SEO tool for localization is the <strong>hreflang tag</strong>, which is a type of HTML tag that Google and some other search engines look for. By setting hreflang tags on your pages, you can tell these search engines both which language a given page is in, and which <em>other</em> languages that page has been translated into. Using hreflang tags is an essential SEO best practice, because:</p>
+<ul>
+<li>
+<strong>They help to surface your content in search results</strong>: When a search engine indexes your content and sees the hreflang tag, it knows that it can serve a translated version of the same content to people searching in a particular language. Since readers usually prefer content in their primary language, this also helps to improve their user experience with your content, and therefore increases their engagement.</li>
+<li>
+<strong>They allow you to avoid duplicate content issues</strong>: Sometimes, different localized versions of pages can look very similar to one another: for example, a page targeting a US audience and another targeting a UK audience might only have differences in spelling and things like currency symbols. In such cases, search engines may consider the pages to be duplicate content, and downrank them in search results. Placing an hreflang tag helps to avoid this, as it tells search engines that the two pages are actually alternates, not duplicates.</li>
+</ul>
+<p>The traditional downside to hreflang tags is that they need to be added individually to the HTML of every localized version of a page, which can be tedious and usually involves digging around in page code. However, in Uberflip it's easy to set hreflang tags with the <strong>Multi-Language Links</strong> feature. With Multi-Language Links, you can simply click-to-select pages that are localized versions of one another to "link" them together. Once linked, Uberflip automatically sets the appropriate hreflang tags on all of the pages (based on their applicable <a href="#h_c47c28f3-0f35-4ab9-a4e7-1a50028bc25f" target="_self">Hub Locales</a>) — no working with HTML required.</p>
+<p><strong><span class="text-primary">⇒</span></strong> To learn more about <strong>Multi-Language Links</strong>, including related features such as the <strong>language selection menu</strong> and <strong>contextual linking</strong>, see this article: <a href="https://help.uberflip.com/hc/en-us/articles/360035196932" target="_self"><strong>Create Multi-Language Links Between Hubs, Streams, and Items</strong></a></p>]]></description>
+         <guid isPermaLink="false">360035997751</guid>
+         <pubDate>Thu, 07 Nov 2019 17:59:34 GMT</pubDate>
+      </item>
+      <item>
+         <title>Open Graph and Twitter Card tags on your Hub explained</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360021612952-Open-Graph-and-Twitter-Card-tags-on-your-Hub-explained</link>
+         <description><![CDATA[<hr>
+<p>Learn what Open Graph tags and Twitter Card tags are, how they are used by your Hub, and how they are set.</p>
+<hr>
+<p> </p>
+<h2>What are Open Graph and Twitter Card tags?</h2>
+<p>Open Graph and Twitter Card tags are types of HTML tags. In HTML, <em>tags</em> are simply labels that indicate what each element on a webpage is. For example, the <code class="no-padding">&lt;title&gt;</code> tag signifies that the text it contains is the title of a page, the <code class="no-padding">&lt;img&gt;</code> tag indicates an image, and so on.</p>
+<p>Some HTML tags are <em>meta</em> tags that contain <strong>metadata</strong>, or "data about data". Metadata provides information about the contents of a webpage, such as the title, content type, description, etc. <strong>Open Graph tags</strong> and <strong>Twitter Card tags</strong> fall into this category: they contain information about the page they're on, and are intended to tell other websites and web services what the page is about.</p>
+<p> </p>
+<h2>What do these tags do?</h2>
+<p>When you share a link on social platforms like Facebook or Twitter, or on messaging apps like Slack, you've probably noticed that a little preview of the destination page automatically appears. For example, when this URL is shared on Twitter...</p>
+<p><a href="https://hub.uberflip.com/blog/how-technology-and-software-marketers-use-uberflip">https://hub.uberflip.com/blog/how-technology-and-software-marketers-use-uberflip</a></p>
+<p>...it turns into this:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360054702432/og1.png" alt="og1.png"></p>
+<p>How do social platforms know what to display in these previews? They simply visit the link and look at its Open Graph tags or Twitter Card tags. Both types of tags are specifically designed to tell web platforms and services what they should display when a link to the page is shared.</p>
+<p>The benefit of using these tags is pretty clear: where a plain URL link offers almost no information about the content it points to, a preview provides the title and a brief description to tell people why clicking the link is worth their time. And when an image is included, a preview is also far more eye-catching than just a text-only link.</p>
+<p> </p>
+<h2>How does my Hub use these tags?</h2>
+<p>Uberflip automatically creates Open Graph and Twitter Card tags in the <code class="no-padding">&lt;head&gt;</code> section of the HTML on all Item pages, Stream pages, and Hub home pages of your Uberflip Hubs. The values of these tags are automatically populated using metadata from the corresponding Hub, Stream, or Item.</p>
+<div class="callout">
+<h4 class="callout__title">What's the difference between Open Graph tags and Twitter Card tags?</h4>
+<p>You might be wondering why there are two types of tags that seem to do the exact same thing. The reason is simple: Facebook and Twitter each decided to design their own protocols, and both are widely used. In practice, some web services support one protocol or the other, and many support both. Facebook's <a href="https://ogp.me/">Open Graph protocol</a> is generally used by more services (such as LinkedIn, Pinterest, and even Twitter); Twitter's <a href="https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards">Twitter Card protocol</a> was originally intended primarily for use on Twitter, but is also supported by some services such as Slack.</p>
+<p>When it comes to your Uberflip Hubs, the bottom line is that you don't need to worry about the difference. To make sure all your bases are covered, your Hubs generate both types of tag, with the same information in each set of tags.</p>
+</div>
+<p>To see the tags for your own Hubs, simply visit any page in a Hub, right-click anywhere, then click on <strong>View Page Source</strong>. When the source code appears, do a search for "og:" or "twitter:" to see the tags. For example, here they are for the example post shown above:</p>
+<p><em>Open Graph tags</em></p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360054702452/og2.png" alt="og2.png"></p>
+<p><em>Twitter Card tags</em></p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360054821971/og3.png" alt="og3.png"></p>
+<h3>Open Graph tags</h3>
+<p>Open Graph tags are all in the format of <code class="no-padding">og:tagname</code>. Uberflip creates the following Open Graph tags for Hub home pages, Stream pages, and Item pages:</p>
+<table style="height: 432px;" width="632">
+<tbody>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 199.333px;"><strong>Tag</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 199.333px;"><strong>Description</strong></td>
+</tr>
+<tr>
+<td style="width: 199.333px;"><code class="no-padding">og:type</code></td>
+<td style="width: 199.333px;">The content type, i.e. <code class="no-padding">website</code>
+</td>
+</tr>
+<tr>
+<td style="width: 199.333px;"><code class="no-padding">og:title</code></td>
+<td style="width: 199.333px;">The title of the content, e.g. "An Example Blog Post"</td>
+</tr>
+<tr>
+<td style="width: 199.333px;"><code class="no-padding">og:url</code></td>
+<td style="width: 199.333px;">The (canonical) URL of the content</td>
+</tr>
+<tr>
+<td style="width: 199.333px;"><code class="no-padding">og:description</code></td>
+<td style="width: 199.333px;">A brief description of the content </td>
+</tr>
+<tr>
+<td style="width: 199.333px;"><code class="no-padding">og:image</code></td>
+<td style="width: 199.333px;">A thumbnail image that will be shown with the content when shared (in some cases, dimensions will also be specified with <code class="no-padding">og:image:width</code> and <code class="no-padding">og:image:height</code> tags)</td>
+</tr>
+</tbody>
+</table>
+<h3>Twitter Card tags</h3>
+<p>Twitter Card tags are in the format <code class="no-padding">twitter:tagname</code>. Uberflip creates the following Twitter Card tags for Hub home pages, Stream pages, and Item pages:</p>
+<table style="height: 432px;" width="632">
+<tbody>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 199.333px;"><strong>Tag</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 199.333px;"><strong>Description</strong></td>
+</tr>
+<tr>
+<td style="width: 199.333px;"><code class="no-padding">twitter:card</code></td>
+<td style="width: 199.333px;">The <a href="https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/summary">type of Twitter card</a> that should be displayed using the tags</td>
+</tr>
+<tr>
+<td style="width: 199.333px;"><code class="no-padding">twitter:image</code></td>
+<td style="width: 199.333px;">A thumbnail image that will be shown with the content when shared</td>
+</tr>
+<tr>
+<td style="width: 199.333px;"><code class="no-padding">twitter:title</code></td>
+<td style="width: 199.333px;">The title of the content, e.g. "A Blog Post"</td>
+</tr>
+<tr>
+<td style="width: 199.333px;"><code class="no-padding">twitter:description</code></td>
+<td style="width: 199.333px;">A brief description of the content </td>
+</tr>
+<tr>
+<td style="width: 199.333px;"><code class="no-padding">twitter:site</code></td>
+<td style="width: 199.333px;">The Twitter account associated with the content</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>When creating previews from Twitter Card tags, Twitter respects any indexing rules (i.e. robots meta tag/<em>robots</em><em>.txt</em>) present for that website. If you have set your Hub to <strong>not</strong> be indexed by <a href="https://help.uberflip.com/hc/en-us/articles/360018840252" target="_self">turning on the <strong>No Robots Meta Tag</strong> setting</a>, Twitter will interpret this to mean that it should not display any content from that Hub, including images. As a result, sharing content from a Hub set to <em>noindex </em>will cause the resulting Twitter card previews to be shown <strong>without</strong> images. </p>
+<p> </p>
+</div>
+<h2>Can I change these tags?</h2>
+<p>The Open Graph tags and Twitter Card can't be modified <em>directly</em>: their values are automatically set using data taken from the relevant Hub, Stream, or Item. For example, the <code class="no-padding">og:title</code>/<code class="no-padding">twitter:title</code> tags for an Item page are set using the Item title you specified in the Uberflip app.</p>
+<p>This means you can <em>indirectly</em> set the values of some tags by changing the fields that they are tied to in the Uberflip app (see below for details). These tags are always linked to their respective app fields and can't be set independently, so you can't have an Open Graph/Twitter Card title that's different from the Item title in your Hub, for example.</p>
+<p>Note also that some tags are fixed, or preset based on the type of page, and can't be changed as they are not tied to any user-editable field.</p>
+<p>The tables below outline which fields are used to populate the tags for each type of page:</p>
+<h3>Hub level</h3>
+<table style="height: 131px;" width="642">
+<tbody>
+<tr>
+<td style="width: 317.5px;"><strong>Open Graph Tag</strong></td>
+<td style="width: 317.5px;"><strong>Twitter Card Tag</strong></td>
+<td style="width: 317.5px;"><strong>Set by</strong></td>
+</tr>
+<tr>
+<td style="width: 317.5px;"><code class="no-padding">og:title</code></td>
+<td style="width: 317.5px;"><code class="no-padding">twitter:title</code></td>
+<td style="width: 317.5px;"><em>Appearance &gt; Branding &gt; Text &gt; <strong>Company Name</strong></em></td>
+</tr>
+<tr>
+<td style="width: 317.5px;"><code class="no-padding">og:description</code></td>
+<td style="width: 317.5px;"><code class="no-padding">twitter:description</code></td>
+<td style="width: 317.5px;"><em>Appearance &gt; Branding &gt; Text &gt;<strong> Full Description</strong></em></td>
+</tr>
+<tr>
+<td style="width: 317.5px;"><code class="no-padding">og:image</code></td>
+<td style="width: 317.5px;"><code class="no-padding">twitter:image</code></td>
+<td style="width: 317.5px;"><em>Appearance &gt; Branding &gt; Image &gt;<strong> Hero Logo<br></strong></em></td>
+</tr>
+<tr>
+<td style="width: 317.5px;"><code class="no-padding">og:type</code></td>
+<td style="width: 317.5px;">N/A</td>
+<td style="width: 317.5px;">Always set to <code class="no-padding">website</code>
+</td>
+</tr>
+<tr>
+<td style="width: 317.5px;"><code class="no-padding">og:url</code></td>
+<td style="width: 317.5px;">N/A</td>
+<td style="width: 317.5px;">Primary <strong>Hub domain</strong>
+</td>
+</tr>
+<tr>
+<td style="width: 317.5px;">N/A</td>
+<td style="width: 317.5px;"><code class="no-padding">twitter:card</code></td>
+<td style="width: 317.5px;">Always set to <code class="no-padding">summary</code>
+</td>
+</tr>
+<tr>
+<td style="width: 317.5px;">N/A</td>
+<td style="width: 317.5px;"><code class="no-padding">twitter:site</code></td>
+<td style="width: 317.5px;"><em>Hub Options &gt; Sharing &gt; <strong>Twitter</strong></em></td>
+</tr>
+</tbody>
+</table>
+<h3>Stream level</h3>
+<table style="height: 131px;" width="642">
+<tbody>
+<tr>
+<td style="width: 317.5px;"><strong>Open Graph Tag</strong></td>
+<td style="width: 317.5px;"><strong>Twitter Card Tag</strong></td>
+<td style="width: 317.5px;"><strong>Set by</strong></td>
+</tr>
+<tr>
+<td style="width: 317.5px;"><code class="no-padding">og:title</code></td>
+<td style="width: 317.5px;"><code class="no-padding">twitter:title</code></td>
+<td style="width: 317.5px;"><em>Content &gt; Manage Stream &gt; <strong>Stream Name<br></strong></em></td>
+</tr>
+<tr>
+<td style="width: 317.5px;"><code class="no-padding">og:description</code></td>
+<td style="width: 317.5px;"><code class="no-padding">twitter:description</code></td>
+<td style="width: 317.5px;"><em>Content &gt; Manage Stream &gt; <strong>Stream Description<br></strong></em></td>
+</tr>
+<tr>
+<td style="width: 317.5px;"><code class="no-padding">og:image</code></td>
+<td style="width: 317.5px;"><code class="no-padding">twitter:image</code></td>
+<td style="width: 317.5px;">
+<strong><em>Thumbnail</em></strong><em> from most recent Item<br></em>
+</td>
+</tr>
+<tr>
+<td style="width: 317.5px;"><code class="no-padding">og:type</code></td>
+<td style="width: 317.5px;">N/A</td>
+<td style="width: 317.5px;">Always set to <code class="no-padding">website</code>
+</td>
+</tr>
+<tr>
+<td style="width: 317.5px;"><code class="no-padding">og:url</code></td>
+<td style="width: 317.5px;">N/A</td>
+<td style="width: 317.5px;"><em>Content &gt; Manage Stream &gt; Metadata &gt; <strong>URL Path</strong><br></em></td>
+</tr>
+<tr>
+<td style="width: 317.5px;">N/A</td>
+<td style="width: 317.5px;"><code class="no-padding">twitter:card</code></td>
+<td style="width: 317.5px;">Always set to <code class="no-padding">summary_large_image</code>
+</td>
+</tr>
+<tr>
+<td style="width: 317.5px;">N/A</td>
+<td style="width: 317.5px;"><code class="no-padding">twitter:site</code></td>
+<td style="width: 317.5px;"><em>Hub Options &gt; Sharing &gt; <strong>Twitter</strong></em></td>
+</tr>
+</tbody>
+</table>
+<h3>Item level</h3>
+<table style="height: 131px;" width="642">
+<tbody>
+<tr>
+<td style="width: 317.5px;"><strong>Open Graph Tag</strong></td>
+<td style="width: 317.5px;"><strong>Twitter Card Tag</strong></td>
+<td style="width: 317.5px;"><strong>Set by</strong></td>
+</tr>
+<tr>
+<td style="width: 317.5px;"><code class="no-padding">og:title</code></td>
+<td style="width: 317.5px;"><code class="no-padding">twitter:title</code></td>
+<td style="width: 317.5px;"><em>Content &gt; Edit Item &gt; <strong>Item Title<br></strong></em></td>
+</tr>
+<tr>
+<td style="width: 317.5px;"><code class="no-padding">og:description</code></td>
+<td style="width: 317.5px;"><code class="no-padding">twitter:description</code></td>
+<td style="width: 317.5px;"><em>Content &gt; Edit Item &gt; Metadata &gt; <strong>Description</strong></em></td>
+</tr>
+<tr>
+<td style="width: 317.5px;"><code class="no-padding">og:image</code></td>
+<td style="width: 317.5px;"><code class="no-padding">twitter:image</code></td>
+<td style="width: 317.5px;"><em><strong>Thumbnail</strong> of Item<br></em></td>
+</tr>
+<tr>
+<td style="width: 317.5px;"><code class="no-padding">og:type</code></td>
+<td style="width: 317.5px;">N/A</td>
+<td style="width: 317.5px;">Always set to <code class="no-padding">website</code>
+</td>
+</tr>
+<tr>
+<td style="width: 317.5px;"><code class="no-padding">og:url</code></td>
+<td style="width: 317.5px;">N/A</td>
+<td style="width: 317.5px;"><em>Content &gt; Edit Item &gt; Metadata &gt; <strong>URL Path</strong><br></em></td>
+</tr>
+<tr>
+<td style="width: 317.5px;">N/A</td>
+<td style="width: 317.5px;"><code class="no-padding">twitter:card</code></td>
+<td style="width: 317.5px;"><em>Always set to <code class="no-padding">summary_large_image</code></em></td>
+</tr>
+<tr>
+<td style="width: 317.5px;">N/A</td>
+<td style="width: 317.5px;"><code class="no-padding">twitter:site</code></td>
+<td style="width: 317.5px;"><em>Hub Options &gt; Sharing &gt; <strong>Twitter</strong></em></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Where <strong>Set by </strong>indicates a user-modifiable field/setting in the Uberflip app, the tag is linked to that field/setting, and changing it will update the tag.</li>
+<li>The <code class="no-padding">og:url</code> tag will always reflect the actual URL of the Hub, Stream, Item. Twitter Card previews derive the URL from the shared link itself, so the URL is not stated in the Twitter Card tags.</li>
+<li>The <code class="no-padding">og:type</code> and <code class="no-padding">twitter:card</code> tags are always set using preset values that can't be modified.</li>
+</ul>
+<p> </p>
+<h2>How are these tags different from the other meta tags on Hub pages?</h2>
+<p>The HTML of every page on your Hub contains several other <strong>meta tags</strong> in addition to the Open Graph and Twitter Card tags:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360054821951/og4.png" alt="og4.png"></p>
+<p>Uberflip will configure all of these tags for you automatically, so you don't need to worry about most of them them. However, there are <strong>two non-Open Graph/Twitter Card meta tags </strong>that you should know about:</p>
+<ul>
+<li>
+<code class="no-padding">meta name="title"</code> and </li>
+<li><code class="no-padding">meta name="description"</code></li>
+</ul>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360054702492/og5.png" alt="og5.png"></p>
+<p>The reason these two meta tags are important is because they are used by search engines as the title and snippet when the page is shown in search results, like this:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360054702472/og6.png" alt="og6.png"></p>
+<p>As a result, we refer to these tags in the Uberflip app as the <strong>SEO Title</strong> and <strong>SEO Description</strong>, or "meta-title" and "meta-description".</p>
+<p>By default, the meta-title and meta-description tags are set in the same way as the Open Graph and Twitter Card title and description tags, so they will usually be the same. However, if you want, you can set the meta-title and meta-description tags independently to display an <strong>alternative title and description</strong> for any page. To do this, simply set an SEO Title and/or SEO Description for any Hub, Stream, or Item page. To learn more, see <a href="https://help.uberflip.com/hc/en-us/articles/360021612892">this article</a>.</p>]]></description>
+         <guid isPermaLink="false">360021612952</guid>
+         <pubDate>Thu, 10 Jan 2019 16:18:55 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

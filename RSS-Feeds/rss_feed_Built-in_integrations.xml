@@ -1,0 +1,1427 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Built-in integrations</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Set Up ZoomInfo FormComplete on Form CTAs</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4417863946893-Set-Up-ZoomInfo-FormComplete-on-Form-CTAs</link>
+         <description><![CDATA[<hr>
+<p>Integrating ZoomInfo FormComplete with your Hub Form CTAs will make it easier for prospects to fill out your forms. Simply ask for an email address and then let ZoomInfo do the rest. This integration will allow you to only show fields with unknown data on a prospect, increasing the chance for form conversions. Reduce friction as field data already known by ZoomInfo based on email address will not be shown and submitted in the background.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>To create this integration, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+<li>Have access to ZoomInfo and FormComplete functionality.</li>
+<li>Hub is on the Front End V2 framework. <a href="https://help.uberflip.com/hc/en-us/articles/360051466431-Which-version-of-the-Uberflip-Hub-Front-End-am-I-using-" target="_blank" rel="noopener noreferrer">See this article</a> to determine which version your Hub uses.</li>
+</ul>
+<p> </p>
+<h2>Step 1: Create a New Form in ZoomInfo</h2>
+<ol>
+<li>Go to <a href="https://login.zoominfo.com/">https://login.zoominfo.com/</a> and <strong>l</strong><strong>og in to your account</strong>.</li>
+<li>Access the <strong>FormComplete</strong> section of the app.</li>
+<li>Follow <a href="https://tech-docs.zoominfo.com/formcomplete-implementation-guide.pdf" target="_blank" rel="noopener">these steps</a> outlined by ZoomInfo, starting at the <strong>Create a New Form (Manual Mode) </strong>section. When creating your form, it should look something like this:<br><br><img src="https://help.uberflip.com/hc/article_attachments/4417856283661/Zoominfo-Form-Config.png" alt="Zoominfo-Form-Config.png">
+</li>
+<li>Set up the form as shown above. This example is if you are using <strong>E</strong><strong>mail, First Name, Last Name, </strong>and <strong>C</strong><strong>ompany</strong> <strong>Name </strong>on your form. You can add fields as needed based on your requirements. Where your form setup might differ is highlighted in red:
+<ol>
+<li>The <strong>Whitelist Domains</strong> section should include the domains of the Hub(s) you are installing this on (Eg. hub1.acme.com and hub2.acme.com)</li>
+<li>The input <strong>data-mapping values</strong> will be dependant on the API names in your MAP (Eg. the field <strong>First Name</strong> has an API name of <strong>firstName</strong>).</li>
+</ol>
+</li>
+<li>Once the form setup is complete, select <strong>Save &amp; Install</strong> and copy the HTML snippet ZoomInfo provides. It should look something like this:</li>
+</ol>
+<p><img src="https://help.uberflip.com/hc/article_attachments/4417849459085/ZoomInfo-snippet.png" alt="ZoomInfo-snippet.png"></p>
+<p> </p>
+<h2>Step 2: Add the ZoomInfo Code to Your Hub</h2>
+<ol>
+<li>Log in to Uberflip.</li>
+<li>Go to <strong>Hubs &gt; Appearance &gt; Custom Code</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015925391/Hubs___Appearance_-_Custom_Code_-_Uberflip.png" alt="Hubs___Appearance_-_Custom_Code_-_Uberflip.png">
+</li>
+<li>Click on the <strong>+Add Code</strong> button.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015879712/Hubs___Appearance_-_Custom_Code_-_Uberflip.png" alt="Hubs___Appearance_-_Custom_Code_-_Uberflip.png">
+</li>
+<li>The <strong>Add New Code</strong> window will appear. Begin by typing in a name and (optionally) description for this piece of custom code (e.g. "ZoomInfo Integration"). Then, click on the <strong>Add Code</strong> button.</li>
+<li>This will take you to the Edit Custom Code view. Scroll down and click on the <strong>Code</strong> tab.</li>
+<li>Under <strong>Placement</strong>, use the dropdown to choose <strong>Head</strong> (it may already be selected by default).</li>
+<li>In the code field underneath, <strong>paste in the following code:</strong>
+<pre>&lt;style&gt;<br>div[data-zi-mapped-form] div:not(.uf-email-field) {<br>display: none;<br>}<br>div[data-zi-mapped-form] div[data-zi-field-enriched="false"],<br>div[data-zi-mapped-form] div[data-zi-field-enriched="false"] .control,<br>div[data-zi-mapped-form] div.uf-email-field .control{<br>display: block !important;<br>}<br>div[data-zi-mapped-form] div[data-zi-field-enriched="true"] {<br>display: none !important;<br>}<br>&lt;/style&gt;<br>&lt;script&gt;<br>window.addEventListener('uberflip.ctaActivate', () =&gt; {<br>(function () {<br>window._zi = { formId: '<strong>[YOUR FORM ID]</strong>', formLoadTimeout: 4000 };<br>var zi = document.createElement('script');<br>zi.type = 'text/javascript';<br>zi.async = true;<br>zi.src = 'https://ws-assets.zoominfo.com/formcomplete.js';<br>var s = document.getElementsByTagName('script')[0];<br>s.parentNode.insertBefore(zi, s);<br>})();<br>});<br>&lt;/script&gt;</pre>
+</li>
+<li>In the code snippet, replace the section <strong>[YOUR FORM ID]</strong> with the ID from the snippet you saved from ZoomInfo in <strong>Step 1</strong>.</li>
+<li>Click on the <strong>Save</strong> button below the code field.</li>
+<li>Lastly, scroll back up and switch the toggle under <strong>Enable Custom Code</strong> to the <strong>on (green) </strong>position.</li>
+</ol>
+<p>And that's it — you've successfully integrated ZoomInfo FormComplete with your Hub Form CTAs!</p>
+<p> </p>
+<h2>Examples: See it in Action</h2>
+<ol>
+<li>
+<strong>Full Match: </strong>Email is typed in. First Name, Last Name and Company Name are all known, therefore none are shown and instead submitted in the background when the form is completed.<img src="https://help.uberflip.com/hc/article_attachments/4417865317901/full-match-ZoomInfo.gif" alt="full-match-ZoomInfo.gif">
+</li>
+<li>
+<strong>Partial Match: </strong>Email is typed in. First Name and Company Name are known, but Last Name isn't known, therefore only <strong>Last Name</strong> is prompted. The remaining fields aren't shown and submitted in the background.<br><img src="https://help.uberflip.com/hc/article_attachments/4417857829517/partial-match-ZoomInfo.gif" alt="partial-match-ZoomInfo.gif">
+</li>
+<li>
+<strong>No Match: </strong>Email is typed in. First Name, Last Name and Company Name are all unknown, therefore the visitor is prompted to fill them out.<br><img src="https://help.uberflip.com/hc/article_attachments/4417850793101/no-match-ZoomInfo.gif" alt="no-match-ZoomInfo.gif">
+</li>
+</ol>]]></description>
+         <guid isPermaLink="false">4417863946893</guid>
+         <pubDate>Mon, 27 Dec 2021 15:17:20 GMT</pubDate>
+      </item>
+      <item>
+         <title>Migrate a Pardot integration to a Salesforce SSO account</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360055957252-Migrate-a-Pardot-integration-to-a-Salesforce-SSO-account</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>Follow these instructions to migrate your Pardot integration from a <strong>Pardot-only account</strong> to a <strong>Salesforce SSO account</strong>.</p>
+<p> </p>
+<h2>Prerequisite: Get your Pardot and Salesforce login credentials</h2>
+<p>Before you begin, you will need to gather various pieces of ID information from your Pardot/Salesforce accounts. <strong>See the main Pardot setup article for details</strong> on what you will need and how to find it:</p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360021942272">Integrate Pardot with your Uberflip account</a></li>
+</ul>
+<p> </p>
+<h2>Switch your Pardot integration to a Salesforce SSO account</h2>
+<ol>
+<li>Log in to Uberflip.</li>
+<li>Click on <strong>Integrations &gt; Connected Services</strong> in the sidebar menu.</li>
+<li>In the Connected Services list on the right, find <strong>Pardot</strong>.</li>
+<li>Beside Pardot, click on the <strong>Edit</strong> button in the <strong>Action column</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360084483252/image6.png" alt="image6.png">
+</li>
+<li>In the <strong>Edit Settings</strong> window, <strong>click on the <em>Change your Pardot login</em> link </strong>in near the top:<br><img src="https://help.uberflip.com/hc/article_attachments/360084483272/image5.png" alt="image5.png">
+</li>
+<li>In the next window,<strong> enter your Pardot Account ID, Campaign ID, and Business Unit ID</strong>, then click on <strong>Save &amp; Connect</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360084482992/image.png" alt="image.png" width="314" height="428">
+</li>
+<li>The Salesforce login screen will appear in a new window. <strong>Enter the credentials of the Salesforce SSO account</strong> that you want to use with the integration, then click on <strong>Log In</strong>.</li>
+<li>Next, you may see prompt asking if you want to allow Uberflip to access your Pardot account. If you see this prompt, <strong>click on the Allow button </strong>to proceed.</li>
+<li>You'll be returned to the Uberflip Connected Services menu. The Pardot integration will still show as "connected", indicating that you have successfully migrated it to the specified Salesforce SSO account.</li>
+</ol>
+<p> </p>
+<h2>Additional Notes</h2>
+<p>If you set up your Pardot integration <strong>before February 5, 2021</strong> using a <strong>Pardot-only account</strong>, <a href="https://help.uberflip.com/hc/en-us/articles/360055005292">you must migrate your integration</a> to a <strong>Salesforce SSO</strong> <strong>account</strong> to keep it working, as per <a href="https://help.salesforce.com/articleView?id=000353746&amp;language=en_US&amp;mode=1&amp;type=1" target="_self">Salesforce's updated account requirements</a>.</p>]]></description>
+         <guid isPermaLink="false">360055957252</guid>
+         <pubDate>Tue, 02 Feb 2021 16:59:26 GMT</pubDate>
+      </item>
+      <item>
+         <title>Announcement: Changes to the Pardot integration</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360055005292-Announcement-Changes-to-the-Pardot-integration</link>
+         <description><![CDATA[<hr>
+<p>Salesforce is making changes to their <strong>login requirements for Pardot users</strong>, and we are <strong>updating Uberflip's Pardot integration</strong> <strong>to be compatible</strong> with these changes. Learn about the timeline for this change, what it means for you, and what you'll need to do to get ready.</p>
+<hr>
+<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>The original <strong>February 1</strong> availability date for Salesforce SSO support has been revised to <strong>February 5</strong>. All references to the availability date in this article have been updated accordingly.</p>
+</div>
+<h2>What's changing?</h2>
+<p>In the past, Pardot supported both <strong>Pardot-only users</strong> and <strong>Salesforce single-sign on (SSO) users</strong>. Salesforce (Pardot's parent company) <a href="https://help.salesforce.com/articleView?id=000353746&amp;language=en_US&amp;mode=1&amp;type=1" target="_self">has announced</a> that they are <strong>ending support for the Pardot-only user type </strong>on <strong>February 15, 2021</strong>, and that they will <strong>require all Pardot users to use Salesforce SSO </strong>from that date onward.</p>
+<p>This change affects <a href="https://help.uberflip.com/hc/en-us/articles/360021942272" target="_self">Uberflip's integration with Pardot</a>. In the past, the integration was <strong>not compatible with Salesforce SSO accounts</strong>, and could only be set up with a Pardot-only account. To ensure that the integration can continue to function, we are <strong>updating it to support Salesforce SSO accounts</strong>. The updated integration will be available on <strong>February 5,</strong> <strong>2021</strong>.</p>
+<p><strong>Users of the Pardot integration will need to take action</strong> as a result of this change: to ensure that it keeps working without interruption, you must <strong>manually switch your Pardot integration to a</strong><strong> Salesforce SSO account</strong>. You can do this at <strong>any time</strong> <strong>after February 5</strong>.</p>
+<p> </p>
+<h2 id="h_50a40ce7-374f-4d7f-b50f-ec1c3d51bcff">Who is affected by this change?</h2>
+<p>This change affects <strong>any Uberflip customer who:</strong></p>
+<ol>
+<li>
+<strong>Currently uses</strong> the Pardot integration<strong> AND</strong>
+</li>
+<li>
+<strong> Set up</strong> the integration at any time <strong>before February 5, 2021</strong>
+</li>
+</ol>
+<p>When you set up a Pardot integration, you must <strong>specify a Pardot account</strong>: the integration uses this account to authenticate into the connected Pardot environment. <strong>Before February 5, 2021</strong>, the account <strong>could only be a Pardot-only account</strong>, because Salesforce SSO accounts were not supported by the integration until that date.</p>
+<p>When Salesforce discontinues Pardot-only accounts, this will <strong>disconnect</strong> <strong>any Pardot integration that still uses a Pardot-only account</strong>. By definition, this <strong>includes</strong> <strong>any Uberflip Pardot integration set up before February 5, 2021</strong>.</p>
+<p> </p>
+<h2>What do I need to do to be ready for this change?</h2>
+<p>If you are affected by this change,<strong> you must take action to ensure that your Pardot integration continues to work</strong>.</p>
+<p>Specifically, you must <strong>modify your Pardot integration to use a Salesforce SSO</strong> <strong>account</strong> (replacing the Pardot-only account used previously). You can do this <strong>on February 5, 2021 or later</strong>.</p>
+<p>Follow the instructions in the following article to switch your Pardot integration to a Salesforce SSO account:</p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360055957252">Migrate a Pardot integration to a Salesforce SSO account</a></li>
+</ul>
+<p> </p>
+<h2>Is there a deadline for me to take action?</h2>
+<p>Yes. Salesforce has stated that the requirement to use Salesforce SSO with Pardot will come into effect on <strong>February 15</strong>. As a result, you should <strong>take action by this date</strong>.</p>
+<p> </p>
+<h2>What if I miss this deadline?</h2>
+<p>After February 15, Salesforce will use a "<strong>schedule of controlled outages</strong>" for a period of several months. For the duration of a scheduled outage, integrations that use Pardot-only accounts will be<strong> disconnected </strong>from Pardot.</p>
+<p>While the integration is disconnected, <strong>any Uberflip Hub functionality associated with the integration will not work</strong>. This includes most Form CTA functionality, including:</p>
+<ul>
+<li>
+<strong>Lead data collection: </strong>Visitors will be able to submit Form CTAs, but Uberflip won't be able to send this lead data to Pardot, resulting in <strong>data loss</strong>
+</li>
+<li>
+<strong>Progressive profiling:</strong> Any Pardot Form CTA configured to use this feature will not function correctly</li>
+<li>
+<strong>Automated workflows:</strong> Pardot workflows that are started by Form CTA submissions (such as follow-up emails, newsletter subscriptions, etc.) will not trigger</li>
+</ul>
+<p>The duration and frequency of the scheduled outages will increase over time, until Salesforce begins <strong>permanently enforcing the new requirements on</strong> <strong>June 15</strong>. On this date, any Pardot integration that still uses a Pardot-only account will be disconnected, and will remain disconnected until it is switched to a Salesforce SSO account.</p>
+<p>You can find detailed information about this policy of scheduled outages, including the schedule itself, in <a href="https://help.salesforce.com/articleView?id=000353870&amp;language=en_US&amp;mode=1&amp;type=1" target="_self">this article from Salesforce</a> (scroll down to "Pardot API").</p>
+<p>You will <strong>still be able to switch your Pardot integration to Salesforce SSO</strong> at any time after February 15, including after June 15. <strong>However, due to the risk of data loss, we strongly encourage you to switch your Pardot integration to Salesforce SSO by February 15 at the latest. </strong></p>
+<p> </p>
+<h2 id="h_01EKWZQGGQ8JJNWX28Y88B4VRC">Additional information</h2>
+<p>You can find Salesforce's announcement regarding this change here:</p>
+<p class="wysiwyg-text-align-center"><a href="https://help.salesforce.com/articleView?id=000353746&amp;language=en_US&amp;mode=1&amp;type=1" target="_self"><strong>Salesforce: Pardot User Migration Overview </strong></a></p>
+<p>Salesforce has also provided an FAQ document about this change, which is located here:</p>
+<p class="wysiwyg-text-align-center"><a href="https://help.salesforce.com/articleView?id=000353870&amp;language=en_US&amp;mode=1&amp;type=1" target="_self"><strong>Salesforce: Pardot User Migration FAQ</strong></a></p>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360055005292</guid>
+         <pubDate>Wed, 13 Jan 2021 22:47:10 GMT</pubDate>
+      </item>
+      <item>
+         <title>Get started with Uberflip&apos;s built-in integrations</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020907752-Get-started-with-Uberflip-s-built-in-integrations</link>
+         <description><![CDATA[<hr>
+<p>Learn how you can integrate Uberflip with the other apps in your marketing tech stack.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>To set up integrations, you need to be a member of the <strong>Account Administrator,</strong> <strong>Content Manager </strong>or <strong>Demand Generation </strong>user groups.</li>
+</ul>
+<p> </p>
+<h2>About Uberflip's integrations</h2>
+<p>Your Uberflip account is specifically designed to work together with the other apps in your MarTech stack. Uberflip supports a wide variety of integrations that allow you to connect your Uberflip Hubs to external services and enhance your content experiences. These integrations cover a range of use cases, ranging from lead generation to analytics to sharing and more.</p>
+<p>In general, the more integrations you set up, the better: you'll get more value not just from your Uberflip Hubs, but from your other tools as well. For example, if you connect your account to a Marketing Automation Platform (MAP) like Marketo or HubSpot, you can use CTAs in your Hubs to automatically feed leads to your MAP.</p>
+<p>Currently, Uberflip has built-in integrations for all of the following external tools:</p>
+<h4>Marketing automation</h4>
+<ul>
+<li>Marketo</li>
+<li>HubSpot</li>
+<li>Eloqua</li>
+<li>Pardot</li>
+<li>MailChimp</li>
+</ul>
+<h4>Content sources</h4>
+<ul>
+<li>YouTube</li>
+<li>Wistia</li>
+<li>Brightcove</li>
+<li>Vimeo</li>
+</ul>
+<h4>Analytics</h4>
+<ul>
+<li>Bombora</li>
+<li>Google Analytics</li>
+<li>Google Tag Manager</li>
+<li>Google Search Console</li>
+</ul>
+<h4>User engagement and sharing<strong><br></strong>
+</h4>
+<ul>
+<li>AddThis</li>
+<li>Disqus</li>
+<li>BrightInfo</li>
+<li>Pinterest Site Verification</li>
+<li>Optimizely</li>
+</ul>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>You can also integrate your Uberflip Hubs with many other tools through <strong>Uberflip Marketplace</strong> apps. Check out the available apps <a href="https://marketplace.uberflip.com/">here</a>.</p>
+</div>
+<p> </p>
+<h2>Set up an integration</h2>
+<p>Setting up an Integration is easy, and only takes a few moments.</p>
+<ol>
+<li>Log in to your Uberflip account and select any Hub.</li>
+<li>In the sidebar menu, click on <strong>Integrations</strong>, then click on <strong>Connected Services</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/4408879104909/image.png" alt="image.png">
+</li>
+<li>You'll see a list of services that Uberflip can integrate with:<br><img src="https://help.uberflip.com/hc/article_attachments/360018402911/Hubs___Integrations_-_Uberflip.png" alt="Hubs___Integrations_-_Uberflip.png" width="700" height="329">
+</li>
+<li>Choose the service you want to integrate with. To set up the integration, click on its <strong>Connect</strong> button (under the <strong>Action</strong> column).</li>
+<li>The setup menu for the selected service will appear in an overlay window. The exact process will vary for each service, but the menu will walk you through it.</li>
+<li>Once you have completed the setup, your Integration should be ready to go. For some service, you will also need to do some additional configuration before the integration is fully functional. You can find service-specific setup guides for each of the built-in integrations here on Uberflip Help.</li>
+</ol>
+<p> </p>
+<h2>Manage existing integrations</h2>
+<p>You can manage your current integrations at any time by visiting the <strong>Integrations &gt; Connected Services </strong>section in your account again. Here, the integrations you currently have set up are marked with a <em>connected</em> tag next to the service name (or, alternatively, the name of the connected account):</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360018524072/Hubs___Integrations_-_Uberflip.png" alt="Hubs___Integrations_-_Uberflip.png"></p>
+<p>From this menu, you can also disconnect Integrations, or edit them (if they have configurable setup options).  To do so, simply use the buttons that appear under the <strong>Action</strong> column:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360018524172/Hubs___Integrations_-_Uberflip.png" alt="Hubs___Integrations_-_Uberflip.png" width="703" height="115"></p>
+<p>These buttons will vary depending on the service to reflect the options available (with the exception of the <strong>Disconnect</strong> button, which is always available.</p>]]></description>
+         <guid isPermaLink="false">360020907752</guid>
+         <pubDate>Wed, 19 Dec 2018 15:24:11 GMT</pubDate>
+      </item>
+      <item>
+         <title>Set up a Salesforce integration</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360047293692-Set-up-a-Salesforce-integration</link>
+         <description><![CDATA[<hr>
+<p>Learn how to integrate with Salesforce to deliver visitor activity data from Uberflip into Salesforce.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>To set up a Salesforce integration, you need to be in the <strong>Account Admin,</strong><strong> Content Manager </strong>or <strong>Demand Generation </strong>user group(s).</li>
+<li>You will need a <strong>Salesforce</strong> account that has the appropriate permissions to set up external integrations.<br>
+<ul>
+<li>We recommend that you <strong>create a new Salesforce account specifically for the Uberflip integration</strong> with login credentials known to multiple people on your team (for troubleshooting purposes).</li>
+<li>If possible, we also recommend using the same Salesforce account that you have used to integrate Salesforce with your Marketing Automation Platform (MAP).</li>
+</ul>
+</li>
+<li>Your Uberflip account must already be integrated with one of the following <strong>Marketing Automation Platforms</strong> (MAPs): <strong>Marketo</strong>,<strong> HubSpot</strong>, <strong>Oracle Eloqua</strong>, or <strong>Pardot</strong>.</li>
+<li>Additionally, you will need to know <strong>which account you used</strong> to integrate your MAP with Uberflip, and must also have <strong>administrator access to that account</strong>.</li>
+</ul>
+<p> </p>
+<h2>About the Salesforce integration</h2>
+<p>When you integrate your Marketing Automation Platform (MAP) with Uberflip, you can capture data about the way your visitors are interacting with the content in your Uberflip Hub. This data can be incredibly useful to your sales reps, because a lead who is consuming your content is engaged, and is more likely to move further into the sales funnel.</p>
+<p>The problem: this data lives in your MAP, but your sales reps don't. To get the most out of it, you need to <strong>get the data into the hands of your sales reps</strong> by delivering it to a platform that they use in their day-to-day — <strong>Salesforce</strong>. Uberflip's Salesforce integration makes this possible.</p>
+<p>Plus, Salesforce is often the source of truth for revenue in an organization: as a marketer, bringing your Uberflip data into Salesforce can help you to <strong>demonstrate the revenue impact of your content experiences</strong>.</p>
+<h3>What does the integration do?</h3>
+<p>With all of Uberflip's MAP integrations, you have the option of using <a href="https://help.uberflip.com/hc/en-us/articles/360040307932" target="_self"><strong>custom fields</strong></a> to send data to your MAP about visitor activity in your Hub. When this option is enabled, this data is recorded on the lead profiles of "known visitors" (visitors to your Hub who have submitted a <a href="https://help.uberflip.com/hc/en-us/articles/360020989871" target="_self">Form CTA,</a> linking them to a specific lead profile) in your MAP.</p>
+<p>Uberflip's Salesforce integration takes the same visitor activity data and also sends it to the corresponding <em>Lead</em> or <em>Contact</em> profiles in your Salesforce account. This data is recorded in Salesforce as <strong><em>Activities</em></strong>, which has several benefits:</p>
+<ul>
+<li>
+<em>Acitivities</em> are <strong>highly visible</strong> in both <em>Salesforce Classic</em> and <em>Lighting Experience</em>. They appear:<br>
+<ul>
+<li>On <em>Lead</em>, <em>Contact</em>, and <em>Account</em> profiles in Salesforce, and remain in place when a <em>Lead</em> is converted to a <em>Contact</em>
+</li>
+<li>On <em>Opportunities</em>, as <em>Activities</em> are brought in from <em>Contacts on</em> the associated <em>Account</em>
+</li>
+</ul>
+</li>
+<li>It's<strong> easy to generate reports</strong> on <em>Activities</em>, with many out-of-the-box reports available in Salesforce</li>
+<li>Setup is very simple, and <strong>does not require creating a new custom object</strong> (which is typically outside of the Marketing department's control, and difficult or time-consuming to set up)</li>
+</ul>
+<h3>How does it work?</h3>
+<p>If you sync your MAP and Salesforce lead databases, any visitor to your Hub who has a lead profile in your MAP will also have a corresponding profile in your Salesforce account. As a result, Uberflip's Salesforce integration is also able to feed the same visitor activity data it records in your MAP to the corresponding Salesforce profile.</p>
+<p>To do this, the integration first locates the lead profile in your MAP (using the MAP's tracking script/cookie), then uses information from this profile to look up the corresponding Salesforce <em>Lead</em> or <em>Contact</em> profile. If it is able to find a Salesforce profile, the integration then writes a new <em>Activity</em> to that profile, containing details about the lead's activity in your Hub. You can even set default SFDC <em>Priority</em> and <em>Status</em> values for each type of <em>Activity</em> in order to tie them into your sales workflows.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>The integration will only create <em>Activities</em> in <strong>existing</strong> Salesforce <em>Lead</em> and <em>Contact</em> profiles. It will <strong>not</strong> create <strong>new</strong> <em>Lead </em>or <em>Contact</em> profiles if they do not already exist in your Salesforce account.</p>
+</div>
+<h3>What types of data does it record?</h3>
+<p>There are three types of <em>Activity</em> that the integration can create in Salesforce:</p>
+<ul>
+<li>
+<strong>Page View</strong>: Created whenever a lead views an Item page in your Hub</li>
+<li>
+<strong>CTA Submit</strong>: Created whenever a lead submits a Form CTA connected to your Hub</li>
+<li>
+<strong>Flipbook View:</strong> Created whenever a lead views a Flipbook in your Hub</li>
+</ul>
+<p>Each <em>Activity </em>has an identifying subject, and contains custom fields that capture specific details about the lead's activity:</p>
+<table style="height: 257px; width: 600px;" width="755">
+<tbody>
+<tr style="height: 23px;">
+<td class="wysiwyg-text-align-center" style="width: 288.567px; height: 23px;"><strong>Activity Subject</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 288.433px; height: 23px;"><strong>Activity Custom Fields<br></strong></td>
+</tr>
+<tr style="height: 117px;">
+<td class="wysiwyg-text-align-center" style="width: 288.567px; height: 117px;">Uberflip - Page View</td>
+<td style="width: 288.433px; height: 117px;">
+<ul>
+<li>Uberflip Page (page title)</li>
+<li>Uberflip URL</li>
+<li>Uberflip Hub (Hub name)</li>
+<li>Uberflip Stream (Stream name)</li>
+<li>Page View Time</li>
+</ul>
+</td>
+</tr>
+<tr style="height: 94px;">
+<td class="wysiwyg-text-align-center" style="width: 288.567px; height: 94px;">Uberflip - CTA Submit</td>
+<td style="width: 288.433px; height: 94px;">
+<ul>
+<li>Uberflip CTA (CTA name)</li>
+<li>Uberflip Stream (Stream name)</li>
+<li>Uberflip Hub (Hub name)</li>
+<li>CTA Submit Time</li>
+</ul>
+</td>
+</tr>
+<tr style="height: 23px;">
+<td class="wysiwyg-text-align-center" style="width: 288.567px; height: 23px;">Uberflip - Flipbook View</td>
+<td style="width: 288.433px; height: 23px;">
+<ul>
+<li>Uberflip Flipbook (Flipbook title)</li>
+<li>Uberflip Flipbook URL</li>
+<li>Uberflip Stream (Stream name)</li>
+<li>Flipbook View Time</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>If you prefer, you can also configure the integration to write all of these details to the <em>Comments</em> field as a single text block, rather than to individual custom fields.</p>
+</div>
+<p> </p>
+<h2>Prerequisite: Sync lead profiles between your MAP and Salesforce</h2>
+<p>Before you can use the integration, you must ensure that <strong>lead profiles in your MAP contain the person's Salesforce <em>Contact ID or Lead ID</em></strong>.</p>
+<p>This is necessary because Salesforce does not have a tracking script or cookie that Uberflip can use to find their Salesforce <em>Lead</em> or <em>Contact</em> profile. Instead, Uberflip leverages your MAP's tracking functionality to look up the visitor's lead profile in the MAP, then looks for their Salesforce <em>Contact ID</em> or <em>Lead ID</em> in that profile to find the appropriate Salesforce profile.</p>
+<p>In order for this to work, Salesforce <em>Lead IDs</em> and/or <em>Contact IDs</em> must therefore appear on lead profiles in your MAP. While you can add them manually, an easier option is to <strong>automatically sync lead profiles between your MAP and your Salesforce account</strong>. This functionality is supported in all of the MAPs that Uberflip integrates with.</p>
+<p>You can learn more about how to sync lead profiles between your MAP and Salesforce in the following articles:</p>
+<h4>Marketo</h4>
+<ul>
+<li><a href="https://docs.marketo.com/display/public/DOCS/Salesforce+Sync"><strong>Marketo: Salesforce Sync</strong></a></li>
+</ul>
+<h4>HubSpot</h4>
+<ul>
+<li><a href="https://knowledge.hubspot.com/salesforce/sync-salesforce-accounts-to-hubspot"><strong>HubSpot: Sync Salesforce accounts to HubSpot</strong></a></li>
+</ul>
+<h4>Oracle Eloqua</h4>
+<ul>
+<li><a href="https://docs.oracle.com/en/cloud/saas/marketing/eloqua-user/Help/Apps/SalesforceApp/SalesforceApp.htm"><strong>Oracle Eloqua: Salesforce Integration app</strong></a></li>
+</ul>
+<h4>Pardot</h4>
+<ul>
+<li><a href="https://help.salesforce.com/articleView?id=pardot_prospect_syncing_between_pardot_and_salesforce.htm&amp;type=5" target="_self"><strong>Pardot: Syncing Prospects Between Pardot and Salesforce</strong></a></li>
+</ul>
+<p> </p>
+<h2>Step 1: Connect your account to Salesforce</h2>
+<p>You can now begin setting up the Salesforce integration by connecting your Salesforce account to Uberflip.</p>
+<div class="callout callout--info">
+<h4 id="h_88422551661547841328605" class="callout__title">Choosing a Salesforce Account</h4>
+<p>To complete this process, you will need to log in to a Salesforce account, and this account will be used to authorize and manage the connection between Salesforce and Uberflip. We strongly suggest that you <strong>do not use an account associated with a specific individual</strong>. If you do, your Uberflip integration can stop working if that user leaves your company, or their Salesforce account is deactivated.</p>
+</div>
+<ol>
+<li>Log in to your Uberflip account and select any Hub.</li>
+<li>In the sidebar menu on the left, click on <strong>Integrations</strong>, then click on <strong>Connected Services:</strong><br><strong><img src="https://help.uberflip.com/hc/article_attachments/4407530487053/image.png" alt="image.png"></strong>
+</li>
+<li>On the right, you'll see a list of services that Uberflip can integrate with. Find <strong>Salesforce</strong> in the list, then click on its <strong>Connect</strong> button on the right (under the <strong>Action</strong> column) to set up the integration:<br><img src="https://help.uberflip.com/hc/article_attachments/360065041752/Hubs___Native_Integrations_-_Uberflip.png" alt="Hubs___Native_Integrations_-_Uberflip.png">
+</li>
+<li>The <strong>Connect with Salesforce</strong> pop-up will appear. Here, <strong>click the Connect button</strong>.</li>
+<li>If you're not currently logged in to Salesforce, the Salesforce login screen will open in a new browser window. <strong>Log in to the Salesforce account</strong> that you are using to set up the integration.
+<ul>
+<li>If you're already logged in to Salesforce with the correct account, <strong>skip this step</strong>.</li>
+<li>If you're already logged in to Salesforce, but <strong>with a different account than the one you want to use</strong> to set up the integration, <strong>log out first, then log in with the correct account</strong>.</li>
+</ul>
+</li>
+<li>After you log in to Salesforce successfully, the <strong>Allow Access?</strong> prompt will appear. Here, <strong>click on the Allow button</strong> to give the integration permission to access your Salesforce account:<br><img src="https://help.uberflip.com/hc/article_attachments/360065042272/salesforce_allow_access.png" alt="salesforce_allow_access.png">
+</li>
+<li>You should be returned to the to the <strong>Integrations</strong> page, where you'll now see <em>connected</em> next to Salesforce in the list, as well as two new buttons where the <strong>Connect </strong>button previously appeared:<br><img src="https://help.uberflip.com/hc/article_attachments/360065042492/Hubs___Native_Integrations_-_Uberflip.png" alt="Hubs___Native_Integrations_-_Uberflip.png">
+</li>
+<li>Salesforce is now connected to your account. Before the integration will start working, you will first need to configure it, which is covered in the next step.</li>
+</ol>
+<p> </p>
+<h2>Step 2: Configure Salesforce integration settings</h2>
+<p>After you have connected your Salesforce and Uberflip accounts, the integration will not yet be functional. Before it can begin sending visitor activity to Salesforce, you first need to configure its settings.</p>
+<p>To configure the integration's settings, navigate to <strong>Integrations &gt; Connected Services</strong> and find <strong>Salesforce</strong> in the list. Beside it, <strong>click on the </strong><strong>Edit button:<br></strong></p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360065229711/Hubs___Native_Integrations_-_Uberflip.png" alt="Hubs___Native_Integrations_-_Uberflip.png"></p>
+<p>This will open the integration's settings:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360065048712/Hubs___Native_Integrations_-_Uberflip.png" alt="Hubs___Native_Integrations_-_Uberflip.png"></p>
+<p><strong>You can configure the following settings:</strong></p>
+<h4>Flipbook Activity</h4>
+<p><span class="text-info">Optional</span> This setting allows you to determine which <em>Priority</em> and <em>Status</em> values will be assigned to SFDC <em>Activities</em> with the subject <strong>Uberflip - Flipbook</strong>. Use the dropdown menus to choose the desired values:</p>
+<p> <img src="https://help.uberflip.com/hc/article_attachments/360065048792/Hubs___Native_Integrations_-_Uberflip.png" alt="Hubs___Native_Integrations_-_Uberflip.png"></p>
+<p>If you leave these dropdowns set to <em>-- None --</em> (i.e. if you do not change them), these fields will be set using the default values you have configured in your Salesforce settings.</p>
+<h4>Page View</h4>
+<p><span class="text-info">Optional</span> This setting allows you to determine which <em>Priority</em> and <em>Status</em> values will be assigned to SFDC <em>Activities</em> with the subject <strong>Uberflip - Page View</strong>. Use the dropdown menus to choose the desired values.</p>
+<p> <img src="https://help.uberflip.com/hc/article_attachments/360065230711/Hubs___Native_Integrations_-_Uberflip.png" alt="Hubs___Native_Integrations_-_Uberflip.png"></p>
+<p>If you leave these dropdowns set to <em>-- None --</em> (i.e. if you do not change them), these fields will be set using the default values you have configured in your Salesforce settings.</p>
+<h4>CTA Activity</h4>
+<p><span class="text-info">Optional</span> This setting allows you to determine which <em>Priority</em> and <em>Status</em> values will be assigned to SFDC <em>Activities</em> with the subject <strong>Uberflip - CTA</strong>. Use the dropdown menus to choose the desired values.</p>
+<p> <img src="https://help.uberflip.com/hc/article_attachments/360065230731/Hubs___Native_Integrations_-_Uberflip.png" alt="Hubs___Native_Integrations_-_Uberflip.png"></p>
+<p>If you leave these dropdowns set to <em>-- None --</em> (i.e. if you do not change them), these fields will be set using the default values you have configured in your Salesforce settings.</p>
+<h4>Marketing Automation Platform (MAP) Integration</h4>
+<p><span class="text-primary">Required</span> Use the <strong>MAP dropdown</strong> to specify which connected MAP you want to use to look up lead profiles:</p>
+<p> <img src="https://help.uberflip.com/hc/article_attachments/360065230751/Hubs___Native_Integrations_-_Uberflip.png" alt="Hubs___Native_Integrations_-_Uberflip.png"></p>
+<p>After you make a selection, two further dropdowns will appear: <strong>SFDC Contact ID Field</strong> and <strong>SFDC Lead ID Field</strong>. Use these dropdowns to choose the field(s) in your MAP where Salesforce <em>Contact IDs</em> or <em>Lead IDs </em>are stored:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360065230831/Hubs___Native_Integrations_-_Uberflip.png" alt="Hubs___Native_Integrations_-_Uberflip.png"></p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>You only need to specify <strong>one</strong> of these fields (<em>Contact ID</em> <strong>or</strong> <em>Lead ID</em>) for the integration to work.</p>
+</div>
+<h4>Uberflip Activity</h4>
+<p><span class="text-info">Optional</span> This setting is turned on by default, which means that the integration will create a set of custom fields in Salesforce, and record Uberflip activity data in those fields:</p>
+<h4 class="callout__title"><img src="https://help.uberflip.com/hc/article_attachments/4407523947021/image.png" alt="image.png"></h4>
+<p>This is beneficial for reporting, as it makes it easier to report on the specific data points recorded in each custom field.</p>
+<p>If you prefer <strong>not</strong> to use custom fields, you can uncheck this field. In this case, the integration will record the same data in the <em>Comments</em> field instead, as a single block of text:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/4407530442253/salesforce_activity-2.png" alt="salesforce_activity-2.png" width="397" height="489"></p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p>If you change this setting, any data that was previously recorded in custom fields will remain there, and will <strong>not</strong> be transferred to the <em>Comments</em> field (and vice-versa).</p>
+</div>
+<p>When you have finished configuring these settings, <strong>click the Save button</strong> to save your changes and close the settings window.</p>
+<p> </p>
+<h2>Next steps: Set up reports</h2>
+<p>The Salesforce integration should now be up and running, and you should see the new Uberflip <em>Activities </em>start to appear in Salesforce.</p>
+<p>To get the most out of this integration, we recommend setting up reports in Salesforce that leverage the data it captures. These reports can help you to demonstrate how your content experiences are impacting the sales cycle.</p>
+<p>To get you started, here's how to set up a basic report for all Uberflip activities:</p>
+<ol>
+<li>Log in to Salesforce and <a href="https://help.salesforce.com/articleView?id=reports_builder_create.htm&amp;type=5" target="_self"><strong>create a new report</strong></a>.</li>
+<li>Under <em>Choose Report Type</em>, select <strong>Tasks and Events</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360076447371/image.png" alt="image.png" width="577" height="413">
+</li>
+<li>In the <em>Outline</em> tab in the left sidebar, <strong>add these columns</strong> to the report:
+<ul>
+<li>Subject</li>
+<li>Priority</li>
+<li>Status</li>
+<li>Created Date<br><img src="https://help.uberflip.com/hc/article_attachments/360076447471/image.png" alt="image.png" width="290" height="462">
+</li>
+</ul>
+</li>
+<li>In the <em>Filters</em> tab in the left sidebar, <strong>add these filters</strong>:
+<ul>
+<li>Show Me: All activities</li>
+<li>Date: All Time</li>
+<li>Show: Open &amp; Completed Activities</li>
+<li>Show: Tasks and Events</li>
+<li>Subject: contains Uberflip<br><img src="https://help.uberflip.com/hc/article_attachments/360076221892/image.png" alt="image.png" width="290" height="440">
+</li>
+</ul>
+</li>
+<li>Finally, click on <strong>Save &amp; Run</strong> to finish your report.</li>
+</ol>
+<p>Starting from this basic template, you can edit the report (or create a new report) to customize it to the specific needs of your business.</p>]]></description>
+         <guid isPermaLink="false">360047293692</guid>
+         <pubDate>Thu, 13 Aug 2020 19:38:33 GMT</pubDate>
+      </item>
+      <item>
+         <title>Uberflip custom fields for Marketing Automation Platforms explained</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360040307932-Uberflip-custom-fields-for-Marketing-Automation-Platforms-explained</link>
+         <description><![CDATA[<hr>
+<p>A guide to the <strong>custom fields </strong>that Uberflip can send data to in your Marketing Automation Platform.</p>
+<hr>
+<p> </p>
+<h2>What are Uberflip custom fields?</h2>
+<p>When you integrate your Marketing Automation Platform (MAP) with Uberflip and set up Form CTAs, Uberflip will send the data that leads submit through those Form CTAs to your MAP. Most of this data is commonly collected (i.e. name, email, company, etc.), so your MAP has built-in <em>standard fields</em> to capture it in the lead profile.</p>
+<p>But in addition to these standard data points, Uberflip can also send useful <strong>Hub-specific data</strong> to your MAP, which can tell you about how your leads are interacting with your content. Your MAP doesn't contain the fields to capture this kind of data by default, so it needs to be recorded using <strong>custom fields </strong>that you can create when setting up the MAP integration.</p>
+<p> </p>
+<h2>What kind of data is captured in Uberflip custom fields?</h2>
+<p>Uberflip custom fields capture information about how the lead interacted with content in your Hub, i.e. what kinds of content they viewed and how often, which content Item they converted on, etc. All Uberflip custom fields can be generally grouped into the following four categories:</p>
+<ul>
+<li>
+<strong>Content Counter Fields</strong>: These fields capture an ongoing count of the number of times a lead viewed a particular type of content. Each content type has its own individual counter, e.g. <em>Flipbooks Viewed</em>, <em>Videos Viewed</em>, etc.</li>
+<li>
+<strong>Lead Source Fields</strong>: These fields capture the specific CTA(s) a lead submitted — both the first CTA they ever submitted, and the one they submitted most recently.</li>
+<li>
+<strong>UF Last Visited Item Fields: </strong>These fields capture the Item a lead viewed most recently.</li>
+<li>
+<strong>UF Conversion Item Fields: </strong>These fields capture the content Item that a lead converted on.</li>
+</ul>
+<p>Below is a breakdown of all the custom fields Uberflip can create/use:</p>
+<table style="height: 435px;" width="751">
+<tbody>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="width: 239px; height: 22px;"><strong>Custom Field<br></strong></td>
+<td class="wysiwyg-text-align-center" style="width: 239px; height: 22px;"><strong>Category</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 239px; height: 22px;"><strong>Description</strong></td>
+</tr>
+<tr style="height: 65.2667px;">
+<td class="wysiwyg-text-align-center" style="width: 239px; height: 65.2667px;">
+<p><em>Tweets Viewed</em></p>
+</td>
+<td class="wysiwyg-text-align-left" style="width: 239px; height: 65.2667px;">Content Counter Fields</td>
+<td style="width: 239px; height: 65.2667px;">Counts the number of Items the lead has viewed of the type <em>Twitter</em>
+</td>
+</tr>
+<tr style="height: 44px;">
+<td class="wysiwyg-text-align-center" style="width: 239px; height: 44px;"><em>Articles Viewed</em></td>
+<td class="wysiwyg-text-align-left" style="width: 239px; height: 44px;">Content Counter Fields</td>
+<td style="width: 239px; height: 44px;">Counts the number of Items the lead has viewed of the type <em>Blog</em>
+</td>
+</tr>
+<tr style="height: 67px;">
+<td class="wysiwyg-text-align-center" style="width: 239px; height: 67px;"><em>Posts Viewed</em></td>
+<td class="wysiwyg-text-align-left" style="width: 239px; height: 67px;">Content Counter Fields</td>
+<td style="width: 239px; height: 67px;">Counts the number of Items the lead has viewed of the type <em>Facebook</em> and/or <em>Instagram</em>
+</td>
+</tr>
+<tr style="height: 89px;">
+<td class="wysiwyg-text-align-center" style="width: 239px; height: 89px;"><em>Videos Viewed</em></td>
+<td class="wysiwyg-text-align-left" style="width: 239px; height: 89px;">Content Counter Fields</td>
+<td style="width: 239px; height: 89px;">Counts the number of Items the lead has viewed of the type <em>Video</em> (includes YouTube, Wistia, Vidyard, etc.)</td>
+</tr>
+<tr style="height: 67px;">
+<td class="wysiwyg-text-align-center" style="width: 239px; height: 67px;"><em>Flipbooks Viewed</em></td>
+<td class="wysiwyg-text-align-left" style="width: 239px; height: 67px;">Content Counter Fields</td>
+<td style="width: 239px; height: 67px;">Counts the number of Items the lead has viewed of the type <em>Flipbook</em>
+</td>
+</tr>
+<tr style="height: 67px;">
+<td class="wysiwyg-text-align-center" style="width: 239px; height: 67px;"><em>Presentations Viewed</em></td>
+<td class="wysiwyg-text-align-left" style="width: 239px; height: 67px;">Content Counter Fields</td>
+<td style="width: 239px; height: 67px;">Counts the number of Items the lead has viewed of the type <em>Slideshare</em>
+</td>
+</tr>
+<tr style="height: 67px;">
+<td class="wysiwyg-text-align-center" style="width: 239px; height: 67px;"><em>Source - Most Recent</em></td>
+<td class="wysiwyg-text-align-left" style="width: 239px; height: 67px;">Lead Source Fields</td>
+<td style="width: 239px; height: 67px;">Identifies the Form CTA (by CTA ID) that the lead <em>most recently</em> submitted</td>
+</tr>
+<tr style="height: 67px;">
+<td class="wysiwyg-text-align-center" style="width: 239px; height: 67px;"><em>Source</em></td>
+<td class="wysiwyg-text-align-left" style="width: 239px; height: 67px;">Lead Source Fields</td>
+<td style="width: 239px; height: 67px;">Identifies the <em>first</em> Form CTA (by CTA ID) that the lead ever submitted</td>
+</tr>
+<tr style="height: 44px;">
+<td class="wysiwyg-text-align-center" style="width: 239px; height: 44px;"><em>uf_last_visited_item_id</em></td>
+<td class="wysiwyg-text-align-left" style="width: 239px; height: 44px;">UF Last Visited Item Fields</td>
+<td style="width: 239px; height: 44px;">Identifies the Item (by Item ID) the lead most recently viewed</td>
+</tr>
+<tr style="height: 44px;">
+<td class="wysiwyg-text-align-center" style="width: 239px; height: 44px;"><em>uf_last_visited_item_title</em></td>
+<td class="wysiwyg-text-align-left" style="width: 239px; height: 44px;">UF Last Visited Item Fields</td>
+<td style="width: 239px; height: 44px;">Identifies the Item (by title) the lead most recently viewed</td>
+</tr>
+<tr style="height: 89px;">
+<td class="wysiwyg-text-align-center" style="width: 239px; height: 89px;"><em>uf_conversion_item_id</em></td>
+<td class="wysiwyg-text-align-left" style="width: 239px; height: 89px;">UF Conversion Item Fields</td>
+<td style="width: 239px; height: 89px;">Identifies the Item (by Item ID) associated with the Form CTA that the lead submitted (either gating or show beside)</td>
+</tr>
+<tr style="height: 89px;">
+<td class="wysiwyg-text-align-center" style="width: 239px; height: 89px;"><em>uf_conversion_item_title</em></td>
+<td class="wysiwyg-text-align-left" style="width: 239px; height: 89px;">UF Conversion Item Fields</td>
+<td style="width: 239px; height: 89px;">Identifies the Item (by title) associated with the Form CTA that the lead submitted (either gating or show beside)</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<ul>
+<li>The <em>Source </em>field is actually <strong>not</strong> a custom field — this refers to the default lead source field in the MAP. However, the other Lead Source Field listed (<em>Source - Most Recent</em>) <em>is</em> a custom field.</li>
+<li>All fields are <strong>relative to a specific Hub</strong>, and the Hub ID is indicated in the field name. If you have multiple Hubs connected to a MAP, you will have multiple instances of these fields (one for each Hub).</li>
+<li>Most MAPs that integrate with Uberflip handle these fields in a broadly similar way. However, if you use <strong>Oracle Eloqua</strong>, note that it handles fields somewhat differently from other MAPs. For more details, see <a href="https://help.uberflip.com/hc/en-us/articles/360022335991" target="_self">this article</a>.</li>
+</ul>
+</div>
+<p> </p>
+<h2>How and when are these custom fields updated?</h2>
+<p>Below are the details on how and when Uberflip will update custom fields, by category:</p>
+<h3>Content Counter Fields</h3>
+<ul>
+<li>All Content Counter fields are updated only for <strong>known </strong>visitors (i.e. a lead who has previously filled out a Form CTA and whose browser has a cookie from your MAP).</li>
+<li>Whenever a known visitor views a content Item of a particular type, the corresponding Content Counter for that type is incremented by one.</li>
+<li>Content Counters do not count views of Items by leads before they became known, or if they are browsing without a MAP cookie (i.e. if they cleared browser cookies or are browsing incognito).</li>
+</ul>
+<h3>Lead Source Fields</h3>
+<ul>
+<li>The <em>Source</em> field is updated when a visitor submits a Form CTA for the first time (thereby becoming a lead). It always reflects the first Form CTA submitted by a lead, and is therefore never updated again once it has been set.</li>
+<li>The <em>Source </em>and <em>Source - Most Recent</em> fields will be updated together the first time a visitor submits a Form CTA, and will initially identify the same CTA.</li>
+<li>Whenever a lead (who has submitted at least one Form CTA) subsequently submits another Form CTA, the <em>Source - Most Recent</em> field is updated.</li>
+</ul>
+<h3>UF Last Visited Item Fields</h3>
+<ul>
+<li>The <em>uf_last_visited_item_title</em> and <em>uf_last_visited_item_id</em> fields are updated:<br>
+<ul>
+<li>Any time a <strong>known</strong> visitor views an Item.</li>
+<li>When an <strong>unknown</strong> visitor submits a Form CTA for the first time.</li>
+</ul>
+</li>
+<li>These fields are updated together, and will always match (i.e. will always identify the same Item).</li>
+<li>These fields will be updated only when a visitor views an Item page (i.e. a blog post, PDF, video, etc.). They will <strong>not</strong> be update on visits to Hub home pages or Stream pages.</li>
+</ul>
+<div class="callout callout--info">
+<h4 class="callout__title">Note: Uberflip Item IDs</h4>
+<p>Every Item created in your Hub has a unique 9-digit ID. This ID is the same regardless of the Stream or Hub the Item is placed in. To find the ID of an Item, edit the Item in the Uberflip app, then look at the URL in your browser's address bar. The ID is the the 9-digit number located between two other strings of numbers:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360051742931/itemid.png" alt="itemid.png"></p>
+</div>
+<h3>UF Conversion Item Fields</h3>
+<ul>
+<li>The <em>uf_conversion_item_title</em> and <em>uf_conversion_item_id</em> fields are updated whenever a visitor submits a Form CTA that gates or is shown beside an Item.</li>
+<li>These fields are updated together, and will always match (i.e. will always identify the same Item).</li>
+<li>These fields will <strong>not</strong> be updated if a lead fills out a Form CTA in a Stream, or if a form is directly embedded into Uberflip from the MAP using an iFrame (rather than presented through a Form CTA).</li>
+<li>Additionally, the UF Conversion Item fields will also update <strong>without</strong> a Form CTA submission if the following conditions are met:
+<ul>
+<li>The visitor in question is <strong>known</strong> in your MAP (i.e. a lead who has previously filled out a Form CTA and whose browser has a cookie from your MAP)</li>
+<li>The visitor is <strong>fully profiled</strong> (has completed all available form fields on the Form CTA if Progressive Profiling is on)</li>
+<li>The visitor views an Item <strong>gated with a Form CTA</strong>
+</li>
+<li>The <em>Never hide this CTA</em> option is turned <strong>off</strong> on that Form CTA</li>
+</ul>
+</li>
+<li>If all of the above conditions are met, the visitor will <strong>not be shown the Form CTA</strong>, but the UF Conversion Item fields will still be updated as though they had submitted a Form CTA. If any of the above conditions are not met, then these fields will not be updated.</li>
+</ul>
+<div class="callout callout--info">
+<h4 class="callout__title">Exception: <em>Always Update Conversion Item Fields</em> option</h4>
+<p>Under <strong>Hub Options &gt; Advanced &gt; Calls-to-Action</strong>, the option <em>Always Update Conversion Item Fields </em>will be enabled (checked) by default. If you <strong>disable (uncheck) this option,</strong> the UF Conversion Item fields will be<strong> updated only on the initial conversion</strong> and <strong>never updated thereafter</strong>.</p>
+</div>]]></description>
+         <guid isPermaLink="false">360040307932</guid>
+         <pubDate>Mon, 09 Mar 2020 17:02:05 GMT</pubDate>
+      </item>
+      <item>
+         <title>Set Up a Mailchimp Integration</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360037491672-Set-Up-a-Mailchimp-Integration</link>
+         <description><![CDATA[<hr>
+<p>Learn how to integrate your Mailchimp account to feed leads from your Uberflip account to Mailchimp.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>To set up a Mailchimp integration, you need to be in the <strong>Account Admin,</strong> <strong>Content Manager </strong>or <strong>Demand Generation </strong>user group(s).</li>
+<li>You will also need a <strong>Mailchimp</strong> account with <strong>Manager or Admin permissions</strong>.</li>
+<li>To get the most out of the integration, you should be using Form CTAs to collect contact info to send to Mailchimp. To learn more about Form CTAs and how to set them up, see <a href="https://help.uberflip.com/hc/en-us/articles/360020989871">this article</a>.</li>
+</ul>
+<p> </p>
+<h2>About the Mailchimp Integration</h2>
+<p>If you use Mailchimp as part of your marketing tech stack, you can integrate it with your Uberflip account to get the most out of both platforms. Mailchimp needs audience data to work, and your Uberflip Hubs are an excellent source: <a href="https://help.uberflip.com/hc/en-us/articles/360020989871">Form CTAs</a> are a highly effective way to collect contact info and build your audiences in Mailchimp.</p>
+<p>When you integrate Mailchimp with your Uberflip account, you'll be able to connect Form CTAs that you can use to create subscriber lists, replace landing pages, and even to automate email campaigns. For more information, see the article on <a href="https://help.uberflip.com/hc/en-us/articles/360020989871">Form CTAs</a>.</p>
+<p>In this article, we'll look at what you'll need to integrate your Hub with Mailchimp, and how to set up the integration.</p>
+<p> </p>
+<h2>Prerequisite: Get Your Mailchimp API Key</h2>
+<p>To connect your Uberflip and Mailchimp accounts, you will need a <strong>Mailchimp API key</strong>. You can use any existing API key you have in Mailchimp, but we recommend generating a new key specifically for this purpose.</p>
+<p>For instructions on how to find or generate your Mailchimp API keys, see this article from Mailchimp:</p>
+<p><a href="https://mailchimp.com/help/about-api-keys/#Find_or_generate_your_API_key"><strong>Mailchimp: About API Keys &gt; Find or generate your API key</strong></a></p>
+<p>Once you have found or generated an API key in Mailchimp, <strong>copy the key</strong>, then proceed to the next section below.</p>
+<p> </p>
+<h2>Connect Your Account to Mailchimp</h2>
+<p>Once you have your Mailchimp API key in hand, all you need to do to integrate your account with Mailchimp is to connect them via the Uberflip app.</p>
+<ol>
+<li>Log in to your Uberflip account and select any Hub.</li>
+<li>In the sidebar menu on the left, click on <strong>Integrations</strong>.<br> <img src="https://help.uberflip.com/hc/article_attachments/360018402791/Hubs___Integrations_-_Uberflip.png" alt="Hubs___Integrations_-_Uberflip.png">
+</li>
+<li>On the right, you'll see a list of services that Uberflip can integrate with. Find <strong>Mailchimp</strong> in the list, then click on its <strong>Connect</strong> button on the right (under the <strong>Action</strong> column) to set up the integration:<br><img src="https://help.uberflip.com/hc/article_attachments/360045467691/Hubs___Integrations_-_Uberflip.png" alt="Hubs___Integrations_-_Uberflip.png" width="592" height="43">
+</li>
+<li>The Mailchimp API Info pop-up will appear. Here, <strong>type in the API key </strong>you copied from Mailchimp:<br> <img src="https://help.uberflip.com/hc/article_attachments/360045352772/Hubs___Integrations_-_Uberflip.png" alt="Hubs___Integrations_-_Uberflip.png" width="460" height="368">
+</li>
+<li>Click on the <strong>Enter API Info</strong> button. You will briefly see <strong>Connecting...</strong> and should be returned to the <strong>Integrations</strong> page in your Hub, where you'll now see <em>connected</em> next to Mailchimp in the list.</li>
+<li>That's it! Mailchimp is now connected to your Uberflip account.</li>
+</ol>
+<p> </p>
+<h2>Next Steps</h2>
+<p>You're all set: you've successfully integrated your Uberflip account with Mailchimp. Next, <a href="https://help.uberflip.com/hc/en-us/articles/360020989871">create some Form CTAs</a> to begin filling your Mailchimp audiences with contacts.</p>]]></description>
+         <guid isPermaLink="false">360037491672</guid>
+         <pubDate>Thu, 12 Dec 2019 19:09:25 GMT</pubDate>
+      </item>
+      <item>
+         <title>Claim Your Hub on Pinterest</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360037717131-Claim-Your-Hub-on-Pinterest</link>
+         <description><![CDATA[<hr>
+<p>Learn how to claim your Hub on Pinterest, which allows visitors to "pin" your content and gives you access to Pinterest website analytics.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>To claim your Hub using Pinterest Site Verification, you need to be in the <strong>Account Admin,</strong> <strong>Content Manager </strong>or <strong>Demand Generation </strong>user group(s).</li>
+<li>You will also need a <strong>Pinterest account</strong>. Ideally, this should be <strong>an account owned by your organization</strong> (with credentials shared between members of your team), not your personal account.</li>
+</ul>
+<p> </p>
+<h2>About Pinterest Site Verification</h2>
+<p>Pinterest allows you to "claim" any of your web properties, including Uberflip Hubs. Doing so confirms your ownership of the site, and adds a Pinterest <em>Pin it</em> button that appears when visitors mouse over your image content:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360045138192/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png" width="419" height="176"></p>
+<p>Visitors can use this button to save your content to their Pinterest accounts, and you will get access to website analytics in Pinterest around the use of this button on your Hub.</p>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>Don't want the <em>Pin it</em> button to appear on your Hub? See <a href="https://help.uberflip.com/hc/en-us/articles/360020045851">this article</a> for instructions on how to remove it.</p>
+</div>
+<p> </p>
+<h2>Claim Your Hub on Pinterest</h2>
+<p>To claim a website on Pinterest, you need to add some HTML to that website's code. In Uberflip we've simplified this process so that you don't need to work with code — instead, all you have to do is copy and paste a code into the Uberflip app.</p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p>Claiming a website on Pinterest associates that website (i.e. your Hub) with a particular Pinterest account. <strong>We strongly recommend using a corporate Pinterest account with shared login credentials</strong>. If you use a personal account, this can cause issues if that account becomes deactivated or inaccessible (i.e. if the owner leaves your organization).</p>
+<p>Not also that any web property can only be associated with a single Pinterest account. Once your Hub has been claimed by a Pinterest account, it must be released by that account before it can be claimed by another account.</p>
+</div>
+<h3 id="h_a14dab7a-b140-434f-9df9-435ecd483b6d">Step 1: Get the HTML Tag From Pinterest</h3>
+<ol>
+<li>To get started, <strong>go to this article</strong> from Pinterest:
+<ul>
+<li><strong><a href="https://help.pinterest.com/en/business/article/claim-your-website" target="_self">Pinterest: Claim your website</a></strong></li>
+</ul>
+</li>
+<li>Follow the instructions under the heading <strong>"Add a meta tag to your website"</strong>.</li>
+<li>When you reach <strong>Step 4</strong>: Type in <strong>your Hub's URL:<br><img src="https://help.uberflip.com/hc/article_attachments/360045265071/_91__Pinterest.png" alt="_91__Pinterest.png" width="501" height="132"></strong>
+</li>
+<li>When you reach <strong>Step 6:</strong> Copy<strong> only the code that appears next to</strong> <code class="no-padding">content=</code> (don't copy the quotation marks):<br> <img src="https://help.uberflip.com/hc/article_attachments/360045244151/_91__Pinterest.png" alt="_91__Pinterest.png">
+</li>
+<li>Once you have copied the code from the HTML tag, <strong>open a new browser tab or window </strong>but <strong>keep the Pinterest window open</strong> (as you'll be returning to it later). In the new tab/window, <strong>follow the</strong><strong> instructions below. </strong>
+</li>
+</ol>
+<h3>Step 2: Add the Pinterest HTML Tag to Your Hub</h3>
+<ol>
+<li>Log in to your Uberflip account and navigate to the Hub you want to claim on Pinterest.</li>
+<li>Click on <strong>Integrations</strong> in the sidebar menu on the left.</li>
+<li>In the list of integrations that appears on the right, scroll down to <strong>Pinterest Site Verification</strong>.</li>
+<li>On the right side next to Pinterest Site Verification, <strong>click on the Connect button</strong>:<br> <img src="https://help.uberflip.com/hc/article_attachments/360045264631/Hubs___Integrations_-_Uberflip.png" alt="Hubs___Integrations_-_Uberflip.png" width="466" height="62">
+</li>
+<li>In the window that appears, <strong>paste the </strong><code class="no-padding">content=</code> <strong>code</strong> you copied from Pinterest into the field provided:<br> <img src="https://help.uberflip.com/hc/article_attachments/360045264951/Hubs___Integrations_-_Uberflip.png" alt="Hubs___Integrations_-_Uberflip.png" width="469" height="304">
+</li>
+<li>Click on the <strong>Connect</strong> button, then click on <strong>Close</strong> in the confirmation window that appears.</li>
+</ol>
+<h3>Step 3: Complete the Process in Pinterest</h3>
+<ol>
+<li> Finally, <strong>return to the browser tab/window</strong> where the Pinterest claim menu should still be open (if you accidentally closed it, simply follow the instructions under <a href="#h_a14dab7a-b140-434f-9df9-435ecd483b6d" target="_self"><strong>Get the HTML Tag From Pinterest</strong> </a>again).</li>
+<li>Click on <strong>Next</strong> and you should see the <strong>Submit for review</strong> window: <strong>click on the Submit button</strong> to complete the process.<br> <img src="https://help.uberflip.com/hc/article_attachments/360045159432/_91__Pinterest.png" alt="_91__Pinterest.png" width="460" height="195">
+</li>
+<li>That's it! Pinterest will let you know once your Hub has been successfully verified.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360037717131</guid>
+         <pubDate>Mon, 09 Dec 2019 21:59:23 GMT</pubDate>
+      </item>
+      <item>
+         <title>Update a Known Visitor&apos;s MAP Profile When They Interact With Specific Items</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360032633952-Update-a-Known-Visitor-s-MAP-Profile-When-They-Interact-With-Specific-Items</link>
+         <description><![CDATA[<hr>
+<p>Learn how to configure Content Attribution on individual Items so that, whenever a known visitor interacts with any of these Items, the interaction is recorded in their profile on your Marketing Automation Platform (MAP).</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>To set up Content Attribution, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+<li>The Content Attribution feature is only available on <strong>Enterprise</strong> pack types.</li>
+<li>To use Content Attribution, you must first integrate your Hub with a supported MAP. The following MAPs are supported: <a href="https://help.uberflip.com/hc/en-us/articles/360022063751" target="_self">Marketo</a>, <a href="https://help.uberflip.com/hc/en-us/articles/360022207231" target="_self">Oracle Eloqua</a>, <a href="https://help.uberflip.com/hc/en-us/articles/360021942272" target="_self">Pardot</a>, and <a href="https://help.uberflip.com/hc/en-us/articles/360021562692" target="_self">HubSpot</a>.</li>
+</ul>
+<p> </p>
+<h2>About Content Attribution</h2>
+<p>In Uberflip, you can add Content Attribution to any individual content Item to track when a known visitor has interacted with that Item. This is useful for your prospect nurturing and qualifying process: by setting up Content Attribution on ToFu Items that you associate with high engagement, you can collect data to feed into the lead scoring model in your MAP. This can help you better understand how engaged your prospects are, and when they turn from prospects into qualified leads.</p>
+<p>When you configure an Item with Content Attribution, you specify a field in your MAP, along with a fixed value of your choice. Anytime a known visitor interacts with that Item, Uberflip will write the value you specified to that visitor's MAP profile.</p>
+<h3>Definitions</h3>
+<p>Content Attribution works only for <strong>known visitors</strong>, which are prospects who have previously been profiled in your MAP by submitting a <a href="https://help.uberflip.com/hc/en-us/articles/360020989871" target="_self">Form CTA</a>. Content Attribution will not work with unknown visitors, and it can't attribute past activity to formerly unknown visitors after they are profiled.</p>
+<p>Content Attribution triggers a MAP update when a known visitor <strong>interacts</strong> with an Item on which the feature has been configured. In this context, "interacts" is defined as when the visitor has:</p>
+<ul>
+<li>Viewed an Item with Content Attribution, <strong>or</strong>
+</li>
+<li>Submitted a Form CTA placed beside an Item with Content Attribution (i.e. they initially viewed the Item as an unknown visitor, and are now known because they submitted the CTA), <strong>or</strong>
+</li>
+<li>Submitted a Form CTA that links to an Item with Content Attribution (via the Link to Content feature on the Form CTA's "Success" page)</li>
+</ul>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>It is possible that a visitor submits a CTA placed beside Item A with Content Attribution, and that CTA also links to Item B with Content Attribution: in other words, the visitor has effectively interacted with two separate Items with Content Attribution at the same time. In this situation, <strong>the Item linked from the Form CTA </strong>(i.e. Item B) will be the one that is tracked in the visitor's MAP profile.</p>
+</div>
+<p> </p>
+<h2 id="h_fcc546be-8759-4aac-aeac-519e145b0275">Identify the MAP Field to Update</h2>
+<p>Before you set up Content Attribution, you need to decide which field in your MAP should be updated when a prospect interacts with the Item (or create that field, if necessary). To do that, you'll first need to think about <em>how</em> you want to use Content Attribution. Keep in mind that Content Attribution will always write a fixed value to a fixed field, defined per-Item. When you select a field, you can choose if you want to:</p>
+<ul>
+<li>Use the <strong>same field</strong> for all Items on which you enable Content Attribution. Depending on your use case, you could specify different values for each Item, or use the same one for all. Note that, unless you configure your MAP to block updates to this field, it will be updated each time the visitors interacts with a different Item with Content Attribution.</li>
+<li>Use <strong>separate, Item-specific fields</strong> for all Items on which you enable Content Attribution. Again depending on use case, you could use the same value for all Items, or different values per-Item (i.e. if you want the field-value combination for each Item to be unique).</li>
+</ul>
+<p>Once you have settled on the best scenario for your use case:</p>
+<ol>
+<li>Log in to your MAP.</li>
+<li>In your MAP, either <strong>find the appropriate field</strong> or <strong>create it.</strong>
+<ul>
+<li>See below for MAP-specific instructions.</li>
+</ul>
+</li>
+<li>Once you have found or created the field, get its<strong> name</strong>. This is the name that uniquely identifies that particular field, and is sometimes also known as its "API name" (or similar).</li>
+<li>Once you have the name(s) of the field(s) you want to use, you're ready to set up Content Attribution.</li>
+</ol>
+<p>Here's how to find the field name in your MAP of choice:</p>
+<div class="tabs tabs--colored-1">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Marketo</span> <span class="tabs-link">Oracle Eloqua</span> <span class="tabs-link">Pardot</span> <span class="tabs-link">HubSpot</span>
+</div>
+<div class="tab">
+<p>In Marketo, you're looking for the field's <strong>REST API Name</strong>. To get the REST API Name for a given field, you'll need to export a list of fields. For instructions on how to do that, see this article from Marketo:</p>
+<p><a href="https://docs.marketo.com/display/public/DOCS/Export+a+List+of+All+Marketo+API+Field+Names">Marketo: Export a List of All Marketo API Field Names</a></p>
+<p>Once you have downloaded the export, open it, then look under the column <strong>Friendly Label</strong> for the field you want to use. When you locate it, look at the corresponding value under the column <strong>REST API Name</strong>: this is the name you will need.</p>
+</div>
+<div class="tab is-hidden">
+<p>In Oracle Eloqua, you're looking for the field's <strong>Database name</strong>. You can look up the Database name for any given field in Eloqua by following these steps:</p>
+<ol>
+<li>Log in to Eloqua.</li>
+<li>Go to <em>Settings &gt; Setup</em>.</li>
+<li>Click on <strong>Fields &amp; Views</strong>.</li>
+<li>Under the <strong>Fields</strong> tab, use the search box to find the field you want to use.</li>
+<li>Click on the field to view more information about it in the pane on the right. Here, look for for <strong>Database name</strong> under the <strong>General</strong> section:<br><img src="https://help.uberflip.com/hc/article_attachments/360037331311/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png">
+</li>
+</ol>
+</div>
+<div class="tab is-hidden">
+<p>In Pardot, you're looking for the <strong>Field</strong> <strong>value</strong>. To find it:</p>
+<ol>
+<li>Sign in to Pardot.</li>
+<li>Go to <a href="https://pi.pardot.com/prospectField" target="_self">https://pi.pardot.com/prospectField</a>.</li>
+<li>In the table of fields, use the <strong>Name</strong> column to locate the field you want to use.</li>
+<li>When you find the field, look for the corresponding value in the <strong>Field</strong> column: this is the Field value you will need.</li>
+</ol>
+</div>
+<div class="tab is-hidden">
+<p>In HubSpot, fields are called "properties", and you're looking for the property's <strong>Internal name</strong>. To view a property's Internal name, you will need to bring up your list of properties. To do that, follow the instructions in this article from HubSpot:</p>
+<p><a href="https://knowledge.hubspot.com/articles/kcs_article/contacts/view-property-history#export-property-history" target="_self">HubSpot: View property history &gt; Export Property History</a></p>
+<p>Note that, for our purposes, you do not need to actually click on <em>Export property histor</em><em>y</em>. Instead, simply <strong>scroll down</strong> until you see the field labeled <strong>Internal name</strong>: the value of this field is the field name you'll need.</p>
+</div>
+</div>
+<p> </p>
+<h2>Enable Content Attribution for an Item</h2>
+<p>You can enable Content Attribution on any Item. Content Attribution settings are Item-specific: the field and value that you specify will be passed only for the particular Item on which you configure them, so you must set up Content Attribution individually for every Item on which you want to use the feature. Content Attribution settings on an Item apply across your Hub, so the configured field/value will be passed regardless of which Stream the Item was when the visitor interacted with it.</p>
+<p>To enable Content Attribution for an Item:</p>
+<ol>
+<li>Log in to Uberflip and navigate to the Hub you want to work with.</li>
+<li>In the sidebar menu on the left, click on <strong>Content</strong>.</li>
+<li>In the pane on the right, you should be on the <strong>Streams tab</strong>. Here, find any Stream that contains the Item on which you want to configure Content Attribution and <strong>click on it</strong>.
+<ul>
+<li>You can choose any Stream in which the Item appears, including Marketing Streams. The settings you configure will apply to the Item across all Streams in which it appears.</li>
+<li>You cannot do this from the Items tab — you must access the Item from the Streams view.</li>
+</ul>
+</li>
+<li>While viewing the Stream, locate the Item you want to work with and hover your mouse over the hamburger menu button in the lower left corner of its Item Tile:<br><img src="https://help.uberflip.com/hc/article_attachments/360037440112/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png">
+</li>
+<li>In the menu that appears, click on <strong>Set Integration Item Parameters</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360037440352/Fullscreen_2019-08-30__10_06_AM.png" alt="Fullscreen_2019-08-30__10_06_AM.png">
+</li>
+<li>The <strong>Modify Hidden Fields for Item</strong> window will appear. Here, you should see the logo(s) of the MAP(s) currently connected to your Uberflip account displayed at the top: the field you choose can be located in any of the indicated MAPs.<br><img src="https://help.uberflip.com/hc/article_attachments/360037439611/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png">
+</li>
+<li>Start typing the name of the MAP field you want to use (<a href="#h_fcc546be-8759-4aac-aeac-519e145b0275" target="_self">see above</a>)  into the <strong>Field Name</strong> text box. Any existing fields in your MAP(s) that match will appear in the autocomplete menu below.<br><img src="https://help.uberflip.com/hc/article_attachments/360037439891/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png">
+<ul>
+<li>Note that if you have multiple MAPs connected, the fields shown in the autocomplete menu will be from <strong>all</strong> connected MAPs, with no indication of the specific MAP each field belongs to. For this reason, we recommend choosing/creating a field with a name that is unique to the MAP you intend to use.</li>
+</ul>
+</li>
+<li>Choose the field you want to use from the autocomplete menu, or finish typing it manually.</li>
+<li>Use the <strong>Field Value </strong>text box to type in the value you want Uberflip to write to the specified field whenever a known visitor interacts with this Item.</li>
+<li>Finally, click on the <strong>Add</strong> button to save your settings. The field and value you configured will be added to the <strong>Modify Hidden Fields for Item</strong> window for this Item, and Uberflip will immediately begin passing the specified value to the field you choose whenever a known visitor interacts with the Item within any Stream.<br><img src="https://help.uberflip.com/hc/article_attachments/360037440531/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png"><br>
+<ul>
+<li>If you want, you can also add further field/value combinations to this Item by simply typing in the field name and value as above and clicking the <strong>Add</strong> button. All values specified will be passed to the fields indicated at the same time when Content Attribution is triggered on this Item.</li>
+<li>Click on the <strong>Remove</strong> button to remove any field/value combination from the Item. When all field/value combinations have been removed, Content Attribution is disabled for the Item.</li>
+</ul>
+</li>
+<li>When you're finished, click on the <strong>Close</strong> button to close the window and return to the Stream view.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360032633952</guid>
+         <pubDate>Tue, 27 Aug 2019 21:02:21 GMT</pubDate>
+      </item>
+      <item>
+         <title>Where can I find Uberflip&apos;s API documentation?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360029600591-Where-can-I-find-Uberflip-s-API-documentation</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>I want to learn more about the Uberflip API. Where can I find documentation?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>You can find documentation for our REST API on the <a href="http://developers.uberflip.com/" target="_self">Uberflip Developers</a> site.</p>
+<p>Documentation for our Legacy API can be found <a href="http://platform.uberflip.com.s3-website.ca-central-1.amazonaws.com/legacy_api/index.html" target="_self" rel="undefined">here</a>.</p>]]></description>
+         <guid isPermaLink="false">360029600591</guid>
+         <pubDate>Mon, 17 Jun 2019 21:20:19 GMT</pubDate>
+      </item>
+      <item>
+         <title>Use LinkedIn Conversion Tracking on Form CTAs</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360028523472-Use-LinkedIn-Conversion-Tracking-on-Form-CTAs</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>Add a LinkedIn event-specific code to your Hub to track conversions on gated assets in LinkedIn Campaign Manager.</p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><span style="font-weight: 400;">This article covers conversion tracking on Uberflip form submits. If you are looking to implement the site-wide Insight Tag from LinkedIn, <a href="https://www.linkedin.com/help/lms/answer/a418880/add-the-linkedin-insight-tag-to-your-website?lang=en" target="_blank" rel="noopener">see this article for instructions</a>. Implementing this Insight Tag is <strong>required</strong> to perform any type of conversion tracking with LinkedIn.</span></p>
+</div>
+<p> </p>
+<h2 id="h_8f4d1581-ad00-48df-8bd1-807c14923c6e">Prerequisite: Setup Conversion Tracking Campaign in Manager</h2>
+<p>Before you can implement the tracking code on your Uberflip Hub, you'll need to create an <strong>Insight tag, event-specific </strong>tracking method conversion in LinkedIn Campaign Manager. To do so, follow the instructions in this article from LinkedIn:</p>
+<p><a href="https://www.linkedin.com/help/lms/answer/a425606" target="_blank" rel="noopener">LinkedIn: Set up Online Conversion tracking</a></p>
+<p>Once you've set up your conversion using the Insight Tag, event-specific method, you should have a copy of its code snippet. It will look something like this:</p>
+<pre><span style="background-color: #e9ebed; font-family: monospace, monospace; font-size: 13px; white-space: pre;">window.lintrk('track', { conversion_id: XXXXXXX });</span></pre>
+<p>Your tracking code will have a unique ID after <strong>conversion_id</strong> to associate it to your campaign.</p>
+<p>This is what it will look like in LinkedIn Campaign Manager when you are selecting the conversion method:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/9268874683789/linkedin-conversion-tracking.png" alt="linkedin-conversion-tracking.png"></p>
+<p> </p>
+<h2>Set Up LinkedIn Conversion Tracking on Your Hub</h2>
+<p>Now that you have the tracking code, you can add it to your Hub using <a href="https://help.uberflip.com/hc/en-us/articles/360018841312" target="_blank" rel="noopener">custom code</a>. Follow the instructions below to set up the tracking code so that it fires when a Form CTA is submitted.</p>
+<p>Create a code block and name it anything you'd like. For the placement of the code block, select 'Body Bottom'. </p>
+<p>The basis of your code block will be the following:</p>
+<pre><code>&lt;script&gt;<br>window.addEventListener('uberflip.ctaFormSubmitSuccess', (ctaId, ctaData, ctaName) =&gt; {<br>    window.lintrk('track', { conversion_id: XXXXXXX });<br>});<br>&lt;/script&gt;</code></pre>
+<p>You'll need to swap out the <strong>conversion_id</strong> with the ID from the conversion campaign you setup in Campaign Manager.</p>
+<p>Now all you have to do is save and enable your code block, and your Linkedin tracking pixel will be deployed on your Hub.</p>
+<h3>Form Specific Conversion Tracking</h3>
+<p>The instructions above would trigger the conversion tracking on <strong>all Form CTA submissions</strong> in a Hub. If you'd like to narrow it down to a specific form, the same steps can be taken but using the following code snippet instead:</p>
+<pre><code>&lt;script&gt;<br>window.addEventListener('uberflip.ctaFormSubmitSuccess', (ctaId, ctaData, ctaName) =&gt; {<br>    if (ctaId.detail.caller.dataset.id == [INSERT FORM CTA ID) {<br>       window.lintrk('track', { conversion_id: XXXXXXX });<br>    }<br>});<br>&lt;/script&gt;</code></pre>
+<p>You'll still swap out your <strong>conversion_id</strong> with the ID from your event in LinkedIn Campaign Manager. Where it says <strong>[INSERT FORM CTA ID] </strong>you will include the ID of the Uberflip Form CTA you want to trigger this conversion on. The Form CTA ID can be found in Uberflip by navigating to <strong>Calls-To-Action &gt; Form Calls-To-Action </strong>and finding your CTA. There will be a <strong>CTA ID</strong> column in the table that denotes its unique ID.</p>
+<h3>Item Specific Conversion Tracking</h3>
+<p>If you'd like to trigger the conversion on a specific gated Item in your Hub, the same code snippet for firing on all Form CTAs can be used. The only difference is that you'd create the snippet in an <strong>Item-level code block</strong>. For instructions on setting this up, see the Item-Level Custom Code Blocks section in <a href="https://help.uberflip.com/hc/en-us/articles/360018841312" target="_blank" rel="noopener">this article</a>.</p>]]></description>
+         <guid isPermaLink="false">360028523472</guid>
+         <pubDate>Mon, 27 May 2019 18:49:05 GMT</pubDate>
+      </item>
+      <item>
+         <title>Set Up a Disqus Integration</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360026457551-Set-Up-a-Disqus-Integration</link>
+         <description><![CDATA[<hr>
+<p>Learn how to integrate with Disqus to add visitor commenting to your Hub content.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>To set up a Disqus integration, you need to be in the <strong>Account Admin,</strong><strong> Content Manager </strong>or <strong>Demand Generation </strong>user group(s).</li>
+<li>You will also need a <strong><a href="https://disqus.com/profile/signup/">Disqus</a> account</strong>. All types of accounts will work (both paid and free).</li>
+</ul>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important: Ads on Disqus Basic Accounts</h4>
+<p>While you can use a free Disqus account (Basic) with your Hub, be aware that this type of account is <strong>ad-supported</strong>, which means that <strong>ads will appear on any web property that you integrate with Disqus </strong>— including your Hub. You can see an example of this in <a href="https://help.uberflip.com/hc/en-us/articles/360023372611" target="_self">this article</a>.</p>
+<p>If you intend to integrate Disqus with your Hub, we strongly recommend doing so <strong>only with a paid Disqus account</strong> (Plus or Pro).</p>
+</div>
+<p> </p>
+<h2>About the Disqus Integration</h2>
+<p>Disqus is a service that lets you add commenting functionality to any of your web properties, including your Hub. This allows you to engage directly with your visitors and prospects, and build a community around your brand and content:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360025652971/Features_-_Engage_Your_Audience.png" alt="Features_-_Engage_Your_Audience.png" width="616" height="396"></p>
+<p>To learn more about Disqus and its features, check out the <a href="https://disqus.com/features/engage/">Disqus website</a>.</p>
+<p> </p>
+<h2>Prerequisite: Get Your Disqus Shortname</h2>
+<p>To use Disqus with your Hub, you will need to register for a Disqus account (if you don't already have one), then add your Hub to the account by <strong>creating a new site</strong> <strong>in Disqus</strong>. You can go straight to the Disqus <em>Create a new site</em> page by signing in on this page:</p>
+<p><a href="https://disqus.com/admin/create/">https://disqus.com/admin/create/</a></p>
+<p>As part of creating your Hub as a new site in your Disqus account, you will also create a <strong>shortname</strong>, which is the unique identifier for your site in Disqus. It is automatically generated for you when you enter a Website Name during the site creation process in Disqus:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360025645892/Register_Site_-_Disqus_Admin.png" alt="Register_Site_-_Disqus_Admin.png"></p>
+<p>The shortname is important, as you will need it to set up the integration. For more information about Disqus shortnames and how to find yours, see this article from Disqus:</p>
+<p><a href="https://help.disqus.com/installation/whats-a-shortname">Disqus: What's a shortname?</a></p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>To be used with your Hub, the shortname that you choose can be <strong>no longer than</strong> <strong>30 characters</strong>.</p>
+</div>
+<p> </p>
+<h2>Connect Your Hub to Disqus</h2>
+<p>All you need to do to integrate your Hub with Disqus is to connect them via the Hub menu.</p>
+<ol>
+<li>Log in to your Uberflip account and select the Hub on which you want to create an integration.</li>
+<li>In the sidebar menu on the left, click on <strong>Integrations</strong>.<br> <img src="https://help.uberflip.com/hc/article_attachments/360018402791/Hubs___Integrations_-_Uberflip.png" alt="Hubs___Integrations_-_Uberflip.png">
+</li>
+<li>On the right, you'll see a list of services that Uberflip can integrate with. Find <strong>Disqus</strong> in the list, then click on its <strong>Connect</strong> button on the right (under the <strong>Action</strong> column) to set up the integration:<br> <img src="https://help.uberflip.com/hc/article_attachments/360025653311/Hubs___Integrations_-_Uberflip.png" alt="Hubs___Integrations_-_Uberflip.png" width="631" height="62">
+</li>
+<li>A pop-up window will appear. <strong>Enter your Hub's Disqus shortname </strong>into the field provided:<br> <img src="https://help.uberflip.com/hc/article_attachments/360025653471/Hubs___Integrations_-_Uberflip.png" alt="Hubs___Integrations_-_Uberflip.png" width="435" height="322">
+</li>
+<li>Click on <strong>Connect</strong>. You'll see a confirmation message that you're connected to Disqus with the specified shortname:<br> <img src="https://help.uberflip.com/hc/article_attachments/360025653571/Hubs___Integrations_-_Uberflip.png" alt="Hubs___Integrations_-_Uberflip.png" width="393" height="205">
+</li>
+<li>Click on <strong>Close</strong>, and you will be returned to the to the <strong>Integrations</strong> page in your Hub, where you'll now see the shortname listed next to Disqus.</li>
+<li>That's it! Disqus is now integrated your Hub, and comment sections will now begin appearing below your Items:<br> <img src="https://help.uberflip.com/hc/article_attachments/360025637652/Nukeproof_Unveils_2019_Bike_Lineup.png" alt="Nukeproof_Unveils_2019_Bike_Lineup.png" width="569" height="276">
+</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360026457551</guid>
+         <pubDate>Fri, 05 Apr 2019 16:20:38 GMT</pubDate>
+      </item>
+      <item>
+         <title>Set Up an Optimizely Integration</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360025472231-Set-Up-an-Optimizely-Integration</link>
+         <description><![CDATA[<hr>
+<p>Learn how to integrate with Optimizely to do A/B testing on your Hub.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>To set up an Optimizely integration, you need to be in the <strong>Account Admin,</strong><strong> Content Manager </strong>or <strong>Demand Generation </strong>user group(s).</li>
+<li>You will also need an <a href="https://www.optimizely.com/"><strong>Optimizely</strong></a><strong> account.</strong>
+</li>
+<li>This article explains how to integrate your Uberflip Hub with Optimizely, but <strong>not how to use Optimizely to perform A/B testing</strong>. For help with that, see the <a href="https://help.optimizely.com/">Optimizely Knowledge Base</a>.</li>
+</ul>
+<p> </p>
+<h2>About the Optimizely Integration</h2>
+<p>Optimizely is an experimentation platform that allows you optimize your digital experiences by <a href="https://en.wikipedia.org/wiki/A/B_testing">A/B testing</a> different configurations. If you have an Optimizely account, you can integrate it with your Hub to test things like:</p>
+<ul>
+<li>Which titles and headlines drive more content click-throughs?</li>
+<li>Which CTA colors drive more engagement?</li>
+<li>What kind of copy works better for your CTAs — direct or playful?</li>
+<li>Are certain types of images more effective than others?</li>
+</ul>
+<p>To learn more about the Optimizely platform and what it can do, see <a href="https://www.optimizely.com/">the Optimizely website</a>.</p>
+<p> </p>
+<h2>Prerequisite: Create and Configure an Optimizely Web Project</h2>
+<p>Optimizely integrates with your Hub using a small piece of code called a <strong>snippet</strong>. Optimizely organizes your experiments into <strong>Web Projects</strong>, each of which have their own snippet. Uberflip grabs this snippet from Optimizely automatically: all you have to do is tell us the unique Project ID of the Web Project you want to use with your Hub.</p>
+<p>As a result, before you can set up the integration in Uberflip, there are three things you need to do:</p>
+<ol>
+<li>Create a new Web Project for your Hub</li>
+<li>Change a setting so that the Web Project's snippet will work with your Hub</li>
+<li>Get the Web Project's <em>Project ID</em>, which Uberflip will use to grab the snippet from Optimizely and deploy it on your Hub</li>
+</ol>
+<h3>Step 1: Create a Web Project</h3>
+<p>To integrate your Hub with Optimizely, you'll need to <strong>set up a new Web Project</strong> <strong>in Optimizely</strong> that is specifically dedicated to running tests on your Hub. We don't have any special requirements for this project: with one exception (see the next step) you can name it and set it up in any way you like.</p>
+<p>You can find instructions on how to create a new Web Project in this article from Optimizely:</p>
+<ul>
+<li><a href="https://help.optimizely.com/Set_Up_Optimizely/Manage_projects_in_Optimizely_X_Web#Create_a_new_project">Manage projects in Optimizely X Web - Create a new project</a></li>
+</ul>
+<h3>Step 2: Change the Project's jQuery Setting</h3>
+<p>Once your new Web Project has been set up, you need to <strong>adjust the jQuery</strong> setting for the project's snippet. Specifically, under <strong>Settings &gt;jQuery Inclusion</strong>, you need to make sure the setting for your Uberflip Hub project is set to <strong>Do not include jQuery in project code (recommended)</strong>.</p>
+<p>For instructions on how to find and change this setting, see this article from Optimizely:</p>
+<ul>
+<li><a href="https://help.optimizely.com/Set_Up_Optimizely/Project_Settings%3A_jQuery_and_Project_JavaScript_settings_in_Optimizely_X#jQuery_settings">Project Settings: jQuery and Project JavaScript settings in Optimizely X - jQuery settings</a></li>
+</ul>
+<h3 id="h_ace252b6-7574-4100-abb8-f03ed8b6078f">Step 3: Get your Optimizely Project ID</h3>
+<p>With your new Web Project set up and configured correctly, the only thing you still need to set up the integration with your Hub is the Web Project's <strong>Project ID</strong>.</p>
+<p>The Project ID in Optimizely is part of the Web Project's snippet: the Project ID is <strong>the number right before ".js" in the snippet URL</strong> in Optimizely.</p>
+<p>For instructions on how where to find the snippet (and its URL and Project ID), see this article from Optimizely:</p>
+<ul>
+<li><a href="https://help.optimizely.com/Set_Up_Optimizely/Implement_the_one-line_snippet_for_Optimizely_X#2._Retrieve_the_snippet">Implement the one-line snippet for Optimizely X - Retrieve the snippet</a></li>
+</ul>
+<p> </p>
+<h2>Connect Your Hub to Optimizely</h2>
+<p>Now all you need to do is integrate your Hub with Optimizely by connecting them via the Hub menu.</p>
+<ol>
+<li>Log in to your Uberflip account and select the Hub on which you want to create an integration.</li>
+<li>In the sidebar menu on the left, click on <strong>Integrations</strong>.<br> <img src="https://help.uberflip.com/hc/article_attachments/360018402791/Hubs___Integrations_-_Uberflip.png" alt="Hubs___Integrations_-_Uberflip.png">
+</li>
+<li>On the right, you'll see a list of services that Uberflip can integrate with. Find <strong>Optimizely</strong> in the list, then click on its <strong>Connect</strong> button on the right (under the <strong>Action</strong> column) to set up the integration:<br> <img src="https://help.uberflip.com/hc/article_attachments/360024072672/Hubs___Integrations_-_Uberflip.png" alt="Hubs___Integrations_-_Uberflip.png" width="606" height="51">
+</li>
+<li>A pop-up window will appear. <strong>Enter <a href="#h_ace252b6-7574-4100-abb8-f03ed8b6078f" target="_self">the Project ID you obtained earlier</a></strong> into the field provided:<br> <img src="https://help.uberflip.com/hc/article_attachments/360024072732/Hubs___Integrations_-_Uberflip.png" alt="Hubs___Integrations_-_Uberflip.png" width="473" height="310">
+</li>
+<li>Click on <strong>Connect</strong>. You'll see a confirmation message that you're connected to the select Web Project:<br><img src="https://help.uberflip.com/hc/article_attachments/360024092711/Hubs___Integrations_-_Uberflip.png" alt="Hubs___Integrations_-_Uberflip.png" width="461" height="214">
+</li>
+<li>Click on <strong>Close</strong>, and you will be returned to the to the <strong>Integrations</strong> page in your Hub, where you'll now see the Project ID listed next to Optimizely.</li>
+<li>That's it! The selected Optimizely Web Project is deployed on your Hub. You can now start running experiments on your Hub by configuring the Web Project in Optimizely.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360025472231</guid>
+         <pubDate>Mon, 18 Mar 2019 20:57:30 GMT</pubDate>
+      </item>
+      <item>
+         <title>Set Up a Bombora Integration</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360022588451-Set-Up-a-Bombora-Integration</link>
+         <description><![CDATA[<hr>
+<p>Integrate Bombora with your Hub to gain insights into your visitors, including their interests, industries, company sizes, and more.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>To set up a Bombora integration, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+<li>Bombora works by parsing natural language content, and currently only works with <strong>English-language content</strong>. As a result, if you integrate Bombora with a Hub where the majority of content is not in English, <strong>no Visitor Insights will be generated</strong>.</li>
+</ul>
+<p> </p>
+<h2>About the Bombora Integration</h2>
+<p>One of the key aspects of creating great content experiences is tailoring your content to your visitors. But figuring out how well your efforts actually match your visitors' profiles and interests can be difficult. To help you take a data-driven approach to understanding of your audience, Uberflip has partnered with Bombora to integrate their demographic, firmographic and intent data directly into your Hub.</p>
+<p>The Bombora integration powers the <a href="https://help.uberflip.com/hc/en-us/articles/360022410952">Visitor Insights dashboard</a> in Uberflip, which you can use to gauge the relevance of your content experiences to your visitors, and to guide your content development process. In addition, Bombora is also one of the components that feeds into <a href="https://www.uberflip.com/ai/">Uberflip AI</a>. This is the technology that powers the <a href="https://help.uberflip.com/hc/en-us/articles/360022410572">Content Recommendations</a> and <a href="https://help.uberflip.com/hc/en-us/articles/360022595791">Site Engager</a> features, so integrating your Hub with Bombora allows you to take advantage of Uberflip AI to personalize recommendations for your visitors.</p>
+<p>The data Bombora provides is aggregated from billions of data points per month, drawn from a deep network of data sources called the <a href="https://bombora.com/data/bombora-data-co-op/">B2B Data Cooperative</a> (Data Co-op). Integrating your Hub with Bombora makes it part of the Data Co-op, giving you access to this massive pooled data set while also contributing to it. You can find more information about Bombora and how it collects data <a href="https://bombora.com/data/">here</a>.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">What is intent data?</h4>
+<p>Intent data is information about topics visitors are interested in, focused on keywords and behavior that suggest the <em>intent</em> to make a purchase related to those topics. Bombora generates this data by observing user browsing behavior and content consumption across their network, then using machine learning to analyze keywords and identify the topics of each visited page. Given enough data, this allows Bombora to build a profile of a given visitor's interests, and to infer their intent to make a purchase.</p>
+</div>
+<p> </p>
+<h2>Connect Bombora to Your Hub</h2>
+<p>All you need to do to integrate your Hub with Bombora is to connect them via the Hub menu.</p>
+<ol>
+<li>Log in to your Uberflip account and select the Hub on which you want to create an integration.</li>
+<li>In the sidebar menu on the left, click on <strong>Integrations</strong>.<br><img src="https://help.uberflip.com/hc/article_attachments/360018402791/Hubs___Integrations_-_Uberflip.png" alt="Hubs___Integrations_-_Uberflip.png">
+</li>
+<li>On the right, you'll see a list of services that Uberflip can integrate with. Find <strong>Bombora</strong> in the list, then click on its <strong>Connect</strong> button on the right (under the <strong>Action</strong> column) to set up the integration:<br><img src="https://help.uberflip.com/hc/article_attachments/360019633251/Hubs___Integrations_-_Uberflip.png" alt="Hubs___Integrations_-_Uberflip.png" width="694" height="65">
+</li>
+<li>A pop-up window will appear. <strong>Read through the terms</strong> of the integration, then <strong>check the box</strong> to agree to them:<br><img src="https://help.uberflip.com/hc/article_attachments/360019633131/Hubs___Integrations_-_Uberflip.png" alt="Hubs___Integrations_-_Uberflip.png" width="531" height="338">
+</li>
+<li>Click on <strong>Connect</strong>. You will be returned to the to the <strong>Integrations</strong> page in your Hub, where you'll now see <em>connected</em> next to Bombora:<br><img src="https://help.uberflip.com/hc/article_attachments/360019760852/Hubs___Integrations_-_Uberflip.png" alt="Hubs___Integrations_-_Uberflip.png">
+</li>
+<li>That's it! Bombora is now connected to your Hub, and your <a href="https://help.uberflip.com/hc/en-us/articles/360022410952">Visitor Insights</a> dashboard will shortly be populated with visitor data.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360022588451</guid>
+         <pubDate>Tue, 29 Jan 2019 17:30:36 GMT</pubDate>
+      </item>
+      <item>
+         <title>Set up a Pardot integration</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360021942272-Set-up-a-Pardot-integration</link>
+         <description><![CDATA[<p>Learn how to integrate your Pardot account to feed leads and other useful data from your Uberflip Hubs to Pardot.</p>
+<p> </p>
+<h2 id="h_01HA398Y61F7J5A44S1REF3SC0">Before you begin</h2>
+<ul>
+<li>To set up a Pardot integration, you need to be in the <strong>Account Admin,</strong><strong> Content Manager </strong>or <strong>Demand Generation </strong>user group(s).</li>
+<li>You will also need a <strong>Salesforce</strong> <strong>account</strong> with <strong>Admin permissions</strong>.</li>
+<li>To get the most out of the integration, you should be using Form CTAs to generate leads to send to Pardot. To learn more about Form CTAs and how to set them up, see <a href="https://help.uberflip.com/hc/en-us/articles/360020989871">this article</a>.</li>
+</ul>
+<div class="callout callout--success">
+<h4 id="h_01HA3833F2Q3QWX8SAWD87TXXH" class="callout__title">Another way to learn 📺</h4>
+<p>Check out the <a href="https://academy.uberflip.com/" target="_blank" rel="noopener noreferrer">Uberflip Academy</a> for a <a href="https://academy.uberflip.com/integrations/pardot-integration-setup" target="_blank" rel="noopener noreferrer">video overview on setting up a Pardot integration</a>.</p>
+</div>
+<h2 id="h_01HA398Y61F1F66M238H6X7S0W">About the Pardot integration</h2>
+<p>If you use Pardot as part of your marketing tech stack, you can integrate it with your Uberflip account to get the most out of both platforms. Within your Hubs, <a href="https://help.uberflip.com/hc/en-us/articles/360020989871">Form CTAs</a> are a highly effective way to generate leads — <a href="https://hub.uberflip.com/blog/gating-content-this-one-small-change-will-7x-your-conversion-rate">over 7x more effective than traditional landing pages</a>. And once you've generated those leads, you need to do something with them — which is where Marketing Automation Platforms (MAPs) like Pardot shine.</p>
+<p>Form CTAs are designed to stream the leads they capture to a MAP, where you can make them part of your lead nurturing strategy. With Pardot specifically, you have the option of adding these leads to your main Prospect List, or to a Pardot List of your choice.</p>
+<p>When you integrate your account with Pardot, Uberflip also automatically assigns unique IDs (using cookies) to all visitors to your Hub. This has two effects:</p>
+<ul>
+<li>If a visitor fills out a Form CTA that is connected to Pardot, the data they enter is tied to their cookie's ID. This allows us to automatically prefill that visitor's data on any other Form CTAs that they interact with.</li>
+<li>Even if a user has not yet filled out a Form CTA, the cookie allows them to be tracked as they engage with your Hub content. If you set up the necessary custom fields in Pardot, this allows you to track the Items that leads convert on.</li>
+</ul>
+<p>In this article, we'll look at the prerequisites for integrating your account with Pardot, how to configure the integration, and optional steps to enable additional data collection.</p>
+<p> </p>
+<h2 id="h_948614204271547759391585">Prerequisite: Get your Pardot login credentials</h2>
+<p>To set up a Pardot integration, you will need the following information:</p>
+<dl class="dl-horizontal">
+<dt>Salesforce login credentials</dt>
+<dd>The email address and password associated with the Salesforce SSO account that you want to use. See the <a href="#h_01EXFSFM2Q1HX37428486ZR557" target="_self">guidelines on choosing an account</a> to use with the integration below.</dd>
+<dt>Pardot Account ID</dt>
+<dd>A unique ID that identifies your Pardot Instance. See below for instructions on how to find it.</dd>
+<dt>Pardot Campaign ID</dt>
+<dd>A unique ID that identifies the Pardot campaign in which you want to store data from Uberflip. We recommend using a campaign created specifically for this purpose. See below for instructions on how to find it</dd>
+<dt>Pardot Business Unit ID</dt>
+<dd>A unique ID that identifies the Pardot Business Unit you want to use to store data from Uberflip. See below for instructions on how to find it.</dd>
+</dl>
+<h3 id="h_01EXFSFM2Q1HX37428486ZR557">Choose a Salesforce account</h3>
+<p>To set up the integration, you will need to choose a <strong>Salesforce SSO </strong><strong>account</strong> that Uberflip will use to access your Pardot instance. You will need the <strong>login credentials</strong> for this account, which are simply its <strong>email address and password</strong>.</p>
+<p>Before selecting which account you want to use for this purpose, please note the following:</p>
+<ul>
+<li>As a best practice, you should <strong>not</strong> use an account that is associated with a specific user. If you do, the integration can stop working if that user leaves your company, changes their email or password, or their account is deactivated.</li>
+<li>We recommend that you <strong>create a new account specifically for the Uberflip integration</strong>. This account should be tied to a generic email address (e.g. <em>marketing@mycompany.com</em>) that your whole team has access to. This makes it easier to fix problems with the integration should they arise.</li>
+</ul>
+<h3 id="h_01HA398Y61TW67S638NG0FADT5">Get your Pardot Account ID and Campaign ID</h3>
+<p>You'll also need your Pardot <strong>Account ID</strong> and <strong>Campaign ID</strong>, which can both be found in the same location in Pardot.</p>
+<ol>
+<li>Log in to your Pardot account using the account you will be using for the integration.</li>
+<li>In Pardot, click on <strong>Marketing &gt;</strong><strong> Campaigns.</strong>
+</li>
+<li>In the <strong>Current Pardot Campaigns</strong> list, <strong>click on the Campaign</strong> you want to use.</li>
+<li>On the next page, click on <strong>View Tracking Code</strong> in the top right.</li>
+<li>A text box with JavaScript code will appear at the top of the page. Here, look for <strong>piAId</strong> and <strong>piCId </strong>(they should be on the second and third line in the box):<br><img src="https://help.uberflip.com/hc/article_attachments/360019128712" alt="Ann_Campaign_-_Pardot.png" width="552" height="331">
+</li>
+<li>There should be numeric values next to each one. <strong>Make a note of these values</strong>, as you will need them to set up the integration (do not include the single quotation marks):
+<ul>
+<li>
+<strong>piAId</strong> is your <strong>Account ID</strong>
+</li>
+<li>
+<strong>piCId</strong> is your <strong>Campaign ID</strong>
+</li>
+</ul>
+</li>
+</ol>
+<div class="callout callout--warning">
+<h4 id="h_01HA398Y61B38B0JN33QP5RYHG" class="callout__title">Important</h4>
+<p>You must use the Account ID that appears in the <strong>Campaign Tracking Code</strong>.</p>
+<p><strong>Do not use the Account ID that appears under the <em>Account</em> or<em> Account Settings</em> menu in Pardot</strong> (i.e. as described in <a href="https://help.salesforce.com/s/articleView?id=000313659&amp;type=1" target="_self">this article from Salesforce</a>). This Account ID is different from the one found in the Campaign Tracking Code, and will not work for setting up this integration.</p>
+</div>
+<h3 id="h_01HA398Y61SVPANQ38AWP9XD5H">Get your Pardot Business Unit ID</h3>
+<p>Lastly, you will also need your <strong>Pardot Business Unit ID</strong>, which you can find in Salesforce.</p>
+<ol>
+<li>Log in to your Salesforce instance.</li>
+<li>Navigate to the Salesforce Setup Menu.
+<ul>
+<li>See <a href="https://help.salesforce.com/articleView?id=sf.basics_nav_setup.htm&amp;type=5" target="_self"><strong>this article from Salesforce</strong></a> for instructions on how to find the Salesforce Setup Menu.</li>
+</ul>
+</li>
+<li>Enter "Pardot account setup" into the Quick Find box, then click on <strong>Pardot Account Setup</strong> when it appears in the results.</li>
+<li>In the Pardot Account Setup section, <strong>find your Pardot Business Unit ID</strong>: it is a string of letters and digits that <strong>begins with "0Uv"</strong> and is <strong>18 characters long.</strong>
+</li>
+<li>
+<strong>Make a note of your Pardot Business Unit ID</strong>, as you'll need it during the setup process.</li>
+</ol>
+<dl class="dl-horizontal">
+<dd></dd>
+</dl>
+<p> </p>
+<h2 id="h_01HA398Y613AN3RYESQGB72ZHE">Connect to Pardot</h2>
+<p>Now that you have the necessary login credentials, you can easily set up the integration in the Uberflip app.</p>
+<ol>
+<li>Log in to your Uberflip account and navigate to any Hub.
+<ul>
+<li>Integrations are set up at the account level, and apply to all Hubs within your account.</li>
+</ul>
+</li>
+<li>In the sidebar menu on the left, click on <strong>Integrations</strong>, then click on <strong>Connected Services</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360084389972" alt="Hubs___Connected_Services_-_Uberflip.png">
+</li>
+<li>On the right, you'll see a list of services that Uberflip can integrate with. Find <strong>Pardot</strong> in the list, then click on its <strong>Connect</strong> button on the right (under the <strong>Action</strong> column):<img src="https://help.uberflip.com/hc/article_attachments/360018993931" alt="Hubs___Integrations_-_Uberflip.png" width="698" height="59">
+</li>
+<li>The <em>Enter your Pardot Account Information</em> window will open. <strong>Enter your Pardot Account ID, Campaign ID, and Business Unit ID </strong>into the fields provided, then <strong>click on the Save &amp; Connect button</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360084562711" alt="image.png" width="334" height="455">
+</li>
+<li>The Salesforce login screen will appear in a new window. <strong>Enter the username and password of the Salesforce account</strong> that you <a href="#h_01EXFSFM2Q1HX37428486ZR557" target="_self">chose earlier</a>, then <strong>click on Log In</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360084476531" alt="Login___Salesforce_and_Hubs___Connected_Services_-_Uberflip.png" width="469" height="367">
+</li>
+<li>After you log in successfully, you'll see a prompt asking if you want to allow Uberflip to access your Pardot account. To grant this permission and proceed, <strong>click on the Allow button:<br></strong><img src="https://help.uberflip.com/hc/article_attachments/360084391612" alt="image.png">
+</li>
+<li>The login window will close, and you'll be returned to the <strong>Connected Services</strong> page. You you should see a banner indicating that Pardot was connected successfully, as well as the label <em>connected</em> next to Pardot in the list.</li>
+</ol>
+<p>Your Uberflip and Pardot accounts are now connected. Next, you'll need to decide what kind of optional data you want the integration to send to Pardot.</p>
+<p> </p>
+<h2 id="h_1907883961871547850435749">Configure Pardot integration options</h2>
+<p>Now that you have connected Pardot to your Uberflip account, Uberflip will send lead data to Pardot anytime a visitor submits one of your Form CTAs. In addition, you can also choose to turn on <strong>options which send additional data to Pardot</strong>. This data can help you to understand how your leads are engaging with your content in Uberflip.</p>
+<p>The options you can configure are:</p>
+<ul>
+<li>
+<strong>Set Lead Sources: </strong>If enabled, Uberflip will record the specific CTA(s) a lead submitted on their profile — both the first CTA they ever submitted, and the one they submitted most recently.</li>
+<li>
+<strong>Flipbook Tracking: </strong>If enabled, Uberflip will record a lead's Flipbook page views on their profile.</li>
+<li>
+<strong>Content Counters: </strong>If enabled, Uberflip will record counts of how many times a lead has viewed different types of content (e.g. articles, videos, etc.) on their profile.</li>
+</ul>
+<div class="callout callout--info">
+<h4 id="h_01HA398Y626W41CGAA6EKVC8FX" class="callout__title">Note</h4>
+<p>Most of these options use <strong>custom fields </strong>(<a href="#h_01EXHKV1TNS277T568WCA25F7T" target="_self">see below</a>) to record the relevant data. The exception is the the <strong>Set Lead Sources</strong> option: when this is enabled, Uberflip will update Pardot's <strong>default <em>Source</em> field</strong> on the lead profile. This will happen <strong>only if the <em>Source</em> field is empty</strong> — if it already has a value, Uberflip will not change it.</p>
+</div>
+<p>These settings are disabled by default, and the integration will still work if you choose not to enable them. However, we highly recommend turning them on.</p>
+<p><strong>To configure these options:</strong></p>
+<ol>
+<li>On the <strong>Connected Services</strong> page, click on the <strong>Edit </strong>button that now appears next to Pardot in the list (under the <strong>Action </strong>column):<br><img src="https://help.uberflip.com/hc/article_attachments/19400909526925" alt="Hubs___Integrations_-_Uberflip.png">
+</li>
+<li>The <strong>Edit Settings</strong> window will open. To enable an option, simply <strong>check the box beside it</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360084397912" alt="Hubs___Connected_Services_-_Uberflip.png" width="442" height="284">
+</li>
+<li>Click on <strong>Save</strong> to apply your changes.</li>
+</ol>
+<p>Whether or not you chose to enable any of these options, your final step is to <strong>create custom fields in Pardot</strong> to record the data Uberflip sends over.</p>
+<p> </p>
+<h2 id="h_01EXHKV1TNS277T568WCA25F7T">Create custom fields in Pardot</h2>
+<p>When Uberflip sends data to Pardot that a lead has submitted using a Form CTA, this data is captured in Pardot's <strong>standard fields</strong> (name, email, etc.), which are available in Pardot by default. However, the integration will also send data for which Pardot does not have standard fields. To capture this data, you need to <strong>create custom fields in Pardot</strong>.</p>
+<p>You can learn more about Uberflip-created custom fields and how they're used in this article:</p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360040307932">Uberflip custom fields for Marketing Automation Platforms explained</a></li>
+</ul>
+<p><strong>To create custom fields:</strong></p>
+<ol>
+<li>On the <strong>Connected Services</strong> page, click on the <strong>Fields </strong>button next to Pardot (under the <strong>Action </strong>column):<br><img src="https://help.uberflip.com/hc/article_attachments/19400950563213" alt="Hubs___Integrations_-_Uberflip.png">
+</li>
+<li>The <strong>Service Fields</strong> window will open. Inside, you'll see a list of all the custom fields that you can set up in Pardot to record the data being sent from Uberflip. By default none of these fields will exist yet — fields that still need to be created appear in red and are indicated by an <strong>x</strong> in their <strong>Status</strong> column:<br><img src="https://help.uberflip.com/hc/article_attachments/360018997551" alt="Hubs___Integrations_-_Uberflip.png" width="572" height="265">
+</li>
+<li>To create a field, click on the <strong>+Add</strong> button beside it:<br><img src="https://help.uberflip.com/hc/article_attachments/19400950566285" alt="Hubs___Integrations_-_Uberflip.png">
+</li>
+<li>Once a field has been successfully created, its line will turn grey, the <strong>+Add</strong> button will disappear, and a checkmark will appear beside it in the <strong>Status</strong> column:<br><img src="https://help.uberflip.com/hc/article_attachments/19400909535245" alt="Hubs___Integrations_-_Uberflip.png" width="704" height="67">
+</li>
+<li>Continue clicking the <strong>+Add </strong>button for each field until you have added all the fields you want to use, then close the Service Fields window when you're finished.</li>
+</ol>
+<div class="callout callout--info">
+<h4 id="h_122448172301547497456083" class="callout__title">Required vs. optional fields: what's the difference?</h4>
+<p><strong>Required </strong><strong>fields</strong> are either:</p>
+<ul>
+<li>Fields that Uberflip will try to write to, but which don't exist in Pardot by default, or</li>
+<li>Fields which are associated with the <strong>Set Lead Sources/</strong><strong>Flipbook Tracking/</strong><strong>Content Counters </strong>options. <a href="#h_1907883961871547850435749" target="_self" rel="undefined">These options</a> require custom fields, so if you enable them, you must also create the corresponding fields. Note that if you do not enable these options, their fields will not appear in the Service Fields window.</li>
+</ul>
+<p><strong>Optional </strong><strong>fields</strong> are related to tracking the Item a lead converted on. These are optional because, if you do not create them, the corresponding data will still be sent to Pardot, but will simply not be recorded. Adding these optional fields will allow you to capture potentially valuable insights on which Items are your best performers in terms of conversions, so we strongly recommend adding them.</p>
+</div>
+<p> </p>
+<h2 id="h_01HA398Y622X1MG1MHG4V03EPQ">Next steps</h2>
+<p>Congratulations — you've successfully integrated Pardot, and your Uberflip account is now ready to start sending data to Pardot. Now that Pardot is connected, you can begin <a href="https://help.uberflip.com/hc/en-us/articles/360020989871">creating Pardot-connected Form CTAs</a> to start generating leads.</p>
+<div class="callout callout--warning">
+<h4 id="h_01HA398Y62A0CHQ064A5NFMS6H" class="callout__title">
+<strong>Important</strong>: If you use Pardot Form Handlers</h4>
+<p>If you use <a href="https://help.salesforce.com/articleView?id=pardot_form_handlers.htm&amp;type=0" target="_self">Form Handlers</a> in Pardot, you must also <a href="https://help.uberflip.com/hc/en-us/articles/360020989871#set-up-map-options">enable the option <em>Never hide this CTA</em> </a>on any Form CTA connected to a Form Handler. This is required because Form Handlers will only submit when a Form CTA is actively submitted (bypassed Form CTAs for known leads will not submit a Form Handler).</p>
+<p>Additionally, ensure that the "email" field is the only field marked as <strong>required</strong> in the <strong>Form Field Mappings</strong> section of the Form Handler setup.</p>
+</div>]]></description>
+         <guid isPermaLink="false">360021942272</guid>
+         <pubDate>Fri, 18 Jan 2019 14:06:36 GMT</pubDate>
+      </item>
+      <item>
+         <title>Set up a HubSpot integration</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360021562692-Set-up-a-HubSpot-integration</link>
+         <description><![CDATA[<p>Learn how to integrate your HubSpot account to feed leads from your Uberflip Hubs to HubSpot.</p>
+<p> </p>
+<h2 id="h_01HA5KARSMD8HDRJ01H3G9Y0B8">Before You Begin</h2>
+<ul>
+<li>To set up a HubSpot integration, you need to be in the <strong>Account Admin,</strong> <strong>Content Manager </strong>or <strong>Demand Generation </strong>user group(s).</li>
+<li>You will also need a <strong>HubSpot</strong> account with <strong>Integration permissions</strong>.</li>
+<li>To get the most out of the integration, you should be using Form CTAs to generate leads to send to HubSpot. To learn more about Form CTAs and how to set them up, see <a href="https://help.uberflip.com/hc/en-us/articles/360020989871">this article</a>.</li>
+</ul>
+<div class="callout callout--success">
+<h4 id="h_01HA3833F2Q3QWX8SAWD87TXXH" class="callout__title">Another way to learn 📺</h4>
+<p>Check out the <a href="https://academy.uberflip.com/" target="_blank" rel="noopener noreferrer">Uberflip Academy</a> for a <a href="https://academy.uberflip.com/integrations/hubspot-integration-2" target="_blank" rel="noopener noreferrer">video overview on setting up a HubSpot integration</a>.</p>
+</div>
+<h2 id="h_01HA5KARSM6NVQCZ4PNVKASN7T">About the HubSpot Integration</h2>
+<p>If you use HubSpot as part of your marketing tech stack, you can integrate it with your Uberflip account to get the most out of both platforms. Within your Hubs, <a href="https://help.uberflip.com/hc/en-us/articles/360020989871">Form CTAs</a> are a highly effective way to generate leads — <a href="https://hub.uberflip.com/blog/gating-content-this-one-small-change-will-7x-your-conversion-rate">over 7x more effective than traditional landing pages</a>. And once you've generated those leads, you need to do something with them — which is where Marketing Automation Platforms (MAPs) like HubSpot shine.</p>
+<p>Form CTAs are designed to stream the leads they capture to a MAP, where you can make them part of your lead nurturing strategy. With HubSpot specifically, you have the option of adding these leads to your main contacts list, or to a Smart List of your choice.</p>
+<p>When you integrate your account with HubSpot, we also automatically assign all visitors unique IDs (using cookies). This has two effects:</p>
+<ul>
+<li>If a visitor fills out a Form CTA that is connected to HubSpot, the data they enter is tied to their cookie's ID. This allows us to automatically prefill that visitor's data on any other Form CTAs that they interact with.</li>
+<li>Even if a user has not yet filled out a Form CTA, the cookie allows them to be tracked as they engage with your Hub content. If you set up the necessary custom fields in Hubspot, this allows you to track the Items that leads convert on.</li>
+</ul>
+<p>In this article, we'll look at how to configure your account to integrate with HubSpot, along with optional steps to enable additional data collection.</p>
+<p> </p>
+<h2 id="h_01HA5KARSM88R482B0XGD1XACG">Connect Your Account to HubSpot</h2>
+<p>All you need to do to integrate your Uberflip account with HubSpot is to connect them via the Uberflip app.</p>
+<ol>
+<li>Log into Uberflip and select any Hub</li>
+<li>In the sidebar menu, click <strong>Integrations</strong><br><img src="https://help.uberflip.com/hc/article_attachments/19433365207181" alt="Hubs___Integrations_-_Uberflip.png">
+</li>
+<li>You'll see a list of services that Uberflip can integrate with. Find <strong>HubSpot</strong> in the list and click <strong>Connect.</strong><br><img src="https://help.uberflip.com/hc/article_attachments/360018459571" alt="Hubs___Integrations_-_Uberflip.png" width="699" height="264">
+</li>
+<li>A pop-up will appear. Click <strong>Connect.</strong><br><img src="https://help.uberflip.com/hc/article_attachments/360018459631" alt="Hubs___Integrations_-_Uberflip.png" width="300" height="253">
+</li>
+<li>Another pop-up will open, taking you to the HubSpot login page. Log in with your HubSpot credentials.<br><img src="https://help.uberflip.com/hc/article_attachments/360018460351" alt="HubSpot_Login.png" width="300" height="355">
+</li>
+<li>Follow HubSpot's prompts to grant permissions to Uberflip. When done, you'll be directed back to the Integrations page in Uberflip.</li>
+<li>You'll now see <em>connected</em> next to HubSpot in the Service Name list.<br><img src="https://help.uberflip.com/hc/article_attachments/19433365235597" alt="Hubs___Integrations_-_Uberflip.png" width="703" height="115">
+</li>
+</ol>
+<p>That's it! HubSpot is now connected to your account.</p>
+<p> </p>
+<h2 id="h_926635265141547850518532">Optional: Enable Flipbook Tracking and Content Counters and Create Custom Fields</h2>
+<p>While the integration will work if you don't complete this step, it's highly recommended. Enabling Flipbook Tracking and Content Counters will allow you to track visitor behavior within your Hubs, and link it to specific contacts in HubSpot. If you choose to enable these options, you will also need to create some custom fields in HubSpot to be able to record the resulting data.</p>
+<ol>
+<li>On the <strong>Integrations</strong> page, click <strong>Edit</strong> next to HubSpot in the list column<br><img src="https://help.uberflip.com/hc/article_attachments/360018712872" alt="Hubs___Integrations_-_Uberflip.png">
+</li>
+<li>The <strong>Edit Settings</strong> window will open. Click on the two checkboxes next to <strong>Flipbook Tracking</strong> and <strong>Content Counters</strong> to enable these options<br><img src="https://help.uberflip.com/hc/article_attachments/360018585771" alt="Hubs___Integrations_-_Uberflip.png">
+</li>
+<li>Click <strong>Save</strong>
+</li>
+<li>Now, click <strong>Fields</strong> next to HubSpot<br><img src="https://help.uberflip.com/hc/article_attachments/360018588251" alt="Hubs___Integrations_-_Uberflip.png">
+</li>
+<li>The <strong>Service Fields</strong> window will open. Inside, you'll see a list of all the custom fields that need to be set up in HubSpot to record the data being sent from Uberflip<br><img src="https://help.uberflip.com/hc/article_attachments/360018793352" alt="Hubs___Integrations_-_Uberflip.png" width="600" height="415">
+</li>
+<li>By default none of the fields will exist yet, as indicated by the <strong>x</strong> in the <strong>Status</strong> column, and the red coloring. You'll also notice that some of the fields are marked as <strong>Required</strong> and some as <strong>Optional</strong> under the <strong>Necessity</strong> column:
+<ul>
+<li>
+<strong>Required</strong> fields are associated with either <strong>Flipbook Tracking</strong> or <strong>Content Counters</strong> and will only appear if you enabled these features in step 2 above.</li>
+<li>
+<strong>Optional</strong> fields are related to tracking the Item a lead converted on; see t<a href="#h_122448172301547497456083">he note below</a> for more details.</li>
+</ul>
+</li>
+<li>To be able to record data in a given field, you must first create it in HubSpot. To create a field, click on the <strong>+Add</strong> button beside it:<br><img src="https://help.uberflip.com/hc/article_attachments/360018679951" alt="Hubs___Integrations_-_Uberflip.png">
+</li>
+<li>Once a field has been successfully created, its line will turn grey, the <strong>+Add</strong> button will disappear, and a checkmark will appear beside it in the <strong>Status</strong> column:<br><img src="https://help.uberflip.com/hc/article_attachments/360018679991" alt="Hubs___Integrations_-_Uberflip.png" width="704" height="67">
+</li>
+<li>Continue clicking the <strong>+Add </strong>button for each field until you have added all the fields you want to use.</li>
+</ol>
+<div class="callout callout--info">
+<h4 id="h_122448172301547497456083" class="callout__title">Optional Fields</h4>
+<p>You may have noticed that some of the fields in the Service Fields window are marked as <strong>Required</strong> and some as <strong>Optional</strong>. What's the difference?</p>
+<p><strong>Required</strong> <strong>fields</strong> are fields which are associated with the <strong>Flipbook Tracking/</strong><strong>Content Counters </strong>options. These options require custom fields, so if you enable them, you must also create the corresponding fields. Note that if you do not <a href="#h_926635265141547850518532">enable these options</a>, their fields will not appear in the Service Fields window.</p>
+<p><strong>Optional</strong> <strong>fields</strong> are related to tracking the Item a lead converted on. These are optional because, if you do not create them, the corresponding data will still be sent to HubSpot, but will simply not be recorded. Adding these optional fields will allow you to capture potentially valuable insights on which Items are your best performers in terms of conversions, so we strongly recommend adding them.</p>
+</div>
+<p> </p>
+<h2 id="h_01HA5KARSN8Z5KNXCJ73BNHKGJ">Next Steps</h2>
+<p>You're all set: you've successfully integrated your Uberflip account with HubSpot. Next, <a href="https://help.uberflip.com/hc/en-us/articles/360020989871">create some Form CTAs</a> to begin generating leads.</p>]]></description>
+         <guid isPermaLink="false">360021562692</guid>
+         <pubDate>Wed, 09 Jan 2019 18:24:23 GMT</pubDate>
+      </item>
+      <item>
+         <title>Set Up an Olark Integration</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360021797911-Set-Up-an-Olark-Integration</link>
+         <description><![CDATA[<hr>
+<p>Use <a href="https://www.olark.com/">Olark Live Chat</a>? Learn how to integrate your Olark with your Hub.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>To create an Olark integration, you need to be an <strong>Account Admin</strong>, <strong>Content Manager</strong>, or <strong>Developer/Designer</strong>.</li>
+<li>You will also need an <strong>Olark account</strong>, and the ability to log in.</li>
+<li>You'll be using Custom Code to create this integration. To learn more about Custom Code and how to use it, see <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">this article</a>.</li>
+</ul>
+<p> </p>
+<h2>About the Olark Integration</h2>
+<p>If you use Olark, you can install it on your Hub just like on any of your other websites. This will allow your Hub visitors to open live chats with you directly from your Hub.</p>
+<p>To install Olark on your Hub, you embed a code snippet provided by Olark into your Hub using the <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code feature</a>. </p>
+<p> </p>
+<h2>Install Olark on a Hub</h2>
+<ol>
+<li>Before you can get started, you will need to get your Olark snippet. For instructions on how to get it, see <a href="https://www.olark.com/help/html">this help article from Olark</a>.</li>
+<li>Now, log in to your Uberflip account and navigate to the Hub where you want to create the Olark integration.</li>
+<li>In the sidebar menu on the left, click on <strong>Appearance</strong>, then click on <strong>Custom Code</strong> in the additional options that appear.<br><img src="https://help.uberflip.com/hc/article_attachments/360018447971/Hubs___Appearance_-_Custom_Code_-_Uberflip.png" alt="Hubs___Appearance_-_Custom_Code_-_Uberflip.png">
+</li>
+<li>Add a new Custom Code Block, or edit an existing Block. For detailed instructions on how to do that, <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">go here</a>.</li>
+<li>On the <strong>Edit Block</strong> page, click on the <strong>Code</strong> tab and make sure the <strong>Placement</strong> is set to <strong>Body Bottom</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360018569172/Hubs___Custom_Code_-_Uberflip.png" alt="Hubs___Custom_Code_-_Uberflip.png">
+</li>
+<li>Now, copy and paste the code snippet from Olark into the code box:<br><img src="https://help.uberflip.com/hc/article_attachments/360018448211/Hubs___Custom_Code_-_Uberflip.png" alt="Hubs___Custom_Code_-_Uberflip.png">
+</li>
+<li>Click on the <strong>Save</strong> button in the lower right.</li>
+<li>Lastly, toggle the <strong>Enable Custom Code</strong> switch near the top of the <strong>Edit Block</strong> page to the <strong>on (green)</strong> position to enable the Custom Code Block and make the Olark code part of your Hub code:<br><img src="https://help.uberflip.com/hc/article_attachments/360018448331/Hubs___Custom_Code_-_Uberflip.png" alt="Hubs___Custom_Code_-_Uberflip.png">
+</li>
+<li>That's it! You have successfully set up the integration, and Olark live chat will now appear on your Hub.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360021797911</guid>
+         <pubDate>Wed, 09 Jan 2019 17:52:23 GMT</pubDate>
+      </item>
+      <item>
+         <title>Set Up a Sumo Integration</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360019924252-Set-Up-a-Sumo-Integration</link>
+         <description><![CDATA[<hr>
+<p>Integrating Sumo with your Hub is a quick and easy process that can open up a world of possibilities when it comes to lead generation, social sharing, analytics, traffic generation, audience communication, and more.</p>
+<hr>
+<p> </p>
+<h2>Before you Begin</h2>
+<ul>
+<li>To create this integration, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+</ul>
+<p> </p>
+<h2>Step 1: Install Sumo</h2>
+<ol>
+<li>Go to <a href="https://sumo.com/">https://sumo.com/</a> and <strong>sign up for a free account</strong>.</li>
+<li>When prompted during the registration, <strong>type in your Hub URL</strong>.</li>
+<li>Finally, you'll be prompted to install Sumo on your Hub using a bit of code. <strong>Copy the code</strong>, then log in to your Uberflip Hub.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015925331/itemeditorimage_562fd6ab14ae5.png" alt="itemeditorimage_562fd6ab14ae5.png" width="706" height="265">
+</li>
+</ol>
+<p> </p>
+<h2>Step 2: Add the Sumo Code to Your Hub</h2>
+<ol>
+<li>Log in to Uberflip.</li>
+<li>Go to <strong>Hubs &gt; Appearance &gt; Custom Code</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015925391/Hubs___Appearance_-_Custom_Code_-_Uberflip.png" alt="Hubs___Appearance_-_Custom_Code_-_Uberflip.png">
+</li>
+<li>Click on the <strong>+Add Code</strong> button.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015879712/Hubs___Appearance_-_Custom_Code_-_Uberflip.png" alt="Hubs___Appearance_-_Custom_Code_-_Uberflip.png">
+</li>
+<li>The <strong>Add New Code</strong> window will appear. Begin by typing in a name and (optionally) description for this piece of custom code (e.g. "Sumo Integration"). Then, click on the <strong>Add Code</strong> button.</li>
+<li>This will take you to the Edit Custom Code view. Scroll down and click on the <strong>Code</strong> tab.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015879732/Hubs___Custom_Code_-_Uberflip.png" alt="Hubs___Custom_Code_-_Uberflip.png">
+</li>
+<li>Under <strong>Placement</strong>, use the dropdown to choose <strong>Head</strong> (it may already be selected by default).</li>
+<li>In the code field underneath, <strong>paste in the code you copied from Sumo earlier</strong>.</li>
+<li>Click on the <strong>Save</strong> button below the code field.</li>
+<li>Lastly, scroll back up and switch the toggle under <strong>Enable Custom Code</strong> to the <strong>on (green) </strong>position.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015925531/Hubs___Custom_Code_-_Uberflip.png" alt="Hubs___Custom_Code_-_Uberflip.png">
+</li>
+</ol>
+<p> </p>
+<h2>Step 3: Set up Sumo Apps</h2>
+<ol>
+<li>Log back in to Sumo. Once logged in, click on the <strong>Visit Site</strong> button to load your Hub.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015925651/itemeditorimage_562fd7b4a67d0.jpg" alt="itemeditorimage_562fd7b4a67d0.jpg" width="698" height="161"><br><br>
+</li>
+<li>When your Hub loads, you'll see a blue toolbar hovering on the right side of the page — don't worry, only you can see this toolbar! <strong>Click on the crown icon</strong> in the toolbar.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015880012/itemeditorimage_562fd7c6c87f7.jpg" alt="itemeditorimage_562fd7c6c87f7.jpg" width="698" height="205">
+</li>
+<li>A popup will appear. In it, click on <strong>Sumo Store</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015880032/itemeditorimage_562fd7d700f9f.jpg" alt="itemeditorimage_562fd7d700f9f.jpg" width="693" height="190">
+</li>
+<li>Browse through the Sumo Store and <strong>add apps that coincide with your marketing goals</strong>.</li>
+<li>When you add an app, you'll usually have to <strong>configure some options</strong>. For example, here's the setup screen for the<em> Wallpaper App</em>, which allows you to show visitors to your Hub a beautiful (and highly converting) front page when they visit for the first time:<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015925711/itemeditorimage_562fd7f61b35e.jpg" alt="itemeditorimage_562fd7f61b35e.jpg" width="618" height="237">
+</li>
+<li>When you've finished configuring an app's options, click on the <strong>Save</strong> button.</li>
+<li>Finally, don't forget to activate any new app you add by <strong>toggling its status from <em>Paused</em> to <em>Active</em></strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015880152/itemeditorimage_562fd8072db3e.jpg" alt="itemeditorimage_562fd8072db3e.jpg">
+</li>
+</ol>
+<p>And that's it — you've successfully integrated Sumo with your Hub!</p>]]></description>
+         <guid isPermaLink="false">360019924252</guid>
+         <pubDate>Fri, 23 Nov 2018 18:57:43 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

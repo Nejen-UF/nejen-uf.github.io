@@ -1,0 +1,1244 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Sales Assist for admins</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Sales Assist + Salesforce: Set up the Sales Assist app in Salesforce as an admin</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/18130956008717-Sales-Assist-Salesforce-Set-up-the-Sales-Assist-app-in-Salesforce-as-an-admin</link>
+         <description><![CDATA[<p>Sales Assist works best when integrated into your current sales workflows. And since so many of our users are working in Salesforce.com (SFDC) daily, we want to meet your team where they’re at. </p>
+<p>This article outlines how a Salesforce admin can install the Sales Assist for SFDC app, and how to get set up.</p>
+<p> </p>
+<h2>1. Install the Sales Assist app package in SFDC</h2>
+<p>The Sales Assist for SFDC app is a <a href="https://appexchange.salesforce.com/appxListingDetail?listingId=0032fdc2-d03c-459e-a966-b225ea54fbd9&amp;tab=e"><span style="color: #1155cc;">private listing</span> <span style="color: #1155cc;">that</span><span style="color: #1155cc;"> can be found here</span></a>, in the Salesforce AppExchange.</p>
+<p>As a Salesforce admin user, you can download the app and install it in your Salesforce account. Check out this <a href="https://help.salesforce.com/s/articleView?id=sf.distribution_installing_packages.htm&amp;type=5"><span style="color: #1155cc;">Salesforce article on installing apps</span></a> to see how it’s done.</p>
+<p><strong>Note: </strong>Sales Assist can be installed in a Salesforce sandbox environment for testing, and your main production environment when you're ready to launch it for your team.</p>
+<p>The app <strong>installation package contains 3 different Visualforce pages</strong>, one for each place you may want to install the app. This includes: </p>
+<ul>
+<li>Account page</li>
+<li>Contact page</li>
+<li>Opportunity page</li>
+</ul>
+<p>On each of these pages, you can choose to add the app as a widget on the page, or as a custom tab, whichever works best for your team's workflows. </p>
+<p> </p>
+<h2>2. Connect Salesforce to Uberflip</h2>
+<p>If you haven’t already, now is the time to connect your Salesforce account to your Uberflip account. While you can still use the Sales Assist app in SFDC without this, <strong>Sales Assist won’t be able to auto-fill all of the Salesforce IDs without it. </strong></p>
+<p>To see how to connect Uberflip and Salesforce, check out: <a href="https://help.uberflip.com/hc/en-us/articles/360047293692"><span style="color: #1155cc;">Set up a Salesforce integration</span></a></p>
+<p> </p>
+<h2>3. Choose your Salesforce settings in Sales Assist</h2>
+<p>In Sales Assist, you have 3 settings options to control your team’s experience, and the information passed from SFDC into the Sales Assist widget. </p>
+<p>To access these settings and get set up, go into Sales Assist in Uberflip, then click <strong>Admin &gt; Settings &gt; Salesforce tab.</strong></p>
+<p><img style="height: 412px; width: 624px;" src="https://lh4.googleusercontent.com/8Xrc3Tz_xMsoc9PP5oDcQyVOOSNTHoZR2KrfTjzstUidrIG0ZZzizD6xXQkHEiFDzG7NJTRqFy6-EI4CHpiJlGeU3vtmSRf-cA3PIvnUIW_XfolUyEqXeQxznccd9UWB97E1XpSjAu28b5KQXdin0Uw"><br>The settings you can set up include:</p>
+<ul>
+<li>
+<strong>Enable Salesforce Fields </strong><br>This setting turns the Account and Opportunity ID fields in Sales Assist on or off. When on, these fields will appear in a Salesforce tab on the Manage Room page in Sales Assist.</li>
+<li>
+<strong>Require Fields </strong><br>This setting makes the <strong><em>Salesforce Fields (controlled by the </em></strong><strong>Enable Salesforce Fields toggle)</strong> mandatory when a DSR is created in the Sales Assist SFDC app. These fields will fill automatically <strong>when using Sales Assist in Salesforce</strong> if the <strong>API Lookups</strong> are enabled.</li>
+<li>
+<strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Use API Lookups<br></strong>The API lookup allows Sales Assist to grab the Opportunity IDs from Salesforce. To leverage API lookups, you must connect the <a style="background-color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" href="https://help.uberflip.com/hc/en-us/articles/360047293692" target="_self" rel="undefined">Salesforce integration in Uberflip</a><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">. If this is turned off, the Opportunity ID will need to be entered manually.<br></span>
+</li>
+</ul>
+<p>That’s it! Your Salesforce + Sales Assist integration is ready to go. To see how to use it, check out: <a href="https://help.uberflip.com/hc/en-us/articles/18131368602509" target="_self">Sales Assist + Salesforce: Using the Sales Assist app in SFDC</a>. Send that article to your team so they can start using it too!</p>]]></description>
+         <guid isPermaLink="false">18130956008717</guid>
+         <pubDate>Tue, 01 Aug 2023 17:55:40 GMT</pubDate>
+      </item>
+      <item>
+         <title>Sales Assist: Auto-archive inactive DSRs and Items</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/6999040063757-Sales-Assist-Auto-archive-inactive-DSRs-and-Items</link>
+         <description><![CDATA[<p><span style="font-weight: 400;">Want to declutter your Uberflip account by archiving old, dead Digital Sales Rooms (DSRs) and Items your reps have created? Sales Assist can do that for you automatically! This article will outline the feature and show you how to set it up.</span></p>
+<p> </p>
+<h2><span style="font-weight: 400;">Before you begin </span></h2>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Only Sales Assist admins can turn auto-archiving on/off </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Auto-archiving applies to all DSRs and “special blog Stream” Items in the Hubs associated with your Sales Assist account. It cannot be set up for a single user, environment, or DSR.</span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">This feature </span><strong>applies to all Sales Streams in Hubs associated with your Sales Assist environments.</strong><span style="font-weight: 400;"> This includes Sales Streams that were created outside of Sales Assist. </span>
+</li>
+</ul>
+<p> </p>
+<h2><span style="font-weight: 400;">How it works </span></h2>
+<h3><span style="font-weight: 400;">The basics: </span></h3>
+<p><span style="font-weight: 400;">Every Saturday, an algorithm will scan through your DSRs/Sales Streams within the associated Hubs. Based on the day range you’ve selected, it'll automatically archive any Sales Streams, DSRs, or rep-authored Items that have been ‘inactive’ longer than your selected day range. </span></p>
+<h3><span style="font-weight: 400;">The specifics: </span></h3>
+<p><span style="font-weight: 400;">Here's how the algorithm decides what to archive. Every Saturday, it will:</span></p>
+<ol>
+<ol>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Look for the 100 oldest DSR/Sales Streams (in order of modified date)</span></li>
+<li style="font-weight: 400;" aria-level="1">
+<strong><em>IF:</em></strong> <span style="font-weight: 400;">The modified date of a DSR/Sales Stream exceeds the set day range <br></span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"><em>AND:</em></strong><span style="font-weight: 400;"> There’s </span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">no</strong><span style="font-weight: 400;"> share activity in last 90 days <br></span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"><em>THEN:</em></strong><span style="font-weight: 400;"> The DSR/Sales Stream will be automatically archived<br></span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"><br>Note:</strong><span style="font-weight: 400;"> The Stream can be </span><a style="background-color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" href="https://help.uberflip.com/hc/en-us/articles/360020669872-Recover-Deleted-Items-and-Archived-Streams#restore-an-archived-stream">recovered in app.uberflip.com</a><span style="font-weight: 400;"> if needed</span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Once it's done with DSR/Sales Streams, it’ll then scan any "special blog streams" (this is where rep-authored Items are held) in each environment and will:</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Look for the oldest 100 Items (in order of modified date)</span></li>
+<li style="font-weight: 400;" aria-level="1">
+<strong><em>IF:</em></strong><span style="font-weight: 400;"> The modified date exceeds the set day range </span><span style="font-weight: 400;"><br></span><strong><em>AND:</em></strong><span style="font-weight: 400;"> There’s </span><strong>no </strong><span style="font-weight: 400;">share activity in the last 90 days</span><span style="font-weight: 400;"><br></span><strong><em>AND:</em></strong><span style="font-weight: 400;"> The Item is not currently part of any </span><strong>active</strong><span style="font-weight: 400;"> DSR/Sales Stream or a Marketing Stream<br></span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">THEN:</strong><span style="font-weight: 400;"> The Item (and its associated files) will be deleted <br><br></span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Note:</strong><span style="font-weight: 400;"> Deleted Items can be recovered in app.uberflip.com if needed, but Item </span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">files</strong><span style="font-weight: 400;"> cannot. Check out </span><a style="background-color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" href="https://help.uberflip.com/hc/en-us/articles/360020669872-Recover-Deleted-Items-and-Archived-Streams#restore-an-archived-stream">Recover Deleted Items and Archived Streams</a><span style="font-weight: 400;"> to learn more.</span>
+</li>
+</ol>
+</ol>
+<h2><span style="font-weight: 400;">Turn auto-archiving on/off</span></h2>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><span style="font-weight: 400;">Only Sales Assist admins can enable/disable auto-archiving. If you’re not an admin in Sales Assist, reach out to one and request that they enable this feature.</span> </p>
+</div>
+<ol>
+<ol>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Login to Sales Assist with your Sales Assist admin Uberflip account </span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>Admin </strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Select the </span><strong>Defaults </strong><span style="font-weight: 400;">tab</span><strong><br>Note: </strong><span style="font-weight: 400;">At this point, you must have </span><strong><em>All Users</em></strong><span style="font-weight: 400;"> selected in the top right. Auto-archiving must be set for all users.</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Enable auto-archiving:</strong><strong><br></strong><span style="font-weight: 400;">Under “</span><em><span style="font-weight: 400;">Auto Archive Digital Sales Rooms and Custom Items not modified in over</span></em><span style="font-weight: 400;">”, select a day range for how long a Sales Stream, DSRs, or rep-authored Item should be inactive before being archived</span><span style="font-weight: 400;"><br></span><strong><br>Disable auto-archiving: </strong><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">Under “</span><em><span style="font-weight: 400;">Auto Archive Digital Sales Rooms and Custom Items not modified in over</span></em><span style="font-weight: 400;">”, click the dropdown menu and choose </span><strong><em>-select-</em></strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click the Save icon (floppy disk) </span><img src="https://help.uberflip.com/hc/article_attachments/6999067529997/Screen_Shot_2022-06-15_at_3.48.18_PM.png" alt="Screen_Shot_2022-06-15_at_3.48.18_PM.png" width="20" height="20"><br><img src="https://help.uberflip.com/hc/article_attachments/6999062919821/oihj.png" alt="oihj.png" width="603" height="276">
+</li>
+</ol>
+</ol>]]></description>
+         <guid isPermaLink="false">6999040063757</guid>
+         <pubDate>Fri, 17 Jun 2022 10:58:04 GMT</pubDate>
+      </item>
+      <item>
+         <title>Sales Assist: Weekly performance email for admins</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4440660474381-Sales-Assist-Weekly-performance-email-for-admins</link>
+         <description><![CDATA[<p><span style="font-weight: 400;">Sales Assist admins receive an email summary of their team’s Sales Assist performance each week. This article outlines the details of this performance summary, and how to opt-in or out of the email. </span></p>
+<h2><span style="font-weight: 400;">Before you begin </span></h2>
+<ul>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Only </span><strong>Admins in Sales Assist</strong><span style="font-weight: 400;"> have the option to receive the weekly performance email </span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">This email is sent every </span><strong>Monday</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">The week summarized in the email runs from </span><strong>Monday to Sunday</strong>
+</li>
+</ul>
+<h2><span style="font-weight: 400;">Details of your performance summary email</span></h2>
+<p><span style="font-weight: 400;">The weekly performance email contains five sections:</span></p>
+<ol>
+<li style="font-weight: 400;" aria-level="1"><a href="#h_01FW4KBMJMJ24FHQ3JC81X48F2" target="_self"><span style="font-weight: 400;">Your engagement score</span></a></li>
+<li style="font-weight: 400;" aria-level="1"><a href="#h_01FW4KBYCES3RR35C8GWH00KJ2" target="_self"><span style="font-weight: 400;">Share performance totals</span></a></li>
+<li style="font-weight: 400;" aria-level="1"><a href="#h_01FW4KBYCES3RR35C8GWH00KJ2" target="_self"><span style="font-weight: 400;">Items with the highest engagement</span></a></li>
+<li style="font-weight: 400;" aria-level="1"><a href="#h_01FW4KCH4VEV9V3Y2YX1QJA2R2" target="_self"><span style="font-weight: 400;">Team activity summary</span></a></li>
+<li style="font-weight: 400;" aria-level="1"><a href="#h_01FW4KCSH5VMKE63ZKPN0GYDW9" target="_self"><span style="font-weight: 400;">New updates you should know about</span></a></li>
+</ol>
+<p><span style="font-weight: 400;">We’ll outline each section below.</span></p>
+<h3 id="h_01FW4KBMJMJ24FHQ3JC81X48F2"><span style="font-weight: 400;">Your engagement score</span></h3>
+<p><span style="font-weight: 400;">Your engagement score shows how well prospects have engaged with the DSRs your team shared that week. You can then compare this score to the Sales Assist weekly benchmark. </span></p>
+<h4><span style="font-weight: 400;">How your engagement score is calculated: </span></h4>
+<p><strong>Engagement score = (avg_people/7) + (avg_items/11) + avg_time</strong></p>
+<p><span style="font-weight: 400;">This calculation is based on research that shows that on average, about 7 people in a given target account will engage with around 11 pieces of content before a purchasing decision is made. The average time that the account engages with the content simply acts as a score bonus: the more time, the better.</span></p>
+<p><span style="font-weight: 400;">The benchmark is calculated the same way, but across all Sales Assist accounts (excluding outliers). With this, you can get a sense if your engagement is going well, or if it may need a boost. </span></p>
+<p><span style="font-weight: 400;">Below the engagement score you’ll see a short summary that includes: </span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Number of new team members</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Average Item views per share  </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Average unique people (visitors) per share </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Average time content was viewed per share</span></li>
+</ul>
+<p><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/4440224574989/Screen_Shot_2022-02-17_at_10.25.05_AM.png" alt="Screen_Shot_2022-02-17_at_10.25.05_AM.png"></span></p>
+<h3 id="h_01FW4KBYCES3RR35C8GWH00KJ2"><span style="font-weight: 400;">Share performance totals</span></h3>
+<p><span style="font-weight: 400;">Share performance is a simple weekly overview of total:</span><span style="font-weight: 400;"><br></span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Item views </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Unique visitors </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Time your visitors engaged with your content</span></li>
+</ul>
+<p><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/4440227105805/Screen_Shot_2022-02-17_at_10.26.07_AM.png" alt="Screen_Shot_2022-02-17_at_10.26.07_AM.png"></span></p>
+<h3>
+<span style="font-weight: 400;">Items with the highest engagement</span><span style="font-weight: 400;"><br></span>
+</h3>
+<p><span style="font-weight: 400;">This area shows the</span><strong> 3 Items</strong><span style="font-weight: 400;"> that received the most engagement <strong>that week</strong>, based on the <strong>amount of time</strong> the Items were viewed.  </span></p>
+<p><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/4440243565325/Screen_Shot_2022-02-17_at_10.28.07_AM.png" alt="Screen_Shot_2022-02-17_at_10.28.07_AM.png"></span></p>
+<h3 id="h_01FW4KCH4VEV9V3Y2YX1QJA2R2"><span style="font-weight: 400;">Team activity summary</span></h3>
+<p><span style="font-weight: 400;">This section summarizes what your team’s been up to over the past week, including:</span><span style="font-weight: 400;"><br></span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">DSRs created</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Items created</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Number of DSRs shared </span></li>
+</ul>
+<p><span style="font-weight: 400;">This is shown as a total number for each that week, as well as a graph showing the total <strong>combined</strong> actions that took place each day.</span></p>
+<p><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/4440254349709/mceclip0.png" alt="mceclip0.png"></span></p>
+<h3 id="h_01FW4KCSH5VMKE63ZKPN0GYDW9"><span style="font-weight: 400;">New updates you should know about</span></h3>
+<p><span style="font-weight: 400;">The final section is where you’ll find out about new features in Sales Assist, so you’re up to date on new tools you and your team can take advantage of. </span></p>
+<p><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/4440451373581/mceclip1.png" alt="mceclip1.png" width="437" height="417"></span></p>
+<h2><span style="font-weight: 400;">Opt-in or out of the weekly performance email </span></h2>
+<p><span style="font-weight: 400;">If you’re a Sales Assist admin, you can decide to receive the engagement email (on by default) or turn these off for yourself. Here’s how: </span></p>
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In the Sales Assist app, click your name in the top right</span><span style="font-weight: 400;"><br></span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>Edit Profile<br></strong><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/4440461259917/rffds.png" alt="rffds.png" width="240" height="212"></span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Under <strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Preferences</strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">, check the box beside </span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Weekly Digest Email </strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">to opt-in, or un-check the box to opt-out. </span><em style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Your selection will save automatically.<br></em><img src="https://help.uberflip.com/hc/article_attachments/4440455893517/gfd.png" alt="gfd.png"><br></span></li>
+</ol>
+<p> </p>]]></description>
+         <guid isPermaLink="false">4440660474381</guid>
+         <pubDate>Thu, 17 Feb 2022 19:39:40 GMT</pubDate>
+      </item>
+      <item>
+         <title>Sales Assist: Create separate environments for different user groups</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360060350751-Sales-Assist-Create-separate-environments-for-different-user-groups</link>
+         <description><![CDATA[<p>Learn how you can create <strong>additional</strong> <strong>environments</strong> in Sales Assist to customize the Sales Assist experience for different user groups.</p>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>To add Sales Assist environments, you need to be an <strong>Admin User</strong> in Sales Assist.</li>
+<li>Before you can add further Sales Assist environments, you must first create your default environment by <strong>installing the Sales Assist app and completing the registration process</strong>, as described <a href="https://help.uberflip.com/hc/en-us/articles/360057767632#install-and-configure-sales-assist">here</a>.</li>
+</ul>
+<p> </p>
+<h2>About Sales Assist environments</h2>
+<p>The way you <a href="https://help.uberflip.com/hc/en-us/articles/360057767632#set-up-your-sales-assist-environment">set up your Sales Assist environment</a> defines how your Sales Users experience the app. By default, you'll set up a single environment, which means that all of your Sales Users will experience the app the same way: they will all have access to the same templates, tag groups, and image library. </p>
+<p>If that one-size-fits-all approach doesn't work for your organization, you can also <strong>create additional environments</strong>. Each environment in Sales Assist is <strong>specific to a particular user group</strong>, and has <strong>its own distinct settings</strong>, which allows you to <strong>customize Sales Assist for each user group's unique needs</strong>.</p>
+<p>Creating additional Sales Assist environments is useful if you:</p>
+<ul class="list-bullet">
+<li>
+<strong>Have multiple groups of Sales Assist users with differing needs: </strong>If your organization has separate Sales teams that focus on particular product lines, verticals, etc., then each of those groups will have different needs when it comes to templates, finding content, and imagery. By setting up separate environments, you can provide each group with a streamlined Sales Assist experience that is tailored to their needs.</li>
+<li>
+<strong>Have multiple Hubs: </strong>Each Sales Assist environment is associated with a single Hub, so if you have multiple Hubs, you can create additional environments for each Hub that you want to use with Sales Assist. This is especially useful if you use <a href="https://help.uberflip.com/hc/en-us/articles/360035997751" target="_self"><strong>language Hubs</strong></a>, as it allows you to create separate Sales Assist experiences for your Sales Users who work in a particular language or region.</li>
+</ul>
+<p>In this article, we'll cover what you need to know about Sales Assist environments, and how to create additional environments in your Sales Assist account.</p>
+<p> </p>
+<h2>How Sales Assist environments work</h2>
+<p>You create your <strong>default Sales Assist environment</strong> as part of the <a href="https://help.uberflip.com/hc/en-us/articles/360057767632#install-and-configure-sales-assist">initial registration process</a>. This default environment is called the <strong>All Users</strong> <strong>environment</strong>, as it applies to all users in your Uberflip account who have access to Sales Assist. It is linked to a specific Hub, which you select during the registration process.</p>
+<p>On top of the default All Users environment, you can also choose to create <strong>additional environments</strong>. Environments in Sales Assist are <strong>fully independent of one another, with their own configurations</strong>. When you set up an additional environment, you can:</p>
+<ul>
+<li>
+<strong>Choose the Hub it is linked to: </strong>This determines where the users of the environment will create their Digital Sales Rooms (DSRs), as well as the templates they can use. You can have multiple environments linked to the same Hub, separate environments for different Hubs, or both. Note that no matter which Hub an environment is linked to, users assigned to that environment will have access to content from all Hubs in your Uberflip account (provided the content lives in a Stream where the <a href="https://help.uberflip.com/hc/en-us/articles/4607063680781-Stream-functionality-options-explained-#stream-options-explained">"Show in Extension" setting</a> is turned on).</li>
+<li>
+<strong>Create a unique environment setup:  </strong>The tag groups, image library, and other settings are unique to each environment, so you can create setups that are tuned to the needs of a specific group of users.</li>
+</ul>
+<p><strong>Additional environments</strong><strong> are</strong> <strong>user group-specific</strong>. This means that a Sales User's experience in Sales Assist is determined by their user group in Uberflip: if they belong to a user group with a specific Sales Assist environment, they will see that environment. Any user who does not belong to a user group that has a specific environment will see the default All Users environment.</p>
+<p><strong>Admin Users can switch between Sales Assist environments</strong> to configure them. <strong>Sales Users</strong> <strong>can only access one environment</strong>, as determined by their user group, and are <strong>not</strong> <strong>able to switch</strong>.</p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Sales Users must only belong to one user group with regard to Sales Assist</strong>. This is because:</p>
+<ul>
+<li>A Sales User's <strong>user group determines the Sales Assist environment</strong> they can access</li>
+<li>Sales Users <strong>can't switch between environments</strong> </li>
+</ul>
+<p>Note that Sales Users can still belong to multiple user groups, <strong>provided only one of those user groups is tied to an environment in Sales Assist</strong>. For example, if a Sales User belongs to both <em>User Group A</em> and <em>User Group B</em>, but you have only set up a Sales Assist environment for <em>User Group A</em>, then it does not matter that they are also in <em>User Group B</em> with regard to Sales Assist.</p>
+<p><strong>In case of a conflict</strong> (i.e. when a Sales User belongs to two or more user groups that are tied to Sales Assist environments), Sales Assist will use <strong>the environment associated with the first user group that the Sales User belongs to</strong> (based on its unique user group ID). Because this is unpredictable, we strongly recommend you <strong>ensure Sales Users only belong to one user group that is associated with a Sales Assist environment</strong>, and resolve any conflicts accordingly.</p>
+</div>
+<p> </p>
+<h2>Create a new Sales Assist environment</h2>
+<p>You can create as many Sales Assist environments as you need. Each environment must be tied to a specified user group, and no user group can be associated with more than one Sales Assist environment.</p>
+<ol>
+<li>Log in to Sales Assist as an <strong>Admin User</strong> and click on<strong> Admin.</strong>
+</li>
+<li>In the <em>Admin </em>section, click on <strong>All Users</strong> in the top right:<br><img src="https://help.uberflip.com/hc/article_attachments/360093541591/image.png" alt="image.png">
+</li>
+<li>Click on <strong>+Add a User Group</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360093568352/image.png" alt="image.png">
+</li>
+<li>Use the dropdown menu to <strong>select the user group</strong> for which you want to create a new Sales Assist environment:<br><img src="https://help.uberflip.com/hc/article_attachments/360093568612/image.png" alt="image.png" width="530" height="231">
+<ul>
+<li>The dropdown will list all available user groups in the connected Uberflip account (both default and custom) <strong>except</strong> user groups that are already associated with an environment.</li>
+</ul>
+</li>
+<li>Click on <strong>Add User Group.</strong>
+</li>
+<li>Use the dropdown menu to <strong>select the Hub that you want to link this environment to:</strong><br><img src="https://help.uberflip.com/hc/article_attachments/360093568972/Fullscreen_2021-04-26__5_04_PM.png" alt="Fullscreen_2021-04-26__5_04_PM.png">
+</li>
+<li>Click on <strong>Select Hub</strong>.</li>
+<li>Your new environment will be created, and you'll be taken to <em>Admin</em> section <strong>with the new environment selected</strong> (as indicated by the dropdown in the top right):<br><img src="https://help.uberflip.com/hc/article_attachments/360093542511/image.png" alt="image.png">
+<ul>
+<li>When the environment is created, Sales Assist will also create a new special Blog Stream (to house Sales User-created content Items) which is specific to the new environment (and the Hub to which it is linked).</li>
+</ul>
+</li>
+<li>Now, simply use the <em>Admin</em> section to <a href="https://help.uberflip.com/hc/en-us/articles/360057767632#set-up-your-sales-assist-environment">set up the environment</a> as needed. When users belonging to the associated user group next log in to Sales Assist, they will see the experience that you have configured for their environment.</li>
+</ol>
+<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>All Sales Assist environments are independent of one another, and settings made in one environment will not have any effect on any other environment. Likewise, <strong>settings can't be mirrored or copied between environments</strong> — they must be set up individually.</p>
+</div>
+<p> </p>
+<h2>Manage Sales Assist environments</h2>
+<p>After you have created additional Sales Assist environments, you can easily manage them by simply switching between them in the <em>Admin</em> section.</p>
+<ol>
+<li>Log in to Sales Assist as an <strong>Admin User</strong> and click on<strong> Admin.</strong>
+</li>
+<li>
+<strong>Use the dropdown in the top right </strong>to select the environment you want to work with:<br>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360093543111/image.png" alt="image.png"></p>
+</li>
+<li>Configure settings as needed. Remember that settings you configure or change in the <em>Admin</em> section, including any tag groups and images, will <strong>apply only to the selected environment</strong>.<br>
+<ul>
+<li>
+<strong>Templates</strong> are an exception: templates are created at the Hub level, so all environments belonging to the same Hub will have access to the same set of templates.</li>
+</ul>
+</li>
+</ol>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>Whenever you log in to Sales Assist as an Admin User, the <strong>All Users</strong> (default) environment will always be selected by default.</p>
+</div>
+<p> </p>
+<h2>Delete an environment</h2>
+<p>If an environment is no longer needed, you can delete it at any time. You can delete any existing environment <strong>except</strong> the default All Users environment.</p>
+<div class="callout callout--warning">
+<h4 class="callout__title">What happens when I delete an environment?</h4>
+<ul>
+<li>All Sales Users who belong to the user group associated with the environment will revert to the default All Users environment.</li>
+<li>Any tag groups, and assignments of tags to tag groups, will be deleted from Sales Assist. However, the tags themselves will <strong>not</strong> be deleted from your Uberflip account or the Items they are attached to.</li>
+<li>The image library (if present) will be deleted from Sales Assist. However, any images imported into the image library from your Uberflip Image Manager will not be deleted from the Image Manager.</li>
+<li>The special Blog Stream (which contains Items created by Sales Users in the deleted Sales Assist environment only) will be archived in the Uberflip Hub where it was created. If needed, you can recover this Blog Stream; however, note that Items created in it can't be transferred to/used as "My Items" in other Sales Assist environments.</li>
+</ul>
+</div>
+<ol>
+<li>Log in to Sales Assist as an <strong>Admin User</strong> and click on<strong> Admin.</strong>
+</li>
+<li>
+<strong>Use the dropdown in the top right </strong>to select the environment you want to delete.</li>
+<li>Click on the <strong>delete</strong> (trash can) button beside the dropdown:<br><img src="https://help.uberflip.com/hc/article_attachments/360093571732/image.png" alt="image.png">
+</li>
+<li>
+<strong>Read the confirmation message</strong> to understand what will happen as a result of deleting the selected environment. If you are certain you want to proceed, click on <strong>Confirm</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360093572072/image.png" alt="image.png" width="428" height="254">
+</li>
+<li>The selected environment will be deleted immediately,  and you will see a confirmation message. After deleting an environment, you will be returned to the <em>Admin</em> section for the All Users (default) environment.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360060350751</guid>
+         <pubDate>Fri, 23 Apr 2021 21:07:41 GMT</pubDate>
+      </item>
+      <item>
+         <title>Sales Assist: Configure permissions to control access to app features</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360059650691-Sales-Assist-Configure-permissions-to-control-access-to-app-features</link>
+         <description><![CDATA[<hr>
+<p>Learn how to configure Sales Assist user permissions to determine which app features your users can access.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>To configure app permissions, you need to be a member of the <strong>Account Administrators</strong> or <strong>Content Managers</strong> user groups.</li>
+<li>To configure these settings, the <a href="https://marketplace.uberflip.com/details/sales-assist-1/"><strong>Sales Assist </strong><strong>Marketplace app</strong></a> must be installed in your Hub.</li>
+</ul>
+<p> </p>
+<h2>About Sales Assist permissions</h2>
+<p>Sales Assist is designed to empower Sales teams with content, so it gives users a lot of flexibility in how to use (or even create) content. But in some cases, you may want to <strong>limit which Sales Assist features your users can access</strong>. To allow for this, Sales Assist hooks into Uberflip's <strong>permissions system</strong>, and features app-specific permissions which you can configure to turn on and off specific features within the app.</p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p>When you remove access to a feature in Sales Assist, that feature and its associated UI elements will be <strong>hidden from the affected user(s)</strong>, i.e. it will not be shown within Sales Assist at all.</p>
+<p>Note that the Sales Assist documentation describes all available functionality. As a result, if you choose to customize Sales Assist by removing functionality, we strongly recommend that you <strong>advise your users accordingly</strong>, and <strong>provide your own supplementary documentation/guidance</strong>.</p>
+</div>
+<p> </p>
+<h2>How Sales Assist permissions work</h2>
+<p>When you install the Sales Assist Marketplace app in your Uberflip account, Sales Assist will:</p>
+<ul>
+<li>
+<strong>Create</strong> a set of permissions in your account, each of which controls access to specific functionality in the Sales Assist app</li>
+<li>
+<strong>Grant </strong>the available permissions to specific user group(s) by default</li>
+</ul>
+<p>Below is a breakdown of the permissions Sales Assist creates, along with the functionality the permission controls, and which user group is granted the permission by default:</p>
+<table style="height: 415px; width: 930px;">
+<tbody>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="height: 22px; width: 173.617px;">
+<p><strong>Permission</strong></p>
+</td>
+<td class="wysiwyg-text-align-center" style="height: 22px; width: 349.017px;">
+<p><strong>Allows the user to...</strong></p>
+</td>
+<td style="width: 373.367px; height: 22px;">
+<p class="wysiwyg-text-align-center"><strong>Granted to user group...</strong></p>
+</td>
+</tr>
+<tr style="height: 44px;">
+<td style="width: 173.617px; height: 44px;">
+<p><em>View Marketplace App Config</em></p>
+</td>
+<td style="width: 349.017px; height: 44px;">
+<p>Access the configuration page for the Sales Assist Marketplace app (under <em>Installed Apps</em> in the Uberflip backend)</p>
+</td>
+<td style="width: 373.367px; height: 44px;">
+<p><strong>Account Administrators </strong>only</p>
+</td>
+</tr>
+<tr style="height: 44px;">
+<td style="width: 173.617px; height: 44px;">
+<p><em>Edit Marketplace App Config<br></em></p>
+</td>
+<td style="width: 349.017px; height: 44px;">
+<p>Edit settings on the configuration page for the Sales Assist Marketplace app</p>
+</td>
+<td style="width: 373.367px; height: 44px;">
+<p><strong>Account Administrators</strong> only</p>
+</td>
+</tr>
+<tr style="height: 22px;">
+<td style="height: 22px; width: 173.617px;">
+<p><em>Author Content</em></p>
+</td>
+<td style="height: 22px; width: 349.017px;">
+<p>Create their own Items within Sales Assist</p>
+</td>
+<td style="width: 373.367px; height: 22px;">
+<p><strong>Account Administrators</strong> and <strong>Sales Reps</strong></p>
+</td>
+</tr>
+<tr style="height: 44px;">
+<td style="height: 44px; width: 173.617px;">
+<p><em>Add Items to Sales Streams</em></p>
+</td>
+<td style="height: 44px; width: 349.017px;">
+<p>Add Items to the basket in Sales Assist, and from there to a new or existing Sales Stream</p>
+</td>
+<td style="width: 373.367px; height: 44px;">
+<p><strong>Account Administrators</strong> and <strong>Sales Reps</strong></p>
+</td>
+</tr>
+<tr style="height: 44px;">
+<td style="height: 44px; width: 173.617px;">
+<p><em>Re-arrange Items in a Sales Stream</em></p>
+</td>
+<td style="height: 44px; width: 349.017px;">
+<p>Change the order in which Items in their Sales Streams are displayed</p>
+</td>
+<td style="width: 373.367px; height: 44px;">
+<p><strong>Account Administrators</strong> and <strong>Sales Reps</strong></p>
+</td>
+</tr>
+<tr style="height: 44px;">
+<td style="height: 44px; width: 173.617px;">
+<p><em>Remove Items from Sales Streams</em></p>
+</td>
+<td style="height: 44px; width: 349.017px;">
+<p>Delete Items from their own Sales Streams</p>
+</td>
+<td style="width: 373.367px; height: 44px;">
+<p><strong>Account Administrators</strong> and <strong>Sales Reps</strong></p>
+</td>
+</tr>
+<tr>
+<td style="width: 173.617px;">
+<p><em>Show 'Advanced Edit' Options in UI</em></p>
+</td>
+<td style="width: 349.017px;">
+<p>Use the Advanced Edit button in Sales Assist, to open Streams and templates in the Uberflip backend</p>
+</td>
+<td style="width: 373.367px;">
+<p><strong>Account Administrators and Sales Reps</strong></p>
+</td>
+</tr>
+<tr style="height: 67px;">
+<td style="height: 67px; width: 173.617px;">
+<p><em>Create Private Templates</em></p>
+</td>
+<td style="height: 67px; width: 349.017px;">
+<p>Create their own user templates, which are private to the individual user (as distinct from system templates, which are shared between users)</p>
+</td>
+<td style="width: 373.367px; height: 67px;">
+<p><strong>Account Administrators</strong> and <strong>Sales Reps</strong></p>
+</td>
+</tr>
+<tr style="height: 40px;">
+<td style="height: 40px; width: 173.617px;">
+<p><em>Change Stream Banner Image</em></p>
+</td>
+<td style="height: 40px; width: 349.017px;">
+<p>Change or remove the banner image on their own Sales Streams</p>
+</td>
+<td style="width: 373.367px; height: 40px;">
+<p><strong>Account Administrators</strong> and <strong>Sales Reps</strong></p>
+</td>
+</tr>
+<tr>
+<td style="width: 173.617px;">
+<p><em>Search Marketing Streams<br></em></p>
+</td>
+<td style="width: 349.017px;">
+<p>Browse Marketing Streams for content (in the <em>Search</em> section) within Sales Assist</p>
+</td>
+<td style="width: 373.367px;">
+<p><strong>Account Administrators and Sales Reps</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>The <em>View Marketplace App Config</em> and <em>Edit Marketplace App Config</em> permissions are related to settings for the Sales Assist Marketplace app (i.e. <a href="https://help.uberflip.com/hc/en-us/articles/360059624771">notifications settings</a>) in the Uberflip backend, and do not govern access to any settings within Sales Assist itself.</p>
+</div>
+<p> </p>
+<h2>Configure Sales Assist permissions</h2>
+<p>By default, members of the <strong>Account Administrators</strong> and <strong>Sales Reps </strong>user groups are granted the necessary permissions to access all functionality within Sales Assist.</p>
+<p>If you want to use <strong>non-default user groups</strong> with Sales Assist, or if you want to <strong>restrict access to certain functions</strong>, you can configure Sales Assist's permissions by either granting or revoking permissions as needed. As with all Uberflip permissions, you can grant or revoke permissions at either the user group level (which affects all users within the user group), or at the individual user level (which affects only that user, unless they are also a member of a user group that grants the permissions).</p>
+<ol>
+<li>To configure permissions for Sales Assist, <strong>log in to the Uberflip backend</strong> (<a href="https://app.uberflip.com/" target="_self">app.uberflip.com</a>).</li>
+<li>In the top right, click on <strong>your name</strong>, then click on <strong>Account Settings</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360092084652/image.png" alt="image.png">
+</li>
+<li>In the sidebar menu, click on <strong>Organization</strong>. Then, click on:
+<ul>
+<li>
+<strong>Users</strong> if you want to configure permissions for specific users only.</li>
+<li>
+<strong>Groups</strong> if you want to configure permissions for all members of a user group.</li>
+</ul>
+</li>
+<li>Next, click on the <strong>user</strong> or <strong>user group</strong> (depending on your choice in the previous step) for which you want to modify permissions.</li>
+<li>While viewing the user or user group, click on the <strong>Permissions</strong> tab.</li>
+<li>Scroll to the bottom of the list of permissions, where you should see a <strong>Sales Assist</strong> section:<img src="https://help.uberflip.com/hc/article_attachments/4411404984717/image.png" alt="image.png" width="264" height="204">
+</li>
+<li>Here, simply <strong>grant</strong> or <strong>revoke</strong> permissions as required:
+<ul>
+<li>To <strong>give</strong> <strong>access</strong> to a feature for the selected user/user group, <strong>check the box </strong>beside the corresponding permission to grant it.</li>
+<li>To <strong>remove access</strong> to a feature for the selected user/user group, <strong>uncheck the box </strong>beside the corresponding permission to revoke it.</li>
+</ul>
+</li>
+<li>Your changes will be saved automatically, and will take effect immediately.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360059650691</guid>
+         <pubDate>Fri, 09 Apr 2021 15:02:44 GMT</pubDate>
+      </item>
+      <item>
+         <title>Sales Assist: Admin Guide</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360057767632-Sales-Assist-Admin-Guide</link>
+         <description><![CDATA[<p>Learn how to install, set up, and administer Sales Assist in your Uberflip account.</p>
+<p> </p>
+<h2 id="h_01HSYE6BSSPDFEKMN1HMTDD7HT">Before you begin</h2>
+<ul>
+<li>Anyone can use Sales Assist to share Digital Sales Rooms (DSRs). But only users with a<strong> Sales license</strong> can <em>create</em> DSRs in Sales Assist. </li>
+<li>To register your Uberflip account in Sales Assist and perform the initial setup, you must be logged in as the <a href="https://help.uberflip.com/hc/en-us/articles/360018726352" target="_self"><strong>Primary User</strong></a> on your Uberflip account.</li>
+<li>To perform the other actions described in this guide, you must be a member of the <strong>Account Administrators </strong>user group in Uberflip.
+<ul>
+<li>You can optionally <a href="#h_01F0HYK97872R90KF47XMQP3TD" target="_self">modify which user group can perform administrative actions in Sales Assist</a> in the app's settings.</li>
+</ul>
+</li>
+<li>If your Hub uses <strong>Front End V2</strong>, you must also install the <a href="https://marketplace.uberflip.com/details/compatibility-pack/"><strong>Compatibility Pack app</strong></a> to use Sales Assist. If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</li>
+</ul>
+<p> </p>
+<h2 id="h_01HSYE6BSSF43Q3A4MR5X46MXM">About Sales Assist</h2>
+<h3 id="h_01HSYE6BSSYZ9AH2S700KAR56T">What is Sales Assist?</h3>
+<p>Sales Assist is a next-generation sales engagement app for Uberflip. It's used by sales teams to create <strong>Digital Sales Rooms (DSRs)</strong> that leverage the marketing content in your Uberflip account. </p>
+<div class="callout callout--success">
+<h4 id="h_01HSYE6BSSX05339R6T7VRF8NB" class="callout__title">What is a <strong>Digital Sales Room (DSR)</strong>?</h4>
+<p>A Digital Sales Room<em> (or DSR)</em> is a personalized web destination that facilitates the sales process. It provides a centralized location where sales teams and potential customers can interact, collaborate, and exchange information to support the sales process.</p>
+</div>
+<p>Because Sales Assist is a responsive web app, it works pretty much everywhere: users can access it on a desktop or mobile browser, as a Chrome extension, or as an Outlook add-in. As a result, Sales Assist gives your organization's Sales reps a way to access your Uberflip content wherever they happen to be working: in sales tools like Salesloft, in their emails, or on their phones.</p>
+<h3 id="h_01HSYE6BSSJJ2FV660BPAKRZVM">Feature overview</h3>
+<p>Using Sales Assist, your Sales team can:</p>
+<ul class="list-bullet">
+<li>
+<strong>Quickly</strong> <strong>search your Uberflip library</strong> to find the perfect content for their needs</li>
+<li>
+<strong>Create their own content</strong> <strong>Items</strong> for super-personalized outreach</li>
+<li>
+<strong>Build and personalize DSRs in seconds</strong>, using brand-compliant templates</li>
+<li>
+<strong>Easily share DSRs</strong> (or individual Items) with prospects by choosing from <strong>a variety of embed options</strong>, then simply pasting an embed into an email</li>
+<li>
+<strong>Automatically track</strong> <strong>how prospects are engaging</strong> <strong>with shared content</strong>, and receive <strong>real-time notifications </strong>when someone visits a shared link</li>
+</ul>
+<h3 id="h_01HSYE6BSSQAK5KSCDPRENAP37">What you'll learn</h3>
+<p>Follow this guide to learn <strong>how to get your organization up and running with Sales Assist</strong>, including:</p>
+<ul>
+<li>How to <strong>install and configure</strong> the Sales Assist app in your Uberflip account</li>
+<li>How to <strong>set up your Sales Assist environment</strong>, including:
+<ul>
+<li>Creating <strong>templates</strong>, preset DSR styles for different use cases, verticals, etc.</li>
+<li>Building an <strong>image library </strong>for Sales reps to use on their self-created Items</li>
+<li>Managing how<strong> tags </strong>are used in Sales Assist for content discovery</li>
+</ul>
+</li>
+<li>How to <strong>onboard your users</strong> to Sales Assist</li>
+<li>How to <strong>configure optional settings</strong> to tweak Sales Assist to your specific needs and preferences</li>
+</ul>
+<p> </p>
+<h2 id="h_01HSYE6BSS73078CVWKH24CCT9">Quick start guide</h2>
+<p><strong>Just want to get started with Sales Assist as quickly as possible?</strong> Here are the basics:</p>
+<ol>
+<li>
+<strong>Install the app: </strong>Go to the Uberflip Marketplace to <a href="https://marketplace.uberflip.com/details/sales-assist-1/" target="_self">install Sales Assist</a> in your Uberflip account.</li>
+<li>
+<strong>Complete the registration process</strong>:
+<ol>
+<li>Log in to Uberflip as the <strong>Primary User </strong>and click on <strong>Sales Assist</strong> in the sidebar menu.</li>
+<li>Click on <strong>Login with Uberflip</strong> (you'll be logged in automatically).</li>
+<li>After you have logged in, <strong>select the Hub</strong> in which you want to use Sales Assist to complete the registration process.</li>
+<li>You're done!</li>
+</ol>
+</li>
+<li>
+<strong>Explore the app:</strong> Now that you've set up the app, <strong>feel free to start playing around</strong>! To help you get oriented, all you need to know is that Sales Assist consists of<strong> four main areas</strong>:
+<ul>
+<li>
+<strong>Search</strong>: Find content Items (or create a new Item) and use it to create and share a new DSR.</li>
+<li>
+<strong>Rooms</strong>: View previously created DSRs to share, edit, or copy them. <br><strong>Note:</strong> This section may/can be labelled differently by changing the <a href="https://help.uberflip.com/hc/en-us/articles/13894587662093" target="_self">environment labels</a>.</li>
+<li>
+<strong>Activity</strong>: Track how recipients are engaging with Items and DSRs shared through Sales Assist.</li>
+<li>
+<strong>Admin</strong>: Administer the behind-the-scenes functions of the app, which includes setting up <strong>tag groups</strong>, <strong>templates</strong>, and <strong>images </strong>to help your Sales users find content and create more attractive DSRs.</li>
+</ul>
+</li>
+<li>
+<strong>Onboard Sales users</strong>: When you're ready to to get your Sales reps into Sales Assist, simply <strong>ask them to log in</strong>, either by going to <strong><a href="https://sa.uberflip.com" target="_self" rel="undefined">https://sa.uberflip.com</a> </strong>in any browser, or by using the <a href="https://chrome.google.com/webstore/detail/sales-assist-by-uberflip/kcbkakmlohgokmebhdmhcffdpegnlobk"><strong>Chrome extension</strong></a>. Be sure to point them towards the <strong><a href="https://help.uberflip.com/hc/en-us/articles/360057052132">Quick Start Guide for Sales Users</a> </strong>to help them get started.</li>
+</ol>
+<p><strong>For in-depth instructions on how to set up and use Sales Assist, read on for the full guide.</strong></p>
+<p> </p>
+<h2 id="h_01HSYE6BSSJV4T9BAEEN2FR75G">Install and configure Sales Assist</h2>
+<p>In this section, we'll look at the <strong>setup process for adding Sales Assist to your Uberflip account</strong>.</p>
+<h3 id="h_01HSYE6BSSY01STD6M6JFV07YJ">Step 1: Install the Sales Assist app</h3>
+<p>To begin using Sales Assist with your Uberflip account, simply<strong> install the app</strong> from the Uberflip Marketplace by following these instructions:</p>
+<div class="accordion accordion--default">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>How to install the Sales Assist app</strong></div>
+<div class="accordion__item-content">
+<ol>
+<li>
+<strong>Log in</strong> to your Uberflip account.</li>
+<li>Go to the <a href="https://marketplace.uberflip.com/details/sales-assist-1/">Sales Assist listing page in Uberflip Marketplace</a>.</li>
+<li>Click on <strong>Install</strong>.</li>
+<li>If the app has been successfully installed, you'll see <strong>Sales Assist </strong>listed under <strong>Marketplace &gt; Installed Apps</strong> in Uberflip.<br><img src="https://help.uberflip.com/hc/article_attachments/360089349552" alt="image.png">
+</li>
+<li>After you've successfully installed Sales Assist, you can <strong>register your Uberflip account in the app</strong>.</li>
+</ol>
+</div>
+</div>
+</div>
+<h3 id="h_01HSYE6BST9QKEWC0TJW3QGRG6">Step 2: Register your Uberflip account in Sales Assist</h3>
+<div class="callout callout--warning">
+<h4 id="h_01HSYE6BSTKKJ61DJ19NZHA1XY" class="callout__title">Important</h4>
+<p>This step must be completed by your Uberflip account's <strong>Primary User</strong>.</p>
+</div>
+<p>After you have installed the Sales Assist app, you need to <strong>register your Uberflip account in Sales Assist</strong>. As part of this registration process, Sales Assist will:</p>
+<ul class="list-bullet">
+<li>
+<strong>Create a Sales Assist account for your organization:</strong> This account is tied to your Uberflip account, allowing users in that account to create their own Sales Assist users.</li>
+<li>
+<strong>Give the <em>Sales Reps</em> user group in your account access to the app</strong>: Sales Assist will assign the <em>Sales Reps</em> user group the necessary permissions to use the app (<a href="#h_01F0MHEF7JMH13D3Z4RFA9GBWX" target="_self">see below</a>).</li>
+<li>
+<strong>Allow you to choose which Hub to use with Sales Assist</strong>: The selected Hub will be the home of all DSRs created through Sales Assist, as well as templates and Items created by users (however, if you have multiple Hubs, users will still have access to content from all Hubs when creating DSRs).</li>
+<li>
+<strong>Create a special Blog Stream within the selected Hub</strong>: To house content Items created by Sales Assist users, the app will create a special Blog Stream in your designated Hub.</li>
+</ul>
+<p>Follow these instructions to register:</p>
+<div class="accordion accordion--default">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>How to register your Uberflip account in Sales Assist</strong></div>
+<div class="accordion__item-content">
+<ol>
+<li>Log in to Uberflip as the <strong>Primary User</strong>.</li>
+<li>In the sidebar menu, click on <strong>Sales Assist</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360088912631" alt="image.png">
+<ul>
+<li>If you do not see the Sales Assist menu option in the sidebar, the app has not yet been installed: make sure to <a href="#h_01F0GZ5A79J7X0MQZJBG6W1SJX" target="_self">install the app</a> first.</li>
+</ul>
+</li>
+<li>Click on <strong>Login with Uberflip</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360088940452" alt="image.png">
+</li>
+<li>After you successfully log in, use the dropdown to <strong>select the Hub</strong> <strong>that you want to use with Sales Assist</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360089001211" alt="image.png">
+<ul>
+<li>
+<strong>IMPORTANT: </strong>Choose the Hub carefully, because you won't be able change your selection later! Remember that this selection does <strong>not</strong> affect which content your users will have access to, only where their DSRs, templates, etc. will be created.</li>
+</ul>
+</li>
+<li>Click <strong>Select Hub </strong>to proceed.</li>
+<li>Sales Assist will take you to the <strong>Defaults</strong> tab in the <strong><em>Admin </em>section</strong>. You'll see a message indicating that the special Sales Assist Blog Stream has been created, as well as the IDs of the selected Hub and the new Sales Assist Blog Stream:<br><img src="https://help.uberflip.com/hc/article_attachments/360088946312" alt="image.png">
+</li>
+<li>You're done! <strong>The registration is complete</strong>, and you can now begin using the app.</li>
+</ol>
+</div>
+</div>
+</div>
+<p>Once you've successfully installed the app and completed the registration process, you can begin to <a href="#h_01F0HYVTNJAC5DPM2Y5XDT34G2" target="_self"><strong>set up your Sales Assist environment</strong></a>. Or, skip ahead and <a href="#h_01F0HJAV9A82545JP56NVEJ5E3" target="_self"><strong>start adding users</strong></a> to Sales Assist.</p>
+<p> </p>
+<h2 id="h_01F0HYVTNJAC5DPM2Y5XDT34G2">Set up and manage your Sales Assist environment</h2>
+<p>In this section, we'll look at <strong>how you can set up your Sales Assist environment</strong> to help your users get the most out of the app.</p>
+<h3 id="h_01HSYE6BSTF13BE6YBJY1ZM4SY">Access the Sales Assist <em>Admin</em> section</h3>
+<p>To <strong>set up and manage your Sales Assist environment</strong>, you'll use the app's <em>Admin </em>section. To access the <em>Admin </em>section, follow these instructions:</p>
+<ol>
+<li>
+<strong>Log in </strong>to Sales Assist <strong>as an Admin</strong> <strong>User</strong>
+<ul>
+<li>See <a href="#h_01F0VGAXCXZCRHAWP7RJ1117SM" target="_self"><strong>User types</strong></a> below for more information on who can sign in to Sales Assist as an Admin User</li>
+</ul>
+</li>
+<li>Click the <strong>Admin</strong> button:<br><img src="https://help.uberflip.com/hc/article_attachments/12288475024141" alt="mceclip3.png" width="401" height="244">
+</li>
+<li>This will open a dropdown menu, which contains <strong>five options</strong>:</li>
+</ol>
+<div class="accordion accordion--default">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Analytics: track your team's DSR performance</strong></div>
+<div class="accordion__item-content">
+<p>See how your team's shared DSRs are performing with Sales Assist's Analytics summary dashboard.</p>
+<p>See <a href="https://help.uberflip.com/hc/en-us/articles/6450083020301" target="_self">Sales Assist: Team stats for admins</a> to learn more.</p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Tags: Pin Tag Groups and tags in the Search section for fast searching</strong></div>
+<div class="accordion__item-content">
+<p>Use your <a href="https://help.uberflip.com/hc/en-us/articles/360029638391">Uberflip tags and tag groups</a> in Sales Assist to make finding content even easier for your sales team.  </p>
+<p>With tag groups, your Sales Users don't need to know what tags you use, or spend a lot of time searching for the right ones. Instead, you can <strong>use tag groups to </strong><strong>display just the tags that are relevant to your Sales team</strong>, organized by category, right in Sales Assist's <em>Search</em> section:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360089489691" alt="image.png"></p>
+<div class="callout callout--info">
+<h4 id="h_01HSYE6BSTXFMD5GVC2ZMJJJ1E" class="callout__title">Note</h4>
+<p>Sales Assist uses the same Tags and Tag Groups as your Uberflip account. If you want to <a href="https://help.uberflip.com/hc/en-us/articles/360029638391" target="_self">edit your tags or Tag Groups</a>, that can be done in the Tags management page in Uberflip. </p>
+</div>
+<h4 id="h_01HSYE6BSTMHFN5RV1ATPE5QSP"> </h4>
+<h4 id="h_01HSYE6BSTEBBMX26W77W4RTTS">Show tag group and tags in Search</h4>
+<ol>
+<li>Log in to Sales Assist as an <strong>Admin User</strong>
+</li>
+<li>Click <strong>Admin &gt; Tags<br><img src="https://help.uberflip.com/hc/article_attachments/9333293162381" alt="mceclip1.png" width="350" height="221"></strong>
+</li>
+<li>
+<strong>Optional:</strong> Toggle "Show empty groups" to choose to see empty Tag Groups on this page or not</li>
+<li>Start typing the name of a tag into the <strong>search box</strong>. Sales Assist will display any tags that match your search.<br><img src="https://help.uberflip.com/hc/article_attachments/360089495131" alt="image.png">
+</li>
+<li>To add a tag for quick searching, <strong>click it in the search results</strong>. The tag will be added to the Tag Group it lives in in Uberflip. If it's unassigned in Uberflip, it will be added to the "Content" Tag Group.<br><img src="https://help.uberflip.com/hc/article_attachments/360089492772" alt="image.png">
+</li>
+<li>
+<strong>Repeat this process</strong> to add more tag and Tag Groups for quick searching.</li>
+<li>Any Tag Group that <strong>contains at least one tag </strong>is displayed in the <em>Search </em>section of the app below the search box. The tags it contains are shown in a dropdown.<br><img src="https://help.uberflip.com/hc/article_attachments/360089496971" alt="image.png">
+</li>
+<li>
+<strong>Optional:</strong> Drag &amp; drop Tag Groups to reorder them however you'd like</li>
+</ol>
+<p> </p>
+<h4 id="h_01HSYE6BSTSM1TAPRMK846JHBN">Set default tags for search</h4>
+<p><strong>Note:</strong> Tags are cumulative, so if you have more than 1 default tag, only Items containing all those default tags will be shown by default.</p>
+<ol>
+<li>Go to <strong>Admin &gt; Tags<br></strong>
+</li>
+<li>Ensure you're working with the user group you want to set default tags for </li>
+<li>In the <strong><em>Tags &amp; Groups</em> tab,</strong> <strong>click the star icon on the tags you want to set as default</strong> for search<br><strong>Note:</strong> You can only set one tag as default for each Tag Group. <br><img src="https://help.uberflip.com/hc/article_attachments/16143230074637" width="601" height="70">
+</li>
+<li>Click into the <strong><em>Default Search</em> tab</strong>
+</li>
+<li>In the <em><strong>Sort order for your # starred Tag(s)</strong> </em>field, select which way you'd like the default tags to be sorted by: <em><strong>Newest</strong> </em>or <em><strong>Most Shared<br><img src="https://help.uberflip.com/hc/article_attachments/16143316060301" width="401" height="119"><br></strong></em>
+</li>
+</ol>
+<p>That's it! You default tag settings will save automatically. And your default tags will be applied automatically when users from that user group open the Search page.</p>
+<p> </p>
+<h4 id="h_01HSYE6BST9WXJ4GT9M7PNGZ9Z">Remove tags and Tag Groups from Search</h4>
+<ol>
+<li>Go to <strong>Admin &gt; Tags</strong>
+</li>
+<li>To <strong>remove a tag from a Tag Group in Search</strong>, just <strong>click the <em>x</em> </strong>beside the tag<br><img src="https://help.uberflip.com/hc/article_attachments/360089497051" alt="image.png">
+</li>
+<li>To <strong>remove a Tag Group</strong>, <strong>remove all tags from the Tag Group. </strong>Empty Tag Groups are not shown for quick searching.</li>
+</ol>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Templates: create and manage templates</strong></div>
+<div class="accordion__item-content">
+<p>In Sales Assist, you can <strong>create templates</strong> which your<strong> Sales Users can use to quickly build great-looking DSRs</strong>. By default, these templates leverage Uberflip's built-in <a href="https://help.uberflip.com/hc/en-us/articles/360020637332"><em>Banner+Logo</em> appearance options</a>, so you can add <strong>banners</strong>, <strong>titles</strong>, <strong>auto-selected </strong><strong>company and prospect logos</strong>, and even <strong>pre-selected content </strong>to create preset DSR styles for a variety of use cases.</p>
+<div class="callout callout--success">
+<h4 id="h_01HSYE6BST8JM48BK5FB535DWC" class="callout__title">Tip</h4>
+<p>If you'd like to use the <strong>"Default" Stream appearance</strong>, instead of the Banner+Logo option, you can <a href="https://help.uberflip.com/hc/en-us/articles/360020637332#configure-a-streams-appearance" target="_self">change this setting on the Stream in Uberflip</a> after the template has been created.</p>
+</div>
+<p>For example, you could create templates for each industry you target, such as a <em>Manufacturing</em> template with an industrial-themed banner and a few pieces of your best manufacturing-specific content. Then, all your Sales Users need to do is select the template as a base for their DSR, add a few pieces of content and their own personalized message, and their DSR is ready to go in just minutes:<br><img src="https://help.uberflip.com/hc/article_attachments/360089506151" alt="image.png" width="599" height="408"></p>
+<h3 id="h_01HSYE6BSTW4SHBEFY1KDCHGCA" class="callout__title">How does this work?</h3>
+<p>A Sales Assist template is essentially a <strong>special Sales Stream</strong>. Whenever a Sales User creates a new DSR in Sales Assist and selects a template, <strong>Sales Assist makes a copy of the underlying "template" Sales Stream to create the new DSR</strong>, which applies the same appearance options and Items to the newly created DSR.</p>
+<p><strong>Templates are created within User Groups</strong>, so all sales users in that group can access it and not be distracted by templates not relevant to them.</p>
+<p>If you want to use templates in your Sales Assist environment, follow these instructions to learn how to <strong>create</strong>, <strong>modify or delete a template</strong>, and <strong>set a default template</strong>:</p>
+<h4 id="h_01HSYE6BSTK533YNWEV587MVJ7">Create a template</h4>
+<ol>
+<li>
+<p>Log in to Sales Assist <strong>as an Admin User</strong></p>
+</li>
+<li>
+<p>Click <strong>Admin &gt; Templates<br><img src="https://help.uberflip.com/hc/article_attachments/9333189286285" alt="mceclip0.png" width="349" height="221"><br></strong></p>
+</li>
+<li>
+<p>Ensure your working in the User Group you want to add the template to<img src="https://help.uberflip.com/hc/article_attachments/15432017597325" width="602" height="122"></p>
+</li>
+<li>
+<p>Click the <strong>+ Template</strong> button<br><img src="https://help.uberflip.com/hc/article_attachments/15431711871885" width="601" height="288"></p>
+</li>
+<li>
+<p>Give your new template a name and description, then click <strong>Create Template</strong><img src="https://help.uberflip.com/hc/article_attachments/15431769708941" width="500" height="264"></p>
+</li>
+<li>
+<p>Click <strong>Edit</strong> beside the template<strong><br></strong><img src="https://help.uberflip.com/hc/article_attachments/15432171362573" width="601" height="149"></p>
+</li>
+<li>
+<p>In the Manage Template page that opens, you can edit the appearance and content of your template<br><img src="https://help.uberflip.com/hc/article_attachments/15432550255501" width="601" height="280"></p>
+<ul>
+<li>
+<p><strong>Details tab: </strong>Edit the basic details and appearance, and add a gate or passphrase to the template. These settings will apply to all DSRs made using this template. </p>
+</li>
+<li>
+<p><strong>Content tab:</strong> Add content Items to be added to all DSRs made using this template. </p>
+</li>
+</ul>
+</li>
+</ol>
+<p>That's it! Any Sales User who creates a new DSR in Sales Assist will be able to select that template as an option in the <em>Template</em> dropdown.<br><br></p>
+<h3 id="h_01HSYE6BSTRQ3K3E3D8NJ3Z2NJ">Manage team templates</h3>
+<p>You can manage your team's templates in the following ways:</p>
+<ul>
+<li><a href="#h_01GZHTSX142TE12BG8EDWWNANT" target="_self">Edit a template</a></li>
+<li><a href="#h_01GZHTTBHJB02C9BVGFG98A50J" target="_self">Archive a template</a></li>
+<li><a href="#h_01GZHTTR6W97BC6D8J6ACSD45J" target="_self">Set a default template</a></li>
+<li><a href="#h_01GZHTV4TY732VYMDBY3GAD64F" target="_self">Move a template to a different User Group</a></li>
+</ul>
+<h4 id="h_01GZHTSX142TE12BG8EDWWNANT">Edit a template:</h4>
+<ol>
+<li>
+<p>Log in to Sales Assist <strong>as an Admin User</strong> and go to <strong>Admin &gt; Templates</strong></p>
+</li>
+<li>
+<p><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Click <strong>Edit</strong></span><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"> beside the template you want to modify<br></span><img src="https://help.uberflip.com/hc/article_attachments/15432171362573" width="601" height="149"></p>
+</li>
+<li>
+<p>In the Manage Template page that opens, you can edit your template. This is done the same way you'd <a href="https://help.uberflip.com/hc/en-us/articles/4423799497485#customizing-a-stream" target="_self"><strong>customize a DSR</strong></a>.</p>
+<h4 id="h_01HSYE6BST55B68D60R0V4N0X2"><img src="https://help.uberflip.com/hc/article_attachments/15432550255501" width="500" height="233"></h4>
+<ul>
+<li>
+<p><strong>Details tab: </strong>Edit the basic details and appearance, and <a href="https://help.uberflip.com/hc/en-us/articles/5123676873101" target="_self">add a gate</a> or passphrase to the template. These settings will apply to all DSRs made using this template. </p>
+</li>
+<li>
+<p><strong>Content tab:</strong> Add content Items to be added to all DSRs made using this template. </p>
+</li>
+</ul>
+</li>
+</ol>
+<h4 id="h_01GZHTTBHJB02C9BVGFG98A50J">Archive a template:</h4>
+<ol>
+<li>
+<p>Log in to Sales Assist <strong>as an Admin User</strong> and go to <strong>Admin &gt; Templates</strong></p>
+</li>
+<li>
+<p><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Click <strong>Edit</strong></span><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"> beside the template you want to modify<br></span><img src="https://help.uberflip.com/hc/article_attachments/15432171362573" width="601" height="149"></p>
+</li>
+<li>
+<p>In the Manage Template page that opens, click the "meatball" menu (three horizontal dots)</p>
+<h4 id="h_01HSYE6BSTG22QJK7R15FJPY0X">
+<img src="https://help.uberflip.com/hc/article_attachments/15433211116173" width="601" height="171"><strong><br><br></strong>
+</h4>
+</li>
+</ol>
+<h4 id="h_01GZHTTR6W97BC6D8J6ACSD45J">Set a default template:</h4>
+<p>You can set any template as the <strong>default template</strong>. This means it is <strong>automatically pre-selected in the <em>Template</em></strong><strong> dropdown</strong> when creating a new DSR in Sales Assist (rather than the <em>None</em> option).</p>
+<ol>
+<li>Log in to Sales Assist as an <strong>Admin User </strong>and go to <strong>Admin &gt; Templates</strong>
+</li>
+<li>Find the template you want to set as the default and <strong>click on the star beside it</strong> <strong>to</strong> <strong>set it as the default. </strong><br><img src="https://help.uberflip.com/hc/article_attachments/15433226726029">
+</li>
+</ol>
+<p>The selected template will now <strong>appear as the default choice</strong> when creating a new DSR in Sales Assist</p>
+<h4 id="h_01GZHTV4TY732VYMDBY3GAD64F">Move a template to a different User Group</h4>
+<p>Move an existing template to a different User Group, or make it available to all users.</p>
+<ol>
+<li>Log in to Sales Assist as an <strong>Admin User </strong>and go to <strong>Admin &gt; Templates</strong>
+</li>
+<li>Choose the User Group containing the template you want to move</li>
+<li>Find the template and <strong>click Move to</strong>
+</li>
+<li>Select the User Group to move the template to, or choose All Users<br><img src="https://help.uberflip.com/hc/article_attachments/15464860973197" width="600" height="235">
+</li>
+<li>Click <strong>Confirm</strong>
+</li>
+</ol>
+<p>That's it! The template has been moved.</p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Images: create and manage an image library</strong></div>
+<div class="accordion__item-content">
+<p>When they <strong>create Items </strong>in Sales Assist, Sales Users can <strong>add an image</strong> that is displayed as a thumbnail on that Item's tile. By default, users must <strong>enter the URL where the image is hosted </strong>to add it to Sales Assist.</p>
+<p>To make it <strong>faster and easier for your Sales Users to add images</strong> to their self-created Items (and to encourage them to use images that are<strong> consistent with your branding</strong>), you can <strong>create an image library in Sales Assist</strong>. The image library is displayed by default whenever a Sales User creates a new Item in Sales Assist, allowing them to<strong> add images</strong><strong> with just a click:<br></strong></p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360089590952" alt="image_library.gif"></p>
+<p>If you want to create an image library in your Sales Assist environment, follow these instructions to learn how to <strong>add images by URL</strong>, <strong>add images from the Uberflip Image Manager</strong>, and <strong>delete images from the image library</strong>:</p>
+<h4 id="h_01HSYE6BSTQQZ4GJA1BJ0Z3069">Add images by URL</h4>
+<p>You can <strong>add any image hosted outside Uberflip </strong>(i.e. on your own server or any other image host) to the image library using its URL:</p>
+<ol>
+<li>Start by <strong>copying the image's URL</strong>. The image URL must:
+<ul>
+<li>
+<strong>Point directly to the image: </strong>it must end with the image file extension (i.e. <em>.png, .jpg</em>, etc.) to be valid.</li>
+<li>
+<strong>Be the full URL</strong>: it must include the "<em>https://</em>" portion.</li>
+<li>
+<strong>Be publicly accessible</strong>: it must not require a login to access (or be otherwise restricted).</li>
+</ul>
+</li>
+<li>Log in to Sales Assist as an <strong>Admin User</strong>
+</li>
+<li>Click <strong>Admin &gt; Images<br><img src="https://help.uberflip.com/hc/article_attachments/9333343944717" alt="mceclip2.png" width="350" height="221"><br></strong>
+</li>
+<li>
+<strong>Paste the image URL </strong>into the <strong>Add an Image by URL </strong>field, then <strong>click on the green checkmark button</strong> to upload the image to the Sales Assist image library:<br><img src="https://help.uberflip.com/hc/article_attachments/360089611512" alt="image.png">
+</li>
+<li>Images you've successfully added to the library will <strong>appear below the URL field</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360089611692" alt="image.png">
+</li>
+<li>Any images you add to the library will appear in the <strong>Create Your Own Item</strong> dialog, below the <strong>Image URL field:<br></strong><img src="https://help.uberflip.com/hc/article_attachments/360089616551" alt="image.png" width="505" height="386">
+</li>
+</ol>
+<h4 id="h_01HSYE6BSTRAEEHW1CAFV6CV0G">Add images from the Image Manager</h4>
+<p>You can also easily <strong>add images that have already been uploaded to your Uberflip account</strong>, and which appear in the <a href="https://help.uberflip.com/hc/en-us/articles/360020277571" target="_self">Image Manager</a>:</p>
+<ol>
+<li>Go to <strong>Admin &gt; Images</strong>.</li>
+<li>Click on the <strong>magnifying glass button</strong> to the right of the <strong>Add an Image by URL</strong> field:<br><img src="https://help.uberflip.com/hc/article_attachments/360089611751" alt="image.png">
+</li>
+<li>The Image Manager will open in a new window. Using the Image Manager, <strong>find the image you want to add</strong>.</li>
+<li> <strong>Copy the</strong> <strong>URL </strong>that appears beside the image, in the <strong>URL</strong> column:<br><img src="https://help.uberflip.com/hc/article_attachments/360089611891" alt="image.png">
+</li>
+<li>
+<strong>Close the Image Manager window</strong> and return to the Sales Assist Images tab.</li>
+<li>
+<strong>Paste the image URL </strong>into the <strong>Add an Image by URL </strong>field, then <strong>click on the green checkmark button</strong> to upload the image to the Sales Assist image library.</li>
+</ol>
+<h4 id="h_01HSYE6BSTD48JPAFAXVG38TT6">Delete images from the image library</h4>
+<ol>
+<li>Go to <strong>Admin &gt; Images</strong>.</li>
+<li>Find the image you want to delete from the library and <strong>hover your mouse over it</strong>.</li>
+<li>Click on the <strong>delete button</strong> that appears:<br><img src="https://help.uberflip.com/hc/article_attachments/360089631371" alt="image.png">
+</li>
+<li>The image will be <strong>removed from the image library immediately</strong>, and will no longer appear when creating a new Item in Sales Assist.</li>
+</ol>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Settings: view and manage your Sales Assist settings</strong></div>
+<div class="accordion__item-content">
+<p>On the Settings page, you can: </p>
+<ol>
+<li>Change the admin user group (see below)</li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/13894587662093" target="_self" rel="undefined">Change the environment labels used to describe page types and audiences in the UI</a></li>
+<li>
+<a href="https://help.uberflip.com/hc/en-us/articles/6999040063757" target="_self">Manage auto archiving</a> of unused DSRs and Items</li>
+<li>See the ID of the Hub where all DSRs are created</li>
+<li>See the ID of the Blog Stream where sales reps can author custom Items</li>
+<li>Add keywords for <em>quick search </em>(see below)</li>
+</ol>
+<h3 id="h_01F0HYK97872R90KF47XMQP3TD">Change the admin user group</h3>
+<p>By default, Sales Assist administrators must be members of the <strong>Account Administrators </strong>user group in the connected Uberflip account. If you prefer to <strong>give a different user group admin access to Sales Assist instead</strong> (e.g. if your Sales Assist admins do not need to have administrator access to your Uberflip account), you can <strong>change the designated "admin user group"</strong> in Sales Assist.</p>
+<p>Follow these instructions to change the Sales Assist admin user group:</p>
+<div class="accordion__item-content">
+<ol>
+<li>Ensure that the Uberflip account you are using belongs to <strong>both the current admin user group</strong>, <strong>AND</strong><strong> the user group you want to switch to</strong>.
+<ul>
+<li>For example, if the current admin user group in Sales Assist is <strong>Account Administrators</strong>, and you want to switch it to <strong>Content Managers</strong>, your Uberflip account must be a member of both user groups.</li>
+</ul>
+</li>
+<li>Log in to Sales Assist <strong>as an Admin User</strong>
+</li>
+<li> Click <strong>Admin &gt; Settings<br><img src="https://help.uberflip.com/hc/article_attachments/12287986072333" alt="mceclip0.png" width="299" height="182"><br></strong>
+</li>
+<li>Under the <strong>Basic</strong> section, see <strong>Admin User Group</strong>  and use the dropdown to select the user group that you want to give admin access to:<br><img src="https://help.uberflip.com/hc/article_attachments/12288177829645" alt="mceclip1.png" width="501" height="222"><br>
+<ul>
+<li>You can select <strong>any existing user group</strong> in the connected Uberflip account, including any custom user group.</li>
+<li>To prevent you from accidentally removing your own admin access, <strong>only user groups that you are a member of will be listed here</strong> <em>(if you're logged in as the Primary User, you'll be able to see all user groups)</em>.</li>
+</ul>
+</li>
+<li>The change will take effect immediately. Once changed, <strong>only members of the newly designated user group will be able to access Sales Assist's <em>Admin</em> section</strong><em>.</em>
+<ul>
+<li>Previous Admin Users who are not members of the new admin user group will still be able to access Sales Assist, but will be downgraded to Sales Users (i.e. they will no longer be able to access the <em>Admin </em>section).</li>
+</ul>
+</li>
+</ol>
+<h3 id="h_01HSYE6BSTQ0D14D0RJ650SV64">Add quick search keywords</h3>
+<ol>
+<li>Log in to Sales Assist <strong>as an Admin User</strong>
+</li>
+<li> Click <strong>Admin &gt; Settings<br><img src="https://help.uberflip.com/hc/article_attachments/12287986072333" alt="mceclip0.png" width="299" height="182"></strong>
+</li>
+<li>In the <em>Settings</em> tab, select <em><strong>Marketing Streams: Quick Search</strong></em>
+</li>
+<li>In the <em>Quick Search List</em> field, enter your keywords<br><img src="https://help.uberflip.com/hc/article_attachments/12297131891085" alt="mceclip0.png" width="499" height="255">
+</li>
+<li>Click the enter key on your keyboard after each keyword or term. Each new line while appear as a new quick search option.</li>
+</ol>
+<p>That's it! All account users will now see your quick search terms on the <em>Search</em> page &gt; <em>Marketing Streams</em> tab.</p>
+</div>
+</div>
+</div>
+</div>
+<h3 id="h_01HSYE6BSTVVN04KBY7RE86MDN">Marketing Stream discoverability </h3>
+<p>In addition to the Admin section settings, you as an admin also have the ability to pin or hide Marketing Streams from the search in Sales Assist, just as you would in Uberflip. </p>
+<div class="accordion accordion--default">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Pin or hide Marketing Stream from search in Sales Assist </strong></div>
+<div class="accordion__item-content">
+<ol>
+<li>In Sales Assist, go to the Search section</li>
+<li>Select the <strong>Marketing Streams</strong> tab</li>
+<li>Find the Marketing Stream you want to pin or hide</li>
+<li>Hover the Marketing Stream and click <strong>Configure</strong>
+</li>
+<li>In the modal that opens
+<ol>
+<li>Turn the <strong>Show in search results </strong><em>(on by default)</em> toggle off to hide the Stream from search </li>
+<li>Turn the <strong>Pin in app</strong> <em>(off by default)</em> toggle on to pin the Stream in the Sales Assist search <br><img src="https://content.cdntwrk.com/files/aHViPTkyOTkwJmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzYyZDY5MmQzYmI1NDguZ2lmJnZlcnNpb249MDAwMCZzaWc9YTg5Y2E3MGNlMzNhODZkMjc0NjRmZTA2NzgxN2QyMmM%253D" width="400" height="366">
+</li>
+</ol>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<p> </p>
+<h2 id="h_01HSYE6BSTBFSG8YVNA6BKSJTF">Onboard your users to Sales Assist</h2>
+<p>In this section, we'll look at <strong>how to add users</strong> to your Sales Assist environment.</p>
+<div class="callout callout--info">
+<h4 id="h_01HSYFDD4ZQT14HFG0Z15ACQEM" class="callout__title">Note</h4>
+<p>An Uberflip user account is needed to use Sales Assist. If you want to add someone to Sales Assist that isn't currently an Uberflip user, you'll need to <a href="https://help.uberflip.com/hc/en-us/articles/7288948121229">add them to your Uberflip account</a>.</p>
+</div>
+<h3 id="h_01F0MHEF7JMH13D3Z4RFA9GBWX">Requirements</h3>
+<p>With the correct permissions granted, any user in your Uberflip account can use Sales Assist to share DSRs. And with a sales license, your reps can use Sales Assist to create new DSRs for prospects.</p>
+<p><strong>Grant access your team access </strong>with the <strong>following Uberflip system permissions and </strong><strong>licenses</strong>:</p>
+<div class="accordion accordion--colored">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>System permissions and licenses required to use Sales Assist:</strong></div>
+<div class="accordion__item-content">
+<p><strong>Permissions:</strong></p>
+<ul>
+<li>
+<strong>API Access:</strong> Required to access the app</li>
+<li>
+<strong>Edit Stream Appearance:</strong> Required for the user to edit the appearance of templates and Sales Streams</li>
+<li>
+<strong>All Users &gt; List and export:</strong> Required for core app functionality</li>
+<li>
+<strong>User Groups &gt; List and export:</strong> Required for core app functionality</li>
+<li>
+<strong>Current User &gt; View:</strong> Required for core app functionality</li>
+<li>
+<strong>Current User &gt; License &gt;  List and export:</strong> Required for the app to check if the user has an Uberflip for Sales license</li>
+<li>
+<strong>Sales Streams &gt; Update Authentication:</strong> Required to enable the Passphrase Protect feature</li>
+</ul>
+<p><strong>License:</strong></p>
+<ul>
+<li>
+<strong>Sales license:</strong> Required to create DSRs</li>
+</ul>
+</div>
+</div>
+</div>
+<p>In addition to these Uberflip system permissions, <strong>Sales Assist also has its own permissions system</strong> that is used to control access to various app features (e.g. creating Items, accessing <em>Advanced Edit</em> options, etc.). These <strong>Sales Assist</strong> <strong>app permissions </strong>are automatically granted to the <strong>Account Administrators</strong> and <strong>Sales Reps</strong> user groups, but <strong>must be granted manually to other users/user groups</strong> to give them access to the corresponding app functionality. <a href="#h_01F2WH5XP93ZJSWNQN8HDBRS3M" target="_self">See below</a> for further details.</p>
+<div class="callout">
+<h4 id="h_01HSYE6BSTNN61A5YRSXAR9B8E" class="callout__title">Info</h4>
+<p>When granting the necessary license and permissions, you can do so at either the individual user level, or at the user group level. If granted at the user group level, the license and permissions will be granted to all members of the user group automatically, including any members added in the future.</p>
+</div>
+<h3 id="h_01F0VGAXCXZCRHAWP7RJ1117SM">User types</h3>
+<p>Sales Assist has <strong>two user types </strong>that provide <strong>different levels of access</strong> to the app:</p>
+<dl class="dl-horizontal">
+<dt>Admin User</dt>
+<dd>Has access to all areas of the app <strong>including the</strong> <em><strong>Admin </strong></em><strong>section</strong>.</dd>
+<dd>Uberflip users who are members of the <strong>Account Administrators user group </strong>(or members of admin user group, <a href="#h_01F0HYK97872R90KF47XMQP3TD" target="_self">if set to a different user group</a>) are created as this user type.</dd>
+<dt>Sales User</dt>
+<dd>Has access to all areas of the app <strong>except the <em>Admin </em>section</strong>.</dd>
+<dd>Users who are members of the <strong>Sales Reps user group</strong> (or users who are a member of any other user group and who meet the <a href="#h_01F0MHEF7JMH13D3Z4RFA9GBWX" target="_self">requirements</a>) are created as this user type.</dd>
+</dl>
+<h3 id="h_01HSYE6BSVN4V5YQVR62YWMX42">Creating users</h3>
+<p>To onboard your users to Sales Assist, simply <strong>ask them to log in to the app using their Uberflip account login credentials </strong>(the email and password they use to log in to Uberflip, or <a href="https://help.uberflip.com/hc/en-us/articles/360020132311" target="_self">your Single Sign-On service</a>).</p>
+<p>Your users can <strong>log in to and use Sales Assist</strong> with any of these options:</p>
+<ul>
+<li>By going to <strong><a href="https://sa.uberflip.com/">https://sa.uberflip.com/</a></strong> in any browser (desktop or mobile)</li>
+<li>By logging in to Uberflip and clicking on <strong>Sales Assist</strong> in the sidebar menu</li>
+<li>By installing and opening the <strong>Sales Assist Chrome extension</strong> (<a href="https://chrome.google.com/webstore/detail/sales-assist-by-uberflip/kcbkakmlohgokmebhdmhcffdpegnlobk">available from the Chrome Web Store here</a>)</li>
+<li>By installing and opening the <strong>Sales Assist Outlook Add-in</strong> (<a href="https://help.uberflip.com/hc/en-us/articles/360058009392">see this article for installation instructions</a>)</li>
+</ul>
+<p>After a user logs in successfully there is no further setup needed, so your users can <strong>immediately start using Sales Assist</strong>.</p>
+<div class="callout callout--success">
+<h4 id="h_01HSYE6BSVK8NN6X4FWZJEQJJ6" class="callout__title">Tip</h4>
+<p>To get your <strong>Sales Users</strong> up and running with Sales Assist, give them the <a href="https://help.uberflip.com/hc/en-us/articles/360057052132">Quick Start Guide for Sales Reps</a>.</p>
+</div>
+<div class="callout">
+<h4 id="h_01HSYE6BSV6SREBV542Z5G0V8R" class="callout__title">Info</h4>
+<p>If any user in an Uberflip account (regardless of user group) attempts to log in to Sales Assist <strong>before</strong> <strong>the Primary User has <a href="#h_01F0HSW8BBH29V2CBEBAV2Q90S" target="_self">completed the registration process</a></strong>, they will see an error message indicating that their account could not be created.</p>
+</div>
+<p> </p>
+<h2 id="h_01HSYE6BSVRKB11JPNF4TGXG7P">Configure optional settings</h2>
+<p>In this section, we'll look at <strong>optional Sales Assist settings</strong> that you can use to adjust the app to your preferences.</p>
+<h3 id="h_01F0F6B9WA04TFXG2PCYANAAZ4">Enable enriched notifications</h3>
+<p>Sales Assist will send notifications to users whenever someone visits a link that was shared through the app. By default, the app sends <strong>basic notifications</strong>, which do not identify the visitor.</p>
+<p>If you have integrated your Hub with a supported <strong>Marketing Automation Platform</strong> (MAP; any of <a href="https://help.uberflip.com/hc/en-us/articles/360022207231" target="_self"><strong>Oracle Eloqua</strong></a>, <a href="https://help.uberflip.com/hc/en-us/articles/360022063751" target="_self"><strong>Marketo</strong></a>, <a href="https://help.uberflip.com/hc/en-us/articles/360021942272" target="_self"><strong>Pardot</strong></a>, or <a href="https://help.uberflip.com/hc/en-us/articles/360021562692" target="_self"><strong>HubSpot</strong></a>) you can <strong>configure Sales Assist to send enriched notifications</strong> that incorporate visitor information from the connected MAP. In addition, you can also configure a <strong>backup enrichment source</strong> to include additional detail in notifications for cases when the visitor is not known to your MAP.</p>
+<p>To learn how to enable and configure enriched notifications in Sales Assist, see this article:</p>
+<p><a class="btn btn--primary" href="https://help.uberflip.com/hc/en-us/articles/360059624771" target="_blank" rel="noopener noreferrer"><strong>Sales Assist: Configure engagement notifications</strong> </a></p>
+<h3 id="h_01F2WH5XP93ZJSWNQN8HDBRS3M">Configure access to app features using permissions</h3>
+<p>Sales Assist has its own system of <strong>app permissions</strong> which are used to control access to various features within the app. By default, the <strong>Account Administrators</strong> and <strong>Sales Reps</strong> user groups are granted all permissions, which means they have access to all features in the app. You can <strong>configure these permissions to customize access within the Sales Assist</strong> app to your needs:</p>
+<ul>
+<li>If you prefer for your Sales Users not to have access to certain features, you can simply revoke the corresponding permissions from those users. For example, if you do not want your Sales Users to be able to create their own Items, you can revoke that permission, and the option to create Items will be hidden in Sales Assist. Alternatively, you can also configure the permissions to give varying levels of access to different users or user groups, e.g. Account Executives are able create Items while BDRs are not, etc.</li>
+<li>If you use a different user group than the default <strong>Sales Reps</strong> user group for your Sales Users, you'll need to grant the necessary permissions to the appropriate user group.</li>
+</ul>
+<p>To learn about Sales Assist's app permissions and how to configure them, see this article:</p>
+<p><a class="btn btn--primary" href="https://help.uberflip.com/hc/en-us/articles/360059650691" target="_blank" rel="noopener noreferrer"><strong>Sales Assist: Configure permissions to control access to app features</strong> </a></p>
+<h3 id="h_01HSYE6BSVN2TRWQ0QN4FB6H4J">Set up separate Sales Assist experiences for different user groups</h3>
+<p>By default, you'll set up a single Sales Assist environment for all your Sales Users. But if a one-size-fits-all approach doesn't work for your organization, you can choose to set up <strong>separate</strong> <strong>environments </strong><strong>for different user groups </strong>within your Sales Assist account.</p>
+<p>Sales Assist environments are completely distinct from one another: each environment can have its own unique tag groups, templates, and image library, so you can <strong>customize the experience to the specific needs of each user group</strong>. When you create a new environment you can also choose which Hub it should be linked to, so you can either <strong>create multiple separate ways to use Sales Assist within the same Hub</strong>, or even use environments to <strong>use Sales Assist with multiple Hubs</strong>.</p>
+<p>To learn how to create separate environments in Sales Assist, see this article:</p>
+<p><a class="btn btn--primary" href="https://help.uberflip.com/hc/en-us/articles/360060350751" target="_blank" rel="noopener noreferrer"><strong>Sales Assist: Create separate environments for different user groups</strong></a></p>
+<h2 id="h_01HSYE6BSVCP7V9XX0CDXNY50T">What's next?</h2>
+<p>Want to learn more about Sales Assist? Check out these articles:</p>
+<ul>
+<li>
+<strong><a href="https://help.uberflip.com/hc/en-us/articles/360057767692">User Guide for Sales Users</a></strong>: Learn how to use the Sales Assist features that Sales Users can access.</li>
+<li>
+<a href="https://help.uberflip.com/hc/en-us/articles/4423803775245#view-team-engagement-stats-admins-only" target="_self"><strong>Track your teams share engagement:</strong></a> See how your team's <em>shares</em> are performing with Sales Assist's Analytics summary dashboard</li>
+<li>
+<strong><a href="https://help.uberflip.com/hc/en-us/articles/360058465311">Frequently Asked Questions</a></strong>: Have questions about the app? Find answers to the most commonly asked questions here.</li>
+<li>
+<a href="https://help.uberflip.com/hc/en-us/articles/360058009392"><strong>Install the Outlook Add-In</strong></a>: Learn how to install the Sales Assist Add-in for Outlook.</li>
+</ul>]]></description>
+         <guid isPermaLink="false">360057767632</guid>
+         <pubDate>Wed, 10 Mar 2021 17:09:02 GMT</pubDate>
+      </item>
+      <item>
+         <title>Sales Assist: Change the environment labels used to describe page types in the Sale Assist UI</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/13894587662093-Sales-Assist-Change-the-environment-labels-used-to-describe-page-types-in-the-Sale-Assist-UI</link>
+         <description><![CDATA[<p>Depending on your audience, content experience pages you create in Sales Assist may have different purposes, and your teams may refer to them differently. To align Sales Assist with your team's terminology, you can change what these page and audience types are called in the Sales Assist UI. </p>
+<p>We call the labels used to distinguish page and audience types: <strong><em>environment labels</em></strong>.</p>
+<p>This article outlines where environment labels appear in Sales Assist, and how to change them.</p>
+<p> </p>
+<h2>Before you begin </h2>
+<ul>
+<li><strong>Only Sales Assist admins can change the environment labels</strong></li>
+<li>Environment labels are applied to <a href="https://help.uberflip.com/hc/en-us/articles/360060350751" target="_self" rel="undefined">user groups</a> in Sales Assist. You can’t change this for a single user <em>(unless you make them a user group of 1). </em>
+</li>
+<li>Environment labels don’t appear on, or change the frontend webpages your prospects will see–it only changes labels in the Sale Assist UI. </li>
+</ul>
+<p> </p>
+<h2>What are environment labels?</h2>
+<p>Environment labels in Sales Assist are UI (user interface) labels that describe a content experience page type, and its associated audience type. The page type and audience type are tied together in a set.</p>
+<div class="callout">
+<h4 class="callout__title">Example</h4>
+<p><strong>Digital Sales Rooms</strong> for <strong>“prospects”</strong></p>
+<p>A <strong>Digital Sales Room</strong> is a webpage used for making sales, and is designed to be seen by sales <strong>prospects</strong>.</p>
+</div>
+<p>There are <strong>4 environment label sets </strong>to choose from in Sales Assist: </p>
+<ul>
+<li>
+<strong>Sales Streams</strong> <em>for</em> <strong>“prospects” </strong><em>(default)</em>
+</li>
+<li>
+<strong>Digital Sales Rooms </strong><em>for </em><strong>“prospects”</strong>
+</li>
+<li>
+<strong>Customer Portals </strong><em>for</em><strong> “customers”</strong>
+</li>
+<li>
+<strong>Training Modules</strong><em> for </em><strong>“teams”</strong>
+</li>
+</ul>
+<p> </p>
+<h2>Where do environment labels appear in Sales Assist?</h2>
+<p>Environment labels appear anywhere the page or audience type is mentioned in the Sales Assist UI. This includes navigation, setting field labels, buttons, etc. Some examples of are shown below: </p>
+<table style="border-collapse: collapse; height: 323px; width: 100%; margin-right: auto; margin-left: auto;">
+<tbody>
+<tr>
+<th style="width: 37.0001%; text-align: center; vertical-align: top;" colspan="2">
+<p><img style="font-family: -apple-system, 'system-ui', 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 400; text-align: start;" src="https://help.uberflip.com/hc/article_attachments/13895301934733" width="685" height="179"></p>
+</th>
+</tr>
+<tr>
+<th style="text-align: center; vertical-align: top;" colspan="2">
+<p><img src="https://help.uberflip.com/hc/article_attachments/13895343786253" width="689" height="180"></p>
+</th>
+</tr>
+<tr style="height: 279px;">
+<th style="width: 37.0001%; height: 279px; text-align: center; vertical-align: top;"><img src="https://help.uberflip.com/hc/article_attachments/13895351585549" width="336" height="265"></th>
+<th style="width: 37.0001%; height: 279px; text-align: center; vertical-align: top;">
+<p><img src="https://help.uberflip.com/hc/article_attachments/13895404370445" width="328" height="265"></p>
+</th>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2>Change environment labels in Sales Assist</h2>
+<p>As a <strong>Sales Assist admin</strong>, you can change environment labels in the Admin Settings. Here’s how: </p>
+<ol>
+<li>Log into Sales Assist with your admin account </li>
+<li>In the navigation bar, <strong>click Admin &gt; Settings </strong>
+</li>
+<li>In the user group dropdown, choose the user group you want to apply new labels to<br><img src="https://help.uberflip.com/hc/article_attachments/13895430661261" width="401" height="183">
+</li>
+<li>You'll now be in the <strong>Basic</strong> tab. Scroll and find the<strong> Environment Labels</strong> setting field.<br><img src="https://help.uberflip.com/hc/article_attachments/13895504763533" width="599" height="290">
+</li>
+<li>Click the dropdown, and select the label set you want to use for this user group</li>
+</ol>
+<p>Your environment labels will be applied to the user group automatically and immediately. </p>]]></description>
+         <guid isPermaLink="false">13894587662093</guid>
+         <pubDate>Fri, 10 Mar 2023 20:57:32 GMT</pubDate>
+      </item>
+      <item>
+         <title>Sales Assist: Team stats for admins </title>
+         <link>https://help.uberflip.com/hc/en-us/articles/6450083020301-Sales-Assist-Team-stats-for-admins</link>
+         <description><![CDATA[<p>If you're a <strong><a href="https://help.uberflip.com/hc/en-us/articles/360057767632" target="_self">Sales Assist admin</a></strong>, you can view stats on how your team and their Sales Assist generated Digital Sales Rooms (DSRs) are doing. This article will show you how.</p>
+<p> </p>
+<h2>Before you begin </h2>
+<p>The Analytics section outlined in this article is <strong>only available to Sales Assist admins</strong>. If you're not an admin, you won't see the Analytics section in Sales Assist. If you need access to these stats, contact your account admin and ask to become a Sales Assist admin. </p>
+<p> </p>
+<h2 id="h_01FZBTR1XJAVZW4WY99ERMQYH5">View DSR engagement stats across the team</h2>
+<p>As a Sales Assist <strong>admin,</strong> you can see how your team's <em>shares</em> are performing across the board. </p>
+<ol>
+<li> Click <strong>Analytics</strong> in the top menu bar of Sales Assist on a <strong>full screen device</strong> (hidden in small windows and the Sales Assist extension)</li>
+<li>Use the filters in the top right to <strong>filter by day range, user group </strong><em>(if you've set those up)</em>, <strong>or by a single sales rep</strong>
+</li>
+<li>Select the<strong> Account Engagement</strong> tab <img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" src="https://help.uberflip.com/hc/article_attachments/6450084884493/efgfds.png" alt="efgfds.png" width="600" height="380">
+</li>
+</ol>
+<p>Across the top of the dashboard you'll see a summary of the share activity within your filtered range.</p>
+<p>Below that you'll find a table showing all the <em>share</em> stats for your team, group, or rep. This includes: </p>
+<ul>
+<li>Rank (based on engagement score)</li>
+<li>Content Shared</li>
+<li>Share Token</li>
+<li>Created date</li>
+<li>By Rep</li>
+<li>To Account/prospect</li>
+<li># of People</li>
+<li># of Sessions</li>
+<li># of Page Views</li>
+<li>For (Time viewed)</li>
+<li>Engagement Score</li>
+</ul>
+<p>Search and sort the table as needed. Below the table you'll find options to <strong>copy the table data to your clipboard</strong>, or <strong>download it as a CSV.</strong> </p>
+<h3>Drill deeper into Account Engagement stats</h3>
+<p><strong>To drill into a share's stats and event logs</strong>, click the share token, or another data point in the table. <br><img src="https://help.uberflip.com/hc/article_attachments/15429326156941" width="499" height="273"><br><strong>Click the Rep or the Account/Prospect</strong> to filter the table to shares created by that rep or for that prospect.</p>
+<p> </p>
+<h2>View team activity stats </h2>
+<p>See your team's activity stats all in one place. This includes: </p>
+<ul>
+<li>How many Items and DSRs each team member created</li>
+<li>How many accounts each team member has engaged</li>
+<li>Each team members overall engagement score</li>
+<li>and more</li>
+</ul>
+<p>Here's how: </p>
+<ol>
+<li>Click <strong>Analytics</strong> in the top menu bar of Sales Assist on a <strong>full screen device</strong> (hidden in small windows and the Sales Assist extension)</li>
+<li>Use the filters in the top right to <strong>filter by day range, user group </strong><em>(if you've set those up)</em><strong>, or by a single sales rep</strong>
+</li>
+<li>Select the<strong> App Usage Per Rep</strong> tab <br><img src="https://help.uberflip.com/hc/article_attachments/6449389333517/oiuytrdxc.png" alt="oiuytrdxc.png" width="600" height="390">
+</li>
+</ol>
+<h3>Drill deeper into App Usage Per Rep stats</h3>
+<p>In the App Usage Per Rep table, you can click on the following data points to see more details:</p>
+<ul>
+<li>Rooms Created </li>
+<li>Items Created</li>
+<li>Video Popups Added</li>
+</ul>]]></description>
+         <guid isPermaLink="false">6450083020301</guid>
+         <pubDate>Tue, 24 May 2022 19:35:30 GMT</pubDate>
+      </item>
+      <item>
+         <title>Can you prevent content from being shared with Sales Assist?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020566312-Can-you-prevent-content-from-being-shared-with-Sales-Assist</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>Can I set up a Stream so that its content doesn't appear in Sales Assist, such as a hidden Stream that I don't want to be shared?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>Yes, you can prevent any Stream (and the content it contains) from appearing in Sales Assist by configuring a Stream Option:</p>
+<ol>
+<li>Log in to Uberflip and navigate to the Stream you want to hide from the extension (<strong><em>Hubs &gt; Content &gt;</em> click on the Stream</strong>).</li>
+<li>When you're viewing the Stream, click on the <strong>Options</strong><strong> tab</strong> at the top, then scroll to the bottom of the page.</li>
+<li>Set the <strong>Show in Extensions</strong> setting to <strong>off (grey)</strong>. Your change will be saved automatically, and the Stream will no longer appear in the extensions.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360020566312</guid>
+         <pubDate>Tue, 11 Dec 2018 16:25:34 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

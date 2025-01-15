@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Tag content</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Item tags and Tag Groups explained</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/8129396439053-Item-tags-and-Tag-Groups-explained</link>
+         <description><![CDATA[<h2><span style="font-weight: 400;">What are Item tags?</span></h2>
+<p><span style="font-weight: 400;">In Uberflip, you can add tags to all content Items in your Hub. Tags are simply keywords used to categorize content, and tagged Items are associated with that keyword/category. A piece of content may have multiple tags if it fits multiple categories.  </span></p>
+<p><span style="font-weight: 400;">You can use tags to:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Quickly spin-up Streams for key areas</span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Allow </span><a href="https://help.uberflip.com/hc/en-us/articles/360020165151"><span style="font-weight: 400;">Hub Search</span></a><span style="font-weight: 400;"> to </span><a href="https://help.uberflip.com/hc/en-us/articles/360020275651-Include-Item-Tags-in-Hub-Search"><span style="font-weight: 400;">find Items based on tags</span></a>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Use </span><a href="https://help.uberflip.com/hc/en-us/articles/360022891612-Use-Smart-Filters-to-automate-content-workflows"><span style="font-weight: 400;">Smart Filters</span></a><span style="font-weight: 400;"> to easily manage your content </span>
+</li>
+</ul>
+<p><span style="font-weight: 400;">A few things to know about tags:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Tags can be added to </span><strong>Items only</strong><span style="font-weight: 400;"> — they can't be added to Streams</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">By default, tags are </span><strong>not visible on the frontend</strong><span style="font-weight: 400;"> (i.e. to visitors to your Hub). If you want to show tags (or Item labels based on tags) in your Hub/Streams, custom options are available. Speak with your account manager.</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Tags are </span><strong>account-wide</strong><span style="font-weight: 400;">: if you have multiple Hubs, any tags you create will be usable across all Hubs, and tags created in any Hub will be shown in the list of existing tags in the Tags Manager</span>
+</li>
+</ul>
+<p> </p>
+<h2><span style="font-weight: 400;">What are Tag Groups?</span></h2>
+<p><span style="font-weight: 400;">Simply put, Tag Groups are collections of tags with similar intents. They’re fully customizable and can be based on any topic or parameter you want. Tag Groups can contain as many tags as you need. </span></p>
+<p><span style="font-weight: 400;">Examples of Tag Groups could be:</span></p>
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">An ‘</span><strong>Industry’ </strong><span style="font-weight: 400;">Tag Group, which contains industry tags, such as: ‘aerospace’, ‘retail’, and ‘manufacturing’</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">An ‘</span><strong>Asset’ </strong><span style="font-weight: 400;">Tag Group containing tags such as: ‘Brochure’, or ‘Report’</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">A ‘</span><strong>Stage</strong><span style="font-weight: 400;">’ Tag Group, containing the tags ‘TOFU’, ‘MOFU’, and ‘BOFU’ </span>
+</li>
+</ol>
+<p><span style="font-weight: 400;">Ultimately, the Tag Groups are up to you. </span></p>
+<p><span style="font-weight: 400;">When tags are nestled cozily in Tag Groups, you have a </span><a href="#h_01G9MTY79DSS6F1F6AG8YN0PN4" target="_self"><strong>tag structure</strong></a><span style="font-weight: 400;">.</span></p>
+<p> </p>
+<h2 id="h_01G9MTY79DSS6F1F6AG8YN0PN4"><span style="font-weight: 400;">What is a tag structure?</span></h2>
+<p><span style="font-weight: 400;">Your tag structure is how your tags and Tag Groups come together to form a logical way of categorizing content. </span></p>
+<p><span style="font-weight: 400;">An effective tagging structure should be simple and intuitive. And when done properly, a tagging structure is easy to implement and maintain over time. </span></p>
+<p><em><span style="font-weight: 400;">Example tag structure:</span></em><span style="font-weight: 400;"> <br><img src="https://help.uberflip.com/hc/article_attachments/8182321757965" alt="abab.png"><br></span></p>
+<p><span style="font-weight: 400;">To easily build and maintain your tagging structure, we suggest using Uberflip’s <a href="https://help.uberflip.com/hc/en-us/articles/8129118360077" target="_self">Enhanced Tag Manager</a> app. </span></p>]]></description>
+         <guid isPermaLink="false">8129396439053</guid>
+         <pubDate>Tue, 02 Aug 2022 19:50:45 GMT</pubDate>
+      </item>
+      <item>
+         <title>How many tags can be added to an Item?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360035055912-How-many-tags-can-be-added-to-an-Item</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>Is there a limit on the number of tags that can be applied to a content Item?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>No, there is no limit on the number of tags that you can add to an Item. All tags that you add to an Item, regardless of the number, will be saved on that Item (and created in the <strong>Tags</strong> <strong>Manager</strong> in your Hub, if they did not already exist). In addition, all tags added to an Item will be exposed to frontend code if the <em> Include Item tags for Custom Code</em> option is enabled for your Hub (under <em>Hub Options &gt; Advanced</em>).</p>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360035055912</guid>
+         <pubDate>Tue, 22 Oct 2019 15:09:17 GMT</pubDate>
+      </item>
+      <item>
+         <title>Use and manage Item tags (and Tag Groups)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360029638391-Use-and-manage-Item-tags-and-Tag-Groups</link>
+         <description><![CDATA[<p>Item tags help you categorize and organize your Items by keywords. Tag groups allow you to organize tags, and the content they're applied to, even further. This article shows you how to add and manage Item tags and tag groups in your Hub, which you can use to enhance Hub Search, <a href="https://help.uberflip.com/hc/en-us/articles/360022891612" target="_self">Smart Filters</a>, and more.</p>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>To work with tags, you need to be an <strong>Account Admin</strong>, <strong>Content Manager</strong>, or <strong>Author</strong>
+</li>
+<li>If you're looking to step-up your tagging with advanced options and quick-tagging features, check out the <a href="https://help.uberflip.com/hc/en-us/articles/8129118360077" target="_self">Enhanced Tag Manager</a> app by Uberflip</li>
+</ul>
+<p> </p>
+<h2>About Item tags and tag groups</h2>
+<p>In Uberflip, you can add <strong>tags</strong> to all Items in your Hub, similar to how tags work on most blogging platforms. A tag is simply a keyword used to categorize content, and Items that have a tag are associated with that keyword.</p>
+<p>You can use tags to return associated Items when a visitor searches for the keyword in Hub Search (if <a href="https://help.uberflip.com/hc/en-us/articles/360020275651" target="_self">enabled</a>), or to select Items using <a href="https://help.uberflip.com/hc/en-us/articles/360022891612" target="_self">Smart Filters</a>.</p>
+<p><span style="font-weight: 400;"><strong>Tag Groups</strong> are collections of tags with similar intents. They’re fully customizable and can be based on any topic or parameter you want.</span></p>
+<p><em><span style="font-weight: 400;">The organizational structure of your tags, tag groups, and how they relate to each other, is referred to as your </span><strong>tag structure</strong><span style="font-weight: 400;">.</span></em></p>
+<p>A few things you should know about tags and tag groups:</p>
+<ul>
+<li>Tags can be <strong>added to Items only</strong>—they can't be added to Streams.</li>
+<li>
+<span style="font-weight: 400;">By default, tags are </span><strong>not visible on the frontend</strong><span style="font-weight: 400;"> (i.e. to visitors to your Hub). If you want to show tags (or Item labels based on tags) in your Hub/Streams, custom options are available. Speak with your account manager. </span>
+</li>
+<li class="public-DraftStyleDefault-unorderedListItem public-DraftStyleDefault-reset public-DraftStyleDefault-depth0 public-DraftStyleDefault-listLTR" data-block="true" data-editor="1mj4f" data-offset-key="aca6r-0-0">
+<div class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr" data-offset-key="aca6r-0-0">
+<span class="hardreadability"><strong>Tags and tag groups are </strong><span data-offset-key="aca6r-0-1"><span data-text="true"><strong>account-wide</strong>—i</span></span><span data-offset-key="aca6r-0-2"><span data-text="true">f you have </span></span></span><span class="complexword"><span data-offset-key="aca6r-1-0"><span data-text="true">multiple</span></span></span><span class="hardreadability"><span data-offset-key="aca6r-2-0"><span data-text="true"> Hubs, tags and tag groups you create can </span></span></span><span class="passivevoice"><span data-offset-key="aca6r-3-0"><span data-text="true">be used</span></span></span><span class="hardreadability"><span data-offset-key="aca6r-4-0"><span data-text="true"> across all of them</span></span></span><span data-offset-key="aca6r-5-0"><span data-text="true">. Any tags created in </span></span><span data-offset-key="aca6r-5-1"><span data-text="true">any Hub</span></span><span data-offset-key="aca6r-5-2"><span data-text="true"> will </span></span><span class="passivevoice"><span data-offset-key="aca6r-6-0"><span data-text="true">be shown</span></span></span><span data-offset-key="aca6r-7-0"><span data-text="true"> in the list of existing tags in the Tags Manager.</span></span>
+</div>
+</li>
+</ul>
+<p>For a more in-depth look at tags, tag groups, and tag structures, check out <a href="https://help.uberflip.com/hc/en-us/articles/8129396439053" target="_self">Tags explained</a>.</p>
+<p> </p>
+<h2>Add or remove tags from Items</h2>
+<p>In both the <em>Manage Stream</em> page and the Item Editor, you can manually add existing or a new tags to any Item, and remove tags that shouldn't be there.</p>
+<h3 id="h_a8ae0cb0-0a97-4051-a3f2-b00664faa044">Add or remove tags in the <em>Manage Stream</em> page</h3>
+<ol>
+<li>In the Hub you're working with, click <strong>Content </strong>in the sidebar menu</li>
+<li>Now in the <strong><em>Streams</em> tab, </strong>find and click the Stream you want to view</li>
+<li>In the Stream view, scroll down to the Item Tile for the Item you want to add a tag to. At the bottom of each Item the <strong>Tag</strong> icon<br><img src="https://help.uberflip.com/hc/article_attachments/360031454212/Fullscreen_2019-06-19__4_41_PM.png" alt="Fullscreen_2019-06-19__4_41_PM.png">
+</li>
+<li>If an Item already has tags applied to it, the icon will include the number of tags on that Item<br><img src="https://help.uberflip.com/hc/article_attachments/360031501811/Fullscreen_2019-06-20__1_49_PM.png" alt="Fullscreen_2019-06-20__1_49_PM.png">
+</li>
+<li>Click the <strong>Tag icon</strong> to open the <strong>Tag Item</strong> modal:
+<ul>
+<li>
+<strong>To add an existing tag: </strong>Start typing the tag you want to add into the <strong>Tags</strong> field. Any existing tags and tag groups that match what you've typed will be autosuggested.<br><img src="https://help.uberflip.com/hc/article_attachments/360031428071/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png" width="500" height="369"><br>Click an existing tag in the autosuggested list to add it. Added tags will be listed in the <em>Tags</em> box.<br><img src="https://help.uberflip.com/hc/article_attachments/360031429211/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png">
+</li>
+<li>
+<strong>To create and add a new tag: </strong>Type out the full tag text and hit the <strong>Enter</strong> key. The tag will be added and applied.</li>
+<li>
+<strong>To remove an existing tag:</strong> Click on the x on the tag in the <em>Tags</em> field.<br><img src="https://help.uberflip.com/hc/article_attachments/360031527872/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png">
+</li>
+</ul>
+</li>
+<li>Click <strong>Done </strong>to save your changes</li>
+</ol>
+<p> </p>
+<h3 id="h_a8ae0cb0-0a97-4051-a3f2-b00664faa044">Add or remove tags in the Item Editor</h3>
+<ol>
+<li>In the Hub you're working with, click <strong>Content </strong>in the sidebar menu</li>
+<li>Select the <strong><em>Items</em> tab</strong>
+</li>
+<li>In the list of Items, find and click the Item you want to edit tags for </li>
+<li>The <strong>Edit Article</strong> view will open. Here, click on the <strong>Tags</strong> tab<br><img src="https://help.uberflip.com/hc/article_attachments/360031529712/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png" width="558" height="223">
+</li>
+<li>In the <strong>Tags field</strong>:<br>
+<ul>
+<li>
+<strong>To add an existing tag</strong>: Start typing the tag you want to add. Any existing tags and tag groups that match what you've typed will be autosuggested:<br><img src="https://help.uberflip.com/hc/article_attachments/360031505311/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png" width="403" height="289"><br>Click on an autosuggested tag from the list to add it. Tags that have been added will appear in the Tags field.<br><img src="https://help.uberflip.com/hc/article_attachments/360031505351/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png">
+</li>
+<li>
+<strong>To create and add a new tag: </strong>Type out the full tag text and hit the <strong>Enter</strong> key. The tag will be added and applied.</li>
+<li>
+<strong>To remove an existing tag:</strong> Click on the x on the tag in the <em>Tags</em> field.<br><img src="https://help.uberflip.com/hc/article_attachments/360031527872/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png">
+</li>
+</ul>
+</li>
+<li>Any changes you make here will be saved automatically, and applied immediately.</li>
+</ol>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>You can also edit tags from the Content &gt; Items tab page. Just hover over the Item in the Item list, and click the Tags icon that appears. The same <strong>Tag Item</strong> menu will appear as when you edit tags in the <em>Manage Stream</em> page.<br><img src="https://help.uberflip.com/hc/article_attachments/12879584337677" alt="mceclip0.png"></p>
+</div>
+<p> </p>
+<h2>Manage, edit, and delete tags</h2>
+<p>You can manage your existing tag in the <em><strong>Tags</strong></em> tab of the Tags Managers. Here you can:</p>
+<ul>
+<li>View a list of all currently existing tags</li>
+<li>See the number of Items where that tags applied </li>
+<li>
+<a href="#h_eddb834d-27d9-4f65-9d36-b5148f5613ef" target="_self">Add a new tag</a> without assigning it to an Item</li>
+<li>
+<a href="#h_2e321481-e766-47f1-8c61-481a47e8b4c4" target="_self">Edit the tag text</a> for any existing tag</li>
+<li>
+<a href="#h_ee52804a-a62f-41f0-b4af-b15a206e0147" target="_self">Delete a tag</a> </li>
+</ul>
+<p> </p>
+<h3>Open the tags manager: <em>Tags</em> tab</h3>
+<ol>
+<li>In the Hub you're working with, click on <strong>Tags </strong>in the sidebar menu<br><img src="https://help.uberflip.com/hc/article_attachments/360031517331/Tags_-_Uberflip.png" alt="Tags_-_Uberflip.png">
+</li>
+<li>Select the <strong><em>Tags </em></strong>tab<strong><em><br><img src="https://help.uberflip.com/hc/article_attachments/12879879123981" alt="mceclip2.png" width="600" height="244"><br></em></strong>
+</li>
+</ol>
+<p>Here you'll see a list of all existing tags, the tag groups they're in, the number of Items each tag is applied to, and the date they were was last used.</p>
+<p> </p>
+<h3 id="h_eddb834d-27d9-4f65-9d36-b5148f5613ef">Create a new tag</h3>
+<p>You can create a new tag without assigning it to any Item using the Tags Manager.</p>
+<ol>
+<li>In the <em><strong>Tags</strong></em> tab of the Tags Manager, click <strong>Add Tag </strong>
+</li>
+<li>The <strong>Add Tag</strong> modal will open. Enter the tag text into the <strong>Tag Name</strong> field. If you want, you can also enter a description of the tag (optional).<br><img src="https://help.uberflip.com/hc/article_attachments/12879884004621" alt="Screen_Shot_2023-01-17_at_10.42.24_AM.png" width="400" height="328">
+</li>
+<li>Click <strong>Save</strong>, and your new tag will appear in the tags list</li>
+</ol>
+<p> </p>
+<h3 id="h_2e321481-e766-47f1-8c61-481a47e8b4c4">Edit an existing tag</h3>
+<p>You can edit the tag text or description of any existing tag. Doing this will also automatically update the tag text on any Item that the tag is already applied to.</p>
+<ol>
+<li>In the Tags Manager, select the <strong><em>Tags</em></strong> tab</li>
+<li>Find the tag that you want to edit and <strong>hover over it</strong>
+</li>
+<li>Click on the Edit button (pencil icon)<br><img src="https://help.uberflip.com/hc/article_attachments/12880122191245" alt="mceclip4.png">
+</li>
+<li>The <strong>Edit Tag</strong> modal will open, showing the current tag text and description. Make any changes you want using the text fields provided.<br><img src="https://help.uberflip.com/hc/article_attachments/12880281792141" alt="Screen_Shot_2023-02-06_at_10.24.06_AM.png" width="400" height="330">
+</li>
+<li>Click <strong>Save</strong> </li>
+</ol>
+<p> </p>
+<h3 id="h_ee52804a-a62f-41f0-b4af-b15a206e0147">Delete a tag</h3>
+<p>If you want to delete a tag that's no longer needed, you can do that from the Tags Manager as well.</p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Caution</h4>
+<p>Deleting a tag will also immediately remove it from all Items that it is currently applied to, and from all Smart Filters and Scheduled Tasks that reference it (potentially breaking affected filters/tasks). Deleting a tag is permanent and <strong>not reversible. </strong></p>
+</div>
+<ol>
+<li>In the Tags Manager, find the tag that you want to delete and <strong>hover over it</strong>.</li>
+<li>Click on the <strong>Delete</strong> button that appears:<br><img src="https://help.uberflip.com/hc/article_attachments/12879980428813" alt="mceclip3.png">
+</li>
+<li>A warning prompt will appear. Review it.</li>
+<li>If you're sure you want to delete the tag, click <strong>Delete Tag</strong>
+</li>
+<li>You'll be returned to the main Tags Manager table, where the deleted tag will no longer appear.</li>
+</ol>
+<p> </p>
+<h2>Create and manage tag groups</h2>
+<p>You can create and manage tag groups in the <em><strong>Tag Groups</strong></em> tab of the Tag Manager. Here you can:</p>
+<ul>
+<li>View a list of all currently existing tag groups </li>
+<li><a href="#h_01GQ0E3DJJ20ATK2AQFK0ND257" target="_self">Create new tag groups</a></li>
+<li><a href="#h_01GQ0G5JHMTNH9FANS8YKJW2VG" target="_self">See and manage which tags are in a tag group</a></li>
+<li><a href="#h_01GQ0G60AQPT0THQ5KEB63PF76" target="_self">Edit a tag group name</a></li>
+</ul>
+<p> </p>
+<h3>Open the tags manager: <em>Tags Group</em> tab</h3>
+<ol>
+<li>In the Hub you're working with, click on <strong>Tags </strong>in the sidebar menu<br><img src="https://help.uberflip.com/hc/article_attachments/360031517331/Tags_-_Uberflip.png" alt="Tags_-_Uberflip.png">
+</li>
+<li>Select the <strong><em>Tags Groups </em></strong>tab<img src="https://help.uberflip.com/hc/article_attachments/12880499817357" alt="mceclip6.png" width="601" height="199">
+</li>
+</ol>
+<p>Here, you'll see a list of all tag groups in your account, the number of tags in that group, and the date it was last used.</p>
+<p> </p>
+<h3 id="h_01GQ0E3DJJ20ATK2AQFK0ND257">Create a new tag group</h3>
+<ol>
+<li>In the <em><strong>Tag Groups</strong></em> tab of the Tags Manager, click <strong>Add Tag Group</strong>
+</li>
+<li>The New Tag Group modal will open. Enter the Tag Group name in <em>Tag Group Name</em> field<br><img src="https://help.uberflip.com/hc/article_attachments/12880543082125" alt="Screen_Shot_2023-02-06_at_10.31.28_AM.png" width="500" height="274">
+</li>
+<li>Click<strong> Add Tags in Group</strong>
+</li>
+<li>Still in the modal, find and click tags to add them to your new tag group. You can also add a new tag, and remove tags if you change your mind <em>(hover the tag and click the x)</em>.<br><img src="https://help.uberflip.com/hc/article_attachments/12880715849997" alt="Screen_Shot_2023-02-06_at_10.35.56_AM.png" width="500" height="370">
+</li>
+<li>Click <strong>Done</strong> to save your new tag group</li>
+</ol>
+<p> </p>
+<h3 id="h_01GQ0G5JHMTNH9FANS8YKJW2VG">See and manage which tags are in a tag group</h3>
+<ol>
+<li>In the tag groups table, <strong>click the number</strong> under the <em>Tags Within</em> column beside your tag group</li>
+<li>The tag group editor modal will open<br><strong><img src="https://help.uberflip.com/hc/article_attachments/12880819461389" alt="Screen_Shot_2023-02-06_at_10.39.28_AM.png" width="499" height="371"></strong>
+</li>
+<li>Here you can manage the tags within that tag group
+<ul>
+<li>
+<strong>Add existing tags:</strong> find and click a tag in the <em>Ungrouped Tags</em> area to add it to the tag group</li>
+<li>
+<strong>Add a new tag:</strong> Click <strong>New Tag</strong> in the Ungrouped Tags area to add a new tag.</li>
+<li>
+<strong>Remove tags:</strong> Hover a tag in the <em>Tags Within Group </em>area and click the x that appear to remove the tag from this group<em> (the tag with become ungrouped).</em>
+</li>
+</ul>
+</li>
+<li>Click <strong>Done</strong> to save your changes</li>
+</ol>
+<p> </p>
+<h3 id="h_01GQ0G60AQPT0THQ5KEB63PF76">Edit a tag group name</h3>
+<p>In the tag groups table, hover over the tag group and click the edit button <em>(pencil icon) </em>beside the current name. This will open the name field for editing. Edit the tag group name, then click the checkmark to save the change.<br><img src="https://help.uberflip.com/hc/article_attachments/12880812694029" alt="mceclip7.png"></p>
+<p> </p>
+<h2>Notes</h2>
+<ul>
+<li>If you need to tag many Items at once, you can use Smart Filters to do this. Check out <a href="https://help.uberflip.com/hc/en-us/articles/360022891612" target="_self" rel="undefined">Use Smart Filters to automate content workflows</a> for more details</li>
+<li>If you're looking to step-up your tagging with advanced options and quick-tagging methods, check out the <a href="https://help.uberflip.com/hc/en-us/articles/8129118360077" target="_self">Enhanced Tag Manager</a> app by Uberflip</li>
+</ul>]]></description>
+         <guid isPermaLink="false">360029638391</guid>
+         <pubDate>Tue, 18 Jun 2019 17:34:01 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

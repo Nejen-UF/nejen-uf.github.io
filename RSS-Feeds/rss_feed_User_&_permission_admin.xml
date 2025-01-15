@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - User & permission admin</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Force users to log into Uberflip using single sign-on (SSO)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/20865216012301-Force-users-to-log-into-Uberflip-using-single-sign-on-SSO</link>
+         <description><![CDATA[<p>Want to force your users to sign into Uberflip using a single sign-on (SSO) option, and turn-off the ability to sign in using an email and password? You can! This article will show you how. </p>
+<p> </p>
+<h2 id="h_01HE1BRADF91E0YYP9HBA12ZC8">About Uberflip’s Force SSO option</h2>
+<p>Some Uberflip admins may want to restrict how their users log in. If an identity provider (IdP) is set up in your Uberflip account (such as Okta or Google), you can choose to force all of your users to log in using that option.  </p>
+<div class="callout callout--info">
+<h4 id="h_01HE1BWGTJR8EASA0N702QPBSN" class="callout__title">Don't have SSO enabled?</h4>
+<p><strong>Check out: </strong><a href="https://help.uberflip.com/hc/en-us/articles/360020132311">Enable Single Sign On (SSO) for Your Uberflip Account</a><strong><br></strong></p>
+</div>
+<p>Choosing the "Force SSO” option for your account means all email &amp; password combos are unusable, and logging in using SSO is the only way to access an Uberflip account.</p>
+<div class="callout callout--warning">
+<h4 id="h_01HE1CECKQBJ5S34SSPEZDZEDR" class="callout__title">Caution</h4>
+<p>If some of your users already have email &amp; password combos set up, those will still be remembered by Uberflip when "Force SSO" is on. If you disable the “Force SSO” option in the future, those users will be able to log in again with their password unless they're removed from your account.</p>
+</div>
+<p> </p>
+<h2 id="h_01HE1CG2FQRD008SNVFSZYN1M9">Force Uberflip users to log in using SSO</h2>
+<p>As an account admin, If you have a single sign-on provider (AKA identity provider [IdP]) set up in your Uberflip account, you can force all of your users to log into Uberflip using that method. Here’s how: </p>
+<ol>
+<li>In Uberflip, click your name, then <strong>Account Settings</strong> in the topbar<br><img src="https://help.uberflip.com/hc/article_attachments/20866134685325" width="604" height="85">
+</li>
+<li>Click <strong>Security &gt; User Sign-on Settings</strong><strong><br></strong><img src="https://help.uberflip.com/hc/article_attachments/20866118147597" width="250" height="473">
+</li>
+<li>Toggle on the Force SSO setting<br><strong>Note:</strong> You must have at least one IdP enabled to turn on Force SSO.<br><img src="https://help.uberflip.com/hc/article_attachments/20866134697613" width="600" height="177">
+</li>
+</ol>
+<p>That’s it! All users must now sign into Uberflip using one of your SSO options.</p>
+<p> </p>
+<h2 id="h_01HE1D8K37SF847VR06VF3EAJ8">Disable Force SSO</h2>
+<p>Force SSO can be turned off at any time by toggling off the Force SSO option.</p>
+<ol>
+<li>Click your name, then <strong>Account Settings</strong> in the topbar</li>
+<li>Click <strong>Security &gt; User Sign-on Settings</strong><strong><br></strong><img src="https://help.uberflip.com/hc/article_attachments/20866134716813" width="250" height="473">
+</li>
+<li>Toggle off the Force SSO setting<img src="https://help.uberflip.com/hc/article_attachments/20866303814285" width="598" height="179"><br>
+<div class="callout callout--warning">
+<h4 id="h_01HE1DAVWHJ5ZCSA17ZEJGJ0EW" class="callout__title">Important</h4>
+<p>If some of your users already have email &amp; password combos set up, those will still be remembered by Uberflip. This means when you disable the “Force SSO” option, those users will be able to log in again with their password unless they are removed from your account.</p>
+</div>
+</li>
+</ol>
+<p>That’s it! Users can now log in with email and password combos again. If you have users who have never set up a password, they can create one now using the <a href="https://help.uberflip.com/hc/en-us/articles/360018978191-Forgot-Password-Can-t-Log-In#reset-your-password"><span style="color: #1155cc;">password reset process</span></a>.</p>]]></description>
+         <guid isPermaLink="false">20865216012301</guid>
+         <pubDate>Mon, 30 Oct 2023 22:51:02 GMT</pubDate>
+      </item>
+      <item>
+         <title>Add a user to your Uberflip account</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/7288948121229-Add-a-user-to-your-Uberflip-account</link>
+         <description><![CDATA[<p><span style="font-weight: 400;">Want to add users to your account so colleagues can create pages, DSRs, content, and Streams? Here’s how: </span></p>
+<h2 id="h_01HSYBATAG1MQWQH0MG3RQBP8V"><span style="font-weight: 400;">Before you begin</span></h2>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">By default, only Account Admins can create users, but they can also give users in other groups permission to create users.</span></li>
+</ul>
+<h2 id="h_01HSYBATAGTM1ASZK9YYPEJJYA"><span style="font-weight: 400;">Add a user</span></h2>
+<ol>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Log in to your Uberflip admin account (or an account enabled to add users by an admin)</span></li>
+<li style="font-weight: 400;" aria-level="1">In the top right corner, hover over your name to expand the menu, then click <strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Account Settings<br></strong><img src="https://help.uberflip.com/hc/article_attachments/7288612271629" alt="oih.png">
+</li>
+<li style="font-weight: 400;" aria-level="1">In the sidebar menu, click <strong>Organization</strong>, then click <strong>Users</strong><br><img src="https://help.uberflip.com/hc/article_attachments/25366033663885" alt="Manage_Users_-_Uberflip.png"><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"><strong><br></strong></strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">Click <strong>+ New User</strong><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"><strong><br></strong></strong><img src="https://help.uberflip.com/hc/article_attachments/25366038741133" alt="Manage_Users_-_Uberflip.png" width="400" height="175"><span style="font-weight: 400;"><br></span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">This will open the Add User modal. Begin by typing in the new users first and last name<img src="https://help.uberflip.com/hc/article_attachments/25366033671565" alt="Manage_Users_-_Uberflip.png" width="451" height="281"></span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Enter the new users email address </span></li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Optional:</strong><span style="font-weight: 400;"> If your organization uses single-sign On (SSO), you can add a Federation ID for this user</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Under </span><strong>Groups</strong><span style="font-weight: 400;">, use the dropdown menu to select the </span><a href="https://help.uberflip.com/hc/en-us/articles/360034488151-Reference-User-Group-Default-Permissions"><span style="font-weight: 400;">user groups</span></a><span style="font-weight: 400;"> to assign your new user to<br><strong>Note:</strong> If you don't select any user groups, the user won't be able to use any Uberflip features.</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click</span> <strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"><strong><span style="font-weight: 400;"><strong>Add User</strong></span></strong></strong>
+</li>
+</ol>
+<p><span style="font-weight: 400;">That’s it! Your new user will receive an email, allowing them to create a password and log in.</span></p>
+<p> </p>
+<h2 id="h_01HSYBATAGX7QXAN9MRFYDA6SA"><span style="font-weight: 400;">What’s next? </span></h2>
+<p><span style="font-weight: 400;">Once the user is created, you'll see the </span><strong>Edit User</strong><span style="font-weight: 400;"> page. Here you can make changes to the user's account if needed. You can edit their: </span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">User Information </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Bio </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Permissions </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Licenses </span></li>
+</ul>
+<p><span style="font-weight: 400;">You can return to the Edit User page anytime by going to </span><strong><em>Account Settings &gt; Organization &gt; Users, </em></strong><span style="font-weight: 400;">then find the user in the list and click the </span><em><span style="font-weight: 400;">Edit </span></em><span style="font-weight: 400;">(pencil)</span> <span style="font-weight: 400;">icon beside their name.</span></p>]]></description>
+         <guid isPermaLink="false">7288948121229</guid>
+         <pubDate>Wed, 29 Jun 2022 14:50:05 GMT</pubDate>
+      </item>
+      <item>
+         <title>Resend the New User Invitation Email</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360039880132-Resend-the-New-User-Invitation-Email</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>Resend the invitation email that newly created users must use to set up their Uberflip account and log in.</p>
+<p>Whenever you add a new user to your Uberflip account, they will automatically be sent an invitation email. This email contains a link the new user must click on to set a password for their account and log in. For security, <a href="https://help.uberflip.com/hc/en-us/articles/360040297151">the invitation expires 24 hours after the email was sent</a>, and the link becomes invalid. If this happens, you can resend the invitation email.</p>
+<p> </p>
+<h2>Resend the New User Invitation Email</h2>
+<ol>
+<li>As an <strong>Account Administrator</strong>, log in to your Uberflip account.</li>
+<li>Click on your name in the top right corner, then click on <strong>Account Settings</strong>.</li>
+<li>In the sidebar menu on the left, click on <strong>Organization &gt; Users</strong>.</li>
+<li>On the <strong>Manage Users</strong> page on the right, find the user to whom you want to resend the invitation email.</li>
+<li>Hover your mouse over the user's name in the list, then <strong>click on the <em>Edit</em> (pencil)</strong> <strong>button</strong> that appears to the right of their name:<br><img src="https://help.uberflip.com/hc/article_attachments/360050786592/Fullscreen_2020-02-27__4_51_PM.png" alt="Fullscreen_2020-02-27__4_51_PM.png">
+</li>
+<li>On the <strong>Edit [User's Name] </strong>page that appears, <strong>click on the hamburger (three-line) menu button</strong> in the top right:<br><img src="https://help.uberflip.com/hc/article_attachments/360050903591/Edit_John_Smith_-_Uberflip.png" alt="Edit_John_Smith_-_Uberflip.png">
+</li>
+<li>In the menu that appears, <strong>click on <em>Resend Invitation</em></strong> to immediately send a new invitation email to the email address that is on file for this user:<br><img src="https://help.uberflip.com/hc/article_attachments/360050903771/Edit_John_Smith_-_Uberflip.png" alt="Edit_John_Smith_-_Uberflip.png">
+</li>
+</ol>
+<p> </p>
+<h2>Additional Notes</h2>
+<p>The <em>Resend Invitation</em> option will only appear in the hamburger menu for users who have not yet activated their accounts (have never logged in). For users who have created a password/logged in successfully at least once, this option will appear as <em>Reset Password</em> instead.</p>]]></description>
+         <guid isPermaLink="false">360039880132</guid>
+         <pubDate>Thu, 27 Feb 2020 21:39:34 GMT</pubDate>
+      </item>
+      <item>
+         <title>Reference: User Group Default Permissions</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360034488151-Reference-User-Group-Default-Permissions</link>
+         <description><![CDATA[<hr>
+<p>A reference guide comparing the permissions assigned to each system default User Group in Uberflip.</p>
+<hr>
+<p> </p>
+<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>This article describes the <strong>default</strong> permissions that are assigned to each system User Group in Uberflip, but Account Administrators can freely modify permissions. If permission configurations have been modified in your Uberflip account, they may differ from those shown in this article.</p>
+</div>
+<p> </p>
+<h2>User Group Permissions Matrix</h2>
+<p>This matrix shows a comparison of the standard system User Groups in Uberflip and the permissions that users belonging to each group are granted by default.</p>
+<ul>
+<li>A filled circle (●) indicates a permission is held by the User Group</li>
+<li>An empty circle (<span style="font-weight: 400;">○</span>) indicates a parent permission where <em>some</em> of the child permissions are held by the User Group</li>
+<li>Click to view full-size in a new tab</li>
+<li>Click <a href="https://help.uberflip.com/hc/article_attachments/360094316411/Default_User_Groups_Permission_Matrix_-_Updated_May_3_2021_-_Permission_Matrix.pdf">here</a> to download as a (searchable) PDF</li>
+</ul>
+<p><a href="https://help.uberflip.com/hc/article_attachments/360094317371/Default_User_Groups_Permission_Matrix_-_Updated_May_2021.png" target="_blank" rel="noopener"><img src="https://help.uberflip.com/hc/article_attachments/360094317371/Default_User_Groups_Permission_Matrix_-_Updated_May_2021.png" alt="Default_User_Groups_Permission_Matrix_-_Updated_May_2021.png"></a></p>
+<p> </p>
+<h2>Notes</h2>
+<ul>
+<li>This matrix does not include the <em>All Users</em> User Group, as this User Group is not granted any permissions by default. This User Group is intended to be used as a fallback for any user who has not been assigned to any other User Group.</li>
+<li>If a user belongs to more than one User Group, the more permissive User Group's permissions will apply to that user.</li>
+<li>Uberflip's permissions are <em>additive</em>: each permission <strong>gives access</strong> to a certain app function. The sole exception is the <strong>Restricted Content Authoring Experience </strong>permission, which is <em>subtractive</em>: it <strong>removes access</strong> to certain functions, such as publishing new Items. This permission is only assigned to the <em>Authors</em> User Group by default, and should not be assigned to any other User Group, as doing so will remove functionality those User Groups should have access to (see <a href="https://help.uberflip.com/hc/en-us/articles/360023273491" target="_self">this article</a> for details). For the same reason, you should never place a user in both the <em>Authors</em> User Group and any other User Group, as the restrictive permission inherited from <em>Authors</em> will take priority.</li>
+</ul>]]></description>
+         <guid isPermaLink="false">360034488151</guid>
+         <pubDate>Thu, 26 Sep 2019 14:28:16 GMT</pubDate>
+      </item>
+      <item>
+         <title>What is a Primary User?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360018726352-What-is-a-Primary-User</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>What is a Primary User? Is it the same as an Account Admin?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>When your Uberflip account was opened, the very first user profile that was created within your account was automatically designated as the Primary User. If you're familiar with terms like <em>Superuser</em>, <em>Superadmin</em> or <em>Account Owner </em>from other tools, you can think of the Primary User as being the Uberflip equivalent.</p>
+<p>The Primary User is special because they're the only user who can access certain parts of the Account Settings menu. No other type of user can access these settings, nor can they be given permission to access them — including users in the Account Administrators group.</p>
+<p>The settings which only Primary Users can access are:</p>
+<ul>
+<li>The <em>Billing Details &amp; Invoices</em> section in the <em>Account </em>menu</li>
+<li>The <em>Services</em> section, which covers custom domain settings</li>
+<li>The <em>Integration </em>section, which covers the management of <em>API Credentials, Connected Services </em>and<em> Custom Integrations</em>
+</li>
+<li>The <em>Security</em> section, which covers the management of account security policies and <em>Single-Sign On (SSO)</em> settings</li>
+</ul>
+<p>While you can't switch Primary User status from one user profile to another, you can change who within your organization is assigned to the Primary User profile. For instructions on how to do that, please see <a href="https://help.uberflip.com/hc/en-us/articles/360018723672">this article</a>.</p>]]></description>
+         <guid isPermaLink="false">360018726352</guid>
+         <pubDate>Fri, 02 Nov 2018 20:08:14 GMT</pubDate>
+      </item>
+      <item>
+         <title>Change Your Account&apos;s Primary User</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360018723672-Change-Your-Account-s-Primary-User</link>
+         <description><![CDATA[<hr>
+<p>In some situations you might need to change the Primary User on your Uberflip account, such as if the current Primary User leaves your company.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>To change your account's Primary User, you will need the <strong>username/email and password of the current Primary User </strong>(if you don't have these details, don't worry — see <a href="#h_764407498151541184316128">here</a> for help.)</li>
+<li>The <strong>new email address</strong> that you want to set on the Primary User's profile can't be attached to any other existing user profile. Before you start, make sure to edit the relevant profile to <strong>remove the email address</strong> first.</li>
+</ul>
+<p> </p>
+<h2>If you can log in as the current Primary User</h2>
+<p>The first user profile created under your account is automatically and permanently designated as the <strong>Primary User</strong>, and this status <strong>can't be moved to a different user profile</strong> later on. So how do you change <em>who</em> is set as the Primary User? Simple: by just <strong>changing the name and email address</strong> on the Primary User's user profile.</p>
+<p>As a result, as long as you know the username and password of the user who is<strong> currently set as the</strong> <strong>Primary User</strong>, it's really easy to change the Primary User designation to another user.</p>
+<ol>
+<li>Log in to Uberflip <strong>as the current Primary User</strong>.</li>
+<li>In the top right corner, hover the mouse over the name to expand the menu, then click on <strong>Account Settings</strong> to go to the<strong> My Profile</strong> page.<br> <br> <img src="https://help.uberflip.com/hc/article_attachments/360014613891/blobid0.png" alt="">
+</li>
+<li>In the sidebar menu on the left, the <strong>Account</strong> section should already be expanded, and you should see the <strong>My Profile</strong> page in the main part of the window on the right.<br> <br> <img src="https://help.uberflip.com/hc/article_attachments/360014623991/blobid0.png" alt="" width="701" height="333"><br> </li>
+<li>Here, change the <strong>First Name, Last Name and Email Address</strong> to those of the new person. Remember that the new email address <strong>can't be associated with any other user profile</strong>: if it's still assigned to another profile, you will see an error message. If this happens, you will have to <strong>remove the email address from the other profile</strong> before you can add it to the Primary User.<br> <br> <img src="https://help.uberflip.com/hc/article_attachments/360014703491/My_Profile_-_Uberflip.png" alt="My_Profile_-_Uberflip.png" width="699" height="380">
+</li>
+<li>That's it! Remember to also change the profile picture and bio details if necessary.</li>
+</ol>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>Any Streams and Items created in Uberflip are always tied to a particular User ID,<strong> not</strong> a name. If you change the name associated with a User ID (as you would when following the above procedure), then the name that appears on any Streams and Items created by that User ID will also be changed.</p>
+</div>
+<p> </p>
+<h2 id="h_764407498151541184316128">If you're not able to log in as the current Primary User</h2>
+<p>If you don't have the login credentials needed to change the Primary User yourself, please <a href="https://help.uberflip.com/hc/en-us/requests/new">contact Uberflip Support</a> for help.</p>]]></description>
+         <guid isPermaLink="false">360018723672</guid>
+         <pubDate>Fri, 02 Nov 2018 18:27:38 GMT</pubDate>
+      </item>
+      <item>
+         <title>Change the maximum and idle session length for all users in an Uberflip account</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/11624848674445-Change-the-maximum-and-idle-session-length-for-all-users-in-an-Uberflip-account</link>
+         <description><![CDATA[<p><span style="font-weight: 400;">As a security measure, Uberflip automatically logs users out after a specified amount of time. The <a href="https://help.uberflip.com/hc/en-us/articles/360018726352" target="_self"><strong>primary user</strong></a> of an Uberflip account can change the <strong><em>maximum</em></strong></span><strong><em> session length</em></strong><span style="font-weight: 400;"> and </span><strong><em>idle session l</em><em>ength </em></strong><span style="font-weight: 400;">for <strong>all users</strong> in that account. </span><span style="font-weight: 400;">This article shows how the primary user can do this.</span></p>
+<p><strong>Note:</strong><span style="font-weight: 400;"> Only the </span><strong>primary user</strong><span style="font-weight: 400;"> can adjust the maximum and idle session times for an account.</span><em><span style="font-weight: 400;"> No other user type can adjust session lengths, not even their own.</span></em></p>
+<p><span style="font-weight: 400;">Here’s how it’s done:</span></p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Caution</h4>
+<p><strong>A longer session length is inherently less secure</strong> because it provides a longer opportunity for unauthorized access. You should consider how secure your users' devices are when choosing a session length.</p>
+</div>
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Log in to the </span><strong><em>primary</em></strong><strong><em> user </em></strong>Uberflip account</li>
+<li style="font-weight: 400;" aria-level="1">Click your name in the topbar, then click <strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Account Settings<br><img src="https://help.uberflip.com/hc/article_attachments/11624836114573" alt="mceclip0.png" width="250" height="194"><br></strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">In the sidebar menu, click <strong>Security &gt; Session Policy<br><img src="https://help.uberflip.com/hc/article_attachments/11624841740685" alt="mceclip1.png" width="251" height="391"></strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Adjust the <strong>i</strong></span><strong>dle </strong>and <strong>maximum session lifetime</strong><span style="font-weight: 400;"> as desired<br><strong>Note:</strong> This must be between 1</span><span style="font-weight: 400;">5 and 1440 minutes <em>(24 hours)</em></span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Optional: </strong>Restrict users in your account to <strong>1 active session at a time </strong>by checking the box beside that setting<strong><span style="font-weight: 400;"><br></span><img src="https://help.uberflip.com/hc/article_attachments/11625168086925" alt="Screen_Shot_2022-12-20_at_4.29.04_PM.png" width="400" height="243"><br></strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">Click <strong>Save Changes</strong>
+</li>
+</ol>
+<p><span style="font-weight: 400;">That’s it! All users in your account will now be logged out after the amounts of time you’ve chosen.</span></p>]]></description>
+         <guid isPermaLink="false">11624848674445</guid>
+         <pubDate>Wed, 21 Dec 2022 00:10:46 GMT</pubDate>
+      </item>
+      <item>
+         <title>Create Authors and Author Bios</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360019000331-Create-Authors-and-Author-Bios</link>
+         <description><![CDATA[<hr>
+<p>If you want to highlight content authors on your Hub, you can add an <em>About the Author </em>box that is displayed below their articles.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>By default, only<strong> Account Admins </strong>can create Authors (or other types of users), but they can also give users in other groups permission to create users.</li>
+<li>Authors who are set up as <strong>users</strong> on your Hub (and can log in to it) can also modify their own bios on their account profile. How to do that is described in <a href="https://help.uberflip.com/hc/en-us/articles/360018679312">this article</a>.</li>
+</ul>
+<p> </p>
+<h2>About this feature</h2>
+<p>You can assign an author to any content you post on your Hub. By default, the author of a piece of content will be credited with a standard <strong>author</strong> <strong>byline</strong> just below the page title. If you want to give your audience some more information about an author, you can also optionally add an <strong>author bio</strong> to the end of the article, like this:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/6023240590861/authorbio.png" alt="authorbio.png"></p>
+<p>This is a great way to highlight your authors, and to establish their credibility with your audience. You can even create author bios for content authors who don't have access to your Uberflip Hub, and are contributing content from an external source (e.g. a blog).</p>
+<p> </p>
+<h2>Create a new author</h2>
+<p>It's common to have authors who create content separately from your Uberflip Hub: they might be posters to your own (external) blog, or even guest authors with to their own blog that you're featuring on your Hub.</p>
+<p>For these kinds of authors, the first thing you'll need to do is <strong>create them as users in your Hub</strong>. This allows you to associate them with the pieces of content they've contributed, which allows the author's byline and bio to appear on that content.</p>
+<ol>
+<li>Log in to your Uberflip account.</li>
+<li>In the top right corner, hover the mouse over your name to expand the menu, then click on <strong>Account Settings</strong> to go to your<strong> My Profile</strong> page.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360014613891/blobid0.png" alt="">
+</li>
+<li>In the sidebar menu on the left, click on <strong>Organization</strong> to expand that section, then click on <strong>Users</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360014666292/Manage_Users_-_Uberflip.png" alt="Manage_Users_-_Uberflip.png">
+</li>
+<li>On the right side, click on <strong>+New User</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360014695431/Manage_Users_-_Uberflip.png" alt="Manage_Users_-_Uberflip.png" width="574" height="251">
+</li>
+<li>This will open the <strong>Add User</strong> menu. Begin by typing in the author's <strong>first and last name</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360014696151/Manage_Users_-_Uberflip.png" alt="Manage_Users_-_Uberflip.png" width="524" height="327">
+</li>
+<li>Leave the<strong> email address </strong>field empty.</li>
+<li>Leave <strong>Federation ID</strong> blank as well.</li>
+<li>Under <strong>Groups</strong>, use the dropdown menu to select <strong>Authors</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360014666212/Manage_Users_-_Uberflip.png" alt="Manage_Users_-_Uberflip.png" width="391" height="245"><br><br>
+</li>
+<li>Finally, click on <strong>Add User</strong> to create the new user.</li>
+<li>You'll now see the <strong>Permissions</strong> tab for this user. Make any changes if needed, then click on the <strong>User Information</strong> tab.</li>
+</ol>
+<p> </p>
+<h2>Add a photo and bio for an author</h2>
+<p>To make the <strong>About the Author</strong> box appear on this author's content, you need to add a bio. At the same time, it's also a good idea to add a photo, since that will appear next to the bio as well.</p>
+<ol>
+<li>Go to the <strong>User Information</strong> tab for the author (if you followed the instructions in the section above you should already be there, otherwise go to Your Name &gt; Account Settings &gt; Organization &gt; Users &gt; click on the user you want to work on).</li>
+<li>Click on the <strong>photo placeholder</strong> on the right.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360014667392/Edit_Stephen_King_-_Uberflip.png" alt="Edit_Stephen_King_-_Uberflip.png" width="608" height="269">
+</li>
+<li>Select an <strong>image to upload</strong> from your computer, and it will appear in the photo placeholder. You can use the slider underneath to adjust the size of the photo. When you're finished, click on <strong>Save</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360014697251/Edit_Stephen_King_-_Uberflip.png" alt="Edit_Stephen_King_-_Uberflip.png"><br><br>
+</li>
+<li>Click on the <strong>Bio</strong> tab.</li>
+<li>On this tab, look for the text box also labeled <strong>Bio </strong>and type (or paste) in the author's bio text. The <strong>About the Author</strong> box will only appear on their content if this field contains text, otherwise only the byline will be shown.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360014667872/Edit_Stephen_King_-_Uberflip.png" alt="Edit_Stephen_King_-_Uberflip.png" width="574" height="453"><br><br>
+</li>
+<li>You can also fill out any other contact details, like the author's Twitter handle, website URL, etc. Anything you add here (including the bio) will be <strong>saved automatically</strong>, and will be displayed in the <strong>About the Author</strong> box.</li>
+</ol>
+<p> </p>
+<h2>Add an author to a content Item</h2>
+<p>You can assign an author to any content Item in your Hub. Just edit that Item in the <strong>Content</strong> section of your Hub and go to the <strong>Metadata</strong> tab. Here, use the <strong>Author</strong> dropdown to choose the author from the list:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360014668612/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png" width="702" height="376"></p>
+<p>The author's bio will then automatically appear below their content:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/6023240590861/authorbio.png" alt="authorbio.png"></p>
+<p> </p>
+<h2>Add or modify your own author bio</h2>
+<p>Authors who are also Uberflip users (can log in to your Uberflip Hub) can also add the <em>About the Author</em> box to their own content by simply creating a bio. For instructions on how to do that, see <a href="https://help.uberflip.com/hc/en-us/articles/360018679312">this article</a>.</p>]]></description>
+         <guid isPermaLink="false">360019000331</guid>
+         <pubDate>Thu, 01 Nov 2018 21:13:27 GMT</pubDate>
+      </item>
+      <item>
+         <title>How long are new user invitation emails valid for?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360040297151-How-long-are-new-user-invitation-emails-valid-for</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>When I create a new user in our Uberflip account, how long do they have to accept the invitation and set up their account?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>When an Account Administrator adds a new user to an Uberflip account, that user is automatically sent an email invitation with a link to join the account. It looks like this:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360050894231/image.png" alt="image.png" width="402" height="344"></p>
+<p>The invited user has <strong>24 hours to click the <em>Accept Invite</em> button and choose a password</strong> to complete their account setup. If they haven't accepted the invite within 24 hours, the invitation will expire and will no longer work. In this case, an Account Administrator will need to resend the invitation — see <a href="https://help.uberflip.com/hc/en-us/articles/360039880132">this article</a> for instructions.</p>]]></description>
+         <guid isPermaLink="false">360040297151</guid>
+         <pubDate>Thu, 27 Feb 2020 21:37:25 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

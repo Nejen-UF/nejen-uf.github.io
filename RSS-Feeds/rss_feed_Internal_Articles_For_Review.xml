@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Internal Articles For Review</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Hub hack template </title>
+         <link>https://help.uberflip.com/hc/en-us/articles/5696364253709-Hub-hack-template</link>
+         <description><![CDATA[<p><span style="font-weight: 400;">Outline what this Hub hack does here.</span></p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>This Hub Hacks is</strong><strong> compatible with **Note Front End V1, V2, or both here** Hubs</strong>.</p>
+</div>
+<h2><span style="font-weight: 400;">Configure this Hub hack</span></h2>
+<ol>
+<li>In this section, outline any steps involved in setting up or using this Hub hack.</li>
+<li>If it's a multi-step process, adding the Custom Code may be one of your steps.</li>
+<li>If adding the Custom Code is the only step, you can eliminate this section. </li>
+</ol>
+<h2><span style="font-weight: 400;">Code Details</span></h2>
+<p><strong>Type:</strong><span style="font-weight: 400;"> **CSS / JS / HTML / Combo**</span></p>
+<p><strong>Placement: </strong>**What is the placement of this snippet in the Custom Code**</p>
+<p><strong>Code Snippet:</strong></p>
+<pre><code><strong>**Add the code snippet here**<br><br>Note: If there are two different code snippets for TV1 and TV2, create a <br>second code block below this one and label both appropriately.</strong></code></pre>]]></description>
+         <guid isPermaLink="false">5696364253709</guid>
+         <pubDate>Thu, 21 Apr 2022 23:29:06 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: Project Rodimus - Zendesk Workflow for CSAT</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4962218949645-Internal-Project-Rodimus-Zendesk-Workflow-for-CSAT</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>When the Project Rodimus team completes a migration, they wish to send the client a satisfaction survey from within Zendesk for reporting purposes. This article outlines the steps needed from ticket creation to completion within Zendesk.</p>
+<h2> </h2>
+<h2>Create a New Ticket<span style="font-weight: 400;"><br></span>
+</h2>
+<p><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">Create a new ticket in Zendesk by clicking on the “+ Add” button in the top left of the screen. A new ticket will open</span><span style="font-weight: 400;"><br><br><img src="https://help.uberflip.com/hc/article_attachments/4962054960013/mceclip0.png" alt="mceclip0.png" width="523" height="195"><br><br><br></span></p>
+<h2>Sidebar Menus<strong><br></strong><span style="font-weight: 400;"><br></span>
+</h2>
+<p><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/5975985804173/mceclip0.png" alt="mceclip0.png" width="286" height="916"></span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">In the sidebar menu perform the following actions:</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;"><br></span><strong>Requester</strong><span style="font-weight: 400;">: Input the client’s email address. If they exist in the Zendesk system, this field will begin auto-populating and you can select the desired user.</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">If the user doesn't exist, you will need to click the “+ Add User” button from the drop-down. A pop-up window will appear. In the “Name” field, enter the users’ First and Last name. In the “Email” field, enter their email address. Lastly, ensure “End User” is selected from the radio buttons and then click the blue “Add” button.</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/4962105417229/mceclip2.png" alt="mceclip2.png" width="426" height="347"><br></span><span style="font-weight: 400;"><br></span><strong>Assignee:</strong><span style="font-weight: 400;"> Select this dropdown and choose “Project Rodimus”, then select your user name.</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;"><br></span><strong>Form: </strong><span style="font-weight: 400;">Select this dropdown and choose “Project Rodimus” from the list.</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;"><br></span><strong><em>Important Note:</em></strong><span style="font-weight: 400;"> A Project Rodimus user </span><em><span style="font-weight: 400;">must</span></em><span style="font-weight: 400;"> be selected from the Assignee field, and Project Rodimus </span><em><span style="font-weight: 400;">must</span></em><span style="font-weight: 400;"> be selected from the Form field for the automated, CSAT email to be sent to the customer. These fields are also used for tracking analytics on the Project Rodimus team.</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;"><br><strong>Rodimus Ticket Type:</strong> Click this dropdown and select the appropriate ticket type. Either "Migration" or "Migration &amp; Rebrand".<br><br></span><strong>Feature:</strong><span style="font-weight: 400;"> Select “Hub” then “TV2 Migration” from the dropdown<br><br><strong>Enter the appropriate information for the following fields:</strong><br>Customer Name:<br></span><span style="font-weight: 400;">Account ID:<br>Hub ID:<br>Hub URL:<br></span><span style="font-weight: 400;"><br></span><strong>Resolution: </strong><span style="font-weight: 400;">You must select “Request Implemented” for the CSAT email to be sent. All other options will not work, and the email will not be sent.<br></span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;"><br></span></p>
+<h2>Subject &amp; Public Reply<span style="font-weight: 400;"><br><br><img src="https://help.uberflip.com/hc/article_attachments/4962014605069/mceclip3.png" alt="mceclip3.png" width="552" height="423"><br></span><span style="font-weight: 400;"><br></span>
+</h2>
+<p><span style="font-weight: 400;">Click the “⚡ Apply Macro” button at the bottom of the page, underneath the Public Reply box. Then select “Project Rodimus” from the dropdown.</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">The stock, “Subject” and “Public Reply” messaging will appear in the corresponding text boxes.<br></span><span style="font-weight: 400;"><br></span><strong><br></strong></p>
+<h2>Submit Case as Solved to Close Case and Send CSAT Survey<span style="font-weight: 400;"><br></span>
+</h2>
+<p><span style="font-weight: 400;">In the lower-right hand corner of the screen, select the dropdown arrow </span><em><span style="font-weight: 400;">beside</span></em><span style="font-weight: 400;"> the “Submit as New” button. A flyout will slide up with a number of options. Choose “Submit as Solved” to close the service request in Zendesk. Once submitted and closed, the CSAT survey will be sent to the associated customer.</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;"><br><img src="https://help.uberflip.com/hc/article_attachments/4962144858509/mceclip4.png" alt="mceclip4.png" width="417" height="245"></span></p>]]></description>
+         <guid isPermaLink="false">4962218949645</guid>
+         <pubDate>Mon, 21 Mar 2022 17:31:10 GMT</pubDate>
+      </item>
+      <item>
+         <title>How-to Article Template</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360018069592-How-to-Article-Template</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>Describe the objective that this article will help to achieve. Focus on a<strong> single</strong> objective only.</p>
+<p> </p>
+<h2>Prerequisite: [Enter a title describing the action (e.g. Create the X/set Up a Y/etc.)]</h2>
+<ol>
+<li>If necessary, describe any steps that need to be done <strong>before</strong> the steps needed to achieve the stated objective.</li>
+<li>If there are no prerequisites, delete this section.</li>
+<li>Keep it simple: each step should consist of just one or two actions maximum</li>
+<li>...</li>
+</ol>
+<p>Here, briefly summarize the outcome of performing the previous steps, to help the user understand what they just did.</p>
+<p> </p>
+<h2>[Enter a title describing the action (e.g. Create the X/set up a Y/etc.)]</h2>
+<ol>
+<li>Describe the steps needed to achieve the stated objective.</li>
+<li>Keep it simple: each step should consist of just one or two actions maximum.</li>
+<li>...</li>
+<li>The last step should briefly summarize the outcome of performing the previous steps, to help the user understand what they just did.</li>
+</ol>
+<p> </p>
+<h2>Additional Notes</h2>
+<p><em>(Optional)</em> If necessary, add any further details here that may be helpful, but which do not fit under any of the headings above. If not needed, delete this section.</p>]]></description>
+         <guid isPermaLink="false">360018069592</guid>
+         <pubDate>Wed, 17 Oct 2018 18:05:15 GMT</pubDate>
+      </item>
+      <item>
+         <title>Q&amp;A Article Template</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360018060852-Q-A-Article-Template</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>Write out the question that this article will answer, using the customers language. Keep it simple and as general as possible.</p>
+<p> </p>
+<h2>Answer</h2>
+<p>Answer the question, providing as much detail and additional information as needed. Include links to other relevant articles whenever appropriate.</p>]]></description>
+         <guid isPermaLink="false">360018060852</guid>
+         <pubDate>Wed, 17 Oct 2018 14:29:52 GMT</pubDate>
+      </item>
+      <item>
+         <title>Issue/Resolution Article Template</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360018336591-Issue-Resolution-Article-Template</link>
+         <description><![CDATA[<h2>Issue</h2>
+<p>Briefly describe the problem. What's happening? What's going wrong? Remember to use the customer's words.</p>
+<ul>
+<li>Add other ways of describing the problem as bullet points (if needed). List issue statements in order from generic to specific.</li>
+<li>List symptoms/aspects of the problem as bullet points (if needed).</li>
+<li>Try to keep statements in this section to the <strong>what </strong>of the issue (<strong>who</strong>, <strong>where </strong>and<strong> </strong><strong>when</strong> go under <em>Conditions</em>; <strong>why</strong> goes under <em>Cause</em>).</li>
+<li>Everything described in this section should be resolved by the Steps to Fix below</li>
+</ul>
+<p> </p>
+<h2>Conditions</h2>
+<ul>
+<li>Describe the environmental factors necessary to experience the issue as bullet points</li>
+<li>
+<strong>Where: </strong>Which function or part of the product is involved in the issue?</li>
+<li>
+<strong>Who: </strong>Which users are impacted?</li>
+<li>
+<strong>When: </strong>Which events usually take place to cause the issue, or before it occurs?</li>
+<li>Which browser(s) are affected ("Any browser" if nonspecific)?</li>
+<li>Which operating systems are affected ("Any operating system" if nonspecific)?</li>
+</ul>
+<p> </p>
+<h2>Cause</h2>
+<p>Briefly describe the cause of the issue. If no cause description is needed (e.g. if the cause is obvious), delete this section.</p>
+<p> </p>
+<h2>Steps to Fix</h2>
+<ol>
+<li>Describe the actions required to resolve the issue as numbered steps.</li>
+<li>Short, simple steps: 1-2 actions per step maximum.</li>
+<li>If this is a workaround, leave this section's title unchanged, but include a note that this is a workaround (rather than a permanent fix).</li>
+</ol>
+<p> </p>
+<h2>Additional Notes</h2>
+<p>Add any further details that may be helpful, but which do not fit under any of the headings above. If not needed, delete this section.</p>]]></description>
+         <guid isPermaLink="false">360018336591</guid>
+         <pubDate>Wed, 17 Oct 2018 13:27:46 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

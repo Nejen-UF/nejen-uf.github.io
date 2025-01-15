@@ -1,0 +1,1622 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Manage content</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Smart Filters: Automate your content workflows</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360022891612-Smart-Filters-Automate-your-content-workflows</link>
+         <description><![CDATA[<p>Use Smart Filters to automate your content management, sorting and tagging workflows.</p>
+<p> </p>
+<h2 id="h_01HAZ5V93NS4CYRPQNSGJ19RGG">Before you begin</h2>
+<ul>
+<li>To work with Smart Filters, you need to be a member of the <strong>Account Administrators</strong> or <strong>Content Managers</strong> user groups, or hold the relevant permissions under the <strong>Smart Filters</strong> parent permission.</li>
+</ul>
+<p> </p>
+<h2 id="h_01HAZ5V93NW63S41NRNVMSNTF4">About Smart Filters</h2>
+<p>It's easy to create great content experiences in Uberflip, but of course that also means that the more content experiences you create, the more time and effort you need to put in to maintain them all.</p>
+<p><strong>Smart Filters</strong> help to reduce that effort by automating your content management workflows. With Smart Filters, you can automatically select Items that meet criteria of your choice, then apply one or more actions like adding to or removing from Streams, tagging, etc. You can then choose to run the specified action(s) either anytime a specific event takes place, or simply on demand.</p>
+<p> </p>
+<h2 id="h_01HAZ5V93N88HMH6CRKQ8WGFP8">Create a new Smart Filter</h2>
+<p>To get started, create a new Smart Filter. You'll need to create individual Smart Filters for each specific task that you want to automate using this feature.</p>
+<ol>
+<li>
+<strong>Log in to Uberflip</strong> and<strong> navigate to the Hub</strong> where you want to create a Smart Filter.</li>
+<li>In the sidebar menu, click on <strong>Smart Filters</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360079572951" alt="Smart_Filters_-_Uberflip.png" width="191" height="153">
+</li>
+<li>The Smart Filters management screen will appear on the right. To create a new Smart Filter, <strong>click on the blue +Add New Filter button</strong> near the bottom:<br><img src="https://help.uberflip.com/hc/article_attachments/360079572991" alt="Smart_Filters_-_Uberflip.png">
+</li>
+<li>This will open the <strong>Create New Smart Filter wizard</strong>, where you can configure your new Smart Filter.</li>
+</ol>
+<div class="callout callout--info">
+<h4 id="h_01HAZ5V93NG8C0XG8B07HWYTMP" class="callout__title">Note: Smart Filters and multi-Hub accounts</h4>
+<p>If your Uberflip account contains <strong>multiple Hubs</strong>, keep in mind that Smart Filters are <strong>Hub-specific</strong>. This means that each Hub has its own list of Smart Filters that were created in that Hub, and that most of the configuration options for the Smart Filter will be relative to the Hub where it was created.</p>
+<p>Note also that Smart Filters can be configured to apply <strong>across Hubs</strong>: for example, you can create a S<strong>mart Filter in Hub A that applies an action to Items in Hub B</strong>. In this case, remember that the Smart Filter will still only appear in the list of Smart Filters in Hub A (where it was created), not in Hub B.</p>
+</div>
+<p> </p>
+<h2 id="h_01HAZ5V93NHHWZC80MAMJ95ZD9">Configure a Smart Filter</h2>
+<p>The Create New Smart Filter wizard allows you to configure how your Smart Filter will work. It consists of three steps:</p>
+<ol>
+<li>
+<strong>Search</strong>: Set the criteria that define which Items in your Hub(s) the Smart Filter will apply to.</li>
+<li>
+<strong>Action:</strong> Define the action(s) that will be applied to the specified Items.</li>
+<li>
+<strong>Settings</strong>: Choose when your filter will run, and give it a name.</li>
+</ol>
+<h3 id="h_01HAZ5V93N781W2R0JYNQTJYFY">Step 1: Configure search criteria</h3>
+<p>You begin by selecting the Items that your Smart Filter will apply actions to. You do this by setting <strong>criteria</strong>: any Items that match all of the specified criteria will be selected by the Smart Filter.</p>
+<p>On the <strong>Search</strong> screen, <strong>use the</strong> <strong>Add Criteria</strong> <strong>dropdown menu</strong> below <em>Filter items that match the following criteria</em> to choose and configure criteria for your Smart Filter:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360079574231" alt="Smart_Filters_-_Uberflip.png"><br>You can use any (or all) of the following criteria:</p>
+<h4 id="h_01HAZ5V93N50SYT51AHDJYP05Y">Located in</h4>
+<div class="tabs tabs--colored-2">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Selects these Items</span> <span class="tabs-link">How to configure</span>
+</div>
+<div class="tab">
+<p>All Items located in:</p>
+<ul>
+<li>
+<strong>Any</strong> <strong>source</strong> Stream,</li>
+<li>
+<strong>Any</strong> <strong>non-hidden</strong> Stream, and/or</li>
+<li>One or more <strong>specific individual Streams</strong>
+</li>
+</ul>
+<p>The specified Stream(s) can be in the current Hub, or any other other Hub in the account.</p>
+</div>
+<div class="tab is-hidden">
+<ol>
+<li>Use the dropdown menus to <strong>select a Hub and Stream(s)</strong>.</li>
+<li>To <strong>specify multiple Streams</strong>, click on <em>Add more streams</em>, then use the <em>Item found in</em> dropdown to choose whether Items must be in <strong>any</strong> or in <strong>all</strong> of the selected Streams.</li>
+</ol>
+</div>
+</div>
+<h4 id="h_01HAZ5V93N4YH9C54APDYN6KNP">Title or description match</h4>
+<div class="tabs tabs--colored-2">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Selects these Items</span> <span class="tabs-link">How to configure</span>
+</div>
+<div class="tab">
+<p>All Items that contain <strong>one or more specified text strings</strong> (of one or multiple words).</p>
+</div>
+<div class="tab is-hidden">
+<ol>
+<li>
+<strong>Type the text string(s)</strong> to be matched into the text box.</li>
+<li>To <strong>specify multiple text strings</strong>, click on <em>Add more text</em>, then use the <em>Title or description contains</em> dropdown to choose whether <strong>any</strong> or <strong>all</strong> of the text strings must be matched.</li>
+</ol>
+</div>
+</div>
+<h4 id="h_01HAZ5V93NGEEDAHKXGZ5B9W4R">Tags match</h4>
+<div class="tabs tabs--colored-2">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Selects these Items</span> <span class="tabs-link">How to configure</span>
+</div>
+<div class="tab">
+<p>All Items that have <strong>one or more specified tags</strong>.</p>
+</div>
+<div class="tab is-hidden">
+<ol>
+<li>Start <strong>typing in the text box to see available tags</strong> in an autosuggest dropdown. <strong>Click on a tag</strong> to add it.</li>
+<li>To <strong>specify multiple tags</strong>, simply <strong>continue to add them</strong> to the text box. If you specify multiple tags, use the <em>Item is tagged with</em> dropdown to choose whether <strong>any</strong> or <strong>all</strong> of the tags must be matched.</li>
+</ol>
+</div>
+</div>
+<h4 id="h_01HAZ5V93N3WX1284RERRZ6JHJ">Item status</h4>
+<div class="tabs tabs--colored-2">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Selects these Items</span> <span class="tabs-link">How to configure</span>
+</div>
+<div class="tab">
+<p>All Items that currently have<strong> a specified status</strong>, any one of: <em>Featured</em>, <em>Unfeatured</em>, <em>Visible</em>, or <em>Hidden</em>.<strong><br></strong></p>
+</div>
+<div class="tab is-hidden">
+<p>Use the dropdown to <strong>select the desired status</strong>. With this criterium, you can only specify one status per Smart Filter.<strong><br></strong></p>
+</div>
+</div>
+<h4 id="h_01HAZ5V93NKKFPMSRA39MH3Q0V">Not located in</h4>
+<div class="tabs tabs--colored-2">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Selects these Items</span> <span class="tabs-link">How to configure</span>
+</div>
+<div class="tab">
+<p>All Items <strong>not</strong> located in:</p>
+<ul>
+<li>Any <strong>source Stream</strong>,</li>
+<li>Any <strong>non-hidden Stream</strong>, and/or</li>
+<li>One or more <strong>specific individual Streams</strong>
+</li>
+</ul>
+<p>The specified Stream(s) can only be in the current Hub.</p>
+</div>
+<div class="tab is-hidden">
+<ol>
+<li>Use the dropdown menus to <strong>select a Hub and Stream(s)</strong>.</li>
+<li>To <strong>specify multiple Streams</strong>, click on <em>Add more streams</em>, then use the <em>Item found in</em> dropdown to choose whether Items must be in <strong>any</strong> or in <strong>all</strong> of the selected Streams.</li>
+</ol>
+</div>
+</div>
+<h4 id="h_01HAZ5V93NGWAACTKPD10Q8C84">Title or description don't match</h4>
+<div class="tabs tabs--colored-2">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Selects these Items</span> <span class="tabs-link">How to configure</span>
+</div>
+<div class="tab">
+<p>All Items that do <strong>not</strong> contain <strong>one or more specified text strings</strong> (of one or multiple words).</p>
+</div>
+<div class="tab is-hidden">
+<ol>
+<li>
+<strong>Type the text string(s)</strong> to be matched into the text box.</li>
+<li>To <strong>specify multiple text strings</strong>, click on <em>Add more text</em>, then use the <em>Title or description contains</em> dropdown to choose whether <strong>any</strong> or <strong>all</strong> of the text strings must be matched.</li>
+</ol>
+</div>
+</div>
+<h4 id="h_01HAZ5V93NXGX3HHTVJV68W4A1">Tags do not match</h4>
+<div class="tabs tabs--colored-2">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Selects these Items</span> <span class="tabs-link">How to configure</span>
+</div>
+<div class="tab">
+<p>All Items that do <strong>not</strong> have <strong>one or more specified tags</strong>.</p>
+</div>
+<div class="tab is-hidden">
+<ol>
+<li>Start <strong>typing in the text box to see available tags</strong> in an autosuggest dropdown. <strong>Click on a tag</strong> to add it.</li>
+<li>To <strong>specify multiple tags</strong>, simply <strong>continue to add them</strong> to the text box. If you specify multiple tags, use the <em>Item is tagged with</em> dropdown to choose whether <strong>any</strong> or <strong>all</strong> of the tags must be matched.</li>
+</ol>
+</div>
+</div>
+<p>After configuring each criterium, <strong>click anywhere outside the configuration area </strong>(but still within the wizard) to "set" it on the Smart Filter. Successfully set criteria look like this:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360079423452" alt="Smart_Filters_-_Uberflip.png" width="549" height="260"></p>
+<div class="callout">
+<h4 id="h_01HAZ5V93N8J8PHHN2SQP9RWA9" class="callout__title">Info</h4>
+<ul class="list-bullet">
+<li>You can only add <strong>one of each of the criteria</strong> to any Smart Filter, so you must specify all related conditions as part of the same criterium.</li>
+<li>You can add <strong>multiple criteria</strong> to your Smart Filter. If you do so, each additional criterium will be treated as an <strong>AND condition</strong>, i.e. Items must <strong>match all specified criteria</strong> to be selected.<br><img src="https://help.uberflip.com/hc/article_attachments/360079577271" alt="Smart_Filters_-_Uberflip.png" width="461" height="92">
+</li>
+</ul>
+</div>
+<p>When you're ready to continue, <strong>click on the Next button</strong>.</p>
+<h3 id="h_01HAZ5V93NJZNCNQEX8D7R1X07">Step 2: Configure actions</h3>
+<p>Next, you set up the <strong>actions</strong> that your Smart Filter will perform on the Items selected by your search criteria.</p>
+<p>On the <strong>Action</strong> screen, use<strong> the</strong> <strong>Add Action</strong> <strong>dropdown menu</strong> below <em>When an item matches this search</em> to choose an action for your Smart Filter:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360079534792" alt="Smart_Filters_-_Uberflip.png"></p>
+<p>You can add and configure any (or all) the following actions:</p>
+<h4 id="h_01HAZ5V93N6HW2WEW44E32WH3P">Add to Streams</h4>
+<div class="tabs tabs--colored-2">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Performs this action</span> <span class="tabs-link">How to configure</span>
+</div>
+<div class="tab">
+<p><strong>Adds</strong> the selected Items to:</p>
+<ul>
+<li>All <strong>Marketing Streams</strong>,</li>
+<li>All<strong> Sales Streams</strong>, and/or</li>
+<li>One or more <strong>specific Marketing/Sales Streams</strong>
+</li>
+</ul>
+<p>The specified Stream(s) must be located in the Hub where the Smart Filter was created.</p>
+<div class="callout callout--warning">
+<h4 id="h_01HAZ5V93N8CDN79PC5CA8JZYV" class="callout__title">Adding Items to a Marketing Stream with Stream sections</h4>
+<p>When using a Smart Filter to add Items to a Marketing Streams that has <a href="https://help.uberflip.com/hc/en-us/articles/10861402352525" target="_self">Stream sections</a>, <strong>the Items will be added to the unsectioned area at the top of the Stream.</strong> There's no way to add Items to a specific section using Smart Filters. </p>
+<p>You'll need to <a href="https://help.uberflip.com/hc/en-us/articles/10861402352525-Add-and-edit-Stream-sections-in-a-Marketing-Stream#edit-stream-sections" target="_self">move the added Items into sections</a> manually if needed.</p>
+</div>
+</div>
+<div class="tab is-hidden">
+<ol>
+<li>Use the dropdown menu to <strong>select a Stream</strong>.</li>
+<li>To <strong>specify multiple Streams</strong>, click on <em>Add more streams</em>.</li>
+</ol>
+</div>
+</div>
+<h4 id="h_01HAZ5V93NSMFP7WCM1DBVR6F0">Remove from Streams</h4>
+<div class="tabs tabs--colored-2">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Performs this action</span> <span class="tabs-link">How to configure</span>
+</div>
+<div class="tab">
+<p><strong>Removes</strong> the selected Items from:</p>
+<ul>
+<li>All <strong>Marketing Streams</strong>,</li>
+<li>All<strong> Sales Streams</strong>, and/or</li>
+<li>One or more <strong>specific</strong><strong> Marketing/Sales Streams</strong>
+</li>
+</ul>
+<p>The specified Stream(s) must be located in the Hub where the Smart Filter was created.</p>
+</div>
+<div class="tab is-hidden">
+<ol>
+<li>Use the dropdown menu to <strong>select a Stream</strong>.</li>
+<li>To <strong>specify multiple Streams</strong>, click on <em>Add more streams</em>.</li>
+</ol>
+</div>
+</div>
+<h4 id="h_01HAZ5V93N088M7M96JHRH7MTF">Feature in Streams</h4>
+<div class="tabs tabs--colored-2">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Performs this action</span> <span class="tabs-link">How to configure</span>
+</div>
+<div class="tab">
+<p><strong>Sets the "featured" attribute</strong> on the selected Items in:</p>
+<ul>
+<li>Their<strong> native (source) Streams</strong>,</li>
+<li>
+<strong>All Stream(s) in which the Items appear</strong>, and/or</li>
+<li>One or more <strong>specific Marketing Streams</strong>.</li>
+</ul>
+<p>The specified Stream(s) must be located in the Hub where the Smart Filter was created.</p>
+</div>
+<div class="tab is-hidden">
+<ol>
+<li>Use the dropdown menu to <strong>select a Stream</strong>.</li>
+<li>To s<strong>pecify multiple Streams</strong>, click on <em>Add more streams</em>.</li>
+</ol>
+</div>
+</div>
+<h4 id="h_01HAZ5V93PZZVK80E7Y7ZZF34B">Unfeature in Streams</h4>
+<div class="tabs tabs--colored-2">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Performs this action</span> <span class="tabs-link">How to configure</span>
+</div>
+<div class="tab">
+<p><strong>Removes the "featured" attribute</strong> on the selected Items in:</p>
+<ul>
+<li>Their<strong> native (source) Streams</strong>,</li>
+<li>
+<strong>All Stream(s) in which the Items appear</strong>, and/or</li>
+<li>One or more <strong>specific Marketing Streams</strong>.</li>
+</ul>
+<p>The specified Stream(s) must be located in the Hub where the Smart Filter was created.</p>
+</div>
+<div class="tab is-hidden">
+<ol>
+<li>Use the dropdown menu to <strong>select a Stream</strong>.</li>
+<li>To <strong>specify multiple Streams</strong>, click on <em>Add more streams</em>.</li>
+</ol>
+</div>
+</div>
+<h4 id="h_01HAZ5V93P8XA1FHC344DE6GZ9">Add Tags</h4>
+<div class="tabs tabs--colored-2">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Performs this action</span> <span class="tabs-link">How to configure</span>
+</div>
+<div class="tab">
+<p><strong>Adds one or more specified tags</strong> to the selected Items. The <strong>tags must already exist</strong> in any of the Hubs belonging to your Uberflip account (i.e. must appear under the Tags menu).</p>
+</div>
+<div class="tab is-hidden">
+<ol>
+<li>
+<strong>Start typing in the text box</strong> to see available tags in an autosuggest dropdown. <strong>Click on a tag</strong> to add it.</li>
+<li>To <strong>specify multiple tags</strong>, simply <strong>continue to add them</strong> to the text box.</li>
+</ol>
+</div>
+</div>
+<h4 id="h_01HAZ5V93PBBTD69BCQ7CPPF9D">Remove Tags</h4>
+<div class="tabs tabs--colored-2">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Performs this action</span> <span class="tabs-link">How to configure</span>
+</div>
+<div class="tab">
+<p><strong>Removes one or more specified</strong> <strong>tags</strong> from the selected Items. </p>
+</div>
+<div class="tab is-hidden">
+<ol>
+<li>
+<strong>Start typing in the text box</strong> to see available tags in an autosuggest dropdown. <strong>Click on a tag</strong> to add it to the text box (i.e. specify if for removal).</li>
+<li>To <strong>specify multiple tags</strong>, simply <strong>continue to add them</strong> to the text box.<br>
+<ul>
+<li>
+<strong>Note: </strong>This action will still remove specified tags from any Items that have some but not all of the tags listed in the text box.</li>
+</ul>
+</li>
+</ol>
+</div>
+</div>
+<h4 id="h_01HAZ5V93P2K7ED7Z16PSGMQPT">Change Status</h4>
+<div class="tabs tabs--colored-2">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Performs this action</span> <span class="tabs-link">How to configure</span>
+</div>
+<div class="tab">
+<p><strong>Changes the</strong> <strong>status</strong> of the selected Items to either <strong>Show</strong> or <strong>Hide</strong>.</p>
+</div>
+<div class="tab is-hidden">
+<p>Use the dropdown menu to <strong>select the desired status to be applied</strong>.</p>
+</div>
+</div>
+<h4 id="h_01HAZ5V93PSBEEEXC9PYS7XAEJ">Delete</h4>
+<div class="tabs tabs--colored-2">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Performs this action</span> <span class="tabs-link">How to configure</span>
+</div>
+<div class="tab">
+<p><strong>Deletes </strong>all of the selected Items from your Hub.</p>
+</div>
+<div class="tab is-hidden">
+<p>There are <strong>no options to configure</strong> for this action.</p>
+</div>
+</div>
+<p>As with search criteria, <strong>click anywhere outside the configuration area </strong>(but still within the wizard) after configuring each action to "set" it on the Smart Filter.</p>
+<div class="callout">
+<h4 id="h_01HAZ5V93PDQX29XF97R7WNPJK" class="callout__title">Info</h4>
+<ul class="list-bullet">
+<li>You can only add <strong>one of each of the actions</strong> to any Smart Filter, so you must specify all related conditions as part of the same action.</li>
+<li>You can add <strong>multiple actions</strong> to your Smart Filter. In this case, the configured actions will be executed in the order in which they appear on the Action screen. The execution order is <strong>determined by the order in which the actions appear in the dropdown menu</strong>, not the order in which they are added. For example, if you first add a <em>Delete</em> action and then add an <em>Add to Streams</em> action, <em>Add to Streams</em> will appear higher in the execution order because it is higher in the actions dropdown menu.<br>
+<ul class="list-bullet">
+<li>The exceptions are the <em>Remove from</em> Streams and <em>Remove Tags</em> actions, which will be added in the execution order <strong>above</strong> any <em>Add to Streams</em> and <em>Add Tags</em> actions (respectively) that are also present.</li>
+</ul>
+</li>
+</ul>
+</div>
+<p>When you're ready to continue, <strong>click on the Next button</strong>.</p>
+<h3 id="h_01HAZ5V93PZGGK29FCG2CK7B76">Step 3: Configure settings and save</h3>
+<p>Finally, you set up the <strong>trigger event</strong> that will cause your Smart Filter to run, as well as give it a name and save it.</p>
+<p>On the <strong>Settings</strong> screen,<strong> use the Select filter event dropdown</strong> <strong>menu </strong>below <em>Filter runs</em> to choose when your Smart Filter will be executed:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360079539252" alt="Smart_Filters_-_Uberflip.png"></p>
+<p>You can choose any one of the following options:</p>
+<h4 id="h_01HAZ5V93P29GB0Y3P1X60V552">When an item is edited</h4>
+<div class="tabs tabs--colored-2">
+<div class="tabs-menu"><span class="tabs-link is-active">Runs when this event occurs</span></div>
+<div class="tab">
+<ul>
+<li>Whenever <strong>any user</strong> <strong>edits</strong> <strong>an existing Item </strong>that meets the search criteria</li>
+<li>Runs <strong>automatically</strong>
+</li>
+</ul>
+</div>
+</div>
+<h4 id="h_01HAZ5V93P6199SHE2HWNSACRJ">When an item is created or imported</h4>
+<div class="tabs tabs--colored-2">
+<div class="tabs-menu"><span class="tabs-link is-active">Runs when this event occurs</span></div>
+<div class="tab">
+<ul>
+<li>Whenever <strong>a new item is added </strong>that meets the search criteria<strong><br></strong>
+<ul>
+<li>Includes new items added by importing an RSS feed, or by any user creating a new blog post in Uberflip</li>
+</ul>
+</li>
+<li>Runs <strong>automatically</strong>
+</li>
+</ul>
+</div>
+</div>
+<h4 id="h_01HAZ5V93PHXFBEMDDBWTQT8T4">When an item is created, edited, or imported</h4>
+<div class="tabs tabs--colored-2">
+<div class="tabs-menu"><span class="tabs-link is-active">Runs when this event occurs</span></div>
+<div class="tab">
+<ul>
+<li>Whenever <strong>any item </strong>that meets the search criteria<strong> is edited, created, or imported</strong> (i.e. a combination of the two trigger events above)</li>
+<li>Runs <strong>automatically</strong>
+</li>
+</ul>
+</div>
+</div>
+<h4 id="h_01HAZ5V93PSGS53M2FEDMXGA5N">On Demand</h4>
+<div class="tabs tabs--colored-2">
+<div class="tabs-menu"><span class="tabs-link is-active">Runs when this event occurs</span></div>
+<div class="tab">
+<ul>
+<li>Whenever the Smart Filter's <strong><em>Run</em> button is clicked</strong> (see <a href="#h_01ESHRY294BZJ1APN8PQ24G7KD" target="_self" rel="undefined">Manage Smart Filters</a>)</li>
+<li>Runs with <strong>manual activation only</strong> (no automation)</li>
+</ul>
+</div>
+</div>
+<p>Next, <strong>use the</strong> <strong>Filter Name field </strong>give your Smart Filter a name that will help you to identify it in your list of Smart Filters:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360079541852" alt="Smart_Filters_-_Uberflip.png"></p>
+<p>By default, the Smart Filter will run for the first time whenever the specified trigger event happens next. If you also want to <strong>run the Smart Filter immediately</strong> on saving it, you can <strong>check the box next to <em>Run on existing items immediately</em></strong>:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360079542092" alt="Smart_Filters_-_Uberflip.png" width="375" height="397"></p>
+<p>When you're finished, <strong>click on the Save button</strong>. The wizard will close and you will be returned to the main Smart Filters menu, where your new Smart Filter has been added to the list:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360079538392" alt="Smart_Filters_-_Uberflip.png"></p>
+<h2 id="h_01ESHRY294BZJ1APN8PQ24G7KD">Manage Smart Filters</h2>
+<p>At any time, you can <strong>edit</strong> or <strong>delete</strong> any existing Smart Filter, as well as <strong>run it on demand</strong> and <strong>copy it</strong> as a template for a new Smart Filter.</p>
+<ol>
+<li>To manage your existing Smart Filters, navigate to the <strong>Smart Filters</strong> menu in the appropriate Hub (remember that this menu will only show Smart Filters created in the Hub you're currently in).</li>
+<li>
+<strong>Hover your mouse</strong> over the Smart Filter you want to work with. Additional buttons will appear on its right side:<strong><img src="https://help.uberflip.com/hc/article_attachments/360079695191" alt="Fullscreen_2020-12-14__5_56_PM.png"></strong>
+</li>
+<li>Click on the button for the action you want. These are:
+<ul>
+<li>
+<strong>Run (circular arrow)</strong>: Runs the Smart Filter immediately. This is how you run Smart Filters configured with the <strong>On Demand</strong> trigger event, but will also work for Smart Filters set to any other trigger event.</li>
+<li>
+<strong>Edit (pencil)</strong>: Opens the Smart Filter in the configuration wizard so you can modify it.</li>
+<li>
+<strong>Copy (two pages)</strong>: Creates a new Smart Filter and opens the configuration wizard with the configuration of the copied Smart Filter pre-filled.</li>
+<li>
+<strong>Delete (trash can)</strong>: Deletes the Smart Filter from the Hub.</li>
+</ul>
+</li>
+</ol>
+<h3 id="h_01HAZ5V93P76SRFEWC9P1RZGTC">Edit an existing Smart Filter</h3>
+<p>You can editing existing Smart Filters to <strong>add new search criteria and actions</strong>, as well as <strong>modify or delete existing ones</strong>.</p>
+<ol>
+<li>Click on the <strong>Edit</strong> button next to a Smart Filter to reopen the configuration wizard.</li>
+<li>Each criterium or action configured on the Smart Filter displays an <strong>Edit (pencil)</strong> button and a <strong>Delete (x)</strong> button that appear to its right:<br>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360079529152" alt="Smart_Filters_-_Uberflip.png"><br>To edit or delete any criterium or action, simply <strong>click on the corresponding button</strong>.</p>
+</li>
+<li>After you make any changes, <strong>go to the</strong> <strong>Settings screen</strong> and <strong>click on the Save button</strong> to close the wizard and save your changes.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360022891612</guid>
+         <pubDate>Fri, 08 Feb 2019 19:40:54 GMT</pubDate>
+      </item>
+      <item>
+         <title>Scheduled Tasks explained</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/21119065476365-Scheduled-Tasks-explained</link>
+         <description><![CDATA[<p>With Scheduled Tasks, you can choose a date and time to show or hide Items, CTAs, and Streams. Want to add or remove tags on a schedule? It can do that too. Or maybe you want to change the featured Item in a Stream? Scheduled Tasks can do all of that. </p>
+<p>This article outlines which actions you can schedule and how it's done.</p>
+<div class="callout callout--info">
+<h4 id="h_01HERM7NZ21FXPMSJHPJZKWN9Q" class="callout__title"><strong>Want to schedule a blog post?</strong></h4>
+<p>Scheduled Tasks can be used to show or hide an already published blog post, but it can't publish a new post. That said, blog publishing can be scheduled in the blog editor. Check out <a href="https://help.uberflip.com/hc/en-us/articles/360020084712-Schedule-a-blog-post-to-be-published-in-the-future">Schedule a blog post to be published in the future</a> to see how.</p>
+</div>
+<p> </p>
+<h2 id="h_01HERM8FC9PDEN7EG9Q23RBWJQ">Good to know</h2>
+<ul>
+<li>Only users with <strong>Account Admin</strong> <strong>or Content Manager permissions</strong> can schedule tasks</li>
+<li>Scheduled Tasks works with <strong>CTAs, Streams, and Items only</strong>
+</li>
+<li>Microsite made with <strong><a href="https://help.uberflip.com/hc/en-us/articles/17703415334669">Uberflip Pages</a> can not be scheduled </strong>
+</li>
+</ul>
+<p> </p>
+<h2 id="h_01HERM8FC9FJM1WFTDSCQTRASX">What tasks (actions) can be scheduled?</h2>
+<p>You can schedule tasks for CTAs, Items, and Streams, each having their own set of actions you can schedule. This table outlines the actions possible for each: </p>
+<div>
+<table class="table table--bordered" style="margin-left: 0px; margin-right: auto;">
+<colgroup> <col> <col> <col> </colgroup>
+<tbody>
+<tr>
+<td style="vertical-align: top; text-align: left; width: 216.039px;"><strong>Streams</strong></td>
+<td style="vertical-align: top; text-align: left; width: 266.688px;"><strong>Items</strong></td>
+<td style="vertical-align: top; text-align: left; width: 183.273px;"><strong>CTAs</strong></td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: left; width: 216.039px;">
+<p><strong>Show</strong></p>
+<p><em>Show a Stream that is currently hidden.</em></p>
+</td>
+<td style="vertical-align: top; text-align: left; width: 266.688px;">
+<p><strong>Show</strong></p>
+<p><em>Show an Item that is currently hidden</em><strong> </strong></p>
+</td>
+<td style="vertical-align: top; text-align: left; width: 183.273px;">
+<p><strong>Show</strong></p>
+<p><em>Show a CTA that is currently hidden. </em></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: left; width: 216.039px;">
+<p><strong>Hide</strong></p>
+<p><em>Hide a Stream that is currently shown.</em></p>
+</td>
+<td style="vertical-align: top; text-align: left; width: 266.688px;">
+<p><strong>Hide</strong></p>
+<p><em>Hide an Item that is currently shown</em></p>
+</td>
+<td style="vertical-align: top; text-align: left; width: 183.273px;">
+<p><strong>Hide</strong></p>
+<p><em>Hide a CTA that is currently shown.</em></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: left; width: 216.039px;">
+<p><strong>Add Tag</strong></p>
+<p><em>Add specific tags to all Items in this Stream.</em><br><br><strong>Note: </strong>Tags must already exist in your Uberflip account.</p>
+</td>
+<td style="vertical-align: top; text-align: left; width: 266.688px;">
+<p><strong>Feature</strong></p>
+<p><em>Feature this Item as a 2 x 2 sized tile in the first spot of the Stream.</em></p>
+</td>
+<td style="vertical-align: top; text-align: left; width: 183.273px;"> </td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: left; width: 216.039px;">
+<p><strong>Remove Tags</strong></p>
+<p><em>Remove specific tags from all Items in this Stream.</em></p>
+</td>
+<td style="vertical-align: top; text-align: left; width: 266.688px;">
+<p><strong>Unfeature </strong></p>
+<p><em>If the Item is currency featured, unfeature it, removing it from the top spot.</em></p>
+</td>
+<td style="vertical-align: top; text-align: left; width: 183.273px;"> </td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: left; width: 216.039px;"> </td>
+<td style="vertical-align: top; text-align: left; width: 266.688px;">
+<p><strong>Add Tags</strong></p>
+<p><em>Add certain tags to this Item.</em></p>
+<p><strong>Note: </strong>Tags must already exist in your Uberflip account.</p>
+</td>
+<td style="vertical-align: top; text-align: left; width: 183.273px;"> </td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: left; width: 216.039px;"> </td>
+<td style="vertical-align: top; text-align: left; width: 266.688px;">
+<p><strong>Remove Tags</strong></p>
+<p><em>Remove specific tags from this Item.</em></p>
+</td>
+<td style="vertical-align: top; text-align: left; width: 183.273px;"> </td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2 id="h_01HETJHB8GD7SCGZS63WXKFR9Z">Schedule a task</h2>
+<p>This section shows you how to schedule a task for the future.</p>
+<ol>
+<li>Click <strong>Scheduled Tasks </strong>in the sidebar menu<br><img src="https://help.uberflip.com/hc/article_attachments/21187334761101" width="200" height="467">
+</li>
+<li>Click <strong>+ Schedule a Task</strong><strong><br></strong><img src="https://help.uberflip.com/hc/article_attachments/21187334770317" width="501" height="272">
+</li>
+<li>A modal will open. Choose what you want to schedule an action for: CTA, Item, or Stream</li>
+<li>Choose the CTA, Item, or Stream you want to schedule an action for<br><strong><em>Note:</em></strong><em> For Items, you’ll choose the Stream the Item is in first, then the Item.</em>
+</li>
+<li>Choose an action you want to schedule. Items, CTAs, and Streams have different actions available. See <a href="https://help.uberflip.com/hc/en-us/articles/21119065476365#h_01HERM8FC9FJM1WFTDSCQTRASX">What actions can be scheduled?</a> for action details.</li>
+<li>Choose a date and time for your action to take place using the date selector and time sliders<br><img src="https://help.uberflip.com/hc/article_attachments/21187318334733" width="400" height="350">
+</li>
+<li>Click <strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Save</strong>
+</li>
+</ol>
+</div>
+<div class="callout">
+<h4 id="h_01HETJNJPPDJE5F56G4917QKRR" class="callout__title">Note</h4>
+<p>No success message is shown when a task is saved. And you must refresh the page to see your task in the task list.</p>
+</div>
+<p>That’s it! Your task is scheduled and will run at your specified time. </p>
+<p>You can edit a task anytime before it runs by clicking the pencil icon in the task list. Or delete it by clicking the trash icon to prevent it from running at all. <br><img src="https://help.uberflip.com/hc/article_attachments/21187334795277"></p>
+<p>After the task is completed, it’ll be removed from the task list. A completed task can’t be “undone”, but you can run another task to reverse those changes if needed.</p>
+<p> </p>
+<h2 id="h_01HETJP3HD5FBA7M3A2RXH1BZ3">Other ways to launch the task scheduler </h2>
+<p>Sometimes you may want to schedule a task while creating or editing your CTA, Stream, or Item. That’s why you can also launch the task scheduler from the editing pages for those assets.</p>
+<p>Here are the other ways to launch Scheduled Tasks:  </p>
+<h3 id="h_01HETJP3HDD0QQQHVYPN36SJCH"><span style="color: #434343;">The CTA editor</span></h3>
+<p>Click<strong> Schedule </strong>in the CTA editor to schedule a task for the CTA you’re working on. </p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/21187334797069" width="598" height="170"></p>
+<h3 id="h_01HETJPX40DG7XJV60GDCBJYH4"><span style="color: #434343;">The Stream editor </span></h3>
+<p>In the Stream editor, <strong>Click the “more” menu (three dot icons), then click Schedule</strong> to schedule a task for that Stream.<br><img src="https://help.uberflip.com/hc/article_attachments/21187334805773" width="601" height="176"></p>
+<h3 id="h_01HETJPX40T8AJ5P232P18BXHJ"><span style="color: #434343;">The Item editor</span></h3>
+<p><strong>Click the “more” menu (three lines icon), then click Schedule</strong> to schedule a task for that Item from the Item editor.<br><img src="https://help.uberflip.com/hc/article_attachments/21187334807693" width="599" height="286"></p>
+<p>You can also launch the Item task scheduler from the Stream editor page. <strong>Hover over the Item in a Stream, click the 4 vertical line icon, then click Schedule.</strong><br><img src="https://help.uberflip.com/hc/article_attachments/21187334811661" width="602" height="378"></p>
+<p><br><br></p>]]></description>
+         <guid isPermaLink="false">21119065476365</guid>
+         <pubDate>Tue, 07 Nov 2023 19:24:00 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hide or delete (archive) an Item</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360025265112-Hide-or-delete-archive-an-Item</link>
+         <description><![CDATA[<p>Want to hide or delete an Item that's currently published in your Hub? This article will show you how.</p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Deleting a Flipbook?</h4>
+<p>Hiding or deleting a Flipbook in a Hub/Stream will make it unavailable for viewing in the Hub/Streams, but <strong>it won't remove it from your account.</strong> This means you won't regain the Flipbook's spot towards your account's Flipbook limit using the methods in this article. </p>
+<p>To remove it from your account, you must <a href="https://help.uberflip.com/hc/en-us/articles/9984366864141" target="_self">delete it from the Flipbook folder</a>. </p>
+</div>
+<p>Once you've published an Item on your Uberflip Hub, you can't "unpublish" it in the sense of returning it to a draft state.</p>
+<p>However, you can make an Item <strong>unavailable</strong>, while still being able to retrieve it (and publish it again) later, there are<strong> two ways to do this:</strong></p>
+<p> </p>
+<h2>Hide an Item</h2>
+<p>If you want the Item to no longer be visible in any of the Streams that it has been added to, you can <strong>hide</strong> it. Keep in mind that hiding an Item will make it <em>invisible</em> in the context of its Streams, but <strong>not</strong> <em>inaccessible</em>, so anyone who has the direct URL to the Item will still be able to view it.</p>
+<p>To hide an Item, go to <strong>Hub &gt; Content &gt; Items tab</strong>. Open the Item you want to hide, then click on its <strong>Metadata</strong> tab. Scroll down to the <strong>Status</strong> dropdown and change it to <strong>Hide</strong>:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360024263171/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png" width="528" height="487"></p>
+<p>The change will take effect right away, and will be saved automatically.</p>
+<p> </p>
+<h2>Delete (archive) an Item</h2>
+<p>If you want to make sure that the Item is completely inaccessible, even to anyone who has its direct URL, you can "delete" it.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>"Deleting" an Item in Uberflip is more like archiving it, as it can be fully recovered at anytime.</p>
+</div>
+<p>Deleting it will remove the Item from all Streams and move it to the Deleted Items page. When an Item has been deleted, you can still <a href="https://help.uberflip.com/hc/en-us/articles/360020669872">recover it later</a> if needed.</p>
+<p>To archive an Item, go to <strong>Hub &gt; Content &gt; Items tab</strong>. Find the Item you want to archive, hover over it, and <strong>click the Trash</strong> <strong>icon </strong>that appears.<strong><img src="https://help.uberflip.com/hc/article_attachments/360024265031/Fullscreen_2019-03-20__1_01_PM.png" alt="Fullscreen_2019-03-20__1_01_PM.png" width="690" height="62"></strong></p>]]></description>
+         <guid isPermaLink="false">360025265112</guid>
+         <pubDate>Wed, 20 Mar 2019 17:02:57 GMT</pubDate>
+      </item>
+      <item>
+         <title>Recover deleted Items and archived Streams</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020669872-Recover-deleted-Items-and-archived-Streams</link>
+         <description><![CDATA[<hr>
+<p>Need to restore an Item that you deleted or a Stream you archived? Here's how.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>To recover deleted Items or restore archived Streams, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>. <strong>Sales Reps</strong> can also restore their own archived Sales Streams.</li>
+<li>Note that <strong>Stream Archiving</strong> was introduced with V1294 on <strong>January 24th, 2019</strong>. Streams that were deleted prior to this date were removed permanently, and can't be restored.</li>
+</ul>
+<p> </p>
+<h2>About recovering deleted Items and archived Streams</h2>
+<p>It happens: you deleted an Item that you didn't mean to delete. Or maybe you archived a Stream and then realized you still needed it. Fortunately, there's an easy fix for both situations.</p>
+<p>When you delete an Item, Uberflip actually <strong>archives</strong> the Item, which involves removing it from all Streams and hiding it from the Hub. This means that you can view a list of all deleted Items at any time, and recover a deleted Item with a single click.</p>
+<p>It's similar for Streams: archiving a Stream doesn't delete it, and instead just hides it from your Hub. Archiving a Source Stream also archives the Items it contains, while archiving a Marketing Stream will hide only the Stream itself. As with Items, you can see a list of archived Streams, and restore any of them with a click (provided you have not yet hit your Stream limit).</p>
+<div class="callout callout--success">
+<h4 class="callout__title">Limits on Recovering Items</h4>
+<p>You can recover a deleted Item <strong>until its Source Stream reaches the maximum number of Items </strong>(e.g. 5000 Items for Blog Streams). Once a Source Stream reaches this limit, the oldest active (non-deleted) Items in the Stream will be purged from the Stream to make room for new Items as they are created. Deleted Items do not count towards the limit (and are not automatically purged). However, once a Stream has reached the limit, you will not be able to recover deleted Items until you have made space in the Stream by manually deleting other Items from it.</p>
+<p>Any Items that were archived as a result of archiving their Source Stream can't be recovered the same way as individually deleted Items. However, you can restore such Items by restoring the whole Stream.</p>
+</div>
+<p> </p>
+<h2>Recover a deleted Item</h2>
+<ol>
+<li>Log in to Uberflip and navigate to the Hub from which you deleted the Item.</li>
+<li>In the sidebar menu on the left, click on <strong>Content</strong>.</li>
+<li>On the <strong>Manage Content</strong> page, click the <strong>Items</strong> tab.</li>
+<li>Click the <strong>additional </strong><strong>settings </strong> <strong>button (•••)</strong> to the right of the search field.</li>
+<li>Click <strong>Manage Deleted Items</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/5299451774733/ijn.png" alt="ijn.png">
+</li>
+<li>The <strong>Deleted Items</strong> page will appear, showing you all the Items in the current Hub that have been deleted. You can see a count of the number of deleted Items in the top right, along with a search field that you can use to search for the deleted Item you want to restore.<br><img src="https://help.uberflip.com/hc/article_attachments/360017472172/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png" width="552" height="338">
+</li>
+<li>When you find the Item you want to restore, click on its <strong>Restore Item</strong> button:<br><img src="https://help.uberflip.com/hc/article_attachments/360017357571/Fullscreen_2018-12-13__12_56_PM.png" alt="Fullscreen_2018-12-13__12_56_PM.png">
+</li>
+<li>Your deleted Item will now be restored to its original Source Stream, as well as any Marketing and Sales Streams that it appeared in before being deleted.</li>
+</ol>
+<p> </p>
+<h2>Restore an archived Stream</h2>
+<ol>
+<li>Log in to Uberflip and navigate to the Hub containing the archived Stream.</li>
+<li>In the sidebar menu on the left, click on <strong>Content</strong>.</li>
+<li>Under the <strong>Streams</strong> tab, click the <strong>additional </strong><strong>settings </strong> <strong>button (•••)</strong> to the right of the search field.</li>
+<li>In the menu that appears, click on <strong>Manage Archived Streams</strong>.<br><img src="https://help.uberflip.com/hc/article_attachments/5543276182285/iuhb.png" alt="iuhb.png" width="600" height="126">
+</li>
+<li>The <strong>Archived Streams</strong> view will appear, displaying a list of Streams in the Hub that have been archived:<br><img src="https://help.uberflip.com/hc/article_attachments/360019334931/Hubs___Manage_Archived_Streams_-_Uberflip.png" alt="Hubs___Manage_Archived_Streams_-_Uberflip.png" width="698" height="207">
+</li>
+<li>When you find the Stream you want to restore, click on its <strong>Restore Stream</strong> button under the <strong>Restore</strong> column on the right:<br><img src="https://help.uberflip.com/hc/article_attachments/360019335371/Hubs___Manage_Archived_Streams_-_Uberflip.png" alt="Hubs___Manage_Archived_Streams_-_Uberflip.png" width="698" height="57">
+</li>
+<li>Your deleted Stream will now be restored, and will once again appear in your Hub. For Source Streams, the Items in the Stream will also be restored to any Marketing or Sales Streams that they were previously in.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360020669872</guid>
+         <pubDate>Thu, 13 Dec 2018 15:54:31 GMT</pubDate>
+      </item>
+      <item>
+         <title>Add custom URL paths (vanity URLs) to Items</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/8266672094605-Add-custom-URL-paths-vanity-URLs-to-Items</link>
+         <description><![CDATA[<p>Learn how to create additional custom URL paths (also known as "vanity URLs") for your Items.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>This article outlines how to add vanity URLs to <em>Items</em>. <strong>Looking to add vanity URLs to Streams?</strong> Check out: <a href="https://help.uberflip.com/hc/en-us/articles/4403569054733" target="_self">Add custom URL paths (vanity URLs) to Streams</a></p>
+</div>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>By default, members of the <strong>Account Administrators</strong> or <strong>Content Managers</strong> user groups can add custom URLs to Items. The following permissions control the ability to add custom URLs: <strong><em>View Hubs &gt; Manage Items &amp; Hub Settings</em></strong>
+</li>
+</ul>
+<p> </p>
+<h2>About custom URL paths ("vanity URLs")</h2>
+<p>When you create a new Stream or Item in your Hub, Uberflip automatically creates a URL for the resulting page. This URL will consist of your Hub's base URL, followed by a <strong>URL path</strong> formed from the Stream or Item's title. For example, Uberflip's own Hub has a Stream with the title <strong>Newsroom Articles</strong>, so the resulting URL is:</p>
+<p><a href="https://hub.uberflip.com/newsroom-articles" target="_self" rel="undefined">https://hub.uberflip.com/newsroom-articles</a></p>
+<p>Within that Stream, we've added an Item with the title <strong>Uberflip launches content experience certifications to help marketers master the acceleration of pipeline and revenue from demand programs</strong>, so the full URL for that page is:</p>
+<p><a href="https://hub.uberflip.com/newsroom-articles/uberflip-launches-content-experience-certifications-to-help-marketers-master-the-acceleration-of-pipeline-and-revenue-from-demand-programs">https://hub.uberflip.com/newsroom-articles/uberflip-launches-content-experience-certifications-to-help-marketers-master-the-acceleration-of-pipeline-and-revenue-from-demand-programs</a></p>
+<p>As you can see, the default URL for an Item like this is incredibly long. In cases where you don't have enough space for a URL this long (or if you simply want a shorter, snappier URL), you can <strong>add a custom URL path</strong> and use that instead.</p>
+<p>Custom URL paths, or "vanity URLs", allow you to add <strong>alternative valid URLs</strong> to Streams or Items by specifying a new URL path of your choice. For instance, say we wanted to shorten the URL of the Item above. All we need to do is add a new URL path for, say, <em>/content-experience-certifications</em>, and we get a new URL that points to the same Item like this:<em><br></em></p>
+<p><a href="https://hub.uberflip.com/newsroom-articles/uberflip-launches-content-experience-certifications-to-help-marketers-master-the-acceleration-of-pipeline-and-revenue-from-demand-programs" target="_self" rel="undefined">https://hub.uberflip.com/newsroom-articles/content-experience-certifications</a></p>
+<p>Custom URL paths don't <em>replace</em> the default URL for a Stream or Item — they're simply <em>added on</em> as another way to get to the same page, so the original URL (and all links to it) continues to work.</p>
+<h2>Add a custom URL path to an Item</h2>
+<p>You can add custom URL paths to any type of Item. You can add as many custom URL paths as needed — however, all custom URL paths must be unique (two Items cannot share the same URL path).</p>
+<ol>
+<li>Log in to <strong>app.uberflip.com</strong> and use the <strong>Hubs</strong> menu to select the Hub you want to work with.</li>
+<li>Click on <strong>Content</strong> in the sidebar menu.</li>
+<li>Click on the <strong>Items tab</strong> on the right.</li>
+<li>Find the Item for which you want to add a custom URL path and <strong>click on the Item </strong>to open it in the Item Editor.</li>
+<li>While viewing the Item in the Item Editor, click on the <strong>Metadata tab</strong>.</li>
+<li>Find the <strong>URL Path</strong> field:<br><img src="https://help.uberflip.com/hc/article_attachments/4403566033677/image.png" alt="image.png">
+</li>
+<li>
+<strong>Enter the new URL path</strong> you want to add into the field, then press <strong>Enter</strong> (or click anywhere outside the field). Your new URL path will be added and will be active immediately. In addition, the previous URL path will appear underneath the field and will also remain active:<br><img src="https://help.uberflip.com/hc/article_attachments/4403566064653/image.png" alt="image.png">
+</li>
+<li>All URL paths that are listed both in and below the <strong>URL Path</strong> field are currently active, and can be used to access this Item. You can also <strong>remove a previous URL path</strong> (including the original default URL path) by <strong>clicking on the x beside it</strong>, which will remove it and deactivate it immediately:<br><img src="https://help.uberflip.com/hc/article_attachments/4403566077325/image.png" alt="image.png">
+</li>
+</ol>
+<p> </p>
+<h2>Additional notes</h2>
+<ul>
+<li>The most recently added URL path for Items will appear in the URL Path field, and will be the <strong>primary URL path</strong>. For Stream URL paths, any Items within the Stream will use the primary Stream URL path as part of their own URL.</li>
+<li>Whenever you add a custom URL path, a 301 redirect will automatically be created that points all requests for the old URL path to the new primary URL path (additional redirects will be created for each previous URL path that exists).</li>
+<li>A <a href="https://help.uberflip.com/hc/en-us/articles/360028437152-Uberflip-SEO-Settings-Best-Practices-Explained#canonical-meta-tag-canonical-url-force-selfcanonical-url" target="_self" rel="undefined">canonical URL</a> will be created that designates the current primary URL path as the canonical. If the Item already has a canonical URL, it will not be changed, and likewise if you manually add a canonical URL to the Item later, this will override the primary URL path as the canonical.</li>
+<li>Page metrics in both Uberflip Analytics and Google Analytics should not be affected by adding a custom URL path.</li>
+</ul>]]></description>
+         <guid isPermaLink="false">8266672094605</guid>
+         <pubDate>Mon, 08 Aug 2022 17:35:35 GMT</pubDate>
+      </item>
+      <item>
+         <title>Schedule a blog post to be published in the future</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020084712-Schedule-a-blog-post-to-be-published-in-the-future</link>
+         <description><![CDATA[<p>Finished writing a new blog post, but you're not ready to publish it yet? You can schedule it to publish automatically in the future! This article will show you how.</p>
+<h2>Schedule a blog post</h2>
+<p>Ok, so you've written your blog post in Uberflip and you're ready to schedule it, here's what you do:</p>
+<p>First of all, <strong>do</strong> <strong>NOT</strong><strong> hit the Publish</strong><strong> button </strong>when you create a new article in a Blog Stream.<img src="https://help.uberflip.com/hc/article_attachments/360016139371/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png" width="600" height="311"></p>
+<p>Instead, click on the <strong>Metadata tab</strong> at the top.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016088632/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png"></p>
+<p>Here, scroll down to <strong>Publish Date</strong> and <strong>click the calendar icon.</strong></p>
+<p>Then choose the date and time <em>in the future</em> you want the post to be published.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016139911/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png"></p>
+<p>Once you've done that, the date and time you chose will appear in the <strong>Publish Date</strong> box. When that date and time is reached, the post will be published automatically.</p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Remember</h4>
+<p><strong>Do NOT </strong><strong>to click the Publish button at any point!</strong> Doing this will immediately publish the post, and will override your scheduled publishing date.</p>
+</div>]]></description>
+         <guid isPermaLink="false">360020084712</guid>
+         <pubDate>Wed, 28 Nov 2018 21:14:34 GMT</pubDate>
+      </item>
+      <item>
+         <title>Configure your website to allow embedding into Uberflip content</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360060972932-Configure-your-website-to-allow-embedding-into-Uberflip-content</link>
+         <description><![CDATA[<hr>
+<p>If you want to embed content from your other websites into your Uberflip Hub, you may need to configure your website's Content Security Policy and/or X-Frame-Options to allow this. Here's how.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>This article provides recommendations about how to configure your website. In general, changes like this would need to be approved and implemented by your website administrator and/or IT department.</li>
+<li>The person who implements these recommendations will need to be familiar with how to modify the Content Security Policy and/or X-Frame-Options of your website, as well as have the appropriate access privileges to do so.</li>
+</ul>
+<p> </p>
+<h2>Objective</h2>
+<p>In Uberflip, you can embed content from an external source (such as another website) into your Hub Items using an <a href="https://en.wikipedia.org/wiki/Frame_(World_Wide_Web)" target="_self"><strong>iframe</strong></a>. There are a few different ways you can do this:</p>
+<ul>
+<ul>
+<li>Manually, by inserting <code class="no-padding">&lt;iframe&gt;</code> tags in the Item Editor's source code view</li>
+<li>Using the <a href="https://marketplace.uberflip.com/details/iframer/">iFramer</a> app</li>
+<li>Using the <a href="https://marketplace.uberflip.com/details/sales-assist-1/">Sales Assist</a> app's <a href="https://help.uberflip.com/hc/en-us/articles/360057767692-Sales-Assist-User-Guide-for-Sales-Users#creating-your-own-content-and-templates">My Items</a> functionality</li>
+</ul>
+</ul>
+<p>However, when you do this, <a href="https://help.uberflip.com/hc/en-us/articles/360061553372">you may see an error message</a> instead of the content you're trying to embed. This is because websites are commonly configured to <strong>prevent their content from being displayed in an iframe</strong>.</p>
+<p>To resolve (or avoid) this issue with websites that you own, you can <strong>configure your website's iframe restrictions to allow exceptions for your Hub</strong>. In this article, we'll look at where those restrictions are typically implemented, and how you can implement the necessary exceptions for your Hub.</p>
+<div class="callout">
+<h4 class="callout__title">What about third-party websites?</h4>
+<p>If you're having trouble when trying to iframe content from websites that you do <strong>not</strong> control (i.e. websites owned by third parties), your options are more limited. You can't force the third-party website to allow you to iframe their content, so you can either:</p>
+<ul>
+<li>Ask the third-party website owner to modify their own iframe restrictions, e.g. if the website is owned by a partner</li>
+<li>Avoid iframing the content and link to it instead</li>
+</ul>
+<p>Note also that some websites will not allow iframing of a whole page, but do allow certain elements to be iframed: for example, <a href="https://support.google.com/youtube/answer/171780?hl=en">YouTube</a> and <a href="https://developers.facebook.com/docs/plugins/embedded-posts/">Facebook</a>.</p>
+</div>
+<p> </p>
+<h2>Technical background</h2>
+<p>As a security measure to combat <a href="https://en.wikipedia.org/wiki/Clickjacking">clickjacking</a> attacks, website administrators will sometimes configure the following mechanisms to prevent their website from being iframed by another website:</p>
+<ul>
+<li>The <code class="no-padding">frame-ancestors</code> directive of a website's Content Security Policy header</li>
+<li>The <code class="no-padding">X-Frame-Options</code> header</li>
+</ul>
+<p>The default configuration of these mechanisms will prevent iframing of the website in all cases, including authorized uses such as embedding content from a website you own into your own Uberflip Hub. To allow for authorized uses while still maintaining protection against unauthorized/malicious use, these mechanisms each support the ability to <strong>selectively disable the restriction</strong>:</p>
+<ul>
+<li>The <code class="no-padding">frame-ancestors</code> directive of the Content Security Policy can be configured with a list of excepted URLs, which you can use to define specific URLs that are permitted to iframe your website</li>
+<li>The <code class="no-padding">X-Frame-Options</code> header can be removed from specific pages that you want to be able to iframe</li>
+</ul>
+<div class="callout callout--info">
+<h4 class="callout__title">Note: Other clickjacking defense mechanisms</h4>
+<p>In addition to those noted here, there are also other mechanisms to combat clickjacking, such as JavaScript frame-busters/frame-killers. There are too many variations to cover in this article, so be sure to check with your website administrator/web developer: they should be able to advise you if your website uses any such mechanisms,  and how you can adapt the recommendations outlined in this article for your specific setup.</p>
+</div>
+<p> </p>
+<h2>Modify your Content Security Policy <code class="no-padding">frame-ancestors</code> directive</h2>
+<p>If your website uses a <code class="no-padding">Content-Security-Policy</code> header with a <code class="no-padding">frame-ancestors</code> directive, you can <strong>specify exceptions for your Hub URLs</strong> in that directive.</p>
+<p>To do this, ensure the directive is <strong>not</strong> set to <code class="no-padding">'none'</code>, i.e.:</p>
+<pre><code class="http">Content-Security-Policy: frame-ancestors 'none';</code></pre>
+<p>Instead, <strong>set the directive to</strong> <code class="no-padding">'self'</code> and <strong>add the URLs of your Hub(s), </strong>i.e.:</p>
+<pre><code class="http">Content-Security-Policy: frame-ancestors 'self' [Hub URL(s) here];</code></pre>
+<p>See below for guidelines specific to <a href="https://help.uberflip.com/hc/en-us/articles/360018876192" target="_self">how your Hub's custom domain is set up</a>.</p>
+<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>You can find documentation on how to configure this directive in <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors">MDN Web Docs: CSP: frame-ancestors</a>.</p>
+</div>
+<h3>For a Hub on a <a href="https://help.uberflip.com/hc/en-us/articles/360018786372" target="_self">subdomain</a>:</h3>
+<p>Use this configuration if your Hub is on a subdomain like <em>https://hub.mycompany.com/ </em>(this includes Hubs on Uberflip default co-branded subdomains like <em>https://mycompany.uberflip.com/</em>):</p>
+<pre><code class="http">Content-Security-Policy: frame-ancestors 'self'<br>hub.mycompany.com<br>mycompany.uberflip.com;</code></pre>
+<ul>
+<li>Replace the example URLs (<code class="no-padding">hub.mycompany.com</code> and <code class="no-padding">mycompany.uberflip.com</code>) with your Hub's actual URLs.</li>
+<li>Make sure to include your Hub's default co-branded subdomain URL (similar to <code class="no-padding">mycompany.uberflip.com</code>) in the list — even if you do not actively use it.</li>
+<li>This example is for a single Hub (with the example custom subdomain URL <code class="no-padding">hub.mycompany.com</code>): if you have multiple Hubs, add their URLs as needed.</li>
+</ul>
+<h3>For a Hub on a <a href="https://help.uberflip.com/hc/en-us/articles/360019755751" target="_self">subdirectory</a>:</h3>
+<p>Use this configuration if your Hub is on a subdirectory like <em>https://www.mycompany.com/hub/</em>:</p>
+<pre><code class="http">Content-Security-Policy: frame-ancestors 'self'<br>www.mycompany.com/hub<br>mycompany.uberflip.com;</code></pre>
+<ul>
+<li>Replace the example URLs (<code class="no-padding">www.mycompany.com/hub</code> and <code class="no-padding">mycompany.uberflip.com/</code>) with your Hub's actual URLs.</li>
+<li>Make sure to include your Hub's default co-branded subdomain URL (similar to <code class="no-padding">mycompany.uberflip.com</code>) in the list — even if you do not actively use it.</li>
+<li>This example is for a single Hub (with the example custom subdirectory URL <code class="no-padding">www.mycompany.com/hub</code>): if you have multiple Hubs, add their URLs as needed.</li>
+</ul>
+<h3>Wildcard option:</h3>
+<p>For both subdomain and subdirectory Hubs, you can also simplify the directive by specifying URLs using wildcards instead, like this:</p>
+<pre><code class="http">Content-Security-Policy: frame-ancestors 'self'<br>*.mycompany.com<br>mycompany.com/*<br>*.uberflip.com;</code></pre>
+<ul>
+<li>This will allow iframing on all URLs that match the wildcard, i.e. all subdomains of <code class="no-padding">mycompany.com</code>, all subdirectories of <code class="no-padding">mycompany.com</code>, and all subdomains of <code class="no-padding">uberflip.com</code>.</li>
+<li>Replace all instances of <code class="no-padding">mycompany.com</code> with your actual website/Hub URLs.</li>
+<li>You can remove the non-applicable URL, e.g. remove <code class="no-padding">mycompany.com/*</code> if your Hub uses a subdomain, and vice-versa.</li>
+</ul>
+<p> </p>
+<h2>Remove the <code class="no-padding">X-Frame-Options</code> header</h2>
+<p>If your website uses an <code class="no-padding">X-Frame-Options</code> header with a <code class="no-padding">DENY</code> or <code class="no-padding">SAMEORIGIN</code> directive, you will need to <strong>remove this header from any page that you want to be able to iframe in your Hub</strong>.</p>
+<div class="callout callout">
+<h4 class="callout__title">Info</h4>
+<p>You can find documentation on how to configure this header on a variety of common web servers technologies in <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options" target="_self" rel="undefined">MDN Web Docs: X-Frame-Options</a>.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<ul>
+<li>While the <code class="no-padding">X-Frame-Options</code> header has an <code class="no-padding">ALLOW-FROM</code> directive, this is obsolete and should <strong>not</strong> be used.</li>
+<li>As recommended by MDN, the <code class="no-padding">Content-Security-Policy</code> header with a <code class="no-padding">frame-ancestors</code> directive is generally preferred to using the <code class="no-padding">X-Frame-Options</code> header, especially as a replacement for the <code class="no-padding">ALLOW-FROM</code> directive.</li>
+<li>If your website uses both the <code class="no-padding">X-Frame-Options</code> header <strong>and</strong> the <code class="no-padding">Content-Security-Policy</code> header, the <code class="no-padding">X-Frame-Options</code> header will take precedence in Safari and Internet Explorer.</li>
+</ul>
+</div>]]></description>
+         <guid isPermaLink="false">360060972932</guid>
+         <pubDate>Mon, 17 May 2021 22:09:09 GMT</pubDate>
+      </item>
+      <item>
+         <title>Optimize Your Blog&apos;s RSS Feed for Uberflip Streams</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020841051-Optimize-Your-Blog-s-RSS-Feed-for-Uberflip-Streams</link>
+         <description><![CDATA[<hr>
+<p>Learn how to optimize your existing blog's RSS feed to avoid common problems when pulling blog content into your Hub.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>To complete most of the steps described in this article, you'll need the necessary access to change settings in your blogging platform.</li>
+<li>Before making any changes to your blog's RSS feed settings, make sure to check whether these changes will impact any other software tools or activities that depend on the RSS feed.</li>
+<li>These optimizations won't work retroactively on existing Blog Streams in your Hub. If you previously imported a blog via RSS and it's experiencing the issues that the optimization steps address, you will need to delete that Blog Stream and re-import it afterwards.</li>
+<li>This article outlines general optimization steps that you should be able to apply to any blog platform. Please refer to your blogging platform's documentation for specific instructions on how to configure its RSS feed. For example, here are the relevant help articles for <a href="https://wordpress.com/support/settings/reading-settings/">WordPress</a> and <a href="https://knowledge.hubspot.com/cos-blog/set-up-your-blog-subscription-features-in-hubspot">HubSpot</a>.</li>
+</ul>
+<p> </p>
+<h2>Optimization Guidelines</h2>
+<p>Regardless of the specific blogging platform that you use, you should make sure you have configured your RSS feed in the following ways:</p>
+<h3>Increase the Number of Posts</h3>
+<p><strong>Why do this? </strong>For most RSS feeds, the number of posts included in the feed is fairly low: usually the latest 10 to 25. If you don't change this number, that number is the maximum that will be pulled into your Blog Stream in Uberflip, even if you have many more posts.</p>
+<p><strong>What to do:</strong> Since you generally want to pull all existing posts in the blog into your Hub, you want to make this number as high as possible — at least the same as the total number of posts in the blog. Once the import has been completed, you can reduce it back to whatever number you prefer. If you are unable to raise the number of posts in the RSS feed high enough due to limitations on your blogging platform, please <a href="https://help.uberflip.com/hc/en-us/requests/new">contact us for help.</a></p>
+<p>Keep in mind that, on an initial import, the maximum number of posts that you can pull in to Uberflip is <strong>200</strong>. If the blog you want to import via RSS has more than 200 posts, please <a href="https://help.uberflip.com/hc/en-us/requests/new">contact us</a>, as we can lift this limit to import all of the posts. In this case, you must still set the number of posts in your blog's RSS feed as high as possible, as we will still be limited by this number after lifting the 200 post cap.</p>
+<p> </p>
+<h3>Include Full Posts</h3>
+<p><strong>Why do this?</strong> RSS feeds will often be set up by default to only include excerpts, descriptions, or summaries. If you don't change this setting, you won't be able to pull the full blog posts, including images, into your Hub.</p>
+<p><strong>What to do:</strong> Set up your RSS feed so that the full content of the article is included within the HTML <em>&lt;content:encoded&gt; </em>tag that is present in the RSS version of your article.</p>
+<p> </p>
+<h3>Ensure Image Height and Width are Specified</h3>
+<p><strong>Why do this?</strong> Uberflip Blog Streams acquire a blog post's images from the HTML <em>&lt;img&gt;</em> tags present in the RSS version of the post. In order for this to work, the tag must specify the width and height of each image, otherwise the images will not be pulled in with the post.</p>
+<p><strong>What to do: </strong>Make sure that the <em>&lt;img&gt; </em>tags in your RSS feed are configured to look something like this:</p>
+<pre>&lt;img src=”IMAGE URL” alt=”IMAGE DESCRIPTION” <strong>height=”650″ width=”200″</strong>&gt;</pre>
+<p>If you use "featured images" for your posts (these could be used on the summary page of all of your articles as a thumbnail, or above the article), you should ensure that these images are also included in the RSS feed.</p>
+<p>In addition, you can also see <a href="https://help.uberflip.com/hc/en-us/articles/360020840711">this article</a> to learn more about ensuring your images are properly formatted in your RSS feed.</p>]]></description>
+         <guid isPermaLink="false">360020841051</guid>
+         <pubDate>Tue, 11 Dec 2018 22:13:01 GMT</pubDate>
+      </item>
+      <item>
+         <title>Use Embed Parameters to automatically add UTM (and other) parameters to Uberflip embeds</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360061089751-Use-Embed-Parameters-to-automatically-add-UTM-and-other-parameters-to-Uberflip-embeds</link>
+         <description><![CDATA[<hr>
+<p>Learn how you can use <strong>Embed Parameters</strong> to automatically add URL parameters (such as UTM parameters) to the URLs of embeds generated by your Uberflip Hub.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>By default, members of the <strong>Account Administrators</strong> or <strong>Content Managers</strong> user groups can use <strong>Embed Parameters</strong>. The ability to access and use Embed Parameters is controlled by specific permissions, which you can optionally grant to other users or user groups as needed. See <a href="#h_01F778GWT569DT8AG2G74FM9ZW" target="_self">the reference table below</a> for details.</li>
+</ul>
+<p> </p>
+<h2>About Embed Parameters</h2>
+<p>As a savvy digital marketer, you're probably already using <a href="https://neilpatel.com/blog/the-ultimate-guide-to-using-utm-parameters/">UTM parameters</a> to understand where direct traffic to your Uberflip Hub is coming from. UTM parameters (or, more generically, URL parameters) are the industry standard for tracking and attributing traffic from direct links, and are widely supported across marketing tools.</p>
+<p>Ideally, you'd use URL parameters anytime you share a link to your Hub content. But when you're dealing with embed codes (rather than plain link URLs), this can be tricky to do — especially when it comes to links that you don't control, such as those that your Sales team is sharing through the <a href="https://help.uberflip.com/hc/en-us/articles/360020177492-Share-Hub-content-with-the-Uberflip-extensions" target="_self">Uberflip Extensions</a> or <a href="https://help.uberflip.com/hc/en-us/articles/360057767632-Sales-Assist-User-Guide-for-Admins">Sales Assist</a>.</p>
+<p>This is where the <strong>Embed Parameters</strong> feature can help. With Embed Parameters, you can configure URL parameters (including both UTM and fully custom parameters) that will be automatically added to the link URL whenever embedded content is shared from your Hub.</p>
+<h3 id="h_01F7VEPPE8KRJ6NZ17JYETBBZK">How it works</h3>
+<p>Uberflip embeds are essentially links to your Hub content that are styled like Hub tiles, and which you can place ("embed") in various non-Hub settings like other websites, emails, etc. By default, these embeds do not include URL parameters, and it's difficult for users to add them manually. But with Embed Parameters, you can <strong>set up URL parameters and predefined values</strong>, and these will <strong>automatically be added to all embeds</strong> generated by:</p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360023119772">Embed Item Tile</a></li>
+<li><a href="https://marketplace.uberflip.com/details/sales-assist-1/" target="_self" rel="undefined">Sales Assist</a></li>
+</ul>
+<p>For example, say you use Embed Parameters to set up the parameter <em>utm_medium</em>, and then predefine the value <em>uf-embed</em> for this parameter. As a result, embed links generated in that Hub will automatically include that UTM parameter and value, resulting in a URL that looks like this:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360095669972/image.png" alt="image.png"></p>
+<p>Since you know this UTM parameter indicates a link shared via an embed, you can now use it to attribute direct traffic to embeds whenever the parameter is present.</p>
+<div class="callout">
+<h4 class="callout__title">
+<em>Embed Parameters </em>and other types of Hub embeds</h4>
+<p>Embed Parameters works with embeds generated by <a href="https://help.uberflip.com/hc/en-us/articles/360023119772-Embed-Individual-Content-Tiles-into-Websites-and-Email-Campaigns">Embed Item Tile</a> and <a href="https://marketplace.uberflip.com/details/sales-assist-1/" target="_self" rel="undefined">Sales Assist</a>.</p>
+<p>Your Hub also has two other embed types: <a href="https://help.uberflip.com/hc/en-us/articles/360023374631-Embed-a-Stream-Into-Your-Website">Embed Stream Tiles</a>, and <a href="https://help.uberflip.com/hc/en-us/articles/360020859752">Embed CTA</a>. However, due to the way they work, Embed Parameters does <strong>not</strong> work with embeds generated using these tools.</p>
+</div>
+<h3>Custom URL parameters and dynamic values</h3>
+<p>While you <em>can</em> use UTM parameters with Embed Parameters, you're not limited to them: you can also <strong>freely define your own custom parameters</strong>. This means that, in addition to the five standard UTM parameters (<em>medium</em>, <em>source</em>, <em>campaign</em>, <em>content</em>, and <em>term</em>), you can also create any parameter of your choice for use cases beyond those that UTM parameters are designed for.</p>
+<p>Embed Parameters also allows you to set <strong>dynamic values</strong>: instead of specifying a static value for a parameter, you can also choose to insert one or more <strong>variables</strong> from a preset list. When you use a variable, Embed Parameters will dynamically insert the corresponding value each time an embed is generated: for example, you could create a parameter like <em>repname</em>, then use the <em><span style="font-weight: 400;">User First Name</span> </em>and<em> User Last Name</em> <span style="font-weight: 400;">variables </span>to dynamically insert the name of the specific Sales rep who created and shared the embed:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360095602791/image.png" alt="image.png"></p>
+<p>This makes it easy to attribute direct traffic to the specific individual who shared the link. For more information about the available variables, see <a href="#h_01F7PX02W6P1C33X5PC6FW95K9" target="_self" rel="undefined">Dynamic values</a>.</p>
+<p> </p>
+<h2>Add new Embed Parameters</h2>
+<p>You can create as many Embed Parameters as you like. Embed Parameters are Hub-specific, so if you have multiple Hubs, you will need to set up Embed Parameters in each Hub separately.</p>
+<ol>
+<li>Log in to Uberflip and select the Hub you want to work with.</li>
+<li>In the sidebar menu, click on <strong>Hub Options</strong>, then click on <strong>Embed Parameters</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/4402422966413/image.png" alt="image.png">
+</li>
+<li>In the Embed Parameters interface on the right, click on the <strong>Add Parameter+</strong> button:<br><img src="https://help.uberflip.com/hc/article_attachments/4402423015053/image.png" alt="image.png">
+</li>
+<li>The <strong>Add Embed Parameter </strong>window will open. <strong>Enter a</strong> <strong>name</strong> for your new parameter into the <strong>Parameter Name</strong> field:<br><img src="https://help.uberflip.com/hc/article_attachments/4402428859789/image.png" alt="image.png" width="450" height="363">
+<ul>
+<li>This can be any of the <strong>standard UTM parameter names</strong> (e.g. <em>utm_campaign</em>, <em>utm_source</em>, etc.), but can also be a <strong>completely custom parameter</strong> of your choice (e.g. <em>my_custom_parameter</em>).</li>
+<li>When creating a parameter name, keep in mind that it can <strong>not</strong> contain whitespace — if needed, you can indicate separate words with an underscore (_), hyphen (-) or camelCase.</li>
+<li>Only enter the name of the parameter. You do not need to enter the <em>?</em> that begins a query string, as this will be added automatically if this parameter is listed first.</li>
+<li>This field is mandatory (you can't leave this field empty).</li>
+</ul>
+</li>
+<li>Next, <strong>enter the value</strong> that you want to assign to this parameter in the <strong>Parameter Value</strong> field:<br><img src="https://help.uberflip.com/hc/article_attachments/4402423137421/image.png" alt="image.png" width="449" height="364">
+<ul>
+<li>This can be either a regular <strong>static value</strong>, or a <strong>variable for a dynamic value</strong>. See <a href="#h_01F7CG5QFWHVRS51RCGKM9VE5P" target="_self">Reference: Parameter values</a> for more information on setting values.</li>
+<li>Only enter the value of the parameter. You do not need to enter the <em>&amp;</em> that separates multiple parameters, as this will be added automatically if needed.</li>
+<li>This field is mandatory (you can't leave this field empty).</li>
+</ul>
+</li>
+<li>Click on the <strong>Confirm</strong> button to save your new Embed Parameter.</li>
+<li>The Add Embed Parameter window will close, and you'll be returned to the main Embed Parameters interface, where your new Embed Parameter will now be listed in the table:<br><img src="https://help.uberflip.com/hc/article_attachments/4402429151629/image.png" alt="image.png">
+</li>
+<li>Note that a newly created Embed Parameter will always be <strong>disabled by default</strong>. To enable your new Embed Parameter, <strong>click on its <em>Status</em> switch</strong> to change it to the <strong>on (green)</strong> position:<br><img src="https://help.uberflip.com/hc/article_attachments/4402429170701/image.png" alt="image.png">
+</li>
+<li>Once it is enabled, the Embed Parameter will be added automatically to all embeds <a href="#h_01F7VEPPE8KRJ6NZ17JYETBBZK" target="_self">generated by a supported tool</a>, with immediate effect.</li>
+<li>Simply repeat this process to create additional Embed Parameters as needed.</li>
+</ol>
+<p> </p>
+<h2>Manage, modify, and delete existing Embed Parameters</h2>
+<p>After creating Embed Parameters, you can enable or disable them, as well as edit or delete them, at any time.</p>
+<ol>
+<li>To manage Embed Parameters, navigate to the Hub you want to work with and click on <strong>Hub Options &gt; Embed Parameters</strong> in the sidebar.</li>
+<li>The Embed Parameters interface will list all existing Embed Parameters in the current Hub, along with their current status.</li>
+<li>To <strong>enable or disable an Embed Parameter</strong>, simply click on its <strong><em>Status</em> switch</strong> to change it to the desired setting, i.e. <strong>on (green)</strong> or <strong>off (grey)</strong>:
+<ul>
+<li>Changing this setting will take effect immediately, and the change will be saved automatically.</li>
+<li>Turning an Embed Parameter off will stop it from being added to all supported Uberflip embeds, but will not remove it from the list.</li>
+</ul>
+</li>
+<li>To <strong>modify an Embed Parameter</strong>, click on its <strong>Edit (pencil) </strong>button on the right:<br><img src="https://help.uberflip.com/hc/article_attachments/4402429392269/image.png" alt="image.png">
+<ul>
+<li>This will open the <strong>Edit Embed Parameter</strong> window, where you can change the <strong>Parameter Name</strong> and/or the <strong>Parameter Value</strong> for this Embed Parameter:<br><img src="https://help.uberflip.com/hc/article_attachments/4402423321741/image.png" alt="image.png" width="462" height="366">
+</li>
+<li>Click on <strong>Save </strong>to save your changes. Your changes will take effect immediately.</li>
+<li>You can modify both enabled and disabled Embed Parameters at any time.</li>
+<li>Changes to Embed Parameters are <strong>not</strong> retroactive, i.e. they will only apply to URLs of embeds that are generated <strong>after</strong> you make the change.</li>
+</ul>
+</li>
+<li>To <strong>delete an Embed Parameter</strong>, click on its <strong>Delete (trash) </strong>button on the right:<br><img src="https://help.uberflip.com/hc/article_attachments/4402429449229/image.png" alt="image.png"><br>
+<ul>
+<li>In the confirmation window, click on <strong>Confirm</strong> to delete the Embed Parameter.</li>
+<li>You can delete both enabled and disabled Embed Parameters at any time (you do not need to disable an Embed Parameter before deleting it).</li>
+<li>Deleting an Embed Parameter will take effect immediately.</li>
+<li>Deleting an Embed Parameter is <strong>not</strong> retroactive, i.e. a deleted Embed Parameter that was added to previously generated embeds will not be removed from those embeds.</li>
+</ul>
+</li>
+</ol>
+<p> </p>
+<h2 id="h_01F7CG5QFWHVRS51RCGKM9VE5P">Reference: Parameter values</h2>
+<p>When you configure a URL parameter in Embed Parameters, you can choose to specify either a <strong>static value</strong> or a <strong>dynamic value. </strong>You can also <strong>use a combination of static and dynamic values</strong> if needed.</p>
+<h3>Static values</h3>
+<p><strong>Static</strong> values are fixed: you specify the value you want, and the same exact value will always be set for that parameter whenever Embed Parameters adds it to an embed. For example, if you specify the <em>Parameter Value</em> for the parameter <em>utm_medium </em>as:</p>
+<pre>uf-embed</pre>
+<p>then whenever an embed is generated, the following parameter will always be added to any embeds:</p>
+<pre>?utm_medium=uf-embed</pre>
+<h4 id="h_01F7RP9AAA1FWPJ6DB6TZ8GPGH">Usage guidelines</h4>
+<ul>
+<li>Enter the exact value you want to use into the <em>Parameter Value</em> field.</li>
+<li>If a value consists of multiple words, you can specify them without separation, or you can separate them with any character, including whitespace. Non-ASCII characters (including whitespace) will be <a href="https://www.w3schools.com/tags/ref_urlencode.ASP">URL-encoded</a>.</li>
+</ul>
+<h3 id="h_01F7PX02W6P1C33X5PC6FW95K9">Dynamic values</h3>
+<p><strong>Dynamic </strong>values are variable, and the actual value is only set when the embed is generated. The value that is set is determined by the type of variable that was specified. For example, specifying the <em>Date</em> variable will cause the current date to be inserted as the parameter value like this:</p>
+<pre>?date=2021-10-31 </pre>
+<h4 id="h_01F7RP9NSQ4762V6D85ZVY1MZY">Usage guidelines</h4>
+<ul>
+<li>Specify the type of value to be set by entering a variable from the list of available variable types (<a href="#h_01F79YWCRF2B3VJDF4KDGYM6AC" target="_self">see table</a>).</li>
+<li>You can combine multiple variables if needed. You can specify them without separation, or separate them with any character, including whitespace. Non-ASCII characters (including whitespace, and the characters inserted in place of the variable when the embed is generated) will be <a href="https://www.w3schools.com/tags/ref_urlencode.ASP">URL-encoded</a>.</li>
+</ul>
+<h4 id="h_01F79YWCRF2B3VJDF4KDGYM6AC">Dynamic value variables</h4>
+<p>This table lists the types of variables you can set as the parameter value with Embed Parameters.</p>
+<ul>
+<li>To use a variable type, enter the variable shown under the <em>Use variable</em> column into the <em>Parameter Value</em> field.</li>
+<li>Make sure to include the opening and closing double curly brackets (<em>{{</em> and <em>}}</em>).</li>
+<li>All variables are case-sensitive.</li>
+</ul>
+<table class="table table--bordered">
+<tbody>
+<tr style="height: 44px;">
+<td class="wysiwyg-text-align-center" style="width: 22.6666%; height: 44px;"><strong>Variable type<br></strong></td>
+<td class="wysiwyg-text-align-center" style="width: 10.6666%; height: 44px;"><strong>Use variable<br></strong></td>
+<td class="wysiwyg-text-align-center" style="width: 33.3333%; height: 44px;"><strong>Sets value as</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 33.3333%; height: 44px;"><strong>Example</strong></td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="width: 22.6666%; height: 22px;">User ID</td>
+<td class="wysiwyg-text-align-center" style="width: 10.6666%; height: 22px;"><em>{{userId}}</em></td>
+<td style="width: 33.3333%; height: 22px;">The User ID of the user who generated the embed.</td>
+<td style="width: 33.3333%; height: 22px;"><em>?paramname=<strong>1234567</strong></em></td>
+</tr>
+<tr style="height: 44px;">
+<td class="wysiwyg-text-align-center" style="width: 22.6666%; height: 44px;">User First Name</td>
+<td class="wysiwyg-text-align-center" style="width: 10.6666%; height: 44px;"><em>{{userFirstName}}</em></td>
+<td style="width: 33.3333%; height: 44px;">The first name of the user who generated the embed.</td>
+<td style="width: 33.3333%; height: 44px;"><em>?paramname=<strong>Jane</strong></em></td>
+</tr>
+<tr style="height: 44px;">
+<td class="wysiwyg-text-align-center" style="width: 22.6666%; height: 44px;">User Last Name</td>
+<td class="wysiwyg-text-align-center" style="width: 10.6666%; height: 44px;"><em>{{userLastName}}</em></td>
+<td style="width: 33.3333%; height: 44px;">The last name of the user who generated the embed.</td>
+<td style="width: 33.3333%; height: 44px;"><em>?paramname=<strong>Smith</strong></em></td>
+</tr>
+<tr style="height: 23px;">
+<td class="wysiwyg-text-align-center" style="width: 22.6666%; height: 23px;">Date</td>
+<td class="wysiwyg-text-align-center" style="width: 10.6666%; height: 23px;"><em>{{date}}</em></td>
+<td style="width: 33.3333%; height: 23px;">The current date, in the format YYYY-MM-DD.</td>
+<td style="width: 33.3333%; height: 23px;"><em>?paramname=<strong>2021-10-31</strong></em></td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="width: 22.6666%; height: 22px;">Content ID</td>
+<td class="wysiwyg-text-align-center" style="width: 10.6666%; height: 22px;"><em>{{contentId}}</em></td>
+<td style="width: 33.3333%; height: 22px;">The Hub ID, Stream ID, or Item ID of the content embedded, depending on the content type.</td>
+<td style="width: 33.3333%; height: 22px;"><em>?paramname=<strong>7654321</strong></em></td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="width: 22.6666%; height: 22px;">Content Type</td>
+<td class="wysiwyg-text-align-center" style="width: 10.6666%; height: 22px;"><em>{{contentType}}</em></td>
+<td style="width: 33.3333%; height: 22px;">The type of content embedded, one of: <em>Hub</em>, <em>Stream</em>, or <em>Item</em>.</td>
+<td style="width: 33.3333%; height: 22px;"><em>?paramname=<strong>Stream</strong></em></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h3>Combined value types</h3>
+<p>You can also use a <strong>combination of static and dynamic values</strong>. In this case, the parameter value will be set as the specified static value(s), plus the inserted dynamic value(s), in the same order as configured. For example, if you entered:</p>
+<pre> uf-embed-{{date}}-{{contentType}} </pre>
+<p>into the <em>Parameter Value field</em>, this would result in a parameter like:</p>
+<pre>?exampleparameter=uf-embed-2021-10-31-Stream</pre>
+<h4>Usage guidelines</h4>
+<ul>
+<li>Enter both the desired static value(s) and variable(s) into the <em>Parameter Value</em> field. You can enter them in any order. The same general rules apply as when using <a href="#h_01F7RP9AAA1FWPJ6DB6TZ8GPGH" target="_self">static values</a> and <a href="#h_01F7RP9NSQ4762V6D85ZVY1MZY" target="_self">dynamic values</a> on their own.</li>
+<li>You can specify the combined values without separation, or separate them with any character, including whitespace. Non-ASCII characters (including whitespace, and characters inserted in place of the variable when the embed is generated) will be <a href="https://www.w3schools.com/tags/ref_urlencode.ASP">URL-encoded</a>.</li>
+</ul>
+<div class="callout">
+<h4 class="callout__title">Note: Invalid dynamic value variables</h4>
+<p>If you specify a dynamic value variable for a parameter, and no value can be found for that variable (for example, because it was misspelled), then Embed Parameters will handle the invalid variable differently depending on whether other (valid) values are present:</p>
+<ul>
+<li>
+<strong>No other values available: </strong>If there are no other values for the parameter (i.e. the invalid dynamic value variable is the only value specified), the entire parameter will <strong>not</strong> be added to any embeds.</li>
+<li>
+<strong>Other valid values available</strong>: If there are other values specified for the parameter (static, dynamic, or both), then the parameter <strong>will</strong> be added to any embeds with all valid values included, but without the invalid dynamic value.</li>
+</ul>
+</div>
+<p> </p>
+<h2 id="h_01F778GWT569DT8AG2G74FM9ZW">Reference: Embed Parameters permissions</h2>
+<p>Access to the Embed Parameters feature is controlled with a set of feature-specific permissions.</p>
+<ul>
+<li>All permissions related to Embed Parameters are located in the permissions list under the section <strong>Hub &gt; Embed Parameters</strong>.</li>
+<li>All members of the <strong>Account Administrators </strong>and <strong>Content Managers </strong>user groups are granted all available Embed Parameters permissions by default. </li>
+</ul>
+<p>If needed, you can also give any other user group (or individual users) access to all or part of the Embed Parameters feature by granting the appropriate permissions. The available permissions are outlined in the table below:</p>
+<table class="table table--bordered">
+<tbody>
+<tr style="height: 23px;">
+<td class="wysiwyg-text-align-center" style="width: 50%; height: 23px;"><strong>Permission name</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 50%; height: 23px;"><strong>Allows the user to...</strong></td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 50%; height: 22px;">
+<p><em>View Embed Parameters</em></p>
+</td>
+<td style="width: 50%; height: 22px;">See the <em>Embed Parameters</em> item in the Uberflip sidebar menu and view the feature interface</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 50%; height: 22px;"><em>Create Embed Parameters</em></td>
+<td style="width: 50%; height: 22px;">Add and configure new URL parameters using the <em>Embed Parameters</em> feature</td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 50%; height: 13px;"><em>List Export Embed Parameters</em></td>
+<td style="width: 50%; height: 13px;">View the list of URL parameters and their current status</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 50%; height: 22px;"><em>Update Embed Parameters</em></td>
+<td style="width: 50%; height: 22px;">Enable or disable URL parameters and change parameter names and values</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 50%; height: 22px;"><em>Delete Embed Parameters</em></td>
+<td style="width: 50%; height: 22px;">Remove previously added URL parameters from the list</td>
+</tr>
+</tbody>
+</table>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360061089751</guid>
+         <pubDate>Mon, 10 May 2021 21:08:18 GMT</pubDate>
+      </item>
+      <item>
+         <title>Move an imported external blog to a different CMS, or into Uberflip</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360060811091-Move-an-imported-external-blog-to-a-different-CMS-or-into-Uberflip</link>
+         <description><![CDATA[<hr>
+<p>Want to move a blog from your current CMS to a new CMS (or into Uberflip)? Here's what you need to do to keep your connected Uberflip Blog Streams running smoothly and avoid problems.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>To follow the steps in this guide, you need to be a member of the <strong>Account Administrators</strong> or <strong>Content Managers</strong> user groups.</li>
+<li>Make sure to <strong>read the migration procedure for your chosen option in full</strong> before you proceed.</li>
+</ul>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Do NOT take your existing CMS/blog host offline until you have completed the migration procedure!</strong></p>
+<p>If your existing CMS/blog host becomes unavailable before the migration is finished, you will be unable to perform certain key steps, which may make it impossible to complete the migration successfully.</p>
+</div>
+<p> </p>
+<h2>Objective</h2>
+<p>In Uberflip, you can bring content from a blog you host elsewhere (typically in a CMS like WordPress) into your Hub by <a href="https://help.uberflip.com/hc/en-us/articles/360025342851" target="_self">importing the blog using a Blog Stream</a>. When you do this, you keep maintaining the external blog, and Uberflip automatically pulls in new posts (and can even <a href="https://help.uberflip.com/hc/en-us/articles/360022283332" target="_self">update older posts when you edit them</a>).</p>
+<p>In this article, you'll learn what you need to do when <strong>moving your external blog to another hosting service (i.e. to another CMS, or into Uberflip)</strong>, in order to ensure that your connected Uberflip Blog Stream experiences minimal disruption. Specifically, the migration procedures described in this article are designed to help you:</p>
+<ul class="list-bullet">
+<li>Avoid <strong>reimporting</strong> existing content into Uberflip (i.e. duplicate content)</li>
+<li>Avoid <strong>broken images </strong>in blog content</li>
+<li>Avoid <strong>broken</strong> <strong>inline links </strong>in blog content</li>
+<li>Ensure the Blog Stream<strong> continues to update automatically</strong>
+</li>
+</ul>
+<p> </p>
+<h2>Option 1: Move an external blog to a different external hosting service</h2>
+<h4>Use this migration procedure if:</h4>
+<p>You are currently hosting your blog on a service outside Uberflip (such as a CMS, or any other type of blog hosting solution), and want to <strong>move the blog</strong> <strong>to another service outside Uberflip</strong>.</p>
+<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>This migration procedure assumes that:</p>
+<ul>
+<li>You are only changing the CMS (or other service) that hosts your blog, and that <strong>the blog itself will otherwise remain unchanged</strong>, i.e. it will still have the same name, be available at the same URL, etc.</li>
+<li>Your new CMS has already been set up and is <strong>ready for migration</strong>.</li>
+</ul>
+</div>
+<h3 id="h_01F4Z6G1YZ6AM2RGV4RY8Z7EGP">Step 1: Pause automatic updates on the Blog Stream</h3>
+<h4>Do this:</h4>
+<p><strong>Pause automatic updates </strong>on the Blog Stream that imports content from the blog that you are moving to a new CMS.</p>
+<ol>
+<li>In Uberflip, go to the <strong>Content</strong> section.</li>
+<li>Click on the Blog Stream that pulls in posts from your current CMS to open it.</li>
+<li>Click on the <strong>Options</strong> tab.</li>
+<li>Turn <strong>on</strong> the option <strong>Pause automatic updating of this Stream</strong>.</li>
+</ol>
+<h4>Why?</h4>
+<p>This will stop the Blog Stream from pulling in further content from the old CMS while you migrate to the new CMS, which helps to avoid creating duplicate content in Uberflip.</p>
+<p> </p>
+<h3>Step 2: Set up the RSS feed in the new CMS</h3>
+<h4>Do this:</h4>
+<p>Set up the RSS feed in your new CMS on <strong>the same URL </strong>and with <strong>the same GUID format</strong>.</p>
+<p>How you do this will vary depending on your CMS, so you should speak with your CMS administrator. What you need to accomplish is:</p>
+<ul>
+<li>Set up the RSS feed in your new CMS on <strong>the exact same URL</strong> as the RSS feed in your old CMS.</li>
+<li>Set up the GUID format for posts in the new CMS's RSS feed to <strong>exactly match the GUID format</strong> used by the old CMS's RSS feed.</li>
+</ul>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>There are multiple ways to format GUIDs. While the most widely used option is to use the item's <strong>direct URL </strong>as its GUID, another common approach is to use <strong>ID codes</strong>.</p>
+<p>If you use an ID code format for your GUIDs, try to configure your new CMS so that it assigns ID codes to RSS feed items in a way that is <strong>consistent</strong> with the old CMS: for example, if a given blog post had the ID code <em>ABC123</em> in the old CMS, the new CMS should give that same ID code to the same blog post when it assigns GUIDs.</p>
+</div>
+<h4>Why?</h4>
+<p>Your existing Blog Stream is configured to look at a particular RSS feed URL (like <em>https://www.mycompany.com/blog/feed/</em>) for new posts, so by setting up the RSS feed in the new CMS on the exact same URL, you ensure that the Blog Stream can keep pulling in new posts.</p>
+<p>Likewise, GUIDs uniquely identify posts in an RSS feed. Your Blog Stream keeps track of the GUIDs for all of the posts it has imported, and uses these GUIDs to avoid importing the same post more than once. By keeping the formats of the GUIDs the same between the old and new CMS, you ensure that your Blog Stream won't view old posts on your new CMS as "new" content and import it (creating duplicates).</p>
+<h3>Step 3: Migrate images</h3>
+<h4>Do this:</h4>
+<p>If you are using your old CMS to host the images used in your blog, <strong>migrate the images</strong> to your new CMS, then <strong>find and replace the image URLs</strong> to update them (if needed).</p>
+<ul>
+<li>If you are moving from one CMS to another CMS, there will likely be a built-in process to migrate images from one system to another. Speak with your CMS administrator for details.</li>
+<li>After performing this migration, you will also need to export a<strong> list of image URLs from your old CMS</strong>, and a corresponding <strong>list</strong><strong> of image URLs in your new CMS</strong>, and provide these to your Uberflip representative.</li>
+</ul>
+<h4>Why?</h4>
+<p>If you host blog images on your old CMS, those images will no longer be available when you take the old CMS out of service, which results in broken images in your blog posts. To ensure images remain available, you must migrate them to be hosted on the new CMS.</p>
+<p>This migration will allow images to be displayed correctly when the blog is hosted on the new CMS, but will not affect posts that Uberflip previously imported from the old CMS. These posts will still reference the old URLs where the images used to be hosted, and will therefore be broken. To ensure the images in these blog posts are still displayed correctly, the old image URLs must be found and replaced. If you provide a list of old image URLs, and their counterparts in your new CMS, your Uberflip representative can perform this find-and-replace action for you.</p>
+<h3>Step 4: Create a new Blog Stream to test the new RSS feed</h3>
+<h4>Do this:</h4>
+<p><strong>Add a new Blog Stream</strong> in Uberflip to test the RSS feed in your new CMS.</p>
+<ul>
+<li>In your Uberflip account, add a new Blog Stream and <strong>specify the RSS feed from the new CMS</strong>.</li>
+<li>Review the Blog Stream to <strong>check that everything looks normal</strong>, i.e. posts look as expected, images are coming in, etc.</li>
+<li>If there are no problems, <strong>archive the Blog Stream</strong> to remove the duplicate content it created from your Hub.</li>
+</ul>
+<h4>Why?</h4>
+<p>Creating a new Blog Stream for testing allows you to check that the RSS feed in the new CMS has been configured correctly without affecting the existing Blog Stream. The test Blog Stream will be a duplicate of the existing one, so you can archive it once testing is complete (as it is no longer needed at that point).</p>
+<h3>Step 5: Test importing from the new RSS feed with a limited number of posts</h3>
+<h4>Do this:</h4>
+<p>In the new CMS, <strong>limit the number of posts in the RSS feed to a small number</strong>, then <strong>resume automatic updates on the Blog Stream</strong> to test the import.</p>
+<ul>
+<li>In the RSS feed settings for your blog, set the number of posts to a small number (under 10).</li>
+<li>In Uberflip, resume automatic updates on the connected Blog Stream. To do so, simply follow the instructions in <a href="#h_01F4Z6G1YZ6AM2RGV4RY8Z7EGP" target="_self">Step 1</a> again, and turn <strong>Pause automatic updating of this Stream</strong> back to the <strong>off</strong> setting.</li>
+</ul>
+<h4>Why?</h4>
+<p>Limiting the number of posts in the RSS feed will ensure that only a small amount of posts will be imported into your Uberflip Blog Stream once you resume automatic updates. This helps to minimize the impact in case the GUID formats were not matched correctly, which would cause duplicate content to be imported.</p>
+<h3>Step 6: Increase the number of posts in the RSS feed</h3>
+<h4>Do this:</h4>
+<p>As a final step, once you have confirmed that no duplicate content is being brought into Uberflip, <strong>increase the number of posts in the RSS feed to the normal amount</strong>.</p>
+<h4>Why?</h4>
+<p>The maximum number of posts that Uberflip can import from your blog is limited in part by the number of posts included in the blog's RSS feed (up to a maximum of 200). By increasing the number of posts in the RSS feed, you can not only ensure that all new posts are brought in to the Blog Stream, but also that older posts in the Stream can be updated automatically if you modify the corresponding posts in the original blog (as long as the post is still in the RSS feed).</p>
+<p> </p>
+<h2>Option 2: Move an external blog into Uberflip</h2>
+<h4>Use this migration procedure if:</h4>
+<p>You are currently hosting your blog on a service outside Uberflip (like a CMS), and want to <strong>host your blog directly in Uberflip</strong>.</p>
+<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>This migration procedure assumes that:</p>
+<ul>
+<li>You are <strong>winding down your existing CMS</strong> or other service that currently hosts your blog (or are migrating just the blog off this service while still maintaining it for other uses).</li>
+<li>Your existing CMS is <strong>still online</strong>.</li>
+<li>You will continue to maintain the blog, and want to <strong>use Uberflip's built-in blogging functions</strong> to create <strong>all further posts</strong> on this blog.</li>
+</ul>
+</div>
+<h3 id="h_01F4Z6G1YZ6AM2RGV4RY8Z7EGP">Step 1: Pause automatic updates on the Blog Stream</h3>
+<h4>Do this:</h4>
+<p><strong>Pause automatic updates </strong>on the Blog Stream that imports content from the blog that you are moving to Uberflip.</p>
+<ol>
+<li>In Uberflip, go to the <strong>Content</strong> section.</li>
+<li>Click on the Blog Stream that pulls in posts from your current CMS to open it.</li>
+<li>Click on the <strong>Options</strong> tab.</li>
+<li>Turn <strong>on</strong> the option <strong>Pause automatic updating of this Stream</strong>.</li>
+</ol>
+<h4>Why?</h4>
+<p>This will stop the Blog Stream from pulling in further content from the old CMS while you migrate the blog to Uberflip. As you will be blogging in Uberflip, this function is no longer necessary, and turning it off can help to avoid accidentally creating duplicate content.</p>
+<h3>Step 2: Migrate images</h3>
+<h4>Do this:</h4>
+<p>If you are using your old CMS to host the images used in your blog, <strong>migrate the images</strong> to Uberflip.</p>
+<ul>
+<li>To migrate images from your old CMS to Uberflip hosting, <strong>install and use the Image Migrator app</strong>. You can download it from the Uberflip Marketplace <a href="https://marketplace.uberflip.com/details/image-migrator/">here</a>.</li>
+<li>See <a href="https://help.uberflip.com/hc/en-us/articles/360039098812" target="_self">this article</a> for instructions on how to use Image Migrator. Note especially the <strong>requirements</strong> for both your Uberflip account and for images before proceeding.</li>
+</ul>
+<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>If your Uberflip account does not meet the requirements to use Image Migrator (e.g. API access), speak with your Uberflip representative to arrange<strong> temporary access</strong>.</p>
+</div>
+<h4>Why?</h4>
+<p>If you host blog images on your CMS, those images will no longer be available when you take the CMS out of service, which results in broken images in your blog posts. To ensure images remain available, you must migrate them to be hosted in Uberflip.</p>
+<p>The Image Migrator app is designed specifically for this purpose. It downloads all of the blog post images from your old CMS and uploads them to Uberflip hosting. Then, it finds image URLs that point to the old CMS in your existing Blog Stream and replaces them with new Uberflip-hosted image URLs to ensure they keep working.</p>
+<h3>Step 3: Update inline links</h3>
+<h4>Do this:</h4>
+<p><strong>Find-and-replace</strong> <strong>any inline links</strong> in your blog posts that point to the blog's old URL.</p>
+<ul>
+<li>Your Uberflip representative will do this for you: simply <strong>let them know how the URLs of inline links has</strong> <strong>changed</strong>.</li>
+<li>For example, if your blog used to live at the URL <em>https://www.mycompany.com/resources/blog/</em>, and will now live in your Uberflip Hub at <em>https://hub.mycompany.com/blog/</em>, then any link in your old blog posts like <em>www.mycompany.com/resources/blog/example-post </em>would need to be updated to <em>hub.mycompany.com/blog/example-post </em>to keep working.</li>
+</ul>
+<h4>Why?</h4>
+<p>When you move your blog from your CMS to Uberflip, this will change the URL where your blog is located (from the URL defined in the CMS to the URL of the Blog Stream). When you take the CMS offline, any links that point to the old URL will be broken. This includes inline links you may have included in old blog posts, i.e. links to other posts in the same blog. To ensure these links keep working, you need to find-and-replace links that point to the old URL so that they point to the new URL instead. As this may involve searching many hundreds of blog posts for affected links, Uberflip is able to automate this action for you.</p>]]></description>
+         <guid isPermaLink="false">360060811091</guid>
+         <pubDate>Tue, 04 May 2021 16:05:21 GMT</pubDate>
+      </item>
+      <item>
+         <title>Disallowed RSS feed tags</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/7129694558349-Disallowed-RSS-feed-tags</link>
+         <description><![CDATA[<p><span style="font-weight: 400;">In Uberflip, some tags included in an RSS feed will be removed when it’s imported. This is a security measure, as RSS feeds can contain malicious code that is executable in your Hub. </span></p>
+<p><span style="font-weight: 400;">To ensure there's nothing unexpected running in your Hub, we remove the tags listed below from RSS feeds. In most cases, content within these tags is retained (such as text), but some elements and formatting may be altered or broken in the process. If elements in an imported blog post are altered or broken, this may be the cause. </span></p>
+<p><span style="font-weight: 400;">The table below outlines which tags are removed from RSS feeds, and how the change is handled. </span></p>
+<p><span style="font-weight: 400;">Alphabetical:</span><span style="font-weight: 400;"> </span></p>
+<table border="1px">
+<tbody>
+<tr>
+<td style="width: 262.281px;">
+<p><strong>Tag </strong></p>
+</td>
+<td style="width: 414.719px;">
+<p><strong>How it’s handled </strong></p>
+</td>
+</tr>
+<tr>
+<td style="width: 262.281px;">
+<p><strong>&lt;base&gt; </strong></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><em><span style="font-weight: 400;">Deprecated in HTML5 </span></em></li>
+<li style="font-weight: 400;" aria-level="1"><em><span style="font-weight: 400;">Does not contain content </span></em></li>
+</ul>
+</td>
+<td style="width: 414.719px;">
+<p><span style="font-weight: 400;">Removed on import</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 262.281px;">
+<p><strong>&lt;blink&gt; </strong></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><em><span style="font-weight: 400;">Deprecated in HTML5</span></em></li>
+</ul>
+</td>
+<td style="width: 414.719px;">
+<p><span style="font-weight: 400;">Tag removed, but content within the tag remains</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 262.281px;">
+<p><strong>&lt;body&gt; </strong></p>
+</td>
+<td style="width: 414.719px;">
+<p><span style="font-weight: 400;">Tag removed, but content within the tag remains</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 262.281px;">
+<p><strong>&lt;doctype&gt; </strong></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><em><span style="font-weight: 400;">Does not contain content</span></em></li>
+</ul>
+</td>
+<td style="width: 414.719px;">
+<p><span style="font-weight: 400;">Removed on import</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 262.281px;">
+<p><strong>&lt;embed&gt; </strong></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><em><span style="font-weight: 400;">Deprecated in HTML5</span></em></li>
+<li style="font-weight: 400;" aria-level="1"><em><span style="font-weight: 400;">Does not contain content</span></em></li>
+</ul>
+</td>
+<td style="width: 414.719px;">
+<p><span style="font-weight: 400;">Removed on import</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 262.281px;">
+<p><strong>&lt;font&gt;</strong></p>
+</td>
+<td style="width: 414.719px;">
+<p><span style="font-weight: 400;">Imports as expected when "Allow Inline Formatting" is enabled in the <a href="https://help.uberflip.com/hc/en-us/articles/4607063680781" target="_self" rel="undefined">Source Stream options</a></span><em><span style="font-weight: 400;"> </span></em></p>
+</td>
+</tr>
+<tr>
+<td style="width: 262.281px;">
+<p><strong>&lt;form&gt;</strong></p>
+</td>
+<td style="width: 414.719px;">
+<p><span style="font-weight: 400;">Tag removed, but content within the tag remains</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 262.281px;">
+<p><strong>&lt;frameset&gt; &amp; &lt;frame&gt;</strong></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><em><span style="font-weight: 400;">Deprecated in HTML5 </span></em></li>
+<li style="font-weight: 400;" aria-level="1"><em><span style="font-weight: 400;">These tags are used together</span></em></li>
+</ul>
+</td>
+<td style="width: 414.719px;">
+<p><span style="font-weight: 400;">Removed on import</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 262.281px;">
+<p><strong>&lt;html&gt; </strong></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><em><span style="font-weight: 400;">Does not contain content</span></em></li>
+</ul>
+</td>
+<td style="width: 414.719px;">
+<p><span style="font-weight: 400;">Removed on import</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 262.281px;">
+<p><strong>&lt;input&gt; </strong></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><em><span style="font-weight: 400;">Does not contain content</span></em></li>
+</ul>
+</td>
+<td style="width: 414.719px;">
+<p><span style="font-weight: 400;">Removed on import</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 262.281px;">
+<p><strong>&lt;marquee&gt; </strong></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><em><span style="font-weight: 400;">Deprecated in HTML5</span></em></li>
+</ul>
+</td>
+<td style="width: 414.719px;">
+<p><span style="font-weight: 400;">Tag removed, but content within the tag remains</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 262.281px;">
+<p><strong>&lt;meta&gt;</strong></p>
+</td>
+<td style="width: 414.719px;">
+<p><span style="font-weight: 400;">Removed on import</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 262.281px;">
+<p><strong>&lt;noscript&gt;</strong></p>
+</td>
+<td style="width: 414.719px;">
+<p><span style="font-weight: 400;">Tag removed, but content within the tag remains</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 262.281px;">
+<p><strong>&lt;object&gt; &amp; &lt;param&gt;  </strong></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><em><span style="font-weight: 400;"> These tags are used together</span></em></li>
+</ul>
+</td>
+<td style="width: 414.719px;">
+<p><span style="font-weight: 400;">Removed on import</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 262.281px;">
+<p><strong>&lt;script&gt;</strong></p>
+</td>
+<td style="width: 414.719px;">
+<p><span style="font-weight: 400;">Removed on import</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 262.281px;">
+<p><strong>&lt;style&gt;</strong></p>
+</td>
+<td style="width: 414.719px;">
+<p><span style="font-weight: 400;">Imports as expected when "Allow Inline Formatting" is enabled in the <a href="https://help.uberflip.com/hc/en-us/articles/4607063680781" target="_self" rel="undefined">Source Stream options</a></span><em><span style="font-weight: 400;"> </span></em></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>]]></description>
+         <guid isPermaLink="false">7129694558349</guid>
+         <pubDate>Wed, 22 Jun 2022 20:16:44 GMT</pubDate>
+      </item>
+      <item>
+         <title>Curate External Content With Pocket</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360027884871-Curate-External-Content-With-Pocket</link>
+         <description><![CDATA[<hr>
+<p>If you're looking for a quick way to curate content from external sources in your Hub, you can use <strong>Pocket </strong>to add that content to your Hub with a single click.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>To do the actions described in this article, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+<li>You will need a <a href="https://getpocket.com/"><strong>Pocket</strong></a> account, as well as the Pocket extension for your browser.</li>
+<li>Before you proceed, note that the method described in this article is applicable to a narrow set of use cases, and we do <strong>not</strong> recommend it for most users. See <a href="#h_7029dd6a-9ae9-4ac5-86ae-e1671bdcbea0" target="_self">our explanation below</a> for more information.</li>
+</ul>
+<p> </p>
+<h2 id="h_7029dd6a-9ae9-4ac5-86ae-e1671bdcbea0">About Pocket</h2>
+<p>Pocket is a free tool that allows you to "clip" content like blog posts, articles, etc., and save them to your Pocket account. A Pocket account also includes an RSS feed that aggregates all the content you save, which opens up an interesting use case with Uberflip: by setting up a Blog Stream in your Hub that draws on this RSS feed, you can automatically populate the Stream with any Item you add to your Pocket account.</p>
+<p>By doing this, you are able to quickly and easily curate a Stream of external content. Basically, whenever you see some web content you want to include in your Stream, all you have to do is click the <em>Save to Pocket</em> button to automatically add it to the Stream.</p>
+<p>Before we go any further, it's very important to note that <strong>the method described in this article is not suitable for most Hubs</strong>. Before using it, please read on to understand its limitations and how this affects your Hub.</p>
+<h3>Limitations</h3>
+<p>The most effective content experiences keep visitors engaging with your content for as long as possible, which means keeping visitors in your Hub. The problem is, this method does the opposite: it creates Streams that will encourage visitors to <strong>exit your Hub</strong>.</p>
+<p>Here's why: when you save an article to Pocket, its full contents is <strong>not</strong> included in your Pocket RSS feed. Instead, Pocket will only include a snippet of the article, along with the canonical URL for the content (i.e. a link back to the website where it originally appeared). As a result, any Item in your Hub that is created from the Pocket RSS feed will only show partial content, so visitors who want to view it in full must go the original website — taking them out of your Hub.</p>
+<h3>Should I Do This?</h3>
+<p>The most important thing to know about this method is that using it <em>will</em> create Streams that take visitors out of your Hub. This is an inherent aspect of the method, so you should proceed only if you accept that this will happen, and ideally <em>want</em> it to happen as part of your particular use case.</p>
+<p>Since there are not many use cases where you want visitors to leave your Hub, we do not recommend this method for most Hubs. We recommend using it only if your particular use case fits these basic criteria:</p>
+<ul>
+<li>You want to create a Stream that consists entirely of <strong>external</strong> content (i.e. content produced or owned by third parties)</li>
+<li>You will routinely "curate" this Stream by adding new external content to it, and need an easy way to do this</li>
+<li>You want visitors who view content in this Stream to <strong>exit</strong> <strong>your Hub</strong> and view the content in its original context</li>
+</ul>
+<div class="callout">
+<h4 class="callout__title">Can I use an app other than Pocket?</h4>
+<p>There are a variety of alternatives to Pocket available. The basic method described in this article should work with any similar tool that has a <strong>publicly accessible RSS feed</strong> which:</p>
+<ul>
+<li>Is automatically updated with newly saved items</li>
+<li>Includes the canonical URL of each Item's original location</li>
+</ul>
+<p>You should be able to use any alternative tool that supports these features; however, in this article, we will focus specifically on Pocket.</p>
+</div>
+<p> </p>
+<h2>Prerequisite: Get a Pocket Account &amp; Browser Extension</h2>
+<p>Before you can proceed, you'll need a Pocket account. You can sign up for free <a href="https://getpocket.com/signup/">here</a>. </p>
+<p>You'll also need to get the Pocket extension for your browser, which is what you'll use to save content to add it to your Stream. If you're a Firefox user, Pocket is already built in. For other browsers, you'll need to download and install an extension. You can also save to Pocket from a variety of apps other than a browser. For more information, see <a href="https://getpocket.com/add/">this page from Pocket</a>.</p>
+<p>Once you have signed up for and are logged in to your account, and you have the extension, you can proceed.</p>
+<p> </p>
+<h2>Get Your Pocket RSS Feed URL</h2>
+<p>To set up a Stream for your Pocket content in your Hub, you'll need your Pocket account's RSS feed URL. To find it, see this article from Pocket:</p>
+<p><strong><a href="https://help.getpocket.com/article/1074-can-i-subscribe-to-my-list-via-rss">Pocket: Can I subscribe to my list via RSS?</a></strong></p>
+<p>Once you have located the RSS feed URL, copy it, as you'll need it for the next step.</p>
+<p> </p>
+<h2>Create a new Blog Stream</h2>
+<p>Now all you have to do is set up the Blog Stream that pulls content from this RSS feed. To create the new Blog Stream, simply follow the instructions in the following article (follow the steps for <em>Import Articles from an External Blog</em>):</p>
+<p><strong><a href="https://help.uberflip.com/hc/en-us/articles/360025342851" target="_self">Create a Blog Stream</a></strong></p>
+<p>As you set up the new Blog Stream, keep the following in mind:</p>
+<ul>
+<li>In <strong>Step 2</strong> of <a href="https://help.uberflip.com/hc/en-us/articles/360025342851-Create-a-Blog-Stream#import-articles-from-an-external-blog"><em>Import Articles from an External Blog</em></a>, make sure you <strong>paste in the Pocket RSS feed URL</strong> that you copied earlier.</li>
+<li>Under the setup options for the Stream, make sure you check the option for <strong>Allow small images to be used for thumbnails:<br><img src="https://help.uberflip.com/hc/article_attachments/360027835752/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png"></strong>
+</li>
+<li>You can leave all other options unchecked.</li>
+</ul>
+<p> </p>
+<h2>Set Up Automatic Redirects</h2>
+<p>Because Pocket only saves partial content to its RSS feed, you need to set up the Stream to redirect to the original (canonical) URL whenever a visitor clicks on an Item. If you don't do this, visitors who click on an Item in the Stream will only see a snippet of the content they wanted to consume.</p>
+<ol>
+<li>After creating the Stream, click on <strong>Content</strong> in the left menu bar.</li>
+<li>On the right side, click on the <strong>Streams</strong> tab to view a list of all Streams in your Hub.</li>
+<li>
+<strong>Click on the Stream</strong> that you just created (your Pocket Stream).</li>
+<li>While viewing the Stream, click on the <strong>Options</strong> tab at the top to view Stream options.<br><img src="https://help.uberflip.com/hc/article_attachments/360027837192/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png" width="707" height="202">
+</li>
+<li>Look for the option <strong>Auto redirect to Item's Canonical URL </strong>and <strong>enable it</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360027837792/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png" width="701" height="140">
+</li>
+<li>You can leave all other options at their defaults, or customize them as you prefer.</li>
+<li>Your Stream is now set up, and you can begin populating it with content using Pocket.</li>
+</ol>
+<p> </p>
+<h2>Populate the Stream With Pocket</h2>
+<p>To populate your Stream, simply save Items using Pocket. Anything that you save to your Pocket account will automatically be added to its RSS feed, which will bring it into the connected Stream as a new Item. To save content to your Pocket account, simply click on the <em>Save to Pocket</em> button in your browser, which looks like this:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360027839472/What_Ice_Fishing_Taught_Me_About_ABM.png" alt="What_Ice_Fishing_Taught_Me_About_ABM.png" width="700" height="202"></p>
+<p>For more information about saving to Pocket, see this article:</p>
+<p><strong><a href="https://getpocket.com/add/">Pocket: How to Save</a></strong></p>]]></description>
+         <guid isPermaLink="false">360027884871</guid>
+         <pubDate>Thu, 02 May 2019 21:00:46 GMT</pubDate>
+      </item>
+      <item>
+         <title>Embed Item Tiles into a website or email</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360023119772-Embed-Item-Tiles-into-a-website-or-email</link>
+         <description><![CDATA[<hr>
+<p>While you can <a href="https://help.uberflip.com/hc/en-us/articles/360023374631">embed whole Streams</a> anywhere you want, sometimes you might need to embed just a single Item. Here's how.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>To embed Items, you need to be an <strong>Account Admin </strong>or <strong>Content Manager</strong>.</li>
+<li>You will also need access to the HTML of the web property where you want to embed the Tile.</li>
+</ul>
+<p> </p>
+<h2>Embed a Single Item</h2>
+<p>You can generate an embed code for any Item, allowing you to easily display that Item's Tile within your non-Hub web properties. You can also embed the Item elsewhere that you can modify the HTML, such as in your email campaigns.</p>
+<ol>
+<li>Log in to Uberflip. Click on <strong>Hubs</strong> and select the Hub that contains the Item you want to embed.</li>
+<li>In the sidebar menu on the left, click on <strong>Content. </strong>On the <strong>Streams</strong> tab on the right, <strong>click on the Stream</strong> that contains the Item you want to embed.
+<ul>
+<li>
+<strong>Note:</strong> If the item you're embedding appears in multiple Streams (i.e. in Marketing Streams), the Stream you select in this step will be the Stream that the embedded Item links to.</li>
+</ul>
+</li>
+<li>While viewing the Stream, find the Item. In the lower right corner of its Tile, click on the <strong>Embed</strong> (&lt;&gt;) button:<br><img src="https://help.uberflip.com/hc/article_attachments/360021199732/Fullscreen_2019-02-13__12_49_PM.png" alt="Fullscreen_2019-02-13__12_49_PM.png">
+</li>
+<li>The embed code will appear in an overlay:<br><img src="https://help.uberflip.com/hc/article_attachments/360021138791/Hubs___Manage_-_Uberflip_-__Private_Browsing_.png" alt="Hubs___Manage_-_Uberflip_-__Private_Browsing_.png">
+</li>
+<li>To use it, simply copy the embed code and paste it into the HTML wherever you want the Item Tile to appear.</li>
+</ol>
+<p>That's it! Your Tile will now appear where you have embedded it, and clicking on it will open the Item in your Hub.</p>]]></description>
+         <guid isPermaLink="false">360023119772</guid>
+         <pubDate>Wed, 13 Feb 2019 17:36:28 GMT</pubDate>
+      </item>
+      <item>
+         <title>Set up Redirect Rules to fix broken links</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360023146291-Set-up-Redirect-Rules-to-fix-broken-links</link>
+         <description><![CDATA[<p>Set up redirect rules to control what happens when a user lands on a broken link in your Hub.</p>
+<p> </p>
+<h2 id="h_01HVMKNDGY6BSG39YN69D76E0F">About Redirect Rules</h2>
+<p><span style="line-height: 1.5;">Redirect Rules define where a user lands if they navigate to a specified link. You can use these rules for anything in your account that has a URL: Streams, Author pages, Items and Flipbooks.</span></p>
+<p>When you log in to your Uberflip account, you may notice a new option in the app menu: '<strong>Redirect Rules</strong>'. Clicking this option will take you to a new management section of your Hub.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/6279038304525" alt="Untitled_design.png"></p>
+<p>Clicking the <strong>Add Rule</strong> button allows you to create new redirect rules for Items in your Hub.</p>
+<p> </p>
+<h2 id="h_01HVMKNDGYT5JCDE4WHN64Y0JY">Create new Redirect Rules</h2>
+<p>To create a new redirect rule, you'll need the path of the "broken" link (i.e. the link that is not in use anymore), and the URL or link of the page you'd like users to see if they land on that broken link.</p>
+<p> </p>
+<h3 id="h_01HVMKNDGYDTRNYAM8CM4SCRR0">Step 1: Set the Source Path</h3>
+<p>The <strong>path</strong> is the part of the URL after your Hub's base URL:</p>
+<ul>
+<li>If your Hub uses a <a href="https://help.uberflip.com/hc/en-us/articles/360018786372" target="_self">subdomain custom domain</a>, the base URL is something like <em>https://hub.mycompany.com/.</em> In a URL like <em>https://hub.mycompany.com/blog/post/</em>, the path is <strong><em>/blog/post/</em></strong>
+</li>
+<li>If your Hub uses a <a href="https://help.uberflip.com/hc/en-us/articles/360019755751" target="_self">subdirectory custom domain</a>, the base URL is something like <em>https://www.mycompany.com/hub/. </em>In a URL like <em>https://www.mycompany.com/hub/blog/post/</em>, the path is also <em><strong>/blog/post/</strong>.</em> Note that <em>/hub/</em> is considered part of the base URL, <strong>not</strong> part of the path.</li>
+</ul>
+<p>Enter the URL path in the '<em>/path</em>' box under the '<strong>Source Path</strong>' heading.</p>
+<p>Using the drop-down menu beside the '/path' box, you can specify if the path should match what's entered exactly, match a regular expression or start with what's entered.<br><img src="https://content.cdntwrk.com/files/aHViPTQyNjMxJmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzU4NTgwZTAyNDE4NWEucG5nJnZlcnNpb249MDAwMCZzaWc9MDRiOWM5NGIyMDMzYTMxNGRkMjIxM2RhYWIyZWY4NTQ%253D" alt="" width="501" height="189"></p>
+<h3 id="h_01HVMKNDGYRCWHAEQ1TH7N0Z0K"> </h3>
+<h3 id="h_01HVMKNDGYC9P7CEYSZMVJBSVB">Step 2: Update the Destination</h3>
+<p>In the box beside the drop down menu that says '<strong>Path</strong>', enter the  path you'd like the browser to redirect to.</p>
+<p> </p>
+<h3 id="h_01HVMKNDGY3JK7MK3M3MDJ01XF">Step 3: Choose Redirect Type</h3>
+<p>Use a permanent 301 redirect if you want search engines to index the new link in place of the old one.</p>
+<p> </p>
+<h3 id="h_01HVMNJGTEDKY5NZFT9TQGP41G">Step 4 (optional):</h3>
+<div class="accordion accordion--colored">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Configure More Options</strong></div>
+<div class="accordion__item-content">
+<p>Clicking the '<strong>Show More Options</strong>' link will open up more choices under '<strong>Source Path</strong>' and '<strong>Destination</strong>'.<br><img src="https://content.cdntwrk.com/files/aHViPTQyNjMxJmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzU4NTgxZDA2N2IyOWQucG5nJnZlcnNpb249MDAwMCZzaWc9NzIxOTVlYjUxMDRhZDlkYzBhYjIxOTZiYzgyYzEyZjM%253D" alt="" width="600" height="434"><br><strong>(1)</strong> Under '<strong>Source Path</strong>', you'll be able to specify if you want the redirect to work if there's a trailing slash ( '/' ) at the end of the source URL. </p>
+<p><strong>(2)</strong> You can also include any parameters that should be matched to the URL, using the box under '<strong>Match specific parameters after the "?"</strong>'.</p>
+<p><strong>(3)</strong> For the destination, you can specify if parameters from the source path (ie. the broken URL or link) should be added to the destination URL by checking the '<strong>Append parameters from source path</strong>'.</p>
+<p><strong>(4) </strong>If you need to add parameters to the destination link, list them in the box under the '<strong>Add parameters after the "?"</strong>'.</p>
+</div>
+</div>
+</div>
+<p> </p>
+<p>Hit <strong>Save</strong> when you're done to save your rule.</p>
+<p> </p>
+<h2 id="h_01HVMKWBQ2PF10K49EKA8EDVJC">Set rule priority (optional)</h2>
+<p>With Redirect Rules, you can to set multiple rules on a source path that trigger before or after others. This is useful when you're creating rules for a path but you also want different rules for some of the destination URLs at the end of that path.</p>
+<p>If you have more than one rule set for the same URL source path, you can choose the priority for the rules to trigger. When any rule is successfully executed, no further rules will trigger.</p>
+<p><strong>Note:</strong> If no priority is chosen, rules for the same path will trigger in the order they appear in the list. </p>
+<h3 id="h_01HVMNDJ9GA07H39FCZBWYBZKF">Set rule priority:</h3>
+<p>From the Redirect Rules list page, you can edit the number under the "Priority" column for each rule by clicking it. </p>
+<p>Keep in mind, number 1 will trigger first, then 2, and so on. </p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/25959730594957" width="600" height="126"></p>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360023146291</guid>
+         <pubDate>Fri, 08 Feb 2019 21:27:08 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

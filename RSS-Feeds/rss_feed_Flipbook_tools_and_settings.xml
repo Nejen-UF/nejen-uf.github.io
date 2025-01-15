@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Flipbook tools and settings</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Replace an Entire Flipbook</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360029166552-Replace-an-Entire-Flipbook</link>
+         <description><![CDATA[<hr>
+<p>If you need to make major changes to an existing Flipbook and the <a href="https://help.uberflip.com/hc/en-us/articles/360029126072" target="_self">Page Replacement tool</a> can't do the job, you can use the <strong>Replace Flipbook</strong> tool instead. Here's how.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>To use the <strong>Page Replacement</strong> tool, you need to be a member of the <strong>Account Admin</strong>, <strong>Content Manager</strong> or <strong>Developer/Designer</strong> user groups.</li>
+</ul>
+<p> </p>
+<h2>About the Replace Flipbook Tool</h2>
+<p>If you've <a href="https://help.uberflip.com/hc/en-us/articles/360020776171" target="_self">uploaded a PDF to create a Flipbook</a>, but discovered post-upload that there's an typo or some other kind of error, you can often use the <a href="https://help.uberflip.com/hc/en-us/articles/360029126072" target="_self">Page Replacement tool</a> to swap out the problem pages. But the Page Replacement tool has some limitations: it can replace pages one-for-one, but it can't add or remove any pages. If your Flipbook is missing pages or has extra pages that you need to remove, you can use the <strong>Replace Flipbook </strong>tool instead.</p>
+<p>Using this tool will cost one upload credit, just like creating a brand-new Flipbook. However, the benefit of using the Replace Flipbook tool over simply deleting the Flipbook and uploading a new copy is that using it preserves the Flipbook's URL — so if you've already promoted that URL, fixing the underlying Flipbook won't break the shared links.</p>
+<div class="callout callout--warning">
+<h4 id="h_0d38a6ec-2c37-4e21-8537-1f09c543b066" class="callout__title">Flipbook Credit Exception</h4>
+<p>Replacing a Flipbook in your account will <strong>not</strong> cost an upload credit if you are on an Exclusive, Elite or Enterprise pack type.</p>
+</div>
+<p>Before using the Replace Flipbook tool, be sure to review the following to understand what will be preserved, and what will be deleted, as a result of using the tool to replace a Flipbook.</p>
+<p>Elements <strong>deleted</strong> from a Flipbook when using the Replace Flipbook tool (if present):</p>
+<ul>
+<li>Bookmarks and notes made with the Annotation Tool</li>
+<li>Any changes made to page text and table of contents</li>
+<li>Clippings</li>
+<li>Links</li>
+<li>Advertiser index</li>
+<li>Tabs</li>
+<li>Audio/video placements
+<ul>
+<li>The videos themselves will be preserved; only the placements are deleted</li>
+</ul>
+</li>
+<li>Page Widgets</li>
+</ul>
+<p> Elements <strong>preserved</strong> in a Flipbook when using the Replace Flipbook tool (if present):</p>
+<ul>
+<li>All <a href="https://help.uberflip.com/hc/en-us/articles/360035433571" target="_self">Uberflip Analytics</a> data associated with the Flipbook</li>
+<li>Any Items in your Hub that refer to the Flipbook</li>
+<li>Auto-Link jobs that were previously run on the Flipbook</li>
+<li>Features Flipbook settings in any Library Apps</li>
+<li>Legacy Metrics email sets</li>
+<li>Geo campaigns</li>
+</ul>
+<p> </p>
+<h2>Replace a Flipbook</h2>
+<p>You can open the Replace Flipbook tool on any existing Flipbook.</p>
+<ol>
+<li>Log in to Uberflip and click on <strong>Flipbooks</strong>.</li>
+<li>Use the dropdown menu on the left under <strong>Select a Folder to Manage</strong> to choose the Folder which contains the Flipbook you want to work on.</li>
+<li>Inside the Folder view, click on the Flipbook to open its <strong>Flipbook Settings &amp; Options</strong> screen.</li>
+<li>Under the <strong>Flipbook Options</strong> section near the bottom, find the <strong>Replace Flipbook</strong> button (under the <strong>Manage</strong> column) and click on it to open the tool:<br><img src="https://help.uberflip.com/hc/article_attachments/360030975072/Manage_Folder_-_Uberflip.png" alt="Manage_Folder_-_Uberflip.png">
+</li>
+<li>A warning pop-up will appear, asking if you're sure you want to replace the Flipbook. Make sure you understand the consequences of proceeding, then click on the <strong>Replace Flipbook</strong> button.</li>
+<li>You'll be taken to the standard PDF upload menu (the same as when you upload a PDF to create a new Flipbook). Simply choose the PDF you want to use to replace the existing Flipbook and configure any options as necessary. For help with this, see <a href="https://help.uberflip.com/hc/en-us/articles/360020776171" target="_self">this article</a>.</li>
+<li>Once the upload and conversion completes, the new PDF will replace your existing Flipbook, preserving its URL/links.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360029166552</guid>
+         <pubDate>Thu, 13 Jun 2019 15:32:33 GMT</pubDate>
+      </item>
+      <item>
+         <title>Replace a Page in a Flipbook</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360029126072-Replace-a-Page-in-a-Flipbook</link>
+         <description><![CDATA[<hr>
+<p>If you spot a mistake or other problem with your Flipbook after uploading, you don't need to reupload the whole Flipbook - just replace the affected page(s) with the <strong>Page Replacement</strong> tool. Here's how.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>To use the <strong>Page Replacement</strong> tool, you need to be a member of the <strong>Account Admin</strong>, <strong>Content Manager</strong> or <strong>Developer/Designer</strong> user groups.</li>
+<li>This tool allows you to <strong>replace</strong> any page in a Flipbook, but <strong>inserting or removing </strong>pages is <strong>not possible</strong>.</li>
+<li>You'll need a <strong>one-page PDF file</strong> that consists only of the (corrected) page that you want to replace in the existing Flipbook.</li>
+</ul>
+<div class="callout">
+<h4 class="callout__title">Usage Policy</h4>
+<p>The <strong>Page Replacement </strong>tool is intended to be used to correct pages in an existing Flipbook, as uploading a new Flipbook will change the URL (which may already be shared) and costs an upload credit.  </p>
+<p>However, this tool must not be used to replace <strong>all</strong> pages in an existing Flipbook. In this case, a new Flipbook should be uploaded instead. Uberflip reserves the right to disable this tool on accounts where it is being used outside its intended purpose.</p>
+</div>
+<p> </p>
+<h2>Open the Page Replacement Tool</h2>
+<p>You can open the Page Replacement tool on any existing Flipbook.</p>
+<ol>
+<li>Log in to Uberflip and click on <strong>Flipbooks</strong>.</li>
+<li>Use the dropdown menu on the left under <strong>Select a Folder to Manage</strong> to choose the Folder which contains the Flipbook you want to work on.</li>
+<li>Inside the Folder view, click on the Flipbook to open its <strong>Flipbook Settings &amp; Options</strong> screen.</li>
+<li>Under the <strong>Flipbook Options</strong> section near the bottom, find the <strong>Replace a Page</strong> button (under the <strong>Enhance</strong> column) and click on it to open the tool:<br><img src="https://help.uberflip.com/hc/article_attachments/360030827511/Manage_Folder_-_Uberflip.png" alt="Manage_Folder_-_Uberflip.png" width="458" height="223">
+</li>
+<li>The Page Replacement tool will open, and you can now choose and configure the page to be replaced.</li>
+</ol>
+<p> </p>
+<h2>Replace a Page with the Page Replacement Tool</h2>
+<p>Once the Page Replacement tool is open, you can choose the page to be replaced, the page you'll replace it with, and configure some additional options.</p>
+<ol>
+<li>With the Page Replacement Tool open, begin by making sure that the correct Flipbook is shown under the <strong>Select Flipbook </strong>section.</li>
+<li>Under the <strong>Replace a Page Within a Selected Flipbook</strong> section, begin by using the dropdown under <strong>Select Page</strong> to choose the page in the existing Flipbook that you want to replace:<br><img src="https://help.uberflip.com/hc/article_attachments/360030857912/Power_Tools_-_Page_Replacement_-_Uberflip.png" alt="Power_Tools_-_Page_Replacement_-_Uberflip.png">
+<ul>
+<li>If you have set a page offset on the Flipbook, you'll see the page numbers in the format <em>absolute page number [relative page number]</em>: for example, a page offset of +2 would show options like <em>1 [3]</em> or <em>20 [22]</em>.</li>
+</ul>
+</li>
+<li>Once you make a selection, a preview thumbnail of the page will appear under <strong>Page Preview</strong> (click to zoom). Use this to confirm you have the right page:<br><img src="https://help.uberflip.com/hc/article_attachments/360030858032/Power_Tools_-_Page_Replacement_-_Uberflip.png" alt="Power_Tools_-_Page_Replacement_-_Uberflip.png">
+</li>
+<li>Under <strong>Replacement Info</strong>, you'll see a counter showing how many pages have previously been replaced in this Flipbook (if any). This counter increments by one each time you use the tool on the same Flipbook.</li>
+<li>Under <strong>Upload PDF</strong>, click on <strong>Choose File</strong> to select the one-page PDF containing the replacement page.
+<ul>
+<li>Only the first page in the uploaded PDF will be used, so make sure that the PDF file consists of just one page (or that the page to be used is the first page for multi-page PDF files).</li>
+</ul>
+</li>
+<li>Configure any options as desired:
+<ul>
+<li>
+<strong>Replace page's links: </strong>If checked, will delete any existing links on the page being replaced, and the <a href="https://help.uberflip.com/hc/en-us/articles/360020720231" target="_self">Auto-Link Tool</a> will be re-run on only this page to recreate any embedded and custom links (if previously configured). When enabled, requires the <strong>Update stored PDF</strong> option to also be checked as well.</li>
+<li>
+<strong>Replace page's text</strong>: If checked, automatically extracted text from the page being replaced will be deleted, and replaced with text extracted from the new page. When enabled, requires the <strong>Update stored PDF</strong> option to also be checked as well.</li>
+<li>
+<strong>Update stored PDF:</strong> If checked, updates the stored PDF version of the Flipbook as well, which is the PDF copy of the Flipbook that can be downloaded by users. Must be enabled if any of the other two options are checked.</li>
+</ul>
+</li>
+<li>When you're ready to proceed, click on the <strong>Upload &amp; Replace button</strong> to begin the replacement process.
+<ul>
+<li>During replacement, the Flipbook will show the status "Replacing Page", and will be temporarily inaccessible for users. This should be completed within a few seconds.</li>
+</ul>
+</li>
+<li>Once the replacement process is complete, the Flipbook will display the new page in place of the old one when viewed.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360029126072</guid>
+         <pubDate>Wed, 12 Jun 2019 18:21:18 GMT</pubDate>
+      </item>
+      <item>
+         <title>Enable the PDF File Viewer for a Folder</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360024290271-Enable-the-PDF-File-Viewer-for-a-Folder</link>
+         <description><![CDATA[<hr>
+<p>Want to display your PDF files in their original format, rather than as Flipbooks? Learn how to do this by enabling the PDF File Viewer option on your Folders.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>To enable the PDF File Viewer, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+</ul>
+<p> </p>
+<h2>About the PDF File Viewer</h2>
+<p>The PDF File Viewer allows you to display PDF files in your Hub in their original format, instead of displaying them as Flipbooks. As with other Flipbooks display options, the PDF File Viewer option is set at the Folder level, so selecting it will affect all PDF files within that Folder (i.e. you can't have both Flipbooks and PDF file content in the same Folder).</p>
+<p>To learn more about the PDF File Viewer and how it differs from the Flipbooks, see this article:</p>
+<p><a href="https://help.uberflip.com/hc/en-us/articles/360024197971">The PDF File Viewer Explained</a></p>
+<p> </p>
+<h2>Enable the PDF File Viewer for a New Folder</h2>
+<ol>
+<li>Log in to Uberflip. In the menu bar at the top, click on <strong>Flipbooks &gt; Manage Flipbooks</strong>.<br><img src="https://help.uberflip.com/hc/article_attachments/360022296851/Fullscreen_2019-02-21__1_50_PM.png" alt="Fullscreen_2019-02-21__1_50_PM.png">
+</li>
+<li>Near the top right corner, click on <strong>+Create New Folder</strong>.<br><img src="https://help.uberflip.com/hc/article_attachments/360022296951/Manage_Folder_-_Uberflip.png" alt="Manage_Folder_-_Uberflip.png">
+</li>
+<li>In the menu that appears, choose either the <strong>From scratch</strong> or <strong>Duplicate from </strong>option, depending on your preference.</li>
+<li>The <strong>Create a New Folder</strong> page will appear. Near the top, use the dropdown under <strong>Reader Version</strong> to select <strong>Native PDF</strong>. Make sure to do this <strong>first</strong>, as changing the setting here will change the available options on the page.<br><img src="https://help.uberflip.com/hc/article_attachments/360022309512/Create_a_new_Folder_-_Uberflip.png" alt="Create_a_new_Folder_-_Uberflip.png" width="651" height="170">
+</li>
+<li>A confirmation prompt will appear. Click on <strong>Save.</strong>
+</li>
+<li>Finish setting up the Folder, e.g. enter a Folder Name and configure options as needed. When you're done, click on the <strong>Add Folder</strong> button at the bottom of the page to finish creating the new Folder.</li>
+<li>That's it! Any PDF files you add to this Folder will now be displayed within the PDF File Viewer.</li>
+</ol>
+<p> </p>
+<h2>Enable the PDF File Viewer for an Existing Folder</h2>
+<ol>
+<li>Log in to Uberflip. In the menu bar at the top, click on <strong>Flipbooks &gt; Manage Flipbooks</strong>.<br><img src="https://help.uberflip.com/hc/article_attachments/360022296851/Fullscreen_2019-02-21__1_50_PM.png" alt="Fullscreen_2019-02-21__1_50_PM.png">
+</li>
+<li>Under the <strong>Select a Folder to Manage</strong> dropdown, choose the Folder you want to enable the PDF File Viewer on.<br><img src="https://help.uberflip.com/hc/article_attachments/360022297871/Manage_Folders_and_Flipbooks_-_Uberflip.png" alt="Manage_Folders_and_Flipbooks_-_Uberflip.png" width="548" height="230">
+</li>
+<li>Click on the <strong>Edit</strong> button that now appears below the <strong>Select a Folder to Manage</strong> dropdown:<img src="https://help.uberflip.com/hc/article_attachments/360022299131/Manage_Folder_-_Uberflip.png" alt="Manage_Folder_-_Uberflip.png">
+</li>
+<li>The <strong>Edit an Existing Folder</strong> page will appear. Near the top, use the dropdown under <strong>Reader Version</strong> to select <strong>Native PDF</strong>.<br><img src="https://help.uberflip.com/hc/article_attachments/360022300291/Edit_an_existing_Folder_-_Uberflip.png" alt="Edit_an_existing_Folder_-_Uberflip.png" width="651" height="176">
+</li>
+<li>A confirmation prompt will appear. Click on <strong>Save.</strong>
+</li>
+<li>Finally, click on the <strong>Save</strong> button near the bottom of the page to save your changes.</li>
+<li>That's it! Any PDF files that already existed in this Folder, as well as any that you add going forward, will now be displayed within the PDF File Viewer.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360024290271</guid>
+         <pubDate>Thu, 21 Feb 2019 17:37:07 GMT</pubDate>
+      </item>
+      <item>
+         <title>The PDF File Viewer Explained</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360024197971-The-PDF-File-Viewer-Explained</link>
+         <description><![CDATA[<hr>
+<p>If you prefer to display your PDF content as PDF files, rather than as Flipbooks, you can do this by using the PDF File Viewer. Here's how it works.</p>
+<hr>
+<p> </p>
+<h2>What is the PDF File Viewer?</h2>
+<p>When you add PDF content to your Hub, the default way to present it is with <a href="https://help.uberflip.com/hc/en-us/articles/360020776171-Upload-a-PDF-to-Create-a-Flipbook">Flipbooks</a>. Uberflip Flipbooks are PDFs that have been converted to an image format and are displayed in an interactive viewer in a browser.</p>
+<p>Flipbooks have several advantages over standard PDFs, but sometimes you might prefer to present your PDF content more traditionally — just as normal PDFs, in other words. In these situations, you can use the <strong>PDF File Viewer </strong>option.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>When working in the Uberflip Flipbook editor, the 'Reader Version' options: <strong>HTML5</strong> and <strong>HTML5 (SVG),</strong> are both <em>Flipbook viewer</em> options, while <strong>Native PDF</strong> is the <em>PDF file viewer</em> outlined in this article.</p>
+</div>
+<p>The PDF File Viewer is exactly what it sounds like: a viewer app that displays PDF files within a user's browser, similar to the experience you'd get in a traditional desktop PDF viewer like Adobe Reader.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360022914631/Fullscreen_2019-02-27__2_40_PM.png" alt="Fullscreen_2019-02-27__2_40_PM.png"></p>
+<p>The PDF File Viewer is based on Mozilla's <strong>PDF.js</strong>, an open-source, JavaScript-based PDF renderer. (If you're a Firefox user, it might look familiar: it's the same PDF viewer that's built into Firefox.)</p>
+<p>PDF.js has several advantages:</p>
+<ul>
+<li>It's a <a href="#h_949102055241550698747153">full-featured</a> PDF viewer that displays PDFs directly within a browser, so visitors can consume your PDF content without needing to download the PDF file and view it in an external app;</li>
+<li>It's website-hosted, so it runs automatically — visitors don't need to download or install separate PDF viewer software;</li>
+<li>It's compliant with web standards, so it works in almost any browser.</li>
+</ul>
+<p>As a result, if you choose to display the PDF content on your Hub just as standard PDFs, the PDF File Viewer ensures that the experience for your visitors still remains seamless and keeps them in the Hub.</p>
+<p> </p>
+<h2 id="h_949102055241550698747153">PDF File Viewer Features</h2>
+<p>The PDF File Viewer has a wide range of features, comparable to desktop PDF viewers. Below is an annotated overview (click to zoom):</p>
+<p><a class="image-with-lightbox" href="https://help.uberflip.com/hc/article_attachments/360022320432/Fullscreen_2019-02-21__4_21_PM.png"> <img src="https://help.uberflip.com/hc/article_attachments/360022320432/Fullscreen_2019-02-21__4_21_PM.png" alt="Fullscreen_2019-02-21__4_21_PM.png" width="700" height="156"></a></p>
+<ol>
+<li>
+<strong>Toggle Sidebar: </strong>Opens and closes the sidebar, which can display thumbnails of the pages in the PDF, the document outline (index), or attachments.</li>
+<li>
+<strong>Find in Document:</strong> Full-text word search, including highlighting functionality.<br><img src="https://help.uberflip.com/hc/article_attachments/360022237611/compressed_tracemonkey-pldi-09_pdf.png" alt="compressed_tracemonkey-pldi-09_pdf.png">
+</li>
+<li>
+<strong>Page Navigation: </strong>Navigation controls and current position in the PDF.</li>
+<li>
+<strong>Zoom: </strong>Zoom controls, current zoom setting, and zoom presets (e.g. Automatic Zoom, Page Fit, etc.)</li>
+<li>
+<strong>Presentation Mode:</strong> Switches to fullscreen view with the menu bar hidden.</li>
+<li>
+<strong>Open File: </strong>Opens an external PDF file (from the user's computer) in the viewer.</li>
+<li>
+<strong>Print: </strong>Prints the current PDF file (uses browser's printing interface).</li>
+<li>
+<strong>Download</strong><strong>: </strong>Downloads the current PDF file to the user's computer.</li>
+<li>
+<strong>Current View:</strong> Opens the current location within the PDF in a new browser tab or window  (has to be clicked while holding down the <em>Control</em> key).</li>
+<li>
+<strong>Tools</strong>: Contains additional display and navigation options:
+<ul>
+<li>Go to First/Last Page</li>
+<li>Rotate Clockwise/Anti-Clockwise</li>
+<li>Toggle between Text Selection and Hand (click-and-drag navigation) tools</li>
+<li>Toggle between Vertical, Horizontal and Wrapped page scrolling</li>
+<li>Toggle between single-page or two-page-spread view (No Spread, Double Odd-Page Spreads, Double Even-Page Spreads)</li>
+<li>View Document Properties (PDF file metadata including filename, filesize, title, author, etc.)<br><img src="https://help.uberflip.com/hc/article_attachments/360022238291/compressed_tracemonkey-pldi-09_pdf.png" alt="compressed_tracemonkey-pldi-09_pdf.png" width="287" height="310">
+</li>
+</ul>
+</li>
+</ol>
+<h2>Feature Availability</h2>
+<p>The PDF File Viewer does <strong>not</strong> support the following Flipbook features:</p>
+<ul>
+<li>
+<a href="https://help.uberflip.com/hc/en-us/sections/360002696491-Page-Editor">Page Editor</a> (including Replace Page)</li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360020720231-Get-Started-The-Auto-Link-Tool">Auto-Link Tool</a></li>
+<li>Most Folder Options (including Page number offset, social sharing, archives)</li>
+<li>Folder Widgets</li>
+<li>Folder Appearance/Branding settings</li>
+<li>Link styling</li>
+</ul>
+<p> </p>
+<h2>Accessibility Features</h2>
+<p>If you prioritize accessibility of your PDF content, the PDF File Viewer offers the following accessibility features that are <strong>not</strong> available in the Flipbook Viewer:</p>
+<ul>
+<li>Screen reader compatibility</li>
+<li>Permanent onscreen controls</li>
+<li>Easy-to-use zoom functionality</li>
+<li>Selectable text</li>
+<li>High color contrast</li>
+</ul>
+<h3> </h3>
+<h2>Next Steps</h2>
+<p>If you'd like to use the PDF File Viewer for any of your Folders, see this article for instructions on how to enable it:</p>
+<p><a href="https://help.uberflip.com/hc/en-us/articles/360024290271">Enable the PDF File Viewer for a Folder</a></p>]]></description>
+         <guid isPermaLink="false">360024197971</guid>
+         <pubDate>Wed, 20 Feb 2019 16:50:59 GMT</pubDate>
+      </item>
+      <item>
+         <title>Get started with the Auto-Link Tool</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020720231-Get-started-with-the-Auto-Link-Tool</link>
+         <description><![CDATA[<hr>
+<p>The Auto-Link Tool can automatically create links in your Flipbooks. Here's an overview of how to use it, and what you can do with it.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>To use the Auto-Link Tool, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+</ul>
+<p> </p>
+<h2>What is the Auto-Link Tool?</h2>
+<p>The Auto-Link tool automatically creates clickable hyperlinks in Flipbooks from specific types of text. You'll be prompted to use the Auto-Link tool whenever you upload a PDF to Uberflip, but you can also run it at any later time on previously uploaded Flipbooks.</p>
+<p> </p>
+<h2>How Does it Work?</h2>
+<p>The Auto-Link tool scans through the text in a Flipbook and automatically creates links on text strings that meet certain criteria. The default Auto-Link operation finds any text that is either a website URL or an email address and makes them clickable.</p>
+<p>In addition, you can also define specific text strings you want to link, along with the link destination (URL), and the Auto-Link tool will find and create links automatically on any matching text in the Flipbook. There are two ways you can define what should be linked:</p>
+<ul>
+<li>
+<strong>CSV</strong><strong> file</strong>: Create and upload a table in CSV format that specifies the text strings and destination URLs (useful for large lists of links)</li>
+<li>
+<strong>Regular Expressions</strong>: Use regex to create a "text pattern" to search for, and define the destination URLs to link on any matches</li>
+</ul>
+<p> </p>
+<h2>Create Auto-Link Jobs</h2>
+<p>An Auto-Link job is a specific preset Auto-Link operation. One Auto-Link job is always available by default: linking websites and emails. Once you have uploaded at least one Flipbook to Uberflip, you can create additional CSV and/or regex Auto-Link jobs.</p>
+<p>You can run any number of existing Auto-Link jobs (of any type) whenever you upload a PDF, or at any time on an existing Flipbook.</p>
+<ol>
+<li>To create a new Auto-Link job, log in to Uberflip and navigate to <strong>Flipbooks &gt; Manage Flipbooks</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360017049312" alt="Fullscreen_2018-12-10__12_16_PM.png">
+</li>
+<li>If you have multiple Folders, select the Folder that contains the Flipbook on which you want to run the Auto-Link job.</li>
+<li>Click on the Flipbook. This will open the <strong>Flipbook Settings &amp; Options</strong> window.</li>
+<li>Here, look in the <strong>Flipbook Options </strong>section for the <strong>New Auto-Link Job </strong>button and click on it.<br><br>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016830211" alt="Manage_Folder_-_Uberflip.png"></p>
+</li>
+<li>From here, you can specify the details of the Auto-Link job you want to run. For specific instructions, <a href="#h_462826460151544464877175">see below</a>.</li>
+<li>The first time you create and run a new Auto-Link job, it will apply to the selected Flipbook. Subsequently, it will also be available to run when you upload new Flipbooks, as well.</li>
+</ol>
+<p> </p>
+<h2>Manage Auto-Link Jobs</h2>
+<p>You can view a previously run Auto-Link job at any time to review and manage the links it created. Existing Auto-Link jobs are listed under the Flipbook(s) on which they were run.</p>
+<ol>
+<li>Navigate to <strong>Flipbooks &gt; Manage Flipbooks</strong> again and open the Folder where the Flipbook on which you previously ran the Auto-Link job is located. Click on the Flipbook to open the</li>
+<li>
+<strong>Flipbook Settings &amp; Options</strong> window.</li>
+<li>Click on the <strong>Manage Auto-Links </strong>button under the <strong>Flipbook Options </strong>section.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360017121972" alt="Manage_Folder_-_Uberflip.png"><br><br>
+</li>
+<li>On the next page, you will see a list of previously run Auto-Link jobs on this Flipbook under the <strong>Existing Jobs</strong> section. Click on any job in this section to view more details in the <strong>Job Tasks</strong> section on the right:<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016833231" alt="Manage_Auto_Link_Jobs___Tasks_-_Uberflip.png" width="583" height="211"><br><br>
+</li>
+<li>Click on any task in the <strong>Job Tasks</strong> section, and you can view a list of all the links created by that task in the <strong>Links Created </strong>section below. Here, you can view the page the link appears on and its current status (active or inactive). On the right next to each link, you will also see the <strong>Edit</strong> and <strong>Delete</strong> buttons:<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016833531" alt="Manage_Auto_Link_Jobs___Tasks_-_Uberflip.png">
+</li>
+<li>Click on <strong>Edit</strong> to edit the link using the <a href="https://help.uberflip.com/hc/en-us/articles/360020665071">Page Editor</a>, or click on <strong>Delete</strong> to remove the link.</li>
+<li>Lastly, you can also switch to a different Folder/Flipbook by using the dropdown menus under the <strong>Select Flipbook</strong> section at the top of the screen.</li>
+</ol>
+<p> </p>
+<h2 id="h_462826460151544464877175">Next Steps</h2>
+<p>See the articles below for instructions on how to set up and run specific kinds of Auto-Link jobs:</p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360019781392">Automatically Create Links From Websites and Emails</a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360020003231">Automatically Create Links Using Digital Object Identifiers (DOI)</a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360020001151">Automatically Create Links Using Regular Expressions</a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360019998971">Automatically Create Links From a CSV File</a></li>
+</ul>]]></description>
+         <guid isPermaLink="false">360020720231</guid>
+         <pubDate>Fri, 07 Dec 2018 21:53:11 GMT</pubDate>
+      </item>
+      <item>
+         <title>Change Reading Direction of a Flipbook to Right-to-Left</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020039191-Change-Reading-Direction-of-a-Flipbook-to-Right-to-Left</link>
+         <description><![CDATA[<hr>
+<p>Need to change the reading direction of a Flipbook written in a language that reads right-to-left? Here's how.</p>
+<hr>
+<p> </p>
+<h2>Before you Begin</h2>
+<ul>
+<li>To use this functionality, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+</ul>
+<p> </p>
+<h2>Change Flipbook Reading Direction</h2>
+<p>Many languages read from left-to-right, and by default, Flipbooks flip pages in this way as well (i.e. the next page is to the right of the current page). However, some languages (such as Arabic, Hebrew, Japanese, etc.) read right-to-left, which requires flipping pages in the opposite direction.</p>
+<p>While Flipbooks aren't designed to start on the right-most page and flip the left page to advance, you can still use a workaround to enable this by using page offset. This will also allow the reader toolbar to display correct page numbers (albeit with a "negative" page numbers).</p>
+<ol>
+<li>Log in to Uberflip and click on <strong>Flipbooks &gt; Manage Flipbooks</strong>.</li>
+<li>If you have multiple Folders, use the dropdown to select the Folder with the Flipbook you want to work on.</li>
+<li>Click on the Flipbook you want to edit to open the <strong>Flipbook Settings &amp; Options</strong> window.</li>
+<li>Under the section <strong>Flipbook Options &gt; Manage</strong>, click on <strong>Override Folder Defaults</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015740151/Manage_Folder_-_Uberflip.png" alt="Manage_Folder_-_Uberflip.png">
+</li>
+<li>Under <strong>Page number offset</strong>, type a <em>negative</em> number that's equal to the number of pages in the Flipbook. For example, if the Flipbook is 5 pages long, type in <em>-5</em>. This will allow the page numbers to be displayed correctly (with a leading minus symbol, however).</li>
+<li>Under <strong>Cover Thumbnail Image</strong>, use the dropdown to select the very last page of the Flipbook (where the cover should be).</li>
+<li>Lastly, remember that you must promote this Flipbook with a direct page link that takes users to the <strong>last page</strong> (i.e. the first page for a right-to-left Flipbook). All links to the Flipbook that are built into Uberflip will always link to the first page, so you must remember to manually change the links where needed.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360020039191</guid>
+         <pubDate>Tue, 20 Nov 2018 17:58:36 GMT</pubDate>
+      </item>
+      <item>
+         <title>Automatically Upload PDFs from an FTP Server</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020032611-Automatically-Upload-PDFs-from-an-FTP-Server</link>
+         <description><![CDATA[<hr>
+<p>In addition to uploading them manually, you can also automatically upload PDFs from an FTP server on a schedule.</p>
+<hr>
+<p> </p>
+<h2>Before you Begin</h2>
+<ul>
+<li>To use this feature, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+<li>You will also need to host your PDFs on an FTP server, and will need to know the details of that server (host, directory, access credentials, etc.)</li>
+</ul>
+<p> </p>
+<h2>Set up the FTP Scheduler</h2>
+<p>You can set up one schedule per Folder.</p>
+<ol>
+<li>Log in to your Uberflip account and click on <strong>Flipbooks &gt; Manage Flipbooks</strong>.</li>
+<li>If you have multiple Folders, use the dropdown to select the Folder you want to upload to.</li>
+<li>On the left, under <strong>Folder Options</strong>, click on the <strong>Edit</strong> button.</li>
+<li>In the menu on the left side, click on <strong>Automation</strong> to expand that section, then click on <strong>FTP Scheduler</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015676352" alt="Edit_an_existing_Folder_-_Uberflip.png" width="257" height="302">
+</li>
+<li>On the right, check the box next to <strong>Activate scheduling for this Folder</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015724191" alt="Edit_an_existing_Folder_-_Uberflip.png" width="700" height="178">
+</li>
+<li>Additional configuration fields will appear. Under <strong>FTP Settings</strong>, fill out the fields: type in the host name of your FTP site, the directory where the files to be uploaded are located, etc.</li>
+<li>Under <strong>Scheduling Settings</strong>, choose how often you want the scheduler to check the FTP server for new files (daily/weekly/monthly), and use the dropdowns to select specific times to for file pickup and Flipbook activation.</li>
+<li>Under <strong>Auto Link</strong>, choose whether you want to automatically create links in the Flipbooks for websites and emails found in the text.</li>
+<li>Finally, under <strong>Flipbook Preferences</strong>, choose:
+<ul>
+<li>The naming convention you want the scheduler to use when automatically naming newly imported Flipbooks</li>
+<li>How you want the scheduler to handle files found in the specified directory on the server</li>
+<li>Whether you want to automatically delete Flipbooks</li>
+</ul>
+</li>
+<li>When you have set everything up, click on <strong>Save</strong> to save your settings and enable the scheduler.</li>
+</ol>
+<p> </p>
+<h2>Run a Report on Your Schedules</h2>
+<p>To see the status of your scheduled jobs, you can run a report.</p>
+<ol>
+<li>Log in to Uberflip and click on your name in the top right, then click on <strong>Account Settings</strong>.</li>
+<li>In the menu on the left, click on <strong>Reports</strong> to expand that section, then click on <strong>Schedules</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015677192" alt="Account___Schedules_-_Uberflip.png">
+</li>
+<li>On the right, select the criteria for your report and click <strong>Search</strong>.</li>
+<li>In the results, you will see scheduled FTP jobs that have been attempted, as well as their status:
+<ul>
+<li>
+<strong>Success</strong> indicates that the job was completed</li>
+<li>
+<strong>Error</strong> indicates a problem with the job: click on the link for more details</li>
+<li>After three failed attempts, the system will not retry again, and you will need to resolve the issue and reschedule the FTP job.</li>
+</ul>
+</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360020032611</guid>
+         <pubDate>Tue, 20 Nov 2018 15:07:08 GMT</pubDate>
+      </item>
+      <item>
+         <title>Automatically Create Links Using Digital Object Identifiers (DOI)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020003231-Automatically-Create-Links-Using-Digital-Object-Identifiers-DOI</link>
+         <description><![CDATA[<hr>
+<p>How to automatically create links in a Flipbook using Digital Object Identifiers.</p>
+<hr>
+<p> </p>
+<h2>Before you Begin</h2>
+<ul>
+<li>To use this tool, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+<li>This tool will not work on image-based text, so you should always <strong>use embedded fonts</strong> in your PDFs if you want to use the Auto-Link Tool.</li>
+</ul>
+<p> </p>
+<h2>About Auto-Linking Digital Object Identifiers (DOIs)</h2>
+<p>The Auto-Link tool can automatically create hyperlinks in Flipbooks on any string of text you want (such as keywords, URLs or emails). Many scientific journals contain Digital Object Identifiers (DOIs), a standard format for referencing scientific articles stores in a central database. If your Flipbooks contain DOIs, you can use the Auto-Link Tool to find and link to the corresponding articles using a custom <a href="https://help.uberflip.com/hc/en-us/articles/360020001151">regular expression</a>.</p>
+<p> </p>
+<h2>Create the Auto-Link Job</h2>
+<ol>
+<li>Log in to your Uberflip account and click on <strong>Flipbooks</strong> in the menu bar at the top.</li>
+<li>Use the dropdown to select the folder with the Flipbook you want to use the Auto-Link tool on.</li>
+<li>Click on the Flipbook to see more options. Under the <strong>Flipbook Options</strong> section, click on <strong>New Auto-Link Job</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/23629057933965" alt="Manage_Folder_-_Uberflip.png">
+</li>
+<li>On the next page, use the dropdown under <strong>Job Type</strong> to select <strong>Regular Expression</strong>.</li>
+<li>More fields will appear. Under <strong>Job Name</strong>, type in a name to help you identify the CSV job.</li>
+<li>Under <strong>Search for (Regular expression</strong><strong>)</strong>, type in: <em>10.\d{4}/\S+</em>
+</li>
+<li>Under <strong>Replace With (link)</strong>, type in:<br>
+<ul>
+<li>
+<strong>First box:</strong> http://dx.doi.org/</li>
+<li>
+<strong>Second box:</strong> 10.\d{4}/\S+</li>
+</ul>
+</li>
+<li>Under <strong>Hovertip</strong>, use the text field to type in a tooltip that will appear on hovering the mouse over the link. If left blank, the tooltip will display the linked URL.</li>
+<li>Click on <strong>Create Jo</strong><strong>b</strong>, and you will be taken to the<strong> Manage Auto Link Jobs &amp; Tasks </strong>page to review the job.</li>
+</ol>
+<p> </p>
+<h2>Manage Auto-Links</h2>
+<ol>
+<li>Your CSV Job will contain a <strong>Task</strong> for each line in your CSV file, and each Task will contain one link.</li>
+<li>Click on a Task to see the links created by that Task. From here, you can choose to <strong>enable, disable or delete the link</strong>.</li>
+<li>If you want, you can also delete the entire Job from the <strong>Manage Auto Link Jobs &amp; Tasks</strong> page.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360020003231</guid>
+         <pubDate>Mon, 19 Nov 2018 21:12:20 GMT</pubDate>
+      </item>
+      <item>
+         <title>Automatically Create Links From Websites and Emails</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360019781392-Automatically-Create-Links-From-Websites-and-Emails</link>
+         <description><![CDATA[<hr>
+<p>How to automatically create links in a Flipbook from any website or email in the text.</p>
+<hr>
+<p> </p>
+<h2>Before you Begin</h2>
+<ul>
+<li>To use this tool, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+<li>This tool will not work on image-based text, so you should always use embedded fonts in your PDFs if you want to use the Auto-Link Tool.</li>
+</ul>
+<p> </p>
+<h2>Auto-Link Emails and Websites</h2>
+<p>The Auto-Link tool can automatically recognize most standard formats of website URLs and email addresses in Flipbooks and create clickable hyperlinks from them. You can choose to do this either when you upload a PDF, or at a later time.</p>
+<p> </p>
+<h2>Auto-Link Websites &amp; Emails During Upload</h2>
+<ol>
+<li>Log in to your Uberflip account and click on <strong>Flipbooks</strong> in the menu bar at the top.</li>
+<li>Use the dropdown to select the Flipbook Folder you want to upload to.</li>
+<li>In the top right, click on <strong>Upload PDF</strong>.</li>
+<li>Proceed through the upload menu until you reach the <strong>Options</strong> screen. Here, check the box next to <strong>Find Websites &amp; Emails</strong> to auto-link websites and email addresses:<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015677971" alt="Manage_Folder_-_Uberflip.png" width="627" height="188">
+</li>
+<li>Click on <strong>Upload</strong> to upload the PDF and create a Flipbook with automatically linked websites and emails.</li>
+</ol>
+<p> </p>
+<h2>Auto-Link Websites &amp; Emails on Existing Flipbooks</h2>
+<ol>
+<li>Log in to your Uberflip account and click on <strong>Flipbooks</strong> in the menu bar at the top.</li>
+<li>Use the dropdown to select the Folder containing the Flipbook you want to use Auto-Link on.</li>
+<li>Click on the Flipbook to see more options. Under the <strong>Flipbook Options</strong> section, click on <strong>New Auto-Link Job</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/23629000851725" alt="Manage_Folder_-_Uberflip.png">
+</li>
+<li>On the next page, use the dropdown under <strong>Job Type</strong> to select <strong>Websites/Emails</strong>.</li>
+<li>Click on <strong>Create Jo</strong><strong>b</strong>, and you will be taken to the<strong> Manage Auto Link Jobs &amp; Tasks </strong>page to review the job.</li>
+</ol>
+<p> </p>
+<h2>Manage Auto-Links</h2>
+<ol>
+<li>Your CSV Job will contain a <strong>Task</strong> for each line in your CSV file, and each Task will contain one link.</li>
+<li>Click on a Task to see the links created by that Task. From here, you can choose to <strong>enable, disable or delete the link</strong>.</li>
+<li>If you want, you can also delete the entire Job from the <strong>Manage Auto Link Jobs &amp; Tasks</strong> page.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360019781392</guid>
+         <pubDate>Mon, 19 Nov 2018 21:11:00 GMT</pubDate>
+      </item>
+      <item>
+         <title>Automatically Create Links Using Regular Expressions</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020001151-Automatically-Create-Links-Using-Regular-Expressions</link>
+         <description><![CDATA[<hr>
+<p>How to automatically create links in a Flipbook using Regular Expressions (regex).</p>
+<hr>
+<p> </p>
+<h2>Before you Begin</h2>
+<ul>
+<li>To use this tool, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+<li>This tool will not work on image-based text, so you should always <strong>use embedded fonts</strong> in your PDFs if you want to use the Auto-Link Tool.</li>
+<li>To use this tool, you will need to know how to write <strong>regular expressions</strong>. You can learn more about regular expressions <a href="https://regexone.com/">here</a>.</li>
+</ul>
+<p> </p>
+<h2>About Regular Expressions</h2>
+<p>The Auto-Link tool can automatically create hyperlinks in Flipbooks on any string of text you want (such as keywords, URLs or emails). You can create these in bulk using regular expressions, which is a powerful language for finding specific strings of text or phrases that meet criteria of your choice. For example, the regex</p>
+<pre>[cC][oO][mM][pP][aA][nN][yY][nN][aA][mM][eE]</pre>
+<p>Would find all lower and upper-case combinations of <em>companyname</em>, e.g. <em>companyname, CompanyName, ComPanYnaME,</em> etc.</p>
+<p>You can choose to use simple regex (as above) or dynamic regex. For example, if you want to search for a product code in the format <em>ABC-123456</em>, a dynamic regex like</p>
+<pre>[A-Za-z][A-Za-z][A-Za-z].[0-9][0-9][0-9][0-9][0-9][0-9]</pre>
+<p>would recognize all of the codes listed in the example table below:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360015623332" alt="Using_the_Auto-Link_Tool_s_Custom_Regular_Expression__REGEX_-_PRO_and_up_.png"></p>
+<p> </p>
+<h2>Create the Auto-Link Job</h2>
+<ol>
+<li>Log in to your Uberflip account and click on <strong>Flipbooks</strong> in the menu bar at the top.</li>
+<li>Use the dropdown to select the folder with the Flipbook you want to use the Auto-Link tool on.</li>
+<li>Click on the Flipbook to see more options. Under the <strong>Flipbook Options</strong> section, click on <strong>New Auto-Link Job</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/23629036687373" alt="Manage_Folder_-_Uberflip.png">
+</li>
+<li>On the next page, use the dropdown under <strong>Job Type</strong> to select <strong>Regular Expression</strong>.</li>
+<li>More fields will appear. Under <strong>Job Name</strong>, type in a name to help you identify the CSV job.</li>
+<li>Under <strong>Search for (Regular expression</strong><strong>)</strong>, type in the regex that describes the string you want to find and link.</li>
+<li>Under <strong>Replace With (link)</strong>, use the text fields to type in the URL to link by following the tooltips.</li>
+<li>Under <strong>Hovertip</strong>, use the text field to type in a tooltip that will appear on hovering the mouse over the link. If left blank, the tooltip will display the linked URL.</li>
+<li>Click on <strong>Create Jo</strong><strong>b</strong>, and you will be taken to the<strong> Manage Auto Link Jobs &amp; Tasks </strong>page to review the job.</li>
+</ol>
+<p> </p>
+<h2>Manage Auto-Links</h2>
+<ol>
+<li>Your CSV Job will contain a <strong>Task</strong> for each line in your CSV file, and each Task will contain one link.</li>
+<li>Click on a Task to see the links created by that Task. From here, you can choose to <strong>enable, disable or delete the link</strong>.</li>
+<li>If you want, you can also delete the entire Job from the <strong>Manage Auto Link Jobs &amp; Tasks</strong> page.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360020001151</guid>
+         <pubDate>Mon, 19 Nov 2018 20:24:53 GMT</pubDate>
+      </item>
+      <item>
+         <title>Automatically Create Links From a CSV File</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360019998971-Automatically-Create-Links-From-a-CSV-File</link>
+         <description><![CDATA[<hr>
+<p>How to automatically create links in a Flipbook using a CSV file.</p>
+<hr>
+<p> </p>
+<h2>Before you Begin</h2>
+<ul>
+<li>To use this tool, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+<li>This tool will not work on image-based text, so you should always use embedded fonts in your PDFs if you want to use the Auto-Link Tool.</li>
+</ul>
+<p> </p>
+<h2>Create the CSV File</h2>
+<p>The Auto-Link tool can automatically create hyperlinks in Flipbooks on any string of text you want (such as keywords, URLs or emails). You can create these in bulk using a CSV or <em>comma-separated values</em> file. The easiest way to create a CSV file is to create a spreadsheet in Excel and save it as .csv.</p>
+<p>Your CSV file must:</p>
+<ul>
+<li>Consist of three columns. These are (left to right):<br>
+<ul>
+<li>The text string to be linked</li>
+<li>The URL that the link will point to</li>
+<li>A tooltip that will appear on hovering over the link (optional)</li>
+</ul>
+</li>
+<li>Have <em>no </em>header row (the first show must be data). From left to right, the three columns are:</li>
+<li>Be in CSV (comma-delimited) format</li>
+</ul>
+<p>Any text in the Flipbook that matches the text string in the first (leftmost) column will automatically be linked using the URL in the second (middle) column. If you specified a tooltip text, this will be displayed on that link on hover.</p>
+<p>Here is an example CSV file:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360015674391" alt="Uberflip_Documentation_Project_Tracker_-_Google_Sheets.png"></p>
+<p>Column <strong>A</strong> has the text to be linked, <strong>B</strong> has the URL, and <strong>C</strong> has the tooltip text. With this CSV file, the Auto-Link Tool would find all instances of "Uberflip" in a Flipbook and create a link to <em>www.uberflip.com</em>, with the tooltip "Visit the Uberflip Website" when a user hovers on the link.</p>
+<p> </p>
+<h2>Create the Auto-Link Job</h2>
+<ol>
+<li>Log in to your Uberflip account and click on <strong>Flipbooks</strong> in the menu bar at the top.</li>
+<li>Use the dropdown to select the folder with the Flipbook you want to use the Auto-Link tool on.</li>
+<li>Click on the Flipbook to see more options. Under the <strong>Flipbook Options</strong> section, click on <strong>New Auto-Link Job</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015674931" alt="Manage_Folder_-_Uberflip.png">
+</li>
+<li>On the next page, use the dropdown under <strong>Job Type</strong> to select <strong>CSV File</strong>.</li>
+<li>More fields will appear. Under <strong>Job Name</strong>, type in a name to help you identify the CSV job.</li>
+<li>Under <strong>Upload CSV</strong>, click on <strong>Browse</strong> and choose the CSV file you created.</li>
+<li>Under <strong>The first column of the CSV is:</strong>, choose <strong>Search text</strong><strong>.</strong>
+</li>
+<li>Click on <strong>Create Jo</strong><strong>b</strong>, and you will be taken to the<strong> Manage Auto Link Jobs &amp; Tasks </strong>page to review the job.</li>
+</ol>
+<p> </p>
+<h2>Manage Auto-Links</h2>
+<ol>
+<li>Your CSV Job will contain a <strong>Task</strong> for each line in your CSV file, and each Task will contain one link.</li>
+<li>Click on a Task to see the links created by that Task. From here, you can choose to <strong>enable, disable or delete the link</strong>.</li>
+<li>If you want, you can also delete the entire Job from the <strong>Manage Auto Link Jobs &amp; Tasks</strong> page.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360019998971</guid>
+         <pubDate>Mon, 19 Nov 2018 19:30:39 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

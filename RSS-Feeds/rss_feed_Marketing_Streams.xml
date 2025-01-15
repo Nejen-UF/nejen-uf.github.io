@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Marketing Streams</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Add and edit Stream sections in a Marketing Stream</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/10861402352525-Add-and-edit-Stream-sections-in-a-Marketing-Stream</link>
+         <description><![CDATA[<p><span style="font-weight: 400;">Want to organize your <strong>Marketing Streams</strong> with curated sections? Easily done in Uberflip! This article will show you how. </span></p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p><span style="font-weight: 400;">Stream sections are available for </span><strong>Marketing Streams only.</strong><span style="font-weight: 400;"> Sales and Source Streams cannot include sections. </span></p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Already sectioning Streams with custom code?</h4>
+<p><span style="font-weight: 400;"><span class="veryhardreadability"><span data-offset-key="11vk7-1-0">Using Uberflip Stream sections <strong>and</strong> custom section code <strong>in the same Stream</strong> is unpredictable, and </span>not recommended</span>. </span> </p>
+<p><span style="font-weight: 400;">We suggest using only <strong>one Stream sectioning option within a single Stream</strong>. New Streams can be created using Uberflip Stream sections, without affecting existing Streams.</span></p>
+</div>
+<p> </p>
+<h2><span style="font-weight: 400;">What are Stream sections?</span></h2>
+<p><span style="font-weight: 400;">A Marketing Stream is already a curated collection of content. But If you want to break down that content even further, Stream sections allow you to do that. </span></p>
+<p><strong>In a Marketing Stream, Items can be sorted into sections with custom headings. </strong>You can section content by category, topic, or any way that makes sense for your audience.</p>
+<p><span style="font-weight: 400;">You can also rearrange the Items in a section, and reorder the sections in a Marketing Stream. This lets you keep the most important Items where they’re easiest to spot. </span></p>
+<p><span style="font-weight: 400;">Any </span><strong>Items not designated to a section will appear at the top of your Stream</strong><span style="font-weight: 400;">, in the “unsectioned” area. If you want everything in a Marketing Stream to be in sections, add all Items to sections and the “unsectioned” area will disappear. </span></p>
+<p><span style="font-weight: 400;">Sections can contain as many Items as you’d like.<br></span><img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" src="https://help.uberflip.com/hc/article_attachments/10867386469389" alt="Unsectioned_area.png" width="651" height="343"></p>
+<p> </p>
+<h2><span style="font-weight: 400;">Create a Stream section</span></h2>
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Go to the </span><strong>Content</strong><span style="font-weight: 400;"> page in Uberflip</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In the </span><em><span style="font-weight: 400;">Streams tab</span></em><span style="font-weight: 400;">, find the </span><strong>Marketing Stream</strong><span style="font-weight: 400;"> you want to add sections to, and click the thumbnail. </span><span style="font-weight: 400;"><br></span><strong>Or </strong><a href="https://help.uberflip.com/hc/en-us/articles/6214460126349-Create-and-share-a-Marketing-Stream#create-a-marketing-stream"><span style="font-weight: 400;">create a new Marketing Stream</span></a><span style="font-weight: 400;">.</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In the <em>Manage Stream</em> page (</span><em style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Items</em><span style="font-weight: 400;"> tab), click </span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Add Section</strong><span style="font-weight: 400;"> in the toolbar<br><img src="https://help.uberflip.com/hc/article_attachments/10868048380557" alt="Untitled__2048___456_px_.png" width="650" height="61"></span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Enter a section title in the section that appears, then click the checkmark to save it<br><strong>Note:</strong> Your new section won’t appear live in the Stream until Items have been added.</span><span style="font-weight: 400;"><br><img src="https://help.uberflip.com/hc/article_attachments/10868068379789" alt="Screen_Shot_2022-11-14_at_1.36.20_PM.png" width="400" height="258"></span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Click the + icon</strong><span style="font-weight: 400;"> in the section to add Items to it, or drag Items from other sections</span><span style="font-weight: 400;"><br></span><strong>Note:</strong><span style="font-weight: 400;"> The section will appear in the Stream when 1 or more Items have been added.</span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Rearrange Items by drag-and-dropping them if needed</span></li>
+</ol>
+<p><span style="font-weight: 400;">That’s it! Your Stream section is live in your Stream.<br><br></span><span style="font-weight: 400;"><span style="font-weight: 400;"><br></span></span></p>
+<h2><span style="font-weight: 400;">Edit Stream sections</span></h2>
+<p><span style="font-weight: 400;">You can edit Stream sections in the following ways:<br></span><span class="wysiwyg-font-size-small" style="font-weight: 400;">(click to expand)</span></p>
+<div class="accordion accordion--colored">
+<div class="accordion__item">
+<div class="accordion__item-title"><span style="font-weight: 400;">Edit a section title</span></div>
+<div class="accordion__item-content">
+<ol>
+<li><span style="font-weight: 400;">On the <em>Manage Stream</em> page<em> (Items</em> tab), click the pencil icon beside the section title<br><img src="https://help.uberflip.com/hc/article_attachments/10868110559245" alt="1.png" width="249" height="64"><br></span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Enter a new title </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Click the checkmark button to save the title </span></li>
+</ol>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><span style="font-weight: 400;">Add or remove Items in a section</span></div>
+<div class="accordion__item-content">
+<p><strong>Add Items: <br></strong><span style="font-weight: 400;">On the <em>Manage Stream</em> page (<em>Items</em> tab), </span><strong>click the + icon in a section </strong><span style="font-weight: 400;">to add Items to it. </span></p>
+<p><strong>Remove Items: <br></strong><span style="font-weight: 400;">On the <em>Manage Stream</em> page (<em>Items</em> tab), hover over an Item and</span><strong> click the X icon to remove it from the Stream</strong><span style="font-weight: 400;">. </span><span style="font-weight: 400;">Or drag the Item to a different section (or the unsectioned area). </span></p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><span style="font-weight: 400;">Rearrange Items</span></div>
+<div class="accordion__item-content">
+<p><span style="font-weight: 400;">On the <em>Manage Stream</em> page, drag-and-drop Items to reposition them in the Stream section. Or drag them into a different section. </span></p>
+<p><strong>Tip:</strong><span style="font-weight: 400;"> Check multiple Items to drag them all at once.</span></p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><span style="font-weight: 400;">Reorder sections</span></div>
+<div class="accordion__item-content">
+<ol>
+<li><span style="font-weight: 400;">Click <strong>Reorder Sections</strong>, in the<em> Items tab</em> of the <em>Manage Stream</em> page<img src="https://help.uberflip.com/hc/article_attachments/10868205062029" alt="Untitled__2048___456_px_.png" width="649" height="56"></span></li>
+<li><span style="font-weight: 400;">The Stream sections will appear as a list</span></li>
+<li><span style="font-weight: 400;">Drag-and-drop the sections to reorder them</span></li>
+<li>Click  <strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Reorder Sections</strong><span style="font-weight: 400;"> again to return to the Item view</span>
+</li>
+</ol>
+<p><strong>Note: </strong><span style="font-weight: 400;">Items that aren't placed in a section will appear in the “unsectioned” area. This area is always above all sections in the Stream. </span><strong>The unsectioned area can’t be moved. </strong></p>
+<p><span style="font-weight: 400;">If you don’t want an unsectioned area, place all Items in the Stream into sections. If there are no unsectioned Items, no unsectioned area will appear.</span></p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><span style="font-weight: 400;">Delete a section</span></div>
+<div class="accordion__item-content">
+<ol>
+<li><span style="font-weight: 400;">Go to the <em>Manage Stream</em> page<em> (Items tab) </em>of the Stream you want to edit</span></li>
+<li><span style="font-weight: 400;"><strong>Click the trash icon</strong> beside a Stream section title<strong><br></strong><strong><img src="https://help.uberflip.com/hc/article_attachments/10868271728141" alt="mceclip0.png" width="249" height="64"></strong></span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">A confirmation modal will open</span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>Delete Section</strong><span style="font-weight: 400;"> to </span><strong>permanently</strong><span style="font-weight: 400;"> delete the section</span>
+</li>
+</ol>
+<div class="callout callout--info">
+<h4 class="callout__title">Where will Items in a deleted section go?</h4>
+<p><span style="font-weight: 400;">Items in a deleted section will return to the “unsectioned” area, at the top of the Stream. You can remove Items from a Stream entirely by hovering the Item and clicking the X icon.</span></p>
+</div>
+</div>
+</div>
+</div>]]></description>
+         <guid isPermaLink="false">10861402352525</guid>
+         <pubDate>Wed, 23 Nov 2022 17:36:27 GMT</pubDate>
+      </item>
+      <item>
+         <title>Create and share a Marketing Stream</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/6214460126349-Create-and-share-a-Marketing-Stream</link>
+         <description><![CDATA[<p><span style="font-weight: 400;">Turn scattered marketing assets into focused content experiences with </span><strong>Marketing Streams</strong><span style="font-weight: 400;">. Marketing Streams are inbound destinations where future prospects can consume curated content relevant to them.</span></p>
+<h2><span style="font-weight: 400;">Before you begin</span></h2>
+<ul>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">To work with Marketing Streams, you must be a member of the </span><strong>Account Administrators</strong><span style="font-weight: 400;">, or </span><strong>Content Managers</strong><span style="font-weight: 400;"> user groups.</span>
+</li>
+</ul>
+<h2><span style="font-weight: 400;">About Marketing Streams</span></h2>
+<p><span style="font-weight: 400;">Your marketing team creates a ton of content, designed to generate leads. Instead of hoping the right people find the right pieces, use Uberflip to create </span><strong>content experiences</strong><span style="font-weight: 400;">. This basically means presenting relevant content in a way that is</span><a href="https://hub.uberflip.com/blog/what-is-content-experience-definition"> <span style="font-weight: 400;">attractive, structured, and engaging</span></a><span style="font-weight: 400;">.</span></p>
+<p><span style="font-weight: 400;">A</span><strong> Marketing Stream </strong><span style="font-weight: 400;">is essentially a self-contained, curated collection of relevant content created for a specific audience.</span></p>
+<p><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/6213825942413/unnamed__2_.png" alt="unnamed__2_.png" width="500" height="322"></span></p>
+<p><span style="font-weight: 400;">Once created, your Marketing Stream can be accessed from a unique (and customizable) URL. </span></p>
+<h2><span style="font-weight: 400;">Create a Marketing Stream</span></h2>
+<p><span style="font-weight: 400;">There are two ways to create a Marketing Stream:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1">
+<strong>From scratch: </strong><span style="font-weight: 400;">Create a brand new Marketing Stream from the ground up</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>By copying an existing Stream</strong><span style="font-weight: 400;">: Copy an existing Marketing Stream to form the base of a new Marketing Stream, then customize it</span>
+</li>
+</ul>
+<div class="tabs">
+<div class="tabs-menu">
+<span class="tabs-link is-active">From scratch</span> <span class="tabs-link">Copy an existing Marketing Stream</span>
+</div>
+<div class="tab">
+<p><span style="font-weight: 400;">Follow these steps to create a new Marketing Stream:</span></p>
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In Uberflip, head to the </span><strong>Content</strong><span style="font-weight: 400;"> page from the sidebar menu</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In the </span><strong>Streams</strong><span style="font-weight: 400;"> tab, click </span><strong>New Stream<br></strong><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/6214022141197/iuh.png" alt="iuh.png" width="500" height="161"></span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">The <strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Add a Stream</strong><span style="font-weight: 400;"> modal will open. Click the </span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Marketing Stream </strong><span style="font-weight: 400;">icon in the <em>Curated Streams</em> list<br></span><img src="https://help.uberflip.com/hc/article_attachments/13120017577997" alt="mceclip0.png" width="400" height="402"><br></span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Fill out the details of your Marketing Stream, which includes: <br></span>
+<ul>
+<li>
+<strong>Internal Stream Name</strong> <em>(optional)<br></em>A name for your Stream that <strong>won't</strong> be shown publicly. It's just for you and your team.</li>
+<li>
+<strong>Stream Page Title</strong> <em>(required)<br></em>A title for your Stream that will appear at the top of the Stream page. This will be seen by your prospect.</li>
+<li>
+<strong>Stream Page </strong><strong>Description</strong> <em>(optional)<br></em>A brief description of the Stream for your prospect. You can use this field to personalize your Stream and include a brief message to your prospect.</li>
+<li>
+<strong>Stream Purpose</strong> <em>(required)<br></em>Choose a purpose for this Stream. This won't be shown to your prospect.<br><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/13120056682125" alt="Screen_Shot_2023-02-14_at_3.35.00_PM.png" width="400" height="402"></span>
+</li>
+</ul>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">When ready, click </span><strong>Create</strong><span style="font-weight: 400;"> </span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Your Marketing Stream is now created, and you'll see the Stream editor page. Here you can add content Items to it. Click <strong>Add Items</strong> to begin<br><img src="https://help.uberflip.com/hc/article_attachments/13120098820877" alt="mceclip1.png"><br></span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">A modal will open. Here you can choose which Items you want to include. All Items in your Hub(s) will be shown. Using the dropdown filters and search field, find and select the Items you want to add. <br><img src="https://help.uberflip.com/hc/article_attachments/6214103594893/Screen_Shot_2022-05-04_at_9.56.06_AM.png" alt="Screen_Shot_2022-05-04_at_9.56.06_AM.png" width="400" height="274"></span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">When you have selected all the Items you want, click </span><strong>Add</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">You'll be returned to the Stream view, where the content Items you added will now be shown</span><span style="font-weight: 400;"><br></span><strong>Tip: </strong><span style="font-weight: 400;">Content will be displayed in your Stream in the order shown here. To reorder Items, simply drag-and-drop the content tiles into the desired order.</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">To preview your Stream in a new tab, click <strong>Open<br></strong></span><span style="font-weight: 400;"><strong><img src="https://help.uberflip.com/hc/article_attachments/6214150274189/Untitled_design.png" alt="Untitled_design.png" width="499" height="86"></strong></span>
+</li>
+</ol>
+</div>
+<div class="tab is-hidden">
+<p><span style="font-weight: 400;">Follow these steps to create a new Marketing Stream by copying an existing Marketing Stream. </span></p>
+<p><span style="font-weight: 400;">When you do this, your new Marketing Stream will be pre-populated with the content from the Stream you copied. From there, you can simply add or remove content to customize it.</span></p>
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In Uberflip, head to the </span><strong>Content</strong><span style="font-weight: 400;"> page from the sidebar menu</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In the </span><strong>Streams</strong><span style="font-weight: 400;"> tab, find the Marketing Stream you want to copy and </span><strong>click </strong><span style="font-weight: 400;">it</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">In the Stream editor page that opens, click on the three-dot "meatball" menu in the top right. Then click <strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Copy to Another Marketing Stream. <br><span style="font-weight: 400;"><strong><img src="https://help.uberflip.com/hc/article_attachments/6214708751757/iuhb.png" alt="iuhb.png" width="502" height="152"></strong></span></strong>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">In the modal that appears, fill out the details of your Stream, just like you would for a new Stream</span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">When ready, click </span><strong>Copy</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Your Marketing Stream will be created with all of the Items from the original. From here, add or remove Items and</span><a href="https://help.uberflip.com/hc/en-us/articles/360030689211"> <span style="font-weight: 400;">customize the Stream</span></a><span style="font-weight: 400;"> as needed.</span>
+</li>
+</ol>
+<p><span style="font-weight: 400;">That’s it! You're ready to share your new Marketing Stream.</span></p>
+</div>
+</div>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>Want to customize the look and feel of your Stream before sharing it? Check out <a href="https://help.uberflip.com/hc/en-us/articles/360020637332" target="_self">Personalize a Marketing Stream or Sales Stream</a> to see how. </p>
+<p>Or add <a href="https://help.uberflip.com/hc/en-us/articles/10861402352525" target="_self">Stream sections</a> to organize the content even further.</p>
+</div>
+<p> </p>
+<h2><span style="font-weight: 400;">Share a Marketing Stream</span></h2>
+<p><span style="font-weight: 400;">When your Marketing Stream is ready to go, all that's left to do is share it. There are two ways to share your stream, with the </span><strong>URL</strong><span style="font-weight: 400;"> or through </span><strong>social/email</strong><span style="font-weight: 400;"> sharing</span><strong>.</strong></p>
+<div class="tabs">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Direct URL</span> <span class="tabs-link">Social &amp; email sharing</span> </div>
+<div class="tab">
+<p><span style="font-weight: 400;">Follow these steps to share the direct URL for the Marketing Stream (ex. in an email). You can also customize this URL, check out </span><a href="https://help.uberflip.com/hc/en-us/articles/360030689211"><span style="font-weight: 400;">Customize and manage your Sales Streams</span></a><span style="font-weight: 400;"> to see how.</span></p>
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In Uberflip, go to your list of Streams (</span><em><span style="font-weight: 400;">Content</span></em><span style="font-weight: 400;"> &gt; </span><em><span style="font-weight: 400;">Streams tab</span></em><span style="font-weight: 400;">) and </span><strong>click the Marketing Stream</strong><span style="font-weight: 400;"> you want to share</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">In the Stream editor page, click <strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Open</strong><span style="font-weight: 400;"> <br><strong><img src="https://help.uberflip.com/hc/article_attachments/6214150274189/Untitled_design.png" alt="Untitled_design.png" width="499" height="86"></strong><br></span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">While viewing the Sales Stream in your browser, copy the URL from the address bar</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">You can now paste the URL anywhere you want to share it, and anyone with the URL can view the Stream.</span></li>
+</ol>
+</div>
+<div class="tab is-hidden">
+<p><span style="font-weight: 400;">Follow these steps to share your Marketing Stream directly to Facebook, Twitter, LinkedIn, by email, or using HootSuite with the built-in sharing tool.</span></p>
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In Uberflip, go to your list of Streams (</span><em><span style="font-weight: 400;">Content</span></em><span style="font-weight: 400;"> &gt; </span><em><span style="font-weight: 400;">Streams tab</span></em><span style="font-weight: 400;">) and </span><strong>click on the Stream</strong><span style="font-weight: 400;"> you want to share </span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">In the Stream editor page, click the meatball menu (three horizontal dots), then click <strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Share<br></strong><img src="https://help.uberflip.com/hc/article_attachments/6214925730445/iuhgv.png" alt="iuhgv.png" width="499" height="151"><br></span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">In the modal that appears, click the option you want to use to share the Stream<br><img src="https://help.uberflip.com/hc/article_attachments/6214979598861/Screen_Shot_2022-05-04_at_11.45.45_AM.png" alt="Screen_Shot_2022-05-04_at_11.45.45_AM.png" width="400" height="232"><br></span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Depending on your choice, the corresponding app will open, where you can then share the Marketing Stream</span></li>
+</ol>
+</div>
+</div>]]></description>
+         <guid isPermaLink="false">6214460126349</guid>
+         <pubDate>Fri, 13 May 2022 17:35:20 GMT</pubDate>
+      </item>
+      <item>
+         <title>Feature Items in a Marketing or Source Stream (and your Hub)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4746822903693-Feature-Items-in-a-Marketing-or-Source-Stream-and-your-Hub</link>
+         <description><![CDATA[<p><span style="font-weight: 400;">In any </span><a href="https://help.uberflip.com/hc/en-us/articles/4407951638669-Types-of-Uberflip-Streams-explained"><span style="font-weight: 400;">Source or Marketing Stream</span></a><span style="font-weight: 400;">, you can </span><em><span style="font-weight: 400;">feature</span></em><span style="font-weight: 400;"> Items to pin them at the top of your ‘Latest Content’ feed. This article will outline how this functionality works and how to </span><em><span style="font-weight: 400;">feature</span></em><span style="font-weight: 400;"> Items. </span></p>
+<h2><span style="font-weight: 400;">Good to know</span></h2>
+<ul>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Items can be featured in any Source Stream or Marketing Stream (</span><em><span style="font-weight: 400;">not available in Sales Streams</span></em><span style="font-weight: 400;">)</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">When ‘Highlight first Item’ in enabled in </span><a href="https://help.uberflip.com/hc/en-us/search/click?data=BAh7DjoHaWRsKwhMvdvSUwA6D2FjY291bnRfaWRpAzcmIjoJdHlwZUkiDGFydGljbGUGOgZFVDoIdXJsSSJ6aHR0cHM6Ly9oZWxwLnViZXJmbGlwLmNvbS9oYy9lbi11cy9hcnRpY2xlcy8zNjAwMTk5MDE3NzItQ3VzdG9taXplLWEtSHViLXMtRGVzaWduLVdpdGgtRXhwZXJpbWVudGFsLUh1YnMtTGFiLUZlYXR1cmVzBjsIVDoOc2VhcmNoX2lkSSIpNGNmOTg4NjktOTg3Mi00ODgwLTk1MjQtYjZkMDhhYjNmZDZmBjsIRjoJcmFua2kGOgtsb2NhbGVJIgplbi11cwY7CFQ6CnF1ZXJ5SSINaHVicyBsYWIGOwhUOhJyZXN1bHRzX2NvdW50aQIkAQ%3D%3D--2984a90b30754d4a1326811785b29168b89ebc4f"><span style="font-weight: 400;">Hubs labs</span></a><span style="font-weight: 400;">, The featured Item with the </span><strong>most recent publish date</strong><span style="font-weight: 400;"> will show up as a 4x sized tile at the top of your Stream/Hub</span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Other featured Items will display in order based on when they were published</span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Featured Items from all Streams will show up at the </span><strong>top of the Hub's ‘</strong><a href="https://help.uberflip.com/hc/en-us/articles/360029327532-Customize-the-content-on-your-Hub-s-homepage#use-your-latest-content-as-your-hub-homepage"><strong>Latest Content</strong></a><strong>’ feed</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Featured Items won’t displace any CTAs on Stream pages or the Hub homepage<br><img src="https://content.cdntwrk.com/files/aHViPTQyNjMxJmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzU3NzUzMWUwYzY2YzQucG5nJnZlcnNpb249MDAwMCZzaWc9Mzg3Y2U2NDdjNTBjZjhiMmVkZDI1YjJmNzhjMGJkZjY%253D" alt="" width="499" height="335" data-cke-saved-src="https://content.cdntwrk.com/files/aHViPTQyNjMxJmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzU3NzUzMWUwYzY2YzQucG5nJnZlcnNpb249MDAwMCZzaWc9Mzg3Y2U2NDdjNTBjZjhiMmVkZDI1YjJmNzhjMGJkZjY%253D"></span></li>
+</ul>
+<h2><span style="font-weight: 400;">Feature Items in a Stream</span></h2>
+<p><span style="font-weight: 400;">Follow these steps to </span><em><span style="font-weight: 400;">feature</span></em><span style="font-weight: 400;"> Items within a Source or Marketing Stream.</span></p>
+<ol>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Go to the Hub that contains the Item you want to feature</span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>Content</strong><span style="font-weight: 400;"> in the sidebar menu</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In the </span><em><span style="font-weight: 400;">Streams</span></em><span style="font-weight: 400;"> tab, find the Stream containing the Item you want to feature and</span><strong> click</strong><span style="font-weight: 400;"> on it</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Find the Item you want to feature, and click the Star icon at the top of the Item<br></span><img src="https://help.uberflip.com/hc/article_attachments/4797356382989" alt="Untitled_design.png">
+</li>
+</ol>
+<h2><span style="font-weight: 400;">Featured Items on your Hub's homepage</span></h2>
+<p><span style="font-weight: 400;">If you're using the ‘</span><a href="https://help.uberflip.com/hc/en-us/articles/360029327532-Customize-the-content-on-your-Hub-s-homepage#use-your-latest-content-as-your-hub-homepage"><span style="font-weight: 400;">Latest Content</span></a><span style="font-weight: 400;">’ Stream on your Hub's homepage, featured Items in any Streams will appear at the top of the homepage as well (based on the publish date).</span></p>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p><span style="font-weight: 400;">For more control over the content on your Hub homepage, use a Marketing Stream as your Hub's homepage instead of the ‘Latest Content’ Stream. See </span><a href="https://help.uberflip.com/hc/en-us/articles/360029327532-Customize-the-content-on-your-Hub-s-homepage"><span style="font-weight: 400;">how to use a Stream for your Hub's homepage.</span></a></p>
+</div>]]></description>
+         <guid isPermaLink="false">4746822903693</guid>
+         <pubDate>Fri, 11 Mar 2022 23:53:42 GMT</pubDate>
+      </item>
+      <item>
+         <title>Uberflip Streams explained</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4407951638669-Uberflip-Streams-explained</link>
+         <description><![CDATA[<p>This article outlines Uberflip Streams, including what they are and how to use them in your Hub.</p>
+<p> </p>
+<h2 id="h_01HV2CT7A6FZBT3K9SV3C0KAJN">What are Streams?</h2>
+<p><strong>Streams are collections of content in your Hub</strong>. There are 2 main Stream types:<strong> Source Streams </strong>and<strong> curated Streams.</strong></p>
+<ul>
+<li>
+<strong>Source Streams </strong>are used to import <em>(and sometimes create)</em> content in your Hub. They also house the imported content by its source to keep it organized. Each Source Stream can only contain <strong>a single type of content from a single source</strong>.</li>
+<li>
+<strong>Curated Streams</strong> are used to create targeted/personalized content experiences using different types of content. <strong>Marketing Streams</strong> and <strong>Sales Streams </strong>are both types of curated Streams. Curated Streams contain <strong>a mix of different content types </strong>chosen for a specific audience or prospect.</li>
+</ul>
+<p> </p>
+<h2 id="h_01HV2CT7A64MYJWAY9RKSYH7FX">Stream types explained</h2>
+<p>Here's a deeper look at Streams and their sub-types: </p>
+<h2 id="h_01FEF6WVHV883E3CJTQ0A954H3">Source Streams</h2>
+<p>These Stream types are used to import content into your Hub from external sources (and, in some cases, to create new content directly within your Hub).</p>
+<p>Source Streams can be broken into <strong>4 sub-types: </strong></p>
+<h3 id="h_01HV2CT7A6C2ZADP8KJFD672QQ">Document </h3>
+<p><strong>Includes: </strong>Flipbooks/PDFs<br><img src="https://help.uberflip.com/hc/article_attachments/25764177489549" alt="mceclip1.png" width="151" height="100"></p>
+<p>Document Streams are used to import PDF content such as ebooks, white papers, brochures, infographics, etc., as well as presentation slides into Uberflip. You can choose to <a href="https://help.uberflip.com/hc/en-us/articles/360024197971" target="_self">display PDF content in its original format</a>, or <a href="https://help.uberflip.com/hc/en-us/articles/360020776171" target="_self">convert it into Uberflip's Flipbooks format</a> for more granular analytics data. </p>
+<div class="callout callout--danger">
+<h4 id="h_01HV2CT7A6KQRWF1RHSFC58625" class="callout__title">SlideShare Streams are being retired</h4>
+<p><strong>The ability to create new SlideShare Streams has ended.</strong> Check out <a href="https://help.uberflip.com/hc/en-us/articles/14930427293709" target="_blank" rel="noopener noreferrer">SlideShare Streams are being retired [Nov. 2023]</a> for details. </p>
+</div>
+<h3 id="h_01HV2CT7A693GVA9J846DPK2VS">Video</h3>
+<p><strong>Includes:</strong> YouTube, Vimeo, Wistia, Vidyard, Brightcove<br><img src="https://help.uberflip.com/hc/article_attachments/14157455348621" width="593" height="200"></p>
+<p>With Video Streams, you can import your video content from a variety of video hosting services. You can integrate your <a href="https://help.uberflip.com/hc/en-us/articles/360041233912-Set-Up-a-YouTube-Integration" target="_self">YouTube</a>, <a href="https://help.uberflip.com/hc/en-us/articles/360041923392-Set-Up-a-Vimeo-Integration" target="_self">Vimeo</a>, <a href="https://help.uberflip.com/hc/en-us/articles/360029530871-Set-Up-a-Wistia-Integration" target="_self">Wistia</a>, <a href="https://help.uberflip.com/hc/en-us/articles/360026763691-Set-Up-a-Vidyard-Integration" target="_self">Vidyard</a> and <a href="https://help.uberflip.com/hc/en-us/articles/360027547452-Set-Up-a-Brightcove-Integration" target="_self">Brightcove</a> accounts, and pull in videos from that account (typically either all videos, or selected collections/playlists) to create individual video Items in Uberflip.</p>
+<h3 id="h_01HV2CT7A6MT3PMVG8Q9M6CT01">Blog<br><img src="https://help.uberflip.com/hc/article_attachments/14157557694989" alt="Screen_Shot_2023-03-20_at_12.19.14_PM.png" width="164" height="112">
+</h3>
+<p>Blog Streams are used to aggregate blog content in your Hub. You can either continuously import content from an externally hosted blog (e.g. WordPress) via its RSS feed, or create a brand new blog from scratch within your Uberflip Hub. Both options will create individual blog post Items in your Hub, which typically form the backbone of your top-of-funnel content.</p>
+<p>When you import an external blog into Uberflip, this can either be a blog you own, or a third-party blog. The second option is useful if you want to pull in feeds from influencers or popular industry blogs to round out your Hub’s content.</p>
+<p>If you instead choose to create a new blog from scratch with Uberflip's integrated blogging functionality, you'll need to manually add content to it by using the built-in blog post editor. You can also use this same built-in blogging functionality on Blog Streams that import content from an external blog, either to manually add new posts from within Uberflip or to modify imported posts.</p>
+<p>To learn more, see <a href="https://help.uberflip.com/hc/en-us/articles/360025342851-Create-a-Blog-Stream" target="_self">Create a Blog Stream</a>.</p>
+<p> </p>
+<h2 id="h_01HV2CT7A6KAGQ6YJH7ZD7FRK2">Curated Streams</h2>
+<p><strong>There are 2 types of curated Streams: </strong>Marketing Streams and Sales Streams<strong>.</strong> These are both used to organize and present the content you've imported into your Hub <em>(through <a href="#h_01FEF6WVHV883E3CJTQ0A954H3" target="_self">Source Streams</a>)</em>.</p>
+<p>Unlike Source Streams, curated Streams are not used to import new content. These Streams contain a variety of content chosen specifically for a target audience or prospect. </p>
+<h3 id="h_01HV2CT7A616J46FFWAGMQ2XZD">Marketing<br><img src="https://help.uberflip.com/hc/article_attachments/14157641740685" alt="Screen_Shot_2023-03-20_at_12.21.39_PM.png" width="157" height="110">
+</h3>
+<p>Marketing Streams allow you to gather content from across your Hub into a single Stream, so you can tailor the content to your target market or buyer personas.</p>
+<p>Marketing Streams have <a href="https://help.uberflip.com/hc/en-us/articles/360020637332" target="_self">additional appearance options</a> that aren't available on Source Streams, such as customizable banner, logo, and text elements. By combining chosen content and visual elements, you can use Marketing Streams to create highly engaging content experiences that are personalized for specific audiences.</p>
+<p>To learn more about Marketing Streams, see <a href="https://help.uberflip.com/hc/en-us/articles/6214460126349" target="_self" rel="undefined">Create and share a Marketing Stream</a>.</p>
+<h3 id="h_01HV2CT7A6MG8Z23VB02EGSP3R">Sales<br><img src="https://help.uberflip.com/hc/article_attachments/14157646081677" alt="Screen_Shot_2023-03-20_at_12.22.19_PM.png" width="158" height="110">
+</h3>
+<p>Sales Streams are similar to Marketing Streams in overall function: like Marketing Streams, Sales Streams can contain a variety of content. But Sales Streams are optimized for use by your Sales team. They are designed to be created quickly and can be customized with <a href="https://help.uberflip.com/hc/en-us/articles/360020637332" target="_self">additional appearance options</a> to hyper-personalize them for particular recipients (organizations, or even individuals).</p>
+<p>In conjunction with the Uberflip <a href="https://help.uberflip.com/hc/en-us/articles/360057052132" target="_self">Sales Assist</a>, Sales Streams give your Sales team access to your content library and a fast and convenient way to share that content with their leads and prospects.</p>
+<p>To learn more about Sales Streams, see <a href="https://help.uberflip.com/hc/en-us/articles/360030087932-Get-started-with-Sales-Streams">Get started with Sales Streams</a>.</p>
+<p> </p>
+<h2 id="h_01HV2CT7A67DT5FR73X2XPTGXY">Ready to create Streams?</h2>
+<p>Check out these articles to get started.</p>
+<p><strong>Source Streams:</strong></p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/8469735684621" target="_self">Import content into Uberflip</a></li>
+<li>
+<a href="https://help.uberflip.com/hc/en-us/articles/360025342851-Create-a-Blog-Stream" target="_self">Create a Blog Stream</a> <em>(including how to create a blog from scratch)</em>
+</li>
+</ul>
+<p><strong>Curated Streams </strong></p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360030087932-Get-started-with-Sales-Streams">Get started with Sales Streams</a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/6214460126349" target="_self" rel="undefined">Create and share a Marketing Stream</a></li>
+</ul>]]></description>
+         <guid isPermaLink="false">4407951638669</guid>
+         <pubDate>Thu, 26 Aug 2021 21:31:48 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hide a Marketing or Source Stream</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360029676452-Hide-a-Marketing-or-Source-Stream</link>
+         <description><![CDATA[<p>Learn how to hide any Marketing or Source Stream in your Hub. Hidden Streams do not appear in your Hub's menu, and Items from hidden Streams are not included in the "Latest Content" Stream on your Hub homepage (if enabled).</p>
+<p><strong>Note:</strong> Digital Sales Rooms (DSRs) are always hidden from your Hub.</p>
+<p> </p>
+<h2>Good to know</h2>
+<ul>
+<li>Hidden Streams will automatically prevent indexing by search engines (i.e. set to <a href="https://help.uberflip.com/hc/en-us/articles/360027859411" target="_self">no-index/follow</a>), even though the corresponding setting (<a href="https://help.uberflip.com/hc/en-us/articles/360018840252" target="_self">Robots Meta Tag</a>) will not show as enabled.</li>
+<li>Although visitors to your Hub won't be able to navigate to a hidden Stream organically (i.e. via the Hub menu), anyone who has the URL of the hidden Stream will still be able to access the Stream by visiting that URL.</li>
+</ul>
+<p> </p>
+<h2>Hide and Unhide a Stream</h2>
+<p>You can hide any Source or Marketing Stream - and unhide it again - at any time (DSRs are always hidden, and can't be unhidden.)</p>
+<ol>
+<li>Log in to Uberflip and navigate to the Hub which contains the Stream you want to hide.</li>
+<li>In the sidebar menu on the left, click on <strong>Content</strong>.</li>
+<li>In the Content menu on the right, you should be on the <strong>Streams tab</strong>. Scroll down to the Stream you want to hide and <strong>click on it</strong> to view it.</li>
+<li>When viewing the Stream, <strong>click on the "meatball" menu button</strong> near the top right:<br><img src="https://help.uberflip.com/hc/article_attachments/360032158891" alt="Hubs___Manage_-_Uberflip.png">
+</li>
+<li>Click on <strong>Hide</strong> in the menu that appears:<br><img src="https://help.uberflip.com/hc/article_attachments/360032162631" alt="Hubs___Manage_-_Uberflip.png">
+</li>
+<li>The Stream will be hidden immediately, and a message indicating that the Stream is hidden will appear just below the Stream name.</li>
+<li>To <strong>unhide</strong> a Stream, simply repeat the same steps, but click on <strong>Show</strong> in the meatball menu (which will appear in place of Hide) instead:<br><img src="https://help.uberflip.com/hc/article_attachments/360032163471" alt="Hubs___Manage_-_Uberflip.png">
+</li>
+<li>Your changes will be saved automatically, and will take effect immediately.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360029676452</guid>
+         <pubDate>Thu, 27 Jun 2019 18:33:19 GMT</pubDate>
+      </item>
+      <item>
+         <title>Embed a Stream into your website</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360023374631-Embed-a-Stream-into-your-website</link>
+         <description><![CDATA[<p>You can incorporate content from your Hub into your other web properties by embedding whole Streams into external webpages. Here's how.</p>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>To use Embed Stream Tiles, you need to be an <strong>Account Admin</strong>, <strong>Content Manager</strong>, or <strong>Developer/Designer</strong>.</li>
+<li>You will also need access to the HTML of the web property where you want to embed the Stream.</li>
+<li>Streams embedded with this feature <strong>will not include any CTAs</strong> that are placed on the Stream. You can, however, embed individual CTAs in a similar way. For instructions, see <a href="https://help.uberflip.com/hc/en-us/articles/360020859752">this article</a>.</li>
+<li>This feature <strong>will embed whole or partial Streams</strong>, i.e. multiple Item Tiles. If you want to embed just a single Item Tile instead, see <a href="https://help.uberflip.com/hc/en-us/articles/360023119772">this article</a> for instructions.</li>
+<li>This feature can't embed Tiles from the Latest Content Stream on the Hub homepage. However, if you have <a href="https://help.uberflip.com/hc/en-us/articles/360029327532" target="_self">replaced the Latest Content Stream with a Marketing Stream</a>, you can embed the Stream you're using in place of the Latest Content Stream.</li>
+<li>If your Hub uses custom Tile styling (i.e. OnBrand customizations), this styling will <strong>not</strong> be brought over to wherever you embed the Stream (as the stylesheet that defines the Tile styling only exists on the Hub). Instead, the embedded Tiles will be displayed with their default styling (non-customized). To replicate custom Tile styling from your Hub when you embed Streams in an external web property, please contact your Customer Success Manager or <a href="https://help.uberflip.com/hc/en-us/requests/new">Uberflip Support</a> for help.</li>
+</ul>
+<p> </p>
+<h2>Embed a Stream</h2>
+<p>The <strong>Embed Stream Tiles</strong> feature allows you to embed an entire Stream (or part of a Stream) on another website. No coding knowledge is needed: you just configure a few display options, then generate the embed code that you can copy and paste anywhere you want the Stream to appear.</p>
+<ol>
+<li>Log in to Uberflip and navigate to the Hub that contains the Stream you want to embed.</li>
+<li>In the sidebar menu on the left, click on the section <strong>Website Tools</strong> to expand it, then click on <strong>Embed Stream Tiles</strong>.<br><img src="https://help.uberflip.com/hc/article_attachments/360021200072/Hubs___Appearance_-_Embeds_-_Uberflip_-__Private_Browsing_.png" alt="Hubs___Appearance_-_Embeds_-_Uberflip_-__Private_Browsing_.png">
+</li>
+<li>On the left, you'll see two sections: <strong>Configure</strong>, which allows you to set up the embedded Stream; and <strong>Preview</strong>, which shows you how your configuration will look.<br><img src="https://help.uberflip.com/hc/article_attachments/360021139251/Hubs___Appearance_-_Embeds_-_Uberflip_-__Private_Browsing_.png" alt="Hubs___Appearance_-_Embeds_-_Uberflip_-__Private_Browsing_.png" width="651" height="341">
+</li>
+<li>Under the <strong>Configure</strong> section, begin by using the <strong>Select a Stream</strong> dropdown to choose the Stream you want to embed.</li>
+<li>Under <strong>Item tile size</strong>, select how big you want the Tiles in the embedded Stream to be. Check the <strong>Preview</strong> section on the right to see what each setting looks like.</li>
+<li>Under <strong>Other Options</strong>:
+<ul>
+<li>Use the dropdown next to <strong>Max Items Per Row</strong> to choose how many Item Tiles will be displayed in a single row. Note that this is a <strong>maximum</strong>, and how many Tiles are displayed on a row in practice is determined primarily by browser window size.</li>
+<li>Use the field next to <strong>Max Items total</strong> to enter the maximum number of Items you want to be displayed in the embedded Stream. If set to blank or 0 (zero), unlimited Items will be displayed (i.e. all Items in the Stream).</li>
+<li>Use the dropdown next to <strong>On Item Click, Open In</strong> to determine whether clicking an Item Tile in the embedded Stream will open that Item in the current browser tab/window, or in a new tab/window.</li>
+</ul>
+</li>
+<li>When you have finished configuring the embedded Stream, click on the <strong>Get Code</strong> button:<br><img src="https://help.uberflip.com/hc/article_attachments/360021200652/Hubs___Appearance_-_Embeds_-_Uberflip_-__Private_Browsing_.png" alt="Hubs___Appearance_-_Embeds_-_Uberflip_-__Private_Browsing_.png" width="333" height="313">
+</li>
+<li>The embed code will slide in over the <strong>Configure</strong> section (replacing it with the <strong>Copy Code</strong> section). Simply copy the embed code, and paste it into the HTML of the website where you want to embed the Stream:<br><img src="https://help.uberflip.com/hc/article_attachments/360021200812/Hubs___Appearance_-_Embeds_-_Uberflip_-__Private_Browsing_.png" alt="Hubs___Appearance_-_Embeds_-_Uberflip_-__Private_Browsing_.png">
+</li>
+</ol>
+<p>That's it! Your selected Stream will now appear on the web property where you embedded it.</p>]]></description>
+         <guid isPermaLink="false">360023374631</guid>
+         <pubDate>Wed, 13 Feb 2019 17:42:02 GMT</pubDate>
+      </item>
+      <item>
+         <title>Personalize a Marketing Stream or Sales Stream</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020637332-Personalize-a-Marketing-Stream-or-Sales-Stream</link>
+         <description><![CDATA[<hr>
+<p>Learn how you can personalize the design of your Marketing Streams and Sales Streams to create highly customized content experiences.</p>
+<hr>
+<p> </p>
+<h2 id="h_01HFEVW5E5CVCYK99D3EACTV8Q">Before you begin</h2>
+<ul>
+<li>To personalize Marketing Streams, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+<li>Additionally, <strong>Sales Reps</strong> can manage Sales Streams as long as they have been given the <strong>Edit Stream Appearance</strong> permission.</li>
+</ul>
+<p> </p>
+<h2 id="h_01HFEVW5E5HX3ZN2SE961DXJ16">About personalizing Streams</h2>
+<p>In Uberflip, you can quickly and easily customize the appearance of a Marketing or Sales Stream. This allows you to personalize Streams for particular audiences, which is useful for ABM and sales enablement use cases:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017398712" alt="Personalizing_your_Streams_with_Stream_Templates.png" width="694" height="514"></p>
+<p>In this article we will look at the various ways you can personalize a Marketing or Sales Stream to tailor it to your audience.</p>
+<p> </p>
+<h2 id="h_01HFEVW5E5VMM0V20PW07XG697">Configure a Stream's appearance</h2>
+<p>To personalize a Stream, use its <em>Appearance</em> tab. This tab will only appear on Marketing and Sales Streams, not on Source Streams.</p>
+<ol>
+<li>If you have multiple Hubs, select the Hub you want to work with using the <em>Hubs</em> menu.</li>
+<li>Click on <strong>Content </strong>in the sidebar menu, then find the Stream you want to personalize under the <strong>Streams</strong> tab on the right.</li>
+<li>
+<strong>Click on the Stream</strong> to edit it.</li>
+<li>While viewing the Stream, click on the <strong>Appearance</strong> tab in the menu at the top:<br><br><img src="https://help.uberflip.com/hc/article_attachments/360017399112" alt="Hubs___Manage_-_Uberflip.png" width="596" height="92">
+</li>
+<li>Under the heading <strong>Appearance</strong>, use the dropdown to change the selection to <strong>Banner+Logo</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360017399212" alt="Hubs___Manage_-_Uberflip.png" width="422" height="217">
+</li>
+<li>Selecting this option will add a banner to the top of the Stream, and will enable various customization options that you can use to personalize the Stream's appearance.</li>
+</ol>
+<p> </p>
+<h2 id="h_01HFEVW5E53HZ9FASEXX6W6KX4">Banner+Logo appearance options</h2>
+<p>When you select the <strong>Banner+Logo template</strong> for your Stream, you can configure the following options:</p>
+<h3 id="h_01HFEVW5E5BS11XM5PXTAJQ73F">Account Domain (Marketing Stream) / Prospect Email (Sales Stream)</h3>
+<p>These fields are not currently active, so you can ignore them if you want. They exist to support a possible future feature for tracking ABM analytics.</p>
+<h3 id="h_5912272713641544653687924">Banner Title</h3>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017289111" alt="Hubs___Manage_-_Uberflip.png"></p>
+<p>Use this field to add a text title to your banner. The text you enter will be displayed in large letters in the center of the banner:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017401852" alt="Example_Stream.png" width="699" height="236"></p>
+<ul>
+<li>The color of this title is controlled by the <a href="#h_4156320884731544653926870">Title Color</a> setting.</li>
+<li>This setting will only affect the title shown in the banner, and won't replace the Stream's default title (which appears below the banner).</li>
+<li>If you prefer to use a <a href="#h_7097701541931544653391339">Prospect Logo</a> and/or <a href="#h_6227686012491544653396689">Company Logo</a>, or just a <a href="#h_4864921972891544653403889">Banner Color</a> or <a href="#h_994339374781544653055203">Banner Image</a> with no text, you can leave this blank.</li>
+</ul>
+<h3 id="h_4864921972891544653403889">Banner Color</h3>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017289571" alt="Hubs___Manage_-_Uberflip.png"></p>
+<p>Use the color picker to set a solid background color for your banner. By default, this will be set to your brand color (set under <em>Appearance&gt;Branding&gt;Color&gt;Background+Link Color</em> in your Hub). Set the color using your mouse, or type in a HEX, RGB or HSL code.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017402572" alt="Example_Stream.png" width="701" height="233"></p>
+<ul>
+<li>If you set a <a href="#h_994339374781544653055203">Banner Image</a>, the selected image will override the Banner Color setting. However, if you set <a href="#h_4674190181441544653129749">Banner Opacity</a> to a value less than 100%, the color set here will be visible as an overlay on the image (to an extent determined by that setting).</li>
+</ul>
+<h3 id="h_4156320884731544653926870">Title Color</h3>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017402732" alt="Hubs___Manage_-_Uberflip.png"></p>
+<p>Use the color picker to set a color for your <a href="#h_5912272713641544653687924">Banner Title</a> — ideally, a color that contrasts well with your <a href="#h_4864921972891544653403889">Banner Color</a> or <a href="#h_994339374781544653055203">Banner Image</a>. Set the color using your mouse, or type in a HEX, RGB or HSL code.</p>
+<ul>
+<li>If you have not entered anything into the Banner Title field, this color setting will be ignored.</li>
+</ul>
+<h3 id="h_994339374781544653055203">Banner Image</h3>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017403072" alt="Hubs___Manage_-_Uberflip.png"></p>
+<p>Click on <strong>Upload</strong> to choose an image to use as the banner for the Stream. Make sure to follow our <a href="https://help.uberflip.com/hc/en-us/articles/360020030752">image size guidelines</a> when choosing your banner images.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017404412" alt="Example_Stream.png" width="701" height="233"></p>
+<p> </p>
+<h3 id="h_4674190181441544653129749">Banner Image Opacity</h3>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017291311" alt="Hubs___Manage_-_Uberflip.png"></p>
+<p>Use this setting to determine how visible you want the <a href="#h_4864921972891544653403889">Banner Color</a> to be as an overlay on the <a href="#h_994339374781544653055203">Banner Image</a>. A value of 100% means only the Banner Image is visible, while a value of 0% means only the Banner Color is visible. Values between 0% and 100% will display the Banner Color as a translucent overlay on the Banner Image, with the translucency determined by the set value. For example, a setting of 50% looks like this:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017291451" alt="Example_Stream.png" width="701" height="232"></p>
+<h3 id="h_7097701541931544653391339">Prospect Logo</h3>
+<h3 id="h_01HFEVW5E5R8Q86R65R8TJKP3S"><img src="https://help.uberflip.com/hc/article_attachments/360017333091" alt="Hubs___Manage_-_Uberflip.png"></h3>
+<p>If the Stream is intended for ABM, use this setting to place the prospect/target account's logo in the banner. Use the <strong>Search Clearbit</strong> field to search Clearbit's database of logos, or use the <strong>Upload</strong> <strong>button</strong> to upload a custom logo.</p>
+<p>This setting works together with the <a href="#h_6227686012491544653396689">Company Logo</a> and <a href="#h_8486988317221544712824243">Glyphicon</a> settings, so setting a Prospect Logo will automatically enable those settings as well. When enabled, the Company Logo is displayed on the left, the Prospect Logo on the right, and the Glyphicon between them. This is shown centered on the banner, above the Banner Title (if set):</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017451572" alt="Example_Stream.png" width="699" height="259"></p>
+<ul>
+<li>The Prospect Logo setting controls whether the Company Logo and Glyphicon are displayed: if you do not set a Prospect Logo, the Company Logo and Glyphicon settings will be ignored.</li>
+<li>If you set a Banner Title, it will be shown in a smaller font if the Company Logo/Prospect Logo/Glyphicon element is displayed compared to when it appears by itself.</li>
+</ul>
+<h3 id="h_01EJBV7WMF9V0RX6J6J666718C">Prospect Logo Background Color</h3>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360069189271" alt="Hubs___Manage_-_Uberflip.png"></p>
+<p>Use the color picker to set a background color for the Prospect Logo. Set the color using your mouse, or type in a HEX, RGB or HSL code. Use the transparency slider to determine how visible the background color is.</p>
+<ul>
+<li>This setting only takes effect if the Prospect Logo you set has a transparent background.</li>
+<li>If you do not set a Prospect Logo, this setting will be ignored.</li>
+</ul>
+<h3 id="h_6227686012491544653396689">Company Logo</h3>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017337951" alt="Hubs___Manage_-_Uberflip.png"></p>
+<p>This setting works together with the <a href="#h_7097701541931544653391339">Prospect Logo</a> setting, and you configure it the same way.</p>
+<ul>
+<li>If you do not set a Company Logo, your Hub's favicon will be used instead (as set under <em>Appearance&gt;Branding&gt;</em><em>Images&gt;Favicon Image</em>).</li>
+<li>If you set a Company Logo but no Prospect Logo, this setting will be ignored.</li>
+</ul>
+<h3 id="h_01HFEVW5E6FS5E3VXTZM0EV969">Company Logo Background Color</h3>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360068967132" alt="Hubs___Manage_-_Uberflip.png"></p>
+<p>Configure this setting the same way as the <a href="#h_01EJBV7WMF9V0RX6J6J666718C" target="_self">Prospect Logo Background Color</a> setting.</p>
+<ul>
+<li>This setting only takes effect if the Company Logo you set has a transparent background.</li>
+<li>If you set a Company Logo but no Prospect Logo, this setting will be ignored.</li>
+</ul>
+<h3 id="h_8486988317221544712824243">Glyphicon</h3>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017453472" alt="Hubs___Manage_-_Uberflip.png" width="354" height="327"></p>
+<p>This setting works together with the <a href="#h_7097701541931544653391339">Prospect Logo</a> and <a href="#h_6227686012491544653396689">Company Logo</a> settings, and will appear between them in your banner. Use the dropdown menu to select between five different Glyphicons (symbols).</p>
+<ul>
+<li>If you do not set a Prospect Logo, this setting will be ignored.</li>
+</ul>
+<h3 id="h_01HFEVW5E6PHDWS21AC6DJBKS9">Hide Hub Menu and Footer (Marketing Stream only)</h3>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017342891" alt="Hubs___Manage_-_Uberflip.png"></p>
+<p>Turn this setting to the <strong>on (green)</strong> position to hide the Hub's top menu and footer when this Stream is viewed:</p>
+<div class="callout callout--warning">
+<h4 id="h_01HFEVY4SZ6WAP6P89PFQQ3WPY" class="callout__title">Using a custom Hub menu or footer?</h4>
+<p>This setting option only works for Hub menus and footers built using default Uberflip settings. <strong>If you have a custom built menu or footer, this toggle will not have any affect on your Stream.</strong> As many of our users have custom built menus and footers, this may affect you. Please reach out to <a href="https://help.uberflip.com/hc/en-us/requests/new">Uberflip Support</a> if you need help with your custom menu and footer settings. </p>
+</div>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017344471" alt="Example_Stream.png" width="699" height="441"></p>
+<ul>
+<li>This setting is not shown on Sales Streams, as it is enabled on them by default and cannot be disabled.</li>
+</ul>
+<h3 id="h_01HFEVW5E60XBNARJ0DMJ9TCNK">Hide Item Navigation (Marketing Stream only)</h3>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017347811" alt="Hubs___Manage_-_Uberflip.png"></p>
+<p>Turn this setting to the <strong>on (green)</strong> position to hide the Item navigation elements in this Stream, like the <strong>Other Content in This Stream </strong>carousel and and <strong>Next Item/Previous Item</strong> buttons.</p>
+<ul>
+<li>This setting is not shown on Sales Streams, as it is enabled on them by default and cannot be disabled.</li>
+</ul>
+<h3 id="h_01HFEVW5E6RPTNRTR9CG76FDG4">Hide Stream Title</h3>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017462332" alt="Hubs___Manage_-_Uberflip.png"></p>
+<p>Turn this setting to the <strong>on (green)</strong> position to hide the <strong>Stream title</strong> that appears just below the banner:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017348251" alt="Example_Stream.png" width="700" height="260"></p>]]></description>
+         <guid isPermaLink="false">360020637332</guid>
+         <pubDate>Wed, 12 Dec 2018 22:04:06 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Enrichment</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Analytics Enrichment features explained</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/10038158221709-Analytics-Enrichment-features-explained</link>
+         <description><![CDATA[<h2 id="h_01HV50X1ZDPF7XA3YYZ0KPK2H7"><span style="font-weight: 400;">What are Uberflip’s Enrichment features?</span></h2>
+<p><a href="https://help.uberflip.com/hc/en-us/articles/360035433571" target="_self">Uberflip Analytics (UFA)</a> is designed to help you measure the performance of content experiences you build in Uberflip.</p>
+<p>But when capturing UFA data, Uberflip has limits to what we can see. Knowing who and where your traffic is coming from is incredibly useful (for both marketing and sales teams). This is where Uberflip's suite of Enrichment features come in.</p>
+<p><strong>Data enrichment is adding supplementary data to an existing data set, to fill in missing/unknown data points.</strong> This allows you to expand on the insights you can draw, and actions you can take, from that data. This is exactly what Uberflip Enrichment tools do for you.</p>
+<p>Enrichment pulls in contact information from your MAP, or a firmographic database, to tie the numbers to companies and names. With that info, you can target the right prospects at the right time.</p>
+<p> </p>
+<h2 id="h_01HV50X1ZE6JNBC6N5X1Y0149A"><span style="font-weight: 400;">Types of Enrichment tools</span></h2>
+<p><span style="font-weight: 400;">There are </span><strong>2 types of Enrichment</strong><span style="font-weight: 400;"> tools in Uberflip:</span></p>
+<ol>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Firmographic data enrichment  </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Marketing Automation Platform (MAP) data enrichment</span></li>
+</ol>
+<p id="h_01GFXVGSJGTD6P86BB96W9N7HK"><strong>Firmographic</strong></p>
+<p><span style="font-weight: 400;">Firmographic data is third-party data on companies and their contacts, based on IP. The third-party gathers this data over time and stores it in their database. </span></p>
+<p><span style="font-weight: 400;">With Enrichment, you can tap into this database, and supplement your UFA data with it. This allows you to find out who's viewing your content, even when they’re not known in your MAP.</span></p>
+<p><span style="font-weight: 400;">Knowing who’s showing interest gives you a chance to act. </span></p>
+<p id="h_01GFXVH500FN551CNQ7EVATY6K"><strong>MAP</strong></p>
+<p><span style="font-weight: 400;">MAP Enrichment pulls contact info straight from your MAP. That way you can attribute the numbers in UFA to the contacts and accounts you already know.<br></span></p>
+<p> </p>
+<h2 id="h_01HV50X1ZEDYYV9GJG594RCKMK"><span style="font-weight: 400;">Uberflip’s Enrichment features</span></h2>
+<p><span style="font-weight: 400;">Uberflip currently offers 3 Enrichment features: </span></p>
+<ul>
+<li><span style="font-weight: 400;">6sense Enrichment (Firmographic)</span></li>
+<li><span style="font-weight: 400;">Marketo Enrichment (MAP) </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Eloqua Enrichment (MAP)</span></li>
+</ul>
+<p><span style="font-weight: 400;">Learn about each Enrichment type below.</span></p>
+<h3 id="h_01GFXVFYY5D8F7YDAQQTWKXWCC"><span style="font-weight: 400;">6sense Enrichment</span></h3>
+<p>6sense Enrichment takes firmographic data from 6sense and combines it with your Uberflip Analytics data. This allows you to see what companies and industries are engaging with your content, even if they aren’t already known in your MAP.</p>
+<p><a href="https://help.uberflip.com/hc/en-us/articles/5240059424781-6sense-Enrichment-explained-"><span style="font-weight: 400;">Learn more about 6sense Enrichment</span></a></p>
+<h3 id="h_01GFXVF4ZPEDZST6YQ8YRC2ZR0"><span style="font-weight: 400;">Marketo Enrichment</span></h3>
+<div class="" data-block="true" data-editor="dvkjb" data-offset-key="90g3p-0-0">
+<div class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr" data-offset-key="90g3p-0-0">
+<p>Marketo Enrichment allows you to import company and contact information from Marketo directly into Uberflip Analytics.</p>
+<p>Dashboards in Uberflip Analytics will then allow you to see what content is being viewed, and by which known contact or organization.</p>
+<p>It also allows marketers to infer similar organizations and industries that may be interested in that kind of content.</p>
+</div>
+</div>
+<p><a href="https://help.uberflip.com/hc/en-us/articles/4409773235085-Marketo-Enrichment-Explained"><span style="font-weight: 400;">Learn more about MAP Enrichment</span></a></p>
+<h3 id="h_01GFXVF4ZPEDZST6YQ8YRC2ZR0"><span style="font-weight: 400;">Eloqua Enrichment</span></h3>
+<div class="" data-block="true" data-editor="dvkjb" data-offset-key="90g3p-0-0">
+<div class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr" data-offset-key="90g3p-0-0">
+<p>Like Marketo, Eloqua Enrichment allows you to import company and contact information from Eloqua directly into Uberflip Analytics.</p>
+<p>Dashboards in Uberflip Analytics will then allow you to see what content is being viewed, and by which known contact or organization.</p>
+<p>It also allows marketers to infer similar organizations and industries that may be interested in that kind of content.</p>
+</div>
+</div>
+<p><a href="https://help.uberflip.com/hc/en-us/articles/4409773235085">Learn more about MAP Enrichment</a></p>]]></description>
+         <guid isPermaLink="false">10038158221709</guid>
+         <pubDate>Thu, 20 Oct 2022 23:34:59 GMT</pubDate>
+      </item>
+      <item>
+         <title>Eloqua Enrichment explained</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/12095193143693-Eloqua-Enrichment-explained</link>
+         <description><![CDATA[<p><span style="font-weight: 400;">Uberflip’s Eloqua Enrichment feature allows you to import company and contact information from your Eloqua integration to enrich Uberflip data. Using this Enrichment method allows marketers to discover what content is being viewed and by which buyer contact or organization.</span></p>
+<p> </p>
+<h2><span style="font-weight: 400;">What is Eloqua Enrichment?</span></h2>
+<p><span style="font-weight: 400;">This <a href="https://help.uberflip.com/hc/en-us/articles/10038158221709#types-of-enrichment-tools" target="_self" rel="undefined">Enrichment feature</a> allows you to import company and contact information from your Eloqua integration directly into Uberflip Analytics.</span></p>
+<p><span style="font-weight: 400;">Dashboards in Uberflip Analytics allow you to discover what content is being viewed and by which buyer contact or organization. It also allows marketers to infer similar organizations and industries that may be interested in a specific kind of content.</span></p>
+<p><span style="font-weight: 400;">These inferred details can help better your content strategy and Account Based Marketing (ABM) decisions to positively impact your organization’s growth. </span></p>
+<p> </p>
+<h2><span style="font-weight: 400;">Before you begin</span></h2>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Eloqua Enrichment is a paid add-on to your Uberflip account. If you have not already purchased this feature, get in touch with your Uberflip account manager today. </span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">To get access to Eloqua Enrichment you need to set up an Eloqua integration. See how to set up the Eloqua Integration in this article: </span><a href="https://help.uberflip.com/hc/en-us/articles/360022207231" target="_self" rel="undefined">Set Up an Oracle Eloqua Integration</a>
+</li>
+</ul>
+<p> </p>
+<h2><span style="font-weight: 400;">Set up Eloqua Enrichment </span></h2>
+<p><span style="font-weight: 400;">Once the Eloqua integration is set up in Uberflip, follow these steps to configure Enrichment:</span></p>
+<ol>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Log into Uberflip</span></li>
+<li>Click your name in the topbar, then click <strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Account Settings<br><img src="https://help.uberflip.com/hc/article_attachments/25795799719053" alt="mceclip0.png" width="200" height="155"></strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In the sidebar menu, click </span><strong>Integration</strong><span style="font-weight: 400;"> &gt; </span><strong>Enrichment</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Under the <em>Data Source </em>column, hover over</span> <em><strong>Eloqua</strong></em> and click the <strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Edit</strong><span style="font-weight: 400;"> button (pencil icon) that appears<br><img src="https://help.uberflip.com/hc/article_attachments/12094463515277" alt="mceclip0.png"><br></span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">On the Eloqua Enrichment settings page, there are two tabs where you can configure how data from the Eloqua integration enriches your Uberflip data: <strong>Settings</strong> and <strong>Field Mapping</strong><br><img src="https://help.uberflip.com/hc/article_attachments/12094767003789" alt="mceclip1.png" width="401" height="111"><br></span></li>
+</ol>
+<h3>Settings</h3>
+<p><strong>Integration Data Import:</strong></p>
+<p><span style="font-weight: 400;">Under <strong><em>Data Import</em></strong> click the toggle to turn it on or off. Doing so will start (toggle on) or stop (toggle off) the flow of data coming from Eloqua into Uberflip.</span></p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p><span style="font-weight: 400;">After turning the switch on, the data import process will take several hours to complete.</span></p>
+</div>
+<p><span style="font-weight: 400;">If you'd like, you can review any </span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">errors </strong><span style="font-weight: 400;">and see detailed</span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"> activity logs</strong><span style="font-weight: 400;"> of your import. Do this by clicking </span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"><em>Data Import Activity</em></strong><span style="font-weight: 400;"> in the copy of the </span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"><em>Integration Data Import </em></strong><span style="font-weight: 400;">section.</span></p>
+<p><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Remove Enrichment Data:</strong></p>
+<p><span style="font-weight: 400;">Click the </span><strong>Remove Data</strong><span style="font-weight: 400;"> button to remove imported Enrichment Eloqua data from Uberflip’s system. Eloqua data will be removed from Uberflip’s system within 4 hours. </span></p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Caution</h4>
+<p><span style="font-weight: 400;">To stop data from being imported again, toggle the</span> <strong><em>Data Import</em></strong> <span style="font-weight: 400;">switch off before clicking the </span><strong>Remove Data</strong><span style="font-weight: 400;"> button.</span></p>
+</div>
+<p><span style="font-weight: 400;">Click </span><strong><em>User Activity</em></strong><span style="font-weight: 400;"> in the copy of the </span><strong>Remove Enrichment Data</strong><span style="font-weight: 400;"> section to view Enrichment data removal requests.</span></p>
+<h3>Field Mapping</h3>
+<p><span style="font-weight: 400;">To help Uberflip understand how to process your data, you’ll need to create a mapping that associates Eloqua data model fields with Uberflip data model fields. </span></p>
+<p><span style="font-weight: 400;">The Enrichment Field column displays a standard set of fields for a company account record. Enter the Eloqua field names in the Eloqua Field column; your field options from Eloqua will appear as you type. Click the correct field to map it. </span></p>
+<p><span style="font-weight: 400;">To delete a field mapping, click the X beside the field.</span></p>
+<p><span style="font-weight: 400;">Once the field mappings are completed, ensure the</span><strong> Data Import </strong><span style="font-weight: 400;">toggle in the Settings tab is turned on (green) to allow Eloqua person records to be passed into Uberflip.</span></p>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p><span style="font-weight: 400;">While the Eloqua Fields column is pre-populated with common fields you may want to map, it also contains 14 custom fields for company and lead mapping. Use these as you’d like to pull custom data points from your MAP into your Eloqua enriched Analytics. </span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">Custom field data is shown in company and lead detail widgets, and can be used when creating Explore dashboards in enriched Analytics as well.</span></p>
+</div>
+<p> </p>
+<h2><span style="font-weight: 400;">Access your Eloqua enriched analytics</span></h2>
+<p><span style="font-weight: 400;">Your enriched data can be seen in the </span><strong>Company Discovery </strong><span style="font-weight: 400;">dashboard. To get there: </span></p>
+<ol>
+<li>
+<span style="font-weight: 400;">Click </span><strong>Analytics</strong><span style="font-weight: 400;"> in the topbar<br><img src="https://help.uberflip.com/hc/article_attachments/25795799730317" alt="mceclip0.png" width="504" height="61"><br></span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In the sidebar menu, click </span><strong>Visitors</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;"><strong>Companies</strong> and <strong>Contacts </strong>dashboards utilize the data from Eloqua Enrichment. Click on either one to view the data.</span><span style="font-weight: 400;"><br><img src="https://help.uberflip.com/hc/article_attachments/25795799744013" alt="mceclip10.png" width="175" height="389"></span>
+</li>
+</ol>
+<p><span style="font-weight: 400;">You’re in! </span></p>
+<p><span style="font-weight: 400;">Alternatively, from the main Analytics navigation menu, click on the folder icon sign at the top right of the page. In the menu that appears, click <strong>Shared</strong> &gt; <strong>Enriched (Alpha)</strong> &gt; <strong>Enrichment Specific Dashboards</strong> to view all 5 dashboards utilizing data from Eloqua Enrichment.<br></span></p>
+<p><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/25795799751821" alt="Screen_Shot_2022-03-17_at_3.39.00_PM.png" width="299" height="266"></span></p>
+<p> </p>
+<h2><span style="font-weight: 400;">Navigate Eloqua enriched dashboards</span></h2>
+<p><span style="font-weight: 400;">Filters at the top of each dashboard allow you to begin your drill down. <br></span><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/25795824663821" alt="Screen_Shot_2022-03-17_at_3.38.42_PM.png" width="600" height="175"></span></p>
+<p><span style="font-weight: 400;">Eloqua Enrichment consists of <strong>five dashboards</strong>, each containing several widgets displaying and visualizing your data.</span></p>
+<p><span style="font-weight: 400;">All widgets on the dashboard are interactive. H</span><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">over to highlight data points, and click data points to filter further. </span></p>
+<p><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Each widget also includes a kebab (three vertical dots) icon where you download the data as a CSV or PDF. From here, users with an <strong>Explore license</strong> can also user their enriched analytics for custom <a href="https://help.uberflip.com/hc/en-us/articles/360051891272" target="_self">Explore dashboards</a>.</span></p>
+<p><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/25795799771789" alt="wert.png" width="400" height="254"><br></span></p>
+<h3><span style="font-weight: 400;">Eloqua enriched dashboards</span></h3>
+<p><span style="font-weight: 400;">These are the 5 dashboard that will use and display your Eloqua enriched data. Click on the dashboard below to see the charts and data included in each. </span></p>
+<div class="accordion accordion--default">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Companies dashboard</strong></div>
+<div class="accordion__item-content">
+<table style="width: 760px;">
+<tbody>
+<tr>
+<td style="width: 330.438px;">
+<p><strong>Known Companies:</strong></p>
+<p><span style="font-weight: 400;">Companies found within Eloqua</span></p>
+</td>
+<td style="width: 406.562px;">
+<p><img src="https://help.uberflip.com/hc/article_attachments/25795824692621" alt="Screen_Shot_2022-04-04_at_12.03.20_PM.png"><strong><br></strong></p>
+</td>
+</tr>
+<tr>
+<td style="width: 330.438px;">
+<p><strong>Sessions: </strong></p>
+<p><span style="font-weight: 400;">Total number of Share sessions per day.</span></p>
+</td>
+<td style="width: 406.562px;"><img src="https://help.uberflip.com/hc/article_attachments/25795824709389" alt="Screen_Shot_2022-04-04_at_12.03.58_PM.png"></td>
+</tr>
+<tr>
+<td style="width: 330.438px;">
+<p><strong>Industry:</strong></p>
+<p><span style="font-weight: 400;">The top eight industries that visiting companies are identified as in Eloqua.</span></p>
+</td>
+<td style="width: 406.562px;">
+<p><img src="https://help.uberflip.com/hc/article_attachments/25795799804941" alt="Screen_Shot_2022-04-04_at_12.05.15_PM.png"><strong><br></strong></p>
+</td>
+</tr>
+<tr>
+<td style="width: 330.438px;">
+<p><strong>Number of employees:</strong><strong><br></strong><span style="font-weight: 400;">The size of known companies based on employee headcount.</span><span style="font-weight: 400;"><br></span></p>
+</td>
+<td style="width: 406.562px;">
+<p><img src="https://help.uberflip.com/hc/article_attachments/25795799814541" alt="Screen_Shot_2022-04-04_at_12.05.58_PM.png"><strong><br></strong></p>
+</td>
+</tr>
+<tr>
+<td style="width: 330.438px;">
+<p><strong>Annual Revenue:</strong><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">The size of known companies based on annual revenue. </span></p>
+</td>
+<td style="width: 406.562px;"><img src="https://help.uberflip.com/hc/article_attachments/25795799862029" alt="Screen_Shot_2022-04-04_at_12.07.14_PM.png"></td>
+</tr>
+<tr>
+<td style="width: 330.438px;">
+<p><strong>Companies Detail: </strong></p>
+<p><span style="font-weight: 400;">A list of individual companies and their respective details, such as size, revenue, etc. </span></p>
+</td>
+<td style="width: 406.562px;">
+<p><strong><img src="https://help.uberflip.com/hc/article_attachments/25795824750093" alt="poiug.png"></strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Contacts dashboard</strong></div>
+<div class="accordion__item-content">
+<table style="width: 750px;">
+<tbody>
+<tr>
+<td style="width: 330.453px;">
+<p><strong>Known Contacts:</strong><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">Known contact found in Eloqua</span></p>
+</td>
+<td style="width: 396.547px;"><img src="https://help.uberflip.com/hc/article_attachments/25795824758157" alt="Screen_Shot_2022-04-04_at_12.20.46_PM.png"></td>
+</tr>
+<tr>
+<td style="width: 330.453px;">
+<p><strong>Common Job Titles:</strong><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">The most common job titles of the known contacts engaging with your content </span></p>
+</td>
+<td style="width: 396.547px;"><img src="https://help.uberflip.com/hc/article_attachments/25795824771853" alt="Screen_Shot_2022-04-04_at_12.25.04_PM.png"></td>
+</tr>
+<tr>
+<td style="width: 330.453px;">
+<p><strong>Contact Status:</strong></p>
+<p><span style="font-weight: 400;">The current status of the contacts engaging with your content. </span></p>
+</td>
+<td style="width: 396.547px;"><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/25795824780429" alt="Screen_Shot_2022-04-04_at_12.26.42_PM.png"></span></td>
+</tr>
+<tr>
+<td style="width: 330.453px;">
+<p><strong>Lead Score: </strong></p>
+<p><span style="font-weight: 400;">The scores of known leads engaging with your content, according to Eloqua.</span></p>
+</td>
+<td style="width: 396.547px;"><img src="https://help.uberflip.com/hc/article_attachments/25795799940621" alt="Screen_Shot_2022-04-04_at_12.27.20_PM.png"></td>
+</tr>
+<tr>
+<td style="width: 330.453px;">
+<p><strong>Views by Known Contacts:</strong><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">Views per day by known contacts. </span></p>
+</td>
+<td style="width: 396.547px;"><img src="https://help.uberflip.com/hc/article_attachments/25795799955853" alt="Screen_Shot_2022-04-04_at_12.27.53_PM.png"></td>
+</tr>
+<tr>
+<td style="width: 330.453px;">
+<p><strong>Contact Details: </strong></p>
+<p><span style="font-weight: 400;">A list of individual companies and their respective details, such as size, revenue, etc.</span></p>
+</td>
+<td style="width: 396.547px;"><img src="https://help.uberflip.com/hc/article_attachments/25795824824717" alt="oij.png"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Enrichment Diagnostics</strong></div>
+<div class="accordion__item-content">
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">When A Visitor Was first Seen</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">When A visitor was most recently seen</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Unique Visitors with MAP IDs</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Unique MAP IDs (Not your company Emails)</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Unique MAP IDs</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">MAP IDs (with your company Emails)</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Unique Companies/accounts</span></li>
+</ul>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Single Company / Account</strong></div>
+<div class="accordion__item-content">
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Company Details </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Leads / Contacts </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Items Viewed </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Sessions</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Leads / Contacts </span></li>
+</ul>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Single Lead / Contact</strong></div>
+<div class="accordion__item-content">
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Contact Details </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Company Details </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Company Analytics IDs</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Sessions </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Items Viewed </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Session Details </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Form CTA Interactions</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Link CTA Interactions</span></li>
+</ul>
+</div>
+</div>
+</div>]]></description>
+         <guid isPermaLink="false">12095193143693</guid>
+         <pubDate>Mon, 09 Jan 2023 18:45:23 GMT</pubDate>
+      </item>
+      <item>
+         <title>6sense Enrichment explained </title>
+         <link>https://help.uberflip.com/hc/en-us/articles/5240059424781-6sense-Enrichment-explained</link>
+         <description><![CDATA[<p><span style="font-weight: 400;">With Uberflip’s 6sense Enrichment feature, you can get insight into the dark side of your funnel. Use this Enrichment feature to discover which companies are engaged with your content, even if they’re not already a contact in your Marketing Automation Platform (MAP). </span></p>
+<p><span style="font-weight: 400;">This article will explain the feature, how to get set up, and how to navigate the 6sense enriched dashboard. </span></p>
+<h2><span style="font-weight: 400;">What is 6sense Enrichment?</span></h2>
+<p><span style="font-weight: 400;">6sense Enrichment takes firmographic data from 6sense and combines it with your Uberflip Analytics data. This allows you to see what unknown companies and industries are engaging with your content, even if they </span><strong>aren’t already known in your MAP</strong><span style="font-weight: 400;">. With this enriched data, you’ll have visibility into who is engaging with your content, helping you drive better content personalization and outreach.</span></p>
+<p><span style="font-weight: 400;">You can view this data in the </span><strong>Company Discovery dashboard </strong><span style="font-weight: 400;">to easily visualize how things are shaping up across companies and industries, and drill down for a closer look where needed. </span></p>
+<h2><span style="font-weight: 400;">Before you begin</span></h2>
+<ul>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">6sense Enrichment is a </span><strong>paid add-on</strong><span style="font-weight: 400;"> to your Uberflip account. If you have not already purchased this feature, get in touch with your Uberflip account manager today. </span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">To use 6sense Enrichment, you’ll need the </span><a href="https://marketplace.uberflip.com/details/6sense-personalizer/"><strong>6sense Personalizer app</strong></a><span style="font-weight: 400;"> installed on your account. Your account manager will help you with this when you purchase the add-on, if needed. </span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Ensure the 6sense Personalizer app is up-to-date before using 6sense Enrichment for the first time </span></li>
+</ul>
+<h2><span style="font-weight: 400;">Enable 6sense Enrichment</span></h2>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Note:</strong><span style="font-weight: 400;"> You must purchase the 6sense Enrichment add-on before you can enable it in your account. If you haven’t already, contact your Uberflip account manager. They’ll set you up with everything you need to get started.</span></p>
+</div>
+<p><span style="font-weight: 400;">Once you’ve purchased your 6sense Enrichment add-on, follow these steps to enable the feature in your account:  </span></p>
+<ol>
+<li><span style="font-weight: 400;">In the topbar menu, click <strong>Marketplace &gt; Installed Apps<br><img style="font-weight: 400;" src="https://help.uberflip.com/hc/article_attachments/5240118522509/Untitled_design.png" alt="Untitled_design.png"></strong></span></li>
+<li>
+<span style="font-weight: 400;">Find the</span><strong> 6sense Personalizer app </strong><span style="font-weight: 400;">and click the Edit (pencil) icon</span>
+</li>
+<li><span style="font-weight: 400;"><strong>Scroll to find the Enrich Analytics section and turn on the toggle<br><span style="font-weight: bolder;"><img src="https://help.uberflip.com/hc/article_attachments/5240151191821/Screen_Shot_2022-03-15_at_12.52.33_PM.png" alt="Screen_Shot_2022-03-15_at_12.52.33_PM.png" width="458" height="113"></span></strong></span></li>
+</ol>
+<p>That’s it! Your 6sense enriched Analytics has been turned on.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p><span style="font-weight: 400;"> It may take several hours for data to start populating in Analytics</span>.</p>
+</div>
+<h2><span style="font-weight: 400;">Access the Company Discovery dashboard</span></h2>
+<p><span style="font-weight: 400;">Your enriched data can be seen in the </span><strong>Company Discovery </strong><span style="font-weight: 400;">dashboard. To get there: </span></p>
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In Uberflip, Click </span><strong>Analytics </strong><span style="font-weight: 400;">in the topbar </span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In the sidebar menu, click </span><strong>Visitors</strong><span style="font-weight: 400;"> &gt;</span><strong> Company Discovery</strong><span style="font-weight: 400;"> </span>
+</li>
+</ol>
+<p><span style="font-weight: 400;">You’re in! </span></p>
+<h2><span style="font-weight: 400;">Navigating the Company Discovery dashboard</span></h2>
+<p><span style="font-weight: 400;">Filters at the top of the dashboard allow you to begin your drill down.</span></p>
+<p><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/5240194694029/Screen_Shot_2022-03-15_at_4.35.22_PM.png" alt="Screen_Shot_2022-03-15_at_4.35.22_PM.png" width="501" height="66"></span></p>
+<p><span style="font-weight: 400;">The Company Discovery dashboard consists of 10 data widgets that make it easy to visualize your data. </span></p>
+<p><span style="font-weight: 400;">All widgets on the dashboard are interactive. H</span><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">over to highlight data points, and click data points to filter further. </span></p>
+<p><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Each widget also includes a kebab (three vertical dots) icon where you download the data as a CSV or PDF. From here, users with an <strong>Explore license</strong> can also user their enriched analytics for custom <a href="https://help.uberflip.com/hc/en-us/articles/360051891272" target="_self">Explore dashboards</a>.</span></p>
+<p><span style="font-weight: 400;"><br><img src="https://help.uberflip.com/hc/article_attachments/5240201544589/sdf.png" alt="sdf.png" width="501" height="231"><br></span></p>
+<h3><span style="font-weight: 400;">Included widgets: </span></h3>
+<p><strong>Note:</strong><span style="font-weight: 400;"> Top companies (IP) are determined by Uberflip based on the number of respective prospects, total pageviews (new prospects) or sessions (returning prospects), and lowest bounce back rate.</span></p>
+<table style="height: 1829px;">
+<tbody>
+<tr style="height: 161px;">
+<td style="width: 322.594px; height: 161px;">
+<p><strong>Companies (IP) Enriched:</strong></p>
+<br>
+<p><span style="font-weight: 400;">The number of companies 6sense identified.</span></p>
+</td>
+<td style="width: 354.391px; height: 161px;">
+<p><img src="https://help.uberflip.com/hc/article_attachments/5241087586189/Screen_Shot_2022-04-01_at_4.13.14_PM.png" alt="Screen_Shot_2022-04-01_at_4.13.14_PM.png" width="137" height="177"></p>
+</td>
+</tr>
+<tr style="height: 153px;">
+<td style="width: 322.594px; height: 153px;">
+<p><strong>Unique Visitors:</strong></p>
+<br>
+<p><span style="font-weight: 400;">Unique visitors within the identified companies.</span></p>
+</td>
+<td style="width: 354.391px; height: 153px;"><img src="https://help.uberflip.com/hc/article_attachments/5241127382157/Screen_Shot_2022-04-01_at_4.14.02_PM.png" alt="Screen_Shot_2022-04-01_at_4.14.02_PM.png" width="134" height="177"></td>
+</tr>
+<tr style="height: 184px;">
+<td style="width: 322.594px; height: 184px;">
+<p><strong>Industries:</strong></p>
+<br>
+<p><span style="font-weight: 400;">The top 15 industries identified by 6sense. <br></span></p>
+<p><em><span style="font-weight: 400;">Drill down for more</span></em><span style="font-weight: 400;">.  </span></p>
+</td>
+<td style="width: 354.391px; height: 184px;"><img src="https://help.uberflip.com/hc/article_attachments/5241099519373/Screen_Shot_2022-04-01_at_4.14.32_PM.png" alt="Screen_Shot_2022-04-01_at_4.14.32_PM.png" width="352" height="177"></td>
+</tr>
+<tr style="height: 271px;">
+<td style="width: 322.594px; height: 271px;">
+<p><strong>New Prospect Breakdown:</strong></p>
+<br>
+<p><span style="font-weight: 400;">Number of new companies, visitors, and page views. </span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;"><br></span><em><span style="font-weight: 400;">Click labels below the graph to remove data points.</span></em></p>
+</td>
+<td style="width: 354.391px; height: 271px;"><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/5241100537485/Screen_Shot_2022-04-01_at_4.15.00_PM.png" alt="Screen_Shot_2022-04-01_at_4.15.00_PM.png"></span></td>
+</tr>
+<tr style="height: 162px;">
+<td style="width: 322.594px; height: 162px;">
+<p><strong>Top 15 New Prospects:</strong></p>
+<br>
+<p><span style="font-weight: 400;">Top 15 new prospects based on unique visitors and page views. </span></p>
+<br>
+<p><em><span style="font-weight: 400;">Drill down for more</span></em><span style="font-weight: 400;">.  </span></p>
+</td>
+<td style="width: 354.391px; height: 162px;"><img src="https://help.uberflip.com/hc/article_attachments/5289169795469/poiuh.png" alt="poiuh.png"></td>
+</tr>
+<tr style="height: 148px;">
+<td style="width: 322.594px; height: 148px;">
+<p><strong>CompanyIP (Σ New Visitors) -- Entry Asset/Name - Campaign:</strong></p>
+<br>
+<p><span style="font-weight: 400;">The journey of</span><strong> top new companies</strong><span style="font-weight: 400;"> brought in through </span><strong>specific entry assets</strong><span style="font-weight: 400;"> based on their </span><strong>respective top campaigns</strong><span style="font-weight: 400;">. </span></p>
+</td>
+<td style="width: 354.391px; height: 148px;"><img src="https://help.uberflip.com/hc/article_attachments/5289828143885/ertrew.png" alt="ertrew.png"></td>
+</tr>
+<tr style="height: 292px;">
+<td style="width: 322.594px; height: 292px;">
+<p><strong>Returning Prospect Breakdown:</strong></p>
+<br>
+<p><span style="font-weight: 400;">Number of returning companies, visitors, and page views.</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;"><br></span><em><span style="font-weight: 400;">Click labels below the graph to remove data points.</span></em></p>
+</td>
+<td style="width: 354.391px; height: 292px;"><img src="https://help.uberflip.com/hc/article_attachments/5241148203149/Screen_Shot_2022-04-01_at_4.16.32_PM.png" alt="Screen_Shot_2022-04-01_at_4.16.32_PM.png"></td>
+</tr>
+<tr style="height: 103px;">
+<td style="width: 322.594px; height: 103px;">
+<p><strong>Top 15 Returning Prospects</strong></p>
+<br>
+<p><span style="font-weight: 400;">Top 15 returning prospects based on unique visitors and page views. </span></p>
+</td>
+<td style="width: 354.391px; height: 103px;"><img src="https://help.uberflip.com/hc/article_attachments/5290139240077/oiuhg.png" alt="oiuhg.png"></td>
+</tr>
+<tr style="height: 148px;">
+<td style="width: 322.594px; height: 148px;">
+<p><strong>CompanyIP (Σ Return Visitor) -- Asset Type/Name -- Marketing Channel:</strong></p>
+<p><span style="font-weight: 400;">The journey of</span><strong> top returning companies </strong><span style="font-weight: 400;">brought in through </span><strong>specific entry assets</strong><span style="font-weight: 400;"> based on </span><strong>marketing channels.</strong></p>
+</td>
+<td style="width: 354.391px; height: 148px;"><img src="https://help.uberflip.com/hc/article_attachments/5290400256525/asdf.png" alt="asdf.png"></td>
+</tr>
+<tr style="height: 207px;">
+<td style="width: 322.594px; height: 207px;">
+<p><strong>Company (IP) Summary:</strong></p>
+<br>
+<p><span style="font-weight: 400;">A breakdown of the top 20 companies with their respective firmographic data and engagement metrics. <br><br><em>Drill down for more.</em> </span><em><span style="font-weight: 400;">Click company to drill down into their individual engagement.</span></em></p>
+</td>
+<td style="width: 354.391px; height: 207px;"><img src="https://help.uberflip.com/hc/article_attachments/5292441341965/oiu.png" alt="oiu.png"></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2><span style="font-weight: 400;">Delete visitor Personally Identifiable Information (PII) from Uberflip</span></h2>
+<p><span style="font-weight: 400;">If you need to delete a single visitor’s Personally Identifiable Information (PII), or the PII for all visitors to your Hubs, this can be done in the Data Controls page (</span><em><span style="font-weight: 400;">Analytics &gt; Analytics Settings &gt; Data Controls</span></em><span style="font-weight: 400;">) of your Uberflip account. </span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">Check out </span><a href="https://help.uberflip.com/hc/en-us/articles/5231245831565"><span style="font-weight: 400;">Delete visitors personally identifiable information (PII) from Uberflip</span></a><span style="font-weight: 400;"> for a full guide on deleting PII data.</span></p>]]></description>
+         <guid isPermaLink="false">5240059424781</guid>
+         <pubDate>Fri, 01 Apr 2022 22:27:24 GMT</pubDate>
+      </item>
+      <item>
+         <title>MAP Enrichment explained</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4409773235085-MAP-Enrichment-explained</link>
+         <description><![CDATA[<p><span style="font-weight: 400;">Uberflip’s MAP Enrichment feature allows you to import company and contact information directly from your MAP to enrich Uberflip data. Using this Enrichment method allows marketers to discover what content is being viewed and by which buyer contact or organization.</span></p>
+<p> </p>
+<h2 id="h_01HV2JR05K7JSSGVVTPNZ2CF4P"><span style="font-weight: 400;">Before you begin</span></h2>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;"><strong>Enrichment is a paid add-on to your Uberflip account.</strong> If you have not already purchased this feature, get in touch with your Uberflip account manager today. </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;"><strong>Only one MAP can be used with Enrichment a one time.</strong> Having multiple MAP integration in your Uberflip account may cause issues for Enrichment.</span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">To get access to Enrichment <strong>you need to set up a supported MAP integration <em>(listed below)</em> first</strong>. See how to set up a supported MAP Integration here:</span>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><a href="https://help.uberflip.com/hc/en-us/articles/360022063751-Set-Up-a-Marketo-Integration#set-up-a-marketo-integration"><span style="font-weight: 400;">Set Up a Marketo Integration</span></a></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;"><a href="https://help.uberflip.com/hc/en-us/articles/360022207231">Set Up an Oracle Eloqua Integration</a></span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;"><a href="https://help.uberflip.com/hc/en-us/articles/360021942272">Set up a Pardot integration</a></span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;"><a href="https://help.uberflip.com/hc/en-us/articles/360021562692">Set up a HubSpot integration</a></span></li>
+</ul>
+</li>
+</ul>
+<p> </p>
+<h2 id="h_01HV2JR05KFFX8Q9FF1123EKJ8"><span style="font-weight: 400;">What is MAP Enrichment?</span></h2>
+<p><span style="font-weight: 400;">This <a href="https://help.uberflip.com/hc/en-us/articles/10038158221709#types-of-enrichment-tools" target="_self" rel="undefined">Enrichment feature</a> allows you to import company and contact information from your MAP integration directly into Uberflip Analytics.</span></p>
+<p><span style="font-weight: 400;">Dashboards in Uberflip’s Analytics allow you to discover what content is being viewed and by which buyer contact or organization. It also allows marketers to infer similar organizations and industries that may be interested in a specific kind of content.</span></p>
+<p><span style="font-weight: 400;">These inferred details can help better your content strategy and Account Based Marketing (ABM) decisions to positively impact your organization’s growth. </span></p>
+<p><strong>MAP Enrichment currently supports 4 MAP platforms: </strong></p>
+<ul>
+<li>Marketo </li>
+<li>Eloqua</li>
+<li>Pardot</li>
+<li>Hubspot</li>
+</ul>
+<p> </p>
+<h2 id="h_01HV2JR05KA0MPJMPVFJXNTETX"><span style="font-weight: 400;">Set up MAP Enrichment </span></h2>
+<p><span style="font-weight: 400;"><strong>After a supported MAP integration is set up in Uberflip,</strong> follow these steps to configure Enrichment:</span></p>
+<ol>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Log into Uberflip</span></li>
+<li>Click your name in the topbar, then click <strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Account Settings<br><img src="https://help.uberflip.com/hc/article_attachments/25766459181709" alt="mceclip0.png" width="200" height="155"></strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In the sidebar menu, click </span><strong>Integration</strong><span style="font-weight: 400;"> &gt; </span><strong>Enrichment</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;"><span style="font-weight: 400;">Under the <em>Data Source </em>column, f</span>ind </span>your MAP and click the <strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Edit</strong><span style="font-weight: 400;"> button (wrench icon) <img src="https://help.uberflip.com/hc/article_attachments/25795810823181" alt="mceclip0.png" width="601" height="110"></span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">On the Enrichment settings page, there are two tabs where you can configure how data from the MAP integration enriches your Uberflip data: <strong>Settings</strong> and <strong>Field Mapping</strong><br></span><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/25795810844685" alt="mceclip1.png" width="600" height="166"><br><strong>Note:</strong> If you're setting up Enrichment for the first time, it's best to start with field mapping before moving to the Settings tab.</span>
+</li>
+</ol>
+<h3 id="h_01HV2JR05KRYBZYMTQJXY43SJE">Field Mapping</h3>
+<p><span style="font-weight: 400;">If you're setting up Enrichment for the first time, you'll want to to start by mapping your fields.</span></p>
+<p><span style="font-weight: 400;">To help Uberflip understand how to process your data, you’ll need to create a mapping that associates MAP data model fields with Uberflip data model fields. </span></p>
+<p><span style="font-weight: 400;">The Enrichment Field column displays a standard set of fields for a company account record. Enter the MAP field names in the [Your MAP] Field column; your field options from MAP will appear as you type. Click the correct field to map it. </span></p>
+<p><span style="font-weight: 400;">To delete a field mapping, click the X beside the field.</span></p>
+<p><span style="font-weight: 400;">Once the field mappings are completed, ensure the</span><strong> Data Import </strong><span style="font-weight: 400;">toggle in the Settings tab is turned on (green) to allow MAP person records to be passed into Uberflip.</span></p>
+<div class="callout callout--success">
+<h4 id="h_01HV2JR05KZ6F8DWTYBJVH8TWV" class="callout__title">Tip</h4>
+<p><span style="font-weight: 400;">While the MAP Fields column is pre-populated with common fields you may want to map, it also contains 14 custom fields for company and lead mapping. Use these as you’d like to pull custom data points from your MAP into your enriched Analytics. </span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">Custom field data is shown in company and lead detail widgets, and can be used when creating Explore dashboards in enriched Analytics as well.</span></p>
+</div>
+<p> </p>
+<h3 id="h_01HV2JR05KRE2RC61A7HDZ647A">Settings</h3>
+<p><strong>Integration Data Import:</strong></p>
+<p><span style="font-weight: 400;">Under <strong><em>Data Import</em></strong> click the toggle to turn it on or off. Doing so will start (toggle on) or stop (toggle off) the flow of data coming from your MAP into Uberflip.</span></p>
+<p><span style="font-weight: 400;"><strong>Note:</strong> After turning the switch on, the initial data import will take several hours to complete.</span></p>
+<div class="callout callout--info">
+<h4 id="h_01HV2JR05K5746TVPJBNC83VAR" class="callout__title">How often is my MAP data updated in Uberflip?</h4>
+<p><span style="font-weight: 400;"><strong>Data coming from your MAP is updated once daily.</strong> New contacts added in your MAP will appear in Uberflip after the daily refresh, even if they weren't added to the MAP by Uberflip. </span></p>
+</div>
+<p><span style="font-weight: 400;">If you'd like, you can review any </span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">errors </strong><span style="font-weight: 400;">and see detailed</span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"> activity logs</strong><span style="font-weight: 400;"> of your import. Do this by clicking </span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"><em>Data Import Activity</em></strong><span style="font-weight: 400;"> in the copy of the </span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"><em>Integration Data Import </em></strong><span style="font-weight: 400;">section.</span></p>
+<p><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Remove Enrichment Data:</strong></p>
+<p><span style="font-weight: 400;">Click the </span><strong>Remove Data</strong><span style="font-weight: 400;"> button to remove imported MAP data from Uberflip’s system. MAP data will be removed from Uberflip’s system within 4 hours. </span></p>
+<div class="callout callout--warning">
+<h4 id="h_01HV2JR05KNSVA7R6DM0TEVHSB" class="callout__title">Caution</h4>
+<p><span style="font-weight: 400;">To stop data from being imported again, toggle the</span> <strong><em>Data Import</em></strong> <span style="font-weight: 400;">switch off before clicking the </span><strong>Remove Data</strong><span style="font-weight: 400;"> button.</span></p>
+</div>
+<p><span style="font-weight: 400;">Click </span><strong><em>User Activity</em></strong><span style="font-weight: 400;"> in the copy of the </span><strong>Remove Enrichment Data</strong><span style="font-weight: 400;"> section to view Enrichment data removal requests.</span></p>
+<p> </p>
+<h2 id="h_01HV2JR05KFYT2QD0KCCHR7PPC"><span style="font-weight: 400;">Access your MAP enriched Analytics</span></h2>
+<p><span style="font-weight: 400;">Your enriched data can be seen in the </span><strong>Company Discovery </strong><span style="font-weight: 400;">dashboard. To get there: </span></p>
+<ol>
+<li>
+<span style="font-weight: 400;">Click </span><strong>Analytics</strong><span style="font-weight: 400;"> in the top menu bar of Uberflip<br><img src="https://help.uberflip.com/hc/article_attachments/12127120076685" alt="mceclip0.png" width="504" height="61"><br></span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In the sidebar menu on the left, click </span><strong>Visitors</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">The <strong>Companies</strong> and<strong> Contacts</strong> dashboards here utilize the data from MAP Enrichment. <br>Click on either of these dashboards to view the data.</span><span style="font-weight: 400;"><br><img src="https://help.uberflip.com/hc/article_attachments/4409790662541" alt="mceclip10.png" width="175" height="389"></span>
+</li>
+</ol>
+<p><span style="font-weight: 400;">You’re in! </span></p>
+<p><span style="font-weight: 400;">Alternatively, from the main Analytics navigation menu, click on the folder icon sign at the top right of the page. In the menu that appears, click <strong>Shared</strong> &gt; <strong>Enriched (Alpha)</strong> &gt; <strong>Enrichment Specific Dashboards</strong> to view all 5 dashboards utilizing data from MAP Enrichment.<br></span></p>
+<p><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/5293915949069" alt="Screen_Shot_2022-03-17_at_3.39.00_PM.png" width="299" height="266"></span></p>
+<p> </p>
+<h2 id="h_01HV2JR05KWWDT4TT1CWVPJ5SV"><span style="font-weight: 400;">Navigate MAP enriched dashboards</span></h2>
+<p><span style="font-weight: 400;">Filters at the top of each dashboard allow you to begin your drill down. <br></span><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/5293945629197" alt="Screen_Shot_2022-03-17_at_3.38.42_PM.png" width="600" height="175"></span></p>
+<p><span style="font-weight: 400;">MAP Enrichment consists of <strong>five dashboards</strong>, each containing several widgets displaying and visualizing your data.</span></p>
+<p><span style="font-weight: 400;">All widgets on the dashboard are interactive. H</span><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">over to highlight data points, and click data points to filter further. </span></p>
+<p><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Each widget also includes a kebab (three vertical dots) icon where you download the data as a CSV or PDF. From here, users with an <strong>Explore license</strong> can also user their enriched analytics for custom <a href="https://help.uberflip.com/hc/en-us/articles/360051891272" target="_self">Explore dashboards</a>.</span></p>
+<p><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/5294076146701" alt="wert.png" width="400" height="254"><br></span></p>
+<h3 id="h_01HV2JR05KMH4SED7Y6B10GJ7A"><span style="font-weight: 400;">MAP enriched dashboards</span></h3>
+<p><span style="font-weight: 400;">These are the 5 dashboard that will use and display your MAP enriched data. Click the dashboard title below to see the charts and data included in each. </span></p>
+<div class="accordion accordion--default">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Companies dashboard</strong></div>
+<div class="accordion__item-content">
+<table style="width: 760px;">
+<tbody>
+<tr>
+<td style="width: 330.438px;">
+<p><strong>Known Companies:</strong></p>
+<p><span style="font-weight: 400;">Companies found within your MAP</span></p>
+</td>
+<td style="width: 406.562px;">
+<p><img src="https://help.uberflip.com/hc/article_attachments/5294696044045" alt="Screen_Shot_2022-04-04_at_12.03.20_PM.png"><strong><br></strong></p>
+</td>
+</tr>
+<tr>
+<td style="width: 330.438px;">
+<p><strong>Sessions: </strong></p>
+<p><span style="font-weight: 400;">Total number of Share sessions per day.</span></p>
+</td>
+<td style="width: 406.562px;"><img src="https://help.uberflip.com/hc/article_attachments/5294726191373" alt="Screen_Shot_2022-04-04_at_12.03.58_PM.png"></td>
+</tr>
+<tr>
+<td style="width: 330.438px;">
+<p><strong>Industry:</strong></p>
+<p><span style="font-weight: 400;">The top eight industries that visiting companies are identified as in your MAP.</span></p>
+</td>
+<td style="width: 406.562px;">
+<p><img src="https://help.uberflip.com/hc/article_attachments/5294791811725" alt="Screen_Shot_2022-04-04_at_12.05.15_PM.png"><strong><br></strong></p>
+</td>
+</tr>
+<tr>
+<td style="width: 330.438px;">
+<p><strong>Number of employees:</strong><strong><br></strong><span style="font-weight: 400;">The size of known companies based on employee headcount.</span><span style="font-weight: 400;"><br></span></p>
+</td>
+<td style="width: 406.562px;">
+<p><img src="https://help.uberflip.com/hc/article_attachments/5294802897549" alt="Screen_Shot_2022-04-04_at_12.05.58_PM.png"><strong><br></strong></p>
+</td>
+</tr>
+<tr>
+<td style="width: 330.438px;">
+<p><strong>Annual Revenue:</strong><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">The size of known companies based on annual revenue. </span></p>
+</td>
+<td style="width: 406.562px;"><img src="https://help.uberflip.com/hc/article_attachments/5294856142733" alt="Screen_Shot_2022-04-04_at_12.07.14_PM.png"></td>
+</tr>
+<tr>
+<td style="width: 330.438px;">
+<p><strong>Companies Detail: </strong></p>
+<p><span style="font-weight: 400;">A list of individual companies and their respective details, such as size, revenue, etc. </span></p>
+</td>
+<td style="width: 406.562px;">
+<p><strong><img src="https://help.uberflip.com/hc/article_attachments/5295208253837" alt="poiug.png"></strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Contacts dashboard</strong></div>
+<div class="accordion__item-content">
+<table style="width: 750px;">
+<tbody>
+<tr>
+<td style="width: 330.453px;">
+<p><strong>Known Contacts:</strong><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">Known contact found in your MAP</span></p>
+</td>
+<td style="width: 396.547px;"><img src="https://help.uberflip.com/hc/article_attachments/5295254710797" alt="Screen_Shot_2022-04-04_at_12.20.46_PM.png"></td>
+</tr>
+<tr>
+<td style="width: 330.453px;">
+<p><strong>Common Job Titles:</strong><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">The most common job titles of the known contacts engaging with your content </span></p>
+</td>
+<td style="width: 396.547px;"><img src="https://help.uberflip.com/hc/article_attachments/5295401492621" alt="Screen_Shot_2022-04-04_at_12.25.04_PM.png"></td>
+</tr>
+<tr>
+<td style="width: 330.453px;">
+<p><strong>Contact Status:</strong></p>
+<p><span style="font-weight: 400;">The current status of the contacts engaging with your content. </span></p>
+</td>
+<td style="width: 396.547px;"><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/5295418955277" alt="Screen_Shot_2022-04-04_at_12.26.42_PM.png"></span></td>
+</tr>
+<tr>
+<td style="width: 330.453px;">
+<p><strong>Lead Score: </strong></p>
+<p><span style="font-weight: 400;">The scores of known leads engaging with your content, according to your MAP.</span></p>
+</td>
+<td style="width: 396.547px;"><img src="https://help.uberflip.com/hc/article_attachments/5295430711053" alt="Screen_Shot_2022-04-04_at_12.27.20_PM.png"></td>
+</tr>
+<tr>
+<td style="width: 330.453px;">
+<p><strong>Views by Known Contacts:</strong><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">Views per day by known contacts. </span></p>
+</td>
+<td style="width: 396.547px;"><img src="https://help.uberflip.com/hc/article_attachments/5295438909325" alt="Screen_Shot_2022-04-04_at_12.27.53_PM.png"></td>
+</tr>
+<tr>
+<td style="width: 330.453px;">
+<p><strong>Contact Details: </strong></p>
+<p><span style="font-weight: 400;">A list of individual companies and their respective details, such as size, revenue, etc.</span></p>
+</td>
+<td style="width: 396.547px;"><img src="https://help.uberflip.com/hc/article_attachments/5295793872397" alt="oij.png"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Enrichment Diagnostics</strong></div>
+<div class="accordion__item-content">
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">When A Visitor Was first Seen</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">When A visitor was most recently seen</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Unique Visitors with MAP IDs</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Unique MAP IDs (Not your company Emails)</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Unique MAP IDs</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">MAP IDs (with your company Emails)</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Unique Companies/accounts</span></li>
+</ul>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Single Company / Account</strong></div>
+<div class="accordion__item-content">
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Company Details </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Leads / Contacts </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Items Viewed </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Sessions</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Leads / Contacts </span></li>
+</ul>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Single Lead / Contact</strong></div>
+<div class="accordion__item-content">
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Contact Details </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Company Details </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Company Analytics IDs</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Sessions </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Items Viewed </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Session Details </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Form CTA Interactions</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Link CTA Interactions</span></li>
+</ul>
+</div>
+</div>
+</div>]]></description>
+         <guid isPermaLink="false">4409773235085</guid>
+         <pubDate>Wed, 22 Sep 2021 07:33:10 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

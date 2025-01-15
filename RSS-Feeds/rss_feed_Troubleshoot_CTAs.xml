@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Troubleshoot CTAs</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Embedded CTA brings in on-page apps</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360035297651-Embedded-CTA-brings-in-on-page-apps</link>
+         <description><![CDATA[<h2>Issue</h2>
+<p>When embedding a CTA outside a Hub (e.g. on a website), the CTA displays unwanted elements from third-party apps installed on the Hub, such as cookie/privacy notices (like OneTrust) or chat widgets (like Drift).</p>
+<ul>
+<li>Embedded CTA covered by chat</li>
+<li>CTA embed hidden behind app</li>
+<li>Iframed CTA shows privacy notice</li>
+</ul>
+<p> </p>
+<h2>Conditions</h2>
+<ul>
+<li>Hub where the embedded CTA is hosted has third-party script(s) installed which display visual elements, e.g. chat widgets, privacy banners, etc.</li>
+<li>
+<strong>Where: </strong>CTAs embedded on an external website (not in Hub)</li>
+<li>
+<strong>Who: </strong>Affects visitors who view the embedded CTA on the non-Hub website</li>
+<li>
+<strong>When: </strong>Occurs anytime an embedded CTA is displayed on the non-Hub website</li>
+<li>Any browser</li>
+<li>Any operating system</li>
+</ul>
+<p> </p>
+<h2>Cause</h2>
+<p>When a CTA is embedded into a non-Hub website, it is displayed on that website in an iframe. An iframe simply displays the contents of another website — in this case your Hub. As a result, if the Hub that hosts the embedded CTA also loads any scripts with on-page visual elements (e.g. widgets), those will also be brought into the iframe of the embedded CTA. </p>
+<p> </p>
+<h2>Steps to Fix</h2>
+<p>To resolve this issue, Uberflip needs to add custom code to your Hub that blocks the third-party scripts from being included with your embedded CTAs. For help, please <a href="https://help.uberflip.com/hc/en-us/requests/new">submit a request to our Support team</a>.</p>]]></description>
+         <guid isPermaLink="false">360035297651</guid>
+         <pubDate>Thu, 17 Oct 2019 16:08:28 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

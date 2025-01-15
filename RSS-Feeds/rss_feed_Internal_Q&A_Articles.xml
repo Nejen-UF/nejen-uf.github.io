@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Internal Q&A Articles</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Internal: Is It Possible To Make The Author Of An Item Not Clickable?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4551405431821-Internal-Is-It-Possible-To-Make-The-Author-Of-An-Item-Not-Clickable</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>Can I make the author of an item not clickable? I want the author name to appear but I do not want it to lead to the authors profile/bio page. Reasons for this could include incomplete author profile/bio page or not wanting visitors directed to a page that has access to other content.</p>
+<p> </p>
+<h2>Answer</h2>
+<p>Yes, using a snippet of Javascript custom code we can make the authors name not clickable. You will need to create a Custom Code Block in the hub, select the custom code placement as 'Body Bottom' and add the following Javascript code to the Custom Code Block. You will need to change the URL that appears in the below snippet to the appropriate URL for the authors profile/bio page that you want to make not clickable. (This code is for TV2 hubs, body ID for TV1 hub would need to be adjusted accordingly).<br><br></p>
+<pre class="c-mrkdwn__pre" data-stringify-type="pre">&lt;script&gt;
+$("body#uf-item-page a[href$='<a class="c-link" tabindex="-1" href="https://resources.hudl.com/authors/federica-de-peron" target="_blank" rel="noopener noreferrer" data-stringify-link="https://resources.hudl.com/authors/federica-de-peron" data-sk="tooltip_parent" data-remove-tab-index="true">https://resources.hudl.com/authors/test-author</a>']").contents().unwrap();
+&lt;/script&gt;</pre>]]></description>
+         <guid isPermaLink="false">4551405431821</guid>
+         <pubDate>Tue, 01 Mar 2022 21:48:01 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: What is Uberflip&apos;s Recovery Time Objective (RTO)?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4413406585997-Internal-What-is-Uberflip-s-Recovery-Time-Objective-RTO</link>
+         <description><![CDATA[<h2>Question</h2>
+<p class="wysiwyg-text-align-justify">What is Uberflip's Recovery Time Objective (RTO)?</p>
+<p> </p>
+<h2>Answer</h2>
+<p class="wysiwyg-text-align-justify">Uberflip has been designed with resiliency using AWS Availability Zones to mitigate most infrastructure issues.  In the event of a complete disaster where an entire Amazon Region becomes unavailable, Uberflip may take up to a week to restore service.</p>]]></description>
+         <guid isPermaLink="false">4413406585997</guid>
+         <pubDate>Fri, 12 Nov 2021 12:49:18 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: What is Vidyard&apos;s internal structure and how does the UF integration hook into Vidyard?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360029254971-Internal-What-is-Vidyard-s-internal-structure-and-how-does-the-UF-integration-hook-into-Vidyard</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>What is Vidyard's internal structure of video organization and how/what does Uberflip Import?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>Vidyard hierarchy is as follows:</p>
+<p>Account&gt;Parent Group&gt;Sub-Groups&gt;Players&gt;Videos</p>
+<p> </p>
+<p><strong>Groups</strong></p>
+<p>Vidyard spiel:</p>
+<p><em>A parent group is the overarching group within your organization. The parent group has the ability to view and manage all sub-group assets.</em></p>
+<p><em>Sub-groups are individual accounts that live within the parent group of your organization's Vidyard account. Sub-groups allow for the configuration of separate videos, players, users, integrations and analytics. Sub-groups can be created to divide content between different teams and divisions, or for specific projects.</em></p>
+<p><em>The ability to create and manage different sub-groups allows your Vidyard account to be highly scalable as your organization's goals, priorities and business needs change.</em></p>
+<p><em>There is no limit to the number of sub-groups that can be created.</em></p>
+<p> </p>
+<p>Uberflip Context:</p>
+<ul>
+<li>Each group/subgroup has its own API token set</li>
+<li>A Stream is created by using a group's API Token, and all Players and the videos associated with those players will be imported.  There must be at least one player and video in a group to create a stream otherwise an error will occur when importing</li>
+<li>NOTE: There could be volume issues where we timeout after 2 minutes, but we should be able to import upwards of 6000 videos within that 2 minutes</li>
+</ul>
+<p> </p>
+<p><strong>Players</strong></p>
+<ul>
+<li>Vidyard Player is the 'skin' that is used when viewing a video associated with that player.  Various control options (IE autoplay)</li>
+<li>Within a Vidyard Group, in order to serve a video, and in order to import that Group into a Hub, you need at least one Player</li>
+<li>A Group can have Multiple players, and a Player can have multiple videos associated</li>
+</ul>
+<p><strong>Videos</strong></p>
+<ul>
+<li>A video is the media file that is uploaded into Vidyard Groups and added to Vidyard Player</li>
+<li>At least one video needs to be within the group and added to a Player in order to import into a Stream</li>
+</ul>
+<p><strong>NOTE: There is no way known to import all videos, in all players, in all groups into a single stream</strong></p>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360029254971</guid>
+         <pubDate>Fri, 07 Jun 2019 13:37:55 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: Can a Hub have two domains?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360025840512-Internal-Can-a-Hub-have-two-domains</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>Can you associate a single Hub with two separate domains?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>Yes. The customer can't do this themselves — OPS must set this up on the Uberflip side. For an example, see <a href="https://uberflip.atlassian.net/browse/OPS-11150">https://uberflip.atlassian.net/browse/OPS-11150</a>.</p>
+<p>Doing this could impact SEO so one domain will have to be set to no-index. </p>]]></description>
+         <guid isPermaLink="false">360025840512</guid>
+         <pubDate>Mon, 01 Apr 2019 15:31:49 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: Temporarily Disable Custom Code for Troubleshooting</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360022141991-Internal-Temporarily-Disable-Custom-Code-for-Troubleshooting</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>To troubleshoot a problem, I want to temporarily disable custom code, including onBrand code, on a customer's Hub.</p>
+<p> </p>
+<h2>Disable onBrand custom code</h2>
+<p>You can load a Hub with all custom code temporarily disabled. To do so:</p>
+<ol>
+<li>Load the URL of any page in the Hub with the query string <code class="no-padding">?ufcc_disabled_all</code> added to the end, e.g. <a href="http://hub.uberflip.com?onbrand">http://hub.uberflip.com?ufcc_disabled_all</a>.</li>
+<li>To re-enable onBrand custom code, use the query string<code class="no-padding">?ufcc_revert</code> in the same way.</li>
+</ol>
+<p>Note that using these query strings <strong>only affects your own browser</strong> — it does not disable/re-enable custom code for any other visitors to a Hub.</p>]]></description>
+         <guid isPermaLink="false">360022141991</guid>
+         <pubDate>Fri, 18 Jan 2019 14:39:34 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

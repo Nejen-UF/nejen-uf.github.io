@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Hub options and privacy settings</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Use an external consent management platform (CMP) to manage cookie consent on your Hub</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360052931871-Use-an-external-consent-management-platform-CMP-to-manage-cookie-consent-on-your-Hub</link>
+         <description><![CDATA[<hr>
+<p>If you use a third-party consent management platform to manage cookie consent on your other web properties, you can also configure it to work with your Uberflip Hub. Here's how.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>This article is intended for Uberflip customers who <strong>use a consent management platform (CMP) </strong>that is external to Uberflip, such as <strong>OneTrust, TrustArc, Cookiebot</strong>, etc. Ideally you are using this platform with your other web properties already (but this is not strictly necessary).</li>
+<li>Using an external CMP with your Hub requires <strong>developing and implementing custom code</strong> that is specific to your organization. As a result, you will need a <strong>web developer </strong>who is <strong>proficient in JavaScript</strong> to do this. Your developer should also:<br>
+<ul>
+<li>Be <strong>familiar with your CMP</strong>
+</li>
+<li>Have <strong>worked with custom code on your Uberflip Hub</strong> before, or have read <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">the guide to using custom code</a>
+</li>
+</ul>
+</li>
+<li>Before your developer can get started, there are <strong>setup steps that must be completed in the Uberflip app</strong>. The necessary steps are described in this article. To complete these steps, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+</ul>
+<p> </p>
+<h2>About using a consent management platform with your Hub</h2>
+<p>To comply with the requirements of GDPR (and similar laws such as CCPA), many businesses rely on consent management platforms (CMPs) to manage visitor cookie consent across their various web properties. If you already use a CMP with your other web properties, you can also use it to <strong>manage cookie consent on your Uberflip Hubs </strong>through Uberflip's <strong>JS Privacy API</strong>.</p>
+<p>Using the JS Privacy API, you can <strong>configure your CMP to control <a href="https://help.uberflip.com/hc/en-us/articles/360039954991">the cookies set by your Uberflip Hub</a> </strong>alongside those set by your other web properties. This means that cookie preferences set by a visitor on any of your integrated web properties will also apply to your Hub, and vice versa:</p>
+<ul>
+<li>If a visitor has <strong>already set their cookie preferences on any other web property</strong> integrated with your CMP, these preferences will also apply to your Hub(s), and the privacy banner/controls will not appear the first time this visitor enters your Hub</li>
+<li>If a visitor enters your Hub and <strong>has not yet visited any of your other web properties</strong>, they will be shown your CMP's privacy banner/controls to set their cookie preferences, and these will also apply when they visit your other web properties</li>
+</ul>
+<p>The primary benefit of doing this is that your visitors will only have to set their privacy preferences once, resulting in a more user-friendly experience with less friction across all your web properties.</p>
+<h3>How does it work?</h3>
+<p>The most common approach to cookie consent management is to <strong>group cookies by their basic function</strong>, which allows visitors to opt-in to or opt-out of <em>types</em> of cookies, rather than individually. Most CMPs are based around this <strong>"cookie categories"</strong> approach, and Uberflip implements the same idea with <a href="https://help.uberflip.com/hc/en-us/articles/360020222171#set-up-privacy-groups"><strong>Privacy Groups</strong></a>. When Privacy Groups are enabled on a Hub, visitors can use the controls on the built-in Privacy Page to manage their cookie preferences by either accepting or declining individual Privacy Groups (and hence all cookies associated with the Privacy Group).</p>
+<p>The purpose of the JS Privacy API is to replace this mechanism by <strong>linking Uberflip Privacy Groups to the cookie categories in your CMP</strong>. Using the API, your CMP can <strong>control Uberflip Privacy Groups</strong>, opting in or out based on the visitor's existing stored preferences for the equivalent cookie category (i.e. as set on another site). Likewise, you can display your CMP's privacy controls on your Hub, and use the API to <strong>sync cookie</strong> <strong>preferences back your CMP </strong>so that they can be applied to other sites.</p>
+<p>To use the JS Privacy API, you need to <strong>develop a piece of JavaScript custom code</strong> that is deployed on your Hub. This code will <strong>manage the communication between your CMP and the JS Privacy API</strong>, allowing the CMP to get information from Uberflip about your Hub's Privacy Groups and their status for each visitor, and to change their status as needed to match the visitor's existing settings in your CMP (if present). When this code is implemented, your CMP will act as the <strong>source of truth</strong>: your Hub will always get information about a visitor's privacy preferences from the CMP, and will always send any preferences set on the Hub back to the CMP for storage.</p>
+<p> </p>
+<h2>Prepare your Hub to connect a CMP</h2>
+<p>In order to integrate your Hub with a CMP, there are several settings you will need to configure first to ensure the Hub is prepared.</p>
+<h3>Turn off the Uberflip Privacy Page</h3>
+<p>Because you will be using an external privacy policy page and the CMP's privacy controls, you need to <strong>disable the equivalent Privacy Page feature</strong> <strong>in Uberflip</strong> to avoid conflicts:</p>
+<ol>
+<li>Log in to Uberflip.</li>
+<li>In the sidebar menu, click on <strong>Hub Privacy &gt; Privacy Policy</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360077970991/JS_Privacy_-_Hub_Privacy_-_Confluence.png" alt="JS_Privacy_-_Hub_Privacy_-_Confluence.png" width="240" height="122">
+</li>
+<li>In the settings menu, <strong>turn off the Enable Privacy Page setting </strong>by toggling it to the OFF (grey) position:<br><img src="https://help.uberflip.com/hc/article_attachments/360077810312/image.png" alt="image.png" width="416" height="114">
+</li>
+<li>Your changes will be saved automatically.</li>
+</ol>
+<h3>Turn off the Uberflip Privacy Banner</h3>
+<p>Uberflip also has a built-in privacy banner feature. As you will be using the CMP's privacy banner instead, you must <strong>ensure that the built-in Uberflip privacy banner is turned off</strong>:</p>
+<ol>
+<li>In the sidebar menu, click on <strong>Hub Privacy &gt; Privacy Banner</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360077810472/image.png" alt="image.png" width="241" height="123">
+</li>
+<li>In the settings menu, <strong>turn off the Enable Privacy Banner setting </strong>by toggling it to the OFF (grey) position:<br><img src="https://help.uberflip.com/hc/article_attachments/360077810532/image.png" alt="image.png" width="373" height="115">
+</li>
+<li>Your changes will be saved automatically.</li>
+</ol>
+<h3>Create and configure Privacy Groups</h3>
+<p>The JS Privacy API allows the CMP to control your Hub's cookie settings by giving it access to Uberflip's built-in Privacy Groups functionality. As a result, you will need to <strong>create and set up Privacy Groups </strong>in your Hub if you have not yet done so. Doing this will:</p>
+<ul>
+<li>
+<strong>Stop your Hub from setting any cookies</strong> unless a visitor opts-in, as required by GDPR</li>
+<li>
+<strong>Group functionally related cookies together</strong> so that you can map them equivalent cookie categories in your CMP</li>
+<li>
+<strong>Provide</strong> <strong>a mechanism that your CMP can hook into</strong> so that it can control which cookies your Hub will set, depending on a visitor's preferences</li>
+</ul>
+<p>You can find <strong>detailed instructions on how to set up Privacy Groups</strong> in <a href="https://help.uberflip.com/hc/en-us/articles/360020222171#set-up-privacy-groups">this article</a>.</p>
+<p>If possible, we recommend structuring your Privacy Groups in the same way as the cookie categories in your CMP, in order to simplify mapping.</p>
+<p>Remember that, in addition to creating Privacy Groups, you must also use the <em>Functionality </em>tab to <strong>ensure all cookie-setting services in your Hub are assigned to a group</strong>:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360077885492/image.png" alt="image.png" width="382" height="248"></p>
+<h3>Map Privacy Groups to equivalent CMP cookie categories</h3>
+<p>To link your CMP's cookie categories to their corresponding Uberflip Privacy Groups in their code, your developer will need to understand the relationship between the two. For this reason, we recommend that you <strong>make a list of both your Uberflip Privacy Groups and the cookie categories in your CMP</strong>, then <strong>map out which ones are equivalent</strong> to one another. For example:</p>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 50%;"><strong>Uberflip Privacy Group name</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 50%;"><strong>CMP cookie category name</strong></td>
+</tr>
+<tr>
+<td style="width: 50%;">Essential</td>
+<td style="width: 50%;">Strictly necessary</td>
+</tr>
+<tr>
+<td style="width: 50%;">Analytics</td>
+<td style="width: 50%;">Statistics</td>
+</tr>
+<tr>
+<td style="width: 50%;">...</td>
+<td style="width: 50%;">...</td>
+</tr>
+</tbody>
+</table>
+<p>Note that:</p>
+<ul>
+<li>Each Privacy Group must be mapped to a cookie category in your CMP, as your CMP will not be able to control unmapped Privacy Groups</li>
+<li>You can map multiple (or even all) Privacy Groups to one cookie category, if needed</li>
+</ul>
+<p> </p>
+<h2>Develop the CMP integration code</h2>
+<p>Once this setup work is complete, your developer can begin work on the code that integrates your CMP with your Hub. This involves two pieces of code:</p>
+<ol>
+<li>Code to <strong>display the CPM's privacy banner/cookie consent controls</strong> on your Hub</li>
+<li>Code that <strong>integrates the Hub with the CPM using the JS Privacy API</strong>
+</li>
+</ol>
+<p>To support your developer with this project, instructions, sample code, and API reference materials are provided on Uberflip's developer site, here:</p>
+<p class="wysiwyg-text-align-center"><a href="https://developers.uberflip.com/docs/introduction-to-the-js-privacy-api"><strong>Uberflip Developers: Using the JSPrivacy API</strong></a></p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p>As with all custom development work on your Hub (especially development involving third-party software platforms), Uberflip Support is unable to provide coding support, and may only be able to provide limited troubleshooting assistance.</p>
+<p>If you need help with developing this type of solution, please contact your Customer Success Manager to discuss your options for engaging Uberflip Professional Services or an Uberflip Partner.</p>
+</div>
+<p> </p>
+<h2>Deploy the code</h2>
+<p>Once the necessary code has been developed, work with your developer to deploy it on your Hub using <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Uberflip custom code</a>. As soon as the relevant custom code blocks are active, your CMP will be integrated with your Hub in the same way as with your other web properties.</p>]]></description>
+         <guid isPermaLink="false">360052931871</guid>
+         <pubDate>Tue, 24 Nov 2020 17:57:55 GMT</pubDate>
+      </item>
+      <item>
+         <title>Customize the content on your Hub&apos;s homepage</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360029327532-Customize-the-content-on-your-Hub-s-homepage</link>
+         <description><![CDATA[<hr>
+<p>Learn how to customize your Hub's homepage to control the content that's displayed there.</p>
+<hr>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p>This article outlines how to change your Hub's content Items only. Changing the Stream your content is populating from won't change the title or description of your Hub. To learn about changing the Hub's UI copy and appearance, check out: <a href="https://help.uberflip.com/hc/en-us/articles/360020130171" target="_self">Get started with branding and customization options on your Hub</a></p>
+</div>
+<h2>Before You Begin</h2>
+<ul>
+<li>To customize a Hub's homepage, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+</ul>
+<h2>Hub homepage content options</h2>
+<p>There are two options for content you can display on your Hub's homepage:</p>
+<ol>
+<li>
+<a href="#h_01FWHYQQ6CD6DG41AKAXRCKARN" target="_self">You Hub's latest content</a> (default) </li>
+<li><a href="#h_01FWHYR050JXKW112NZ92Y5AVF" target="_self">A chosen Marketing Stream</a></li>
+</ol>
+<p>We'll outline both options below. </p>
+<h2 id="h_01FWHYQQ6CD6DG41AKAXRCKARN">Use your latest content as your Hub homepage</h2>
+<p>By default, your Hub homepage displays the 'Latest Content' Stream, a feed of all the most recently published Items across your Hub.</p>
+<p><strong>How the 'Latest Content' Stream works:</strong></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Latest content is shown based on the <strong>publishing date</strong> of the Item, the most recently published Items being shown first. </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">If the Item is part of a Marketing Stream, the Item will link to the Marketing Stream it was most recently added to.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">If the Item isn't part of a Marketing Stream, the Item will link to the Source Stream.</span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Marketing Streams that are </span><strong><a href="https://help.uberflip.com/hc/en-us/articles/360029676452" target="_self">hidden</a>,</strong><span style="font-weight: 400;"> or have the </span><a href="https://help.uberflip.com/hc/en-us/articles/360018840252" target="_self"><strong>No Robots Meta Tag</strong></a><span style="font-weight: 400;"> enabled, will be omitted from the ‘Latest Content’ Stream. In this case, the Item will link to the next Marketing Stream it was most recently added to, or the Source Stream if no such Marketing Streams exists.</span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">If the Item isn't part of a (non-hidden) Marketing Stream, and the Source Stream is also hidden, the Item won't appear in the Latest Content Stream.</span></li>
+</ul>
+<p>If you're currently using a Marketing Stream to populate your homepage, but want to use the 'Latest Content' Stream, follow these steps: </p>
+<ol>
+<li>Log in to Uberflip and navigate to the Hub whose homepage you want to customize.</li>
+<li>In the sidebar menu on the left, click <strong>Hub Options</strong> &gt; <strong>Advanced</strong><br><img src="https://help.uberflip.com/hc/article_attachments/360031325772/Hubs___Options_-_Advanced_-_Uberflip.png" alt="Hubs___Options_-_Advanced_-_Uberflip.png">
+</li>
+<li>Under <strong>Content Experience</strong>, find the <strong>Replace Home Page with a Marketing Stream </strong>option.</li>
+<li>Click the dropdown and choose<strong> Latest Content.</strong><br><img src="https://help.uberflip.com/hc/article_attachments/360031327432/Hubs___Options_-_Advanced_-_Uberflip.png" alt="Hubs___Options_-_Advanced_-_Uberflip.png" width="500" height="174">
+</li>
+</ol>
+<h2 id="h_01FWHYR050JXKW112NZ92Y5AVF">Choose a Marketing Stream as your Hub homepage</h2>
+<p>If you prefer to have direct control over the content of your Hub homepage, you can replace the Latest Content Stream with any Marketing Stream of your choice. Since you can choose exactly which Items appear in a Marketing Stream, doing this allows you to control which Items are shown on your Hub's homepage.</p>
+<ol>
+<li>Log in to Uberflip and navigate to the Hub whose homepage you want to customize.</li>
+<li>In the sidebar menu on the left, click <strong>Hub Options</strong> &gt; <strong>Advanced</strong><br><img src="https://help.uberflip.com/hc/article_attachments/360031325772/Hubs___Options_-_Advanced_-_Uberflip.png" alt="Hubs___Options_-_Advanced_-_Uberflip.png">
+</li>
+<li>Under <strong>Content Experience</strong>, find the <strong>Replace Home Page with a Marketing Stream </strong>option. Use the dropdown next to this option to choose the Marketing Stream you want to use instead of the Latest Content Stream:<br><img src="https://help.uberflip.com/hc/article_attachments/360031327432/Hubs___Options_-_Advanced_-_Uberflip.png" alt="Hubs___Options_-_Advanced_-_Uberflip.png" width="500" height="174">
+<ul>
+<li>You can choose any of the existing Marketing Streams in your Hub, including any that are hidden.</li>
+</ul>
+</li>
+<li>When you make your selection using the dropdown, the <strong>Link Content to Original Source Stream </strong>option will appear:
+<ul>
+<li>When this setting is <strong>turned on</strong>, clicking on any Item on the homepage (i.e. in the selected Marketing Stream) will take visitors to the clicked Item in its <strong>original Source Stream</strong>, rather than the selected Marketing Stream.</li>
+<li>When this setting is <strong>turned off</strong>, clicking on any Item on the homepage will take visitors to the clicked Item in the <strong>selected Marketing Stream</strong>.</li>
+</ul>
+</li>
+</ol>
+<p>That's it! Your change will take effect immediately, and content from the selected Marketing Stream will appear on your Hub's homepage.</p>
+<h3>Note:</h3>
+<ul>
+<li>Any CTAs that you've placed within or beside the Latest Content Stream will not be transferred to a newly selected Marketing Stream. If you'd like CTAs to appear on the Hub homepage, you would have to create new placements for them on the selected Marketing Stream.</li>
+</ul>]]></description>
+         <guid isPermaLink="false">360029327532</guid>
+         <pubDate>Tue, 18 Jun 2019 19:03:10 GMT</pubDate>
+      </item>
+      <item>
+         <title>Set Up oAuth or SAML Single Sign-On (SSO) with Hub Authentication</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360022786552-Set-Up-oAuth-or-SAML-Single-Sign-On-SSO-with-Hub-Authentication</link>
+         <description><![CDATA[<hr>
+<p><a href="https://help.uberflip.com/hc/en-us/articles/360020019192" target="_blank" rel="noopener" data-internal="false">Hub Authentication</a> can be converted into any other authentication pattern of your choice, such as oAuth or SAML. Here's how.</p>
+<hr>
+<p> </p>
+<h2>Overview</h2>
+<ol>
+<li>Using custom code, insert a button to your authentication page and hide the login form.</li>
+<li>On your own authentication page/script, upon successful login by your user, grab a one-time token for this Hub using the API method <a href="https://developers.uberflip.com/reference#get-hub-authentication-token" target="_blank" rel="noopener" data-internal="false">AuthenticateHubUser</a>.</li>
+<li>Redirect your authenticated user back to the Hub with the token appended as a query string.</li>
+</ol>
+<p> </p>
+<h2>Step 1: Add Custom Code</h2>
+<p>In the Custom Code section, add the following HTML:</p>
+<pre><code>&lt;div class="oauth"&gt;
+ &lt;a class="btn" href="https://yoursite.com/oauth-login"&gt;Login with oAuth&lt;/a&gt;
+&lt;/div&gt;</code></pre>
+<p>You can style this however you like (note: Hubs has Bootstrap 2.0 classes/glyphs available).</p>
+<p>Because we only want this button to show on the login page, and because we don't want the password/submit form to display, add the following CSS in the Custom Code section:</p>
+<pre><code>/* hide the auth button container by default */
+div.oauth{display:none;}
+/* show the auth button container only when on the login page */
+body.hub-login div.oauth{display:block;}
+/* hide the default login form */
+body.hub-login .login-form{display:none}</code></pre>
+<p>The final step is to make sure you enable Authentication and Custom Code on your Login page from the Hub Authentication settings page. You should avoid adding any passwords for this scenario since the user will never see the login form anyway.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360027729411/Hubs___Options_-_Authentication_-_Uberflip.png" alt="Hubs___Options_-_Authentication_-_Uberflip.png"></p>
+<p>This will convert your login screen from something like </p>
+<p><img src="https://content.cdntwrk.com/files/aHViPTU1OTU3JmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzU1YjI1ZGExZTdiMWQucG5nJnZlcnNpb249MDAwMCZzaWc9MDUxMTBhZDlkNWU1MTA0ZjFmMzY1OTI4NGY2ZTJkOGQ%253D" alt=""></p>
+<p> </p>
+<h2>Step 2: Select an Authentication Method</h2>
+<p>[Insert your authentication method here]. This part's really up to you. Some examples of how you could authenticate your users include:</p>
+<ul>
+<li>your own username/password form that's tied to your existing system/database</li>
+<li>oAuth to any supported service such as Twitter or LinkedIn (i.e. your content's not confidential, you just want people to enter by connecting their social account)</li>
+<li>SAML/SSO/Google Apps</li>
+<li>etc.</li>
+</ul>
+<p>Once you've authenticated this user, the next step is to get a one-time auth token for this Hub which will give this user access to your Hub for a single session. Once the token is used, it's removed from our database.</p>
+<p> </p>
+<h2>Step 3: Set Up the Redirect</h2>
+<p>As explained in our <a href="https://developers.uberflip.com/reference#get-hub-authentication-token" target="_blank" rel="noopener" data-internal="false">API docs</a> you can request this token using your API credentials and your Hub's ID.</p>
+<p>The API method will return a token such as </p>
+<pre><code>&lt;Token&gt;Yjk5YmU4Nzc3OGM4ZDljZTIyN&lt;/Token&gt;</code></pre>
+<p>Simply redirect the user back to your Hub with the token appended in the query string, as below.</p>
+<p><strong>Subdomain:</strong></p>
+<pre><code>hub.yoursite.com/?token=Yjk5YmU4Nzc3OGM4ZDljZTIyN</code></pre>
+<p><strong>Subdirectory:</strong></p>
+<pre><code>www.yoursite.com/hub/?token=Yjk5YmU4Nzc3OGM4ZDljZTIyN</code></pre>]]></description>
+         <guid isPermaLink="false">360022786552</guid>
+         <pubDate>Wed, 06 Feb 2019 18:21:02 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Locale Explained</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020065732-Hub-Locale-Explained</link>
+         <description><![CDATA[<hr>
+<p>Learn what the Hub Locale setting does, and how to use it to set your Hub's language.</p>
+<hr>
+<p> </p>
+<h2>What is the Hub Locale setting?</h2>
+<p>The <strong>Hub Locale setting </strong>(in the <em>Hub Options</em>) is used to define the <strong>language and region of your Hub</strong>. There are a few reasons why it's a good practice for your Hub to declare its geographic location and the language it uses:</p>
+<ul>
+<li>It allows search engines to recognize your content as being relevant to speakers of a particular language, and to include it in search results for users in areas where that language is primarily spoken.</li>
+<li>It helps browsers to correctly display your Hub content, including what characters to use, and the direction in which text should be read (as some languages read right-to-left).</li>
+<li>It improves accessibility, because it allows screen-reader software (used by people with visual impairments or blindness) to know which language to speak in.</li>
+</ul>
+<p> </p>
+<h2>What does the Hub Locale setting do?</h2>
+<p>The Hub Locale determines the value of the <code class="no-padding">lang</code> and <code class="no-padding">dir</code> tags in a Hub's HTML, which declare its language, region, and reading direction. For example, a Hub Locale setting of <em>English (Canada)</em> would set the tags as follows (<code class="no-padding">ltr</code> means <em>left-to-right</em>):</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016068632/itemeditorimage_5bb1fa2492458.png" alt="itemeditorimage_5bb1fa2492458.png" width="699" height="108"></p>
+<p>In addition to these tags, the Hub Locale setting also specifies the language to be used for all the label text that appears throughout your Hub. For example, if you set your Hub Locale to <em>Spanish</em>, all Hub interface labels would be automatically displayed in Spanish. You can customize these translated labels using the <a href="https://help.uberflip.com/hc/en-us/articles/360028690851" target="_self">Custom Labels tool</a>.</p>
+<p>Hub Locale is a per-Hub setting, so if you have multiple Hubs, each Hub can have a different Hub Locale setting.</p>
+<p> </p>
+<h2>How do I see which Hub Locale my Hub is currently set to?</h2>
+<p>To view your current Hub Locale, navigate to <strong>Hub Options &gt; Advanced</strong>. Here, scroll all the way to the bottom to find the <strong>Internationalization</strong> section, where your current Hub Locale is shown:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016116031/Fullscreen_2018-11-28__10_58_AM.png" alt="Fullscreen_2018-11-28__10_58_AM.png" width="501" height="330"></p>
+<p>By default, the Hub Locale for new Hubs is set to <em>English (United States</em><em>)</em>, and all labels will appear in English (with US-style spelling where applicable). If you're creating a new Hub and it will use a language/region other than <em>English (United States)</em>, we recommend changing the Hub Locale right away, before you do anything else.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>In some cases, particularly in older Hubs, the Hub Locale may be shown as <em>Not Specified</em>. If this is the case in any of your Hubs, we strongly recommend setting an actual Hub Locale. To do so, please <a href="https://help.uberflip.com/hc/en-us/requests/new" target="_self">contact us</a>.</p>
+</div>
+<p> </p>
+<h2>How do I change the Hub Locale?</h2>
+<p>The Hub Locale is designed to be set just once, when a language-specific Hub is created. It should generally not be changed later, because this can cause a lot of things to break in multi-language Hubs. As a result, the Hub Locale setting in the Hub Options is locked, which means that you can't change it yourself.</p>
+<p>To set the Hub Locale for a newly created Hub, or to change it later (if necessary), please <a href="https://help.uberflip.com/hc/en-us/requests/new" target="_self">contact our Support Team</a>.</p>]]></description>
+         <guid isPermaLink="false">360020065732</guid>
+         <pubDate>Wed, 28 Nov 2018 15:21:18 GMT</pubDate>
+      </item>
+      <item>
+         <title>Control access to Hub content With Hub Authentication</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020019192-Control-access-to-Hub-content-With-Hub-Authentication</link>
+         <description><![CDATA[<hr>
+<p>Need to control who can access your Hub? Require a password for access with Hub Authentication.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>To enable Hub Authentication, you need to be a member of the <strong>Account Administrator</strong> or <strong>Content Manager</strong> user groups.</li>
+<li>To apply advanced customizations to the Hub Authentication login page, you will need be familiar with Uberflip <a href="https://help.uberflip.com/hc/en-us/articles/360018841312" target="_self">Custom Code</a>, as well as the ability to write HTML and CSS.</li>
+<li>This article is about Hub-level access control. For Stream-level access control, see <a href="https://help.uberflip.com/hc/en-us/articles/360020069172">this article</a>.</li>
+<li>This feature is <strong>not available on all packs</strong>.</li>
+</ul>
+<p> </p>
+<h2>About Hub Authentication</h2>
+<p>Most Hubs are intended to be open, where anyone can visit and browse through the content inside. But for some Hubs, you might want to restrict access to just a specific audience — for example, if you have a Hub for internal-only content. With these Hubs, you can use <strong>Hub Authentication</strong> to limit access. When Hub Authentication is enabled, anyone who visits any page within that Hub will be prompted to enter a password before they can view the page:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016065511/Perfect_Flow.png" alt="Perfect_Flow.png"></p>
+<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>The colors used for this login page are determined by your Hub's general <em>Background + Link Color</em> setting <em>Appearance &gt; Branding &gt; Colors</em>. However, if you want, you can also use HTML/CSS custom code to change the styling of the page to your liking.</p>
+</div>
+<p> </p>
+<h2>Enable Hub Authentication</h2>
+<p>You can enable or disable Hub Authentication at any time, and the setting takes effect immediately. Simply turning on the feature will enable basic authentication (i.e. a simple password prompt). In this mode, you can specify one or multiple passwords. Specifying multiple passwords is useful if you want to provide separate passwords to different users (or groups of users), so that you can revoke access for just that user/group later (by disabling the corresponding password).</p>
+<ol>
+<li>Log in to Uberflip and click on <strong>Hubs </strong>(select the Hub you want to enable Hub Authentication on, if you have multiple).</li>
+<li>In the sidebar menu on the left, click on <strong>Hub Options</strong><strong> &gt; Authentication</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016020612/Hubs___Options_-_Authentication_-_Uberflip.png" alt="Hubs___Options_-_Authentication_-_Uberflip.png">
+</li>
+<li>The Authentication options page will appear on the right. Here, the <strong>Status</strong> should be displayed as <strong>Not-Protected</strong> by default.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016066551/Hubs___Options_-_Authentication_-_Uberflip.png" alt="Hubs___Options_-_Authentication_-_Uberflip.png">
+</li>
+<li>Switch the toggle next to <strong>Status</strong> to the <strong>on</strong><strong> (green)</strong> position. This will also change the <strong>Status</strong> to <strong>Protected</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016020852/Hubs___Options_-_Authentication_-_Uberflip.png" alt="Hubs___Options_-_Authentication_-_Uberflip.png">
+</li>
+<li>The change will take effect immediately, and all visitors to your Hub will be prompted for a password. To allow them to log in, you will first need to create a password (or multiple passwords). Create a password by typing it into the <strong>Add your password </strong>field, then <strong>click on the</strong> <strong>+ button</strong> to add it to your list of passwords.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016066811/Hubs___Options_-_Authentication_-_Uberflip.png" alt="Hubs___Options_-_Authentication_-_Uberflip.png"><br><em>The password can be any alphanumeric string 6-40 characters long. Above is an example password that follows <a href="https://xkcd.com/936/">a particular school of thought on password strength</a>.</em><br><br>
+</li>
+<li>This will add it to the list of passwords for your Hub, which are <strong>listed below</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016021192/Hubs___Options_-_Authentication_-_Uberflip.png" alt="Hubs___Options_-_Authentication_-_Uberflip.png">
+</li>
+<li>To disable a password, remove it by <strong>clicking on the x button below it</strong>. This will immediately remove the password from the list, and deactivate it so that it can no longer be used to log in.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016021592/Hubs___Options_-_Authentication_-_Uberflip.png" alt="Hubs___Options_-_Authentication_-_Uberflip.png">
+</li>
+</ol>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>When you delete a password, anyone who has previously logged in with that password will still be able to access the Hub until they end their session (i.e. until they fully close their browser), or delete their cookies.</p>
+<p>Note that it is not possible to force-logout visitors who previously accessed the Hub with a now-disabled password.</p>
+</div>
+<p> </p>
+<h2>Customize the Hub Authentication Login Page</h2>
+<p>By default, the Hub Authentication login page will consist of:</p>
+<ul>
+<li>A solid background color, as defined by the <em>Background + Link Color</em> setting in <em>Appearance &gt; Branding &gt; Colors</em>
+</li>
+<li>Your Hub Hero logo (if present), as set in <em>Appearance &gt; Branding &gt; Images</em>
+</li>
+<li>The text "Please enter a valid password to enter this Hub"</li>
+<li>A password field in white, with the text "enter password"</li>
+<li>A button with the text "submit", in a solid color as defined by the <em>Navigation Color</em> setting in <em>Appearance &gt; Branding &gt; Colors</em>
+</li>
+</ul>
+<p>By using Custom Code, you can modify all of these elements in any way you like. To do this, you must enable Custom Code on the login page by going to <strong>Hub Options &gt; Authentication </strong>and checking the box next to <strong>Include Custom Code</strong>.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016023932/Hubs___Options_-_Authentication_-_Uberflip.png" alt="Hubs___Options_-_Authentication_-_Uberflip.png"></p>
+<p>You can then add a Custom Code Block with CSS that targets the class</p>
+<pre>body.hub-login</pre>
+<p>Your Custom HTML/CSS will override the default used on the login page, allowing you to style it any way you like.</p>
+<p> </p>
+<h2 id="h_01F68ER1AZ77YCDARFX94RZN2T">Additional notes</h2>
+<ul>
+<li>If you enable both Hub Authentication <em>and</em> <a href="https://help.uberflip.com/hc/en-us/articles/360020069172" target="_self">Stream Authentication</a> at the same time, they will be in effect independently. In other words, entering the Hub password will <strong>not</strong> also provide access to any protected Stream: each Stream with Stream Authentication enabled will still prompt for a passphrase.</li>
+</ul>]]></description>
+         <guid isPermaLink="false">360020019192</guid>
+         <pubDate>Tue, 27 Nov 2018 18:31:06 GMT</pubDate>
+      </item>
+      <item>
+         <title>Include Item Tags in Hub Search</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020275651-Include-Item-Tags-in-Hub-Search</link>
+         <description><![CDATA[<hr>
+<p>By default, the <a href="https://help.uberflip.com/hc/en-us/articles/360020165151">Hub Search</a> feature will look for matches in titles, descriptions, and body content. If you use tags and want Hub Search to include those as well, here's how to enable that.</p>
+<hr>
+<p> </p>
+<h2>Before you Begin</h2>
+<ul>
+<li>To enable this feature, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+</ul>
+<p> </p>
+<h2>Enable Searching by Tags</h2>
+<p>Turning on this feature will make Hub Search look for keyword matches among Item tags (alongside titles, descriptions and body content). Tags are always invisible to Hub visitors (unless you have used Custom Code to make them visible), so this feature is useful if you want to steer visitors to specific Items: just tag relevant Items with keywords that your visitors are likely to use. However, keep in mind that tags will only be one aspect by which an Item's relevance score is calculated, and this score determines how search results are sorted.</p>
+<ol>
+<li>Log in to Uberflip and click on <strong>Hubs</strong> (if you have multiple Hubs, select the Hub you want to work with).</li>
+<li>In the sidebar menu on the left, click on <strong>Hub Options &gt; Advanced</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016049851/Hubs___Options_-_Advanced_-_Uberflip_and_Jan_s_To_Do_s.png" alt="Hubs___Options_-_Advanced_-_Uberflip_and_Jan_s_To_Do_s.png">
+</li>
+<li>Under the section <strong>Content Experience</strong>, look for the option <strong>Include Item tags in Hub Search</strong> and <strong>check the box</strong> next to it.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016049891/Hubs___Options_-_Advanced_-_Uberflip.png" alt="Hubs___Options_-_Advanced_-_Uberflip.png" width="699" height="415">
+</li>
+<li>Your change will be saved automatically, and will take effect immediately. Now, Hub Search will also take into account tags when calculating a relevance score for any given Item.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360020275651</guid>
+         <pubDate>Tue, 27 Nov 2018 17:08:13 GMT</pubDate>
+      </item>
+      <item>
+         <title>GDPR Feature: Hub Privacy Options</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020222171-GDPR-Feature-Hub-Privacy-Options</link>
+         <description><![CDATA[<hr>
+<p>Learn how to use a Privacy Banner, Privacy Policy Page and Privacy Groups to make your Hub GDPR-compliant.</p>
+<hr>
+<p> </p>
+<h2>Before you Begin</h2>
+<ul>
+<li>To configure Hub Privacy Options, you need to be an <strong>Account Admin</strong>.</li>
+<li>You'll likely need to <strong>work with your legal department</strong> to develop the text for your Privacy Banner and Privacy Policy Page.</li>
+<li>You will also need to know if you are using any <strong>custom tracking scripts </strong> on your Hub.</li>
+</ul>
+<p> </p>
+<h2>What are the Hub Privacy Options?</h2>
+<p>To comply with GDPR, you must notify visitors to your Hub of any cookies or tracking scripts that exist on your Hub, clearly explain how their data will be used, and give them the ability to opt-in/out at any time. To accomplish this, you can use the Hub Privacy Options. These are:</p>
+<ul>
+<li>
+<strong>Privacy Banner</strong>: A pop-up privacy banner that appears at the bottom of your Hub to provide the GDPR-mandated notification about privacy and cookies.</li>
+<li>
+<strong>Privacy Policy</strong>: A page which outlines your full privacy policy, and allows visitors to manage their privacy settings.</li>
+<li>
+<strong>Privacy Groups</strong>: Set up more granular privacy options which Hub visitors can configure on your Privacy Policy page.</li>
+</ul>
+<p> </p>
+<h2>Set up a Privacy Policy Page</h2>
+<p>This page is where you will make your complete privacy notice available to visitors to your site. It also gives users the ability to control their privacy settings (which you configure with the use of <a href="#h_233404772201543268499266">Privacy Groups</a>).</p>
+<p>Typically, you'll need to get the text for this page from your legal department. We also recommend including the contact information for your company's main privacy officer, whom visitors can contact with any privacy-related questions. </p>
+<ol>
+<li>Log in to your Uberflip account.</li>
+<li>Click on <strong>Hubs</strong> and select the Hub you want to work with.</li>
+<li>In the sidebar menu on the left, click on <strong>Hub Privacy</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015959952/Hubs___Privacy_Policy_-_Uberflip.png" alt="Hubs___Privacy_Policy_-_Uberflip.png"><br><strong><br></strong>
+</li>
+<li>By default, you should be on the <strong>Edit</strong> <strong>Privacy Policy</strong> section. In the settings on the right side, toggle the switch next to <strong>Enable Privacy Page</strong> to the <strong>on</strong> <strong>(green) setting to enable the Privacy Policy Page</strong>.<strong><br><br><img src="https://help.uberflip.com/hc/article_attachments/360015960032/Hubs___Privacy_Policy_-_Uberflip.png" alt="Hubs___Privacy_Policy_-_Uberflip.png"><br></strong>
+</li>
+<li>Under <strong>Page Title</strong>, modify the page's headline (if desired), or leave it on the default title ("Privacy Policy").</li>
+<li>Under <strong>Privacy Policy</strong>, type (or, more likely, paste) your organization's privacy policy. You can also use the editor tools to format the text as needed.</li>
+<li>Any changes you make here will be saved automatically, and will be immediately applied to your Hub. You can view your privacy policy page by appending <em>/privacy</em> to the end of your Hub URL, e.g. <em>https://resources.mycompany.com/privacy </em>
+</li>
+</ol>
+<p> </p>
+<h2>Set up a Privacy Banner</h2>
+<p>The GDPR requires that you notify users about cookies and your privacy policy when they visit your website, and allow them to either opt-in or opt-out. You can do this in your Hub by enabling the Privacy Banner, which is displayed as a pop-up banner at the bottom of your Hub. Aside from notifying visitors, it also allows the following interactions:</p>
+<ul>
+<li>
+<strong>Accept button</strong>: If clicked, the visitor provides consent to all cookies.</li>
+<li>
+<strong>X button</strong>: If clicked, the visitor dismisses the banner and withholds consent.</li>
+<li>
+<strong>Privacy Settings link: </strong>If clicked, takes the visitor to your Privacy Policy Page, which contains a more detailed version of your privacy policy (only appears if Privacy Policy Page is enabled).</li>
+</ul>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016003091/itemeditorimage_5b06f1c6d8f28.png" alt="itemeditorimage_5b06f1c6d8f28.png"></p>
+<ol>
+<li>In your Hub's sidebar menu on the left, click on <strong>Hub Privacy, </strong>then click on <strong>Privacy Banner</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015960212/Hubs___Privacy_Banner_-_Uberflip.png" alt="Hubs___Privacy_Banner_-_Uberflip.png">
+</li>
+<li>In the settings on the right side, toggle the switch next to <strong>Enable Privacy Banner</strong> to the <strong>on</strong> <strong>(green) setting </strong>to enable the Privacy Banner.<strong><br><br><img src="https://help.uberflip.com/hc/article_attachments/360015960252/Hubs___Privacy_Banner_-_Uberflip.png" alt="Hubs___Privacy_Banner_-_Uberflip.png"><br><br></strong>
+</li>
+<li>There are <strong>two text fields to configure</strong>:
+<ul>
+<li>The first, under <strong>First Visit Message</strong>, is the message displayed to Hub visitors on their first visit to your Hub.</li>
+<li>The second, under <strong>Policy Update Message</strong>, is the message displayed to users who have previously clicked <strong>Accept </strong>on the First Visit Message when you make changes to your Privacy Groups. For more information, see the <a href="#h_233404772201543268499266">section on Privacy Groups</a> below.</li>
+</ul>
+</li>
+<li>The <strong>Accept Button</strong> setting allows you to configure if you want to allow visitors to blanket-accept all Privacy Groups:
+<ul>
+<li>If set to <strong>on</strong><strong> (green)</strong>: Visitors can click a button to opt-in to <strong>all</strong> Privacy Groups.</li>
+<li>If set to <strong>off (grey)</strong>: Visitors must visit your Privacy Policy Page to individually opt-in to any Privacy Groups.</li>
+<li>Regardless of the option you choose, visitors will also still see an <strong>X (close) </strong><strong>button</strong> in the Privacy Banner to dismiss the banner. If a visitor dismisses the banner with this button, this means they are choosing <strong>not</strong> to opt-in to any Privacy Groups (i.e. reject all cookies).</li>
+</ul>
+</li>
+<li>The <strong>Button Caption </strong>and <strong>Button Color</strong> settings allow you to customize the text and color of the <strong>Accept Button</strong>, if it is enabled.</li>
+<li>Any changes you make here will be saved automatically, and will be immediately applied to your Hub.</li>
+</ol>
+<p> </p>
+<h2 id="h_233404772201543268499266">Set up Privacy Groups</h2>
+<p>You use Privacy Groups to give your Hub's visitors more granular control over their privacy settings. Each Privacy Group you create corresponds to a setting shown on the Privacy Policy Page, and represents one or more ways your Hub collects customer data.</p>
+<p>For example, you can use Privacy Groups to bucket similar types of trackers (e.g. Google Analytics, Bombora, etc.) that visitors can collectively opt into or out of of with a single setting:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016005611/Privacy_Policy.png" alt="Privacy_Policy.png" width="696" height="284"></p>
+<p>Privacy Groups interact with the other Privacy Options in the following ways:</p>
+<h4>Privacy Policy Page</h4>
+<ul>
+<li>The Privacy Groups and their descriptions appear as individual settings at the bottom of your Privacy Policy Page.</li>
+</ul>
+<h4>Privacy Banner</h4>
+<ul>
+<li>If enabled, clicking the <strong>Accept Button</strong> on the Privacy Banner will opt-in the visitor to all Privacy Groups at once.</li>
+<li>If you make a material change to any Privacy Group, you can trigger the <strong>Policy Update Message</strong> to appear for users who have previously opted-in to that Privacy Group (either individually, or as part of a blanket acceptance). <a href="#h_252741498571543273742837">See below</a> for more information.</li>
+</ul>
+<p>Here's how to set up Privacy Groups:</p>
+<ol>
+<li>In your Hub's sidebar menu on the left, click on <strong>Hub Privacy, </strong>then click on <strong>Privacy Groups</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016005691/Hubs___Privacy_Groups_-_Uberflip.png" alt="Hubs___Privacy_Groups_-_Uberflip.png"><br><br>
+</li>
+<li>On the right side, you should see the <strong>Edit Privacy Groups</strong> settings. On the <strong>Groups</strong> tab, click on <strong>+New Privacy Group</strong>. <br><br><img src="https://help.uberflip.com/hc/article_attachments/360016005911/Hubs___Privacy_Groups_-_Uberflip.png" alt="Hubs___Privacy_Groups_-_Uberflip.png"><br><br>
+</li>
+<li>The <strong>Create New Privacy Group </strong>window will appear. Here, type in a <strong>Name</strong> and a <strong>Description</strong> for this Privacy Group.
+<ul>
+<li>Keep in mind that both the name and description will be visible to Hub visitors on your Privacy Policy Page.</li>
+<li>For GDPR compliance, you should describe what the setting does (what kind of information is collected, why, etc.) in plain language in the <strong>Description</strong> field.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015962992/Hubs___Privacy_Groups_-_Uberflip.png" alt="Hubs___Privacy_Groups_-_Uberflip.png" width="477" height="311">
+</li>
+</ul>
+</li>
+<li>Click on <strong>Create Group</strong> to create this group, then click on <strong>Privacy Groups</strong> in the sidebar menu on the left again to return to the main <strong>Edit</strong> <strong>Privacy Groups</strong> page.</li>
+<li>Repeat this process for each of the Privacy Groups you want to use.</li>
+<li>Return to the <strong>Edit Privacy Groups</strong> menu and click on the <strong>Functionality</strong> tab. <br><br><img src="https://help.uberflip.com/hc/article_attachments/360016006211/Hubs___Privacy_Groups_-_Uberflip.png" alt="Hubs___Privacy_Groups_-_Uberflip.png" width="581" height="190">
+</li>
+<li>You will see a list of services which collect visitor information on your Hub. Next to each one, use the dropdown menu to assign the service to a Privacy Group.
+<ul>
+<li>When you assign a service to a Privacy Group, any information it is able to collect is governed by that Privacy Group's setting, i.e. if a visitor opts-out of a Privacy Group, none of the services assigned to it will be able to collect data for that visitor (and vice-versa).</li>
+<li>Only built-in trackers (via Integrations) will be displayed here. If you use custom trackers, you must link their Custom Code Block to a Privacy Group separately. For help, see <a href="https://help.uberflip.com/hc/en-us/articles/360020222131">this article</a>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016006411/Hubs___Privacy_Groups_-_Uberflip.png" alt="Hubs___Privacy_Groups_-_Uberflip.png" width="700" height="100">
+</li>
+</ul>
+</li>
+<li>Your changes will be saved automatically.</li>
+<li>You can make changes to a Privacy Group at any time on the <strong>Functionality</strong> tab, but keep in mind that you must both update the group's description, and <a href="#h_252741498571543273742837">notify visitors of the change</a> as well as ask them to opt-in again.</li>
+<li>To change the description, go to the <strong>Groups tab</strong> on the <strong>Edit Privacy Groups </strong>menu and hover your mouse over the group, then click on the <strong>Edit</strong> button on the right
+<ul>
+<li>You can also delete a group here by clicking on the <strong>Delete</strong> button.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016006891/Fullscreen_2018-11-26__6_13_PM.png" alt="Fullscreen_2018-11-26__6_13_PM.png" width="700" height="126">
+</li>
+</ul>
+</li>
+<li>Your changes will be saved automatically.</li>
+</ol>
+<p> </p>
+<h2 id="h_252741498571543273742837">Notify Visitors of Privacy Settings Changes</h2>
+<p>If you make any material changes to a privacy setting (e.g. if you change the kind of information a Privacy Group collects), you have to ask users who previously consented to that setting to provide consent again. You can do this with the <strong>Policy Update Message</strong> under the <strong>Privacy Banner</strong> settings.</p>
+<ol>
+<li>Begin by setting up a Policy Update Message. Go to <strong>Hub Privacy &gt; Privacy Banner</strong> and enter the notification text explaining the change into the <strong>Policy Update Message</strong> field. Your changes will be saved automatically.</li>
+<li>Next, go to <strong>Hub Privacy &gt; Privacy Groups</strong>. In your list of Privacy Groups, find the group that you made the change to and hover your mouse over it.</li>
+<li>On the right side, click on the <strong>Refresh </strong>button. This will automatically trigger the <strong>Policy Update Message</strong> to be shown to users who had previously opted-in to this Privacy Group.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015963912/Fullscreen_2018-11-26__6_19_PM.png" alt="Fullscreen_2018-11-26__6_19_PM.png" width="698" height="68">
+</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360020222171</guid>
+         <pubDate>Mon, 26 Nov 2018 18:06:26 GMT</pubDate>
+      </item>
+      <item>
+         <title>GDPR Feature: Custom Code Blocks &amp; Privacy Groups</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020222131-GDPR-Feature-Custom-Code-Blocks-Privacy-Groups</link>
+         <description><![CDATA[<hr>
+<p>If you use Custom Code to implement customized trackers on your Hub, here's how you can associate them with Privacy Groups for GDPR compliance.</p>
+<hr>
+<p> </p>
+<h2>Before you Begin</h2>
+<ul>
+<li>To use Custom Code, you need to be an <strong>Account Admin</strong>, <strong>Content Manager</strong>, or <strong>Developer/Designer</strong>.</li>
+<li>In this article, we'll focus on adding existing Custom Code Blocks to Privacy Groups. To learn about creating Custom Code Blocks, see <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">this article</a>.</li>
+</ul>
+<p> </p>
+<h2>Custom Code and GDPR</h2>
+<p>For any Custom Code Block, you have the option of associating it with a Privacy Group. This is basically the same as associating a pre-built Integration with a Privacy Group in the <a href="https://help.uberflip.com/hc/en-us/articles/360020222171">Hub Privacy Options</a>. </p>
+<p>If you assign a Custom Code Block to a Privacy Group, the code contained within the block becomes subject to that Privacy Group, and therefore its setting on the Privacy Policy Page. In other words, it gives customers the ability to toggle the Custom Code Block on and off.</p>
+<p>In the context of the GDPR, this is useful for Custom Code Blocks that are used for visitor tracking, or which otherwise collect user data. By associating these Custom Code Blocks with a Privacy Group, you give users the ability to give or withhold consent to them, which is required for GDPR compliance.</p>
+<p> </p>
+<h2>Assign a Custom Code Block to a Privacy Group</h2>
+<p>Assigning a Custom Code Block to a Privacy Group is simple, and you can do it at any time. As soon as it's assigned to a Privacy Group, the Custom Code Block will be controlled by that Privacy Group's toggle on the Privacy Policy Page (on a per-user basis):</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016005611/Privacy_Policy.png" alt="Privacy_Policy.png" width="696" height="284"></p>
+<ol>
+<li>Log in to Uberflip and click on <strong>Hubs</strong> (select the Hub you want to work with, if you have multiple).</li>
+<li>In the sidebar menu on the left, click on <strong>Appearance &gt; Custom Code</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016047691/Hubs___Appearance_-_Custom_Code_-_Uberflip.png" alt="Hubs___Appearance_-_Custom_Code_-_Uberflip.png">
+</li>
+<li>You should see your existing Custom Code Blocks on the right. Hover your mouse over the one you want to assign to a Privacy Group, then click on the <strong>Edit</strong> button on the right.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016002232/Fullscreen_2018-11-27__11_52_AM.png" alt="Fullscreen_2018-11-27__11_52_AM.png">
+</li>
+<li>The <strong>Edit Custom Code</strong> view will open. Here, scroll down to the <strong>Privacy Group</strong> section and use the dropdown to select a Privacy Group to assign this Custom Code Block to.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016047871/Hubs___Custom_Code_-_Uberflip_and_Jan_s_To_Do_s.png" alt="Hubs___Custom_Code_-_Uberflip_and_Jan_s_To_Do_s.png">
+</li>
+<li>Your change will be saved automatically, and will take effect immediately.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360020222131</guid>
+         <pubDate>Mon, 26 Nov 2018 18:05:30 GMT</pubDate>
+      </item>
+      <item>
+         <title>How Many Item Tiles Are Displayed in a Row?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360019926952-How-Many-Item-Tiles-Are-Displayed-in-a-Row</link>
+         <description><![CDATA[<hr>
+<p>Your Hub is responsive, so depending on the device a visitor is using to view your Hub, different numbers of Item Tiles will be displayed. Here's how many they'll see on devices with different screen sizes.</p>
+<hr>
+<p> </p>
+<h2>How Item Tile Responsiveness Works</h2>
+<p>Your Hub consists of Item Tiles, and since they're the primary way that your visitors will interact with your Hub content, it's important to understand how they are displayed on different devices.</p>
+<p>Hubs are built to be responsive, which means that their design dynamically changes based on the screen size of the device used to view them. This is based around the concept of "breakpoints", which are specific screen widths at which the layout of a website changes to optimize for the available space.</p>
+<p>In Uberflip, the breakpoints define how many Item Tiles are displayed side-by-side in a row: in general, the wider the screen, the more tiles are displayed in a row. Below, you can see where the breakpoints are located, and how many tiles are shown in each range.</p>
+<p>Screen width (in pixels) is:</p>
+<ul>
+<li>
+<strong>Under 561px</strong>: 1 tile</li>
+<li>
+<strong>561px to 860px</strong>: 2 tiles</li>
+<li>
+<strong>861px to 980px: </strong>3 tiles (if no Highlight Tile) with top menu</li>
+<li>
+<strong>981px to 989px: </strong>3 tiles (if no Highlight Tile) with left side menu</li>
+<li>
+<strong>990px to 1336px</strong>: 3 tiles with Highlight Tile</li>
+<li>
+<strong>1337px to 1606px</strong>: 4 tiles</li>
+<li>
+<strong>1607px to 1877px</strong>: 5 tiles</li>
+<li>
+<strong>Over 1877px: </strong>6 tiles</li>
+</ul>
+<p>Keep in mind that the above breakpoints apply to default Hubs without Custom Code applied, and that using Custom Code can change this behavior.</p>]]></description>
+         <guid isPermaLink="false">360019926952</guid>
+         <pubDate>Fri, 23 Nov 2018 22:37:39 GMT</pubDate>
+      </item>
+      <item>
+         <title>Enable Single Sign On (SSO) for Your Uberflip Account</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020132311-Enable-Single-Sign-On-SSO-for-Your-Uberflip-Account</link>
+         <description><![CDATA[<hr>
+<p>If your organization uses Single Sign On, learn how to add Uberflip to the list of applications your SSO provider can control access to.</p>
+<hr>
+<p> </p>
+<h2>Before you Begin</h2>
+<ul>
+<li>To set up SSO with Uberflip, you need to be <strong>logged in with the Primary User account</strong> on your Uberflip account.</li>
+<li>You will also need to have your SSO IdP already set up and in place to use Uberflip with it.</li>
+<li>Successfully completing the setup process described in this article requires <strong>familiarity with SAML</strong>. In most cases, this means that the instructions should be completed by <strong>a member of your organization's IT department</strong>.</li>
+</ul>
+<p> </p>
+<h2>Using Single Sign-On for Uberflip</h2>
+<p>Many organizations use Single Sign-On (SSO) services to give employees access to a variety of tools with just a single set of login credentials. If you use SSO in your organization, you can set set it up to control access to Uberflip, as well. This not only makes it easier for your users to log in, but also means you don't have to manually create users in Uberflip, as the SSO provider can automate this process for you.</p>
+<p>When you enable SSO for Uberflip, here's what the experience will look like for your users:</p>
+<ol>
+<li>When they go to the Uberflip login page, they will be prompted to enter their <strong>company name or email</strong>, as normal:<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015895351/itemeditorimage_597a49ff72c93.png" alt="itemeditorimage_597a49ff72c93.png">
+</li>
+<li>When they click on <strong>Next</strong>, they will see the normal <strong>Password prompt</strong>. However, this page will also include an <strong>additional button</strong> <strong>to log in with your SSO provider</strong> instead:<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015848872/itemeditorimage_597a4bc739407.png" alt="itemeditorimage_597a4bc739407.png" width="489" height="434">
+</li>
+<li>Clicking on this button will take your users straight to your regular SSO login page. If you have enabled user provisioning through your SSO, a brand new user who logs in via SSO will automatically have an Uberflip account created for them.</li>
+</ol>
+<p> </p>
+<h2>What You'll Need</h2>
+<p>To use SSO with Uberflip, you'll need an SSO service, known as an <strong>Identity Provider </strong>(or <strong>IdP</strong>) that is <em>already set up</em>. This article won't teach you how to set up an SSO in general — just how to add Uberflip to your existing SSO service. If you don't currently use SSO, you won't be able to proceed until you have configured your IdP.</p>
+<p>You can use any IdP you like, but here are some of the popular ones we work with:</p>
+<ul>
+<li>Okta</li>
+<li>Google</li>
+<li>OneLogin</li>
+</ul>
+<p>You'll also need certain details about your IdP in order to complete the configuration on Uberflip's end. This information will be provided by your IdP service. In general, we recommend that you let your IT department handle this part of the setup.</p>
+<p> </p>
+<h2>Set up an IdP in Uberflip</h2>
+<p>You can set up and enable a new IdP at any time, or make changes to an existing setup.</p>
+<ol>
+<li>Log in to Uberflip.</li>
+<li>In the top right corner, click on your name, then click on <strong>Account Settings</strong>.</li>
+<li>In the sidebar menu on the left, click on <strong>Security</strong> to expand that section, then click on <strong>Identity Provider Settings</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015847152/Security___Identity_Provider___Add_Settings_-_Uberflip.png" alt="Security___Identity_Provider___Add_Settings_-_Uberflip.png">
+</li>
+<li>Now, click on the <strong>Create a New IdP</strong> button on the right. At this point, we recommend <strong>handing over to your IT person</strong> to complete the rest of the steps.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015847412/Security___Identity_Provider_Settings_-_Uberflip.png" alt="Security___Identity_Provider_Settings_-_Uberflip.png" width="491" height="248">
+</li>
+<li>The <strong>Create a New Identity Provider</strong> form will appear, and you should be on the first of two tabs, labeled <strong>Basic IdP Settings</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015895611/Security___Identity_Provider___Add_Settings_-_Uberflip.png" alt="Security___Identity_Provider___Add_Settings_-_Uberflip.png" width="701" height="260">
+</li>
+<li>To set up SSO, you will need to fill out this form with details provided by your IdP. See <a href="#h_476540172151542921712101">Reference: Basic IdP Settings</a> below for help.</li>
+<li>When you're ready to enable SSO and allow your users to log in to Uberflip via your IdP, toggle the switch next to <strong>Enabled</strong> to the <strong>on</strong> (green) position, then click on the <strong>Save</strong> button.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015848192/Security___Identity_Provider___Add_Settings_-_Uberflip.png" alt="Security___Identity_Provider___Add_Settings_-_Uberflip.png" width="552" height="213">
+</li>
+<li>This will add the IdP to your list of Identity Providers, and will immediately turn on the SSO option on your Uberflip login page.
+<ul>
+<li>If you want to disable SSO via this particular IdP at any time, simply return to <strong>Security &gt; Identity Provider Settings</strong>, click on the IdP you want to disable to view its settings, then toggle the <strong>Enabled </strong>switch back to the <strong>off</strong> (grey) position.</li>
+</ul>
+</li>
+</ol>
+<p> </p>
+<h2 id="h_476540172151542921712101">Reference: Basic IdP Settings</h2>
+<p>The fields on the <strong>Basic IdP Settings</strong> form correspond to standard IdP metadata as defined in the <strong>SAML </strong>standard specification, so the necessary details are easy to obtain from virtually any IdP.</p>
+<p>There are three ways you can fill out this form:</p>
+<ol>
+<li>
+<strong>XML</strong>: Most IdPs provide an XML metadata file which contains all the required information. To use this option, download the XML file from your IdP, then click on the <strong>XML</strong> button to upload the file to Uberflip.</li>
+<li>
+<strong>URL</strong>: Some IdPs allow applications (like Uberflip) to simply download the XML metadata file directly from the IdP using a special URL, bypassing the need for you to upload it manually. If this option is available to you, get the URL from your IdP, then simply click on the <strong>URL</strong> button and paste (or type) in the URL.</li>
+<li>
+<strong>Manual</strong>: If your IdP does not provide an XML metadata file, you can also type in the required information by hand. You should use this option only if you can't use the XML/URL options.</li>
+</ol>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>To generate the XML metadata file, some IdPs require an <strong>ACS URL</strong> and <strong>Audience URI/Entity ID</strong> from the site on which you are setting up SSO (i.e. Uberflip).</p>
+<p>If your IdP requires this, use the following <strong>Audience URI</strong>:</p>
+<p><code class="no-padding">https://app.uberflip.com/users/login</code></p>
+<p>The <strong>ACS URL</strong> is <strong>generated dynamically</strong> when you set up SSO, so it is not available before the XML metadata file is generated (as the XML file itself is required to set up SSO and generate the ACS URL). To get around this, you can generate the XML metadata file in your IdP using a placeholder ACS URL, then edit it later to fill in the real ACS URL. For more information, see <a href="https://help.uberflip.com/hc/en-us/articles/360032729372">this article</a>.</p>
+</div>
+<p>The fields on the form are as follows:</p>
+<ul>
+<li>
+<strong>Name: </strong>An (arbitrary) name to identify this IdP in the list displayed under <strong>Security &gt; Identify Provider Settings</strong>.</li>
+<li>
+<strong>Description: </strong>A description shown next to the name (as above).</li>
+<li>
+<strong>Login URL: </strong>The URL that is used to log in with your IdP.</li>
+<li>
+<strong>Identity Provider Entity</strong>: The IdP's unique entity ID.</li>
+<li>
+<strong>Identify Provider Certificate</strong>: The security certificate provided by your IdP.</li>
+<li>
+<strong>Pull Identity From: </strong>Defines which field in the IdP will be used to identify the user. The choices are:
+<ul>
+<li>
+<strong>The assertion's subject's name identifier:</strong><em> </em>Use the SAML NameID defined in the SAML assertion to identify the user.</li>
+<li>
+<strong>An assertion attribute value: </strong>Use a custom attribute field to identify the user. Specify the attribute field to be used in the text box provided.</li>
+</ul>
+</li>
+<li>
+<strong>Map Identity To: </strong>The field in the Uberflip user profile that the selected identity value from the IdP will be mapped (written) to.</li>
+</ul>
+<p> </p>
+<h2>Enable User Provisioning</h2>
+<p>If you want, you can optionally enable user provisioning, which will create new users in Uberflip the first time they log in using your IdP. This can be useful if your organization has a lot of Uberflip users, and user creation is a routine, ongoing task.</p>
+<p>Before you enable this setting, keep in mind that you must do some prep work in your IdP for it to work properly! Uberflip uses the concept of User Groups to control application permissions, so all new users must be assigned to a Group to be able to use Uberflip. Users created with no Group membership will be assigned to the All Users group by default, which has no permissions — and no access to any part of the Uberflip application.</p>
+<p>As a result, if you want to use SSO user provisioning for Uberflip, you must ensure that you have created an attribute for Groups in your IdP, and have assigned Groups to the appropriate users. <a href="#h_959705623301542922349028">See below</a> for more information.</p>
+<ol>
+<li>To enable user provisioning using your IdP, go to <strong>Account Settings &gt; Security &gt; Identity Provider Settings</strong> and click on your IdP in the list on the right to edit it.</li>
+<li>On the right, click on the <strong>User Provisioning</strong> tab.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015848052/Security___Identity_Provider___Add_Settings_-_Uberflip.png" alt="Security___Identity_Provider___Add_Settings_-_Uberflip.png" width="700" height="179">
+</li>
+<li>Toggle the switch next to <strong>Create new Users via SSO</strong> to the <strong>on</strong> (green) position.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015896271/Security___Identity_Provider___Add_Settings_-_Uberflip.png" alt="Security___Identity_Provider___Add_Settings_-_Uberflip.png">
+</li>
+<li>When you turn on the user provisioning setting, the <strong>Attribute Name</strong> fields below it will become editable. These fields define how Uberflip will use information from your IdP to fill out the user profiles of new users created by IdP. For help, see <a href="#h_959705623301542922349028">Reference: User Provisioning Settings</a> below.</li>
+</ol>
+<p> </p>
+<h2 id="h_959705623301542922349028">Reference: User Provisioning Settings</h2>
+<h3>General</h3>
+<p>If you enable the <strong>Create new Users via SSO</strong> setting, the settings page will allow you to edit the values under the <strong>Attribute Name</strong> column. These values indicate which attribute in your IdP will be used to populate the corresponding user profile field in Uberflip. For example, it will fill in the user's First Name using the <em>User.FirstName</em> field from your IdP.</p>
+<p>By default, the IdP attributes are prepopulated with standard attribute field names which are common to most IdPs. If you actually use a different attribute name in your IdP for any given attribute, you can edit the value in the appropriate Attribute Name field. For example, if <em>Email Address</em> actually corresponds to <em>User.EmailId </em>(rather than the prepopulated <em>User.EmailAddress</em> field) in your IdP, fill that in instead.</p>
+<p> </p>
+<h3>User.Groups Attribute</h3>
+<p>The Uberflip Field <strong>Groups</strong> defines which Group(s) the user is assigned to, and therefore what Uberflip permissions they have. To ensure functionality for users created via your IdP, it is critical that you define the appropriate Group(s) for each user in your IdP.</p>
+<p>By default, Uberflip will look for the <strong><em>User.Groups</em> attribute</strong> in your IdP to set a user's Group membership upon creation. This attribute name is arbitrary, and likely does not exist in your IdP. You must therefore create it, and populate it for each User with the appropriate <em>Group ID</em> from Uberflip in your IdP. (Alternatively, you can also create or use a different attribute, and simply type in the appropriate value into the Attribute Name field for Groups).</p>
+<p>The <strong>Group ID </strong>is a unique numeric code that identifies a particular Group in your Uberflip account. To find a Group ID, go to <em>Account Setting &gt; </em><em>Organization &gt; Groups </em>and click on the Group, then look at the URL. The Group ID for that group is the string of digits at the end of the URL, like this (in bold):</p>
+<pre>https://app.uberflip.com/org/groups/<strong>1234567</strong></pre>
+<p>To assign a user to one or more Groups when they are created via IdP, you must:</p>
+<ol>
+<li>Create a <em>User.Groups</em> (or similar) attribute in your IdP</li>
+<li>Obtain the Group IDs for all groups in your Uberflip account</li>
+<li>Assign the appropriate Group IDs to each user (to assign a user to multiple Groups, list each Group ID separated by a comma)</li>
+</ol>
+<p>For example, say you want to assign the user John Smith to the <em>Sales Reps</em> and <em>Authors</em> Groups when they first log in to Uberflip. If the Group IDs are <em>1234567</em> (Sales Reps) and <em>7654321</em> (Authors), their IdP profile wouild look like this:</p>
+<ul>
+<li>
+<em>User.EmailAddress</em>: john.smith@mycompany.com</li>
+<li>
+<em>User.FirstName</em>: John</li>
+<li>...</li>
+<li><em>User.Groups: 1234567,7654321</em></li>
+</ul>
+<p>This would result in the following user profile:</p>
+<p> </p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360015922391/Edit_John_Smith_-_Uberflip.png" alt="Edit_John_Smith_-_Uberflip.png" width="703" height="326"></p>
+<p> </p>
+<h3>Update on Login Setting</h3>
+<p> </p>
+<p>For each field except <em>Email Address</em>, you can enable or disable the <strong>Update on login?</strong> setting. If this setting is enabled for a field, the corresponding information will be updated on the Uberflip user profile if it has changed in the IdP since the last time the user logged in. For example, if a user's User.Groups attribute value has been changed in the IdP, their Group membership in Uberflip will be updated accordingly the next time they log in.</p>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360020132311</guid>
+         <pubDate>Thu, 22 Nov 2018 18:44:19 GMT</pubDate>
+      </item>
+      <item>
+         <title>Configure Social Sharing Options on Hub Items</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020045851-Configure-Social-Sharing-Options-on-Hub-Items</link>
+         <description><![CDATA[<hr>
+<p>Learn how to configure the social sharing options that visitors to your Hub can use to share your content.</p>
+<hr>
+<p> </p>
+<h2>Before you Begin</h2>
+<ul>
+<li>To use this feature, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+</ul>
+<p> </p>
+<h2>Enable or Disable Sharing Options Entirely</h2>
+<p>By default, all available sharing options will be shown on Hub Items. You can easily disable all sharing options at once, which will prevent them from appearing on any Item.</p>
+<ol>
+<li>Log in to Uberflip.</li>
+<li>Click on <strong>Hubs</strong>. If you have more than one Hub, click on the Hub you want to work with.</li>
+<li>In the sidebar menu on the left, click on <strong>Hub Options &gt; Sharing</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015698672/Hubs___Options_-_Sharing_-_Uberflip.png" alt="Hubs___Options_-_Sharing_-_Uberflip.png"><br><br>
+</li>
+<li>On the right side, scroll down to <strong>Show Sharing Options on Item Tiles</strong>. This will be checked by default. To remove all sharing options from Item Tiles, <strong>uncheck this box</strong>.
+<ul>
+<li>This option will override the setting on any individual sharing option.</li>
+<li>This will apply to all sharing options <strong>except Pinterest</strong> — you must disable the Pinterest option separately by unchecking the box under the <strong>Pinterest</strong> section.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015699232/Hubs___Options_-_Sharing_-_Uberflip.png" alt="Hubs___Options_-_Sharing_-_Uberflip.png" width="583" height="70">
+</li>
+</ul>
+</li>
+<li>Your new setting will take effect immediately. To turn sharing options back on again, just re-check the box.</li>
+</ol>
+<p> </p>
+<h2>Customize Specific Sharing Options</h2>
+<p>You can also enable or disable specific sharing options, and you can customize the behavior for certain options as well.</p>
+<ol>
+<li>Go to <strong>Hub Options &gt; Sharing</strong>.</li>
+<li>On the right side, each of the available sharing options has its own section. Find the option you want to modify and make changes as needed:
+<ul>
+<li>You can <strong>uncheck the box</strong> for the sharing option to disable it.</li>
+<li>Where available, use the text box to <strong>modify the default message</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015699612/Hubs___Options_-_Sharing_-_Uberflip.png" alt="Hubs___Options_-_Sharing_-_Uberflip.png" width="561" height="544"><br><br>
+</li>
+</ul>
+</li>
+<li>Your settings changes will take effect immediately.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360020045851</guid>
+         <pubDate>Tue, 20 Nov 2018 20:55:00 GMT</pubDate>
+      </item>
+      <item>
+         <title>Block your Hub content from appearing in search engine results</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360018840252-Block-your-Hub-content-from-appearing-in-search-engine-results</link>
+         <description><![CDATA[<hr>
+<p>Want to prevent search engines (like Google, Bing, etc.) from including your Hub content in their search results (a process known as "indexing")? You can do this at both the Hub and Stream levels with the <strong>No</strong> <strong>Robots Meta Tag</strong> setting.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>To adjust the <strong>No Robots Meta Tag </strong>setting at the Hub or Stream level, you need to be either an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+<li>Changing the <strong>No</strong> <strong>Robots Meta Tag</strong> setting does not work retroactively: if your content has already been indexed by Google, you would need to <strong>request its removal</strong> in addition to setting the tag. You can find out how to do that <a href="https://help.uberflip.com/hc/en-us/articles/360019144251">here</a>.</li>
+<li>Setting this option only works on search results for search engines. It <strong>does not prevent content from appearing in Uberflip Hub search results</strong>. To do that, you will need to <strong>use the "Hide" function on either individual Items or Streams.</strong>
+</li>
+</ul>
+<p> </p>
+<h2>Block indexing at the Hub level</h2>
+<p>This will prevent search engines from indexing <strong>all content in your Hub</strong>.</p>
+<ol>
+<li>Log in to your Uberflip account and (if you have more than one Hub) navigate to the Hub you want to work with using the <strong>Hubs</strong> menu at the top of the screen.</li>
+<li>In the sidebar menu on the left, click on <strong>Hub Options</strong> to expand that menu item, then click on <strong>Advanced</strong>.<br> <br> <img src="https://help.uberflip.com/hc/article_attachments/360015057871/Hubs___Options_-_Advanced_-_Uberflip.png" alt="Hubs___Options_-_Advanced_-_Uberflip.png">
+</li>
+<li>In the <strong>Advanced Hub Options</strong> on the right, scroll down to the <strong>SEO</strong> section. Here, check the box next to <strong>No Robots Meta Tag</strong>.<br> <br> <img src="https://help.uberflip.com/hc/article_attachments/360015024072/Hubs___Options_-_Advanced_-_Uberflip.png" alt="Hubs___Options_-_Advanced_-_Uberflip.png">
+</li>
+<li>Your change will be saved automatically, and search engines will be prevented from indexing the whole Hub.</li>
+</ol>
+<p> </p>
+<h2>Block indexing at the Stream level</h2>
+<p>This will prevent search engines from indexing content <strong>only in</strong> <strong>a specific Stream</strong>. Use this option if you want to keep specific content out of search results, but are okay with other content in your Hub being indexed. Keep in mind that <strong>this setting will have no effect if you have blocked indexing at the Hub level </strong>(as described above).</p>
+<ol>
+<li>Log in to your Uberflip account and (if you have more than one Hub) navigate to the Hub you want to work with using the <strong>Hubs</strong> menu at the top of the screen.</li>
+<li>In the sidebar menu on the left, click on <strong>Content</strong>, and use the <strong>Streams </strong>tab on the right to find the Stream on which you want to prevent indexing. <strong>Click on the Stream</strong> to open it.</li>
+<li>With the Stream open, click on the <strong>Options</strong> tab.<br> <br> <img src="https://help.uberflip.com/hc/article_attachments/360015065631/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png">
+</li>
+<li>Scroll down through the list of options and find <strong>No Robots Meta Tag</strong>. On the far right, flip the switch under the <strong>Enabled</strong> column to the <strong>On (green)</strong> position.<br> <br> <img src="https://help.uberflip.com/hc/article_attachments/360015031592/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png" width="700" height="47">
+</li>
+<li>Your change will be saved automatically, and search engines will be prevented from indexing this Stream.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360018840252</guid>
+         <pubDate>Tue, 06 Nov 2018 20:59:11 GMT</pubDate>
+      </item>
+      <item>
+         <title>Remove Your Hub From Google Search Results</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360019144251-Remove-Your-Hub-From-Google-Search-Results</link>
+         <description><![CDATA[<hr>
+<p>As soon as you make your Hub live and available to the public, it will become searchable by Google. Often that's a good thing — but sometimes you want just the opposite! If you didn't <a href="https://help.uberflip.com/hc/en-us/articles/360018840252">set the <em>No Robots Meta Tag</em></a> before going public and your Hub is already appearing on Google, you can request that it be removed. Here's how.</p>
+<hr>
+<p> </p>
+<h2>Verify site ownership</h2>
+<p>Before you can make a request to remove your website from Google, you'll first have to prove that you actually own the site. In this context, "the site" refers to the domain on which your Hub is hosted, whether that's a custom domain, or the default co-branded Uberflip domain. To do that, you need to follow Google's process for verifying ownership of your custom domain. This consists of two steps:</p>
+<ol>
+<li>Add your Hub's domain as its own property on Google Search Console</li>
+<li>Verify your ownership of the domain with Google using one of their verification methods.</li>
+</ol>
+<p>Google describes how to do these things in their Search Console documentation, here:</p>
+<ul>
+<li><a href="https://support.google.com/webmasters/answer/34592">Google: Add a website property</a></li>
+<li><a href="https://support.google.com/webmasters/answer/9008080">Google: Ownership verification</a></li>
+</ul>
+<p>Once you have verified your ownership of the custom domain, you can ask Google to remove it from their search results with the <em>Remove URLs Tool.</em></p>
+<p> </p>
+<h2>Request site removal from Google results</h2>
+<p>Google allows you to remove your Hub's domain from their search results using the <em>Remove URLs Tool</em>. They describe how to do that in this article:</p>
+<ul>
+<li><a href="https://support.google.com/webmasters/answer/9689846" target="_self">Google: Removals tool</a></li>
+</ul>
+<p>Note that this is temporary, because Google is actually just removing your Hub's domain from its search results until it reindexes your Hub at some point in the future. This means that you'll need to take additional steps to make the removal permanent. Google describes a few different options on how to do that in the article linked above (see <a href="https://support.google.com/webmasters/answer/9689846#make_permanent" target="_self">here</a>). One thing you should do on the Uberflip side is set the <em>No Robots Meta Tag</em>, which is described in <a href="https://help.uberflip.com/hc/en-us/articles/360018840252">this article</a>.</p>]]></description>
+         <guid isPermaLink="false">360019144251</guid>
+         <pubDate>Tue, 06 Nov 2018 20:55:11 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

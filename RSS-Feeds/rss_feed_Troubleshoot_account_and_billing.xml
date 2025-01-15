@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Troubleshoot account and billing</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Can&apos;t sign up for an Uberflip Help account</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360023388252-Can-t-sign-up-for-an-Uberflip-Help-account</link>
+         <description><![CDATA[<h2>Issue</h2>
+<p>Can't proceed when trying to register for an Uberflip help account.</p>
+<ul>
+<li>
+<strong>Chrome</strong>: After clicking on the <strong>Sign Up</strong> button, an error is displayed: “uberfliphelp.zendesk.com refused to connect.”</li>
+<li>
+<strong>Safari: </strong>Nothing happens when clicking on the <strong>Sign up</strong> button</li>
+<li>
+<strong>Firefox: </strong>After clicking on the <strong>Sign up</strong> button, the registration dialog box simply disappears</li>
+<li>
+<strong>Edge: </strong>After clicking on the <strong>Sign up button</strong>, an error is displayed: "This content can't be shown in a frame."</li>
+</ul>
+<p> </p>
+<h2>Conditions</h2>
+<ul>
+<li>
+<strong>Where</strong>: Uberflip Help registration dialog box (Click on <strong>Sign In &gt; Sign up </strong>on Uberflip Help)</li>
+<li>Error: "<em>Cookies must be enabled in your browser to sign in. Click here to enable them.</em>"<br><img src="https://help.uberflip.com/hc/article_attachments/360021262032/Uberflip_Help.png" alt="Uberflip_Help.png" width="224" height="358">
+</li>
+<li>Any browser</li>
+<li>Any operating system</li>
+</ul>
+<p> </p>
+<h2>Cause</h2>
+<p>Uberflip Help runs on Zendesk, which requires a third-party cookie for signup or login. If this cookie can't be set, the signup/login functionality breaks. Most browsers can be configured to block third-party cookies, so this issue will usually occur when your browser is set up to do this.</p>
+<p> </p>
+<h2>Steps to Fix</h2>
+<p>To resolve the issue, you must configure your browser to accept (i.e. stop blocking) third-party cookies. Browser-specific instructions are below.</p>
+<p>As an alternative, you may also use a different browser that is not set to block third-party cookies when you want to register or log in to Uberflip Helps.</p>
+<div class="tabs">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Chrome</span><span class="tabs-link">Firefox</span><span class="tabs-link">Safari</span><span class="tabs-link">Edge</span>
+</div>
+<div class="tab">
+<p>In Chrome, you will need to <strong>disable</strong> the setting <strong>Block third-party cookies:</strong></p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360021211191/Settings.png" alt="Settings.png"></p>
+<p>For instructions on where to find the cookie settings in Chrome, see <a href="https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&amp;hl=en">this article from Google</a> (under <em>Change your cookie settings &gt; Block cookies from other sites</em>).</p>
+</div>
+<div class="tab is-hidden">
+<p>In Firefox, you will need to either <strong>uncheck</strong> the setting <strong>Third-Party Cookies</strong>, or change it to the <strong>Trackers (recommended) </strong>setting:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360021270652/Preferences.png" alt="Preferences.png"></p>
+<p>For instructions on where to find the cookie settings in Firefox, see <a href="https://support.mozilla.org/en-US/kb/disable-third-party-cookies">this article from Mozilla</a>.</p>
+</div>
+<div class="tab is-hidden">
+<p>In Safari, you will need to <strong>uncheck</strong> the setting <strong>Block all cookies</strong>:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360021211911/Privacy.png" alt="Privacy.png"></p>
+<p>For instructions on where to find the cookie settings in Safari, see <a href="https://support.apple.com/en-ca/guide/safari/manage-cookies-and-website-data-sfri11471/mac">this article from Apple</a>.</p>
+</div>
+<div class="tab is-hidden">
+<p>In Edge, you will need to set the <strong>Cookies</strong> setting to <strong>Don't block cookies</strong>:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360021283532/How_do_I_enable_third_party_cookies_in_Microsoft_Edge_browser__-_Microsoft_Community.png" alt="How_do_I_enable_third_party_cookies_in_Microsoft_Edge_browser__-_Microsoft_Community.png"></p>
+<p>To find this setting in Edge, click on <strong>... button &gt; View Advanced Settings.</strong></p>
+</div>
+<p> </p>
+<h2>Additional Notes</h2>
+<ul>
+<li>Chrome is the browser most likely to be affected, because its setting for blocking third-party cookies is fairly aggressive (it blocks <strong>all</strong> third-party cookies by default). By comparison, Firefox defaults to blocking only tracker-related cookies, rather than all third-party cookies, so it is typically not affected:<br>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360021262852/Preferences.png" alt="Preferences.png" width="329" height="113"></p>
+</li>
+<li>Regardless of your cookie settings, Internet Explorer 11 appears to be unaffected by this issue.</li>
+</ul>
+</div>]]></description>
+         <guid isPermaLink="false">360023388252</guid>
+         <pubDate>Thu, 14 Feb 2019 15:13:29 GMT</pubDate>
+      </item>
+      <item>
+         <title>My Credit Card Payment Was Declined</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360018824772-My-Credit-Card-Payment-Was-Declined</link>
+         <description><![CDATA[<hr>
+<p>Uh-oh — your credit card payment didn't go through. Don't worry, it happens. While it can sometimes be difficult to pinpoint the exact reason why, here are a few things you can check on to try and fix the issue.</p>
+<hr>
+<p> </p>
+<h2>Check if your card is expired or cancelled</h2>
+<p>Maybe the card we have on file has expired, or was cancelled for some reason (the cardholder left your company, it was compromised, etc.). Review the card on your account and check if it's still valid.</p>
+<p>See <a href="https://help.uberflip.com/hc/en-us/articles/360018834372">this article</a> for instructions on how to check on your credit card details (and update them, if necessary).</p>
+<p> </p>
+<h2>Check that you entered your card information correctly</h2>
+<p>When you add a card to your account, you need to enter your name, card number, expiration date and CVV code. If you make an error typing any of these details in, your payment will be declined. Try re-entering your card details to resolve the issue.</p>
+<p>See <a href="https://help.uberflip.com/hc/en-us/articles/360018834372">this article</a> for instructions on how to update your credit card details.</p>
+<p> </p>
+<h2>Make sure the type of card that you're using is accepted</h2>
+<p>Keep in mind that we can only accept credit cards issued by Visa, MasterCard and American Express. Debit cards, credit cards issued by other companies, or prepaid cards can't be used to make a payment on your Uberflip account.</p>
+<p> </p>
+<h2>Check if your bank blocked the transaction</h2>
+<p>Sometimes, your bank will block a card transaction. This can happen for any number of reasons, but some common ones include:</p>
+<ul>
+<li>Multiple orders on the same day</li>
+<li>Charges that exceed an authorized amount</li>
+<li>International transactions</li>
+</ul>
+<p>If you've checked that your card details are correct, please try contacting your bank to see if they blocked the transaction.</p>
+<p> </p>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360018824772</guid>
+         <pubDate>Tue, 06 Nov 2018 15:57:54 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

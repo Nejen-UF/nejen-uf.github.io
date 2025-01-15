@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Manage CTA tiles</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Copy a CTA</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360021111671-Copy-a-CTA</link>
+         <description><![CDATA[<hr>
+<p>If you want to use an existing CTA as a template for a new CTA, you can easily copy it. Here's how.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>To work with CTAs, you must be a member of the <strong>Account Administrator</strong>, <strong>Content Manager</strong>, or <strong>Demand Generation</strong> user groups.</li>
+</ul>
+<p> </p>
+<h2>About copying CTAs</h2>
+<p>Copying an existing CTA is a great time-saver when you want to create a new CTA: just copy the design of an existing CTA, then make tweaks as needed. Since you probably only have to change a few things, this is often a lot faster than starting from scratch.</p>
+<p> </p>
+<h2>Copy a CTA</h2>
+<p>You can copy any existing Link or Form CTA at any time, including CTAs that are hidden. Note that copying a CTA will copy the layout and design of the CTA, but <strong>not</strong> placements or variations.</p>
+<ol>
+<li>Log in to Uberflip. Click on <strong>Hubs</strong> and select the Hub that contains the CTA you want to copy.</li>
+<li>In the sidebar menu on the left, click on <strong>Calls-To-Action</strong>, then click on <strong>Link Calls-To-Action</strong> or <strong>Form Calls-To-Action </strong>(depending on the type of CTA you want to copy).</li>
+<li>Find the CTA you want to copy in the list on the right, then <strong>click on it</strong> to open it in the CTA Editor.</li>
+<li>The CTA Editor will appear. In the top right corner, click on the <strong>Copy</strong> button:<br><br><img src="https://help.uberflip.com/hc/article_attachments/360017705452/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png"><br><br>
+</li>
+<li>In the window that appears, type in a name for the copied CTA, then click on <strong>Copy CTA</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360017591231/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="510" height="286">
+</li>
+<li>Your new CTA will be created, and you'll be taken to it in the CTA Editor view. The copied CTA will have the same layout and design of the existing CTA. Remember that placements (and <a href="https://help.uberflip.com/hc/en-us/articles/360020855752" target="_self">CTA Variations</a>) will not be copied, so you will still need to set these up before the copied CTA becomes active in your Hub.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360021111671</guid>
+         <pubDate>Tue, 18 Dec 2018 17:56:14 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hide a CTA</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020855812-Hide-a-CTA</link>
+         <description><![CDATA[<hr>
+<p>Learn how to hide a CTA from all Streams.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>To work with CTAs, you must be a member of the <strong>Account Administrator</strong>, <strong>Content Manager</strong>, or <strong>Demand Generation</strong> user groups.</li>
+</ul>
+<p> </p>
+<h2>About hiding CTAs</h2>
+<p>If you want to temporarily hide a CTA from all Streams and Items on which it has been placed, you can do this with a single click. This is useful if you want to temporarily take a CTA out of use, or if you want to retire a CTA but want to be able to reuse the design (with modifications) again in the future.</p>
+<p> </p>
+<h2>Hide a CTA</h2>
+<p>You can hide any existing Link or Form CTA at any time. Note that hiding a CTA <strong>only affects placements of the CTA</strong> <strong>in your Hub</strong>, and does <strong>not</strong> affect <a href="https://help.uberflip.com/hc/en-us/articles/360020859752">embedded CTAs</a>.</p>
+<ol>
+<li>Log in to Uberflip. Click on <strong>Hubs</strong> and select the Hub that contains the CTA you want to hide.</li>
+<li>In the sidebar menu on the left, click on <strong>Calls-To-Action</strong>, then click on <strong>Link Calls-To-Action</strong> or <strong>Form Calls-To-Action </strong>(depending on the type of CTA you want to hide).</li>
+<li>Find the CTA you want to hide in the list on the right, then <strong>hover your mouse over it</strong> to view additional options.</li>
+<li>Click on the <strong>Hide</strong> button to hide the CTA immediately:<br><img src="https://help.uberflip.com/hc/article_attachments/4408885897229/image.png" alt="image.png">
+</li>
+<li>The CTA will no longer appear in any of the Streams and/or on any Items as configured in its <strong>Placements</strong>. Hidden CTAs are indicated as <strong>Hidden</strong> in the <strong>CTA Status </strong>column in your list of CTAs:<br><img src="https://help.uberflip.com/hc/article_attachments/4408878793485/image.png" alt="image.png">
+</li>
+<li>You can also hide a CTA while editing it by clicking on the <strong>Hide</strong> button shown in the CTA Editor:<br><img src="https://help.uberflip.com/hc/article_attachments/360017705052/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png">
+</li>
+<li>To <strong>unhide</strong> a CTA and make it visible in your Hub again (according to its placements), simply hover your mouse over it again and click on the <strong>Show</strong> button that appears:<br><img src="https://help.uberflip.com/hc/article_attachments/4408878872717/image.png" alt="image.png">
+</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360020855812</guid>
+         <pubDate>Tue, 18 Dec 2018 17:02:41 GMT</pubDate>
+      </item>
+      <item>
+         <title>Create variations of a CTA</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020855752-Create-variations-of-a-CTA</link>
+         <description><![CDATA[<hr>
+<p>For any existing Link or Form CTA, you can create Item-specific contextual variations. Here's how.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>To work with CTAs, you must be a member of the <strong>Account Administrator</strong>, <strong>Content Manager</strong>, or <strong>Demand Generation</strong> user groups.</li>
+<li>CTA Variations can be created for both <strong>Link CTAs</strong> and <strong>Form CTAs</strong>.</li>
+</ul>
+<p> </p>
+<h2>About CTA Variations</h2>
+<p>When you create a CTA and place it in different locations around your Hub, the same CTA design will appear in each location. This means that if you use a given CTA a lot, it can get stale, and will be less effective in generating interest among your visitors.</p>
+<p>CTA Variations help you to address this issue by allowing you to create different designs for a single Link or Form CTA that appears beside specified Items. This helps you to get more mileage out of your CTAs, and saves time since you don't have to create and place many separate CTAs.</p>
+<p>Here's how CTA Variations work:</p>
+<ul>
+<li>Variations are placed at Item level — they can't be placed at Stream level</li>
+<li>You create Variations for individual Items, and each Variation is specific to that single Item</li>
+<li>Variations can only be placed on Items that are in the Streams on which the original CTA is placed</li>
+<li>When you create a CTA Variation, you can change:
+<ul>
+<li>Color scheme</li>
+<li>Tagline</li>
+<li>Button label</li>
+<li>Link (for Link CTAs)</li>
+<li>Success Message (for Form CTAs)</li>
+<li>Font Size</li>
+</ul>
+</li>
+<li>You <strong>can't</strong> change:
+<ul>
+<li>Form fields (for Form CTAs)</li>
+<li>Background images</li>
+</ul>
+</li>
+</ul>
+<p>Here's an example of Variations in action:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017585451/itemeditorimage_54c17edebcd36.jpg" alt="itemeditorimage_54c17edebcd36.jpg" width="701" height="146"></p>
+<p> </p>
+<h2>Add Variations to a Link CTA or Form CTA</h2>
+<p>You can create Variations for any CTA, and for both Link CTAs and Form CTAs. </p>
+<ol>
+<li>Log in to Uberflip and use the <strong>Hubs</strong> menu to select the Hub that contains the CTA you want to work with.</li>
+<li>In the sidebar menu on the left, click on <strong>Calls-To-Action</strong>, then click on either <strong>Link Calls-To-Action</strong> or <strong>Form Calls-To-Action</strong> (depending on the type of CTA).</li>
+<li>Find the Link or Form CTA in the list and <strong>click on it</strong> to open it in the CTA Editor.</li>
+<li>With the CTA Editor open, click on <strong>Variations</strong> at the top.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360017700212/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="692" height="131">
+</li>
+<li>Click on the <strong>+Add New Variation</strong> button.</li>
+<li>The <strong>Select Item for Variation</strong> window will appear. Choose the Item on which you want the Variation to appear by clicking on it.</li>
+<li>You will now see options for modifying the CTA to create the variant design. Use the dropdowns and text boxes, etc. to make your changes:<br><br><img src="https://help.uberflip.com/hc/article_attachments/360017590511/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="682" height="243"><br><br>
+</li>
+<li>Any changes you make will be saved automatically, and the variation will be deployed immediately.</li>
+<li>You can create as many variations as you like: to add more, just click on the +<strong>Add New Variation</strong> button. To delete any Variation, click on its <strong>Delete</strong> button.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360020855752</guid>
+         <pubDate>Tue, 18 Dec 2018 16:59:56 GMT</pubDate>
+      </item>
+      <item>
+         <title>Place a CTA while managing a Stream</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020860752-Place-a-CTA-while-managing-a-Stream</link>
+         <description><![CDATA[<hr>
+<p>Learn how to create CTA placements directly, while you're working with a Stream.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>To work with Streams, you need to be an <strong>Account Admin </strong>or <strong>Content Manager</strong>.</li>
+<li>You can't place CTAs at Item Level (Show Beside) with this method, only at Stream Level.</li>
+</ul>
+<p> </p>
+<h2>Place a Stream level CTA from Stream management</h2>
+<p>While you can create CTA placements centrally within the CTA Editor, there's also a convenient option for placing a CTA while you're working on a Stream. This allows you to place the CTA at Stream level.</p>
+<ol>
+<li>Log in to Uberflip, click on <strong>Hubs</strong>, and select the Hub you want to work with</li>
+<li>In the sidebar menu on the left, click on <strong>Content</strong>.</li>
+<li>On the right, click on the <strong>Stream</strong> you want to work with to open it.</li>
+<li>In the Stream control bar, click <strong>Add CTA</strong><br><img src="https://help.uberflip.com/hc/article_attachments/11934192782221" alt="mceclip0.png">
+</li>
+<li>The CTA browser will appear<br><img src="https://help.uberflip.com/hc/article_attachments/360017608371/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png" width="435" height="494">
+</li>
+<li>By default, it will show all available CTAs in your current Hub. Use the <strong>menu in the top left</strong> to filter by Form CTAs, Link CTAs, or just CTAs already in the current Stream; or, use the <strong>search box </strong>to find a CTA by name<br><img src="https://help.uberflip.com/hc/article_attachments/360017732852/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png">
+</li>
+<li>Drag the <strong>horizontal </strong><strong>scroll bar</strong> to browse through the list of available CTAs<br><img src="https://help.uberflip.com/hc/article_attachments/360017732952/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png" width="445" height="376">
+</li>
+<li>Select a CTA by clicking on it. To place it in the current Stream, use the check boxes under <strong>Stream Level:</strong> to define where it appears<br><img src="https://help.uberflip.com/hc/article_attachments/360017733072/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png">
+</li>
+<li>Your changes will be saved automatically, and will take effect immediately.</li>
+</ol>
+<p> </p>
+<h2>Rearrange CTAs in Stream management </h2>
+<p>Just like Item tiles, you can <strong>drag and drop CTAs on the Marketing Stream management page</strong> to move them into a new placement. The rules applied to the CTA will remain the same, meaning if you move a CTA one space forward, all repeating instances of that CTA move one space forward also. <img src="https://help.uberflip.com/hc/article_attachments/8214784416141/Aug-05-2022_12-30-27.gif" alt="Aug-05-2022_12-30-27.gif" width="600" height="350"></p>]]></description>
+         <guid isPermaLink="false">360020860752</guid>
+         <pubDate>Tue, 18 Dec 2018 18:28:21 GMT</pubDate>
+      </item>
+      <item>
+         <title>Embed a CTA into your website</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020859752-Embed-a-CTA-into-your-website</link>
+         <description><![CDATA[<hr>
+<p>Your CTAs don't have to live just in your Hub: by embedding them, you can put them anywhere you like, such as on your website. Here's how.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>To work with CTAs, you must be a member of the <strong>Account Administrator</strong>, <strong>Content Manager</strong>, or <strong>Demand Generation</strong> user groups.</li>
+<li>You can embed both <strong>Link CTAs</strong> and <strong>Form CTAs,</strong> as well as CTAs that are <strong>hidden</strong>. Note that <a href="https://help.uberflip.com/hc/en-us/articles/360020855812">hiding a CTA</a> will not affect embedded CTAs.</li>
+<li>Embedded CTAs are displayed within an iframe, so they remain fully functional within their non-Hub context, just as they would when displayed on your Hub.</li>
+</ul>
+<p> </p>
+<h2>Embed a CTA</h2>
+<p>You can generate an embed code for any CTA, allowing you to easily display that CTA within your non-Hub web properties.</p>
+<ol>
+<li>Log in to Uberflip. Click on <strong>Hubs</strong> and select the Hub that contains the CTA you want to embed.</li>
+<li>In the sidebar menu on the left, click on <strong>Calls-to-Action</strong>, then click on either <strong>Link Calls-To-Action</strong> or <strong>Form Calls-To-Action </strong>(depending on the type of CTA you want to embed)<strong>.</strong>
+</li>
+<li>Your existing CTAs will appear on the right. <strong>Click on the CTA</strong> you want to embed to open it in the CTA Editor.</li>
+<li>The CTA Editor will appear. In the top right corner, click on the <strong>Embed</strong> button:<br><br><img src="https://help.uberflip.com/hc/article_attachments/360017706012/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png"><br><br>
+</li>
+<li>The embed code will appear in an overlay:<br><br><img src="https://help.uberflip.com/hc/article_attachments/360017591951/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png">
+</li>
+<li>To use it, simply copy the embed code and paste it into the HTML wherever you want the CTA to appear.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360020859752</guid>
+         <pubDate>Tue, 18 Dec 2018 18:10:36 GMT</pubDate>
+      </item>
+      <item>
+         <title>GDPR Feature: Conditional CTA form fields &amp; Label Only field type</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020221931-GDPR-Feature-Conditional-CTA-form-fields-Label-Only-field-type</link>
+         <description><![CDATA[<hr>
+<p>Learn how to use Conditional CTA Form Fields and the Label Only Field Type to make your Form CTAs compliant with the GDPR.</p>
+<hr>
+<p> </p>
+<h2>Before you Begin</h2>
+<ul>
+<li>To use these features, you need to be a member of the <strong>Account Administrator</strong> or <strong>Content Manager </strong>user groups.</li>
+<li>Before you can get started, you'll need to determine which opt-in checkboxes and privacy policy details will need to be added to your Form CTAs.</li>
+<li>You'll also have to set up any corresponding opt-in and privacy policy fields in the Marketing Automation Platform(s) tied to your Form CTAs.</li>
+</ul>
+<p> </p>
+<h2>What are conditional CTA form fields?</h2>
+<p>Conditional CTA Form Fields (or just conditional fields for short) is a feature available on Form CTAs. The concept is pretty simple: not every user requires the same experience when interacting with a Form CTA. Conditional fields allows you to choose which fields on a Form CTA are shown to a given user, based on whether certain conditions have been met.</p>
+<p> </p>
+<h2>What is the Label Only form field?</h2>
+<p>You can specify several different types of fields on a Form CTA, including text, dropdown, etc. The Label Only field type allows you to add a field that consists only of the text label, with no associated input field.</p>
+<p> </p>
+<h2>How do these features relate to GDPR requirements?</h2>
+<p>The GDPR has specific requirements for the collection and management of data belonging to EU citizens, so you have to design your CTAs accordingly to incorporate opt-ins, a privacy statement, etc.</p>
+<p>Designing to meet these requirements typically makes a Form CTA more complex. If you adopt a one-size-fits-all approach, this would mean presenting the most complex version of the CTA to all visitors to your Hub — including to non-EU visitors, to whom the GDPR requirements don't apply. Doing this could potentially hurt your conversion rates.</p>
+<p>With <strong>conditional fields</strong>, you can tailor the Form CTA experience to your visitors: EU visitors will see a GDPR-compliant version of the CTA, while non-EU versions will see a simplified version.</p>
+<p>And, using the <strong>Label Only field type</strong>, you can display a note about your privacy policy along with a link to it right within the CTA. Combined with conditional fields, you can also make this note appear only for EU visitors.</p>
+<p> </p>
+<h2>How does this work in practice?</h2>
+<p>To illustrate how this works, consider an example Form CTA with the following fields:</p>
+<ul>
+<li>First Name</li>
+<li>Last Name</li>
+<li>Company</li>
+<li>Email</li>
+</ul>
+<p>If the Hub visitor interacting with this Form CTA is an EU citizen, we would need to <em>also</em> display a privacy policy on the CTA, as well as one or more opt-in checkboxes. With Conditional Fields, we can simply add a checkbox to the Form CTA, like this:</p>
+<ul>
+<li>First Name</li>
+<li>Last Name</li>
+<li>Company</li>
+<li>Email</li>
+<li><strong>[  ] I'm an EU Citizen</strong></li>
+</ul>
+<p>By tying this checkbox to Conditional Fields, we can display the necessary opt-ins and privacy policy links for GDPR compliance when an EU citizen checks the box. The result might look like this:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360015953632/itemeditorimage_5b069a1cccbc3.png" alt="itemeditorimage_5b069a1cccbc3.png" width="282" height="370"></p>
+<p>Below, we'll show you how you can do this with your own Form CTAs.</p>
+<p> </p>
+<h2>Create a condition for conditional fields</h2>
+<p>To create conditional fields on Form CTAs, you first have to create a condition: when this condition is met, the conditional fields will be displayed.</p>
+<ol>
+<li>Log in to your Uberflip account and use the <strong>Hubs</strong> menu to select the Hub you want to work in.</li>
+<li>In the sidebar menu on the left, click on <strong>Calls-To-Action</strong>, then click on <strong>Form Calls-To-Action</strong>.</li>
+<li>In the list on the right, find the <strong>Form CTA</strong> you want to modify and click on it to open it in the CTA Editor (or create a new Form CTA).</li>
+<li>Click on the <strong>Layout</strong> button, and find the section labeled <strong>Form Fields</strong>, then click on <strong>Manage</strong> next to the Form Fields heading:<br><img src="https://help.uberflip.com/hc/article_attachments/360015953852/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png">
+</li>
+<li>In the pop-up window that appears, click on +<strong>Add New</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015953912/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png">
+</li>
+<li>You can now add a new field that will form the condition to be met. This can be anything you like, but in this example, we will look at using a checkbox for users to self-select if they are EU citizens.
+<ul>
+<li>One other possible option is to use a country selection drop-down where the condition is tied to EU countries only, but this is more time-consuming to set up.</li>
+</ul>
+</li>
+<li>In the Add New Field menu, use the dropdown next to <strong>Field Type</strong> to select <strong>Checkbox</strong>. Next to <strong>Field label</strong>, type "I'm an EU Citizen" (or something else of your choice). Finally, click on <strong>Save</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015998571/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="502" height="465">
+</li>
+<li>You'll be returned to the Manage Fields view.</li>
+</ol>
+<p> </p>
+<h2>Add privacy policy and/or opt-in conditional fields</h2>
+<p>You can now add conditional fields that will display based on the condition you set up being met: in this case, if the visitor checks the box that they're an EU citizen, they will be shown your privacy policy and an opt-in email field.</p>
+<ol>
+<li>On the Manage Fields view, click on +<strong>Add New</strong> again.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015953912/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png"><br><br>
+</li>
+<li>In the Add New Field menu, use the dropdown next to <strong>Field Type</strong> to select <strong>Label Only</strong>.</li>
+<li>The displayed fields will change, and you will now see a large text field. You can either directly type your Privacy Policy into this field, or use a link to another page. Dont forget to, type in a label next to <strong>Field label</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015955852/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png">
+</li>
+<li>Lastly, use the dropdown next to <strong>Displays</strong> to change the selection to <strong>Conditionally</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015956092/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png">
+</li>
+<li>This will cause an additional <strong>Field Conditions</strong> section to appear at the bottom of the window. Use the dropdown menus to <strong>set up the condition to be met</strong>. From left to right, these select:
+<ul>
+<li>The form field to use as a condition (which you set up previously)</li>
+<li>The conditional statement (Equal To or Not Equal To)</li>
+<li>The condition (e.g. Checked or Not Checked)<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015956272/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="567" height="154">
+</li>
+</ul>
+</li>
+<li>If you want, you can also set up <strong>multiple conditions to be met</strong>. To do that, just click on the <strong>+</strong> button to the right.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015956912/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png">
+</li>
+<li>When you're finished, click on <strong>Save </strong>to add the new conditional field.</li>
+<li>You can also set up the GDPR-mandated opt-in fields the same way: click on <strong>+Add New </strong>again, then select <strong>Checkbox</strong> under <strong>Field Type</strong> and type something like "Opt in to future emails" into the <strong>Field label </strong>field. Under <strong>Displays</strong>, choose <strong>Conditionally</strong> again and set up the same condition as before:<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015956812/New_GDPR_Feature__Conditional_CTA_Form_Fields.png" alt="New_GDPR_Feature__Conditional_CTA_Form_Fields.png">
+</li>
+<li>Finally, click on <strong>Save</strong> to add this field as well. Repeat this as many times as you need for each opt-in that needs to be on the CTA.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360020221931</guid>
+         <pubDate>Mon, 26 Nov 2018 18:03:28 GMT</pubDate>
+      </item>
+      <item>
+         <title>Can I prevent people from entering personal email addresses on CTAs?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360021664812-Can-I-prevent-people-from-entering-personal-email-addresses-on-CTAs</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>Can I prevent Hub visitors from entering personal or free email addresses on Form CTAs and only allow business emails?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>Yes, you can do this using the <strong>Domain Blocker app</strong>. You can install it in your Uberflip account <a href="https://marketplace.uberflip.com/details/domain-blocker-2/">from the Marketplace</a>.</p>]]></description>
+         <guid isPermaLink="false">360021664812</guid>
+         <pubDate>Fri, 11 Jan 2019 17:30:46 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

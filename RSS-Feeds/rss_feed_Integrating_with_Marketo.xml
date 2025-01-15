@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Integrating with Marketo</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Define a Custom Lead Source Value for Marketo</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360030545852-Define-a-Custom-Lead-Source-Value-for-Marketo</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>Replace the default Uberflip-defined value for the Marketo <em>Lead Source</em> field with a custom value of your choice whenever an Uberflip Form CTA is submitted.</p>
+<p> </p>
+<h2>Step 1: Block Field Updates in Marketo</h2>
+<p>The first thing you will need to do is set up Marketo to block updates to the <em>Lead Source</em> field. This will prevent your Hub from overwriting any existing values in the <em>Lead Source</em> field, while still allowing it to set a value (which you will specify) on new leads it passes through.</p>
+<p>For instructions on how to find the Block Field Updates setting, see this article from Marketo:</p>
+<p><a href="https://docs.marketo.com/display/public/DOCS/Block+Updates+to+a+Field"><strong>Marketo: Block Updates to a Field</strong></a></p>
+<p>You will need to configure this setting for the <strong>Lead Source </strong>field (in the <em>Lead Info</em> folder). In the <strong>Block Updates From</strong> menu, check the box for <strong>Web service API</strong>:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360033098332/Marketo___Field_Management___Admin.png" alt="Marketo___Field_Management___Admin.png"></p>
+<p> </p>
+<h2>Step 2: Add Lead Source to Form CTAs as a Hidden Field</h2>
+<p>The next thing you need to do is set up your Form CTAs to override the default value that your Hub will write to the Lead Source field. To do this, you will need to add the <em>Lead Source</em> field to your Form CTAs as a hidden field, then specify which value you want to write to that field.</p>
+<p>For instructions on how to add the hidden field to your Form CTAs, see this article:</p>
+<p><a href="https://help.uberflip.com/hc/en-us/articles/360021489991" target="_self">Use Hidden Fields with Form CTAs</a></p>
+<ul>
+<li>In <strong>Step 2</strong> of the instructions in the above article, make sure you search for and add the <strong>Lead Source</strong> field</li>
+<li>Once you reach <strong>Step 5</strong>, you can choose whether you want the value to be static (same value every time) or dynamic (value changes depending on context):</li>
+</ul>
+<h3>Option 1: Use a Static Lead Source Value</h3>
+<p>If you want to pass a static value to Marketo's <em>Lead Source</em> field every time the Form CTA is submitted, simply enter the desired value into the <strong>Hidden value</strong> text field. You can configure different values for different Form CTAs to differentiate them, or simply specify the same value across all Form CTAs.</p>
+<h3>Option 2: Use a Dynamic Lead Source Value</h3>
+<p>You can also choose to have the <em>Lead Source</em> field value be dynamically populated. The most straightforward way to do this is with query string parameters, where you can set the CTA to adopt the parameter value as the <em>Lead Source</em> field value. For example, if a visitor arrives in your Hub through a URL like</p>
+<pre>resources.mycompany.com/blog/blog-post1?utm_source=<strong>EmailCampaign</strong></pre>
+<p>then <em>EmailCampaign</em> would be passed into Marketo as the value for <em>Lead Source</em> when they submit a Form CTA.</p>
+<p>For instructions on how to set this up, <a href="https://help.uberflip.com/hc/en-us/articles/360021489991-Use-Hidden-Fields-with-Form-CTAs#h_174882557551546554101287">see this section</a> of the <strong>Use Hidden Fields with Form CTAs</strong> article.</p>
+<p>If you want to do something more complex to dynamically populate the <em>Lead Source </em>field, this would generally require JavaScript. For help, please <a href="https://help.uberflip.com/hc/en-us/requests/new">contact our Support team</a>, or your Customer Success Manager.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>Remember that you must add the hidden field to every Form CTA you are using in your Hub. If you do not do this for any Form CTA, it will still pass the default Uberflip-specified value to the <em>Lead Source</em> field when it is submitted.</p>
+</div>
+<p> </p>
+<h2>Additional Notes</h2>
+<p>When a Form CTA is submitted, Uberflip will create/update the corresponding lead in the connected Marketo instance, and will populate the <em>Lead Source</em> field with a value in the format <em>UF-CTA-XXXXX-CTAName </em>(if no value exists in that field; Uberflip will not overwrite an existing value). The process described in this article will allow you to specify a value that Uberflip will write to the <em>Lead Source</em> field instead of this default value. This is useful if you use your own format for lead source values, and would like leads created by Uberflip to follow this format.</p>]]></description>
+         <guid isPermaLink="false">360030545852</guid>
+         <pubDate>Thu, 11 Jul 2019 15:36:35 GMT</pubDate>
+      </item>
+      <item>
+         <title>Embed a Marketo Form into a Hub Item</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360030510912-Embed-a-Marketo-Form-into-a-Hub-Item</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>Embed a Marketo Form directly into any Item of content in your Hub. This displays the Marketo Form when a visitor views that Item, allowing them to complete and submit it.</p>
+<p> </p>
+<h2>Prerequisite: Select Marketo Form and Get Embed Code</h2>
+<p>To begin, you will need to choose the Marketo Form you want to use and <strong>get its embed code</strong>, which will allow you to embed it into your Hub content.</p>
+<p>For instructions on getting the embed code for a Marketo Form, see this article from Marketo:</p>
+<p><strong><a href="https://docs.marketo.com/display/public/DOCS/Embed+a+Form+on+Your+Website">Marketo: Embed a Form on Your Website</a></strong></p>
+<p>Once you have copied the embed code, follow the instructions below to proceed.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>When you get the embed code in Marketo, make sure the the <strong>Code Type</strong> is set to <strong>Normal</strong>:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360033069072/Embed_a_Form_on_Your_Website_-_Marketo_Docs_-_Product_Documentation.png" alt="Embed_a_Form_on_Your_Website_-_Marketo_Docs_-_Product_Documentation.png" width="571" height="360"></p>
+<p>Otherwise, the Marketo Form will appear as a lightbox floating on top of your content.</p>
+</div>
+<p> </p>
+<h2>Embed a Marketo Form into a Hub Item</h2>
+<p>Once you have the Embed Code, all you need to do is paste it into the Hub Item where you want the Marketo Form to be displayed.</p>
+<ol>
+<li>Log in to Uberflip and navigate to the Hub that contains the Item where you want to embed the Marketo Form.</li>
+<li>In the sidebar menu on the left, click on <strong>Content</strong>.</li>
+<li>On the right side, you should be on the <strong>Streams</strong> <strong>tab</strong>. Click on the <strong>Items</strong><strong> tab</strong>.</li>
+<li>Find the Item you want to work with in the list and <strong>click on it</strong> to edit it.</li>
+<li>The <strong>Edit Article</strong> view will appear, and you should be on the <strong>Editor</strong> tab. Here, click on the <strong>Source</strong><strong> button</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360033051711/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png">
+</li>
+<li>This will display the HTML version of the content Item. Here, simply <strong>paste in the embed code from Marketo</strong> in the location where you want the Marketo Form to appear.</li>
+<li>Finally, click on <strong>Publish/Publish Changes</strong> to save your changes. The Marketo Form will now appear in the Item when it is viewed in your Hub.</li>
+</ol>
+<p> </p>
+<h2>Additional Notes</h2>
+<p>This process is mainly useful if you are already using Marketo Forms to drive automation, and want to use the same Forms in your Hub as well to continue leveraging these existing workflows. If you are mainly looking for a way to capture lead information, we recommend <a href="https://help.uberflip.com/hc/en-us/articles/360020989871" target="_self">using a Form CTA</a> instead.</p>]]></description>
+         <guid isPermaLink="false">360030510912</guid>
+         <pubDate>Wed, 10 Jul 2019 20:38:50 GMT</pubDate>
+      </item>
+      <item>
+         <title>Use Digesto to Automatically Notify Subscribers About Hub Content Updates</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360026830272-Use-Digesto-to-Automatically-Notify-Subscribers-About-Hub-Content-Updates</link>
+         <description><![CDATA[<hr>
+<p>Learn how to use Digesto to let visitors subscribe to your Hub, so that they can be automatically notified by email whenever you publish new content.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>To do this, you'll need a <strong>Digesto account</strong>. To sign up for one, visit <a href="http://digesto.io/" target="_self">Digesto's website</a>.</li>
+<li>Digesto is an app for <strong>Marketo</strong>, so you need a Marketo account to use it. This also means that, to use Digesto with your Uberflip Hub content, you will need to <a href="https://help.uberflip.com/hc/en-us/articles/360022063751" target="_self">integrate Marketo with your Uberflip Hub</a>.</li>
+</ul>
+<p> </p>
+<h2>About Digesto</h2>
+<p>Digesto is an RSS-to-Email application for Marketo. If you're using Marketo as your Marketing Automation Platform, Digesto lets visitors subscribe to updates to your Hub, then automatically sends them scheduled email summaries of your latest content.</p>
+<p>Here's how it works: in your Hub, you set up a Marketo-connected <a href="https://help.uberflip.com/hc/en-us/articles/360020989871" target="_self">Form CTA</a> that prompts visitors to subscribe to your content updates by entering their email (and any other information you want to collect):</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360026560792/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png"></p>
+<p>You can place this CTA in a Stream, then set up Digesto to monitor that Stream's RSS feed. On a schedule you specify, Digesto will package new Items that have appeared in the Stream's RSS feed into an email "digest", and send it to any subscriber who submitted the Form CTA.</p>
+<p>If you want to use Digesto in your Hub, here's what you need to do:</p>
+<ul class="list-bullet">
+<li>Create a Static List in Marketo to hold subscribers</li>
+<li>Create a Form CTA to collect subscribers, attach your Static List to it, and place the Form CTA in the Stream you want to allow visitors to subscribe to</li>
+<li>Get the Stream's RSS feed</li>
+<li>Use the RSS Feed to create a Digest in Digesto</li>
+<li>Create a Program in Marketo dedicated to Digesto</li>
+<li>Configure the Smart Campaign in the Digesto-specific Program to send emails to subscribers</li>
+</ul>
+<p>Each of these steps is described in more detail below.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>For simplicity, all of the instructions in this article describe how to set up Digesto for use with <strong>one</strong> Stream in your Uberflip Hub, but you can set up Digesto with as many Streams as you want.</p>
+<p>The setup process is largely identical for additional Streams after your first one, with a few small tweaks. At the end of this article, you'll find <a href="#h_9ce31ad0-e066-4da8-a973-6f18b65dc32a" target="_self">an additional section</a> that details what you need to keep in mind when you add Digesto functionality to further Streams.</p>
+</div>
+<p> </p>
+<h2 id="h_efca44e5-cfad-4c34-a33b-680b83acd4e1">Prerequisite: Set Up Required Integrations</h2>
+<p>Digesto is a Marketo app, so you need to <strong>integrate Digesto with your Marketo account</strong> before you can begin using it (with Uberflip, or elsewhere).</p>
+<p>You can find instructions on how to do that in this article from Digesto:</p>
+<p><strong><a href="https://help.digesto.io/en/articles/5305213-step-1-connect-your-marketo-account-to-digesto-via-rest-api" target="_self" rel="undefined">Digesto: Connect your Marketo account to Digesto via REST API</a></strong></p>
+<p>This also means that, to use Digesto with your Uberflip Hub, <strong>your Hub needs to be integrated with your Marketo account</strong>. Before you can proceed, you'll need to set up this integration if you have not yet done so.</p>
+<p>For detailed instructions on how to set up a Marketo integration with your Hub, see this article:</p>
+<p><a href="https://help.uberflip.com/hc/en-us/articles/360022063751-Set-Up-a-Marketo-Integration"><strong>Set Up a Marketo Integration</strong></a></p>
+<p> </p>
+<h2 id="h_df07de26-98dd-4366-aff0-4f0f7156390a">Step 1: Create a Static List for Subscribers</h2>
+<p>To hold the email addresses (and other details) of visitors who want to subscribe to a Stream, you need to <strong>create a new Static List</strong> in Marketo. You will later connect this Static List to your Form CTA in Uberflip. As with all Marketo Lists that you use with Uberflip, you <strong>must create this List in the Lead Database section </strong>(not under Marketing Activities).</p>
+<p>For instructions on how to create a Static List in Marketo, see this article from Marketo:</p>
+<p><strong><a href="https://docs.marketo.com/display/public/DOCS/Create+a+Static+List" target="_self">Marketo: Create a Static List</a></strong></p>
+<p> </p>
+<h2 id="h_d7fd6c76-fbee-400f-b0af-260b405c3bdc">Step 2: Create a Form CTA</h2>
+<p>You'll collect subscribers to the Stream using a Form CTA. <strong>Create a new Form CTA</strong> for use with Digesto, and make sure that it is:</p>
+<ul>
+<li>Connected to<strong> Marketo</strong>
+</li>
+<li>Attached to the<strong> Static List</strong> you created in the previous step</li>
+<li>Only has <strong>one</strong> placement: an <strong>At Stream Level</strong> placement within the Stream you want to allow visitors to subscribe to</li>
+</ul>
+<p>See the following article for instructions on how to create and configure the Form CTA:</p>
+<p><strong><a href="https://help.uberflip.com/hc/en-us/articles/360020989871" target="_self">Set Up a Form CTA</a></strong></p>
+<p> </p>
+<h2>Step 3: Get the Stream's RSS Feed</h2>
+<p>Digesto knows when new content has been added to a Stream by monitoring its RSS feed. As a result, you'll need to get the RSS feed for the Stream that you want to let your visitors subscribe to.</p>
+<p>Within your Hub, each individual Stream has its own RSS feed, and you can also get a Hub-wide RSS feed that covers content across all Streams (by default, the <em>Latest Content</em> Items on your Hub homepage). Expand the relevant section below for instructions on how to find the desired type of RSS feed:</p>
+<div class="accordion accordion--default">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Get the RSS feed for a Hub (Latest Content)<br></strong></div>
+<div class="accordion__item-content">
+<ol>
+<li>Log in to Uberflip and navigate to the Hub you want to work with.</li>
+<li>In the top left corner, click on <strong>(RSS)</strong> next to the Hub favicon and name:
+<ul>
+<li>Make sure to click on <strong>(RSS)</strong>, not the domain of the Hub (which appears right next to it).<br><img src="https://help.uberflip.com/hc/article_attachments/360026617391/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png">
+</li>
+</ul>
+</li>
+<li>The RSS feed for the Hub will open in a new tab, with a URL like this: <em>https://hub.mywebsite.com/h/feed.rss</em>
+</li>
+<li>This URL represents the RSS feed for the entire Hub. <strong>Copy this URL</strong> so that you can use it in Digesto later.</li>
+</ol>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>If the <strong>Replace Home Page with a Marketing Stream </strong>setting (Under <strong>Hub Options &gt; Advanced)</strong> is being used, the Hub's RSS feed will include only Items that are in the selected Marketing Stream and are not hidden.</p>
+<p>To get a Hub-level RSS feed that contains Items across all Streams, change this setting back to <strong>Latest Content</strong> (note that this will still only include non-hidden Items).</p>
+</div>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Get the RSS feed for a single Stream<br></strong></div>
+<div class="accordion__item-content">
+<ol>
+<li>Log in to Uberflip and navigate to the Hub you want to work with.</li>
+<li>Open the Stream for which you want to get the RSS feed under the <strong>Content</strong> section.</li>
+<li>While viewing the Stream, click on <strong>RSS </strong>in the top right corner:<br><img src="https://help.uberflip.com/hc/article_attachments/360026620612/Hubs___Manage_-_Uberflip_-__Private_Browsing_.png" alt="Hubs___Manage_-_Uberflip_-__Private_Browsing_.png" width="651" height="299">
+</li>
+<li>The RSS feed for the Stream will open in a new tab, with a URL like this: <em>https://hub.mywebsite.com/streamname.rss</em>
+</li>
+<li>This URL represents the RSS feed for the selected Stream. <strong>Copy this URL</strong> so that you can use it in Digesto later.</li>
+</ol>
+</div>
+</div>
+</div>
+<p> </p>
+<h2>Step 4: Create a Digest in Digesto</h2>
+<p>Now that you have the RSS feed you need, you can set up the Digest for this Stream in Digesto. Digests are the actual emails that will be sent out to subscribers to notify them of new content in the Stream. As part of creating a Digest, you will specify which RSS feed it should monitor (i.e. the one you just got from your Hub), as well as options like what the email will look like, the schedule on which it is sent, etc.</p>
+<p>For detailed instructions on how to create a Digest, see this article from Digesto:</p>
+<p><a href="https://help.digesto.io/en/articles/5305208-step-2-create-your-first-digest" target="_self" rel="undefined">Digesto: Create your first Digest</a></p>
+<p> </p>
+<h2 id="h_e2576364-b54f-4873-9677-0c1d3321c2dd">Step 5: Create a Dedicated Marketo Program</h2>
+<p>Digesto requires a dedicated Program in Marketo, so you'll need to <strong>create this Program</strong> next.</p>
+<p>The Digesto-specific Program needs to be configured in a specific way. To create this Program in Marketo, follow the instructions in this article from Digesto:</p>
+<p><strong><a href="https://help.digesto.io/en/articles/5305199-step-3-create-a-dedicated-marketo-program" target="_self" rel="undefined">Digesto: Create a dedicated Marketo program</a></strong></p>
+<p> </p>
+<h2>Step 6: Configure Smart Campaigns in Marketo</h2>
+<p>Almost done! As part of setting up the dedicated Marketo Program for Digesto in the previous step, you will have created two Smart Campaigns: one for testing, and one for production. What you need to do now is configure these Smart Campaigns so that they specifically email subscribers to your Stream (technically, you only need to configure the production Smart Campaign in this way, but we strongly recommending testing your setup first using the testing Smart Campaign).</p>
+<ol>
+<li>Begin by setting up the Smart Campaigns as described in Step 4 of <a href="https://help.digesto.io/en/articles/5305199-step-3-create-a-dedicated-marketo-program" target="_self" rel="undefined">the Digesto article</a>.</li>
+<li>Under the <strong>Smart List</strong> section, add a single <strong>Member of List</strong> filter, and configure it as follows:<br>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360026647092/Marketo___Digesto_Email_Campaign__Smart_List____Marketing_Activities.png" alt="Marketo___Digesto_Email_Campaign__Smart_List____Marketing_Activities.png"></p>
+(For <em>Digesto Subscribers</em>, substitute the Static List you created in <a href="#h_df07de26-98dd-4366-aff0-4f0f7156390a" target="_self">Step 1</a>.)</li>
+<li>Continue to configure the Smart Campaign (i.e. Flow, Schedule, etc.) as described in the Digesto article.</li>
+</ol>
+<p>That's it! The Smart Campaign is now set up in such a way that any visitor who submits the Form CTA on the Stream you chose will be added to the Static List, and will therefore be automatically pulled in to the Smart List on the campaign. The campaign will trigger the Digesto Digest, which will be emailed to your subscribers according to the schedule you set up in Digesto.</p>
+<p> </p>
+<h2 id="h_9ce31ad0-e066-4da8-a973-6f18b65dc32a">Configure Digesto for Additional Streams</h2>
+<p>All of the steps above describe how to set up Digesto to notify subscribers of updates to just one Stream, but you can allow visitors to subscribe to any number of separate Streams in your Hub.</p>
+<p>For each additional Stream that you want enable Digesto on, simply repeat the steps above, with the following adjustments:</p>
+<ul>
+<li>
+<strong>Step 1: </strong>Create a new, separate Static List for each individual Stream. As a best practice, give these Static Lists descriptive names that will help you find them later (such as "XYZ Stream for Digesto").</li>
+<li>
+<strong>Step 2: </strong>Create a separate Form CTA for each Stream, and associate it with the Static List dedicated to that Stream's subscribers.</li>
+<li>
+<strong>Step 3: </strong>Get the Stream's RSS feed as usual.</li>
+<li>
+<strong>Step 4:</strong> Digests can only be associated with one RSS feed, so you will need to set up separate Digests in Digesto for each individual Stream.</li>
+<li>
+<strong>Step 5: </strong>You do not need to create separate Digesto-specific Programs in Marketo for additional Streams. Instead, add a new Smart Campaign to the existing Program for each Stream you want to add.</li>
+<li>
+<strong>Step 6: </strong>When you configure the Smart Campaign, make sure to set up the Smart List to pull in subscribers from the Stream-specific Static List you created in Step 1.</li>
+</ul>]]></description>
+         <guid isPermaLink="false">360026830272</guid>
+         <pubDate>Thu, 18 Apr 2019 13:58:09 GMT</pubDate>
+      </item>
+      <item>
+         <title>Create a Marketo Smart Campaign that sends Interesting Moments to Salesforce</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360023026832-Create-a-Marketo-Smart-Campaign-that-sends-Interesting-Moments-to-Salesforce</link>
+         <description><![CDATA[<hr>
+<p>Using a Marketo Smart Campaign, you can automatically notify your Sales team whenever a lead views a specific piece of content. Here's how.</p>
+<hr>
+<p> </p>
+<h2>Step 1: Get the Item ID</h2>
+<p>First you have to find the Item ID of the premium piece of content you want to let the Sales Team know your Lead/Person has viewed.</p>
+<ol>
+<li>Edit the Item in the Manage Stream page.<br>
+<p><img style="border-width: 1px; border-style: solid;" src="https://content.cdntwrk.com/files/aHViPTQyNjMxJmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzVhZDA5OTlkMjBmZTgucG5nJnZlcnNpb249MDAwMCZzaWc9YzhkMmEwZjAxMjgyYjgwYzc0NmE2MWU4NDM5MjRkNjg%253D" alt="" width="699" height="397"></p>
+</li>
+<li>Find the longest number in the Browser URL ​(&lt;HubId&gt;/<strong>&lt;ItemId&gt;</strong>/StreamId&gt;). This is your Item Id you'll need to target in your Marketo Campaign Smartlist.<br>
+<p><img style="border-width: 1px; border-style: solid;" src="https://content.cdntwrk.com/files/aHViPTQyNjMxJmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzVhZDA5OWRiNDkwNGEucG5nJnZlcnNpb249MDAwMCZzaWc9NjcxOTQyODlkNTZjMjRhMzdhOTI2NzBlZDM5MWQ1NGE%253D" alt="" width="698" height="423"></p>
+</li>
+</ol>
+<h2>Step 2: Set Up the Marketo Smart Campaign<strong><br></strong>
+</h2>
+<ol>
+<li>Next, you have to set up the Campaign Smartlist to look for Data Value Changes on uf_conversion_item_id. The uf_conversion_item_id will update with the Item Id of an asset when a Lead/Person submitted a Form CTA on  or when a fully profiled Lead/Person views an Asset where the usual Form CTA hides.<br>
+<p><img style="border-width: 1px; border-style: solid;" src="https://content.cdntwrk.com/files/aHViPTQyNjMxJmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzVhZDA5YTE0NGM2NGMucG5nJnZlcnNpb249MDAwMCZzaWc9NzE4NzEyMjE2NDBkZWZjZTllZWQ2MzBjY2M0NTgzYjk%253D" alt="" width="698" height="322"></p>
+</li>
+<li>Create the Interesting Moment that lets your Sales Team know the Lead/Person has viewed this premium piece of content. This will show up in the Leads/Person's Marketo Activity log and within the Marketo Sales Insight module within Salesforce!<br>
+<p><strong><img style="border-width: 1px; border-style: solid;" src="https://content.cdntwrk.com/files/aHViPTQyNjMxJmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzVhZDA5YWQ2YTkzNzAucG5nJnZlcnNpb249MDAwMCZzaWc9MThlZjY3ZjBmOWM4OTY3YmViNGU2M2VhMjI0NWQ0M2Y%253D" alt="" width="698" height="277"></strong></p>
+</li>
+</ol>
+<p> </p>
+<h2>Step 3: Repeat for Other Premium Content</h2>
+<p>Create a Marketo Smart Campaign for each of your premium content pieces with a Data Value change looking for those Item Ids, and your Sales Team can easily keep up to speed on what content their prospects are consuming!</p>]]></description>
+         <guid isPermaLink="false">360023026832</guid>
+         <pubDate>Tue, 12 Feb 2019 18:31:21 GMT</pubDate>
+      </item>
+      <item>
+         <title>Get API Access Credentials for Your Marketo Account</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360021904392-Get-API-Access-Credentials-for-Your-Marketo-Account</link>
+         <description><![CDATA[<hr>
+<p>To integrate your Hub with Marketo, you will need to obtain API access credentials. Here's how.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>In Marketo, you need to be an <strong>Admin</strong> to create roles, users, and services, and to work with the API.</li>
+</ul>
+<p> </p>
+<h2>About Integrations and the Marketo API</h2>
+<p>To integrate with your Marketo account, your Hub will access the account using the Marketo API. To be able to do this, there are several things you need to set up in Marketo beforehand:</p>
+<ol>
+<li>First, you have to set up a new role in Marketo. The eventual goal is to create a user specifically for this integration (see below), and before you can create the user, you have to define its permissions by creating a role. Since the user will be "API Only", you'll create an <strong>API Only Role</strong>.</li>
+<li>Next, you will use the new role to create a special type of user called an <strong>API Only User</strong>. API Only Users are used by third-party apps (like Uberflip) to access Marketo accounts in a limited way. As they're specific to a given integration, you'll create an API Only User for the Uberflip integration.</li>
+<li>When you've set up the API Only User, you'll be able to create the <strong>API credentials</strong> you need to set up the integration in Uberflip. You do this by creating a LaunchPoint Custom Service in Marketo to get a <strong>Client Id and Client Secret</strong>. These allow Uberflip to access your Marketo account via the API Only User.</li>
+<li>The last step is to find your Marketo <strong>REST API endpoint and identity</strong>. These tell Uberflip how to access your Marketo account using the API.</li>
+</ol>
+<p>When you have the Client Id/Secret and the API endpoint/identity, you'll have everything you need to <a href="https://help.uberflip.com/hc/en-us/articles/360022063751">integrate your Hub with Marketo</a>.</p>
+<p> </p>
+<h2>Step 1: Create an API Only Role</h2>
+<p>Begin by creating the <strong>API Only Role</strong> in your Marketo account. For instructions, <strong>see this guide from Marketo</strong>:</p>
+<p class="wysiwyg-text-align-center"><a href="https://docs.marketo.com/display/public/DOCS/Create+an+API+Only+User+Role"><strong>Marketo: Create an API Only User Role</strong></a></p>
+<p>A few things to note as you go through the guide:</p>
+<ul class="list-bullet">
+<li>When you select the API permissions to grant this role (in <strong>Step 4 </strong>of the linked guide), you must at minimum <strong>enable the Access API &gt; Read-Write Lead permission</strong> for the Uberflip integration to work:<br><img src="https://help.uberflip.com/hc/article_attachments/360019864172/Marketo___Roles___Admin.png" alt="Marketo___Roles___Admin.png" width="374" height="373">
+</li>
+<li>If you intend to use this role for other API Only Users you create, you can also grant other permissions as needed (only the <em>Read-Write Lead</em> permission will be used by the Uberflip integration).</li>
+<li>Alternatively, you can also create an API Only Role that is specific to Uberflip. Simply enter something like "Uberflip API Only Role" as the <em>Role Name</em>.</li>
+</ul>
+<p> </p>
+<h2>Step 2: Create an API Only User for Uberflip</h2>
+<p>When you have created the API Only Role, you can create the <strong>API Only User</strong>. For instructions, <strong>see this guide from Marketo</strong>:</p>
+<p class="wysiwyg-text-align-center"><strong><a href="https://docs.marketo.com/display/public/DOCS/Create+an+API+Only+User">Marketo: Create an API Only User</a></strong></p>
+<p>A few things to note as you go through the guide:</p>
+<ul class="list-bullet">
+<li>When you fill out the <strong>Info</strong> section of the <strong>Invite New User</strong> dialog (in <strong>Step 3</strong> of the linked guide), you can enter any email you want, provided it's not already in use by another Marketo user. You'll use this email to identify this API Only User in a later step, so if you have multiple API Only Users, it's a good idea to make it something easily identifiable.</li>
+<li>For the <em>Reason</em> field in the Info section, type in something like "Uberflip integration" as a reminder. Likewise, you can type something like "Uberflip" and "Integration" into the <em>First Name</em> and <em>Last Name</em> fields, respectively, if you want:<br><img src="https://help.uberflip.com/hc/article_attachments/360019737571/Marketo___Users___Admin.png" alt="Marketo___Users___Admin.png" width="451" height="347">
+</li>
+<li>On the <strong>Permissions</strong> section, remember to <strong>check the box for <em>API Only</em></strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360019738031/Marketo___Users___Admin.png" alt="Marketo___Users___Admin.png" width="452" height="346">
+</li>
+</ul>
+<p> </p>
+<h2>Step 3: Get API Credentials</h2>
+<p>Once you've established your API Only User, you can use it to <strong>generate API access credentials</strong>. You'll need these to link your Uberflip Hub to your Marketo account.</p>
+<p>To get API credentials, you need to create a <strong>LaunchPoint Custom Service</strong> in Marketo. For instructions, <strong>see this guide from Marketo</strong>: </p>
+<p class="wysiwyg-text-align-center"><strong><a href="https://docs.marketo.com/display/public/DOCS/Create+a+Custom+Service+for+Use+with+ReST+API">Marketo: Create a Custom Service for Use with ReST API</a></strong></p>
+<p>A few things to note as you go through the guide:</p>
+<ul class="list-bullet">
+<li>Make sure to follow the instructions in both sections of the linked guide: <strong>Create Custom Service</strong> and <strong>Credentials</strong><strong> for API Access</strong>.</li>
+<li>When you set up the new service (in <strong>Step 3</strong> &amp; <strong>Step 4</strong> under <strong>Create Custom Service</strong> in the linked guide) here are some guidelines for what to enter:
+<ul>
+<li>
+<strong>Display Name: </strong>Uberflip</li>
+<li>
+<strong>Service</strong>: Custom</li>
+<li>
+<strong>Description</strong>: Uberflip integration</li>
+<li>
+<strong>API Only User</strong>: <em>[select the email you assigned to your API Only User]<br></em><img src="https://help.uberflip.com/hc/article_attachments/360019873392/Marketo___Installed_Services___Admin.png" alt="Marketo___Installed_Services___Admin.png" width="450" height="440">
+</li>
+</ul>
+</li>
+<li>When you get to <strong>Credentials for API Access</strong> in the linked guide, make a note of the <strong>Client Id and Client Secret</strong> (you can ignore the <strong>Authorized User</strong> and <strong>Token</strong>):<br><img src="https://help.uberflip.com/hc/article_attachments/360019875612/Marketo___Installed_Services___Admin.png" alt="Marketo___Installed_Services___Admin.png">
+</li>
+</ul>
+<p> </p>
+<h2>Step 4: Get REST API Details</h2>
+<p>The last thing you need to do in Marketo is grab your <strong>REST API Endpoint and Identity</strong>. Like the API credentials, you'll need these when you go to set up the integration in Uberflip.</p>
+<ol>
+<li>In Marketo, click on <strong>Web Services </strong>(under the <strong>Integration </strong>section) in the menu on the left.</li>
+<li>Scroll down to the <strong>Rest API</strong> section.</li>
+<li>Make a note of the <strong>Endpoint</strong> and <strong>Identity</strong> that appear here:<br><img src="https://help.uberflip.com/hc/article_attachments/360019744151/Marketo___Web_Services___Admin.png" alt="Marketo___Web_Services___Admin.png" width="695" height="129">
+</li>
+</ol>
+<p>You're all set! You should now have the following:</p>
+<ul>
+<li><strong>Client Id</strong></li>
+<li><strong>Client Secret</strong></li>
+<li><strong>REST API Endpoint</strong></li>
+<li><strong>Rest API Identity</strong></li>
+</ul>
+<p>With these details, you're ready to <a href="https://help.uberflip.com/hc/en-us/articles/360022063751">set up your Marketo integration</a> in Uberflip.</p>]]></description>
+         <guid isPermaLink="false">360021904392</guid>
+         <pubDate>Thu, 17 Jan 2019 18:33:01 GMT</pubDate>
+      </item>
+      <item>
+         <title>Set up a Marketo integration</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360022063751-Set-up-a-Marketo-integration</link>
+         <description><![CDATA[<p>Learn how to integrate your Marketo account to feed leads from your Uberflip Hubs to Marketo.</p>
+<p> </p>
+<h2 id="h_01HA5KPXZMMT21SBTW1DQ1133M">Before You Begin</h2>
+<ul>
+<li>To set up a Marketo integration, you need to be in the <strong>Account Admin,</strong> <strong>Content Manager </strong>or <strong>Demand Generation </strong>user group(s).</li>
+<li>You will also need a <strong>Marketo</strong> account with <strong>Admin permissions</strong>.</li>
+<li>To get the most out of the integration, you should be using Form CTAs to generate leads to send to Marketo. To learn more about Form CTAs and how to set them up, see <a href="https://help.uberflip.com/hc/en-us/articles/360020989871">this article</a>.</li>
+</ul>
+<div class="callout callout--success">
+<h4 id="h_01HA3833F2Q3QWX8SAWD87TXXH" class="callout__title">Another way to learn 📺</h4>
+<p>Check out the <a href="https://academy.uberflip.com/" target="_blank" rel="noopener noreferrer">Uberflip Academy</a> for a <a href="https://academy.uberflip.com/integrations/connecting-and-configuring-the-marketo-integration" target="_blank" rel="noopener noreferrer">video overview on setting up a Marketo integration</a>.</p>
+</div>
+<h2 id="h_01HA5KPXZM0KRQ2V21XPANFPWN">About the Marketo Integration</h2>
+<p>If you use Marketo as part of your marketing tech stack, you can integrate it with your Uberflip account to get the most out of both platforms. Within your Uberflip Hubs, <a href="https://help.uberflip.com/hc/en-us/articles/360020989871">Form CTAs</a> are a highly effective way to generate leads — <a href="https://hub.uberflip.com/blog/gating-content-this-one-small-change-will-7x-your-conversion-rate">over 7x more effective than traditional landing pages</a>. And once you've generated those leads, you need to do something with them — which is where Marketing Automation Platforms (MAPs) like Marketo shine.</p>
+<p>Form CTAs are designed to stream the leads they capture to a MAP, where you can make them part of your lead nurturing strategy. With Marketo specifically, you have the option of adding these leads to your main Leads list, or to a Marketo List of your choice.</p>
+<p>When you integrate your account with Marketo, we also automatically assign all visitors unique IDs (using cookies). This has two effects:</p>
+<ul>
+<li>If a visitor fills out a Form CTA that is connected to Marketo, the data they enter is tied to their cookie's ID. This allows us to automatically prefill that visitor's data on any other Form CTAs that they interact with.</li>
+<li>Even if a user has not yet filled out a Form CTA, the cookie allows them to be tracked as they engage with your Hub content. If you set up the necessary custom fields in Marketo, this allows you to track the Items that leads convert on.</li>
+</ul>
+<p>In this article, we'll look at how to set up the prerequisites for integrating your account with Marketo, how to configure the integration, and optional steps to enable additional data collection.</p>
+<p> </p>
+<h2 id="h_948614204271547759391585">Prerequisite: Get API Credentials</h2>
+<p>Uberflip integrates with Marketo via the Marketo API. To set up an integration using the Marketo API, you will need to get API access credentials for your Marketo account. Specifically, you will need:</p>
+<ul>
+<li><strong>Client Id</strong></li>
+<li><strong>Client Secret</strong></li>
+<li><strong>API Endpoint</strong></li>
+<li><strong>API Identity</strong></li>
+</ul>
+<p>You can find detailed instructions on how to get these details in this article:</p>
+<p><a href="https://help.uberflip.com/hc/en-us/articles/360021904392"><strong>Get API Access Credentials for Your Marketo Account</strong></a></p>
+<p> </p>
+<h2 id="h_01HA5KPXZN11Q6YAD5083B5TBY">Step 1: Connect Your Account to Marketo</h2>
+<p>Once you have your Marketo API access credentials, you're ready to connect your account to Marketo.</p>
+<ol>
+<li>Log in to your Uberflip account and select any Hub.</li>
+<li>In the sidebar menu on the left, click on <strong>Integrations</strong>.<br><img src="https://help.uberflip.com/hc/article_attachments/19433648205325" alt="Hubs___Integrations_-_Uberflip.png">
+</li>
+<li>On the right, you'll see a list of services that Uberflip can integrate with. Find <strong>Marketo</strong> in the list, then click on its <strong>Connect</strong> button on the right (under the <strong>Action</strong> column) to set up the integration:<br><img src="https://help.uberflip.com/hc/article_attachments/360018893491" alt="Hubs___Integrations_-_Uberflip.png" width="694" height="63">
+</li>
+<li>The Marketo API Info pop-up will appear. Here, type in <a href="#h_948614204271547759391585">the API credentials you obtained previously</a>:<br><img src="https://help.uberflip.com/hc/article_attachments/360018913631" alt="Hubs___Integrations_-_Uberflip.png" width="363" height="375">
+</li>
+<li>Click on the <strong>Enter API Info</strong> button. You will briefly see <strong>Connecting...</strong> and should be returned to the to the <strong>Integrations</strong> page, where you'll now see <em>connected</em> next to Marketo in the list, as well as three new buttons where the <strong>Connect </strong>button previously appeared:<br><img src="https://help.uberflip.com/hc/article_attachments/360018913771" alt="Hubs___Integrations_-_Uberflip.png" width="703" height="55">
+</li>
+<li>That's it! Marketo is now connected to your account. Next, you'll need to configure some options and create some custom fields in Marketo to receive the data Uberflip will send over.</li>
+</ol>
+<p> </p>
+<h2 id="h_911607694461547760838942">Step 2: Enable Flipbook Tracking and Content Counters (Optional)</h2>
+<p>The integration will work if you don't complete this step, but it's highly recommended. Enabling Flipbook Tracking and Content Counters will allow you to track visitor behavior within your Hubs, and link it to specific leads in Marketo.</p>
+<ol>
+<li>On the <strong>Integrations</strong> page, click on the <strong>Edit </strong>button that now appears next to Marketo in the list (under the <strong>Action</strong>) column:<br><img src="https://help.uberflip.com/hc/article_attachments/19433648213901" alt="Hubs___Integrations_-_Uberflip.png">
+</li>
+<li>The <strong>Edit Settings</strong> window will open. Here, click on the two checkboxes next to <strong>Flipbook Tracking</strong> and <strong>Content Counters</strong> to enable these options:<br><img src="https://help.uberflip.com/hc/article_attachments/360018914011" alt="Hubs___Integrations_-_Uberflip.png" width="497" height="409">
+</li>
+<li>Enter your <strong>Client Secret</strong> into the field provided, then click on <strong>Save</strong>.</li>
+</ol>
+<p> </p>
+<h2 id="h_01HA5KPXZNSQMAR9NG8VGK0FSK">Step 3: Create Custom Fields</h2>
+<p>Whenever a visitor to your Hubs submits a Form CTA, the information they entered will now be passed to your Marketo account. However, by default, Marketo does not have all the fields that are required to record the information coming from Uberflip. As a result, you'll need to create these fields manually.</p>
+<ol>
+<li>On the <strong>Integrations</strong> page, click on the <strong>Fields </strong>button next to Marketo under the <strong>Action </strong>column:<br><img src="https://help.uberflip.com/hc/article_attachments/19433648221965" alt="Hubs___Integrations_-_Uberflip.png">
+</li>
+<li>The <strong>Service Fields</strong> window will open. Inside, you'll see a list of all the custom fields that need to be set up in Marketo to record the data being sent from Uberflip:<br><img src="https://help.uberflip.com/hc/article_attachments/360019048552" alt="Hubs___Integrations_-_Uberflip.png" width="695" height="478">
+</li>
+<li>By default none of the fields will exist yet, as indicated by the <strong>x</strong> in the <strong>Status</strong> column, and the red coloring. To be able to record data in a given field, you must first create that field in Marketo. <strong>Keep the Service Fields window open</strong>, then <strong>log in to Marketo</strong> in a new browser tab/window.</li>
+<li>In Marketo, click on <strong>Admin</strong> in the top right:<br><img src="https://help.uberflip.com/hc/article_attachments/360018916451" alt="Marketo___Field_Management___Admin.png">
+</li>
+<li>In the menu on the left, click on <strong>Field Management </strong>(under <strong>Database Management</strong>):<br><img src="https://help.uberflip.com/hc/article_attachments/360018916511" alt="Marketo___Field_Management___Admin.png">
+</li>
+<li>Under the Field Management tab at the top, click on <strong>New Custom Field</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360018916651" alt="Marketo___Field_Management___Admin.png" width="474" height="160">
+</li>
+<li>The <strong>New Custom Field</strong> menu will appear. To create a field, you need to configure three values: <strong>Type</strong>, <strong>Name</strong>, and <strong>API Name</strong>.<br><img src="https://help.uberflip.com/hc/article_attachments/360018916871" alt="Marketo___Field_Management___Admin.png">
+</li>
+<li>Switch to the tab where you have the <strong>Service Fields </strong>window open in Uberflip. Look for the first field that needs to be created and <strong>find the Type, Name and API Name values for that field:</strong><strong><img src="https://help.uberflip.com/hc/article_attachments/360018920551" alt="Hubs___Integrations_-_Uberflip.png" width="706" height="75"></strong>
+</li>
+<li>Use the values from Uberflip to <strong>fill out the corresponding fields</strong> in the Marketo <strong>New Custom Field</strong> menu. Make sure to <strong>copy and paste the values</strong> <strong>from the Name and API Name column</strong> so that they're exactly the same in Marketo:<br><img src="https://help.uberflip.com/hc/article_attachments/360018920891" alt="Marketo___Field_Management___Admin.png"><br>(<strong>Note:</strong> Marketo will automatically fill in an <strong>API Name</strong> when you enter a <strong>Name. </strong>This automatic API Name will <strong>NOT</strong> work, so make sure to<strong> overwrite it with the value from Uberflip</strong>.)</li>
+<li>Click on <strong>Create</strong> to add the field to Marketo.</li>
+<li>Now, <strong>switch back to the tab with the </strong><strong>Uberflip Service Fields window</strong>. In the Service Fields window, click on the <strong>Refresh</strong> button. If you created the custom field in Marketo correctly, that field's line will now turn grey, and a checkmark will appear beside it under the <strong>Status</strong> column:<br><img src="https://help.uberflip.com/hc/article_attachments/360019054212" alt="Hubs___Integrations_-_Uberflip.png" width="696" height="45">
+</li>
+<li>
+<strong>Repeat Steps 6-11</strong> for each of the remaining fields shown in the Service Fields window, until you have created them all in Marketo (i.e. until no more fields are shown in red). You must add all fields marked as <strong>Required</strong>, and we strongly recommend adding the <strong>Optional</strong> fields as well (see <a href="#h_122448172301547497456083">the note below</a> for more details).</li>
+<li>That's it! You've successfully set up the Marketo integration.</li>
+</ol>
+<div class="callout callout--info">
+<h4 id="h_122448172301547497456083" class="callout__title">Required Fields vs. Optional Fields</h4>
+<p>You may have noticed that some of the fields in the Service Fields window are marked as <strong>Required</strong> and some as <strong>Optional</strong>. What's the difference?</p>
+<p><strong>Required</strong> <strong>fields</strong> are either:</p>
+<ul>
+<li>Fields that Uberflip will try to write to, but which don't exist in Marketo by default, or</li>
+<li>Fields which are associated with the <strong>Flipbook Tracking/</strong><strong>Content Counters </strong>options. These options require custom fields, so if you enable them, you must also create the corresponding fields. Note that if you do not enable these options in <a href="#h_911607694461547760838942">Step 2</a>, their fields will not appear in the Service Fields window.</li>
+</ul>
+<p><strong>Optional</strong> <strong>fields</strong> are related to tracking the Item a lead converted on. These are optional because, if you do not create them, the corresponding data will still be sent to Marketo, but will simply not be recorded. Adding these optional fields will allow you to capture potentially valuable insights on which Items are your best performers in terms of conversions, so we strongly recommend adding them.</p>
+</div>
+<p> </p>
+<h2 id="h_01HA5KPXZNQAYGYKBMBY9PB96W">What's Next?</h2>
+<h3 id="h_01HA5KPXZNREFTYNVCS2X7W54K">Marketo Munchkin Tracking</h3>
+<p>Once you have integrated your account with Marketo, a Marketo tracking code will be automatically placed on every page in Hubs under that account. This tracking code is known as <strong><a href="https://docs.marketo.com/display/public/DOCS/Add+Munchkin+Tracking+Code+to+Your+Website">Munchkin</a></strong>, and allows Marketo to track an individual visitor's page visits and other activity (such as link clicks).</p>
+<p>Marketo will set a Munchkin cookie in an anonymous visitor's browser when they visit a webpage that is connected to Marketo, such as a Hub, or your main website. The cookie is set at the domain level, so Marketo is able to track visitors as they move between different web properties that belong to the same domain (e.g. your Hub, your corporate website, landing pages, etc.).</p>
+<p>When an anonymous visitor submits a Form CTA, they become "known" (are profiled) in Marketo, and the details they entered are associated with their Munchkin cookie. As a result, whenever a known visitor encounters another Form CTA (that they have not yet submitted), any information they submitted previously will be pre-filled for them. Likewise, any Form CTAs that they have already submitted will no longer be displayed to them as long as the Munchkin cookie is still present in their browser.</p>
+<p>Note that a visitor can also be profiled in Marketo if they fill out a Marketo Form (which is distinct from a Form CTA), for example on a non-Hub landing page. However, information a visitor submits through a Marketo Form is not available to Uberflip, so Form CTAs will not be pre-filled or automatically hidden if a known visitor has <em>only</em> submitted a Marketo Form (but not a Form CTA). This applies even if the visitor submitted a Marketo Form that was <a href="https://help.uberflip.com/hc/en-us/articles/360030510912" target="_self">embedded into a Hub</a>. For Form CTAs in a Hub to be pre-filled or automatically hidden for a known visitor, that visitor must have submitted at least one Uberflip Form CTA (not just a Marketo Form).</p>
+<h3 id="h_01HA5KPXZNZZ3KKTG92S3BDB5G">Next Steps</h3>
+<p>Now that your Marketo integration is all set up and ready to go, you can <a href="https://help.uberflip.com/hc/en-us/articles/360020989871">create some Form CTAs</a> to begin generating leads.</p>
+<p>Also, you can use Marketo data to enrich your Uberflip Analytics data using Enrichment. The following article explains how to set up and navigate Enrichment:</p>
+<p><a href="https://help.uberflip.com/hc/en-us/articles/4409773235085" target="_blank" rel="noopener noreferrer">Set up and navigate Enrichment</a></p>]]></description>
+         <guid isPermaLink="false">360022063751</guid>
+         <pubDate>Wed, 16 Jan 2019 18:43:52 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

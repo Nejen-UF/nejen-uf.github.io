@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Hub essentials</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Find your Hub/Stream RSS feeds</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360052074531-Find-your-Hub-Stream-RSS-feeds</link>
+         <description><![CDATA[<p>Uberflip automatically generates RSS feeds for each of your Hubs and Streams. This article outlines how to find those RSS feeds. </p>
+<p> </p>
+<h2 id="h_01HZ5QFQSWFM5JB2EJRNJ2K9TK">Before you begin</h2>
+<ul>
+<li>If the <strong>Replace Home Page with a Marketing Stream </strong>setting (Under <strong>Hub Options &gt; Advanced)</strong> is being used, the Hub's RSS feed will include only Items that are in the selected Marketing Stream and are not hidden.<br><br>To get a Hub-level RSS feed that contains Items across all Streams, <a style="background-color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" href="https://help.uberflip.com/hc/en-us/articles/360029327532-Customize-the-content-on-your-Hub-s-homepage#use-your-latest-content-as-your-hub-homepage">change this setting back to <strong>Latest Content</strong></a><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"> (note that this will still only include non-hidden Items).</span>
+</li>
+</ul>
+<p> </p>
+<h2 id="h_01HZ5QFQSW89YSFXSYTYKKGZE4">Get the Hub's RSS feed</h2>
+<ol>
+<li>Log in to Uberflip and navigate to the Hub you want to work with</li>
+<li>In the top left corner, click on <strong>(RSS)</strong> next to the Hub favicon and name:
+<ul>
+<li>Make sure to click on <strong>(RSS)</strong>, not the domain of the Hub (which appears right next to it).<br><img src="https://help.uberflip.com/hc/article_attachments/360075178332" alt="Hubs___Manage_-_Uberflip.png">
+</li>
+</ul>
+</li>
+<li>The RSS feed for the Hub will open in a new tab, with a URL like this: <em><a href="https://hub.mywebsite.com/h/feed.rss">https://hub.mywebsite.com/h/feed.rss</a><br></em>This URL is the RSS feed for the entire Hub.</li>
+</ol>
+<p> </p>
+<h2 id="h_01HZ5QFQSWJP0A2Z7T28T0Q0E0">Get a specific Stream's RSS feed</h2>
+<ol>
+<li>In Uberflip, go to the Hub you want to work with</li>
+<li>Click <strong>Content</strong> in the sidebar menu</li>
+<li>Now in the <em>Streams</em> tab, open the Stream you want to get the RSS feed for </li>
+<li>Click the meatball menu (<em>three horizontal dots</em>)</li>
+<li>Click <strong>RSS Feed</strong><br><img src="https://help.uberflip.com/hc/article_attachments/10803172295949" alt="mceclip0.png" width="301" height="281">
+</li>
+<li>The RSS feed for the Stream will open in a new tab, with a URL like this: <em><a href="https://hub.mywebsite.com/streamname.rss">https://hub.mywebsite.com/streamname.rss</a><br></em>This URL is the RSS feed for the selected Stream.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360052074531</guid>
+         <pubDate>Tue, 03 Nov 2020 22:22:49 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub frontend V1 vs. V2: Determine your Hub version </title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360051466431-Hub-frontend-V1-vs-V2-Determine-your-Hub-version</link>
+         <description><![CDATA[<p><span style="font-weight: 400;">Uberflip uses 2 different frontend technologies to render Hubs for visitors. This article outlines the general difference between the two and how to know which version your Hub uses.</span></p>
+<p> </p>
+<h2 id="h_01HBX10QQ8DA6JXXPMAZVBSJ68"><span style="font-weight: 400;">What is Hub frontend V1 vs. V2? </span></h2>
+<p><span style="font-weight: 400;">The </span><span style="font-weight: 400;">Hub fronte</span><span style="font-weight: 400;">nd</span><span style="font-weight: 400;"> is the technology that powers the </span><strong>visitor-facing elements</strong><span style="font-weight: 400;"> of all <a href="https://help.uberflip.com/hc/en-us/articles/360020491171-The-Uberflip-glossary-Definitions-for-Uberflip-terms#h:~:text=H-,Hub,-The%20main%20Uberflip">Uberflip Hubs</a>. This includes basically everything in your Hub that your visitors can see and interact with: the home page, the navigation menu, Stream and Item pages, Item and CTA tiles, and so on.</span></p>
+<p><span style="font-weight: 400;">There are </span><strong>two versions</strong><span style="font-weight: 400;"> of this technology:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Front End V1</strong><span style="font-weight: 400;"> was the original version of Uberflip's Hub front end technology. It was originally developed in 2012, when Uberflip first launched the Hubs product. </span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Front End V2</strong><span style="font-weight: 400;"> is Uberflip's next-generation Hub front end framework, which was redesigned from the ground up to support newer technologies and standards emerging in the market.</span>
+</li>
+</ul>
+<p><strong>The differences between these two versions are almost entirely "under the hood". </strong>W<span style="font-weight: 400;">hile Front End V2 Hubs are built on updated technologies, they're designed to look and feel just like Front End V1 Hubs.</span></p>
+<p> </p>
+<h2 id="h_01HBX10QQ82W7PVEET9NFKZAE5"><span style="font-weight: 400;">Determine your Hub version</span></h2>
+<div class="callout callout--info">
+<h4 id="h_01HBX5FRZEYFBD12JHV692S22C" class="callout__title">Note</h4>
+<p><strong>As of March 2020, all newly created Hubs run on Front End V2. </strong><span style="font-weight: 400;">So if all of your Hubs were created after that—you’re already living in the future.</span></p>
+</div>
+<p>If you want to check which version of the Uberflip Hub Front End your Hub is running, use the following method:</p>
+<ol>
+<li>In any browser, <strong>visit your hub's home page</strong>
+</li>
+<li>Right-click anywhere, then<strong> click on <em>View Source</em> or <em>View Page</em></strong><em><strong> Source</strong> </em>(depending on your browser) to view the page's source HTML</li>
+<li>When you're viewing the page source code, press <strong>Ctrl+F </strong>(<strong>Cmd+F </strong>on Mac) and search for <code class="no-padding">&lt;body</code>
+</li>
+<li>In the source HTML, the string <em>&lt;body</em> should be highlighted (there should only be one result) <strong>Take a look at the text that appears after this string</strong> to identify your Hub Front End version:<br>
+<ul>
+<li>If you see <code class="no-padding">&lt;body class="hub-page</code>, your Hub is running <strong>Front End V1:<br></strong><img src="https://help.uberflip.com/hc/article_attachments/360073840471" alt="image.png">
+</li>
+<li>If you see <code class="no-padding">&lt;body id="uf-hub-page"</code>, your Hub is running <strong>Front End V2:</strong><br><img src="https://help.uberflip.com/hc/article_attachments/360073840431" alt="image.png">
+</li>
+</ul>
+</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360051466431</guid>
+         <pubDate>Thu, 22 Oct 2020 21:33:42 GMT</pubDate>
+      </item>
+      <item>
+         <title>SEO Best Practices for Hubs</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360030069651-SEO-Best-Practices-for-Hubs</link>
+         <description><![CDATA[<h2 id="h_7ae176a3-1cf0-4773-897f-87ce61d777dc">General Best Practices </h2>
+<p>In general, you should:</p>
+<ul class="list-bullet">
+<li>Always turn <strong>off</strong> the Stream Option <strong>No Robots Meta Tag</strong>. This ensures that Google (and other search engines) can index the Stream and its Items so that they will appear in search results.</li>
+<li>Always turn <strong>on</strong> the Stream Option <strong>Enable Canonical Meta Tag</strong>. This designates a canonical URL for each Item in a Stream, which helps to avoid problems with duplicate content.</li>
+</ul>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p>Before you turn on indexing and canonical meta tags on a Stream, must make sure that the Items within the Stream have canonical URLs set according to the URLs you want to be indexed for each piece of content. See <a href="#h_5b2085a4-69f2-488b-ac28-f29db2100adf" target="_self">below</a> for more information.</p>
+</div>
+<p> </p>
+<h2 id="h_5b2085a4-69f2-488b-ac28-f29db2100adf">Canonical Meta Tag</h2>
+<p>See below for which URL will be set as the canonical URL depending on your configuration:</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>When you create a Marketing Stream, the Stream Options <strong>Enable Canonical Meta Tag</strong> and <strong>No Robots Meta Tag</strong> will automatically be turned <strong>on</strong> by default. To get SEO value from a Marketing Stream, you must turn the <strong>No Robots Meta Tag</strong> option <strong>off</strong> (see <a href="#h_7ae176a3-1cf0-4773-897f-87ce61d777dc" target="_self">above</a>).</p>
+</div>
+<h3>Source Streams </h3>
+<table style="height: 237px; width: 647px;">
+<tbody>
+<tr>
+<td style="width: 224.7px;"><strong>Stream Options</strong></td>
+<td style="width: 198.3px;"><strong>Canonical URL Field</strong></td>
+<td style="width: 212px;"><strong>Canonical URL Used</strong></td>
+</tr>
+<tr>
+<td style="width: 224.7px;">
+<p>Enable Canonical Meta Tag <strong>ON</strong></p>
+</td>
+<td style="width: 198.3px;">Has URL</td>
+<td style="width: 212px;">Value in Canonical URL field</td>
+</tr>
+<tr>
+<td style="width: 224.7px;">
+<p>Enable Canonical Meta Tag <strong>ON</strong></p>
+</td>
+<td style="width: 198.3px;">Blank</td>
+<td style="width: 212px;">Item's own URL</td>
+</tr>
+<tr>
+<td style="width: 224.7px;">
+<p>Enable Canonical Meta Tag <strong>ON</strong></p>
+<p>Force Self Canonical URL<strong> ON</strong></p>
+</td>
+<td style="width: 198.3px;">Has URL or blank</td>
+<td style="width: 212px;">Item's own URL (will override value in Canonical URL field)</td>
+</tr>
+<tr>
+<td style="width: 224.7px;">
+<p>Enable Canonical Meta Tag <strong>OFF</strong></p>
+<p>No Robots Meta Tag <strong>OFF</strong></p>
+</td>
+<td style="width: 198.3px;">Has URL or blank</td>
+<td style="width: 212px;">None (Item's URLs will be indexable, even if content is duplicated elsewhere)</td>
+</tr>
+</tbody>
+</table>
+<h3>Marketing Streams</h3>
+<table style="height: 381px; width: 646px;">
+<tbody>
+<tr>
+<td style="width: 233px;"><strong>Stream Options</strong></td>
+<td style="width: 191px;"><strong>Canonical URL Field</strong></td>
+<td style="width: 212px;"><strong>Canonical URL Used</strong></td>
+</tr>
+<tr>
+<td style="width: 233px;">Enable Canonical Meta Tag <strong>ON</strong>
+</td>
+<td style="width: 191px;">Has URL</td>
+<td style="width: 212px;">Value in Canonical URL field</td>
+</tr>
+<tr>
+<td style="width: 233px;">Enable Canonical Meta Tag <strong>ON</strong>
+</td>
+<td style="width: 191px;">Blank</td>
+<td style="width: 212px;">Item's own URL <strong>in Source Stream</strong>
+</td>
+</tr>
+<tr>
+<td style="width: 233px;">
+<p>Enable Canonical Meta Tag <strong>ON</strong></p>
+<p>Force Self-Canonical URL <strong>ON in Source Stream</strong></p>
+</td>
+<td style="width: 191px;">Has URL or blank</td>
+<td style="width: 212px;">Item's own URL <strong>in Source Stream </strong>(will override values in both Streams' Canonical URL fields)<strong><br></strong>
+</td>
+</tr>
+<tr>
+<td style="width: 233px;">
+<p>Enable Canonical Meta Tag <strong>ON</strong></p>
+<p>Force Self-Canonical URL <strong>ON in Marketing Stream<br></strong></p>
+</td>
+<td style="width: 191px;">Has URL or blank</td>
+<td style="width: 212px;">Item's own URL <strong>in Marketing Stream</strong> (will override value in Canonical URL field)</td>
+</tr>
+<tr>
+<td style="width: 233px;">
+<p>Enable Canonical Meta Tag <strong>OFF</strong></p>
+<p>No Robots Meta Tag <strong>OFF</strong></p>
+</td>
+<td style="width: 191px;">Has URL or blank</td>
+<td style="width: 212px;">None (Item's URLs will be indexable, even if content is duplicated elsewhere)</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2>Index a Marketing Stream, Source Stream or External URL?</h2>
+<p>A single piece of content can live in multiple places: an external web property (e.g. a blog), a Source Stream, and one or more Marketing Streams. Which URL should you allow search engines to index?</p>
+<p>There is no one <em>right</em> answer to this question — it depends on your preference. But whichever option you choose, the most important thing is to make sure only <strong>one</strong> of these options is indexed.</p>
+<p>The majority of Uberflip customers choose to index the Source Stream URLs, then allow user navigation to the Marketing Stream versions by way of the user's interest. This option is the most popular because it's the simplest to set up. However, the big value of Marketing Streams is that you can present your content not just by type, but by topic/audience/campaign/product etc. So, if you want, indexing the Marketing Stream version of any given Item is also possible.</p>
+<p>Because an Item can live in multiple Marketing Streams, you will need to pick which Marketing Stream URL you want indexed if you choose to go this route. This will require some manual effort: for each Item that you want indexed on a Marketing Stream rather than the Source Stream, you will need to edit that Item and set the Canonical URL field to be the Marketing Stream version's URL.  This ensures that in any Stream in which the Item appears (Source or Marketing), the canonical meta tag will reference your chosen Marketing Stream version.</p>
+<p>One thing to specifically <strong>avoid</strong> in this scenario is to have an Item placed in multiple Marketing Streams which all have <strong>both</strong> the Enable Canonical Meta Tag option <strong>and </strong>the Force Self-Canonical URL option turned <strong>on. </strong>This tells search engines that all versions of the same content on different URLs should be indexed separately, which is considered duplicate content and has negative SEO effects.</p>
+<p>In a scenario where you are combining multiple blog feeds/Streams into a single Marketing Blog Stream that you would want indexed, here is what you should do:</p>
+<ul>
+<li>Make sure your Source Streams have the <strong>No Robots Meta Tag</strong> option turned <strong>on</strong>
+</li>
+<li>On the "main" Marketing Stream, make sure both the <strong>Enable Canonical Meta Tag</strong> and <strong>Force Self-Canonical URL </strong>options are turned <strong>on</strong>
+</li>
+<li>On all other Marketing Streams where the Items will also live (and, ideally, on the external source blog), edit each Item to set the canonical URLs as the URLs of the Items in the main Marketing Stream</li>
+</ul>
+<p>By doing the above, you will avoid a duplicate content scenario, while also using the other Marketing Streams and the external source blog to drive SEO value to the main Marketing Stream.</p>]]></description>
+         <guid isPermaLink="false">360030069651</guid>
+         <pubDate>Fri, 28 Jun 2019 21:35:52 GMT</pubDate>
+      </item>
+      <item>
+         <title>Image guidelines for your Hub</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020030752-Image-guidelines-for-your-Hub</link>
+         <description><![CDATA[<p><span style="font-weight: 400;">There are many different places in your Hub where images are displayed. This article outlines the dimensions of the various types of images. </span></p>
+<p><span style="font-weight: 400;">Using images that </span><strong>meet or exceed</strong><span style="font-weight: 400;"> these size guidelines will ensure your Hub looks continually clean and professional. </span></p>
+<p> </p>
+<h3 id="h_01HBX40DK5K5R6K2EKM4N5R9C3"><span style="font-weight: 400;">Important</span></h3>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">These suggestions apply to unmodified Hubs only. Hubs using custom code to modify image elements may need to adjust image sizes based on your custom configuration.</span></li>
+</ul>
+<p> </p>
+<h2 id="h_01HBX40DK531ZXK8Z64KR1B7V3"><span style="font-weight: 400;">General image requirements</span></h2>
+<p><span style="font-weight: 400;">In general, images you upload to a Hub must meet these requirements.</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Supported image formats: </strong><span style="font-weight: 400;">PNG (recommended), GIF, JPG</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Maximum file size: </strong><span style="font-weight: 400;">1.5 MB</span>
+</li>
+</ul>
+<p> </p>
+<h2 id="h_01HBX40DK5RQFJ1J02TE9WZ46T"><span style="font-weight: 400;">Hub appearance elements</span></h2>
+<p><span style="font-weight: 400;">These images are general design elements that are part of the appearance of your Hub.</span></p>
+<table style="height: 457px; width: 782px;">
+<tbody>
+<tr style="height: 100px;">
+<td style="width: 320.422px; height: 100px; vertical-align: top;">
+<p><strong><a href="https://help.uberflip.com/hc/en-us/articles/360020130171-Get-started-with-branding-and-customization-options-on-your-Hub#hero-logo-background-banner-favicon-images">Hero logo</a>: </strong></p>
+<p><span style="font-weight: 400;">550px wide x 350px high</span></p>
+</td>
+<td style="height: 51px; vertical-align: top; width: 438.578px;"><img src="https://help.uberflip.com/hc/article_attachments/5133965251597" alt="Add_a_subheading_1.png" width="400" height="209"></td>
+</tr>
+<tr style="height: 100px;">
+<td style="width: 320.422px; height: 100px; vertical-align: top;">
+<p><strong><a href="https://help.uberflip.com/hc/en-us/articles/360020130171-Get-started-with-branding-and-customization-options-on-your-Hub#hero-logo-background-banner-favicon-images">Homepage background image</a>: </strong></p>
+<p><span style="font-weight: 400;">1920px wide x 873 px high</span></p>
+</td>
+<td style="vertical-align: top; width: 438.578px;"><img src="https://help.uberflip.com/hc/article_attachments/5134006740109" alt="Add_a_subheading.png" width="400" height="209"></td>
+</tr>
+<tr style="height: 51px;">
+<td style="width: 320.422px; height: 100px; vertical-align: top;">
+<p><strong><a href="https://help.uberflip.com/hc/en-us/articles/360020130171-Get-started-with-branding-and-customization-options-on-your-Hub#hero-logo-background-banner-favicon-images">Banner logo</a>: </strong></p>
+<p><span style="font-weight: 400;">300px wide x 100px high</span></p>
+</td>
+<td style="height: 51px; vertical-align: top; width: 438.578px;"><img src="https://help.uberflip.com/hc/article_attachments/5134284841485" alt="3.png"></td>
+</tr>
+<tr style="height: 155px;">
+<td style="width: 320.422px; height: 100px; vertical-align: top;">
+<p><strong><a href="https://help.uberflip.com/hc/en-us/articles/360020130171-Get-started-with-branding-and-customization-options-on-your-Hub#hero-logo-background-banner-favicon-images">Favicon</a>: </strong></p>
+<p><span style="font-weight: 400;">200px wide x 200px high</span></p>
+<br>
+<p><strong>Note:</strong><span style="font-weight: 400;"> The favicon is also sometimes used in Stream banners. See <a href="#h_01FZ978QCXZ0QZ4QEWHXTCYREP" target="_self">Stream banner and share embeds</a> section.</span></p>
+</td>
+<td style="vertical-align: top; width: 438.578px;"><img src="https://help.uberflip.com/hc/article_attachments/5134263814157" alt="33.png"></td>
+</tr>
+<tr style="height: 51px;">
+<td style="width: 320.422px; height: 100px; vertical-align: top;">
+<p><strong><a href="https://help.uberflip.com/hc/en-us/articles/360019000331-Create-Authors-and-Author-Bios#add-a-photo-and-bio-for-an-author">Author images</a>: </strong></p>
+<p><span style="font-weight: 400;">120px wide x 120px high</span></p>
+</td>
+<td style="width: 438.578px; height: 51px; vertical-align: top;"><img src="https://help.uberflip.com/hc/article_attachments/20085106804621" alt="Master_Personalized_Marketing_With_the_Help_of_Uberflip_and_Bombora.png" width="400" height="131"></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2 id="h_01HBX40DK5N2G11DZ5MZ04QR3V"><span style="font-weight: 400;">Stream Item images</span></h2>
+<p><span style="font-weight: 400;">Images in this category are displayed as part of Item Tiles shown on Stream pages, or in blog headers.</span></p>
+<table style="height: 912px; width: 769px;">
+<tbody>
+<tr style="height: 191px;">
+<td style="width: 320.422px; vertical-align: top; height: 191px;">
+<p><strong>Blog Item &amp; Video Tile thumbnails:</strong></p>
+<p><span style="font-weight: 400;">500px wide x 272px high</span></p>
+</td>
+<td style="width: 425.578px; vertical-align: top; height: 191px; text-align: left;"><img src="https://help.uberflip.com/hc/article_attachments/5132350111245" alt="Screen_Shot_2022-03-14_at_2.07.13_PM.png" width="173" height="226"></td>
+</tr>
+<tr style="height: 182px;">
+<td style="width: 320.422px; vertical-align: top; height: 182px;">
+<p><strong>Flipbook Item tile thumbnails:</strong></p>
+<p><span style="font-weight: 400;">500px wide x 580px high</span></p>
+<p><strong>Note</strong><span style="font-weight: 400;">: The title and description will cover 140px at the bottom of the thumbnail</span></p>
+</td>
+<td style="width: 425.578px; vertical-align: top; height: 182px; text-align: left;"><img src="https://help.uberflip.com/hc/article_attachments/5132390638861" alt="Screen_Shot_2022-03-14_at_2.05.31_PM.png" width="173" height="223"></td>
+</tr>
+<tr style="height: 220px;">
+<td style="width: 320.422px; vertical-align: top; height: 220px;">
+<p><strong>CTA Background Image:</strong></p>
+<p><span style="font-weight: 400;">250px wide x 330px high</span></p>
+</td>
+<td style="width: 425.578px; vertical-align: top; height: 182px; text-align: left;"><img src="https://help.uberflip.com/hc/article_attachments/5132649049997" alt="Screen_Shot_2022-03-14_at_1.17.44_PM.png" width="173" height="223"></td>
+</tr>
+<tr style="height: 319px;">
+<td style="width: 320.422px; vertical-align: top; height: 319px;">
+<p><strong>Blog Image (header in article):</strong></p>
+<p><span style="font-weight: 400;">840px wide x 400px high</span></p>
+<p><strong>Note:</strong><span style="font-weight: 400;"> Height can be whatever you prefer, but the width is set based on the width of the article (approx. 840px)</span></p>
+</td>
+<td style="width: 425.578px; vertical-align: top; height: 182px; text-align: left;">
+<p><img src="https://help.uberflip.com/hc/article_attachments/5132657736845" alt="Screen_Shot_2022-03-14_at_1.59.24_PM.png" width="350" height="314"></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2 id="h_01FZ978QCXZ0QZ4QEWHXTCYREP"><span style="font-weight: 400;">Stream banner and share embeds</span></h2>
+<p><span style="font-weight: 400;">These images are used as banners at the top of Marketing &amp; Sales Streams when the </span><em><span style="font-weight: 400;">Banner+Logo </span></em><span style="font-weight: 400;">option is set (under </span><em><span style="font-weight: 400;">Stream Settings &gt; Appearance</span></em><span style="font-weight: 400;">), and in Stream Share em</span><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">beds.</span></p>
+<table style="height: 406px; width: 688px;">
+<tbody>
+<tr style="height: 38px;">
+<td style="width: 321.469px; vertical-align: top; height: 38px;">
+<p><strong>Stream Banner Image</strong><span style="font-weight: 400;">:</span></p>
+<p><span style="font-weight: 400;"><a href="https://help.uberflip.com/hc/en-us/articles/360051466431"><em>Front end V2 Hubs:</em></a> 1920px wide x 250px high</span></p>
+<p><span style="font-weight: 400;"><a href="https://help.uberflip.com/hc/en-us/articles/360051466431"><em>Front end V1 Hubs:</em></a> 1920px wide x 200px high</span></p>
+</td>
+<td style="vertical-align: top; height: 38px; width: 343.531px;"><img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" src="https://help.uberflip.com/hc/article_attachments/5133870123021" alt="re.png"></td>
+</tr>
+<tr style="height: 135px;">
+<td style="width: 321.469px; vertical-align: top; height: 135px;">
+<p><strong><a href="https://help.uberflip.com/hc/en-us/articles/360020130171-Get-started-with-branding-and-customization-options-on-your-Hub#hero-logo-background-banner-favicon-images">Favicon</a>:</strong></p>
+<p><span style="font-weight: 400;">200px wide x 200px high</span></p>
+<p><span style="font-weight: 400;"><em>Serving double-duty as your logo icon for Banner+Logo Stream banners created in Uberflip</em></span></p>
+</td>
+<td style="vertical-align: top; width: 343.531px; height: 135px;"><img src="https://help.uberflip.com/hc/article_attachments/5133835943949" alt="fdsa.png"></td>
+</tr>
+<tr style="height: 233px;">
+<td style="width: 321.469px; vertical-align: top; height: 233px;">
+<p><strong>Hub thumbnail:</strong></p>
+<p><strong><span style="font-weight: 400;">1080px wide x 600px high</span></strong></p>
+<p><em><span style="font-weight: 400;">Used in Streams embeds created using an Uberflip app [Ex. <a href="https://help.uberflip.com/hc/en-us/articles/360057767692" target="_self">Sales Assist</a>]</span></em></p>
+</td>
+<td style="width: 343.531px; vertical-align: top; height: 233px;"><img src="https://help.uberflip.com/hc/article_attachments/5132767057421" alt="gtres.png"></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2 id="h_01HBX40DK602JZKXTRW6JN3ZBC"><span style="font-weight: 400;">Notes &amp; best practices</span></h2>
+<h3 id="h_01HBX40DK67QT4F72QR1CB4MZY">Stream banner images</h3>
+<p><span style="font-weight: 400;">Stream banners dynamically resize to adjust to different screen sizes and devices. As a result, the recommended size above is a general starting point, and not all of the image will be visible on all devices.</span></p>
+<p><span style="font-weight: 400;">Banners are always displayed as 200 px high, and are adjusted horizontally to fit the width of the screen as needed. Assuming the banner image is 200 px high, this works as follows:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">If the </span><strong>screen is narrower</strong><span style="font-weight: 400;"> than the width of the banner image, the image will be cropped equally from the left and right sides to the width of the screen, while remaining centered:<br><img src="https://help.uberflip.com/hc/article_attachments/360016071271" alt="How_to_Optimize_Your_Banner_Images_for_Stream_Templates.png" width="548" height="131"></span><span style="font-weight: 400;"><br></span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">If the </span><strong>screen is wider</strong><span style="font-weight: 400;"> than the width of the banner image, the image will be stretched to the width of the screen. To avoid distortion, the image will maintain the same aspect ratio, so it will look slightly "zoomed in" in these cases.</span>
+</li>
+</ul>
+<h4 id="h_01HBX40DK649PF1FQCNPNSBWNC"><strong> Stream banner best practices:</strong></h4>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Size your stream banner images so that they are 200 px tall, and wider than most screens (approx. 1920px) on which they will be displayed. </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">If you incorporate logos or key graphics in your banner image, make sure they are centered and no more than 30% of the image's width.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">If you intend to use a logo in your banner, we suggest leveraging the <em>Banner+Logo</em> logo image option, and applying a more abstract background image (such as a pattern).</span></li>
+</ul>
+<h4 id="h_01HBX40DK61ZGRN8YMAH1KWTKS">Tile Thumbnails &amp; CTA Background Images</h4>
+<p><span style="font-weight: 400;">Similar to Stream banners, Hub Item Tiles are responsive, and resize automatically to fit different screen sizes. By default, standard Tiles are </span><strong>250 px wide by 330 px high</strong><span style="font-weight: 400;">, an aspect ratio of </span><strong>1.32:1</strong><span style="font-weight: 400;">. There are two situations in which Tiles can be a non-standard size:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Highlighted Tiles: </strong><span style="font-weight: 400;">When using the "Highlight first Item" Hubs Lab feature, the first tile will be enlarged to approx. 4x standard size, </span><strong>520 px wide by 680 px high</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Mobile devices: </strong><span style="font-weight: 400;">Mobile devices are handled differently depending on if your Hub uses Front end V1 or V2 (see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431" target="_self">how to know which Front End your Hub uses</a>?)<br></span>
+<div class="accordion accordion--default">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Front End V1</strong></div>
+<div class="accordion__item-content">
+<ul class="ul1">
+<li class="li1"><strong>560px wide screens and under:</strong></li>
+<ul>
+<li class="li1">Tiles maintain a fixed height of 370px, but adjust their width to that of the container</li>
+<li class="li1">The <strong>thumbnail image</strong> and <strong>title/description panel</strong> also maintain fixed heights as the width of the tile changes<span class="Apple-converted-space"> </span>
+</li>
+<li class="li1">This means that the aspect ratio of the thumbnail image changes depending on viewport width, with the title/description panel of the tile cropping the thumbnail image from the bottom edge</li>
+<li class="li1">Because of this, images can be displayed as wide as 518.39x282 at a viewport width of 560px, but with only around 50% visible (effectively 518.39x152.06) due to the lower half being hidden by the title/description panel</li>
+</ul>
+<li class="li1">
+<strong>561px screens and above:</strong> 250x136 image thumbnails</li>
+</ul>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Front End V2</strong></div>
+<div class="accordion__item-content">
+<ul class="ul1">
+<li class="li1">
+<strong>420px wide screens and under: </strong>250x136 image thumbnails</li>
+<li class="li1">
+<strong>421px to 560px wide screens: </strong>350x190.39 image thumbnails</li>
+<li class="li1">
+<strong>561px wide screens and above: </strong>250x136 tile images tiles, displayed in multiple columns depending on screen size</li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<h4 id="h_01HBX40DK6F34Q3QDKW26TWAJH"><strong>Tile Thumbnail and CTA background best practices:</strong></h4>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Because thumbnails for both standard and highlighted Tiles have similar aspect ratios (1.32:1 vs 1.31:1), the same image generally works well for both sizes.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">When designing images to be used as Tile thumbnails or CTA backgrounds, avoid placing important elements (such as text) within the lower 15-20% of the image.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">If you use logos or key graphics in the image, make sure they are centered and in the top 50% of the image.</span></li>
+</ul>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360020030752</guid>
+         <pubDate>Tue, 27 Nov 2018 22:52:40 GMT</pubDate>
+      </item>
+      <item>
+         <title>Manage All Images Uploaded to Your Hub</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020277571-Manage-All-Images-Uploaded-to-Your-Hub</link>
+         <description><![CDATA[<hr>
+<p>Use the Image Manager to easily find and manage all the items you've ever uploaded to your Hub in one place.</p>
+<hr>
+<p> </p>
+<h2>Before you Begin</h2>
+<ul>
+<li>To use the Image Manager, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+</ul>
+<p> </p>
+<h2>About the Image Manager</h2>
+<p>As you create content for your Hub, it can be hard to keep track of all the images you've uploaded to your Hub Items. The Image Manager collects all these images in a single place, and allows you to view them, delete unused images, or upload new ones. Plus, you can reuse any previously uploaded images on your Items by simply adding it from the Image Manager.</p>
+<p> </p>
+<h2>View, Upload and Delete Images on Your Hub</h2>
+<ol>
+<li>Log in to Uberflip and click on <strong>Hubs</strong> (select the Hub you want to work with as well, if you have multiple).</li>
+<li>In the sidebar menu on the left, click on <strong>Images</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016007032" alt="Hubs___Edit_Article_-_Uberflip.png">
+</li>
+<li>The <strong>Image Manager</strong> will open as a pop-up on top of the Uberflip application. Below is an overview of what you can do in the Image Manager:<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016007372" alt="Hubs___Edit_Article_-_Uberflip.png">
+</li>
+<li>When you're finished, just <strong>click the x</strong> in the top right corner to close the Image Manager.</li>
+</ol>
+<p> </p>
+<h2>Add Images From the Image Manager to Hub Items</h2>
+<p>You can also add images directly from the Image Manager to a Hub Item, rather than uploading them. This is useful if you want to reuse the same image across multiple Items.</p>
+<ol>
+<li>In Uberflip, click on <strong>Content</strong> and navigate to the Item you want to add the image to.</li>
+<li>On the Item, click on <strong>Edit</strong> to open the <strong>Edit Item</strong> page. Here, click on the <strong>Image </strong>button in the text editor.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016007672" alt="Hubs___Edit_Video_-_Uberflip.png">
+</li>
+<li>In the Image Properties window that appears, click on the <strong>Open Image Manager</strong> button that appears:<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016053051" alt="Hubs___Edit_Video_-_Uberflip.png">
+</li>
+<li>The Image Manager will appear in a new pop-up. Here, just click on the <strong>Select</strong> button next to the image you want to use to insert it into your content.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016053151" alt="Image_Manager_-_Uberflip.png">
+</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360020277571</guid>
+         <pubDate>Tue, 27 Nov 2018 17:36:59 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Search explained</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020165151-Hub-Search-explained</link>
+         <description><![CDATA[<hr>
+<p>Ever wondered how the search functionality in your Hub works? In this article, we'll explain the nuts and bolts of Hub Search.</p>
+<hr>
+<p> </p>
+<h2>What's Hub Search?</h2>
+<p>Did you know your Hub has a search function? Visitors to your Hub can access it by clicking this little magnifying glass in the top right corner of your Hub:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360015927051/Content_Experience_Hub___Uberflip.png" alt="Content_Experience_Hub___Uberflip.png" width="702" height="179"></p>
+<p>...which opens a search box when you click it:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360015881832/Content_Experience_Hub___Uberflip.png" alt="Content_Experience_Hub___Uberflip.png"></p>
+<p> </p>
+<h2>What can Hub Search find?</h2>
+<p>When you enter a search term, Hub Search will search through all <strong>non-hidden Hub Items</strong> in any of the following Stream types:</p>
+<ul>
+<li>Blogs</li>
+<li>Docs</li>
+<li>Videos</li>
+<li>Marketing</li>
+</ul>
+<p>It will not search in Sales Streams (because they're hidden) or in Social Streams.</p>
+<p>Hub Search will look for keyword matches in <strong>titles, descriptions and body content</strong> for <strong>Items</strong>, and in <strong>titles and descriptions only</strong> for <strong>Flipbooks</strong>. If you want, you also have the option of looking for matches among <strong>tags</strong>! To learn how to turn this on, check out <a href="https://help.uberflip.com/hc/en-us/articles/360020275651">this article</a>.</p>
+<p> </p>
+<h2>How are search results sorted?</h2>
+<p>All Items in the Hub that match the search query are assigned a relevance score. This is built using various factors, including the number of terms matching the search. The search results are then presented by relevance score, with the highest-scoring (most relevant) items at the top.</p>
+<p>In addition, they are also categorized by the type of content, i.e. Blog, Docs, etc. If there are more than five results for a given category, only the top five are shown, along with a <em>Load More</em> button.</p>
+<p>Also, whenever a new Item is added to the Hub, or Items are deleted or modified, the search database will be updated in near-real-time, so subsequent searches will show updated results.</p>
+<p> </p>
+<h2>What about Items that are in multiple Streams?</h2>
+<p>Items can appear in multiple Streams, such as Marketing Streams. If an Item is present in more than one non-hidden Stream, it will still only show up in Hub Search results once.</p>
+<p>The way Hub Search decides which version of the Item to show is to re-run the search with the original search terms, but looking for only matches in the titles and descriptions of the <em>Streams</em> that the Item appears in.</p>
+<p>Hub Search will then display the Item in the context of the Stream with the highest relevance score — unless all scores are the same, in which case the Item is shown in its Source Stream (i.e. the Source Blog Stream, Video Stream, etc.). If the Source Stream is hidden, the Marketing Stream with the lowest ID will be used instead.</p>
+<p> </p>
+<h2>Additional facts about Hub Search</h2>
+<ul>
+<li>Recent searches will be stored in the user's browser, so that whenever they search again, their most recently searched terms will be shown. We store a maximum of 5 recent searches.</li>
+<li>The maximum number of results returned for any search query is 100.</li>
+<li>Search queries must be a minimum of three characters long, otherwise no results will be returned.</li>
+</ul>]]></description>
+         <guid isPermaLink="false">360020165151</guid>
+         <pubDate>Fri, 23 Nov 2018 21:13:50 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

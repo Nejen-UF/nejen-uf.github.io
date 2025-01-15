@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Manage Streams & DSRs</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Archive a Stream or Digital Sales Room</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/10521331650573-Archive-a-Stream-or-Digital-Sales-Room</link>
+         <description><![CDATA[<p><span style="font-weight: 400;">Don't need that Stream or Digital Sales Room (DSR) anymore? Archive it! This article will show you how.</span></p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p><span style="font-weight: 400;">A Stream or DSR can be archived, but </span><strong>cannot be deleted permanently</strong><span style="font-weight: 400;">. You can </span><a href="https://help.uberflip.com/hc/en-us/articles/360020669872-Recover-Deleted-Items-and-Archived-Streams#restore-an-archived-stream"><span style="font-weight: 400;">recover a Stream/DSR</span></a><span style="font-weight: 400;"> at any time.</span></p>
+</div>
+<p> </p>
+<h2><span style="font-weight: 400;">What happens to an archived Stream/DSR?</span></h2>
+<p><span style="font-weight: 400;">When a Stream or DSR is archived, it is:</span></p>
+<ul>
+<li><span style="font-weight: 400;">Removed from all other Streams and your Hub</span></li>
+<li><span style="font-weight: 400;">No longer viewable (internally or externally)</span></li>
+<li><span style="font-weight: 400;">Removed from the Content and Stream management pages in Uberflip</span></li>
+<li><span style="font-weight: 400;">Recoverable at anytime (some settings may be lost)</span></li>
+</ul>
+<p><span style="font-weight: 400;"><strong>Items in a Source Stream will also be archived</strong> when the Source Stream is archived.</span></p>
+<p><span style="font-weight: 400;"><strong>Items in a DSR or Marketing Stream will still be available</strong> via their Source Stream, when the Marketing Stream or DSR is archived.</span></p>
+<p> </p>
+<h2><span style="font-weight: 400;">Archive a Stream or DSR</span></h2>
+<p><span style="font-weight: 400;">Archive any Marketing/Source Stream or DSR with these steps: </span></p>
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Select </span><strong>Content</strong><span style="font-weight: 400;"> in the Uberflip sidebar menu</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Now in the </span><strong>Streams Tab</strong><span style="font-weight: 400;">, find the Stream/DSR you want to archive and click into it</span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Click the kebab menu icon (3 horizontal dots) </span></li>
+<li style="font-weight: 400;" aria-level="1">Select <strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Archive Stream</strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"> in the menu that opens<br><img src="https://help.uberflip.com/hc/article_attachments/10548863407757" alt="mceclip0.png" width="249" height="233"></span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">A confirmation modal will open. Review how archiving will affect that Stream/DSR (and its Items)</span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>Archive Stream</strong>
+</li>
+</ol>
+<p>That’s it! Your Stream/DSR will be archived and you’ll be returned to the Content page. </p>
+<div class="callout callout--info">
+<h4 class="callout__title">Want to recover a Stream/DSR you’ve archived?</h4>
+<p><span style="font-weight: 400;">Check out: </span><a href="https://help.uberflip.com/hc/en-us/articles/360020669872"><span style="font-weight: 400;">Recover Deleted Items and Archived Streams/DSRs</span></a></p>
+</div>]]></description>
+         <guid isPermaLink="false">10521331650573</guid>
+         <pubDate>Wed, 09 Nov 2022 23:32:25 GMT</pubDate>
+      </item>
+      <item>
+         <title>Stream functionality options explained </title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4607063680781-Stream-functionality-options-explained</link>
+         <description><![CDATA[<p>Uberflip Streams have a number of options that help control functionality and appearance. Depending on the <a href="https://help.uberflip.com/hc/en-us/articles/4407951638669" target="_self">type of Stream</a>, you have access to a few different options. This article outlines these options and how to turn them on or off. </p>
+<h2>Turn Stream options on or off </h2>
+<ol>
+<li>Navigate to the Hub the Stream is in</li>
+<li>In the sidebar menu, click<strong> Content</strong> </li>
+<li>On the<strong> Streams </strong>tab, find the Stream or DSR you want to manage and click on it</li>
+<li>Click the <strong>Options</strong> tab</li>
+<li>Toggle options (outlined below) on or off as desired</li>
+</ol>
+<div class="callout">
+<h4 class="callout__title">Note</h4>
+<p>Turning options on or off does so at the <em>Stream</em> level only.</p>
+</div>
+<h2>Stream options explained</h2>
+<table style="border-collapse: collapse; width: 100%; height: 944px;" border="1">
+<tbody>
+<tr style="height: 22px;">
+<td style="width: 5.85714%; height: 10px;">
+<p><strong>Option: <br></strong><span class="wysiwyg-font-size-small"><em>(Alphabetical)</em></span></p>
+</td>
+<td style="width: 26.9523%; height: 10px;"><strong>What it does:</strong></td>
+<td style="width: 4.85713%; height: 10px;">
+<p><strong>Available for Stream types: </strong></p>
+</td>
+</tr>
+<tr id="api-dt-row-undefined" class="odd">
+<td class="sorting_1" style="width: 5.85714%;">Allow Inline Formatting</td>
+<td style="width: 26.9523%;">Allows style and font tags as well as tag style attributes to be imported with this Stream</td>
+<td style="width: 4.85713%;">Blogs</td>
+</tr>
+<tr id="api-dt-row-undefined" class="odd">
+<td class="sorting_1" style="width: 5.85714%;">Auto redirect to Item's Canonical URL</td>
+<td style="width: 26.9523%;">When enabled, Items in this Stream will 301 redirect to their respective original location (if one exists)</td>
+<td style="width: 4.85713%;">
+<div class="uf-toggle-switch-container" data-uf-toggle-switch="true">
+<div class="uf-toggle-switch">All</div>
+</div>
+</td>
+</tr>
+<tr id="api-dt-row-undefined" class="odd">
+<td class="sorting_1" style="width: 5.85714%;">Automatically create and apply tags from RSS to items</td>
+<td style="width: 26.9523%;">When enabled, any categories in the RSS will be created as tags and applied to items</td>
+<td style="width: 4.85713%;">Blogs</td>
+</tr>
+<tr id="api-dt-row-undefined" class="even" style="height: 44px;">
+<td class="sorting_1" style="width: 5.85714%; height: 44px;">Disable auto playback</td>
+<td style="width: 26.9523%; height: 44px;">Enable this option if you wish to avoid auto playback when the video loads</td>
+<td style="width: 4.85713%; height: 44px;">
+<div class="uf-toggle-switch-container" data-uf-toggle-switch="true">
+<div class="uf-toggle-switch">Video, Docs, DSR, Marketing</div>
+</div>
+</td>
+</tr>
+<tr id="api-dt-row-undefined" class="even">
+<td class="sorting_1" style="width: 5.85714%;">Disable Video CTAs</td>
+<td style="width: 26.9523%;">If you have Slide-out CTAs in your Vidyard Players, we recommend this option to ensure videos size properly. Consider using Hub CTAs instead</td>
+<td style="width: 4.85713%;">Marketing</td>
+</tr>
+<tr id="api-dt-row-undefined" class="even">
+<td class="sorting_1" style="width: 5.85714%;">Display Flipbooks with HTML5</td>
+<td style="width: 26.9523%;">When enabled, Flipbooks opened from this stream will be displayed using HTML5 instead of Flash</td>
+<td style="width: 4.85713%;">Docs, DSR, Marketing </td>
+</tr>
+<tr id="api-dt-row-undefined" class="even">
+<td class="sorting_1" style="width: 5.85714%;">Enable Author Matching</td>
+<td style="width: 26.9523%;">Automatically match blog author with existing profiles</td>
+<td style="width: 4.85713%;">Blogs</td>
+</tr>
+<tr id="api-dt-row-undefined" class="odd" style="height: 67px;">
+<td class="sorting_1" style="width: 5.85714%; height: 67px;">Enable Canonical Meta Tag</td>
+<td style="width: 26.9523%; height: 67px;">Add a meta tag to tell search engines to only index this item in its original Stream</td>
+<td style="width: 4.85713%; height: 67px;">
+<div class="uf-toggle-switch-container" data-uf-toggle-switch="true">
+<div class="uf-toggle-switch">Video, Docs, Blogs, Marketing, Social</div>
+</div>
+</td>
+</tr>
+<tr id="api-dt-row-undefined" class="even" style="height: 67px;">
+<td class="sorting_1" style="width: 5.85714%; height: 67px;">Enable Preview Mode</td>
+<td style="width: 26.9523%; height: 67px;">When enabled, the Items in this Stream will be shortened and displayed with a 'Continue Reading' button</td>
+<td style="width: 4.85713%; height: 67px;">
+<div class="uf-toggle-switch-container" data-uf-toggle-switch="true">
+<div class="uf-toggle-switch">All</div>
+</div>
+</td>
+</tr>
+<tr id="api-dt-row-undefined" class="odd" style="height: 89px;">
+<td class="sorting_1" style="width: 5.85714%; height: 89px;">Exclude from overall search results</td>
+<td style="width: 26.9523%; height: 89px;">When enabled, all Items within the Stream will be excluded from the search results</td>
+<td style="width: 4.85713%; height: 89px;">
+<div class="uf-toggle-switch-container" data-uf-toggle-switch="true">
+<div class="uf-toggle-switch">Video, Docs, Blogs, Marketing</div>
+</div>
+</td>
+</tr>
+<tr id="api-dt-row-undefined" class="even" style="height: 156px;">
+<td class="sorting_1" style="width: 5.85714%; height: 156px;">Exclude this Stream from the 'Latest Content' feed on your Hub</td>
+<td style="width: 26.9523%; height: 156px;">The Items in this Stream will not appear in 'Latest Content' or RSS feeds</td>
+<td style="width: 4.85713%; height: 156px;">
+<div class="uf-toggle-switch-container" data-uf-toggle-switch="true">
+<div class="uf-toggle-switch">Video, Docs, Blogs, Marketing, Social</div>
+</div>
+</td>
+</tr>
+<tr id="api-dt-row-undefined" class="odd">
+<td class="sorting_1" style="width: 5.85714%;">Fake Links in Social Tiles</td>
+<td style="width: 26.9523%;">When enabled, any links within your social tiles will NOT be clickable, forcing users to view the Item first</td>
+<td style="width: 4.85713%;">DSR, Marketing, Social</td>
+</tr>
+<tr id="api-dt-row-undefined" class="odd" style="height: 89px;">
+<td class="sorting_1" style="width: 5.85714%; height: 89px;">Feature Items within the Stream</td>
+<td style="width: 26.9523%; height: 89px;">When enabled, all featured stream items will be honored (pushed to the top and decorated) in a stream view</td>
+<td style="width: 4.85713%; height: 89px;">
+<div class="uf-toggle-switch-container" data-uf-toggle-switch="true">
+<div class="uf-toggle-switch">Video, Docs, Blogs, Marketing</div>
+</div>
+</td>
+</tr>
+<tr id="api-dt-row-undefined" class="even">
+<td class="sorting_1" style="width: 5.85714%;">For Blog Articles, show 'read more' link to original source</td>
+<td style="width: 26.9523%;">When enabled, a 'read more' link displays at the bottom of the Article being read</td>
+<td style="width: 4.85713%;">Blogs, DSR, Marketing </td>
+</tr>
+<tr id="api-dt-row-undefined" class="even" style="height: 67px;">
+<td class="sorting_1" style="width: 5.85714%; height: 67px;">Force Self-Canonical URL</td>
+<td style="width: 26.9523%; height: 67px;">When enabled, all items within this stream will have a canonical meta tag that points at it's current location, ignoring the value set in the SEO tab</td>
+<td style="width: 4.85713%; height: 67px;">
+<div class="uf-toggle-switch-container" data-uf-toggle-switch="true">
+<div class="uf-toggle-switch">Video, Docs, Blogs, Marketing, Social</div>
+</div>
+</td>
+</tr>
+<tr id="api-dt-row-undefined" class="odd" style="height: 44px;">
+<td class="sorting_1" style="width: 5.85714%; height: 44px;">Hide Publish Date</td>
+<td style="width: 26.9523%; height: 44px;">When enabled the publish date will be hidden on all items in this stream</td>
+<td style="width: 4.85713%; height: 44px;">
+<div class="uf-toggle-switch-container" data-uf-toggle-switch="true">
+<div class="uf-toggle-switch">All</div>
+</div>
+</td>
+</tr>
+<tr id="api-dt-row-undefined" class="even" style="height: 44px;">
+<td class="sorting_1" style="width: 5.85714%; height: 44px;">List View</td>
+<td style="width: 26.9523%; height: 44px;">Display Items in this Stream as a List instead of Tiles. When enabled, share buttons and Stream level CTAs will not display</td>
+<td style="width: 4.85713%; height: 44px;">
+<div class="uf-toggle-switch-container" data-uf-toggle-switch="true">
+<div class="uf-toggle-switch">All</div>
+</div>
+</td>
+</tr>
+<tr id="api-dt-row-undefined" class="odd" style="height: 67px;">
+<td class="sorting_1" style="width: 5.85714%; height: 67px;">No Robots Meta Tag</td>
+<td style="width: 26.9523%; height: 67px;">Prevent search engines from indexing this Stream. If the <a href="https://app.uberflip.com/hubs/advanced/42631">Hub option </a>of the same name is enabled, it will take precedence over your setting here</td>
+<td style="width: 4.85713%; height: 67px;">
+<div class="uf-toggle-switch-container" data-uf-toggle-switch="true">
+<div class="uf-toggle-switch">Video, Docs, Blogs, Marketing, Social</div>
+</div>
+</td>
+</tr>
+<tr id="api-dt-row-undefined" class="even">
+<td class="sorting_1" style="width: 5.85714%;">Open Flipbooks in 'Expanded' Mode</td>
+<td style="width: 26.9523%;">When enabled, Flipbooks opened from this stream will automatically fill the browser window</td>
+<td style="width: 4.85713%;">Docs, DSR, Marketing</td>
+</tr>
+<tr id="api-dt-row-undefined" class="even" style="height: 89px;">
+<td class="sorting_1" style="width: 5.85714%; height: 89px;">Pause automatic updating of this Stream</td>
+<td style="width: 26.9523%; height: 89px;">When enabled, new content at the source will not automatically import into this Stream. Manually updating the Stream will still be available</td>
+<td style="width: 4.85713%; height: 89px;">
+<div class="uf-toggle-switch-container" data-uf-toggle-switch="true">
+<div class="uf-toggle-switch">Video, Blogs, Social </div>
+</div>
+</td>
+</tr>
+<tr id="api-dt-row-undefined" class="odd" style="height: 44px;">
+<td class="sorting_1" style="width: 5.85714%; height: 44px;">Pin in Extensions</td>
+<td style="width: 26.9523%; height: 44px;">When checked, the Stream will be pinned as a tab in the Uberflip Chrome and Outlook extensions</td>
+<td style="width: 4.85713%; height: 44px;">
+<div class="uf-toggle-switch-container" data-uf-toggle-switch="true">
+<div class="uf-toggle-switch">Video, Docs, Blogs, Marketing, Social</div>
+</div>
+</td>
+</tr>
+<tr id="api-dt-row-undefined" class="odd">
+<td class="sorting_1" style="width: 5.85714%;">Prevent using small images as thumbnails</td>
+<td style="width: 26.9523%;">If enabled, only images of minimum size 180x100 will display in the tiles for this Stream</td>
+<td style="width: 4.85713%;">Blogs</td>
+</tr>
+<tr id="api-dt-row-undefined" class="even">
+<td class="sorting_1" style="width: 5.85714%;">Share Item's Original Location</td>
+<td style="width: 26.9523%;">Concerned about split share counts? When enabled, Items displaying in a Marketing Stream will have all share links reference the Item's original Stream</td>
+<td style="width: 4.85713%;">Marketing</td>
+</tr>
+<tr id="api-dt-row-undefined" class="even">
+<td class="sorting_1" style="width: 5.85714%;">Show buttons to Download PDF and Expand Flipbook</td>
+<td style="width: 26.9523%;">When enabled, 2 large buttons will display underneath a non-expanded Flipbook.<br>Note that this option will override the Flipbook's Folder settings</td>
+<td style="width: 4.85713%;">Docs, DSR, Marketing</td>
+</tr>
+<tr id="api-dt-row-undefined" class="even" style="height: 67px;">
+<td class="sorting_1" style="width: 5.85714%; height: 67px;">Show in Extensions</td>
+<td style="width: 26.9523%; height: 67px;">When enabled, the Stream will be shown in the Uberflip Chrome and Outlook extensions, and users will able to generate tiles linking to the Stream's Items</td>
+<td style="width: 4.85713%; height: 67px;">All</td>
+</tr>
+</tbody>
+</table>
+<p> </p>]]></description>
+         <guid isPermaLink="false">4607063680781</guid>
+         <pubDate>Fri, 04 Mar 2022 23:11:22 GMT</pubDate>
+      </item>
+      <item>
+         <title>Add an internal name to a Stream</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4408737293709-Add-an-internal-name-to-a-Stream</link>
+         <description><![CDATA[<hr>
+<p>Learn how you can add <strong>internal names to your Streams</strong> to make it easier to identify and manage them.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>By default, members of the <strong>Account Administrators</strong> and <strong>Content Managers</strong> user groups can add or edit internal Stream names. The following permissions control the ability to add or edit internal Stream names:
+<ul>
+<li>
+<strong>For Source Streams:</strong> <em>Streams &gt; Native Streams &gt; Update </em>and <em>Delete</em><strong><br></strong>
+</li>
+<li>
+<strong>For Marketing Streams:</strong> <em>Streams &gt; Marketing Streams &gt; Update </em>and<em> Delete<br></em>
+</li>
+<li>
+<strong>For Sales Streams:</strong> <em>Streams &gt; Sales Streams &gt; Update Update </em>and<em> Delete</em>
+</li>
+</ul>
+</li>
+</ul>
+<p> </p>
+<h2>About internal Stream names</h2>
+<p>When you create a new Stream, you need to set at least a <strong>page</strong> <strong>title</strong> for that Stream. This page title is shown within Uberflip:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/4408731604621/image.png" alt="image.png"></p>
+<p>And it is also displayed as the Stream's title when the Stream is viewed in your Hub:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/4408742722701/Bee2Bee_for_Hobbyists.png" alt="Bee2Bee_for_Hobbyists.png"></p>
+<p>However, because it's intended to be publicly visible, the page title of a Stream often isn't very useful for working with your Streams as an Uberflip content manager. For example, you might need to know which of a given set of Streams was used for a particular campaign — but since the campaign name probably wasn't part of the page title, this can be challenging.</p>
+<p>That is why assigning <strong>internal names</strong> to your Streams is useful: <strong>a Stream's internal name is</strong> <strong>only shown in the Uberflip app</strong> (not when the Stream is viewed in your Hub), which allows you to include any information you need (or even design and use a consistent naming convention):</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/4408742906253/image.png" alt="image.png"></p>
+<p>This makes it a lot easier to manage your Streams at a glance, and keep track of what each one is for without having to dig into the Stream itself.</p>
+<p> </p>
+<h2>Add an internal name to a new Stream</h2>
+<p>You can set an internal name on any Source, Marketing, or Sales Stream when you create it.</p>
+<ol>
+<li>Log in to Uberflip and use the <strong>Hubs</strong> menu to select the Hub you want to work in.</li>
+<li>In the sidebar on the left, click on <strong>Content</strong>.</li>
+<li>On the right side, make sure you're on the <strong>Streams</strong> tab, then click the <strong>New Stream</strong> <strong>+</strong>  button:<br><img src="https://help.uberflip.com/hc/article_attachments/4408741970957/image.png" alt="image.png">
+</li>
+<li>Choose the type of Stream you want to create, along with any options as needed. On the page where you set the page title, description, etc., use the <strong>Internal Stream Name </strong>field to specify the internal name you want to assign to this Stream:<br><img src="https://help.uberflip.com/hc/article_attachments/4408743083533/image.png" alt="image.png" width="421" height="399">
+</li>
+<li>Once the Stream has been created, the internal name you chose will be visible on the <strong>Streams</strong> tab in the <strong>Content</strong> section, under the <strong>Internal Stream Name </strong>column:<img src="https://help.uberflip.com/hc/article_attachments/4408750486285/image.png" alt="image.png">
+</li>
+<li>The internal name is only shown in the Uberflip app — as before, only the <strong>page title</strong> will be visible when the Stream is viewed in your Hub:<br><img src="https://help.uberflip.com/hc/article_attachments/4408750999565/image.png" alt="image.png">
+</li>
+</ol>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>Setting an internal Stream name is optional when you create a Stream, so you can also leave the <em>Internal Stream Name</em> field blank if you prefer. If you do, Uberflip will automatically set the Stream's internal name to be the same as its page title. If you change your mind, you can always <a href="#h_01FF18TP31P80QF267GHTDC83Q" target="_self">add an internal Stream name later</a>.</p>
+</div>
+<p> </p>
+<h2 id="h_01FF18TP31P80QF267GHTDC83Q">Edit the internal name of an existing Stream</h2>
+<p>You can change the internal name of any existing Stream at any time. If you didn't set an internal name for a Stream when you first created it, you can use this method to add an internal name later.</p>
+<ol>
+<li>Log in to Uberflip and use the <strong>Hubs</strong> menu to select the Hub you want to work in.</li>
+<li>In the sidebar on the left, click on <strong>Content</strong>.</li>
+<li>Make sure you're on the <strong>Streams </strong>tab, then<strong> find the Stream</strong> to which you want to add an internal name.</li>
+<li>
+<strong>Click on the Stream</strong> to edit it.</li>
+<li>At the top of the Stream's edit page, you should see three editable text fields. From top to bottom, these are the Stream's <strong>internal name, page title, </strong>and <strong>description:</strong><br><img src="https://help.uberflip.com/hc/article_attachments/4408750718733/image.png" alt="image.png">
+</li>
+<li>Click on the <strong>Edit (pencil)</strong> button beside the internal name (the largest text, at the top), to edit it:<br><img src="https://help.uberflip.com/hc/article_attachments/4408750751373/image.png" alt="image.png" width="531" height="319">
+</li>
+<li>
+<strong>Type in a new internal name</strong>, then click the <strong>checkmark </strong>button:<br><img src="https://help.uberflip.com/hc/article_attachments/4408750776077/image.png" alt="image.png" width="541" height="89">
+</li>
+<li>Your new internal Stream name will be saved automatically, and will be applied to the Stream immediately.</li>
+</ol>
+<div class="callout callout--success">
+<h4 class="callout__title">Tips</h4>
+<ul>
+<li>The <em>Internal Stream Name</em> column on the <strong>Content &gt; Streams</strong> page is <strong>sortable</strong> — just click on it to sort your list of Streams alphabetically by the Streams' internal names.</li>
+<li>You can also use the <strong>Search box</strong> to search your Streams by their internal names (as well as their page titles, descriptions, etc.).</li>
+</ul>
+</div>]]></description>
+         <guid isPermaLink="false">4408737293709</guid>
+         <pubDate>Tue, 07 Sep 2021 20:44:28 GMT</pubDate>
+      </item>
+      <item>
+         <title>Add custom URL paths (vanity URLs) to Streams or DSRs</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4403569054733-Add-custom-URL-paths-vanity-URLs-to-Streams-or-DSRs</link>
+         <description><![CDATA[<p>Learn how to create additional custom URL paths (also known as "vanity URLs") for your Streams or Digital Sales Rooms (DSRs).</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>This article outlines how to add vanity URLs to <em>Streams and DSRs</em>. <strong>Looking to add vanity URLs to Items?</strong> Check out: <a href="https://help.uberflip.com/hc/en-us/articles/8266672094605" target="_self">Add custom URL paths (vanity URLs) to Items</a></p>
+</div>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>By default, members of the <strong>Account Administrators</strong> or <strong>Content Managers</strong> user groups can add custom URLs to Streams and Items. In addition, members of the <strong>Sales Reps</strong> user group can do this for their own DSRs only. The following permissions control the ability to add custom URLs to Streams/DSRs:
+<ul>
+<li>
+<strong>For Source Streams:</strong> <em>Streams &gt; Native Streams &gt; Update Metadata</em><strong><br></strong>
+</li>
+<li>
+<strong>For Marketing Streams:</strong> <em>Streams &gt; Marketing Streams &gt; Update Metadata</em>
+</li>
+<li>
+<strong>For DSRs:</strong> <em>Streams &gt; Sales Streams &gt; Update Metadata</em>
+</li>
+</ul>
+</li>
+</ul>
+<p> </p>
+<h2>About custom URL paths ("vanity URLs")</h2>
+<p>When you create a new Stream, DSR, or Item in your Hub, Uberflip automatically creates a URL for the resulting page. This URL will consist of your Hub's base URL, followed by a <strong>URL path</strong> formed from the Stream, DSR, or Item's title. For example, Uberflip's own Hub has a Stream with the title <strong>Newsroom Articles</strong>, so the resulting URL is:</p>
+<p><a href="https://hub.uberflip.com/newsroom-articles" target="_self" rel="undefined">https://hub.uberflip.com/<strong>newsroom-articles</strong></a></p>
+<p>Within that Stream, there's an Item titled: <strong>Uberflip listed in 61 G2 Spring 2023 reports</strong>, so the full URL for that page is:</p>
+<p><a href="https://hub.uberflip.com/newsroom-articles/uberflip-listed-in-61-g2-spring-2023-reports" target="_self">https://hub.uberflip.com/newsroom-articles/<strong>uberflip-listed-in-61-g2-spring-2023-reports</strong></a></p>
+<p>In cases where you want or need a shorter, snappier URL, you can <strong>add a custom URL path</strong> and use that instead.</p>
+<p>Custom URL paths, or "vanity URLs", allow you to add <strong>alternative valid URLs</strong> to Streams, DSRs, or Items by specifying a new URL path of your choice. For example, say we wanted to shorten the URL of the Item above. We can add a new URL path for, say, <em>/uberflip-in-g2</em>, and we get a new URL that points to the same Item like this:<em><br></em></p>
+<p>https://hub.uberflip.com/newsroom-articles/<strong><em>uberflip-in-g2</em></strong></p>
+<p>Custom URL paths don't <em>replace</em> the default URL — they're simply <em>added on</em> as another way to get to the same page, so the original URL (and all links to it) continues to work.</p>
+<p> </p>
+<h2>Add a custom URL path to a Stream or DSR</h2>
+<p>You can add custom URL paths to any type of Stream (Source, Marketing, or Sales). You can add as many custom URL paths as needed — however, all custom URL paths must be unique (two Streams cannot share the same URL path).</p>
+<ol>
+<li>Log in to <strong>app.uberflip.com</strong> and use the <strong>Hubs</strong> menu to select the Hub you want to work with</li>
+<li>Click <strong>Content</strong> in the sidebar menu</li>
+<li>In the <strong><em>Streams</em> tab</strong>, find the Stream for which you want to add a custom URL path and <strong>click on the Stream </strong>to open it</li>
+<li>In the Stream editor page, select the <strong><em>SEO</em> tab</strong><br><img src="https://help.uberflip.com/hc/article_attachments/13120461976973" alt="mceclip0.png" width="399" height="285">
+</li>
+<li>In the URL path field,<strong> enter the new URL path</strong> you want</li>
+<li>Press <strong>Enter</strong> (or click anywhere outside the field). Your new URL path will be added and will be active immediately.
+<ul>
+<li>Note: The previous URL path will appear underneath the field and will also remain active<br><img src="https://help.uberflip.com/hc/article_attachments/4403565787405" alt="image.png">
+</li>
+</ul>
+</li>
+<li>All URL paths that are listed both in and below the <strong>URL Path</strong> field are currently active, and can be used to access this Stream/DSR. You can also <strong>remove a previous URL path</strong> (including the original default URL path) by <strong>clicking on the x beside it</strong>, which will remove it and deactivate it immediately<br><img src="https://help.uberflip.com/hc/article_attachments/4403585075853" alt="image.png">
+</li>
+</ol>
+<p> </p>
+<h2>Additional notes</h2>
+<ul>
+<li>The most recently added URL path for Streams and DSRs will appear in the URL Path field, and will be the <strong>primary URL path</strong>. For Stream and DSR URL paths, any Items within the Stream/DSR will use the primary Stream/DSR URL path as part of their own URL.</li>
+<li>Whenever you add a custom URL path, a 301 redirect will automatically be created that points all requests for the old URL path to the new primary URL path (additional redirects will be created for each previous URL path that exists).</li>
+<li>Metrics in both Uberflip Analytics and Google Analytics should not be affected by adding a custom URL path.</li>
+</ul>]]></description>
+         <guid isPermaLink="false">4403569054733</guid>
+         <pubDate>Tue, 22 Jun 2021 19:54:39 GMT</pubDate>
+      </item>
+      <item>
+         <title>Change the owner of a Stream or DSR</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360040516852-Change-the-owner-of-a-Stream-or-DSR</link>
+         <description><![CDATA[<p>Learn how you can change the user who is designated as the owner of a Source Stream, Marketing Stream, or Digital Sales Room (DSR) in your Hub.</p>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>By default, users in the <strong>Account Administrators</strong> and <strong>Content Managers</strong> user groups can change the owner of <strong>any Source or Marketing Stream</strong>.</li>
+<li>By default, users in the <strong>Sales Reps </strong>user group can change the owner of <strong>their own DSRs only</strong>.</li>
+<li>Only the <a href="https://help.uberflip.com/hc/en-us/articles/360018726352" target="_self"><strong>Primary User</strong></a> can change the owner of a<strong> DSR that they do not own themselves</strong> (as all other users can only see their own DSRs, and only the Primary User can see DSRs owned by other users).</li>
+<li>The ability to change the owner of a Stream is controlled by the following permissions:
+<ul>
+<li>To change the owner of <strong>any</strong> <strong>Source Stream</strong>: <em>Streams &gt; Native Streams &gt; Update</em>
+</li>
+<li>To change the owner of <strong>any Marketing Stream</strong>: <em>Streams &gt; Marketing Streams &gt; Update</em>
+</li>
+<li>To change the owner of <strong>only self-owned DSRs</strong>: <em>Streams &gt; Sales Streams &gt; Update</em>
+</li>
+</ul>
+</li>
+</ul>
+<p> </p>
+<h2>About changing Stream/DSR ownership</h2>
+<p>Whenever a user creates a new Source Stream, Marketing Stream, or DSR in a Hub, that user is designated as the <strong>owner</strong> of that Stream/DSR, and their name appears beside it under <em>Content &gt; Streams</em> in the Uberflip app:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360052024512" alt="Hubs___Manage_-_Uberflip.png"></p>
+<p>In some cases, you might need to change the owner of a Stream/DSR to another user. E.g., When someone leaves your organization.</p>
+<p>The other main use case for changing a Stream's owner is for <strong>DSRs</strong>. Unlike Source and Marketing Streams, Sales Streams can only be used by their owner. This means that, whenever a Sales Rep departs, the Sales Streams they owned remain unavailable to other Sales Reps in your organization. Rather than leaving these Sales Streams "orphaned" and unusable, you can instead reassign their ownership to other Sales Reps, who can then continue to use them.</p>
+<p> </p>
+<h2>Change a Stream/DSR's owner</h2>
+<p>You can change the owner of a Stream or DSR at any time, including if it's is owned by a user who has been removed from your account. Keep in mind that only your account's Primary User, or its current owner, can change the owner of a DSR.</p>
+<ol>
+<li>Click Hub in the topbar menu, and select the Hub that contains the Streams or DSR you need to change</li>
+<li>In the sidebar menu, click <strong>Content</strong>. </li>
+<li>In the Streams list, find the Stream or DSR you want to reassign and click into it</li>
+<li>With the Stream editor open, <strong>click on the three-line (hamburger) menu button</strong> in the menu bar near the top left:<br><img src="https://help.uberflip.com/hc/article_attachments/360052170371" alt="Hubs___Manage_-_Uberflip.png" width="601" height="200">
+</li>
+<li>In the menu that appears, <strong>click on Change Stream Owner:<br><img src="https://help.uberflip.com/hc/article_attachments/360052170451" alt="Hubs___Manage_-_Uberflip.png"></strong>
+</li>
+<li>The <strong>Change Stream Owner</strong> menu will appear as an overlay. Use the dropdown menu under <em>Owner</em> to <strong>select the user</strong> you want to assign as the new owner of the Stream/DSR:<br><img src="https://help.uberflip.com/hc/article_attachments/360052170571" alt="Hubs___Manage_-_Uberflip.png" width="500" height="219">
+<ul>
+<li>Note that only users with the necessary permissions to be the new owner will appear in the dropdown.</li>
+</ul>
+</li>
+<li>After you have selected a new owner, click on the <strong>Change Owner</strong> button.</li>
+<li>You'll see a confirmation message asking if you're sure you want to change the owner, and warning you of the possible consequences. If you're sure you want to proceed, click on <strong>Change Owner</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360052170691" alt="Hubs___Manage_-_Uberflip.png" width="499" height="183">
+</li>
+</ol>
+<p>That's it! Your change will take effect immediately, and the new owner will now be shown beside the Stream/DSR in the Streams list:<br><img src="https://help.uberflip.com/hc/article_attachments/360052170911" alt="Hubs___Manage_-_Uberflip.png"></p>
+<p>If you lose the ability to see a Stream/DSR as a result of changing its owner (e.g. if you are a non-Primary User assigning ownership of your own DSR to another user), you'll automatically be returned to <em>Content &gt; Streams tab</em>, and will not be able to see the Stream/DSR or its new owner in the list.</p>]]></description>
+         <guid isPermaLink="false">360040516852</guid>
+         <pubDate>Fri, 13 Mar 2020 16:38:54 GMT</pubDate>
+      </item>
+      <item>
+         <title>What does &quot;crawlable&quot; and &quot;no-index/follow&quot; mean?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360027859411-What-does-crawlable-and-no-index-follow-mean</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>When I view the list of Streams in my Hub, I see either "crawlable" or "no-index/follow" next to each Stream under the <em>SEO</em> column. What does this mean?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>The <em>SEO</em> column in the list of Streams (under <strong>Content &gt; Streams</strong>) shows the current status of each Stream's "<a href="https://moz.com/learn/seo/robots-meta-directives">robots meta directive</a>". The robots meta directive allows you to influence the behavior of search engine robots, which are the automated systems that analyze ("crawl") websites for inclusion in a search engine's results ("indexing").</p>
+<p>You'll see one of three statuses under the <em>SEO</em> column for each Stream:</p>
+<ul>
+<li>
+<strong>no-index/follow: </strong>There is a robots meta directive set on the Stream, and it is configured to tell search engines <strong>not</strong> to include (index) the Stream or any Items within it in their search results. The <code class="no-padding">follow</code> part of the tag tells search engines that they can still follow links in the Stream to discover other pages (which might be in a crawlable Stream).
+<ul>
+<li>
+<strong>Corresponding Stream Option: </strong><em>No Robots Meta Tag</em> is set to <strong>off</strong>.</li>
+</ul>
+</li>
+<li>
+<strong>crawlable: </strong>There is <strong>no</strong> robots meta directive set on the Stream. Search engines are able to crawl and index the Stream, and its content will appear in search results for relevant search terms.
+<ul>
+<li>
+<strong>Corresponding Stream Option:</strong> <em>No Robots Meta Tag</em> is set to <strong>on</strong>.</li>
+</ul>
+</li>
+<li>
+<strong>crawlable (canonical): </strong>The same as <strong>crawlable</strong>, but "<a href="https://moz.com/learn/seo/canonicalization">canonical tags</a>" are also added to all Item pages that belong to the Stream. The canonical tag tells search engines that a page is a duplicate of an original page (and where to find the original) to avoid <a href="https://moz.com/learn/seo/duplicate-content">duplicate content</a> issues. For more details about canonical tags, see <a href="https://help.uberflip.com/hc/en-us/articles/360028437152-SEO-settings-and-best-practices-in-Uberflip#canonical-settings-handle-duplicate-content">this article</a>.
+<ul>
+<li>
+<strong>Corresponding Stream Options: </strong><em>No Robots Meta Tag</em> is set to <strong>on</strong>, <em>Enable Canonical Meta Tag<strong> </strong></em>is set to <strong>on</strong>.</li>
+</ul>
+</li>
+</ul>
+<p>You can adjust the setting of a Stream’s robots meta directive by using the <strong>No Robots Meta Tag</strong> Stream Option. To learn how, see this article:</p>
+<p><a href="https://help.uberflip.com/hc/en-us/articles/360018840252" target="_self">Block Google (and Other Search Engines) From Searching your Hub Content</a></p>]]></description>
+         <guid isPermaLink="false">360027859411</guid>
+         <pubDate>Thu, 02 May 2019 14:29:04 GMT</pubDate>
+      </item>
+      <item>
+         <title>Control access to Stream and DSR content with Stream/DSR authentication</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020069172-Control-access-to-Stream-and-DSR-content-with-Stream-DSR-authentication</link>
+         <description><![CDATA[<p>Learn how to password-protect Marketing Streams and Digital Sales Rooms (DSRs) in your Hub.</p>
+<p> </p>
+<h2 id="h_01F68CAYSQYTT2Q8KWS0316ZRT">Before you begin</h2>
+<ul>
+<li>Stream/DSR Authentication <strong>can be used with Marketing Streams and DSRs</strong>, but<strong> not Source Streams</strong>.</li>
+<li>To set up authentication on <strong>Marketing Streams</strong>, you need to be a member of the <strong>Account Administrators</strong> or <strong>Content Managers </strong>user groups.</li>
+<li>To set up authentication on <strong>DSRs</strong>, you need to be a member of the <strong>Account Administrators</strong> or <strong>Sales Reps </strong>user groups.</li>
+<li>This article is about <strong>Stream/DSR-level</strong> access control. For <strong>Hub-level</strong> access control, check out: <a href="https://help.uberflip.com/hc/en-us/articles/360020019192" target="_self" rel="undefined">Control access to Hub content with Hub Authentication</a>.</li>
+<li>This feature is <strong>not available on all packs</strong>.</li>
+</ul>
+<p> </p>
+<h2>About Stream/DSR authentication</h2>
+<p>Most Hubs are intended to be fully open, so that any visitor can access them. If you'd rather control who can get into your Hub, you have the option enabling <a href="https://help.uberflip.com/hc/en-us/articles/360020019192">Hub Authentication</a>, which prompts all visitors to enter a password before they can view the Hub.</p>
+<p>However, this all-or-nothing approach doesn't work for all use cases: sometimes, you want a hybrid option in which most of your Hub is accessible, and only <em>specific Streams or DSRs</em> are gated off. If this is what you are looking to achieve, you can use <strong>Stream/DSR Authentication</strong>.</p>
+<p>Here's a quick overview of how Stream/DSR Authentication works:</p>
+<ul>
+<li>When Stream/DSR Authentication is enabled, any visitor who tries to access that Stream/DSR (or any content within it) will be prompted to enter a password, which we refer to as a "passphrase". The Stream, DSR, or content will be displayed only if a valid passphrase is submitted.</li>
+<li>You can specify multiple passphrases for a stream/DSR, which allows you to provide different passphrases to different visitors (or groups of visitors). This also means you can selectively revoke access for particular users by disabling their passphrase.</li>
+<li>You can enable Stream/DSR Authentication on any Marketing Stream or DSR, but it can't be used on Source Streams.</li>
+</ul>
+<p> </p>
+<h2>Enable Stream/DSR Authentication</h2>
+<p>Stream/DSR Authentication is configured on a per-Stream/DSR basis, and the settings for each affect that Stream/DSR only.</p>
+<p>When Stream/DSR Authentication is enabled on a Stream/DSR, only that specific Stream/DSR and the content inside will be protected, while all other Streams/Items in your Hub will still be publicly accessible.</p>
+<p>If an Item in a protected Stream/DSR also appears in other, unprotected Streams/DSRs, it'll still remain accessible when viewed through the unprotected Streams/DSRs (accessing the same Item in the context of the protected Stream will prompt for a passphrase).</p>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>As a best practice, we recommend that you <a href="https://help.uberflip.com/hc/en-us/articles/360029676452" target="_self"><strong>hide</strong> any Streams</a> on which you enable Stream Authentication.</p>
+</div>
+<ol>
+<li>Log in to Uberflip and click <strong>Hubs </strong>in the topbar menu
+<ul>
+<li>If you have multiple Hubs, select the Hub that contains the Stream or DSR you want to enable Stream/DSR Authentication for.</li>
+</ul>
+</li>
+<li>In the sidebar menu, click <strong>Content</strong>.</li>
+<li>In the Streams list, <strong>click on the Stream/DSR</strong> that you want to protect with a password.</li>
+<li>In the Stream editor page, click the <strong>Authentication</strong> tab.<br><img src="https://help.uberflip.com/hc/article_attachments/360018799232" alt="Hubs___Manage_-_Uberflip.png" width="702" height="157"><br>(If you do not see this tab, you may not have the correct permissions add Stream/DSR Authentication)</li>
+<li>In the <strong>Authentication </strong>tab, switch the toggle under <strong>Enable Authentication</strong> to the <strong>on (green)</strong> position.<br><img src="https://help.uberflip.com/hc/article_attachments/360018673971" alt="Hubs___Manage_-_Uberflip.png" width="611" height="188">
+</li>
+</ol>
+<p>That's it! The change will be saved automatically, and will take effect immediately. Now, any visitor who tries to access this Stream will be prompted to enter a passphrase:<br><img src="https://help.uberflip.com/hc/article_attachments/360016076872" alt="Passphrase_Entry_png__PNG_Image__1006___669_pixels_.png"></p>
+<div class="callout">
+<h4 class="callout__title">Can't see the Authentication tab on a Stream?</h4>
+<p>This might be because:</p>
+<ul>
+<li>You're viewing a Stream type that does not support authentication (i.e. a Source Stream), or</li>
+<li>You don't have the <a href="#h_01F68CAYSQYTT2Q8KWS0316ZRT" target="_self">necessary permissions</a> to configure Stream Authentication, or</li>
+<li>The Stream Authentication feature may not be supported in your Hub or pack type.</li>
+</ul>
+</div>
+<p> </p>
+<h2>Add Stream/DSR passphrases</h2>
+<p>The next step after enabling Stream/DSR Authentication is to add at least one passphrase. No passphrase will be set by default, so <strong>until you add a passphrase, it won't be possible for anyone to access the Stream/DSR.</strong></p>
+<ol>
+<li>Navigate to the <strong>Authentication tab</strong> on a Stream where you've enabled Stream Authentication.</li>
+<li>Click <strong>Add Passphrase</strong> <br><img src="https://help.uberflip.com/hc/article_attachments/17594065894669" width="599" height="241">
+</li>
+<li>The <strong>Add Passphrase</strong> modal will open. Use the fields provided to type in a passphrase and a description, then click on <strong>Add</strong>.
+<ul>
+<li>Passphrases must be between 6 and 40 characters long, and must contain at least one letter (A-Z) and one number (0-9). Special characters are <strong>not</strong> required.</li>
+<li>The description you provide for each passphrase is displayed in the passphrases table on the <em>Authentication</em> tab, and can be helpful for identifying the user for whom the passphrase was created.<br><img src="https://help.uberflip.com/hc/article_attachments/360018674311" alt="Hubs___Manage_-_Uberflip.png" width="554" height="428">
+</li>
+</ul>
+</li>
+<li>Your new passphrase will be added to the passphrase list for this Stream, and will take effect on the Stream immediately.</li>
+<li>You can repeat this process to add additional passphrases, if needed.
+<ul>
+<li>Adding multiple passphrases is useful if you want to provide separate passphrases to different users (or groups of users), so that you can revoke access for just that user/group later (by <a href="#h_01F68DGQQWZA1VK35TEHFXZF7G" target="_self">deleting the corresponding passphrase</a>).</li>
+</ul>
+</li>
+</ol>
+<p> </p>
+<h2>Manage Streams/DSRs with Authentication</h2>
+<p>To see more information about Stream/DSR Authentication on a given Stream/DSR, open that Stream or DSR and click on the <strong>Authentication</strong> tab. On this tab, you can view every currently valid passphrase for the Stream/DSR, along with:</p>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li>The passphrase itself</li>
+<li>Its description text</li>
+<li>The Hub user who created the passphrase</li>
+<li>The date when the passphrase was created<br><img src="https://help.uberflip.com/hc/article_attachments/360018674451" alt="Hubs___Manage_-_Uberflip.png" width="683" height="108">
+</li>
+</ul>
+</li>
+</ul>
+<p> </p>
+<h2 id="h_01F68DGQQWZA1VK35TEHFXZF7G">Edit and delete Stream/DSR passphrases</h2>
+<p>After you've added passphrases for a Stream/DSR, you can also change those passphrases at any time, or delete any existing passphrase.</p>
+<ol>
+<li>Navigate to the <strong>Authentication </strong>tab on a Stream/DSR where you have enabled Stream Authentication.</li>
+<li>To edit a passphrase, hover your mouse over it and click on the <strong>Edit </strong>button <img src="https://help.uberflip.com/hc/article_attachments/360016077832" alt="Marketing_Stream_-_Authentication_Tab_png__PNG_Image__1214___1464_pixels__copy.png" width="20" height="20"> .</li>
+<li>To delete a passphrase, hover your mouse over it and click on the <strong>Delete</strong> button <img src="https://help.uberflip.com/hc/article_attachments/360016077892" alt="Marketing_Stream_-_Authentication_Tab_png__PNG_Image__1214___1464_pixels_.png" width="20" height="20">.</li>
+</ol>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>When you delete a passphrase, anyone who has previously logged in with that passphrase will still be able to access the Stream or DSR until they end their session (i.e. until they fully close their browser), or delete their cookies.</p>
+<p>Note that it is not possible to force-logout visitors who previously accessed the Stream or DSR with a now-disabled passphrase.</p>
+</div>
+<p> </p>
+<h2>Disable Stream/DSR Authentication</h2>
+<p>You can disable Stream/DSR Authentication anywhere it's currently enabled at any time.</p>
+<ol>
+<li>Navigate to the <strong>Authentication </strong>tab on a Stream where you have enabled Stream/DSR Authentication.</li>
+<li>Switch the toggle under <strong>Enable Authentication</strong> to the <strong>off (grey)</strong> position.<br><img src="https://help.uberflip.com/hc/article_attachments/360018673971" alt="Hubs___Manage_-_Uberflip.png" width="611" height="188">
+</li>
+<li>The change will take effect immediately, and visitors to this Stream/DSR will no longer be prompted for a passphrase.</li>
+</ol>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>When you disable Stream Authentication for a Stream, any currently configured passphrases (i.e. those listed in the passphrase table) will not be deleted. As a result, those passphrases will take effect again immediately if you re-enable Stream/DSR Authentication for that Stream or DSR.</p>
+</div>
+<p> </p>
+<h2>Additional notes</h2>
+<ul>
+<li>Enabling Stream/DSR Authentication on a Stream/DSR will also automatically configure the Stream/DSR so that search engine robots are <strong>not</strong> allowed to crawl it. This will be reflected on the Streams list (i.e. the Stream will show as <em>no-index/follow</em>). However, note that the toggle shown next to the <em>No Robots Meta Tag </em>setting on the Stream's <em>Options</em> tab won't change.</li>
+<li>If you want, you can override the appearance of the Stream/DSR Authentication login page to style it in any way you like by using <a href="https://help.uberflip.com/hc/en-us/articles/360018841312" target="_self">custom code</a>.</li>
+<li>If you enable both Hub Authentication <em>and</em> Stream Authentication at the same time, they'll be in effect independently. In other words, entering the Hub password will <strong>not</strong> also provide access to any protected Stream: each Stream with Authentication enabled will still prompt for a passphrase.</li>
+<li>Stream Authentication can also be enabled on DSRs via <a href="https://help.uberflip.com/hc/en-us/articles/360057767692" target="_self">Sales Assist</a>.</li>
+</ul>]]></description>
+         <guid isPermaLink="false">360020069172</guid>
+         <pubDate>Wed, 28 Nov 2018 16:16:25 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

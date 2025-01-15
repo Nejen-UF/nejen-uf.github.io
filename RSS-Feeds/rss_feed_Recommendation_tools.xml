@@ -1,0 +1,1163 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Recommendation tools</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Uberflip&apos;s Recommendation Engine Explained</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360024053672-Uberflip-s-Recommendation-Engine-Explained</link>
+         <description><![CDATA[<hr>
+<p>Want to learn more about how Uberflip's recommendation engine figures out what to recommend to your Hub and website visitors? Here's how it works.</p>
+<hr>
+<p> </p>
+<h2 id="h_01J0408G3BHFHS9C7QX3CK80K9">What is the recommendation engine?</h2>
+<p>The <strong>recommendation engine</strong> powers our recommendation systems, <a href="https://help.uberflip.com/hc/en-us/articles/360022410572"><strong>Content Recommendations</strong></a> and <a href="https://help.uberflip.com/hc/en-us/articles/360022595791"><strong>Site Engager</strong></a>. These systems create personalized content recommendations for visitors to your Hub and website, and the engine figures out <em>what </em>they should recommend to each visitor.</p>
+<p>The old-fashioned way of recommending content is to simply offer up a list of popular or recent articles. <em>The </em>recommendation engine creates <strong>personalized</strong> recommendations that take the particular interests of each visitor into account. Compared to generic recommendations, this greatly increases the chances that a visitor will continue to consume your content and engage more deeply with your brand.</p>
+<p class="wysiwyg-text-align-center"><img src="https://help.uberflip.com/hc/article_attachments/360023354231" alt="animation-02.gif" width="600" height="445"></p>
+<p>If you're interested in using Content Recommendations or Site Engager, you're probably wondering just how the recommendation engine works: how does it know what to recommend? In this article, we'll explain exactly how it comes up with recommendations.</p>
+<div class="callout callout--info">
+<h4 id="h_01J0408G3BT7V8YZSGGSWW0VMW" class="callout__title">Recommendation availability</h4>
+<p>Recommendation tools are not available on some pack types. For more information about your pack type and what's included, please contact your Customer Success Manager, or <a href="https://help.uberflip.com/hc/en-us/requests/new?ticket_form_id=360000089411">Uberflip Support</a>.</p>
+</div>
+<p> </p>
+<h2 id="h_01J0408G3BG2P5X287PNZH4DYP">A quick primer on recommendation engines</h2>
+<p>Here's a quick primer on what recommendation engines do, and how they do it.</p>
+<h3 id="h_01J0408G3BXA140JKQG7YXCBP6">What recommendation engines do</h3>
+<p>A recommendation engine is software that makes recommendations. Sounds simple, but "making a recommendation" is actually a pretty complex problem for a computer. That's because a recommendation is fundamentally a <em>prediction</em>: if a recommendation is the item a person would like the best among many options, pinpointing it means you need to predict how that person would rank all the available options.</p>
+<p>A computers doesn't innately know how to make a prediction. To a computer, making a prediction is like any other problem: it can't solve the problem unless it's given a set of instructions designed specifically to solve that problem. Ultimately, this is what recommendation engines do: they give computers the tools they need to make predictions, and therefore recommendations.</p>
+<h3 id="h_01J0408G3B4QMYNATV52Z9AFQ3">How recommendation engines work</h3>
+<p>The technical term for "a set of instructions to solve a problem" might sound familiar: <em>algorithm</em>. In the context of recommendation engines, the algorithms that generate recommendations are commonly referred to as <em>recommenders.</em></p>
+<p>There are many different ways to make a recommendation, and each recommender represents a particular approach, such as "visitors with similar interests also viewed these items", or "these items are similar to the one you're viewing". No single approach will work for everyone, so recommendation engines typically rely on collections of many different recommender algorithms to generate their recommendations. This way, they can cover all their bases: instead of trying to predict a single <em>best</em> recommendation, they can simply generate a <em>list</em> of recommendations in various ways and let the user decide which one they like best.</p>
+<p>Viewed as a complete system, a typical recommendation engine works like this: to begin, information about the user's preferences and the available options is fed into the recommendation engine's various recommender algorithms. Each recommender then processes this data in its own way, and serves up the item it has determined to be the best fit for the user. Once all the recommenders have run, the recommendation engine collects their output and applies any necessary refinements, such as removing duplicates. The end result of this process is a list of items that have been chosen to appeal to a user's interests: in other words, <em>recommendations</em>.</p>
+<p class="wysiwyg-text-align-center"><img src="https://help.uberflip.com/hc/article_attachments/360023354091" alt="ai-animation.gif" width="601" height="332"></p>
+<p> </p>
+<h2 id="h_01J0408G3BS5BEGVWFQRDFW55H">
+<em>Recommendation engine</em>: The basics</h2>
+<p>At the heart of Uberflip's recommendation engine are over twenty separate recommenders (algorithms) that each take a different approach to recommending content based on visitor interests, content similarity, and other factors.</p>
+<p>Each recommender identifies several options, ranks them according to relevance, then presents just the top option as its "pick". This top option must also exceed a minimum confidence threshold to be presented — in some instances, a recommender can't be sufficiently confident that <em>any</em> of the options it has generated will be a good fit for a particular user, in which case it won't present one.</p>
+<p>Because our recommendation engine filters recommendation options at the algorithm level, it can ensure that all of the options that it can select from are essentially equally good. As a result, the process of choosing the final recommendations is straightforward: <em>the engine </em>simply removes any duplicates, then randomly chooses the specified number of recommendations and presents them to the visitor. (On top of this, it also keeps track of visitors to avoid recommending something they've already viewed, and makes sure that a visitor doesn't see the same content recommendation more than five times.)</p>
+<p> </p>
+<h2 id="h_01J0408G3BTBE0JYGRFXVZ33F4">Recommenders: <em>The engine algorithms</em>
+</h2>
+<p>In this article, we won't dive into individual recommenders one-by-one, because that level of detail isn't very interesting. Instead, we'll look at the general concepts that the recommenders are based around. All of the recommenders rely on combinations and variations of these central ideas to generate recommendations, so this should give you a good idea of how they work at a high level.</p>
+<h3 id="h_01J0408G3BYFT5VA8CMN4SCYX6">Intent data</h3>
+<p>The best recommendations are specifically tailored to an individual's preferences. To do that at scale, Uberflip's recommendation engine relies on <strong>intent data</strong>. Intent data is information about the topics visitors are interested in — derived from actual observation of their browsing behavior — and focused specifically on the <em>intent</em> to make a purchase related to those topics. This makes it ideal for marketing-specific personalization, which is why about half of <em>engines</em> recommenders take intent data into account in some form.</p>
+<p class="wysiwyg-text-align-center"><img src="https://help.uberflip.com/hc/article_attachments/360023315712" alt="spider-graph.png" width="548" height="347"></p>
+<p><em>The recommendation engine</em> sources intent data from our partner Bombora, a leading provider of B2B intent data. Bombora uses machine learning to identify page topics based on keyword association, and tracks visitors across a large network of websites. Using this data, Bombora is able to build a profile of a given visitor's interests based on the topics of pages they visit. When you <a href="https://help.uberflip.com/hc/en-us/articles/360022588451">integrate your Hub with Bombora</a> (which is a requirement for using <em>the recommendation engine</em>), <em>the engine </em>uses this intent data to understand both the topics that your Hub visitors are interested in, and the topics that your content is about.</p>
+<p class="wysiwyg-text-align-center"><img src="https://help.uberflip.com/hc/article_attachments/360023353871" alt="animation-01-bambora.gif" width="650" height="482"></p>
+<p>Intent data is what gives <em>the engine</em> the ability to make truly personalized content recommendations for almost any visitor. For example, picture a user who is very interested in ABM. A recommender based on intent data will know this about that user, and can use this knowledge to look at all the available content that it has identified as relating to ABM. From there, it can rank all the options according to their relevance score, then recommend the item with the highest relevance score — an article that it has determined is ~92% about ABM, say.</p>
+<h3 id="h_01J0408G3B4KJZBV870Q2F1G0C">Collaborative filtering</h3>
+<p><strong>Collaborative filtering</strong> is a method used by most recommendation engines in some form, based on the idea that users with similar interests are likely to prefer similar items. Therefore, if you analyze the preferences of a large number of users, you can predict how any given individual would rate a particular item based on how similar users rated it. For example, say Amanda, Ben, and Charlie are all interested in content marketing: if we know that Amanda and Ben are also interested in ABM, then we can assume that Charlie is likely interested in ABM, too — even if he hasn't expressed this interest yet.</p>
+<p>Collaborative filtering is one of the most effective ways of personalizing recommendations, so a large number of <em>Uberflip'</em>s recommenders are based around it. And since collaborative filtering requires data about user preferences, most of these recommenders also rely on intent data to calculate user similarity and predict content preferences.</p>
+<p><em>The recommendation engine's</em> collaborative filtering (CF) recommenders can be broadly divided into two categories, <em>user-based</em> and <em>topic-based</em>:</p>
+<ul>
+<li>A user-based CF recommender looks at <strong>a </strong><strong>user's intent data</strong> to identify the topic they're most interested in, then recommends items that other users with the same top interest viewed most often.</li>
+<li>A topic-based CF recommender looks at<strong> the current page </strong><strong>a user is viewing</strong> to identify its topic, then recommends items that other users with this topic as their top interest viewed most often.</li>
+</ul>
+<p>One particular strength of collaborative filtering recommenders is that they are self-refining, improving as the body of data that feeds into them grows. Plus, they are capable of generating recommendations that are not necessarily related to the topic the user is currently viewing, which can encourage content discovery and drive greater engagement.</p>
+<h3 id="h_01J0408G3B2PAVQ5ZKQT2CD1ES">Proximity and popularity</h3>
+<p>Lastly, a number of <em>Uberflip's </em>recommenders revolve around the concepts of <strong>proximity</strong> and <strong>popularity</strong>.</p>
+<p><em>Proximity</em> recommenders are based on the simple but effective idea that a user who is viewing a given item is probably interested in that topic, and would likely be interested in similar items about the same topic. By analyzing the content of all the items that can be recommended, proximity recommenders are able to calculate a numerical value for the "distance" between any two items based on how similar they are (i.e. how much overlap there is between the topics that they cover), then recommend the item that is closest (most similar) to the one currently being viewed.</p>
+<p><em>Popularity</em> recommenders have an even more straightforward premise: the most popular items are top performers because they have wide appeal among the target audience, and are therefore a safe bet to recommend to any user. This kind of recommender will identify the content with the most page views in a given period, or the highest click-through rates, and recommend it regardless of the user's current context. Although this type of recommender offers the least amount of personalization, its recommendations still tend to be effective. Moreover, it also serves a valuable role as a backup in cases where not enough intent data exists to offer more personalized recommendations.</p>
+<p> </p>
+<h2 id="h_01J0408G3BCY8610KT85R1YN2N">Next steps</h2>
+<p>Now that you know how the Uberflip recommendation engine comes up with recommendations, try it out for yourself: learn how to set up <a href="https://help.uberflip.com/hc/en-us/articles/360022410572"><strong>Content Recommendations</strong></a> and <a href="https://help.uberflip.com/hc/en-us/articles/360022595791"><strong>Site Engager</strong></a> to begin serving algorithm-powered, personalized content recommendations at scale.</p>]]></description>
+         <guid isPermaLink="false">360024053672</guid>
+         <pubDate>Thu, 21 Feb 2019 19:24:26 GMT</pubDate>
+      </item>
+      <item>
+         <title>Site Engager: Recommend content on your website</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360022595791-Site-Engager-Recommend-content-on-your-website</link>
+         <description><![CDATA[<p>With Site Engager, you can recommend content from your Uberflip Hub on any of your other web properties. This article will show you how.</p>
+<p> </p>
+<h2 id="h_01J044Z9D1R4Y7DT2PKB4NV9KF">Before You Begin</h2>
+<ul>
+<li>To use Site Engager, you need to be an <strong>Account Admin</strong>.</li>
+<li>You will need access to the website code (HTML) of the web property on which you want to use Site Engager.</li>
+<li>If you want Site Engager to use <a href="https://www.uberflip.com/ai/">the Uberflip recommendation engine</a> to generate content suggestions, you must set up a <strong>Bombora</strong> integration on your Hub. For instructions, see <a href="https://help.uberflip.com/hc/en-us/articles/360022588451">Set Up a Bombora Integration</a>.</li>
+<li>The recommendation engine is only available on certain pack types. If your pack type does not include it, you'll still be able to use Site Engager, but won't be able to select the engine as a recommendation option. For more information about your pack type and what's included, please contact your Customer Success Manager, or Uberflip Support.</li>
+</ul>
+<p> </p>
+<h2 id="h_01J044Z9D1BM5R9ZF4R56YVQ95">About Site Engager</h2>
+<p>Serving up personalized content recommendations to your visitors is an effective way of increasing their engagement. Uberflip's <a href="https://help.uberflip.com/hc/en-us/articles/360022410572">Content Recommendations</a> feature takes care of serving up recommendations in your Hub, but what about prospects that haven't made it to your Hub yet?</p>
+<p>Site Engager goes hand-in-hand with Content Recommendations, and recommends content from your Hub on any of your other web properties. Like Content Recommendations, Site Engager uses <a href="https://www.uberflip.com/ai/">Uberflip's recommendation engine</a> to customize recommendations to your visitors' needs and interests, maximizing their relevance and value.</p>
+<h3 id="h_01J044Z9D1GSKDWDFMWVSNY4P2">Where Are Recommendations Shown?</h3>
+<p>Site Engager displays recommendations in two main ways. The first of these is the <strong>Promo Tile</strong>, which appears along the left or right side of a webpage:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360021117811" alt="Optimize_Your_Content_Marketing_Efforts___Uberflip_Content_Experiences.png" width="531" height="380"></p>
+<p>The other is the <strong>Exit Intent Popup</strong>, which is shown when the visitor moves their mouse near the top of the page (i.e. towards either their browser's <em>Back</em> or <em>Close Tab/Window</em> buttons):</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360021117671" alt="_DRAFT_COPY__Serve_Hub_Content_Recommendations_on_Your_Website___Uberflip_Help.png"></p>
+<p>In both cases, interacting with the recommendation will expand it in a <strong>viewer</strong>, which can also recommend further Items for the visitor to look at next, or let them go back to the previous one:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360021179932" alt="Create_Better_Account-Based_Marketing_Campaigns___Uberflip.png" width="701" height="489"></p>
+<h3 id="h_01J044Z9D1DS9XWCTA3PCNRBPQ">Does it Work on Mobile?</h3>
+<p>Site Engager will display recommendations in mobile browsers, as well, but the experience is slightly different. On mobile devices, only the the Promo Tile is used, where it appears as a banner at the bottom of the screen:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360023487711" alt="Account-Based_Marketing_Tools_to_Scale_Personalized_Content___Uberflip.png" width="291" height="267"></p>
+<p>This banner-style Promo Tile will appear on mobile phones and on tablets in portrait mode, while tablets in landscape mode and very large tablets (e.g. the iPad Pro) will still use the desktop-style Promo Tile.</p>
+<p>Interacting with the banner-style Promo tile does not open the viewer. Instead, tapping on the recommendation banner will open the Item in a new browser tab/window. However, in cases where the regular Promo Tile is displayed on mobile (i.e. large tablets, or tablets in landscape), tapping on it will open the desktop-style viewer (note that the viewer will disappear if the user turns their tablet back to portrait mode).</p>
+<p>The Exit Intent Popup will not appear on any mobile device, regardless of size or orientation. This is because it uses mouse movement to detect when a user is likely to exit the current page, which isn't available on mobile devices.</p>
+<p> </p>
+<h2 id="h_01J044Z9D1WAWQYZ2SQEP19SV4">Install Site Engager on your Website</h2>
+<p>To use Site Engager on your website, you first need to install it. This is as simple as pasting a lightweight JavaScript snippet into the HTML of your website. You can choose to embed the snippet in the main template of your website, or on individual pages. Since Site Engager is configured entirely within the Uberflip App, you won't need to do any coding (or ask your developers for help) to set it up and use it.</p>
+<ol>
+<li>To get the Site Engager snippet, log in to your Uberflip account and navigate to <strong>Website Tools &gt; Site Engager </strong>using the sidebar menu on the left:<br><img src="https://help.uberflip.com/hc/article_attachments/360021180052" alt="Hubs___Site_Engager_-_Uberflip.png">
+</li>
+<li>In the Site Engager interface on the right, click on the <strong>Embed Script</strong> tab:<br><img src="https://help.uberflip.com/hc/article_attachments/360021180132" alt="Hubs___Site_Engager_-_Uberflip.png" width="523" height="271">
+</li>
+<li>Click on the <strong>Copy to Clipboard </strong>button to copy the code snippet.<br><img src="https://help.uberflip.com/hc/article_attachments/360021117791" alt="Hubs___Site_Engager_-_Uberflip.png" width="612" height="186">
+</li>
+<li>Now, simply <strong>paste the snippet into your website's HTML</strong>, within the <em>&lt;body&gt;</em> tags.</li>
+</ol>
+<p> </p>
+<h2 id="h_01J044Z9D1MAXMSP9HG6J39Y8X">Set Up Site Engager Recommendations</h2>
+<p>Once Site Engager is installed on your website, you can configure the recommendations it serves in the Uberflip app. As with <a href="https://help.uberflip.com/hc/en-us/articles/360022410572">recommendations on your Hub</a>, you configure Site Engager recommendations using two core components:</p>
+<ul>
+<li>
+<strong>Templates</strong> determine how recommendations are displayed on your website. They allow you to define the look and feel of your recommendations, such as how many Items are recommended, positioning of the Promo Tile, etc.</li>
+<li>
+<strong>Rules</strong> define the placement and source of recommendations. In other words, they control where on your website a set of recommendations will be shown, and what content will be recommended. You can enable or disable individual rules, which allows you to control whether a specific recommendation setup is active (enabled) or inactive (disabled).</li>
+</ul>
+<p>These components work together to serve recommendations. To configure Site Engager, you set up a rule to define the details of the recommendations (i.e. the "what" and the "where"), then assign a template to that rule to define look and feel. Finally, you enable the rule to begin serving the corresponding recommendations on your website.</p>
+<p>If you're setting up Site Engager for the first time, we recommend that you begin by <a href="#h_12979823381549912979242">creating a template</a> (to set up the look and feel). You can then <a href="#h_7807057911371549314138895">create your first rule</a> and use the template you set up with it.</p>
+<p> </p>
+<h2 id="h_4249929981061549314107420">Manage Templates</h2>
+<h3 id="h_12979823381549912979242">Create a Template</h3>
+<p>You can create as many templates as you like for different purposes. Templates can be assigned to different rules, and switched out at any time.</p>
+<ol>
+<li>In Uberflip, navigate to <strong>Website Tools &gt; Site Engager </strong>using the sidebar menu on the left:<br><img src="https://help.uberflip.com/hc/article_attachments/360021119811" alt="Hubs___Site_Engager_-_Uberflip.png">
+</li>
+<li>In the Site Engager interface on the right, click on the <strong>Templates</strong> tab:<br><img src="https://help.uberflip.com/hc/article_attachments/360021120051" alt="Hubs___Site_Engager_-_Uberflip.png" width="497" height="226">
+</li>
+<li>Your existing templates will be shown in the list below the tabs. By default, there will be only one template here, the <a href="#h_833461621731549056092423">Default Template</a>.</li>
+<li>To add a new template, click on the <strong>+New Template</strong> button in the top left:<br><img src="https://help.uberflip.com/hc/article_attachments/360021182252" alt="Hubs___Recommendation_Templates_-_Uberflip.png">
+</li>
+<li>Enter a <strong>name</strong> to identify your new template, as well as a brief <strong>description</strong> (optional) in the fields provided, then click on <strong>Add Template</strong>. (This name and description will only be visible within the Uberflip app, not to your website visitors.)<br><img src="https://help.uberflip.com/hc/article_attachments/360021120991" alt="Hubs___Site_Engager_-_Uberflip.png" width="436" height="287">
+</li>
+<li>The <strong>Edit Template</strong> view will appear, where you can customize your template using the <strong>Display Options</strong> and <strong>Labels</strong> tabs. <a href="#h_171495531201549049913814">See below</a> for instructions on how to configure the available options on these tabs. All changes you make here will be saved automatically and applied immediately.</li>
+<li>You can also create new templates from the <strong>Edit Template</strong> view by copying an existing template. To do this, click on the <strong>"hamburger" menu </strong><strong>button </strong>in the top right, then click on <strong>Copy Template</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360021182952" alt="Hubs___Site_Engager___Templates___Edit_-_Uberflip.png" width="499" height="206">
+</li>
+<li>Type in a name for the copy, then click on <strong>Copy Template</strong>. You'll be taken to the <strong>Edit Recommendation Template</strong> view for the new copy, and it will be added to your list of Recommendation Templates.</li>
+</ol>
+<div class="callout callout--info">
+<h4 id="h_833461621731549056092423" class="callout__title">What's the Default Template?</h4>
+<p>The Site Engager Templates menu contains one pre-made template, the <strong>Default Template</strong>. It is automatically selected for all newly created rules.</p>
+<p>The Default Template's purpose is to act as a fallback: if a custom template used by a rule is deleted, the Default Template will be used instead. As a result, the Default Template is the only template that can't be deleted — but you can modify it to suit your needs.</p>
+</div>
+<p> </p>
+<h3 id="h_01J044Z9D2TKXHGRGE62FMHN2R">Edit or Delete a Template</h3>
+<p>You can edit or delete templates at any time, even if they are currently assigned to to one or more rules.</p>
+<ol>
+<li>You can <strong>edit</strong> any existing template, including the Default Template. While viewing the list of templates (<strong>Site Engager &gt; Templates tab</strong>), hover your mouse over the template you want to edit, then click on the <strong>pencil button </strong>on the right:<br><img src="https://help.uberflip.com/hc/article_attachments/360021121651" alt="Fullscreen_2019-02-01__2_35_PM.png" width="613" height="36">
+</li>
+<li>As with creating a new template, this will open the <strong>Edit Template</strong> view.</li>
+<li>
+<strong>Deleting a template</strong> is similar to editing: hover your mouse over it, then click on the <strong>trash can button </strong>on the right. (Note that you can't delete the Default Template.)<br><img src="https://help.uberflip.com/hc/article_attachments/360021121811" alt="Fullscreen_2019-02-04__12_37_PM.png" width="559" height="49">
+</li>
+<li>You'll see a prompt asking if you're sure you want to delete the template. Click on <strong>OK</strong> to confirm the deletion.<br>
+<ul>
+<li>If the template is still associated with any rules, this will be noted in the prompt as well. You can still go ahead and delete the template if you want; in this case, any associated rules will switch to using the Default Template instead.</li>
+</ul>
+</li>
+</ol>
+<p> </p>
+<h2 id="h_171495531201549049913814">Customize Templates</h2>
+<p>You can customize the appearance of recommendations associated with a Recommendation Template using the <strong>Display Options</strong> and <strong>Labels</strong> tabs in the <strong>Edit Template</strong> view.</p>
+<h3 id="h_01J044Z9D26SH37T26FWJQW55R">Display Options</h3>
+<p>Under the <strong>Display Options</strong> tab, you can set the following options:</p>
+<table style="height: 966px;" width="746">
+<tbody>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 178.6px;"><strong>Option</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 205.15px;"><strong>Description</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 178.317px;"><strong>Default</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 170.933px;"><strong>Notes</strong></td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 178.6px;">
+<p><strong>Max. Items to Display</strong></p>
+</td>
+<td style="width: 205.15px;">
+<p>Sets the maximum number of recommended Items to display (either in the panel or the carousel).</p>
+</td>
+<td class="wysiwyg-text-align-center" style="width: 178.317px;">
+<p>3 Items</p>
+</td>
+<td class="wysiwyg-text-align-left" style="width: 170.933px;">
+<p>Only takes effect if either <strong>Enable Promo Tile </strong>or <strong>Enable Exit Intent </strong>(or both) are set to <strong>enabled</strong>.</p>
+</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 178.6px;"><strong>Max. Item Age</strong></td>
+<td style="width: 205.15px;">
+<p>How old the oldest recommended Item can be. Set as a maximum number of days between the current date and the publish date, i.e. Items published longer ago than the setting not be displayed.</p>
+</td>
+<td class="wysiwyg-text-align-center" style="width: 178.317px;">
+<p>180 days</p>
+</td>
+<td class="wysiwyg-text-align-left" style="width: 170.933px;">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 178.6px;"><strong>Enable Promo Tile</strong></td>
+<td style="width: 205.15px;">
+<p>Toggles whether the Promo Tile is displayed.</p>
+<ul>
+<li>
+<strong>Enabled</strong>: Promo Tile is shown.</li>
+<li>
+<strong>Disabled</strong>: Promo Tile is not shown.</li>
+</ul>
+</td>
+<td class="wysiwyg-text-align-center" style="width: 178.317px;">Enabled</td>
+<td class="wysiwyg-text-align-left" style="width: 170.933px;">If this option and <strong>Enable Exit Intent Popup</strong> are <strong>both </strong><strong>disabled</strong>, no recommendations will be displayed.</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 178.6px;"><strong>Promo Tile Position</strong></td>
+<td style="width: 205.15px;">
+<p>Sets where on the page the Promo Tile is displayed.</p>
+<ul>
+<li>
+<strong>Left: </strong>Bottom left corner.</li>
+<li>
+<strong>Right: </strong>Bottom right corner.</li>
+</ul>
+</td>
+<td class="wysiwyg-text-align-center" style="width: 178.317px;">Left</td>
+<td class="wysiwyg-text-align-left" style="width: 170.933px;">Only takes effect if <strong>Enable Promo Tile</strong> is set to <strong>enabled</strong>.</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 178.6px;"><strong>Enable Exit Intent Popup</strong></td>
+<td style="width: 205.15px;">
+<p>Toggles whether the Exit Intent Popup is displayed.</p>
+<ul>
+<li>
+<strong>Enabled</strong>: Exit Intent Popup is shown.</li>
+<li>
+<strong>Disabled</strong>: Exit Intent Popup is not shown.</li>
+</ul>
+</td>
+<td class="wysiwyg-text-align-center" style="width: 178.317px;">Enabled</td>
+<td class="wysiwyg-text-align-left" style="width: 170.933px;">If this option and <strong>Enable Promo Tile</strong> are <strong>both </strong><strong>disabled</strong>, no recommendations will be displayed.</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 178.6px;"><strong>Max Close per Session</strong></td>
+<td style="width: 205.15px;">Sets the maximum number of times recommendations will be displayed again after being dismissed, within a single session.</td>
+<td class="wysiwyg-text-align-center" style="width: 178.317px;">5 times</td>
+<td class="wysiwyg-text-align-left" style="width: 170.933px;"> </td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 178.6px;"><strong>Brand Color</strong></td>
+<td style="width: 205.15px;">Sets a single brand color that is used to accent the <strong>Promo Tile</strong> and <strong>viewer</strong>.</td>
+<td class="wysiwyg-text-align-center" style="width: 178.317px;">Hex #CE0058 (Rubine Red)</td>
+<td class="wysiwyg-text-align-left" style="width: 170.933px;"> </td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 178.6px;"><strong>Z-Index</strong></td>
+<td style="width: 205.15px;">Sets the stack order of Site Engager Promo Tile, Exit Intent Popup and viewer elements, relative to other elements on the page.</td>
+<td class="wysiwyg-text-align-center" style="width: 178.317px;">99999</td>
+<td class="wysiwyg-text-align-left" style="width: 170.933px;">
+<p>Can be used to adjust positioning of Site Engager elements if they conflict with other widgets on the page.</p>
+<p>See <a href="https://www.w3schools.com/cssref/pr_pos_z-index.asp">this page</a> for an explanation of z-index.</p>
+</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 178.6px;"><strong>Timer: Show Promo Delay</strong></td>
+<td style="width: 205.15px;">Sets the time delay before the Promo Tile is displayed.</td>
+<td class="wysiwyg-text-align-center" style="width: 178.317px;">10 seconds</td>
+<td class="wysiwyg-text-align-left" style="width: 170.933px;">Timer starts after page finishes loading.</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 178.6px;"><strong>Timer: Scroll Stopped</strong></td>
+<td style="width: 205.15px;">Sets the time delay before the Promo Tile is displayed again after the visitor stops scrolling.</td>
+<td class="wysiwyg-text-align-center" style="width: 178.317px;">3 seconds</td>
+<td class="wysiwyg-text-align-left" style="width: 170.933px;"> </td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 178.6px;">
+<p><strong>Timer: Show Next/Prev Delay</strong></p>
+</td>
+<td style="width: 205.15px;">Sets the time delay before the Next and Previous Tiles appear in the viewer.</td>
+<td class="wysiwyg-text-align-center" style="width: 178.317px;">2 seconds</td>
+<td class="wysiwyg-text-align-left" style="width: 170.933px;">Timer starts after viewer opens.</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 178.6px;"><strong>Timer: Show Promo Again</strong></td>
+<td style="width: 205.15px;">Sets the time delay before the Promo Tile is displayed again after the visitor dismisses it.</td>
+<td class="wysiwyg-text-align-center" style="width: 178.317px;">20 seconds</td>
+<td class="wysiwyg-text-align-left" style="width: 170.933px;">
+<p>Timer starts when Promo Tile is dismissed.</p>
+<p>Works together with <strong>Max Close per Session</strong> setting.</p>
+</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 178.6px;"><strong>Timer: Show Exit Again</strong></td>
+<td style="width: 205.15px;">Sets the time delay before the Exit Intent popup is displayed again after the visitor dismisses it.</td>
+<td class="wysiwyg-text-align-center" style="width: 178.317px;">120 seconds</td>
+<td class="wysiwyg-text-align-left" style="width: 170.933px;">
+<p>Timer starts when Exit Intent Tile is dismissed.</p>
+<p>Works together with <strong>Max Close per Session</strong> setting.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id="h_01J044Z9D3MRFKHYPCCKBAH6E4">Labels</h3>
+<p>Under the <strong>Labels </strong>tab, you can specify the label text to be displayed next to various Site Engager interface elements:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360021122331" alt="Hubs___Site_Engager___Templates___Edit_-_Uberflip.png"></p>
+<ul>
+<li>
+<strong>Recommended</strong>: Sets the label shown above the Promo Tile.<br><img src="https://help.uberflip.com/hc/article_attachments/360021122631" alt="Fullscreen_2019-02-08__7_22_PM.png" width="202" height="290">
+</li>
+<li>
+<strong>Next: </strong>Sets the label shown above the "Next" tile on the right side of the viewer.<br><img src="https://help.uberflip.com/hc/article_attachments/360021184032" alt="Create_Better_Account-Based_Marketing_Campaigns___Uberflip.png" width="340" height="301">
+</li>
+<li>
+<strong>Previous: </strong>Sets the label shown above the "Previous" tile on the left side of the viewer.<br><img src="https://help.uberflip.com/hc/article_attachments/360021123271" alt="Create_Better_Account-Based_Marketing_Campaigns___Uberflip.png" width="340" height="305">
+</li>
+<li>
+<strong>Exit</strong>: Sets the label shown above the Exit Intent Popup.<br><img src="https://help.uberflip.com/hc/article_attachments/360021123631" alt="_DRAFT_COPY__Serve_Hub_Content_Recommendations_on_Your_Website___Uberflip_Help.png">
+</li>
+</ul>
+<p> </p>
+<h2 id="h_01J044Z9D30G6PJNPWMPV89XKF">Manage Rules</h2>
+<h3 id="h_7807057911371549314138895">Create a Rule</h3>
+<p>Create rules to define where on your website the recommendations will appear, and what content will be recommended. You can create as many rules as you like.</p>
+<ol>
+<li>In Uberflip, navigate to <strong>Website Tools &gt; Site Engager </strong>using the sidebar menu on the left:<br><img src="https://help.uberflip.com/hc/article_attachments/360021180052" alt="Hubs___Site_Engager_-_Uberflip.png">
+</li>
+<li>In the Site Engager interface on the right, you should be on the <strong>Rules</strong> tab by default (if not, click on the <strong>Rules</strong> tab). Your existing rules will be shown in the list below. If you're setting up your first rule, the list will be empty:<br><img src="https://help.uberflip.com/hc/article_attachments/360021124911" alt="Hubs___Site_Engager_-_Uberflip.png">
+</li>
+<li>To add a new rule, click on the <strong>+New Rule</strong> button in the top left:<br><img src="https://help.uberflip.com/hc/article_attachments/360021179552" alt="Hubs___Recommendation_Rules_-_Uberflip.png">
+</li>
+<li>Enter a <strong>name</strong> to identify your new template, as well as a brief <strong>description</strong> (optional) in the fields provided, then click on <strong>Add Rule</strong>.<br><img src="https://help.uberflip.com/hc/article_attachments/360021125671" alt="Hubs___Site_Engager_-_Uberflip.png" width="505" height="334">
+</li>
+<li>The <strong>Edit Rule</strong> view will now appear.</li>
+<li>You can also create new rules from the <strong>Edit Recommendation Rule</strong> view by copying an existing rule. To do this, click on the <strong>"hamburger" menu </strong><strong>button </strong>in the top right, then click on <strong>Copy Rule</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360021125771" alt="Hubs___Recommendations_Rules___Edit_-_Uberflip.png">
+</li>
+<li>Type in a name for the copy, then click on <strong>Copy Rule</strong>. You'll be taken to the <strong>Edit Rule</strong> view for the new copy.</li>
+</ol>
+<p> </p>
+<h3 id="h_01J044Z9D3E557ZY4NF4TYCHTC">Set Up a Rule</h3>
+<p>Once you have created a rule, you can configure it to specify where it will serve recommendations, and what kinds of content it will include.</p>
+<ol>
+<li>Right after creating a new Recommendation Rule, you should be in the <strong>Edit Rule</strong> view. Here, click on the <strong>Placement</strong> tab:<br><img src="https://help.uberflip.com/hc/article_attachments/360021126011" alt="Hubs___Recommendations_Rules___Edit_-_Uberflip.png">
+</li>
+<li>In the <strong>Template</strong> dropdown, you should see that the <strong>Default Template</strong> is already selected. If you want to use a different template with this rule, <strong>use the dropdown</strong> to select it. (You can also go directly to your list of templates by clicking on the <strong>View Templates</strong> link below the dropdown.)<br><img src="https://help.uberflip.com/hc/article_attachments/360021186812" alt="Hubs___Recommendations_Rules___Edit_-_Uberflip.png" width="536" height="202">
+</li>
+<li>Next to <strong>Show On</strong>, choose where you want the recommendations generated by this rule to be displayed:
+<ul>
+<li>
+<strong>Any Page</strong>: Show recommendations on all pages on the website(s) where Site Engager is installed. Selected by default.</li>
+<li>
+<strong>Page URL Includes: </strong>Enter a directory or path that appears in some URLs on your website (e.g. <em>/use-cases/sales</em>). Recommendations will be shown only on pages whose URL contains the specified directory/path.</li>
+<li>
+<strong>Page URL Is Exactly: </strong>Enter a complete URL (e.g. <em>https://resources.mycompany.com/webinars</em>). Recommendations will be shown only on the page with this URL.</li>
+</ul>
+</li>
+<li>Next, click on the <strong>Recommended Content</strong> tab:<br><img src="https://help.uberflip.com/hc/article_attachments/360021186872" alt="Hubs___Recommendations_Rules___Edit_-_Uberflip.png">
+</li>
+<li>Use the dropdown next to <strong>Recommend</strong> to choose how recommendations will be generated for this rule:
+<ul>
+<li>
+<strong>A.I. Engine:</strong> Let the <a href="https://help.uberflip.com/hc/en-us/articles/360024053672">Uberflip recommendation engine</a> decide which Items to recommend, using machine learning and visitor intent data. If you choose this option, you'll see <strong>Recommend Items from</strong> below the dropdown:<br><img src="https://help.uberflip.com/hc/article_attachments/360021126311" alt="Hubs___Recommendations_Rules___Edit_-_Uberflip.png"><br>Use this setting to specify where the recommendation engine will draw recommendations from. Choose either <strong>Any Source or Marketing Stream</strong> or <strong>Select Streams</strong>. If you choose <strong>Select Streams</strong>, use the dropdown to choose the Stream(s). Selected Streams will be listed below the dropdown.</li>
+<li>
+<strong>Single Stream Source:</strong> Choose one Stream to draw recommendations from. If you choose this option, use the <strong>Stream List</strong> dropdown to choose the Stream you want to use:<br><img src="https://help.uberflip.com/hc/article_attachments/360021126391" alt="Hubs___Recommendations_Rules___Edit_-_Uberflip.png">
+</li>
+</ul>
+</li>
+<li>Next to <strong>Show CTA at End</strong>, choose whether you want to display a Link or Form CTA as the final "recommendation" in the viewer (shown after the last recommended piece of content):<br>
+<ul>
+<li>
+<strong>Show a CTA:</strong> Use the dropdown to select the CTA to be displayed.</li>
+<li>
+<strong>Do not show a CTA:</strong> Do not select anything in the dropdown (leave it on <em>Select a CTA</em>). If you already selected a CTA and want to not show a CTA instead, click on the <em>x</em> next to the selected CTA to remove it.</li>
+</ul>
+</li>
+</ol>
+<p> </p>
+<h3 id="h_01J044Z9D3TWFR9SAM48J741WG">Enable and Disable Rules</h3>
+<p>To activate a rule so that it starts serving recommendations, you must enable it. Likewise, to stop it from serving recommendations, simply disable the rule.</p>
+<ol>
+<li>You can enable individual rules directly from the Rules tab. To do that, navigate to <strong>Website Tools &gt;</strong><strong>Site Engager &gt;</strong><strong> Rules tab</strong>, then find the rule you want to enable in the list.</li>
+<li>Next to the rule you want to enable, on the right side, <strong>click on the toggle switch</strong> under the <strong>Enable</strong> column to set it to the <strong>on (green)</strong> position:<br><img src="https://help.uberflip.com/hc/article_attachments/360021187452" alt="Hubs___Site_Engager_-_Uberflip1.png" width="584" height="172">
+</li>
+<li>This will enable the rule, and Site Engager will soon begin serving recommendations according to the rule's settings.</li>
+<li>To disable a rule, simply switch the toggle under <strong>Enabled</strong> back to the <strong>off (grey)</strong> position:<br><img src="https://help.uberflip.com/hc/article_attachments/360021187472" alt="Hubs___Site_Engager_-_Uberflip2.png" width="577" height="124">
+</li>
+<li>Site Engager will immediately stop serving recommendations as defined in the disabled rule (but will still serve recommendations according to any other enabled rules).</li>
+<li>You can also enable and disable rules while you're in a rule's <strong>Edit Rule</strong> view on the <strong>Rule Info</strong> tab:<br><img src="https://help.uberflip.com/hc/article_attachments/360021126691" alt="Hubs___Site_Engager___Rules___Edit_-_Uberflip3.png" width="459" height="372">
+</li>
+</ol>
+<div class="callout callout--info">
+<h4 id="h_01J044Z9D3CMR8XFWVE0X5CB6K" class="callout__title">Note: Recommendations powered by the recommendation engine</h4>
+<p>If you have set up a rule powered by the recommendation engine, it can take 3-4 days for recommendations to start appearing. This is because the engine takes a little while to collect the data it needs to provide meaningful recommendations for visitors.</p>
+<p>Note that the Hub from which recommendations are drawn must have visitors in order for recommendations to be generated. The recommendation engine also uses Bombora intent data, and Bombora likewise requires visitors to generate this data. If you only recently set up your <a href="https://help.uberflip.com/hc/en-us/articles/360022588451">Bombora integration</a> and it has not yet collected enough visitor data, this means you won't see any recommendations yet.</p>
+</div>
+<p> </p>
+<h3 id="h_01J044Z9D39CCJ1DZDSRDQNWKM">Edit or Delete a Rule</h3>
+<p>You can edit or delete rules at any time, even if they are currently enabled. (Deleting an enabled rule will also deactivate it.)</p>
+<ol>
+<li>You can <strong>edit</strong> any existing rule. While viewing the list of rules (<strong>Website Tools &gt;</strong><strong>Site Engager &gt;</strong><strong> Rules tab</strong>), hover your mouse over the rule you want to edit, then click on the <strong>pencil button </strong>on the right:<br><img src="https://help.uberflip.com/hc/article_attachments/360021126671" alt="Fullscreen_2019-02-11__2_03_PM4.png" width="571" height="55">
+</li>
+<li>As with creating a new rule, this will open the <strong>Edit Rule</strong> view.</li>
+<li>
+<strong>Deleting a rule</strong> is similar to editing: hover your mouse over it, then click on the <strong>trash can button </strong>on the right.<br><img src="https://help.uberflip.com/hc/article_attachments/360021187432" alt="Fullscreen_2019-02-05__12_13_PM5.png">
+</li>
+<li>You'll see a prompt asking if you're sure you want to delete the rule. Click on <strong>OK</strong> to confirm the deletion.</li>
+</ol>
+<p> </p>
+<h2 id="h_01J044Z9D39G1NSX96F8YR82B9">Set Rule Order</h2>
+<p>You can set up rules in such a way that multiple rules can apply to a given page. If you have conflicting rules for a given page (i.e. two or more rules that apply to the page), you can adjust the rule order to determine which rule takes precedence and serves recommendations on that page.</p>
+<p>Generally, conflicts occur where rules with narrow scopes (e.g. just one page) and wider scopes (multiple pages) overlap. When ordering conflicting rules, you want the rule with the <em>narrowest</em> scope to have the highest priority. That way, a rule scoped to just one page will only apply to that page, while more widely-scoped rules will apply to all other pages that don't have their own single-page rule.</p>
+<ol>
+<li>While viewing your list of rules (<strong>Website Tools &gt;</strong><strong>Site Engager &gt;</strong><strong> Rules tab</strong>), find the rule you want to reorder.</li>
+<li>Click on the number in the <strong>Order</strong> column for the rule:<br><img src="https://help.uberflip.com/hc/article_attachments/360021187492" alt="Hubs___Site_Engager_-_Uberflip6.png">
+</li>
+<li>
+<strong>Type in the new position</strong> in the order where you want this rule to appear (or use the arrow buttons), then press <strong>Enter</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360021126711" alt="Hubs___Site_Engager_-_Uberflip7.png">
+</li>
+<li>The rule will be moved to the chosen position in the order, and the other rules in the list will be automatically reordered to accommodate the change (i.e. they will be shifted up or down the order by one position as needed):<br><img src="https://help.uberflip.com/hc/article_attachments/360021187512" alt="Hubs___Site_Engager_-_Uberflip8.png">
+</li>
+</ol>
+<div class="callout callout--success">
+<h4 id="h_01J044Z9D3HH9D67Q35KVH1YWC" class="callout__title">Best Practice: The "Catch All" Rule</h4>
+<p>We recommend creating a "Catch All" rule to serve recommendations anywhere that no page-specific rule exists. This rule should offer general recommendations (ideally powered by the recommendation engine), and you should make sure that it is set to the lowest position in the order so that all page-specific rules take priority.</p>
+</div>]]></description>
+         <guid isPermaLink="false">360022595791</guid>
+         <pubDate>Tue, 29 Jan 2019 19:33:57 GMT</pubDate>
+      </item>
+      <item>
+         <title>Set Up Content Recommendations in Your Hub</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360022410572-Set-Up-Content-Recommendations-in-Your-Hub</link>
+         <description><![CDATA[<hr>
+<p>Learn how to automatically recommend relevant content to your visitors to personalize their content experience and boost engagement.</p>
+<hr>
+<p> </p>
+<h2 id="h_01J04RMHD916MDK12TF7Z9KY7W">Before You Begin</h2>
+<ul>
+<li>To use Content Recommendations, you need to be an <strong>Account Admin</strong>.</li>
+<li>If you want Content Recommendations to use the <a href="https://help.uberflip.com/hc/en-us/articles/360024053672">recommendation engine</a> to generate content suggestions, you must set up a <strong>Bombora</strong> integration on your Hub. For instructions, see <a href="https://help.uberflip.com/hc/en-us/articles/360022588451">this article</a>.</li>
+<li>The Content Recommendations feature recommends content within your Hub. You can also also recommend content from your Hub on your other web properties with the separate <a href="https://help.uberflip.com/hc/en-us/articles/360022595791">Site Engager</a> feature.</li>
+<li>Uberflip's recommendation engine is only available on certain pack types. Content Recommendations requires this, so if your pack type does not include it, this feature will not be available in your Hub. For more information about your pack type and what's included, please contact your Customer Success Manager, or Uberflip Support.</li>
+</ul>
+<p> </p>
+<h2 id="h_01J04RMHD9TSC73EYAVWYW3SBR">About Content Recommendations</h2>
+<p>Uberflip Content Recommendations is a content recommendation engine which can offer personalized suggestions to visitors as they browse your Hub. Using Content Recommendations can help you to surface content that's relevant to your visitors' interests, keeping them engaged with your content for longer.</p>
+<p>Content Recommendations must be customized to your visitors' needs and interests to be valuable, so we use the recommendation engine. This allows you to serve up the most relevant content for each individual visitor. Alternatively, you can also opt to manually define Streams from which to serve recommendations.</p>
+<p> </p>
+<h3 id="h_01J04RMHD98X4V6M0WEHZFFZDG">Where Are Recommendations Shown?</h3>
+<p>Within your Hub, recommendations are always shown <strong>beside Items</strong>, and appear in two places. They are primarily served via the <strong>recommendation panel</strong>, a sidebar that appears on the left of the screen whenever a visitor views an Item:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360019832112" alt="Gating_Content__This_One_Small_Change_Will_7x_Your_Conversion_Rate___Uberflip.png" width="588" height="477"></p>
+<p>If a device's screen is too small to to display the panel (or if you disable the panel), you can also place recommendations in the <em>More Content </em>carousel:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360019831812" alt="How_to_Use_The_Item_Management_Dashboard.png" width="545" height="239"></p>
+<p>As well as in the <em>Next Item</em> flyout (if enabled):</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360019700231" alt="Fullscreen_2019-01-30__11_26_AM.png"></p>
+<p>In both cases, the recommendations will replace the actual next/previous Items in the Stream.</p>
+<p>Also, note that recommendations are never shown at the Stream level — only at the Item level.</p>
+<p> </p>
+<h2 id="h_01J04RMHD96K8989ZH9DS37GX4">Set Up Content Recommendations in Your Hub</h2>
+<p>Content Recommendations consists of two core components, which you use to configure the appearance and behavior of recommendations in your Hub:</p>
+<ul>
+<li>
+<strong>Recommendation Templates</strong> determine how recommendations appear in your Hub. They allow you to define the look and feel of your recommendations, such as how many Items are recommended, how much time passes before the panel appears, etc.</li>
+<li>
+<strong>Recommendation Rules</strong> define the placement and source of recommendations. In other words, they control where in your Hub a set of recommendations will be shown, and what content will be recommended. You can enable or disable individual rules, which allows you to control whether a specific recommendation setup is active (enabled) or inactive (disabled).</li>
+</ul>
+<p>You use these components together to serve recommendations in your Hub: basically, you set up a Recommendation Rule to define the details of the recommendations (i.e. the "what" and the "where"), then assign a Recommendation Template to that rule to define look and feel. Finally, you enable the Recommendation Rule to actually begin serving the corresponding recommendations on the Hub.</p>
+<p>If you're setting up recommendations for the first time, we recommend that you begin by <a href="#h_4249929981061549314107420">creating a Recommendation Template</a> (to set up the look and feel). You can then <a href="#h_7807057911371549314138895">create your first Recommendation Rule</a> and use the template you set up with it.</p>
+<p> </p>
+<h2 id="h_4249929981061549314107420">Manage Recommendation Templates</h2>
+<h3 id="h_01J04RMHD900KWQ0R44GMYVPC3">Create a Recommendation Template</h3>
+<p>You can create as many templates as you like for different purposes. Templates can be assigned to different Recommendation Rules, and switched out at any time.</p>
+<ol>
+<li>In the  sidebar menu in Uberflip, click on the <strong>Recommendations</strong> section to expand it, then click on <strong>Recommendation Templates</strong>.<br><img src="https://help.uberflip.com/hc/article_attachments/360019872871" alt="Hubs___Recommendation_Templates_-_Uberflip.png">
+</li>
+<li>Your existing templates will be shown in the list on the right. By default, there will be only one template here, the <a href="#h_833461621731549056092423">Default Template</a>:<img src="https://help.uberflip.com/hc/article_attachments/360020139012" alt="Hubs___Recommendation_Templates_-_Uberflip.png" width="606" height="169">
+</li>
+<li>To add a new template, click on the <strong>+New Template</strong> button in the top left:<br><img src="https://help.uberflip.com/hc/article_attachments/360020139292" alt="Hubs___Recommendation_Templates_-_Uberflip.png">
+</li>
+<li>Enter a <strong>name</strong> to identify your new template, as well as a brief <strong>description</strong> (optional) in the fields provided, then click on <strong>Add Template</strong>. (This name and description will only be visible within the Uberflip app, not to your Hub visitors.)<br><img src="https://help.uberflip.com/hc/article_attachments/360020139412" alt="Hubs___Recommendation_Templates_-_Uberflip.png" width="498" height="328">
+</li>
+<li>The <strong>Edit Recommendation Template</strong> view will appear, where you can customize your template. <a href="#h_171495531201549049913814">See below</a> for more details about the available options. All changes are saved automatically and applied immediately.<br><img src="https://help.uberflip.com/hc/article_attachments/360020150132" alt="Hubs___Recommendations_Templates___Edit_-_Uberflip.png" width="538" height="358">
+</li>
+<li>You can also create new templates from the <strong>Edit Recommendation Template</strong> view by copying an existing template. To do this, click on the <strong>"hamburger" menu </strong><strong>button </strong>in the top right, then click on <strong>Copy Template</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360020002411" alt="Hubs___Recommendations_Templates___Edit_-_Uberflip.png" width="577" height="336">
+</li>
+<li>Type in a name for the copy, then click on <strong>Copy Template</strong>. You'll be taken to the <strong>Edit Recommendation Template</strong> view for the new copy, and it will be added to your list of Recommendation Templates.</li>
+</ol>
+<div class="callout callout--info">
+<h4 id="h_833461621731549056092423" class="callout__title">What's the Default Template?</h4>
+<p>Your Hub contains one pre-made template, the <strong>Default Template</strong>. It is automatically selected for all newly created Recommendation Rules.</p>
+<p>The Default Template's purpose is to act as a fallback: if a custom template used by a rule is deleted, the Default Template will be used instead. As a result, the Default Template is the only template that can't be deleted — but you can modify it to suit your needs.</p>
+</div>
+<p> </p>
+<h3 id="h_01J04RMHD94J1TJXFH8XHG4H10">Edit or Delete a Recommendation Template</h3>
+<p>You can edit or delete templates at any time, even if they are currently assigned to to one or more rules.</p>
+<ol>
+<li>You can <strong>edit</strong> any existing template, including the Default Template. While viewing the list of templates (<strong>Recommendations &gt; Recommendation Templates</strong>), hover your mouse over the template you want to edit, then click on the <strong>pencil button </strong>on the right:<br><img src="https://help.uberflip.com/hc/article_attachments/360020141032" alt="Fullscreen_2019-02-01__2_35_PM.png" width="698" height="41">
+</li>
+<li>As with creating a new template, this will open the <strong>Edit Recommendation Template</strong> view.</li>
+<li>
+<strong>Deleting a template</strong> is similar to editing: hover your mouse over it, then click on the <strong>trash can button </strong>on the right. (Note that you can't delete the Default Template.)<br><img src="https://help.uberflip.com/hc/article_attachments/360020202931" alt="Fullscreen_2019-02-04__12_37_PM.png" width="548" height="48">
+</li>
+<li>You'll see a prompt asking if you're sure you want to delete the template. Click on <strong>OK</strong> to confirm the deletion.<br>
+<ul>
+<li>If the template is still associated with any Recommendation Rules, this will be noted in the prompt as well. You can still go ahead and delete the template if you want; in this case, any associated rules will switch to using the Default Template instead.</li>
+</ul>
+</li>
+</ol>
+<p> </p>
+<h2 id="h_171495531201549049913814">Customize Recommendation Templates</h2>
+<p>You can customize the appearance of recommendations associated with a Recommendation Template using the <strong>Display Options</strong> and <strong>Labels</strong> tabs in the <strong>Edit Recommendation Template</strong> view.</p>
+<h3 id="h_01J04RMHD9JBBC27P6EP7P1916">Display Options</h3>
+<p>Under the <strong>Display Options</strong> tab, you can set the following options:</p>
+<table style="height: 240px;" width="720">
+<tbody>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 356.5px;"><strong>Option</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 356.5px;"><strong>Description</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 356.5px;"><strong>Default</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 356.5px;"><strong>Notes</strong></td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 356.5px;">
+<p><strong>Max. Items to Display</strong></p>
+</td>
+<td style="width: 356.5px;">
+<p>Sets the maximum number of recommended Items to display (either in the panel or the carousel).</p>
+</td>
+<td class="wysiwyg-text-align-center" style="width: 356.5px;">
+<p>3 Items</p>
+</td>
+<td class="wysiwyg-text-align-left" style="width: 356.5px;">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 356.5px;"><strong>Max. Item Age</strong></td>
+<td style="width: 356.5px;">
+<p>How old the oldest recommended Item can be. Set as a maximum number of days between the current date and the publish date, i.e. Items published longer ago than the setting not be displayed.</p>
+</td>
+<td class="wysiwyg-text-align-center" style="width: 356.5px;">
+<p>180 days</p>
+</td>
+<td class="wysiwyg-text-align-left" style="width: 356.5px;">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 356.5px;"><strong>Enable Panel</strong></td>
+<td style="width: 356.5px;">
+<p>Toggles whether the Recommendations panel is displayed (on the left of the screen):</p>
+<ul>
+<li>
+<strong>Enabled</strong>: Panel is shown.</li>
+<li>
+<strong>Disabled</strong>: Panel is not shown.</li>
+</ul>
+</td>
+<td class="wysiwyg-text-align-center" style="width: 356.5px;">
+<p>Enabled</p>
+</td>
+<td class="wysiwyg-text-align-left" style="width: 356.5px;">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 356.5px;">
+<p><strong>Panel Top</strong></p>
+</td>
+<td style="width: 356.5px;">
+<p>Controls the positioning of the Recommendations panel relative to the top of the Hub menu.</p>
+<ul>
+<li>
+<strong>Auto</strong>: Automatically positions the top of the panel to be flush with the bottom of the Hub menu bar.</li>
+<li>
+<strong>Custom</strong>: Overrides the <em>Auto</em> setting by manually setting the distance, in pixels, between the top border of the panel and the top border of the Hub menu bar:<br><img src="https://help.uberflip.com/hc/article_attachments/360020014291" alt="Gating_Content__This_One_Small_Change_Will_7x_Your_Conversion_Rate___Uberflip.png" width="282" height="148"><br>For best results, the distance set must be at least equal to the width of the Hub menu bar.</li>
+</ul>
+</td>
+<td class="wysiwyg-text-align-center" style="width: 356.5px;">
+<p>Auto</p>
+</td>
+<td class="wysiwyg-text-align-left" style="width: 356.5px;">
+<p>Custom setting can be used to adjust position in case of overlap with custom Hub menu designs.</p>
+<p>Only takes effect if <strong>Enable Panel</strong> is set to <strong>enabled</strong>.</p>
+</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 356.5px;"><strong>Panel Delay</strong></td>
+<td style="width: 356.5px;">
+<p>Sets the time delay, in seconds, between when the page finishes loading and when the Recommendations panel appears.</p>
+</td>
+<td class="wysiwyg-text-align-center" style="width: 356.5px;">
+<p>0 seconds (appears immediately)</p>
+</td>
+<td class="wysiwyg-text-align-left" style="width: 356.5px;">
+<p>Only takes effect if <strong>Enable Panel</strong> is set to <strong>enabled</strong>.</p>
+</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 356.5px;"><strong>Override Next/Carousel</strong></td>
+<td style="width: 356.5px;">
+<p>Toggles the option to display recommendations in the <em>More Content </em>carousel and the <em>Next Item</em> flyout (if enabled), instead of the next Item in the current Stream.</p>
+<ul>
+<li>
+<strong>Enabled</strong>: Recommendations are displayed in carousel and flyout.</li>
+<li>
+<strong>Disabled</strong>: Recommendations only shown in panel.</li>
+</ul>
+<p> </p>
+</td>
+<td class="wysiwyg-text-align-center" style="width: 356.5px;">
+<p>Enabled</p>
+</td>
+<td class="wysiwyg-text-align-left" style="width: 356.5px;">
+<p>If enabled, only takes effect if <strong>Enable Panel</strong> is set to <strong>disabled</strong>, or if the screen size is too small to display the panel (e.g. on mobile devices).</p>
+<p>If this option and <strong>Enable Panel</strong> are <strong>both </strong><strong>disabled</strong>, no recommendations will be displayed.</p>
+</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 356.5px;"><strong>Hide Publish Date</strong></td>
+<td style="width: 356.5px;">
+<p>Toggles the option to hide the publish date on recommended Items.</p>
+<ul>
+<li>
+<strong>Enabled</strong>: Published dates are hidden.</li>
+<li>
+<strong>Disabled</strong>: Publish dates are displayed.</li>
+</ul>
+</td>
+<td class="wysiwyg-text-align-center" style="width: 356.5px;">Disabled</td>
+<td class="wysiwyg-text-align-left" style="width: 356.5px;"> </td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h3 id="h_01J04RMHDA2Y6XC1ARNZKV2RPA">Labels</h3>
+<p>Under the <strong>Labels </strong>tab, you can specify the label text to be displayed at the top of the Recommendations panel, and in the <em>More Content</em> carousel:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360020016311" alt="Gating_Content__This_One_Small_Change_Will_7x_Your_Conversion_Rate___Uberflip.png" width="311" height="290"></p>
+<p>The default text is "Recommended", but can be changed to anything you like:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360020153472" alt="Hubs___Recommendations_Templates___Edit_-_Uberflip.png"></p>
+<p>There is no enforced limit on the length of the label, however note that anything longer than about 20 characters (approximately one line of text, with spaces) will overlap the thumbnail for the first recommended Item.</p>
+<p>If you have set Content Recommendations to override the <em>Next Item</em> flyout, the label text is not affected by this setting. This label can't be modified, and will always display "Next Recommendation".</p>
+<p> </p>
+<h2 id="h_01J04RMHDARK9QP7Z3CH3MBJ2N">Manage Recommendation Rules</h2>
+<h3 id="h_7807057911371549314138895">Create a Recommendation Rule</h3>
+<p>Create Recommendation Rules to define where in your Hub the recommendations will appear, and what content will be recommended. You can create as many rules as you like.</p>
+<ol>
+<li>In the  sidebar menu in Uberflip, click on the <strong>Recommendations</strong> section to expand it, then click on <strong>Recommendation Rules</strong>.<br><img src="https://help.uberflip.com/hc/article_attachments/360020226971" alt="Hubs___Recommendations_Rules___Edit_-_Uberflip.png">
+</li>
+<li>Your existing rules will be shown in the list on the right. By default, the list will be empty:<br><img src="https://help.uberflip.com/hc/article_attachments/360020227271" alt="Hubs___Recommendation_Rules_-_Uberflip.png" width="604" height="168">
+</li>
+<li>To add a new rule, click on the <strong>+New Rule</strong> button in the top left:<br><img src="https://help.uberflip.com/hc/article_attachments/360020354092" alt="Hubs___Recommendation_Rules_-_Uberflip.png">
+</li>
+<li>Enter a <strong>name</strong> to identify your new template, as well as a brief <strong>description</strong> (optional) in the fields provided, then click on <strong>Add Rule</strong>.<br><img src="https://help.uberflip.com/hc/article_attachments/360020227471" alt="Hubs___Recommendation_Rules_-_Uberflip.png" width="412" height="272">
+</li>
+<li>The <strong>Edit Recommendation Rule</strong> view will appear.</li>
+<li>You can also create new rules from the <strong>Edit Recommendation Rule</strong> view by copying an existing rule. To do this, click on the <strong>"hamburger" menu </strong><strong>button </strong>in the top right, then click on <strong>Copy Rule</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360020357272" alt="Hubs___Recommendations_Rules___Edit_-_Uberflip.png">
+</li>
+<li>Type in a name for the copy, then click on <strong>Copy Rule</strong>. You'll be taken to the <strong>Edit Recommendation Rule</strong> view for the new copy.</li>
+</ol>
+<p> </p>
+<h3 id="h_01J04RMHDA0MZC85XHARWPTVGV">Set Up a Recommendation Rule</h3>
+<p>Once you have created a Recommendation Rule, you can configure it to specify where it will serve recommendations, and what kinds of content it will include.</p>
+<ol>
+<li>Right after creating a new Recommendation Rule, you should be in the <strong>Edit Rule</strong> view. Here, click on the <strong>Placement</strong> tab:<br><img src="https://help.uberflip.com/hc/article_attachments/360020227691" alt="Hubs___Recommendations_Rules___Edit_-_Uberflip.png">
+</li>
+<li>In the <strong>Template</strong> dropdown, you should see that the <strong>Default Template</strong> is already selected. If you want to use a different template with this rule, <strong>use the dropdown</strong> to select it. (You can also go directly to your list of templates by clicking on the <strong>View Templates</strong> link below the dropdown.)<br><img src="https://help.uberflip.com/hc/article_attachments/360020354712" alt="Hubs___Recommendations_Rules___Edit_-_Uberflip.png" width="425" height="160">
+</li>
+<li>Next to <strong>Show On</strong>, choose where you want the recommendations to be displayed:
+<ul>
+<li>
+<strong>Any Source or Marketing Stream: </strong>Show recommendations from this rule beside all Items in your Hub (except for Items viewed within Sales Streams). Selected by default.</li>
+<li>
+<strong>Select Streams: </strong>Display the recommendations defined by this rule only beside Items in specific Streams. Click on the button next to <strong>Select Streams</strong>, then <strong>use the dropdown to choose Stream(s)</strong>. Selected Streams are shown in a list below the dropdown:<br><img src="https://help.uberflip.com/hc/article_attachments/360020230731" alt="Hubs___Recommendations_Rules___Edit_-_Uberflip.png" width="544" height="165">
+</li>
+</ul>
+</li>
+<li>Next, click on the <strong>Recommended Content</strong> tab:<br><img src="https://help.uberflip.com/hc/article_attachments/360020230871" alt="Hubs___Recommendations_Rules___Edit_-_Uberflip.png">
+</li>
+<li>Use the dropdown next to <strong>Recommend</strong> to choose how recommendations will be generated for this rule:
+<ul>
+<li>Choose <strong>A.I. Engine</strong> to let the Uberflip recommendation engine decide which Items to recommend, using machine learning and visitor intent data. If you choose this option, you'll see <strong>Recommend Items from</strong> below the dropdown:<br><img src="https://help.uberflip.com/hc/article_attachments/360020357932" alt="Hubs___Recommendations_Rules___Edit_-_Uberflip.png" width="493" height="135"><br>Use this setting to specify where the recommendation engine will draw recommendations from. As in Step 3 above, choose either <strong>Any Source or Marketing Stream</strong> or <strong>Select Streams</strong>.</li>
+<li>Choose <strong>Single Stream Source</strong> if you want recommendations to be drawn from one specified Stream. If you choose this option, use the <strong>Stream List</strong> dropdown to choose the Stream you want to use:<br><img src="https://help.uberflip.com/hc/article_attachments/360020232351" alt="Hubs___Recommendations_Rules___Edit_-_Uberflip.png" width="498" height="104">
+</li>
+</ul>
+</li>
+<li>Your Recommendation Rule is now set up, and you can enable it on your Hub whenever you're ready.</li>
+</ol>
+<p> </p>
+<h3 id="h_01J04RMHDA26TD9K5BPMZCKDN5">Enable and Disable Recommendation Rules</h3>
+<p>To activate a Recommendation Rule so that it starts serving recommendations, you must enable it. Likewise, to stop it from serving recommendations, simply disable the rule.</p>
+<ol>
+<li>You can enable individual rules directly from the Recommendation Rules list. To do that, navigate to <strong>Recommendations &gt; </strong><strong>Recommendation Rules</strong>, then find the rule you want to enable in the list.</li>
+<li>Next to the rule you want to enable, on the right side, <strong>click on the toggle switch</strong> under the <strong>Enable</strong> column to set it to the <strong>on (green)</strong> position:<br><img src="https://help.uberflip.com/hc/article_attachments/360020274651" alt="Hubs___Recommendation_Rules_-_Uberflip.png" width="601" height="98">
+</li>
+<li>This will enable the rule, and your Hub will soon begin serving recommendations according to the rule's settings.</li>
+<li>To disable a rule, simply switch the toggle under <strong>Enabled</strong> back to the <strong>off (grey)</strong> position:<br><img src="https://help.uberflip.com/hc/article_attachments/360020396432" alt="Hubs___Recommendation_Rules_-_Uberflip.png" width="586" height="88">
+</li>
+<li>Your Hub will immediately stop serving recommendations as defined in the disabled rule (but will still serve recommendations according to any other enabled rules).</li>
+<li>You can also enable and disable rules while you're in a rule's <strong>Edit Recommendation Rule</strong> view on the <strong>Rule Info</strong> tab:<br><img src="https://help.uberflip.com/hc/article_attachments/360020279231" alt="Hubs___Recommendations_Rules___Edit_-_Uberflip.png" width="500" height="330">
+</li>
+</ol>
+<div class="callout callout--info">
+<h4 id="h_01J04RMHDAXSXEHHG59MBEARK5" class="callout__title">Note: </h4>
+<p>If you have set up a Recommendation Rule powered by the recommendation engine, it can take 3-4 days for recommendations to start appearing. This is because the engine takes a little while to collect the data it needs to provide meaningful recommendations for visitors.</p>
+<p>Note that your Hub must have visitors in order for the recommendations to be generated. The recommendation engine also uses Bombora intent data, and Bombora likewise requires visitors to generate this data. If you only recently set up your <a href="https://help.uberflip.com/hc/en-us/articles/360022588451">Bombora integration</a> and it has not yet collected enough visitor data, this means you won't see any engine recommendations yet.</p>
+</div>
+<p> </p>
+<h3 id="h_01J04RMHDAJ9KGZWB7NTJQTR0T">Edit or Delete a Recommendation Rule</h3>
+<p>You can edit or delete rules at any time, even if they are currently enabled. (Deleting an enabled rule will also deactivate it.)</p>
+<ol>
+<li>You can <strong>edit</strong> any existing rule. While viewing the list of rules (<strong>Recommendations &gt; Recommendation Rules</strong>), hover your mouse over the rule you want to edit, then click on the <strong>pencil button </strong>on the right:<br><img src="https://help.uberflip.com/hc/article_attachments/360020401232" alt="Fullscreen_2019-02-05__12_13_PM.png" width="599" height="54">
+</li>
+<li>As with creating a new rule, this will open the <strong>Edit Recommendation Rule</strong> view.</li>
+<li>
+<strong>Deleting a rule</strong> is similar to editing: hover your mouse over it, then click on the <strong>trash can button </strong>on the right.<br><img src="https://help.uberflip.com/hc/article_attachments/360020283651" alt="Fullscreen_2019-02-05__12_13_PM.png">
+</li>
+<li>You'll see a prompt asking if you're sure you want to delete the rule. Click on <strong>OK</strong> to confirm the deletion.</li>
+</ol>
+<p> </p>
+<h2 id="h_01J04RMHDA6RBTZCHHPTJFE6DC">Set Recommendation Rule Order</h2>
+<p>You can set up Recommendation Rules in such a way that multiple rules can apply to a given Stream. In such cases, the order of your rules will determine which rule takes precedence and serves recommendations on Items in that Stream.</p>
+<p>To illustrate, consider this setup:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360020667252" alt="Hubs___Recommendation_Rules_-_Uberflip.png" width="699" height="154"></p>
+<p>You can see in the parentheses beside the rule names which Stream(s) each rule applies to. Here's how it breaks down:</p>
+<table style="height: 246px;" width="601">
+<tbody>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 147px;"> </td>
+<td class="wysiwyg-text-align-center" style="width: 147px;"><strong>Stream A</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 147px;"><strong>Stream B</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 147px;"><strong>Other Streams</strong></td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 147px;"><strong>Rule 1</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 147px;"><strong>•</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 147px;"><strong>•</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 147px;"><strong>•</strong></td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 147px;"><strong>Rule 2</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 147px;"><strong>•</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 147px;"> </td>
+<td class="wysiwyg-text-align-center" style="width: 147px;"> </td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 147px;"><strong>Rule 3</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 147px;"> </td>
+<td class="wysiwyg-text-align-center" style="width: 147px;"><strong>•</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 147px;"> </td>
+</tr>
+</tbody>
+</table>
+<p>As you can see, Rule 2 is designed to apply to only Stream A, and Rule 3 is designed to apply to only Stream B. However, Rule 1 is an All Streams rule, so it <em>also</em> applies to both Stream A and Stream B. This creates a conflict with the other rules.</p>
+<p>To resolve the conflict, we can adjust the rule order to determine priority. When ordering conflicting rules, you want the rule with the <em>narrowest</em> scope to have the highest priority. That way, a rule scoped to just one Stream will only apply to that Stream, while more widely-scoped rules will apply to all  Streams that don't have their own rule.</p>
+<p>In this case, we can just bump Rules 2 and 3 above Rule 1 in the order, like this:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360020672332" alt="Hubs___Recommendation_Rules_-_Uberflip.png"></p>
+<p>Now, Rule 2 takes priority over Rule 1 for Stream A, and Rule 3 takes priority over Rule 1 for Stream B. For all Streams <em>other</em> than A and B, Rule 1 will apply. (Note that the order of Rules 2 and 3 relative to one another doesn't matter, as they do not conflict.)</p>
+<p>To modify the order of Recommendation Rules:</p>
+<ol>
+<li>While viewing your list of Recommendation Rules (<strong>Recommendations &gt; Recommendation Rules</strong>), find the rule you want to reorder.</li>
+<li>Click on the number in the <strong>Order</strong> column for the rule:<br><img src="https://help.uberflip.com/hc/article_attachments/360020788532" alt="Hubs___Recommendation_Rules_-_Uberflip.png">
+</li>
+<li>
+<strong>Type in the new position</strong> in the order where you want this rule to appear (or use the arrow buttons), then press <strong>Enter</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360020788792" alt="Hubs___Recommendation_Rules_-_Uberflip.png">
+</li>
+<li>
+<p>The rule will be moved to the chosen position in the order, and the other rules in the list will be automatically reordered to accommodate the change (i.e. they will be shifted up or down the order by one position as needed):<br><img src="https://help.uberflip.com/hc/article_attachments/360020711691" alt="Hubs___Recommendation_Rules_-_Uberflip.png"></p>
+</li>
+</ol>
+<div class="callout callout--success">
+<h4 id="h_01J04RMHDAC6C6CGRPJ8MH7SNJ" class="callout__title">Best Practice: The "Catch All" Recommendation Rule</h4>
+<p>We recommend creating a "Catch All" Recommendation Rule to serve recommendations anywhere that no Stream-specific rule exists. This rule should offer general recommendations (ideally powered by the recommendation engine), and you should make sure that it is set to the lowest position in the order so that all Stream-specific rules take priority.</p>
+</div>]]></description>
+         <guid isPermaLink="false">360022410572</guid>
+         <pubDate>Tue, 29 Jan 2019 19:32:18 GMT</pubDate>
+      </item>
+      <item>
+         <title>The Recommendation Dashboard Explained</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360025600951-The-Recommendation-Dashboard-Explained</link>
+         <description><![CDATA[<hr>
+<p>Learn how to use the Recommendation Dashboard to see how your <a href="https://help.uberflip.com/hc/en-us/articles/360022410572" target="_self">Content Recommendations</a> and <a href="https://help.uberflip.com/hc/en-us/articles/360022595791" target="_self">Site Engager</a> setups are performing.</p>
+<hr>
+<p> </p>
+<h2>Before you Begin</h2>
+<ul>
+<li>There are no default restrictions on viewing the <strong>Recommendation Dashboard</strong> — anyone with access to your Uberflip Hub can do this.</li>
+<li>If needed, access to the Recommendation Dashboard can be granted or removed for groups or individual users using the <strong>Dashboards &gt; View Recommendation Dashboard</strong> permission.</li>
+<li>The Recommendation Dashboard will only display data if <a href="https://help.uberflip.com/hc/en-us/articles/360022410572" target="_self">Content Recommendations</a>, <a href="https://help.uberflip.com/hc/en-us/articles/360022595791" target="_self">Site Engager</a>, or both are set up and active on your Hub.</li>
+</ul>
+<p> </p>
+<h2>About the Recommendation Dashboard</h2>
+<p>The <a href="https://help.uberflip.com/hc/en-us/articles/360022410572" target="_self">Content Recommendations</a> and <a href="https://help.uberflip.com/hc/en-us/articles/360022595791" target="_self">Site Engager</a> features allow you to offer truly personalized content recommendations to your visitors, helping to surface your most effective Hub content for each person. If you're using these features, the <strong>Recommendation Dashboard</strong> is where you can see exactly how the content recommendations they generate are performing:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360024468471" alt="Hubs___Recommendation_Performance_-_Uberflip.png" width="698" height="440"></p>
+<p>The Recommendation Dashboard gives you access to metrics around the recommendations generated by Content Recommendations and Site Engager. At a high level, this gives you a way to gauge the overall effectiveness of these features at engaging and converting your visitors. Plus, by digging into the more granular data, you can gain valuable insights — some of the questions that you can answer with the Recommendation Dashboard include:</p>
+<ul>
+<li>How well are specific Items performing when recommended to visitors?</li>
+<li>Which Items are the most effective at driving conversions?</li>
+<li>Which specific setups (recommendation rules) work best?</li>
+<li>How does the context in which it is recommended (i.e. on different web properties) affect the way your content performs with visitors?</li>
+</ul>
+<p>With this information, you can make data-driven decisions about your content experiences and recommendation setups, helping to improve their performance over time.</p>
+<p> </p>
+<h2>Open the Dashboard</h2>
+<p>To open the Recommendation Dashboard:</p>
+<ol>
+<li>Log in to Uberflip.</li>
+<li>Navigate to the Hub you want to view.</li>
+<li>Click on <strong>Dashboard</strong> in the sidebar menu on the left to expand that menu section.</li>
+<li>In the menu, click on <strong>Recommendation Dashboard:<br><img src="https://help.uberflip.com/hc/article_attachments/360025774512" alt="Hubs___Recommendation_Dashboard_-_Uberflip.png" width="189" height="267"><br></strong>
+</li>
+<li>The Recommendation Dashboard will appear on the right.</li>
+</ol>
+<p>The Recommendation Dashboard consists of three main sections: <strong>Date Range &amp; Filter Controls</strong>, <strong>Overview Metrics</strong>, and <strong>Item-Level &amp; Rules-Level Metrics</strong>.</p>
+<p> </p>
+<p> </p>
+<h2>Configure the Dashboard</h2>
+<h3>Set Date Range</h3>
+<p>You can set the date range for which metrics will be shown either by specifying a<strong> custom range of dates</strong>, or by choosing a <strong>preset date range</strong>. The date range you set will affect all metrics shown in the Dashboard.</p>
+<p>To specify a custom range of dates, use the date picker:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360024343371" alt="Hubs___Recommendation_Performance_-_Uberflip.png"><img src="https://help.uberflip.com/hc/article_attachments/360025788671" alt="Hubs___Recommendation_Dashboard_-_Uberflip.png" width="701" height="524"></p>
+<p>Or, choose from any of the following preset date ranges, which are relative to the current date:</p>
+<ul>
+<li>
+<strong>Yesterday:</strong> The previous calendar day</li>
+<li>
+<strong>Last 7 Days:</strong> The previous 7 calendar days, ending on the day before the current day</li>
+<li>
+<strong>Last Week:</strong> The previous week, running Sunday to Saturday</li>
+<li>
+<strong>Last Month:</strong> The previous full calendar month</li>
+</ul>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360024326912" alt="Hubs___Recommendation_Performance_-_Uberflip.png"></p>
+<p>Choosing a preset date range will also update the date picker with the corresponding start and end dates.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Notes on Date Range</h4>
+<ul>
+<li>The maximum period that can be selected is <strong>31 days</strong>
+</li>
+<li>Data is <strong>updated nightly: </strong>the most recent available data is always the previous day's data</li>
+<li>Records are available back to <strong>January 22, 2019</strong>
+</li>
+</ul>
+</div>
+<p> </p>
+<h3>Set Filters</h3>
+<p>Using the <strong>filter menu bar</strong>, you can filter the recommendation metrics in four primary ways:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360024348211" alt="Hubs___Recommendation_Performance_-_Uberflip.png"></p>
+<p>In addition, there is also a conditional <strong>Keyword</strong> filter that appears when you make certain selections on the primary filters:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360024355871" alt="Hubs___Recommendation_Performance_-_Uberflip.png"></p>
+<h4>
+<em class="fas fa-filter"> </em>Filter Type: Location</h4>
+<p>Filters by the location in which recommendations are displayed, based on the feature used to display them (e.g. Content Recommendations or Site Engager).</p>
+<p>Available options:</p>
+<ul>
+<li>
+<strong>All Locations (Default):</strong> Recommendations served on the current Hub and all web properties on which Site Engager for this Hub is deployed</li>
+<li>
+<strong>This Hub Only:</strong> Only recommendations served on the Hub you're currently in (when selected, activates the <strong>Keyword</strong> filter to allow filtering by Stream name)</li>
+<li>
+<strong>Site Engager:</strong> Only recommendations served across all web properties where you are using Site Engager</li>
+</ul>
+<p> </p>
+<h4>
+<em class="fas fa-filter"> </em>Filter Type: Domain</h4>
+<p>Filters by the domain on which recommendations were displayed. This is specific to Site Engager recommendations, and can't be used when the <em>Location</em> filter is set to <em>This Hub Only</em>.</p>
+<p>Available options:</p>
+<ul>
+<li>
+<strong>All Domains (Default): </strong>All domains on which Site Engager served a recommendation, combined</li>
+<li>
+<strong>Any individual domain</strong> on which Site Engager served recommendations (when selected, activates the <strong>Keyword</strong> filter to allow filtering by URL string)</li>
+</ul>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important: Unexpected Domains</h4>
+<p>The list of domains shown under the <strong>Domain</strong> filter may include some unexpected or unfamiliar entries. These "unexpected domains" can appear if you did not restrict the URL(s) where Site Engager can appear while <a href="https://help.uberflip.com/hc/en-us/articles/360022595791-Set-Up-Site-Engager-to-Recommend-Hub-Content-on-Your-Website#manage-rules">setting up a Site Engager rule</a>, and Site Engager fired in the context of an unexpected domain.</p>
+<p>Situations in which this could happen include:</p>
+<ul>
+<li>Any time your site appears on another domain within an <a href="https://www.w3schools.com/HTML/html_iframe.asp">iframe</a>, such as if it has been embedded. Some web performance testing tools rely on this.</li>
+<li>When someone accesses your site through a proxy, in which case you will see the proxy's domain.</li>
+</ul>
+<p>To prevent Site Engager from firing on unexpected domains, choose either the <strong>Page URL Includes</strong> or <strong>Page URL is Exactly </strong>options (under the <strong>Placement</strong> tab) when setting up a Site Engager Rule.</p>
+</div>
+<p> </p>
+<h4>
+<em class="fas fa-filter"> </em>Filter Type: Visual</h4>
+<p>Filters by the type of interface used to serve the recommendations, across both Content Recommendations and Site Engager.</p>
+<p>Available options:</p>
+<ul>
+<li>
+<strong>All Visuals (Default): </strong>Recommendations across all of the visual interfaces that both Content Recommendations and Site Engager can use</li>
+<li>
+<strong>Hub - Panel: </strong>Only recommendations served in the Content Recommendations <em>Panel</em> (sidebar) interface</li>
+<li>
+<strong>Hub - Carousel: </strong>Only recommendations served in the Content Recommendations <em>Carousel</em> ("More Content") interface</li>
+<li>
+<strong>Hub - Next/Previous: </strong>Only recommendations served in the Content Recommendations <em>Next/Previous Item Flyout</em> interface</li>
+<li>
+<strong>Site Engager - Promo Tile: </strong>Only recommendations served in the Site Engager <em>Promo Tile</em> interface</li>
+<li>
+<strong>Site Engager - Exit Intent: </strong>Only recommendations served in the Site Engager <em>Exit Intent </em>interface</li>
+<li>
+<strong>Site Engager - Next: </strong>Only recommendations served in the Site Engager <em>Next</em> interface (after clicking on a <em>Promo Tile</em> or <em>Exit Intent</em> recommendation)</li>
+<li>
+<strong>Site Engager - Previous: </strong>Only recommendations served in the Site Engager <em>Previous</em> interface (after clicking on a <em>Promo Tile</em> or <em>Exit Intent</em> recommendation)</li>
+</ul>
+<p> </p>
+<h4>
+<em class="fas fa-filter"> </em>Filter Type: Type</h4>
+<p>Filter by the method used to generate the recommendations that were served, across both Content Recommendations and Site Engager.</p>
+<p>Available options:</p>
+<ul>
+<li>
+<strong>All Types (Default): </strong>Recommendations generated by both Uberflip AI and from single Streams</li>
+<li>
+<strong>AI Engine: </strong>Only recommendations generated by <a href="https://help.uberflip.com/hc/en-us/articles/360024053672" target="_self">Uberflip AI</a>
+</li>
+<li>
+<strong>Single Stream: </strong>Only recommendations pulled from single Streams</li>
+</ul>
+<p> </p>
+<h4>
+<em class="fas fa-filter"> </em>Filter Type: Keyword</h4>
+<p>Filter by searching for a full or partial keyword match. Available only when the following filters have been selected:</p>
+<ul>
+<li>
+<strong>Domain &gt; Specific Domain:</strong> Only domains matching a full or partial URL keyword</li>
+<li>
+<strong>Location &gt; This Hub Only:</strong> Only Streams matching a full or partial Stream Name keyword</li>
+</ul>
+<p>When available, the <strong>Keyword</strong> filter appears on the right side of the main filter menu bar:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360024356071" alt="Hubs___Recommendation_Performance_-_Uberflip.png" width="671" height="45"></p>
+<p> </p>
+<h2>Overview Metrics Explained</h2>
+<p>Three key metrics are highlighted in the center of the Recommendation Dashboard, along with the relationship between them. These overview metrics are always visible, and respect the currently selected date range and filters.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360024357111" alt="Hubs___Recommendation_Performance_-_Uberflip.png" width="690" height="190"></p>
+<p>The metrics shown are:</p>
+<dl class="dl-horizontal">
+<dt>Impressions</dt>
+<dd>How many times visitors <strong>saw</strong> recommendations for Items from the selected Hub.</dd>
+<dd>See <a href="#h_fa04d3a5-c539-45c6-879b-c3c862d9aa79" target="_self">the note below</a> to learn how impressions are defined and counted.</dd>
+<dd></dd>
+<dt>Clicks</dt>
+<dd>How many times visitors <strong>clicked</strong> on Item recommendations that they saw.</dd>
+<dd></dd>
+<dt>Form CTA Conversions</dt>
+<dd>How many times visitors <strong>submitted a <a href="https://help.uberflip.com/hc/en-us/articles/360020989871" target="_self">Form CTA</a></strong> after clicking on an Item recommendation.</dd>
+<dd></dd>
+</dl>
+<p>The overview metrics are useful for seeing how your recommendations are performing at a high level. In general:</p>
+<ul>
+<li>
+<strong>Impressions</strong> tells you how many of your recommendations are actually being seen by visitors</li>
+<li>
+<strong>Clicks</strong> indicates how relevant your visitors found those recommendations based on how much they actually engaged with them</li>
+<li>
+<strong>Form CTA conversions</strong> gives you an idea of how effective the recommendations are at converting visitors into prospects</li>
+</ul>
+<p>As you can see, this is a funnel: impressions lead to clicks, which in turn lead to conversions. This is represented by the arrows with percentages above them that appear between each of the tiles:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360024342812" alt="Hubs___Recommendation_Performance_-_Uberflip.png" width="376" height="165"></p>
+<p>These figures represent the <strong>conversion rate</strong> between the metrics, i.e. the proportion of the metric on the left that converted into the one on the right. In the screenshot above, for instance, you can see that out of 335 visitors who clicked through on a recommendation, 17 submitted a Form CTA — a conversion rate of 5.07%. Conversion rates visualize the relationship between the metrics, and are useful for seeing at a glance how "efficient" your recommendations are at turning your visitors into prospects.</p>
+<div class="callout callout--info">
+<h4 id="h_fa04d3a5-c539-45c6-879b-c3c862d9aa79" class="callout__title">What counts as an impression?</h4>
+<p>An <strong>impression</strong> is counted each time a recommendation is seen by a visitor. This means that the recommendation must be actually visible to the visitor to be counted: only Items that are <strong>fully rendered onscreen in the visitor's browser</strong> count as an impression.</p>
+<p>For example, in the screenshot below, the top Item would count as an impression, but the bottom Item would not, because it is cut off (not fully visible):</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360024358111" alt="5_Content_Distribution_Channels_for_Your_ABM_Program__cheat_sheet____Uberflip_and_Reference__Custom_Zendesk_Formatting_Components___Uberflip_Help.png" width="324" height="362"></p>
+<p>We also have built-in error correction that will record an impression if an Item registers a click-through without a corresponding impression. For example, if a visitor clicked on the bottom Item in the screenshot above, this would increase the click count but not the impression count, so an impression is automatically recorded in this situation to prevent a discrepancy.</p>
+</div>
+<p> </p>
+<h2>Item-Level and Rules-Level Metrics Explained</h2>
+<p>You can also view these same metrics (impressions, clicks, and Form CTA conversions) broken down by individual Items and recommendation rules. These more granular metrics are shown in the tables below the Overview Metrics section under the <strong>Items</strong> and <strong>Rules</strong> tabs:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360024420951" alt="Hubs___Recommendation_Performance_-_Uberflip.png" width="464" height="401"></p>
+<p> </p>
+<h3>Item-Level Metrics</h3>
+<p>This table breaks down impressions, clicks and Form CTA conversions (along with conversion rates between them) by individual Items that were recommended to visitors. All metrics shown reflect the currently selected date range and filters.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360024409812" alt="Hubs___Recommendation_Performance_-_Uberflip.png" width="703" height="120"></p>
+<p>By default, the table is sorted in descending order by impressions (i.e. the Item with the most impressions at the top). You can sort the table by any of the available metrics by clicking on its column header, including the <em>conversion rate</em> columns between each of the metrics. The column currently used for sorting is highlighted and has an arrow beside it to indicate the sort order (click a column header once for descending, and click it a second time for ascending):</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360024409872" alt="Hubs___Recommendation_Performance_-_Uberflip.png"></p>
+<p>You can get some useful insights by sorting the table in various ways:</p>
+<ul>
+<li>Items with a lot of impressions are recommended frequently, but this doesn't necessarily mean that they're effective — look at their conversion rates to the other metrics to identify how you might improve them. Items that are recommended a lot tend to be the ones that are the best fit for your visitors' interests, so if you are seeing an Item of this type with relatively few clicks, this can be a signal that you need to improve its title and/or thumbnail.</li>
+<li>Items with a lot of clicks, especially relative to impressions, are grabbing the attention of your visitors. These Items are worth analyzing to see what makes them so appealing, as you may be able to apply what you learn to your other content as well.</li>
+<li>Items with a lot of Form CTA conversions relative to clicks are your high-performers. To get the most out of them, you want to get these Items in front of as many visitors as possible, so look at impressions and clicks to see where you can improve.</li>
+</ul>
+<p> </p>
+<h3>Rules-Level Metrics</h3>
+<p>This table breaks down impressions, clicks and Form CTA conversions (along with conversion rates between them) by the specific recommendation rules that you have set up. All metrics shown reflect the currently selected date range and filters.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360024425991" alt="Hubs___Recommendation_Performance_-_Uberflip.png" width="700" height="104"></p>
+<p>By default, the table is sorted in descending order by impressions (i.e. the rule that generated the most impressions at the top). As with the Item-level metrics table, you can click on a column header to sort the table by that metric, and the sorting column is highlighted with an arrow indicating sort order. This includes the <em>conversion </em><em>rate</em> columns between the metrics, but does not include the <em>Location</em> column, which can't be sorted (use filters instead).</p>
+<p>The Rules-level metrics are helpful for understanding the effectiveness of your different recommendation rules:</p>
+<ul>
+<li>If a rule is generating a lot of impressions, don't assume that it must be working: this might simply be because it is widely deployed, and doesn't mean it's actually effective. Look for rules that have a lot of impressions but a relatively low number of clicks (i.e. a low conversion rate from impressions to clicks). These rules are showing Items a lot, but the low clickthrough rate can indicate that these Items may not be appealing or relevant to most visitors who see them, so the rule may need to be tweaked.</li>
+<li>If some of your rules are narrowly targeted on purpose, you would not expect them to generate many impressions. However, because of their narrow focus, you could generally expect them to have a higher click-through rate than the average, widely-scoped rule. For this type of rule, look for instances with a low clickthrough rate to identify opportunities for improvement. You can also look at similar rules which are more effective to see what you can learn from them.</li>
+<li>Make sure to also look for rules that are generating few or no impressions. If they aren't being seen, this could be due to a setup problem.</li>
+</ul>
+<p> </p>
+<h2>Export Recommendation Metrics</h2>
+<p>If you want to slice-and-dice these metrics further, you can export the raw data and import it into an external data analysis tool or data warehouse. The exported data is available in CSV format, which most tools of this kind support as an import option.</p>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>As the Recommendation Dashboard doesn't support date ranges longer than 1 month, you can use the CSV export instead: simply export the previous month's data each month, which will allow you to view data over longer time periods in your external data analysis tool.</p>
+</div>
+<p>To export data, click on the <strong>Export CSV</strong> button on the right side of the filter menu bar:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360024356651" alt="Hubs___Recommendation_Performance_-_Uberflip.png" width="663" height="138"></p>
+<p>This will generate and automatically start downloading a CSV file with a file name in the format <em>Recommendations - Account XXXXXX - Hub XXX - YYYY-MM-DD to YYYY-MM-DD.csv</em>:</p>
+<p><em><img src="https://help.uberflip.com/hc/article_attachments/360024339592" alt="Hubs___Recommendation_Performance_-_Uberflip_and_Downloads_and_Documentation_Prep_-_Recomendation_Dashboard_-_Google_Docs.png"></em></p>
+<p>The export feature will apply the selected date range and all selected filters at the time the <strong>Export CSV</strong> button is clicked to the exported file.</p>]]></description>
+         <guid isPermaLink="false">360025600951</guid>
+         <pubDate>Thu, 21 Mar 2019 14:12:30 GMT</pubDate>
+      </item>
+      <item>
+         <title>The Visitor Insights Dashboard Explained</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360022410952-The-Visitor-Insights-Dashboard-Explained</link>
+         <description><![CDATA[<hr>
+<p>Learn how to interpret the Visitor Insights dashboard in your Hub.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>There are no restrictions on viewing a Hub's Visitor Insights dashboard — anyone can do this.</li>
+</ul>
+<p> </p>
+<h2>What is the Visitor Insights Dashboard?</h2>
+<p>When you integrate your Hub with Bombora, this will unlock the Visitor Insights dashboard. You can find it under <em>Dashboards &gt; Visitor Insights</em> in your Hub menu.</p>
+<p>Bombora collects data about your visitors across both your Hub and other websites, which is then presented in an easily digested dashboard format on your Hub. The dashboard displays a combination of intent, demographic, and firmographic data:</p>
+<dl class="dl-horizontal">
+<dt>Intent Data</dt>
+<dd>Data Bombora has collected about a web user's online behavior. When a user searches for a particular topic, or consumes content related to it, it indicates an interest in that topic. Factoring in the user's context (i.e data about the user themselves, i.e. their demographic and firmographic data) makes it possible to predict their <em>intent </em>to take action in relation to the topic, i.e. buying a product.</dd>
+<dt>Demographic Data</dt>
+<dd>Data relating to a who a user is. In this context, the term specifically refers to segmenting users based on their department and job function.</dd>
+<dt>Firmographic Data</dt>
+<dd>Data about a web user's organization, such as company size, revenue, and industry.</dd>
+</dl>
+<p>This data is tailored to your Hub, so it can help you to gain a better understanding of who your visitors are, and what they're interested in. This puts you in a better position to create content experiences that speak to your visitors and increase their engagement with your business.</p>
+<p> </p>
+<h2>Using the Visitor Insights Dashboard: The Basics</h2>
+<p>The Visitor Insights dashboard consists of two major sections, the <strong>radar chart</strong> and the <strong>insights:</strong></p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360019778832" alt="Hubs___Visitor_Insights_-_Uberflip.png" width="523" height="740"></p>
+<p>All of the data shown on the dashboard, in both the radar chart and the insights, is controlled by the <strong>date range filters</strong> shown across the top of the dashboard:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360019778912" alt="Hubs___Visitor_Insights_-_Uberflip.png"></p>
+<p>As the most recent data is the most relevant in this context, these filters represent a rolling date range relative to the current date. By default, the data displayed will be fore the current calendar month (<em>this month</em>), but you can also expand the range to the previous month, the previous three months, or the previous 6 months, by clicking on the corresponding options.</p>
+<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>Note that <em>month</em> in each of these options refers to calendar months. For example, if today is December 18th:</p>
+<ul>
+<li>
+<strong>This Month:</strong> Dec. 1 - Dec. 17</li>
+<li>
+<strong>Last Month:</strong> Nov. 1 - Nov. 30</li>
+<li>
+<strong>Previous 3 Months:</strong> Sept. 1 - Nov 30</li>
+<li>
+<strong>Previous 6 Months:</strong> June 1 - Nov. 30</li>
+</ul>
+</div>
+<p> </p>
+<h2>Reading the Radar Chart</h2>
+<h3>Intent Topics</h3>
+<p>The radar chart consists of radiating spokes, each of which is labeled with an <strong>intent topic</strong>. Bombora automatically generates the radar chart using the intent topics it has identified as being most relevant to your Hub:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360019779292" alt="Hubs___Visitor_Insights_-_Uberflip.png"></p>
+<p>Keep in mind that "relevant" does not necessarily mean that these topics are supposed to represent the major focus areas of your Hub! The chart reflects both topics that your Hub has content about <em>and</em> topics that attracted visitors to your Hub. This means that topics might appear here that are outside your usual scope, and for which you don't currently have any content. However, as visitors came to your Hub because of an interest in these topics, they can suggest opportunities for content development.</p>
+<h3>Topic Metrics</h3>
+<p>The colored polygons radiating from the hub of the intent topic spokes represent different metrics related to the intent topics:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360019652031" alt="Hubs___Visitor_Insights_-_Uberflip.png"></p>
+<p>The metrics represented on the chart are:</p>
+<ul>
+<li>
+<strong>Items Receiving Traffic (Blue): </strong>Identifies topics which are driving traffic to your content. The further the polygon extends along a spoke, the more traffic content related to that topic generated.<br><img src="https://help.uberflip.com/hc/article_attachments/360019780972" alt="Hubs___Visitor_Insights_-_Uberflip.png" width="500" height="305">
+</li>
+<li>
+<strong>Newly Created Items (Yellow): </strong>Identifies topics for which you have created applicable content within the selected timeframe. The further the polygon extends along a spoke, the more content was created related to that topic.<br><img src="https://help.uberflip.com/hc/article_attachments/360019652371" alt="Hubs___Visitor_Insights_-_Uberflip.png" width="499" height="302">
+</li>
+<li>
+<strong>Visitors (Pink): </strong>Identifies topics your visitors are most interested in, independent of your Hub content. The further the polygon extends along a spoke, the more interest visitors have expressed in that topic based on their web behavior in general.
+<h3><img src="https://help.uberflip.com/hc/article_attachments/360019652431" alt="Hubs___Visitor_Insights_-_Uberflip.png" width="500" height="307"></h3>
+</li>
+</ul>
+<p>You can display or hide any metric on the chart by clicking on its checkbox in the filters shown below the chart:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360019653271" alt="Hubs___Visitor_Insights_-_Uberflip.png"></p>
+<p>In addition, hovering your mouse over a metric's polygon at a spot where it does not overlap with another polygon will highlight it, making it easier to see:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360019653451" alt="Fullscreen_2019-01-29__6_09_PM.png" width="286" height="235"></p>
+<h3>Interpreting the Chart</h3>
+<p>By default, the three polygons are overlaid on top of one another. This allows you to compare them, and provides insights into how well your content is aligned with your audience's interests.</p>
+<p>For example, take a look at the <em>Account-Based Marketing (ABM)</em> spoke for a given month in our example chart from <a href="https://hub.uberflip.com/">Uberflip's Resource Hub</a>:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360019654351" alt="Hubs___Visitor_Insights_-_Uberflip.png"></p>
+<p>We can see that the blue polygon and the yellow polygon both extend about the same distance along the spoke, but the pink polygon goes much further. First, let's analyze what each of these means:</p>
+<ul>
+<li>Blue represents topics that are receiving a lot of traffic, so we can see that we're generating a moderate amount of traffic to content about ABM</li>
+<li>Yellow represents newly created content for a topic, so we can see that, compared to other topics, we created a relatively small amount of new content about ABM in the month shown</li>
+<li>Pink represents topics that visitors are interested in, so we can see that the Hub is attracting a lot of visitors who are interested in ABM</li>
+</ul>
+<p>So what conclusions can we draw from this? Clearly, visitors to our Hub were very interested in ABM. However, we didn't drive as much traffic to our relevant content as we might have expected, so we may not have promoted it sufficiently. We also didn't create much new content about ABM during this period, so this was likely a factor that affected discoverability. Based on these insights, our marketing team can now work to improve the promotion and targeting of our existing content about ABM, or work to create new content to meet this obvious audience interest.</p>
+<p> </p>
+<h2>Understanding the Insights</h2>
+<p>Below the radar chart, you'll find a series of six tables:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360019654771" alt="Hubs___Visitor_Insights_-_Uberflip.png"></p>
+<p>These tables display the top five intent topics and demographic and firmographic segments for visitors during the selected timeframe. The categories represented on these tables are:</p>
+<ul>
+<li>
+<strong>Top Visitor Topics</strong>: The intent topics that visitors were most interested in</li>
+<li>
+<strong>Top Functional Areas</strong>: The most-represented business areas among visitors</li>
+<li>
+<strong>Top Professional Groups</strong>: If identifiable, the most-represented professional groupings of visitors</li>
+<li>
+<strong>Top Company Size</strong>: The most-represented organizational size segments among visitors</li>
+<li>
+<strong>Top Company Revenue</strong>: The most-represented revenue segments among visitors</li>
+<li>
+<strong>Top Industries</strong>: The most-represented industry segments among visitors</li>
+</ul>
+<p>For each of the top five items in each category, you can see its percentage share of the overall total. You can also compare these percentages as a bar chart by simply hovering your mouse over the table:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360019690611" alt="Fullscreen_2019-01-30__10_31_AM.png"></p>
+<p>These insights are helpful for analyzing whether your audience corresponds to the market segments you are targeting with your content strategy. Since these metrics represent actual visitors to your Hub, they can also sometimes offer suggestions as to segments that you're not actively targeting, but which may be worth your attention based on organic interest.</p>]]></description>
+         <guid isPermaLink="false">360022410952</guid>
+         <pubDate>Tue, 29 Jan 2019 19:42:29 GMT</pubDate>
+      </item>
+      <item>
+         <title>Can Site Engager and Content Recommendations recommend content from hidden Streams?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360028200791-Can-Site-Engager-and-Content-Recommendations-recommend-content-from-hidden-Streams</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>Can Site Engager and Content Recommendations recommend content from hidden Streams?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>While you can select hidden Streams when setting up recommendation rules, the recommendation will <strong>not </strong>select Items to recommend from Streams that are hidden.</p>]]></description>
+         <guid isPermaLink="false">360028200791</guid>
+         <pubDate>Thu, 09 May 2019 20:16:43 GMT</pubDate>
+      </item>
+      <item>
+         <title>Can I prevent specific Items from being recommended by Site Engager or Content Recommendations?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360028199931-Can-I-prevent-specific-Items-from-being-recommended-by-Site-Engager-or-Content-Recommendations</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>Can I set up Content Recommendations and/or Site Engager so that they do <strong>not</strong> recommend specific pieces of content?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>It's not possible to directly exclude specific Items from recommendations (or, conversely, to make sure that specific Items are recommended). You restrict the pool of Items that can be recommended at the Stream level, in any of the following ways:</p>
+<ul>
+<li>All Items across all existing Source Streams and Marketing Streams (including hidden Streams)</li>
+<li>Just Items within selected Streams</li>
+<li>Just Items within a single Stream</li>
+</ul>
+<p>If you need ensure specific Items from a given Stream are not recommended, a workaround is to create a duplicate Stream which is hidden, and which does not contain those Items. You can then specify this Stream when you set up the recommendation rule.</p>]]></description>
+         <guid isPermaLink="false">360028199931</guid>
+         <pubDate>Thu, 09 May 2019 19:59:19 GMT</pubDate>
+      </item>
+      <item>
+         <title>Why is the recommendation panel not appearing?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360048857471-Why-is-the-recommendation-panel-not-appearing</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>I have enabled <a href="https://help.uberflip.com/hc/en-us/articles/360022410572">Content Recommendations</a> in my Hub, but the recommendations panel isn't appearing on the left side of some or all items. Why? </p>
+<h2>Answer</h2>
+<p>There are two potential causes for this issue.</p>
+<p><strong>Cause 1: You have selected a single Stream as the source for the content to be displayed in the recommendation panel, but that Stream doesn't contain any items.</strong></p>
+<p>If you've selected a single stream as the source and it doesn't contain any items, there aren't any items that can be displayed within the recommendation panel. Content Recommendations will not display an empty recommendation panel, so the panel simply doesn't appear. Check that the recommendation source Stream has items in it: if not, adding items will ensure that the recommendation panel appears as intended.</p>
+<p><strong>Cause 2: </strong><strong>There is not enough room to display the recommendation panel.</strong></p>
+<p>Due to Uberflip's responsive design, the recommendation panel will not appear on the left side of the screen if there is not enough space. This can happen if the screen resolution (or just the browser window itself) is too small, or if you've changed the zoom level of the browser window.</p>
+<p>This occurs especially when there are additional elements on-screen that reduce the available space, such as a <em>Show Beside </em>CTA. In this case, there sometimes isn't enough real estate on the screen for the recommendation panel, the body content of your item, and the <em>Show Beside</em> CTA to all be displayed at the same time. Whenever this happens, your Hub automatically uses the <em>Most Recent Articles</em> carousel at the bottom of your items to show recommended items that would otherwise appear in the recommendation panel.</p>]]></description>
+         <guid isPermaLink="false">360048857471</guid>
+         <pubDate>Thu, 27 Aug 2020 16:57:06 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

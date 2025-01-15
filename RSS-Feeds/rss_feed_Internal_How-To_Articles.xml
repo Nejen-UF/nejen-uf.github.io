@@ -1,0 +1,1789 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Internal How-To Articles</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Internal: Content and performance summary dashboards, and weekly summary email</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/10226521724045-Internal-Content-and-performance-summary-dashboards-and-weekly-summary-email</link>
+         <description><![CDATA[<p><span style="font-weight: 400;">Uberflip has created <strong>3 resources</strong> (built in Looker) to help users consume analytics data more passively. This includes </span><strong>2 Looker dashboards, and 1 weekly metrics summary email. </strong></p>
+<p><span style="font-weight: 400;">These are available for CSMs and other Uberflippers to offer to users who they think will benefit. </span></p>
+<p><span style="font-weight: 400;">This article explains the value of the 3 Looker resources, and how to activate the weekly email. </span><em><span style="font-weight: 400;">Standard Looker processes will allow you to add the 2 dashboards to Uberflip accounts.</span></em></p>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p><span style="font-weight: 400;">The summary dashboards are great for finding content with comparable outlier stats. These oddities often point to actionable change. </span><span style="font-weight: 400;"><br></span><strong>Examples: </strong></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1">
+<strong>High time-on-page, but low page-views?</strong><span style="font-weight: 400;"> Could be a high value Item that’s too hidden. <br><strong>Try: </strong>Feature the Item, or move it to a more prominent spot in the Stream/Hub. </span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>High page-views, but low time-on-page?</strong><span style="font-weight: 400;"> May be a high-value topic, but the content isn’t what the viewer expected. <br><strong>Try: </strong>Keep the title, but rework the content based on that title, and what the reader likely wanted.</span>
+</li>
+<li data-stringify-indent="0" data-stringify-border="0">
+<strong data-stringify-type="bold">Low time-on-page, but high Flipbook-downloads? </strong>May be high value piece visitors want to download and read later.<br><span style="font-weight: 400;"><strong>Try: </strong>Gate the Flipbook to see if this high value asset can help generate leads.</span>
+</li>
+</ul>
+</div>
+<h2><span style="font-weight: 400;">Weekly summary email explained</span></h2>
+<p><span style="font-weight: 400;">For users who would benefit from a more passive way to consume basic UFA stats, the weekly summary email is a great option.</span></p>
+<p><span style="font-weight: 400;">This email gives a brief overview of some key metrics found in UFA, including: </span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Target Audience stats</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Audience Quality stats</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">CTA Conversion rates </span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Top 5 New Prospects</span><em><span style="font-weight: 400;"> (when 6sense is enabled) </span></em>
+</li>
+</ul>
+<p><span style="font-weight: 400;">The data summary is for the last completed week (Monday - Sunday).</span></p>
+<p><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/10228066039309" alt="Screen_Shot_2022-10-19_at_11.44.47_AM.png"></span></p>
+<h3><span style="font-weight: 400;">Enable the weekly summary email for users</span></h3>
+<p><span style="font-weight: 400;">The weekly summary email is actually a pre-built dashboard that is available in all Uberflip accounts. You’ll just need to set the dashboard for email delivery within a user's account. Here’s how: </span></p>
+<ol>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">From Admin, go into the user's account</span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Go to </span><strong>Uberflip Analytics</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">Click the<strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"> Folders</strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"> icon <br><img src="https://help.uberflip.com/hc/article_attachments/10228068948493" alt="Screen_Shot_2022-10-21_at_2.17.25_PM.png"></span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>Shared &gt; Dashboards for Distribution &gt; Weekly Newsletter</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"><span style="font-weight: 400;">Click the kebab menu <em>(three vertical dots)<br><img src="https://help.uberflip.com/hc/article_attachments/10228118340877" alt="mceclip0.png"></em></span></span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>Schedule Delivery</strong><span style="font-weight: 400;">. The </span><em><span style="font-weight: 400;">Schedule Delivery</span></em><span style="font-weight: 400;"> Modal will open. </span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Match these details</strong><span style="font-weight: 400;"> in the</span><em><span style="font-weight: 400;"> Schedule Delivery</span></em><span style="font-weight: 400;"> modal</span><strong><strong>:<br></strong></strong>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 47.5037%;">
+<p><strong>Settings tab</strong></p>
+</td>
+<td style="width: 52.7988%;">
+<p><strong>Advanced options tab</strong></p>
+</td>
+</tr>
+<tr>
+<td style="width: 47.5037%; vertical-align: top;">
+<ul>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Schedule Name:</strong><span style="font-weight: 400;"> Uberflip Analytics - Your weekly summary is here!</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Recurrence: </strong><span style="font-weight: 400;">Weekly | Monday | 6:00 </span><em><span style="font-weight: 400;">(can be adjusted to clients preference)</span></em>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Destination: </strong><span style="font-weight: 400;">Email </span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Email addresses:</strong><span style="font-weight: 400;"> Enter email and click enter/return. </span><em><span style="font-weight: 400;">Add as many as you’d like.</span></em>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Format:</strong> PNG visualization</li>
+</ul>
+</td>
+<td style="width: 52.7988%; vertical-align: top;">
+<ul>
+<li style="font-weight: 400;" aria-level="1"><strong>Custom Message:</strong></li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Custom Message: </strong><span style="font-weight: 400;">More metrics available here </span><a href="https://app.uberflip.com/analytics/home?utm_campaign=FY22Q4-CSM-UFA-WeeklyNewsletter&amp;utm_medium=email&amp;utm_source=csm"><span style="font-weight: 400;">https://app.uberflip.com/analytics/home?utm_campaign=FY22Q4-CSM-UFA-WeeklyNewsletter&amp;utm_medium=email&amp;utm_source=csm</span></a>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Include links:</strong><span style="font-weight: 400;"> Must be checked</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Arrange dashboard tiles in a single column:</strong><span style="font-weight: 400;"> Must be checked</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Table resolution:</strong><span style="font-weight: 400;"> Normal</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Delivery timezone: </strong><span style="font-weight: 400;">Wherever client is located, or client preference</span>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 47.5037%;"><img src="https://help.uberflip.com/hc/article_attachments/10228278907021" alt="Screen_Shot_2022-10-24_at_2.30.09_PM.png" width="300" height="368"></td>
+<td style="width: 52.7988%;">
+<img src="https://help.uberflip.com/hc/article_attachments/10228319681933" alt="Screen_Shot_2022-10-24_at_2.55.49_PM.png" width="260" height="321"> </td>
+</tr>
+</tbody>
+</table>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>Save</strong>
+</li>
+</ol>
+<h2><span style="font-weight: 400;">Content Performance dashboard</span></h2>
+<p><span style="font-weight: 400;">The Content Performance Dashboard gives an overview of content health, broken down by Items and content types. The quickly consumable data here can be used to easily see:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">What content is performing well</span></li>
+<li><span style="font-weight: 400;">What content isn’t doing so hot </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">How content types compare in performance</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">What are the outliers in the content library</span></li>
+</ul>
+<p><strong>This dashboard includes breakdowns of the following:</strong></p>
+<ul>
+<li>Overall content performance </li>
+<li>Item activity (in the last month)</li>
+<li>Blogpost activity</li>
+<li>Flipbook activity </li>
+<li>Video activity</li>
+</ul>
+<div class="accordion accordion--colored">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Content Performance dashboard example (expand to view)</strong></div>
+<div class="accordion__item-content">
+<p><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/10233512176909" alt="Untitled_design.png"></span></p>
+</div>
+</div>
+</div>
+<p><em>Use standard UFA/Looker processes to add this dashboard to user accounts. The Uberflip Expert Services team can show you how if needed.</em></p>
+<h2><span style="font-weight: 400;">Demand Performance dashboard</span></h2>
+<p><span style="font-weight: 400;">The Demand Performance dashboard gives an overview of how Hubs and Streams are performing. You’ll also see where traffic is coming from. The quickly consumable data here can be used to easily see:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Hub and Stream engagement over the last month</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Where traffic to Uberflip destinations is coming from </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">How Stream are performing compared to each other  </span></li>
+</ul>
+<p><strong>This dashboard includes breakdowns of the following:</strong></p>
+<ul>
+<li><span style="font-weight: 400;">Team stats</span></li>
+<li><span style="font-weight: 400;">Stream engagement last month</span></li>
+<li><span style="font-weight: 400;">Channel activity last month</span></li>
+<li><span style="font-weight: 400;">Form CTA conversions last month</span></li>
+</ul>
+<div class="accordion accordion--colored">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Demand Performance dashboard example (expand to view)</strong></div>
+<div class="accordion__item-content">
+<p><img src="https://help.uberflip.com/hc/article_attachments/10234058236557" alt="Use_standard_UFALooker_processes_to_add_this_dashboard_to_user_accounts._The_Uberflip_Expert_Services_team_can_show_you_how_if_needed..png"></p>
+</div>
+</div>
+</div>
+<p><em><span style="font-weight: 400;">Use standard UFA/Looker processes to add this dashboard to user accounts. The Uberflip Expert Services team can show you how if needed.</span></em></p>]]></description>
+         <guid isPermaLink="false">10226521724045</guid>
+         <pubDate>Fri, 28 Oct 2022 17:41:07 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: Offboarding Customer Content from Uberflip</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4419924487821-Internal-Offboarding-Customer-Content-from-Uberflip</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>A guide for the CSM through the off-boarding process for a client. This isn't intended to be shared with clients.</p>
+<p> </p>
+<h2>To-Do List</h2>
+<ol>
+<li>Provide a <strong>Hub Content Export</strong> (including item body content in HTML format) to show all URLs</li>
+<li>Set up <strong>URL redirects</strong> for the Hub pages at the server-side and not in the Hub itself, as the Uberflip URLs and redirects will be lost once the Hub is deactivated</li>
+<li>For <strong>redirects</strong>, there are two routes
+<ul>
+<li>Decouple the domain from your hub and point it to wherever the new destination is (when you are ready to completely migrate off)</li>
+<li>Use an alternative means of verifying your ownership of the domain (e.g. email). Once Uberflip is deactivated, the content is no longer there, so no redirects can be implemented on our end and must be on the client-side. One option is to send traffic to a page that says, "This content no longer exists here. It has been moved to <a href="http://url.com/" target="_blank" rel="noopener noreferrer" data-saferedirecturl="https://www.google.com/url?q=http://url.com&amp;source=gmail&amp;ust=1638908960865000&amp;usg=AOvVaw2-ESPYV7d_D1GppNxeMvjZ">url.com</a> (or wherever it lives)."</li>
+</ul>
+</li>
+<li>
+<strong>DNS</strong> - Be ready to switch your subdomains to the appropriate locations for the new URLs (This has to be done on the CMS/DNS side of things)</li>
+<li>If on a subdomain, they can <strong>remove the CNAME record</strong> in their DNS that is pointing that domain to <a class="sc-1ko78hw-0 fiVZLH" title="http://read.uberflip.com" href="http://read.uberflip.com/" data-renderer-mark="true">read.uberflip.com</a>
+</li>
+<li>
+<strong>Download all flipbooks</strong> from the account, unless they already have the original versions stored elsewhere, and if they do not have the most updated copies and then upload them where they need to be. You can download the flipbooks by using the <a href="https://help.uberflip.com/hc/en-us/articles/4445472662925" target="_self">hub hack</a>
+</li>
+<li>If they blogged in Uberflip and not on their CMS, and want a backup of that, save the RSS for the Blog Source Stream. There are two options for migrating them:
+<ul>
+<li>To successfully pull the blog content, go to your content page and click into each individual blog stream and click "RSS". You can then access the feed and if there is a way to ingest RSS feeds in the target location of the content, you can do it that way</li>
+<li>Copy and paste each one. If you're doing this I'd pick and choose the best performers</li>
+</ul>
+</li>
+<li>If any content from this Hub has been embedded on external web pages, those should be removed</li>
+<li>If required, get a JSON Export of Uberflip Analytics and can use it for future reference (this will need to be requested to the Engineering team)</li>
+<li>Download all images if they don’t have a file saved.</li>
+<li>In your CMS - Add and create any 301s that are required</li>
+<li>Export the 301's lists from the Hub.</li>
+<li>Have your New URLs/webpages ready to go</li>
+<li>Perform a metrics export on their content if they require that</li>
+</ol>]]></description>
+         <guid isPermaLink="false">4419924487821</guid>
+         <pubDate>Mon, 10 Jan 2022 15:48:42 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: Use Bulk Task Smasher to create or update Redirect Rules and Smart Filters</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4413439856781-Internal-Use-Bulk-Task-Smasher-to-create-or-update-Redirect-Rules-and-Smart-Filters</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>Bulk Task Smasher can be used to perform bulk actions on <a href="https://help.uberflip.com/hc/en-us/articles/360023146291" target="_self"><strong>Redirect Rules</strong></a> and <a href="https://help.uberflip.com/hc/en-us/articles/360022891612" target="_self"><strong>Smart Filters</strong></a>. However, because the Uberflip API has complex requirements for creating or updating these resources, it is very difficult to build the necessary Bulk Task Smasher job template by hand.</p>
+<p>To more easily set up job templates to <strong>create</strong> <strong>or update Redirect Rules and Smart Filters</strong> with Bulk Task Smasher, follow the process described in this article.</p>
+<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>Bulk actions related to Redirect Rules and Smart Filters are available exclusively in the<strong> internal</strong> version of Bulk Task Smasher, and can only be accessed by Uberflip employees.</p>
+<p>Customers who install the <strong>public</strong> Bulk Task Smasher app do not have access to these actions. As a result, if a customer wants to use the app to perform bulk actions on Redirect Rules and Smart Filters, this must be done by an Uberflip employee on the customer's behalf.</p>
+</div>
+<p> </p>
+<h2>Background</h2>
+<p>As with all Bulk Task Smasher create/update actions, creating or updating Redirect Rules or Smart Filters in bulk requires a valid <strong>job template</strong>, which is a file containing values that define how the desired Redirect Rules or Smart Filters should work.</p>
+<p>However, job templates for Redirect Rules and Smart Filters both require values that must follow very complex syntax rules to be accepted by the Uberflip API. For example, take a Smart Filter with the following search criteria:</p>
+<ul>
+<li>
+<strong>Located in: </strong>Example Hub: Any visible Stream<br><strong>AND</strong>
+</li>
+<li>
+<strong>Item status</strong>: Hidden</li>
+</ul>
+<p>To create the same search criteria through Bulk Task Smasher, the Uberflip API requires the following value:</p>
+<pre><code>{"and_or":{"excludes_streams":"false","excludes_tags":"false","excludes_text":"false","includes_streams":"false","includes_tags":"false","includes_text":"false"},"includes_streams":{"all_non_hidden_streams":"Any visible Stream"},"item_status":{"hidden":"Hidden"}}</code></pre>
+<p>Because it would be very difficult and time-consuming to understand and follow these rules to create the necessary values by hand, we recommend an alternate method: <strong>create the desired Redirect Rules/Smart Filters in Uberflip</strong>, so that you can <strong>use them as a model </strong>for any additional rules you want to create or update in bulk.</p>
+<p> </p>
+<h2>Step 1: Create the "model" Redirect Rule(s) or Smart Filter(s)</h2>
+<p>Before setting up your job template, begin by using Uberflip to create your "model" Redirect Rules and/or Smart Filters. Once created, you will be able to simply copy these into your job templates to create as many Redirect Rules/Smart Filters with the same structure/functionality as needed.</p>
+<ol>
+<li>
+<strong>Log in</strong> <strong>to the Uberflip admin backend</strong> and access the Uberflip account you're working with (i.e. the customer account, if you are setting up a bulk action for a customer).</li>
+<li>
+<strong>Navigate to the Redirect Rules or Smart Filters section</strong> of the platform, depending on the kind of resource you want to create/update in bulk.</li>
+<li>
+<strong>Create a new Redirect Rule or Smart Filter</strong> and configure it in the same way as the Redirect Rules/Smart Filters you want to create or update in bulk.
+<ul>
+<li>Repeat this step as needed to create additional template Redirect Rules/Smart Filters.</li>
+</ul>
+</li>
+<li>When you have created the necessary model Redirect Rule(s)/Smart Filter(s), move to the next step.</li>
+</ol>
+<p> </p>
+<h2>Step 2: Download a Populated Template to get job template values</h2>
+<p>To get the correct syntax for your Redirect Rules or Smart Filters job template, just download a Populated Template: this will contain the correct values for your "model" Redirect Rules/Smart Filters, which you can then simply copy to create the job template.</p>
+<ol>
+<li>
+<strong>Log in to Bulk Task Smasher</strong> using the API credentials of the Uberflip account (customer account) you're working with.</li>
+<li>In the <strong>Run Jobs</strong> section, use the dropddowns to navigate to </li>
+<li>
+<strong>Redirect Rules &gt; Update Redirect Rules </strong>or <strong>Smart Filters &gt; Update Smart Filters</strong> (depending on the type of resource you want to work with).</li>
+<li>Click on <strong>Download Job Templates</strong>, ensure all headers are selected, then click on <strong>Download Populated Template</strong>.</li>
+<li>
+<strong>Open the downloaded job template</strong> in Excel (or another spreadsheet program).</li>
+<li>In the job template, locate the rows representing the "model" Redirect Rule(s)/Smart Filter(s) you created, then move to the next step.</li>
+</ol>
+<p> </p>
+<h2>Step 3: Build the job template to create Redirect Rules or Smart Filters</h2>
+<p>Now that you have the right syntax for a Redirect Rules or Smart Filters job template, you're ready to build it. For both <em>Create</em> and <em>Update</em> bulk actions, you will use the Populated Template you downloaded in the previous step as the base.</p>
+<h3>For a <em>Create</em> bulk action</h3>
+<p>If you want to run a <strong>Create Redirect Rules</strong> or <strong>Create</strong> <strong>Smart Filters</strong> bulk action:</p>
+<ol>
+<li>In the Populated Template, <strong>delete the </strong><strong><em>filter_id</em> column </strong>from the spreadsheet.</li>
+<li>In the Populated Template, <strong>delete all populated rows</strong> from the spreadsheet <strong>except those representing your "model" Redirect Rules/Smart Filters</strong>.</li>
+<li>Copy and paste the "model" Redirect Rules/Smart Filters rows as many times as necessary to create additional Redirect Rules/Smart Filters with the same structure.
+<ul>
+<li>You can also copy and paste only cells/columns as needed.</li>
+</ul>
+</li>
+<li>Change any values as required, then run the job template in Bulk Task Smasher to create the Redirect Rules or Smart Filters as specified.</li>
+</ol>
+<h3>For an <em>Update</em> bulk action</h3>
+<p>If you want to run an <strong>Update Redirect Rules</strong> or <strong>Update Smart Filters</strong> bulk action:</p>
+<ol>
+<li>In the Populated Template, <strong>delete any rows representing Redirect or Smart Filters that you do NOT want to update</strong> from the spreadsheet.</li>
+<li>
+<strong>Copy values as needed from the "model" Redirect Rules/Smart Filters rows </strong>and then <strong>paste those values </strong>into rows representing the Redirect Rules/Smart Filters that you want to update.</li>
+<li>Change any other values as required (remember to leave all identifying values, e.g. <em>redirect_id</em>, <em>filter_id</em>, <em>hub_id</em>, etc. unchanged), then run the job template in Bulk Task Smasher to update the Redirect Rules or Smart Filters as specified.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">4413439856781</guid>
+         <pubDate>Fri, 12 Nov 2021 21:46:40 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: Penetration Testing</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4411237854605-Internal-Penetration-Testing</link>
+         <description><![CDATA[<p>Learn everything you need to know about Penetration testing. This includes what information to request/ how to submit a JIRA ticket for customers interested in running Penetration Testing.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>The processes described in this article are intended for use by <strong>Uberflip Support Team</strong>.</li>
+</ul>
+<p> </p>
+<h2>Penetration Testing &amp; What You Need To Know</h2>
+<h3>What is Penetration Testing?</h3>
+<p>Penetration Testing includes any testing that involves attempting to break in (either virtually or for real) to gain unauthorized access to any Uberflip platform. This does not include vulnerability scanning where data is collected to identify potential or known vulnerabilities, but makes no attempt to exploit them. <strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">All Penetration Tests must follow the Uberflip Penetration Testing Rules of Engagement.</span></strong></p>
+<div class="page" title="Page 1">
+<div class="section">
+<div class="layoutArea">
+<div class="column">
+<p> </p>
+</div>
+</div>
+</div>
+</div>
+<h3>What are the 'Rules of Engagement'?</h3>
+<p>Before any testing can commence, customers must request written permission to perform the Penetration Testing. Requests can be made by email to <a href="mailto:support@uberflip.com">support@uberflip.com</a>. Uberflip Support will then need to submit a JIRA ticket and send an email with required details to <a href="mailto:security@uberflip.com">security@uberflip.com</a>. (These steps are outlined below).</p>
+<p><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Along with the request from the customer, the customer will need to provide Uberflip Support with the following information</strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">:</span></p>
+<p><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">- IP ranges the tests will be originating from</span></p>
+<p><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">- Dates and times of the testing</span></p>
+<p><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">- Point of contact</span></p>
+<p><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">For customers of Uberflip, the Penetration Testing results are subject to their confidentiality obligations in the agreement between customer and Uberflip. If they are not currently a customer, they will need to enter into a NDA with Uberflip prior to conducting the penetration testing.</span></p>
+<div class="page" title="Page 1">
+<div class="section">
+<div class="layoutArea">
+<div class="column">
+<p> </p>
+</div>
+</div>
+</div>
+</div>
+<h3>What happens if the customer doesn't follow the proper procedure?</h3>
+<p>All Penetration Tests must follow the Uberflip Penetration Testing Rules of Engagement. The use of the Uberflip platform will continue to be subject to the terms and conditions of the agreement(s) under which the customer purchased the relevant service. Any violation of these Rules of Engagement or the relevant service terms may result in suspension or termination of the customers account and legal action as set forth in the Uberflip Service Terms. The customer is responsible for any damage to Uberflip platforms or other customers data that is caused by any failure to abide by these Rules of Engagement or the Uberflip Service Terms.</p>
+<p> </p>
+<h3>Is there any type of Penetration testing that is prohibited?</h3>
+<p><strong>The following activities are prohibited:</strong></p>
+<p><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">- Scanning or testing assets belonging to any other Uberflip customers.</span></p>
+<p><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">- Gaining access to any data that is not wholly your own.</span></p>
+<p><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">- Performing any kind of denial of service testing.</span></p>
+<p><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">- Performing network intensive fuzzing.</span></p>
+<p><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">- Performing automated testing of services that generates significant amounts of traffic.</span></p>
+<p><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">- Deliberately accessing any other customer’s data.</span></p>
+<p><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">- Moving beyond “proof of concept” steps (i.e. proving that you have system access is </span><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">acceptable, running further scripts or commands to copy, delete, or modify data is not).</span></p>
+<p><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">- Using our services in a way that violates the Acceptable Use Policy.</span></p>
+<p><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">- Attempting phishing or other social engineering attacks against our employees.</span></p>
+<p><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">- Using any Uberflip asset to launch attacks against third parties.</span></p>
+<p><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Even with these prohibitions, Uberflip reserves the right to respond to any actions on its networks that appear to be malicious. Uberflip uses a number of security mechanisms to protect our platforms. These will not be disabled to facilitate a penetration test. Depending on the severity of the impact, the response may include anything from Uberflip contacting the account owner, to blocking all traffic from the originating IP, to disabling the customer’s account entirely.</span></p>
+<p> </p>
+<h2 id="h_01EVHWDM53VA195FS9VWJ2CG2E">Process: Requesting Penetration Testing</h2>
+<p>Use this process to request penetration testing.</p>
+<p>1. Customer must request written permission to perform Penetration Testing to <a href="mailto:support@uberflip.com">support@uberflip.com</a>. Along with request the customer must include the following in their email to Support (these are the details outlined in the <strong>Rules of Engagement</strong>)</p>
+<p>- IP ranges the tests will be originating from</p>
+<p>- Dates and times of the testing</p>
+<p>- Point of contact</p>
+<p>2. Internally submit a JIRA ticket to our Development team outlining the customers request and the <strong>3 requirements from the Rules of Engagement</strong>. The Development will take approximately <strong>5 business days</strong> to get back to you with either acceptance, declining or requiring more details from the original request.</p>
+<p>3. Internally send an email to <a href="mailto:security@uberflip.com">security@uberflip.com</a> including the same details as the JIRA ticket. </p>
+<p>4. Share the information with the customer.</p>]]></description>
+         <guid isPermaLink="false">4411237854605</guid>
+         <pubDate>Wed, 13 Oct 2021 16:04:27 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: Integrating Bizible with Uberflip Form CTAs</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4403227476877-Internal-Integrating-Bizible-with-Uberflip-Form-CTAs</link>
+         <description><![CDATA[<div class="callout">
+<h2 class="callout__title">TV1 Hubs Installation</h2>
+<p>The following are instructions for installing Bizible on a TV1 Hub</p>
+</div>
+<h3>Step 1: Add Bizible CDN script in a code block</h3>
+<h4>Details</h4>
+<ul>
+<li>
+<strong>Type:</strong> Javascript</li>
+<li>
+<strong>Placement:</strong> Head</li>
+</ul>
+<h4>Code</h4>
+<pre><code class="javascript">&lt;script type="text/javascript" src="//cdn.bizible.com/scripts/bizible.js"
+  async=""&gt;&lt;/script&gt;</code></pre>
+<h3>Step 2: Add additional block of Javascript in a code block</h3>
+<h4>Details</h4>
+<ul>
+<li>
+<strong>Type:</strong> Javascript</li>
+<li>
+<strong>Placement:</strong> Body Bottom</li>
+</ul>
+<h4>Code</h4>
+<pre><code class="javascript">&lt;script&gt;
+Hubs.Events.on('load', function() {
+    window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };
+});
+
+Hubs.Events.on('ctaFormSubmitSuccess', function(ctaId, ctaData, ctaName) {
+    bizibleFormCode(ctaId, ctaData, ctaName);
+});
+
+
+function bizibleFormCode(ctaId, ctaData, ctaName) {
+    var email = ctaData["email"];
+    if (email) {
+        Bizible.Push('User', {
+            eMail: email, // required
+        });
+    }
+}<br>&lt;/script&gt;</code></pre>
+<div class="callout">
+<h2 class="callout__title">TV2 Hubs Installation</h2>
+<p>The following are instructions for installing Bizible on a TV2 Hub</p>
+</div>
+<h3>Step 1: Add Bizible CDN script in a code block</h3>
+<h4>Details</h4>
+<ul>
+<li>
+<strong>Type:</strong> Javascript</li>
+<li>
+<strong>Placement:</strong> Head</li>
+</ul>
+<h4>Code</h4>
+<pre><code class="javascript">&lt;script type="text/javascript" src="//cdn.bizible.com/scripts/bizible.js"
+  async=""&gt;&lt;/script&gt;</code></pre>
+<h3>Step 2: Add additional block of Javascript in a code block</h3>
+<h4>Details</h4>
+<ul>
+<li>
+<strong>Type:</strong> Javascript</li>
+<li>
+<strong>Placement:</strong> Body Bottom</li>
+</ul>
+<h4>Code</h4>
+<pre><code class="javascript">&lt;script&gt;
+window.addEventListener('uberflip.load', () =&gt; {
+    window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };
+});
+
+window.addEventListener('uberflip.ctaFormSubmitSuccess', (ctaId, ctaData, ctaName) =&gt; {
+    bizibleFormCode(ctaId, ctaData, ctaName);
+});
+
+
+function bizibleFormCode(ctaId, ctaData, ctaName) {
+    var email = $('input[type=email]').val();
+    if(email){
+        Bizible.Push('User', {
+        eMail: email, // required
+    }); 
+    }
+}<br>&lt;/script&gt;</code></pre>
+<p> </p>]]></description>
+         <guid isPermaLink="false">4403227476877</guid>
+         <pubDate>Thu, 17 Jun 2021 12:53:31 GMT</pubDate>
+      </item>
+      <item>
+         <title>Theme a Hub using the Theme Selector app</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360055830331-Theme-a-Hub-using-the-Theme-Selector-app</link>
+         <description><![CDATA[<hr>
+<p>Use the <strong>Theme Selector app</strong> to quickly and easily change the look and feel of your Hub by applying premade <strong>themes</strong>.</p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning: Internal use only</h4>
+<p><strong>Theme Selector is for internal use only</strong>.</p>
+<ul>
+<li>During the initial soft launch/beta period, <strong>the app should only be used by internal users </strong>(primarily CSMs and Implementation Specialists) on behalf of customers. </li>
+<li>In anticipation of a potential public release, <strong>this article was written with an external (customer) audience in mind</strong>. However, <strong>this article is NOT intended to be shared externally at this time</strong>. Note also that certain details in this article (including the name of the app) may differ from what you see in the beta version of the app.</li>
+<li>
+<strong>UPDATE (Feb. 14, 2022)</strong>: This app has been renamed to <strong>PLT-0 Poch</strong>, in line with t<a href="https://uberflip.atlassian.net/wiki/spaces/LEGO/pages/2914320424/Internal+Release+Information" target="_self">he codenames used for Project LEGO apps during the internal release phase.</a>
+</li>
+</ul>
+<p>For more information, please contact Zayyan Chowdhury or Chris Johnson.</p>
+</div>
+<h2 id="h_b61f1927-db66-4d68-9b3b-b74794c4347b">Before you begin</h2>
+<ul>
+<li>Before you can use the Theme Selector app, you need to install it from the Uberflip Marketplace (click on <strong>Marketplace</strong> in the top navigation in Uberflip).</li>
+<li>To use this app, your Hub must be running <strong>Front End V2</strong>. The app is <strong>not compatible with Front End V1</strong> Hubs. If you're not sure which version of the Uberflip Hub Front End your Hub is using, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431" target="_self">this article</a>.</li>
+<li>To configure the app, it is helpful (but not required) to have some knowledge of basic HTML tags, CSS properties, and related concepts (e.g. HTML color codes).</li>
+<li>This app is intended to be used with <strong>pre-launch Hubs</strong> (i.e. Hubs that are still in the implementation stage, and are not yet live on the web). Because it immediately changes the appearance and behavior of your Hub, <strong>using this app with live/production Hubs is not recommended</strong>.</li>
+</ul>
+<p> </p>
+<h2>About the Theme Selector app</h2>
+<p>Out of the box, the design of an Uberflip Hub is clean and responsive — but also quite basic. That's intentional, because we know that most of our customers like to <a href="https://developers.uberflip.com/docs/getting-started">extensively customize the design of their Hubs</a> to meet brand guidelines, match existing websites, or just to achieve a particular look and feel.</p>
+<p>If you have the time and development budget, you can use <a href="https://help.uberflip.com/hc/en-us/articles/360018841312" target="_self">custom code</a> to make your Hub look pretty much however you want. But this can be time-consuming and expensive, and sometimes you just need to get a Hub up and running <em>fast — </em>and while you want it to look good, you're not looking for an elaborate and hyper-customized design.</p>
+<p>If that sounds like you, the <strong>Theme Selector </strong>app is exactly what you're looking for. With Theme Selector, you can apply <strong>themes</strong> to your Hub: ready-made designs that completely change your Hub's look and feel in seconds, all without needing to write a single line of code.</p>
+<h3>How does it work?</h3>
+<p>Theme Selector themes are premade customizations for Uberflip Hubs. Think of them as the off-the-shelf equivalent of a fully-custom Hub front end: you don't get to customize every aspect, but you do get a great-looking, professionally designed Hub in a fraction of the time.</p>
+<p>Theme Selector themes work essentially the same way as themes you might have used on other web platforms, such as <a href="https://wordpress.org/themes/">WordPress Themes</a>: just pick a theme and apply it, and your Hub is instantly transformed.</p>
+<p>For example, you can make your Hub go from this:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360083050732/basic.png" alt="basic.png"></p>
+<p>To this:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360083079391/themed.png" alt="themed.png"></p>
+<p>All in seconds, and with just a few clicks.</p>
+<p>With all themes, you can set the colors of specific elements and import custom fonts, and some even have advanced features and functionality that can be customized to your preferences. And because all themes are loaded into your Hub from a centralized repository, there are no manual downloads or ZIP files to deal with.</p>
+<h3 id="h_01EWNTXFQQKADFFZ59ASVT6K6F">Where can I find themes?</h3>
+<p>Theme Selector is currently in beta, so both the app itself and the themes are still under development. This means that there may be some bugs, and that certain features of the app still require advanced configuration (i.e. editing custom code snippets).</p>
+<p>As a result, you'll need to <strong>work with your Customer Success Manager or Implementation Specialist </strong>to get access to and install themes at this time. To get started, please get in touch with your CSM or IS.</p>
+<p> </p>
+<h2>Setup</h2>
+<p>Before you can begin using Theme Selector, you need to ensure the <a href="https://marketplace.uberflip.com/details/compatibility-pack/"><strong>Compatibility Pack </strong><strong>app</strong></a> is installed in your Uberflip account. This app is required to make most apps work correctly with Front End V2, the technology that powers current Uberflip Hubs.</p>
+<p>To install the Compatibility Pack app, simply go to the <strong>Marketplace</strong> in Uberflip, then search for "Compatibility Pack" and click <strong>Install</strong>.</p>
+<p> </p>
+<h2 id="h_b6335307-0ce9-4617-b279-5cde09a9401f">Apply a theme</h2>
+<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>You configure this app at the <strong>Hub level</strong>, which means that your settings will apply only to the Hub you are currently working in. If you have multiple Hubs, you must configure (and use) this app separately in each Hub.</p>
+</div>
+<p>Once you have installed Theme Selector in your Uberflip account and have <a href="#h_01EWNTXFQQKADFFZ59ASVT6K6F" target="_self">selected a theme</a>, you can apply the theme to any Hub within your account.</p>
+<p>To apply a theme, you will need:</p>
+<ul class="list-bullet">
+<li>Its <strong>theme code</strong>, which uniquely identifies the theme. Your Uberflip CSM or IS will provide you with the theme code for your selected theme.</li>
+<li>The <strong>theme documentation</strong>, which describes how the theme works and how to configure theme-specific functionality and settings. It generally also tells you which front end elements are affected by Theme Selector's color settings, and in some cases provides a custom code snippet that you will need to install on your Hub(s) to allow the theme to work properly.</li>
+</ul>
+<p>Make sure to <strong>read the theme documentation</strong> for your selected theme carefully before proceeding. When you're ready to apply the theme to your Hub, follow the instructions below:</p>
+<ol>
+<li>Log in to your Uberflip account as an <strong>Account Administrator</strong> or <strong>Content Manager</strong>.</li>
+<li>Navigate to the Hub where you want to apply the theme.</li>
+<li>If your chosen theme requires a <strong>custom</strong> <strong>code snippet </strong>(see the theme documentation for your theme), add it to your Hub now before going any further.<br>
+<ul>
+<li>See <a href="https://help.uberflip.com/hc/en-us/articles/360018841312" target="_blank" rel="noopener">this article</a> for instructions on how to add custom code to your Hub.</li>
+</ul>
+</li>
+<li>In the Uberflip sidebar menu, click on <strong>Integrations</strong>, then click on <strong>Installed Apps</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360083231611/image.png" alt="image.png">
+</li>
+<li>In the list of apps on the right, find <strong>Theme Selector </strong>and <strong>hover your mouse</strong> over it. <strong>Click on the Edit (pencil) button</strong> that appears on the right:<br>
+<h3><img src="https://help.uberflip.com/hc/article_attachments/360083811512/image.png" alt="image.png" width="601" height="319"></h3>
+</li>
+<li>This will open the settings menu for Theme Selector. To <strong>apply your chosen</strong> <strong>theme</strong>, simply <strong>type its theme code </strong>into the field under <strong>Selected theme:<br><img src="https://help.uberflip.com/hc/article_attachments/360083879111/image.png" alt="image.png"><br></strong>
+</li>
+<li>The selected theme will be applied immediately with default colors and settings. To see the results in your Hub, click on the <strong>Open Hub button</strong> at the top of the sidebar menu:
+<h3><img src="https://help.uberflip.com/hc/article_attachments/360083233131/Hubs___Installed_Apps_-_Uberflip.png" alt="Hubs___Installed_Apps_-_Uberflip.png" width="421" height="244"></h3>
+</li>
+</ol>
+<h2>Configure a theme</h2>
+<p>Once you have applied a theme, you can customize specific colors and fonts using the app settings under <strong>Integrations &gt; Installed Apps &gt; Theme Selector &gt; Edit</strong>.</p>
+<ul class="list-bullet">
+<li>Theme Selector's color and font settings are common to all themes, but the specific elements they control will vary depending on the selected theme. For specific details, refer to the <strong>theme documentation</strong> for the theme you are using.</li>
+<li>All color settings will accept values in <strong>any standard HTML color format</strong>, i.e. <a href="https://www.w3schools.com/colors/colors_names.asp">HTML/CSS color names</a> (basic and extended), <span style="font-weight: 400;"><a href="https://www.w3schools.com/css/css_colors_hex.asp" target="_self">HEX</a>, <a href="https://www.w3schools.com/css/css_colors_rgb.asp">RGB/RGBA</a>, or <a href="https://www.w3schools.com/css/css_colors_hsl.asp">HSL/HSLA</a></span>.</li>
+<li>When entering any value into settings do <strong>not</strong> enter a <code class="no-padding">;</code> (semicolon) after the value, as this will cause CSS problems and the specified color will not be applied. For example:<br>
+<ul>
+<li>
+<strong>Yes: </strong><code class="no-padding">#CE0058</code>
+</li>
+<li>
+<strong>No: </strong><code class="no-padding">#CE0058;</code>
+</li>
+</ul>
+</li>
+<li>All of these settings are <strong>optional</strong>: if you do not specify anything for a given setting, Theme Selector will simply use the theme default for that setting.</li>
+</ul>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>If your selected theme requires a <strong>custom code snippet</strong>, you can often also customize the snippet to configure advanced functionality available in the theme. Details on how to do so can be found in the theme documentation.</p>
+</div>
+<p>You can find details about the <strong>available settings and how to configure them</strong> below:</p>
+<h3 id="h_01EWP3VM1EH46SDGWGN110WFWZ">Primary color</h3>
+<p>Sets the theme's primary color, typically used throughout the theme for prominent visual elements (though this can vary by theme). In most cases, you would set this to your main brand color.</p>
+<h3 id="h_01EWP5H8XHMHKM7QSMJDKDBY3R">Secondary color</h3>
+<p>Sets the theme's secondary color, typically used throughout the theme as an accent color (though this can vary by theme). In most cases, you would set this to a secondary brand color or other complementary color.</p>
+<h3>Headline color</h3>
+<p>Sets the color of all headings across all pages in your Hub, i.e. any text within heading tags (<code class="no-padding">&lt;h1&gt;</code> to <code class="no-padding">&lt;h6&gt;</code>). This includes page titles, Item tile titles (but not CTA tile taglines), Item Page subheadings, and so on.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360083208272/image.png" alt="image.png" width="500" height="319"></p>
+<h3>Text color</h3>
+<p>Sets the color of all body text across all pages in your Hub, i.e. any text within paragraph tags (<code class="no-padding">&lt;p&gt;</code>). This includes most non-heading text such as Item page body text and CTA tile taglines, but does <strong>not</strong> include links (text within <code class="no-padding">&lt;a&gt;</code> tags), including the text links in the Hub menu.</p>
+<h3><img src="https://help.uberflip.com/hc/article_attachments/360083240611/image.png" alt="image.png" width="510" height="425"></h3>
+<h3>Hover text color</h3>
+<p>Sets the color of all text in themes that feature a hover effect in which the background color changes.</p>
+<p>Most commonly used for Item tiles that have a slide-up-on-hover effect which displays a preview of the content: typically, the <a href="#h_01EWP3VM1EH46SDGWGN110WFWZ" target="_self">Primary color setting</a> will be used for the background color, so this should be set to a color that contrasts well against that color to be readable.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360083209252/image.png" alt="image.png" width="605" height="281"></p>
+<h3>Tile border color</h3>
+<p>Sets the color of the border of Item and CTA tiles, in themes that use a border. Does not have any effect in themes that do not use tile borders.</p>
+<h3>Body color</h3>
+<p>Sets the background color of the document body (everything within the <code class="no-padding">&lt;body&gt;</code> tags) across all pages in your Hub. Note that this does not include the hub menu, header, footer, and any visible tiles, or the article container on Item pages.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360083210112/image.png" alt="image.png" width="574" height="431">.</p>
+<h3>Hub menu background color</h3>
+<p>Sets the background color of the Hub menu that's displayed at the top of all pages in your Hub (except in Sales Streams).</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360083241991/image.png" alt="image.png" width="518" height="199"></p>
+<h3>Menu text color</h3>
+<p>Sets the color of the text in the Hub menu (i.e. the menu items).</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360083210452/image.png" alt="image.png" width="533" height="140"></p>
+<h3>Tile action text color</h3>
+<p>Sets the color of the action text on Item tiles, i.e. "Read Article", "Watch Video", etc. Note that this is the "static state" color, and that many themes also apply a "hover state" color for this text on mouse hover (which is typically controlled by another setting depending on theme, such as <a href="#h_01EWP3VM1EH46SDGWGN110WFWZ" target="_self">Primary color</a>, <a href="#h_01EWP5H8XHMHKM7QSMJDKDBY3R" target="_self">Secondary color</a> or <a href="#h_01EWP5HZSJCGDPWCPGEDH0286C" target="_self">Item link text color</a>).</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360083242331/image.png" alt="image.png"></p>
+<h3 id="h_01EWP5HZSJCGDPWCPGEDH0286C">Item link text color</h3>
+<p>Sets the color of text links on Item pages only (i.e. text within <code class="no-padding">&lt;a&gt;</code> tags in your content).</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360083210632/image.png" alt="image.png" width="604" height="196"></p>
+<h3>Button color</h3>
+<p>Sets the background color of the various buttons across your Hub, such as the "Return Home" button on Item pages (if used in the current theme).</p>
+<h3 id="h_01EWP828N9Q8X8QQG79XP4PW4P">Primary font link</h3>
+<p>Sets the custom font used for headings (<code class="no-padding">&lt;h1&gt;</code> to <code class="no-padding">&lt;h6&gt;</code>) on all pages across your Hub. Custom fonts must be hosted (e.g. on a service like <a href="https://fonts.google.com/">Google Fonts</a>) and importable from a URL.</p>
+<p>To set a custom font, enter the font's embed link into the field in this format:</p>
+<pre>&lt;link href="[embed URL goes here]" rel="stylesheet"&gt; </pre>
+<p>For example, for a Google Fonts font, click on <strong>+Select this</strong> <strong>style</strong>, choose <strong>&lt;link&gt;</strong> in the sidebar under <em>Use on the web</em>, and copy and paste this part (you can also include the <em>&lt;link rel="preconnect"...</em> portion if it fits):</p>
+<h3><img src="https://help.uberflip.com/hc/article_attachments/360083211832/Roboto_-_Google_Fonts.png" alt="Roboto_-_Google_Fonts.png"></h3>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>There is a character limit of 255 characters on this field, so adding a lot of styles (variants of the same font) can make the embed link exceed this character limit. To avoid this, try to limit the included styles to just those you need.</p>
+</div>
+<h3 id="h_01EWP8TCXASCPV908Q5Q3J1CMF">Primary font family</h3>
+<p>Set the <code class="no-padding">font-family</code> CSS property (i.e. the font name) for the selected <a href="#h_01EWP828N9Q8X8QQG79XP4PW4P" target="_self">Primary font</a>, along with any fallback fonts in case the Primary font is not available.</p>
+<p>To set the font family, enter it into the field in this format. Start with the imported custom font, then any fallback fonts. Do not include <code class="no-padding">font-family:</code> at the beginning, or <code class="no-padding">;</code> at the end:</p>
+<pre>'Roboto', Arial, sans-serif</pre>
+<p>For a Google Fonts font, simply copy and paste this part under <em>CSS rules to specify families</em> (remember to <strong>exclude</strong> <code class="no-padding">font-family:</code> at the beginning and <code class="no-padding">;</code> at the end):</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360083212472/Roboto_-_Google_Fonts.png" alt="Roboto_-_Google_Fonts.png"></p>
+<h3 id="h_01EWP8SB6FT096FRBF8K7RDBDD">Secondary font link</h3>
+<p>Sets the custom font used for all non-heading text, including links (i.e. text within <code class="no-padding">&lt;p&gt;</code> and <code class="no-padding">&lt;a&gt;</code> tags) on all pages across your Hub. This setting is configured the same way as the <a href="#h_01EWP828N9Q8X8QQG79XP4PW4P" target="_self">Primary font link</a> setting.</p>
+<h3>Secondary font family</h3>
+<p>Set the <code class="no-padding">font-family</code> CSS property (i.e. the font name) for the selected <a href="#h_01EWP8SB6FT096FRBF8K7RDBDD" target="_self">Secondary font</a>, along with any fallback fonts in case the Secondary font is not available. This setting is configured the same way as the <a href="#h_01EWP8TCXASCPV908Q5Q3J1CMF" target="_self">Primary font family</a> setting.</p>
+<p> </p>
+<h2>Next steps</h2>
+<p>Want to further customize your new theme? You can <a href="https://developers.uberflip.com/docs/getting-started">build your own customizations</a> on top of a theme with custom code, or talk to your Customer Success Manager or Implementation Specialist about working with Uberflip's onBrand front end development team.</p>
+<p>Also, don't forget about <a href="https://help.uberflip.com/hc/en-us/articles/360020130171">Uberflip's built-in branding and customization settings</a> (for setting banners, logos, favicons, etc.), as well as <a href="https://help.uberflip.com/hc/en-us/articles/360020637332" target="_self">Marketing and Sales Stream template appearance settings</a>, as they are (generally) compatible with themes!</p>]]></description>
+         <guid isPermaLink="false">360055830331</guid>
+         <pubDate>Thu, 21 Jan 2021 23:57:51 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: Common Reverse Proxy Configurations</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360048609912-Internal-Common-Reverse-Proxy-Configurations</link>
+         <description><![CDATA[<h2>1. Amazon CloudFront CDN</h2>
+<p> Create a new Origin for read.uberflip.com</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360067346832/Cloudfront-config-1.png" alt="Cloudfront-config-1.png"></p>
+<p>Create a Behaviour for the path will be used for the Hub on the subdirectory (E.g. /resources-test). The path will point to the Origin setup for read.uberflip.com</p>
+<p>Edit the Behaviour to align the settings like the ones shown below:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360067347012/Cloudfront-config-2.png" alt="Cloudfront-config-2.png"></p>
+<h2>2. Cloudflare (Enterprise) CDN</h2>
+<p>Here are the Cloudflare docs: <a href="https://support.cloudflare.com/hc/en-us/articles/206190798-Using-Resolve-Override-in-Page-Rules" rel="noreferrer">https://support.cloudflare.com/hc/en-us/articles/206190798-Using-Resolve-Override-in-Page-Rules</a> <br><br><strong>A. </strong>Create a DNS record (CNAME) for a subdomain on customer domain. For example, it could be: <a href="http://uberflip.sisudata.com/" rel="noreferrer">uberflip.customer-domain.com</a> - configuration might look something like this:<br><br>​<img src="/attachments/token/NzrhmiAidaZ2LYPMfOw8tuovF/?name=CNAME.png" data-original-height="220" data-original-width="2176">​<br><br><strong>B.</strong> Create a page rule for the test domain we're using<br><br>- If URL matches: <a href="https://development--sisu-mktg.netlify.app/resources" rel="noreferrer">https://www.customer-domain.com/resources</a>*<br>- Cache level: Bypass<br>- Resolve override: <a href="http://uberflip.sisudata.com/" rel="noreferrer">uberflip.customer-domain.com</a> (domain you setup and configured CNAME)</p>
+<h2>3. Apache Web Server</h2>
+<p>The Apache web server allows you to use reverse proxy modules to achieve a subdirectory setup. This is module is called <strong>mod_proxy </strong>and more details can be found <a href="https://httpd.apache.org/docs/2.4/mod/mod_proxy.html" target="_self">here</a>. </p>
+<p>Here is a basic example of a reverse proxy directive:</p>
+<pre class="prettyprint lang-config prettyprinted"><span class="kwd">ProxyPass</span> <span class="str">"/foo"</span> <span class="str">"https://read.uberflip.com/foo"</span>
+<span class="kwd">ProxyPassReverse</span> <span class="str">"/foo"</span> <span class="str">"https://read.uberflip.com/foo"</span></pre>
+<h2>4. NGINX Web Server</h2>
+<p>NGINX allows you to pass requests to a proxied server. More details on the setup can be found <a href="https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/" target="_self">here</a>.</p>
+<p>Certain directives may need to be altered to get it to function correctly, but this is an example configuration that has worked for clients:</p>
+<pre class="c-mrkdwn__pre" data-stringify-type="pre">location /resource-hub {<br>    resolver 8.8.8.8;<br>    proxy_set_header Host $host;<br>    proxy_set_header X-Real-IP $remote_addr;<br>    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;<br>    proxy_pass <a class="c-link" href="https://read.uberflip.com/content-hub" target="_blank" rel="noopener noreferrer" data-stringify-link="https://read.uberflip.com/content-hub" data-sk="tooltip_parent">https://read.uberflip.com/resource-hub</a>;<br>}</pre>
+<p>ANOTHER EXAMPLE:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360067347752/mceclip0.png" alt="mceclip0.png"></p>
+<p> </p>
+<h2>5. HAProxy</h2>
+<p>Free, open source software that provides load balancer and proxy server for TCP and HTTP-based applications that spreads requests across multiple servers.</p>
+<p> </p>
+<p><strong>Backend Configuration:</strong></p>
+<div>
+<blockquote>
+<div>    backend uberflip_proxy<br>        http-request set-header Host <span class="wysiwyg-color-red110">website-domain-goes-here</span>.tld<br>        http-request set-header Accept-Encoding gzip<br>        http-request del-header X-Forwarded-Host<br>        # Additional lines here to strip secure cookies<br>        server uberflip_proxy <a href="http://read.uberflip.com:443/" target="_blank" rel="noopener" data-saferedirecturl="https://www.google.com/url?q=http://read.uberflip.com:443&amp;source=gmail&amp;ust=1608931422623000&amp;usg=AFQjCNGGFBC3LlCMfrNGcl6jM7kbRodxAA">read.uberflip.com:443</a> ssl verify required ca-file ca-certificates.crt sni str(<a href="http://read.uberflip.com/" target="_blank" rel="noopener" data-saferedirecturl="https://www.google.com/url?q=http://read.uberflip.com&amp;source=gmail&amp;ust=1608931422623000&amp;usg=AFQjCNFVfYpiGQM4TkcIP_FfT3jExV8_kA">read.uberflip.com</a>) verifyhost <a href="http://read.uberflip.com/" target="_blank" rel="noopener" data-saferedirecturl="https://www.google.com/url?q=http://read.uberflip.com&amp;source=gmail&amp;ust=1608931422623000&amp;usg=AFQjCNFVfYpiGQM4TkcIP_FfT3jExV8_kA">read.uberflip.com</a>
+</div>
+</blockquote>
+</div>
+<div> </div>
+<div>
+<div><strong>Frontend Configuration:</strong></div>
+<div>
+<blockquote>
+<div>    frontend defaultincoming<br>      bind *:80<br>      default_backend some_backend<br>      acl uberflip path_beg <span class="wysiwyg-color-red110">/path-to-proxy-here</span><br>      use_backend uberflip_proxy if uberflip</div>
+</blockquote>
+</div>
+</div>
+<h2>6. Azure Application Gateway</h2>
+<p><img src="https://help.uberflip.com/hc/article_attachments/4403759742861/Azure-2.png" alt="Azure-2.png"></p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/4403754366349/Azure-3.png" alt="Azure-3.png"></p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/4403754369293/Azure-4.png" alt="Azure-4.png"></p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/4403754370829/Azure-1.png" alt="Azure-1.png"></p>]]></description>
+         <guid isPermaLink="false">360048609912</guid>
+         <pubDate>Wed, 02 Sep 2020 19:30:19 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: Delete Uberflip Analytics Data for a Customer</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360042042672-Internal-Delete-Uberflip-Analytics-Data-for-a-Customer</link>
+         <description><![CDATA[<h2>About Deleting UFA Data</h2>
+<p>Customers may ask us to delete data collected by Uberflip Analytics. There are two main scenarios in which a customer might make this request:</p>
+<ul>
+<li>They have received a "right to be forgotten request" (GDPR) from a person who has visited one or more of their Hubs, and must delete that user's data from Uberflip Analytics</li>
+<li>They want to delete all data collected by Uberflip Analytics for all Hubs under their account</li>
+</ul>
+<p>Uberflip Analytics (UFA) has <strong>Data Control</strong><strong>s</strong> which are designed to service these requests. There are two functions:</p>
+<ul>
+<li>
+<strong>Delete Visitor Data: </strong>Deletes any UFA visitor data related to a specific unique identifier (UUID) that was assigned to a visitor's browser</li>
+<li>
+<strong>Delete All Data: </strong>Delete all UFA data associated with a particular Uberflip account (including all Hubs belonging to the account)</li>
+</ul>
+<p>Both options are <strong>permanent</strong>: any UFA data deleted using Data Controls is <strong>not recoverable</strong>.</p>
+<p>The current implementation of Data Controls is not ready for end users, and is only accessible through a direct URL that is intended to be used by Uberflip Support. As a result, <strong>Uberflip Support must assist customers with requests to delete UFA data at this time</strong>.</p>
+<p> </p>
+<h2 id="h_a23722cb-0cda-4d15-9f54-ab49263b76fa">Access UFA Data Controls</h2>
+<p>To delete UFA data for a customer, use UFA Data Controls. You must access Data Controls from the Uberflip app while logged into a customer's account, but it is not possible to navigate there using the app menus. Instead, you must <strong>use the direct URL for the Data Controls page</strong> to access it.</p>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p>The current version of Data Controls is <strong>not intended for use by customers</strong>. As a result, please <strong>do not share the direct URL to the Data Controls page with any customer</strong>.</p>
+</div>
+<ol>
+<li>Using the Admin backend, log in to the customer's account.</li>
+<li>Once you are logged in, use the following URL to open the Data Controls page:<br> <code class="no-padding">https://app.uberflip.com/analytics/data_controls</code>
+</li>
+<li>The Data Controls page for the customer's account should load, where you can delete data from UFA either for just a specific visitor, or across the whole account.</li>
+</ol>
+<p> </p>
+<h2>Delete a Visitor's UFA Data from a Customer Account</h2>
+<p>Under certain privacy regulations (e.g. GDPR), visitors to a website can request that the website operator delete any personal data that has been collected about them, including data collected by web analytics tools like UFA.</p>
+<p>In general, a visitor who wants their website data to be deleted would send this request to the Uberflip customer who owns the relevant Hub(s). Because the customer is not able to delete UFA data themselves, they would need to pass the request on to Uberflip — either by working with Uberflip Support on behalf of the visitor, or by asking the visitor to contact Uberflip Support directly.</p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p>The <strong>visitor</strong> and the <strong>customer</strong> are <strong>not</strong> the same person. For the purposes of the instructions below, the labels "visitor" and "customer" have the following definitions:</p>
+<ul>
+<li>
+<strong>Visitor</strong>: The third-party individual who has visited a customer's Hub(s), and is asking for their data to be deleted.</li>
+<li>
+<strong>Customer</strong>: The Uberflip customer who owns the Hub that the visitor viewed.</li>
+</ul>
+<p>For simplicity, the instructions assume you are speaking with the <strong>visitor</strong> directly. If you are communicating with the <strong>customer</strong>, keep in mind that steps directed at the visitor can <strong>not</strong> be completed by the customer on the visitor's behalf. Instead, you would need to <strong>ask the customer to instruct the visitor</strong> to complete them.</p>
+</div>
+<h3 id="h_6c99a26a-b782-4462-9b75-b29191bbb0ae">Step 1: Get The Visitor's UUID</h3>
+<p>To delete the data associated with a specific individual visitor, Uberflip requires that visitor's <strong>UUID </strong>(universally unique identifier).</p>
+<p>UFA assigns a UUID to each browser that loads an Uberflip Hub, and all data that UFA collects about a browser is tagged with its UUID. Therefore, we use the UUID to identify and delete all data relating to a particular browser (i.e. visitor) within the UFA database.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>UFA assigns UUIDs at the <strong>account level</strong>. This means that a browser will have the same UUID across all Hubs that belong to the same Uberflip account. If a browser enters two Hubs that belong to two separate Uberflip accounts, it will be assigned two separate UUIDs (one per account).</p>
+<p>UFA also assigns UUIDs per <strong>browser</strong>, so every separate browser (including mobile browsers) that a visitor uses to view an Uberflip Hub will receive its own UUID. As a result, a visitor may have <strong>multiple UUIDs</strong> within a given customer's account.</p>
+</div>
+<p>When a visitor asks for their UFA data to be deleted, <strong>Uberflip has no way of determining what that visitor's UUID is</strong>: UFA data is identified only with a UUID, and is not linked to other personal information (e.g. name, email, etc.) that could be used to associate the UUID with a specific individual. As a result, <strong>the visitor must provide their UUID to Uberflip </strong>in order for us to complete their request.</p>
+<p>There are two ways that a visitor can provide their UUID to Uberflip:</p>
+<div class="tabs">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Direct Method: Find UUID With DevTools</span> <span class="tabs-link">Indirect Method: Infer UUID With Dedicated Item</span>
+</div>
+<div class="tab">
+<p>The visitor can extract their own UUID from their browser data using DevTools and provide it to Uberflip.</p>
+<ul class="list-bullet">
+<li>
+<strong>Pro</strong>: Requires no setup or action by Uberflip Support or the customer — the visitor simply provides the UUID.</li>
+<li>
+<strong>Con:</strong> The process to find the UUID may be intimidating and difficult to complete for a non-technical visitor.</li>
+</ul>
+<p><strong>To use:</strong></p>
+<ol>
+<li>
+<strong>Notify the visitor</strong> that we will need their UUID to identify and delete their UFA data.</li>
+<li>
+<strong>Instruct the visitor on how to find their UUID</strong> using DevTools. The following article describes the process, and can also be provided to the visitor directly: <a href="https://help.uberflip.com/hc/en-us/articles/360041466972">Find Your Uberflip Analytics Identifier (UUID)</a>.</li>
+<li>After the visitor has provided their UUID, you can proceed with deleting their UFA data.</li>
+</ol>
+</div>
+<div class="tab is-hidden">
+<p>The visitor can view view a purpose-built Item that is shared only with them. This allows Uberflip to infer their UUID by subsequently viewing analytics for the Item in UFA: because nobody else viewed the Item, there should only be one pageview recorded, and the UUID associated with this pageview must belong to the visitor in question. </p>
+<ul class="list-bullet">
+<li>
+<strong>Pro</strong>: Very low difficulty for the average visitor — requires minimal action and no technical knowledge on their part.</li>
+<li>
+<strong>Con</strong>: Requires setup and action by Uberflip or the customer. Visitors who want their UFA data to be deleted may be unwilling to visit another Uberflip page, and it may be challenging to explain why this action is necessary.</li>
+</ul>
+<p><strong>To use:</strong></p>
+<ol>
+<li>Create a <strong>hidden/no-index</strong> Item in the customer's Hub.
+<ul>
+<li>Can be in <strong>any Hub belonging to the same account</strong> that the visitor wants their data deleted from. </li>
+<li>Make a note of the <strong>Item ID</strong>, as you will need it for a later step.</li>
+<li>The Item does not need any content, but it may be helpful to provide some minimal explanatory text, or something like "Thank you, you should receive a response to your request shortly", etc.</li>
+</ul>
+</li>
+<li>
+<strong>Notify the visitor that they need to visit a special page</strong> so that Uberflip can identify and delete their UFA data. Share the URL to the Item you created in Step 1, and ask the visitor to <strong>respond with the date/time they visited</strong> (to confirm that they visited, and as a point of reference).</li>
+<li>After the visitor responds, <strong>open UFA</strong> for the Hub that contains the special Item.</li>
+<li>
+<strong>Navigate to the Single Item Performance dashboard</strong> by drilling into <strong>any</strong> Item (as described <a href="https://help.uberflip.com/hc/en-us/articles/360035433571-Navigate-the-Uberflip-Analytics-Interface#drillin">here</a>).</li>
+<li>After you have opened the Single Item Performance dashboard, switch to the special Item by<strong> entering its Item ID</strong> <strong>into the <em>Item ID </em>filter</strong> at the top:<br> <img src="https://help.uberflip.com/hc/article_attachments/360055039232/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png">
+</li>
+<li>When the special Item has loaded in the dashboard, scroll down to the <strong>Visitor Sessions</strong> table.</li>
+<li>In the <strong>Item View </strong>column of this table, use the <strong>date and time of the visit</strong> provided by the visitor to determine which line in the table represents their visit (there may only be one line):<br> <img src="https://help.uberflip.com/hc/article_attachments/360055039492/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png">
+</li>
+<li>On this line, look under the <strong>Visitor </strong>column. Here, click on the <strong>...</strong> button next to the Visitor ID, then click on <strong>Single Visitor History</strong>:<br> <img src="https://help.uberflip.com/hc/article_attachments/360055171151/Fullscreen_2020-04-20__5_51_PM.png" alt="Fullscreen_2020-04-20__5_51_PM.png">
+</li>
+<li>The Single Visitor History dashboard for the selected visitor will appear. In the top left, look in the <strong>Visitor Details</strong> table to find the <strong>Visitor UUID</strong>:<br> <img src="https://help.uberflip.com/hc/article_attachments/360055172151/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png">
+</li>
+<li>When you have the UUID, you can proceed with deleting this visitor's UFA data.</li>
+</ol>
+</div>
+</div>
+<h3>Step 2: Delete Visitor's UFA Data</h3>
+<p>After you have obtained a visitor's UUID, you can use it to delete their UFA data using Data Controls. You must do this in the account of the customer who owns the Hub(s) from which UFA data should be deleted.</p>
+<p>This process will delete the visitor's UFA data for all Hubs associated with the customer's account, so you only need to do it once for each UUID, even if the visitor viewed multiple Hubs owned by the customer.</p>
+<ol>
+<li>Log in to the customer's account and <a href="#h_a23722cb-0cda-4d15-9f54-ab49263b76fa" target="_self">open the UFA Data Controls page</a>.</li>
+<li>On the Data Controls page, find <strong>Delete Visitor Analytics.</strong>
+</li>
+<li>In the text field below Delete Visitor Analytics, <strong>enter the UUID of the visitor</strong> who has asked for their UFA data to be deleted (which you <a href="#h_6c99a26a-b782-4462-9b75-b29191bbb0ae" target="_self">obtained earlier</a>).</li>
+<li>Click on <strong>Delete Data</strong> beside the text field.</li>
+<li>A confirmation window will appear. Click on <strong>Delete Data</strong> in this window to confirm the deletion.</li>
+<li>You'll be returned to the Data Controls screen, and a <strong>Deletion Process Started </strong>notification will appear in the lower right corner.</li>
+<li>
+<strong>Notify the visitor</strong> (directly or via the customer) that the visitor's data has been deleted, and that the process <strong>may take up to 4 hours to complete</strong>.</li>
+</ol>
+<p> </p>
+<h2>Delete All UFA Data From a Customer's Account</h2>
+<p>In some cases, customers may ask for Uberflip to delete all data that UFA has collected in relation to their account (and all Hubs within it). The most likely scenario for such a request is in the context of a customer closing their account, but it may also happen in other situations (e.g. just before launching their first Hub, to "clear out" UFA data that was generated during implementation).</p>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p>This process will <strong>permanently delete</strong> <strong>ALL UFA data</strong> associated with a customer's account. It applies across <strong>all Hubs</strong>, and can not be performed for only a specific Hub. <strong>Deleted data can</strong> <strong>not be recovered</strong>. This process should only be used if the customer will never need this data again.</p>
+<p>Before proceeding, <strong>ensure that the customer fully understands the consequences</strong> of this action, and that <strong>deleting UFA data can not be undone</strong>.</p>
+</div>
+<ol>
+<li>Log in to the customer's account and <a href="#h_a23722cb-0cda-4d15-9f54-ab49263b76fa" target="_self">open the UFA Data Controls page</a>.</li>
+<li>On the Data Controls page, find <strong>Delete All Analytics</strong>.</li>
+<li>Click on the <strong>Delete Data</strong> button that is shown below this heading.</li>
+<li>A confirmation window will appear. Click on <strong>Delete Data</strong> in this window to confirm the deletion.</li>
+<li>You'll be returned to the Data Controls screen, and a <strong>Deletion Process Started </strong>notification will appear in the lower right corner.</li>
+<li>
+<strong>Notify the customer</strong> that all UFA data associated with their account has been deleted, and that the process <strong>may take up to 4 hours to complete</strong>.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360042042672</guid>
+         <pubDate>Fri, 17 Apr 2020 20:47:22 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: Enable Let&apos;s Encrypt SSL (TLS) Certificates for Customer Domains</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360041968632-Internal-Enable-Let-s-Encrypt-SSL-TLS-Certificates-for-Customer-Domains</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>Enable a Let's Encrypt SSL Certificate for a customer who wants to use the Uberflip-managed certificate option for their Hub's domain.</p>
+<p>This process applies to customers who <strong>created their domain before May 22, 2020</strong> and either:</p>
+<ul>
+<li>Did <strong>not</strong> use HTTPS with that domain, but want to now</li>
+<li>Used HTTPS with the domain with an Uberflip-managed certificate (Digicert)</li>
+<li>Used HTTPS with the domain with a self-managed certificate</li>
+</ul>
+<p>Domains created <strong>after May 22, 2020</strong> (or domains created earlier than this date by customers who were part of the <strong>HTTPS For All beta program</strong>) will automatically have a Let's Encrypt certificate enabled, so this process would not apply.</p>
+<p> </p>
+<h2>Enable a Let's Encrypt Certificate for a Domain</h2>
+<ol>
+<li>In the Uberflip admin backend, click on <strong>Domains</strong>.</li>
+<li>
+<strong>Search for the domain</strong> that the customer has asked to have SSL (TLS) activated on.</li>
+<li>When you have located the domain, click on the <strong>Allow LE Cert</strong> button for this domain (on the right side):<br> <br> <img src="/attachments/token/MNOvjxQjUYLKgsbQ0a5iKMKdb/?name=inline211075135.png" data-imageuploadid="211075135" data-original-height="754" data-original-width="2542" data-upload-token="y3LjkeMH2jlb4LkLJxwDdttb7" data-inline-attachment="true" data-image-uuid="1587047021079">​</li>
+<li>This will begin processing the Let's Encrypt certificate for the selected domain. Processing will be completed <strong>overnight</strong>, and the domain will be <strong>secured by the following morning</strong>.</li>
+</ol>
+<p> </p>
+<h2>If Needed: Remove Existing Certificate</h2>
+<p>If a domain is using a <strong>customer-managed certificate</strong>, you can still enable a Let's Encrypt certificate for that domain, but <strong>it can't be activated until the customer's certificate has been removed</strong>.</p>
+<p>Removal of an existing customer-managed certificate must be done by OPS. If the domain has an existing customer-managed certificate, <strong>submit a new OPS ticket in Jira to request that it be removed</strong>. As soon as OPS removes the self-managed certificate, the previously enabled Let's Encrypt certificate will take effect immediately.</p>]]></description>
+         <guid isPermaLink="false">360041968632</guid>
+         <pubDate>Thu, 16 Apr 2020 14:43:28 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: Access Primary User-Restricted Settings on a Customer Account</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360041342871-Internal-Access-Primary-User-Restricted-Settings-on-a-Customer-Account</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>Certain menus in the <em>Account Settings </em>area of the Uberflip app are visible only to the account's Primary User (e.g. the <em>Security</em> menus). For all other Account Administrators in the same account, these menus are hidden and therefore inaccessible.</p>
+<p>When logging in to a customer's account from the Uberflip Admin Backend (e.g. as a Support user), you are given the same privileges as an Account Administrator user in that account. By default, you will therefore not be able to see the menus that only the Primary User has access to. If you need to access these menus for troubleshooting purposes, use the following workaround.</p>
+<p> </p>
+<h2>Access "Hidden" Primary User Menus in a Customer Account</h2>
+<ol>
+<li>Open an incognito browser window and log in to a Hub where you are the Primary User.</li>
+<li>In the Hub where you are the Primary User, navigate to the menu that you need to access in the customer's Hub.</li>
+<li>Copy the URL from the address bar.</li>
+<li>In a different browser window (does not need to be incognito), log in to the customer's account via the Uberflip Admin Backend.</li>
+<li>In the same browser window, paste the URL you copied from the incognito browser window.</li>
+<li>The previously inaccessible menu should now load in the customer's account.</li>
+</ol>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360041342871</guid>
+         <pubDate>Mon, 23 Mar 2020 18:19:06 GMT</pubDate>
+      </item>
+      <item>
+         <title>Resend an Email Invitation to a New User</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360038740232-Resend-an-Email-Invitation-to-a-New-User</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>Resend an invitation email to add a new user to your Uberflip account (e.g. if the user never received or lost the original email).</p>
+<p> </p>
+<h2>Send an New Invitation Email</h2>
+<ol>
+<li>Log out of your Uberflip account (if you are currently logged in):<br><img src="https://help.uberflip.com/hc/article_attachments/360047967172/mceclip0.png" alt="mceclip0.png"> </li>
+<li>Visit the following link: <a href="https://app.uberflip.com/users/forgot_password">https://app.uberflip.com/users/forgot_password</a>.</li>
+<li>In the <em>Email</em> field, enter the email address of the user to whom you want to resend the email invitation.</li>
+<li>Click the <em>Request Password Reset</em> button.</li>
+<li>The specified user will be sent an email with a link to reset their password. When they click on this link, they will be able to create a password for the account associated with their email address, then log in with these credentials.</li>
+</ol>
+<p> </p>
+<h2>Additional Notes</h2>
+<p>In order for this to be successful, the user must have already been created (with the same email address you entered) in your Uberflip account.</p>
+<p>The password reset email can take a few minutes to be delivered to the user after you request it. As with all automated emails, it may be misidentified as spam, so the user should check their spam folder as well.</p>]]></description>
+         <guid isPermaLink="false">360038740232</guid>
+         <pubDate>Thu, 23 Jan 2020 21:47:47 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: Hub Hack: Divide a Marketing Stream Into Sections [REFERENCE ONLY]</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360037349611-Internal-Hub-Hack-Divide-a-Marketing-Stream-Into-Sections-REFERENCE-ONLY</link>
+         <description><![CDATA[<hr>
+<p>Learn how to divide a Marketing Stream into distinct sections with their own headings with this Hub Hack.</p>
+<hr>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>This article has been retired and is provided for reference only. <br></strong></p>
+<p>This article describes a method that is no longer in use. It is provided here for reference only. Do <strong>not</strong> use the method described in this article in a customer Hub. If you have questions, please contact the OnBrand team.</p>
+</div>
+<h2>Before You Begin</h2>
+<ul>
+<li>To follow the instructions in this article, you will need to use the <a href="https://help.uberflip.com/hc/en-us/articles/360018841312" target="_self">Custom Code feature</a>. To use this feature, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+<li>You should also be comfortable with using the Custom Code feature and working with custom code in your Hub. While not required, a basic familiarity with HTML, CSS and JavaScript is helpful for following this guide.</li>
+<li>This Hub Hack can <strong>only create sections in</strong> <strong>Marketing Streams</strong>. It does not work with Sales Streams or any type of Source Stream.</li>
+<li>For the purposes of this guide, we will assume that the Marketing Stream you want to add sections to already exists. If not, please create the Stream and add content to it before proceeding.</li>
+</ul>
+<p> </p>
+<h2>About Stream Sections</h2>
+<h3>What This Hub Hack Does</h3>
+<p>In certain Streams, it can sometimes make sense to divide the content into sections to make it easier for visitors to navigate.</p>
+<p>For example, in the <a href="https://academy.uberflip.com/">Uberflip Academy</a>, we have a number of training videos that cover various aspects of setting up your Uberflip Hub. The videos are all within a single Stream so that they're easy to browse, but they're also logically organized around the stages of the <a href="https://hub.uberflip.com/blog/the-content-experience-framework">Content Experience Framework</a>: some videos relate to centralizing content, others to personalizing experiences, and so on.</p>
+<p>We wanted to make it clear which videos related to each stage, so we split the Stream into sections that correspond to these stages, as you can see below:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360063732652/Platform_Training_Videos.jpg" alt="Platform_Training_Videos.jpg"></p>
+<p>If you have a similar use case in your Hub, you can use the Hub Hack described in this article to create your own sectioned Streams.</p>
+<h3 id="h_d69946af-49df-4404-8d14-e641e9a371c8">How It Works</h3>
+<p>As with all Hub Hacks, Stream sections are primarily driven by custom code snippets that you'll add to your Hub. But because Uberflip doesn't have a built-in way to create "dividers" between content Items, you'll also need to do some additional setup work to achieve this effect. Specifically, you'll need to create:</p>
+<ul class="list-bullet">
+<li>Link CTAs for every section heading you need</li>
+<li>A special placeholder Item in a dedicated Stream</li>
+</ul>
+<p>Here's how it works:</p>
+<p>To create the section headings in the Stream, you will use specially-formatted <strong>Link CTAs</strong>. Each section heading will be represented by a single Link CTA, and the <em>Tagline/Copy</em> text that you set on the CTA will be used as the section heading text that is displayed within the Stream. For example, this Link CTA:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360044432832/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="171" height="218"></p>
+<p>Will look like this when used as a section heading in a Stream:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360044511591/Stream_Sectioning_Example.png" alt="Stream_Sectioning_Example.png" width="568" height="198"></p>
+<p>Once created, you can simply put these Link CTAs anywhere within the Stream that you want to place a section heading.</p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p>Because this Hub Hack uses Link CTAs to create section headings, it's subject to a Link CTA-related limitation: all Link CTAs <strong>must</strong> be placed within the first 20 Items in a Stream.</p>
+<p>This means that, although you can use this Hub Hack on Streams with any number of Items, your <strong>last</strong> section heading must appear <strong>before the 20th Item </strong>in the Stream (or earlier). In other words, you will not be able to place any section headings after the 20th Item.</p>
+</div>
+<p>You will also need to create a <strong>placeholder Item in a dedicated Stream</strong>. This placeholder Item is needed as a workaround for a placement problem: the Link CTA that represents the first section heading needs to be placed <em>before</em> the first content Item, but a CTA can't be in first position in a Stream. To get around this, you use the placeholder Item to occupy first position in the Stream, with the first section heading CTA in second position, like this:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360044521151/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png"></p>
+<p>Because the placeholder Item will be hidden with custom code, the CTA in second position will effectively be in first position when the Stream is viewed — putting the first section heading at the top of the page, with no Items above it.</p>
+<p>The placeholder Item also serves a second purpose by <strong>functioning as the "on switch" for this Hub Hack</strong>. When you add the placeholder Item to any Marketing Stream, the custom code will look for the specially-formatted Link CTAs within that Stream, and will display them as section headings if they're present. This makes it easy to create additional sectioned Streams later.</p>
+<p> When you're ready to get started, follow the steps below.</p>
+<p> </p>
+<h2>Step 1: Create a Placeholder Item in a Dedicated Stream</h2>
+<p>To get started, <strong>create a new Blog Stream</strong>, then <strong>create the placeholder Item inside this Stream</strong>. The placeholder Item will be hidden by custom code, and you will use it to enable sections on any Marketing Stream of your choice by simply adding it to the Stream. For details on why this placeholder Item is needed, <a href="#h_d69946af-49df-4404-8d14-e641e9a371c8" target="_self">see above</a>.</p>
+<p>For this guide, we will assume you are familiar with Blog Streams and Items, and will not provide step-by-step guidance on how to create a Stream or Item. For detailed instructions, see <a href="https://help.uberflip.com/hc/en-us/articles/360025342851" target="_self">this article</a>.</p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p>You must create a <strong>new</strong> <strong>Stream</strong>, and this Stream should <strong>contain</strong> <strong>ONLY the placeholder Item</strong>. There are a few reasons for this:</p>
+<ul>
+<li>It's <strong>cleaner</strong>: having the placeholder Item in a dedicated Stream makes it easier for others to understand and modify this setup later</li>
+<li>The Stream itself must be <strong>hidden</strong> and must <strong>not be indexable</strong>, so it can't be used for anything else</li>
+<li>The custom code snippet that powers this Hub Hack <strong>hides all content from this Stream</strong>, so any other Items you add to it will be invisible everywhere</li>
+</ul>
+</div>
+<ol>
+<li> Log in to your Uberflip account and navigate to the Hub with the Stream to which you want to add sections.</li>
+<li>To begin, <strong>create a new Blog Stream</strong>.
+<ul>
+<li>Make sure you choose the <em>"Start from scratch"</em> option when creating the Stream.</li>
+<li>We recommend calling this Stream something that clearly indicates its purpose, such as "Stream Sections Placeholder Stream", and briefly describing this purpose in the Stream description.</li>
+</ul>
+</li>
+<li>Once the new Stream has been created, <strong>open it</strong>. Configure it as follows:<br>
+<ul>
+<li>
+<strong>Hide </strong>the Stream (<em>three-dot "meatball" menu in top right</em> &gt; <em>Hide</em>).</li>
+<li>
+<strong>Turn on</strong> <a href="https://help.uberflip.com/hc/en-us/articles/360018840252-Block-Your-Hub-Content-From-Appearing-in-Search-Engine-Results#block-indexing-at-the-stream-level" target="_self"><strong><em>No Robots Meta Tag</em></strong></a> (<em>Options</em> <em>tab &gt; No Robots Meta Tag</em>).</li>
+</ul>
+</li>
+<li>Go to the Stream's <strong>Items tab</strong> and <strong>create a new Item</strong>.
+<ul>
+<li>Again, we recommend using an article title that clearly describes its purpose, such a "Hidden Placeholder Item for Stream Sections".</li>
+<li>We recommend pasting the following text snippet into the body of the article:
+<pre>Do NOT delete this article or remove it from this Stream!<br><br>If you are viewing this article in a Marketing Stream, do NOT change its position in the Stream.<br><br>This article is used to create sections in Streams. For more information, see here:<br>https://help.uberflip.com/hc/en-us/articles/360037349611</pre>
+</li>
+<li>
+<strong>Do NOT use the "Hide" setting</strong> (<em>Metadata tab &gt; Status</em>) for this article (ensure it is set to "Show"), as the article will be hidden using custom code in the next step.</li>
+</ul>
+</li>
+<li>While still viewing the new article in the article editor, <strong>look at the address bar</strong> in your browser. The URL should end with three groups of digits separated by forward slashes (/), like this:<br><img src="https://help.uberflip.com/hc/article_attachments/360044558352/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png">
+</li>
+<li>
+<strong>Make a note of this article's <em>Item ID</em>,</strong> which is the <strong>middle group of digits </strong>(without the slashes):<br><img src="https://help.uberflip.com/hc/article_attachments/360044558432/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png">
+</li>
+<li>Also <strong>make a note of this Stream's <em>Stream ID</em></strong>, which is the <strong>last group of digits </strong>(without slashes):<br><img src="https://help.uberflip.com/hc/article_attachments/360044634511/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png">
+</li>
+<li>Finally, <strong>publish</strong> the new article.
+<ul>
+<li>Even though it will never be shown anywhere, the article must be published for this Hub Hack to work.</li>
+</ul>
+</li>
+</ol>
+<p>After publishing the new article, move on to the next step.</p>
+<p> </p>
+<h2>Step 2: Add Custom Code</h2>
+<p>The next step is to add the custom code blocks that power this hack to your Hub. You will create <strong>two separate code blocks</strong>: one for CSS, and one for JavaScript. To complete this step, you will need the <strong>Stream ID</strong> and the <strong>Item ID</strong> you noted down in the previous step.</p>
+<p>For this guide, we will assume you are familiar with custom code blocks, and will not provide step-by-step guidance on how to create and enable them. For detailed instructions, see <a href="https://help.uberflip.com/hc/en-us/articles/360018841312" target="_self">this article</a>.</p>
+<h3>CSS Custom Code Block</h3>
+<h4>Configuration</h4>
+<p><strong>Name: </strong>Stream Sections (CSS) <em>(or any name you prefer)</em></p>
+<p><strong>Description: </strong>CSS to enable Stream Sections, as documented here: https://help.uberflip.com/hc/en-us/articles/360037349611<em> (or any description you prefer)</em></p>
+<p><strong>Privacy Group: </strong>None</p>
+<p><strong>Placement: </strong>Head</p>
+<h4>Code</h4>
+<div class="accordion accordion--default">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>CSS Code Snippet</strong></div>
+<div class="accordion__item-content">
+<pre><code class="css">&lt;style&gt;<br>/*Make items from the sectioning placeholder streams invisible everywhere*/<br>[data-source-stream-id = "INSERT STREAM ID"] {<br> display: none;<br>}<br><br>/*Enable sections using CTAs in Streams containing the specified Item*/<br>#collection-items {<br> opacity: 0;<br> transition: opacity 0.3s ease;<br>}<br>body.custom-cta-segmentation .description-block {<br> margin-bottom: 0;<br>}<br>body.custom-cta-segmentation .tile[data-id="INSERT ITEM ID"] {<br> display: none !important;<br>}<br>body.single-page .tile[data-id="INSERT ITEM ID"] {<br> display: none!important;<br>}<br>body.custom-cta-segmentation .uf-section-title {<br> font-weight: 300;<br> font-size: 25px;<br> line-height: 29px;<br> margin-bottom: 20px;<br> display: block;<br> clear: both;<br> background: transparent;<br>}<br>body.custom-cta-segmentation .uf-section-title a {<br> display: block;<br> position: relative;<br> top: -120px;<br> visibility: hidden;<br>}<br>@media screen and (max-width: 860px) {<br> body.custom-cta-segmentation .uf-section-title a {<br> top: -90px; <br> }<br>}<br>body.custom-cta-segmentation .uf-section-title p {<br> padding-top: 30px;<br> padding-bottom: 10px;<br> margin-bottom: 32px;<br> position: relative;<br> display: block;<br>}<br>body.custom-cta-segmentation .uf-section-title p:after {<br> content: "";<br> position: absolute;<br> bottom: 0;<br> left: 0;<br> height: 1px;<br> width: calc(100% - 20px);<br> background-color: #ddd;<br>}<br>@media screen and (max-width: 560px) {<br> body.custom-cta-segmentation .uf-section-title p:after {<br> width: 100%;<br> }<br>}<br>body.custom-cta-segmentation .uf-section-title:first-child p {<br> padding-top: 0;<br>}<br>&lt;/style&gt;</code></pre>
+</div>
+</div>
+</div>
+<p>Paste the code snippet provided above into the code box. Make the following changes:</p>
+<ul>
+<li>Search for <code class="no-padding">[data-source-stream-id = "INSERT STREAM ID"]</code> and replace <code class="no-padding">INSERT STREAM ID</code> with the <strong>Stream ID </strong>you made a note of in the previous step (make sure to keep the quotes).</li>
+<li>Search for <code class="no-padding">[data-id = "INSERT ITEM ID"]</code> and replace <code class="no-padding">INSERT ITEM ID</code> with the <strong>Item ID </strong>you made a note of in the previous step (make sure to keep the quotes).</li>
+</ul>
+<p>After pasting in the code snippet, <strong>save</strong>, then <strong>enable </strong><strong>the code block</strong>.</p>
+<h3>JavaScript Custom Code Block</h3>
+<h4>Configuration</h4>
+<p><strong>Name: </strong>Stream Sections (JS) <em>(or any name you prefer)</em></p>
+<p><strong>Description: </strong>JavaScript to enable Stream Sections, as documented here: https://help.uberflip.com/hc/en-us/articles/360037349611<em> (or any description you prefer)</em></p>
+<p><strong>Privacy Group: </strong>None</p>
+<p><strong>Placement: </strong>Body Bottom</p>
+<h4>Code</h4>
+<div class="accordion accordion--default">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>JavaScript Code Snippet</strong></div>
+<div class="accordion__item-content">
+<pre><code>&lt;script&gt;<br>window.ctaSegmentationLoaded = false;<br><br>$('.single-page .item-prev a[data-item-id="INSERT ITEM ID"]').parent().hide();<br><br>var ctaSegmentation = function() {<br> var spacerTile = $('.tile[data-tags="spacer-tile"]');<br><br>if (spacerTile.length &gt; 0) {<br> // spacerTile.remove();<br> spacerTile.hide();<br> }<br> <br> if (!$("body").hasClass("single-page")) {<br> $("a.cta-button").each(function(index, el) {<br> var currentButton = $(el);<br> if (currentButton.text() === "section") {<br> $("body").addClass("custom-cta-segmentation");<br> var sectionTitle = currentButton.siblings("p").text();<br> var link = currentButton.attr('href').replace(/(^\w+:|^)\/\//, '');<br> link = link.split('.')[0];<br> currentButton<br> .parent()<br> .removeClass()<br> .addClass("uf-section-title")<br> .removeAttr("style")<br> .html(<br> '&lt;a id=' + link + '&gt;' + '&lt;/a&gt;' + '&lt;p&gt;' + sectionTitle + '&lt;/p&gt;'<br> );<br> }<br> });<br> $("#collection-items").css('opacity', '1');<br> } else {<br> var itemPrev = $(".item-prev");<br> if (itemPrev.find("span.title").text() === "spacer") {<br> itemPrev.html("");<br> }<br> }<br> <br>};<br><br>Hubs.Events.on('load', function(){<br> if(!window.ctaSegmentationLoaded){<br> ctaSegmentation();<br> window.ctaSegmentationLoaded = true;<br> }<br><br>});<br>if(!window.ctaSegmentationLoaded){<br> Hubs.Events.trigger('load');<br>}<br>&lt;/script&gt;</code></pre>
+</div>
+</div>
+</div>
+<p>Paste the code snippet provided above into the code box. Make the following change:</p>
+<ul>
+<li>Search for <code class="no-padding">[data-item-id = "INSERT ITEM ID"]</code> and replace <code class="no-padding">INSERT ITEM ID</code> with the <strong>Item ID </strong>you made a note of in the previous step (make sure to keep the quotes).</li>
+</ul>
+<p>After pasting in the code snippet, <strong>save</strong>, then <strong>enable </strong><strong>the code block</strong>.</p>
+<p>After creating and enabling both custom code blocks, move on to the next step.</p>
+<p> </p>
+<h2 id="h_bc124af3-695b-4713-bf92-6c639c2fc817">Step 3: Create Section Heading Link CTAs</h2>
+<p>Next, create the Link CTAs that will serve as the section headings in your Stream. You'll need to <strong>create one Link CTA for every section heading</strong> you want to use.</p>
+<p>For this guide, we will assume you are familiar with Link CTAs and will not provide step-by-step guidance on how to create them. For detailed instructions, see <a href="https://help.uberflip.com/hc/en-us/articles/360020735012" target="_self">this article</a>.</p>
+<p>Configure each Link CTA as follows:</p>
+<ul>
+<li>For the <strong>CTA name</strong>, choose any name you want (it will not be displayed in the Stream, only in the CTA Manager). We suggest indicating the Stream that this CTA will be used in in the name field.<br><img src="https://help.uberflip.com/hc/article_attachments/360044961611/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="428" height="33">
+</li>
+<li>
+<strong>Layout tab &gt; Tagline/Copy</strong><strong>:</strong> Type the <strong>heading text you want to use</strong>.
+<ul>
+<li>This is the text that will actually be displayed as a heading when the CTA is placed in the Stream.<br><img src="https://help.uberflip.com/hc/article_attachments/360044961631/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="541" height="91">
+</li>
+</ul>
+</li>
+<li>
+<strong>Layout tab &gt; Button label</strong>: Type in <strong>section</strong><em>. </em>
+<ul>
+<li>This must be <strong>only</strong> the word "section", in lowercase, and nothing else. This text is what identifies the Link CTA as a section heading to the custom code, and is not displayed.<br><img src="https://help.uberflip.com/hc/article_attachments/360044867372/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="539" height="63">
+</li>
+</ul>
+</li>
+<li>
+<strong>Layout tab &gt; Link Action</strong>: Type in any website URL you want.
+<ul>
+<li>This URL is not displayed anywhere, but you must enter something. We suggest entering your corporate website URL.<br><img src="https://help.uberflip.com/hc/article_attachments/360044867412/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="537" height="51">
+</li>
+</ul>
+</li>
+<li>
+<strong>Design/Placements/Variations</strong> <strong>tabs</strong>: You do not have to configure anything on these tabs, and can leave them on their default settings. The design of the CTAs is unimportant (as they will not be displayed as CTA tiles), and you will take care of placement in the next step.</li>
+</ul>
+<p>After creating all the necessary section heading Link CTAs, proceed to the next step.</p>
+<p> </p>
+<h2 id="h_08ee3135-5911-4164-9da1-b177bf1b0df6">Step 4: Add Placeholder Item and Link CTAs to Stream</h2>
+<p>The last step is to add the placeholder Item and the section heading Link CTAs to the Marketing Stream that you want to divide into sections.</p>
+<ol>
+<li>Open the Marketing Stream that you want to divide into sections.</li>
+<li>First, <strong>add the placeholder Item</strong> to the Stream and <strong>drag-and-drop it into first position</strong> in the Stream:<br><img src="https://help.uberflip.com/hc/article_attachments/360044868532/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png" width="586" height="377">
+</li>
+<li>Now, <strong>click on the <em>CTA</em> button</strong> in the menu bar to <strong>add the first section heading CTA t</strong>o the Stream:<strong><br></strong><img src="https://help.uberflip.com/hc/article_attachments/360044962691/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png">
+</li>
+<li>In the menu that appears, find the Link CTA that represents the <strong>first</strong><strong> section heading </strong>— the topmost section heading that should appear on the page.</li>
+<li>In the lower half of the menu, <strong>check the box next to <em>Appears After Item</em></strong>, and make sure the number in the field is set to <strong>1</strong>. Also, make sure the box next to <em>Repeat After Every </em>is <strong>not </strong>checked.<br><img src="https://help.uberflip.com/hc/article_attachments/360044868932/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png" width="435" height="488">
+</li>
+<li>Close this menu and <strong>refresh the page</strong> (using your browser's <em>Refresh</em> button). The Link CTA should now appear in the Stream view in the second position (after the placeholder Item):<br><img src="https://help.uberflip.com/hc/article_attachments/360044869052/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png">
+</li>
+<li>
+<strong>Click on the <em>Open </em>button</strong> in the menu bar to preview the Stream. If everything is working correctly, you should see the section heading appear above all content Items in the Stream:<br><img src="https://help.uberflip.com/hc/article_attachments/360044869492/Stream_Sections_Example.png" alt="Stream_Sections_Example.png"><br>
+<ul>
+<li>Not working? See the <a href="#h_5e0a823e-2086-437a-97e6-735a541b0a03" target="_self">Troubleshooting section</a> below.</li>
+</ul>
+</li>
+<li>Now, return to the Stream Editor, and <strong>repeat steps 3-5 above </strong>to add the remaining section heading Link CTAs. Make sure to <strong>adjust the number beside <em>Appears After Item</em></strong> to place the section heading in the right place in the Stream.</li>
+<li>Once you've added all section headings in the right places, you're done!</li>
+</ol>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>Before placing the additional section heading Link CTAs (after the first one), <strong>count the number of Items</strong> that should appear before each section heading, so that you know what to enter into the <em>Appears After Item</em> fields. When counting, remember to <strong>count the placeholder Item</strong>, but <strong>not the first section heading Link CTA</strong>.</p>
+</div>
+<p> </p>
+<h2 id="h_5e0a823e-2086-437a-97e6-735a541b0a03">Troubleshooting</h2>
+<p>In case it's not working as expected, here are a few things to check:</p>
+<ul class="list-bullet">
+<li>Is the placeholder Item <strong>published</strong>? It must not be in draft status.</li>
+<li>Is the placeholder Item <strong>set to "Show"</strong>? It must not be set to "Hide" under <em>Metadata tab &gt; Status</em>.</li>
+<li>Is the placeholder Item <strong>in first position in the Stream</strong>? It must be in first position to ensure everything is placed correctly, and the first section heading appears at the top of the page.</li>
+<li>Are <strong>both</strong> custom code blocks <strong>enabled</strong>? Both blocks must be enabled for the code within to be active.</li>
+<li>Have you chosen the correct <strong>placements</strong> for the custom code blocks? The CSS block must be set to <em>Head</em> and the JS block must be set to <em>Body Botto</em><em>m</em>.</li>
+<li>Did you specify the correct <strong>Item ID and</strong> <strong>Stream ID</strong> in the CSS custom code block, and the <strong>Item ID </strong>in the JS custom code block? The Item ID and Stream ID specified must be the correct ones for the placeholder Item in the dedicated Stream.</li>
+<li>Are the Item ID and Stream ID <strong>in the right places?</strong> Make sure they aren't switched — the Item ID is a longer string of digits.</li>
+<li>Do all the section heading Link CTAs have <strong>only <em>section</em></strong> set as the <em>Button label</em>? The text you type in here must only be <em>section</em>, lowercase, and nothing else.</li>
+</ul>
+<p> </p>
+<h2>What's Next</h2>
+<p>Now that you've done all the setup work and created your first sectioned Stream, it's easy to create additional sectioned Streams at any time. All you need to do is:</p>
+<ol>
+<li>Add the placeholder Item to any Marketing Stream to enable sections</li>
+<li>Create Link CTAs for each section heading you need</li>
+<li>Add the Link CTAs to the Stream to place the section headings</li>
+</ol>
+<p>In other words, from now on, you only need to complete <a href="#h_bc124af3-695b-4713-bf92-6c639c2fc817" target="_self">Step 3</a> and <a href="#h_08ee3135-5911-4164-9da1-b177bf1b0df6" target="_self">Step 4</a> in this guide anytime you want to create sections in any new or existing Marketing Stream.</p>]]></description>
+         <guid isPermaLink="false">360037349611</guid>
+         <pubDate>Fri, 29 Nov 2019 20:16:46 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: Move Flipbook Folder to Another Account</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360034655591-Internal-Move-Flipbook-Folder-to-Another-Account</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>Please follow these steps to properly prepare for and move Flipbook Folder(s) to another account. </p>
+<p> </p>
+<h2>Prep Work</h2>
+<ol>
+<li><span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Write down destination name and account number</span></li>
+<li><span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Write down original location account name and account number</span></li>
+<li><span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Take note of Flipbook credits on the source account as this number will change</span></li>
+<li><span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Make sure permissions on each account match</span></li>
+<li>
+<font face="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">Make sure there is </font>sufficient<font face="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"> Flipbook credits on Destination account (the number of total Flipbooks in the folder you are migrating will match the Flipbook credits removed on the destination account)</font>
+</li>
+<li><span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Write down the Default Custom Domains for the moving Flipbook folder (source) </span></li>
+</ol>
+<p> </p>
+<h2>STEPS: Move Flipbook Folder to Another Account</h2>
+<ol>
+<li>
+<p><strong>Destination Account</strong> - Ensure that there are enough <font face="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">Flipbook</font> credits. If not check to see the total # of <font face="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">Flipbook</font> being moved and add it via "upload management" section.</p>
+<ul>
+<li>
+<p><strong>Note</strong>: Destination account removes credits, original account adds back credits based on # of <font face="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">Flipbooks</font> being moved.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Make sure Permissions match between accounts - If they do not you'll get a warning of what is mismatched</p>
+</li>
+<li>
+<p>Change Default Domain of moving folder to a universal domain (eg: read.uberflip.com / <a href="http://www.epageflip.net">www.epageflip.net</a>)</p>
+</li>
+<li>
+<p>Click "<a class="img configure">Move Folder to a different Account"</a> ("Admin Accounts only" section in the bottom-left of Flipbook folder) - you must enter the destination accounts Username (not account number)</p>
+</li>
+<li>
+<p>Have the custom domain moved (Jira ticket with Devops)</p>
+</li>
+<li>
+<p>Clear Cache Domain. https://app.uberflip.com/admins/domaincacheclear/#### (where #### is the Domain ID of the custom domain that was moved)</p>
+</li>
+<li>
+<p>Remove credits from Source account as they would be added back to Destination account</p>
+</li>
+<li>
+<p>In "Upload Management" (in the account "Services" dropdown), adjust the Uploads number to the original number of credits prior to Flipbook folder migration</p>
+</li>
+<li>
+<p>Test Flipbook link to make sure it loads properly/loads up and all pages are displayed</p>
+</li>
+</ol>
+<p> </p>
+<h2>Additional Notes</h2>
+<ul>
+<li><em>Client should be made aware that the Flipbook IDs will likely change on migration, so by default the original direct-to-Flipbook URLs will be different.</em></li>
+<li>
+<em>You might run into the following error (not able to resolve the issue on the folder itself so a workaround can be used to complete the migration of the Flipbooks in the folder):</em>
+<ul>
+<li><em><span class="wysiwyg-color-red120">FAILED</span> - Error moving Folder! Folder cannot be moved because either there are hub collections associated with it or there are folder-level apps associated with it</em></li>
+<li>If you get this error, you can:
+<ol>
+<li>Note the settings on the erroring folder</li>
+<li>Create a new Flipbook folder in the source account</li>
+<li>[On the new Flipbook folder] Copy all Options and Appearance settings from original erroring folder</li>
+<li>Manually move each Flipbook in the original (erroring folder) to the new folder you just created</li>
+<li>[Once all Flipbooks are in the new folder] You should now be able to migrate the new Flipbook folder without issue</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>]]></description>
+         <guid isPermaLink="false">360034655591</guid>
+         <pubDate>Tue, 01 Oct 2019 15:24:22 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: Set Up A Custom Domain Without a Subdomain or Subdirectory</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360033565731-Internal-Set-Up-A-Custom-Domain-Without-a-Subdomain-or-Subdirectory</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>The customer wants to use a custom domain for their Hub that is not part of any existing domain. This means that the domain they want:</p>
+<ul>
+<li>Does not include a subdirectory (not Hubs-on-Dubs)</li>
+<li>Does not include "www" or any other subdomain</li>
+</ul>
+<p>The typical use case in this situation is that <a href="https://help.uberflip.com/hc/en-us/articles/360033186892">the customer wants their Hub to be a standalone website <strong>and</strong> to eliminate "www" from the URL</a>, e.g . they want a URL for their Hub to be a naked/bare/root domain like <code class="no-padding">https://myhub.com/</code>.</p>
+<p>Unlike a <a href="https://help.uberflip.com/hc/en-us/articles/360018786372" target="_self">normal subdomain Hub</a>, a customer can't set this up by themselves, so an Uberflipper will need to help them complete the process. This article outlines what you need to do.</p>
+<p> </p>
+<h2>Prerequisite: Advise the Customer to Contact Their DNS Provider</h2>
+<p>To set up a standalone custom domain like this, the customer must be able to create an <a href="https://support.dnsimple.com/articles/alias-record/"><strong>ALIAS record</strong></a> (not to be confused with an A record) with their DNS provider. This is a newer type of DNS record that may not be supported by all DNS providers.</p>
+<p>Before proceeding, you should ask the customer to contact their DNS provider and ask if they can create ALIAS records (again, this is <strong>not</strong> the same as an A record). You can proceed only if this is possible. (Note also that some DNS providers may use a different name for this type of record.)</p>
+<p> </p>
+<h2>Step 1: Create the Custom Domain</h2>
+<p>The customer can complete this step themselves, but it's recommended that you do so for them. This is because the domain <em>must</em> initially be created with "www" (which is only removed in Step 2), which can be confusing for the customer.</p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p>You must create the domain from within the customer's Hub, <strong>not</strong> using the internal Uberflip Admin backend: if you use the Admin backend, it will not be possible to enable SSL on the domain.</p>
+</div>
+<ol>
+<li>Log in to the customer's Hub as an admin.</li>
+<li>Navigate to <em>Account Settings &gt; Services &gt; Domains</em> and click on <strong>Add a Domain</strong> to create a new domain.<br>
+<ul>
+<li>For detailed instructions, see <a href="https://help.uberflip.com/hc/en-us/articles/360018786372">this article</a>.</li>
+</ul>
+</li>
+<li>Although the customer wants a URL <strong>without</strong> "www", make sure to <strong>include "www" when creating the domain</strong>, as the tool will reject any URL without a subdomain.
+<ul>
+<li>e.g. if the customer wants <code class="no-padding">https://myhub.com/</code>, you must create <code class="no-padding">https://<strong>www</strong>.myhub.com/</code>
+</li>
+</ul>
+</li>
+<li>When you have created the domain in the customer's account, move on to the next step.</li>
+</ol>
+<p> </p>
+<h2>Step 2: Open an Ops Ticket</h2>
+<p>Since you had to create the custom domain with "www" in it, an Ops ticket is necessary to remove it from the domain.</p>
+<ol>
+<li>Log in to <a href="https://uberflip.atlassian.net/">Jira</a>.</li>
+<li>On the left, click on the + button.</li>
+<li>In the <strong>Create issue</strong> window that appears, choose <strong>"Infra/Ops (OPS)"</strong> under <strong>Project</strong>.</li>
+<li>Fill in the <strong>Summary</strong> and <strong>Description</strong> fields, leaving everything else as default (including blanks):
+<ul>
+<li>For <strong>Summary</strong>, enter something like "Remove www. from custom domain"</li>
+<li>In the <strong>Description field</strong>, provide details about the customer and domain that.</li>
+</ul>
+</li>
+<li>Click on <strong>Create</strong>. Ops will notify you once the custom domain has been modified as requested<strong>.</strong>
+</li>
+<li>Once you have confirmation from Ops, proceed to the next step.</li>
+</ol>
+<p> </p>
+<h2>Step 3: Ask the Customer to Create an ALIAS Record</h2>
+<p>At this stage, you can notify the customer that they can now update their DNS to point the custom domain at <em>read.uberflip.com</em>, as per <a href="https://help.uberflip.com/hc/en-us/articles/360018786372" target="_self">the normal procedure</a>.</p>
+<p>However, there is one important difference: in the normal procedure, a customer would create a <strong>CNAME record</strong>. In this case, that is not possible, as you cannot create CNAME record for a naked domain (a domain without www or any other subdomain).</p>
+<p>Instead, <strong>advise the customer to create an</strong> <strong>ALIAS record</strong>. This is a newer type of DNS record that works like a CNAME record, but can be created for a naked domain. It is otherwise set up exactly the same way as a CNAME record.</p>
+<p>Once this is done, the customer can proceed with the normal subdomain setup procedure to complete the setup.</p>
+<p> </p>
+<h2>Additional Notes</h2>
+<p>There are two reasons why this modified process is necessary:</p>
+<ul>
+<li>All new Hub domains should have SSL, but you can only set up a custom domain with SSL by creating it within the customer's Hub interface. This interface requires a subdomain to successfully create a Hub. As a result, the custom domain must be set up with a subdomain, which we must then manually remove internally.</li>
+<li>The setup process used is the same as for a subdomain, which requires setting up a CNAME record with the customer's DNS provider. CNAME records can't coexist with any other type of records, so they can't be created for the root domain (as this would interfere with e.g. the A record for the domain). Instead, an alternative type of record (the ALIAS) record must be used.</li>
+</ul>]]></description>
+         <guid isPermaLink="false">360033565731</guid>
+         <pubDate>Mon, 09 Sep 2019 20:50:50 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: Redirect Hub Homepage Only</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360029164832-Internal-Redirect-Hub-Homepage-Only</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>Customer wants to have the base domain of Hub redirect somewhere, but all other pages served within Hub. This requires a redirect rule that applies to only the Hub Home.</p>
+<p> </p>
+<h2>Create Redirect Rule</h2>
+<ol>
+<li>Create a new Redirect Rule</li>
+<li>Set Source Path as <strong>Any</strong>, <strong>Matches Regular Expression</strong>
+</li>
+<li>For matching argument, enter: <code class="no-padding">\/$</code><br>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360030939352/mceclip0.png" alt="mceclip0.png" width="829" height="58"></p>
+</li>
+<li>Set destination to any location you want and save the rule.</li>
+</ol>
+<h2> </h2>]]></description>
+         <guid isPermaLink="false">360029164832</guid>
+         <pubDate>Thu, 13 Jun 2019 14:46:11 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: Pull query string values and push to hidden CTA fields</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360028875051-Internal-Pull-query-string-values-and-push-to-hidden-CTA-fields</link>
+         <description><![CDATA[<p> </p>
+<pre>&lt;script&gt;<br><br>// Set cookie with query string values -- UF<br>// This function is dependent on the jQuery cookie plugin included in hubs_lib.js<br>function setUtmCookies() {<br><br>//set vars for each query string variable to be captured from URL<br> var UFutmSource = getQueryStringVariable('utm_source');<br> var UFutmMedium = getQueryStringVariable('utm_medium');<br> <br>//If query string parameter exists, set cookie with that value and define expiry in days<br>//To set a session cookie only, use format  $.cookie('cookiename', queryStringVariable);<br>if (UFutmSource) {<br> $.cookie('UFutmSourceCookie', UFutmSource, {<br> expires: 30<br> });<br> }<br> <br> if (UFutmMedium) {<br> $.cookie('UFutmMediumCookie', UFutmMedium, {<br> expires: 30<br> });<br> } <br>}<br><br><br><br>// Push cookie values into hidden fields -- UF<br>function cookieToCta() {<br> if ($.cookie('UFutmSourceCookie')) {<br> //find the hidden input and set the value to the cookie value.<br> $('.preview-form-field[data-mapping="utm_source"]').val($.cookie('UFutmSourceCookie'));<br> }<br> <br> if ($.cookie('UFutmMediumCookie')) {<br> //find the hidden input and set the value to the cookie value.<br> $('.preview-form-field[data-mapping="utm_medium"]').val($.cookie('UFutmMediumCookie'));<br> }<br>}<br><br><br>// get query string variable values -- UF<br>function getQueryStringVariable(variable) {<br> var query = window.location.search.substring(1);<br> var vars = query.split("&amp;");<br> for (var i = 0; i &lt; vars.length; i++) {<br> var pair = vars[i].split("=");<br> if (pair[0] == variable) {<br> return pair[1];<br> }<br> }<br> return (false);<br>}<br><br>// Delete query string cookies upon form submission -- UF<br>function deleteUtmCookies() {<br> if ($.cookie('UFutmSourceCookie')) {<br> <br> <br> <br> $.cookie('UFutmSourceCookie', null, {<br> expires: -1<br> });<br> }<br> <br> if ($.cookie('UFutmMediumCookie')) {<br> <br> $.cookie('UFutmMediumCookie', null, {<br> expires: -1<br> });<br> }<br>}<br><br>//on load set cookies<br>//on activation of CTA get cookie values<br>//on form submit delete cookies<br>//UF<br>Hubs.Events.on('load', function(){<br> setUtmCookies();<br> }) <br>.on('ctaActivate', function(){<br> cookieToCta();<br> })<br>.on('ctaFormSubmitSuccess' , function(){<br> deleteUtmCookies();<br> }); <br>&lt;/script&gt;</pre>]]></description>
+         <guid isPermaLink="false">360028875051</guid>
+         <pubDate>Tue, 28 May 2019 20:01:08 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: Extract a list of Standalone Flipbook URLs</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360028436252-Internal-Extract-a-list-of-Standalone-Flipbook-URLs</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>Customers may ask for a list of all Flipbook IDs or URLs in their UF account for whatever reason.  One big reason is they are looking to CHURN, so be aware of that and follow up with CSM before you provide the 'export'</p>
+<p> </p>
+<h2>Use the Admin&gt;Flipbooks Page to get a list of all Customer Flipbooks</h2>
+<ol>
+<li>As an UF Admin, go to 'Flipbooks' Page</li>
+<li>Search for Company Name to arrive at a list of Flipbooks</li>
+<li>Set the view to the max of 100</li>
+<li>Copy the table and paste into a spreadsheet</li>
+<li>If more than one page you'll need to view each subsequent page, and copy and paste into the same spreadsheet</li>
+<li>This will give a list of all Flipbooks and their IDs, Folder name, Flipbook name, Pub and Created Dates, Owner and status.</li>
+<li>To get the list of the URLs, you'll need to use the  spreadsheets 'Concatenate' function to stitch:  "https://sub.company.com/i/" and the Flipbook ID together</li>
+</ol>
+<p> </p>
+<h2>Additional Notes</h2>
+<ul>
+<li>If Customer is a Master account you would need to search for each sub-account name in the Flipbooks page and do the steps above for each sub-account</li>
+<li>The Flipbook URLs provided via method above don't include the Flipbook Name URL slug on the extract.  More effort would be required to display that in the extract, in that you would need to concatenate the Flipbook Name on the end of the URL and swap special characters for hyphens. But because the non slug URLs ultimately end up on the slug appended URL, that may not be an issue depending on the customer requirements</li>
+</ul>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360028436252</guid>
+         <pubDate>Thu, 23 May 2019 15:55:10 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: Set Up an Oktopost Integration</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360026734392-Internal-Set-Up-an-Oktopost-Integration</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>Integrate with Oktopost to send data from Uberflip Form CTAs to Oktopost.</p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important Note</h4>
+<p>The conversion will not be sent to Oktopost unless navigating to the gated Uberflip item via the Oktopost tracker link (that redirects to the gated asset).</p>
+</div>
+<h2>Get Oktopost Tracking Code</h2>
+<p>Before you can integrate your Hub with Oktopost, you will need to get your tracking code from Oktopost. For instructions, see this article from Oktopost:</p>
+<p><a href="https://community.oktopost.com/knowledgebase/articles/347761-setting-up-conversion-tracking-and-lead-capture">Oktopost: Setting Up Conversion Tracking and Lead Capture</a></p>
+<p> </p>
+<h2>Create Custom Code Blocks for Oktopost</h2>
+<ol>
+<li>Navigate to your Hub's Custom Code section via the following link: <a href="https://app.uberflip.com/hubs/custom_code">https://app.uberflip.com/hubs/custom_code</a>
+</li>
+<li>Create a code block by clicking the "+Add Code" button<br> <img src="https://help.uberflip.com/hc/article_attachments/360026421631/mceclip0.png">
+</li>
+<li>Name code block "Oktopost Tracking Code"</li>
+<li>[if required] Add code block to a privacy group</li>
+<li>Switch to the "Code" tab</li>
+<li>Switch placement to "Head"</li>
+<li>Paste in the code supplied by Oktopost (with your unique identifier). It should look like the code below (make sure to use your own tracking code, not this example):<br>
+<pre>&lt;script&gt;<br>(function(a, b, c, d, e, m) {<br> a['OktopostTrackerObject'] = d;<br> a[d] = a[d] || function() {<br> (a[d].q = a[d].q || []).push(arguments);<br> };<br> e = b.createElement('script');<br> m = b.getElementsByTagName('script')[0];<br> e.async = 1;<br> e.src = ('https:' === document.location.protocol ? 'https://' : 'http://') + c;<br> m.parentNode.insertBefore(e, m);<br>})(window, document, 'static.oktopost.com/oktrk.js', '_oktrk');<br><br>_oktrk('create', '<span class="wysiwyg-color-red110"><strong>{UNIQUE-IDENTIFIER-HERE}</strong></span>');<br>&lt;/script&gt;</pre>
+</li>
+<li>Save code block</li>
+<li>Return to Custom Code section: <a href="https://app.uberflip.com/hubs/custom_code">https://app.uberflip.com/hubs/custom_code</a>
+</li>
+<li>Create a new code block</li>
+<li>Name code block "Oktopost Conversion Tracking Code"</li>
+<li>Switch to the "Code" tab</li>
+<li>Switch placement to "Body Bottom"</li>
+<li>Copy the code below and paste into code block:<br>
+<pre>&lt;script type="text/javascript"&gt;<br>(function($,Hubs, undefined){<br><br>Hubs.Events.on('ctaFormSubmitSuccess', function(ctaId, mappedData, ctaName) { <br>oktopostTracker(mappedData); <br>})<br><br>function oktopostTracker(mappedData){<br><br>_oktrk('send', {<br> tag: 'Uberflip',<br> firstName: mappedData['firstName'],<br> lastName: mappedData['lastName'],<br> email: mappedData['email'],<br> company: mappedData['company']<br> });<br>}<br>}(window.jQuery, window.Hubs));<br>&lt;/script&gt;</pre>
+</li>
+<li>Save code block</li>
+<li>Return to Custom Code section: <a href="https://app.uberflip.com/hubs/custom_code">https://app.uberflip.com/hubs/custom_code</a>
+</li>
+<li>Enable both code blocks by toggling them on<br> <img src="https://help.uberflip.com/hc/article_attachments/360026434352/mceclip1.png">
+</li>
+<li>The setup is complete, and Form CTA submissions will now be sent to Oktopost</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360026734392</guid>
+         <pubDate>Tue, 16 Apr 2019 15:17:20 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: Use Dubsplat to Identify Reverse Proxy Setup Issues</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360026110752-Internal-Use-Dubsplat-to-Identify-Reverse-Proxy-Setup-Issues</link>
+         <description><![CDATA[<hr>
+<p>If you are helping a customer to set up a Hub on a subdirectory ("Hubs on Dubs"), this guide describes how to troubleshoot the customer's reverse proxy setup by using the <strong>Dubsplat</strong> debugging tool.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>This document is<strong> for internal use only</strong>. Please do not share it with customers or anyone else outside of Uberflip.</li>
+<li>This guide is intended for Uberflippers who are helping a customer to set up a custom domain on a subdirectory. In most cases, this would be a <strong>CSM</strong>, an <strong>Onboarding Specialist</strong>, or a <strong>Solutions Engineer</strong>.</li>
+<li>This guide is intended to complement the <strong>Hubs on Subdirectories setup guide</strong>, which you can find <a href="https://help.uberflip.com/hc/en-us/articles/360019628712" target="_self">here</a>.</li>
+</ul>
+<p> </p>
+<h2>A Quick Dubsplat Primer</h2>
+<h3>What is Dubsplat?</h3>
+<p>Dubsplat is a debugging tool. It looks for common problems in Hubs that are served over a reverse proxy. Hubs that use a subdirectory custom domain (i.e. "Hubs on Dubs") must use a reverse proxy, so Dubsplat is primarily intended for this type of Hub. However, it will also work on Hubs that use a regular subdomain custom domain, or the default co-branded sub-domain.</p>
+<h3>How Does Dubsplat Work?</h3>
+<p>When a browser visits a Hub, it sends an HTTP request message to the Hub, and the Hub sends back a response message with the requested content. The main difference with a <em>Hubs on Dubs </em>Hub is that these messages need to pass through a proxy server that sits between the browser and the Hub.</p>
+<p>Ideally, we want the proxy to pass the messages between the browser and the Hub unchanged. Most <em>Hubs on Dubs</em> issues happen when the proxy makes changes to these messages, so Dubsplat works by identifying if (and how) this is happening.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360025852391/Custom_Domain__Hubs_on_Subdirectories_Explained___Uberflip_Help.png" alt="Custom_Domain__Hubs_on_Subdirectories_Explained___Uberflip_Help.png" width="698" height="198"></p>
+<p>Dubsplat compares the request and response messages before and after they pass through the proxy, looking for differences. It does this by first sending requests to the Hub and receiving the returning responses, just like a normal browser. This forms the baseline: Dubsplat now knows what both the original request messages and the response messages from the server looked like.</p>
+<p>To make a comparison, Dubsplat also needs to know what the server actually received, and what it sent back. To get this information, Dubsplat sends its requests to a special <em>@debugging</em> endpoint that exists in every Hub.</p>
+<p>Whenever the <em>@debugging</em> endpoint receives a request, it simply sends back a packet of data (a JSON object) that tells Dubsplat what the request message looked like when it arrived in the Hub, and what the Hub sent back in the response message:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360025852711/Mozilla_Firefox.png" alt="Mozilla_Firefox.png" width="554" height="446"></p>
+<p>Dubsplat now knows what it sent and what the Hub actually received; and what the Hub sent back and what Dubsplat actually received. If there are any discrepancies, we can assume that they were likely caused the reverse proxy, so Dubsplat flags them as potential issues with the way the reverse proxy is set up.</p>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>If you want, you can access the <em>@debugging</em> endpoint manually — it's always located in the root directory of a subdomain Hub, or the subdirectory of a Hubs on Dubs Hub:</p>
+<ul>
+<li><a href="https://hub.uberflip.com/@debugging"><span style="font-weight:400">https://hub.uberflip.com/@debugging</span></a></li>
+<li>
+<p><a href="https://www.uberflip.com/culture/@debugging"><span style="font-weight:400">https://www.uberflip.com/culture/@debugging</span></a></p>
+</li>
+</ul>
+<p>Requesting this endpoint in your browser will display the JSON object that it returns (Firefox will format this nicely; other browsers will just return the raw data). You can see what this looks like in the screenshot above.</p>
+<p>The same information is actually also included in Uberflip's error pages, such as our 404 page. The difference is that, on these pages, it's part of the HTML of the page, rather than a JSON object. This difference in format helps Dubsplat to figure out if a request is reaching Uberflip, but is being sent to an error page rather than an actual Hub.</p>
+</div>
+<h3>How Does Dubsplat Help to Identify Reverse Proxy Issues?</h3>
+<p>HTTP request and response messages mainly consist of a list of parameters (header fields) and values. When we talk about a reverse proxy changing these messages, this generally means that it is modifying a value, or simply deleting a parameter altogether.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360025847412/Untitled.png" alt="Untitled.png" width="702" height="146"></p>
+<p>If the reverse proxy is altering any parameter, there is usually a corresponding setting in the reverse proxy that controls this behaviour. Troubleshooting the reverse proxy configuration is therefore a matter of figuring out exactly what is being changed, then identifying the setting responsible and adjusting it.</p>
+<p>Dubsplat helps with this by flagging specific instances where parameters have been changed or are missing, with a particular focus on parameters that will either break Hub functionality or make the entire Hub inaccessible. Armed with this information, you can then help the customer identify the root cause (i.e. the corresponding setting), allowing them to make the necessary changes. As a bonus, Dubsplat is also able to flag miscellaneous configuration issues, such as problems with SSL or DNS.</p>
+<p> </p>
+<h2>Use Dubsplat to Troubleshoot a Hub</h2>
+<ul>
+<li>You can use Dubsplat with any Hub — all you need is the Hub's main URL.</li>
+<li>As noted above, Dubsplat is primarily intended for Hubs on subdirectory custom domains, and will be most useful when used with this type of Hub.</li>
+<li>While you can use Dubsplat at any time, it is mainly designed to test reverse proxy setups, so it is best used once the customer has fully set up their reverse proxy. The appropriate time to use this tool is indicated in the <a href="https://help.uberflip.com/hc/en-us/articles/360019628712">Hubs on Subdirectories setup guide</a>.</li>
+</ul>
+<h3>
+<strong>Step 1:</strong> Run a Test</h3>
+<ol>
+<li>To begin, open Dubsplat by visiting this URL: <a href="https://dubsplat.herokuapp.com/">https://dubsplat.herokuapp.com/</a>
+</li>
+<li>Enter the URL for the Hub you want to test into the<strong> URL field</strong>. This must be the URL for the homepage of the Hub, and must also include the protocol (http/https). For example:
+<ul>
+<li>
+<strong>Incorrect</strong>: www.customer.com/hub/</li>
+<li>
+<strong>Correct</strong>: <span class="wysiwyg-underline">https://</span>www.customer.com/hub/</li>
+</ul>
+</li>
+<li>Click the <strong>Test</strong> button to begin the test.</li>
+<li>Dubsplat will run the test, and will return a results page. This should only take a few seconds.</li>
+</ol>
+<h3>
+<strong>Step 2:</strong> Review Results &amp; Advise Customer</h3>
+<p>When the test has completed, Dubsplat will display the results page. This page will contain one or more messages, and each message corresponds to a specific issue that Dubsplat has identified. These messages point out problems which<strong> require action by the customer</strong> to resolve.</p>
+<p>There are four types of message:</p>
+<ul>
+<li>
+<strong>Success</strong>: This message will appear by itself, and indicates that Dubsplat did not find problems in any of the areas it is able to test. This means the reverse proxy is most likely set up correctly.</li>
+<li>
+<strong>Testing Failed</strong>: These messages will appear when Dubsplat was unable to connect, and therefore could not complete testing.</li>
+<li>
+<strong>Warning</strong>: These messages indicate that Dubsplat connected to the specified URL, but something went wrong and Dubsplat could not identify the exact problem.</li>
+<li>
+<strong>Error:</strong> Messages of this type signal that Dubsplat identified a specific problem with the reverse proxy setup (reverse proxy is making an unwanted change).</li>
+</ul>
+<p>Each message (except for the <strong>Success</strong> message) contains:</p>
+<ul>
+<li>A brief description of the problem that Dubsplat identified</li>
+<li>An explanation of what this means, including what Dubsplat tried to test, how it went wrong, and common reasons why this issue occurs</li>
+<li>Suggestions for how the customer can fix the problem</li>
+</ul>
+<p>Review the results, then <strong>advise the customer as needed</strong> on identified issues and possible fixes. Because there are many different types of reverse proxy software and we can't directly support them all, the solutions provided are mostly general. However, a representative on the customer side who is reasonably knowledgeable about their reverse proxy should be able to use these as a starting point for the specific steps they need to take.</p>
+<h3>
+<strong>Step 3:</strong> Repeat</h3>
+<p>Once the customer has made any needed changes, run the test on Dubsplat again. Continue to repeat this process until all issues have been resolved, and Dubsplat displays the <strong>Success</strong> message.</p>]]></description>
+         <guid isPermaLink="false">360026110752</guid>
+         <pubDate>Thu, 04 Apr 2019 16:00:55 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: Access Full RSS Feeds for Hubs and Streams</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360023905411-Internal-Access-Full-RSS-Feeds-for-Hubs-and-Streams</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>A customer wants to export content from Uberflip to another platform, and needs to access the unlimited RSS feed for their Hub (or individual Streams).</p>
+<p> </p>
+<h2>Prerequisite: Turn On the Unlimited RSS Feature</h2>
+<p>All Hubs and Streams have built-in RSS feed, but by default these are limited to 20 items. To export all content, you need to enable a beta feature that includes an unlimited number of items in the RSS feed.</p>
+<ol>
+<li>Log in to Uberflip Admin and open the customer's <strong>Account Overview</strong> page.</li>
+<li>Click on <strong>Edit</strong>:<br> <img src="https://help.uberflip.com/hc/article_attachments/360021450371/Account___Overview_-_Uberflip.png" alt="Account___Overview_-_Uberflip.png" width="527" height="200">
+</li>
+<li>Click on the <strong>Beta Features</strong> tab:<br> <img src="https://help.uberflip.com/hc/article_attachments/360021778691/Account___Edit_-_Uberflip_-__Private_Browsing_.png" alt="Account___Edit_-_Uberflip_-__Private_Browsing_.png" width="693" height="288">
+</li>
+<li>In the list, find the line for <strong>unlimited_rss</strong> and change the toggle switch next to it to the <strong>on (green)</strong> setting:<br> <img src="https://help.uberflip.com/hc/article_attachments/360021778731/Account___Edit_-_Uberflip_-__Private_Browsing_.png" alt="Account___Edit_-_Uberflip_-__Private_Browsing_.png" width="698" height="75">
+</li>
+<li>Unlimited RSS is now enabled for the account, and the customer will be able to access full RSS feeds for their Hubs and Streams.</li>
+</ol>
+<p> </p>
+<h2>Prerequisite: Ensure RSS Includes Full Item Contents</h2>
+<p>For the purpose of exporting content, you need to make sure that the Hub's RSS feeds include the full contents of Items, not just a summary.</p>
+<ol>
+<li>Log in to the customer's Hub backend (via Uberflip Admin) and select the Hub to be exported.</li>
+<li>In the sidebar menu, scroll down to <strong>Hub Options</strong> and click on it to expand.</li>
+<li>Click on <strong>Advanced</strong>.<br><img src="https://help.uberflip.com/hc/article_attachments/360025069911/Hubs___Options_-_Advanced_-_Uberflip.png" alt="Hubs___Options_-_Advanced_-_Uberflip.png">
+</li>
+<li>In the menu on the right, scroll down to the section <strong>RSS</strong>.</li>
+<li>If it is not already checked, check the box next to <strong>Show Full Blog Article content in RSS Feeds</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360025070031/Hubs___Options_-_Advanced_-_Uberflip.png" alt="Hubs___Options_-_Advanced_-_Uberflip.png" width="638" height="155">
+</li>
+<li>The change will save automatically, and the RSS feed will now include the full contents of Items.</li>
+</ol>
+<p> </p>
+<h2>Get the Full RSS Feed for a Hub</h2>
+<ol>
+<li>Log in to the customer's Hub backend (via Uberflip Admin) and select the Hub to be exported.</li>
+<li>In the top left corner, click on <strong>(RSS)</strong> next to the Hub favicon and name:
+<ul>
+<li>Make sure to click on <strong>(RSS)</strong>, not the domain of the Hub (which appears right next to it).<br> <img src="https://help.uberflip.com/hc/article_attachments/360021449811/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png">
+</li>
+</ul>
+</li>
+<li>The RSS feed for the Hub will open in a new tab, with a URL like this: <em>https://hub.uberflip.com/h/feed.rss</em>
+</li>
+<li>At the end of the URL, add: <strong>?allitems=1</strong>, e.g. <em>https://hub.uberflip.com/h/feed.rss</em>?<em>allitems=1</em>
+</li>
+<li>This URL represents the RSS feed for the entire Hub, which can be used to import Hub content into another platform. <strong>Copy this URL</strong> and provide it to the customer.</li>
+</ol>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>If the <strong>Replace Home Page with a Marketing Stream </strong>setting (Under <strong>Hub Options &gt; Advanced)</strong> is being used, the Hub's RSS feed will include only Items that are in the selected Marketing Stream and are not hidden.</p>
+<p>To get a Hub-level RSS feed that contains Items across all Streams, change this setting back to <strong>Latest Content</strong> (note that this will still only include non-hidden Items). Alternatively, use Stream-level RSS feeds <a href="#h_c9c8496b-d20a-4605-8231-9e79a2f16635" target="_self">as described below</a>.</p>
+</div>
+<p> </p>
+<h2 id="h_c9c8496b-d20a-4605-8231-9e79a2f16635">Get the Full RSS Feed for a Stream</h2>
+<ol>
+<li>Log in to the customer's Hub backend (via Uberflip Admin) and navigate to the Hub that contains the Stream to be exported.</li>
+<li>Open the Stream to be exported. In the top right corner, click on <strong>RSS</strong>:<br> <img src="https://help.uberflip.com/hc/article_attachments/360021450151/Hubs___Manage_-_Uberflip_-__Private_Browsing_.png" alt="Hubs___Manage_-_Uberflip_-__Private_Browsing_.png" width="701" height="322">
+</li>
+<li>The RSS feed for the Stream will open in a new tab, with a URL like this: <em>https://hub.uberflip.com/streamname.rss</em>
+</li>
+<li>At the end of the URL, add: <strong>?allitems=1</strong>, e.g. <em>https://hub.uberflip.com/streamname.rss</em>?<em>allitems=1</em>
+</li>
+<li>This URL represents the RSS feed for the entire Stream, which can be used to import all content from this specific Stream into another platform. <strong>Copy this URL</strong> and provide it to the customer.</li>
+</ol>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360023905411</guid>
+         <pubDate>Fri, 15 Feb 2019 22:13:13 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: Hubs on Subdirectories (&quot;Hubs on Dubs&quot;) Setup Guide</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360019628712-Internal-Hubs-on-Subdirectories-Hubs-on-Dubs-Setup-Guide</link>
+         <description><![CDATA[<hr>
+<p>If you are helping a customer to set up a Hub on a subdirectory (aka "Hubs on Dubs"), here are the steps you need to complete on the Uberflip side.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>This document is<strong> for internal use only</strong>. Please do not share it with customers or anyone else outside of Uberflip.</li>
+<li>This guide is intended for Uberflippers who are helping a customer to set up a custom domain on a subdirectory. In most cases, this would be a <strong>CSM</strong>, an <strong>Onboarding Specialist</strong>, or a <strong>Solutions Engineer</strong>.</li>
+</ul>
+<p> </p>
+<h2>About This Guide</h2>
+<p>If a customer wants to host their Hub on a subdirectory of their main website domain (such as <em>www.customer.com/hub/</em>), we have to perform some internal setup to help them do that.</p>
+<p>This guide describes the necessary steps. It's designed to be used together with a number of customer-facing articles which cover the same topic from the customer's perspective. These are:</p>
+<ul>
+<li>
+<a href="https://help.uberflip.com/hc/en-us/articles/360018964792">Custom Domain: Hubs on Subdirectories Explained</a>
+<ul>
+<li>A primer on custom domains using subdirectories that describes how they are implemented, and explains the relevant concepts and terms.</li>
+</ul>
+</li>
+<li>
+<a href="https://help.uberflip.com/hc/en-us/articles/360019755751" target="_self">Custom Domain: Set up Your Hub on a Subdirectory</a>
+<ul>
+<li>A guide that runs through the process of setting up a Hub on a subdirectory from start to finish (from the customer's side).</li>
+</ul>
+</li>
+<li>
+<a href="https://help.uberflip.com/hc/en-us/articles/360019729931">Custom Domain: Configure Your Reverse Proxy for an Uberflip Hub</a>
+<ul>
+<li>A guide for web admins to help them configure their reverse proxy of choice to enable hosting a Hub on a subdirectory.</li>
+</ul>
+</li>
+</ul>
+<p><strong>In this guide, we will only be looking at the internal setup steps</strong> <strong>for Hubs on Dubs</strong>. Anything that's already covered in one of the articles above won't be covered again in this guide, so we strongly recommend you read them before you proceed.</p>
+<p> </p>
+<h2 id="h_723185191101542387440704">Set Up a Hub on a Subdirectory</h2>
+<p>Use these instructions to help get a customer set up with Hubs on Dubs. The instructions are the same for both new (pre-production) and live (production) Hubs.</p>
+<p>These instructions are designed to complement the customer-facing instructions in the following article, so you should read it before proceeding:</p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360019755751" target="_self">Custom Domain: Set up Your Hub on a Subdirectory</a></li>
+</ul>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>A note on the instructions below:</p>
+<ul>
+<li>
+<em>Customer Step </em>tells you which step in the customer-facing guide the instructions correspond to.</li>
+<li>
+<em>Trigger Action</em> lets you know when to start working on the step.</li>
+</ul>
+</div>
+<p> </p>
+<h3>Step 1: Discuss Hubs on Dubs and Technical Requirements</h3>
+<p><strong>Customer Step:<br></strong></p>
+<p><em>Step 1: Contact Us</em></p>
+<p><strong>Trigger Action: </strong></p>
+<p>The customer should get in touch with you before they get started with Hubs on Dubs, as indicated in their setup guide.</p>
+<p><strong>Your Steps:</strong></p>
+<ol>
+<li>Encourage the customer to read this article for background on the process:
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360018964792">Custom Domains on Subdirectories Explained</a></li>
+</ul>
+</li>
+<li>Make sure the customer either:
+<ul>
+<li>Meets the technical requirements for Hubs on Dubs, or</li>
+<li>At least understands the requirements and can take action to meet them
+<ul>
+<li>The requirements are outlined in <a href="https://help.uberflip.com/hc/en-us/articles/360019755751">this article</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Once the customer is ready to proceed, ask them to create the subdirectory that they want to use for their Hub on their website.</li>
+</ol>
+<p> </p>
+<h3>Step 2: Create a Custom Domain</h3>
+<p><strong>Customer Step:</strong></p>
+<p><em>Step 3: Hand off to Uberflip to Create and Link the Custom Domain</em></p>
+<p><strong>Trigger Action:</strong></p>
+<p>The customer will contact you when they have set up their subdirectory.</p>
+<p><strong>Your Steps:</strong></p>
+<ol>
+<li>Check that the customer has provided you with the following info:<br>
+<ul>
+<li>The subdirectory URL they want to use (e.g. <em>www.company.com/hub/</em>)</li>
+<li>Whether the domain uses HTTPS (SSL/TLS)
+<ul>
+<li>The customer does <strong>not</strong> need to provide an SSL certificate</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Add a new domain to the customer's account using the <em>Domains</em> tab on the internal Admin backend (<em>Domains &gt; Add subdirectory domain</em>).<br>
+<ul>
+<li>Include the full URL when creating the domain, including the subdirectory (e.g. <em>http://www.company.com/hub/</em>)</li>
+<li>If the customer's main website URL does <strong>not</strong> use <em>www</em>, you must still <strong>include it when you create the domain</strong>, as the tool will not accept domains without it: in this case, you must subsequently <strong>open an OPS ticket to remove the <em>www</em> </strong>from the domain</li>
+<li>Always create the domain with HTTP, <strong>even if the customer wants HTTPS</strong> (this will be changed later)</li>
+</ul>
+</li>
+<li>Create an OPS/Infrastructure ticket in Jira to <strong>enable HTTPS/SSL </strong> on the new domain, and to <strong>add it as a secondary domain to the customer's Hub</strong>
+<ul>
+<li>Use this ticket as a template (clone to create a new ticket): <a href="https://uberflip.atlassian.net/browse/OPS-11525"><span style="font-weight: 400;">https://uberflip.atlassian.net/browse/OPS-11525</span></a>
+<ul>
+<li>Substitute your customer's Domain ID (see <em><span style="font-weight: 400;">Settings &gt; Services &gt; Domains</span></em>), URL and Hub IDs</li>
+<li>Leave the Status as <em>New</em>
+</li>
+<li>Leave Assignee as <em>Unassigned</em>
+</li>
+<li>For Requester set your own name</li>
+</ul>
+</li>
+<li>Adding the domain as a secondary domain makes the Hub accessible on that domain for testing, while the Hub also remains accessible via the primary domain (co-branded subdomain)</li>
+<li>Requesting HTTPS in the ticket is only necessary if the customer's main website uses HTTPS, otherwise leave it out</li>
+</ul>
+</li>
+</ol>
+<p> </p>
+<h3>Step 3: Test the New Custom Domain</h3>
+<p><strong>Customer Step:</strong></p>
+<p><em>Step 3: Hand off to Uberflip to Create and Link the Custom Domain</em></p>
+<p><strong>Trigger Action:</strong></p>
+<p>When OPS/Infrastructure has notified you that the domain has been added as a secondary domain (and switched to HTTPS if applicable).</p>
+<p><strong>Your Steps:</strong></p>
+<ol>
+<li>In any browser, go to <em><a href="https://hosts.cx/">https://hosts.cx/</a></em>
+</li>
+<li>In the field <strong>Server address</strong>, enter: <span style="font-weight: 400;">96.45.200.172</span><br>
+<ul>
+<li>This is the IP for <em>read.uberflip.com</em>
+</li>
+</ul>
+</li>
+<li>In the field <strong>Website name</strong>, enter the customer's custom domain URL (subdirectory)</li>
+<li>Check the "I'm not a robot" box, then click on <strong>Get My Testing URL</strong>:<strong><br><br><img src="https://help.uberflip.com/hc/article_attachments/360015538872/hosts_cx__the_website_previewer.png" alt="hosts_cx__the_website_previewer.png" width="702" height="170"><br></strong>
+</li>
+<li>On the next page, click on the link:<br> <br> <img src="https://help.uberflip.com/hc/article_attachments/360015538952/hosts_cx__the_website_test_URL_provider.png" alt="hosts_cx__the_website_test_URL_provider.png" width="702" height="207">
+</li>
+<li>Observe what happens after you click on the link:<br>
+<ul>
+<li>
+<strong>Pass: </strong>The test Hub appears. Proceed to the next step.</li>
+<li>
+<strong>Fail: </strong>The Hub does not appear. Work with Infrastucture Team to troubleshoot the problem and try again.</li>
+</ul>
+</li>
+<li>Once this test passes, let the customer know that their custom domain is set up and linked to their Hub, and that they can now configure their reverse proxy.</li>
+</ol>
+<p> </p>
+<h3>Step 4: Help the Customer Configure Their Reverse Proxy</h3>
+<p><strong>Customer Step:</strong></p>
+<p><em>Step 4: Configure Your Reverse Proxy</em></p>
+<p><strong>Trigger Action:</strong></p>
+<p>When the customer is ready to configure their reverse proxy.</p>
+<p><strong>Your Steps:</strong></p>
+<ol>
+<li>Ask the customer to have their web admin set up their reverse proxy using this guide:<br>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360019729931">Configure Your Reverse Proxy for an Uberflip Hub</a></li>
+</ul>
+</li>
+<li>Assist the customer with any setup questions they might have. Use these resources:
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360018964792">Custom Domains on Subdirectories Explained</a></li>
+<li>
+<strong>#hubs-on-wwws</strong> on Slack</li>
+</ul>
+</li>
+</ol>
+<p> </p>
+<h3>Step 5: Test the Customer's Reverse Proxy Setup</h3>
+<p><strong>Customer Step:</strong></p>
+<p><em>Step 5: Test the Reverse Proxy Setup<br></em></p>
+<p><strong>Trigger Action:</strong></p>
+<p>The customer will notify you when they have finished configuring their reverse proxy.</p>
+<p><strong>Your Steps:</strong></p>
+<ol>
+<li>Open <a href="https://dubsplat.herokuapp.com/" target="_self"><strong>Dubsplat</strong></a>, our internal Hubs on Dubs troubleshooting tool — you can find documentation on Dubsplat and how to use it in <a href="https://help.uberflip.com/hc/en-us/articles/360026110752">this article</a>. To run a test, enter the customer's Hub URL (the subdirectory custom domain) and click on <strong>Test</strong>:
+<ul>
+<li>
+<strong>Pass: </strong>Dubsplat reports no failures. Proceed to the next step.</li>
+<li>
+<strong>Fail: </strong>One or more Dubsplat tests fail. Use the failure information to troubleshoot the reverse proxy setup with the customer.</li>
+</ul>
+</li>
+<li>Once all the Dubsplat tests pass, open the customer's Hub in Chrome and open Chrome DevTools (<em>Chrome Options &gt; More Tools &gt; Developer Tools</em>). Navigate the Hub, and use DevTools to observe what happens:
+<ul>
+<li>
+<strong>Pass: </strong>No script or network errors. Proceed to the next step.</li>
+<li>
+<strong>Fail: </strong>Script or network errors are present. Work with the customer/Infrastucture Team to troubleshoot.</li>
+<li>If you don't know how to use Chrome DevTools, refer to <a href="https://developers.google.com/web/tools/chrome-devtools/">this guide</a>.</li>
+</ul>
+</li>
+<li>Interact with any Form CTAs and observe the results in DevTools:
+<ul>
+<li>
+<strong>Pass: </strong>POST requests are passed correctly by the proxy. Proceed to next step.</li>
+<li>
+<strong>Fail:</strong> POST requests throw an error. Work with the customer/Infrastucture Team to troubleshoot.</li>
+<li>
+<a href="https://datawookie.netlify.com/blog/2016/09/view-post-data-using-chrome-developer-tools/">This article</a> has more info about what you are looking for with this test.</li>
+</ul>
+</li>
+<li>When all tests pass, proceed to the next step.</li>
+</ol>
+<p> </p>
+<h3>Step 6: Client Checklist (Prior to Cutover)</h3>
+<ol>
+<li>Generate Hub Export and check for "Canonical URLs” (referencing old domain) to see if we can supply a list of items that require updating by client</li>
+<li>[Once new domain is live] Submit new Sitemap location for the hub: <a href="https://{new-domain}/sitemap_index.xml">https://{new-domain}/sitemap_index.xml</a> </li>
+<li>Update any Uberflip redirect rules (referencing old domain) to the new subdirectory location</li>
+<li>Any direct references to the (soon-to-be) old domain in MAP, Google Analytics, Google Tag Manager or any other platform (filters, variables, triggers, etc.) should be updated</li>
+<li>Uberflip's Site Engager, iFrame Embed, or Embed Stream Tiles on any external sites, you will need to regenerate/update this code once the official hub domain switches over</li>
+<li>SSL and 301 redirects will be automatically applied when we officially switch over to the new subdirectory location (no action required)</li>
+<li>Update any references to the the old domain in the header/footer. If the header/footer is in the exposed code blocks, this can be done by client; otherwise, an OB ticket will be required. Auto-301 redirects will allow the header/footer to still go to the proper location in the interim.</li>
+<li>Keep the old subdomain live and unchanged (keep pointing the CNAME to <a href="http://read.uberflip.com/">read.uberflip.com</a> as it currently is). This will ensure that Uberflip can properly redirect all items to the new subdirectory without issue.</li>
+<li>
+<div>Any server-side redirects that client might have set up on their end (if applicable) should be updated</div>
+</li>
+<li>
+<div>If using a subdomain as the Flipbooks domain, you can either keep it as-is (and never retire the subdomain path) or this will also need to be updated. <span class="wysiwyg-color-red130"><strong>PLEASE NOTE</strong></span>: Direct-to-Flipbook URLs will not be redirected by default. </div>
+</li>
+</ol>
+<p> </p>
+<h3>Step 7: Schedule and Perform the Cutover</h3>
+<p><strong>Customer Step:</strong></p>
+<p><em>Step 6: Switch Over to the New Custom Domain<br></em></p>
+<p><strong>Trigger Action:</strong></p>
+<p>When you have confirmed that the reverse proxy has been set up correctly and is working as expected with the secondary domain.</p>
+<p><strong>Your Steps:</strong></p>
+<ol>
+<li>Notify the customer that testing is complete, and that we can do the cutover to their live Hub when they are ready. Work with the customer to schedule and plan the cutover.</li>
+<li>When the customer is ready to proceed, open a ticket in Jira with OPS/Infrastructure to remove the custom domain as a secondary domain.
+<ul>
+<li>Use this ticket as a template (clone to create a new ticket): <a href="https://uberflip.atlassian.net/browse/OPS-11529" target="_self">https://uberflip.atlassian.net/browse/OPS-11529</a>
+</li>
+<li>Substitute your customer's Domain ID (see <em><span style="font-weight: 400;">Settings &gt; Services &gt; Domains</span></em>) and URL</li>
+<li>Indicate the go-live date</li>
+<li>Leave the Status as <em>New</em>
+</li>
+<li>Leave Assignee as <em>Unassigned</em>
+</li>
+<li>For Requester set your own name</li>
+</ul>
+</li>
+<li>Once OPS/Infrastructure has notified you that they have completed the ticket, set the custom domain as the primary domain (<em>Hub &gt; Hub Options &gt; Change Hub Domain</em>).</li>
+<li>Next, go to <em>Account Settings &gt; Services &gt; Domains.</em>
+</li>
+<li>On the old domain, click on <strong>Configure</strong> and set up a redirect to the new domain:
+<ul>
+<li>Under the <strong>Select your preferred behavior </strong>dropdown, choose <strong>Redirect to custom URL prefix</strong>
+</li>
+<li>Under <strong>Specify a custom URL prefix</strong>, enter the new domain, including the subdirectory, e.g. <em><a href="http://www.customer.com/hub/">https://www.customer.com/hub/</a></em>
+</li>
+</ul>
+</li>
+<li>Work with OPS/Infrastructure to ensure any canonical URLs stored in the database are updated to the new domain.</li>
+<li>Finally, open your browser and go to the customer's custom domain to test that the Hub is now loading on the new custom domain.</li>
+<li>Notify the customer that their Hub has been successfully set up on the new custom domain!</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360019628712</guid>
+         <pubDate>Thu, 15 Nov 2018 23:08:19 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

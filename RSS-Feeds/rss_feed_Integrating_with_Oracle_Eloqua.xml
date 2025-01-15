@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Integrating with Oracle Eloqua</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Uberflip&apos;s Oracle Eloqua Integration Explained</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360022335991-Uberflip-s-Oracle-Eloqua-Integration-Explained</link>
+         <description><![CDATA[<hr>
+<p>Learn what Uberflip's integration with Oracle Eloqua can do, and how it works.</p>
+<hr>
+<p> </p>
+<h2>What This Article is About</h2>
+<p>Uberflip integrates with all the major Marketing Automation Platforms (MAPs), and most of these integrations are fairly straightforward to set up and use. However, the Oracle Eloqua integration is comparatively complex, and the mechanics of how it handles data can be a little difficult to understand at first.</p>
+<p>In this article, we'll take a detailed look at the Eloqua integration and explain how it works: both what kind of data Uberflip passes to Eloqua, and how Eloqua works with the data it receives. As part of that, we'll also explore the various options you can configure when setting up an Eloqua integration, and explain what each option does.</p>
+<p>Note that this article does not describe <em>how</em> to set up the integration. For setup instructions, see <a href="https://help.uberflip.com/hc/en-us/articles/360022207231">this article</a>.</p>
+<p> </p>
+<h2>What the Integration Does</h2>
+<p>When visitors interact with an Uberflip Hub, they generate all kinds of <strong>lead data</strong>, both actively (e.g. by submitting Form CTAs) and passively (e.g. which articles they view). As a marketing automation platform (MAP), Eloqua's purpose is to capture exactly this kind of data so that you can act on it. The integration between your Hub and Eloqua makes this possible by letting the two systems to talk to one another, allowing Uberflip to stream that valuable data into your Eloqua database.</p>
+<p>We can divide the kinds of lead data that Uberflip passes to Eloqua into two types: data that is captured using a form, and data that is generated or captured by other means.</p>
+<h3 id="h_533212418741548696666358">Form Data</h3>
+<p>The main way that your Hub generates lead data is through <a href="https://help.uberflip.com/hc/en-us/articles/360020989871"><strong>Form CTAs</strong></a>. When a visitor submits a Form CTA that is connected to Eloqua, any information they entered into the Form CTA fields (basic information like email, name, etc.) is passed to Eloqua. </p>
+<p>Uberflip also captures data on the form which is not directly entered by the lead. This kind of form data is automatically entered into hidden fields, and includes:</p>
+<ul>
+<li>
+<strong>Lead Source — Original</strong>: The name of the first Form CTA that the visitor submitted on the Hub.</li>
+<li>
+<strong>Lead Source — Most Recent: </strong>Separately, the name of the lead's most recently submitted CTA.</li>
+<li>
+<strong>Conversion Item:</strong> The name and ID of the Item on which the submitted Form CTA was placed (if applicable, i.e. if the Form CTA was placed on/beside an Item).</li>
+<li>
+<strong>Last Viewed Item</strong>: The ID of the Item that lead last viewed on your Hub.</li>
+</ul>
+<p>Uberflip will always pass form data to Eloqua. This includes hidden field data, <a href="#h_511540372571548454082950">unless disabled in the integration options</a>. Note that some hidden field data requires custom fields to be set up in Eloqua to actually be recorded — if the integration is configured to pass this data, Uberflip will do so even if the corresponding fields in Eloqua do not exist.</p>
+<h3>Non-Form Data</h3>
+<p>Separate from the data collected through a Form CTA, Uberflip can also pass over various types of "non-form" data. This is simply data relating to the lead that is not part of the form proper, and mainly consists of engagement data about the lead's activity in the Hub. Whether or not this data is passed to Eloqua is controlled by <a href="#h_511540372571548454082950">the various options</a> that can be configured for the integration.</p>
+<p>Whenever a lead submits a Form CTA, you can configure the integration to also pass over the following kinds of non-form data:</p>
+<ul>
+<li>A record of specific Hub Items viewed (Items only, not Hubs or Streams)</li>
+<li>Counts of content viewed (e.g. number of articles/videos/tweets etc. viewed)</li>
+<li>Flipbook page view counts</li>
+</ul>
+<p>Uberflip will also pass this data to Eloqua for Hub visitors who do <strong>not</strong> submit a Form CTA. This only happens if the visitor was already known to Eloqua, which means that they already existed as a contact in your Eloqua instance and had an Eloqua cookie when entering the Hub. Uberflip will not pass over any data for unknown visitors, i.e. those who did not submit a Form CTA and could not be matched based on a cookie.</p>
+<p>Although separate from the data passed by Uberflip, it's worth noting that Eloqua will also track web visits via its tracking script, which includes URLs of pages within your Hub.</p>
+<p> </p>
+<h2>How Eloqua Handles Uberflip Data</h2>
+<h3>Form Data</h3>
+<p>Form CTAs connected to Eloqua must be associated with an <strong>Eloqua Form</strong>. The Form CTA automatically adopts the fields of the Eloqua Form, and the two forms map to each other one-to-one. When a visitor submits the Form CTA, the information they entered is submitted into the connected Eloqua Form as well.</p>
+<p>Because Form CTAs leverage Eloqua Forms, this allows you to use Eloqua Form Processing to trigger automated actions in Eloqua whenever a Form CTA is submitted. The most important such action is to create or update contact records with the data submitted from the Form CTA (i.e. <em>Form CTA &gt; Eloqua Form &gt; Contact Record</em>). For instructions on how to set this up, see <a href="https://help.uberflip.com/hc/en-us/articles/360021209251">this article</a>.</p>
+<p>On top of creating/updating contact records, you can also set up any other processing steps you like. However, note that you can<strong> not</strong> add a processing step that redirects to a website: Form CTAs are not able to redirect to a website, so using this kind of processing step will cause the Form CTA submission to fail.</p>
+<h3 id="h_6325108542161548698343088">Non-Form Data (CDO)</h3>
+<p>As it is not captured as part of the Eloqua Form, some of the non-form data passed by Uberflip is recorded in Eloqua using a <em>Custom Data Object</em> (CDO). Data recorded in the CDO is automatically linked to contact records by matching the email address.</p>
+<p>This CDO will track values for the following attributes:</p>
+<ul>
+<li>
+<strong>ID</strong>: A unique ID assigned to the lead</li>
+<li>
+<strong>Email</strong>: The visitor's email, used for linking to existing Eloqua contacts</li>
+<li>
+<strong>Tweets Viewed</strong>: The number of tweets viewed by the lead</li>
+<li>
+<strong>Articles Viewed</strong>: The number of articles viewed by the lead</li>
+<li>
+<strong>Posts Viewed</strong>: The number of blog posts viewed by the lead</li>
+<li>
+<strong>Videos Viewed</strong>: The number of videos viewed by the lead</li>
+<li>
+<strong>Flipbooks Viewed</strong>: The number of Flipbooks viewed by the lead</li>
+<li>
+<strong>Presentations Viewed</strong>: The number of slide decks viewed by the lead</li>
+</ul>
+<p>You can view these values by running a report on the Custom Data Object in Eloqua. For more information, see <a href="https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/Help/CustomObjects/Tasks/ViewingCustomObjectRecordReports.htm">this article from Eloqua</a>.</p>
+<h3>Non-Form Data (External Activity)</h3>
+<p>The rest of the non-form data is captured using Eloqua <em>External Activities</em>. Specifically, External Activities are used to record which Items were viewed by a lead within your Hub, allowing you to easily reference which content a lead interacted with.</p>
+<p>External Activities are tied into campaigns in Eloqua, so you can use this data for segmentation and lead scoring, and to trigger Campaign Response Rules for automation. They can also be viewed in Eloqua Profiler, which makes this useful data accessible to Sales staff.</p>
+<p>Each Item a lead views is recorded as a separate External Activity. The following types of External Activities will be recorded:</p>
+<ul>
+<li>Read Article</li>
+<li>Read Flipbook</li>
+<li>Viewed Post</li>
+<li>Viewed Presentation</li>
+<li>Viewed Tweet</li>
+<li>Watched Video</li>
+</ul>
+<p> </p>
+<h2 id="h_511540372571548454082950">Eloqua Integration Options</h2>
+<p>When you set up an Eloqua integration, you are presented with a variety of options via the <strong>Edit</strong> and <strong>Fields</strong> menus. Generally, these options map to the various kinds of data that we looked at above, and allow you to control whether — and, in some cases, how — that data is sent to Eloqua.</p>
+<p>Below, you can find descriptions of what each item does, i.e. what kind of data it controls. You can also find specific instructions on how to configure each option in <a href="https://help.uberflip.com/hc/en-us/articles/360022207231">this article</a>.</p>
+<h3>Fields Menu &gt; Custom Fields</h3>
+<p>In the <strong>Fields</strong> menu of the integration, you can choose to add several fields marked as <em>Optional</em>:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360019418951/Hubs___Integrations_-_Uberflip.png" alt="Hubs___Integrations_-_Uberflip.png" width="562" height="358"></p>
+<p>These fields capture <strong>Conversion Item</strong> and <strong>Last Viewed Item</strong> details (<a href="#h_533212418741548696666358">see above</a>). Uberflip will send this data to Eloqua by default, but the fields necessary to capture it do not exist by default. If you choose to create these fields, you will be able to add them to any Eloqua Form that you want to attach to a Form CTA. This in turn will allow you to capture the corresponding data each time a Form CTA is submitted.</p>
+<h3>Edit Menu &gt; Set Lead Sources</h3>
+<p>By default, Uberflip will write its own values to the default <strong>Lead Source — Original</strong> and <strong>Lead Source — Most Recent</strong> fields on an Eloqua Form. In some cases, you may prefer to populate these form fields with your own values: if so, this option lets you prevent Uberflip from writing to these fields.</p>
+<h3>Edit Menu &gt; Enable First Party Cookies</h3>
+<p>This is the sole option not related to the kind of data Uberflip passes to Eloqua. Instead, it allows you to configure an Eloqua option to use first-party cookies rather than the default third-party cookies. Enabling this option can enhance visitor tracking, as third-party cookies are now commonly blocked by default browser settings.</p>
+<p>To enable this option, you must enter your Eloqua tracking domain.</p>
+<h3 id="h_2273258391851548697986704">Edit Menu &gt; Create External Activities</h3>
+<p>If you enable this option, Uberflip will create External Activities to track lead engagement with specific Items (<a href="#h_2273258391851548697986704">see above</a>).</p>
+<p>External Activities are associated with campaigns, so to enable this option, you must specify a default campaign ID to be used. This campaign ID will be associated with all External Activities unless overridden.</p>
+<p>If you enable this option, you will also be able to associate specific campaign IDs with individual Streams in your Hub. If an External Activity is created for Item, and that Item is in a Stream with its own campaign ID, the Stream's campaign ID will be used instead of the default campaign ID.</p>
+<h3>Edit Menu &gt; Flipbook Tracking &amp; Content Counters</h3>
+<p>These related options control the non-form data captured in the CDO, i.e. the counters of various types of content seen by a lead (<a href="#h_6325108542161548698343088">see above</a>). Enabling or disabling these options determines whether or not data is written to the CDO.</p>
+<p> </p>
+<h2>What's Next?</h2>
+<p>Now that you have an understanding of how Uberflip's integration with Oracle Eloqua works, see <a href="https://help.uberflip.com/hc/en-us/articles/360022207231">this article</a> for detailed instructions on how to set it up in your Hub.</p>]]></description>
+         <guid isPermaLink="false">360022335991</guid>
+         <pubDate>Wed, 23 Jan 2019 18:00:01 GMT</pubDate>
+      </item>
+      <item>
+         <title>Get an Oracle Eloqua Data Lookup Key</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360022023072-Get-an-Oracle-Eloqua-Data-Lookup-Key</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>To <a href="https://help.uberflip.com/hc/en-us/articles/360022207231">set up an Oracle Eloqua integration</a>, you need to enter a <strong>Data Lookup Key</strong>. In this article, we explain how to get a Data Lookup Key by creating a Web Data Lookup in Oracle Eloqua.</p>
+<p> </p>
+<h2>Create a Web Data Lookup in Oracle Eloqua</h2>
+<ol>
+<li>Log in to Oracle Eloqua.</li>
+<li>Click on <strong>Assets </strong>(<img class="icon_Inline_XSmall_NoAction" src="https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/Resources/Images/1CommonImages/AssetsButton.png" alt="An image of the Assets icon, which is represented by a black pencil.">) <strong>&gt;</strong> <strong>Website Setup &gt; Web Data Lookup</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360019068811/Fullscreen_2019-01-21__12_25_PM.png" alt="Fullscreen_2019-01-21__12_25_PM.png" width="275" height="328">
+</li>
+<li>Click on <strong>Data Lookup &gt; New Data Lookup</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360019069231/Fullscreen_2019-01-21__12_28_PM.png" alt="Fullscreen_2019-01-21__12_28_PM.png">
+</li>
+<li>The <strong>New Data Lookup </strong>form will appear. First, <strong>type in a name</strong> of your choice.</li>
+<li>Under <strong>Data Lookup Type</strong>, select <strong>Visitors</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360019069351/Fullscreen_2019-01-21__12_36_PM.png" alt="Fullscreen_2019-01-21__12_36_PM.png" width="342" height="245">
+</li>
+<li>Next to <strong>Data Fields Returned</strong>, click on <strong>New</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360019206772/Fullscreen_2019-01-21__12_37_PM.png" alt="Fullscreen_2019-01-21__12_37_PM.png">
+</li>
+<li>The <strong>New Profile View </strong>form will appear in a new window.</li>
+<li>Under <strong>Profile View Display Name</strong>, type in a name of your choice.</li>
+<li>Under <strong>Section Headings</strong>, type a heading name of your choice into the <strong>Heading Name</strong> field, then click on <strong>Add Header</strong> to add it to the profile view:<br><img src="https://help.uberflip.com/hc/article_attachments/360019069771/Fullscreen_2019-01-21__12_41_PM.png" alt="Fullscreen_2019-01-21__12_41_PM.png" width="622" height="110">
+</li>
+<li>Under <strong>Profile Fields</strong>, use the <strong>Field</strong> dropdown to select <strong>Email Address</strong>. Click on <strong>Add Field</strong> to add it to the profile view:<br><img src="https://help.uberflip.com/hc/article_attachments/360019207252/Fullscreen_2019-01-21__12_43_PM.png" alt="Fullscreen_2019-01-21__12_43_PM.png" width="603" height="219">
+</li>
+<li>Click <strong>Save and Close</strong>.</li>
+<li>You'll be returned to the <strong>New Data Lookup</strong> page. In the bottom right corner of the page, click on <strong>Save</strong>.</li>
+<li>The page will refresh, and will now be titled <strong>Data Lookup Details</strong>. Under the section <strong>Data Lookup Information</strong>, you should now see an entry for <strong>Data Lookup Key. </strong>The value you see beside it is your <strong>Data Lookup Key:<br></strong><img src="https://help.uberflip.com/hc/article_attachments/360019071691/Fullscreen_2019-01-21__12_49_PM.png" alt="Fullscreen_2019-01-21__12_49_PM.png">
+</li>
+<li>
+<strong>Copy the Data Lookup Key</strong>, so that you can use it to set up your Oracle Eloqua integration in Uberflip.</li>
+</ol>
+<p> </p>
+<h2>Additional Notes</h2>
+<p>In <strong>Step 10</strong> above, only one header containing the <strong>Email Address</strong> field is needed for the Uberflip integration. If you want to use more fields, you can add as many headers/fields as you like.</p>]]></description>
+         <guid isPermaLink="false">360022023072</guid>
+         <pubDate>Mon, 21 Jan 2019 17:24:42 GMT</pubDate>
+      </item>
+      <item>
+         <title>Set Up an Oracle Eloqua Integration</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360022207231-Set-Up-an-Oracle-Eloqua-Integration</link>
+         <description><![CDATA[<hr>
+<p>Learn how to integrate your Oracle Eloqua account to feed leads from your Uberflip Hubs to Oracle Eloqua.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>To set up a Oracle Eloqua integration, you need to be in the <strong>Account Admin,</strong><strong>Content Manager </strong>or <strong>Demand Generation </strong>user group(s).</li>
+<li>You will also need a <strong>Oracle Eloqua</strong> account with <strong>Admin permissions</strong>. Your Oracle Eloqua environment will also need to have <strong>API access enabled</strong>.</li>
+<li>To get the most out of the integration, you should be using Form CTAs to generate leads to send to Oracle Eloqua. To learn more about Form CTAs and how to set them up, see <a href="https://help.uberflip.com/hc/en-us/articles/360020989871">this article</a>.</li>
+</ul>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important Note: Email Address Field on Eloqua Forms</h4>
+<p>On any Eloqua Form that you intend to use with Uberflip Form CTAs, you <strong>must use the default </strong><code class="no-padding">Email Address</code><strong> field </strong>(from the <em>Contact Fields</em> section) to accept email addresses on the Eloqua Form. <strong>Do NOT use a <em>Custom Field</em> on the Eloqua Form for email addresses</strong>: doing this will cause a "Form ID not found" error when trying to connect the Oracle Form to a Form CTA.</p>
+<p>In addition, it is very important that you <strong>do NOT change</strong><strong> the label of the default</strong> <code class="no-padding">Email Address</code> <strong>field</strong>. Changing this label will break email validation on Form CTAs connected to the Eloqua Form. This will cause the Form CTAs to accept invalid inputs in the email field, which<strong> may result in data loss</strong>.</p>
+<p>To avoid this issue, <strong>leave the default</strong> <code class="no-padding">Email Address</code><strong> label unchanged </strong> on any Eloqua Form that you want to use with Uberflip (this is case-insensitive, i.e. <code class="no-padding">email address</code> is also acceptable).</p>
+</div>
+<p> </p>
+<h2>About the Oracle Eloqua Integration</h2>
+<p>If you use Oracle Eloqua as part of your marketing tech stack, you can integrate it with your Uberflip account to get the most out of both platforms. Within your account, <a href="https://help.uberflip.com/hc/en-us/articles/360020989871">Form CTAs</a> are a highly effective way to generate leads — <a href="https://hub.uberflip.com/blog/gating-content-this-one-small-change-will-7x-your-conversion-rate">over 7x more effective than traditional landing pages</a>. And once you've generated those leads, you need to do something with them. This is where Marketing Automation Platforms (MAPs) like Oracle Eloqua shine.</p>
+<p>Form CTAs are designed to stream the leads they capture to a MAP, where you can make them part of your lead nurturing strategy. In this regard, Eloqua works differently from most other MAPs, where the Form CTA directly creates or updates leads. In Eloqua, the information entered by a lead is instead submitted directly into an Eloqua Form. This means that you can use Form Processing in Eloqua to create or update contact records, as well as to trigger additional automations.</p>
+<p>In this article, we'll look at the prerequisites for integrating your account with Oracle Eloqua, how to configure the integration, and optional steps to enable additional data collection.</p>
+<p>You can find more detailed explanation of how the Eloqua integration works, and the kinds of data it can be configured to collect, in <a href="https://help.uberflip.com/hc/en-us/articles/360022335991">this article</a>.</p>
+<p> </p>
+<h2 id="h_948614204271547759391585">Prerequisites: Get a Data Lookup Key and Create a Dedicated User</h2>
+<p>To set up a Oracle Eloqua integration, you will need a <strong>Data Lookup Key</strong> from your Oracle Eloqua environment. For instructions on how to get a Data Lookup Key, see <a href="https://help.uberflip.com/hc/en-us/articles/360022023072">this article</a>.</p>
+<p>You should also <strong>create a new Oracle Eloqua user </strong><strong>specifically for the Uberflip integration</strong>. This User will need:</p>
+<ul>
+<li>
+<strong>API access: </strong>You must add the User to the <strong>API Users</strong> Security Group.<br>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360019220312" alt="Fullscreen_2019-01-21__3_41_PM.png" width="584" height="191"></p>
+</li>
+<li>
+<strong>Shared credentials</strong>: Not strictly a requirement, but as a best practice your whole team should have access to the user, as this makes it easier to fix any problems with the integration should they arise. In addition, you should set the password for this User to <strong>never expire</strong>.</li>
+</ul>
+<p>You can find instructions on how to create a new user in Oracle Eloqua in <a href="https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/Help/UserManagement/Tasks/CreatingIndividualUsers.htm">this article from Oracle</a>.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Why do I need to create a dedicated user?</h4>
+<p>While you can theoretically use any user account to set up the integration, we strongly recommend against using a personal user account that is associated with an individual. If you do, your Uberflip integration can stop working unexpectedly if that person leaves your company, changes their email or password, or their account is deactivated for any other reason.</p>
+<p>Using a dedicated user account helps to avoid these types of issues, and can prevent problems with your integration in the future.</p>
+</div>
+<dl class="dl-horizontal"></dl>
+<p> </p>
+<h2>Connect Your Account to Oracle Eloqua</h2>
+<p>All you need to do to integrate your account with Oracle Eloqua is to connect them via the Uberflip app.</p>
+<ol>
+<li>Log in to your Uberflip account and select any Hub.</li>
+<li>In the sidebar menu on the left, click on <strong>Integrations</strong>.<br><img src="https://help.uberflip.com/hc/article_attachments/16599950365325" alt="Hubs___Integrations_-_Uberflip.png">
+</li>
+<li>On the right, you'll see a list of services that Uberflip can integrate with. Find <strong>Oracle Eloqua</strong> in the list, then click on its <strong>Connect</strong> button on the right (under the <strong>Action</strong> column) to set up the integration:<br><img src="https://help.uberflip.com/hc/article_attachments/360019210452" alt="Hubs___Integrations_-_Uberflip.png" width="700" height="62">
+</li>
+<li>In the modal that opens, <strong>type in the Data Lookup Key</strong> you <a href="#h_948614204271547759391585">obtained previously</a>:<br><img src="https://help.uberflip.com/hc/article_attachments/16599950369805" alt="Screen" width="350" height="366">
+</li>
+<li>Click <strong>Save &amp; Connect</strong>
+</li>
+<li>An Eloqua login page will open. Enter your Eloqua account credentials and click <strong>Sign In. <br><img src="https://help.uberflip.com/hc/article_attachments/16599983116941" alt="Screen" width="350" height="445"><br></strong>
+</li>
+<li>You'll be returned to the to the <strong>Integrations</strong> page, where you'll now see <em>connected</em> next to Oracle Eloqua in the list:<br><img src="https://help.uberflip.com/hc/article_attachments/360019214772" alt="Hubs___Integrations_-_Uberflip.png" width="702" height="52">
+</li>
+<li>That's it! Oracle Eloqua is now connected to your account.</li>
+</ol>
+<p>If you just leave it at this stage, your integration will work, but you will only receive the minimum amount of data about leads (basically, only what they submit themselves in the Form CTA). In the following sections, we'll describe what the various options do, and how to configure them.</p>
+<p> </p>
+<h2>Create Optional Custom Fields</h2>
+<p>When a lead submits a Form CTA, Uberflip will also attempt to populate hidden fields on the Eloqua Form. These fields record details about the Item a lead converted on (i.e. the Item on which the Form CTA they completed was placed, if applicable) as well as the Item they viewed most recently.</p>
+<p>The fields to record this data do not exist in Eloqua by default, so you must first add them as a custom field type. You can then add those fields to an Eloqua Form to capture the data. Note that you must add these fields to the Eloqua Form <strong>before</strong> associating it with a Form CTA.</p>
+<ol>
+<li>On the <strong>Integrations</strong> page, click on the <strong>Fields </strong>button next to Oracle Eloqua under the <strong>Action </strong>column:<br><img src="https://help.uberflip.com/hc/article_attachments/16599950381453" alt="Hubs___Integrations_-_Uberflip.png">
+</li>
+<li>The <strong>Service Fields</strong> window will open. Inside, you'll see a list of fields that will be used in Oracle Eloqua to record the data being sent from Uberflip. Some will be colored red and marked with an <strong>x</strong> in the <strong>Status</strong> column, indicating that they do not exist in Oracle Eloqua yet:<br><img src="https://help.uberflip.com/hc/article_attachments/360019123331" alt="Hubs___Integrations_-_Uberflip.png" width="708" height="37">
+</li>
+<li>To be able to record data in these fields, you must first create them in Oracle Eloqua. To create a field, click on the <strong>+Add</strong> button beside it. Once added the field is added, the <strong>+Add</strong> button will disappear, and a checkmark will appear beside the field in the <strong>Status</strong> column:<br><img src="https://help.uberflip.com/hc/article_attachments/360019267112" alt="Hubs___Integrations_-_Uberflip.png" width="701" height="43">
+</li>
+<li>Continue clicking the <strong>+Add </strong>button for each field until you have added all three fields.</li>
+<li>After adding the fields, remember to log in to Eloqua and add the fields to any Eloqua Form that you intend to connect to a Form CTA.</li>
+</ol>
+<p> </p>
+<h2>Configure Oracle Eloqua Integration Settings</h2>
+<p>The Oracle Eloqua integration has several options that you can configure. These are all available from the integration's <strong>Edit Settings</strong> menu.</p>
+<p> </p>
+<h3>Customize and Save Eloqua Integration Settings</h3>
+<ol>
+<li>On the <strong>Integrations</strong> page, click on the <strong>Edit </strong>button that appears next to Oracle Eloqua in the list (under the <strong>Action</strong>) column:<br><img src="https://help.uberflip.com/hc/article_attachments/16599950384781" alt="Hubs___Integrations_-_Uberflip.png">
+</li>
+<li>Customize any options as needed (<a href="#h_909080854351548458294744">see below</a> for instructions):<br><img src="https://help.uberflip.com/hc/article_attachments/360019425031" alt="Hubs___Integrations_-_Uberflip.png" width="400" height="336">
+</li>
+<li>Next to <strong>API Key</strong>, click on <strong>Generate</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360019086571" alt="Hubs___Integrations_-_Uberflip.png" width="502" height="144">
+</li>
+<li>Type in the <strong>username, password and company name</strong> for your dedicated Uberflip Oracle Eloqua User, then click on <strong>Generate</strong> (or, enter your previously generated API Key into the field provided).</li>
+<li>Click on <strong>Save </strong>to save your changes.</li>
+</ol>
+<h3 id="h_909080854351548458294744">Option-Specific Instructions</h3>
+<div class="accordion accordion--default">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Set Lead Sources<br></strong></div>
+<div class="accordion__item-content">
+<p>This option is enabled by default, and will make Uberflip populate the <strong>Lead Source - Original</strong> and <strong>Lead Source - Most Recent</strong> fields on an Eloqua Form with the names of the Form CTAs that the lead submitted in Uberflip. If you prefer to populate these fields with different values of your own choice, you can disable this option.</p>
+<p>To disable this option, <strong>uncheck the box</strong> next to <strong>Set Lead Sources</strong>:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360019557692" alt="Hubs___Integrations_-_Uberflip.png" width="401" height="336"></p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Enable First Party Cookies<br></strong></div>
+<div class="accordion__item-content">
+<p>Enabling this option allows you to use first-party tracking cookies with Eloqua instead of the default third-party cookies. Third-party cookies are now often blocked by default browser privacy settings and ad-blocking/anti-spyware applications, so switching to first-party cookies can help to avoid these issues, and enable seamless tracking of visitors across all websites using the same tracking domain.</p>
+<p>To enable this option:</p>
+<ol>
+<li>
+<strong>Check the box</strong> next to <strong>Enable first party cookies</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360019158191" alt="Fullscreen_2019-01-22__1_33_PM.png" width="399" height="374">
+</li>
+<li>A text field will appear. Here, <strong>type in your first-party tracking domain</strong> as set up in Eloqua (e.g. <em>tracking.mycompany.com</em>).
+<ul>
+<li>If you do not know what your tracking domain is, finding it in Oracle Eloqua is not straightforward. If you need help finding your tracking domain, please contact Oracle Eloqua Support.</li>
+</ul>
+</li>
+</ol>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Create External Activities<br></strong></div>
+<div class="accordion__item-content">
+<p>This option allows you to track engagement with your Hub content in a more detailed way. If enabled, Uberflip will create an External Activity for a contact each time they view an Item in your Hubs, listing the specific Item viewed. External Activities also appear in Eloqua Profiler, giving Sales staff easy access to this engagement data.</p>
+<p>External Activities are tied to campaigns, and you must specify a default campaign ID to be used to record External Activities under.</p>
+<p>To enable this option:</p>
+<ol>
+<li>
+<strong>Check the box</strong> next to <strong>Create External Activities:</strong><br><img src="https://help.uberflip.com/hc/article_attachments/360019423971" alt="Hubs___Integrations_-_Uberflip.png" width="399" height="375">
+</li>
+<li>A text field will appear. Here, <strong>type in the default Campaign ID</strong> you want to use.<br>
+<ul>
+<li>You can get the Campaign ID from Eloqua by viewing the campaign and looking at the URL:<br><img src="https://help.uberflip.com/hc/article_attachments/360019220351" alt="Fullscreen_2019-01-23__10_48_AM.png">
+</li>
+</ul>
+</li>
+</ol>
+<p>In addition to the default campaign, you can also set campaign IDs at the Stream level. You can do this for both Source Streams and Marketing Streams (but not Sales Streams).</p>
+<p>If present, a Stream-level campaign ID will override the default campaign ID. If a Stream does <strong>not</strong> have its own assigned Campaign ID, the default Campaign ID will be used instead.</p>
+<p>To set a Stream-level campaign ID:</p>
+<ol>
+<li>Navigate to the Stream to which you want to assign a Campaign ID (<strong>Content &gt; Streams</strong>) and <strong>click on the Stream</strong> to open it.</li>
+<li>While viewing the Stream, click on the <strong>Metadata</strong> tab.</li>
+<li>You should now see a <strong>Campaign ID</strong> field on the <strong>Metadata </strong>tab:<br><img src="https://help.uberflip.com/hc/article_attachments/360019303852" alt="Hubs___Manage_-_Uberflip.png" width="466" height="297">
+</li>
+<li>Type the Campaign ID you want to use into the field. Your changes will be saved automatically and applied immediately.</li>
+</ol>
+<p> </p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Flipbook Tracking and Content Counters<br></strong></div>
+<div class="accordion__item-content">
+<p>Enabling these related options will allow you to track how many Items a lead has viewed, by content type (i.e. the number of articles, videos, Flipbooks, etc.). In general, we recommend enabling/disabling them together.</p>
+<p>To enable these options, <strong>check the boxes</strong> next to <strong>Flipbook Tracking</strong> and <strong>Content Counters</strong>:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360019223752" alt="Hubs___Integrations_-_Uberflip.png" width="403" height="337"></p>
+</div>
+</div>
+</div>
+<p> </p>
+<h2>Next Steps</h2>
+<p>You're all set: you've successfully integrated your Uberflip account with Oracle Eloqua. Next, <a href="https://help.uberflip.com/hc/en-us/articles/360020989871">create some Form CTAs</a> to begin generating leads.</p>]]></description>
+         <guid isPermaLink="false">360022207231</guid>
+         <pubDate>Mon, 21 Jan 2019 16:14:04 GMT</pubDate>
+      </item>
+      <item>
+         <title>Create a Processing Step for Form CTA Data in Oracle Eloqua</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360021209251-Create-a-Processing-Step-for-Form-CTA-Data-in-Oracle-Eloqua</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>When you create a <a href="https://help.uberflip.com/hc/en-us/articles/360020989871">Form CTA</a> that feeds data to Oracle Eloqua, this data is recorded on an Eloqua Form. To actually create contacts in Eloqua from the data captured on the Form, you have to add a Processing Step to that Form. This article describes how to add the required Processing Step to any Eloqua Form that you want to use with a Form CTA.</p>
+<p> </p>
+<h2>Add a Processing Step to an Eloqua Form</h2>
+<p>You should complete these steps on any Eloqua Form that you intend to connect to a Form CTA.</p>
+<ol>
+<li>Log in to your Oracle Eloqua account.</li>
+<li>In Eloqua, go to <strong>Assets &gt; Forms</strong> in the top menu bar.</li>
+<li>Click on <strong>Open an Existing Form</strong>.</li>
+<li>Open the Form that you want to use with your Form CTA.</li>
+<li>Click on <strong>Processing</strong> in the top right corner.</li>
+<li>Click on the <strong>+ button</strong> next to <strong>Processing Steps</strong>.</li>
+<li>Click on <strong>Update Contacts - With Form Data</strong> in the menu that appears.</li>
+<li>Under <strong>General Settings</strong>, use the dropdown menu to select <strong>Email Address</strong> as the field that uniquely identifies a contact.</li>
+<li>Under <strong>This Processing Step Executes</strong><strong>...</strong>, choose <strong>Always</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360017850532/Important__Oracle_Eloqua_Form_Processing_Step_-_Use_Email_as_Unique_Contact_Identifier.png" alt="Important__Oracle_Eloqua_Form_Processing_Step_-_Use_Email_as_Unique_Contact_Identifier.png" width="700" height="371">
+</li>
+<li>Click <strong>Save</strong>.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360021209251</guid>
+         <pubDate>Thu, 20 Dec 2018 14:24:46 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

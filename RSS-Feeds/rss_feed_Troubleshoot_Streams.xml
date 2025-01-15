@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Troubleshoot Streams</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Embedded content displays an error message</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360061553372-Embedded-content-displays-an-error-message</link>
+         <description><![CDATA[<h2>Issue</h2>
+<p>When I embed content from another website in a Hub Item, an error message is shown instead of the embedded content when I view the Item:</p>
+<ul>
+<li>"Blocked by Content Security Policy" (Firefox)<br><img src="https://help.uberflip.com/hc/article_attachments/360096592851/image.png" alt="image.png" width="477" height="238">
+</li>
+<li>"Blocked by X-Frame-Options Policy" (Firefox)<br><img src="https://help.uberflip.com/hc/article_attachments/360096592831/image.png" alt="image.png">
+</li>
+<li>"[website URL] refused to connect" (Chrome)<br><img src="https://help.uberflip.com/hc/article_attachments/360096622292/image.png" alt="image.png" width="481" height="243">
+</li>
+</ul>
+<p> </p>
+<h2>Conditions</h2>
+<ul>
+<li>Occurs when embedding content from an external (non-Uberflip) website in an Item in your Hub using an iframe, for example by:<br>
+<ul>
+<li>Manually inserting <code class="no-padding">&lt;iframe&gt;</code> tags in the Item Editor's source code view</li>
+<li>Using the <a href="https://marketplace.uberflip.com/details/iframer/">iFramer</a> app</li>
+<li>Using the <a href="https://help.uberflip.com/hc/en-us/articles/360057767692-Sales-Assist-User-Guide-for-Sales-Users#creating-your-own-content-and-templates">My Items</a> functionality in <a href="https://marketplace.uberflip.com/details/sales-assist-1/">Sales Assist</a>
+</li>
+</ul>
+</li>
+<li>
+<strong>Where: </strong>In any Item where external content from a specific website has been embedded, specifically in the location where the embedded content should appear (i.e. in the iframe)</li>
+<li>
+<strong>Who: </strong>Anyone who views the Item is affected</li>
+<li>
+<strong>When: </strong>Occurs whenever the Item is viewed</li>
+<li>Any browser</li>
+<li>Any operating system</li>
+</ul>
+<p> </p>
+<h2>Cause</h2>
+<p>This issue typically occurs because the website you are trying to embed is configured so that it can't be displayed in an iframe, usually using a <code class="no-padding">Content-Security-Policy</code> header with a <code class="no-padding">frame-ancestors</code> directive, or an <code class="no-padding">X-Frame-Options</code> header with a <code class="no-padding">DENY</code> or <code class="no-padding">SAMEORIGIN</code> directive (or both).</p>
+<p> </p>
+<h2>Steps to Fix</h2>
+<p>To fix this issue, you must be able to modify the configuration of the web server from which you want to embed content. This means that you can generally resolve the issue for websites that you control, but not for websites that are owned by third parties.</p>
+<p>For instructions on how to resolve this issue with your own websites, see the article <a href="https://help.uberflip.com/hc/en-us/articles/360060972932">Configure your website to allow embedding into Uberflip content</a>.</p>]]></description>
+         <guid isPermaLink="false">360061553372</guid>
+         <pubDate>Wed, 26 May 2021 22:00:33 GMT</pubDate>
+      </item>
+      <item>
+         <title>Images missing when sharing to Twitter</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360049034752-Images-missing-when-sharing-to-Twitter</link>
+         <description><![CDATA[<h2>Issue</h2>
+<p>When sharing any page from a Hub to Twitter, the Twitter preview does not display an image (even if an image is available).</p>
+<ul>
+<li>Twitter previews don't contain images</li>
+<li>No image when I share an item on Twitter</li>
+<li>Item image not included when sharing a link in a tweet</li>
+</ul>
+<p> </p>
+<h2>Conditions</h2>
+<ul>
+<li>
+<strong>Where: </strong>Any page in a Hub (Hub homepage, Stream page, Item page)</li>
+<li>
+<strong>Who: </strong>Users sharing a link to a Hub page</li>
+<li>
+<strong>When: </strong>After sharing a link to a Hub page on Twitter, when Twitter displays a preview card for the link</li>
+<li>Any browser</li>
+<li>Any operating system</li>
+</ul>
+<p> </p>
+<h2>Cause</h2>
+<p>This issue occurs when the page being shared on Twitter is in a hub where the <strong>No Robots Meta Tag</strong> setting is turned on. When creating a preview card for the link, Twitter checks and respects any indexing rules (i.e. <em>noindex</em> robots meta tag/<em>robots.txt</em>) that exist for the destination website. If the website is set to <em>noindex</em> (i.e. if the No Robots Meta Tag is on in the case of a Hub), Twitter will not pull in any content from the website to create a preview, including images.</p>
+<p> </p>
+<h2>Steps to Fix</h2>
+<p>To fix, <strong>turn off the No Robots Meta Tag setting</strong>. You can find instructions on how to configure this setting <a href="https://help.uberflip.com/hc/en-us/articles/360018840252-Block-your-Hub-content-from-appearing-in-search-engine-results#block-indexing-at-the-hub-level" target="_self">here</a>.</p>
+<p>Alternatively, ensure you are only sharing content from Hubs where hte No Robots Meta tag setting is off.</p>]]></description>
+         <guid isPermaLink="false">360049034752</guid>
+         <pubDate>Thu, 10 Sep 2020 21:19:24 GMT</pubDate>
+      </item>
+      <item>
+         <title>JavaScript custom code is not working on Streams with a personalizer app enabled</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360040715212-JavaScript-custom-code-is-not-working-on-Streams-with-a-personalizer-app-enabled</link>
+         <description><![CDATA[<h2>Issue</h2>
+<p>JavaScript custom code is working on some Streams, but is not working on Streams where a personalizer app (<a href="https://help.uberflip.com/hc/en-us/articles/360038009851" target="_self">Query String</a>/<a href="https://help.uberflip.com/hc/en-us/articles/360039621191" target="_self">6sense</a>/<a href="https://help.uberflip.com/hc/en-us/articles/360037957091" target="_self">Demandbase</a>/<a href="https://help.uberflip.com/hc/en-us/articles/360037591592" target="_self">Bombora</a>) is enabled.</p>
+<ul>
+<li>Custom code problem on some Streams</li>
+<li>JavaScript issue on Streams with personalizer app</li>
+<li>JavaScript race condition after installing personalizer app</li>
+</ul>
+<p> </p>
+<h2>Conditions</h2>
+<ul>
+<li>JavaScript code implemented on affected Hub using <a href="https://help.uberflip.com/hc/en-us/articles/360018841312" target="_self">Custom Code</a> blocks</li>
+<li>One or more personalizer apps installed on the affected Hub:
+<ul>
+<li>Query String Personalizer App</li>
+<li>6sense Personalizer App</li>
+<li>Demandbase Personalizer App</li>
+<li>Bombora Personalizer App</li>
+</ul>
+</li>
+<li>Personalizer app is enabled on affected Stream(s)</li>
+<li>
+<strong>Where: </strong>Stream and Item pages on which a personalizer app has been enabled</li>
+<li>
+<strong>Who: </strong>Any user viewing an affected Stream or Item page</li>
+<li>
+<strong>When: </strong>After installing a personalizer app and configuring it to run on the affected Stream(s)</li>
+<li>Any browser</li>
+<li>Any operating system</li>
+</ul>
+<p> </p>
+<h2>Cause</h2>
+<p>Personalizer apps manipulate a large portion of Stream and Item pages. As a result, a race condition can occur: other JavaScript running on the same page will usually execute faster, and will be undone by the extensive changes that the personalizer app makes.</p>
+<p> </p>
+<h2>Steps to Fix</h2>
+<p>If you are experiencing this issue, use the <strong>callback function</strong> built into all Uberflip personalizer apps (Query String/6sense/Demandbase/Bombora) to resolve the race condition.</p>
+<p>To use, create a function named <code class="no-padding">ufPersonalizerCallback</code> in your custom code block and place the affected JS inside it. For example:</p>
+<pre><code class="javascript">&lt;script&gt;<br>var ufPersonalizerCallback = function(){<br> /** Your JS **/<br>};<br>&lt;/script&gt;</code></pre>
+<p>This function is called once the personalizer app has finished executing its own code, which ensures that any JavaScript code within the callback function is executed later and can't be affected by the personalizer app.</p>]]></description>
+         <guid isPermaLink="false">360040715212</guid>
+         <pubDate>Wed, 18 Mar 2020 21:23:51 GMT</pubDate>
+      </item>
+      <item>
+         <title>Duplicate Items showing in Stream on Hub</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360028380772-Duplicate-Items-showing-in-Stream-on-Hub</link>
+         <description><![CDATA[<h2>Issue</h2>
+<p>Item tiles repeated on the frontend (Stream homepage), but not in the backend (list of Streams).</p>
+<ul>
+<li>Items displaying more than once in a Stream</li>
+<li>Duplicate Items in Stream</li>
+</ul>
+<p> </p>
+<h2>Conditions</h2>
+<ul>
+<li>
+<strong>Where: </strong>Duplicate tiles seen on the live stream page, but not in the backend of the hub</li>
+<li>
+<strong>Who: </strong>Anyone viewing a Stream homepage</li>
+<li>
+<strong>When: </strong>Anytime when viewing a Stream homepage</li>
+<li>Any browser seems affected by this issue</li>
+<li>Any operating system seems affected by this issue</li>
+</ul>
+<p> </p>
+<h2>Steps to Fix (Workaround)</h2>
+<ol>
+<li>View the Stream's main page (in the frontend) in your browser</li>
+<li>Locate the <strong>first</strong> repeating/duplicate tile in the Stream</li>
+<li>In a separate tab, view the Stream in the Hub backend</li>
+<li>Click-and-drag the first duplicate tile (from step 2) to reposition it left or right by 1 tile</li>
+<li>Click-and-drag the same tile back to its original position</li>
+<li>Reload the Stream's homepage in the frontend</li>
+<li>The repeating tile(s) issue should now be corrected</li>
+</ol>
+<p> </p>
+<h2>Additional Notes</h2>
+<p>Due to the rare nature of this issue, Uberflip's Development team is actively working to isolate the root cause of this issue to deploy a permanent fix.</p>]]></description>
+         <guid isPermaLink="false">360028380772</guid>
+         <pubDate>Wed, 22 May 2019 14:28:01 GMT</pubDate>
+      </item>
+      <item>
+         <title>Can&apos;t edit the Appearance option on a Sales Stream</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020719891-Can-t-edit-the-Appearance-option-on-a-Sales-Stream</link>
+         <description><![CDATA[<h2>Issue</h2>
+<p>Can't change the option under <em>Appearance</em> on a Sales Stream.</p>
+<ul>
+<li>Under the Appearance tab of a Sales Stream, the dropdown under "Choose which layout to use with this stream" is greyed out and can't be changed.<br><br>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016692112/Image_2018-12-07_at_8_30_08_PM_png__PNG_Image__804___413_pixels_.png" alt="Image_2018-12-07_at_8_30_08_PM_png__PNG_Image__804___413_pixels_.png" width="359" height="128"></p>
+</li>
+<li>The "Banner+Logo" option can't be selected for the Stream.</li>
+</ul>
+<p> </p>
+<h2>Conditions</h2>
+<ul>
+<li>
+<strong>Where:</strong> Sales Streams</li>
+<li>Affects users in the <em>Sales Reps</em> default Group, or a custom Group created for Sales Rep users.</li>
+</ul>
+<p> </p>
+<h2>Cause</h2>
+<p>This is a permissions issue. Sales Streams have their own set of permissions, like this:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016692132/Image_2018-12-07_at_8_31_28_PM_png__PNG_Image__621___719_pixels_.png" alt="Image_2018-12-07_at_8_31_28_PM_png__PNG_Image__621___719_pixels_.png" width="213" height="285"></p>
+<p>However, the permission to change the Appearance option on a Sales Stream is <strong>not</strong> covered by this set of permissions. Instead, it is governed by another permission called <em>Edit Stream Appearance</em>. If this permission is not granted for a Group, users in that Group will not be able to change the Appearance option on a Sales Stream (or a Marketing Stream).</p>
+<p> </p>
+<h2>Steps to Fix</h2>
+<ol>
+<li>Log in to Uberflip as an <strong>Account Admin</strong>.</li>
+<li>Click on your name in the top right, then click on <strong>Account Settings</strong>.</li>
+<li>In the sidebar menu on the left, click on <strong>Organization</strong>, then click on <strong>Groups</strong>.</li>
+<li>the custom Group) and click on it.</li>
+<li>On the next page, click on the <strong>Permissions</strong> tab.</li>
+<li>On your keyboard, press <strong>Ctrl+F</strong> to open text search, and type in <strong>Edit Stream Appearance</strong>.</li>
+<li>When you find the permission, place a check in the box next to it:<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016692732/Edit_Sales_Reps_-_Uberflip_-__Private_Browsing_.png" alt="Edit_Sales_Reps_-_Uberflip_-__Private_Browsing_.png">
+</li>
+<li>Your change will be saved automatically, and will take effect right away. This should resolve the problem, and users in the Sales Rep Group will be able to modify the Appearance option on Sales Streams.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360020719891</guid>
+         <pubDate>Fri, 07 Dec 2018 21:47:27 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

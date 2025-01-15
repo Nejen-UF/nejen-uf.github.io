@@ -1,0 +1,1284 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Set up CTA tiles</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Link CTAs explained</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020683852-Link-CTAs-explained</link>
+         <description><![CDATA[<p>Learn about Link CTA tiles: what they are, what they do, and how you can use them in your Hub.</p>
+<p> </p>
+<h2 id="h_01HHJM08CBDMRP0A7YZVV0P7MS">What are CTA tiles in Uberflip?</h2>
+<p>You're probably already familiar with the concept of calls-to-action (CTAs), which urge your visitors to take an action that brings them into (or advances them through) your funnel. CTAs are an essential tool for marketers, which is why they're also an integral part of Uberflip Hubs. While your Hub allows you to showcase all your content and create great experiences around it, CTAs are how you leverage that content to generate leads and drive conversions.</p>
+<p>Most commonly, CTAs on the web come in the form of banners, buttons, and forms. In an Uberflip Hub, we combine these concepts to present CTAs as a specialty tile. In a Stream, they look similar to Item tiles, but encourage the user to either fill out a form or click a link.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017488472" alt="Account-Based_Marketing_for_Experience_Management___Uberflip.png" width="600" height="438"></p>
+<p>In the image above, tiles marked with arrows are CTAs, while all the other tiles are pieces of content (Item tiles). CTA tiles are designed to be eye-catching: they have bolder graphics and colors, a tagline in a larger font, and a prominent button or text field to indicate that visitors can interact with them.</p>
+<p>But although they stand out, CTA tiles are also the same basic size and shape as your Item tiles. This allows them to integrate seamlessly with your Streams, and ensures your audience sees them as they browse your content.</p>
+<p>There are <strong>two types of CTA tiles: </strong>Form CTAs and Link CTAs. <strong>This article outlines Link CTAs specifically. </strong>To learn more about Form CTAs, check out: <a href="https://help.uberflip.com/hc/en-us/articles/22243951435405">Get Started: Use Form CTAs to capture leads</a>.</p>
+<p> </p>
+<h2 id="h_01HHFY3FM6HDE7RKWR7F5N6Z12">How do Link CTAs Work?</h2>
+<p>In general, CTA tiles look and work like Item tiles: they are the same size, and look similar at first glance. Just like Item tiles, they can be embedded outside your Hub. Compared to Item tiles, however, CTA tiles differ in how visitors interact with them, how they can be styled, and how they are placed.</p>
+<p><strong>Link CTAs</strong> prompt users to <strong>click on a link</strong>. The purpose of a Link CTA is to encourage a visitor to <strong>go somewhere </strong>(any specific URL). Alternatively, it can also be used in conjunction with an email address or phone number to prompt a visitor to contact you.</p>
+<p> </p>
+<h2 id="h_01HHFY3FM6QQZ2HS81W884GZ40">What do Link CTAs look like?</h2>
+<p>Link CTAs all have the same basic layout, consisting of (1) a background color or image, (2) a tagline to grab the visitor's attention and (3) a button that allows the visitor to interact with the CTA. You can customize any of these elements to match your brand and use case.<br><img src="https://help.uberflip.com/hc/article_attachments/360017489252" alt="Account-Based_Marketing_for_Experience_Management___Uberflip.png" width="272" height="326"></p>
+<p> </p>
+<h2 id="h_925034262571544825088889">Where do I use Link CTAs?</h2>
+<p>You can use Link CTAs in three different ways:</p>
+<ul>
+<li><a href="#h_01G4ABQBRVR4SQ2VMWGCXZQWBN" target="_self"><em>At Stream Level</em></a></li>
+<li><a href="#h_01G4ABQP0XKVWYHAR5YW6QQF24" target="_self"><em>At Item Level (Show Beside)</em></a></li>
+<li><a href="#h_01G4ABRA17B01J96PWHCQGRQM2" target="_self"><em>Embedded in a webpage</em></a></li>
+</ul>
+<p> </p>
+<h3 id="h_01G4ABQBRVR4SQ2VMWGCXZQWBN">At Stream Level:</h3>
+<p>This is essentially the default placement. When placed at Stream level, Link CTAs appear among the Item tiles in that Stream. You specify this type of placement in relation to content Items, i.e. "appear after Item # ___".</p>
+<p>For example, in this screenshot, CTAs have been placed after Item 1, Item 3, and Item 4:<br><img src="https://help.uberflip.com/hc/article_attachments/360017537352" alt="Content_Marketing_with_Web_Content_Management___Uberflip.png" width="500" height="260"><br>If your Stream is long, you can also have CTAs placed at Stream level repeat after a given number of Items.</p>
+<p> </p>
+<h3 id="h_01G4ABQP0XKVWYHAR5YW6QQF24">At Item Level (Show Beside):</h3>
+<p>You can also place Link CTAs at Item level. With this option, the CTA Tile will be displayed in the top right corner when the Item is viewed:<br><img src="https://help.uberflip.com/hc/article_attachments/360017537892" alt="How_Top-Performing_Marketers_Drive_Success_with_Content_Recommendations.png" width="500" height="294"><br><em>Show Beside</em> CTA tiles float, so they remain fixed in the same position as visitors scroll down the page.</p>
+<p> </p>
+<h3 id="h_01G4ABRA17B01J96PWHCQGRQM2">Embedded in an external webpage: </h3>
+<p>You can place an Uberflip CTA into any webpage that accepts embedded HTML. Just <a href="https://help.uberflip.com/hc/en-us/articles/360020859752" target="_self">use the CTA embed button</a> to grab the code, and add it to the source code of your site or blog. </p>
+<p><strong>Tip:</strong> Embed a CTA directly into an Uberflip blog post to encourage viewers to act while engaging with relevant content.<br><img src="https://help.uberflip.com/hc/article_attachments/6556673182861" alt="Screen_Shot_2022-05-30_at_1.27.47_PM.png" width="499" height="396"></p>
+<div class="callout callout--info">
+<h4 id="h_01HHFY3FM6GN3XB5ZHH1H7AH9K" class="callout__title">Note</h4>
+<p>You can place CTAs within or beside any Source Stream or Marketing Stream, but you can't use them in a Digital Sales Room (DSR).</p>
+</div>
+<p> </p>
+<h2 id="h_01HHFY3FM6JSTJP610SRAQZPNK">What do I use Link CTAs for?</h2>
+<p>Think of a Link CTA as a kind of banner: it's intended to be eye-catching among your regular content so that users will click on it.</p>
+<p>The primary use case for Link CTAs is to <strong>funnel visitors to specific content</strong>. Here's one example, in which we're using a Link CTA to encourage visitors to view one of our ebooks:<br><img src="https://help.uberflip.com/hc/article_attachments/360017542652" alt="Sales_Enablement_with_a_Digital_Experience_Manager___Uberflip.png"><br>Link CTAs are ideal for making your visitors aware of your high-value (and most-converting) content, and giving them an easy way to get there. Once they're looking at that content, you then have an opportunity to leverage it by using <a href="#h_154520177241544822619149">Form CTAs</a> to convert those visitors into leads.</p>
+<p>While they're often used to link to Hub content, Link CTAs can link to anything you want, including external URLs. In fact, the link doesn't even have to be to a webpage: you can also specify URI schemes like <em>mailto:</em> and <em>tel: </em>on the link to point to contact information.</p>
+<p>As a result, another great use case for Link CTAs is as a way to<strong> encourage prospects and customers to reach out</strong>. This is especially useful on personalized ABM (Marketing) Streams, where you can include a Link CTA with your contact details to encourage the target to follow up:<br><img src="https://help.uberflip.com/hc/article_attachments/360017544012" alt="Personalize_The_Content_Experience_at_Scale_with_Uberflip.png"></p>
+<p> </p>
+<h2 id="h_01HHFY3FM6QFW32G9GM7TZK9Y9">Next Steps</h2>
+<p>Ready to get started with Link CTAs? Learn how to use them with these articles:</p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360020735012">Set Up a Link CTA</a></li>
+</ul>
+<p>Or learn about Form CTAs in: <a href="https://help.uberflip.com/hc/en-us/articles/22243951435405">Get Started: Use Form CTAs to capture leads</a>.</p>]]></description>
+         <guid isPermaLink="false">360020683852</guid>
+         <pubDate>Thu, 13 Dec 2018 19:32:30 GMT</pubDate>
+      </item>
+      <item>
+         <title>Set up a Form CTA</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020989871-Set-up-a-Form-CTA</link>
+         <description><![CDATA[<hr>
+<p>Learn how to create, configure, and place Form CTAs in your Hub.</p>
+<hr>
+<p> </p>
+<h2 id="h_01HB6Z7VKRC31B26EXKXNXY6ZK">Before you begin</h2>
+<ul>
+<li>To work with Form CTAs, you must be a member of the <strong>Account Administrator</strong>, <strong>Content Manager</strong>, or <strong>Demand Generation</strong> user groups.</li>
+<li>This article describes how to set up <strong>Form CTAs</strong> specifically. If you want to learn about Link CTAs, see <a href="https://help.uberflip.com/hc/en-us/articles/360020735012">this article</a>. If you want to learn about Uberflip CTAs generally, see <a href="https://help.uberflip.com/hc/en-us/articles/360020683852">this article</a>.</li>
+</ul>
+<p> </p>
+<h2 id="h_01HB6Z7VKRN7WE50DZPTYHYG3G">About Form CTAs</h2>
+<h3 id="h_01HB6Z7VKR1RF0J4GQRVVE7WXS">Integration with Marketing Automation Platforms</h3>
+<p>The main purpose of a Form CTA is to collect information provided by your visitors — but before you can actually do anything with the collected data, you have to record it somewhere. Form CTAs are specifically designed to send the data they collect where you can actually use it: your <strong>Marketing Automation Platform </strong>(MAP).</p>
+<p>For this reason, all Form CTAs must be connected to a map during setup. This deep integration is what makes Form CTAs such a powerful tool, because it eliminates any obstacles between collecting the data and actually leveraging it.</p>
+<p>Since MAPs are integral to the way Form CTAs work, you will need to be using a supported MAP if you want to use Form CTAs. The following MAPs are currently supported:</p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360022207231" target="_self">Oracle Eloqua</a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360022063751" target="_self">Marketo</a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360021562692" target="_self">HubSpot</a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360021942272" target="_self">Pardot</a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360037491672" target="_self">MailChimp</a></li>
+</ul>
+<p>Before creating a Form CTA, you should set up an Integration between your MAP and Uberflip. To learn more about integrating your MAP (or other apps) with Uberflip, see <a href="https://help.uberflip.com/hc/en-us/articles/360020907752">this article</a>.</p>
+<div class="callout callout--info">
+<h4 id="h_01HB6Z7VKRAY3B0BYC5H39GRYH" class="callout__title">Info</h4>
+<p>Any given Form CTA can only be connected to a single MAP. However, if you have multiple MAPs connected to your Hub, you can specify the MAP to be used individually for each CTA. As a result, you can have different Form CTAs connected to different MAPs if you want.</p>
+<p>(Note that connecting multiple MAPs to your Hub is only available on <strong>Enterprise</strong> pack types.)</p>
+</div>
+<h3 id="h_01HB6Z7VKR5CESMXYV7505PY9Q">Form CTA Structure</h3>
+<p>As the name suggests, a Form CTA is basically a <em>form</em>: a collection of text fields used to enter data. However, to make Form CTAs more visually appealing, the full form is not initially displayed. To enable this, Form CTAs have multiple <strong>states</strong>, so that the appearance of the Tile changes as a visitor interacts with it. There are four states:</p>
+<ul>
+<li>
+<strong>Default</strong>: This is how a Form CTA appears initially, with the Tile displaying simply the tagline and a single text input field (the first field configured in the form).<br><br><img src="https://help.uberflip.com/hc/article_attachments/360017795951" alt="Lead_Generation_through_Digital_Experience_Management___Uberflip.png">
+</li>
+<li>
+<strong>Focus:</strong> When a visitor interacts with the Form CTA by clicking on the first (visible) field, it will switch to the <em>Focus</em> state. In this state, the Tile will display the rest of the fields along with a <em>Submit</em> button, which slides up over the tagline. If there are more than four fields, a scrollbar will also appear, allowing visitors to scroll through all of the fields.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360017908492" alt="Kapture_2018-12-21_at_10.42.35.gif">
+</li>
+<li>
+<strong>Error:</strong> If you have set a field as being required, and a visitor attempts to submit the form without filling out this field, the Form CTA will enter the <em>Error</em> state. In this state, the required fields that were not completed correctly will be highlighted in red.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360017909072" alt="Lead_Generation_through_Digital_Experience_Management___Uberflip.png">
+</li>
+<li>
+<strong>Success: </strong>Provided all the fields have been filled out correctly, clicking on the <em>Submit</em> button (the button wording can be customized) will put the Form CTA into the <em>Success</em> state to confirm to the visitor that their information was submitted successfully.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360017909252" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png">
+</li>
+</ul>
+<p> </p>
+<h2 id="h_01HB6Z7VKRZT5VVQHZ0GGFXENY">Create a Form CTA</h2>
+<p>Begin by creating your new Form CTA. As part of creating a Form CTA, you will also choose the MAP you want it to integrate with.</p>
+<div class="callout callout--warning">
+<h4 id="h_01HB6Z7VKRPB9XZ3BFMYXZTTQZ" class="callout__title">Important</h4>
+<p>Once you have set the MAP that is connected to a Form CTA, it is not possible to change it.</p>
+</div>
+<ol>
+<li>Log in to Uberflip and click on <strong>Hubs</strong> to select the Hub you want to create the new Form CTA in.</li>
+<li>In the sidebar menu on the left, click on <strong>Calls-To-Action</strong>, then click on <strong>Form Calls-To-Action</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/4408886376845" alt="image.png">
+</li>
+<li>On the <strong>Form Calls-to-Action</strong> page, click on the <strong>Build Form CTA</strong> button:<br><strong><img src="https://help.uberflip.com/hc/article_attachments/4408879425677" alt="Hubs___Form_Calls-to-Action_-_Uberflip.png"></strong>
+</li>
+<li>In the <strong>Create Form CTA</strong> window, type a name for your new CTA into the text field, then use the dropdown menu to select the MAP you want to connect the Form CTA to:<br><img src="https://help.uberflip.com/hc/article_attachments/4408879487245" alt="image.png" width="490" height="466">
+</li>
+<li>Click on <strong>Create CTA</strong>.<br><img src="https://help.uberflip.com/hc/article_attachments/4408879501325" alt="image.png" width="492" height="465">
+</li>
+<li>If you selected a MAP for which you had not previously set up an Integration, you will now be prompted to connect to that MAP (e.g. by entering API credentials for your MAP):<br><img src="https://help.uberflip.com/hc/article_attachments/360017661851" alt="Hubs___Call-to-Action_Configuration_-_Uberflip_-__Private_Browsing_.png" width="388" height="400">
+</li>
+<li>Once you have established the connection to the selected MAP (or if you previously set it up), your newly created Form CTA will automatically open in the Form CTA Editor, where you can <a href="#h_01FF688MDR3W9B6YA78290984T" target="_self">set up options for the connected MAP</a>, <a href="#h_01FF688XW3A9V5XVSW6CNT8PAJ" target="_self">set up the CTA's layout and fields</a>, <a href="#h_01FF689CEZ6FJ12W1K7CW0FSCM" target="_self">customize its appearance</a>, and <a href="#h_01FF689YD20BJT7E4BMHBMPMNW" target="_self">select where in your Hub you want to place it</a>.</li>
+</ol>
+<p> </p>
+<h2 id="h_01FF688MDR3W9B6YA78290984T">Set up Form CTA MAP options</h2>
+<p>When you set up a Form CTA in the Form CTA Editor, the first section that is shown is the <strong>MAP Options</strong> section. You can also get here by clicking on the <strong>MAP name</strong> button directly:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/4408886591885" alt="image.png"></p>
+<p>This section is where you configure MAP-specific options for your Form CTA. For most MAPs, this primarily means selecting the list that new leads generated from the Form CTA will be added to.</p>
+<p>For instructions for the MAP you're using, expand the correspond section below:</p>
+<div class="accordion accordion--default">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>MailChimp</strong></div>
+<div class="accordion__item-content">
+<p>For Form CTAs connected to MailChimp, you'll be prompted to select a <strong>mailing list</strong>.</p>
+<p>Selecting a MailChimp mailing list is <strong>required</strong>. Visitors who fill out the Form CTA will be added to the mailing list you chose.</p>
+<p>Use the <strong>Select a Mailing List</strong> dropdown to choose a mailing list from your MailChimp account:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017793772" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="697" height="155"></p>
+<p>Once you make a selection, additional options will appear that allow you to enable and configure MailChimp's <em><strong>Follow</strong></em> feature:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017794892" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png"></p>
+<p>If you check the box next to <strong>Enable Follow Feature</strong>, all members of the selected mailing list will be sent an email digest of content added to your Hub in the previous week. Use the <strong>Content to follow</strong> dropdown to limit the content in the digest to a specific Stream, and use the <strong>Weekly Schedule</strong> dropdowns to determine when the email will be sent.</p>
+<p>When you're ready to proceed, click on <strong>Next</strong>.</p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>HubSpot<br></strong></div>
+<div class="accordion__item-content">
+<p>For Form CTAs connected to HubSpot, you'll be prompted to select a <strong>HubSpot Smart List</strong>.</p>
+<p>Selecting a HubSpot Smart List is <strong>optional</strong>. If you choose a Smart List, visitors who fill out the Form CTA will be added to the Smart List you chose. If you do not choose a Smart List, the incoming leads from the Form CTA will instead be added to your main HubSpot Contacts list.</p>
+<p>Use the <strong>Select a HubSpot Smart List </strong>dropdown to choose a Smart List from your HubSpot account:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017686551" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="698" height="175"></p>
+<p>If you don't want to choose a Smart List, simply leave the dropdown set to <strong>No List</strong>.</p>
+<p>When you're ready to proceed, click on <strong>Next</strong>.</p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Oracle Eloqua<br></strong></div>
+<div class="accordion__item-content">
+<p>For Form CTAs connected to Oracle Eloqua, you'll be prompted to choose an <strong>Eloqua Form</strong>.</p>
+<p>Selecting an Eloqua Form is <strong>required</strong>. The Form CTA will automatically adopt the fields configured on the selected Eloqua Form. When a visitor fills out the Form CTA, the information they enter will automatically be passed the connected Eloqua Form. From there, you can set up Form Processing to create/update contact records in Eloqua using the data submitted from the Form CTA.</p>
+<div class="callout callout--info">
+<h4 id="h_01HB6Z7VKRF65CRV0WVKKA7YW1" class="callout__title">Note: Eloqua Forms</h4>
+<ul>
+<li>As a best practice, you should ensure that all fields on Eloqua Forms that you want to use with Form CTAs are set up as contact fields, as custom fields do not work with the <a href="#h_5009732101091548432131936">Progressive Profiling</a> feature.</li>
+<li>Uberflip is not able to integrate with an Eloqua Form that contains label fields, or which contains an ampersand (&amp;) in its name.</li>
+<li>If you make any changes to an Eloqua Form that is connected to a Form CTA, you must disconnect and reconnect the Form CTA to update it.</li>
+</ul>
+</div>
+<p>If you know the Form ID of the Eloqua Form you want to use, type it into the field provided:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017799592" alt="Screenshot_2018-12-19__4_14_PM.png" width="701" height="316"></p>
+<div class="callout callout--success">
+<h4 id="h_01HB6Z7VKRHZADME58574SJXFF" class="callout__title">Tip: How to get an Eloqua Form ID</h4>
+<p>To get the Form ID for an Eloqua Form, bring up the Form you want to use in Eloqua and take a look at the URL.</p>
+<p>At the end of the URL, you should see <em><strong>&amp;id=###</strong></em>, where ### is a string of digits:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017799972" alt="Screenshot_2018-12-19__4_18_PM.png"></p>
+<p>These digits are the Form's Form ID. You can type these into the <strong>Enter an Eloqua Form ID</strong> box to select this Form for your CTA.</p>
+</div>
+<p>If you don't know the Form ID, click on <strong>Pick a Form ID</strong>. This will display the <strong>Select an Eloqua Form</strong> dropdown, which will retrieve a list of all the Forms in your Eloqua account. Use this dropdown to select the Form you want to use:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017687691" alt="Screenshot_2018-12-19__4_22_PM.png" width="697" height="221"></p>
+<p>(Note that, if you have a large number of Forms in Eloqua, this list can take a long time to load.)</p>
+<p>When you're ready to proceed, click on <strong>Next</strong>.</p>
+<div class="callout callout--warning">
+<h4 id="h_01HB6Z7VKR069YXN7A8S7ZZRRW" class="callout__title">Important Requirements for Oracle Eloqua Form CTAs</h4>
+<p>In order for your Form CTA to work properly with Oracle Eloqua, two requirements must be met:</p>
+<ol>
+<li>In Eloqua, you must create a <strong>Processing Step</strong> for the form, using <strong>Email Address</strong> as the field that uniquely identifies a contact. See <a href="https://help.uberflip.com/hc/en-us/articles/360021209251">this article</a> for instructions.</li>
+<li>The Eloqua Form you select must <strong>not</strong> <strong>have Form Validation enabled on</strong> <strong>any field</strong>. This is very important, as enabling Form Validation will break the integration, causing your Form CTA to not work.</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Marketo</strong></div>
+<div class="accordion__item-content">
+<p>For Form CTAs connected to Marketo, you'll be prompted to select a <strong>Marketo</strong><strong> List</strong>.</p>
+<p>Selecting a Marketo List is <strong>optional</strong>. If you choose a Marketo List, visitors who fill out the Form CTA will be added to the List you chose. If you do not choose a Marketo List, the incoming leads from the Form CTA will instead be added to your main Leads list in Marketo.</p>
+<p>Use the <strong>Marketo List</strong> dropdown to choose a List from your Marketo account:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017739271" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="700" height="241"></p>
+<p>If you don't want to choose a List, simply leave the dropdown set to <strong>No List</strong>.</p>
+<p>When you're ready to proceed, click on <strong>Next</strong>.</p>
+<div class="callout">
+<h4 id="h_01HB6Z7VKS1APQMNYDZ0DDZZCQ" class="callout__title">Important</h4>
+<p>Make sure that the list you choose is <strong>not</strong> a Marketo Smart List, as these can't be used with Form CTAs.</p>
+</div>
+<p> </p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Pardot</strong></div>
+<div class="accordion__item-content">
+<p>For Form CTAs connected to Pardot, you'll be prompted to select a <strong>Pardot</strong><strong> List</strong>.</p>
+<p>Selecting a Pardot List is <strong>optional</strong>. If you choose a Pardot List, visitors who fill out the Form CTA will be added to the List you chose. If you do not choose a Pardot List, the incoming leads from the Form CTA will instead be added to your main Prospects list in Pardot.</p>
+<p>Use the <strong>Select a List</strong> dropdown to choose a List from your Pardot account:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017762811" alt="Setting_Up_Form_CTAs_with_Pardot.png" width="431" height="443"></p>
+<p>If you don't want to choose a List, simply leave the dropdown set to <strong>No List</strong>.</p>
+<p>When you're ready to proceed, click on <strong>Next</strong>.</p>
+</div>
+</div>
+</div>
+<p> </p>
+<h2 id="h_01FF688XW3A9V5XVSW6CNT8PAJ">Set up the layout and fields of a Form CTA</h2>
+<p>The <strong>Layout</strong> section of the Form CTA Editor is where you set up the basic structure of the Form CTA, including its <strong>tagline</strong>, and the <strong>form fields</strong> that appear on it.</p>
+<p>You can get here by clicking the <strong>Next</strong> button from the <strong>Map Options</strong> section, or by clicking on the <strong>Layout</strong> button directly:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/4408886781965" alt="image.png"></p>
+<h3 id="h_01HB6Z7VKSB2C4347YZTRV6ENJ">Overview</h3>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017912612" alt="Hubs___Call-to-Action_Configuration_-_Uberflip_-__Private_Browsing_.png" width="700" height="378"></p>
+<p>The Layout page consists of three sections:</p>
+<h4 id="h_01HB6Z7VKS916BNJK3RDET39TE">
+<em>Information</em> section</h4>
+<p>Contains settings related to the general structure and behavior of the Form CTA:</p>
+<ul>
+<li><a href="#h_01FF68T6TG9J8GEVEZQ1KXRDYJ" target="_self"><strong>Tagline/Copy</strong></a></li>
+<li><a href="#h_01FF68TEHNMV0MAA3MF50VHR1T" target="_self"><strong>Opt-in</strong></a></li>
+<li><a href="#h_01FF68TQSDHSHHMR83YXTTJ7DM" target="_self"><strong>Form Fields</strong></a></li>
+<li><a href="#h_5009732101091548432131936" target="_self"><strong>Progressive Profiling</strong></a></li>
+<li><a href="#h_01FF68V8ENV2C2QBVKVDC3BTZA" target="_self"><strong>Button label</strong></a></li>
+</ul>
+<h4 id="h_01HB6Z7VKS41V6J5KKADWAH83V">
+<em>On Success</em> section</h4>
+<p>Contains settings related to the <strong>Success</strong> state of the Form CTA (which is shown when it has been successfully submitted by a visitor).</p>
+<ul>
+<li><a href="#h_01FF69144ZJH8DM2CD37FJ5GXR" target="_self"><strong>Success Message</strong></a></li>
+<li><a href="#h_01FF691G7RFBRNC1FJSVG8QR3N" target="_self"><strong>Link to Content</strong></a></li>
+<li><a href="#h_01FF691YGDCQHDFHJPQX1VDQNM" target="_self"><strong>Never hide this CTA</strong></a></li>
+<li>
+<a href="#h_01FF6950ED0SBNS3K3DWPWRTCP" target="_self"><strong>Fire G.A. Event </strong></a>(if Google Analytics integration is connected)</li>
+<li>
+<a href="#h_01FF695AXC6K520TD3NADHYNHD" target="_self"><strong>Use Pardot Form Handler</strong></a> (if CTA is connected to Pardot)</li>
+</ul>
+<h4 id="h_01HB6Z7VKS2HGEAPP1M20BYNT1">
+<em>Preview CTA</em> section</h4>
+<p>Displays a preview of the Form CTA in its three customizable states: <strong>Default</strong>,<strong> Focus</strong>, and <strong>Success</strong>. Use the buttons below the preview tile to switch between the different states:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017800491" alt="Hubs___Call-to-Action_Configuration_-_Uberflip_-__Private_Browsing_.png" width="244" height="219"></p>
+<p>Any changes you make to settings in the <em>Information</em> and <em>On Success</em> sections are saved automatically, and are shown live in the <em>Preview </em>section.</p>
+<h3 id="h_01FF68T6TG9J8GEVEZQ1KXRDYJ">Tagline/Copy</h3>
+<p>Use the <strong>Tagline/Copy</strong> field to type in the tagline you want to use. This is the main copy that invites the visitor to click the link.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017913792" alt="Hubs___Call-to-Action_Configuration_-_Uberflip_-__Private_Browsing_.png" width="701" height="272"></p>
+<ul>
+<li>Your tagline can be a <strong>maximum of 150 characters</strong><strong> long</strong>.</li>
+<li>The tagline is displayed only in the <strong>Default</strong> state.</li>
+<li>The default font size is set for taglines approx. 80-100 characters long. Longer taglines will run off the Tile (as shown in the preview), but you can adjust the font size in the <strong>Design </strong>section (see below).</li>
+<li>You can also use HTML tags like <em>&lt;b&gt;</em> (bold) and <em>&lt;i&gt;</em> (italics) to style your text. Add line breaks with <em>&lt;br&gt;</em> tags if you want to customize the position of the text. Keep in mind that HTML tags will count towards the character limit.</li>
+</ul>
+<h3 id="h_01FF68TEHNMV0MAA3MF50VHR1T">Opt-in</h3>
+<p>Check the box below <strong>Opt-in</strong> if you want to add an opt-in checkbox to the end of the form. Visitors can use this checkbox to consent to receive future emails from you.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017801571" alt="Hubs___Call-to-Action_Configuration_-_Uberflip_-__Private_Browsing_.png" width="701" height="305"></p>
+<ul>
+<li>The default label for this checkbox is <em>Opt-in To Future Emails. </em>To modify this label, type your preferred wording into the text field.</li>
+<li>There is no character limit on the length of the label.</li>
+<li>This checkbox is displayed below all form fields in the <strong>Focus</strong> state.</li>
+</ul>
+<h3 id="h_01FF68TQSDHSHHMR83YXTTJ7DM">Form Fields</h3>
+<p>Check the boxes next to each form field that you want to add to the Form CTA.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017804871" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="700" height="250"></p>
+<ul>
+<li>There are four default form fields: <strong>Email, First Name, Last Name</strong>, and <strong>Company Name</strong>.</li>
+<li>The form fields are displayed in the <strong>Focus</strong> state.</li>
+<li>The <strong>Email</strong> field is mandatory, and can't be hidden (unchecked). All other form fields can be hidden from the CTA by leaving their boxes unchecked.</li>
+<li>Click on <strong>Manage</strong> to customize your form fields: you can <strong>rename</strong>, <strong>reorder</strong>, and <strong>add/remove </strong>form fields. For help with managing form fields, see <a href="https://help.uberflip.com/hc/en-us/articles/360021266571">this article</a>.</li>
+</ul>
+<h3 id="h_5009732101091548432131936">Progressive Profiling</h3>
+<p>Check the box next to <strong>Show a maximum of ____ fields</strong> to enable the <strong>Progressive Profiling</strong> feature for the Form CTA. Use the field to type in the maximum number of form fields you want to display during each visitor's session.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017918832" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png"></p>
+<div class="callout callout--info">
+<h4 id="h_01HB6Z7VKS7CDR4A23SXFXFSJF" class="callout__title">Info</h4>
+<p>Progressive Profiling is an option that allows you to display only a specified subset of all the form fields configured on a Form CTA. Once a visitor fills these out, they will then be shown another subset of form fields during their next session, and so on. This allows you to progressively collect a potentially large amount of information without overloading visitors during any single Form CTA interaction.</p>
+<p>To learn more about Progressive Profiling and how to use it, see <a href="https://help.uberflip.com/hc/en-us/articles/360021016412">this article</a>.</p>
+</div>
+<h3 id="h_01FF68V8ENV2C2QBVKVDC3BTZA">Button label</h3>
+<p>Type the text that you want to appear on the button into the <strong>Button label</strong> field. This represents the action to submit the data entered into the form fields, but can also be used to represent the "action" that the tagline calls for (e.g. "Book a demo").</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017919432" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="700" height="292"></p>
+<ul>
+<li>The default label for the button is <em>Submit</em>.</li>
+<li>The button is displayed below all form fields and checkboxes in the <strong>Focus</strong> state.</li>
+<li>Your button label can be a <strong>maximum of 18 characters long</strong>.</li>
+<li>You can also use HTML tags like <em>&lt;b&gt;</em> (bold) and <em>&lt;i&gt;</em> (italics) to style your text.</li>
+</ul>
+<h3 id="h_01FF69144ZJH8DM2CD37FJ5GXR">Success Message</h3>
+<p>Use the <strong>Success Message</strong> field to type in the post-submission message you want to use. This message appears in the <strong>Success State</strong>, which is displayed when a visitor successfully submits the Form CTA.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017806891" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="699" height="350"></p>
+<ul>
+<li>The default text for the Success Message is <em>Thank you!</em>.</li>
+<li>The Success Message is displayed in the <strong>Success </strong>state, below a graphic of a checkmark.</li>
+<li>The message is <strong>not</strong> displayed when the Form CTA is used to gate an Item.</li>
+<li>Your Success Message can be a <strong>maximum of 40 characters</strong><strong> long</strong>.</li>
+</ul>
+<h3 id="h_01FF691G7RFBRNC1FJSVG8QR3N">Link to Content</h3>
+<p>Check the <strong>Link to Content</strong> box if you want to add a button link to the Success state. Type the URL of the link into the <strong>Link Destination </strong>box, or use the <strong>Find Item</strong> button to insert a link to an Item from your Hub. Type a label for the button into the <strong>Link Button label</strong> field.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017813471" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="699" height="349"></p>
+<ul>
+<li>The Link to Content button is displayed on the <strong>Success</strong> state.</li>
+<li>The default text for the Link Button label is <em>Enjoy</em>
+</li>
+<li>Your Link Button label can be a <strong>maximum of 18 characters</strong><strong> long</strong>.</li>
+</ul>
+<h3 id="h_01FF691YGDCQHDFHJPQX1VDQNM">Never hide this CTA</h3>
+<p>Once a visitor submits a Form CTA, the default behavior is to hide it from that visitor. In some cases, you might want to keep the CTA visible to known visitors who have already submitted it. In this case, check the box next to <strong>Never hide this CTA</strong>.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017813951" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="314" height="464"></p>
+<p>You can then choose between two options for what will be shown to visitors who have submitted the CTA:</p>
+<ul>
+<li>
+<strong>Show primary fields:</strong> Displays the form fields (i.e. <em>Focus</em> state).</li>
+<li>
+<strong>Show success message: </strong>Displays the Success Message (i.e. <em>Success </em>state), along with the Link to Content (if configured).</li>
+</ul>
+<h3 id="h_01FF6950ED0SBNS3K3DWPWRTCP">Fire G.A. Event</h3>
+<p>If you have <a href="https://help.uberflip.com/hc/en-us/articles/360022364072" target="_self">Google Analytics integrated with your Hub</a>, an additional <strong>Fire G.A. Event</strong> option will appear (this option is otherwise hidden). Check the box for this option if you want an event to be recorded in Google Analytics each time the Form CTA is submitted.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360025859472" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png"></p>
+<p>Google Analytics events have an Event Name and 2 parameters: <em>event_category</em> and<em> event_label</em><strong>.</strong> When you enable this option, the event that is recorded will have the following values for these parameters:</p>
+<ul>
+<li data-stringify-indent="0" data-stringify-border="0">
+<strong data-stringify-type="bold">Event Name: </strong>Form submit</li>
+<li data-stringify-indent="0" data-stringify-border="0">
+<em><strong>event_category:</strong></em> Uberflip CTA</li>
+<li data-stringify-indent="0" data-stringify-border="0">
+<em><strong>event_label:</strong></em> Uberflip-CTA-XXXXXX Success (where XXXXX is the unique ID of the Form CTA)</li>
+</ul>
+<p>To make use of the event in Google Analytics (GA4), you'll need to set up a<strong> custom Dimension </strong>in your Google Analytics account. Check out this <a href="https://support.google.com/analytics/answer/10075209?hl=en" target="_self">Google article</a> to see how that's done.</p>
+<h3 id="h_01FF695AXC6K520TD3NADHYNHD">Use Pardot Form Handler</h3>
+<p>If the Form CTA is connected to Pardot, you will see an additional <strong>Use Pardot Form Handler</strong> option. Check the box beside this option to enable it if you want to use a Form Handler with this Form CTA. When you enable this option, a text field will appear: here, paste in the URL of the Form Handler you want to use.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360028589752" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png"></p>
+<div class="callout callout--info">
+<h4 id="h_01HB6Z7VKSGVBH7R1KMCN3TYXF" class="callout__title">Note</h4>
+<p>When you enable this option, you must also enable the <strong>Never hide this CTA</strong> option at the same time. This is because a Form Handler is fired only when a visitor submits a Form CTA, so if a Form CTA is hidden (because a known visitor is already fully profiled), the Form Handler can't be fired. </p>
+<p>Given this restriction, keep in mind that using Form Handlers means that visitors may be asked to submit the same Form CTA multiple times.</p>
+</div>
+<p>When you have finished configuring the structure of your Form CTA, click on <strong>Next</strong> to proceed.</p>
+<p> </p>
+<h2 id="h_01FF689CEZ6FJ12W1K7CW0FSCM">Style a Form CTA</h2>
+<p>In the <strong>Design</strong> section of the Form CTA Editor, you can style your CTA by selecting colors and font size, and (optionally) setting a background image.</p>
+<p>You can get here by clicking the <strong>Next</strong> button from the <strong>Layout</strong> section, or by clicking on the <strong>Design</strong> button directly:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/4408893142541" alt="image.png"></p>
+<h3 id="h_01HB6Z7VKSAFN4KA1WHCVVZNJJ">Colors</h3>
+<p>You can set colors for four separate elements:</p>
+<ol>
+<li>
+<strong>Font color</strong>: The text color for the tagline (<em>Default</em> state), form field labels (<em>Focus</em> state) and Success Message (<em>Success</em> state)</li>
+<li>
+<strong>Background color</strong>: The color used for the background of the CTA Tile across all states</li>
+<li>
+<strong>Button font color:</strong> The color of the button text for the Submit button (<em>Focus</em> state) and the Link to Content button (<em>Success</em> state)</li>
+<li>
+<strong>Button background color: </strong>The color of the button body for the Submit button (<em>Focus</em> state) and the Link to Content button (<em>Success</em> state)</li>
+</ol>
+<p>Use the dropdown for each color option to choose a color from a list of <strong>presets</strong>, using the <strong>color picker</strong>, or by entering a <strong>hex code</strong>.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017928632" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="700" height="417"></p>
+<h3 id="h_01HB6Z7VKSBH0A3RG27Q6APFKB">Tagline Font Size</h3>
+<p>Use the <strong>Tagline/Copy Font Size</strong> slider to adjust the size of the tagline font. The text will re-flow automatically based on your selection. If your tagline is very long, your text may "slide off" the <em>Default</em> state of the Tile (or under the visible form field) with the default font size:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017928772" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="701" height="418"></p>
+<p>To fix this, try moving the slider to the left until all the text is visible:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017814451" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="700" height="418"></p>
+<div class="callout callout--info">
+<h4 id="h_01HB6Z7VKS0PF6FTVR63KNGCZ1" class="callout__title">Note</h4>
+<p>When the the tagline is re-flowed to adjust for different font sizes, long words will not be broken up across lines (hyphenated), so individual lines can be different lengths. Although the maximum character limit for taglines is 150, the <em>practical</em> limit may be lower if you use longer words, because they cannot be broken up across lines as efficiently. In other words, some very long taglines may still "slide under" the button even at the lowest font size setting.</p>
+</div>
+<p>Only the tagline font size can be changed: the button label, form field label and Success Message fonts are a fixed size, and can't be adjusted.</p>
+<h3 id="h_01HB6Z7VKS9CE8M1RK3R46V58G">Background Image</h3>
+<p>If you want, you can use a background image instead of a solid background color. Background images should be <strong>330 pixels high by 250 pixels wide</strong>, and should be in <strong>JPEG</strong> format.</p>
+<p>To set a background image, click on the <strong>Upload</strong> button and choose an image to use.</p>
+<p>On the next window that appears, use the slider to adjust the crop of your background image (the white outline represents the part that will be visible within the Tile):</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017815151" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png"></p>
+<p>When you're finished, click on <strong>Save</strong> to apply your background image.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017815411" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="699" height="418"></p>
+<p>The background image you set will override the <strong>Background color</strong> setting for <strong>only</strong> the <em>Default</em> state. The <em>Focus/Error</em> and <em>Success</em> states will still use the Background color:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017815491" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="699" height="417"></p>
+<p>When you're ready to proceed, click on <strong>Next</strong>.</p>
+<p> </p>
+<h2 id="h_01FF689YD20BJT7E4BMHBMPMNW">Place a Form CTA</h2>
+<p>In the <strong>Placements</strong> section of the CTA Editor, you can specify rules that define where in your Hub the Form CTA will be shown. You can get here by clicking the <strong>Next</strong> button from the <strong>Design</strong> section, or by clicking on the <strong>Placements</strong> button directly:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/4408893196813" alt="image.png"></p>
+<p>Create a placement to specify a particular Stream that the CTA will appear in, along with the location within that Stream and whether the CTA appears just once, or multiple times.</p>
+<p>Every individual placement is specific to a Stream. You can create as many placements for a CTA as you like, but you can only create one placement per Stream.</p>
+<ol>
+<li>To add a new placement, click on the <strong>+Add New Placement</strong> button:<br><img src="https://help.uberflip.com/hc/article_attachments/17130676415117" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png">
+</li>
+<li>Use the dropdown menu to <strong>select the Stream</strong> where you want to place the CTA, then click on <strong>+Add:</strong><br><strong><img src="https://help.uberflip.com/hc/article_attachments/17130692450445" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png"></strong>
+</li>
+<li>You'll be returned to the Form CTA Editor, where the new placement will be shown. Here, you can choose to place the CTA <strong>At Stream Level</strong>, <strong>At Item Level</strong>, or <strong>both</strong>.</li>
+</ol>
+<div class="tabs tabs--colored-2">
+<div class="tabs-menu">
+<span class="tabs-link is-active">At Stream Level</span> <span class="tabs-link">At Item Level</span> <span class="tabs-link">Both</span>
+</div>
+<div class="tab">
+<p>Form CTAs will be placed at Stream level by default, as indicated by the checkmark next to <strong>Will appear after Item ___</strong>:</p>
+<ul>
+<li>Use the <strong>+ and - buttons</strong> to specify where the CTA will appear in relation to the other Items in the Stream. The graphic to the right shows how this placement works:<br><br><img src="https://help.uberflip.com/hc/article_attachments/17130692452621" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="550" height="93">
+</li>
+<li>You can also check the box next to <strong>Repeat after every</strong> if you want the CTA to appear repeatedly in the Stream. Use the <strong>+ and -</strong> <strong>buttons </strong>to specify how many Items should appear between each appearance of the CTA.</li>
+</ul>
+</div>
+<div class="tab is-hidden">
+<p>By default, CTAs will not be displayed at Item level. If you want to place the Form CTA at Item level, you have two options:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017930672" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png"></p>
+<ul>
+<li>
+<strong>Show Beside:</strong> This option displays the Form CTA in the top right corner when a visitor clicks into an Item in the Stream. There are no further options to configure.</li>
+<li>
+<strong>Gate (block): </strong>This option places the Form CTA "in front of" a piece of content, so that the visitor has to interact with the CTA before they can consume the content. Selecting this option will also bring up additional settings to configure how the gate works:<br><br><img src="https://help.uberflip.com/hc/article_attachments/360017816771" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png"><br><br>For more details on gating with Form CTAs and instructions on configuring these settings, see <a href="https://help.uberflip.com/hc/en-us/articles/360021276731">this article</a>.</li>
+</ul>
+</div>
+<div class="tab is-hidden">
+<p>If you want, you can configure a Form CTA to use <strong>both types of placement</strong> (At Stream Level and At Item Level).</p>
+<p>To use both placement types at the same time, simply check the boxes for both types. You can also disable both types as a way of temporarily disabling that specific placement.</p>
+</div>
+</div>
+<p>Keep adding placements with the <strong>+Add New Placement</strong> button as needed. If you want to delete a placement, click on the <strong>Delete</strong> button next to it:<br><br><img src="https://help.uberflip.com/hc/article_attachments/17130692455053" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png"></p>
+<p>Once you have created your Link CTA placements, you're all set: the placements will become active immediately.</p>
+<p> </p>
+<h2 id="h_01HB6Z7VKSQ53RM7HZX967SR6S">Next Steps</h2>
+<p>When you have completed the basic setup of a Form CTA, there are also a number of additional actions and options available. To learn more, see the articles below:</p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360020855752">Create Variations of a CTA</a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360020855812">Hide a CTA</a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360021111671">Copy a CTA</a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360020859752">Embed a CTA on a Website (or Anywhere)</a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360021266571">Add, Remove and Customize Form Fields on Form CTAs</a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360021016412">Set Up Progressive Profiling on Form CTAs</a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360021276731">Gate High-Value Content with Form CTAs</a></li>
+</ul>]]></description>
+         <guid isPermaLink="false">360020989871</guid>
+         <pubDate>Fri, 14 Dec 2018 18:59:08 GMT</pubDate>
+      </item>
+      <item>
+         <title>Set up a Link CTA</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020735012-Set-up-a-Link-CTA</link>
+         <description><![CDATA[<hr>
+<p>Learn how to create, configure, and place Link CTAs in your Hub.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>To work with Link CTAs, you must be a member of the <strong>Account Administrator</strong>, <strong>Content Manager</strong>, or <strong>Demand Generation</strong> user groups.</li>
+<li>This article describes how to set up <strong>Link CTAs</strong> specifically. If you want to learn about Form CTAs, see <a href="https://help.uberflip.com/hc/en-us/articles/360020989871">this article</a>. If you want to learn about Uberflip CTAs generally, see <a href="https://help.uberflip.com/hc/en-us/articles/360020683852">this article</a>.</li>
+</ul>
+<p> </p>
+<h2>Create a new Link CTA</h2>
+<p>Begin by creating your new Link CTA. Once created, a Link CTA can be styled as you choose, and can be placed in various locations around your Hub.</p>
+<ol>
+<li>Log in to Uberflip and use the <strong>Hubs</strong> menu to select the Hub you want to work with.</li>
+<li>In the sidebar menu on the left, click on <strong>Calls-To-Action</strong>, then click on <strong>Link Calls-To-Action</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/4408876487821/image.png" alt="image.png">
+</li>
+<li>On the <strong>Link Calls-to-Action</strong> page, click on the <strong>Build Link CTA</strong> button:<br><img src="https://help.uberflip.com/hc/article_attachments/4408876536717/image.png" alt="image.png">
+</li>
+<li>In the <strong>Create Link CTA</strong> window, <strong>type a name</strong> for your CTA into the text field, then click the <strong>Create CTA </strong>button to finish creating the new Link CTA:<br><img src="https://help.uberflip.com/hc/article_attachments/4408876577805/image.png" alt="image.png">
+</li>
+<li>Your newly created Link CTA will automatically open in the Link CTA Editor, where you can <a href="#h_01FF61SHECSR0N1D6VETA32V57" target="_self">set up its layout</a>, <a href="#h_01FF61ST3GBS3FWCEZN83EE72H" target="_self">customize its appearance</a>, and <a href="#h_01FF61T3E7S7DEW5SS75Z82WJR" target="_self">select where in your Hub you want to place it</a>.</li>
+</ol>
+<p> </p>
+<h2 id="h_01FF61SHECSR0N1D6VETA32V57">Set up the layout of a Link CTA</h2>
+<p>When you set up a Link CTA in the Link CTA Editor, the first section that is shown is the <strong>Layout</strong> section. You can also get here by clicking on the <strong>Layout</strong> button directly:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/4408876788493/image.png" alt="image.png"></p>
+<p>In this section, you can configure the basic components of your Link CTA: the <strong>tagline</strong>, the <strong>button</strong>, and the <strong>hyperlink</strong> itself.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017512711/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="699" height="341"></p>
+<p>Any changes you make are saved automatically, and are shown live in the preview window on the right side.</p>
+<p>To set up the structure of your Link CTA, follow these steps:</p>
+<ol>
+<li>Type a <strong>tagline</strong> into the <strong>Tagline/Copy</strong> field. This is the main copy that invites the visitor to click the link.
+<ul>
+<li>Your tagline can be a <strong>maximum of 150 characters</strong><strong> long</strong>.</li>
+<li>The default font size is set for taglines approx. 80-100 characters long. Longer taglines will run off the Tile (as shown in the preview), but you can adjust the font size in the <strong>Design </strong>section (see below).</li>
+<li>You can also use HTML tags like <em>&lt;b&gt;</em> (bold) and <em>&lt;i&gt;</em> (italics) to style your text. Add line breaks with <em>&lt;br&gt;</em> tags if you want to customize the position of the text. Keep in mind that HTML tags will count towards the character limit.</li>
+</ul>
+</li>
+<li>Type the text that you want to appear on the button into the <strong>Button label</strong> field. This represents the "call" to the action you want visitors to perform.
+<ul>
+<li>Your button label can be a <strong>maximum of 18 characters long</strong>.</li>
+<li>You can also use HTML tags like <em>&lt;b&gt;</em> (bold) and <em>&lt;i&gt;</em> (italics) to style your text.</li>
+</ul>
+</li>
+<li>Under <strong>Link Action</strong>, use the dropdown to choose the type of link you want to create (e.g. <em>http://</em>, <em>mailto:</em>, etc.), then type the link into the field. This is where visitors will be taken when they click on the button.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360017631852/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="700" height="351"><br><br>
+</li>
+<li>When you're ready, click on <strong>Next</strong> to proceed to the <strong>Design</strong> section, where you can customize the styling (appearance) of your Link CTA.</li>
+</ol>
+<p> </p>
+<h2 id="h_01FF61ST3GBS3FWCEZN83EE72H">Style a Link CTA</h2>
+<p>In the <strong>Design</strong> section of the Link CTA Editor, you can style your CTA by selecting colors and font size, and (optionally) setting a background image.</p>
+<p>You can get here by clicking the <strong>Next</strong> button from the <strong>Layout</strong> section, or by clicking on the <strong>Design</strong> button directly:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/4408876772237/image.png" alt="image.png"></p>
+<h3>Colors</h3>
+<p>You can set colors for four separate elements:</p>
+<ol>
+<li>
+<strong>Font color</strong>: The color of the tagline text</li>
+<li>
+<strong>Background color</strong>: The color used for the background of the CTA Tile</li>
+<li>
+<strong>Button font color:</strong> The color of the button text</li>
+<li>
+<strong>Button background color: </strong>The color of the button body</li>
+</ol>
+<p>Use the dropdown for each color option to choose a color from a list of <strong>presets</strong>, using the <strong>color picker</strong>, or by entering a <strong>hex code</strong>.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017516351/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="700" height="397"></p>
+<p> </p>
+<h3>Tagline Font Size</h3>
+<p>Use the <strong>Tagline/Copy Font Size</strong> slider to adjust the size of the tagline font. The text will re-flow automatically based on your selection. If your tagline is very long, your text may "slide off" the Tile (or under the button) with the default font size:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017638992/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png"></p>
+<p>To fix this, try moving the slider to the left until all the text is visible:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017521951/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png"></p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>When the the tagline is re-flowed to adjust for different font sizes, long words will not be broken up across lines (hyphenated), so individual lines can be different lengths. Although the maximum character limit for taglines is 150, the <em>practical</em> limit may be lower if you use longer words, because they cannot be broken up across lines as efficiently. In other words, some very long taglines may still "slide under" the button even at the lowest font size setting.</p>
+</div>
+<p>Only the tagline font size can be changed: the button text font is a fixed size, and can't be adjusted.</p>
+<p> </p>
+<h3>Background Image</h3>
+<p>If you want, you can use a background image instead of a solid background color. Background images should be <strong>330 pixels high by 250 pixels wide</strong>, and should be in <strong>JPEG</strong> format.</p>
+<p>To set a background image, click on the <strong>Upload</strong> button and choose an image to use.</p>
+<p>On the next window that appears, use the slider to adjust the crop of your background image (the white outline represents the part that will be visible within the Tile):</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017638832/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="468" height="440"></p>
+<p>When you're finished, click on <strong>Save</strong> to apply your background image. The background image you set will override the <strong>Background color</strong> setting.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017522131/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png"></p>
+<p>When you're ready to proceed, click on <strong>Next</strong>.</p>
+<p> </p>
+<h2 id="h_01FF61T3E7S7DEW5SS75Z82WJR">Place a Link CTA</h2>
+<p>In the <strong>Placements</strong> section of the Link CTA Editor, you can specify rules that define where in your Hub the Link CTA will be shown. You can get here by clicking the <strong>Next</strong> button from the <strong>Design</strong> section, or by clicking on the <strong>Placements</strong> button directly:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/4408884912781/image.png" alt="image.png"></p>
+<p>Create a placement to specify a particular Stream that the CTA will appear in, along with the location within that Stream and whether the CTA appears just once, or multiple times.</p>
+<p>Every individual placement is specific to a Stream. You can create as many placements for a CTA as you like, but you can only create one placement per Stream.</p>
+<ol>
+<li>To add a new placement, click on the <strong>+Add New Placement</strong> button.<br><img src="https://help.uberflip.com/hc/article_attachments/360017539351/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png">
+</li>
+<li>Use the dropdown menu to <strong>select the Stream</strong> where you want to place the CTA, then click on <strong>+Add:<br></strong><strong><img src="https://help.uberflip.com/hc/article_attachments/360017539391/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png"></strong>
+</li>
+<li>You'll be returned to the Link CTA Editor, where the new placement will be shown. Here, you can choose to place the CTA <strong>At Stream Level</strong>, <strong>At Item Level</strong>, or <strong>both</strong>.</li>
+</ol>
+<div class="tabs tabs--colored-2">
+<div class="tabs-menu">
+<span class="tabs-link is-active">At Stream Level</span> <span class="tabs-link">At Item Level</span> <span class="tabs-link">Both</span>
+</div>
+<div class="tab">
+<p>Link CTAs will be placed at Stream level by default, as indicated by the checkmark next to <strong>Will appear after Item</strong> ___:</p>
+<ul>
+<li>Use the <strong>+ and - buttons</strong> to specify where the CTA will appear in relation to the other Items in the Stream. The graphic to the right shows how this placement works:<br><br><img src="https://help.uberflip.com/hc/article_attachments/360017655052/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="550" height="93"><br><br>
+</li>
+<li>You can also check the box next to <strong>Repeat after every</strong> if you want the CTA to appear repeatedly in the Stream. Use the <strong>+ and -</strong> <strong>buttons </strong>to specify how many Items should appear between each appearance of the CTA.</li>
+</ul>
+</div>
+<div class="tab is-hidden">
+<p>By default, Link CTAs will <strong>not</strong> be displayed at Item level. If you want the Link CTA to be shown when an Item in the Stream is viewed, set <strong>At Item Level</strong> to <strong>Show Beside</strong>. The CTA Tile will then be shown in the top right corner when a visitor clicks into an Item in the Stream.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360017692332/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png"></p>
+</div>
+<div class="tab is-hidden">
+<p>If you want, you can configure a Form CTA to use <strong>both types of placement</strong> (At Stream Level and At Item Level).</p>
+<p>To use both placement types at the same time, simply check the boxes for both types. You can also disable both types as a way of temporarily disabling that specific placement.</p>
+</div>
+</div>
+<p> </p>
+<p>Keep adding placements with the <strong>+Add New Placement</strong> button as needed. If you want to delete a placement, click on the <strong>Delete</strong> button next to it:<br><br><img src="https://help.uberflip.com/hc/article_attachments/360017578271/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png"></p>
+<p>Once you have created your Link CTA placements, you're all set: the placements will become active immediately.</p>
+<p> </p>
+<h2>Next Steps</h2>
+<p>When you have completed the basic setup of a Link CTA, there are also a number of additional actions and options available. To learn more, see the articles below:</p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360020855752">Create Variations of a CTA</a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360020855812">Hide a CTA</a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360021111671">Copy a CTA</a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360020859752">Embed a CTA on a Website (or Anywhere)</a></li>
+</ul>]]></description>
+         <guid isPermaLink="false">360020735012</guid>
+         <pubDate>Fri, 14 Dec 2018 18:58:29 GMT</pubDate>
+      </item>
+      <item>
+         <title>Create an animated CTA tile</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360029680311-Create-an-animated-CTA-tile</link>
+         <description><![CDATA[<hr>
+<p>Learn how to set an animated GIF as a CTA's background image to create an animated Link or Form CTA.</p>
+<hr>
+<p> </p>
+<h2 id="h_01H98R53CF94GA1FHE5J8A48GE">Before you begin</h2>
+<ul>
+<li>To create an animated CTA, you'll need to add Custom Code to your Hub. We won't go into detail on how to use or configure Custom Code in this article, so you should have an understanding of how to work with the Custom Code feature before you proceed. To learn how to use the Custom Code feature, see <a href="https://help.uberflip.com/hc/en-us/articles/360018841312" target="_self" rel="undefined">Add HTML, CSS, and JavaScript to your Hub with Custom Code</a>.</li>
+</ul>
+<p> </p>
+<h2 id="h_01H98R53CFZVS8P0A6KG61NF68">About animated CTA background images</h2>
+<p>In this article, you'll learn how to create an "animated CTA" by setting a GIF to be the CTA's background image. When displayed in your Hub, the background animation will play in a loop, creating an eye-catching CTA that stands out from your Item tiles.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360031424292" alt="Kapture_2019-06-19_at_12.38.43.gif"></p>
+<p> </p>
+<h2 id="h_01H98R53CF76GEXC7RX7MPHNVZ">Setup</h2>
+<h3 id="h_01H98R53CFYTDRWP676VZEP51A">Prepare the CTA and get its ID</h3>
+<p>Begin by getting the <strong>CTA ID </strong>of the CTA to which you want to apply an animated background.</p>
+<ul>
+<li>First, navigate to the <strong>Calls-to-Action</strong> section in your Hub and <strong>click on the CTA</strong> to open it. The CTA ID for the selected CTA will be shown beside its title, near the top of the screen:<br>
+<p><img src="https://help.uberflip.com/hc/article_attachments/4405167714317" alt="image.png"></p>
+</li>
+<li>While editing the CTA, make sure to <strong>remove any existing background image </strong>(if present) in the <strong>Design</strong> <strong>tab</strong> of the CTA editor.</li>
+</ul>
+<p> </p>
+<h3 id="h_01H98R53CFMHZT936BVWWQ3J5D">Get the animated GIF</h3>
+<p>You'll also need to prepare the <strong>animated GIF</strong> that you want to use as the background for the CTA. The background must meet these requirements:</p>
+<ul>
+<li>Be an <strong>animated</strong> <strong>GIF</strong> image (i.e. an animated image file with the file extension .gif)</li>
+<li>Be <strong>1.5 MB or smaller</strong> in size</li>
+<li>Be <strong>exactly </strong><strong>330 px tall</strong> by <strong>250 px wide</strong> (you won't be able to resize the image in Uberflip as you can with a normal CTA background image)</li>
+</ul>
+<p> </p>
+<h2 id="h_01H98R53CFH2QAAPKV3RF6J30D">Step 1: Upload the animated GIF</h2>
+<p>The first thing you need to do is upload the animated GIF to your Hub using the Image Manager and get its URL.</p>
+<ol>
+<li>Log in to your Hub.</li>
+<li>Click on <strong>Images</strong> in the left sidebar menu to open the Image Manager.</li>
+<li>Click on the <strong>Upload</strong> button.</li>
+<li>Choose the animated GIF that you want to use and upload it. You'll be returned to the Image Manager, and the GIF you just uploaded should appear at the top of the list.</li>
+<li>
+<strong>Copy the URL </strong>from the URL field for the animated GIF you just uploaded and make a note of it, as you'll need it again in a moment.</li>
+</ol>
+<p> </p>
+<h2 id="h_01H98R53CF1EF3THY8JFMW7SHC">Step 2: Set up the custom code block</h2>
+<p>The next step is to set up a custom code block that will insert the animated GIF as the background image of the CTA, and enter the code snippet that makes it work.</p>
+<h3 id="h_01H98R53CFBB2XK6S5Q8M3QAXG">Create or choose a custom code block</h3>
+<ol>
+<li>In your Hub, click on <strong>Appearance &gt; Custom </strong><strong>Code</strong> and either add a new custom code block (with any name/description of your choice), or edit an existing block.</li>
+<li>Set the placement of the code block to <strong>Head</strong>.</li>
+<li>
+<strong> Add one of the code snippets</strong><strong> below</strong> to the custom code block.</li>
+</ol>
+<h3 id="h_01H98R53CF3WDJMD9ACZEDBJSV">Add the custom code snippet</h3>
+<p>You'll need to choose the appropriate code snippet based on the version of the <strong>Uberflip Hub Front End</strong> that your Hub is using. If you're not sure which version you are on, <a href="https://help.uberflip.com/hc/en-us/articles/360051466431" target="_self">see this article for instructions</a>.</p>
+<h4 id="h_01H98R53CFEAPSKD7Q5HAEXAVY"><strong>For Front End V1 Hubs</strong></h4>
+<p>You can use this code snippet for both Form and Link CTAs.</p>
+<pre><code class="css">&lt;style&gt;<br>/* GIF CTA */<br> #hub-cta-<strong>[CTA ID GOES HERE]</strong> <br>{<br> background: url([<strong>URL GOES HERE</strong>]) !important;<br> background-color: inherit !important; <br> background-repeat: no-repeat !important;<br> background-origin: padding-box !important;<br> background-size: cover !important;<br> }<br>&lt;/style&gt;</code></pre>
+<h4 id="h_01H98R53CFVP7FN7WPSXM6GKPB"><strong>For Front End V2 Hubs</strong></h4>
+<p>Choose the corresponding code snippet for the type of CTA you are working with.</p>
+<p><strong>For a Form CTA:</strong></p>
+<pre><code class="css">&lt;style&gt;<br>/* GIF Form CTA */<br>/*form cta tile class */<br>.uf-form-cta-tile-<strong>[CTA ID GOES HERE]</strong><br>{<br>background-image: url(<strong>[URL GOES HERE]</strong>) !important;<br>background-color: inherit !important; <br>background-repeat: no-repeat !important;<br>background-origin: padding-box !important;<br>background-size: cover !important;<br>}<br>&lt;/style&gt;</code></pre>
+<p><strong>For a Link CTA:</strong></p>
+<pre><code class="css">&lt;style&gt;<br>/* GIF Link CTA */<br>/*link cta tile class */<br>.uf-link-cta-tile-<strong>[CTA ID GOES HERE]</strong><br>{<br>background-image: url(<strong>[URL GOES HERE]</strong>) !important;<br>background-color: inherit !important; <br>background-repeat: no-repeat !important;<br>background-origin: padding-box !important;<br>background-size: cover !important;<br>}<br>&lt;/style&gt;</code></pre>
+<h3 id="h_01H98R53CFG2YCWEB38NQMTB3G">Configure the custom code snippet</h3>
+<p>In the code snippet, there are two parameters you will need to configure to specify the CTA to be animated, and where the GIF is located (the URL you noted down earlier). These parameters bolded in the code snippets above:</p>
+<ul>
+<li>For <strong>[CTA ID GOES HERE]</strong>, insert the numerical <strong>CTA ID</strong> for the CTA to which you want to add the animated background. Do not include the square brackets.
+<ul>
+<li>Example: <code class="no-padding">123456</code>
+</li>
+</ul>
+</li>
+<li>For <strong>[URL GOES HERE]</strong>, insert the <strong>URL for the animated GIF</strong> that you copied from the Image Manager earlier. Do not include the square brackets.
+<ul>
+<li>Example: <code class="no-padding">url('https://content.cdntwrk.com/files/myanimatedgif.gif')</code>
+</li>
+</ul>
+</li>
+</ul>
+<div class="callout callout--info">
+<h4 class="callout__title" id="h_01H98R53CGQ0NM55S8MDB53HDZ">Note</h4>
+<p>Remember that each individual code snippet will add an animated background to <strong>one</strong> <strong>CTA only</strong> (the one you specify by its CTA ID). To add animated backgrounds to additional CTAs, you will need to add further instances of the code snippet to your custom code block, configured with the appropriate CTA IDs and URLs.</p>
+</div>
+<h3 id="h_01H98R53CGVDMNB08DXADBRADK">Save and enable the custom code block</h3>
+<ol>
+<li>Finally, click on the <strong>Save</strong> button to save your custom code block.</li>
+<li>Under <strong>Enable Custom Code</strong>, switch the toggle button to the <strong>on (green) </strong>position to enable the code snippet on your Hub.</li>
+<li>Your changes will take effect immediately, and you can test it by simply viewing any Stream in which the CTA has been placed.</li>
+</ol>
+<p> </p>
+<h2 id="h_01H98R53CGYCD4WD0612CVYQ78">Additional Notes</h2>
+<p>If you prefer, you can also host the animated GIF externally. In this case, simply:</p>
+<ul>
+<li>
+<strong>Skip</strong> <em>Step 1: Upload the animated GIF</em>.</li>
+<li>In <em>Step 2: Set up the custom code block</em>, insert the <strong>external</strong> <strong>URL where the animated GIF is hosted</strong> into the code snippet (for <strong>[URL GOES HERE]</strong>).</li>
+</ul>]]></description>
+         <guid isPermaLink="false">360029680311</guid>
+         <pubDate>Wed, 19 Jun 2019 16:28:35 GMT</pubDate>
+      </item>
+      <item>
+         <title>Set up a custom Form CTA integration</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360023028832-Set-up-a-custom-Form-CTA-integration</link>
+         <description><![CDATA[<hr>
+<p>Want to integrate your Hub with an external system that Uberflip doesn’t have a built-in integration for? To do that, you can create Custom Form CTAs.<strong><br></strong></p>
+<hr>
+<p> </p>
+<h2 id="h_01HB6ZPRFEVYFYQ6CX6WTN8EWP">Overview</h2>
+<p>Custom Form CTAs provide a method to push Uberflip CTA Data from Uberflip to an external service for further processing. They allow you to leverage Uberflip CTA functionality (Asset Gating, Show Besides, etc) without having to integrate a Marketing Automation Platform with Uberflip. This is useful in the following scenarios:</p>
+<ul class="list-bullet">
+<li>Your Marketing Automation Platform does not directly integrate with Uberflip</li>
+<li>You have a custom solution in place to ingest data</li>
+<li>You want to pass user data to a third party service for processing</li>
+</ul>
+<p> </p>
+<h2 id="h_01HB6ZPRFEB4BSNC5K8J9KSX7Z">Limitations</h2>
+<p>One thing that is important to understand about Custom Form CTAs is that they come with their own list of caveats and limitations. You will need to consider the following before attempting to create a Custom Form CTA:</p>
+<ul>
+<li>Anything to do with Marketing Automation Platform cookies will not be leveraged by the CTA. If you wish to use MAP tracking cookies, they will need to be managed through the Custom Code area of Uberflip.</li>
+<li>CTAs will always display, regardless of if they've been submitted before. This could be remedied with a custom code solution (leveraging the onCtaSubmitSuccess Javascript event within Uberflip. More information on how to do that can be found <a href="https://learn.uberflip.com/developer-guides/adding-javascript-to-your-hub">here</a>)</li>
+<li>Progressive Profiling is not available with Custom Form CTAs through Uberflip. This could be built as a custom Javascript solution, if desired.</li>
+<li>All data points will need to be assigned manually, including Uberflip conversion data. For example, uf_conversion_item_id would normally be pushed into a MAP field automatically. When using Custom Form CTAs, the JSON that is sent across will need to be leveraged and written to the contact record in the receiving system by the endpoint.</li>
+<li>Item tracking is not sent with the submit, only the last viewed stream. Any item tracking would need to be built as custom JS and appended to the CTA Submit manually (through hidden fields, for example)</li>
+</ul>
+<p> </p>
+<h2 id="h_01HB6ZPRFEYGXB69NYKYM6786N">Create an Endpoint</h2>
+<p>The first thing you have to do when creating a custom CTA is define where the data from your CTA submit is going to be sent once the user submits their information. This process is the "Custom" in Custom Form CTA, and is entirely up to you and your internal resources.</p>
+<p>When Uberflip sends CTA data, it is sent as JSON. Here's an example of what data is passed across in an Uberflip Custom Form CTA submission:</p>
+<pre><small>{
+    "event": "cta_submitted",
+    "occurred_at": "2016-05-31T11:24:33-04:00",
+    "account_id": 8227,
+    "cta_id": 10194,
+    "hub_id": 4003,
+    "submission": {
+        "url": "http:\/\/hub.dev.flyptech.com\/h\/i\/1232097-7-google-docs-hacks-for-more-efficient-content-creation",
+        "ip_address": "10.5.5.6",
+        "fields": {
+            "first_name": "John",
+            "last_name": "Doe",
+            "email_address": "john.doe@gmail.com",
+            "favourite_ice_cream": "dark_chocolate",
+            "opt_in_flag": "1"
+        },
+
+        "item_id": 1232097,
+        "stream_id": 38898,
+        "previous_item_id": 1232094,
+        "previous_stream_id": 38898
+    }
+}</small></pre>
+<p>In order to do anything with that information, we'll need something to receive and process that output. Once that piece has been built, we can then integrate that with Uberflip.</p>
+<p> </p>
+<h2 id="h_01HB6ZPRFE7WM6TS43ZZ9T2K6W">Set Up Custom Integration with Uberflip</h2>
+<p>In order to integrate your brand new endpoint, do the following:</p>
+<ol>
+<li>Go to Account Settings &gt; Integration &gt; Custom Integration<br><img style="width: 256px; height: 154px;" src="https://content.cdntwrk.com/files/aHViPTQyNjMxJmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzVhZjlhZjMyMzZiYmYucG5nJnZlcnNpb249MDAwMCZzaWc9MTE1NTAzMjgzNjc5NTRhYTEyZTk5OWNiM2U1Yzc2N2U%253D" alt="Custom Integrations Menu">
+</li>
+<li>Click "Add Custom Integration"<br><img style="width: 100%;" src="https://content.cdntwrk.com/files/aHViPTQyNjMxJmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzVhZjlhZjcyNDMwYzUucG5nJnZlcnNpb249MDAwMCZzaWc9ZTFjNzQzNDFkYWQyYzVhY2YyYjc0YzQ5NDFkY2I2MjM%253D" alt="">
+</li>
+<li>This screen has a few parameters; see below for instructions.</li>
+</ol>
+<p> </p>
+<h2 id="h_01HB6ZPRFEEWW59JPG7MACD5QR">Custom Integration Parameters</h2>
+<h3 id="h_01HB6ZPRFEYJRDBFT953VRN2V1">Required and Recommended</h3>
+<ul>
+<li>
+<strong>Name (Required)</strong>: The Name of your Custom Integration</li>
+<li>
+<strong>Description:</strong> A short description of your integration (i.e. what it does, what its for etc)</li>
+<li>
+<strong>On Submit (Required)</strong> - The action taken when a user submits your CTA. This is the mechanism that sends data to the endpoint that you've specified</li>
+</ul>
+<p><img style="width: 100%;" src="https://content.cdntwrk.com/files/aHViPTQyNjMxJmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzVhZjlhZmQzNDUwNWMucG5nJnZlcnNpb249MDAwMCZzaWc9MDIxMGJjYmZjZTk4NDJiNDIwYTVhMjA4OTU0MzJlZGU%253D" alt=""></p>
+<p> </p>
+<h3 id="h_01HB6ZPRFEAFKVDBY3N4AJDXH5">Optional</h3>
+<p><strong>On Create</strong>: Fires when a new CTA is created</p>
+<p><strong>On Update</strong>: Fires when a CTA is updated</p>
+<p><strong>On Delete</strong>: Fires when a CTA is deleted</p>
+<p><strong>On Get Fields</strong>: Fetches predefined CTA fields when you create a new CTA</p>
+<p> </p>
+<p>API Reference can be found <a href="https://platform.uberflip.com/form_cta_types/index.html">here</a>.</p>
+<p> </p>
+<h2 id="h_01HB6ZPRFE9WSPQRVXDQRWVA74">Configure Your CTA</h2>
+<p>The process for using your newly-minted Custom Form CTA is almost identical to using a regular Form CTA, with the following notes:</p>
+<ul>
+<li>The option you will select appears as the Name of the Custom Form CTA you defined in the Integration area earlier</li>
+<li>You will need to define which fields you want to see on the CTA, as no default fields are pushed into the Custom Form CTA (unless you've defined a "On Get Fields" action).</li>
+</ul>
+<p>From there, you can use and place this CTA as you would any other.</p>]]></description>
+         <guid isPermaLink="false">360023028832</guid>
+         <pubDate>Tue, 12 Feb 2019 19:22:40 GMT</pubDate>
+      </item>
+      <item>
+         <title>Use hidden fields to capture query string parameters with Form CTAs</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360021975011-Use-hidden-fields-to-capture-query-string-parameters-with-Form-CTAs</link>
+         <description><![CDATA[<hr>
+<p>If you use query string parameters when sharing links to your Hub, here's how you can capture that data in your Marketing Automation Platform whenever a lead submits a Form CTA.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>To do this, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+<li>You will also need to have <a href="https://help.uberflip.com/hc/en-us/articles/360020989871" target="_self">set up at least one Form CTA</a> in your Hub.</li>
+</ul>
+<p> </p>
+<h2>About query string parameters and Form CTAs</h2>
+<p>If you use <a href="https://en.wikipedia.org/wiki/Query_string">query strings</a> when you share links to your Hub content (e.g. for things like campaigns, social media platforms, etc.), you can set up your Form CTAs to send the values of these query string parameters to your Marketing Automation Platform (MAP) each time a Form CTA is submitted.</p>
+<p>To do this, you can use <strong><a href="https://help.uberflip.com/hc/en-us/articles/360021489991">hidden fields</a> on your Form CTAs </strong>to capture the values of a specified query string parameters. For example, say you use the query string parameter <strong>?campaign= </strong>to track your campaigns. Here's how it would work:</p>
+<ol>
+<li>First, create a new hidden field on a Form CTA.</li>
+<li>Next, specify the field in your MAP where you want to record the query string data. This will depend on the specific query string parameter you're capturing: in this case, the appropriate MAP field might be something like <em>Campaign Source</em> (or similar).</li>
+<li>Then, configure the hidden field to look for the query string parameter <strong>?campaign=</strong>. This sets up the hidden field to capture the value of that query string parameter if it is present in the visitor's URL when they enter your Hub.</li>
+<li>Finally, add the hidden field to the Form CTA.</li>
+</ol>
+<p>Now, anytime a visitor enters your hub using a link with the query string parameter ?<strong>campaign= </strong>and submits a Form CTA, Uberflip will capture the value of that query string parameter (i.e. the campaign name) and store it in the <em>Campaign Name</em> field in that visitor's lead profile in your MAP.</p>
+<p>A few things to note:</p>
+<ul>
+<li>
+<strong>This works even if the visitor moves between different pages in your Hub</strong> <strong>before submitting a Form CTA</strong>: When a visitor uses a URL with query strings to enter your Hub, Uberflip saves the query string parameters and values in the cache. That way they can still be captured by Form CTAs, even if the visitor moves between pages (which strips away the query strings from the URL).</li>
+<li>
+<strong>You need to set up individual hidden fields for each separate query string parameter</strong>: Because you have to specify the individual MAP field where query string data is recorded, you need to create a different hidden field for each query string parameter you want to capture.</li>
+<li>
+<strong>A Form CTA will only capture query string data if it contains the appropriate hidden field</strong>: If a visitor enters your Hub with a query string, but only submits a Form CTA to which you have <strong>not</strong> added a hidden field for that query string parameter, the query string data will not be recorded. You have to separately add hidden fields to each Form CTA on which you want to use them (or clone a CTA on which you set up the hidden fields and modify it).</li>
+</ul>
+<p>When you're ready to get started, see below for instructions on how to set this up.</p>
+<p> </p>
+<h2 id="h_537249306111547659144354">Prerequisite: Identify query string data and MAP field names</h2>
+<p>Before you can begin creating hidden fields to capture query string data, there are a few things you need to do:</p>
+<p><strong>First,</strong> <strong>determine</strong> <strong>which query string parameters you want to capture</strong>. Note that you need to specify the exact field(s) in your MAP where this data will be recorded, so you'll need to decide what kind of information you'll be capturing in order to choose the correct fields in your MAP.</p>
+<p><strong>Next, identify the field (or fields) in your MAP where the query string data will be captured. </strong>Your MAP contains a variety of data fields, and each is intended to store a specific type of data. Based on the query string data you've chosen, you will need to determine the appropriate field(s) in your MAP to store it. This will depend on your MAP, and how your organization uses it. If you're not sure which field to use, check with the administrator of your MAP.</p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p>Remember: in general, you'll need to use a separate MAP field for each individual query string parameter you want to capture.</p>
+</div>
+<p><strong>Finally, find the unique field name for each field you've identified. </strong>Every field in your MAP has a special "name" that uniquely identifies it. When you set up your Form CTA in Uberflip, you will need to use this unique field name to tell Uberflip where to send data captured from the query string.</p>
+<p>See below for instructions on where to find these unique field names in your MAP:</p>
+<div class="tabs">
+<div class="tabs-menu">
+<span class="tabs-link is-active">HubSpot</span> <span class="tabs-link">Marketo</span> <span class="tabs-link">Oracle Eloqua</span> <span class="tabs-link">Pardot</span>
+</div>
+<div class="tab">
+<p>In HubSpot, you're looking for the <strong>internal name </strong>of a property. To find the internal name for a property, follow these instructions:</p>
+<ol>
+<li>Log in to HubSpot.</li>
+<li>In the top right corner, click on the <strong>Gear icon</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360018885992/Property_settings.png" alt="Property_settings.png">
+</li>
+<li>This will open the <strong>Settings </strong>menu. In the sidebar on the left, click on <strong>Properties</strong>.</li>
+<li>In the list of properties, <strong>find the property</strong> you want to write the query string parameter value to and <strong>click on its name</strong> to see more details.</li>
+<li>Here, look for <strong>Internal name</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360018884892/Property_settings.png" alt="Property_settings.png" width="434" height="274">
+</li>
+<li>
+<strong>Use the internal name</strong> to specify this field when setting up the hidden field on your Form CTA.<strong><br></strong>
+</li>
+</ol>
+</div>
+<div class="tab is-hidden">
+<p>In Marketo, you're looking for the <strong>REST API Name </strong>of a field. To find the REST API Name for a field, follow these instructions:</p>
+<ol>
+<li>Log in to Marketo.</li>
+<li>In the top right corner, click on <strong>Admin</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360018886412/Marketo___My_Marketo.png" alt="Marketo___My_Marketo.png">
+</li>
+<li>This will open the <strong>Admin </strong>menu. In the sidebar on the left, click on <strong>Field Management</strong> (under <strong>Database Management</strong>):<br><img src="https://help.uberflip.com/hc/article_attachments/360018886552/Marketo___Field_Management___Admin.png" alt="Marketo___Field_Management___Admin.png">
+</li>
+<li>In the menu bar at the top, click on <strong>Export Field Names</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360018761071/Marketo___Field_Management___Admin.png" alt="Marketo___Field_Management___Admin.png">
+</li>
+<li>This will download an XLS file. Once the download has finished, <strong>open the file</strong>.</li>
+<li>The file should consist of a table with three columns. In the right-most column, <strong>Friendly Label</strong>, look for the field you want to write the query string parameter value to.</li>
+<li>When you find the field,<strong> look at the corresponding entry under the REST API NAME column:<br><img src="https://help.uberflip.com/hc/article_attachments/360018886872/Fields_xls__1_page_.png" alt="Fields_xls__1_page_.png"></strong>
+</li>
+<li>
+<strong>Use the REST API Name </strong>to specify this field when you set up the hidden field on your Form CTA.</li>
+</ol>
+</div>
+<div class="tab is-hidden">
+<p>In Oracle Eloqua, you're looking for the <strong>Database name </strong>of a field. To find the Database name for a field, follow these instructions:</p>
+<ol>
+<li>Log in to Oracle Eloqua.</li>
+<li>In the top right corner, click on the <strong>gear icon</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360018887252/Fullscreen_2019-01-15__5_55_PM.png" alt="Fullscreen_2019-01-15__5_55_PM.png">
+</li>
+<li>This will open the <strong>Settings </strong>menu. In the <strong>Database Setup</strong> section, click on <strong>Fields &amp; Views:<br><img src="https://help.uberflip.com/hc/article_attachments/360018887412/Fullscreen_2019-01-15__5_57_PM.png" alt="Fullscreen_2019-01-15__5_57_PM.png"></strong>
+</li>
+<li>In the <strong>Fields</strong> section, find the field you want to write the query string parameter value to and <strong>click on it </strong>to see more details.</li>
+<li>Here, look for <strong>Database name</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360018887652/Fullscreen_2019-01-15__6_01_PM.png" alt="Fullscreen_2019-01-15__6_01_PM.png" width="633" height="177">
+</li>
+<li>
+<strong>Use the Database name </strong>to specify this field when setting up the hidden field on your Form CTA.</li>
+</ol>
+</div>
+<div class="tab is-hidden">
+<p>In Pardot you're looking for the <strong>Field </strong>value of a Prospect Field. To find the Field value for a Prospect Field, follow these instructions:</p>
+<ol>
+<li>Log in to Pardot.</li>
+<li>In the sidebar on the left, click on <strong>Admin &gt; Configure Fields &gt; Prospect Fields</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360018887952/Fullscreen_2019-01-15__6_05_PM.png" alt="Fullscreen_2019-01-15__6_05_PM.png" width="670" height="440">
+</li>
+<li>In the list of <strong>Custom Fields</strong> or <strong>Default Fields</strong> (depending on the type), find the field you want to write the query string parameter value to.</li>
+<li>When you find the field,<strong> look at the corresponding value under the FIELD column:<br><img src="https://help.uberflip.com/hc/article_attachments/360018762631/Prospect_Fields_-_Pardot.png" alt="Prospect_Fields_-_Pardot.png" width="699" height="183"><br></strong>
+</li>
+<li>
+<strong>Use the value under the FIELD column</strong> to specify this field when setting up the hidden field on your Form CTA.</li>
+</ol>
+</div>
+</div>
+<p> </p>
+<h2>Set up Form CTA hidden fields to capture query string data</h2>
+<p>To capture query string parameter data each time a Form CTA is submitted, you'll use a <strong>hidden field</strong>. This is exactly what it sounds like: a field that is not visible to the visitors who fill out a Form CTA, and which invisibly passes data of your choice to the connected MAP each time the CTA is submitted.</p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p>Remember:</p>
+<ul>
+<li>You need to create <strong>a separate hidden field for each distinct query string parameter</strong> you want to capture.</li>
+<li>You must <strong>add each hidden field to each Form CTA individually</strong>. If a hidden field for a given query string parameter is not present on a particular Form CTA, that Form CTA will not send query string data for that parameter to your MAP.</li>
+</ul>
+</div>
+<ol>
+<li>
+<strong>Open the CTA Editor </strong>for the Form CTA on which you want to use the hidden field.</li>
+<li>Click on <strong>Layout</strong>, then click on <strong>Manage</strong> next to <em>Form Fields</em> to open the <em>Manage Fields </em>menu.</li>
+<li>Click on the <strong>Add New</strong> button to add a new field.</li>
+<li>In the <em>Search</em> box, <strong>type in the field label/name</strong> for the MAP field where you want to record the query string data. Make sure to use the regular field label when searching, <strong>not</strong> the unique field name you identified earlier. See below for what this label is called in the various MAPs:<br>
+<ul>
+<li>
+<strong>HubSpot</strong>: <em>Label</em>
+</li>
+<li>
+<strong>Marketo</strong>: <em>Friendly Label</em>
+</li>
+<li>
+<strong>Oracle Eloqua</strong>: <em>Display name</em>
+</li>
+<li>
+<strong>Pardot:</strong> <em>NAME</em>
+</li>
+</ul>
+</li>
+<li>When you have the field you want, click on <strong>Apply</strong>. This will populate the <em>API Name</em> and <em>Field Label </em>fields in the <em>Field Settings</em> section. <strong>Make sure the <em>API Name</em> matches the unique field name </strong>you identified earlier to verify that you have the correct field:<br><img src="https://help.uberflip.com/hc/article_attachments/360073689551/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png">
+<ul>
+<li>
+<strong>Note: </strong>If you want, you can also change the <em>Field label</em> text. This is the label that Uberflip will use to identify this hidden field in the CTA Editor. Since this is a hidden field, the label will not be visible to your visitors.</li>
+</ul>
+</li>
+<li>Under <strong>Field type</strong>, use the dropdown to select<strong> Hidden</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360073420752/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="320" height="285">
+</li>
+<li>You'll now see some additional options appear. Don't type anything into the <em>Hidden value</em> field. Instead, <strong>check the box</strong> next to <em>Allow query string values to populate this field<strong>:</strong></em><br><img src="https://help.uberflip.com/hc/article_attachments/360073425332/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png">
+</li>
+<li>A new field called <em>Param name </em>will appear. In this field, <strong>type in the name of the query string parameter you want to capture</strong> with this hidden field:<img src="https://help.uberflip.com/hc/article_attachments/360073427432/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png">
+<ul>
+<li>What you need to enter here is <strong>the part of the query string that's between the <em>? </em>and the<em> =</em></strong>. For example, if the query string is <em>?campaign=examplecampaign</em>, then you would enter <strong><em>campaign</em></strong> into the <em>Param name</em> field (as shown in the image above).</li>
+<li>By default, this field will be automatically pre-filled using the value from the <em>API Name</em> field above. However, <strong>these two values</strong> <strong>do not need to match</strong>. The query string parameter can be whatever you want — you just need to <strong>make sure that what you type into the<em> Param name</em> field matches the actual query string parameter </strong>you put in your links.</li>
+</ul>
+</li>
+<li>Click on the <strong>Save</strong> <strong>button</strong> to create the field and return to the <em>Manage Fields</em> menu. The newly created field will be shown under the <em>Existing Fields</em> list:<br><img src="https://help.uberflip.com/hc/article_attachments/360073702631/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="426" height="206">
+</li>
+<li>If necessary, <strong>repeat steps 3-9</strong> <strong>to create additional hidden fields</strong> for any other query string parameters you want to capture.</li>
+<li>When you're done, close the <em>Manage Fields </em>menu to return to the CTA Editor. Here, make sure to <strong>check the boxes next to the new hidden fields</strong> (under the <em>Form Fields</em> section) to add them to the Form CTA:<br><img src="https://help.uberflip.com/hc/article_attachments/360073431272/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png">
+</li>
+<li>You're done! Your changes will be saved automatically, and will take effect immediately <strong>o</strong><strong>n this Form CTA</strong>. Remember: form fields are specific to each Form CTA, so <strong>you have to create and add the new hidden field(s) to every CTA separately</strong>. You can either repeat the steps above for any other Form CTAs on which you want to capture query string data, or simply copy this CTA and modify it as needed.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360021975011</guid>
+         <pubDate>Mon, 14 Jan 2019 23:00:29 GMT</pubDate>
+      </item>
+      <item>
+         <title>Use hidden fields with Form CTAs</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360021489991-Use-hidden-fields-with-Form-CTAs</link>
+         <description><![CDATA[<hr>
+<p>Learn why and how to use hidden form fields on your Form CTAs.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>Hidden form fields are an optional feature that can be configured on Form CTAs. To learn about working with Form CTAs in general, see <a href="https://help.uberflip.com/hc/en-us/articles/360020989871">this article</a>. In addition, you can find information and instructions specific to form fields in <a href="https://help.uberflip.com/hc/en-us/articles/360021266571">this article</a>.</li>
+</ul>
+<p> </p>
+<h2>About hidden fields on Form CTAs</h2>
+<p>When you set up a Form CTA and customize the form fields that appear on it, you can choose among several different types of fields. Most of these are self-explanatory, such as text, dropdown, etc. But one that isn't quite as straightforward at first glance is the <strong>hidden</strong> field type. As the name suggests, a hidden field is unlike the other types because it's not user-facing. Instead, its purpose is to help automate tracking and attribution.</p>
+<p>Here's how it works: whenever a visitor to your Hub submits a Form CTA, the data they entered into the form fields is used to populate a lead profile in your Marketing Automation Platform (MAP). In many cases, it can be really helpful to add contextual information to a lead profile, such as where the lead was referred from, or if the CTA they used was part of a particular campaign.</p>
+<p>This is where hidden fields come in. You can use a hidden field to pass a value of your choice to a specified field in your MAP each time the CTA is submitted. This value can be a fixed text string (such as a campaign name, marketing persona, etc.), or you can automatically populate the hidden field with a URL query string (like a UTM string). In other words, you can use hidden fields to submit information with a CTA that the visitor would not submit themselves, and which can help you track related metrics like the effectiveness of your campaigns.</p>
+<p> </p>
+<h2 id="h_45949738991546615692418">Set up a hidden field with a fixed value</h2>
+<p>The general process for creating a hidden field is exactly the same as for any other form field type, and is described in detail <a href="https://help.uberflip.com/hc/en-us/articles/360021266571">here</a>. In this article, we will look only at configuring the options specific to hidden fields.</p>
+<p>The simplest way to use hidden fields is to use a fixed value. You specify a value of your choice, and this same value gets passed through every time the CTA is submitted.</p>
+<ol>
+<li>
+<strong>Open the CTA Editor </strong>for the Form CTA on which you want to use hidden fields and open the <strong>Manage Fields </strong>menu (<em>Form CTA Editor &gt; Layout &gt; Form Fields &gt; Manage</em>).</li>
+<li>Add a new field, and begin by using the <strong>Search</strong> box to locate the field in your MAP where you want to send the value from the hidden field. When you have the field you want, click on <strong>Apply</strong>. In the example below, we've chosen the <em>Persona</em> field in HubSpot to pass through a value representing the lead's marketing persona:<br><img src="https://help.uberflip.com/hc/article_attachments/360018312392/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="456" height="271">
+</li>
+<li>If you want, use the <strong>Field label</strong> box to change the "display name" of this field, or leave it as the default (it'll only be visible to you).</li>
+<li>Under <strong>Field type</strong>, use the dropdown to select<strong> Hidden:</strong> You'll now see some additional options appear:<br><img src="https://help.uberflip.com/hc/article_attachments/360018186071/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="340" height="250">
+</li>
+<li>Type the value you want to pass to your MAP into the <strong>Hidden value</strong> field. This is the value that will be sent to the MAP field you chose every time the CTA is submitted. In the example below, we want to send the value <strong>Demand Jenn</strong> to the <strong>Persona</strong> field in the MAP:<br><img src="https://help.uberflip.com/hc/article_attachments/360018186311/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png">
+</li>
+<li>Make sure the box next to <strong>Allow query string values to populate this field</strong> is left <strong>unchecked</strong>. This is used if you want to use a query string value instead of a fixed text value (<a href="#h_174882557551546554101287">see below</a>).<br><img src="https://help.uberflip.com/hc/article_attachments/360018186331/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png">
+</li>
+<li>Click on <strong>Save</strong> to save your new hidden form field. Back in the Form CTA Editor, don't forget to check the box next to the field under the <strong>Form Fields</strong> section of the <strong>Layout</strong> tab, as it will be unchecked by default right after you add it:<br><img src="https://help.uberflip.com/hc/article_attachments/360018186871/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png">
+</li>
+<li>That's it! The fixed value will now automatically be passed to your MAP when a visitor submits this Form CTA.</li>
+</ol>
+<p> </p>
+<h2 id="h_174882557551546554101287">Set up a hidden field with a query string parameter value</h2>
+<p>Alternatively, you can choose to automatically populate hidden fields with query string parameter values. To learn how to do that, see <a href="https://help.uberflip.com/hc/en-us/articles/360021975011">this article</a>.</p>]]></description>
+         <guid isPermaLink="false">360021489991</guid>
+         <pubDate>Wed, 02 Jan 2019 21:50:32 GMT</pubDate>
+      </item>
+      <item>
+         <title>Gate High-Value Content with Form CTAs</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360021276731-Gate-High-Value-Content-with-Form-CTAs</link>
+         <description><![CDATA[<hr>
+<p>Learn how to use your Form CTAs to "gate" premium content and replace your landing pages.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>Gating is an optional feature that can be configured on Form CTAs. To learn more about Form CTAs and how to set them up, see <a href="https://help.uberflip.com/hc/en-us/articles/360020989871">this article</a>.</li>
+</ul>
+<p> </p>
+<h2>About Gating with Form CTAs</h2>
+<p>As with Link CTAs, you can place your Form CTAs within your Streams or beside your Items. But Form CTAs also have one additional placement option that Link CTAs don't: <strong>Gate</strong>, which places the CTA <em>in front of</em> a content Item.</p>
+<p>When you place a Form CTA like this, the Item is literally "gated" by the Form CTA: visitors will be able to see the Item in the background, but they can't access it until they "open the gate" by interacting with the Form CTA:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360018271232/The_Content_Experience_Report___Uberflip.png" alt="The_Content_Experience_Report___Uberflip.png" width="424" height="425"></p>
+<p>Since the content is <em>right there</em>, prospects are motivated to fill out the Form CTA and convert — in our research, we've found that gating content with Form CTAs returns a 17% conversion rate on average.</p>
+<p>As a result, gating content is a highly effective way to deploy your Form CTAs, and helps you to better leverage your Hub's most valuable content to drive conversions.  Plus, Form CTAs can replace your traditional landing pages: not only does gating content with a Form CTA take a lot less time than building a landing page, it also performs <a href="https://hub.uberflip.com/blog/gating-content-this-one-small-change-will-7x-your-conversion-rate">7x better on average</a>.</p>
+<p> </p>
+<h2>Gate an Item with a Form CTA</h2>
+<p>Gating is a type of <a href="https://help.uberflip.com/hc/en-us/articles/360020989871#place-a-form-cta">Form CTA placement</a>, so you configure it in the same way as any other placement. To effectively gate an Item, you need to do the following:</p>
+<ul class="list-bullet">
+<li>Disable any Stream level placements for the Form CTA</li>
+<li>Enable gated Item level placement(s)</li>
+<li>Choose the Item(s) to be gated</li>
+</ul>
+<p>In this article, we'll assume you have already created the Form CTA you want to use. (If not, see <a href="https://help.uberflip.com/hc/en-us/articles/360020989871">this article</a> for instructions.)</p>
+<p> </p>
+<h3>Standard Method</h3>
+<p>This is the typical method that is also common to the other types of CTA placements.</p>
+<ol>
+<li>Navigate to the Form CTA which you want to use to gate content and click on it to open the <strong>Form CTA Editor</strong>.</li>
+<li>In the Editor, click on the <strong>Placements</strong> tab.</li>
+<li>If you have any existing placements, delete them. To do this, expand using the arrow on the right, then click on <strong>Delete</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360017578271/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="490" height="81">
+</li>
+<li>Click on the <strong>+Add New Placement</strong> button. Use the dropdown to select the Stream where the Items you want to gate are located, then click on the <strong>+Add </strong>button to create the placement.</li>
+<li>The new placement will be expanded automatically. Under the section <strong>At Stream Level</strong>, uncheck the box next to <strong>Will appear after Item</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360018282192/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png">
+</li>
+<li>Under the section <strong>At Item Level</strong>, click on the option <strong>Gate</strong><strong> (block) </strong>to select it:<br><img src="https://help.uberflip.com/hc/article_attachments/360018153491/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png">
+</li>
+<li>Additional options will now appear: <br><img src="https://help.uberflip.com/hc/article_attachments/360018153571/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png">
+</li>
+<li>If you want to gate <strong>all</strong> Items in this Stream, leave the selection next to <strong>Item</strong><strong>s </strong>on <strong>All</strong>. If you want to gate only one or more specific Items in the Stream, click on <strong>Select</strong>, then click on the <strong>Find Items</strong> button that appears:<br><img src="https://help.uberflip.com/hc/article_attachments/360018282772/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png">
+</li>
+<li>The <strong>Select Items to Block </strong>menu will appear as an overlay. Find the Item(s) you want to gate and click on each one to add them to the selection. Selected Items will be highlighted with a checkmark and the total number of Items in the selection is displayed in the lower right:<br><img src="https://help.uberflip.com/hc/article_attachments/360018283652/Hubs___Call-to-Action_Configuration_-_Uberflip_-__Private_Browsing_.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip_-__Private_Browsing_.png" width="700" height="298">
+</li>
+<li>When you're ready, click on <strong>Done</strong> to confirm your selection and return to the Form CTA Editor, where the number of selected Items will also be reflected next to the <strong>Find Items</strong> button:<br><img src="https://help.uberflip.com/hc/article_attachments/360018154651/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png">
+</li>
+<li>The <strong>Initial Delay</strong> option lets you set a time delay before the Form CTA appears on top of the Item. This allows the visitor to interact with the Item for anywhere from 5 to 90 seconds before being blocked by the CTA. In general, we recommend that you do <strong>not</strong> set a delay. If you want to enable this option, you can <strong>use the dropdown</strong> to select the desired delay duration:<br><img src="https://help.uberflip.com/hc/article_attachments/360018284852/Fullscreen_2019-01-03__12_50_PM.png" alt="Fullscreen_2019-01-03__12_50_PM.png">
+</li>
+<li>Enabling the <strong>Allow dismissal</strong> option allows visitors to "open the gate" by simply closing the Form CTA rather than submitting their details. In most cases, we recommend that you leave this option <strong>disabled</strong>. If you want to turn it on, check the box next to it:<br><img src="https://help.uberflip.com/hc/article_attachments/360018285172/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png">
+</li>
+<li>The <strong>Show Item body </strong>option is used for Items where the main content (such as an ebook or video) is accompanied by some additional body text. Enabling this option will gate only the main content behind the CTA, while the body text will be visible, like this: <br><img src="https://help.uberflip.com/hc/article_attachments/360018155611/The_Content_Experience_Report___Uberflip.png" alt="The_Content_Experience_Report___Uberflip.png" width="700" height="422"><br>This is useful for giving visitors some context and information about the gated content, which can help entice them to access it (by submitting the Form CTA). In most cases, we recommend that you <strong>enable</strong> this option. To do so, check the box next to it:<br><img src="https://help.uberflip.com/hc/article_attachments/360018155631/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png">
+</li>
+<li>Add any further placements as needed. Your changes will be saved automatically, and will become effective immediately.</li>
+</ol>
+<p> </p>
+<h3>Quick Method</h3>
+<p>You can also quickly place gates on individual Items as you browse through the <strong>Content</strong> section of Uberflip.</p>
+<ol>
+<li>In the sidebar menu on the left, click on <strong>Content</strong>.</li>
+<li>Under the <strong>Streams</strong> tab, click on the <strong>Stream</strong> that contains the Item you want to gate.</li>
+<li>You will be taken to the <strong>Items</strong> tab for that Stream, where you will see the Tiles for the Items in the Stream. Find the Item you want to gate and click on the <strong>padlock icon</strong> in the top right corner of its Tile:<br><img src="https://help.uberflip.com/hc/article_attachments/360018156711/Fullscreen_2019-01-03__1_25_PM.png" alt="Fullscreen_2019-01-03__1_25_PM.png" width="424" height="389">
+</li>
+<li>The <strong>Place CTA - Gate</strong> menu will appear in a new pop-up. Use the <strong>scroll bar</strong> at the bottom of the pop-up to scroll through all of the available Form CTAs in your Hub:<br><img src="https://help.uberflip.com/hc/article_attachments/360018156871/Hubs___Manage_-_Uberflip_-__Private_Browsing_.png" alt="Hubs___Manage_-_Uberflip_-__Private_Browsing_.png" width="456" height="458">
+</li>
+<li>You can also use the <strong>Search</strong> box at the top to narrow down the list. When you find the CTA you want to use, click on it to select it, then click on <strong>Place</strong>.</li>
+<li>You'll be returned to the <strong>Items </strong>tab, where the padlock icon will now appear in green to show that the Item is gated:<br><img src="https://help.uberflip.com/hc/article_attachments/360018289872/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png">
+</li>
+<li>You can also remove a gate from an Item in the same way: <strong>click on the padlock icon</strong> on a gated Item to open the <strong>Place CTA - Gate</strong> menu again, then click on the <strong>Remove</strong> button.<br><img src="https://help.uberflip.com/hc/article_attachments/360018161771/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png" width="448" height="235">
+</li>
+<li>In the <strong>Place CTA - Gate</strong> menu, you can also click on the <strong>pencil icon</strong> in the top right. This will open the Form CTA Editor for the selected CTA, where you can configure it in more detail if needed:<br><img src="https://help.uberflip.com/hc/article_attachments/360018291392/Fullscreen_2019-01-03__1_42_PM.png" alt="Fullscreen_2019-01-03__1_42_PM.png" width="450" height="270">
+</li>
+</ol>
+<div class="callout callout--info">
+<h4 class="callout__title">Info: Quick Method Placements</h4>
+<ul>
+<li>If the Item you want to gate is in the same Stream as another Item that is already gated with the same Form CTA, this will simply add the Item to the selected Items for that placement (as if you had used the <strong>Find Items</strong> button).</li>
+<li>If no placements for the Stream exist, this will create a new placement with the following settings:
+<ul>
+<li>At Stream level placements: <strong>None (</strong><strong>disabled)</strong>
+</li>
+<li>At Item level placement: <strong>Gate (block)</strong>
+</li>
+<li>Items: <strong>Select </strong>(with <strong>1 selected</strong>)</li>
+<li>Initial Delay: <strong>None</strong>
+</li>
+<li>Allow dismissal: <strong>Disabled</strong>
+</li>
+<li>Show Item body: <strong>Enabled</strong>
+</li>
+</ul>
+</li>
+</ul>
+</div>]]></description>
+         <guid isPermaLink="false">360021276731</guid>
+         <pubDate>Fri, 21 Dec 2018 21:43:53 GMT</pubDate>
+      </item>
+      <item>
+         <title>Set Up Progressive Profiling on Form CTAs</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360021016412-Set-Up-Progressive-Profiling-on-Form-CTAs</link>
+         <description><![CDATA[<hr>
+<p>Use Progressive Profiling on your Form CTAs to avoid overwhelming visitors with a lot of form fields, and potentially increase conversion rates.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>Progressive Profiling is an optional feature that can be configured on Form CTAs. To learn more about Form CTAs and how to set them up, see <a href="https://help.uberflip.com/hc/en-us/articles/360020989871">this article</a>.</li>
+</ul>
+<p> </p>
+<h2>How Progressive Profiling Works</h2>
+<p>When you set up a Form CTA, one of the options you can enable is <strong>Progressive Profiling</strong>, which allows you to limit how many of the CTA's form fields are displayed to visitors.</p>
+<p>Here's how it works: imagine you need to collect a lot of visitor data, say eight or more distinct pieces of information. To do that, your Form CTA would need the same number of form fields. However, your conversion rate on a CTA with something like eight form fields probably won't be great — not many people are willing to fill out such a long form, and asking for that much at once can feel intrusive and off-putting.</p>
+<p>Progressive Profiling was made for this kind of CTA. If you enable it and set the limit to a more reasonable number (three fields, for example), your conversion rate should improve: now, when a visitor sees this CTA for the first time, they only have to fill in three fields before they can hit the <em>Submit</em> button. As a result, they'll be much more likely to interact with the CTA than if they had to fill in all eight fields.</p>
+<p>But what about the other five fields? Whenever that same visitor sees the same CTA again (for example, gating another piece of content), they'll be shown the next three fields that they hadn't filled out yet. This continues each time that visitor encounters the CTA — until they have completed all the fields, at which point the CTA is no longer shown.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Info</h4>
+<ul class="list-bullet">
+<li>Progressive Profiling will display a specified "set" of form fields. Each set consists of the chosen number of fields, formed using <a href="https://help.uberflip.com/hc/en-us/articles/360021266571">the order specified in the Form CTA settings</a> (<em>Layout &gt; Form Fields &gt; Manage</em>).<br><img src="https://help.uberflip.com/hc/article_attachments/360018076451/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="382" height="196"><br>For example, using the order above, sets consisting of two fields would be: <em>Set 1 [Email, First Name];</em> <em>Set 2 [Last Name, Company Name]</em>.</li>
+<li>The number of fields in a set is a maximum, so it does not need to evenly divide the number of total fields. For example, if you specify that each set contains three fields, but there are eight total fields, this will simply result in in two sets of three fields and one set of two fields.</li>
+<li>Progressive Profiling can be enabled on Form CTAs connected to HubSpot, Marketo, Oracle Eloqua and Pardot, but <strong>not </strong><strong>on</strong><strong> Form CTAs connected to</strong> <strong>MailChimp</strong>.</li>
+</ul>
+</div>
+<p> </p>
+<h2>Enable and Configure Progressive Profiling</h2>
+<p>You can turn on Progressive Profiling on any Form CTA connected to a <a href="#h_676891933431546447763428'">supported MAP</a>, but the best place to use it is on the Form CTAs that <a href="https://help.uberflip.com/hc/en-us/articles/360021276731">gate your most valuable content</a>. In this way, as visitors consume more of your premium content, you can build an increasingly comprehensive profile of them, which can help you to better target them as a prospect.</p>
+<ol>
+<li>Navigate to the Form CTA on which you want to enable Progressive Profiling and click on it to open the <strong>Form CTA Editor</strong>.</li>
+<li>In the Editor, click on the <strong>Layout</strong> tab.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360018077591/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="558" height="135"><br><br>
+</li>
+<li>Look for the <strong>Progressive Profiling</strong> section on the left and check the box next to <strong>Show a maximum of ___ fields</strong>:<br><br><img src="https://help.uberflip.com/hc/article_attachments/360018077651/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="288" height="352"><br><br>
+</li>
+<li>Then, use the box to <strong>type in the number of fields</strong> you want to be shown to visitors each time they see the CTA.</li>
+<li>Your changes will be saved automatically, and will be applied immediately.</li>
+</ol>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important: Oracle Eloqua Form CTAs</h4>
+<p>If you are using Progressive Profiling with a Form CTA connected to Oracle Eloqua, note that <strong>all required fields on the connected Eloqua Form must be displayed </strong>the first time the Form CTA is shown to a visitor. In other words, you can't set maximum number of fields displayed to a  number lower than the number of required fields on the Eloqua Form.</p>
+<p>For example, if the Eloqua Form has five required fields, but you have configured the Form CTA to display only four fields to the visitor, the resulting form submission in Eloqua will fail when the visitor submits the Form CTA.</p>
+</div>]]></description>
+         <guid isPermaLink="false">360021016412</guid>
+         <pubDate>Fri, 21 Dec 2018 18:04:17 GMT</pubDate>
+      </item>
+      <item>
+         <title>Add, Remove and Customize Form Fields on Form CTAs</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360021266571-Add-Remove-and-Customize-Form-Fields-on-Form-CTAs</link>
+         <description><![CDATA[<hr>
+<p>Learn how to customize the form fields on a Form CTA.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>Form fields are a feature that can be configured on Form CTAs. To learn more about Form CTAs and how to set them up, see <a href="https://help.uberflip.com/hc/en-us/articles/360020989871">this article</a>.</li>
+</ul>
+<p> </p>
+<h2>About Customizing Form Fields</h2>
+<p>Form CTAs are basically forms: they consist of individual <strong>form fields</strong> that each collect a specific piece of information. As with any type of form, a big part of setting up a Form CTA is choosing what kind of information you want to collect and designing your form fields accordingly. On a Form CTA, you can customize your form fields in the following ways:</p>
+<ul>
+<li>Add and remove form fields</li>
+<li>Modify previously added form fields</li>
+<li>Rearrange the display order of form fields</li>
+<li>Rename form field labels</li>
+<li>Specify the target fields (see note) to record data in the connected Marketing Automation Platform (MAP)</li>
+<li>Select the type of form field (text, checkbox, etc.)</li>
+<li>Choose whether a form field is optional or mandatory</li>
+<li>Set up <a href="https://help.uberflip.com/hc/en-us/articles/360020221931">conditional and "Label Only" form fields</a>
+</li>
+</ul>
+<div class="callout callout--info">
+<h4 class="callout__title">Note: Marketo Fields</h4>
+<p>You can use the following Marketo field types with Form CTAs:</p>
+<ul>
+<li>Lead Info (such as First Name, Last Name, Email)</li>
+<li>Company Info</li>
+<li>Text &amp; Numeric</li>
+</ul>
+<p>These Marketo field types are <strong>not supported:</strong></p>
+<ul>
+<li>Opportunity Info</li>
+<li>Date</li>
+</ul>
+<p>Marketo does not directly support the concept of dropdown fields. To work around this, you can use a text field in Marketo and make the corresponding Form CTA field a <em>Select (Drop Down)</em> field.</p>
+</div>
+<p> </p>
+<h2>Manage Form Fields</h2>
+<p>To begin customizing form fields on a Form CTA, you'll need to open the <em>Manage Fields</em> menu.</p>
+<ol>
+<li>Navigate to the Form CTA on which you want to customize the form fields and click on it to open the <strong>Form CTA Editor</strong>.</li>
+<li>In the Editor, click on the <strong>Layout</strong> tab.<br><img src="https://help.uberflip.com/hc/article_attachments/360018077591/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="558" height="135">
+</li>
+<li>Look for the <strong>Form Fields</strong> section and click on the <strong>Manage</strong> link:<br><img src="https://help.uberflip.com/hc/article_attachments/360018217772/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png">
+</li>
+<li>The <strong>Manage Fields</strong> menu will open as an overlay, and you can now begin customizing the form fields on the selected Form CTA.</li>
+</ol>
+<p> </p>
+<h2>Rearrange Form Fields</h2>
+<p>Within the Form CTA, form fields are ordered vertically, one field per line. You can modify the order in which these fields appear within the Form CTA:</p>
+<ol>
+<li>In the <strong>Manage Fields</strong> menu, you will see a list of <strong>Existing Fields</strong>. The order in which the fields appear here is how they will appear in the Form CTA shown to visitors:<br><img src="https://help.uberflip.com/hc/article_attachments/360018092771/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png">
+</li>
+<li>To reorder the fields, simply<strong> click and hold</strong> on a field you want to move, then <strong>drag it</strong> to where you want it to appear in the list.<br><img src="https://help.uberflip.com/hc/article_attachments/360018093471/Kapture_2019-01-02_at_16.05.53.gif" alt="Kapture_2019-01-02_at_16.05.53.gif">
+</li>
+<li>The new order will be saved automatically and applied immediately.</li>
+</ol>
+<p> </p>
+<h2 id="h_864750515331548368832425">Add Form Fields</h2>
+<p>You can add as many form fields as you like (though if you plan to add more than four or five fields, we recommend using <a href="https://help.uberflip.com/hc/en-us/articles/360021016412">Progressive Profiling</a> to optimize the effectiveness of your Form CTA). Each new form field you add must be linked to an existing field in the Marketing Automation Platform (MAP) connected to the CTA. This MAP field is where information entered into the form field will be recorded.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note: Oracle Eloqua Form Fields</h4>
+<p>When a Form CTA is connected to Oracle Eloqua, it integrates directly with an Eloqua Form. As a result:</p>
+<ul>
+<li>All available fields on the Eloqua Form will automatically be added to the Form CTA</li>
+<li>Only fields already configured on the Eloqua Form will be available to add to the Form CTA. To add further form fields, you must first add them to the Eloqua Form (in Eloqua).</li>
+</ul>
+</div>
+<ol>
+<li>In the <strong>Manage Fields </strong> menu, click on the <strong>+Add New</strong> button in the top right.<br><img src="https://help.uberflip.com/hc/article_attachments/360018093831/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png">
+</li>
+<li>The <strong>Add New Field </strong>menu will appear. Begin by using the <strong>Search</strong> field to identify the corresponding field in your MAP. Fields matching your search term will be auto-suggested (the screenshot below shows what this looks like for a HubSpot Form CTA, but the interface is the same for all MAPs):<br><img src="https://help.uberflip.com/hc/article_attachments/360018222572/Fullscreen_2019-01-02__4_14_PM.png" alt="Fullscreen_2019-01-02__4_14_PM.png">
+</li>
+<li>Once you find the field you want, click on it, then click <strong>Apply</strong>. The <strong>API Name</strong> and <strong>Field Label</strong> will be automatically filled in based on your selection:<br><img src="https://help.uberflip.com/hc/article_attachments/360018222772/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="480" height="299">
+</li>
+<li>If you want to modify the field label as it appears on the Form CTA, simply modify it in the text box provided.</li>
+<li>Under <strong>Field type</strong>, use the dropdown menu to choose what kind of form field you want to use. See the <a href="#h_78012f27-4c8a-4c76-8f94-2b4bfffb3b0e" target="_self">reference guide</a> below for more information about the available types.</li>
+<li>If you choose the <strong>Text</strong> or <strong>Select (Drop Down)</strong> form field types, check the box next to <strong>Required</strong> below if you want to make the form field mandatory.</li>
+<li>Under <strong>Displays</strong>, you can configure if you want to make this form field conditional (if available). For information about using this feature, see <a href="https://help.uberflip.com/hc/en-us/articles/360020221931">this article</a>.</li>
+<li>When you are finished, click on <strong>Save</strong>. You'll be returned to the main <strong>Manage Fields</strong> menu, where your new field will now be listed:<br><img src="https://help.uberflip.com/hc/article_attachments/360018096811/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="550" height="318">
+</li>
+<li>The new form field will also appear under the <strong>Form Fields</strong> section in the Form CTA Editor, but it will be unchecked by default. To add a newly added form field to your CTA, you must check its box here first:<br><img src="https://help.uberflip.com/hc/article_attachments/360018225672/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png">
+</li>
+<li>Your changes will be saved automatically and applied immediately.</li>
+</ol>
+<h3 id="h_78012f27-4c8a-4c76-8f94-2b4bfffb3b0e">Reference: Field Types</h3>
+<p>There are five field types you can choose from:</p>
+<div class="tabs">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Text</span> <span class="tabs-link">Select (Drop Down)</span> <span class="tabs-link">Checkbox</span> <span class="tabs-link">Hidden</span> <span class="tabs-link">Label Only</span>
+</div>
+<div class="tab">
+<p>The default option. Presents the form field as a simple text-entry box:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360018224152/Fullscreen_2019-01-02__4_40_PM.png" alt="Fullscreen_2019-01-02__4_40_PM.png"></p>
+</div>
+<div class="tab is-hidden">
+<p>Presents the form field as a dropdown menu that allows users to make a selection from a predetermined list:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360018224112/Fullscreen_2019-01-02__4_40_PM.png" alt="Fullscreen_2019-01-02__4_40_PM.png" width="213" height="331"></p>
+<p>The corresponding field in the MAP must also be a list, as it provides the list options displayed in the dropdown. Once this option is selected, a <strong>Field Options</strong> section will appear that shows the list options provided by the MAP:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360018224032/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png" width="383" height="365"></p>
+<p>If desired, you can reorder and rename the list options shown.</p>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip: CSV Upload Option</h4>
+<p>Need to create a lot of options for your dropdown menu? If your Form CTA is connected to <strong>Marketo</strong> or <strong>Pardot</strong>, you also have the option of uploading a CSV file containing all the options, rather than creating them manually. To use this option, simply click the <strong>Upload</strong> button that appears next to <strong>Field Options</strong>:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360036532031/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png"></p>
+<p>Then, choose the a CSV file from your computer to upload. The file must be in .csv format and consist of two columns: column 1 must contain the labels, and column 2 must contain the corresponding values.</p>
+<p>Note that this option is not available for Form CTAs connected to HubSpot, Oracle Eloqua, or MailChimp.</p>
+</div>
+</div>
+<div class="tab is-hidden">
+<p>Presents a labeled checkbox that visitors can choose to check or not check:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360018224492/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png"></p>
+<p>Checkbox form fields can't be set as mandatory.</p>
+</div>
+<div class="tab is-hidden">
+<p>Adds a form field that is not visible to visitors. This is useful for passing a unique value to your MAP each time a CTA is submitted in order to track metrics on that CTA. You can find more information in <a href="https://help.uberflip.com/hc/en-us/articles/360021489991">this article</a>.</p>
+</div>
+<div class="tab is-hidden">
+<p>A non-interactive form field that simply adds a text string of your choice to the Form CTA. Useful for GDPR privacy statements. More info can be found in <a href="https://help.uberflip.com/hc/en-us/articles/360020221931">this article</a>.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360018225332/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png"></p>
+</div>
+</div>
+<p> </p>
+<h2>Edit and Remove Form Fields</h2>
+<p>In addition to simply hiding them from your Form CTA, you can modify or delete existing form fields at any time.</p>
+<ol>
+<li>In the <strong>Manage Fields</strong> menu, find the field you want to modify or delete.</li>
+<li>To <strong>modify</strong> it, click on its <strong>pencil </strong><strong>icon</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360018225932/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png">
+</li>
+<li>This will open the current configuration of the form field, similar to when you created it.</li>
+<li>To <strong>delete</strong> a form field, click on the <strong>x icon</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360018096931/Hubs___Call-to-Action_Configuration_-_Uberflip.png" alt="Hubs___Call-to-Action_Configuration_-_Uberflip.png">
+</li>
+<li>You'll be prompted to confirm whether you really want to delete the form field. Click on <strong>OK</strong>, and it will be removed immediately.</li>
+<li>As always, your changes will be saved automatically and will take effect right away.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360021266571</guid>
+         <pubDate>Fri, 21 Dec 2018 17:20:52 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

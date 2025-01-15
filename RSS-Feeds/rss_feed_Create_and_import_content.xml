@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Create and import content</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Create a new blog post</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/25430088305677-Create-a-new-blog-post</link>
+         <description><![CDATA[<p>Got a fresh thought you want to put out into the world? Time to craft a new blog post. This is easily done in the Item editor! This article will show you how to craft a new blog post from scratch. </p>
+<p> </p>
+<h2 id="h_01HYE5X3ZEPMX8MRCB2BXTX3ZF">Before you begin</h2>
+<ul>
+<li>To create Blog Streams, you’ll need <strong>Account Admin</strong> or <strong>Content Manager </strong>permissions</li>
+<li>To write a new blog post, you must first <a href="https://help.uberflip.com/hc/en-us/articles/360025342851"><span style="color: #1155cc;">create a blog Stream</span></a> to house your blog</li>
+</ul>
+<p> </p>
+<h2 id="h_01HYE5XHC2G89CMFKXGAR28K2J">Accessing the Item editor</h2>
+<p>The Item editor can be found in a blog Stream editor page. Here’s how to find it:</p>
+<div class="callout callout--info">
+<h4 id="h_01HYE5YF61BBNTVQ0Y2VG3QP2G" class="callout__title">Note</h4>
+<p><strong>You’ll need a blog Stream</strong> in place to create blog posts. If needed, check out <a href="https://help.uberflip.com/hc/en-us/articles/360025342851">Create a Blog Stream</a> to see how that’s done.</p>
+</div>
+<ol>
+<li>Click Content in the sidebar menu<br><img src="https://help.uberflip.com/hc/article_attachments/27137069760013" width="300" height="194">
+</li>
+<li>In the<strong> Streams tab, </strong>find the blog Stream you want to write a post<br><strong>Note: </strong>If you don’t have one already, you’ll need to <a href="https://help.uberflip.com/hc/en-us/articles/360025342851"><span style="color: #1155cc;">create a new blog Stream</span></a>. </li>
+<li>Click into the blog Stream to open the Stream editor</li>
+<li>In the Items tab, click the tile with a + icon that is shown in the first Item spot<br><img src="https://help.uberflip.com/hc/article_attachments/26914002257293" width="496" height="239">
+</li>
+<li>Enter a blog post title <em>(this can be changed later)</em> and <strong>click Create</strong>
+</li>
+</ol>
+<p>That’s it! You’re now in the Item editor. Read on to learn the basics of the Item editor so you can start crafting your post. </p>
+<p> </p>
+<h2 id="h_01HYE61Y4M6YRXDBJ82PM0RRK0">Item editor basics</h2>
+<p>Here are the basic features of the Item editor that you can use to craft your next blog post. </p>
+<p> </p>
+<h3 id="h_01HYE61Y4MQB1AVP0X5B1RYDMS"><span style="color: #434343;">Rich text editor </span></h3>
+<p>Uberflip’s blog editor includes a rich text editor, similar to the ones you’d find in any text editor <em>(like Google Docs and Word)</em>. </p>
+<p>Depending on the size of your screen, more or less rich text will be shown in the toolbar. You can click the more menu (three dot icon •••) to see all rich text tools. <img src="https://help.uberflip.com/hc/article_attachments/26913979803405" width="624" height="80"></p>
+<p> </p>
+<h3 id="h_01HYE61Y4MH1WTEA2JCTAVEGTE">
+<span style="color: #434343;">Insert stuff </span><em><span style="color: #434343;">(other than text)</span></em>
+</h3>
+<p>The blog editor allows you to easily insert useful web elements into your blog post, including: </p>
+<ul>
+<li>
+<a href="https://help.uberflip.com/hc/en-us/articles/25430157641741">Media images</a> <em>(with captions)</em>
+</li>
+<li>Links</li>
+<li>Videos (<em>and embeddable presentations, like Google Slides)</em>
+</li>
+<li>Code samples</li>
+<li>Tables</li>
+<li>Special characters</li>
+<li>Horizontal lines</li>
+<li>Anchors</li>
+</ul>
+<p>Click the corresponding icon in the toolbar to add these. If you don’t know the icons, you can find a labeled list by clicking<strong> Insert</strong>.<br><img src="https://help.uberflip.com/hc/article_attachments/26913979815181" width="295" height="264"></p>
+<p> </p>
+<h3 id="h_01HYE630NT3BRQKVDB5XY81PY9"><span style="color: #434343;">Edit the source code</span></h3>
+<p>Want deeper technical customization of your blog post? Looking to embed a code snippet to bring some cool tech into the post? You can! </p>
+<p>To open the code editor, click <strong>View &gt; Source Code</strong>.<br><img src="https://help.uberflip.com/hc/article_attachments/27136282996365" width="601" height="91"></p>
+<p> </p>
+<h2 id="h_01HZ2KWP7RPFADC7GS0W360RP2">Publish your post</h2>
+<p>When you're done creating your new blog post, it'll be saved as a draft automatically. <strong>Click Publish</strong> to set it live right away. <br><img src="https://help.uberflip.com/hc/article_attachments/27137069791885" width="600" height="223"><br>Or, <a href="https://help.uberflip.com/hc/en-us/articles/360020084712">schedule the post to publish at a later date</a>. </p>]]></description>
+         <guid isPermaLink="false">25430088305677</guid>
+         <pubDate>Thu, 28 Mar 2024 19:53:52 GMT</pubDate>
+      </item>
+      <item>
+         <title>Import content into Uberflip</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/8469735684621-Import-content-into-Uberflip</link>
+         <description><![CDATA[<p><span style="font-weight: 400;">Content is the backbone of any content experience <em>(no content, no experience)</em>. In Uberflip, you can pull content in from several sources. This gives you the ability to then curate and distribute that content as personalized experiences for any audience. </span></p>
+<p>After you've connected a content source, that source remains connected to Uberflip. This means that when content is added or updated at the source, it's also added/updated in your Uberflip account!</p>
+<p><span style="font-weight: 400;">This article shows you how to connect content sources to Uberflip, so you can import your digital marketing assets.</span></p>
+<div class="callout callout--info">
+<h4 id="h_01HV2CA8AJR9QSFF67R1E45QRF" class="callout__title">Note</h4>
+<p><span style="font-weight: 400;"><strong>Want to create blog posts from scratch in Uberflip?</strong> Check out: <a href="https://help.uberflip.com/hc/en-us/articles/360025342851" target="_self">Create a Blog Stream</a></span></p>
+</div>
+<p> </p>
+<h2 id="h_01HV2CA8AK89G9AWN0J4F54J29"><span style="font-weight: 400;">Before you begin</span></h2>
+<ul>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">You must be an </span><strong>Account Admin</strong><span style="font-weight: 400;"> or </span><strong>Content Manager</strong><span style="font-weight: 400;"> to import content into Uberflip</span>
+</li>
+</ul>
+<p><strong><strong> </strong></strong></p>
+<h2 id="h_01HV2CA8AKM55MVV7Z53279YK7"><span style="font-weight: 400;">What can I import?</span></h2>
+<p><span style="font-weight: 400;">There are</span><strong> 7 content sources</strong><span style="font-weight: 400;"> you can import from with Uberflip: </span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Blogs <em>(using an RSS feed)</em></span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Flipbook folders <em>(for Flipbooks and PDFs)</em></span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Vidyard  </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Wistia  </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">YouTube </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Vimeo </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Brightcove </span></li>
+</ul>
+<div class="callout callout--danger">
+<h4 id="h_01HV2CA8AKGY5X4VJ5XBRK46NN" class="callout__title">SlideShare Streams have been retired</h4>
+<p><strong>The ability to create new SlideShare Streams has ended.</strong> Check out <a href="https://help.uberflip.com/hc/en-us/articles/14930427293709" target="_blank" rel="noopener noreferrer">SlideShare Streams are being retired [Nov. 2023]</a> for details. </p>
+</div>
+<h2 id="h_01HV2CA8AK3063GDJSTNX75NH1"><span style="font-weight: 400;">Import content into Uberflip</span></h2>
+<p><span style="font-weight: 400;">The process for importing content from each source is a bit different, but it always begins the same way. So let’s start there: </span></p>
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In the Hub you want to add content to, head to the </span><strong>Content</strong><span style="font-weight: 400;"> page if you’re not already there <em>(found in the sidebar navigation)</em><br></span><img src="https://help.uberflip.com/hc/article_attachments/13017221398285" alt="mceclip0.png" width="250" height="281">
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>New Stream</strong> (in the <em>Streams</em> tab)<strong><br></strong> <span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/8690833526925" alt="abcd.png"><br></span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Choose the content source you want to import from in the </span><em><strong>Source Streams</strong></em><span style="font-weight: 400;"> list<br></span><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/13213526195853" alt="mceclip0.png" width="400" height="402"></span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">A modal screen specific to the content type you’ve selected will open</span></li>
+</ol>
+<p><span style="font-weight: 400;">From here, the process changes for each content source. Expand the section for your chosen content source below to continue:</span></p>
+<div class="accordion accordion--colored">
+<div class="accordion__item">
+<div class="accordion__item-title">
+<strong>Blog posts </strong><em>(RSS feed)</em>
+</div>
+<div class="accordion__item-content">
+<p><strong>Before you begin: Prepare your external blog for importing into Uberflip</strong></p>
+<p>Default RSS settings are often not configured to include all articles, or may not include images.</p>
+<p>To get the best results when importing external blog content, we recommend <a href="https://help.uberflip.com/hc/en-us/articles/360020841051" target="_self">optimizing the RSS feed settings</a> <strong><em>before</em></strong> creating the Blog Stream in Uberflip. </p>
+<p>After the RSS feed is optimized, use the steps below to import it into Uberflip: </p>
+<ol>
+<li>In the first text field, enter the URL for your external blog's RSS feed<br><img src="https://help.uberflip.com/hc/article_attachments/13799522646925" width="400" height="401">
+</li>
+<li>In the <em><strong>Advanced Options</strong></em> section, you can configure various options for this Blog Stream by checking the applicable boxes. <a href="#h_8ca43243-d757-482c-aa75-4867e45ffb75" target="_self">See below</a> for more information about the available options.
+<ul>
+<li>By default, all options are disabled (unchecked). You don't need to enable any of these options to proceed.</li>
+<li>The <strong>Start from scratch</strong> option allows you to create an empty Blog Stream, rather than importing content. See below for more information.</li>
+</ul>
+</li>
+<li>Click <strong>Create</strong>
+</li>
+<li>Uberflip will begin importing posts from your blog. When it's done, you'll see a confirmation message. To view the Items that were imported, click <strong>View Stream.</strong>
+</li>
+</ol>
+<p>That's it! Your blog content has been imported into your Hub. And all new posts added to that RSS feed in the future will be imported automatically.</p>
+<h3 id="h_8ca43243-d757-482c-aa75-4867e45ffb75">Blog Stream Options</h3>
+<p>When you create a new Blog Stream that imports content from an external blog, you can enable various options. Here's what each option does:</p>
+<ul>
+<li>
+<strong>Start from scratch: </strong>Enable this option to create a new, empty Blog Stream that you can post to from within Uberflip. <a href="#h_6c35c954-15e0-4c65-a547-ebd6678f09b0" target="_self">See below</a> for more instructions. Enabling this option automatically disables all the options below.</li>
+<li>
+<strong>Allow small images to be used for thumbnails: </strong>By default, images must be at least 180 px x 100 px to be used as thumbnail images for Items (posts) in a Blog Stream. If your thumbnails are smaller than this, you can enable this option to use them anyway.</li>
+<li>
+<strong>Automatically match author profiles</strong><strong>: </strong>If the authors of the content on the external blog also exist as <a href="https://help.uberflip.com/hc/en-us/articles/360019000331" target="_self">authors in Uberflip</a>, enabling this option will match the appropriate Uberflip author profiles to the imported content.</li>
+<li>
+<strong>Allow class attributes, style and font tags to be imported:</strong> By default, Uberflip strips out CSS class attributes and other tags when importing external content. Enable this option to keep these elements intact in the content after import. Note that any referenced classes, fonts, etc. must be defined in <a href="https://help.uberflip.com/hc/en-us/articles/360018841312" target="_self">your Hub's Custom Code</a> for the corresponding formatting to be retained.</li>
+<li>
+<strong>Automatically create and apply tags from RSS to items</strong><strong>: </strong>Enable this option to automatically create Uberflip tags from any tags contained in the RSS feed.</li>
+</ul>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title">
+<strong>Flipbook folders</strong><em> (Flipbooks and PDFs)</em>
+</div>
+<div class="accordion__item-content">
+<p>In Uberflip, <strong>Flipbooks Streams</strong> can be made from <em>Flipbook folders</em>.</p>
+<p>If you already have a Flipbook folder ready to be turned into a Stream, select it from the dropdown in the <em>Add a Flipbooks Stream</em> modal. Then click <strong>Import</strong>.<br><img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" src="https://help.uberflip.com/hc/article_attachments/8497414603021" alt="abcde.png" width="399" height="400"></p>
+<p>If you want to <strong>upload a new PDF</strong>, you can do so with the steps below: </p>
+<ol>
+<li>In the content modal, click <strong>Upload PDF</strong><br><img src="https://help.uberflip.com/hc/article_attachments/8499203748493" alt="a.png" width="400" height="401">
+</li>
+<li>The <strong>Create new Flipbook </strong>window will appear, where you will be on the <strong>Choose File</strong> page<br><img src="https://help.uberflip.com/hc/article_attachments/25763917420301" alt="Hubs___Manage_-_Uberflip.png" width="500" height="325">
+</li>
+<li>Use the tabs on the left to choose your upload method. You can use any of the following methods to upload your PDF:
+<ul>
+<li>
+<strong>From My Computer</strong>: Use this option if you have the PDF file stored on your computer.</li>
+<li>
+<strong>Import from URL</strong>: If your PDF file is stored on a web server where it is directly accessible using a link, use this option to paste in the link. Note that FTP is not supported. To upload files via FTP, see <a href="https://help.uberflip.com/hc/en-us/articles/360020032611">this article</a>.</li>
+<li>
+<strong>From Dropbox/Box/Google Drive</strong>: Choose one of these options to connect a cloud storage account where the file is stored. When using one of these methods, you can choose to upload multiple PDFs at once.</li>
+</ul>
+</li>
+<li>When you've selected your PDF file, click <strong>Next</strong>
+</li>
+<li>Now on the <strong>Settings</strong> page:
+<ol>
+<li> <strong>Choose a folder </strong>for your Flipbook. Your flipbook will be kept in this folder, and will be added to any Stream created from this folder. All folder settings will apply to this Flipbook.</li>
+<li>
+<strong>Name your Flipbook</strong> in the field provided (this will be pre-populated using the filename of the PDF)</li>
+<li>Under <strong>When your should your Flipbook publish/activate</strong>, choose whether you want it to become available immediately after it is uploaded, or choose a specific date and time on which to publish it instead<br><img src="https://help.uberflip.com/hc/article_attachments/8517801242509" alt="1234.png" width="500" height="325">
+</li>
+</ol>
+</li>
+<li>Click <strong>Next </strong>when you're ready to proceed</li>
+<li>Now on the <strong>Options </strong>page, choose whether you want to run an <strong>Auto-Link job</strong> on your new Flipbook
+<ul>
+<li>See <a href="https://help.uberflip.com/hc/en-us/articles/360020720231">this article</a> to learn about the Auto-Link tool.<br><img src="https://help.uberflip.com/hc/article_attachments/25763933870221" alt="Hubs___Manage_-_Uberflip.png" width="500" height="323">
+</li>
+</ul>
+</li>
+<li>Click <strong>Upload</strong>
+</li>
+</ol>
+<p>After uploading, you'll be returned to the <strong>Manage Folder</strong> view. You'll see the new Flipbook listed here, where it will initially be shown as being in processing. Depending on the size of the PDF, this may take a few minutes.</p>
+<p>When the Flipbook is published, it'll be added to any Stream created from that Flipbook folder.</p>
+<div class="callout callout--success">
+<h4 id="h_01HV2CA8AK16RC5K9RXV173HC1" class="callout__title">Tip</h4>
+<p><strong>Want to start editing your Flipbook right away? </strong>From the <em>Manage Folder</em> page, Click on the PDF. Then click <strong>Load in Page Editor</strong> (found under <em>Flipbook options</em>).</p>
+<p>Check out <a href="https://help.uberflip.com/hc/en-us/articles/360020665071" target="_self">Get started with the Flipbook Page Editor</a> to learn about editing Flipbooks.</p>
+</div>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Vidyard videos</strong></div>
+<div class="accordion__item-content">
+<ol>
+<li>You'll now see the <strong>Add a Vidyard Stream</strong> screen. <strong>Paste your <a href="https://knowledge.vidyard.com/hc/en-us/articles/360009875814-Access-your-Vidyard-API-tokens" target="_self" rel="undefined">Vidyard API token</a></strong> into the field provided.<br><img src="https://help.uberflip.com/hc/article_attachments/12917641839117" alt="mceclip2.png" width="400" height="402">
+</li>
+<li>Click <strong>Import</strong>
+</li>
+<li>Uberflip will begin importing players from the Vidyard account associated with that token. When it's done, you'll see a confirmation message. To view the Items that were created for these players, click <strong>View Stream</strong> </li>
+</ol>
+<p>That's it! Your Vidyard content has been imported into your Hub, and is now available to be included in the content experiences you create. </p>
+<div class="callout callout--success">
+<h4 id="h_01HV2CA8AKR07DV02T82V03TYY" class="callout__title">Tip</h4>
+<p>Does your Vidyard account contain a lot of players? By default, Vidyard Streams will pull in a <strong>maximum of 50 players</strong>. If you need to import more than that, please <a href="https://help.uberflip.com/hc/en-us/requests/new">contact Uberflip Support</a> for help.</p>
+</div>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Wistia videos</strong></div>
+<div class="accordion__item-content">
+<p><strong>First time connecting to Wistia:</strong></p>
+<p>Click the <strong>Connect</strong> button. A login or authorization window will appear. Follow the steps to connect your Wistia account to Uberflip.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/12918722284301" alt="Screen_Shot_2023-02-07_at_12.24.38_PM.png" width="449" height="197"></p>
+<p>When done, the browser window will close automatically, and you'll be returned to the <strong>Content</strong> section of Uberflip, with a message that Wistia was successfully connected. You're ready to create your Wistia Streams.<br><br><strong>When Wistia is connected: </strong></p>
+<ol>
+<li>In the <em><strong>Streams </strong></em>tab of the Content page, click <strong>New Stream</strong><br><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/8690833526925" alt="abcd.png"></span>
+</li>
+<li>Select <strong>Wista </strong>again in the <em>Source Streams</em> list<br><img src="https://help.uberflip.com/hc/article_attachments/13079897470605" alt="mceclip0.png" width="400" height="402">
+</li>
+<li>The <strong>Add a Wistia Stream</strong> modal will open<br><img src="https://help.uberflip.com/hc/article_attachments/12917766306317" alt="Screen_Shot_2023-02-07_at_12.00.35_PM.png" width="399" height="401">
+</li>
+<li>Under<em> Import Videos by Project</em>,<strong> click the dropdown box and select the project</strong> you want to import videos from into this Stream.</li>
+<li>Uberflip will begin importing videos from the selected project (up to 100 most recent). When it's done, you'll see a confirmation message that shows the number of videos that were imported.<br><br>To view the content Items that were created for these players, click on the <strong>View Stream</strong> button</li>
+</ol>
+<p>That's it! Content from the selected Wistia project has been imported into your Hub, and is now available to be included in your content experiences. New videos uploaded to the connected project will be imported automatically. </p>
+<p>If you want to bring in content from other projects, simply create additional Wistia Streams.</p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>YouTube videos</strong></div>
+<div class="accordion__item-content">
+<p><strong>First time importing videos from YouTube: </strong></p>
+<p>You'll see a <strong>Connect</strong> button in the content modal. Clicking this will open a Google account login window. Login as you normally would to connect to YouTube.<br><img src="https://help.uberflip.com/hc/article_attachments/12921232294029" alt="Screen_Shot_2023-02-07_at_1.36.45_PM.png" width="502" height="220"></p>
+<p>After you've successfully logged in, you'll see a success message and be brought back to the Content page.</p>
+<p><br><strong>When YouTube is connected:</strong></p>
+<ol>
+<li>In the <em><strong>Streams </strong></em>tab of the Content page, click the <strong>New Stream</strong> button<br><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/8690833526925" alt="abcd.png"></span>
+</li>
+<li>In the modal that opens, click <strong>YouTube</strong> in the <em>Source Streams</em> list<br><img src="https://help.uberflip.com/hc/article_attachments/25763933875981" alt="mceclip0.png" width="401" height="403">
+</li>
+<li>The <strong>Add a YouTube Stream</strong> modal will open<br><img src="https://help.uberflip.com/hc/article_attachments/12921287012621" alt="Screen_Shot_2023-02-07_at_1.38.02_PM.png" width="500" height="227">
+</li>
+<li>Click on the dropdown box, and choose what you want to import:<br>
+<div class="callout callout--info">
+<h4 id="h_01HV2CA8AKS5RN20H1A5FYAWY0" class="callout__title">Note</h4>
+<p>You can import public and unlisted videos (including live streams), but <strong>not</strong> private videos.</p>
+</div>
+<ol>
+<li>
+<strong>Import all your videos:</strong> Select the <strong>All Videos </strong>option to import all videos from the connected YouTube channel</li>
+<li>
+<strong>Import a playlist: </strong>Select <strong>a playlist</strong> from the list of playlists in the connected YouTube channel to import just the videos from that playlist</li>
+</ol>
+</li>
+<li>Once you have selected an option, Uberflip will begin importing videos. When this is done, you'll see a confirmation message that shows the number of videos that were imported.<img src="https://help.uberflip.com/hc/article_attachments/12921388564493" alt="Screen_Shot_2023-02-07_at_1.41.01_PM.png" width="400" height="401">
+</li>
+<li>To view the content Items that were created for these videos, click on the <strong>View Stream</strong> button</li>
+</ol>
+<p>That's it! Your YouTube videos have been imported into your Hub, and are now available to be included in the content experiences you create.</p>
+<p>The YouTube Stream you create will remain connected to either the channel or the playlist you chose, and will continue to pull in any new content you publish there automatically.</p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Vimeo videos</strong></div>
+<div class="accordion__item-content">
+<p><strong>First time connecting to Vimeo:</strong></p>
+<p>If it's your first time connecting your Vimeo account, use these steps to connect.</p>
+<ol>
+<li>Click the <strong>Connect</strong> button<br><img src="https://help.uberflip.com/hc/article_attachments/25763917447437" alt="Screen_Shot_2023-02-09_at_3.57.00_PM.png" width="501" height="222">
+</li>
+<li>A Vimeo login page will open. <strong>Log in to the Vimeo account</strong> you want to connect using any of the available options<br>
+<ul>
+<li>If you're already logged in to Vimeo you won't see this screen, so skip ahead to the next step. Make sure you're logged in to the account you want to connect to Uberflip!</li>
+</ul>
+</li>
+<li>In the Vimeo<em><strong> Authorize </strong></em>screen that appears, click <strong>Allow</strong> to confirm that you want to give Uberflip access your Vimeo account</li>
+</ol>
+<p><strong>When Vimeo is connected: </strong></p>
+<ol>
+<li>In the <em><strong>Streams </strong></em>tab of the Content page, click <strong>New Stream</strong><br><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/8690833526925" alt="abcd.png"></span>
+</li>
+<li>Click <strong>Vimeo </strong>again in the <em>Source Streams</em> list<br><img src="https://help.uberflip.com/hc/article_attachments/13080019894413" alt="mceclip1.png" width="400" height="402">
+</li>
+<li>Because your Vimeo account is already connected, you'll now see the <strong>Add a Vimeo Stream</strong> screen<br><img src="https://help.uberflip.com/hc/article_attachments/25763933909389" alt="Screen_Shot_2023-02-09_at_4.32.22_PM.png" width="500" height="223">
+</li>
+<li>Under <strong><em>Create a Stream from</em></strong>, click the dropdown and choose what you want to import from your account</li>
+<li>Click <strong>Import</strong>
+</li>
+<li>Uberflip will begin importing videos. When this is done, you'll see a confirmation message that shows the number of videos that were imported. To view the content Items that were created for these videos, click <strong>View Stream.</strong>
+</li>
+</ol>
+<p>That's it! Your Vimeo videos have been imported into your Hub, and are now available to be included in the content experiences you create.</p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Brightcove videos</strong></div>
+<div class="accordion__item-content">
+<ol>
+<li>In the <strong>Add a Brightcove Stream</strong> screen that appears, <strong>paste in the Account Number, Client ID, and Client Secret</strong> that you copied from Brightcove into the fields provided<img src="https://help.uberflip.com/hc/article_attachments/25763933914765" alt="Screen_Shot_2023-02-10_at_2.11.17_PM.png" width="400" height="402">
+</li>
+<li>Click <strong>Connect</strong> when you're ready</li>
+<li>
+<strong>Click the Select a Player dropdown</strong> to choose the player that contains the videos you want to import<br><img src="https://help.uberflip.com/hc/article_attachments/25763933920781" alt="mceclip0.png" width="500" height="224">
+</li>
+<li>After you've select a player, the <em><strong>Import a Playlist</strong> </em>dropdown will appear. <strong>Click the dropdown and select the playlist</strong> you want to import videos from<br><img src="https://help.uberflip.com/hc/article_attachments/25763917483277" alt="mceclip1.png" width="400" height="402">
+</li>
+<li>Uberflip will begin importing videos from the Brightcove account(s) associated with the client you used. When it's done, you'll see a confirmation message that shows the number of videos that were imported.<br><br><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">To view the content Items that were created for these players, click </span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">View Stream.</strong>
+</li>
+</ol>
+<p>That's it! Your Brightcove content has been imported into your Hub, and is now available to use in your content experiences. The Stream will remain connected to your Brightcove playlist, and will pull in new content you publish there automatically.</p>
+<p>Each Brightcove Stream you create pulls videos from <strong>one playlist</strong> in one Brightcove player. You can import videos from multiple Brightcove playlists by creating multiple Brightcove Streams.</p>
+</div>
+</div>
+</div>
+<p>Remember, Once you've connected a content source, that source remains connected to Uberflip. When content is added or updated at the source, it'll also be added/updated in your Uberflip account.</p>]]></description>
+         <guid isPermaLink="false">8469735684621</guid>
+         <pubDate>Tue, 16 Aug 2022 21:36:52 GMT</pubDate>
+      </item>
+      <item>
+         <title>Add a SlideShare Stream</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360033313371-Add-a-SlideShare-Stream</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>Learn how to bring presentations from a SlideShare account into your Hub by creating a SlideShare Stream.</p>
+<p> </p>
+<h2>Create a New SlideShare Stream</h2>
+<ol>
+<li>Log in to Uberflip and navigate to the Hub where you want to add the SlideShare Stream.</li>
+<li>In the menu on the left, click on <strong>Content</strong>.</li>
+<li>You'll see the <strong>Manage Content</strong> section on the right, where the <strong>Streams</strong> tab should be selected. Here, click on the <strong>New Stream</strong> button in the grey menu bar near the top:<br> <img src="https://help.uberflip.com/hc/article_attachments/360023831652/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png" width="534" height="267">
+</li>
+<li>The <strong>Add a Stream</strong> menu will appear. Click on the <strong>SlideShare</strong> button:<br> <img src="https://help.uberflip.com/hc/article_attachments/360037670952/Fullscreen_2019-09-03__4_21_PM.png" alt="Fullscreen_2019-09-03__4_21_PM.png">
+</li>
+<li>You should now see the <strong>Add a SlideShare Stream </strong>window. Type in the username for the SlideShare account from which you want to import presentations:<br><img src="https://help.uberflip.com/hc/article_attachments/360037662971/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png">
+</li>
+<li>Now, click on <strong>Import</strong>. Uberflip will begin importing presentations from the selected SlideShare account and building your new Stream:<img src="https://help.uberflip.com/hc/article_attachments/360037671292/Fullscreen_2019-09-03__4_24_PM.png" alt="Fullscreen_2019-09-03__4_24_PM.png">
+</li>
+<li>When it's done, you'll see a confirmation message that shows the number of presentations that were imported. To view the content Items that were created for these presentations, click on the <strong>View Stream</strong> button:<br><img src="https://help.uberflip.com/hc/article_attachments/360037671412/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png">
+</li>
+<li>That's it! Content from the selected SlideShare account has been imported into your Hub, and is now available to be included in the content experiences you create. If you want to bring in content from other SlideShare accounts, simply create additional SlideShare Streams.</li>
+</ol>
+<p> </p>
+<h2>Additional Notes</h2>
+<p>When you create a SlideShare Stream, the SlideShare account (username) you choose does not need to be your own: if you want, you can choose any public SlideShare account to curate its contents in your Hub.</p>]]></description>
+         <guid isPermaLink="false">360033313371</guid>
+         <pubDate>Tue, 03 Sep 2019 17:58:58 GMT</pubDate>
+      </item>
+      <item>
+         <title>Create a Blog Stream</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360025342851-Create-a-Blog-Stream</link>
+         <description><![CDATA[<p>Blog Streams are the backbone of most Hubs. Learn how to create a Blog Stream by importing your existing blog content, or by creating a blog from scratch.</p>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>To create Blog Streams, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+<li>If you want to import posts from an external blog into Uberflip, you will need the URL that points to that blog's RSS feed. It typically looks something like <em>http://www.myblog.com/feed/ </em>or similar.</li>
+</ul>
+<p> </p>
+<h2>About Blog Streams</h2>
+<p>Blog Streams are used to aggregate blog content in your Hub. They're a great way to optimize and showcase your best top-of-funnel content.</p>
+<p>You can create Blog Streams in two ways:</p>
+<ul>
+<li>Import content from an externally hosted blog (e.g. WordPress or Drupal) with RSS</li>
+<li>Create a new blog from scratch in Uberflip</li>
+</ul>
+<p>When you import an external blog into Uberflip, this can either be a blog you own, or a third-party blog. The second option is useful if you want to pull in feeds from influencers or popular industry blogs to round out your Hub’s content.</p>
+<p>If you instead choose to create a new blog from scratch with Uberflip's built-in blogging functionality, you'll need to manually add content to it by using the built-in blog post editor. You can also use this same built-in blogging functionality on Blog Streams that import content from an external blog, either to manually add new posts from within Uberflip, or to modify imported posts.</p>
+<p> </p>
+<h2>Setup: Prepare your external blog for importing into Uberflip</h2>
+<p>To get the best results when you import your external blog content into Uberflip, you should check on its RSS feed settings <em>before</em> creating the Blog Stream in Uberflip. This is necessary because, by default, your RSS feed is probably not set up to include all your existing articles, or may not be configured in a way that allows Uberflip to pull in images.</p>
+<p>For more information, and for instructions on how to optimize your external blog's RSS feed for Uberflip, see this article:</p>
+<p><a href="https://help.uberflip.com/hc/en-us/articles/360020841051" target="_self">Optimize Your Blog's RSS Feed for Uberflip Streams</a></p>
+<div class="callout callout--info">
+<h4 class="callout__title">Info: WordPress Blogs</h4>
+<p>If your external blog is hosted on WordPress, and you use the Featured Images feature on your posts, WordPress does not include these images in its RSS feed. See <a href="https://help.uberflip.com/hc/en-us/articles/360022966072" target="_self">this article</a> for more information.</p>
+</div>
+<p> </p>
+<h2 id="h_61ce32d5-f455-4dcc-b29e-bda0cf0b9cd8">Create a new Blog Stream</h2>
+<p>Whether you're creating an empty Blog Stream to start from scratch, or one that imports content from an existing blog, the initial setup is the same:</p>
+<ol>
+<li>Log in to Uberflip and navigate to the Hub where you want to add the Blog Stream</li>
+<li>In the sidebar menu, click <strong>Content</strong>
+</li>
+<li>In the <em><strong>Streams</strong></em> tab of the Content page, click <strong>New Stream</strong> <br><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/8690833526925/abcd.png" alt="abcd.png"></span>
+</li>
+<li>The Add Stream modal will open. Click <strong>Blog</strong> in the <em><strong>Source Streams</strong></em> list<br><img src="https://help.uberflip.com/hc/article_attachments/12913821352077" alt="mceclip0.png" width="400" height="402">
+</li>
+<li>In the <strong>Add a Blog Stream</strong> modal, you can import an existing blog or create a blog from scratch. Choose a method to see how it's done:
+<ul>
+<li><a href="#h_cce0edb4-bf35-4272-8aa7-477832e050ce" target="_self">Import articles from an existing blog outside Uberflip</a></li>
+<li><a href="#h_6c35c954-15e0-4c65-a547-ebd6678f09b0" target="_self">Create a new blog from scratch in Uberflip</a></li>
+</ul>
+</li>
+</ol>
+<p> </p>
+<h2 id="h_cce0edb4-bf35-4272-8aa7-477832e050ce">Import articles from an existing blog outside Uberflip</h2>
+<p>You can import posts from any external blog that has an RSS feed into Uberflip. To do this, all you need is the RSS feed URL.</p>
+<p>Blog Streams you create in this way remain connected to the external source blog. This means that you can continue publishing on the external blog, and the new posts will automatically be pulled in to the Blog Stream via RSS. (<a href="https://help.uberflip.com/hc/en-us/articles/360022283332" target="_self">In some cases</a>, even changes to previously imported articles will be pushed to Uberflip.)</p>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>Does the blog you want to import contain a lot of posts? By default, Blog Streams can pull in a maximum of 200 posts. If you need to import more than that, please <a href="https://help.uberflip.com/hc/en-us/requests/new">contact Uberflip Support</a> for help.</p>
+</div>
+<ol>
+<li>After following the steps under <a href="#h_61ce32d5-f455-4dcc-b29e-bda0cf0b9cd8" target="_self">Create a New Blog Stream</a>, the <strong>Add a Blog Stream</strong> modal will open</li>
+<li>In the first text field, enter the URL for your external blog's RSS feed<br><img src="https://help.uberflip.com/hc/article_attachments/12913186774413" alt="mceclip1.png" width="400" height="402"><br><strong>Note:</strong> This will be used all imports from this RSS feed. If you want the initial import to come from a different address, add the URL for that in the second text field.</li>
+<li>In the <em><strong>Advanced Options</strong></em> section, you can configure various options for this Blog Stream by checking the applicable boxes. <a href="#h_8ca43243-d757-482c-aa75-4867e45ffb75" target="_self" rel="undefined">See below</a> for more information about the available options.
+<ul>
+<li>By default, all options are disabled (unchecked). You don't need to enable any of these options to proceed.</li>
+<li>The <strong>Start from scratch</strong> option allows you to create an empty Blog Stream, rather than importing content. See below for more information.</li>
+</ul>
+</li>
+<li>Click <strong>Create</strong>
+</li>
+<li>Uberflip will begin importing posts from your blog. When it's done, you'll see a confirmation message. To view the Items that were imported, click <strong>View Stream.</strong>
+</li>
+</ol>
+<p>That's it! Your blog content has been imported into your Hub.</p>
+<h3> </h3>
+<h3 id="h_8ca43243-d757-482c-aa75-4867e45ffb75">Blog Stream Options</h3>
+<p>When you create a new Blog Stream that imports content from an external blog, you can enable various options. Here's what each option does:</p>
+<ul>
+<li>
+<strong>Start from scratch: </strong>Enable this option to create a new, empty Blog Stream that you can post to from within Uberflip. <a href="#h_6c35c954-15e0-4c65-a547-ebd6678f09b0" target="_self">See below</a> for more instructions. Enabling this option automatically disables all the options below.</li>
+<li>
+<strong>Allow small images to be used for thumbnails: </strong>By default, images must be at least 180 px x 100 px to be used as thumbnail images for Items (posts) in a Blog Stream. If your thumbnails are smaller than this, you can enable this option to use them anyway.</li>
+<li>
+<strong>Automatically match author profiles</strong><strong>: </strong>If the authors of the content on the external blog also exist as <a href="https://help.uberflip.com/hc/en-us/articles/360019000331" target="_self">authors in Uberflip</a>, enabling this option will match the appropriate Uberflip author profiles to the imported content.</li>
+<li>
+<strong>Allow class attributes, style and font tags to be imported:</strong> By default, Uberflip strips out CSS class attributes and other tags when importing external content. Enable this option to keep these elements intact in the content after import. Note that any referenced classes, fonts, etc. must be defined in <a href="https://help.uberflip.com/hc/en-us/articles/360018841312" target="_self">your Hub's Custom Code</a> for the corresponding formatting to be retained.</li>
+<li>
+<strong>Automatically create and apply tags from RSS to items</strong><strong>: </strong>Enable this option to automatically create Uberflip tags from any tags contained in the RSS feed.</li>
+</ul>
+<p> </p>
+<h2 id="h_6c35c954-15e0-4c65-a547-ebd6678f09b0">Create a new blog from scratch in Uberflip</h2>
+<p>As an alternative to importing content from an outside blog, you can also choose to create an empty Blog Stream. This allows you to create and publish a blog entirely within Uberflip using the built-in blog post editor tools.</p>
+<ol>
+<li>After following the steps under <a href="#h_61ce32d5-f455-4dcc-b29e-bda0cf0b9cd8" target="_self">Create a New Blog Stream</a>, the <strong>Add a Blog Stream</strong> modal will open</li>
+<li>Ignore the text fields, and expand the <em><strong>Advance Options</strong></em> section<br><img src="https://help.uberflip.com/hc/article_attachments/12914558456333" alt="mceclip0.png" width="399" height="401">
+</li>
+<li>Check the <em><strong>Start from scratch</strong></em> box<br><img src="https://help.uberflip.com/hc/article_attachments/12914605134093" alt="Screen_Shot_2023-02-07_at_10.39.41_AM.png" width="500" height="112">
+</li>
+<li>In the modal, you'll be asked to enter an internal Stream name, a Stream page title, and a Stream page description<br><img src="https://help.uberflip.com/hc/article_attachments/12914817182221" alt="Screen_Shot_2023-02-07_at_10.43.53_AM.png" width="401" height="403">
+</li>
+<li>Click <strong>Create</strong>
+</li>
+<li>Uberflip will now create the new Blog Stream for you. You'll see a confirmation message when it's done.</li>
+<li>To view the new Blog Stream and begin creating posts, click <strong>View Stream</strong>
+</li>
+</ol>
+<p>That's it! You can now begin adding posts to your new Blog Stream by clicking the <strong>Add New Article</strong> icon<br><img src="https://help.uberflip.com/hc/article_attachments/360023870071/Fullscreen_2019-03-14__5_35_PM.png" alt="Fullscreen_2019-03-14__5_35_PM.png" width="600" height="310"></p>]]></description>
+         <guid isPermaLink="false">360025342851</guid>
+         <pubDate>Thu, 14 Mar 2019 20:16:35 GMT</pubDate>
+      </item>
+      <item>
+         <title>How often are blog Streams updated?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360049996412-How-often-are-blog-Streams-updated</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>How frequently does Uberflip check an externally hosted blog and update the corresponding blog Stream?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>For Streams that were created by <a href="https://help.uberflip.com/hc/en-us/articles/360025342851" target="_self">importing a blog's RSS feed</a>, Uberflip will automatically check the connected RSS feed for updates <strong>every 1-2 hours</strong>. If there have been any changes since posts were last pulled in from that RSS feed, Uberflip will update the Stream accordingly (by importing new posts, or updating existing posts).</p>
+<p>Note that this does not happen on Streams where the <em>Pause automatic updating of this Stream</em> setting is turned on, or for blog Items that have been <a href="https://help.uberflip.com/hc/en-us/articles/360022283332" target="_self">disconnected from their original blog post</a>.</p>]]></description>
+         <guid isPermaLink="false">360049996412</guid>
+         <pubDate>Thu, 01 Oct 2020 20:11:00 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Product updates</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Smart Filters using deleted tags are not running</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/27252738861325-Smart-Filters-using-deleted-tags-are-not-running</link>
+         <description><![CDATA[<h2 id="h_01HZFE6C52XZJVC2754P4V8JQY">What happened? </h2>
+<p>We recently discovered that Smart Filters using tags that had been deleted from your account were still attempting to run. </p>
+<p>This wasn't a big deal for you. It just caused extra technical resources on our side to process all of those unnecessary filter attempts. This was a bug that's now been resolved.</p>
+<p>In solving the bug, we had to turn off any Smart Filters using deleted tags. Any filter you have that uses one of those tags is currently not running. <strong>Action is required to fix the affected filters.</strong></p>
+<p> </p>
+<h2 id="h_01HZFE6C52M5A3TA4PYFSNDABV">What did Uberflip do about it?</h2>
+<p>When we noticed the Smart Filters trying to run again and again without any success, we took a few steps to help correct the issue. </p>
+<p>Here’s what we did: </p>
+<ol>
+<li>
+<strong>We switched all Smart Filters affected by this to run “On Demand”</strong>, so that they are no longer trying to continuously run without success</li>
+<li>
+<strong>We affixed “[Broken]” to the front of affect filter names</strong>, so you can easily find the ones that need attention</li>
+<li>We added steps to the tag deletion process to prevent this from happening again in the future </li>
+</ol>
+<p> </p>
+<h2 id="h_01HZFE6C52WV2AG1YSG23FHXKF">How did this affect my account?</h2>
+<p>Any filter that’s been affected by this hasn’t been running recently. This means any content management it was set to do hasn’t happened.</p>
+<p>Luckily, Smart Filters can still handle that for you once you’ve updated all the affected filters. When they’re up and running again, that backlog of maintenance work will take care of itself.</p>
+<p>Read the <a href="https://help.uberflip.com/hc/en-us/articles/27252738861325#h_01HZFE6C527EK0VWQJGVN8T5TC">next section</a> to see how to update those filters. </p>
+<p> </p>
+<h2 id="h_01HZFE6C527EK0VWQJGVN8T5TC">What do I need to do now?</h2>
+<p>Any filters that used a deleted tag are currently set to “On Demand”, so they’re not running automatically at this time. This is true even if a filter has multiple tags included. Those other included tags are not being actioned on as the entire filter is turned off. </p>
+<p><strong>Note:</strong> To work with Smart Filters, you need to be a member of the <strong>Account Administrators</strong> or <strong>Content Managers</strong> user groups, or hold the relevant permissions under the <strong>Smart Filters</strong> parent permission.</p>
+<p><strong>Here’s how to fix the affected filters: </strong></p>
+<ol>
+<li>Head into Smart Filters in Uberflip (Sidebar &gt; Smart Filters) </li>
+<li>Find all of the Smart Filters with [Broken] affixed to the front of the filter name.<br>
+<div class="callout callout--success">
+<h4 id="h_01HZFE9HCCMNCQ84HP3P8WPFTG" class="callout__title">Tip</h4>
+<p><strong>[Broken] is a sortable and searchable part of the filter name now.</strong> If you have 4 or more filters, you can click Name at the top of the table to sort alphabetically.<strong> If you have 11 or more, a search bar will appear.</strong> These will make finding those filters easier.</p>
+</div>
+</li>
+<li>From here, there are two ways you may want to deal with broken filters: <strong>fix them or delete them</strong>.<br><br>
+<ul>
+<li>
+<strong>Filters you want to keep:</strong>
+<ol>
+<ol>
+<li>Hover over any filter you want to fix, then click the Edit (pencil) icon that appears in the row. A modal will open where you can review the filter, remove the deleted tag, and edit it in any way needed.<br>
+<div class="callout callout--warning">
+<h4 id="h_01HZFEJXXW1CECDYNHTX8A6WJ8" class="callout__title">Important</h4>
+<p>The filter has been set to “On Demand”, so if you want it to start running automatically again, you’ll need to choose your preferred setting in this step.</p>
+</div>
+</li>
+<li>In section 3 of the modal <em>(Settings),</em> remove "[BROKEN]" from the filter title</li>
+<li>
+<strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Click Save </strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">when done<br></span>
+</li>
+</ol>
+</ol>
+<p> </p>
+</li>
+<li>
+<p><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Filters you no longer need:</strong></p>
+<ul>
+<li>
+<p><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Hover over it and <strong>click the trash icon</strong></span></p>
+</li>
+<li><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"><strong>Click Delete Filter</strong> to confirm</span></li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<p>That’s it. After you’ve completed those steps for all affected filters, they will run as intended again. </p>]]></description>
+         <guid isPermaLink="false">27252738861325</guid>
+         <pubDate>Mon, 03 Jun 2024 16:26:02 GMT</pubDate>
+      </item>
+      <item>
+         <title>The Image Migrator app is being retired [2024]</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/20903973796365-The-Image-Migrator-app-is-being-retired-2024</link>
+         <description><![CDATA[<h2 id="h_01HE3Y2SQP316G42PZF7S7JG5N">What is happening?</h2>
+<p>Uberflip is retiring the Image Migrator app (found in the Uberflip Marketplace). </p>
+<p><strong>In 2024, a new Media feature will be launched that will replace the functionality of Image Migrator. </strong><strong>At that time, Image Migrator will be shut down </strong>for all users.</p>
+<p>More information on this transition will come as the platform-wide launch of Media gets closer.</p>
+<p> </p>
+<h2 id="h_01HE3Y2SQPY8DSPZH667EQZ6G6">Why is this happening? </h2>
+<p>Uberflip is transitioning to a new image management system. As Image Migrator was built around the old image management system, it will no longer be useful or functional once that transition is made. </p>
+<p>The new Media feature made its initial debut in Pages on Nov 1st, 2023, and will be rolled out in the greater Uberflip platform in 2024. This feature will replace the functionalities of Image Manager.</p>
+<p> </p>
+<h2 id="h_01HE3Y2SQP23CVZ0FJN2S2JJFE">What will happen to media I’ve already imported</h2>
+<p><strong>Your current media library won’t be deleted or lost. </strong>It will be preserved so that none of your current Stream or Hub pages are affected by this change.  </p>
+<p>More information on the transition to the new Media feature will come as we get closer to the platform-wide launch.</p>
+<p> </p>
+<h2 id="h_01HE3Y2SQP3H7QSNRHQPN4QHK7">I’m an Image Migrator user, what will I do moving forward?</h2>
+<p>Uberflip’s new Media feature will have capabilities baked in to help you import content. We expect this to be a better experience than the Image Migrator app.</p>
+<p>You can <a href="https://help.uberflip.com/hc/en-us/articles/20896372993165">see the new Media feature in Pages</a> now. This will be rolled out into the rest of the Uberflip platform in 2024. </p>]]></description>
+         <guid isPermaLink="false">20903973796365</guid>
+         <pubDate>Tue, 31 Oct 2023 22:36:55 GMT</pubDate>
+      </item>
+      <item>
+         <title>Announcement: &quot;Sales Streams&quot; are now called &quot;Digital Sales Rooms&quot; in Uberflip [July 2023]</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/17317687236621-Announcement-Sales-Streams-are-now-called-Digital-Sales-Rooms-in-Uberflip-July-2023</link>
+         <description><![CDATA[<h2>What is happening?</h2>
+<p>As of July 12th, 2023, "Sales Streams" in Uberflip are now known as "Digital Sales Rooms" (or DSRs for short). </p>
+<p>This will change first in the Content page UI. Further mentions of Sales Stream in other areas will be updated to "Digital Sales Rooms" in the coming months. <br><img src="https://help.uberflip.com/hc/article_attachments/17317923670541" alt="b05d1820-4fe3-4071-9fd7-fc2687fd5506.png" width="399" height="401"></p>
+<h2>Why is this happening?</h2>
+<p>While Sales Streams have existed for a few years, the concept has taken off more recently in the broader mar-tech space. Outside of Uberflip, personalized web destinations used to facilitate sales became known as DSRs (Digital Sales Rooms). </p>
+<p>To align with this terminology, we added the "DSRs" terminology to Sales Assist in early 2023. But this meant that Sales Assist and Uberflip were using two terms for the same thing. </p>
+<p>This change on the Uberflip side brings Uberflip, Sales Assist, and the marketing industry into alignment with one term to describe this personalized digital space: Digital Sales Room (DSR). </p>
+<p>You can <a href="https://www.uberflip.com/solutions/digital-sales-rooms/" target="_self">learn more about DSRs in Sales Assist here</a>.</p>
+<p> </p>
+<h2>Are "Digital Sales Rooms (DSRs)" different than Sales Streams?</h2>
+<p>No! And no changes to the functionality of a Sales Stream will happen at this time.</p>
+<p>"Sales Stream" was just Uberflip's unique term for this type of content collection/webpage. But as part of an initiative to make Uberflip easier to navigate and understand, we've chosen to align our feature name to the industry product to reduce confusion. </p>]]></description>
+         <guid isPermaLink="false">17317687236621</guid>
+         <pubDate>Tue, 04 Jul 2023 19:10:20 GMT</pubDate>
+      </item>
+      <item>
+         <title>5 Uberflip features that are being retired (Nov. 1st, 2023)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/15015536441229-5-Uberflip-features-that-are-being-retired-Nov-1st-2023</link>
+         <description><![CDATA[<p>This article outlines <strong>5 Uberflip feature that are going away. </strong></p>
+<p><strong>On November 1st 2023, Uberflip will retire the following features:</strong></p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/14930427293709" target="_self" rel="undefined">SlideShare Streams</a></li>
+<li>
+<a href="https://help.uberflip.com/hc/en-us/articles/14929481971341" target="_self" rel="undefined">Flipbot</a> </li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/14929474473613" target="_self" rel="undefined">iFrame Embed</a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/14539608186893" target="_self" rel="undefined">Hubs Lab</a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/14929440762381" target="_self" rel="undefined">The “Menu Style” settings option for Hubs</a></li>
+</ul>
+<p><strong>Click the items in the list above for details on each feature being retired.</strong> Those articles include details like why these changes are happening, what may be needed from you, and alternative Uberflip features you can use instead.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">End of maintenance</h4>
+<p>While these features will be available until Nov 1st, <strong>maintenance for these features will end on Aug. 1st, 2023</strong>. This means there will be no further development or bug fixes after that date.  </p>
+</div>
+<p>We appreciate your flexibility as we continue to innovate and make changes at Uberflip. If you have any questions, please reach out to your account manager, or <a href="https://help.uberflip.com/hc/en-us/requests/new" target="_self" rel="undefined">Uberflip Support</a>.</p>]]></description>
+         <guid isPermaLink="false">15015536441229</guid>
+         <pubDate>Wed, 19 Apr 2023 22:02:56 GMT</pubDate>
+      </item>
+      <item>
+         <title>SlideShare Streams are being retired [Nov. 2023] </title>
+         <link>https://help.uberflip.com/hc/en-us/articles/14930427293709-SlideShare-Streams-are-being-retired-Nov-2023</link>
+         <description><![CDATA[<h2>What's happening?</h2>
+<p><strong>On Nov. 1st, 2023, Uberflip will retire the ability to create new SlideShare Streams. </strong></p>
+<p><strong>Any existing SlideShare Streams will remain connected and functional in your Uberflip account.</strong></p>
+<p><strong>Note: </strong><em>Maintenance for SlideShare Streams will end on Aug 1st, 2023, meaning no more development or bug fixes will happen after this date.</em></p>
+<p> </p>
+<h2>Why is this happening? </h2>
+<p>In recent years, SlideShare has become less popular with Uberflip users for sharing slideshows. Many Uberflip users now opt to <a href="https://help.uberflip.com/hc/en-us/articles/360020776171-Upload-a-PDF-to-Create-a-Flipbook" target="_self" rel="undefined">upload PDF versions</a> of their slideshows as Flipbooks, or <a href="https://help.uberflip.com/hc/en-us/articles/15325347043469" target="_self" rel="undefined">embed Google Slides</a> into Uberflip blog posts.</p>
+<p>As we innovate, we want to focus on tools our users are excited about and get a lot of value from. For this reason, we’ve decided to retire SlideShare Streams so we can focus on expanding Uberflip’s capabilities in other ways.</p>
+<p> </p>
+<h2>What will happen to my existing SlideShare Streams?</h2>
+<p>Nothing! Any SlideShare Streams that are already connected in your Hub will not change. They will stay in your Hub and continue to bring in new slideshows you add in SlideShare. </p>
+<p>That said, if the connection to SlideShare is broken or lost, you won’t have any way to re-add the Stream. </p>
+<p> </p>
+<h2>How can I add slideshows to my content experiences now?</h2>
+<p><strong>Option 1: </strong></p>
+<p><a href="https://help.uberflip.com/hc/en-us/articles/360020776171-Upload-a-PDF-to-Create-a-Flipbook" target="_self" rel="undefined">Upload PDF versions</a> of your slideshows into our <strong>Flipbooks</strong> tool. Then add the folder with those slideshows as a <a href="https://help.uberflip.com/hc/en-us/articles/8469735684621-Import-content-into-Uberflip" target="_self" rel="undefined">Flipbook Stream</a> in your Hub. </p>
+<p>With Flipbooks, you can upload a PDF to be displayed in our dedicated Flipbook viewer. And expand the slideshow further with interactive elements like links, videos, embed components, and more.</p>
+<p>Learn more about what you can do with Flipbooks in: <a href="https://help.uberflip.com/hc/en-us/articles/360020665071-Get-started-with-the-Flipbook-Page-Editor" target="_self" rel="undefined">Get started with the Flipbook Page Editor</a></p>
+<p><strong>Option 2: </strong></p>
+<p><a href="https://help.uberflip.com/hc/en-us/articles/15325347043469" target="_self">Embed web based slideshows</a> (like <a href="https://support.google.com/docs/answer/183965?hl=en&amp;co=GENIE.Platform%3DDesktop#zippy=%2Cembed-a-document-spreadsheet-or-presentation" target="_self">Google Slides</a>, or <a href="https://support.microsoft.com/en-us/office/embed-a-presentation-in-a-web-page-or-blog" target="_self">PowerPoint for the web</a>) into Uberflip blog posts. With this option, If the slideshow is updated at the source, it will be update wherever it's embedded.</p>]]></description>
+         <guid isPermaLink="false">14930427293709</guid>
+         <pubDate>Mon, 17 Apr 2023 19:27:17 GMT</pubDate>
+      </item>
+      <item>
+         <title>Twitter Stream support has ended [April 2023]</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/14929543582477-Twitter-Stream-support-has-ended-April-2023</link>
+         <description><![CDATA[<h2 id="h_01HGXEH9PG58J636DNNYZNPKA5">What’s happened?</h2>
+<p><strong>Due to unexpected changes from Twitter, the ability to create new Twitter Streams, and import Tweets into existing Streams, stopped on April 5th, 2023.</strong></p>
+<p>We attempted to fix this issue, but were not able to get the support from Twitter needed to do so. </p>
+<p><strong>For this reason, we officially retired Twitter Stream support as of April 24th, 2023.<br></strong><img src="https://help.uberflip.com/hc/article_attachments/15191031340045" width="500" height="504"></p>
+<h2 id="h_01HGXEH9PGD35VBDQ34081HZ3S">Why did this happen? </h2>
+<p>In recent years, Twitter Streams have become less popular with Uberflip users. Twitter Streams lack the visual appeal of embedded Tweet options, and many of our users now opt to <a href="https://help.uberflip.com/hc/en-us/articles/360043910832-Embed-social-content-into-a-blog-post" target="_self" rel="undefined">embed Tweets in Uberflip blog posts</a> instead. So we had made plans to retire Twitter Streams in late 2023.</p>
+<p>But on April 5th 2023, unexpected changes at Twitter caused us to lose our connection with their servers. We attempted to correct the issue, but weren't able to get the support needed from Twitter to do so. </p>
+<p><strong>For these reasons, we officially retired Twitter Stream support on April 24th, 2023</strong>.</p>
+<p> </p>
+<h2 id="h_01HGXEH9PG24M7KN4MNW3E6STM">Why did it happen now? </h2>
+<p>We always try to give notice before retiring an Uberflip feature. But in this case, an unexpected change to Twitter’s API broke our connection with Twitter on <strong>April 5th, 2023</strong>. </p>
+<p>We attempted to fix the issue, but couldn't get the support needed from Twitter to make it happen. So we’re ending support for Twitter Streams now.<strong> </strong></p>
+<p><strong>In the future, we’ll always do our best to give plenty of notice before retiring a feature. </strong></p>
+<p> </p>
+<h2 id="h_01HGXEH9PGCDNE8KR937XTAC61">What happens to my existing Twitter Streams?</h2>
+<p>Twitter Streams that are already in your Hubs will remain there, and will include any previously imported Tweets. <strong>But no new Tweets from April 5th onward will be imported. </strong></p>
+<p>You can’t import any new Tweets on existing Streams, and no new Twitter Streams can be created as of April 5th, 2023.  </p>
+<p> </p>
+<h2 id="h_01HGXEH9PG2TSRGW64KQXS4S04">How can I add Tweets to my content experiences now?</h2>
+<p>We suggest <a href="https://help.uberflip.com/hc/en-us/articles/360043910832-Embed-social-content-into-a-blog-post" target="_self" rel="undefined">embedding Tweets (and other social posts) into Uberflip blog posts</a> for use in your Uberflip destinations. </p>
+<p>This method provides a better visual/user experience for your visitors, and is preferred by many Uberflip users already.<br><br></p>
+<h2 id="h_01HGXEH9PGMAMV3E54SK1K3ADG">Can I still share my Hub/Streams on Twitter?</h2>
+<p>Yes! The “Share” button in Uberflip still allows you to share your Streams and Hubs to Twitter. You can also copy a Stream/Hub URL and paste it into any Tweet. </p>
+<p>Only the Twitter <em>Streams</em> functionality is affected by this change.</p>]]></description>
+         <guid isPermaLink="false">14929543582477</guid>
+         <pubDate>Mon, 17 Apr 2023 19:08:53 GMT</pubDate>
+      </item>
+      <item>
+         <title>Flipbot is being retired [Nov. 2023]</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/14929481971341-Flipbot-is-being-retired-Nov-2023</link>
+         <description><![CDATA[<h2>What is happening?</h2>
+<p><strong>On Nov. 1st, 2023, Uberflip will officially retire the Flipbot app. </strong></p>
+<p><strong>After Nov. 1st 2023, the app will no longer be available for download in the Uberflip Marketplace.</strong> Because of the nature of installed apps, if the app was previously installed on your account, it will remain in the account after this time. But its use will not be supported by Uberflip. </p>
+<p><strong>If you choose to continue using Flipbot after Nov. 1st 2023, you do so at your own risk.</strong> Uberflip will not offer further development or user support for Flipbot after Nov. 1st.</p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Caution</h4>
+<p>We suggest removing Flipbot from your account on or before that date to avoid issues and technical conflicts with other apps.</p>
+</div>
+<p><strong>Note: </strong><em>Maintenance for Flipbot will end on Aug 1st, 2023, meaning no more development or bug fixes will happen after this date.</em></p>
+<p> </p>
+<h2>Why is this happening? </h2>
+<p>Flipbot came to life in 2019 to help sales reps see when prospects were actively engaging with content. The app gave real-time Slack notifications, so reps could strike while a prospect was hot. </p>
+<p>But In 2021, Uberflip launched Sales Assist as our next-generation sales engagement tool. Sales Assist contains real-time notifications (in-app or email) like Flipbot, but also packs in many other features. </p>
+<p>Sales Assist has been a huge hit with our users, and overtook Flipbot's popularity quickly. For this reason, we’ve decided to retire Flipbot so we can focus on expanding Sales Assist.</p>
+<p> </p>
+<h2>How can I get real-time engagement notifications now?</h2>
+<p>Real-time engagement notifications, in-app or by email, are now built into Sales Assist! </p>
+<p>Sales Assist is available to all Uberflip users <em>(though some features require a sales license)</em>. </p>
+<p>Check out these articles to learn more:</p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360057767692-Sales-Assist-Get-started-as-a-Sales-User" target="_self" rel="undefined">Sales Assist: Get started as a Sales User</a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/4423803775245" target="_self">Sales Assist: Track Stream engagement</a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360059624771-Sales-Assist-Configure-engagement-notifications" target="_self" rel="undefined">Sales Assist: Configure engagement notifications</a></li>
+</ul>
+<p>You can <a href="https://marketplace.uberflip.com/details/sales-assist-1" target="_self" rel="undefined">download Sales Assist</a> in the Uberflip Marketplace now. </p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Caution</h4>
+<p>We suggest uninstalling Flipbot before using Sales Assist, as the two apps sometimes experience technical issues when used at the same time.</p>
+</div>]]></description>
+         <guid isPermaLink="false">14929481971341</guid>
+         <pubDate>Mon, 17 Apr 2023 19:08:16 GMT</pubDate>
+      </item>
+      <item>
+         <title>iFrame Embed is being retired [Nov. 2023]</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/14929474473613-iFrame-Embed-is-being-retired-Nov-2023</link>
+         <description><![CDATA[<h2>What is happening?</h2>
+<p><strong>On Nov. 1st, 2023, Uberflip will retire the iFrame Embed feature. </strong></p>
+<p>The iFrame Embed page will no longer be available after that date, and will be removed from the sidebar navigation in Uberflip <em>(sidebar menu &gt; Website tools &gt; iFrame embed)</em>.<img src="https://lh5.googleusercontent.com/qxEFzXpJHNn99mZDmOPh_tksy72LisLjoCMSgKVmf_XOKmDYmjjmfZmpYWmyiQ_R5hgEPlsWbXJzKTm4IJXWRhG2ZGNh0scbNSYhDNTRwGL_8OPMZJQPckK5al6jTO6t9GqgsFVgNgkuyAvvKEFn74s" width="601" height="328"></p>
+<p><strong>Note: </strong><em>Maintenance for iFrame Embed will end on Aug 1st, 2023, meaning no more development or bug fixes will happen after this date.</em></p>
+<p> </p>
+<h2>Why is this happening? </h2>
+<p>In recent years, iframing on the web has lost popularity. Innovations in web technology that allow for better tracking and security than iframes offer are largely responsible for this shift. </p>
+<p>iFrame Embed has fallen out of popularity among Uberflip users for those same reasons. And Uberflip features like <a href="https://help.uberflip.com/hc/en-us/articles/360022595791-Set-Up-Site-Engager-to-Recommend-Hub-Content-on-Your-Website" target="_self" rel="undefined">Site Engager</a>, and the upcoming Pages feature (Summer 2023) provide better ways to get content in front of your audiences. </p>
+<p>For this reason we’ve decided to retire this feature so we can focus on innovating and upgrading our more popular and versatile content experience tools. </p>
+<p> </p>
+<h2>What will happen to my current iFrame Hub embeds?</h2>
+<p>If you already have Hub(s) iframed into other sites, no need to worry, those iframes will continue to function as they do now after Nov. 1st, 2023. You just won’t be able to create any new embeds after that date. </p>
+<p>Your Hub’s iFrame Embed code can’t be altered or re-generated after Nov. 1st, 2023. So if you remove the embedded Hub from a site, and don’t have the code snippet saved outside of Uberflip, you won’t be able to regenerate an embed code for that Hub. The embed will be lost. </p>
+<p>Long-term, we suggest planning a switch to a different feature for displaying content outside of your Hubs. Check out these options in Uberflip: </p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360022595791-Set-Up-Site-Engager-to-Recommend-Hub-Content-on-Your-Website" target="_self" rel="undefined">Site Engager</a></li>
+<li>Pages<em> (coming Summer 2023)</em>
+</li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360018876192-Custom-Domains-Explained" target="_self" rel="undefined">Custom Domains</a></li>
+</ul>
+<p> </p>
+<h2>How will I embed content now?</h2>
+<p>Check out these other Uberflip features that allow you to embed content on external sites: </p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360022595791-Set-Up-Site-Engager-to-Recommend-Hub-Content-on-Your-Website" target="_self" rel="undefined">Site Engager</a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360023374631-Embed-a-Stream-into-your-website" target="_self">Stream Embeds</a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360023119772-Embed-Item-Tiles-into-a-website-or-email" target="_self">Embed Item Tiles</a></li>
+</ul>
+<p>Or, use a <a href="https://help.uberflip.com/hc/en-us/articles/360018876192-Custom-Domains-Explained" target="_self">custom domain</a> for your Hub, so your visitors can find your content on a branded URL.</p>]]></description>
+         <guid isPermaLink="false">14929474473613</guid>
+         <pubDate>Mon, 17 Apr 2023 19:07:26 GMT</pubDate>
+      </item>
+      <item>
+         <title>The &quot;Menu Style&quot; setting is being retired [Nov. 2023]</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/14929440762381-The-Menu-Style-setting-is-being-retired-Nov-2023</link>
+         <description><![CDATA[<h2>What's happening?</h2>
+<p><strong>On November 1st 2023, Uberflip will</strong> <strong>remove the </strong><strong><em>Menu Style</em></strong><strong> settings option from Uberflip. </strong></p>
+<p>At that time, the <strong><em>Menu Style</em></strong> toggle will be removed from the Menu page <em>(Sidebar menu &gt; Appearance &gt; Menu &gt; Menu Style)</em>. </p>
+<p>Any Hub using the <em>Left Menu</em> option on Nov. 1st will <strong>retain the left menu as their Hub’s permanent menu style</strong>. After that, changes to the menu style can only be achieved with custom coding. </p>
+<p>If you want to switch to a top menu, please do so before Nov. 1st, 2023. <br><img style="height: 212px; width: 639px;" src="https://lh3.googleusercontent.com/ey6F6QjvNy4Nqnn2iNQe3zOH7cZkZGWLIg6CCyYpuvZd28HBwkOlcvn78kAC648VQ2wDsWQ7G0-wDbuhZKFnDoUJasOBTkwgK8jVy7mhd6P0ePxDLbHU2K2DM5ZrpkNQEJROppeL5iV-lg18ZpwCIT0"></p>
+<p> </p>
+<h2>Why is this happening? </h2>
+<p>Across the web, left-side menus have fallen out of popularity in recent years, causing the <em>Left Menu</em> option for Uberflip Hubs to lose popularity as well. For this reason, the Left Menu option was not included for <a href="https://help.uberflip.com/hc/en-us/articles/360051466431-Uberflip-V1-vs-V2-Hubs-explained-" target="_self" rel="undefined">V2 Hubs</a> when they were launched. </p>
+<p>As most of our users now use V2 Hubs, and the left menu option is rarely used by V1 Hubs, we’ve decided to remove the option to reduce confusion and clutter in the Uberflip UI. </p>
+<p> </p>
+<h2>What happens if my Hub is using a left side menu?</h2>
+<p><strong>Any V1 Hub using the </strong><strong><em>Left Menu </em></strong><strong>option as of Nov. 1st will have the left menu become the permanent menu style in that Hub.</strong> <strong>If you’re using this setting now and want to change it, you need to make that change before Nov 1st.</strong></p>
+<p>After that, changes to the menu style can only be achieved with custom coding. </p>
+<p>Hubs using the <strong><em>Top Menu</em></strong> option will be unaffected by this change. There will also be no change for anyone using custom coded menu options. </p>
+<p>For all users, the <strong><em>Menu Style </em></strong><strong>toggle will be removed </strong>from the Menu page (<em>Appearance &gt; Menu)</em> on Nov. 1st, 2023.</p>]]></description>
+         <guid isPermaLink="false">14929440762381</guid>
+         <pubDate>Mon, 17 Apr 2023 19:06:45 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hubs Lab is being retired [Nov. 2023]</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/14539608186893-Hubs-Lab-is-being-retired-Nov-2023</link>
+         <description><![CDATA[<h2>What's happening?</h2>
+<p><strong>On November 1st, 2023, Uberflip will</strong> <strong>retire Hubs Lab. </strong></p>
+<p><strong>The Hubs Lab page will be removed from Uberflip at that time </strong><em>(Sidebar menu &gt; Appearance &gt; Hubs Lab)</em>.</p>
+<p><strong>Of the 8 functionalities available on that page page, 3 will be moved to the Advanced Hub Options page, and 5 will be fully retired.</strong> More on this below. <br><img style="height: 330px; width: 601px;" src="https://lh3.googleusercontent.com/HLB0ZGTXq7CaCJDLsBR1cJMsbZN4wfll7fiZRkdu23lGrOE4bnYqe8VQ4_zQ2uFdk4VhCWmvElqHn-SY2Eq-eR1WKiIDqO_PkcrVtI6hGqjWQdouTfrVpQJ8SFeoRIqaGZdcaFTYkG7eQngof-KJgiE"><br><strong>Note: </strong><em>Maintenance for Hubs Lab features will end on Aug 1st, 2023, meaning no more development or bug fixes will happen after this date.</em></p>
+<p> </p>
+<h2>Why is this happening? </h2>
+<p>Hubs Lab was created as a place to experiment with new features that weren’t quite ready for full implementation. It was a playground to see how our users felt about our product ideas before building full feature sets. </p>
+<p>But as we’ve grown, we developed other, now established ways of testing and validating new ideas. </p>
+<p>Many features in the Hubs Labs initiative went on to become part of the product in other ways; some became default functionality; and some have become obsolete or redundant.</p>
+<p>For this reason, we’ve decided to end the Hubs Lab program, and remove the Hubs Lab page from the app. This will clean up the navigation, and allow us to focus on other areas. </p>
+<p> </p>
+<h2>Which functionalities within Hubs Lab will be retired?</h2>
+<p><strong>5 Hubs Lab functionalities will be officially retired on Nov. 1st, 2023.</strong> These features are largely obsolete and not widely used. </p>
+<p>The functionalities being retired are: </p>
+<ul>
+<li>Sticky Footer </li>
+<li>Hide banner on iframe embed</li>
+<li>Dark Theme</li>
+<li>Permanent (and shorter) Hero</li>
+<li>Always Display Top Banner</li>
+</ul>
+<p> </p>
+<h2>What happens to Hubs using retired Hubs Lab functionalities?</h2>
+<p>When these functionalities are retired,<strong> the functionality setting chosen (on or off) as of Nov. 1st, 2023, will become permanen</strong>t in your Hub, as there will be no control to turn it on or off anymore.</p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p>If you’re using any of the functionalities being retired, ensure you’re happy with the chosen settings <strong>before Nov 1st, 2023. </strong></p>
+<p>Setting turned on as of Nov. 1st will become permanent in your Hub, and settings turned off will become unavailable.</p>
+</div>
+<p> </p>
+<h2>Which functionalities will remain, and where will I find them?</h2>
+<p><strong>3 Hubs Labs settings will move to the Advanced Hub Options page</strong> <em>(Sidebar menu &gt; Hub Options &gt; Advanced)</em>. After Nov. 1st 2023, you can find these settings there: </p>
+<ul>
+<li>Next Item Flyout</li>
+<li>Highlight first Item</li>
+<li>Remove Hero</li>
+</ul>]]></description>
+         <guid isPermaLink="false">14539608186893</guid>
+         <pubDate>Mon, 03 Apr 2023 17:33:29 GMT</pubDate>
+      </item>
+      <item>
+         <title>Uberflip Office Hours</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/9805354097677-Uberflip-Office-Hours</link>
+         <description><![CDATA[<p><strong>Looking for answers and how-to's? Come learn from our experts!</strong></p>
+<p><span style="font-weight: 400;">Join our weekly skill builder office hours hosted by Uberflip product experts. Check out our upcoming sessions and topics. </span></p>
+<div class="v-mdu-hero-text v-mdu-hero-text-left v-pt-xl v-pb-xl">
+<p> </p>
+<h2>Driving Sales Success with Uberflip</h2>
+<h2>Second Tuesday of the month April - July <br>Registration page<br>Join our monthly Uberflip Office Hours specifically designed for sales users! Get personalized advice and support while learning from our team of experts in this small-group interactive session with other sales users.<br>During monthly office hours, you'll learn:<br>How to use Uberflip to create personalized, engaging content experiences that will help you close more deals<br>Tips and tricks for optimizing your content for the sales funnel<br>Best practices for using content to build relationships with prospects and customers<br>Strategies for measuring the impact of your content on your sales pipeline</h2>
+<p>Office Hours: Boosting Your ABM Results with Uberflip<br>Second Thursday of the month April - July <br>Registration page<br>Join our monthly Uberflip Office Hours specifically designed for ABM marketers. Get personalized advice and support while learning from our team of experts in this small-group interactive session with other ABM marketing users.<br>During monthly office hours, you'll learn:<br>How to use Uberflip to create personalized content experiences that resonate with your target accounts<br>Tips and tricks for optimizing your content for the different stages of the account-based funnel<br>Best practices for using content to build relationships with target accounts and accelerate the buying process<br>Strategies for measuring the impact of your content on your ABM program</p>
+<p>Office Hours: Accelerate Your Content Marketing with Uberflip<br>Third Tuesday of the month April - July <br>Registration page<br>Join our monthly Uberflip Office Hours sessions specifically designed for content marketer users! Get personalized advice and support while learning from our team of experts in this small-group interactive session with other sales users.<br>During monthly office hours, you'll discover:<br>How to create personalized content experiences that engage your audience and drive conversions<br>Tips and tricks for organizing and managing your content for maximum impact<br>Best practices for measuring the effectiveness of your content and optimizing your strategy<br>Strategies for using Uberflip to align your content with your overall marketing goals</p>
+<p>Office Hours: Driving Demand Generation Success with Uberflip<br>Third Thursday of the month April - July <br>Registration page<br>Join our monthly small-group interactive Uberflip Office Hours event specifically designed for demand gen marketers and learn how to use Uberflip's powerful content experience platform to supercharge your marketing efforts.<br>During monthly office hours, you'll learn:<br>How to create content that engages your audience and drives conversions at every stage of the funnel<br>Tips and tricks for organizing and managing your content for maximum impact<br>Best practices for measuring the effectiveness of your content and optimizing your demand generation strategy<br>Strategies for using Uberflip to align your content with your overall marketing goals</p>
+</div>]]></description>
+         <guid isPermaLink="false">9805354097677</guid>
+         <pubDate>Tue, 11 Oct 2022 16:14:27 GMT</pubDate>
+      </item>
+      <item>
+         <title>What&apos;s New at Uberflip</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/8801377623309-What-s-New-at-Uberflip</link>
+         <description><![CDATA[<p>We're continuously working to improve the Uberflip experience - here's a monthly roundup of what new features, improvements to existing features, and fixes that were released. </p>
+<p> </p>
+<h1>November, 2022</h1>
+<h3>New &amp; Improved</h3>
+<h1>September, 2022</h1>
+<h3>New &amp; Improved</h3>
+<p><strong>Add sections to your streams to better organize content and improve the reader experience </strong></p>
+<p>Enjoy more control than ever over how items are presented in streams by organizing content into stream sections. To make it even easier, we have also added multi-select capabilities and the ability to drag and drop groups of items into your new sections. </p>
+<p>Get started optimizing your streams and organize your items into stream sections. </p>
+<p><strong>See who is engaging with your content and create personalized content experiences with Eloqua Enrichment</strong></p>
+<p>Without enrichment, you only understand content performance - not who is engaging with that content. By integrating Uberflip with Eloqua, you can better gauge the effectiveness of campaign targeting by being able to see who in your MAP is engaging with your content.</p>
+<p>Add Eloqua Enrichment to your subscription to take advantage of these valuable insights. </p>
+<p><strong>Create robust tagging structures with Tag Groups</strong></p>
+<p>Take your tagging taxonomy to the next level by grouping like tags into tag groups. Not only will this make it easier for your team to locate the right content, but it will unlock insights into what content captures your audiences attention. </p>
+<p>Create tag groups to</p>
+<h3>Other Improvements: </h3>
+<ul>
+<li>Get weekly progress reports on items and stream performance with our new Weekly Newsletter Dashboard. </li>
+</ul>
+<h3>In Other News: </h3>
+<ul>
+<li>Our new Office Hours schedule is out! Get answers and learn how-to's from Uberflip users and product experts during our weekly small-group sessions. See the schedule and register for sessions. </li>
+</ul>
+<p><strong>Introducing our newest app, Enhanced Tag Manager!</strong></p>
+<p>Tag management is fundamental to great content strategy. Our newest app levels up your content organization by making tag management more intuitive and accessible to your team.</p>
+<p>Enhanced Tag Manager enables your team to define a tagging framework and tag content at scale - making it easier for your team to find and share marketing-approved content and increase the buying journey velocity. </p>
+<p><a href="https://help.uberflip.com/hc/en-us/articles/8129118360077-Enhanced-Tag-Manager-user-guide" target="_blank" rel="noopener noreferrer">Install Enhanced Tag Manager</a> and follow the guided setup to get started. </p>
+<p><strong>Generate more leads with improved CTA functionality</strong></p>
+<p>Using CTAs to bring more leads into your funnel is now easier with improvements to the CTA search function and CTA positioning. Now, you can search for a CTA and drag-and-drop it into the stream without altering the positioning of the other items within the stream. </p>
+<p>We also fixed a UI bug on the CTA's "Repeat After Every" checkbox, now making it possible for users to set CTAs to repeat after a certain number of items are viewed within a stream. </p>
+<p>Learn more about engaging your visitors by <a href="https://help.uberflip.com/hc/en-us/articles/360020683852-Get-started-with-Uberflip-CTAs-calls-to-action-" target="_blank" rel="noopener noreferrer">adding CTAs to your streams</a>.</p>
+<p><strong>Improved Marketing Stream information within Activity Logs </strong></p>
+<p>Activity Logs now differentiate <em>archived</em> Marketing Streams from <em>deleted</em> Marketing Streams, matching the terminology used in other parts of the application.</p>
+<p>This differentiation between archived Marketing Streams and permanently deleted Marketing Streams will reduce confusion for all users while reviewing the User Activity Logs. </p>
+<p>Learn more about <a href="https://help.uberflip.com/hc/en-us/articles/6214460126349-Create-and-share-a-Marketing-Stream" target="_blank" rel="noopener noreferrer">generating more leads using Marketing Streams</a>. </p>
+<h3>Other Improvements: </h3>
+<ul>
+<li>Share slideshow presentations, infographics, videos and other branded materials within your Uberflip streams by <a href="https://help.uberflip.com/hc/en-us/articles/360033313371-Add-a-SlideShare-Stream" target="_self">adding a SlideShare source stream</a>. </li>
+<li>When creating a new Stream, Marketing and Sales Streams are now referred to as <em>Curated Streams</em> instead of <em>Landing Page Streams</em>. </li>
+<li>From the Deleted Items View, you can now search for deleted items by Item ID. </li>
+<li>Hide your items' publish date on your recommendation templates by selecting "Hide Publish Date" within Display Options when editing a Recommendation Template. </li>
+<li>New Marketing Streams will be created by default with the SEO Setting for "Enable Canonical Meta Tag" set to TRUE. </li>
+<li>Updated image formats and changes to how Uberflip stores and renders images were made to improve image performance. </li>
+</ul>
+<h3>In Other News: </h3>
+<ul>
+<li>Uberflip has launched Office Hours for customers looking for best practices, practical how-to's, and to connect directly with product experts and other power users. <a href="https://uberflip.zoom.us/meeting/register/tJUqdu2trDwrEtEt08Hf23C8cBz6tLJtK3-8" target="_self" rel="undefined">Save your seat!</a>
+</li>
+</ul>]]></description>
+         <guid isPermaLink="false">8801377623309</guid>
+         <pubDate>Tue, 30 Aug 2022 17:43:39 GMT</pubDate>
+      </item>
+      <item>
+         <title>Announcement: The Uberflip Chrome extension &amp; Outlook add-in have been retired [Dec. 2022] </title>
+         <link>https://help.uberflip.com/hc/en-us/articles/7090817135629-Announcement-The-Uberflip-Chrome-extension-Outlook-add-in-have-been-retired-Dec-2022</link>
+         <description><![CDATA[<h2><span style="font-weight: 400;">What is changing?</span></h2>
+<p><strong>As of Dec. 18th, 2022, the Uberflip Chrome extension and Outlook add-in (extension)</strong> <strong>have been retired</strong><span style="font-weight: 400;">. While previously installed versions of these extensions may still function after that date, their use will not be support by Uberflip in any way.  </span></p>
+<p><strong>Note:</strong><span style="font-weight: 400;"> While the final versions of the extensions was supported until Dec 18th, 2022, updates, maintenance, and <strong>new downloads ended on Sept. 19th 2022.</strong> </span></p>
+<h2><span style="font-weight: 400;">Why is this changing?</span></h2>
+<p><span style="font-weight: 400;">Most functionalities of the Uberflip Chrome &amp; Outlook extensions are now available in Uberflip’s Sales Assist app.</span></p>
+<p><span style="font-weight: 400;">Sales Assist enables Sales reps to quickly build, share, and monitor personalized Streams for prospects. </span></p>
+<p><span style="font-weight: 400;">Since its release in 2021, Sales Assist has become the go-to extension for Sales reps who want to quickly build and share Streams. Because of this, we’ve decided to focus on the continued expansion of that tool. Sales Assist can do all the things the Uberflip extensions do, but with many more features to back it up.</span></p>
+<h2><span style="font-weight: 400;">How can I continue to easily share Streams?</span></h2>
+<p><span style="font-weight: 400;">Moving forward, you can access this and many other features by installing the Sales Assist app. Get in touch with your Uberflip account manager to learn more.</span></p>
+<p><span style="font-weight: 400;">You can also continue to </span><a href="https://help.uberflip.com/hc/en-us/articles/360030092932-Create-and-share-a-Sales-Stream"><span style="font-weight: 400;">build and share Sales Streams</span></a><span style="font-weight: 400;"> natively in the Uberflip platform.</span></p>
+<h2><span style="font-weight: 400;">What is Sales Assist?</span></h2>
+<p><span style="font-weight: 400;">Sales Assist is </span><strong>Uberflip's next-generation sales engagement tool</strong><span style="font-weight: 400;">. Marketing teams use Uberflip to create content, and Sales Assist </span><strong>empowers sales representatives with that content</strong><span style="font-weight: 400;"> by making it easy to find and use at any point during the sales cycle.</span></p>
+<p><span style="font-weight: 400;">With Sales Assist, you can:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Easily find content </strong><span style="font-weight: 400;">your prospects will love (or create your own)</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Personalize content</strong><span style="font-weight: 400;"> in seconds</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Deliver content </strong><span style="font-weight: 400;">to prospects through </span><strong>personalized destinations</strong><span style="font-weight: 400;"> (Streams)</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Track engagement </strong><span style="font-weight: 400;">on content you've shared </span><strong>in real time</strong><span style="font-weight: 400;"> with notifications</span>
+</li>
+</ul>
+<p><span style="font-weight: 400;">Sales Assist </span><strong>works within your existing sales workflows and tools</strong><span style="font-weight: 400;">, so it seamlessly integrates into your day-to-day and won't slow you down. To learn more, check out: </span><a href="https://help.uberflip.com/hc/en-us/articles/360057767692-Sales-Assist-Get-started-as-a-Sales-User#sales-assist-get-started-as-a-sales-user"><span style="font-weight: 400;">Sales Assist: Get started as a Sales User.</span></a></p>]]></description>
+         <guid isPermaLink="false">7090817135629</guid>
+         <pubDate>Tue, 21 Jun 2022 15:43:09 GMT</pubDate>
+      </item>
+      <item>
+         <title>Announcement: Retiring SnapApp [Aug. 2022]</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/5649118635405-Announcement-Retiring-SnapApp-Aug-2022</link>
+         <description><![CDATA[<h2><span style="font-weight: 400;">What is happening?</span></h2>
+<p><span style="font-weight: 400;">Uberflip is retiring the SnapApp product. </span></p>
+<p><span style="font-weight: 400;">As of May 1st, 2022, SnapApp will stop receiving updates and maintenance. Users can continue to use the final version until July 31st, 2022, but we suggest using this time to transition to a new tool if needed. </span></p>
+<p><strong>On August 1st 2022, SnapApp and all related functions will be shut down </strong><span style="font-weight: 400;">for all users, and will no longer be available for use. </span></p>
+<p> </p>
+<h2><span style="font-weight: 400;">Why is this happening? </span></h2>
+<p><span style="font-weight: 400;">We’ve loved having SnapApp as part of the Uberflip offering, but marketing tech is always changing. In recent years many users have found new and interesting ways to generate leads using other tools, including Uberflip Stream features and CTAs.</span></p>
+<p><span style="font-weight: 400;">Our desire to innovate and grow our main offering, the Uberflip platform, means making hard decisions on where to allocate resources. This change will allow us to use our time and people to build a better, more powerful Uberflip for the future. </span></p>
+<p> </p>
+<h2><span style="font-weight: 400;">I’m a SnapApp user, what will I do now?</span></h2>
+<p><span style="font-weight: 400;">SnapApp’s retirement will mean that all current users need to transition to a different tool to replace SnapApp’s functions. </span></p>
+<p><span style="font-weight: 400;">If you’re a current SnapApp user and have questions, contact your Uberflip account manager today. They’ll be happy to provide advice and support. </span></p>
+<p> </p>]]></description>
+         <guid isPermaLink="false">5649118635405</guid>
+         <pubDate>Tue, 19 Apr 2022 22:25:25 GMT</pubDate>
+      </item>
+      <item>
+         <title>AddThis has been retired by Oracle</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360037447512-AddThis-has-been-retired-by-Oracle</link>
+         <description><![CDATA[<p><strong>AddThis was retired by Oracle on May 31st, 2023.</strong> As of that date, the service was shutdown fully, and no features or functions remain available today. </p>
+<p>For this reason, the AddThis integration in Uberflip is no longer functional. Head to the <a href="https://help.uberflip.com/hc/en-us/articles/360037447512#h_01HFYJK4E2M1AXB6YBFE4ZFY7T">Remove AddThis from your Hub</a> section to see how to remove the AddThis code from your Hub.</p>
+<p><strong>Note:</strong> You can learn more about the AddThis retirement at <a href="https://www.addthis.com/">addthis.com</a>. </p>
+<h2 id="h_01HFYJK4E2M1AXB6YBFE4ZFY7T">Remove AddThis from your Hub</h2>
+<p>How AddThis was integrated in your Hub depends on whether your Hub is running on <strong>Front End V1</strong> or <strong>Front End V2</strong>. If you're not sure which version your Hub is running on, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431" target="_self">this article</a> for instructions on how to check.</p>
+<div class="tabs tabs--colored-2">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Front End V1</span> <span class="tabs-link">Front End V2</span>
+</div>
+<div class="tab">
+<ol>
+<li>Log into Uberflip and navigate to the Hub that has AddThis integrated</li>
+<li>In the sidebar menu, click <strong>Integrations &gt; Connected Services</strong>
+</li>
+<li>Find <strong>AddThis</strong> in the list of services that Uberflip integrates with</li>
+<li>Click <strong>Disconnect</strong> beside it (in the <strong>Action</strong> column)</li>
+<li>Click <strong>Disconnect</strong> again in the conformation modal that opens</li>
+</ol>
+</div>
+<div class="tab is-hidden">
+<ol>
+<li>Log into Uberflip and navigate to the Hub that has AddThis integrated</li>
+<li>In the sidebar menu on the left, click on <strong>Appearance &gt; Custom Code<br></strong>
+</li>
+<li>Find the AddThis custom code block in the list</li>
+<li>Hover the row for the AddThis code and click the trash icon that appears</li>
+<li>Click <strong>Delete Code</strong> to confirm </li>
+</ol>
+</div>
+</div>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360037447512</guid>
+         <pubDate>Wed, 11 Dec 2019 16:29:22 GMT</pubDate>
+      </item>
+      <item>
+         <title>Announcement: Legacy Metrics are being retired [Jan. 2023]</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/7873902968205-Announcement-Legacy-Metrics-are-being-retired-Jan-2023</link>
+         <description><![CDATA[<h2><span style="font-weight: 400;">What is changing?</span></h2>
+<p><strong>On February 23, 2023, Uberflip’s Legacy Metrics </strong><strong><em>(formerly Hub Metrics)</em></strong><strong> will be officially retired.</strong><span style="font-weight: 400;"> On that day, Legacy Metrics will be removed from all Uberflip accounts still using it, and be replaced by </span><a href="https://help.uberflip.com/hc/en-us/articles/360035433571-Get-started-with-Uberflip-Analytics"><strong>Uberflip Analytics</strong></a><span style="font-weight: 400;"> (UFA)</span><strong>.</strong></p>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><span style="font-weight: 400;">Because Uberflip Analytics is an entirely separate feature, </span><strong>data from Legacy Metrics will not be pulled over</strong><span style="font-weight: 400;">. If you need to keep your historical data, reach out to your account manager to discuss your options before December 1st, 2022.</span></p>
+</div>
+<p> </p>
+<h2><span style="font-weight: 400;">Why is this changing? </span></h2>
+<p><span style="font-weight: 400;">Legacy Metrics was our original analytics product, born in the early days of Uberflip. But as Uberflip grew, so did the data needs of our users. So in April 2020, we launched Uberflip Analytics, a much more robust set of tools. </span></p>
+<p><span style="font-weight: 400;">Most of our users now use Uberflip Analytics, and for good reason–Uberflip Analytics can do everything Legacy Metrics did, plus so much more. Retiring Legacy Metrics will allow us to focus on growing Uberflip Analytics for the future.</span></p>
+<p> </p>
+<h2><span style="font-weight: 400;">What is Uberflip Analytics?</span></h2>
+<p><span style="font-weight: 400;">Uberflip Analytics (UFA) is Uberflip's business intelligence suite. It’s specifically designed to help you measure the performance of the content experiences you build with Uberflip.</span></p>
+<p><span style="font-weight: 400;">UFA can provide you with the data you need to answer questions about your content and the way your prospects and customers experience and engage with it. Questions like: </span></p>
+<ul>
+<li><span style="font-weight: 400;">Which inbound channels are bringing in the most engaged visitors?</span></li>
+<li><span style="font-weight: 400;">Which CTAs are most effective at converting visitors into leads?</span></li>
+<li><span style="font-weight: 400;">How are visitors moving through content?</span></li>
+<li><span style="font-weight: 400;">What types of content are visitors engaging with the most?</span></li>
+</ul>
+<p><span style="font-weight: 400;">If you’re currently using Legacy Metrics and have any questions about the change, please reach out to your Uberflip account manager to discuss. </span></p>
+<p><span style="font-weight: 400;">For more information on Uberflip Analytics, check out: </span><a href="https://help.uberflip.com/hc/en-us/articles/360035433571-Get-started-with-Uberflip-Analytics"><span style="font-weight: 400;">Get started with Uberflip Analytics</span></a><span style="font-weight: 400;">. </span></p>]]></description>
+         <guid isPermaLink="false">7873902968205</guid>
+         <pubDate>Fri, 22 Jul 2022 16:24:43 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

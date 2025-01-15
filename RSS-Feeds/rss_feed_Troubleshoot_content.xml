@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Troubleshoot content</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Metadata tab is missing in Edit Article view</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360050478272-Metadata-tab-is-missing-in-Edit-Article-view</link>
+         <description><![CDATA[<h2>Issue</h2>
+<p>When creating or editing a post in any type of Stream, the <em>Metadata</em> tab (which appears between the <em>Editor</em> and <em>Tags</em> tabs) does not appear. As a result, settings that are accessed through this tab (Description, URL Path, Thumbnail URL, Author, Status, Publish Date, Hide Publish Date) can't be modified.</p>
+<ul>
+<li>In the Edit Article view, the <em>Metadata</em> tab is not displayed</li>
+<li>Can't find <em>Metadata</em> tab</li>
+<li>
+<em>Metadata </em>tab hidden</li>
+<li>Can't update Thumbnail URL</li>
+</ul>
+<p> </p>
+<h2>Conditions</h2>
+<ul>
+<li>
+<strong>Where:</strong> <strong>Edit Article</strong> view (click <strong>Add New Article</strong> or <strong>Edit Article </strong>in a Blog Stream)</li>
+<li>Any type of Stream</li>
+<li>Affected user is in the <strong>Content Managers</strong> and/or <strong>Account Administrators</strong> user group(s) and/or has been granted the necessary individual permissions to access and work with content Items in the Hub</li>
+<li>Any browser</li>
+<li>Any operating system</li>
+</ul>
+<p> </p>
+<h2>Cause</h2>
+<p>This is a permissions issue, and happens when the <strong>Restricted Content Authoring Experience </strong>permission is enabled for a user:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360021118512/Edit_John_Smith_-_Uberflip.png" alt="Edit_John_Smith_-_Uberflip.png"></p>
+<p>This is a <em>subtractive</em> permission, which removes access rather than granting it. Granting this permission removes the ability to publish posts, so the <strong>Publish/Publish Changes</strong> buttons is hidden for users who have the permission applied.</p>
+<p>All members of the <strong>Authors</strong> group automatically inherit the Restricted Content Authoring Experience permission. As a result, this issue most often occurs when a user who should have the ability to publish posts (e.g. an Admin or Content Manager) is also added to the Authors group.</p>
+<p> </p>
+<h2>Steps to Fix</h2>
+<p>To fix this issue, you must be an <strong>Account Administrator</strong>.</p>
+<h3>Primary Solution</h3>
+<ol>
+<li>Log in to Uberflip and <strong>click on your name</strong> in the top right corner.</li>
+<li>In the menu that appears, click on <strong>Account Settings</strong>.</li>
+<li>In the sidebar menu on the left, click on <strong>Organization</strong> to expand that menu section, then click on <strong>Users</strong>.</li>
+<li>In the list of users, <strong>find the user</strong> who is experiencing the issue and <strong>click on their name</strong>.</li>
+<li>You should be on the <strong>User Information</strong> tab for the user. Below the <strong>Groups</strong> dropdown, you should see the list of groups the user is currently in:<br><img src="https://help.uberflip.com/hc/article_attachments/360021145072/Edit_John_Smith_-_Uberflip.png" alt="Edit_John_Smith_-_Uberflip.png" width="597" height="379">
+</li>
+<li>If you see the <strong>Authors</strong> group on this list, <strong>click on the x button </strong>to the right of <strong>Authors</strong>:
+<ul>
+<li>If you don't see <strong>Authors</strong> listed here, go to the <a href="#h_149202897341550012666410">Secondary Solution</a> below.<br><img src="https://help.uberflip.com/hc/article_attachments/360021145212/Edit_John_Smith_-_Uberflip.png" alt="Edit_John_Smith_-_Uberflip.png">
+</li>
+</ul>
+</li>
+<li>The <strong>Authors</strong> group will be removed from the list, indicating that the user has been removed from that group. This should resolve the issue.</li>
+</ol>
+<h3 id="h_149202897341550012666410">Secondary Solution</h3>
+<ol>
+<li>If you do not see the <strong>Authors</strong> group listed under the <strong>User Information</strong> tab, click on the <strong>Permissions</strong> tab.</li>
+<li>Scroll down until you find the permission named <strong>Restricted Content Authoring Experience </strong>(you can use Ctrl+F/Command+F to search).</li>
+<li>
+<strong>Uncheck the box</strong> next to <strong>Restricted Content Authoring Experience</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360021145332/Edit_John_Smith_-_Uberflip.png" alt="Edit_John_Smith_-_Uberflip.png">
+</li>
+<li>This should resolve the issue.</li>
+</ol>
+<p> </p>
+<h2>Additional Notes</h2>
+<p>The <strong>Restricted Content Authoring Experience</strong> permission <a href="https://help.uberflip.com/hc/en-us/articles/360023273491" target="_self">also causes the <em>Publish/Publish Changes </em>button in the Article Editor to be hidden</a>.</p>
+<p>Note also that the <em>Metadata</em> tab is <em>supposed</em> to be hidden for users in the <strong>Authors</strong> group — this is intentional behavior.</p>]]></description>
+         <guid isPermaLink="false">360050478272</guid>
+         <pubDate>Tue, 13 Oct 2020 20:53:44 GMT</pubDate>
+      </item>
+      <item>
+         <title>Some groups or channels are missing when adding a Vimeo Stream</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360023368771-Some-groups-or-channels-are-missing-when-adding-a-Vimeo-Stream</link>
+         <description><![CDATA[<h2>Issue</h2>
+<p>When creating a Vimeo Stream, a group or channel does not appear in options for import.</p>
+<ul>
+<li>In the <strong>Add a Vimeo Stream</strong> menu, a group or channel that exists in the connected Vimeo account does not appear under the section <strong>Import all your other video groups</strong>
+</li>
+</ul>
+<p> </p>
+<h2>Conditions</h2>
+<ul>
+<li>
+<strong>Where: </strong>Vimeo Stream setup dialog (<strong>Content &gt; Streams &gt; New Stream &gt; Vimeo</strong>)</li>
+<li>A Vimeo account is connected to the affected Hub</li>
+<li>The connected Vimeo account contains collections (channels or groups)</li>
+<li>All browsers</li>
+<li>All operating systems</li>
+</ul>
+<p> </p>
+<h2>Cause</h2>
+<p>When Uberflip requests a list of collections from a connected Vimeo account, Vimeo will only return groups and channels that the account is currently <strong>following</strong> — not collections that the account has created. You don't automatically follow collections that you create yourself, so they won't appear when you add a Vimeo Stream until you follow them.</p>
+<p> </p>
+<h2>Steps to Fix</h2>
+<ol>
+<li>Log in to Vimeo and view your collections.</li>
+<li>In Vimeo, follow any groups and channels that you want to be able to import into Uberflip — this includes groups and channels that belong to your account. (You can find instructions on how to follow in <a href="https://vimeo.zendesk.com/hc/en-us/articles/224818227-Discovering-videos-on-Vimeo" target="_self" rel="undefined">this article from Vimeo</a>.)</li>
+<li>Try to create the Vimeo Stream again. The group or channel should now appear.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360023368771</guid>
+         <pubDate>Wed, 13 Feb 2019 16:32:30 GMT</pubDate>
+      </item>
+      <item>
+         <title>&quot;Publish&quot; button missing in the Article Editor</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360023273491--Publish-button-missing-in-the-Article-Editor</link>
+         <description><![CDATA[<h2>Issue</h2>
+<p>When creating a new post in a Blog Stream, or editing an existing post, the <em>Publish/Publish Changes</em> button does not appear. As a result, the blog post is saved, but can't be published.</p>
+<ul>
+<li>In the Edit Article view, the Publish/Publish Changes Button is not displayed at the bottom of the window</li>
+<li>Can't see Publish button</li>
+<li>Can't publish blog post</li>
+</ul>
+<p> </p>
+<h2>Conditions</h2>
+<ul>
+<li>
+<strong>Where:</strong> <strong>Edit Article</strong> view (click <strong>Add New Article</strong> or <strong>Edit Article </strong>in a Blog Stream)</li>
+<li>Specific to Blog Streams</li>
+<li>Affected user is in the <strong>Content Managers</strong> and/or <strong>Account Administrators</strong> user group(s) and/or has been granted the necessary individual permissions to access and work with content Items in the Hub</li>
+<li>Any operating system</li>
+</ul>
+<p> </p>
+<h2>Cause</h2>
+<p>This is a permissions issue, and happens when the <strong>Restricted Content Authoring Experience </strong>permission is enabled for a user:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360021118512/Edit_John_Smith_-_Uberflip.png" alt="Edit_John_Smith_-_Uberflip.png"></p>
+<p>This is a <em>subtractive</em> permission, which removes access rather than granting it. Granting this permission removes the ability to publish posts, so the <strong>Publish/Publish Changes</strong> buttons is hidden for users who have the permission applied.</p>
+<p>All members of the <strong>Authors</strong> group automatically inherit the Restricted Content Authoring Experience permission. As a result, this issue most often occurs when a user who should have the ability to publish posts (e.g. an Admin or Content Manager) is also added to the Authors group.</p>
+<p> </p>
+<h2>Steps to Fix</h2>
+<p>To fix this issue, you must be an <strong>Account Administrator</strong>.</p>
+<h3>Primary Solution</h3>
+<ol>
+<li>Log in to Uberflip and <strong>click on your name</strong> in the top right corner.</li>
+<li>In the menu that appears, click on <strong>Account Settings</strong>.</li>
+<li>In the sidebar menu on the left, click on <strong>Organization</strong> to expand that menu section, then click on <strong>Users</strong>.</li>
+<li>In the list of users, <strong>find the user</strong> who is experiencing the issue and <strong>click on their name</strong>.</li>
+<li>You should be on the <strong>User Information</strong> tab for the user. Below the <strong>Groups</strong> dropdown, you should see the list of groups the user is currently in:<br><img src="https://help.uberflip.com/hc/article_attachments/360021145072/Edit_John_Smith_-_Uberflip.png" alt="Edit_John_Smith_-_Uberflip.png" width="597" height="379">
+</li>
+<li>If you see the <strong>Authors</strong> group on this list, <strong>click on the x button </strong>to the right of <strong>Authors</strong>:
+<ul>
+<li>If you don't see <strong>Authors</strong> listed here, go to the <a href="#h_149202897341550012666410">Secondary Solution</a> below.<br><img src="https://help.uberflip.com/hc/article_attachments/360021145212/Edit_John_Smith_-_Uberflip.png" alt="Edit_John_Smith_-_Uberflip.png">
+</li>
+</ul>
+</li>
+<li>The <strong>Authors</strong> group will be removed from the list, indicating that the user has been removed from that group. This should resolve the issue.</li>
+</ol>
+<h3 id="h_149202897341550012666410">Secondary Solution</h3>
+<ol>
+<li>If you do not see the <strong>Authors</strong> group listed under the <strong>User Information</strong> tab, click on the <strong>Permissions</strong> tab.</li>
+<li>Scroll down until you find the permission named <strong>Restricted Content Authoring Experience </strong>(you can use Ctrl+F/Command+F to search).</li>
+<li>
+<strong>Uncheck the box</strong> next to <strong>Restricted Content Authoring Experience</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360021145332/Edit_John_Smith_-_Uberflip.png" alt="Edit_John_Smith_-_Uberflip.png">
+</li>
+<li>This should resolve the issue.</li>
+</ol>
+<p> </p>
+<h2>Additional Notes</h2>
+<p>The <strong>Restricted Content Authoring Experience</strong> permission <a href="https://help.uberflip.com/hc/en-us/articles/360050478272" target="_self">also causes the <em>Metadata</em> tab in the Article Editor to be hidden</a>.</p>
+<p>Note also that the <strong>Publish/Publish Changes</strong> button is <em>supposed</em> to be hidden for users in the <strong>Authors</strong> group — this is intentional behavior.</p>]]></description>
+         <guid isPermaLink="false">360023273491</guid>
+         <pubDate>Tue, 12 Feb 2019 17:59:35 GMT</pubDate>
+      </item>
+      <item>
+         <title>Images from a WordPress blog do not appear in Uberflip</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360022966072-Images-from-a-WordPress-blog-do-not-appear-in-Uberflip</link>
+         <description><![CDATA[<h2>Issue</h2>
+<p>Featured Images on a WordPress blog post do not appear when the post is imported into Uberflip.</p>
+<ul>
+<li>Blog image missing</li>
+<li>WordPress blog image not being imported</li>
+<li>WordPress Featured Image missing in Uberflip</li>
+<li>On Blog Streams that are connected to a WordPress blog, Featured Images are missing from posts</li>
+</ul>
+<p> </p>
+<h2>Conditions</h2>
+<ul>
+<li>
+<strong>Where: </strong>Item in a Blog Stream</li>
+<li>
+<strong>Who: </strong>Any user</li>
+<li>
+<strong>When: </strong>While viewing the Item, both in the user-facing Hub and the backend</li>
+<li>Blog Stream source is a WordPress RSS feed</li>
+<li>Affected image in WordPress is a Featured Image</li>
+<li>Any browser</li>
+<li>Any operating system</li>
+</ul>
+<p> </p>
+<h2>Cause</h2>
+<p>When you import a blog into Uberflip as a Blog Stream, we use the source blog's RSS feed to pull in the content. Uberflip will automatically look for images <a href="https://help.uberflip.com/hc/en-us/articles/360020840711">in the RSS feed</a>, and mostly this works fine.</p>
+<p>However, WordPress actually <strong>does not include Featured Images in their RSS feed</strong>. That's why, if your blog is on WordPress and you use Featured Images, these images don't show up in Uberflip when you import the blog.</p>
+<p> </p>
+<h2>Steps to Fix</h2>
+<p>To fix, ensure that Featured Images are included in your WordPress RSS feed. Currently, WordPress does not have built-in functionality to allow this, but you can achieve the desired result using a WordPress plugin.</p>
+<p>We can't recommend any particular plugin, but you can use <a href="https://wordpress.org/plugins/search/featured+image+rss/">this sample search</a> as a starting point. In general, any plugin that includes Features Images in your RSS feed should work for bringing those images into your Uberflip Hub.</p>
+<p> </p>
+<h2>Additional Notes</h2>
+<p>You should also make sure that your images <a href="https://help.uberflip.com/hc/en-us/articles/360020840711-Automatically-Import-Blog-Images-via-RSS">meet our minimum size requirements and the RSS feed is correctly formatted</a> so that Uberflip can pull in images successfully.</p>]]></description>
+         <guid isPermaLink="false">360022966072</guid>
+         <pubDate>Mon, 11 Feb 2019 17:36:56 GMT</pubDate>
+      </item>
+      <item>
+         <title>Original Blog URL looks strange on the URL Mapping (for 301 redirects) page</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020829191-Original-Blog-URL-looks-strange-on-the-URL-Mapping-for-301-redirects-page</link>
+         <description><![CDATA[<h2>Issue</h2>
+<p>When migrating a blog to Uberflip, the <em>URL Mapping (for 301 redirects)</em> does not show the original blog URL.</p>
+<ul>
+<li>Where the original URL should appear, the page displays letters with dashes inside curly brackets, e.g. {36A82D82-3E3B-40B1-B00E-2839BF17I87E}</li>
+</ul>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017274252/image001_png__PNG_Image__1045___688_pixels_.png" alt="image001_png__PNG_Image__1045___688_pixels_.png" width="701" height="143"></p>
+<p> </p>
+<h2>Conditions</h2>
+<ul>
+<li>
+<strong>Where:</strong> <em>Migrate Your Old Blog To Your Hub </em>page (<strong>Hubs &gt; Content</strong> &gt; click on a <strong>Blog Stream</strong> &gt; <strong>Hamburger Menu</strong> &gt; <strong>URL Mapping (for 301 redirects)</strong>)</li>
+<li>Any browser</li>
+<li>Any operating system</li>
+</ul>
+<p> </p>
+<h2>Cause</h2>
+<p>The "code" shown under the Original URL column is a <strong>GUID</strong>, or Globally Unique Identifier. GUIDs are used to uniquely identify various things, including blog posts in an RSS feed. However, there should also be a traditional URL available.</p>
+<p> </p>
+<h2>Steps to Fix</h2>
+<p>You can fix the problem by switching the URLs displayed in Uberflip to the permalink:</p>
+<ol>
+<li>Go to the <strong>Migrate Your Old Blog to Your Hub </strong>page: <strong>Hubs &gt; Content</strong> &gt; <strong>Blog Stream</strong> &gt; <strong>Hamburger Menu</strong> &gt; <strong>URL Mapping (for 301 redirects).</strong>
+</li>
+<li>Scroll to the bottom of the page and look for <strong>Originals URLs not displaying correctly? Try using the "permalink" value.</strong>
+</li>
+<li>Click on the link for <strong>Try using the "permalink" value.</strong>
+</li>
+<li>The page will refresh, and should now display usable URLs under the <strong>Original URL</strong> column.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360020829191</guid>
+         <pubDate>Tue, 11 Dec 2018 17:03:31 GMT</pubDate>
+      </item>
+      <item>
+         <title>Images, text or fonts are missing or look wrong in a Flipbook</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020789871-Images-text-or-fonts-are-missing-or-look-wrong-in-a-Flipbook</link>
+         <description><![CDATA[<h2>Issue</h2>
+<p>After uploading a PDF, there are problems with the images, text or fonts in a Flipbook.</p>
+<ul>
+<li>After converting a PDF to Flipbook, images, text, or fonts are missing/invisible, corrupted, or otherwise different than expected</li>
+<li>Flipbook looks different from the original PDF</li>
+</ul>
+<p> </p>
+<h2>Conditions</h2>
+<ul>
+<li>
+<strong>Where:</strong> Flipbooks viewer</li>
+<li>Affects PDFs uploaded to Uberflip and converted to Flipbooks</li>
+<li>Any browser</li>
+<li>Any operating system</li>
+</ul>
+<p> </p>
+<h2>Cause</h2>
+<p>Typically, this happens when a PDF has not been optimized.</p>
+<p> </p>
+<h2>Steps to Fix</h2>
+<p>To resolve this issue, try <strong>optimizing your PDF</strong>. See <a href="https://help.uberflip.com/hc/en-us/articles/360020510352">this article</a> for instructions.</p>
+<p>In most cases, optimizing should fix the problem. If it does not, please <a href="https://help.uberflip.com/hc/en-us/requests/new">contact Uberflip Support</a> for help.</p>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360020789871</guid>
+         <pubDate>Mon, 10 Dec 2018 22:26:51 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

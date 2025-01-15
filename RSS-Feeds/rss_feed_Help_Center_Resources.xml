@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Help Center Resources</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Internal: Draft and approve internal help articles</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4424588886541-Internal-Draft-and-approve-internal-help-articles</link>
+         <description><![CDATA[<p><span style="font-weight: 400;">Got knowledge you think will be useful to your team or others at Uberflip? Document it in our internal help center using the steps outlined below. </span></p>
+<p><strong>Looking to have a public facing article drafted?</strong><span style="font-weight: 400;"> Request a new public article using the steps </span><a href="https://help.uberflip.com/hc/en-us/articles/4424580209165"><span style="font-weight: 400;">here</span></a><span style="font-weight: 400;">. </span></p>
+<h2><span style="font-weight: 400;">Before you begin</span></h2>
+<ul>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">If you haven’t already, familiarize yourself with the </span><a href="https://help.uberflip.com/hc/en-us/articles/4424580792717"><span style="font-weight: 400;">Help Center style basics</span></a><span style="font-weight: 400;"> to ensure your article is consistent with others</span>
+</li>
+</ul>
+<h2><span style="font-weight: 400;">Draft an article</span></h2>
+<ol>
+<li>
+<span style="font-weight: 400;">In a new or existing Zendesk ticket, </span><span style="font-weight: 400;">open the <strong>Knowledge Capture app</strong></span><br><span style="font-weight: 400;">(Click the <strong>magnifying glass icon</strong> below the reply field)<br><img src="https://help.uberflip.com/hc/article_attachments/4424804351117/Untitled_design.png" alt="Untitled_design.png" width="353" height="175"></span>
+</li>
+<li>
+<span style="font-weight: 400;">Click the <strong>Create Knowledge</strong> (<strong>+</strong>) button in the Knowledge Capture app<br></span><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/4424816942349/afaffeF.png" alt="afaffeF.png" width="500" height="252"></span>
+</li>
+<li><span style="font-weight: 400;">Select a template<br><img src="https://help.uberflip.com/hc/article_attachments/4424805253645/Screen_Shot_2022-02-09_at_1.21.39_PM.png" alt="Screen_Shot_2022-02-09_at_1.21.39_PM.png" width="388" height="193"><br></span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Add a title (starting with "Internal:") and content to the article, following the structure of the template</span><span style="font-weight: 400;"><br></span><strong>Note: </strong><span style="font-weight: 400;">Every article is different. While the template is a great outline to start with, change the article structure as needed to suit your article.</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In the right side panel, select your article settings and categories. For internal articles, it will be: </span>
+<ol>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;"><strong>Managed By: </strong>Admins</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;"><strong>Visible to:</strong> Internal</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;"><strong>Publish in section:</strong> Internal Documentation &gt; Internal Articles For Review</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;"><strong>Author:</strong> You</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;"><strong>Labels:</strong> [Labels are like tags on an article. If you think Uberflippers may search using keywords not used in your article, add those words as labels.]</span></li>
+</ol>
+</li>
+<li><span style="font-weight: 400;">Click <strong>Save</strong> <br><strong>Note: </strong>The article created is a duplicate of the template; it does not overwrite the template.</span></li>
+<li><span style="font-weight: 400;"><strong>Inform your team lead</strong> that there is a new article waiting for review. Include the article title. </span></li>
+</ol>
+<p><span style="font-weight: 400;">Your article is now saved as a </span><strong>draft </strong><span style="font-weight: 400;">in the </span><strong>Internal Articles For Review section</strong><span style="font-weight: 400;"> of the internal Help Center. </span></p>
+<h2><span style="font-weight: 400;">Approve an article (Team Leads) </span></h2>
+<p><span style="font-weight: 400;">Has a team member let you know they've written a new article? Here's how to review and publish it.  </span></p>
+<ol>
+<li>Log into the <a href="https://help.uberflip.com/knowledge/lists/default/1/1?brand_id=360000231531">Zendesk Guide admin panel </a>
+</li>
+<li>Search for the article that's been created</li>
+<li>Review the article, considering: 
+<ul>
+<li class="li">Writing and grammar</li>
+<li class="li"><a href="https://help.uberflip.com/hc/en-us/articles/4424580792717" target="_self">Style guide</a></li>
+<li class="li">Template compliance (within reason)</li>
+<li class="li">Duplicate or similar articles</li>
+<li class="li">Accuracy</li>
+</ul>
+</li>
+<li>Make edits or, in a third party tool like Slack or Google Docs, ask the author to make needed adjustments<br><strong>Note:</strong> See how an article will look once published by clicking <strong>Preview in Help Center </strong>in the right side panel (below Save button). </li>
+<li>Once adjustments are made and the article is ready to be published, click the drop down next to the Save button in the top left. <br><img src="https://help.uberflip.com/hc/article_attachments/4426740884621/Screen_Shot_2022-02-14_at_8.53.34_AM.png" alt="Screen_Shot_2022-02-14_at_8.53.34_AM.png">
+</li>
+<li>Click <strong>Publish</strong>
+</li>
+</ol>
+<p>The article is now live in the internal Help Center!</p>]]></description>
+         <guid isPermaLink="false">4424588886541</guid>
+         <pubDate>Mon, 07 Feb 2022 23:29:17 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: Help Center style basics</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4424580792717-Internal-Help-Center-style-basics</link>
+         <description><![CDATA[<p><span style="font-weight: 400;">Writing for the Uberflip Help Center? Uberflip has company wide </span><a href="https://uberflip.lingoapp.com/k/Content-guidelines-dwnGKN"><span style="font-weight: 400;">content guidelines,</span></a><span style="font-weight: 400;"> but this guide quickly outlines some basic conventions that apply directly to Uberflip help articles. </span></p>
+<h2><span style="font-weight: 400;">Grammar quick tips</span></h2>
+<ul>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Use American english (e.g. <strong>"</strong></span><strong>color" </strong><span style="font-weight: 400;">over colour)</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Prefer contractions (e.g. <strong>"</strong></span><strong>you’ll"</strong><span style="font-weight: 400;"> over "you will")</span>
+</li>
+<li><span style="font-weight: 400;">Avoid unnecessarily complex words (ex. <strong>"chat"</strong> over "confabulate")</span></li>
+<li><span style="font-weight: 400;">Prefer <a href="https://uberflip.lingoapp.com/s/PWpWvy/?v=0#kAyzmn" target="_self">active voice</a> </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Use the least amount of words/sentences needed to convey your message </span></li>
+</ul>
+<h2><span style="font-weight: 400;">Titles and headings </span></h2>
+<p><span style="font-weight: 400;">Title and headings at Uberflip use </span><strong>sentence case</strong><span style="font-weight: 400;">, meaning only the first letter and proper nouns are capitalized. </span></p>
+<p><strong><span class="wysiwyg-underline">Example:</span><br></strong><span style="font-weight: 400;">Embed a YouTube video into a blog post</span></p>
+<p><span style="font-weight: 400;">Unless necessary, </span><strong>avoid using ‘How to’ and gerunds</strong><span style="font-weight: 400;"> (</span><em><span style="font-weight: 400;">-ing) </span></em><span style="font-weight: 400;">in titles and headings.</span></p>
+<p><strong><span class="wysiwyg-underline">Example:</span><br></strong><span style="font-weight: 400;"><strong>Incorrect:</strong> Embedding a YouTube video into a blog post<br><strong>Incorrect: </strong>How to embed a YouTube video into a blog post<br></span><strong>Correct:</strong><span style="font-weight: 400;"> Embed a YouTube video into a blog post</span></p>
+<h3><span style="font-weight: 400;">Titles</span></h3>
+<p><span style="font-weight: 400;">When creating an article in Zendesk, there will be a dedicated field for your title. </span></p>
+<h3><span style="font-weight: 400;">Headings </span></h3>
+<p><span style="font-weight: 400;">Help articles use headings H2-H4 headings as needed (you’re not likely to need an H1 heading in a help article). </span></p>
+<h3>H2<span style="font-weight: 400;"> </span>
+</h3>
+<ul>
+<li>
+<span style="font-weight: 400;">Used for article </span><strong>sections</strong>
+</li>
+<li><span style="font-weight: 400;">Any H2 heading in an article will appear in the table of contents when the article is published<img src="https://help.uberflip.com/hc/article_attachments/4424693282317/Untitled_design.png" alt="Untitled_design.png" width="600" height="108"></span></li>
+</ul>
+<h3>H3<span style="font-weight: 400;"> &amp; </span>H4</h3>
+<ul>
+<li><span style="font-weight: 400;">Smaller than H2 respectively</span></li>
+<li>
+<span style="font-weight: 400;">Will </span><strong>not</strong><span style="font-weight: 400;"> appear in the table of contents</span>
+</li>
+<li>
+<span style="font-weight: 400;">Use these headings for </span><strong>subsections</strong><span style="font-weight: 400;"> of an H2 article section, or when a section isn’t in need of its own section in the table of contents. </span>
+</li>
+</ul>
+<h2><span style="font-weight: 400;">Add navigational elements </span></h2>
+<p><span style="font-weight: 400;">Want to add elements that help organize and prioritize information in your article? In Zendesk, either natively or with a small bit of custom code, you can add:</span><span style="font-weight: 400;"><br></span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><a href="https://help.uberflip.com/hc/en-us/articles/360023557812-Internal-Reference-Custom-Zendesk-Formatting-Components#callout-blocks"><span style="font-weight: 400;">Callout Blocks</span></a></li>
+<li style="font-weight: 400;" aria-level="1"><a href="https://help.uberflip.com/hc/en-us/articles/360023557812-Internal-Reference-Custom-Zendesk-Formatting-Components#lists"><span style="font-weight: 400;">Lists</span></a></li>
+<li style="font-weight: 400;" aria-level="1"><a href="https://help.uberflip.com/hc/en-us/articles/360023557812-Internal-Reference-Custom-Zendesk-Formatting-Components#description-lists"><span style="font-weight: 400;">Description Lists</span></a></li>
+<li style="font-weight: 400;" aria-level="1"><a href="https://help.uberflip.com/hc/en-us/articles/360023557812-Internal-Reference-Custom-Zendesk-Formatting-Components#code"><span style="font-weight: 400;">Code Blocks</span></a></li>
+<li style="font-weight: 400;" aria-level="1"><a href="https://help.uberflip.com/hc/en-us/articles/360023557812-Internal-Reference-Custom-Zendesk-Formatting-Components#tables"><span style="font-weight: 400;">Tables</span></a></li>
+<li style="font-weight: 400;" aria-level="1"><a href="https://help.uberflip.com/hc/en-us/articles/360023557812-Internal-Reference-Custom-Zendesk-Formatting-Components#tabs"><span style="font-weight: 400;">Tabs</span></a></li>
+<li style="font-weight: 400;" aria-level="1"><a href="https://help.uberflip.com/hc/en-us/articles/360023557812-Internal-Reference-Custom-Zendesk-Formatting-Components#accordions"><span style="font-weight: 400;">Accordions</span></a></li>
+<li style="font-weight: 400;" aria-level="1"><a href="https://help.uberflip.com/hc/en-us/articles/360023557812-Internal-Reference-Custom-Zendesk-Formatting-Components#links"><span style="font-weight: 400;">Links</span></a></li>
+</ul>
+<p><span style="font-weight: 400;">Check out </span><a href="https://help.uberflip.com/hc/en-us/articles/360023557812-Internal-Reference-Custom-Zendesk-Formatting-Components"><span style="font-weight: 400;">Internal Reference: Custom Zendesk Formatting Components</span></a><span style="font-weight: 400;"> for a full guide on adding these to your article.</span></p>
+<h2><span style="font-weight: 400;">More Uberflip writing resources</span></h2>
+<p><span style="font-weight: 400;">Want to take your knowledge of </span><span style="font-weight: 400;">Uberflip's writing style</span><span style="font-weight: 400;"> further? Check out these sections of the <a href="https://uberflip.lingoapp.com/k/Content-guidelines-dwnGKN" target="_self">Uberflip Content Guidelines</a>:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><a href="https://uberflip.lingoapp.com/s/o4xX00/?v=0"><span style="font-weight: 400;">Voice and tone</span></a></li>
+<li style="font-weight: 400;" aria-level="1"><a href="https://uberflip.lingoapp.com/s/PWpWvy/?v=0"><span style="font-weight: 400;">Grammar and mechanics</span></a></li>
+<li style="font-weight: 400;" aria-level="1"><a href="https://uberflip.lingoapp.com/s/RjgW8q/?v=0"><span style="font-weight: 400;">Frequently used words </span></a></li>
+</ul>]]></description>
+         <guid isPermaLink="false">4424580792717</guid>
+         <pubDate>Mon, 07 Feb 2022 22:34:46 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: Request a public article or article update</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4424580209165-Internal-Request-a-public-article-or-article-update</link>
+         <description><![CDATA[<p><span style="font-weight: 400;">Found a knowledge gap in Uberflip’s Help Center? Let’s document it for our users!</span></p>
+<h2><span style="font-weight: 400;">Before you begin</span></h2>
+<p><span style="font-weight: 400;">Article requests should fit within the scope of the Uberflip Help Center. A good help article topic will: </span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">be useful to multiple users (edge-cases should not be publicly documented)</span></li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>not</strong><span style="font-weight: 400;"> quickly become obsolete through upcoming product changes</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Pertain directly to </span><strong>app.uberflip.com</strong><span style="font-weight: 400;">, </span><strong>an Uberflip app</strong><span style="font-weight: 400;">, or the </span><strong>integration process between Uberflip and third-party software</strong><span style="font-weight: 400;"><br></span><strong>Note:</strong><span style="font-weight: 400;"> We do not document third-party software issues (i.e. issues in Marketo)  </span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;"><strong>not</strong> already be documented in the Help Center (be sure to check before making a request)</span></li>
+</ul>
+<p><span style="font-weight: 400;"><strong>Note:</strong> Only articles and updates that fit the scope of the Uberflip Help Center will be added to the backlog. </span></p>
+<p> </p>
+<h2><span style="font-weight: 400;">Request a new public article </span></h2>
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Go to the </span><a href="https://uberflip.slack.com/archives/C030RESK7KR"><span style="font-weight: 400;">#product-writing</span></a><span style="font-weight: 400;"> Slack channel</span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Hover at the top of the channel and click <strong>Workflows</strong><br><img src="https://help.uberflip.com/hc/article_attachments/16600487735949" alt="Screen" width="402" height="158"><br></span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>Request Public Help Doc</strong><span style="font-weight: 400;"> </span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Fill out the form that appears as accurately as you can (the more detail the better). <br>To do so, you'll need to outline:</span>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">The issue users are experiencing</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">An estimate of how many users are experiencing the issue</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">The solution to the issue </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Supporting documentation (i.e. Slack URL, internal docs, Jira tickets, etc.)[optional] </span></li>
+</ul>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click</span><strong> Submit</strong>
+</li>
+</ol>
+<p><span style="font-weight: 400;">Your request will appear in the #product-writing channel, and will be reviewed by the Product Technical Writer as soon as possible.</span></p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p><strong><em>When</em></strong><span style="font-weight: 400;"> articles are written is based on the article’s priority and the Technical Writer’s bandwidth.</span><span style="font-weight: 400;"> </span></p>
+</div>
+<p> </p>
+<h2><span style="font-weight: 400;">Request an article update</span></h2>
+<p><span style="font-weight: 400;">If you’ve found that an article has out of date steps, or information that’s no longer correct, let us know! </span></p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p><span style="font-weight: 400;">Small updates, like typos or broken hyperlinks, can be raised as a simple message in the #product-writing Slack channel. The steps below are for content changes only.</span></p>
+</div>
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Go to the </span><a href="https://uberflip.slack.com/archives/C030RESK7KR"><span style="font-weight: 400;">#product-writing</span></a><span style="font-weight: 400;"> Slack channel</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Hover at the top of the channel and click <strong>Workflows<br></strong></span><span style="font-weight: 400;"><strong><img src="https://help.uberflip.com/hc/article_attachments/16600487738381" alt="Screen" width="400" height="172"></strong></span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>Request Article Update </strong><span style="font-weight: 400;"> </span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Fill out the form that appears as accurately as you can (the more detail the better). <br>To do so, you'll need to outline :</span>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">The article that needs updating</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">The section(s) in the article that needs updating</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">The new info that replaces the outdated info</span></li>
+</ul>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>Submit</strong>
+</li>
+</ol>
+<p><span style="font-weight: 400;">Your request will appear in the #product-writing channel, and will be reviewed by the Product Technical Writer as soon as possible.</span></p>
+<p> </p>
+<h2><span style="font-weight: 400;">Boost a request 🙌</span></h2>
+<p><span style="font-weight: 400;">Has a teammate made a request that you think is top-notch and </span><em><span style="font-weight: 400;">sooooo</span></em><span style="font-weight: 400;"> needed? </span><strong>Add an emoji to show your support! 🔥 ➕</strong></p>
+<p><span style="font-weight: 400;">Have </span><strong>tips, suggestions, or supporting material </strong><span style="font-weight: 400;">to add to what your teammate included? Thread those on the request message. <br></span><img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" src="https://help.uberflip.com/hc/article_attachments/4424788768141" alt="Screen_Shot_2022-02-09_at_8.45.01_AM.png"></p>
+<p><span style="font-weight: 400;">Crowdsourced additions like these help to </span><strong>boost the article's usefulness and priority. 💪<br><br></strong></p>]]></description>
+         <guid isPermaLink="false">4424580209165</guid>
+         <pubDate>Mon, 07 Feb 2022 22:17:41 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: Custom Zendesk Formatting Components</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360023557812-Internal-Custom-Zendesk-Formatting-Components</link>
+         <description><![CDATA[<hr>
+<p>This reference guide outlines the custom formatting components that are available our Zendesk Guide theme, along with instructions for use.</p>
+<hr>
+<p> </p>
+<h2>Introduction</h2>
+<p>Uberflip's Zendesk KB uses the custom <a href="https://www.lotusthemes.com/products/mink">Mink</a> theme from Lotusthemes. This theme includes a variety of formatting components that are not natively available in Zendesk, such as callouts, accordions, tabs, etc.</p>
+<p>In the Uberflip KB, the default appearance of many of these components has been customized for <a href="https://brand.uberflip.com/">brand compliance</a>. <strong>The purpose of this reference guide is to list the branded components, demonstrate their appearance, and provide instructions for use.</strong></p>
+<p>Note that not all components available in the theme have been branded. You can find a full list of available formatting components on the Lotusthemes KB <a href="https://zendeskthemes.zendesk.com/hc/en-us/articles/115000337450">here</a>. While any of the formatting components not listed in this article are still technically compatible with this KB, they are not brand-compliant.</p>
+<p> </p>
+<h2>Usage</h2>
+<p>Each formatting component listed below falls into one of two categories:</p>
+<ul>
+<li>
+<strong>Built-In: </strong>Some of the components are included with Zendesk, or replace the included version. You use these by clicking on the corresponding buttons in the Zendesk WYSISWYG text editor. All built-in components (available in the text editor) are brand-compliant; only those which are notable or have alternative styles are listed below.</li>
+<li>
+<strong>Custom: </strong>All other components are custom, and do not have dedicated buttons. You use these by pasting a code snippet directly into the HTML source code of the article:<br> <img src="https://help.uberflip.com/hc/article_attachments/360021283851/Fullscreen_2019-02-15__11_12_AM.png" alt="Fullscreen_2019-02-15__11_12_AM.png" width="617" height="88"><br> (Be aware that the resulting formatting will usually <strong>not</strong> be visible in the text editor, only in the final article view.)</li>
+</ul>
+<p>For each component listed in this article, correct usage is indicated via either the appropriate text editor button, or a code snippet.</p>
+<p> </p>
+<h2>Callout Blocks</h2>
+<h3>Regular Callout</h3>
+<p><strong>Example</strong></p>
+<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>This is a regular callout, used for miscellaneous info.</p>
+</div>
+<p><strong>To Use<br></strong></p>
+<pre class="html"><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"callout"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">h4</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"callout__title"</span>&gt;</span>Info<span class="hljs-tag">&lt;/<span class="hljs-name">h4</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">This is a regular callout, used for miscellaneous info.&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<hr>
+<h3>Tip Callout</h3>
+<p><strong>Example</strong></p>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>This is a tip callout, used for helpful tips.</p>
+</div>
+<p><strong>To Use</strong></p>
+<pre class="html"><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"callout callout--success"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">h4</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"callout__title"</span>&gt;</span>Tip<span class="hljs-tag">&lt;/<span class="hljs-name">h4</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">This is a tip callout, used for hints and tips.&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
+<hr>
+<h3>Note Callout</h3>
+<p><strong>Example</strong></p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>This is a note callout, used to highlight informational notes.</p>
+</div>
+<p><strong>To Use</strong></p>
+<pre class="html"><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"callout callout--info"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">h4</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"callout__title"</span>&gt;</span>Note<span class="hljs-tag">&lt;/<span class="hljs-name">h4</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">This is a note callout, used to highlight helpful notes.&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<hr>
+<h3>Caution Callout</h3>
+<p><strong>Example</strong></p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Caution</h4>
+<p>This is a caution callout, used for very important notes.</p>
+</div>
+<p><strong>To Use</strong></p>
+<pre class="html"><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"callout callout--warning"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">h4</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"callout__title"</span>&gt;</span>Caution<span class="hljs-tag">&lt;/<span class="hljs-name">h4</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">This is a caution callout, used for very important notes.&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<hr>
+<h3>Warning Callout</h3>
+<p><strong>Example</strong></p>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p>This is a warning callout, used for critical information that can cause damage/data loss if not heeded.</p>
+</div>
+<p><strong>To Use</strong></p>
+<pre class="html"><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"callout callout--danger"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">h4</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"callout__title"</span>&gt;</span>Warning<span class="hljs-tag">&lt;/<span class="hljs-name">h4</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">This is a warning callout, used for critical information that can cause damage/data loss if not heeded.&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
+<hr>
+<p> </p>
+<h2>Lists</h2>
+<h3>Ordered List</h3>
+<p><strong>Example</strong></p>
+<ol>
+<li>Ordered Item 1</li>
+<li>Ordered Item 2
+<ol>
+<li>Ordered Indented Item</li>
+</ol>
+</li>
+<li>Ordered Item 3<br>
+<ul>
+<li>Unordered Indented Item</li>
+</ul>
+</li>
+</ol>
+<p><strong>To Use</strong></p>
+<p>Text Editor <strong>Numbered list</strong> button:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360021796671/Fullscreen_2019-02-19__1_13_PM.png" alt="Fullscreen_2019-02-19__1_13_PM.png"></p>
+<hr>
+<h3>Unordered List (Standard)</h3>
+<p><strong>Example</strong></p>
+<ul>
+<li>Unordered Item 1</li>
+<li>Unordered Item 1
+<ul>
+<li>Unordered Indented Item</li>
+</ul>
+</li>
+<li>Unordered Item 1
+<ol>
+<li>Ordered Indented Item</li>
+</ol>
+</li>
+</ul>
+<p><strong>To </strong><strong>Use</strong></p>
+<p>Text Editor <strong>Bulleted list</strong> button:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360021830572/Fullscreen_2019-02-19__1_17_PM.png" alt="Fullscreen_2019-02-19__1_17_PM.png"></p>
+<hr>
+<h3>Unordered List (Colored Bullets)</h3>
+<p><strong>Example</strong></p>
+<ul class="list-bullet">
+<li>Bullet One</li>
+<li>Bullet Two</li>
+<li>Bullet Three
+<ul>
+<li>Indented Bullet</li>
+</ul>
+</li>
+<li>Bullet Four</li>
+</ul>
+<p><strong>To Use<br></strong></p>
+<pre><code class="html">&lt;ul class="list-bullet"&gt;<br> &lt;li&gt;Bullet One&lt;/li&gt;<br> &lt;li&gt;Bullet Two&lt;/li&gt;<br> &lt;li&gt;Bullet Three&lt;/li&gt;<br> &lt;li&gt;Bullet Four&lt;/li&gt;<br>&lt;/ul&gt;</code></pre>
+<hr>
+<p> </p>
+<h2>Description Lists</h2>
+<h3>Standard</h3>
+<p><strong>Example</strong></p>
+<dl>
+<dt>Name of Item 1</dt>
+<dd>This is where the description for this item goes.</dd>
+<dd>It can also be across multiple paragraphs.</dd>
+<dt>Name of Item 2</dt>
+<dd>This is where the description for this item goes.</dd>
+<dt>Name of Item 3</dt>
+<dd>This is where the description for this item goes.</dd>
+</dl>
+<p><strong>To Use</strong></p>
+<pre><code class="html">&lt;dl&gt;<br> &lt;dt&gt;Name of Item 1&lt;/dt&gt;<br> &lt;dd&gt;This is where the description for this item goes.&lt;/dd&gt;<br> &lt;dd&gt;It can also be across multiple paragraphs.&lt;/dd&gt;<br> &lt;dt&gt;Name of Item 2&lt;/dt&gt;<br> &lt;dd&gt;This is where the description for this item goes.&lt;/dd&gt;<br> &lt;dt&gt;Name of Item 3&lt;/dt&gt;<br> &lt;dd&gt;This is where the description for this item goes.&lt;/dd&gt;<br>&lt;/dl&gt;</code></pre>
+<hr>
+<h3>Horizontal</h3>
+<p><strong>Example</strong></p>
+<dl class="dl-horizontal">
+<dt>Name of Item 1</dt>
+<dd>This is where the description for this item goes.</dd>
+<dd>It can also be across multiple paragraphs.</dd>
+<dt>Name of Item 2</dt>
+<dd>This is where the description for this item goes.</dd>
+<dt>Name of Item 3</dt>
+<dd>This is where the description for this item goes.</dd>
+</dl>
+<p><strong>To Use</strong></p>
+<pre><code class="html">&lt;dl class="dl-horizontal"&gt;<br> &lt;dt&gt;Name of Item 1&lt;/dt&gt;<br> &lt;dd&gt;This is where the description for this item goes.&lt;/dd&gt;<br> &lt;dd&gt;It can also be across multiple paragraphs.&lt;/dd&gt;<br> &lt;dt&gt;Name of Item 2&lt;/dt&gt;<br> &lt;dd&gt;This is where the description for this item goes.&lt;/dd&gt;<br> &lt;dt&gt;Name of Item 3&lt;/dt&gt;<br> &lt;dd&gt;This is where the description for this item goes.&lt;/dd&gt;<br>&lt;/dl&gt;</code></pre>
+<hr>
+<p> </p>
+<h2>Code</h2>
+<h3>Code Block</h3>
+<p><strong>Example</strong></p>
+<pre><code class="html">&lt;head&gt;<br> &lt;meta charset="utf-8"&gt;<br> &lt;meta name="viewport"<br> content="width=device-width, initial-scale=1, user-scalable=yes"&gt;<br> &lt;title&gt;Hello World!&lt;/title&gt;<br>&lt;/head&gt;<br>&lt;body&gt;<br>Hello World!<br>&lt;/body&gt;<br>&lt;/html&gt;</code></pre>
+<p><strong>To Use</strong></p>
+<pre class="html"><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">pre</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;<br>Code goes here<br>&lt;/code&gt;&lt;/pre&gt;<br><br><strong>or</strong><br><br>&lt;<span class="hljs-name">pre</span>&gt;&lt;<span class="hljs-name">code class='languagename'</span>&gt;<br>Code goes here<br>&lt;/code&gt;&lt;/pre&gt;<br></span></code></pre>
+<p>Text editor <strong>Code block</strong> button can also be used:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360021922612/Fullscreen_2019-02-19__4_03_PM.png" alt="Fullscreen_2019-02-19__4_03_PM.png"></p>
+<p>Note that this only inserts <code class="no-padding">&lt;pre&gt;</code> tags: if used, <code class="no-padding">&lt;code&gt;</code> tags must be manually inserted within <code class="no-padding">&lt;pre&gt;</code> tags as in code snippet above.</p>
+<p>The theme uses <a href="https://highlightjs.org/">highlight.js</a> to highlight specific elements in code snippets based on the language being displayed. In many cases the language is detected and highlighted automatically, but you can also specify the language using <code class="no-padding">&lt;code class='languagename'&gt;</code> in place of <code class="no-padding">&lt;code&gt;</code>. A listing of all languages for which highlighting is available can be found <a href="https://highlightjs.org/static/demo/">here</a>.<code class="no-padding"></code></p>
+<hr>
+<h3>Inline Code</h3>
+<p><strong>Example</strong></p>
+<p>This is an example sentence where I'm going to reference some <code class="no-padding">inline code</code>.</p>
+<p><strong>To Use</strong></p>
+<pre><code>&lt;code class="no-padding"&gt;insert inline code&lt;/code&gt;</code></pre>
+<hr>
+<p> </p>
+<h2>Tables</h2>
+<h3 id="h_8247831821091550608170979">Standard</h3>
+<p><strong>Example</strong></p>
+<table>
+<tbody>
+<tr>
+<td style="width: 215px;"><strong>Heading 1</strong></td>
+<td style="width: 215px;"><strong>Heading 2</strong></td>
+<td style="width: 215px;"><strong>Heading 3</strong></td>
+</tr>
+<tr>
+<td style="width: 215px;">100</td>
+<td style="width: 215px;">400</td>
+<td style="width: 215px;">700</td>
+</tr>
+<tr>
+<td style="width: 215px;">200</td>
+<td style="width: 215px;">500</td>
+<td style="width: 215px;">800</td>
+</tr>
+<tr>
+<td style="width: 215px;">300</td>
+<td style="width: 215px;">600</td>
+<td style="width: 215px;">900</td>
+</tr>
+</tbody>
+</table>
+<p><strong>To Use</strong></p>
+<p>Text Editor <strong>Table</strong> button:</p>
+<p><strong><img src="https://help.uberflip.com/hc/article_attachments/360021851451/Fullscreen_2019-02-19__3_14_PM.png" alt="Fullscreen_2019-02-19__3_14_PM.png"></strong></p>
+<hr>
+<h3>Coloured Header</h3>
+<p><strong>Example</strong></p>
+<table class="table table--color-header">
+<tbody>
+<tr>
+<td style="width: 215px;"><strong>Heading 1</strong></td>
+<td style="width: 215px;"><strong>Heading 2</strong></td>
+<td style="width: 215px;"><strong>Heading 3</strong></td>
+</tr>
+<tr>
+<td style="width: 215px;">100</td>
+<td style="width: 215px;">400</td>
+<td style="width: 215px;">700</td>
+</tr>
+<tr>
+<td style="width: 215px;">200</td>
+<td style="width: 215px;">500</td>
+<td style="width: 215px;">800</td>
+</tr>
+<tr>
+<td style="width: 215px;">300</td>
+<td style="width: 215px;">600</td>
+<td style="width: 215px;">900</td>
+</tr>
+</tbody>
+</table>
+<p><strong>To Use</strong></p>
+<p>As with <a href="#h_8247831821091550608170979">Standard</a>, but change <code class="no-padding">&lt;table&gt;</code> to <code class="no-padding">&lt;table class="table table--color-header"&gt;</code>.</p>
+<hr>
+<h3>Bordered</h3>
+<p><strong>Example</strong></p>
+<table class="table table--bordered">
+<tbody>
+<tr>
+<td style="width: 215px;"><strong>Heading 1</strong></td>
+<td style="width: 215px;"><strong>Heading 2</strong></td>
+<td style="width: 215px;"><strong>Heading 3</strong></td>
+</tr>
+<tr>
+<td style="width: 215px;">100</td>
+<td style="width: 215px;">400</td>
+<td style="width: 215px;">700</td>
+</tr>
+<tr>
+<td style="width: 215px;">200</td>
+<td style="width: 215px;">500</td>
+<td style="width: 215px;">800</td>
+</tr>
+<tr>
+<td style="width: 215px;">300</td>
+<td style="width: 215px;">600</td>
+<td style="width: 215px;">900</td>
+</tr>
+</tbody>
+</table>
+<p><strong>To Use<br></strong></p>
+<p>As with <a href="#h_8247831821091550608170979">Standard</a>, but change <code class="no-padding">&lt;table&gt;</code> to <code class="no-padding">&lt;table class="table table--bordered"&gt;</code>.</p>
+<hr>
+<h3>Hover Coloured</h3>
+<p><strong>Example</strong></p>
+<table class="table table--striped">
+<tbody>
+<tr>
+<td style="width: 215px;"><strong>Heading 1</strong></td>
+<td style="width: 215px;"><strong>Heading 2</strong></td>
+<td style="width: 215px;"><strong>Heading 3</strong></td>
+</tr>
+<tr>
+<td style="width: 215px;">100</td>
+<td style="width: 215px;">400</td>
+<td style="width: 215px;">700</td>
+</tr>
+<tr>
+<td style="width: 215px;">200</td>
+<td style="width: 215px;">500</td>
+<td style="width: 215px;">800</td>
+</tr>
+<tr>
+<td style="width: 215px;">300</td>
+<td style="width: 215px;">600</td>
+<td style="width: 215px;">900</td>
+</tr>
+</tbody>
+</table>
+<p><strong>To Use</strong></p>
+<p>As with <a href="#h_8247831821091550608170979">Standard</a>, but change <code class="no-padding">&lt;table&gt;</code> to <code class="no-padding">&lt;table class="table table--striped"&gt;</code>.</p>
+<hr>
+<p> </p>
+<h2>Tabs</h2>
+<h3>Standard</h3>
+<p><strong>Example</strong></p>
+<div class="tabs">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Tab 1</span><span class="tabs-link">Tab 2</span><span class="tabs-link">Tab 3</span><span class="tabs-link">Tab 4</span><span class="tabs-link">Tab 5</span>
+</div>
+<div class="tab">Tab 1 content goes here.</div>
+<div class="tab is-hidden">Tab 2 content goes here.</div>
+<div class="tab is-hidden">Tab 3 content goes here.</div>
+<div class="tab is-hidden">Tab 4 content goes here.</div>
+<div class="tab is-hidden">Tab 5 content goes here.</div>
+</div>
+<p><strong>To Use</strong></p>
+<pre><code>&lt;div class="tabs"&gt;<br> &lt;div class="tabs-menu"&gt;<br> &lt;span class="tabs-link is-active"&gt;Tab 1&lt;/span&gt;<br> &lt;span class="tabs-link"&gt;Tab 2&lt;/span&gt;<br> &lt;span class="tabs-link"&gt;Tab 3&lt;/span&gt;<br> &lt;span class="tabs-link"&gt;Tab 4&lt;/span&gt;<br> &lt;span class="tabs-link"&gt;Tab 5&lt;/span&gt;<br> &lt;/div&gt;<br> &lt;div class="tab"&gt;Tab 1 content goes here.&lt;/div&gt;<br> &lt;div class="tab is-hidden"&gt;Tab 2 content goes here.&lt;/div&gt;<br> &lt;div class="tab is-hidden"&gt;Tab 3 content goes here.&lt;/div&gt;<br> &lt;div class="tab is-hidden"&gt;Tab 4 content goes here.&lt;/div&gt;<br> &lt;div class="tab is-hidden"&gt;Tab 5 content goes here.&lt;/div&gt;<br>&lt;/div&gt;</code></pre>
+<hr>
+<h3>Shaded</h3>
+<p><strong>Example</strong></p>
+<div class="tabs tabs--colored-1">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Tab 1</span><span class="tabs-link">Tab 2</span><span class="tabs-link">Tab 3</span><span class="tabs-link">Tab 4</span><span class="tabs-link">Tab 5</span>
+</div>
+<div class="tab">Tab 1 content goes here.</div>
+<div class="tab is-hidden">Tab 2 content goes here.</div>
+<div class="tab is-hidden">Tab 3 content goes here.</div>
+<div class="tab is-hidden">Tab 4 content goes here.</div>
+<div class="tab is-hidden">Tab 5 content goes here.</div>
+</div>
+<p><strong>To Use</strong></p>
+<pre><code>&lt;div class="tabs tabs--colored-1"&gt;<br> &lt;div class="tabs-menu"&gt;<br> &lt;span class="tabs-link is-active"&gt;Tab 1&lt;/span&gt;<br> &lt;span class="tabs-link"&gt;Tab 2&lt;/span&gt;<br> &lt;span class="tabs-link"&gt;Tab 3&lt;/span&gt;<br> &lt;span class="tabs-link"&gt;Tab 4&lt;/span&gt;<br> &lt;span class="tabs-link"&gt;Tab 5&lt;/span&gt;<br> &lt;/div&gt;<br> &lt;div class="tab"&gt;Tab 1 content goes here.&lt;/div&gt;<br> &lt;div class="tab is-hidden"&gt;Tab 2 content goes here.&lt;/div&gt;<br> &lt;div class="tab is-hidden"&gt;Tab 3 content goes here.&lt;/div&gt;<br> &lt;div class="tab is-hidden"&gt;Tab 4 content goes here.&lt;/div&gt;<br> &lt;div class="tab is-hidden"&gt;Tab 5 content goes here.&lt;/div&gt;<br>&lt;/div&gt;</code></pre>
+<hr>
+<h3>Coloured</h3>
+<p><strong>Example</strong></p>
+<div class="tabs tabs--colored-2">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Tab 1</span><span class="tabs-link">Tab 2</span><span class="tabs-link">Tab 3</span><span class="tabs-link">Tab 4</span><span class="tabs-link">Tab 5</span>
+</div>
+<div class="tab">Tab 1 content goes here.</div>
+<div class="tab is-hidden">Tab 2 content goes here.</div>
+<div class="tab is-hidden">Tab 3 content goes here.</div>
+<div class="tab is-hidden">Tab 4 content goes here.</div>
+<div class="tab is-hidden">Tab 5 content goes here.</div>
+</div>
+<p><strong>To Use</strong></p>
+<pre><code>&lt;div class="tabs tabs--colored-2"&gt;<br> &lt;div class="tabs-menu"&gt;<br> &lt;span class="tabs-link is-active"&gt;Tab 1&lt;/span&gt;<br> &lt;span class="tabs-link"&gt;Tab 2&lt;/span&gt;<br> &lt;span class="tabs-link"&gt;Tab 3&lt;/span&gt;<br> &lt;span class="tabs-link"&gt;Tab 4&lt;/span&gt;<br> &lt;span class="tabs-link"&gt;Tab 5&lt;/span&gt;<br> &lt;/div&gt;<br> &lt;div class="tab"&gt;Tab 1 content goes here.&lt;/div&gt;<br> &lt;div class="tab is-hidden"&gt;Tab 2 content goes here.&lt;/div&gt;<br> &lt;div class="tab is-hidden"&gt;Tab 3 content goes here.&lt;/div&gt;<br> &lt;div class="tab is-hidden"&gt;Tab 4 content goes here.&lt;/div&gt;<br> &lt;div class="tab is-hidden"&gt;Tab 5 content goes here.&lt;/div&gt;<br>&lt;/div&gt;</code></pre>
+<hr>
+<p> </p>
+<h2>Accordions</h2>
+<h3>Caret (Shaded)</h3>
+<p><strong>Example</strong></p>
+<div class="accordion accordion--default">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Section 1</strong></div>
+<div class="accordion__item-content">
+<p>Section 1 content goes here.</p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Section 2</strong></div>
+<div class="accordion__item-content">
+<p>Section 2 content goes here.</p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Section 3</strong></div>
+<div class="accordion__item-content">
+<p>Section 3 content goes here.</p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Section 4</strong></div>
+<div class="accordion__item-content">
+<p>Section 4 content goes here.</p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Section 5</strong></div>
+<div class="accordion__item-content">
+<p>Section 5 content goes here.</p>
+</div>
+</div>
+</div>
+<p><strong>To Use</strong></p>
+<pre><code>&lt;div class="accordion accordion--default"&gt;<br> &lt;div class="accordion__item"&gt;<br> &lt;div class="accordion__item-title"&gt;<br> &lt;strong&gt;Section 1&lt;/strong&gt;<br> &lt;/div&gt;<br> &lt;div class="accordion__item-content"&gt;<br> &lt;p&gt;Section 1 content goes here.&lt;/p&gt;<br> &lt;/div&gt;<br> &lt;/div&gt;<br> &lt;div class="accordion__item"&gt;<br> &lt;div class="accordion__item-title"&gt;<br> &lt;strong&gt;Section 2&lt;/strong&gt;<br> &lt;/div&gt;<br> &lt;div class="accordion__item-content"&gt;<br> &lt;p&gt;Section 2 content goes here.&lt;/p&gt;<br> &lt;/div&gt;<br> &lt;/div&gt;<br> &lt;div class="accordion__item"&gt;<br> &lt;div class="accordion__item-title"&gt;<br> &lt;strong&gt;Section 3&lt;/strong&gt;<br> &lt;/div&gt;<br> &lt;div class="accordion__item-content"&gt;<br> &lt;p&gt;Section 3 content goes here.&lt;/p&gt;<br> &lt;/div&gt;<br> &lt;/div&gt;<br> &lt;div class="accordion__item"&gt;<br> &lt;div class="accordion__item-title"&gt;<br> &lt;strong&gt;Section 4&lt;/strong&gt;<br> &lt;/div&gt;<br> &lt;div class="accordion__item-content"&gt;<br> &lt;p&gt;Section 4 content goes here.&lt;/p&gt;<br> &lt;/div&gt;<br> &lt;/div&gt;<br> &lt;div class="accordion__item"&gt;<br> &lt;div class="accordion__item-title"&gt;<br> &lt;strong&gt;Section 5&lt;/strong&gt;<br> &lt;/div&gt;<br> &lt;div class="accordion__item-content"&gt;<br> &lt;p&gt;Section 5 content goes here.&lt;/p&gt;<br> &lt;/div&gt;<br> &lt;/div&gt;<br>&lt;/div&gt;</code></pre>
+<hr>
+<h3>Plus (Coloured)</h3>
+<p><strong>Example</strong></p>
+<div class="accordion accordion--colored">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Section 1</strong></div>
+<div class="accordion__item-content">
+<p>Section 1 content goes here.</p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Section 2</strong></div>
+<div class="accordion__item-content">
+<p>Section 2 content goes here.</p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Section 3</strong></div>
+<div class="accordion__item-content">
+<p>Section 3 content goes here.</p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Section 4</strong></div>
+<div class="accordion__item-content">
+<p>Section 4 content goes here.</p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Section 5</strong></div>
+<div class="accordion__item-content">
+<p>Section 5 content goes here.</p>
+</div>
+</div>
+</div>
+<p><strong>To Use</strong></p>
+<pre><code>&lt;div class="accordion accordion--colored"&gt;<br> &lt;div class="accordion__item"&gt;<br> &lt;div class="accordion__item-title"&gt;<br> &lt;strong&gt;Section 1&lt;/strong&gt;<br> &lt;/div&gt;<br> &lt;div class="accordion__item-content"&gt;<br> &lt;p&gt;Section 1 content goes here.&lt;/p&gt;<br> &lt;/div&gt;<br> &lt;/div&gt;<br> &lt;div class="accordion__item"&gt;<br> &lt;div class="accordion__item-title"&gt;<br> &lt;strong&gt;Section 2&lt;/strong&gt;<br> &lt;/div&gt;<br> &lt;div class="accordion__item-content"&gt;<br> &lt;p&gt;Section 2 content goes here.&lt;/p&gt;<br> &lt;/div&gt;<br> &lt;/div&gt;<br> &lt;div class="accordion__item"&gt;<br> &lt;div class="accordion__item-title"&gt;<br> &lt;strong&gt;Section 3&lt;/strong&gt;<br> &lt;/div&gt;<br> &lt;div class="accordion__item-content"&gt;<br> &lt;p&gt;Section 3 content goes here.&lt;/p&gt;<br> &lt;/div&gt;<br> &lt;/div&gt;<br> &lt;div class="accordion__item"&gt;<br> &lt;div class="accordion__item-title"&gt;<br> &lt;strong&gt;Section 4&lt;/strong&gt;<br> &lt;/div&gt;<br> &lt;div class="accordion__item-content"&gt;<br> &lt;p&gt;Section 4 content goes here.&lt;/p&gt;<br> &lt;/div&gt;<br> &lt;/div&gt;<br> &lt;div class="accordion__item"&gt;<br> &lt;div class="accordion__item-title"&gt;<br> &lt;strong&gt;Section 5&lt;/strong&gt;<br> &lt;/div&gt;<br> &lt;div class="accordion__item-content"&gt;<br> &lt;p&gt;Section 5 content goes here.&lt;/p&gt;<br> &lt;/div&gt;<br> &lt;/div&gt;<br>&lt;/div&gt;</code></pre>
+<hr>
+<p> </p>
+<h2>Links</h2>
+<h3>Standard</h3>
+<p><strong>Example</strong></p>
+<p>This is an example of a <a href="https://help.uberflip.com/">standard link</a>.</p>
+<p><strong>To Use</strong></p>
+<p>Text Editor <strong>Insert/edit link</strong> button:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360021917832/Fullscreen_2019-02-19__3_57_PM.png" alt="Fullscreen_2019-02-19__3_57_PM.png"></p>
+<hr>
+<h3>Button</h3>
+<p><strong>Example</strong></p>
+<p><a class="btn btn--primary" href="https://help.uberflip.com" target="_blank" rel="noopener"> Click Here! </a></p>
+<p><strong>To Use</strong></p>
+<pre class="html"><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn--primary"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://help.uberflip.com"</span> <span class="hljs-attr">target</span>=<span class="hljs-string">"_blank"</span>&gt;</span>
+  Click Here!
+<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code></pre>]]></description>
+         <guid isPermaLink="false">360023557812</guid>
+         <pubDate>Thu, 14 Feb 2019 22:51:26 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

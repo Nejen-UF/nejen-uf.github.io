@@ -1,0 +1,1355 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - How-to and reference guides</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Acquisition channel data changes in UFA [Jan. 2023]</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/11935627027725-Acquisition-channel-data-changes-in-UFA-Jan-2023</link>
+         <description><![CDATA[<h2><span style="font-weight: 400;">Overview</span></h2>
+<p><span style="font-weight: 400;">As of<strong> January 17th 2023,</strong> we'll be making changes to the way </span><strong>visitor acquisition channels</strong><span style="font-weight: 400;"> are determined and displayed in Uberflip Analytics (UFA). </span></p>
+<p><span style="font-weight: 400;">These changes will primarily impact the </span><strong><em>Visitor Acquisition</em></strong><strong> dashboard </strong><em><span style="font-weight: 400;">(Analytics &gt; Traffic &gt; Visitor Acquisition)</span></em><span style="font-weight: 400;"> in UFA, but may also affect any </span><strong>custom dashboards and reports</strong><span style="font-weight: 400;"> you've created.</span></p>
+<p><span style="font-weight: 400;">Here's a quick overview of the changes:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In Uberflip Analytics, </span><strong>acquisition channels</strong><span style="font-weight: 400;"> will no longer be displayed as part of UTM source and UTM medium data. Instead, acquisition channels will now be displayed separately, in their own data field.</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">We're </span><strong>upgrading the algorithm we use to infer acquisition channels</strong><span style="font-weight: 400;"> to increase the accuracy of this data.</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">We're </span><strong>redesigning the </strong><strong><em>Visitor Acquisition</em></strong><strong> dashboard</strong><span style="font-weight: 400;"> in Uberflip Analytics to </span><strong>emphasize visitor acquisition channels</strong><span style="font-weight: 400;"> over UTM Source/Medium data. This will make it easier to understand where your traffic is coming from at a glance.</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In the summary table of the Visitor Acquisition dashboard, we're </span><strong>splitting the current combined UTM Source &amp; Medium column into two separate columns</strong><span style="font-weight: 400;"> (</span><em><span style="font-weight: 400;">UTM Source</span></em><span style="font-weight: 400;"> and </span><em><span style="font-weight: 400;">UTM Medium</span></em><span style="font-weight: 400;">) to make it easier to distinguish between them.</span>
+</li>
+</ul>
+<p><span style="font-weight: 400;">See the <a href="#h_01GNWP978Y9Y0ZCBN4A8RRDV07" target="_self">"What's changing" section</a> for an in-depth look at these changes.</span></p>
+<div class="callout callout--info">
+<h4 class="callout__title"><strong>What is an acquisition channel, and why is it "inferred"?</strong></h4>
+<p><span style="font-weight: 400;">Acquisition channels are groupings of related sources of traffic. <strong>E.g. </strong></span><span style="font-weight: 400;">Traffic coming from search engines like Google or Bing can be grouped together as "organic traffic".</span></p>
+<p><span style="font-weight: 400;">When grouping traffic like this, it's not always obvious which channel is the correct one. Sometimes the appropriate channel can be determined based on the </span><a href="https://support.google.com/analytics/answer/1033863?hl=en#parameters"><span style="font-weight: 400;">UTM source or UTM medium</span></a><span style="font-weight: 400;"> parameters, but often this data is missing or ambiguous. </span><span style="font-weight: 400;">In order to group traffic into channels, UFA makes an "educated guess" by using an algorithm that looks at a variety of data points. The process of making this educated guess is called "inferring" the acquisition channel.</span></p>
+</div>
+<p> </p>
+<h2 id="h_01GNWP978Y9Y0ZCBN4A8RRDV07"><span style="font-weight: 400;">What's changing? </span></h2>
+<p><span style="font-weight: 400;">There are four main ways the Visitor Acquisition dashboard will change: </span></p>
+<ol>
+<li><a href="#h_01GNWNZTKK7S4D1KQ71948ZNB3" target="_self"><span style="font-weight: 400;">The way UFA determines acquisition channels will change</span></a></li>
+<li><a href="#h_01GNWP0495M69EDZRXKS7TK28Y" target="_self"><span style="font-weight: 400;">Acquisition channel data will be displayed in a different place</span></a></li>
+<li><a href="#h_01GNWP0F4QRPEH9H4HACHRT50D" target="_self"><span style="font-weight: 400;">Historical data will change to match the new standard</span></a></li>
+<li><a href="#h_01GNWP0TNTQX3J37TP8TWBKFM8" target="_self"><span style="font-weight: 400;">The Visitor Acquisition dashboard will now highlight acquisition channel data </span></a></li>
+</ol>
+<p><span style="font-weight: 400;">Here's an in-depth look at each change:</span></p>
+<h3 id="h_01GNWNZTKK7S4D1KQ71948ZNB3">The way UFA determines acquisition channels</h3>
+<p><span style="font-weight: 400;">When needed, Uberflip has always made educated guesses about which acquisition channels your traffic is coming from. As industry tech advances, so do we. We’ve come up with a more accurate way to infer acquisition channels, and we’re bringing that to you now.</span></p>
+<h3 id="h_01GNWP0495M69EDZRXKS7TK28Y">Acquisition channel data will be displayed in a different place</h3>
+<p><span style="font-weight: 400;">Until now, the inferred acquisition channel has been shown within the </span><a href="https://help.uberflip.com/hc/en-us/articles/360045468471-UTM-URL-Anlaytics-Traffic-"><em><span style="font-weight: 400;">UTM Source </span></em><span style="font-weight: 400;">and </span><em><span style="font-weight: 400;">UTM Medium</span></em><span style="font-weight: 400;"> data fields</span></a><span style="font-weight: 400;">. Whenever a <em>UTM source</em> or </span><em><span style="font-weight: 400;">UTM medium </span></em><span style="font-weight: 400;">were not available, the inferred acquisition channel would be shown (in parentheses). <strong>E.g.</strong> </span><em><span style="font-weight: 400;">google.com/<strong>(organic), </strong>(organic) =</span></em><span style="font-weight: 400;"> <em>inferred acquisition channel.</em></span></p>
+<p><span style="font-weight: 400;">To make it easier to distinguish UTM sources/mediums from acquisition channels, we’re splitting them up. <strong>A</strong></span><strong>cquisition channels will now be displayed separately, in their own data field </strong><span style="font-weight: 400;">(called </span><em><span style="font-weight: 400;">Acquisition Channel</span></em><span style="font-weight: 400;">). The </span><em><span style="font-weight: 400;">UTM Source </span></em><span style="font-weight: 400;">and </span><em><span style="font-weight: 400;">UTM Medium</span></em><span style="font-weight: 400;"> data fields will be reserved exclusively for actual UTM source/medium values.</span></p>
+<p><span style="font-weight: 400;">Any traffic which displayed an inferred acquisition channel in the </span><em><span style="font-weight: 400;">UTM Source</span></em><span style="font-weight: 400;"> or </span><em><span style="font-weight: 400;">UTM Medium</span></em><span style="font-weight: 400;"> fields previously will now show that the UTM source or medium is missing. <strong>E.g.</strong> </span><em><span style="font-weight: 400;">google.com/<strong>(organic) </strong></span></em><span style="font-weight: 400;">will now be shown as </span><em><span style="font-weight: 400;">google.com/<strong>(none)</strong></span></em><span style="font-weight: 400;">.</span></p>
+<h3 id="h_01GNWP0F4QRPEH9H4HACHRT50D">Historical data will change to match the new standard</h3>
+<p><span style="font-weight: 400;">This change will be retroactive, and </span><strong>will affect all historical data</strong><span style="font-weight: 400;">. This means that if you look at traffic from a year ago and currently see </span><em><span style="font-weight: 400;">google.com/(organic)</span></em><span style="font-weight: 400;">, that same historical traffic will show </span><em><span style="font-weight: 400;">google.com/(none) </span></em><span style="font-weight: 400;">after the change. </span></p>
+<p><strong><em>Acquisition Channel</em></strong><strong> data will also be retroactive</strong><span style="font-weight: 400;"> to when you started to collect Hubs data in UFA. You'll still be able to see acquisition channels for historical data, and in some cases the accuracy of this data will be improved.</span></p>
+<h3 id="h_01GNWP0TNTQX3J37TP8TWBKFM8">The <em>Visitor Acquisition </em>dashboard will now highlight acquisition channel data</h3>
+<p><span style="font-weight: 400;">We want users to be able to easily identify acquisition channels from UTM parameters, because this is how most marketers think about their traffic. This change will align the </span><em><span style="font-weight: 400;">Visitor Acquisition</span></em><span style="font-weight: 400;"> dashboard in UFA more closely to Google Analytics, which most marketers are already familiar with. </span></p>
+<p><span style="font-weight: 400;"><strong>The visualizations and tables on the dashboard will be updated to emphasize acquisition channels. </strong>The dashboard will still display some visualizations of UTM source and medium data, but these will no longer be the focus.</span></p>
+<p><span style="font-weight: 400;">Finally, we're also tweaking the design of the dashboard to make the data easier to understand and interpret. Our users have shown an interest in quick-to-digest data, and this change brings that to this dashboard.</span></p>
+<p> </p>
+<h2><span style="font-weight: 400;">How do these changes affect me?</span></h2>
+<p><strong>If you use the <em>Visitor Acquisition </em>dashboard in Uberflip Analytics:</strong></p>
+<ul>
+<li>
+<strong>No action is required.</strong><span style="font-weight: 400;"> Be aware that the visualizations on this dashboard will change in both appearance, and the data they display.</span>
+</li>
+</ul>
+<p><strong>If you rely on the <em>UTM Source &amp; Medium</em> data field to understand your acquisition channels:</strong></p>
+<ul>
+<li>
+<strong>Action is required.</strong><span style="font-weight: 400;"> Acquisition channel data will no longer be shown in the </span><em><span style="font-weight: 400;">UTM Source &amp; Medium </span></em><span style="font-weight: 400;">data field. Instead, be sure to look at the new </span><em><span style="font-weight: 400;">Acquisition Channel </span></em><span style="font-weight: 400;">data field to understand your acquisition channels. This also applies to all historical data.</span>
+</li>
+</ul>
+<p><strong>If you've created custom dashboards or reports that are intended to display acquisition channel data:</strong></p>
+<ul>
+<li>
+<strong>Action is required</strong><span style="font-weight: 400;">. You should update affected custom dashboards and reports to incorporate the new </span><em><span style="font-weight: 400;">Acquisition Channel</span></em><span style="font-weight: 400;"> data field, as data about acquisition channels will no longer be shown in the </span><em><span style="font-weight: 400;">UTM Source &amp; Medium</span></em><span style="font-weight: 400;"> data field.</span>
+</li>
+</ul>
+<p> </p>
+<h2><span style="font-weight: 400;">When will these changes take effect?</span></h2>
+<p><span style="font-weight: 400;">The changes outlined above will go into effect on </span><strong>January 17th</strong><strong>, 2023</strong><span style="font-weight: 400;">.</span></p>]]></description>
+         <guid isPermaLink="false">11935627027725</guid>
+         <pubDate>Tue, 03 Jan 2023 18:33:22 GMT</pubDate>
+      </item>
+      <item>
+         <title>Embed Uberflip Analytics into other tools using iframe</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/9478513016589-Embed-Uberflip-Analytics-into-other-tools-using-iframe</link>
+         <description><![CDATA[<p><span style="font-weight: 400;">Ever been working in another tool, wishing you had your Uberflip Analytics data right there for quick reference? If that tool accepts iframed content, you can make that happen. This article shows you how.  </span></p>
+<p> </p>
+<h2 id="h_01HQC4MEZ62Y6FXM9MDN5ECWEF"><span style="font-weight: 400;">Before you begin</span></h2>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">You must be logged into Uberflip in your browser for embedded dashboards to load in other tools. If you’re not logged in, a login prompt will appear in that tool and allow you to authenticate.</span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">The dashboards that are available for iframing (</span><span style="font-weight: 400;"><strong>single lead/contact</strong> and </span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">single company</strong>) require <a href="https://help.uberflip.com/hc/en-us/articles/10038158221709">Enrichment</a> to be enabled on your account. Without Enrichment, these dashboards will be empty.</li>
+</ul>
+<p> </p>
+<h2 id="h_01HQC4MEZ6HVP2D13YNGDGAC1X"><span style="font-weight: 400;">About Uberflip Analytics embeddable dashboards</span></h2>
+<p><span style="font-weight: 400;">Some tools allow you to use an iframe to embed content from other apps. This allows you to use your apps together in a more efficient way. </span></p>
+<p><span style="font-weight: 400;">Uberflip has created </span><strong>2 dashboards </strong><span style="font-weight: 400;">that can be easily embedded into apps that allow this: </span></p>
+<ol>
+<li><span style="font-weight: 400;">The <strong>single lead/contact</strong> dashboard</span></li>
+<li><span style="font-weight: 400;">The <strong>single company</strong> dashboard</span></li>
+</ol>
+<p><strong>Both dashboards include:</strong></p>
+<ul>
+<li><span style="font-weight: 400;">Contacts/contact details</span></li>
+<li><span style="font-weight: 400;">Company details</span></li>
+<li><span style="font-weight: 400;">Lifetime stats</span></li>
+<li><span style="font-weight: 400;">Sessions data</span></li>
+<li><span style="font-weight: 400;">Items viewed</span></li>
+<li><span style="font-weight: 400;">Session details</span></li>
+</ul>
+<p><img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" src="https://help.uberflip.com/hc/article_attachments/9512528711309" alt="image__1_.png" width="650" height="352"><br><span style="font-weight: 400;"><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"><span class="wysiwyg-font-size-small"><strong>Image:</strong> An Uberflip Analytics dashboard being displayed within Salesforce.</span></span></span></p>
+<h2 id="h_01HQC4MEZ68FYJJ2XCCCHQE0RP">Embed the analytics dashboards</h2>
+<p>Tools that accept iframed content will each have a different process for embedding iframes. <span style="font-weight: 400;">Refer to the knowledge base of your favorite tools to see if iframes are supported, and if so, how <span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">to set them up.</span></span></p>
+<div class="callout callout--success">
+<h4 id="h_01HQC4MEZ6GA8SRW8S8HYYDVF9" class="callout__title">Using Salesforce?</h4>
+<p><span style="font-weight: 400;">Salesforce allows iframed content using their Visualforce tool. </span><a href="https://help.salesforce.com/s/articleView?id=sf.pages_pages.htm&amp;type=5"><span style="font-weight: 400;">Learn about Visualforce and how to embed iframes there.</span></a></p>
+</div>
+<p>If your tool allows iframed content, use the URLs below to embed these dashboards:</p>
+<table style="border-collapse: collapse; width: 100%; height: 357px;" border="1" data-mce-id="__mce">
+<tbody>
+<tr style="height: 44px;">
+<td style="width: 28.7142%; height: 44px;">
+<p><strong>Dashboard </strong></p>
+</td>
+<td style="width: 19.2857%; height: 44px;">
+<p><strong>About this dashboard </strong></p>
+</td>
+<td style="width: 36.3946%; height: 44px;">
+<p><strong>Embeddable URL </strong></p>
+</td>
+</tr>
+<tr style="height: 67px;">
+<td style="width: 28.7142%; height: 67px;">
+<p><span style="font-weight: 400;">Single lead/contact</span></p>
+</td>
+<td style="width: 19.2857%; height: 67px;">
+<p><span style="font-weight: 400;">Single visitor details (based on MAP ID)</span></p>
+</td>
+<td style="width: 36.3946%; height: 67px;">
+<p><span style="font-weight: 400;"><a href="https://app.uberflip.com/embeds/analytics/">https://app.uberflip.com/embeds/analytics/</a>single_contact_basic_embed</span></p>
+</td>
+</tr>
+<tr style="height: 246px;">
+<td style="width: 28.7142%; height: 246px;">
+<p><span style="font-weight: 400;">Single company</span></p>
+</td>
+<td style="width: 19.2857%; height: 246px;">
+<p><span style="font-weight: 400;">Details about a single company (based on company name)</span></p>
+</td>
+<td style="width: 36.3946%; height: 246px;">
+<p><span style="font-weight: 400;"><a href="https://app.uberflip.com/embeds/analytics/">https://app.uberflip.com/embeds/analytics/</a>single_company_basic_embed</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<div class="callout callout--success">
+<h4 id="h_01HQC4MEZ63QQ0YC2ERSRSYY7Y" class="callout__title">Salesforce tip</h4>
+<p><span style="font-weight: 400;">In Salesforce, you can use </span><a href="https://help.salesforce.com/s/articleView?id=sf.cpq_merge_fields.htm&amp;type=5"><span style="font-weight: 400;">merge fields</span></a><span style="font-weight: 400;"> in the URL parameters to auto-apply filters based on the page you're viewing (i.e. a contact or company profile) </span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;"><br></span><strong>Example:</strong><strong><br></strong><em><span style="font-weight: 400;">https://app.uberflip.com/embeds/analytics/single_contact_basic_embed</span></em><strong><em>?email={contact.email}</em></strong></p>
+</div>]]></description>
+         <guid isPermaLink="false">9478513016589</guid>
+         <pubDate>Tue, 27 Sep 2022 19:17:20 GMT</pubDate>
+      </item>
+      <item>
+         <title>Changes to new and returning visitor data in UFA [Aug. 2022]</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/8494117174925-Changes-to-new-and-returning-visitor-data-in-UFA-Aug-2022</link>
+         <description><![CDATA[<h2><span style="font-weight: 400;">What is changing?</span></h2>
+<p><strong>As of Aug. 10th 2022, new and returning visitor data will be tracked a bit differently in Uberflip Analytics. </strong></p>
+<p><span style="font-weight: 400;">Previously, Hub visitors who came in and returned on the same day were </span><strong>counted as both</strong> <strong>new and returning visitors</strong><span style="font-weight: 400;">. But this calculation makes the </span><em><span style="font-weight: 400;">returning visitor </span></em><span style="font-weight: 400;">number look more robust, in a way that may not be significant to most users.</span></p>
+<p><span style="font-weight: 400;">To remedy this, a visitor will now only be counted as </span><em><span style="font-weight: 400;">returning</span></em><span style="font-weight: 400;"> if they come back </span><strong>after 24 hours</strong><span style="font-weight: 400;">. </span></p>
+<p> </p>
+<h2><span style="font-weight: 400;">Will this affect my UFA data?</span></h2>
+<p><span style="font-weight: 400;">Yes, new and returning visitor metrics will change slightly. This would affect any metric that factors in these stats as well. </span></p>
+<p><span style="font-weight: 400;">With this change, you’re likely to see:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">A slight</span><strong> increase</strong><span style="font-weight: 400;"> in the number of </span><strong>new visitors </strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">A </span><strong>decrease</strong><span style="font-weight: 400;"> in the number of </span><strong>returning visitors </strong>
+</li>
+</ul>
+<p> </p>
+<h2><span style="font-weight: 400;">Does this affect my historical data as well?</span></h2>
+<p><span style="font-weight: 400;">Yes, all new and returning visitor data will be adjusted to the new standard. This means previously captured data will change as well.</span><span style="font-weight: 400;"><br><br></span></p>]]></description>
+         <guid isPermaLink="false">8494117174925</guid>
+         <pubDate>Wed, 17 Aug 2022 19:39:43 GMT</pubDate>
+      </item>
+      <item>
+         <title>View a Stream or Item analytics in the Stream/Item editor</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/5665837787533-View-a-Stream-or-Item-analytics-in-the-Stream-Item-editor</link>
+         <description><![CDATA[<p><strong>Did you know? </strong><span style="font-weight: 400;">From within the Stream and Item editor pages of Uberflip, you can view a report on individual Item/Stream performance. This article will show you how.</span></p>
+<p> </p>
+<h2 id="h_01HH31S4J228Y0779RX6J7SBPK">
+<span style="font-weight: 400;">​​</span><span style="font-weight: 400;">Before you begin</span>
+</h2>
+<ul>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">To see these Uberflip Analytics reports, your Uberflip user account must hold an Uberflip Analytics </span><strong>View license</strong><span style="font-weight: 400;">. A View license is automatically granted to any member of the </span><strong>Account Administrator </strong><span style="font-weight: 400;">and </span><strong>Analyst</strong><span style="font-weight: 400;"> user groups. Check out </span><a href="https://help.uberflip.com/hc/en-us/articles/360035433571"><span style="font-weight: 400;">Get started with Uberflip Analytics</span></a><span style="font-weight: 400;"> to learn more. </span>
+</li>
+</ul>
+<p> </p>
+<h2 id="h_01HH31S4J2W5PMR3ZAS43YBGDT"><span style="font-weight: 400;">What is the Item/Stream performance report?</span></h2>
+<p><span style="font-weight: 400;">Item and Stream performance reports offer a detailed overview on how an </span><strong>individual</strong><span style="font-weight: 400;"> Stream or Item is performing across the board. While this information can be found within your </span><a href="https://help.uberflip.com/hc/en-us/articles/360035433571-Get-started-with-Uberflip-Analytics"><span style="font-weight: 400;">Uberflip Analytics</span></a><span style="font-weight: 400;">, you can also find it in the Stream and Item editor pages for quick review. </span></p>
+<p><span style="font-weight: 400;">These reports include: Item/Stream details, engagement stats, sessions data, a performance chart, and more. </span></p>
+<p> </p>
+<h2 id="h_01HH31S4J2X148P1SAZ47CTB66"><span style="font-weight: 400;">View your Item/Stream performance report in the editor page</span></h2>
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In Uberflip, click </span><strong>Content </strong><span style="font-weight: 400;">in the sidebar menu</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Select either the</span><strong> Item</strong><span style="font-weight: 400;"> or </span><strong>Stream</strong><span style="font-weight: 400;"> tab, depending on the report you want to review </span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Find and click the Stream or Item you want to review</span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">At the top of the Item or Stream editor page, select the </span><strong>Item Performance</strong><span style="font-weight: 400;"> or </span><strong>Stream Performance</strong><span style="font-weight: 400;"> tab</span>
+</li>
+</ol>
+<p><span style="font-weight: 400;">You’re there! Review your performance report to see how things are going.</span></p>]]></description>
+         <guid isPermaLink="false">5665837787533</guid>
+         <pubDate>Wed, 20 Apr 2022 17:33:49 GMT</pubDate>
+      </item>
+      <item>
+         <title>Delete visitor Personally Identifiable Information (PII) from Uberflip</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/5231245831565-Delete-visitor-Personally-Identifiable-Information-PII-from-Uberflip</link>
+         <description><![CDATA[<p><span style="font-weight: 400;">Need to remove visitor Personally Identifiable Information (PII) from your Uberflip account? You can do this in the Data Controls page of Uberflip.</span></p>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><span style="font-weight: 400;">Deleting PII data from Uberflip is an account wide action. Specified data will be removed from all Hubs. Deletion is permanent and cannot be stopped or undone once started.</span></p>
+</div>
+<p><span style="font-weight: 400;">In Uberflip, you have two options for deleting PII: </span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><a href="#h_01FZK163RW7PMMXASNNYVSY0JT" target="_self"><span style="font-weight: 400;">Delete PII for a </span><strong>specific visitor </strong><span style="font-weight: 400;">based on their UUID</span></a></li>
+<li style="font-weight: 400;" aria-level="1"><a href="#h_01FZK16N4AVV1DA3P8MBDDG03N" target="_self"><span style="font-weight: 400;">Delete PII for </span><strong>all visitors</strong><span style="font-weight: 400;">, to all Hubs, from your Uberflip account</span></a></li>
+</ul>
+<p><span style="font-weight: 400;">Both options are </span><strong>permanent</strong><span style="font-weight: 400;"> and can’t be undone once started.</span></p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p><span style="font-weight: 400;">Data deletion may take up to 4 hours to be completed once confirmed within your account.</span></p>
+</div>
+<h2 id="h_01FZK163RW7PMMXASNNYVSY0JT"><span style="font-weight: 400;">Delete a specific visitor’s PII</span></h2>
+<p><span style="font-weight: 400;">Delete PII for a </span><strong>specific visitor </strong><span style="font-weight: 400;">based on their UUID.</span></p>
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In Uberflip, click </span><strong>Analytics</strong><span style="font-weight: 400;"> in the topbar menu</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In the sidebar menu, click </span><strong>Analytics Settings</strong><span style="font-weight: 400;"> &gt; </span><strong>Data Controls</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Under </span><strong>Delete Visitor Personally Identifiable Information</strong><span style="font-weight: 400;">, enter the visitors UUID </span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Beside the text field, </strong><span style="font-weight: 400;">click</span><strong> Delete Data</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Check the box labeled </span><strong>Yes, I’m sure</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>Delete Visitor Data</strong>
+</li>
+</ol>
+<p><img src="https://help.uberflip.com/hc/article_attachments/5231000575885/UYGF.png" alt="UYGF.png" width="599" height="321"></p>
+<h2 id="h_01FZK16N4AVV1DA3P8MBDDG03N"><span style="font-weight: 400;">Delete all visitor PII</span></h2>
+<p><span style="font-weight: 400;">Delete PII for </span><strong>all visitors</strong><span style="font-weight: 400;">, to all Hubs, from your Uberflip account</span></p>
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In Uberflip, click </span><strong>Analytics</strong><span style="font-weight: 400;"> in the topbar menu</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In the sidebar menu, click </span><strong>Analytics Settings</strong><span style="font-weight: 400;"> &gt; </span><strong>Data Controls</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Under </span><strong>Delete All Personally Identifiable Information Data</strong><span style="font-weight: 400;">, click</span><strong> Delete Data</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Check the box labeled </span><strong>Yes, I’m sure</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>Delete All Data</strong>
+</li>
+</ol>
+<p><img src="https://help.uberflip.com/hc/article_attachments/5231038535309/iuyg.png" alt="iuyg.png" width="599" height="321"></p>]]></description>
+         <guid isPermaLink="false">5231245831565</guid>
+         <pubDate>Fri, 01 Apr 2022 17:03:52 GMT</pubDate>
+      </item>
+      <item>
+         <title>Download and send Uberflip Analytics dashboards and reports</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360055717012-Download-and-send-Uberflip-Analytics-dashboards-and-reports</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>Learn how to use UFA's <strong>download</strong> <strong>and send</strong> <strong>functionality</strong> to share your analytics data outside of the UFA interface, for example with other stakeholders in your organization. In UFA, you can:</p>
+<ul>
+<li>Download full dashboards and reports in <strong>PDF</strong> or <strong>CSV</strong> format</li>
+<li>Send dashboard data to various destinations <strong>on demand</strong> or <strong>on a schedule</strong>
+</li>
+</ul>
+<p> </p>
+<h2>Access download and send options for a dashboard or report</h2>
+<p>To download or send data, open the <strong>download options menu</strong>.</p>
+<ol>
+<li>On any dashboard or report, <strong>click on the gear button</strong> in the top right corner:<br><img src="https://help.uberflip.com/hc/article_attachments/360084201191/Analytics_-_Uberflip1.png" alt="Analytics_-_Uberflip1.png">
+</li>
+<li>This will open the download options menu, from which you can choose what kind of download you want. Note that the options available will differ depending on whether you opened the menu on a dashboard or on a report.</li>
+</ol>
+<p> </p>
+<h2>Download a dashboard as a PDF</h2>
+<p>You can download snapshots of full dashboards in PDF format.</p>
+<ol>
+<li>Open the download options menu on the dashboard you want to download and <strong>click on</strong> <strong>Download as PDF...</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360084201171/Analytics_-_Uberflip2.png" alt="Analytics_-_Uberflip2.png">
+</li>
+<li>The <strong>Download</strong> menu will appear, where you can choose options for your PDF download:<br><img src="https://help.uberflip.com/hc/article_attachments/360084127212/Analytics_-_Uberflip3.png" alt="Analytics_-_Uberflip3.png">
+</li>
+<li>A filename will be prefilled for you. If needed, you can change this to rename the resulting file.</li>
+<li>
+<em><strong>Optional: </strong></em>Click on <strong>Advanced options</strong> to further configure the download. The available options are:<br>
+<ul>
+<li>
+<strong>Single column format</strong>: Arranges dashboard widgets in a stacked column in the PDF, rather than as they are arranged in Uberflip Analytics.</li>
+<li>
+<strong>Expand tables</strong>: Ensures all rows in any table widgets are visible in the PDF.</li>
+<li>
+<strong>Paper size</strong>: Choose a paper format size that the PDF file will be sized to.</li>
+</ul>
+</li>
+<li>When you have finished configuring, click on either <strong>Open in Browser</strong> or <strong>Download</strong> to start your download.</li>
+</ol>
+<h2>Download dashboard visualization data as CSV files</h2>
+<p>You can download the data shown in each visualization on a dashboard as <strong>separate CSV files </strong>(one per visualization). The download is delivered as a compressed (ZIP) file containing all of the individual CSV files.</p>
+<ol>
+<li>Open the download options menu on the dashboard you want to download and <strong>click on</strong> <strong>Download as CSVs</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360084127192/Analytics_-_Uberflip4.png" alt="Analytics_-_Uberflip4.png">
+</li>
+<li>The download will begin immediately. After it finishes, simply unzip the downloaded file to access the CSV files inside.</li>
+</ol>
+<p> </p>
+<h2>Download report data</h2>
+<p>Similarly to dashboards, you can also download the data from UFA reports.</p>
+<ol>
+<li>Open the download options menu on the report you want to download and <strong>click on Download...</strong>:<strong><br></strong><img src="https://help.uberflip.com/hc/article_attachments/360084124432/Fullscreen_2021-01-29__5_47_PM.png" alt="Fullscreen_2021-01-29__5_47_PM.png">
+</li>
+<li>The <strong>Download</strong> menu will appear, where you can choose options for your download:<br><img src="https://help.uberflip.com/hc/article_attachments/360084125092/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png" width="463" height="302"><br>
+<ul>
+<li>For detailed information on the available settings and how to configure them, see <a href="https://docs.looker.com/sharing-and-publishing/downloading">this article</a> from Looker (the platform that powers UFA).</li>
+</ul>
+</li>
+<li>When you have finished configuring, click on either <strong>Open in Browser</strong> or <strong>Download</strong> to start your download.</li>
+</ol>
+<p> </p>
+<h2>Send dashboard or report data to an external destination</h2>
+<p>UFA can <strong>deliver the data from a dashboard or report to a variety of destinations</strong>, including email, Amazon S3, SFTP servers, etc. You can do this either <strong>on demand</strong>, or automatically <strong>on a predefined schedule</strong>.</p>
+<p>To access these options, click on <strong>Send</strong> or <strong>Schedule</strong> in the download options menu:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360084201211/Analytics_-_Uberflip5.png" alt="Analytics_-_Uberflip5.png"></p>
+<ul>
+<li>The <strong>Send</strong> function allows you to set up a one-time data delivery</li>
+<li>The <strong>Schedule</strong> function allows you to configure an automated data delivery that repeats at intervals of your choice</li>
+</ul>
+<p>For detailed instructions on how to use these functions and configure their various options, see <strong>these articles from Looker</strong> (the platform that powers UFA):</p>
+<ul>
+<li>To learn how to <strong>configure a one-time (on demand) data delivery</strong>:
+<ul>
+<li><a href="https://docs.looker.com/sharing-and-publishing/scheduling-and-sharing/send-once#sending_a_look_or_dashboard"><strong>Looker: Sending a Look or Dashboard</strong></a></li>
+</ul>
+</li>
+<li>To learn how to <strong>configure a scheduled (automated) data delivery</strong>:
+<ul>
+<li><a href="https://docs.looker.com/sharing-and-publishing/scheduling-and-sharing/scheduling"><strong>Looker: Scheduling Data Deliveries</strong></a></li>
+</ul>
+</li>
+</ul>]]></description>
+         <guid isPermaLink="false">360055717012</guid>
+         <pubDate>Wed, 27 Jan 2021 23:18:57 GMT</pubDate>
+      </item>
+      <item>
+         <title>Drill into Uberflip Analytics dashboards to view more data</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360055716312-Drill-into-Uberflip-Analytics-dashboards-to-view-more-data</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>Learn how to drill into visualizations and data points on UFA dashboards to view underlying or additional data. There are two ways to drill in UFA:</p>
+<ul>
+<li>
+<strong>Visualization drill:</strong> You can drill into the underlying data for any dashboard visualization, such as large number or chart widgets, and download the full data set.</li>
+<li>
+<strong>Stream and Item drill: </strong>In dashboard tables that display Streams or Items, you can drill into an individual Stream or Item to see more data about it.</li>
+</ul>
+<p> </p>
+<h2>Drill into visualizations</h2>
+<p>You van view the underlying data for any dashboard visualization, such as large number or chart widgets.</p>
+<p><strong>To drill into a dashboard visualization:</strong></p>
+<ol>
+<li>While viewing a dashboard, <strong>hover your mouse over a visualization</strong>.</li>
+<li>Look for<strong> clickable areas</strong>, which are indicated by the <strong>hand cursor</strong>. For example:<br>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360084032532/Nov-21-2019_17-00-55.gif" alt="Nov-21-2019_17-00-55.gif"></p>
+</li>
+<li>Some visualizations may also have <strong>multiple clickable areas</strong>, like this:<br><img src="https://help.uberflip.com/hc/article_attachments/360084113251/Nov-21-2019_17-06-49.gif" alt="Nov-21-2019_17-06-49.gif" width="460" height="341">
+</li>
+<li>To drill into the data, simply click on the clickable area that represents the data you want to drill into. This opens the <strong>Details</strong> window, where you can see a preview of the underlying data used to build the visualization:<br><img src="https://help.uberflip.com/hc/article_attachments/360084113131/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png">
+</li>
+</ol>
+<p> </p>
+<h2 id="h_01EX7MBEMMFQD0N680RGTCVY3Q">Download visualization data</h2>
+<p>In many cases, there is more data available than can be shown in the drill-in preview. In these cases, you can <strong>view all available data by downloading it</strong>. You can download the data in a number of different formats, such as CSV, HTML, TXT, etc.</p>
+<p><strong>To download underlying data from a visualization:</strong></p>
+<ol>
+<li>Drill into the visualization whose data you want to download.</li>
+<li>In the top right corner of the <strong>Details</strong> preview window, click on the <strong>Download Results</strong> button:<br><img src="https://help.uberflip.com/hc/article_attachments/360084113111/Analytics_-_Uberflip2.png" alt="Analytics_-_Uberflip2.png">
+</li>
+<li>The <strong>Download</strong> menu will appear, where you can choose options for your download:<br><img src="https://help.uberflip.com/hc/article_attachments/360084113151/Analytics_-_Uberflip3.png" alt="Analytics_-_Uberflip3.png" width="563" height="369"><br>
+<ul>
+<li>For help configuring these download options, see the <a href="#h_01EX7MQQ600WSCYR0F132M1MWJ" target="_self"><strong>Additional notes</strong></a> section.</li>
+</ul>
+</li>
+<li>Under the section <strong>Limit</strong>, make sure to select the <strong>Custom...</strong> option and specify the number of rows you want (e.g. 99999 to get as many rows as possible):<br><img src="https://help.uberflip.com/hc/article_attachments/360084032452/Analytics_-_Uberflip4.png" alt="Analytics_-_Uberflip4.png">
+</li>
+<li>To begin the download, click on either the <strong>Download</strong> or <strong>Open in Browser</strong> buttons, depending on your preference.</li>
+</ol>
+<p> </p>
+<h2>Drill into Streams and Items</h2>
+<p>Some dashboards have table-style visualizations that list individual Streams or Items. You can drill into these to view more in-depth data specifically about the relevant Stream or Item.</p>
+<p><strong>To drill into a Stream or Item:</strong></p>
+<ol>
+<li>On a dashboard with a table-style visualization that lists Streams/Items, <strong>find the small oval button with three dots inside</strong> beside the name of the Stream or Item you want to drill into:<br>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360084032492/Analytics_-_Uberflip6.png" alt="Analytics_-_Uberflip6.png" width="491" height="117"></p>
+</li>
+<li>
+<strong>Click on this button</strong> to open a context menu with drill-in options:<br>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360084113191/Analytics_-_Uberflip7.png" alt="Analytics_-_Uberflip7.png"></p>
+</li>
+<li>Click on the option you want to use to drill into the Stream or Item. The available options are:
+<ul>
+<li>
+<strong>Single Stream/Item Performance</strong>: Opens a dashboard that displays in-depth performance metrics focused on the selected Stream/Item. Both the Stream and Item drill-in dashboards work the same way as the regular high-level dashboards.</li>
+<li>
+<strong>View/Edit Stream/Item in Uberflip</strong>: Directly opens the Stream or Item page in the Uberflip app for viewing or editing.</li>
+</ul>
+</li>
+</ol>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>In visualizations where the drill-in button appears, you can also just click directly on the name of the Stream or Item to go directly to its Single Stream/Item Performance dashboard.</p>
+</div>
+<p> </p>
+<h2 id="h_01EX7MQQ600WSCYR0F132M1MWJ">Additional notes</h2>
+<p>UFA's <a href="#h_01EX7MBEMMFQD0N680RGTCVY3Q" target="_self">download interface</a> contains lots of additional options that aren't covered in this article. To learn more about the various options and how to use them, see <strong>this article from Looker</strong> (the BI platform that powers Uberflip Analytics):</p>
+<ul>
+<li><a href="https://docs.looker.com/sharing-and-publishing/downloading" target="_self" rel="undefined">Looker: Downloading content</a></li>
+</ul>]]></description>
+         <guid isPermaLink="false">360055716312</guid>
+         <pubDate>Wed, 27 Jan 2021 23:12:04 GMT</pubDate>
+      </item>
+      <item>
+         <title>Filter data in Uberflip Analytics</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360055716132-Filter-data-in-Uberflip-Analytics</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>All Uberflip Analytics dashboards and reports have <strong>filters</strong> which determine the data that is displayed. Learn how to configure these filters using the various filtering options that are available.</p>
+<p> </p>
+<h2>Configure and run a filter</h2>
+<p>When you open a dashboard, all available filters will initially be set to default values. You can configure these filters by specifying your own values.</p>
+<p><strong>To specify your own filters:</strong></p>
+<ol>
+<li>First,<strong> click anywhere in the filters panel</strong> near the top of the window. This will expand the filters panel:<img src="https://help.uberflip.com/hc/article_attachments/360084002131/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png">
+<ul>
+<li>Each line in the filters panel represents a different data type that you can filter by, and consists of the <strong>filter name</strong>, the <strong>condition dropdown</strong>, and the <strong>value field(s)</strong> (from left to right).</li>
+</ul>
+</li>
+<li>To begin, choose the line that represents the data type you want to filter by, then <strong>click on the condition dropdown </strong>to select a condition:<br><img src="https://help.uberflip.com/hc/article_attachments/360083923592/Fullscreen_2019-11-19__7_57_PM.png" alt="Fullscreen_2019-11-19__7_57_PM.png" width="383" height="238"><br>
+<ul>
+<li>
+<strong>Note: </strong>When you select certain conditions for some filter types, additional condition dropdowns or value fields may appear e.g.:<img src="https://help.uberflip.com/hc/article_attachments/360083923672/Analytics_-_Uberflip9.png" alt="Analytics_-_Uberflip9.png" width="577" height="53"><br><br>
+</li>
+</ul>
+</li>
+<li>Next,<strong> click on the value field</strong> to set a value that defines the filter. When you click on the value field, an autosuggest menu containing available values will appear:<br><img src="https://help.uberflip.com/hc/article_attachments/360084002151/Analytics_-_Uberflip2.png" alt="Analytics_-_Uberflip2.png" width="434" height="168"><br>
+<ul>
+<li>You can also begin typing in the field to filter autosuggested values based on your input:<br><img src="https://help.uberflip.com/hc/article_attachments/360084002191/Analytics_-_Uberflip3.png" alt="Analytics_-_Uberflip3.png" width="299" height="86">
+</li>
+</ul>
+</li>
+<li>To add a value to the field, simply <strong>click on it </strong>in the autosuggest menu:<br><img src="https://help.uberflip.com/hc/article_attachments/360084002171/Analytics_-_Uberflip4.png" alt="Analytics_-_Uberflip4.png">
+</li>
+<li>Configure any other filters as needed.</li>
+<li>When you're ready to apply your filters, <strong>click on the Run button</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360083923572/Analytics_-_Uberflip5.png" alt="Analytics_-_Uberflip5.png">
+</li>
+<li>The dashboard or report will refresh to display data with your filters applied.</li>
+</ol>
+<p> </p>
+<h2>Set up a filter with multiple values</h2>
+<p>If needed, you can specify <strong>multiple values</strong> on a filter. When you do this, the additional values are treated as separate conditions with an <strong>OR operator</strong>, i.e. the filter will match on <strong>any</strong> of the specified values, not all.</p>
+<p><strong>To add multiple values to a filter:</strong></p>
+<ol>
+<li>When you click on an autosuggested value to add it to the value field, the autosuggest menu will remain open. To set multiple values, simply continue adding values to the field:<br>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360084002231/Analytics_-_Uberflip6.png" alt="Analytics_-_Uberflip6.png"></p>
+</li>
+<li>Once added, you can remove any value from the value field. Simply <strong>click on the x button</strong> next to its entry to remove a value.</li>
+</ol>
+<p> </p>
+<h2>Set up a filter with multiple conditions</h2>
+<p>You can configure any filter to have <strong>multiple conditions</strong>. When you do this, the additional conditions are automatically treated as either <strong>AND</strong> or <strong>OR</strong> conditions depending on the condition you select from the condition dropdown.</p>
+<p><strong>To add multiple conditions to a filter:</strong></p>
+<ol>
+<li>Next to the filter to which you want to add further conditions, <strong>click on the + button </strong>at the right side:<img src="https://help.uberflip.com/hc/article_attachments/360084002251/Analytics_-_Uberflip7.png" alt="Analytics_-_Uberflip7.png"><br>
+<p> </p>
+</li>
+<li>This creates an additional filter line. On this filter line, <strong>set a separate condition and value(s)</strong>:<br>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360084002271/Analytics_-_Uberflip8.png" alt="Analytics_-_Uberflip8.png"></p>
+</li>
+<li>You can add any number of filter lines by continuing to click the + button. To remove any added filter line, <strong>click on the x button </strong>to its right.</li>
+</ol>
+<p> </p>
+<h2>Additional notes</h2>
+<p>Keep in mind that any filters you set on a dashboard or report are <strong>not</strong> <strong>persistent</strong>: when you navigate away, <strong>your filter settings will be lost</strong>.</p>
+<p>However, you can set <strong>Persistent Filters</strong> which are saved to your browser, and will be applied automatically whenever you return to a dashboard or report. For more information, see <a href="https://help.uberflip.com/hc/en-us/articles/360039658671">this article</a>.</p>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>Because filters are not persistent, you can easily <strong>reset all filters on a dashboard or report </strong>to their default values by simply navigating to a different page in UFA, then coming back again. Keep in mind that any <strong>Persistent Filters</strong> you have set will still be applied, however.</p>
+</div>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360055716132</guid>
+         <pubDate>Wed, 27 Jan 2021 23:10:38 GMT</pubDate>
+      </item>
+      <item>
+         <title>Create custom reports in Uberflip Analytics with Explore</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360051891272-Create-custom-reports-in-Uberflip-Analytics-with-Explore</link>
+         <description><![CDATA[<hr>
+<p>Learn how you can use the <strong>Explore</strong> functionality in Uberflip Analytics to dive deeper into your data.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>Uberflip Analytics Explore is available on the <strong>Enterprise</strong> pack type, or as part of the <strong>Attribution</strong> module.</li>
+<li>To access Explore, your user account must hold an Uberflip Analytics <strong>Explore license</strong>. One Explore license is included with your Enterprise or Attribution module subscription. In both cases, you have the option to add more licenses if needed.<br>
+<ul>
+<li>The included Explore license is not assigned to any user account by default. To assign the license to a user account, or to add more Explore licenses, please contact your Customer Success Manager.</li>
+<li>If possible, we recommend assigning the Explore license to your organization's <a href="https://help.uberflip.com/hc/en-us/articles/360018726352">Primary User</a>. If the license is assigned to a user account that is not the Primary User, Uberflip Support will not be able to see your Uberflip Analytics data when investigating any issues related to Explore, which may limit troubleshooting options.</li>
+</ul>
+</li>
+<li>You must also be able to access Uberflip Analytics in general, which means that your user account must hold an Uberflip Analytics <strong>View license</strong>. This license is automatically assigned to all user accounts in the <strong>Account Administrator </strong>or <strong>Analyst </strong>user groups, or may also be separately assigned to an individual user account that isn't a member of those user groups.</li>
+</ul>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>Even if you only have an Explore license on one user account, anything that user account creates with Explore can still be viewed by any other user account which holds a View license (i.e. any Account Administrator or Analyst user).</p>
+</div>
+<p> </p>
+<h2>About Uberflip Analytics Explore</h2>
+<p>Uberflip Analytics has built-in dashboards that make it easy to see how your content experiences are performing at a glance. But they're only the tip of the iceberg: behind these dashboards is a mountain of raw data, and <strong>Explore</strong> helps you to unlock its full potential by giving you direct access.</p>
+<p>Using Explore, you can create custom reports tailored specifically to your organization's needs. This means you can go much deeper than the stock dashboards and reports, allowing you to uncover all kinds of valuable insights, and find answers to even the most hyper-specific business questions.</p>
+<p>To give you an idea of the kinds of things you can learn, here is a sampling of actual questions that Uberflip customers have asked us, and which Explore can answer:</p>
+<ul class="list-bullet">
+<li>Which of my content Items are getting traffic from Google and other sources/mediums each month, and how much traffic?</li>
+<li>I have content Items that I've added to multiple Streams. Are those Items getting more traffic in certain Streams, and if so, which ones?</li>
+<li>I use query string (UTM) parameters on my external links. Can I see how specific parameters are driving inbound views to my Hub?</li>
+<li>I want to know when progressively profiled CTAs are being filled — how many days does it take on average for a lead to be fully profiled?</li>
+<li>Can I see an SEO breakdown of all Items in my Hub, including whether Items that need canonical URLs actually have them?</li>
+</ul>
+<p>If you're looking for answers to these or similar kinds of questions, Explore can help you find them. In this article, we'll look at the key concepts you need to know to use Explore, and will walk through the process of creating your first custom report from start to finish.</p>
+<p> </p>
+<h2>Data exploration in Uberflip Analytics: a quick primer</h2>
+<p>Getting started with a data exploration tool like Explore can be a little intimidating. Here's a quick primer to get you up to speed with everything you need to know to be successful.</p>
+<h3>You can't break anything</h3>
+<p>The first and most important thing to know is that <strong>Explore is non-destructive</strong>: even if you stop reading right here and just go play around in Explore, you won't be able to break anything. No matter what you do in Explore, you never need to worry that you might delete, corrupt, or otherwise affect your data or the stock dashboards and reports. As a result, you should feel free to experiment with Explore: there's practically no risk, so just try things and see what happens. The best way to learn is to get hands-on, and you can always just wipe the slate clean and start over at any time.</p>
+<h3>Basic terminology and concepts</h3>
+<p>Uberflip Analytics is at its core a <strong>database</strong>, and Explore is a <strong>tool for pulling data</strong> from that database, in order to create custom reports.</p>
+<p>More specifically, Explore is a <strong>query builder</strong>: it helps you to create queries, which are essentially <strong>requests to the database</strong> that tell it exactly what data you want, how to combine that data, and how to present it to you. Whenever you submit a query to the database, the system processes it and builds a report according to your specifications.</p>
+<p>To build queries effectively, it helps to understand <strong>how the database organizes its data</strong>. This structure is known as the <strong>data model</strong>. The Uberflip Analytics data model divides data into three main categories:</p>
+<ul>
+<li>
+<strong>Content</strong>: Contains data that is inherent to your Hub, i.e. metadata about the Hub and its contents. For example, this includes data points like titles and URLs of Streams and Items, CTA IDs, the number of Streams, and so on.</li>
+<li>
+<strong>Engagement</strong>: Contains data collected from visitors to your Hub about their behavior as they interact with your content experiences. This includes data points like page views, time on page, click-through rates, etc.</li>
+<li>
+<strong>Traffic</strong>: Contains data collected from visitors to your Hub about about the visitors themselves. This includes data points like where in the world your visitors are located, what devices they use, and how they got to your Hub.</li>
+<li>
+<strong>Enrichment</strong>: Allows you to import company and contact information from your integrated marketing automation platform to enrich Uberflip data. This information is displayed in the form of dashboards in the Uberflip platform and can be used to make marketing specific decisions to impact your organization’s growth.</li>
+</ul>
+<p>Within each of these categories, the data model also distinguishes between two data types, <strong>dimensions</strong> and <strong>measures</strong>:</p>
+<ul>
+<li>A <strong>measure</strong> represents data that is <strong>quantitative</strong>. As the name suggests, this is data you can <em>measure</em> using numbers, and to which you can apply mathematical operations (like finding the average, or the total). An example of a measure in Uberflip Analytics would be <em>Page Views</em>, which is a count of the number of times pages in your Hub were viewed.</li>
+<li>A <strong>dimension</strong> represents data that is <strong>qualitative</strong>. This is data that can't be measured or counted; instead, it's data that adds <em>context</em> to the numbers. An example of a dimension in Uberflip Analytics would be <em>Item Title</em>, which consists of the names of all Item pages in your Hub.</li>
+</ul>
+<h3>Building queries and generating reports</h3>
+<p>When you select a dimension or measure to include in your query, you are essentially specifying that its data should be displayed as a table column in your report. The key thing to remember with dimensions and measures is that <strong><em>combining</em> dimensions and measures helps you to answer specific business questions</strong>. For example, take the two examples above, <em>Page Views</em> (measure) and <em>Item Title </em>(dimension):</p>
+<ul>
+<li>If you query the database for just <em>Page Views</em>, you'll get a report consisting of a single number: all of the times visitors have viewed pages in your Hub. It's kind of interesting to know this, but it's not very useful.</li>
+<li>If you query the database for just <em>Item Title</em>, you'll get a list of titles of all the Items in your Hub. That could be useful in certain situations, but it doesn't tell you anything about how those Items are performing.</li>
+</ul>
+<p>However, if you create a query that includes <strong>both </strong><em>Page Views </em><strong>and</strong> <em>Item Title</em>, you get something much more helpful: a report that shows how many times each Item in your Hub has been viewed (i.e. <em>Page Views per Item Title</em>). The dimension provides key context to the measure, leading to a new insight.</p>
+<p>This only becomes more powerful as you <strong>combine multiple dimensions and measures</strong> to slice and dice the data in more granular ways. For example:</p>
+<ul>
+<li>If you also add the dimension <em>Stream Title</em>, you could see if a piece of content performs better in depending on the Stream it's placed in.</li>
+<li>And by further adding the measure <em>Bounce</em> Rate, which measures sessions consisting of just one page view, you can identify Items that appear to be performing well based on total page views, but which but aren't encouraging visitors to check out your other content.</li>
+</ul>
+<h3>Working with data</h3>
+<p>Specifying the dimensions and measures you want is only half the story, because each one represents <em>all</em> of the available data of that type. In most cases this will actually be <em>too much</em> data to effectively answer specific questions, and you will likely also run into the row limit, where more data is returned than can be displayed.</p>
+<p>As a result, setting appropriate <strong>filters </strong>to selectively exclude data is an important part of generating useful reports. In Explore, you can set filters using most dimensions as well as certain measures. You can also set filters using dimensions/measures that you haven't selected as part of your query: in this case, data from the "filtering" dimension/measure won't be displayed in the report itself, but the data that is displayed will still be filtered accordingly. For example, if you filter on <em>Page View Date</em> but have not selected it in your query, then your report will not include a <em>Page View Date </em>column, but will filter the data in the columns that are included based on the <em>Page View</em> <em>Date</em> filter.</p>
+<hr>
+<p><strong>That's everything you need to know to get started! Now that you're familiar with the basics, let's get hands-on and start using Explore.</strong></p>
+<p> </p>
+<h2>Access Uberflip Analytics Explore</h2>
+<p>When you're using Uberflip Analytics, you can access Explore at any time. There are <strong>two main ways to open Explore</strong>: from dashboards, and from reports. No matter which method you use, the same Explore interface will appear.</p>
+<h3>Open Explore from a dashboard</h3>
+<p>You can open Explore from any dashboard:</p>
+<ol>
+<li>Open Uberflip Analytics and view any dashboard.</li>
+<li>
+<strong>Hover your mouse</strong> over any visualization, and you'll see the <strong>three-dot button</strong> for that visualization appear in its top right corner:<br>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360076897731/image.png" alt="image.png" width="479" height="243"></p>
+</li>
+<li>
+<strong>Click on the three-dot button</strong> to open the options menu, then click on <strong>Explore From Here</strong> to open Explore:<br><img src="https://help.uberflip.com/hc/article_attachments/360076701472/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png">
+</li>
+</ol>
+<h3>Open Explore from a report</h3>
+<p>You can also open Explore from any report:</p>
+<ol>
+<li>Open Uberflip Analytics and view any report.</li>
+<li>
+<strong>Hover your mouse </strong>anywhere over the report table, and you'll see additional buttons appear in the top right corner:<br><img src="https://help.uberflip.com/hc/article_attachments/360076898511/image.png" alt="image.png" width="490" height="217">
+</li>
+<li>
+<strong>Click on the gear button </strong>to open the options menu, then click on <strong>Explore From Here</strong> to open Explore:<br>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360076702112/image.png" alt="image.png"></p>
+</li>
+</ol>
+<h2>Overview of the Explore interface</h2>
+<p>Whenever you open Explore, it'll look something like this:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360079129832/image.png" alt="image.png"></p>
+<p>This is the Explore interface. It's divided into four main areas, which are highlighted in the screenshot above:</p>
+<ol>
+<li>
+<strong>Field picker</strong>: The sidebar on the left is the field picker. It lists all of the available fields (dimensions and measures) in the Uberflip Analytics data model, divided into the three main data categories. This is where you find and add dimensions and measures to add to your query, or to use as filters.</li>
+<li>
+<strong>Data section</strong>: The section near the bottom contains the data table. Dimensions and measures that you have added to your query are displayed here as table columns.</li>
+<li>
+<strong>Visualization section</strong>: The section in the middle shows a visualization (such as a chart or diagram) of the data resulting from your query. A default visualization will always be selected automatically based on the data, but you can change this to any other type of visualization that's compatible with the data.</li>
+<li>
+<strong>Filters section: </strong>The section at the top allows you to manage and configure your filters. It is collapsed by default, and you can click on it to expand it and view or modify current filters. Note also that you add filters to this section using the field picker, and that the field picker also shows a <em>Filter</em> label next to any dimension/measure that is currently being used as a filter.</li>
+</ol>
+<p>Now, let's look at how you can use this interface to create custom reports.</p>
+<p> </p>
+<h2>Create a new custom report</h2>
+<p>This section will walk you through the process of creating your first custom report in Explore from start to finish. Over the next few steps, you'll <strong>build an example report</strong> that shows how your content is performing based on two performance indicators, page views and bounce rate. You'll then filter the report to narrow it down to only content that was created and had traffic in the past month.</p>
+<h3>Starting from scratch</h3>
+<p>When you open Explore, the data, visualization, and filters sections will always be pre-populated based on the dashboard visualization or report you came from. This is useful if you want to start with a particular data set and modify it, for example if you want to add more detail to a stock report.</p>
+<p>However, most of the time you'll probably want to create your own custom reports, and in this case it's simplest to start from a clean slate. Thankfully, it's easy to just clear everything away and <strong>start from scratch at any time</strong>:</p>
+<ol>
+<li>With Explore open, <strong>click on the</strong> <strong>gear button </strong>in the top right corner to open the options menu:<br><img src="https://help.uberflip.com/hc/article_attachments/360079255151/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png">
+</li>
+<li>Click on <strong>Remove Fields &amp; Filters</strong>:<strong><br></strong><img src="https://help.uberflip.com/hc/article_attachments/360079130192/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png">
+</li>
+<li>All previously set dimensions, measures, and filters will be removed, allowing you to start from scratch:<br><img src="https://help.uberflip.com/hc/article_attachments/360079130292/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png">
+</li>
+</ol>
+<p>Now that you have a blank canvas to work with, you can get started building your report.</p>
+<h3>Adding (and removing) dimensions and measures</h3>
+<p>Whenever you build a custom report from scratch, the first step is always to <strong>add dimensions and measures</strong> to your query using the <strong>field picker</strong>. For this example report, you'll add one dimension (<em>Item Title</em>), and two measures (<em>Page Views</em> and <em>Bounce Rate</em>):</p>
+<ol>
+<li>Look at the field picker on the left side: it contains a <strong>list of all dimensions and measures</strong> in the data model, as well as a <strong>search box</strong> to narrow down that list.</li>
+<li>The first dimension to add is <strong>Item Title</strong><em>. </em>Type "item title" into the search box, and a search results box will appear to show matching dimensions and measures:<br><img src="https://help.uberflip.com/hc/article_attachments/360079255531/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png">
+</li>
+<li>In the search results, <strong>click on <em>Item Title</em></strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360079255631/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png">
+<ul>
+<li>Alternatively, you can also search through the full list of dimensions and measures to find <em>Item Title</em> under <em>Content &gt;</em> <em>Item</em>, then click on<em> Title</em>:<br><img src="https://help.uberflip.com/hc/article_attachments/360079130912/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png">
+</li>
+</ul>
+</li>
+<li>Notice how "Content Item Title" now appears in the data section of Explore:<br><img src="https://help.uberflip.com/hc/article_attachments/360077014872/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png">
+</li>
+<li>Now, repeat this process to add the measure <strong>Page Views</strong>:<strong><br><img src="https://help.uberflip.com/hc/article_attachments/360079256051/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png"><br></strong>
+</li>
+<li>Notice how measures look orange in the field picker (compared to blue-grey for dimensions), and how this is also reflected in the data section:<br><strong><img src="https://help.uberflip.com/hc/article_attachments/360079256071/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png"></strong>
+</li>
+<li>Repeat the process one more time to add another measure, <strong>Bounce Rate</strong>. Your data section should now look like this:<br><img src="https://help.uberflip.com/hc/article_attachments/360077015232/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png">
+</li>
+<li>You can also <strong>remove any dimension or measure</strong> you've added at any time. To do that, just <strong>hover your mouse over it</strong> in the data section, and a gear button will appear:<img src="https://help.uberflip.com/hc/article_attachments/360077307731/image.png" alt="image.png">
+</li>
+<li>
+<strong>Click on the gear</strong> <strong>button </strong>to open an options menu, then click on <strong>Remove</strong>: <img src="https://help.uberflip.com/hc/article_attachments/360077116752/image.png" alt="image.png">
+</li>
+<li>The selected dimension/measure will be removed from the data section. If you removed one of the three dimensions/measures you added in the previous steps, don't forget to add it back to your query!</li>
+</ol>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>If you want to learn more about a particular dimension or measure, you can read a brief description by hovering your mouse over it in the field picket, then clicking the little <em>i</em> tooltip beside it:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360079131172/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png"></p>
+<p>In addition, you can also refer to the <a href="https://help.uberflip.com/hc/en-us/sections/360008893132-Data-dictionary">Uberflip Analytics data dictionary</a> for more in-depth definitions of all of the dimensions and measures in the data model.</p>
+</div>
+<p>Before you run this query, there's just one more step: adding some filters to narrow down the data.</p>
+<h3>Setting Filters</h3>
+<p>Right now, the query you've put together includes <strong>all</strong> <strong>data for the selected dimension and measures</strong>, i.e. for all time. For this report you only want data for the last month, so the next step is to <strong>set filters</strong> to narrow down the data being pulled from the database.</p>
+<p>Note that you <em>could</em> press the Run button right now to just pull in all data (in fact, you could do this at any time), but <strong>setting filters first will mean that your query loads faster</strong>, because Explore doesn't have to waste time pulling data you're not interested in.</p>
+<ol>
+<li>First, narrow down the data to only content that had a page view in the past month. In the <strong>field picker </strong>on the left, search for "page view date". In the search results, find <em>Page View Date</em><em>:<br></em><img src="https://help.uberflip.com/hc/article_attachments/360079131312/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png">
+</li>
+<li>Remember that clicking on a dimension or measure will add it to the data section. Instead, <strong>hover your mouse over <em>Page View Date</em></strong>, and some buttons will appear immediately to the right. <strong>Click on the</strong> <strong>Filter</strong> <strong>button</strong> (three horizontal lines arranged like a pyramid):<br><img src="https://help.uberflip.com/hc/article_attachments/360079131432/image.png" alt="image.png"><br>
+<ul>
+<li>As with adding fields to the data section, you can also do this from the list in the field picker directly. Simply find the dimension or measure to use as a filter, <strong>hover your mouse over it</strong>, and <strong>click on the the same</strong> <strong>Filter</strong> <strong>button</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360079256551/image.png" alt="image.png">
+</li>
+</ul>
+</li>
+<li>The <strong>filter</strong> <strong>section</strong> at the top will automatically expand and display the new filter:<br><img src="https://help.uberflip.com/hc/article_attachments/360077230292/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png">
+</li>
+<li>Use the controls in the filter section to <strong>change the filter settings</strong> to "<em>is in the past 1 complete months</em>":<br><img src="https://help.uberflip.com/hc/article_attachments/360077230632/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png">
+</li>
+<li>Next, <strong>add another filter</strong> for <em>Item Created Date &gt; Date</em>:<br><img src="https://help.uberflip.com/hc/article_attachments/360079256711/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png">
+</li>
+<li>Configure this filter as "<em>is in the past 1 complete months</em>" as well:<br><img src="https://help.uberflip.com/hc/article_attachments/360077245872/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png">
+</li>
+</ol>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>You won't be using this feature for this report, but you can also further refine any filter by adding conditions. To do so, simply <strong>click </strong><strong>on the + button</strong> on the right of the filter. This will add further configurable lines to the filter with either an <strong>AND</strong> or an <strong>OR</strong> condition, set automatically based on the filter option you select:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360079258591/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png"></p>
+<p>You can learn more about how to use filters in <a href="https://docs.looker.com/exploring-data/filtering-and-limiting">this article from Looker</a>.</p>
+</div>
+<p>Now your query is all ready to go: all that's left to do is to <strong>run it and pull in some data</strong>.</p>
+<h3>Running a query</h3>
+<p>If you've set everything up according to the instructions above, Explore should now look like this:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360079256951/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png"></p>
+<p>Note also that you can click on the "In Use" tab in the field picker to see an overview of the fields you've added both to your query and as filters:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360079132192/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png"></p>
+<p>With your dimensions and measures added and filters set, you're ready to run the query and generate a report.</p>
+<ol>
+<li>To run your query, simply <strong>click on the <em>Run</em> button </strong>in the top right corner:<br><img src="https://help.uberflip.com/hc/article_attachments/360079132312/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png">
+</li>
+<li>You'll see <em>Loading Data... </em>for a few moments while the query runs and Explore pulls in data. When the process is complete, the data table will populate, and a visualization will appear.<br><img src="https://help.uberflip.com/hc/article_attachments/360079257251/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png">
+</li>
+</ol>
+<p>Notice how the colored bars representing the dimensions and measures in the <strong>data section</strong> are actually <strong>table headings</strong>: now that the data has been populated, the relevant data for each heading appears in rows below. You can <strong>click on a table heading to sort the table</strong>, and drag the table headings to reorder them.</p>
+<p>The <strong>visualization section</strong> will display an auto-selected visualization for the data in the table, based on the type of data. You can toggle between different visualizations using the buttons in the menu bar:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360077441391/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png"></p>
+<p>Now, just start digging into the data to see what you can learn. In addition to examining the data in front of you, you can also:</p>
+<ul>
+<li>
+<strong>Add or remove dimensions and measures</strong> to change the data that's displayed</li>
+<li>
+<strong>Set, remove or modify</strong><strong> filters </strong>to further refine your query</li>
+<li>
+<strong>Visualize the data</strong> in various ways</li>
+<li>
+<strong>Re-run the query at any time</strong> to grab fresh data or to apply data or filter changes</li>
+</ul>
+<p>If this is just a one-off query, you can simply exit Explore by navigating away from the page when you're done, and the report will disappear. But if you want, you can also <strong>save</strong> <strong>reports </strong>so that you can return to (and run) them again later.</p>
+<p> </p>
+<h2>Save, view, and edit custom reports</h2>
+<h3>Save custom reports</h3>
+<p>Explore has the ability to <strong>save your custom reports</strong> so that you can pull them up again (with refreshed data, if applicable) at any time. Uberflip Analytics is powered by the <a href="https://looker.com/">Looker</a> business intelligence platform, which uses the term "<strong>Looks</strong>" for custom reports. Here's how you save a Look:</p>
+<ol>
+<li>At any time, click on the gear button in the top right corner to open the options menu:<br><img src="https://help.uberflip.com/hc/article_attachments/360079132532/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png" width="372" height="136">
+</li>
+<li>Click on <strong>Save as a Look...</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360079257311/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png">
+</li>
+<li>In the <strong>Save</strong> <strong>Look</strong> menu, <strong>enter a title</strong> (and optionally a description) for your custom report:<br><img src="https://help.uberflip.com/hc/article_attachments/360077611311/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png">
+</li>
+<li>Under <strong>Folder</strong>, select the type of folder you'd like to save your custom report in:
+<ul>
+<li>
+<strong>Personal: </strong>The Personal folder is only accessible to you, i.e. any reports saved to a user's Personal folder will only be visible to that user.</li>
+<li>
+<strong>Group: </strong>The Group folder is accessible to any other user in your organization who holds an Uberflip Analytics View license (i.e. can access Uberflip Analytics).</li>
+<li>
+<strong>Shared:</strong> The Shared folder is for experimental reports created by Uberflip, and you can't save custom reports to this folder.</li>
+</ul>
+</li>
+<li>Finally, click on <strong>Save</strong> to save the report and return to the Explore interface. Alternatively, if you want to view the Look in the report view (instead of in Explore), click on <strong>Save &amp; View</strong> Look.</li>
+</ol>
+<h3>View and edit saved custom reports</h3>
+<p>Once you have saved a Look, you can <strong>open the saved report again</strong> at any time, as well as <strong>edit </strong><strong>the report</strong> in Explore.</p>
+<ol>
+<li>From anywhere in Uberflip Analytics (you don't need to be in the Explore interface), <strong>click on the Browse (four boxes) button</strong> in the top right.</li>
+<li>Use the buttons along the side of the menu to select the folder, then <strong>click on the name of the Look</strong> on the right to open it:<br><img src="https://help.uberflip.com/hc/article_attachments/360077626231/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png">
+</li>
+<li>This will open the Look in the report view. To view and edit it, <strong>click on the gear button</strong> in the top right, then <strong>click on Edit</strong>:</li>
+<li>The Look will open in the Explore interface, where you can make any changes you want.</li>
+</ol>
+<p>For more in-depth information about managing your Looks, see this documentation from Looker:</p>
+<p class="wysiwyg-text-align-center"><a href="https://docs.looker.com/exploring-data/saving-and-editing-looks"><strong>Looker: Saving and Editing Looks</strong></a></p>
+<p> </p>
+<h2>Dive deeper into Explore functionality</h2>
+<p>This introduction to Explore only scratches the surface of what's possible, and there is a lot of <strong>additional functionality</strong> that we haven't covered.</p>
+<p>If you want to become an Explore power user and really get the most out of your Uberflip Analytics data, we encourage you to check out <strong>Looker's Explore documentation</strong>, which covers all of Explore's advanced features in depth. Here, you can learn how to do things like:</p>
+<ul>
+<li><a href="https://docs.looker.com/exploring-data/exploring-data#pivoting_dimensions">Pivoting dimensions</a></li>
+<li><a href="https://docs.looker.com/exploring-data/exploring-data#drilling_down_into_the_data">Drilling down into individual data points</a></li>
+<li><a href="https://docs.looker.com/dashboards/creating-dashboards-beta">Creating your own dashboards</a></li>
+<li><a href="https://docs.looker.com/exploring-data/filtering-and-limiting">Setting advanced and custom filters</a></li>
+<li><a href="https://docs.looker.com/exploring-data/visualizing-query-results">Customizing visualizations</a></li>
+</ul>
+<p>You can find all of the advanced feature documentation for Explore here:</p>
+<p class="wysiwyg-text-align-center"><strong><a href="https://docs.looker.com/exploring-data/retrieve-chart-intro" target="_self" rel="undefined">Looker: Retrieve and Chart Data</a></strong></p>]]></description>
+         <guid isPermaLink="false">360051891272</guid>
+         <pubDate>Mon, 09 Nov 2020 21:35:40 GMT</pubDate>
+      </item>
+      <item>
+         <title>Identify and Exclude Internal Visitor IDs in Uberflip Analytics </title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360042691071-Identify-and-Exclude-Internal-Visitor-IDs-in-Uberflip-Analytics</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>The easiest way to remove internal traffic from your Uberflip Analytics data is to <a href="https://help.uberflip.com/hc/en-us/articles/360039250291" target="_self">exclude your office IP addresses</a>. However, this doesn't cover remote employees, and excluding their individual IP addresses is usually ineffective because most home internet connections use dynamic IP addresses, which change periodically.</p>
+<p>A better solution for excluding remote internal users is to use their <strong>Visitor IDs</strong> instead. Uberflip Analytics assigns unique Visitor IDs to all visitors to your Hub, so in this article, we'll show you how to identify the Visitor IDs of your internal users, then set up persistent filters that automatically exclude these Visitor IDs across all dashboards.</p>
+<p> </p>
+<h2 id="h_f4a19d58-546f-4d83-b663-3e443dd6d15c">Setup: Enable the <em>Save Dashboard Filters </em>Setting</h2>
+<p>Since you'll be using a dashboard filter to exclude internal Visitor IDs, we strongly recommend that you <strong>turn on the <em>Save Dashboard Filters</em> setting</strong>. When this setting is enabled, any filter you set on one dashboard will be saved and automatically applied to all other dashboards. This ensures that you only need to set up the filter to exclude internal Visitor IDs once, rather than each time you open a dashboard.</p>
+<p>You can find detailed instructions on how to enable the <em>Save Dashboard Filters</em> setting <a href="https://help.uberflip.com/hc/en-us/articles/360040312352" target="_self">in this article</a>.</p>
+<p> </p>
+<h2>Step 1: Identify an Internal-Only Hub Page</h2>
+<p>Before you can filter based on Visitor IDs, you need to determine which Visitor IDs belong to your internal users. To do that, you can leverage Uberflip Analytics itself: for any page in a Hub, Uberflip Analytics can export a list of Visitor IDs that viewed that page. Therefore, all you need is a Hub page that is not accessible outside your organization, since any Visitor ID that viewed it would by definition belong to an internal user.</p>
+<p>As a result, you first need to <strong>identify a suitable Hub page</strong>, or <strong>create one</strong> if necessary. This page:</p>
+<ul class="list-bullet">
+<li>Can be <strong>any type of page within a Hub</strong>: a Hub homepage, a Stream page, or an Item page.</li>
+<li>Must be <strong>accessible only to internal users</strong>. This could be:
+<ul>
+<li>A Hub with <a href="https://help.uberflip.com/hc/en-us/articles/360020019192" target="_self">Hub Authentication</a> or a Stream with <a href="https://help.uberflip.com/hc/en-us/articles/360020069172" target="_self">Stream Authentication</a> </li>
+<li>A Hub or Stream with the <a href="https://help.uberflip.com/hc/en-us/articles/360018840252" target="_self">No Robots Meta Tag setting</a> enabled, and which has not been shared outside your organization</li>
+<li>A <a href="https://help.uberflip.com/hc/en-us/articles/360029676452" target="_self">hidden Stream</a> or <a href="https://help.uberflip.com/hc/en-us/articles/360025265112" target="_self">hidden Item</a> (with No Robots Meta Tag turned on and not shared externally)</li>
+</ul>
+</li>
+<li>Must be<strong> part of a Hub for which you collect Uberflip Analytics data</strong>. This means the page can't be in a Hub where the <a href="https://help.uberflip.com/hc/en-us/articles/360040761132"><em>Prevent Analytics Collection</em> option</a> is enabled.</li>
+</ul>
+<p>Your main objective is to capture as many internal Visitor IDs as possible, so the page you choose <strong>should have been viewed by most (or ideally all) of your internal users</strong>. The ideal situation is if you have an internal-only Hub, as this will allow you to collect the Visitor IDs of everyone who viewed <em>any</em> page in that Hub. Regardless of the type of page you choose, we recommend specifically instructing all of your internal users to visit the page to ensure their Visitor IDs are captured.</p>
+<p>When you have identified (or created) the necessary Hub page, proceed to the next step.</p>
+<p> </p>
+<h2>Step 2: Export a List of Internal Visitor IDs</h2>
+<p>Using the internal-only Hub page you you identified or set up earlier, you can now get a list of internal Visitor IDs from Uberflip Analytics.</p>
+<ol>
+<li>Log in to Uberflip and <strong>go to Uberflip Analytics</strong>.</li>
+<li>In the sidebar menu on the left, click on <em>Visitors &gt; Session Overview</em> to open the <strong>Session Overview dashboard</strong>.</li>
+<li>Click on <strong>Filters</strong> at the top of the dashboard to expand the filters menu.</li>
+<li>
+<strong>Set a filter</strong> to display<strong> just the internal-only Hub page</strong> you selected:
+<ul>
+<li>
+<strong>For a Hub:</strong> Use <em>Hub </em>| <em>is equal to </em>|<em> [insert name of Hub]</em>. This filter will include visitors to all pages in the selected Hub, and is the best option if you have an internal-only Hub.</li>
+<li>
+<strong>For a Stream:</strong> Use <em>Stream Title </em>|<em> is equal to </em>|<em> [insert name of Stream]. </em>This filter will include visitors to the Stream page itself, and any Items in the Stream (even if they did not visit the Stream page).</li>
+<li>
+<strong>For an Item: </strong>Use <em>Item Title </em>|<em> is equal to </em>|<em> [insert name of Item]. </em>This filter will include only visitors to the specified Item page.</li>
+</ul>
+</li>
+<li>If needed, <strong>change the <em>View Date</em> filter</strong> to a longer time range to ensure as many Visitor IDs as possible can be captured.</li>
+<li>
+<strong>Click on</strong> <strong>Run</strong> to apply the filter.</li>
+<li>In the dashboard, scroll down to the <strong>Session Details</strong> table at the bottom, which displays sessions broken down by Visitor ID (second column from left).</li>
+<li>
+<strong>Hover your mouse over the table</strong>, then <strong>click on the three-dot ("meatball") menu button</strong> that appears in the top right of the table (in the "Session Details" title bar).</li>
+<li>In the menu that appears, click on <strong>Download Data</strong>.</li>
+<li>The <strong>Download</strong> window will appear. In this window, <strong>change the <em>Limit</em> setting to <em>Custom...</em></strong>, which will automatically default to a setting of 5000 rows:<br> <img src="https://help.uberflip.com/hc/article_attachments/360055523152/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png">
+<ul>
+<li>We recommend leaving all other options on their default settings.</li>
+</ul>
+</li>
+<li>
+<strong>Click on Download</strong>. This will export a CSV file that contains all of the Visitor IDs that have viewed the selected Hub page. After a few moments, <strong>the download should begin automatically</strong>.</li>
+</ol>
+<p>When the download has finished, proceed to the next step.</p>
+<p> </p>
+<h2>Step 3: Set Up a Filter to Exclude Internal Visitor IDs</h2>
+<p>With the list of internal Visitor IDs, you can now set up a filter to exclude data associated with those Visitor IDs from your dashboards.</p>
+<p>Dashboard filters<strong> only apply for the user who set them</strong>, so any other Uberflip Analytics users in your organization will need <strong>set up their own filters </strong>by following these instructions. However, all users can use the same list of Visitor IDs, so the person who exports the list can simply share it with others so that they don't need to export it themselves.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>If you turned on <em>Save Dashboard Filters</em> as <a href="#h_f4a19d58-546f-4d83-b663-3e443dd6d15c" target="_self">recommended above</a>, you'll only have to do this once. If you prefer to keep this setting <strong>off</strong>, you'll need to follow these steps each time you view a dashboard.</p>
+</div>
+<ol>
+<li>
+<strong>Open the CSV file </strong>containing the internal Visitor IDs.
+<ul>
+<li>You can open this file in any spreadsheet software, e.g. Microsoft Excel, OpenOffice/LibreOffice Calc, or even Google Sheets.</li>
+</ul>
+</li>
+<li>In the CSV file, <strong>highlight and copy the entire column of Visitor IDs </strong>(except the header row that says "Visitor ID"):<br> <img src="https://help.uberflip.com/hc/article_attachments/360055617712/Recent_sessions_2020-04-24T1735_and_Identify_and_Exclude_Internal_Visitor_IDs_in_Uberflip_Analytics.png" alt="Recent_sessions_2020-04-24T1735_and_Identify_and_Exclude_Internal_Visitor_IDs_in_Uberflip_Analytics.png">
+</li>
+<li>Open Uberflip Analytics and <strong>go to any</strong><strong> dashboard</strong>.<br>
+<ul>
+<li>If <em>Save Dashboard filters</em> is turned on, your filter will apply to all dashboards, so it doesn't matter which one you choose. If the setting is off, you'll need to complete these steps every time you open any dashboard.</li>
+</ul>
+</li>
+<li>Click on <strong>Filters</strong> at the top of the dashboard to expand the filters menu.</li>
+<li>Scroll down to the <strong>Visitor ID filter</strong>.</li>
+<li>Set the filter condition to <strong>is not equal to</strong> and <strong>paste in the Visitor IDs</strong> that you copied from the CSV file:<br><img src="https://help.uberflip.com/hc/article_attachments/360055617852/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png">
+</li>
+<li>
+<strong>Click on Run</strong> to apply the filter. Any data associated with the listed Visitor IDs will be excluded from all metrics shown on your dashboards.</li>
+</ol>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>Once you've exported the CSV file and copied out the internal Visitor IDs, simply paste them into a TXT file (e.g. with Notepad on Windows or TextEdit on Mac) to easily share them with any other users who need to set up the filter. </p>
+</div>
+<p> </p>
+<h2>Additional Notes</h2>
+<p>Uberflip Analytics will assign a new Visitor ID to any visitor who is not yet known (does not yet have an Uberflip Analytics cookie). This means that internal visitors will be assigned new Visitor IDs if they clear their browser cache/cookies, use incognito mode, or use a different browser. As a result, you may need to collect a fresh list of internal Visitor IDs and update your filter from time to time.</p>]]></description>
+         <guid isPermaLink="false">360042691071</guid>
+         <pubDate>Thu, 23 Apr 2020 20:46:49 GMT</pubDate>
+      </item>
+      <item>
+         <title>Find Your Uberflip Analytics Identifier (UUID)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360041466972-Find-Your-Uberflip-Analytics-Identifier-UUID</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>In some cases, Uberflip Support may ask you to provide your Uberflip Analytics Identifier, or UUID. Follow the steps below to find your UUID.</p>
+<p> </p>
+<h2>Find Your Browser's Uberflip Analytics UUID</h2>
+<p>In this guide, we will focus on how to find your UUID in <strong>Google Chrome</strong>. UUIDs are browser-specific, so if you use a browser other than Chrome, you must use that browser to complete this process instead.</p>
+<p>While the steps below are specific to Google Chrome, all major browsers have developer tools built in that are structured similarly to Chrome DevTools, adapting them to your browser of choice is straightforward. For instructions on how to open developer tools in your preferred browser, use the links below:</p>
+<ul>
+<li>
+<a href="https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide">Microsoft Edge</a> or <a href="https://docs.microsoft.com/en-us/previous-versions/windows/desktop/legacy/hh968260(v%3Dvs.85)" target="_self">Internet Explorer</a>
+</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Tools">Mozilla Firefox</a></li>
+<li><a href="https://support.apple.com/en-ca/guide/safari/sfri20948/mac">Apple Safari</a></li>
+</ul>
+<p><strong>To find your UUID in Google Chrome:</strong></p>
+<ol>
+<li>Using <strong>Google Chrome</strong>, visit any page on the Uberflip platform website where you have a UUID (the UUID is assigned to your browser when you visit the Uberflip platform website for the first time).</li>
+<li>
+<strong>Right-click anywhere</strong> on the webpage, then <strong>click on Inspect</strong> to open Chrome DevTools:<br><img src="https://help.uberflip.com/hc/article_attachments/360080075711/image.png" alt="image.png" width="353" height="228">
+</li>
+<li>DevTools will open as a new pane docked to the right side of your browser. In DevTools, <strong>find the menu at the top.</strong> Here, <strong>click on the &gt;&gt; button</strong>, then <strong>click on Application:<br><img src="https://help.uberflip.com/hc/article_attachments/360079935752/image.png" alt="image.png"></strong>
+<ul>
+<li>If your DevTools window is set to the <strong>docked to bottom </strong>or <strong>undocked </strong>views, or is set wide enough, the <strong>Application</strong> tab should already be visible and you can just click on it directly.</li>
+</ul>
+</li>
+<li>On the Application tab, <strong>find the sidebar menu</strong> on the left. <strong>Click on the arrow next to <em>Cookies </em></strong>to expand that section, then <strong>click on the URL of the Uberflip platform website</strong> in the list:<br><img src="https://help.uberflip.com/hc/article_attachments/360080076911/image.png" alt="image.png">
+</li>
+<li>
+<strong>Find the Filter box</strong> near the top. <strong>Type</strong> <em><strong>ufav</strong></em> into this box:<br><img src="https://help.uberflip.com/hc/article_attachments/360079955692/image.png" alt="image.png">
+</li>
+<li>The table below should now only show cookies with "ufav" in their name (in most cases, just one):<br><img src="https://help.uberflip.com/hc/article_attachments/360079954172/image.png" alt="image.png">
+</li>
+<li>The <strong>series of alphanumeric characters in the <em>Value </em>column is</strong> <strong>your Uberflip Analytics UUID </strong>for this browser and website:<br><img src="https://help.uberflip.com/hc/article_attachments/360079955932/image.png" alt="image.png">
+</li>
+<li>
+<strong>Copy this UUID</strong> and <strong>email it to Uberflip Support</strong>. To select the UUID for copying, <strong>double-click it in the <em>Value</em> column</strong>. You can also copy it from the pane near the bottom of the DevTools window (when the <em>ufav</em> cookie is selected):<br><img src="https://help.uberflip.com/hc/article_attachments/360080095831/image.png" alt="image.png">
+</li>
+</ol>
+<p> </p>
+<h2>Additional Notes</h2>
+<ul>
+<li>Your Uberflip Analytics UUID is <strong>unique to your browser</strong>, and can only be directly obtained by you, from your browser.</li>
+<li>In some cases, you may see <strong>multiple instances of the <em>ufav</em> cookie</strong> in the table in Step 6. If you do, please <strong>provide the UUIDs for all of them</strong> to Uberflip Support. Please also be sure to provide <strong>the corresponding domain</strong> for each UUID (from the <em>Domain</em> column).</li>
+</ul>]]></description>
+         <guid isPermaLink="false">360041466972</guid>
+         <pubDate>Fri, 03 Apr 2020 18:12:23 GMT</pubDate>
+      </item>
+      <item>
+         <title>Stop Uberflip Analytics From Collecting Data on a Hub</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360040761132-Stop-Uberflip-Analytics-From-Collecting-Data-on-a-Hub</link>
+         <description><![CDATA[<hr>
+<p>Learn how to disable all data collection by Uberflip Analytics on a particular Hub.</p>
+<hr>
+<h2>Before You Begin</h2>
+<ul>
+<li>To enable this feature, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+</ul>
+<p> </p>
+<h2>About Blocking Uberflip Analytics Collection</h2>
+<p>By default, <a href="https://help.uberflip.com/hc/en-us/articles/360035433571" target="_self">Uberflip Analytics</a> will collect data about visitor behavior on all of the Hubs in your account. If you want, you can disable this data collection on a per-Hub basis. This can be useful if you prefer not to collect such data due to concerns about privacy regulations, or if you don't want data from a testing/sandbox Hub to skew data for your production Hubs.</p>
+<p> </p>
+<h2>Block Uberflip Analytics Data Collection for a Hub</h2>
+<p>You can stop Uberflip Analytics from collecting data on any Hub in your account. This is a per-Hub setting, so you need to configure it separately for each Hub.</p>
+<p>Once this setting is turned on, Uberflip Analytics will<strong> not collect any</strong><strong> data</strong> from the relevant Hub while the setting remains enabled. Data not collected while this setting is on is <strong>not </strong>retrievable: if you turn this setting off again, data collection will resume, but there will be no data for the period during which the setting was turned on.</p>
+<ol>
+<li> Log in to your Uberflip account.</li>
+<li>Using the <strong>Hubs</strong> menu at the top, select the Hub for which you want to disable Uberflip Analytics data collection.</li>
+<li>In the sidebar menu on the left, click on <strong>Hub Options &gt; Advanced</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360052466512/Fullscreen_2020-03-19__3_38_PM.png" alt="Fullscreen_2020-03-19__3_38_PM.png" width="284" height="292">
+</li>
+<li>In the <strong>Advanced Hub Options </strong>menu on the right, scroll down to the <strong>Uberflip Analytics</strong> section.</li>
+<li>Check the box next to <strong>Prevent Analytics Collection</strong> to block data collection for the Hub you're currently in:<br><img src="https://help.uberflip.com/hc/article_attachments/360052584831/Hubs___Options_-_Advanced_-_Uberflip_-_Mozilla_Firefox.png" alt="Hubs___Options_-_Advanced_-_Uberflip_-_Mozilla_Firefox.png" width="437" height="92">
+</li>
+<li>Your change will be saved automatically, and will take effect immediately. If you later want to re-enable Uberflip Analytics collection for this Hub, simply repeat the steps above and <strong>uncheck</strong> this setting.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360040761132</guid>
+         <pubDate>Thu, 19 Mar 2020 17:24:47 GMT</pubDate>
+      </item>
+      <item>
+         <title>Save Dashboard Filters in Uberflip Analytics</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360040312352-Save-Dashboard-Filters-in-Uberflip-Analytics</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>Save the filters you configure on Uberflip Analytics dashboards so that they remain active the next time you view the dashboard (instead of being cleared once you navigate away).</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360051728011/Analytics_-_Uberflip.png" alt="Analytics_-_Uberflip.png"></p>
+<p> </p>
+<h2>Save Dashboard Filters</h2>
+<ol>
+<li>Log in to your Uberflip account and <strong>navigate to Uberflip Analytics</strong> by clicking the button in the top menu.</li>
+<li>In the sidebar menu on the left, click on the <strong>Analytics Settings</strong> section to expand it.</li>
+<li>In this section, click on <strong>Persistent Filters</strong>.</li>
+<li>On the right side, <strong>toggle the switch </strong>next to <em>Save Dashboard Filters</em> to the<strong> on (green) setting</strong>:<br> <img src="https://help.uberflip.com/hc/article_attachments/360051599692/image.png" alt="image.png">
+</li>
+<li>Now, any time you open a dashboard and set filters, <strong>your filter settings will be saved</strong> and will be set when you return to the dashboard.</li>
+</ol>
+<p> </p>
+<h2>Additional Notes</h2>
+<ul>
+<li>When enabled, this setting will override any <a href="https://help.uberflip.com/hc/en-us/articles/360039658671">Persistent Filters</a> you have set.</li>
+<li>If you disable this feature, any previously saved filter settings will be lost, and will not be retained when you re-enable the feature.</li>
+</ul>]]></description>
+         <guid isPermaLink="false">360040312352</guid>
+         <pubDate>Mon, 09 Mar 2020 18:15:07 GMT</pubDate>
+      </item>
+      <item>
+         <title>Set Persistent Filters in Uberflip Analytics</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360039658671-Set-Persistent-Filters-in-Uberflip-Analytics</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>Set persistent filters in <a href="https://help.uberflip.com/hc/en-us/articles/360035433571" target="_self">Uberflip Analytics</a>. Persistent filters are:</p>
+<ul>
+<li>
+<strong>Global</strong>: They are set in one place, and apply to all dashboards.</li>
+<li>
+<strong>Persistent</strong>: They are saved to your browser, so they are not cleared like filters set on-dashboard, but remain set whenever you return to a dashboard.</li>
+</ul>
+<p> </p>
+<h2>Set a Persistent Filter</h2>
+<ol>
+<li>Log in to your Uberflip account and <strong>navigate to Uberflip Analytics</strong> by clicking the button in the top menu.</li>
+<li>In the sidebar menu on the left, click on the <strong>Analytics Settings</strong> section to expand it.</li>
+<li>In this section, click on <strong>Persistent Filters</strong>.</li>
+<li>On the right side, <strong>configure the filters</strong> that you want to apply to all dashboard as soon as you open them. Any changes you make will be saved automatically, and will take effect immediately.</li>
+<li>Now, any time you open a dashboard, <strong>your persistent filters will be applied automatically</strong>. You can also change your filters at any time by simply following the instructions above again.</li>
+</ol>
+<p> </p>
+<h2>Additional Notes</h2>
+<ul>
+<li>Persistent filters are <strong>specific to your browser</strong>: they do not apply to any other user in your Uberflip account, or if you access your account from a different browser (or in incognito mode).</li>
+<li>Persistent filter settings will be overridden by dashboard-specific filter settings, i.e. any filters set using the on-dashboard controls (including <a href="https://help.uberflip.com/hc/en-us/articles/360040312352" target="_self">saved dashboard filters</a>).</li>
+<li>Because they are saved to your browser cache, any persistent filters you configure will be <strong>lost if you clear your browser cache</strong>.</li>
+<li>Currently, the only type of persistent filter available in Uberflip Analytics is the <strong>View Date</strong> filter. As we further develop Uberflip Analytics, more types of filters will be added.</li>
+</ul>]]></description>
+         <guid isPermaLink="false">360039658671</guid>
+         <pubDate>Mon, 10 Feb 2020 19:11:40 GMT</pubDate>
+      </item>
+      <item>
+         <title>Exclude Traffic From Specific IP Addresses in Uberflip Analytics</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360039250291-Exclude-Traffic-From-Specific-IP-Addresses-in-Uberflip-Analytics</link>
+         <description><![CDATA[<hr>
+<p>Get more useful data from <a href="https://help.uberflip.com/hc/en-us/articles/360035433571" target="_self">Uberflip Analytics</a> by excluding traffic from your own internal IP addresses (or any IP addresses of your choice).</p>
+<hr>
+<p> </p>
+<h2 id="h_01HRDBCVA24H8FVM31KM1BBVX9">Before You Begin</h2>
+<ul>
+<li>To work with Uberflip Analytics, you need to be an <strong>Account Administrator</strong>, or have the <strong>Uberflip Analytics &gt; View </strong>permission.</li>
+<li>To do this, you'll need to know <strong>your organization's IP address(es)</strong>. You can usually obtain this information from your IT department.</li>
+</ul>
+<p> </p>
+<h2 id="h_01HRDBCVA2KFZ905RG6QHKMQ6H">About IP Address Exclusion</h2>
+<p>In most organizations, it's common for internal users to spend a lot of time browsing their own Hubs: aside from Marketing reviewing the content they create, Sales and Success teams will also routinely browse for content to share.</p>
+<p>The problem is, all of this internal traffic throws off your metrics: your internal users tend to have different browsing habits from your external visitors, which can <strong>skew the data and make your metrics unreliable</strong>. To avoid this, you should set up Uberflip Analytics to filter out your organization's own IP addresses, which will exclude any data generated by internal visitors.</p>
+<div class="callout callout--success">
+<h4 id="h_01HRDBCVA2GETGG3MV8JY6WY98" class="callout__title">Tip</h4>
+<p>Do you <strong>work from home</strong>? Don't forget to <strong>add your own home IP address</strong> (and those of any coworkers who also work remotely) to your list of exclusions. (If you're not sure what your home IP address, simply Google "what is my IP?".)</p>
+<p>If you do this, keep in mind that most home IP addresses aren't static, and may change from time to time.</p>
+</div>
+<p> </p>
+<h2 id="h_01HRDBCVA2C3N99B79KXJ9C78K">Exclude Specific IP Addresses from Uberflip Analytics</h2>
+<p>You can specify any individual IP address or range of IP addresses to be excluded. The specified IP addresses must be <strong>IPv4</strong> (IPv6 addresses are not supported), and can be added as <strong>single IP addresses</strong>, <strong>IP ranges</strong>, or <strong>CIDRs</strong>.</p>
+<p>Any exclusions you specify will apply to both Uberflip Analytics <strong>and</strong> legacy Metrics. The exclusion rules work differently for each system:</p>
+<ul>
+<li>
+<strong>In Uberflip Analytics</strong>: IP address filters will be applied to future data only. Filters are <strong>non-destructive</strong> (filtered data is hidden, not deleted).</li>
+<li>
+<strong>In legacy Metrics</strong>: IP address filters are applied <strong>only</strong> to future data, i.e. after an exclusion is added. Any previously collected data relating to an excluded IP address will not be removed from your existing metrics. Filters are <strong>destructive</strong> (filtered data is deleted, and not recoverable).</li>
+</ul>
+<p><strong>To exclude IP addresses from Uberflip Analytics (and legacy Metrics):</strong></p>
+<ol>
+<li>Log in to Uberflip and click on <strong>Analytics</strong> in the top menu.</li>
+<li>In the sidebar menu on the left, click on <strong>Analytics Settings</strong>, then click on <strong>Exclude IP Addresses</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360048495771" alt="image.png" width="244" height="157">
+</li>
+<li>The <strong>Exclude IP Addresses</strong> menu will appear on the right. Use the <strong>IP Addresses</strong> text box to type in any IP address(es) that you want to exclude from Uberflip Analytics data.<br>
+<ul>
+<li>See the help text above the text box for accepted formats.<br><img src="https://help.uberflip.com/hc/article_attachments/360048373892" alt="Excluded_IP_Addresses_-_Uberflip.png">
+</li>
+</ul>
+</li>
+<li>When you are finished, click on <strong>Save</strong>. Your settings will take effect immediately.</li>
+<li>If you later want to remove an IP address exclusion (i.e. to stop filtering out traffic for a certain IP address/range), simply <strong>remove it from the list</strong>, then click on <strong>Save</strong> again.
+<ul>
+<li>For <strong>Uberflip Analytics</strong>: Data for previously filtered IP addresses will be visible again, including for the period when the exclusion was in effect.</li>
+<li>For <strong>legacy Metrics</strong>: Data for previously filtered IP addresses will only be visible for the period after the exclusion was removed (and before the exclusion was added). Data for the period when the exclusion was in effect was not collected, and is not available.</li>
+</ul>
+</li>
+</ol>
+<p> </p>
+<h2 id="h_01HRDBCVA2W2VPAVWQRFWBB36S">Excluded Visitors Dashboard</h2>
+<p>Because Uberflip Analytics filters out data for excluded IP addresses without destroying it, this data is still collected and remains available. The <strong>Excluded Visitors</strong> dashboard, which is located below the <em>Exclude IP Addresses</em> menu, displays metrics for <strong>only the IP addresses specified in your exclusion list</strong>:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360048374572" alt="Excluded_IP_Addresses_-_Uberflip.png"></p>
+<p>This dashboard essentially shows the effects of the exclusion rules you have set up. As a result, it's useful for <strong>testing if the exclusions you have configured are having the intended effect</strong>.</p>]]></description>
+         <guid isPermaLink="false">360039250291</guid>
+         <pubDate>Mon, 27 Jan 2020 19:12:13 GMT</pubDate>
+      </item>
+      <item>
+         <title>Reference: Data Collection Start Dates for Uberflip Analytics</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360038311372-Reference-Data-Collection-Start-Dates-for-Uberflip-Analytics</link>
+         <description><![CDATA[<hr>
+<p>A reference guide to the dates on which data collection began for various data points in Uberflip Analytics.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>This article outlines the dates when we started collecting data for major metrics in Uberflip Analytics. To learn more about Uberflip Analytics and how to use it, see <a href="https://help.uberflip.com/hc/en-us/articles/360035433571" target="_self">this article</a>.</li>
+</ul>
+<p> </p>
+<h2>About Data Collection Start Dates</h2>
+<p>Uberflip Analytics is powered by a proprietary event collection system. As visitors browse Uberflip Hubs, this system records a variety of events related to their behavior. The collected data is then fed into Uberflip Analytics, where it is used to calculate the metrics that are displayed.</p>
+<p>When it was originally launched, the event collection system was able to collect a limited number of data points, and we have since implemented the collection of additional data points on an ongoing basis. As a result, the various data points collected by the system have <strong>distinct start dates</strong> on which Uberflip Analytics began to collect the relevant data. In practice, this means that different metrics in Uberflip Analytics have varying amounts of historical data available, so you can view data further back in time on some metrics than on others.</p>
+<p> </p>
+<h2>Uberflip Analytics Data Collection Start Dates</h2>
+<p>The table below displays the start dates on which Uberflip Analytics first began to collect data for each category of metrics that it records:</p>
+<ul>
+<li>The <em>Start Date</em> column indicates the <strong>first full month</strong> in which data was collected. In some cases, data for part of the previous month may also be available, but would represent an incomplete view of that month.</li>
+<li>Where applicable, the <em>Notes </em>column lists any exceptions to the start date indicated, or any other related issues.</li>
+</ul>
+<table style="height: 1183px;" width="688">
+<tbody>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="width: 218px; vertical-align: middle; height: 22px;"><strong>Category</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 218px; vertical-align: middle; height: 22px;"><strong>Start Date</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 218px; vertical-align: middle; height: 22px;"><strong>Notes</strong></td>
+</tr>
+<tr style="height: 112px;">
+<td class="wysiwyg-text-align-center" style="width: 218px; height: 112px;">
+<p>Core Data</p>
+</td>
+<td class="wysiwyg-text-align-center" style="width: 218px; vertical-align: middle; height: 112px;">July 2019</td>
+<td style="width: 218px; height: 112px;">
+<ul>
+<li>
+<em>Includes: </em>Visitors, Page Views, Item Views, Stream Views, Bounce Rate, Sessions, UTM Parameters, Geography</li>
+</ul>
+</td>
+</tr>
+<tr style="height: 89px;">
+<td class="wysiwyg-text-align-center" style="width: 218px; height: 89px;">Link CTA Impressions</td>
+<td class="wysiwyg-text-align-center" style="width: 218px; vertical-align: middle; height: 89px;">October 2019</td>
+<td style="width: 218px; height: 89px;">
+<ul>
+<li>Not collected for <em>embedded CTAs </em>until <strong>May 1 2020</strong> (for Hub Frontend V1)</li>
+</ul>
+</td>
+</tr>
+<tr style="height: 156px;">
+<td class="wysiwyg-text-align-center" style="width: 218px; height: 156px;">Link CTA Clicks</td>
+<td class="wysiwyg-text-align-center" style="width: 218px; vertical-align: middle; height: 156px;">October 2019</td>
+<td style="width: 218px; height: 156px;">
+<ul>
+<li>Not collected for <em>repeated Link CTAs</em> until <strong>Dec. 4 2019</strong>
+</li>
+<li>Not collected for <em>embedded CTAs </em>until <strong>May 1 2020</strong> (for Hub Frontend V1)</li>
+</ul>
+</td>
+</tr>
+<tr style="height: 179px;">
+<td class="wysiwyg-text-align-center" style="width: 218px; height: 179px;">Form CTA Impressions</td>
+<td class="wysiwyg-text-align-center" style="width: 218px; vertical-align: middle; height: 179px;">October 2019</td>
+<td style="width: 218px; height: 179px;">
+<ul>
+<li>Not collected for <em>gated Form CTAs with an initial delay</em> until <strong>Dec. 18 2019</strong>
+</li>
+<li>Not collected for <em>embedded CTAs </em>until <strong>May 1 2020</strong> (for Hub Frontend V1)</li>
+</ul>
+</td>
+</tr>
+<tr style="height: 313px;">
+<td class="wysiwyg-text-align-center" style="width: 218px; height: 313px;">Form CTA Activations</td>
+<td class="wysiwyg-text-align-center" style="width: 218px; vertical-align: middle; height: 313px;">October 2019</td>
+<td style="width: 218px; height: 313px;">
+<ul>
+<li>Not collected for <em>Custom Form CTAs</em> until <strong>Dec. 9 2019</strong>
+</li>
+<li>Not collected for <em>gated Form CTAs with an initial delay</em> until <strong>Dec. 18 2019</strong>
+</li>
+<li>Not collected for <em>Form CTAs connected to Mailchimp</em>
+</li>
+<li>Not collected for <em>embedded CTAs </em>until <strong>May 1 2020</strong> (for Hub Frontend V1)</li>
+</ul>
+</td>
+</tr>
+<tr style="height: 246px;">
+<td class="wysiwyg-text-align-center" style="width: 218px; height: 246px;">Form CTA Submissions</td>
+<td class="wysiwyg-text-align-center" style="width: 218px; vertical-align: middle; height: 246px;">October 2019</td>
+<td style="width: 218px; height: 246px;">
+<ul>
+<li>Not collected for <em>mobile devices</em> until <strong>Nov. 29 2019</strong>
+</li>
+<li>Not collected for <em>gated Form CTAs with an initial delay</em> until <strong>Dec. 18 2019</strong>
+</li>
+<li>Not collected for <em>embedded CTAs </em>until <strong>May 1 2020</strong> (for Hub Frontend V1)</li>
+</ul>
+</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="width: 218px; height: 22px;">Time on Page</td>
+<td class="wysiwyg-text-align-center" style="width: 218px; vertical-align: middle; height: 22px;">December 2019</td>
+<td style="width: 218px; height: 22px;"> </td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="width: 218px; height: 22px;">Flipbook Page Views</td>
+<td class="wysiwyg-text-align-center" style="width: 218px; vertical-align: middle; height: 22px;">May 2020</td>
+<td style="width: 218px; height: 22px;"> </td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="width: 218px; height: 22px;">Flipbook Downloads</td>
+<td class="wysiwyg-text-align-center" style="width: 218px; vertical-align: middle; height: 22px;">May 2020</td>
+<td style="width: 218px; height: 22px;"> </td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360038311372</guid>
+         <pubDate>Fri, 10 Jan 2020 16:53:25 GMT</pubDate>
+      </item>
+      <item>
+         <title>Get started with Uberflip Analytics</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360035433571-Get-started-with-Uberflip-Analytics</link>
+         <description><![CDATA[<p>Learn all about Uberflip Analytics: what it is, how to navigate it, and how you can get the most out of this powerful tool.</p>
+<p> </p>
+<h2 id="h_01HK8DA9Z0HJF54Y5Y6YS9MYRW">Before you begin</h2>
+<ul>
+<li>To use Uberflip Analytics, your Uberflip user account must hold an Uberflip Analytics <strong>View license</strong>. A View license is automatically granted to any member of the <strong>Account Administrator </strong>and <strong>Analyst </strong>user groups.
+<ul>
+<li>Account Administrators can also assign View licenses to individual user accounts that are not members of these user groups via the <strong>Licences</strong> <strong>tab</strong> on the user's profile. When a license is assigned to a user, the necessary <strong>Uberflip Analytics &gt; View </strong>permission will also automatically be granted to that user. Note that assigning this permission without a license will not give that user access to Uberflip Analytics.</li>
+</ul>
+</li>
+<li>Your Uberflip account has a certain number of <strong>included View licenses</strong>, depending on your pack type. If you require additional View licenses, please contact your Customer Success Manager.</li>
+<li>Uberflip Analytics date ranges use a <em><strong>from-until (before)</strong></em> format. This means that the data included in that date range ends at 11:59pm on the day before the final day selected.</li>
+</ul>
+<p> </p>
+<h2 id="h_01HK8DA9Z095QKD2QTWPDMYYGD">What is Uberflip Analytics?</h2>
+<p>Uberflip Analytics, or "UFA" for short, is Uberflip's business intelligence suite. UFA is specifically designed to help you <strong>measure the performance of the content experiences you build with Uberflip</strong>.</p>
+<p>UFA can provide you with <strong>the data you need to</strong> <strong>answer questions</strong> about your content and the way your prospects and customers experience and engage with it. For example, you can use UFA to get answers to questions like:</p>
+<ul>
+<li>Which of my inbound channels are bringing in the most engaged visitors?</li>
+<li>Which of my CTAs are most effective at converting visitors into leads?</li>
+<li>How are visitors moving through my content?</li>
+<li>What types of content are my visitors engaging with the most?</li>
+</ul>
+<p>UFA is powered by the industry-leading <a href="https://looker.com/">Looker data analytics platform</a>.</p>
+<p> </p>
+<h2 id="h_01HK8DA9Z088HFCTBNGRCQ0WGF">Access Uberflip Analytics</h2>
+<p>You can access UFA at any time while you're logged in to Uberflip. Simply click on <strong>Analytics</strong> in the topbar menu:<br><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/22893154240397" alt="mceclip0.png" width="595" height="72"></span></p>
+<p>Uberflip Analytics always opens to the <strong>Home dashboard</strong>, which provides a high-level overview of key performance data across <strong>all Hubs in your account</strong>.</p>
+<p> </p>
+<h2 id="h_01HK8DA9Z05Y1M3YSVDAQPNDHD">Navigate Uberflip Analytics</h2>
+<p>To get around UFA, use the <strong>sidebar menu</strong>. From this menu, you can navigate to the various <strong>dashboards </strong>and <strong>reports </strong>available in UFA, as well as UFA's <strong>settings</strong>:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360084129312" alt="image2.png"></p>
+<h3 id="h_01HK8DA9Z0Z1AJ7G3VSAMDK8PV">Dashboards</h3>
+<p><strong>Dashboards</strong> are the focal point of the Uberflip Analytics interface. These are collections of data visualizations ("widgets") that focus on particular areas of interest, such as how visitors are reaching your Hubs, or how your Form CTAs are performing.</p>
+<p>In addition to the general <strong>Home</strong> dashboard, UFA offers a variety of more granular and specialized dashboards. These are grouped into four <strong>categories </strong>based on the type of data they focus on:</p>
+<ul>
+<li>
+<strong>Traffic</strong>: Where your visitors are coming from</li>
+<li>
+<strong>Content</strong>: How content and content experiences are performing</li>
+<li>
+<strong>Calls-To-Action</strong>: How your CTAs are performing</li>
+<li>
+<strong>Visitors</strong>: How visitors are behaving once they are in your Hubs</li>
+</ul>
+<p>These categories are shown as sections the sidebar menu: <strong>click on any category</strong><strong> to expand it</strong> and navigate to the dashboards inside.</p>
+<p>All dashboards can be <strong>filtered</strong>, and you can <strong>export data</strong> from dashboards — we'll look at these actions in more detail below.</p>
+<h3 id="h_01HK8DA9Z0H8EE9NFX55PPFR60">Reports</h3>
+<p>Where dashboards visualize data to make it more easily digestible, <strong>reports</strong> display the underlying <strong>raw data</strong> in table form. Reports are more comprehensive than dashboards, allowing you to dive into the data in much greater detail.</p>
+<p>UFA features a number of built-in reports. To view them, <strong>click on the <em>Standard Reports</em> section</strong> in the sidebar to expand it.</p>
+<p>Like dashboards, reports also allow for <strong>filtering </strong>and <strong>data exports</strong>.</p>
+<div class="callout callout--info">
+<h4 id="h_01HK8DA9Z003YYASJ6MGN0PHH0" class="callout__title">Note</h4>
+<p>Because they can contain a large amount of data, it's normal for reports to take a little longer to load than dashboards.</p>
+</div>
+<h3 id="h_01HK8DA9Z0EY3ATX89ACFXX2Z7">Settings</h3>
+<p>Use UFA's settings to customize it to your organization's needs. See these articles for more details:</p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360039250291" target="_self">Exclude Traffic From Specific IP Addresses in Uberflip Analytics</a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360039658671" target="_self">Set Persistent Filters in Uberflip Analytics</a></li>
+</ul>
+<p> </p>
+<h2 id="h_01HK8DA9Z0VDZAJAAPMXAMKM1C">Basic Uberflip Analytics features</h2>
+<p>While viewing dashboards and reports in UFA, you can <strong>refresh the data </strong>at any time, as well as <strong>learn how specific data points are defined or calculated.</strong></p>
+<h3 id="h_01HK8DA9Z0QS7TVY6G5XTPRAJZ">Refresh data</h3>
+<p>Uberflip Analytics <strong>automatically displays the most up-to-date data</strong> available. Here's how it works:</p>
+<ol>
+<li>When you open a dashboard, the <strong>most recent available</strong> data will be displayed. In most cases this will initially be <strong>cached data</strong> from the last time a refresh occurred. You can see how recent the cached data is in the top right corner:<br><img src="https://help.uberflip.com/hc/article_attachments/360043188591" alt="Analytics_-_Uberflip.png">
+</li>
+<li>As part of loading a dashboard, Uberflip Analytics also <strong>checks if more recent</strong> <strong>data</strong> is available. If there is more recent data, this is <strong>compared to the cached data</strong>. If this comparison finds a difference, Uberflip Analytics will <strong>automatically start loading the latest data </strong>into the dashboard widget. This is indicated by a <strong>loading spinner </strong>that appears in the top right corner of each widget:<br><img src="https://help.uberflip.com/hc/article_attachments/360043295011" alt="Fullscreen_2019-11-18__12_11_PM.png">
+</li>
+<li>Once the <strong>latest data is being displayed across all widgets</strong>, the timestamp in the top right corner of the page will display "<em>just now</em>" to reflect this:<strong><br><img src="https://help.uberflip.com/hc/article_attachments/360043254092" alt="Analytics_-_Uberflip.png"></strong>
+</li>
+</ol>
+<p>In addition to the automatic check that happens when you load a dashboard, you can also <strong>force a check for more recent data</strong>. To do so, simply <strong>click the <em>Run</em> button</strong>. You can do this at any time.</p>
+<ul>
+<li>If there is <strong>no difference</strong> between the cached data and the more recently collected data, <strong>the dashboard will not update even if you force a refresh</strong> (by clicking the <em>Run</em> button). In this case, the timestamp in the top right corner will continue to reflect the last time the data was updated (i.e. the last time there was a change).</li>
+<li>Unlike dashboards,<strong> reports</strong> will <strong>always</strong> <strong>pull in the latest data </strong>when they are loaded, and never display cached data.</li>
+</ul>
+<div class="callout callout--info">
+<h4 id="h_01HK8DA9Z0NQCQAVBZ9EEN2DGB" class="callout__title">Note</h4>
+<p>Currently, Uberflip Analytics takes approx. 1 hour to process and make collected data available, so the latest data is always a <strong>minimum of 1 hour old</strong>.</p>
+</div>
+<h3 id="h_01HK8DA9Z1ZR7JEG6YNE61AB4Y">Learn more about data points and visualizations</h3>
+<p>To learn more about how a data point is defined, or how a visualization works, use the built-in <strong>tooltip functionality</strong>. Throughout Uberflip Analytics, you can find tooltips in two places:</p>
+<ul>
+<li>
+<strong>Visualizations</strong>: Dashboard visualizations where a tooltip is available have a small <img src="https://help.uberflip.com/hc/article_attachments/360043293451" alt="Analytics_-_Uberflip.png"> icon beside their title. Hover your mouse over this icon to view a tooltip that explains what the visualization shows:<br><img src="https://help.uberflip.com/hc/article_attachments/360043250292" alt="Fullscreen_2019-11-18__11_55_AM.png">
+</li>
+<li>
+<strong>Tables</strong>: Anywhere you see a table (such as in some dashboard widgets and all reports), hover your mouse over a table header to see a definition of that data point:<br><img src="https://help.uberflip.com/hc/article_attachments/360043254352" alt="Fullscreen_2019-11-18__12_47_PM.png">
+</li>
+</ul>
+<p>You can also find more <strong>in-depth information about UFA's available data points</strong> in the <a href="https://help.uberflip.com/hc/en-us/sections/360008893132-Data-dictionary">data dictionary section</a> of Uberflip Help.</p>
+<p> </p>
+<h2 id="h_01HK8DA9Z154G49VDBMF2PS7RX">Advanced Uberflip Analytics features</h2>
+<p>UFA also features various advanced functions that allow you to <strong>filter data </strong>in various ways; <strong>drill in to dashboards </strong>for additional detail; <strong>download, send, and schedule dashboards</strong>, and <strong>create custom reports</strong>.</p>
+<div class="callout">
+<h4 id="h_01HK8DA9Z1V7QS51FQ43QKJPER" class="callout__title">Info</h4>
+<p>Uberflip Analytics date ranges use a <em><strong>from-until (before)</strong></em> format. This means that the data included in that date range ends at 11:59pm on the day before the final day selected.<br><strong><br>Example:</strong> A date range of 01/01/2022 - 07/01/2022, will return data from 01/01/2022 at 12:00am until 06/01/2022 at 11:59pm. </p>
+</div>
+<h3 id="h_01HK8DA9Z1J7HNF81C7WHC96TY">Filtering data</h3>
+<p>Every dashboard and report in Uberflip Analytics has a set of built-in filters. Use these filters to <strong>narrow down the data displayed in the visualizations</strong> in various ways, for example by timeframe, Hub, tags, etc.</p>
+<p>Filters are available on all dashboards and reports, and are shown in a panel at the top:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360043443751" alt="Analytics_-_Uberflip.png"></p>
+<p>Some filters are universal and appear on all dashboards/reports (such as <em>View Date</em>), while other are contextual, and are determined by the data in the dashboard or report.</p>
+<p>To learn how to set filters in UFA, see this article:</p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360055716132">Filter data in Uberflip Analytics</a></li>
+</ul>
+<h3 id="h_01HK8DA9Z1MGB2SJEW0CPJS6GY">Drill into dashboards</h3>
+<p>You can drill into dashboards to <strong>view additional or contextual data.</strong> There are two ways to drill in UFA:</p>
+<ul>
+<li>
+<strong>Visualization drill:</strong> You can drill into the underlying data for any dashboard visualization, such as large number or chart widgets.</li>
+<li>
+<strong>Stream and Item drill: </strong>In dashboard tables that display Streams or Items, you can drill into an individual Stream or Item to see more data about it.</li>
+</ul>
+<p>To learn how to use UFA's data drilling features, see this article:</p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360055716312">Drill into Uberflip Analytics dashboards to view more data</a></li>
+</ul>
+<h3 id="h_01HK8DA9Z1H93GWXX606BTTNH1">Download and send dashboards and reports</h3>
+<p>UFA can <strong>package and send dashboards </strong>so that you and others can view or use the dashboard data outside of the Uberflip Analytics interface. In UFA, you can:</p>
+<ul>
+<li>Download full dashboards in <strong>PDF</strong> or <strong>CSV</strong> format</li>
+<li>Send dashboard data to various destinations <strong>on demand</strong> or <strong>on a schedule</strong>
+</li>
+</ul>
+<p>These features are especially useful for keeping stakeholders in your organization who don't typically use Uberflip up to date on your KPIs.</p>
+<p>To learn how to download, send, and schedule dashboards, see this article:</p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360055717012">Download and send Uberflip Analytics dashboards and reports</a></li>
+</ul>
+<h3 id="h_01HK8DA9Z1F8TMATDXFETETQ0Q">Create custom reports (requires a compatible pack type or module)</h3>
+<p>If you're on Uberflip's Enterprise pack type, or you have added the Attribution module to your Uberflip subscription, you can use <em>UFA Explore</em> to dive into the raw data and <strong>create your own custom reports</strong>.</p>
+<p>To learn more about this powerful feature and how to use it, see this article:</p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360051891272" target="_self">Create custom reports in Uberflip Analytics with Explore</a></li>
+</ul>]]></description>
+         <guid isPermaLink="false">360035433571</guid>
+         <pubDate>Tue, 22 Oct 2019 17:33:56 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

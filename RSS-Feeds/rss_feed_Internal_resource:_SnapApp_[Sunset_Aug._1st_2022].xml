@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Internal resource: SnapApp [Sunset Aug. 1st 2022]</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>SnapApp: Analytics defined</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360049546132-SnapApp-Analytics-defined</link>
+         <description><![CDATA[<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>SnapApp is being retired. This product and all of its features will be shutting down on Aug. 1st 2022. For more information, check out <a href="https://help.uberflip.com/hc/en-us/articles/5649118635405-Announcement-Retiring-SnapApp-Aug-2022-" target="_self">Announcement: Retiring SnapApp</a>.</p>
+</div>
+<h2>Performance Data Tracked For Each App</h2>
+<table class="table table--bordered" style="border-collapse: collapse; width: 100%; height: 784px;" border="1">
+<tbody>
+<tr style="height: 36px;">
+<td style="width: 29.7143%; height: 36px;"><strong>Measurable Data</strong></td>
+<td style="width: 70.2857%; height: 36px;"><strong>Definition</strong></td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 29.7143%; height: 22px;">Page Loads</td>
+<td style="width: 70.2857%; height: 22px;">Every time app is loaded, including after a page refresh. If the page refreshes because it gets a callback from the SnapApp and refreshes itself, that does not get counted.</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 29.7143%; height: 22px;">Impressions</td>
+<td style="width: 70.2857%; height: 22px;">Counts initial loads of a SnapApp only, not loads after a page refresh.</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 29.7143%; height: 22px;">Mouse-Over</td>
+<td style="width: 70.2857%; height: 22px;">Number of times someone initially hovered over a SnapApp.</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 29.7143%; height: 22px;">Mouse-Over Rate</td>
+<td style="width: 70.2857%; height: 22px;">% of impressions that resulted in a mouse-over (MO / Imp).</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 29.7143%; height: 22px;">Clicks</td>
+<td style="width: 70.2857%; height: 22px;">Initial clicks.</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 29.7143%; height: 22px;">Click Rate</td>
+<td style="width: 70.2857%; height: 22px;">% of impressions that resulted in a click (Click / Imp).</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 29.7143%; height: 22px;">Question Completion</td>
+<td style="width: 70.2857%; height: 22px;">Number of times the last question was answered.</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 29.7143%; height: 22px;">Question Completion Rate</td>
+<td style="width: 70.2857%; height: 22px;">Number of clicks that resulted in question completions (Q. Comp. / Click).</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 29.7143%; height: 22px;">Lead Form Impressions</td>
+<td style="width: 70.2857%; height: 22px;">Number of times the lead form was seen.</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 29.7143%; height: 22px;">Lead Submissions</td>
+<td style="width: 70.2857%; height: 22px;">Number of times the lead form was submitted.</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 29.7143%; height: 22px;">Lead Submission Rate</td>
+<td style="width: 70.2857%; height: 22px;">Lead Submissions per Lead Impressions (Lead Sub. / Lead Imp).</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 29.7143%; height: 22px;">Auto Lead Signups</td>
+<td style="width: 70.2857%; height: 22px;">Number of times lead form was submitted automatically via advanced marketing automation.</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 29.7143%; height: 22px;">Completions</td>
+<td style="width: 70.2857%; height: 22px;">Number of times a user reaches Results page.</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 29.7143%; height: 22px;">Completion Rate</td>
+<td style="width: 70.2857%; height: 22px;">Completions per Clicks (Comp. / Click).</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 29.7143%; height: 22px;">Linkout Clickthroughs</td>
+<td style="width: 70.2857%; height: 22px;">Number of external link clicks.</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 29.7143%; height: 22px;">Linkout Clickthrough Rate</td>
+<td style="width: 70.2857%; height: 22px;">Linkout clickthroughs per initial Clicks (Link Click / Initial Clicks).</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 29.7143%; height: 22px;">Share Actions</td>
+<td style="width: 70.2857%; height: 22px;">Number of times a user shared result (non-unique). This is an aggregate of all share button clicks.</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 29.7143%; height: 22px;">Share Rate</td>
+<td style="width: 70.2857%; height: 22px;">Share Action per Completions (Share / Comp).</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 29.7143%; height: 22px;">Share Referrals</td>
+<td style="width: 70.2857%; height: 22px;">Number of users who reached app via link shared by previous user.</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 29.7143%; height: 22px;">Referrals per Share</td>
+<td style="width: 70.2857%; height: 22px;">Share Referrals per Share Actions (Referrals / Share).</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 29.7143%; height: 22px;">Viral Boost Percentage</td>
+<td style="width: 70.2857%; height: 22px;">Traffic to app from share referrals.</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 29.7143%; height: 22px;">Facebook Shares</td>
+<td style="width: 70.2857%; height: 22px;">Number of times Facebook share button was clicked on Results page.</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 29.7143%; height: 22px;">Tweets</td>
+<td style="width: 70.2857%; height: 22px;">Number of times Twitter share button was clicked on Results page.</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 29.7143%; height: 22px;">Google+ Shares</td>
+<td style="width: 70.2857%; height: 22px;">Number of times Google +1 share button was clicked on Results page.</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 29.7143%; height: 22px;">LinkedIn Shares</td>
+<td style="width: 70.2857%; height: 22px;">Number of times LinkedIn share button was clicked on Results page.</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 29.7143%; height: 22px;">Facebook Likes</td>
+<td style="width: 70.2857%; height: 22px;">Number of times Facebook Like button was clicked.</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 29.7143%; height: 22px;">Like Rate</td>
+<td style="width: 70.2857%; height: 22px;">Facebook Likes per Completions (Follows / Comp).</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 29.7143%; height: 22px;">Twitter Follow Rate</td>
+<td style="width: 70.2857%; height: 22px;">Twitter Follows per Completions (Follows / Comp).</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 29.7143%; height: 22px;">Google +1s</td>
+<td style="width: 70.2857%; height: 22px;">Number of times Google +1 button was clicked.</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 29.7143%; height: 22px;">Google +1 Rate</td>
+<td style="width: 70.2857%; height: 22px;">Google +1s per Completions (+1s / Comp).</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 29.7143%; height: 22px;">YouTube Subscribers</td>
+<td style="width: 70.2857%; height: 22px;">Number of times users click the YouTube subscribe button.</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 29.7143%; height: 22px;">YouTube Subscribe Rate</td>
+<td style="width: 70.2857%; height: 22px;">YouTube subscribers per Completions (Subscribers / Comp).</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h3>Types of Lead Data SnapApp Can Collect</h3>
+<ul>
+<li>
+<strong>Lead Form Information:</strong> You can customize your SnapApp lead forms to capture whatever lead data you want, including name, email, phone number, etc. SnapApp lead forms can also capture the IP address and submission data of each lead record.</li>
+<li>
+<strong>Question &amp; Result Data</strong>: The responses each end-user provides to the questions in the SnapApp, as well as the final result they receive, can be included as part of each lead record.</li>
+<li>
+<strong>Hidden Field Data:</strong> SnapApp lead forms can include hidden fields that can be used to track things like the source URL of each lead, query string parameters such as UTM codes, a unique SnapApp ID number for each app, and other information not provided directly by the end-user.</li>
+<li>
+<strong>Advanced Marketing Automation Info</strong>: If you’re using Eloqua or Marketo, the SnapApp advanced marketing automation feature allows for the automatic submission of lead forms for known users in your MAP database. You can also track known users who only partially complete the app through this feature</li>
+</ul>]]></description>
+         <guid isPermaLink="false">360049546132</guid>
+         <pubDate>Tue, 22 Sep 2020 17:34:05 GMT</pubDate>
+      </item>
+      <item>
+         <title>SnapApp: 10 best practices for SnapApp </title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360049544792-SnapApp-10-best-practices-for-SnapApp</link>
+         <description><![CDATA[<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>SnapApp is being retired. This product and all of its features will be shutting down on Aug. 1st 2022. For more information, check out <a href="https://help.uberflip.com/hc/en-us/articles/5649118635405-Announcement-Retiring-SnapApp-Aug-2022-" target="_self">Announcement: Retiring SnapApp</a>.</p>
+</div>
+<hr>
+<p>Learn what the 10 best practices are when using SnapApp </p>
+<hr>
+<p> </p>
+<p>SnapApp helps marketers take the guesswork out of getting great leads. Whether youʼre just getting started or just need a refresher, there are a few rules of thumb to keep in mind.</p>
+<p> </p>
+<h2>Best practice 1: Ask qualifying questions</h2>
+<h4><strong>Why?</strong></h4>
+<p>The greatest value from SnapApp is learning something about your prospects that you can only get by asking. Asking the right questions can help engage and convert a prospect into a lead, give them a more personalized journey, and improve lead quality.</p>
+<p>While you have their attention, ask prospects something that will help you follow up with the right nurture stream, or send them to sales based on their intent.</p>
+<p> </p>
+<h2>Best practice 2: Save questions in question bank</h2>
+<h4><strong>Why?</strong></h4>
+<p>There is no limit to how many questions you can ask, but in order for response data to be useful, consistency in how you ask is critical. Question bank gives you a single location to store and manage your questions. You can also organize them by categories, or set the order in which they should be displayed in apps that use progressive questions.</p>
+<h2> </h2>
+<h2>Best practice 3: Connect to a Marketing Automation tool</h2>
+<h4><strong>Why?</strong></h4>
+<p>SnapApp integrates with most marketing automation platforms so you can make lead response data actionable. Connecting SnapApp to marketing automation ensures that lead data is passed immediately and seamlessly to your system of record, and you can use responses to segment and prioritize leads, add them to workflows and cadences, and create smart lists. </p>
+<p> </p>
+<h2>Best practice 4: Keep design simple </h2>
+<h4><strong>Why?</strong></h4>
+<p>One personʼs delightful engaging experience is someone elseʼs confusing interruption. SnapApp has one mission: to help you know more about your leads. By keeping questions front and center, and designing to blend into your website and content, our apps remove barriers between you and the prospect, and the information exchange that can lead to a business relationship. Minimize distractions and make it easy to stay focused on the questions<strong>.</strong></p>
+<p> </p>
+<h2>Best practice 5: Use apps wherever you get traffic</h2>
+<h4><strong>Why?</strong></h4>
+<p>Your content is already working hard to attract and engage your audience. But it doesnʼt always give them a path to convert, or an obvious next step if theyʼre not yet ready to contact you. Instead of downloading a PDF and forgetting about it, your prospect can read through a PDF question app and then get a recommendation for more content when they finish. A question app embedded in a blog can lead the prospect to a product page or long-form content about a related topic. </p>
+<p> </p>
+<h2>Best practice 6: Embed only one app per page</h2>
+<h4><strong>Why?</strong></h4>
+<p>When we want a visitor to take action on a page, such as completing a form or clicking a CTA, we try not to have competing forms or CTAs present. Fewer choices increases likelihood of completion. SnapApps behave similarly—they contain lead forms and calls to action as well as questions—and should not be competing for attention with other apps or forms. If you want to lead your prospect to the next piece of content, use the CTA in your app.</p>
+<p> </p>
+<h2>Best practice 7: Make it easy for your prospects</h2>
+<h4><strong>Why?</strong></h4>
+<p>The cardinal rule of good web design and user interaction is “Donʼt make me think!” The more time your prospect spends trying to read and understand your question or choose the most appropriate answer, the less the likelihood they will actually complete it. Keep questions and answer options simple, and limit how many questions you use per app.</p>
+<p> </p>
+<h2>Best practice 8: Provide a relevant CTA</h2>
+<h4><strong>Why?</strong></h4>
+<p>If your prospect is unsure of the next step, the step they take might be leaving your website or landing page. Always include a call to action that points them to a related piece of content, or, if appropriate for the content they just viewed, to your contact or demo request page. </p>
+<p> </p>
+<h2>Best practice 9: Track performance</h2>
+<h4><strong>Why?</strong></h4>
+<p>Improving app performance starts with tracking. SnapApp has a built in analytics dashboard that displays important engagement and conversion data for each app, and for all your apps in aggregate. Use this data to make improvements and learn what works for your audience. To take your tracking to the next level, talk to your CSM about additional tracking options.</p>
+<p> </p>
+<h2>Best practice 10: Share data with sales</h2>
+<h4><strong>Why?</strong></h4>
+<p>Lead response data is a powerful tool for improving campaign performance and effectiveness, because you can better segment your leads and only send them relevant messaging. The same insights are equally powerful when used by sales to tailor their talk track for each lead—and to identify which leads to call first.</p>
+<p> </p>
+<h2>Bonus best practices</h2>
+<ul>
+<li>If you're using our PDF or Express tool, set up lead alerts to notify anyone on your team when new leads arrive—and how they responded.</li>
+<li>Create brand templates to speed up app creation.</li>
+<li>Experiment: Our best practices are a great starting point, but try adding or subtracting questions, moving them around, changing where you put the lead form, etc. to see what has the greatest benefit for your conversion rates.</li>
+</ul>]]></description>
+         <guid isPermaLink="false">360049544792</guid>
+         <pubDate>Tue, 22 Sep 2020 17:11:47 GMT</pubDate>
+      </item>
+      <item>
+         <title>SnapApp: App setup </title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360050006671-SnapApp-App-setup</link>
+         <description><![CDATA[<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>SnapApp is being retired. This product and all of its features will be shutting down on Aug. 1st 2022. For more information, check out <a href="https://help.uberflip.com/hc/en-us/articles/5649118635405-Announcement-Retiring-SnapApp-Aug-2022-" target="_self">Announcement: Retiring SnapApp</a>.</p>
+</div>
+<h2>Question</h2>
+<p>Is there a way I can bulk upload a bunch of content/data into the platform so I don't have to do it every time I build a new SnapApp? </p>
+<p> </p>
+<h2>Answer</h2>
+<p>By utilizing the tools within SnapApp’s <strong>App Setup </strong>section, you can set universal style settings, write all your questions &amp; answer content, establish fields you want included in your app’s lead forms, and connect all future apps to your Marketing Automation Platform. </p>
+<p>Here's how to get started with <strong>App SetUp: </strong></p>
+<ol>
+<li>Locate and click <strong>APP SETUP</strong> on the left hand side of the homepage of your SnapApp account:<br><img src="https://help.uberflip.com/hc/article_attachments/360069525192/Screen_Shot_2020-09-22_at_10.51.57_AM.png" alt="Screen_Shot_2020-09-22_at_10.51.57_AM.png">
+</li>
+<li>The first tab you’ll see within App Setup is ‘<strong>Style.</strong>’ Here, you can set style settings that will be applied to every app you create from here on. This includes:<br><br>Setting a button background and font color<br>Choosing a typeface for your font as well as a font color<br>Uploading an image or setting a solid color that will be used for the background of<br>each page of your apps<br>Uploading your organization’s logo to be added to each page of your apps<br><img src="https://help.uberflip.com/hc/article_attachments/360069747551/Screen_Shot_2020-09-22_at_10.55.15_AM.png" alt="Screen_Shot_2020-09-22_at_10.55.15_AM.png" width="439" height="361">
+</li>
+<li>The second tab within App Setup is ‘<strong>Questions</strong>,’ which is SnapApp’s Question Bank, where you<br>can add questions and their respective answer options that then can be pulled into apps you create.<br><br>QB is particularly helpful when you want to add the same question to various apps - instead of<br>rewriting these questions app by app, you can just pull in these saved questions with the click of a<br>button.<br><img src="https://help.uberflip.com/hc/article_attachments/360069761131/Screen_Shot_2020-09-22_at_12.53.47_PM.png" alt="Screen_Shot_2020-09-22_at_12.53.47_PM.png" width="436" height="396">
+</li>
+<li>In the third tab of App Setup, you’ll find ‘<strong>Lead Form</strong>,’ which allows you to add different fields you<br>want to collect on the Lead Form page of each of your apps. Instead of tediously adding each field<br>one by one to an app you are working on, setting the fields here will allow your lead form to be ready<br>to go from the time you create a new app.<br><img src="https://help.uberflip.com/hc/article_attachments/360069761431/Screen_Shot_2020-09-22_at_12.57.21_PM.png" alt="Screen_Shot_2020-09-22_at_12.57.21_PM.png" width="558" height="307">
+</li>
+<li>In the last tab of App Setup, ‘<strong>Connect</strong>’ you can pull in your Marketing Automation Platform and<br>specifically, where in your MAP you want the data your collecting via SnapApp (Lead form,<br>questions &amp; answers, results, etc.) to go.<br><img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" src="https://help.uberflip.com/hc/article_attachments/360069539412/Screen_Shot_2020-09-22_at_12.59.24_PM.png" alt="Screen_Shot_2020-09-22_at_12.59.24_PM.png" width="528" height="406">
+</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360050006671</guid>
+         <pubDate>Tue, 22 Sep 2020 14:55:54 GMT</pubDate>
+      </item>
+      <item>
+         <title>SnapApp: Set up a Pardot integration </title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360049532912-SnapApp-Set-up-a-Pardot-integration</link>
+         <description><![CDATA[<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>SnapApp is being retired. This product and all of its features will be shutting down on Aug. 1st 2022. For more information, check out <a href="https://help.uberflip.com/hc/en-us/articles/5649118635405-Announcement-Retiring-SnapApp-Aug-2022-" target="_self">Announcement: Retiring SnapApp</a>.</p>
+</div>
+<hr>
+<p>Learn how to integrate your Marketo account to feed leads from SnapApp to Marketo.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>You will need a <strong>Pardot</strong> account with <strong>Admin permissions</strong>.</li>
+<li>You will also need a SnapApp Admin level user to make the initial connection. </li>
+<li>Ensure that you don't use Single Sign On to access your Pardot account, use a Pardot Login that does not have Single Sign On.</li>
+</ul>
+<p> </p>
+<h2>About the Pardot integration</h2>
+<p>If you use Pardot as part of your marketing tech stack, you can integrate it with your SnapApp account to get the most out of both platforms.</p>
+<p>With Pardot specifically, you have the option of adding these leads to your Pardot Campaigns, and/or Pardot Lists. As well as mapping all question and answer data to specific Pardot fields. </p>
+<p>In this article, we'll look at how to set up the prerequisites for integrating your account with Pardot, how to configure the integration, and optional steps to enable additional data collection.</p>
+<p> </p>
+<h2 id="h_948614204271547759391585">Prerequisite: Get pardot credentials</h2>
+<ol>
+<li>First log into your Pardot account. Hover over the account menu in the upper right side of the screen and select "Settings," as pictured below. <br><img src="https://help.uberflip.com/hc/article_attachments/360069740111/Screen_Shot_2020-09-22_at_10.20.03_AM.png" alt="Screen_Shot_2020-09-22_at_10.20.03_AM.png">
+</li>
+<li>From the Settings menu, copy your Pardot account email, password and User Key.<br><img src="https://help.uberflip.com/hc/article_attachments/360069740171/Screen_Shot_2020-09-22_at_10.20.11_AM.png" alt="Screen_Shot_2020-09-22_at_10.20.11_AM.png">
+</li>
+</ol>
+<p> </p>
+<h2>Step 1: Connect your account to pardot</h2>
+<p>Once you have your Pardot access credentials, you're ready to connect your account to Pardot.</p>
+<ol>
+<li>Log in to your SnapApp account and select the Account tab.</li>
+<li>Under Account, select Integrations.<br><img src="https://help.uberflip.com/hc/article_attachments/360063535792/Screen_Shot_2020-08-03_at_2.18.19_PM.png" alt="Screen_Shot_2020-08-03_at_2.18.19_PM.png" width="135" height="337">
+</li>
+<li>The Pardot info credentials will appear. Here, type in the credentials you obtained previously: <br><img src="https://help.uberflip.com/hc/article_attachments/360069740551/Screen_Shot_2020-09-22_at_10.22.34_AM.png" alt="Screen_Shot_2020-09-22_at_10.22.34_AM.png">
+</li>
+<li>Click <strong>UPDATE PARDOT.</strong> </li>
+<li>That's it! Pardot is now connected to your account. Next, we'll have to update your Lead Form to append specific fields/questions &amp; answers to Pardot as well. </li>
+</ol>
+<h2 id="h_911607694461547760838942">Step 2: Enable partner delivery settings </h2>
+<p>Now that your account is connected, you can enable lead delivery to Pardot directly from each  individual SnapApp within the Lead Gens settings and configuration menu. </p>
+<ol>
+<li>On the <strong>Lead Gen</strong> page, click on the Settings Gear<strong>:<br></strong><img src="https://help.uberflip.com/hc/article_attachments/360063734332/Screen_Shot_2020-08-04_at_3.47.43_PM.png" alt="Screen_Shot_2020-08-04_at_3.47.43_PM.png" width="331" height="230">
+</li>
+<li>The <strong>Lead Gen Settings</strong> window will open. Here, click the Delivery tab:<br><img src="https://help.uberflip.com/hc/article_attachments/360063734472/Screen_Shot_2020-08-04_at_3.50.58_PM.png" alt="Screen_Shot_2020-08-04_at_3.50.58_PM.png" width="386" height="183">
+</li>
+<li>Select <strong>Partner Delivery</strong> from the <strong>Delivery Method</strong> Dropdown. </li>
+<li>Then select, Pardot. </li>
+<li>Once SnapApp has made the connection you will be able to select specific Pardot Campaigns &amp; Lists to associate with your SnapApp Lead Form:<br><img src="https://help.uberflip.com/hc/article_attachments/360069519512/Screen_Shot_2020-09-22_at_10.26.45_AM.png" alt="Screen_Shot_2020-09-22_at_10.26.45_AM.png" width="384" height="329">
+</li>
+</ol>
+<h2>Step 3: Field mapping</h2>
+<p>The next step is to map your SnapApp form fields to the corresponding destination fields in Pardot. Navigate to the Fields tab of the same config menu to get started.</p>
+<ol>
+<li>Form Fields: Open each form field and locate the “Delivery Code” field. On the Lead Form configuration menu on the "Fields" tab, connect your Pardot form using the "Delivery Code" fields for lead data, question and answer data, and fixed or hidden fields. <br><img src="https://help.uberflip.com/hc/article_attachments/360069520312/Screen_Shot_2020-09-22_at_10.30.31_AM.png" alt="Screen_Shot_2020-09-22_at_10.30.31_AM.png" width="360" height="505">
+</li>
+<li><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Email Address is required to create new or update existing prospects in your Pardot account so make sure to not to publish your SnapApp without this field in your lead form.</span></li>
+<li><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Question &amp; Result Data: Select "Individual" to deliver each result to individual fields in Pardot or "Combined" to deliver all results to one field.<br><img src="https://help.uberflip.com/hc/article_attachments/360069741931/Screen_Shot_2020-09-22_at_10.32.12_AM.png" alt="Screen_Shot_2020-09-22_at_10.32.12_AM.png" width="295" height="357"><br></span></li>
+<li>Additional Lead Data: Identical to Form Fields, you can opt to deliver additional lead data to any field in your Marketo database.<br><img src="https://help.uberflip.com/hc/article_attachments/360063896711/Screen_Shot_2020-08-04_at_5.04.49_PM.png" alt="Screen_Shot_2020-08-04_at_5.04.49_PM.png" width="309" height="363">
+</li>
+</ol>
+<h3>Next Steps</h3>
+<p>Now that your Pardot integration is all set up and ready to go, you can Publish your SnapApp and begin collecting leads. </p>]]></description>
+         <guid isPermaLink="false">360049532912</guid>
+         <pubDate>Tue, 22 Sep 2020 14:33:22 GMT</pubDate>
+      </item>
+      <item>
+         <title>SnapApp: Set up a HubSpot integration </title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360047350051-SnapApp-Set-up-a-HubSpot-integration</link>
+         <description><![CDATA[<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>SnapApp is being retired. This product and all of its features will be shutting down on Aug. 1st 2022. For more information, check out <a href="https://help.uberflip.com/hc/en-us/articles/5649118635405-Announcement-Retiring-SnapApp-Aug-2022-" target="_self">Announcement: Retiring SnapApp</a>.</p>
+</div>
+<hr>
+<p>Learn how to integrate your HubSpot account to feed leads from SnapApp to HubSpot.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>You will need a <strong>HubSpot</strong> account with <strong>Admin permissions</strong>.</li>
+<li>You will need to be logged into both platforms (SnapApp &amp; HubSpot) to make the connection. </li>
+</ul>
+<p> </p>
+<h2>About the HubSpot integration</h2>
+<p>If you use HubSpot as part of your marketing tech stack, you can integrate it with your SnapApp account to get the most out of both platforms.</p>
+<p>With HubSpot specifically, you have the option of adding these leads to your HubSpot Static Lists, as well as mapping all question and answer data to specific HubSpot fields. </p>
+<p>In this article, we'll look at how to set up the prerequisites for integrating your account with HubSpot, how to configure the integration, and optional steps to enable additional data collection.</p>
+<p> </p>
+<h2>Step 1: Connect your account to HubSpot</h2>
+<p>Once you have logged in to both accounts, you're ready to connect your account to HubSpot.</p>
+<ol>
+<li>Log in to your SnapApp account and select the Account tab.</li>
+<li>Under Account, select Integrations.<br><img src="https://help.uberflip.com/hc/article_attachments/360063535792/Screen_Shot_2020-08-03_at_2.18.19_PM.png" alt="Screen_Shot_2020-08-03_at_2.18.19_PM.png" width="135" height="337">
+</li>
+<li>Select HubSpot:<br><img src="https://help.uberflip.com/hc/article_attachments/360063741152/Screen_Shot_2020-08-04_at_5.18.33_PM.png" alt="Screen_Shot_2020-08-04_at_5.18.33_PM.png" width="442" height="151">
+</li>
+<li>Click "Connect to HubSpot"<br><img src="https://help.uberflip.com/hc/article_attachments/360063897631/Screen_Shot_2020-08-04_at_5.21.24_PM.png" alt="Screen_Shot_2020-08-04_at_5.21.24_PM.png" width="442" height="217">
+</li>
+<li>The next window that pops up will prompt you to fill in your HubSpot username and password:<img src="https://help.uberflip.com/hc/article_attachments/360063897671/Screen_Shot_2020-08-04_at_5.22.25_PM.png" alt="Screen_Shot_2020-08-04_at_5.22.25_PM.png" width="392" height="332">
+</li>
+<li>Once entered, the next screen will prompt you to grant permission for SnapApp to access the HubSpot data. <strong>Click Authorize</strong>. The next screen will either bring you through the connection or if you have more than one HubSpot instance, it will ask you to select an instance. Once selected, the connection will be complete!<br><img src="https://help.uberflip.com/hc/article_attachments/360063741452/Screen_Shot_2020-08-04_at_5.23.30_PM.png" alt="Screen_Shot_2020-08-04_at_5.23.30_PM.png">
+</li>
+<li>That's it! HubSpot is now connected to your account. Next, we'll have to update your Lead Form to append specific fields/questions &amp; answers to HubSpot as well. </li>
+</ol>
+<h2 id="h_911607694461547760838942">Step 2: Enable partner delivery settings </h2>
+<p>Now that your account is connected, you can enable lead delivery to HubSpot directly from each  individual SnapApp within the Lead Gens settings and configuration menu. </p>
+<ol>
+<li>On the <strong>Lead Gen</strong> page, click on the Settings Gear<strong>:</strong><br><img src="https://help.uberflip.com/hc/article_attachments/360063734332/Screen_Shot_2020-08-04_at_3.47.43_PM.png" alt="Screen_Shot_2020-08-04_at_3.47.43_PM.png" width="331" height="230">
+</li>
+<li>The <strong>Lead Gen Settings</strong> window will open. Here, click the Delivery tab:<br><img src="https://help.uberflip.com/hc/article_attachments/360063734472/Screen_Shot_2020-08-04_at_3.50.58_PM.png" alt="Screen_Shot_2020-08-04_at_3.50.58_PM.png" width="386" height="183">
+</li>
+<li>Select <strong>Partner Delivery</strong> from the <strong>Delivery Method</strong> Dropdown. </li>
+<li>Then select, HubSpot. </li>
+<li>Once SnapApp has made the API connection you will be able to select specific <strong>Static Lists</strong> to associate with your SnapApp Lead Form:<br><img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" src="https://help.uberflip.com/hc/article_attachments/360069161351/Screen_Shot_2020-09-16_at_11.10.30_AM.png" alt="Screen_Shot_2020-09-16_at_11.10.30_AM.png" width="436" height="321">
+</li>
+</ol>
+<h2>Step 3: Field mapping</h2>
+<p>The next step is to map your SnapApp form fields to the corresponding destination fields in HubSpot. Navigate to the Fields tab of the same config menu to get started.</p>
+<ol>
+<li>Form Fields: Open each form field and locate the “Delivery Code” field. This dropdown pulls in all available fields from the default lead partition in your HubSpot account, or the partition specified from the Data Delivery tab).<br><img src="https://help.uberflip.com/hc/article_attachments/360068943672/Screen_Shot_2020-09-16_at_11.12.30_AM.png" alt="Screen_Shot_2020-09-16_at_11.12.30_AM.png" width="351" height="373">
+</li>
+<li><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Email Address is required to create new or update existing prospects in your HubSpot account so make sure to not to publish your SnapApp without this field in your lead form.</span></li>
+<li>
+<span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Question &amp; Result Data: Select "Individual" to deliver each result to individual fields in HubSpot or "Combined" to deliver all results to one field.<br></span><img src="https://help.uberflip.com/hc/article_attachments/360063896591/Screen_Shot_2020-08-04_at_5.03.40_PM.png" alt="Screen_Shot_2020-08-04_at_5.03.40_PM.png" width="344" height="318">
+</li>
+<li>Additional Lead Data: Identical to Form Fields, you can opt to deliver additional lead data to any field in your HubSpot database.</li>
+</ol>
+<p> </p>
+<h3>Next steps</h3>
+<p>Now that your HubSpot integration is all set up and ready to go, you can Publish your SnapApp and begin collecting leads. </p>]]></description>
+         <guid isPermaLink="false">360047350051</guid>
+         <pubDate>Tue, 04 Aug 2020 21:13:24 GMT</pubDate>
+      </item>
+      <item>
+         <title>SnapApp: Set up a Marketo integration</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360047249011-SnapApp-Set-up-a-Marketo-integration</link>
+         <description><![CDATA[<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>SnapApp is being retired. This product and all of its features will be shutting down on Aug. 1st 2022. For more information, check out <a href="https://help.uberflip.com/hc/en-us/articles/5649118635405-Announcement-Retiring-SnapApp-Aug-2022-" target="_self">Announcement: Retiring SnapApp</a>.</p>
+</div>
+<hr>
+<p>Learn how to integrate your Marketo account to feed leads from SnapApp to Marketo.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>You will need a <strong>Marketo</strong> account with <strong>Admin permissions</strong>.</li>
+<li>You will also need an Admin level user to create an “API Only User Role”, an “API User” for that role, and a “Custom Service” in your Marketo account. </li>
+</ul>
+<p> </p>
+<h2>About the Marketo integration</h2>
+<p>If you use Marketo as part of your marketing tech stack, you can integrate it with your SnapApp account to get the most out of both platforms.</p>
+<p>With Marketo specifically, you have the option of adding these leads to your Marketo Smart Campaigns, as well as mapping all question and answer data to specific Marketo fields. </p>
+<p>In this article, we'll look at how to set up the prerequisites for integrating your account with Marketo, how to configure the integration, and optional steps to enable additional data collection.</p>
+<p> </p>
+<h2 id="h_948614204271547759391585">Prerequisite: Get API credentials</h2>
+<p>SnapApp integrates with Marketo via the Marketo API. To set up an integration using the Marketo API, you will need to get API access credentials for your Marketo account. Specifically, you will need:</p>
+<ul>
+<li><strong>Client Id</strong></li>
+<li><strong>Client Secret</strong></li>
+<li><strong>Rest Endpoint</strong></li>
+</ul>
+<p>You can find detailed instructions on how to get these details in the articles from Marketo below:</p>
+<p><a href="https://docs.marketo.com/display/public/DOCS/Create+an+API+Only+User+Role" target="_self">Marketo: Create an API only User Role</a></p>
+<p><a href="https://docs.marketo.com/display/public/DOCS/Create+an+API+Only+User" target="_self">Marketo: Create an API Only User </a></p>
+<p><a href="https://docs.marketo.com/display/public/DOCS/Create+a+Custom+Service+for+Use+with+ReST+API" target="_self">Marketo: Create a Custom Service for Use with REST API </a></p>
+<p> </p>
+<h2>Step 1: Connect your account to Marketo</h2>
+<p>Once you have your Marketo API access credentials, you're ready to connect your account to Marketo.</p>
+<ol>
+<li>Log in to your SnapApp account and select the Account tab.</li>
+<li>Under Account, select Integrations.<br><img src="https://help.uberflip.com/hc/article_attachments/360063535792/Screen_Shot_2020-08-03_at_2.18.19_PM.png" alt="Screen_Shot_2020-08-03_at_2.18.19_PM.png" width="135" height="337">
+</li>
+<li>The Marketo API info credentials will appear. Here, type in the API credentials you obtained previously: <br><img src="https://help.uberflip.com/hc/article_attachments/360063695151/Screen_Shot_2020-08-03_at_2.16.26_PM.png" alt="Screen_Shot_2020-08-03_at_2.16.26_PM.png" width="571" height="337">
+</li>
+<li>Click <strong>SAVE CONNECTION.</strong> You will briefly see a pop up stating: <strong>Marketo (REST API) information updated.</strong>
+</li>
+<li>That's it! Marketo is now connected to your account. Next, we'll have to update your Lead Form to append specific fields/questions &amp; answers to Marketo as well. </li>
+</ol>
+<h2 id="h_911607694461547760838942">Step 2: Enable partner delivery settings </h2>
+<p>Now that your account is connected, you can enable lead delivery to Marketo directly from each  individual SnapApp within the Lead Gens settings and configuration menu. </p>
+<ol>
+<li>On the <strong>Lead Gen</strong> page, click on the Settings Gear<strong>:<br></strong><img src="https://help.uberflip.com/hc/article_attachments/360063734332/Screen_Shot_2020-08-04_at_3.47.43_PM.png" alt="Screen_Shot_2020-08-04_at_3.47.43_PM.png" width="331" height="230">
+</li>
+<li>The <strong>Lead Gen Settings</strong> window will open. Here, click the Delivery tab:<br><img src="https://help.uberflip.com/hc/article_attachments/360063734472/Screen_Shot_2020-08-04_at_3.50.58_PM.png" alt="Screen_Shot_2020-08-04_at_3.50.58_PM.png" width="386" height="183">
+</li>
+<li>Select <strong>Partner Delivery</strong> from the <strong>Delivery Method</strong> Dropdown. </li>
+<li>Then select, Marketo. </li>
+<li>Once SnapApp has made the API connection you will be able to select specific <strong>Smart Campaigns</strong> and <strong>Partitions</strong> to associate with your SnapApp Lead Form:<br><img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" src="https://help.uberflip.com/hc/article_attachments/360063890851/Screen_Shot_2020-08-04_at_3.55.22_PM.png" alt="Screen_Shot_2020-08-04_at_3.55.22_PM.png" width="364" height="379">
+</li>
+</ol>
+<h2>Step 3: Field mapping</h2>
+<p>The next step is to map your SnapApp form fields to the corresponding destination fields in Marketo. Navigate to the Fields tab of the same config menu to get started.</p>
+<ol>
+<li>Form Fields: Open each form field and locate the “Delivery Code” field. This dropdown pulls in all available fields from the default lead partition in your Marketo account, or the partition specified from the Data Delivery tab (Advanced Marketing Automation customers only).<img src="https://help.uberflip.com/hc/article_attachments/360063740132/Screen_Shot_2020-08-04_at_5.00.19_PM.png" alt="Screen_Shot_2020-08-04_at_5.00.19_PM.png" width="320" height="313">
+</li>
+<li><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Email Address is required to create new or update existing prospects in your Marketo account so make sure to not to publish your SnapApp without this field in your lead form.</span></li>
+<li>
+<span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Question &amp; Result Data: Select "Individual" to deliver each result to individual fields in Marketo or "Combined" to deliver all results to one field.<br></span><img src="https://help.uberflip.com/hc/article_attachments/360063896591/Screen_Shot_2020-08-04_at_5.03.40_PM.png" alt="Screen_Shot_2020-08-04_at_5.03.40_PM.png" width="344" height="318">
+</li>
+<li>Additional Lead Data: Identical to Form Fields, you can opt to deliver additional lead data to any field in your Marketo database.<br><img src="https://help.uberflip.com/hc/article_attachments/360063896711/Screen_Shot_2020-08-04_at_5.04.49_PM.png" alt="Screen_Shot_2020-08-04_at_5.04.49_PM.png" width="309" height="363">
+</li>
+</ol>
+<h3>Next steps</h3>
+<p>Now that your Marketo integration is all set up and ready to go, you can Publish your SnapApp and begin collecting leads. </p>]]></description>
+         <guid isPermaLink="false">360047249011</guid>
+         <pubDate>Mon, 03 Aug 2020 18:23:23 GMT</pubDate>
+      </item>
+      <item>
+         <title>SnapApp:  Publish a SnapApp </title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360046487492-SnapApp-Publish-a-SnapApp</link>
+         <description><![CDATA[<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>SnapApp is being retired. This product and all of its features will be shutting down on Aug. 1st 2022. For more information, check out <a href="https://help.uberflip.com/hc/en-us/articles/5649118635405-Announcement-Retiring-SnapApp-Aug-2022-" target="_self">Announcement: Retiring SnapApp</a>.</p>
+</div>
+<h2><span style="font-weight: 400;">Before you begin:</span></h2>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">To Publish a SnapApp you will need to be an Account Admin.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Your account must also have enough Publishing Credits/Unlimited Credits to allow you to publish. </span></li>
+</ul>
+<p> </p>
+<h2><span style="font-weight: 400;">About publishing a SnapApp</span></h2>
+<p>Once you have finished creating a SnapApp, you will want to publish it. Once a SnapApp is published you will still have the ability to make changes/edits/etc. to your app and will be prompted to Update.</p>
+<p>Upon Updating, any changes made will automatically be pushed "live" to wherever your SnapApp is being hosted. To learn more about Embedding SnapApp's click <a href="https://help.uberflip.com/hc/en-us/articles/360046229891" target="_self">here</a>. </p>
+<p> </p>
+<h2>Step 1: Navigate to the publish modal in your app</h2>
+<ol>
+<li>Click Publish! <br><img src="https://help.uberflip.com/hc/article_attachments/360069401412/Screen_Shot_2020-09-21_at_10.46.37_AM.png" alt="Screen_Shot_2020-09-21_at_10.46.37_AM.png" width="504" height="266">
+</li>
+<li>Errors: More often than not an "Errors Found" message will pop-up:<br><img src="https://help.uberflip.com/hc/article_attachments/360069611651/Screen_Shot_2020-09-21_at_10.46.58_AM.png" alt="Screen_Shot_2020-09-21_at_10.46.58_AM.png" width="511" height="236">
+</li>
+</ol>
+<ul>
+<li>The most common errors found when trying to publish are the "<strong>App Settings &gt; Setup</strong>" and "<strong>Lead Gen</strong>" errors. Clicking the hyperlinked text as seen above will take you to the areas of concern. </li>
+<li>
+<strong>The App Settings &gt; Setup</strong> error is referring to the <strong>required</strong> Share Title that needs to be added to your app in order to Publish. <br><img src="https://help.uberflip.com/hc/article_attachments/360069613431/Screen_Shot_2020-09-21_at_10.47.10_AM.png" alt="Screen_Shot_2020-09-21_at_10.47.10_AM.png" width="487" height="363"><br>
+<ul>
+<li>While the Share Title doesn't show up on your SnapApp, these are the fields that will display<br>as the default title whenever users are sharing your SnapApp on<br>social media. That is why the Share Title field is required before publishing; it is<br>the official backend title for your SnapApp.</li>
+</ul>
+</li>
+<li>The <strong>Lead Gen</strong> error is referring to the <strong>Privacy Policy</strong> section of your app. In order to collect lead data from users, you need to provide a privacy policy. This is a required field on the Setup tab of the lead form configuration menu in your Legacy SnapApp:<br><img src="https://help.uberflip.com/hc/article_attachments/360069404372/Screen_Shot_2020-09-21_at_10.47.29_AM.png" alt="Screen_Shot_2020-09-21_at_10.47.29_AM.png" width="446" height="576">
+<ul>
+<li>Enter the Site Name, which will be displayed at the bottom of the lead form, and<br>then enter the URL to your Privacy Policy. This is where users will be taken to<br>when they click on the site name.</li>
+</ul>
+</li>
+</ul>
+<h2>Step 2: Use credit &amp; publish</h2>
+<p>Once all errors have been resolved you can then select the Publish Icon again and will be promoted to <strong>Use Credit &amp; Publish</strong>. If you do not have any additional publishing credits available please reach out to your CSM. </p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360069614211/Screen_Shot_2020-09-21_at_11.11.49_AM.png" alt="Screen_Shot_2020-09-21_at_11.11.49_AM.png" width="519" height="280"></p>
+<h2>Step 3: Select your publishing option </h2>
+<p>There are a few options on where a SnapApp can live. You can choose to embed it<br>on your own company website, blog, etc. That simply requires copying the widget<br>code from the modal. More info can be found <a href="https://help.uberflip.com/hc/en-us/articles/360046229891" target="_self">here</a>. </p>
+<p>You could also choose to have it live on a landing page, hosted by SnapApp. That<br>means a unique URL will be created to host the SnapApp on a webpage with just<br>the SnapApp. <br><img src="https://help.uberflip.com/hc/article_attachments/360069614311/Screen_Shot_2020-09-21_at_11.14.20_AM.png" alt="Screen_Shot_2020-09-21_at_11.14.20_AM.png" width="372" height="533"></p>
+<h2>Next steps: </h2>
+<p>Please refer to this <a href="http://cdn.snapapp.com/site/resources/SnapApp-Publish-Checklist.pdf" target="_self">document</a> prior to publishing an app to ensure that you (as the builder) have included all the elements and functionality that should be included in your app. </p>
+<p> </p>
+<p>If you have questions regarding publishing or embedding your SnapApp please don't hesitate to reach out to <a href="mailto:support@uberflip.com">support@uberflip.com</a> for more detailed instructions. </p>]]></description>
+         <guid isPermaLink="false">360046487492</guid>
+         <pubDate>Tue, 28 Jul 2020 14:31:03 GMT</pubDate>
+      </item>
+      <item>
+         <title>SnapApp: Embed a SnapApp </title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360046229891-SnapApp-Embed-a-SnapApp</link>
+         <description><![CDATA[<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>SnapApp is being retired. This product and all of its features will be shutting down on Aug. 1st 2022. For more information, check out <a href="https://help.uberflip.com/hc/en-us/articles/5649118635405-Announcement-Retiring-SnapApp-Aug-2022-" target="_self">Announcement: Retiring SnapApp</a>.</p>
+</div>
+<h2><span style="font-weight: 400;">Before you begin:</span></h2>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">To Embed a SnapApp your SnapApp must first be published.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">You will need to be an Account Admin in order to view/copy the embed code. </span></li>
+</ul>
+<p> </p>
+<h2><span style="font-weight: 400;">About SnapApp embeds</span></h2>
+<p><span style="font-weight: 400;">A SnapApp embed code is a piece of javascript that creates an HTML iframe on the specific part of the website or landing page in which you placed the code.</span></p>
+<p> </p>
+<h2>Step 1: Publish your SnapApp</h2>
+<p>To learn more about Publishing your SnapApp please refer to the following article: <a href="https://help.uberflip.com/hc/en-us/articles/360046487492" target="_self">SnapApp: Publish a SnapApp </a></p>
+<h2>Step 2: Navigate to the publish modal of your app</h2>
+<ol>
+<li>Click the Green Publish button located in the top right hand corner of your app<br><img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" src="https://help.uberflip.com/hc/article_attachments/360068952132/Screen_Shot_2020-09-16_at_11.36.55_AM.png" alt="Screen_Shot_2020-09-16_at_11.36.55_AM.png" width="374" height="560">
+</li>
+<li>Select the blue "Copy" icon located to the right of your apps embed code<br><img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" src="https://help.uberflip.com/hc/article_attachments/360068966512/Screen_Shot_2020-09-16_at_11.41.49_AM.png" alt="Screen_Shot_2020-09-16_at_11.41.49_AM.png" width="315" height="615">
+</li>
+<li>Place the Embed Code anywhere HTML can live. Ex: 
+<ul>
+<li>MAP Landing Pages </li>
+<li>WordPress</li>
+<li>Uberflip Blog Embeds</li>
+<li>Directly onto your company website</li>
+</ul>
+</li>
+</ol>
+<h2>Next steps: </h2>
+<p>Below is a quick how-to guide for embedding and deploying a SnapApp, after copying the embed code:</p>
+<ol>
+<li>To get started first open <strong>your</strong> sites HTML/JavaScript editor, sometimes labelled as “Source.”</li>
+<li>Next, copy your SnapApp's embed code - <strong>detailed in the steps above.</strong>
+</li>
+<li>Use the example widget code below for a reference:<br>*Sample ʻWidget Codeʼ (what this will look like)<br><img src="https://help.uberflip.com/hc/article_attachments/360069189691/Screen_Shot_2020-09-16_at_12.15.51_PM.png" alt="Screen_Shot_2020-09-16_at_12.15.51_PM.png" width="419" height="450"> <!-- put this on the page where you wish the widget to appear --> <!-- put this immediately before the closing /body tag -->
+</li>
+<li> In your sites HTML/Java Script section paste theʻWidget Codeʼ that you just copied</li>
+<li> After saving your HTML/Java Script just refresh your site to view the embedded SnapApp</li>
+</ol>
+<h2> </h2>
+<p>If you have questions regarding the sizing or formatting of your SnapApp please don't hesitate to reach out to <a href="mailto:support@uberflip.com">support@uberflip.com</a> for more detailed instructions. </p>
+<p> </p>
+<p> </p>
+<div class="callout callout--success"> </div>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360046229891</guid>
+         <pubDate>Tue, 14 Jul 2020 15:50:39 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

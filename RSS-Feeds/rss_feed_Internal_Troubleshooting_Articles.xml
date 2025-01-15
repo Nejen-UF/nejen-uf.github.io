@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Internal Troubleshooting Articles</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Internal:  Bulk download account PDFs in Flipbook admin section</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4445472662925-Internal-Bulk-download-account-PDFs-in-Flipbook-admin-section</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>This code will automatically download the source PDFs for the Flipbooks visible in your browser window, within the Flipbooks admin section.</p>
+<p> </p>
+<h2>Prerequisite: Preparation within the Flipbooks admin section</h2>
+<ol>
+<li>Go to <a href="https://app.uberflip.com/admins/manage_publications" target="_self">Manage Flipbooks</a> admin section</li>
+<li>Search for the client account
+<ul>
+<li><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">You will want to ensure that your search is returning the results of just that 1 specific client. Any outliers that you cannot filter out should be noted and removed from the downloaded PDFs.</span></li>
+</ul>
+</li>
+<li>
+<span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">You might want to check that your browser download settings are not set to prompt for each download</span>
+<ul>
+<li><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Chrome example<br><img src="https://help.uberflip.com/hc/article_attachments/4445582471437/mceclip0.png" alt="mceclip0.png"><br></span></li>
+</ul>
+</li>
+</ol>
+<p> </p>
+<h2>Run custom JS snippet in browser's console window </h2>
+<ol>
+<li>Open DevTools &gt; Console in browser</li>
+<li>Paste in the code provided below</li>
+<li>Update the counter (currently set at 10) to however many Flipbooks there are to download on the page (Admin allows a max of 100 items per page)</li>
+<li>Press ENTER<br>
+<ul>
+<li>Note: You might get a prompt in your browser to verify if you want to download multiple items. Click "Yes"</li>
+</ul>
+</li>
+<li>Repeat as needed on page 2+ if client has over 100 PDFs spanning multiple admin pages</li>
+</ol>
+<p> </p>
+<h2>Code snippet - bulk download Flipbooks</h2>
+<pre>// set your counter to 0<br>var i = 0; <br><br>// Download PDF button to variable<br>var downloadButtons = $('[data-original-title="Download PDF"]');<br><br>// create a loop function<br>function downloadPdfLoop() { <br><br>// call a 3s setTimeout when the loop is called<br>setTimeout(function() { <br><br>// Click download buttons on page<br>downloadButtons[i].click();<br><br>// increment the counter<br>i++; <br><br>// if the counter &lt; 10, call the loop function - SET THIS TO THE NUMBER OF PDFs AVAILABLE ON PAGE (MAX 100)<br>if (i &lt; <strong><span class="wysiwyg-color-red110">10</span></strong>) { <br><br>// .. again which will trigger another <br>downloadPdfLoop(); <br>} <br><br>// setTimeout in milliseconds<br>}, 3000)<br>}<br><br>// start the loop<br>downloadPdfLoop();</pre>]]></description>
+         <guid isPermaLink="false">4445472662925</guid>
+         <pubDate>Fri, 18 Feb 2022 19:02:11 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub or Stream Authentication login page shows HTML code</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360056897851-Hub-or-Stream-Authentication-login-page-shows-HTML-code</link>
+         <description><![CDATA[<h2>Issue</h2>
+<p>Raw HTML code is being displayed the Hub and/or Stream Authentication login page.</p>
+<ul>
+<li>Header and footer HTML shown on authentication/login page</li>
+<li>Hub/Stream auth page looks messy</li>
+</ul>
+<p> </p>
+<h2>Conditions</h2>
+<ul>
+<li>Stream and/or Hub Authentication pages are enabled</li>
+<li>Hub has custom code for injected header and footer</li>
+<li>
+<strong>Where: </strong>On any Stream and/or Hub authentication pages</li>
+<li>
+<strong>Who: </strong>Any user viewing the Stream and/or Hub authentication pages in the affected Hub</li>
+<li>
+<strong>When: </strong>Any time</li>
+<li>Not browser or OS-specific</li>
+</ul>
+<p> </p>
+<h2>Cause</h2>
+<p>HTML from the injected header and footer is being loaded on the page, but no CSS or JavaScript is loaded to style the page.</p>
+<p> </p>
+<h2>Steps to Fix</h2>
+<p>For TV1 Hubs, add the following CSS in the<em> Body Bottom</em> placement:</p>
+<pre>&lt;style&gt;<br>/******* remove injected header and footer on auth pages *******/<br>.stream-login #injected-header,<br>.stream-login #injected-footer {<br>display: none;<br>}<br>&lt;/style&gt;</pre>
+<p>TV2 equivalent when a theme is in use is </p>
+<pre>&lt;style&gt;<br>.uf-stream-login .uf-hf {<br>display: none;<br>}<br>&lt;/style&gt;</pre>
+<p>The TV2 equivalent when a theme is <strong>not</strong> in use is</p>
+<pre> &lt;style&gt;<br>.uf-stream-login #injected header, .uf-stream-login #injected-footer {<br>display: none;<br>}<br>&lt;/style&gt;</pre>]]></description>
+         <guid isPermaLink="false">360056897851</guid>
+         <pubDate>Wed, 10 Feb 2021 02:28:35 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: Salesforce Integration | Troubleshooting Guide</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360056490611-Internal-Salesforce-Integration-Troubleshooting-Guide</link>
+         <description><![CDATA[<p>The following guide lists troubleshooting options and issues that client's can/have run into when trying to connect to our Salesforce Integration.</p>
+<hr>
+<p> </p>
+<ol>
+<li> Ensure that the client creates the Salesforce "Contact ID" or "Lead ID" (lead/contact/prospect  fields) in the MAP.<br><br>We have had issues where the client exposed the Salesforce field itself in the MAP without actually creating the lead/contact/prospect field in the MAP. <strong>The integration looks for the Salesforce synced field in the MAP</strong>, so if the field is not a MAP field, then the lookup won't find it.<br><br>This pertains to this "setup" section of the integration guide (<a href="https://help.uberflip.com/hc/en-us/articles/360047293692-Set-up-a-Salesforce-integration#prerequisite-sync-lead-profiles-between-your-map-and-salesforce">https://help.uberflip.com/hc/en-us/articles/360047293692-Set-up-a-Salesforce-integration#prerequisite-sync-lead-profiles-between-your-map-and-salesforce</a>), where the client then tried to lookup the field in the "Marketing Automation Platform (MAP) Integration" section (<a href="https://help.uberflip.com/hc/en-us/articles/360047293692-Set-up-a-Salesforce-integration#step-2-configure-salesforce-integration-settings">https://help.uberflip.com/hc/en-us/articles/360047293692-Set-up-a-Salesforce-integration#step-2-configure-salesforce-integration-settings</a>). <br><br><br>
+</li>
+<li>Verify that the field type is a "Text" field.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360056490611</guid>
+         <pubDate>Wed, 03 Feb 2021 19:25:31 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: Pardot Integration missing &quot;Campaign ID&quot; or &quot;Account ID&quot;</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360052766391-Internal-Pardot-Integration-missing-Campaign-ID-or-Account-ID</link>
+         <description><![CDATA[<h2>Issue</h2>
+<p>When editing Pardot integration settings, the "Campaign ID" and/or "Account ID" fields are missing.</p>
+<ul>
+<li>Pardot Campaign ID or Account ID not shown in settings.</li>
+<li>Can't see Campaign ID or Account ID for Pardot.</li>
+<li>Don't see a Campaign ID field.</li>
+</ul>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360077253751/mceclip0.png" alt="mceclip0.png" width="467" height="327"></p>
+<p> </p>
+<h2>Conditions</h2>
+<ul>
+<li>Issue occurs when editing the settings for a Pardot integration that was previously set up.</li>
+<li>
+<strong>Where: </strong>Pardot integration settings.</li>
+<li>
+<strong>Who: </strong>Any user with access to these settings.</li>
+<li>
+<strong>When: </strong>After saving an existing Pardot integration's settings with the Campaign ID or Account ID fields left blank.</li>
+<li>Any browser</li>
+<li>Any operating system</li>
+</ul>
+<p> </p>
+<h2>Cause</h2>
+<p>This is due to a bug that occurs when a user removes the existing value(s) from the Campaign ID and/or Account ID fields, then saves the settings while these fields are still empty. </p>
+<p> </p>
+<h2>Workaround</h2>
+<p>This workaround will cause the missing fields to reappear without having to deauthorize and reconnect the integration:</p>
+<ol>
+<li>Go to the affected Hub's Integrations section and open Pardot integration settings.</li>
+<li>Change the email in the Pardot integration settings by adding <strong>+1</strong> to the original email. For example, if the email is <em>originalemail@emailhost.com</em>, change this to <em>originalemail<strong>+1</strong>@emailhost.com</em>.</li>
+<li>Save the settings and exit.</li>
+<li>Go to the CTA section of the same Hub and create a new Pardot-connected CTA.</li>
+<li>The "Connect to Pardot" screen should open. Here, change the email back to the original email address and save again.</li>
+<li>Return to the Pardot integration settings, where the Campaign ID and/or Account ID fields should now appear again. <strong>Make sure there are values in these fields before saving.</strong>
+</li>
+</ol>
+<p> </p>
+<h2>Additional Notes</h2>
+<p>This bug does not occur when initially setting up the integration, because it is not possible to save the integration settings with the Campaign ID or Account ID fields left blank in this situation.</p>]]></description>
+         <guid isPermaLink="false">360052766391</guid>
+         <pubDate>Thu, 19 Nov 2020 15:14:49 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: Flipbook Stuck in the &quot;In Transit&quot; Status</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360039904951-Internal-Flipbook-Stuck-in-the-In-Transit-Status</link>
+         <description><![CDATA[<h2>Issue</h2>
+<p>Our Flipbook parsers will sometimes (rarely)  process a Flipbook but fail to transition the Flipbook from the "In Transit" status to the "Active status.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360049971731/mceclip0.png" alt="mceclip0.png"></p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360049865612/mceclip1.png" alt="mceclip1.png"></p>
+<p> </p>
+<h2>Conditions</h2>
+<ul>
+<li>
+<strong>Where: </strong>"MANAGE FLIPBOOKS" (internal) will show an "In Transit" status and Flipbook folder (for client or internal) will show "In Transit" status and perpetual "Processing..." on Flipbook item<strong><br></strong>
+</li>
+<li>
+<strong>Who: </strong>Anyone uploading Flipbooks</li>
+<li>
+<strong>When: </strong>Uberflip Infrastructure experiencing a specific outage/issue</li>
+</ul>
+<p> </p>
+<h2>Cause</h2>
+<p>This issue seemed to occur when our Operations team experienced a short outage period.</p>
+<p> </p>
+<h2>Steps to Fix (<span class="wysiwyg-color-red110">Newly Uploaded Flipbook</span>)</h2>
+<ol>
+<li>[<strong>Once issue is resolved</strong>] Ask client to click on the "Processing..." Flipbook item</li>
+<li>Click "Permanently Delete"</li>
+<li>Re-upload Flipbook</li>
+</ol>
+<p> </p>
+<h2>Steps to Fix (<span class="wysiwyg-color-red110">If Client was Replacing a Flipbook</span>)</h2>
+<ol>
+<li>Gather affected Flipbook ID(s)</li>
+<li>Ask Uberflip Operations to force the flag on those "In Transit" Flipbook IDs to "A" (Active) status
+<ul>
+<li>This places the Flipbook item in a state when you now have the normal "FLIPBOOK SETTINGS" menu</li>
+</ul>
+</li>
+<li>Inform client that they can now action on their Flipbook:
+<ul>
+<li>Refresh Flipbook folder</li>
+<li>Click the affected Flipbook (which should now display as a white box)</li>
+<li>Replace Flipbook<br><img src="https://help.uberflip.com/hc/article_attachments/360049866292/mceclip2.png" alt="mceclip2.png">
+</li>
+</ul>
+</li>
+<li>Once reprocessed the Flipbook and Flipbook item should update as expected</li>
+</ol>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360039904951</guid>
+         <pubDate>Mon, 17 Feb 2020 21:01:52 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: Text is translating/replacing automatically</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360034456132-Internal-Text-is-translating-replacing-automatically</link>
+         <description><![CDATA[<h2>Issue</h2>
+<p>A client reports that they have text in an item that is automatically translating.</p>
+<p> </p>
+<h2>Conditions</h2>
+<ul>
+<li>
+<strong>Where: </strong>This would pertain to content in the body of an item
+<ul>
+<li>NOTE: This does not pertain to hub labels like "Return to Home". If this is where you are noticing the translation, you should look into the Hub or Stream level Custom Labels.</li>
+</ul>
+</li>
+<li>
+<strong>Who: </strong>This would most likely affect a client that has custom OnBrand translations in place</li>
+<li>
+<strong>When: </strong>You would generally notice the word(s) initially load correctly, and then once the page fully loads (and Javascript loads) the word(s) would replace/translate</li>
+</ul>
+<p> </p>
+<h2>Cause</h2>
+<p>This would generally be caused by a custom OnBrand translations solution.</p>
+<p> </p>
+<h2>Steps to Diagnose</h2>
+<ol>
+<li>Open a new Private/Incognito window</li>
+<li>Load the item that is automatically translating (confirm the automatic translation is happening)</li>
+<li>Insert the <span class="wysiwyg-color-red120">?ufcc_disabled_all</span> parameter onto the end of the item URL and load
+<ul>
+<li>e.g. <span class="wysiwyg-color-red120">{Item-URL}?ufcc_disabled_all</span>
+</li>
+<li><span class="wysiwyg-color-black70">This will load the page without an OnBrand or Custom Code block code</span></li>
+</ul>
+</li>
+<li>
+<span class="wysiwyg-color-black70">Verify is the automatic translation still persists:</span>
+<ul>
+<li><span class="wysiwyg-color-black70"><strong>If YES</strong>: This issue is might be related to a product bug. Please share this information with the Support team and log a Zendesk ticket</span></li>
+<li>
+<span class="wysiwyg-color-black70"><strong>If NO</strong>: This issue is likely related to an OnBrand Custom Translation solution</span>
+<ul>
+<li><span class="wysiwyg-color-black70">You can bring this to OnBrand Office Hours to verify this, and log an OnBrand task to refine the custom translation solution <br><strong>OR</strong></span></li>
+<li>You can advise the client to use a synonym to the word that is triggering the automatic translation</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360034456132</guid>
+         <pubDate>Fri, 04 Oct 2019 20:15:40 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: &quot;This domain cannot be saved&quot; Error</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360028203672-Internal-This-domain-cannot-be-saved-Error</link>
+         <description><![CDATA[<h2>Issue</h2>
+<p>I'm not able to add a new domain for a customer. When I try to create a domain, I get the message "this domain cannot be saved".</p>
+<ul>
+<li>Can't add domain for customer</li>
+<li>Can't create new domain</li>
+<li>Domain can't be saved </li>
+</ul>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360028600971/Slack_-_Uberflip.png" alt="Slack_-_Uberflip.png" width="431" height="275"> </p>
+<p> </p>
+<h2>Conditions</h2>
+<ul>
+<li>
+<strong>Where: </strong>Admin backend, <em>Manage Domains</em> section</li>
+<li>
+<strong>Who: </strong>Any Uberflip employee with access to the admin backend</li>
+<li>
+<strong>When: </strong>After clicking on <em>+Add a new domain</em>, entering the domain name, then clicking on <em>Add</em>
+</li>
+<li>The domain to be added is a placeholder or otherwise temporary</li>
+<li>The selected domain is in the format <em>something.uberflip.com</em>
+</li>
+<li>The selected domain is already in use</li>
+<li>Affects all browsers and operating systems</li>
+</ul>
+<p> </p>
+<h2>Cause</h2>
+<p>It's not possible to create subdomains of the domain uberflip.com (e.g. anything.uberflip.com), as these are restricted. Alternatively, the domain may already be in use.</p>
+<p> </p>
+<h2>Steps to Fix</h2>
+<p>Instead of using using the domain <em>uberflip.com</em>, or the domain you chose, use any other domain. If you need a placeholder domain that is functional, use <em>ufcontent.com</em> (e.g. <em>customername.ufcontent.com</em>).</p>]]></description>
+         <guid isPermaLink="false">360028203672</guid>
+         <pubDate>Thu, 16 May 2019 15:58:29 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: Anchor links scroll to wrong part of page</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360027826671-Internal-Anchor-links-scroll-to-wrong-part-of-page</link>
+         <description><![CDATA[<h2>Issue</h2>
+<p>Some client's injected headers are not accounted for when anchor links are used (to scroll to a certain part of a page).</p>
+<ul>
+<li>Anchor links will scroll vertically passed the point where it is set by the amount of vertical pixels of the injected header</li>
+</ul>
+<p> </p>
+<h2>Conditions</h2>
+<ul>
+<li>
+<strong>Where: </strong>All places where anchor links are used (on affected hubs)</li>
+<li>
+<strong>Who: </strong>All users (on affected hubs)</li>
+<li>
+<strong>When: </strong>Anchor link is added to item</li>
+<li>All browsers are affected</li>
+<li>All operating systems are affected </li>
+</ul>
+<p> </p>
+<h2>Cause</h2>
+<p>Anchor links do not account for the injected headers in some Hubs, causing the anchor to navigate further down the page than expected.</p>
+<p> </p>
+<h2>Steps to Fix</h2>
+<p>Use Custom Code to adjust for the height of the injected header.</p>
+<ol>
+<li>Create a new custom code block in the affected Hub.</li>
+<li>Select the placement as <strong>Body Bottom</strong>.</li>
+<li>Paste in the following code, making sure to replace the <span class="wysiwyg-color-red110"><strong>100</strong></span> placeholder with the height of the injected header in pixels. When you are finished, enable the code block.</li>
+</ol>
+<pre>&lt;script&gt;<br>// The function actually applying the offset<br>function offsetAnchor() {<br> if (location.hash.length !== 0) {<br> window.scrollTo(window.scrollX, window.scrollY - <strong><span class="wysiwyg-color-red">100</span></strong>);<br> }<br>}<br><br>// Captures click events of all &lt;a&gt; elements with href starting with #<br>$(document).on('click', 'a[href^="#"]', function(event) {<br> // Click events are captured before hash changes. Timeout<br> // causes offsetAnchor to be called after the page jump.<br> window.setTimeout(function() {<br> offsetAnchor();<br> }, 0);<br>});<br><br>// Set the offset when entering page with hash present in the url<br>window.setTimeout(offsetAnchor, 0);<br>&lt;/script&gt;</pre>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360027826671</guid>
+         <pubDate>Wed, 01 May 2019 20:26:04 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: Flipbook Not Loading in Hub Page</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360027521031-Internal-Flipbook-Not-Loading-in-Hub-Page</link>
+         <description><![CDATA[<h2>Issue</h2>
+<p>On occasion, a scenario may occur when a Flipbook Item won't load properly in a Hub page and the result is an error message displaying in the iframe where the Flipbook should display.  Will look something like this depending on the browser</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360027739332/Flipbook-error-domainMismatch.png" alt="Flipbook-error-domainMismatch.png" width="803" height="495"></p>
+<ul>
+<li>Generic Browser Error is shown within the iframe where the Flipbook should load up</li>
+</ul>
+<p> </p>
+<h2>Conditions</h2>
+<ul>
+<li>This problem is going to occur when a Custom Domain is used on the Hub</li>
+<li>
+<strong>Where: </strong>Front end Hub Flipbook Item view is affected in that the Flipbook will not load</li>
+<li>
+<strong>Who: </strong>End users are impacted with this behaviour because they cannot access certain Flipbooks within the Hub</li>
+<li>
+<strong>When:  </strong>This happens when there is some sort of mismatch between the Hub domain and the default domain set for the Flipbook.  Most often this is going to happen when SSL/HTTPS is enabled on the Hub Domain that is having the Flipbook not display, but the Flipbook Folder's default domain is not HTTPS</li>
+</ul>
+<p> </p>
+<h2>Cause</h2>
+<p>If the Default Domain for a Flipbook's parent folder does not match the Hub's domain's protocol (IE the Flipbook default domain is http and the Hub domain is HTTPS) a mixed content issue arises and modern browsers choose to not display the iframe content.</p>
+<p> </p>
+<h2>Steps to Fix</h2>
+<ol>
+<li>Find the Source Flipbook's ID by checking source code of Hub Item and finding the iframe src URL. Will look something like this: <br>&lt;iframe src="<strong>https://resources.altium.com/i/845809?source=hub&amp;expanded=false&amp;hubItemID=351484687&amp;m4</strong>" frameborder="0" width="100%" height="570" webkitAllowFullScreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</li>
+<li>Manage that Flipbook's Folder by searching for the Flipbook ID you found in the iframe source per #1 above, in the Admin&gt;Flipbooks section</li>
+<li>Edit the Flipbook's parent Folder&gt;Options&gt;Default Domain</li>
+<li>Pick a default domain that already has HTTPS enabled.  If you have multiple options because there might be multiple Hubs, best to choose the domain that best applies to the Flipbook content, just ensure that domain is SSL enabled</li>
+<li>Force an update so the Hub Item reflects the new Default Domain for the Flipbook by managing the Flipbook Stream&gt;Hamburger Menu&gt;Update</li>
+</ol>
+<p> </p>
+<h2>Additional Notes</h2>
+<p>If the Flipbook Default Domains are being checked at the time of SSL enablement of a Customer's Hub Domain, the above problem should never occur, but these instructions can be used to fix the problem once it's been identified.</p>]]></description>
+         <guid isPermaLink="false">360027521031</guid>
+         <pubDate>Wed, 24 Apr 2019 13:38:16 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

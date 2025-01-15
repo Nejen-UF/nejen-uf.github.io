@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Integrating with Google: Analytics, Tag Manager, and Search Console</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Integrate Google Analytics through Google Tag Manager</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360049611731-Integrate-Google-Analytics-through-Google-Tag-Manager</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>Integrate Google Analytics (GA) through Google Tag Manager (GTM), and set up Google Tag Manager to send CTA submissions to Google Analytics as custom events.</p>
+<p> </p>
+<h2>Step 1: Create a GTM data layer for your Hub</h2>
+<p>First, set up your Hub to send information to the <a href="https://support.google.com/tagmanager/answer/6164391?hl=en">GTM data layer</a>. This allows GTM to consume this data and eventually send it to GA.</p>
+<ol>
+<li>Create a new <a href="https://help.uberflip.com/hc/en-us/articles/360018841312" target="_self">custom code block</a>.</li>
+<li>Choose the placement <strong>Body Bottom</strong> for the custom code block.</li>
+<li>Copy the code snippet below and paste it into the custom code block<br><strong>Note:</strong> The code snippet you use will depend on if you are using a <a href="https://help.uberflip.com/hc/en-us/articles/360051466431" target="_self">Front end V1 or V2</a> Hub.</li>
+<li>Save the custom code block and enable it.</li>
+</ol>
+<h3>Front end V1</h3>
+<pre><code>&lt;script&gt;<br>(function($,Hubs, undefined){<br><br>Hubs.onCtaFormSubmitSuccess = function(ctaId, ctaData, ctaName){<br>    triggerEventGTM(ctaId, ctaData, ctaName);<br>};<br><br>function triggerEventGTM(ctaId, ctaData, ctaName){<br><br>    window.dataLayer = window.dataLayer || [];<br>    window.dataLayer.push({<br>      'event' : 'ctaSubmitted',  // value must match the trigger name<br>      'eventCategory': 'Uberflip CTA',  <br>      'eventAction': 'Form Submit',<br>      'eventLabel': 'Uberflip-CTA-' + ctaName + "-" + ctaId + " Success" <br>    });<br>}<br><br>}(window.jQuery, window.Hubs));<br>&lt;/script&gt;</code></pre>
+<h3>Front end V2</h3>
+<pre><code>&lt;script&gt;<br>window.addEventListener('uberflip.ctaFormSubmitSuccess', (data) =&gt; {<br> <wbr></wbr>  <wbr></wbr>const { ctaId, ctaData, ctaName } = data.detail;<br> <wbr></wbr>  <wbr></wbr>triggerEventGTM(ctaId, ctaData, ctaName);<br>});<br><br>function triggerEventGTM(ctaId, ctaData, ctaName){<br><br> <wbr></wbr>  <wbr></wbr>window.dataLayer = window.dataLayer || [];<br> <wbr></wbr>  <wbr></wbr>window.dataLayer.push({<br> <wbr></wbr>  <wbr></wbr>  <wbr></wbr>'event' : 'ctaSubmitted',  <wbr></wbr>// value must match the trigger name<br> <wbr></wbr>  <wbr></wbr>  <wbr></wbr>'eventCategory': 'Uberflip CTA',  <wbr></wbr><br> <wbr></wbr>  <wbr></wbr>  <wbr></wbr>'eventAction': 'Form Submit',<br> <wbr></wbr>  <wbr></wbr>  <wbr></wbr>'eventLabel': 'Uberflip-CTA-' + ctaName + "-" + ctaId + " Success" <br> <wbr></wbr>  <wbr></wbr>});<br>}<br>&lt;/script&gt;</code></pre>
+<h2>Step 2: Configure the GA custom event in GTM</h2>
+<p>With the GTM data layer set up on your Hub, you need to configure GTM to process this data and send it to GA. The following setup will send a custom event to GA each time a CTA associated with your Hub (either in the Hub, or embedded elsewhere) is submitted.</p>
+<p>To set this up in GTM, you need to create three <a href="https://support.google.com/tagmanager/topic/7683268?hl=en&amp;ref_topic=3441647" target="_self">data layer variables</a>, a <a href="https://support.google.com/tagmanager/answer/7679316?hl=en&amp;ref_topic=7679384" target="_self">trigger</a>, and a <a href="https://support.google.com/tagmanager/answer/3281060?hl=en&amp;ref_topic=3281056" target="_self">tag</a>:</p>
+<h3>Create Variables</h3>
+<p>First, create the following three <a href="https://support.google.com/tagmanager/topic/9125128?hl=en&amp;ref_topic=7683268" target="_self">user-defined variables</a> in GTM, as shown in the screenshots:</p>
+<ol>
+<li>
+<strong>eventAction:<br></strong><img src="https://lh3.googleusercontent.com/YvCrSIBuXbHm_QxJ_RaScCPE5IkmAMw8QsCVgTc83kDZjhe6RjyI-MpwKuATXYjrfsWqrcQgxjdJThq1wt7OGbuJv4wVWmTPC9NShKp-W0ga4XKKdPIux5v6KNroJw5EqQERFsTn" width="401" height="267" data-original-height="370" data-original-width="557">
+</li>
+<li>
+<strong>eventCategory:<br></strong><img src="https://lh4.googleusercontent.com/NIORY4tUeYtKqgp5UIAX46D7MSEzXe4mOvynC9QktokaHvoY4aDhaxgbH0v5ToxDl5y5xMJ_zKBeQlwMqgljZ1zrhu9-a9Jpbt3bjISX61H0YsN8KVOunJ1WbtFYIMyUKLjSJQbX" width="400" height="266" data-original-height="372" data-original-width="560">
+</li>
+<li>
+<strong>eventLabel:<br></strong><img src="https://lh6.googleusercontent.com/jacEOSeHVbnPgOHyc5wSN8LEfH2VXIsM2nXDsg5gBIw-GUJ_o56van4-1oTIx-MXwZ0npf-4BI_mfbrK6x5QIB7bZaUA5PO2mY4wlzyD7VdNqnSYgHStYqSiKoz8tfrGa2eOCAw2" width="402" height="252" data-original-height="379" data-original-width="605">
+</li>
+</ol>
+<h3>Create Trigger</h3>
+<p>Next, <a href="https://support.google.com/tagmanager/answer/7679316?hl=en&amp;ref_topic=7679384" target="_self">create a "Custom Event" trigger</a>, and configure it as shown in the screenshot:</p>
+<p><img src="https://lh4.googleusercontent.com/C6vu3yFKV2Nlk1NKAWDSdcGwasRcfzPBT6kJhqRqG_KGstn1yuRNISpnOos9CA3jL6SshA4Cz6-n-WCEQ-u9cIo_3kmsvgm26pcklpznVOb7pKIVuuejQLJnd_Qd9l9Bu2oTz3oq" width="380" height="215" data-original-height="392" data-original-width="692"></p>
+<h3>Create Tag</h3>
+<p>Finally, create a custom tag for the CTA Submit Event that leverages the variables and trigger you created earlier.</p>
+<p>To do this, <a href="https://support.google.com/tagmanager/answer/6107124?hl=en">create a "Universal Analytics" tag.</a> When you set up the tag, choose the Track Type "Event" (not "Page View"), and configure it as shown in the screenshot:</p>
+<p><img src="https://lh5.googleusercontent.com/1yoMlWxixVkJmC6vT6sbvlVbtc4xA4jgiBp7cP2qm8qf9wOVmb7PFJYYHhgoYTFWAscpls5v8SigzhKyp9Ml4Ae0GGcVo89nI-QvyEQGmkOppegdX0EI-unP88nCIkAzTw_uMS3y" width="442" height="512" data-original-height="795" data-original-width="688"></p>
+<p> </p>
+<h2>Additional Notes</h2>
+<p>Once set up, the custom event will fire the following two events in GA whenever the corresponding type of CTA is submitted in the Hub where you created the data layer:</p>
+<h3>Hub CTAs</h3>
+<ul dir="auto">
+<li>
+<p dir="auto"><strong>Event Category:</strong> Uberflip CTA Hub</p>
+</li>
+<li>
+<p dir="auto"><strong>Event Action:</strong> Form Submitted</p>
+</li>
+<li>
+<p dir="auto"><strong>Event Label:</strong> CTA Name + ID + Item Name (if applicable)</p>
+</li>
+</ul>
+<h3>Embedded CTAs</h3>
+<ul dir="auto">
+<li>
+<p dir="auto"><strong>Event Category:</strong> Uberflip CTA Embedded</p>
+</li>
+<li>
+<p dir="auto"><strong>Event Action:</strong> Form Submitted</p>
+</li>
+<li>
+<p dir="auto"><strong>Event Label:</strong> CTA Name + ID + Item Name (if applicable)</p>
+</li>
+</ul>
+<p><strong>Note:</strong> Item name would only be applicable in instances where the CTA was submitted at the Item level on a Hub.</p>]]></description>
+         <guid isPermaLink="false">360049611731</guid>
+         <pubDate>Mon, 14 Sep 2020 15:15:25 GMT</pubDate>
+      </item>
+      <item>
+         <title>Set Up a Hub-Specific View in Google Analytics</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360035352572-Set-Up-a-Hub-Specific-View-in-Google-Analytics</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>If you use the same Google Analytics Tracking ID for multiple web properties (e.g. your main website and your Hub), you can use a view with a filter to separate out the data that is specific to your Hub.</p>
+<p>In this article, you'll learn how to set up a Google Analytics view that filters out all metrics that do not relate to your Hub for both <a href="https://help.uberflip.com/hc/en-us/articles/360018786372" target="_self">subdomain</a> and <a href="https://help.uberflip.com/hc/en-us/articles/360018964792" target="_self">subdirectory</a> Hubs.</p>
+<div class="callout">
+<h4 class="callout__title">What about segments?</h4>
+<p>You might have thought about creating a segment to divide your Hub-related metrics from your main website metrics. However, with segments, you may still see data that's not strictly related to your Hub.</p>
+<p>Because Google Analytics segments are <strong>session based</strong>, they can display data that does not strictly fit the segment's filter criteria if it's part of a session that does include qualifying data. For example, if a visitor goes to your Hub and your main website in a single session, page views from both would be recorded in that session, and therefore included in the segment.</p>
+<p>As a result, segments aren't well suited for the purpose of separating your Hub and main website data, and we recommend using a dedicated <strong>view </strong>with a filter instead.</p>
+</div>
+<p> </p>
+<h2>Create a Hub-Only Filtered View in Google Analytics</h2>
+<ol>
+<li>Log in to your <a href="https://analytics.google.com/">Google Analytics account</a>. You will need <strong>Admin</strong> rights to the Google Analytics account.</li>
+<li>In Google Analytics, <strong>create a new view</strong>.
+<ul>
+<li>See <a href="https://support.google.com/analytics/answer/1009714?hl=en&amp;ref_topic=6014102" target="_self">this article from Google</a> for instructions on how to create a new view.</li>
+<li>Make sure that you do<strong> NOT</strong> use an existing view — create a new view specifically for this purpose to avoid affecting the data in your existing views.</li>
+</ul>
+</li>
+<li>Within the view you just created, <strong>add a new filter at the view level</strong>.
+<ul>
+<li>See <a href="https://support.google.com/analytics/answer/1034823?hl=en#create_a_filter_at_the_view_level" target="_self">this article from Google</a> for instructions on how to add a filter at the view level.</li>
+</ul>
+</li>
+<li>When you are on the filter creation view, choose <strong>Predefined</strong> for the<strong> Filter Type</strong>. </li>
+<li>If you have a <strong><a href="https://help.uberflip.com/hc/en-us/articles/360018786372" target="_self">subdomain</a> custom domain </strong>like <em>https://<strong>hub</strong>.mywebsite.com/</em>, set up the filter as follows:<br>
+<ul>
+<li>Select <strong>Include</strong> <strong>only</strong> &gt; <strong>traffic to the hostname &gt; that are equal to</strong>
+</li>
+<li>In the <strong>Hostname</strong> field, type in your Hub's full domain, e.g. <code class="no-padding">hub.mywebsite.com</code><br><img src="https://help.uberflip.com/hc/article_attachments/360042006611" alt="Analytics.png">
+</li>
+</ul>
+</li>
+<li>If you have a <strong><a href="https://help.uberflip.com/hc/en-us/articles/360018964792" target="_self">subdirectory</a> custom domain </strong>like <em>https://</em><em>www.mywebsite.com/<strong>hub</strong>/</em>, set up the filter as follows:<br>
+<ul>
+<li>Select <strong>Include only &gt; traffic to the subdirectories &gt; that begin with</strong>
+</li>
+<li>In the <strong>Subdirectory</strong> field, type in your Hub's subdirectory e.g. <code class="no-padding">/hub/</code> if your Hub lives at <em><a href="http://www.mywebsite.com/hub/">www.mywebsite.com/hub/</a></em>
+</li>
+<li>Leave the <strong>Case Sensitive </strong>field unchecked<br><img src="https://help.uberflip.com/hc/article_attachments/360042005012" alt="Analytics.png">
+</li>
+</ul>
+</li>
+<li>Click on <strong>Save</strong> to save the filter to your new view. You will now be able to select this filtered view from the top menu bar of Google Analytics to view only Hub-related metrics. </li>
+</ol>]]></description>
+         <guid isPermaLink="false">360035352572</guid>
+         <pubDate>Wed, 30 Oct 2019 22:06:18 GMT</pubDate>
+      </item>
+      <item>
+         <title>Track Google Ads Conversions on Form CTA Submissions</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360027267411-Track-Google-Ads-Conversions-on-Form-CTA-Submissions</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>I've set up an ad campaign in Google Ad Manager, and now I'd like to track the performance of the ad conversions based on Uberflip Form CTA submits.</p>
+<p> </p>
+<h2>Prerequisite: Set Up a Google Ad Manager Campaign</h2>
+<p>To get started, you'll need to create your campaign in Google Ad Manager, and set up a conversion tracking. Once that is complete, you'll copy the Conversion ID and Conversion label that will be used later on in Google Tag Manager (GTM).</p>
+<p>You can find instructions on how set up conversion tracking in this article from Google:</p>
+<p><a href="https://support.google.com/google-ads/answer/6095821" target="_self"><strong>Google: Set up conversion tracking for your website</strong></a></p>
+<p>Follow the instructions in this article until you reach the end of "Step 1: Create a conversion action". Then, continue on the next steps in this article.</p>
+<p> </p>
+<h2>Step 1: Configure your Tag in Google Tag Manager (GTM)</h2>
+<ol>
+<li>Create a new Google Ads Conversion Tracking tag in GTM and name it anything you'd like.</li>
+<li>Once created, you'll need to define at a minimum the "Conversion ID" and the "Conversion Label" - these can be found in the campaign you setup for Google Ad Manager for that particular ad.</li>
+<li>Save the tag, we'll being adding a trigger later on. As a placeholder, you can have it fire on all pages for now.</li>
+</ol>
+<p><img style="display: none !important;" hidden="" src="https://help.uberflip.com/hc/article_attachments/360026799391/Google-Ad-Conversion-Tag.png" alt="Google-Ad-Conversion-Tag.png"></p>
+<p> </p>
+<h2>Step 2: Configure your Trigger in GTM</h2>
+<ol>
+<li>Create a "Custom Event" type trigger in your GTM container and give it a name.</li>
+<li>In the configuration, add in an Event name, for example: "ctaConvertedAssetName" (Note: it's important that this name is unique. The name will also be referenced in a later step in this article, so keep it handy).</li>
+<li>Save the trigger and attach it to the Tag you setup in Step 1.</li>
+</ol>
+<p> </p>
+<p><img style="display: none !important;" hidden="" src="https://help.uberflip.com/hc/article_attachments/360026795772/Google-Ad-Conversion-Trigger.png" alt="Google-Ad-Conversion-Trigger.png"></p>
+<h2>Step 3: Configure the Conversion Linker Tag </h2>
+<p>Google suggests adding a Conversion Linker tag to fire on all pages. This is to ensure proper tracking in all browsers. You can find the instructions to set that up <a href="https://support.google.com/tagmanager/answer/7549390" target="_self">here</a>.</p>
+<p> </p>
+<h2>Step 4: Add gtag.js to your Hub</h2>
+<p>In order for conversion tracking to work, you'll need the global site tag (gtag.js) added to every page of your Hub. To do so, add a code block in your Hub under Appearance &gt; Custom Code. This code block will have the code placed in the &lt;head&gt;.</p>
+<p>Once the code block is created, use the global site tag script from Google's developer documentation <a href="https://developers.google.com/analytics/devguides/collection/gtagjs/" target="_self">that can be found here</a>.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>If you're already tracking page views through our built-in Google Analytics integration, or if you are tracking page views through your Google Tag Manager setup, please ensure that you add a parameter in your gtag.js setup to exclude pageview hits. You can find detailed instructions on how to do this in the <a href="https://developers.google.com/analytics/devguides/collection/gtagjs/">Google documentation</a> linked above.</p>
+</div>
+<p> </p>
+<h2>Step 5: Pass Data Layer Variable Using Custom Code in your Hub</h2>
+<p>In Step 2, we created a trigger in GTM that is looking for a "Custom Event". This next piece of code we'll setup will pass this event name through the data layer and be picked up by your tag and trigger that you setup earlier.</p>
+<ol>
+<li>Create a custom code block in your Hub under <strong>Appearance &gt; Custom Code</strong>
+</li>
+<li>Change the placement of the code block to be inserted in the "Body Bottom"</li>
+<li>Add the following code block template seen below:</li>
+</ol>
+<pre><code class="javascript">&lt;script&gt;<br> (function($,Hubs, undefined){ Hubs.Events.on('ctaFormSubmitSuccess',function(ctaId, ctaData, ctaName){<br> if (ctaId == XXXXXX) {<br> googleAdwords(ctaId, ctaData, ctaName);<br> }<br> }); function googleAdwords(ctaId, ctaData, ctaName){<br> console.log(ctaId);<br> window.dataLayer = window.dataLayer || [];<br> window.dataLayer.push({<br> 'event' : 'ctaConvertedAssetName'<br> });<br> }<br> }(window.jQuery, window.Hubs));<br> &lt;/script&gt;</code></pre>
+<p>Once that code block is added, you need to swap out two components based on your needs:</p>
+<ol>
+<li>Where we see -- ctaId == XXXXXX -- you'll want to replace the X's with the 6 digit CTA ID that is being used to track conversions on</li>
+<li>Where we see -- 'ctaConvertedAssetName' -- you'll want to replace that with the name that you gave your "Custom Event" trigger in GTM in Step 2 of this article. (Note: the name must match exactly).</li>
+<li>Click "Save" on the code block and ensure that it is enabled</li>
+</ol>
+<p> </p>
+<h2>Additional Notes</h2>
+<p>In the above example from Step 5, we are targeting this code to only fire when a certain CTA is submitted. If you'd like, you can setup additional triggers to suit your needs.</p>
+<p>For instance, if you'd like the conversion event to fire when a certain CTA is filled out BUT only on certain URLs, you can edit your tag in Step 1 to include a trigger that is looking for a certain URL path or hostname.</p>]]></description>
+         <guid isPermaLink="false">360027267411</guid>
+         <pubDate>Mon, 22 Apr 2019 17:31:56 GMT</pubDate>
+      </item>
+      <item>
+         <title>Are Hub Items with URL parameters being counted twice in Google Analytics?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360026974732-Are-Hub-Items-with-URL-parameters-being-counted-twice-in-Google-Analytics</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>When I click on a link to an Item in the Hub, I noticed that Uberflip briefly takes me to a page that has parameters at the end of the URL, then redirects to a page without the parameters. Does this mean that Google Analytics is double-counting every Item view?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>When you see the URL parameters disappear from the address bar, no redirect is actually taking place. As a result, no additional pageview is sent to Google Analytics (views are only counted once). In addition, the built-in Google Analytics integration will strip the additional URL parameters before sending the data to Google Analytics.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>If you are using Google Tag Manager (or another Analytics tool) to trigger the track type of "Pageview", you will still notice page URLs with URL parameters in Google Analytics data when viewing by “Page” (Page URL) dimension. You can consolidate these pages by switching your "Primary Dimension" in Google Analytics to "Page Title". Alternatively, if you choose to connect to the built-in Uberflip Google Analytics integration you will want to remove this type of tracking on your Uberflip Hub via Google Tag Manager.</p>
+</div>]]></description>
+         <guid isPermaLink="false">360026974732</guid>
+         <pubDate>Mon, 22 Apr 2019 13:44:36 GMT</pubDate>
+      </item>
+      <item>
+         <title>Set Up a Google Tag Manager Integration</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360023942712-Set-Up-a-Google-Tag-Manager-Integration</link>
+         <description><![CDATA[<hr>
+<p>Learn how to set up a Google Tag Manager integration to integrate your Hub with third-party tracking, advertising and analytics services.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>To set up a Google Tag Manager integration, you need to be in the <strong>Account Admin,</strong><strong> Content Manager </strong>or <strong>Demand Generation </strong>user group(s).</li>
+<li>You will also need a <strong>Google Tag Manager account</strong> (sign up for free <a href="https://tagmanager.google.com/">here</a>).</li>
+</ul>
+<p> </p>
+<h2>About the Google Tag Manager Integration</h2>
+<p>Google Tag Manager is a tool that helps you to manage third-party tracking tags, also known as "beacons" or "pixels". Integrating Google Tag Manager with a Hub allows you to deploy any tag that it can manage on that Hub. This, in turn, allows you to easily integrate your Hub with all kinds of third-party retargeting, advertising and tracking tools like AdWords, DoubleClick, AdRoll, and more.</p>
+<p>Here are a few examples of the things you can do when you integrate Google Tag Manager with your Hub:</p>
+<ul>
+<li>Use <strong><a href="https://ads.google.com">Google Ads</a> </strong>tags for <a href="https://support.google.com/tagmanager/answer/6105160?hl=en">conversion tracking</a> and <a href="https://support.google.com/tagmanager/answer/6106009?hl=en">dynamic remarketing</a> of your Hub content.</li>
+<li>Use <strong><a href="https://marketingplatform.google.com/about/">Google Marketing Platform</a> </strong>(formerly DoubleClick) <a href="https://support.google.com/tagmanager/answer/6107168?hl=en">Floodlight Counter tags</a> to track how often visitors land on your Hub content after viewing one of your ads.</li>
+<li>Use an <a href="https://www.adroll.com/"><strong>AdRoll</strong></a> tag to track visitors to your Hub and <a href="https://www.adroll.com/learn-more/retargeting">display ads to them</a> related to the Hub content they viewed.</li>
+<li>Use a <a href="https://mouseflow.com/"><strong>mouseflow</strong></a> tag to track visitor mouse movement, scrolling, and click locations.</li>
+</ul>
+<p>See <a href="https://support.google.com/tagmanager/answer/6106924?hl=en">this page from Google</a> for a full list of supported tags and services.</p>
+<p> </p>
+<h2>Prerequisite: Get Google Tag Manager Container ID</h2>
+<p>To set up a Google Tag Manager (GTM) integration, you'll need to get your Google Tag Manager <strong>Container ID</strong>. This is a unique ID which identifies the a GTM container you want to use. (If you're not sure what a container is, <a href="https://support.google.com/tagmanager/answer/6102821?hl=en">this overview from Google</a> explains the basic concepts and terminology of Google Tag Manager.)</p>
+<p>You can either use an existing GTM container for your Hub, or create a new container specifically for this purpose. If you want to create a new container, <a href="https://support.google.com/tagmanager/answer/6103696?hl=en#">see this article from Google</a> for instructions.</p>
+<p>Once you have identified the container you want, get your Container ID:</p>
+<ol>
+<li>Log in to Google Tag Manager.</li>
+<li>Click on <strong>Workspace </strong>and make sure the container you want to use is selected.</li>
+<li>You can find your find your Container ID near the top of the window, formatted as <em>GTM-XXXXXX:<br></em><img src="https://help.uberflip.com/hc/article_attachments/360022167872/Google_Tag_Manager.png" alt="Google_Tag_Manager.png" width="656" height="131">
+</li>
+<li>
+<strong>Copy</strong> the Container ID. </li>
+</ol>
+<p> </p>
+<h2>Connect Your Hub to Google Tag Manager</h2>
+<p>All you need to do to integrate your Hub with Google Tag Manager is to connect them via the Hub menu.</p>
+<ol>
+<li>Log in to your Uberflip account and select the Hub on which you want to create an integration.</li>
+<li>In the sidebar menu on the left, click on <strong>Integrations</strong>.<br> <img src="https://help.uberflip.com/hc/article_attachments/360018402791/Hubs___Integrations_-_Uberflip.png" alt="Hubs___Integrations_-_Uberflip.png">
+</li>
+<li>On the right, you'll see a list of services that Uberflip can integrate with. Find <strong>Google Tag Manager</strong> in the list, then click on its <strong>Connect</strong> button on the right (under the <strong>Action</strong> column) to set up the integration:<br> <img src="https://help.uberflip.com/hc/article_attachments/360022157031/Hubs___Integrations_-_Uberflip.png" alt="Hubs___Integrations_-_Uberflip.png" width="675" height="70">
+</li>
+<li>A pop-up window will appear. <strong>Enter your Google Tag Manager Container ID</strong> into the field provided:<br> <img src="https://help.uberflip.com/hc/article_attachments/360022170452/Hubs___Integrations_-_Uberflip.png" alt="Hubs___Integrations_-_Uberflip.png" width="447" height="325">
+</li>
+<li>Click on <strong>Connect</strong>. You will be returned to the to the <strong>Integrations</strong> page in your Hub, where you'll now see the Container ID listed next to Google Tag Manager.</li>
+<li>That's it! The selected Google Tag Manager container is now connected to your Hub, integrating the tags it contains with the Hub.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360023942712</guid>
+         <pubDate>Wed, 20 Feb 2019 19:12:44 GMT</pubDate>
+      </item>
+      <item>
+         <title>Get Your Hub&apos;s Sitemap</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360023095831-Get-Your-Hub-s-Sitemap</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>Get a Hub's sitemap to submit it to <a href="https://help.uberflip.com/hc/en-us/articles/360022366472">Google Search Console</a>.</p>
+<p> </p>
+<h2>Access the Sitemap for a Hub</h2>
+<ol>
+<li>Open your browser and <strong>navigate to your Hub</strong>.</li>
+<li>Using the browser's address bar, add <strong>/sitemap_index.xml</strong> to the end of your Hub's URL. For example, Uberflip's Resource Hub URL is <em>https://hub.uberflip.com, </em>so we would get the sitemap like this:<br> <img src="https://help.uberflip.com/hc/article_attachments/360020626971/https___hub_uberflip_com_sitemap_index_xml_and_Hubs___Recommendation_Rules_-_Uberflip.png" alt="https___hub_uberflip_com_sitemap_index_xml_and_Hubs___Recommendation_Rules_-_Uberflip.png">
+</li>
+<li>Hit <strong>Enter</strong> on your keyboard to view the sitemap. The result should look like this:<br> <img src="https://help.uberflip.com/hc/article_attachments/360020628931/https___hub_uberflip_com_sitemap_index_xml.png" alt="https___hub_uberflip_com_sitemap_index_xml.png" width="568" height="382">
+</li>
+<li>To share the sitemap (for example with Google), simply <strong>copy the full URL</strong>, e.g. <em>https://hub.mycompany.com/sitemap_index.xml</em>
+</li>
+</ol>
+<div class="callout callout--info">
+<h4 class="callout__title">Hubs on Subdirectory Custom Domains</h4>
+<p>The instructions above show how to get a sitemap for a Hub hosted on a <a href="https://help.uberflip.com/hc/en-us/articles/360018786372" target="_self">subdomain custom domain</a> (e.g. <em>hub.mycompany.com</em>), but you can also get a sitemap if your Hub is hosted on a <a href="https://help.uberflip.com/hc/en-us/articles/360018964792" target="_self">subdirectory custom domain</a> (e.g. <em>www.mycompany.com/hub</em>). Simply follow the same process of adding <em>/sitemap_index.xml</em> to the end of the URL.</p>
+</div>
+<p> </p>
+<h2>Additional Notes</h2>
+<ul>
+<li>A sitemap is a general listing of web pages that can be indexed by search engines.</li>
+<li>Submitting your sitemap to Google (via Search Console) can help to get your Hub content crawled and indexed on Google faster.</li>
+<li>The <em>sitemap.xml </em>file for an Uberflip Hub will reference content in the Hub's Home Stream, all Stream pages, and the latest 200 Items in each Stream.</li>
+<li>The sitemap for your Hub will only index content that is not hidden (has a status of <em>Show</em>).</li>
+</ul>]]></description>
+         <guid isPermaLink="false">360023095831</guid>
+         <pubDate>Thu, 07 Feb 2019 18:25:44 GMT</pubDate>
+      </item>
+      <item>
+         <title>Set Up a Google Search Console Integration</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360022366472-Set-Up-a-Google-Search-Console-Integration</link>
+         <description><![CDATA[<hr>
+<p>Learn how to integrate your Hub with Google Search Console to optimize your Hub's performance in Google search results.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>To set up a Google Search Console integration, you need to be in the <strong>Account Admin,</strong> <strong>Content Manager </strong>or <strong>Demand Generation </strong>user group(s).</li>
+<li>You will also need a <strong>Google Search Console account</strong> (sign up for free <a href="https://www.google.com/webmasters/tools/">here</a>).</li>
+<li>If enabled, you should disable the Hub-level <strong>No Robots Meta Tag</strong> (see <a href="https://help.uberflip.com/hc/en-us/articles/360018840252">this article</a> for instructions) before adding your Hub to Google Search Console to be able to see any crawling errors.</li>
+</ul>
+<p> </p>
+<h2>About the Google Search Console Integration</h2>
+<p>Unless you deliberately prevent Google from indexing it, your Hub will appear in Google search results even if you do nothing at all. However, you can take more control over this process by using Google Search Console. This free tool can help you to understand how Google views your Hub and to optimize its ranking in search results. It also lets you submit a site map for your Hub so it can be indexed faster, as well as remove any pages from search results that you didn't want to be indexed (and don't forget to <a href="https://help.uberflip.com/hc/en-us/articles/360018840252">set the No Robots Meta Tag</a> as well!).</p>
+<p>Integrating your Hub with Google Search Console is a two-step process: first, you will need to add your Hub to your Search Console account, then, you just have to verify your ownership of the Hub by adding a "meta tag" to it.</p>
+<p> </p>
+<h2>Step 1: Add Your Hub to Search Console as a Website Property</h2>
+<p>The first thing you need to do is add your Hub to Search Console as a new website property. For instructions on how to do this, see <a href="https://support.google.com/webmasters/answer/34592?hl=en">this article from Google</a>.</p>
+<p>You'll need to register your Hub domain according to the guidelines in the article above. Remember to correctly identify whether your Hub uses <em>HTTP</em> or <em>HTTPS. </em>Most Hubs should be using HTTPS, but double-check to make sure —  and if your Hub isn't using HTTPS yet, <a href="https://help.uberflip.com/hc/en-us/articles/360028190551" target="_self">we strongly recommend switching over</a>.</p>
+<p> </p>
+<h2>Step 2: Verify Site Ownership</h2>
+<p>Once you've added your Hub to Google Search Console, Google requires that you verify that you are the owner of the Hub (website). Google offers several verification methods, but all you need to worry about is the <strong>HTML tag option</strong>: this method is built directly into Uberflip, and all it involves is copying-and-pasting some text.</p>
+<div class="callout">
+<h4 class="callout__title">Wait — who owns my Hub? Me or Uberflip?</h4>
+<p>We've had some customers who were unsure if their Hub and its domain were technically "owned" by Uberflip, and if that meant that they couldn't do this step.</p>
+<p>To clarify: <strong>you are the site owner of your Hub</strong>. If your Hub uses a <a href="https://help.uberflip.com/hc/en-us/articles/360018876192" target="_self">custom domain</a> (as most Hubs do), you also retain ownership of that domain. Uberflip<em> </em>owns and operates <em>the technology that powers customer Hubs</em>, but is not the "owner" of any customer Hub. </p>
+<p>For the purposes of this article, this means that <strong>you can do this step.</strong></p>
+</div>
+<p> </p>
+<ol>
+<li>Visit this link to open the <strong>Ownership verification</strong> section of Google Search Console (you may need to select the website property you want to use in the top left before the page will fully display): <a href="https://search.google.com/search-console/ownership">https://search.google.com/search-console/ownership</a>
+</li>
+<li>Scroll down to the heading <strong>Other verification methods</strong>.</li>
+<li>Click on <strong>HTML tag</strong> to expand that section:<br> <img src="https://help.uberflip.com/hc/article_attachments/360019692112/Ownership_verification.png" alt="Ownership_verification.png" width="650" height="230">
+</li>
+<li>In the<strong> meta tag</strong> that is displayed, copy <strong>only the string of characters after <em>content= </em></strong>that is between the double quotes (don't include the quotes):<br> <img src="https://help.uberflip.com/hc/article_attachments/360023795392/Ownership_verification.png" alt="Ownership_verification.png" width="695" height="257">
+</li>
+<li>In a new browser tab, <strong>go to your Uberflip Hub</strong>. Leave the Google Search Console tab open, as you'll need to return to it in a moment.</li>
+<li>In Uberflip's sidebar menu on the left, click on <strong>Integrations</strong>.<br> <img src="https://help.uberflip.com/hc/article_attachments/360018402791/Hubs___Integrations_-_Uberflip.png" alt="Hubs___Integrations_-_Uberflip.png">
+</li>
+<li>On the right, you'll see a list of services that Uberflip can integrate with. Find <strong>Google Search Console</strong> in the list, then click on its <strong>Connect</strong> button on the right (under the <strong>Action</strong> column):<br> <img src="https://help.uberflip.com/hc/article_attachments/360019568771/Hubs___Integrations_-_Uberflip.png" alt="Hubs___Integrations_-_Uberflip.png">
+</li>
+<li>A pop-up window will appear. In this window, <strong>paste the meta tag string</strong> you copied from Google (in step 4) into the text field:<br> <img src="https://help.uberflip.com/hc/article_attachments/360023795512/Hubs___Integrations_-_Uberflip.png" alt="Hubs___Integrations_-_Uberflip.png" width="468" height="339">
+</li>
+<li>Click on <strong>Connect</strong>. The pop-up will close, and you'll be returned to the <strong>Integrations</strong> menu.</li>
+<li>Switch back to the Google Search Console tab in your browser.</li>
+<li>Below the field where you copied the meta tag earlier, <strong>click on the Verify button</strong>:<br> <img src="https://help.uberflip.com/hc/article_attachments/360023830531/Ownership_verification.png" alt="Ownership_verification.png" width="696" height="258">
+</li>
+<li>You should see a message indicating your ownership of the site was verified.</li>
+<li>That's it! Your Hub is now set up with Google Search Console, and you can use the SEO tools it contains with your Hub.</li>
+</ol>
+<p> </p>
+<h2>Next Steps</h2>
+<p>If you want to speed up the indexing of your Hub, you can <a href="https://support.google.com/webmasters/answer/183668?hl=en">submit a sitemap to Google</a> using Search Console. For instructions on how to get your Hub's sitemap, see <a href="https://help.uberflip.com/hc/en-us/articles/360023095831">this article</a>.</p>]]></description>
+         <guid isPermaLink="false">360022366472</guid>
+         <pubDate>Mon, 28 Jan 2019 20:47:45 GMT</pubDate>
+      </item>
+      <item>
+         <title>Set up or edit a Google Analytics integration</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360022364072-Set-up-or-edit-a-Google-Analytics-integration</link>
+         <description><![CDATA[<p>Learn how to integrate your Hub with Google Analytics to gain more insight into Hub visitor behavior. And learn how to update your Google tag ID in Uberflip if needed.</p>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>To set up a Google Analytics integration, you need to be in at least one of the <strong>Account Administrator</strong>, <strong>Content Manager </strong>or <strong>Demand Generation </strong>user groups.</li>
+<li>You will also need a <strong>Google Analytics account</strong> (sign up for free <a href="https://analytics.google.com/analytics/web/" target="_blank" rel="noopener noreferrer">here</a>).</li>
+</ul>
+<p> </p>
+<h2>About the Google Analytics Integration</h2>
+<p>Google Analytics is a powerful and popular website analytics tool, so there's a good chance you're already using it with your other web properties.</p>
+<p>If you're not already using Google Analytics, we highly recommend signing up and integrating it with your Hub. It's free to use, and can offer you a wealth of insights into how visitors interact with your Hub.</p>
+<p><strong>With Google Analytics in your Hub, you can:</strong></p>
+<ul>
+<li>Track the referral paths of your traffic (i.e. whether someone came to your Hub from Twitter, LinkedIn, Facebook, paid advertising, or a search engine)</li>
+<li>Map your visitors' behavioral flows through your Hub</li>
+<li>Track conversion events (Form CTA submissions) inside Google Analytics</li>
+<li>See how paid traffic you're sending to your Hub is performing</li>
+<li>Benchmark your Hub's performance against other websites in your industry or vertical</li>
+</ul>
+<p>All of this data can help you to better target and focus your content and get more out your Hub.</p>
+<p> </p>
+<h2>Prerequisite: Get your Google Analytics Tracking ID</h2>
+<p>To set up a Google Analytics integration, you'll need to get your Google Analytics <strong>Tracking ID</strong>. This is a unique ID which identifies the specific web property you want to track in Google Analytics.</p>
+<p>To get your Tracking ID, create a new property in Google Analytics. See<a href="https://support.google.com/analytics/answer/9304153?hl=en&amp;sjid=10395797915981898991-NA" target="_blank" rel="noopener noreferrer"> this article from Google</a> for instructions on how to<strong> create a new property and get its Tracking ID</strong>.</p>
+<p>If you already have an <strong>existing Tracking ID</strong> for your main website, you also have the option of <strong>using the same Tracking ID for your Hub</strong>. You might prefer this option if your Hub is effectively a "section" of your main website (rather than a standalone experience), and you want your metrics and reporting to reflect this. If you want to <strong>use your existing Tracking ID</strong> for your Hub, see <a href="https://support.google.com/analytics/answer/9539598?hl=en&amp;sjid=10395797915981898991-NA" target="_blank" rel="noopener noreferrer">this article from Google</a> for instructions on how to find it.</p>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>Even if you choose to use the same Tracking ID for both your main website and your Hub, you can still separate out the Hub-related data if needed. To do this, <strong>add a new view </strong>in Google Analytics, then <strong>apply a filter</strong> that removes all non-Hub-related data from the view. Check out <a href="https://help.uberflip.com/hc/en-us/articles/360035352572" target="_self" rel="undefined">Set Up a Hub-Specific View in Google Analytics</a> to see how.</p>
+</div>
+<p> </p>
+<h2>Add or edit your Google Analytics tracking ID</h2>
+<ol>
+<li>Log in to your Uberflip account and select the Hub on you want to add or update your tracking code on</li>
+<li>In the sidebar, click <strong>Integrations &gt; Connected Services</strong><br><img src="https://help.uberflip.com/hc/article_attachments/16684710107021" width="200" height="391">
+</li>
+<li>Find <strong>Google Analytics </strong>in the list of services, then click <strong>Connect or Edit</strong> beside it<br><img src="https://help.uberflip.com/hc/article_attachments/16915842036877" width="653" height="86">
+</li>
+<li>A modal will open. <strong>Enter your Google Analytics Tracking ID</strong> into the field provided. <strong>Note:</strong>
+<ul>
+<li>
+<strong>Include the prefix</strong> in the ID <em>(e.g. <strong>G-</strong>12345)</em>
+</li>
+<li>
+<strong>Use the Measurement ID</strong> from Google Analytics<em> (not the Stream ID)</em>
+</li>
+<li>This field accepts GA4 and Universal Analytics IDs<br><img src="https://help.uberflip.com/hc/article_attachments/16917256438541" width="400" height="290">
+</li>
+</ul>
+</li>
+<li>Click <strong>Connect</strong>. You'll be returned to the to the <strong>Integrations</strong> page in your Hub, where you'll now see your tracking ID listed next to Google Analytics.<br><br>
+</li>
+</ol>
+<p>That's it! Google Analytics is now connected to your Hub, and will began tracking visitors.</p>]]></description>
+         <guid isPermaLink="false">360022364072</guid>
+         <pubDate>Mon, 28 Jan 2019 19:57:13 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

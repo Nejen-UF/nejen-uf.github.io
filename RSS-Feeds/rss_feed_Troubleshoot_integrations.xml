@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Troubleshoot integrations</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Announcement: Action required for Uberflip app updates</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4410599148045-Announcement-Action-required-for-Uberflip-app-updates</link>
+         <description><![CDATA[<hr>
+<p>We'll soon be releasing major updates for certain Marketplace apps. Learn which apps are affected, and what actions you will need to take to ensure your apps keep working without interruption.</p>
+<hr>
+<h2>Who is affected by this change?</h2>
+<p>This change affects any Uberflip customer who is currently using any of the following Uberflip-developed apps:</p>
+<ul>
+<li>6sense Personalizer</li>
+<li>Demandbase Personalizer</li>
+<li>Query String Personalizer</li>
+<li>Bombora Personalizer</li>
+<li>Clearbit Personalizer</li>
+<li>Rollworks Personalizer</li>
+<li>History</li>
+<li>Lightbox</li>
+<li>Sales Assist</li>
+<li>Flipbot</li>
+</ul>
+<p> </p>
+<h2>What's changing?</h2>
+<p>Uberflip is making updates to a number of apps which will require users to take action before and after they install the update. If you do not take the necessary actions, these app will lose some or all functionalities.</p>
+<p>There are two types of updates:</p>
+<ul>
+<li>
+<em>Adding Stream-level app changes</em> - Some apps are being updated with stream-level settings. After the app is updated the Stream IDs field will be removed from these apps and the app will not function until the user re-configures the app at the Stream level. The following apps are being updated with Stream-level settings:
+<ul>
+<li>6sense Personalizer</li>
+<li>Demandbase Personalizer</li>
+<li>Query String Personalizer</li>
+<li>Bombora Personalizer</li>
+<li>Clearbit Personalizer</li>
+<li>Rollworks Personalizer</li>
+<li>History</li>
+<li>Lightbox</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>
+<em>Replacing app configuration controls</em> - Certain apps are being enhanced with newly added setting controls, such as drop downs. After you update these apps, the values previously set in the affected controls will be lost, and you must manually reconfigure the affected settings using the new controls. The following apps are being updated with config field replacements:
+<ul>
+<li>Sales Assist</li>
+<li>Flipbot</li>
+</ul>
+</li>
+</ul>
+<p> </p>
+<h2>Benefits of these changes</h2>
+<ul>
+<li>We are making these changes to the Uberflip-developed apps to provide you with a more user-friendly experience by make the app settings easier to configure and manage.</li>
+<li>These changes also provide you with greater precision to control your app settings. Before this update, apps had to be configured at either Account or Hub level. Customizing these apps at the Stream level was not possible. With the new app update, customizing settings at the Stream level is now possible. For example, customized Page Titles can now to set at the Stream level instead of choosing a generic title at the Account or Hub level.</li>
+<li>In the case of the stream level change, the existing Stream IDs field can only store a maximum of 30 stream IDs, this constraint will be removed with the new app update.</li>
+<li>In the case of the config level change, some fields have been converted to drop down lists to avoid typographical errors from occurring.</li>
+</ul>
+<h3> </h3>
+<h2>What do I need to do to prepare for these changes?</h2>
+<h3>Apps with new Stream-level settings</h3>
+<p>If you are using any of the apps that are being updated with Stream-level changes (<a href="https://help.uberflip.com/hc/en-us/articles/4410599148045#whats-changing" target="_blank" rel="noopener noreferrer">What's changing?</a><a href="https://help.uberflip.com/hc/en-us/articles/4410599148045#whats-changing">)</a>, you will need to save your current Stream IDs <strong>before</strong> updating the app(s), then enable the app(s) on these Streams individually <strong>after</strong> updating. Also, you may have specified Stream IDs at the Account level, Hub level, or both. Hence, you should check both locations for Stream IDs. Implement the following steps in the order they are listed:</p>
+<ol>
+<li>In the Uberflip platform, click on <strong>Account Settings</strong> in the drop down list on top right side, select the <strong>Integration</strong> drop down list in the sidebar menu, click on <strong>Installed Apps</strong>, select the <strong>Edit</strong> (pencil) button for the app you would like to update. Make a note of all the stream ID's entered in the Stream ID field in each app. These are the account level stream IDs.<br><img src="https://help.uberflip.com/hc/article_attachments/4410599201421/mceclip5.png" alt="mceclip5.png"><br>For the Hub level stream IDs (for hubs that are an exception to the Account level settings) click on the <strong>Hubs</strong> drop down list in the main navigation menu, select <strong>Integration</strong> from the sidebar menu, click on <strong>Installed Apps</strong>, click on the <strong>Edit</strong> (pencil) button for the required app and note down the <strong>Stream IDs</strong>.<br><img src="https://help.uberflip.com/hc/article_attachments/4410599201421/mceclip5.png" alt="mceclip5.png" width="484" height="275">
+</li>
+<li>Download the new app update by clicking on <strong>Browse Apps</strong> option in the <strong>Marketplace</strong> drop down list in the main navigation menu. Locate the required app and click on the <strong>Update</strong> button on the left. Once the update is completed, the app will turn off for the list of Stream IDs that were entered in the app previously.</li>
+<li>In the Uberflip platform, select the required Hub from the main navigation menu, click on the <strong>Content</strong> option in the sidebar menu, select the <strong>Streams</strong> tab, select the streams you had noted down in step 1, click on the <strong>App Configurations</strong> tab, select the apps you had previously used with this stream from the <strong>App</strong> drop down list and click on the <strong>Enable</strong> switch to change it to the on (green) position.<br><img src="https://help.uberflip.com/hc/article_attachments/4410599193357/mceclip2.png" alt="mceclip2.png" width="498" height="188"><br><img src="https://help.uberflip.com/hc/article_attachments/4410604487693/mceclip3.png" alt="mceclip3.png" width="498" height="205">
+</li>
+<li>Repeat step 3 for all required streams.</li>
+</ol>
+<p> </p>
+<h3>Apps with new configuration controls</h3>
+<p>If you are using any of the apps that are being updated with configuration control changes (<a href="https://help.uberflip.com/hc/en-us/articles/4410599148045#whats-changing" target="_blank" rel="noopener noreferrer">What's changing?</a><a href="https://help.uberflip.com/hc/en-us/articles/4410599148045#whats-changing">)</a>, you will need to save your current config control setting <strong>before</strong> updating the app(s), then select the desired config setting for each app <strong>after</strong> updating them. Also, you may have specified config control settings at the Account level, Hub level, or both. Hence, you should check both locations for these settings. Implement the following steps in the order they are listed:</p>
+<ol>
+<li>In the Uberflip platform, click on <strong>Account Settings</strong> in the drop down list on top right side, select the <strong>Integration</strong> drop down list in the sidebar menu, select <strong>Installed Apps</strong> and click on the <strong>Edit</strong> (pencil) button for the required app. Select the desired option from the <strong>Data Source</strong> (in the Sales Assist app), <strong>MAP Integration Type</strong> (in the Flipbot app) and <strong>CTA Gate</strong> (in the Flipbot app) drop down list (according to the entries noted down in step 1).<br><img src="https://help.uberflip.com/hc/article_attachments/4410604604429/mceclip7.png" alt="mceclip7.png"><br>For the Hub level settings (for hubs that are an exception to the account level settings) click on the Hubs drop down list in the main navigation menu, select <strong>Integration</strong> from the sidebar menu, click on <strong>Installed Apps</strong>, click on the <strong>Edit</strong> (pencil) button for the required app and note down the entries in the <strong>Data Source</strong> (in the Sales Assist app), <strong>MAP Integration Type</strong> (in the Flipbot app) and <strong>CTA Gate</strong> (in the Flipbot app) fields.</li>
+<li>Download the new app update by clicking on <strong>Browse Apps</strong> option in the <strong>Marketplace</strong> drop down list in the main navigation menu. Locate the required app and click on the <strong>Update</strong> button on the left. Once the update is completed, the <strong>Data Source</strong>, <strong>MAP Integration Type</strong> and <strong>CTA Gate</strong> drop down lists will now be empty.</li>
+<li>In the Uberflip platform, click on <strong>Account Settings</strong> in the drop down list on top right side, select the Integration drop down list in the sidebar menu, select Installed Apps and click on the Edit (pencil) button for the required app. Select the required option from the <strong>Data Source</strong> (in the Sales Assist app), <strong>MAP Integration Type</strong> (in the Flipbot app) and <strong>CTA Gate</strong> (in the Flipbot app) drop down list (according to the entries noted down in step 1).</li>
+<li>In the Uberflip platform, select the required hub from the main navigation menu, select <strong>Integrations</strong>, click on <strong>Installed Apps</strong>, select the <strong>Flipbot</strong> or <strong>Sales Assist</strong> app from the list of apps. Select the required option from the <strong>Data Source</strong> (in the Sales Assist app), <strong>MAP Integration Type</strong> (in the Flipbot app) and <strong>CTA Gate</strong> (in the Flipbot app) drop down list (according to the entries noted down in step 1).</li>
+</ol>
+<h2><strong>What will happen if I don’t do anything?</strong></h2>
+<p>After the aforementioned Uberflip-developed apps are updated, the app will not work until these settings are re-configured. Re-configuring these settings might prove difficult if you have not made a note of the previous field entries and settings before updating the app.</p>
+<p>You may reach out to the Uberflip team to help you retrieve your old entries and settings if the instructions in this article are not carried out before an app update.</p>
+<p> </p>
+<p> </p>]]></description>
+         <guid isPermaLink="false">4410599148045</guid>
+         <pubDate>Mon, 04 Oct 2021 12:15:03 GMT</pubDate>
+      </item>
+      <item>
+         <title>Known Issue: YouTube Integration Defect [RESOLVED]</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360040083052-Known-Issue-YouTube-Integration-Defect-RESOLVED</link>
+         <description><![CDATA[<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p>This article describes a<strong> previous known issue/defect</strong> with the Uberflip platform that is <strong>now resolved</strong>. This article is provided for reference purposes only.</p>
+</div>
+<h2>Issue Description</h2>
+<p><span class="text-primary">Updated <strong>September 28<br></strong></span></p>
+<p>Originally, changes that Google made in their authentication mechanisms for third-party integrations negatively impacted the integration between Uberflip and YouTube. We submitted a new version of the integration to Google, which successfully resolved the original authentication issue on <strong>April 2, 2020</strong>.</p>
+<p>Unfortunately, this caused <strong>a different problem</strong>. As a large number of customers attempted to resume using the YouTube integration, the resulting spike in usage caused the integration to <strong>exceed the number of requests it is allowed to make</strong> to the YouTube API. As a result, customers experienced <strong>errors when trying to re-authorize and update YouTube Streams</strong>.</p>
+<p>As an <strong>interim solution</strong>, we <strong>reduced the number of videos that could be imported</strong> from YouTube (max. 50)<strong> </strong>as well as <strong>how</strong><strong> frequently YouTube Streams are auto-updated</strong> (once per 24 hours). These changes successfully mitigated the issue while we worked on a permanent solution, which was delivered on <strong>September 25</strong>.</p>
+<div class="callout callout--warning">
+<h4 id="h_0d38a6ec-2c37-4e21-8537-1f09c543b066" class="callout__title">Final Update: September 28, 2020</h4>
+<p>As of <strong>September 25</strong>, Google has granted a further increase in Uberflip's API request limit for YouTube. In combination with the other improvements we have made to the integration's efficiency, this latest development has now allowed us to <strong>return the YouTube integration to full functionality</strong>.</p>
+<p>As a result of this change, the interim import limit of 50 videos and Stream update frequency of once per 24 hours <strong>are no longer in effect</strong>. Instead, we have returned to the following service parameters for the YouTube integration with immediate effect:</p>
+<ul>
+<li>Import limit of up to <strong>500 videos</strong>
+</li>
+<li>Automated Stream refresh (importing of new videos) frequency of <strong>once per</strong><strong> hour</strong>
+</li>
+</ul>
+<p>As the YouTube integration is once again fully functional, this known issue is <strong>now marked as RESOLVED.</strong></p>
+</div>
+<p> </p>
+<h2>Impact &amp; Actions</h2>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important: Read Before Proceeding</h4>
+<p>If you had existing YouTube Streams <strong>created</strong> <strong>before March 25, 2020</strong>, the impacts and actions described in this section remain applicable.</p>
+<p>If you have not yet done so, <strong>you can follow the steps below to re-authorize your YouTube integration and/or create new YouTube Streams</strong>.</p>
+</div>
+<h4><strong>IMPACT</strong></h4>
+<ul>
+<li>On <strong>March 25</strong>, <strong>all existing YouTube Streams were disconnected</strong> when the old YouTube integration was deactivated in order to submit a new integration to Google. The new integration was <strong>released on April 2</strong>.</li>
+<li>Any YouTube Streams that existed in your Hub on March 25 <strong>will remain disconnected until you take action.</strong>
+</li>
+<li>To <strong>reconnect your YouTube Streams</strong>, you must <strong>re-authorize the integration </strong>between your Uberflip account and your YouTube (Google) account.</li>
+<li>While they are disconnected, YouTube Streams <strong>will not pull in new content. </strong>However, <strong>videos imported before the Stream was disconnected </strong>will <strong>continue to work normally</strong> (i.e. can be viewed by visitors and added to Marketing/Sales Streams) while the Stream remains disconnected.</li>
+</ul>
+<h4><strong>ACTIONS</strong></h4>
+<p>To <strong>re-authorize the YouTube integration</strong> and reconnect your YouTube Streams that are currently disconnected:</p>
+<ol>
+<li>Open this article: <a href="https://help.uberflip.com/hc/en-us/articles/360041233912#connect-your-uberflip-and-google-accounts"><strong>Set Up a YouTube Integration</strong></a>.</li>
+<li>Follow the instructions under the section <em><strong>Connect Your Uberflip and Google Accounts</strong></em> (direct link to this section <a href="https://help.uberflip.com/hc/en-us/articles/360041233912#connect-your-uberflip-and-google-accounts">here</a>).<br>
+<ul>
+<li>
+<strong>IMPORTANT: </strong>When you are asked to choose a Google account during the re-authorization process, <strong>it must be the same account that was connected to your Hub previously</strong>. If you choose a different account, the re-authorization will be successful, but your existing Streams <strong>will not reconnect</strong> (because they are associated with a different Google account).</li>
+<li>You do <strong>NOT</strong> need to complete the steps under <strong><em>Create a New YouTube Stream</em> </strong>in the same article.</li>
+</ul>
+</li>
+</ol>
+<p>You only need to re-authorize the YouTube integration<strong> ONCE</strong>. As soon as you do this, <strong>all YouTube Streams across all Hubs</strong> in your Uberflip account will reconnect, and should resume importing content from YouTube automatically.</p>
+<p>There is <strong>no deadline</strong> for re-authorizing the YouTube integration, and you can complete this action at any time.</p>
+<p> </p>
+<h2 id="h_d3c0f813-48cd-42d9-a6d8-70432acd1cb8">Resolution Details &amp; Timeline</h2>
+<p>To permanently resolve this issue and restore full functionality, we pursued two separate but complementary approaches:</p>
+<ul>
+<li>We <strong>redesigned the YouTube integration to be more efficient</strong>. This involved analyzing how the integration previously worked, and identifying areas where we could reduce the number of calls the integration needs to make while still retaining comparable levels of functionality. This work was completed <strong>September 18, 2020</strong>.</li>
+<li>We worked with Google to <strong>significantly </strong><strong>increase Uberflip's request limit on the YouTube API</strong>. This gives Uberflip's YouTube integration the capacity required to restore full functionality. The increased limit was approved and implemented on <strong>September 25, 2020</strong>.</li>
+</ul>
+<p>Full functionality was restored by <strong>September 25, 2020</strong>, fully resolving this issue.</p>]]></description>
+         <guid isPermaLink="false">360040083052</guid>
+         <pubDate>Wed, 04 Mar 2020 14:51:48 GMT</pubDate>
+      </item>
+      <item>
+         <title>Error: &quot;Form ID Not Found&quot; when connecting an Eloqua Form to a Form CTA</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360038607691-Error-Form-ID-Not-Found-when-connecting-an-Eloqua-Form-to-a-Form-CTA</link>
+         <description><![CDATA[<h2>Issue</h2>
+<p>A "Form ID Not Found" error is displayed when choosing some Eloqua Forms while setting up a Form CTA.</p>
+<ul>
+<li>Eloqua Form can't be found</li>
+<li>Can't select Eloqua Form </li>
+<li>Unable to choose Eloqua Form</li>
+</ul>
+<p> </p>
+<h2>Conditions</h2>
+<ul>
+<li>
+<strong>Where: </strong>Form CTA Editor (first page)</li>
+<li>
+<strong>Who: </strong>Users setting up a Form CTA connected to Eloqua</li>
+<li>
+<strong>When: </strong>While trying to select an Eloqua Form to connect to a Form CTA</li>
+<li>Selected Eloqua Form does <strong>not</strong> use the standard Contact Fields &gt; Email Address form field to collect email addresses</li>
+<li>Any browser</li>
+<li>Any operating system</li>
+</ul>
+<p> </p>
+<h2>Cause</h2>
+<p>This issue occurs when the selected Eloqua Form uses a field created under the <em>Custom Fields </em>section to collect email addresses, rather than the default "Email Address" field (in the <em>Contact Fields</em> section). Eloqua Forms can only be connected to Form CTAs when the default "Email Address" field is used.</p>
+<p><img src="https://files.slack.com/files-pri/T024VNQUB-FS0RYBBHP/screen_shot_2020-01-06_at_1.38.24_pm.png" width="548" height="368"></p>
+<p> </p>
+<h2>Steps to Fix</h2>
+<ol>
+<li>Edit the desired Eloqua Form to use the "Email Address" field in the <em>Contact Fields</em> section.<br>
+<ul>
+<li>Do not change the name/label of this field from the default "Email Address" in Eloqua</li>
+</ul>
+</li>
+<li>Delete the previous email address field from the <em>Custom Fields</em> section.</li>
+<li>Return to the Form CTA Editor and try to select the Eloqua Form again: you should now be able to select it without the error appearing.</li>
+</ol>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360038607691</guid>
+         <pubDate>Wed, 08 Jan 2020 21:09:32 GMT</pubDate>
+      </item>
+      <item>
+         <title>AddThis Widget Not Appearing</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360027261271-AddThis-Widget-Not-Appearing</link>
+         <description><![CDATA[<h2>Issue</h2>
+<p>After integrating with AddThis using the appropriate "RA" code, the Tool is still not appearing on my Hub.</p>
+<ul>
+<li>I've setup a Tool in AddThis and integrated my Hub with AddThis, but the Tool isn't appearing</li>
+<li>My Hub is integrated with AddThis, but I don't see any social share icons appearing</li>
+<li>In AddThis, I've created a social share Tool, but it is not appearing in my Hub</li>
+<li>I've created the "Floating" Tool in AddThis and activated it, but it is not showing up on the front-end of my Hub</li>
+</ul>
+<p> </p>
+<h2>Conditions</h2>
+<ul>
+<li>
+<strong>Where: </strong>AddThis Tools that are integrated natively through the Uberflip app</li>
+<li>
+<strong>Who: </strong>Front-end users are impacted where they do not see the social sharing icons</li>
+<li>
+<strong>When: </strong>The admin has added and activated a Tool in AddThis and integrated their account within the Uberflip app</li>
+<li>Could affect any up to date Browser and Operating System </li>
+</ul>
+<p> </p>
+<h2>Steps to Fix</h2>
+<ol>
+<li>Ensure that you've integrated with the correct AddThis "RA" code in your Uberflip Hub</li>
+<li>If you haven't already, ensure a Tool has been created an activated in AddThis</li>
+<li>On the Tool setup in AddThis, ensure that certain URLs are not excluded. This is located in the "Advanced Options" of your Tool setup in AddThis</li>
+<li>If you've enabled the Tool, integrated AddThis with your Hub, and the social share icons are still not visible, remove the integration in Uberflip and re-add the "RA" code, then click "Save"</li>
+</ol>
+<p> </p>
+<h2>Additional Notes</h2>
+<p>The "Floating" Tool created in AddThis will work once the Tool is activated and the "RA" code is integrated in your Uberflip app. However, the "Inline" Tool will not work automatically. It will require an additional &lt;div&gt; tag to be added to the page where you want it to appear.</p>
+<p>For example, it would look like this:</p>
+<pre>&lt;div class="addthis_inline_share_toolbox"&gt;&lt;/div&gt;</pre>]]></description>
+         <guid isPermaLink="false">360027261271</guid>
+         <pubDate>Mon, 22 Apr 2019 15:08:44 GMT</pubDate>
+      </item>
+      <item>
+         <title>Error: &quot;Invalid - Something&apos;s wrong with the API information&quot; during Oracle Eloqua integration setup</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360022045712-Error-Invalid-Something-s-wrong-with-the-API-information-during-Oracle-Eloqua-integration-setup</link>
+         <description><![CDATA[<h2>The problem</h2>
+<p>Clicking on <em>Enter API Info</em> when setting up an Oracle Eloqua integration results in an error.</p>
+<ul>
+<li>Error: "Invalid - Something's wrong with the API information":<br><img src="https://help.uberflip.com/hc/article_attachments/360019218772/Hubs___Integrations_-_Uberflip.png" alt="Hubs___Integrations_-_Uberflip.png">
+</li>
+</ul>
+<p> </p>
+<h2>Conditions</h2>
+<ul>
+<li>
+<strong>Where: </strong>Oracle Eloqua integration setup dialog (<strong>Hub &gt; Integrations</strong> <strong>&gt; Oracle Eloqua &gt; Connect</strong>)</li>
+<li>Eloqua API key and Data Lookup Key have been entered</li>
+<li>Any browser</li>
+<li>Any operating system</li>
+</ul>
+<p> </p>
+<h2>Cause</h2>
+<p>There are three possible causes for this error:</p>
+<ol>
+<li>API access is disabled on the target Oracle Eloqua account</li>
+<li>The Data Lookup Key was entered incorrectly</li>
+<li>The API key is invalid because it was generated from incorrect login credentials</li>
+</ol>
+<p> </p>
+<h2>Steps to Fix</h2>
+<h3>Solution 1: Check API Access</h3>
+<p>First, check in Oracle Eloqua if the User account you are using to generate the API key has API access. They must be a member of at least the API Users Security Group in Oracle Eloqua. To check:</p>
+<ol>
+<li>Log in to Eloqua and navigate to <strong>Settings (gear icon) &gt; Users</strong>.</li>
+<li>
+<strong>Click on the User</strong> you are setting up the integration with in the menu on the left.</li>
+<li>Under the <strong>Security Groups </strong>section, look at the <strong>Selected Security Groups</strong> pane on the right. Check if <strong>API Users</strong> is listed as one of the selected Security Groups:<br><img src="https://help.uberflip.com/hc/article_attachments/360019083411/Fullscreen_2019-01-21__3_41_PM.png" alt="Fullscreen_2019-01-21__3_41_PM.png" width="629" height="206">
+</li>
+</ol>
+<p>If <strong>API Users</strong> does not appear under <strong>Selected Security Groups</strong>, add it from the menu on the left and try setting up the integration again.</p>
+<h3>Solution 2: Check Data Lookup Key</h3>
+<p>If the User was already in the API Users Security Group, or if adding the User to that Security Group did not resolve the problem, check that you have entered the Data Lookup Key correctly.</p>
+<ol>
+<li>In Eloqua, navigate to <strong>Assets </strong>(<img class="icon_Inline_XSmall_NoAction" src="https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/Resources/Images/1CommonImages/AssetsButton.png" alt="An image of the Assets icon, which is represented by a black pencil.">) <strong>&gt;</strong> <strong>Website Setup &gt; Web Data Lookup</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360019068811/Fullscreen_2019-01-21__12_25_PM.png" alt="Fullscreen_2019-01-21__12_25_PM.png" width="275" height="328">
+</li>
+<li>Click on the in the menu on the left.</li>
+<li>Under the section <strong>Data Lookup Information </strong>on the right, you should see <strong>Data Lookup Key</strong>:<strong><br></strong><img src="https://help.uberflip.com/hc/article_attachments/360019071691/Fullscreen_2019-01-21__12_49_PM.png" alt="Fullscreen_2019-01-21__12_49_PM.png">
+</li>
+</ol>
+<p><strong>Copy this value</strong> and return to Uberflip. Try setting up the integration again by pasting the value directly into the <strong>Data Lookup Key </strong>field in the Oracle Eloqua API Info window.</p>
+<h3>Solution 3: Check User Credentials</h3>
+<p>If re-entering the Data Lookup Key did not resolve the problem, check that the credentials you are using to generate the API key are correct.</p>
+<ol>
+<li>Visit <a href="https://login.eloqua.com/">https://login.eloqua.com/</a>.</li>
+<li>Type in the <strong>Company Name, Username</strong> and <strong>Password </strong>exactly as you are entering them into the <strong>Generate API key </strong>window in Uberflip, then click on <strong>Sign In</strong>.</li>
+<li>If you are not able to log in, check that the credentials you're entering are correct, and reset your password if necessary.</li>
+</ol>
+<p>When you are able to log in successfully on the Oracle Eloqua website, generate the API key in Uberflip again by clicking on <strong>Generate</strong> in the <strong>API Info window</strong>, then entering the same credentials and trying to set up the integration again.</p>
+<p>Tried all the solutions and still having trouble? <a href="https://help.uberflip.com/hc/en-us/requests/new">Contact Uberflip Support</a> for help.</p>]]></description>
+         <guid isPermaLink="false">360022045712</guid>
+         <pubDate>Mon, 21 Jan 2019 21:26:15 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

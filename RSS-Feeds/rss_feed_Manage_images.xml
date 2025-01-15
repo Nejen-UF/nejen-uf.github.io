@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Manage images</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Media: Organize your image library using folders, collections, and tags</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/26985437622669-Media-Organize-your-image-library-using-folders-collections-and-tags</link>
+         <description><![CDATA[<p>Uberflip’s <a href="https://help.uberflip.com/hc/en-us/articles/25430157641741">Media feature</a> has several built in features to help you keep your images organized and easy to find. This article outlines image tagging, folders, and collections and how to use them. </p>
+<p> </p>
+<h2 id="h_01HYKA7R22Z6WZ2KR98TXHPGFH">Good to know</h2>
+<ul>
+<li>When managing and organizing your Media Library, you’re doing so for all users in your Uberflip account. Any changes you (or anyone else) make in Media will affect all account users. </li>
+</ul>
+<p> </p>
+<h2 id="h_01HYKA7R2235ZHM346CR1XKQYD">What are Folders and Collections?</h2>
+<p>There are two ways to organize assets in Media: Folders and Collections.</p>
+<h3 id="h_01HYKA7R2249X44PHY9G2CY9F0"><span style="color: #434343;">Folders</span></h3>
+<p>Folders are a way to organize assets in the Media Library. This is where the assets live in relation to the rest of your library. A folder can contain any number of subfolders, but an image can only live in one folder/subfolder at a time.</p>
+<p>Think of Folders the same way you would the file and folder structure on your computer, where each file has a home. </p>
+<h3 id="h_01HYKA7R223932EV7AVXJ02BQF"><span style="color: #434343;">Collections</span></h3>
+<p>Collections allow you package related images together, without disturbing your folder structure. An image can be in as many collections as you’d like, and you can have as many collections as you need. </p>
+<p>Collections are used to bring images together for a campaign, page, or other project, then are easily deleted when it’s no longer needed, leaving the images untouched in their folders. </p>
+<p>Collections can be shared with your Uberflip teammates, or with non-Uberflip users though a public link. </p>
+<p> </p>
+<h2 id="h_01HYKA7R225Q0ZX3V3BJ2DK9RH">Create folders and subfolders</h2>
+<p>Want to add some structure to your Media library? The easiest way to create a new folder is to select some images, then create the folder based on those. Here’s how it’s done: </p>
+<p><strong>Remember:</strong> Images can only live in one folder at a time. </p>
+<ol>
+<li>Open the Media widget from anywhere in Uberflip </li>
+<li>From anywhere you are viewing images in Media (the Assets page, a collection, or a folder), select one or more images to add to a folder. A toolbar will appear. </li>
+<li>
+<strong>Click the more icon </strong>in the toolbar that appears, then <strong>click Move to Folder</strong><img src="https://lh7-us.googleusercontent.com/pITLWDfVR8P_HhV7gyyWMa_WtgN8Wc_W4RX4jXNL-UbJktARJLwPMMz_JVGhDwlEI3JJE0zFnxBBEWseNjFvXFIUEJQfSwt71JyLW-C77dVDGNUb8Sgc_bXMMs_l2GsXd_EuDRgapR8rnswpeBKTssM" width="536" height="246">
+</li>
+<li>The Move Assets modal will open: <br><strong><br></strong><strong>To create a new folder</strong>: <br>Click the <em>Add Folder icon<br></em><em><img src="https://lh7-us.googleusercontent.com/z4Tm6_k7a7cBccPPJEv-xvPRWIGoBXXhVpI7tQzMcj9RATF9qPd4YxOvbAtCT5nzKKtHOloGxdojNIXDfueN8bmrF325UClVdJAXDzH4h5UQe0StVyx3GExwBSwrbfpeejT7b5hT19kND-I0Ml4MBQs" width="397" height="97"></em><em><br></em>Then enter a folder name and click Save. You’ll be taken into the folder, where you can <strong>click Move to add the images</strong> or add a subfolder. <br><br><strong>To add images to an existing folder: </strong><br><strong>Select the folder</strong> you want to add the images to.<br><img src="https://lh7-us.googleusercontent.com/T5re0PSzp2o2cleRB4ZZh6QFcW69ZcAx5IsTlM1wYT-s-R9CoL4x_T91u2ymV1Omf74go8AjJGyVgYt5Q5w3nRWmmhIVEYN6cZ1mJckY89GUpp0prLrCkdknlbtbrERRhZHCNZzWW6kF7nj6lsWAouI" width="397" height="140"><br>The modal will open to that folder. From there, <strong>click Move to add the images to this folder</strong>. <strong>Or you can click a sub-folder to go deeper before moving.</strong><br><strong><em>Tip: </em></strong><em>Click the Add Folder icon </em><em><img src="https://lh7-us.googleusercontent.com/HbA_jiZNyLkyC9UTRUm40Ier0ao9oDpcvmx-1VvlwwijcWD5zuYFXFtubw4zdVNkBsqQvOd1KE0OZLg5UGqmS7f1L7HssEgkramU5lzd21X3ugoh766QIiOuu_AH-7BBDUEgFzkymCaVuyCOUBlx9WE" width="19" height="16"></em><em> in any folder/sub-folder to create a new sub-folder</em>. </li>
+</ol>
+<p>That’s it! Your images have been moved into your folder. </p>
+<p><strong>Note: </strong>All images will appear in the Assets section of the Media Library, but when you head into the Folders section you’ll only find the images in their individual folders. <br><br></p>
+<h2 id="h_01HYKA7R22YPHH2V2RZPRK9YC7">Create collections </h2>
+<p>Ready to create a collection for an upcoming project? The easiest way to create a new collection is to select some images, then create the collection based on those. Here’s how it’s done:</p>
+<ol>
+<li>Open the Media widget from anywhere in Uberflip </li>
+<li>From anywhere you are viewing images in Media (the Assets page, a collection, or a folder), select one or more images to add to a collection. A toolbar will appear. </li>
+<li>
+<strong>Click the Add to Collection icon</strong> in the toolbar that appears<br><img src="https://lh7-us.googleusercontent.com/23KwBQAVRiPEXnTPT5rnsmaqKD4ozjAKXCVK9uRo9_jgDoLLu22q0D6wbvNntcoMn05vmqiomp7J8N9iaXARmuGt5RY53A8JQMw53AMUXbvOPQgiVRTAx6yarf6KHTTt7NI2sDR-C__pGwFymRiiJk0" width="489" height="241">
+</li>
+<li>The Add to Collection modal will open: <br><strong><br></strong><strong>To create a new collection</strong>: <br>Type the name of the collection you want to create, then click the <strong>Create new collection</strong> option that appears in the list.<br><br><strong>To add images to an existing collection: </strong><br>Click the collection you want to add the images to. Use the search field to find the collection if needed.<br><img src="https://lh7-us.googleusercontent.com/WCGAnk1VYo4nT1Rnb0UqSo0hwwFUuYSg7x1oe2jpan4fiLTqPkmDVh-H6DuT-Jrl4XpF323EaCpCA1iaBfgGA4o5UUIyaB_iSIDdIm9c7DILlZv2nrydApStk3lTly0aRvwRF2ClkBjs68p_6XHDwQY" width="235" height="263"><strong> </strong>
+</li>
+<li>
+<strong>Click Add</strong> to add the images to the collection<strong> </strong>
+</li>
+</ol>
+<p>That’s it! Your images have been added to your collection. </p>
+<p> </p>
+<h2 id="h_01HYKA7R22QXPKWRQKQC6CAKJT">Tags images</h2>
+<p>Find and organize your images faster by tagging them in Media. Like tagging anywhere else on the internet, you can affix tags that help you associate images with words, such as descriptors, themes, or metadata, so you can easily search and find related images when needed.</p>
+<h3 id="h_01HYKA7R22H0BG1GRB3YZJ2867"><span style="color: #434343;">Tag images  </span></h3>
+<ol>
+<li>Open the Media widget from anywhere in Uberflip </li>
+<li>From anywhere you are viewing images in Media (the Assets page, a collection, or a folder), select one or more images to tag. A toolbar will appear. </li>
+<li>Click the Tag icon in the toolbar to open the tagging modal<br><img src="https://lh7-us.googleusercontent.com/O4Rm_MrD5I1ganE1nP5gHAB-cJYEF8hkD_ZbMs-5Vs8MvNqJ_lo1X5HvYHF0Ml9eGiKSRjotH2tQPm5Gr-GqfMDbbIfhvz_ojgjjDrydkREf8jXCGYrBheOwPnR2neARUF40b9qVv77IcBWTj1FitLo" width="549" height="271">
+</li>
+<li>Enter whatever tags you’d like to add. Hit Enter/Tab after each to lock them in. Add as many as you’d like.<br><img src="https://lh7-us.googleusercontent.com/rjURbkSC-_uCigDNpDJrfEXcCytxzvBj1OxA4vVcUUM7Bj5Xdpf9hRexO3RpphaB2mZZdaomTVLRaoAtEDHVR1-ZE4NO5h1rIaMjFuuyXlAwlnJV9CTljdNOQrIivI3d7BaJEXjTSlqgmCkJOMpzlXU" width="412" height="225">
+</li>
+<li>
+<strong>Click Update</strong> to apply your tags</li>
+</ol>
+<p>That’s it! Your tags have been applied. You can now use your tags to search for images faster.</p>
+<p>You can also apply tags when working with a single image. Just double click an image to open it in the Media widget, then click into the Metadata section.<br><img src="https://lh7-us.googleusercontent.com/kPmSzjBqfHFxgULSGw3_54rWOsEITN9bWhEMK3tO_4ftx87ayxWw1oUXBS7fO8shjR1bWwlNMitMtmUszCh8j2hubYJGOiO38WW_1HgRu1caZhA_azulYgpvQ7X5m66baHQV8D3Z7Uz-DJdBTzKm3wc" width="450" height="291"></p>
+<p> </p>]]></description>
+         <guid isPermaLink="false">26985437622669</guid>
+         <pubDate>Thu, 23 May 2024 18:09:32 GMT</pubDate>
+      </item>
+      <item>
+         <title>Media: Crop images</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/25430226849549-Media-Crop-images</link>
+         <description><![CDATA[<p>In Media, you can quickly crop an image, then save it as a new asset or use it right away. Here’s how: </p>
+<p><strong>Note: </strong>You can crop an image and save it for later from anywhere you use Media in Uberflip, or you can crop the image and insert it into your use case directly.</p>
+<ol>
+<li>In the Hubs area of Uberflip, click <strong>Media</strong> in the sidebar menu<br><strong>Or</strong> wherever you see an add/upload/insert image button in Uberflip, click that</li>
+<li>In the Media widget that opens, find the image and double-click it</li>
+<li>The image will open in the widget. From here you have <strong>2 options:</strong>
+<ul>
+<li>
+<strong>Use a preset crop: </strong><br>Select a preset crop from the list and click <strong>Insert</strong> to use it in Uberflip.<br><img src="https://help.uberflip.com/hc/article_attachments/26918830351885" width="496" height="254">
+</li>
+<li>
+<strong>Use a custom crop:</strong>
+<ol>
+<li>Click <strong>Edit &gt; Edit Image</strong><br><img src="https://help.uberflip.com/hc/article_attachments/26918830371853" width="472" height="49">
+</li>
+<li>
+<span style="color: #1a304f; background-color: #ffffff;">In the </span><strong><span style="color: #1a304f; background-color: #ffffff;">Aspect</span></strong><span style="color: #1a304f; background-color: #ffffff;"> dropdown, choose a preset aspect ratio. Choose </span><strong><span style="color: #1a304f; background-color: #ffffff;">Custom</span></strong><span style="color: #1a304f; background-color: #ffffff;"> if you want to adjust the width and height freely.<br></span><img style="color: #1a304f; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" src="https://help.uberflip.com/hc/article_attachments/26918852438285" width="533" height="273"><br><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"><span style="color: #1a304f; background-color: #ffffff;">Tip: </span></strong><span style="color: #1a304f; background-color: #ffffff;">You can also flip the image or rotate it from here as well.</span>
+</li>
+<li>Choose to save the asset (overwrites the original file), save as a new asset, or insert it into your page without saving this version for later.<br><img src="https://help.uberflip.com/hc/article_attachments/26918830429709" width="454" height="62">
+</li>
+</ol>
+</li>
+</ul>
+</li>
+</ol>
+<p>That’s it! Your cropped asset is ready to go.</p>]]></description>
+         <guid isPermaLink="false">25430226849549</guid>
+         <pubDate>Thu, 28 Mar 2024 19:57:21 GMT</pubDate>
+      </item>
+      <item>
+         <title>Media: Upload and use images in Uberflip</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/25430198637197-Media-Upload-and-use-images-in-Uberflip</link>
+         <description><![CDATA[<p><a href="https://help.uberflip.com/hc/en-us/articles/25430157641741">Media is Uberflip’s dedicated media manager</a> for uploading, editing, and inserting images into your pages, Hubs, and content. This article outlines how to use the Media widget for uploading images to your library and using them across Uberflip. </p>
+<p> </p>
+<h2 id="h_01HYE9Y3302ZRCVFM7K74WTS9M">Good to know</h2>
+<ul>
+<li>Media <strong>only supports image files </strong>(including GIFs) at this time </li>
+<li>The maximum file size for image uploads in the Media widget is <strong>40MB</strong> <em>(more than you should ever need!)</em>
+</li>
+<li>Media supports most image file types, such as JPEG, GIF, WEBP, PNG, and many more</li>
+<li>Media automatically optimizes your images before serving them on your pages, Hubs, and blog posts. This means that some compression may occur to the file, but it’s unlikely you or your visitors would notice a difference. </li>
+</ul>
+<p> </p>
+<h2 id="h_01HYE9Y330Y669MHJPJA4368KB">Upload images to the Media library</h2>
+<div class="callout callout--info">
+<h4 id="h_01HYEA0TPV4J5BWT1NQR4HGQZ6" class="callout__title">Note</h4>
+<p>After you’ve uploaded an image to the Media widget, it will remain in your Media library and can be used again in places</p>
+</div>
+<p>Here’s how to upload images to your Media library:</p>
+<ol>
+<li>In the Hubs area of Uberflip, click <strong>Media</strong> in the sidebar menu.<br><strong>Or</strong> wherever you see an add/upload/insert image button in Uberflip, click that.</li>
+<li>The Media Library will open in a modal. Click <strong>Upload</strong>.<br><img src="https://help.uberflip.com/hc/article_attachments/26917839825677" width="559" height="122">
+</li>
+<li>The upload modal will open. <strong>Drag &amp; drop images (or folders) </strong>into the modal.<br><strong>Or</strong> select a different upload method at the top of the modal and follow the prompts.</li>
+</ol>
+<p>That’s it! Your images are now part of your Media library. From here you can crop and resize the image, or insert it into your page, Hub, or content.<br><br></p>
+<h2 id="h_01HYEA21H7PWCKKS2WMXCV3DSD">Using images from Media in Uberflip</h2>
+<p>With images uploaded to your Media library, you can easily use them throughout Uberflip. </p>
+<p> </p>
+<h3 id="h_01HYEA21H7ZQGBN206W38SGXAF"><span style="color: #434343;">Where can I use Media images</span></h3>
+<p>The images from your Media library can be used throughout Uberflip, in most places images are used (with a few exceptions). This includes your Hubs, the microsites you create in Pages, and content Items. </p>
+<h4 id="h_01HYEA21H75Z29X1Z0RYFD0HT8"><span style="color: #666666;">Where can’t I use Media images?</span></h4>
+<p>Media images can’t be used in these few places. There you’ll be given a different way to upload images.</p>
+<ul>
+<li>Hub favicon</li>
+<li>Flipbooks</li>
+<li>Your author bio avatar</li>
+</ul>
+<p> </p>
+<h3 id="h_01HYEA21H7YGXSEQXE87QMNK2K"><span style="color: #434343;">How to use Media images in Uberflip</span></h3>
+<div class="callout callout--success">
+<h4 id="h_01HYEB214QNXSQ02RJXP8SZJ23" class="callout__title">Using Media in Pages?</h4>
+<p>Check out the <a href="https://help.uberflip.com/hc/en-us/articles/20896372993165">Pages specific Media guide</a>.</p>
+</div>
+<ol>
+<li>Wherever you see an add/upload/insert image button in Uberflip, click it </li>
+<li>Your Media Library will open in a modal</li>
+<li>In the Media modal, select a <strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">single image</strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"> to use (or </span><a style="background-color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" href="#h_01HYE9Y330Y669MHJPJA4368KB">upload a new one</a><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">).<br><img src="https://help.uberflip.com/hc/article_attachments/26917839851149" width="601" height="215"><br></span>
+<div class="callout callout--success">
+<h4 id="h_01HYEB5Z8DVE42MRT3GHMNVM28" class="callout__title">Tip</h4>
+<p>Use the Advanced Search options in the Media widget to find images fast.<br><img src="https://help.uberflip.com/hc/article_attachments/26917852285069" width="503" height="70"></p>
+</div>
+</li>
+<li>Click<strong> Insert </strong>and your image will be placed<br><img src="https://help.uberflip.com/hc/article_attachments/26917852306957" width="601" height="318">
+</li>
+</ol>
+<p>That’s it! Your image has been inserted in Uberflip.</p>
+<p><strong>Image not lining up as you hoped?</strong> <a href="https://help.uberflip.com/hc/en-us/articles/25430226849549">Crop or resize the image in the Media widget</a> before inserting it. </p>]]></description>
+         <guid isPermaLink="false">25430198637197</guid>
+         <pubDate>Thu, 28 Mar 2024 19:56:46 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

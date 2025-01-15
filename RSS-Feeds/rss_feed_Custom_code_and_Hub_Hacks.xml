@@ -1,0 +1,2104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Custom code and Hub Hacks</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Hub hack: Change the thumbnail for Stream sharing</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/5695164720653-Hub-hack-Change-the-thumbnail-for-Stream-sharing</link>
+         <description><![CDATA[<p>Use this Custom Code to change the thumbnail of the Share embed tile for your Stream.</p>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>This Hub Hacks is</strong> <strong>only compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<h2><span style="font-weight: 400;">Configure this Hub hack</span></h2>
+<ol>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Add the Custom Code snippet at the bottom of this article to you Hub (see this article to see how it’s done) </span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Create a blog Stream to hold hidden Items you’ll create, with the following steps:</span>
+<ol>
+<li style="font-weight: 400;" aria-level="2">
+<span style="font-weight: 400;">Click </span><strong>Conten</strong><span style="font-weight: 400;">t &gt; </span><strong>New Stream</strong><span style="font-weight: 400;"> &gt; </span><strong>Blog</strong><span style="font-weight: 400;"> </span>
+</li>
+<li style="font-weight: 400;" aria-level="2">
+<span style="font-weight: 400;">Select the </span><strong>Start from Scratch</strong><span style="font-weight: 400;"> option </span>
+</li>
+<li style="font-weight: 400;" aria-level="2">
+<span style="font-weight: 400;">Add a title and description, then click </span><strong>Add your Blog &gt; View Stream</strong>
+</li>
+<li style="font-weight: 400;" aria-level="2">
+<span style="font-weight: 400;">In the </span><strong>Options</strong><span style="font-weight: 400;"> tab, enable </span><strong>No Robots Meta Tag</strong><span style="font-weight: 400;"> </span>
+</li>
+<li style="font-weight: 400;" aria-level="2">
+<span style="font-weight: 400;">Click the meatball (three horizontal dot) button &gt; </span><strong>Hide Stream</strong>
+</li>
+</ol>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">In this blog Stream, go to the Items tab and click the + button to add new Item</span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Within the blog editor, click the </span><strong>Metadata</strong><span style="font-weight: 400;"> tab</span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Add an image URL, or upload the image you want to use as your Share thumbnail</span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In the </span><strong>Tags</strong><span style="font-weight: 400;"> tab, add the tag “og-image”</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Add the Item you created to the Streams where you want to change the Share thumbnail. Place it as the first Item in the Stream</span><span style="font-weight: 400;"><br></span><strong>Note: </strong><span style="font-weight: 400;">Item will be hidden and not shown to your visitors.</span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Share Stream embed tile, and see new thumbnail you placed on the hidden Item</span></li>
+</ol>
+<p><span style="font-weight: 400;">That’s it!</span><span style="font-weight: 400;"><br></span></p>
+<p><span style="font-weight: 400;">You can replace the thumbnail image anytime by replacing the image URL in the metadata tab of the blog Item. </span><strong>Note: </strong><span style="font-weight: 400;">you may need to clear your cache to see the new thumbnail. </span></p>
+<h2><span style="font-weight: 400;">Code Details</span></h2>
+<p><strong>Type:</strong><span style="font-weight: 400;"> CSS</span></p>
+<p><strong>Placement: </strong><span style="font-weight: 400;">Head</span></p>
+<p><strong>Code Snippet: </strong></p>
+<pre><code><span style="font-weight: 400;"> &lt;style data-functionality-name="og-image" &gt;</span><br><span style="font-weight: 400;"> .uf-tile-container .uf-item-tile[data-tags*="og-image"]</span><br><span style="font-weight: 400;"> {</span><br><span style="font-weight: 400;">   display: none !important;</span><br><span style="font-weight: 400;"> }</span><br><span style="font-weight: 400;"> #collection-items .tile[data-tags*="og-image"]</span><br><span style="font-weight: 400;"> {</span><br><span style="font-weight: 400;">   display: none !important;</span><br><span style="font-weight: 400;"> }</span><br><span style="font-weight: 400;"> &lt;/style&gt;</span>
+</code></pre>]]></description>
+         <guid isPermaLink="false">5695164720653</guid>
+         <pubDate>Thu, 21 Apr 2022 22:11:31 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Add canonical tags to all Stream level pages</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4683516381069-Hub-Hack-Add-canonical-tags-to-all-Stream-level-pages</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312" target="_self">Custom Code</a> snippet if you wish to add canonical tags to your Stream pages, which is not possible at the Hub level. Using this Hub hack, the Stream pages will have the canonical tag same as the page URL.</p>
+<p> </p>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<p> </p>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> JavaScript</li>
+<li>
+<strong>Placement:</strong> Body Bottom</li>
+<li>
+<strong>Notes: </strong>You'll need to choose the appropriate code snippet based on the version of the Uberflip Hub Front End that your Hub is using. If you're not sure which version you are on, <a href="https://help.uberflip.com/hc/en-us/articles/360051466431" target="_self">see this article for instructions</a>.</li>
+</ul>
+<p> </p>
+<h2>Code</h2>
+<h4><strong>For Front End V2 Hubs</strong></h4>
+<pre><code>&lt;script&gt;<br>// find if it's stream page<br>const name = document.querySelector('body');<br>if (name.classList.contains('uf-stream-page') == true) {<br>updateCanonical();<br>}<br><br>// insert html - canonical URL<br>function updateCanonical() {<br>// Insert canonical URL = page url <br>const newURL = window.location.href;<br>document.getElementsByTagName('head')[0].innerHTML += `&lt;link rel="canonical" href="${newURL}"&gt;`<br>}<br>&lt;/script&gt;</code></pre>
+<p> </p>
+<h4><strong>For Front End V1 Hubs</strong></h4>
+<pre><code>&lt;script&gt;<br>// find if it's stream page<br>const name = document.querySelector('body');<br>if (name.classList.contains('listing-page') == true) {<br>updateCanonical();<br>}<br><br>// insert html - canonical URL<br>function updateCanonical() {<br>// Insert canonical URL = page url <br>const newURL = window.location.href;<br>document.getElementsByTagName('head')[0].innerHTML += `&lt;link rel="canonical" href="${newURL}"&gt;`<br>}<br>&lt;/script&gt;</code></pre>]]></description>
+         <guid isPermaLink="false">4683516381069</guid>
+         <pubDate>Wed, 09 Mar 2022 17:56:55 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Add a YouTube live stream and chat to an Uberflip Stream</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4422778626829-Hub-Hack-Add-a-YouTube-live-stream-and-chat-to-an-Uberflip-Stream</link>
+         <description><![CDATA[<hr>
+<p><span style="font-weight: 400;">Want to host a YouTube live stream within an Uberflip Stream, complete with live video and the chat? With this </span><a href="https://help.uberflip.com/hc/en-us/articles/360018841312-Add-HTML-CSS-and-JavaScript-to-your-Hub-with-Custom-Code"><span style="font-weight: 400;">Custom Code</span></a><span style="font-weight: 400;">, you can do just that. </span></p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>This Hub Hack is only compatible with Front End V2 Hubs.</strong></p>
+<p>Not sure if your Hub uses Front End V2? See <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">You’ll need to have a </span><a href="https://help.uberflip.com/hc/en-us/articles/360041233912-Set-Up-a-YouTube-Integration"><span style="font-weight: 400;">YouTube integration</span></a><span style="font-weight: 400;"> set up to use this Hub Hack</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">To add <a style="background-color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" href="https://help.uberflip.com/hc/en-us/articles/360018841312-Add-HTML-CSS-and-JavaScript-to-your-Hub-with-Custom-Code">Custom Code</a><span style="font-weight: 400;">, you need to be an Uberflip </span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Account Admin </strong><span style="font-weight: 400;">or </span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Content Manager</strong>
+</li>
+</ul>
+<p> </p>
+<h2>Add a YouTube live stream and chat to an Uberflip Stream</h2>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>If you want to add live stream video <strong>without chat</strong>, only complete step one.</p>
+</div>
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Add a YouTube live stream (scheduled, live, or uploaded) to an Uberflip Stream exactly as you would any other YouTube video</span>
+<ul>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Check out </span><a href="https://help.uberflip.com/hc/en-us/articles/360041233912-Set-Up-a-YouTube-Integration#before-you-begin"><span style="font-weight: 400;">Set Up a YouTube Integration</span></a><span style="font-weight: 400;"> to see how.</span>
+</li>
+</ul>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In the Uberflip sidebar menu, select </span><strong>Hub Options &gt; Advanced, </strong><span style="font-weight: 400;">and check the box that says</span> <strong>Include Item tags for Custom Code</strong>
+<ul>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">This setting will auto-save once clicked</span><em><span style="font-weight: 400;">.</span></em>
+</li>
+</ul>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Add the Custom Code (found at the bottom of this article) to your Hub</span>
+<ul>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">See the full </span><a href="https://help.uberflip.com/hc/en-us/articles/360018841312-Add-HTML-CSS-and-JavaScript-to-your-Hub-with-Custom-Code"><span style="font-weight: 400;">Custom Code guide here</span></a><span style="font-weight: 400;">.</span><em><span style="font-weight: 400;"> </span></em>
+</li>
+</ul>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In Uberflip, </span><a href="https://help.uberflip.com/hc/en-us/articles/360029638391-Use-Tags-on-Your-Items"><span style="font-weight: 400;">tag the YouTube live stream </span><strong>Item</strong></a> <span style="font-weight: 400;">with the tag:</span> <strong><em>itemType.youtubeLive<br></em></strong><strong>Note: </strong><span style="font-weight: 400;">Tag must be written exactly as shown. </span>
+</li>
+</ol>
+<p><span style="font-weight: 400;">That’s it! Your YouTube live stream (with chat) can now be used in your Marketing and Sales Streams in Uberflip.</span></p>
+<p><img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" src="https://help.uberflip.com/hc/article_attachments/4422793714061/Untitled_design__7_.png" alt="Untitled_design__7_.png" width="599" height="363"><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"> </span></p>
+<h2>Code details</h2>
+<p><strong>Type:</strong><span style="font-weight: 400;"> Javascript</span></p>
+<p><strong>Placement:</strong><span style="font-weight: 400;"> Below Footer</span></p>
+<p><strong>Code Snippet:</strong></p>
+<pre><code>&lt;!-- Youtube Live App //--&gt;<br>&lt;script&gt;<br>(function($, Hubs, undefined) {<br>/* run only in the right scenario */<br>if(<br>typeof Hubs.appInstance.pageType !== 'undefined' &amp;&amp;<br>Hubs.appInstance.pageType ==='item' &amp;&amp;<br>( Hubs.Config.externalService === 'youtube' || Hubs.appInstance.itemType == 'youtube' || $('body').hasClass('uf-page-type-youtube') ) &amp;&amp;<br>Hubs.appInstance.currentItemTags !== undefined &amp;&amp;<br>Hubs.appInstance.currentItemTags.indexOf( 'itemType.youtubeLive' ) &gt;= 0<br>){<br>var url_base = 'https://flipbot.uberflip.com/';<br>if(Hubs.appInstance.queryString.env){<br>url_base = Hubs.appInstance.queryString.env === 'stage' ? 'https://uf-flipbot-stage.herokuapp.com/' : 'http://localhost/flipbot/';<br>}<br>$.when( $.getScript(url_base + 'plugins/youtube-live/uf-youtube-live.min.js' ) ).done(function() {<br>ufYoutubeLive.init({debug: true});<br>});<br>}<br>}(window.jQuery, window.Hubs));<br>&lt;/script&gt;<br>
+</code></pre>]]></description>
+         <guid isPermaLink="false">4422778626829</guid>
+         <pubDate>Mon, 24 Jan 2022 21:04:53 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Remove Highlighted Tile from Stream(s) when &quot;Highlight first Item&quot; is selected at Hub Level</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4405569970701-Hub-Hack-Remove-Highlighted-Tile-from-Stream-s-when-Highlight-first-Item-is-selected-at-Hub-Level</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>When "Highlight first Item" is enabled in the <a href="https://help.uberflip.com/hc/en-us/articles/360019901772" target="_self">Hubs Lab settings</a>, the first tile in all Streams will be shown as larger than the other tiles (approx. 4x size):</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/4405656211213/Hubs___Appearance_-_Hubs_Lab_-_Uberflip.png" alt="Hubs___Appearance_-_Hubs_Lab_-_Uberflip.png" width="811" height="146"></p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/4406125494413/Marketing_Stream_for_Yoga.png" alt="Marketing_Stream_for_Yoga.png"></p>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312" target="_self">Custom Code</a> snippet to selectively disable this effect for one or more specified Streams, making the first tile the same size as all other tiles.</p>
+<p> </p>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>This Hub Hack is</strong> <strong>not compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<p> </p>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> CSS/JavaScript</li>
+<li>
+<strong>Placement:</strong> Body Bottom</li>
+</ul>
+<h2>Code</h2>
+<h3>Option 1: Disable the "Highlight tile" in a single Stream</h3>
+<p>This option will disable the "Highlight first Item" effect on a single specified Stream, so that all tiles in that stream are shown as the same size.</p>
+<ul>
+<li>To specify the Stream, replace instances of <em>XXXX </em>in the code with the relevant Stream ID.</li>
+</ul>
+<pre><code>&lt;style&gt;<br>body.listing-page.stream-XXXX #collection-items &gt; ul &gt; li:nth-child(1) img {<br>margin-left: 0px !important;<br>}<br>&lt;/style&gt;<br><br>&lt;script&gt;<br>$("body.listing-page.stream-XXXX #collection-items &gt; ul li.tile.highlight").removeClass("highlight");<br>&lt;/script&gt;</code></pre>
+<h3>Option 2: Disable the "Highlight tile" in multiple Streams</h3>
+<p>This option will disable the "Highlight first Item" effect on multiple specified Streams, so that all tiles in those Streams are shown as the same size.</p>
+<ul>
+<li>To specify the Streams, replace instances of <em>XXXX </em>in the code with the relevant Stream IDs.</li>
+</ul>
+<pre><code>&lt;style&gt;<br>body.listing-page.stream-XXXX #collection-items &gt; ul &gt; li:nth-child(1) img, <br>body.listing-page.stream-XXXX #collection-items &gt; ul &gt; li:nth-child(1) img {<br>margin-left: 0px !important;<br>}<br>&lt;/style&gt;<br><br>&lt;script&gt;<br>$("body.listing-page.stream-XXXX #collection-items &gt; ul li.tile.highlight").removeClass("highlight");<br>$("body.listing-page.stream-XXXX #collection-items &gt; ul li.tile.highlight").removeClass("highlight");<br>&lt;/script&gt;</code></pre>]]></description>
+         <guid isPermaLink="false">4405569970701</guid>
+         <pubDate>Fri, 23 Jul 2021 00:20:25 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Hide breadcrumb links from Item pages</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4405494124813-Hub-Hack-Hide-breadcrumb-links-from-Item-pages</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>Use these <a href="https://help.uberflip.com/hc/en-us/articles/360018841312" target="_self">Custom Code</a> snippets to hide the "breadcrumb links" element that appears near the top of Item pages:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/4405575236877/image.png" alt="image.png"></p>
+<p>You can choose between two options:</p>
+<ul>
+<li>
+<strong><a href="#h_01FB81YDAPCPYGNZ4WTZ3FFMC1" target="_self">Option 1: Hide the Stream link only</a>:</strong> This option will hide just the link back to the Stream level from the breadcrumb links element, leaving the other parts (link to home and the name of the Item) intact</li>
+<li>
+<strong><a href="#h_01FB81YNZNE4XFT0E5V3QX73Y6" target="_self">Option 2: Hide the entire Breadcrumb links element</a>:</strong> This option will hide the entire Breadcrumb links element from the Item page</li>
+</ul>
+<p>For both options, you can also choose whether to apply it universally to all Item pages in a Hub, or just to Item pages when viewed in the context of a specified Streams.</p>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<p> </p>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> CSS</li>
+<li>
+<strong>Placement:</strong> Head</li>
+<li>
+<strong>Notes: </strong>You'll need to choose the appropriate code snippet based on the version of the Uberflip Hub Front End that your Hub is using. If you're not sure which version you are on, <a href="https://help.uberflip.com/hc/en-us/articles/360051466431" target="_self">see this article for instructions</a>.</li>
+</ul>
+<h2>Code</h2>
+<h3 id="h_01FB81YDAPCPYGNZ4WTZ3FFMC1">Option 1: Hide the Stream link only</h3>
+<p>This option will hide just the link back to the Stream level from the breadcrumb links element, leaving the other parts (link to home and the name of the Item) intact.</p>
+<h4>Apply to all Item pages</h4>
+<p>Use the following code to hide the Stream-level link from the breadcrumb links element <strong>across all Item pages in all Streams</strong>.</p>
+<p><strong>For Front End V1 Hubs: </strong></p>
+<pre><code>&lt;style&gt;<br>a.uf-breadcrumb.uf-breadcrumb-stream, <br>.bread-crumbs.item-level span:nth-child(2) {<br>  display: none;<br>}<br>&lt;/style&gt;</code></pre>
+<p><strong>For Front End V2 Hubs: </strong></p>
+<pre><code>&lt;style&gt;<br>#uf-item-container &gt; div &gt; div &gt; nav &gt; ol &gt; li.uf-breadcrumb-home, <br>#uf-item-container &gt; div &gt; div &gt; nav &gt; ol &gt; li.uf-breadcrumb-home {<br>    display: none;<br>}<br>&lt;/style&gt;</code></pre>
+<h4>Apply to Item pages in a specific Stream only</h4>
+<p>Use the following code to hide the Stream-level link from the breadcrumb links element <strong>only on Items pages within a specified Stream</strong>.</p>
+<ul>
+<li>To specify the Streams, replace instances of <em>XXXX </em>in the code with the relevant Stream ID.</li>
+</ul>
+<p><strong>For Front End V1 Hubs </strong></p>
+<pre><code>&lt;style&gt;<br>.stream-XXXX a.uf-breadcrumb.uf-breadcrumb-stream, <br>.stream-XXXX .bread-crumbs.item-level span:nth-child(2) {<br>  display: none;<br>}<br>&lt;/style&gt;</code></pre>
+<p><strong>For Front End V2 Hubs </strong></p>
+<pre><code>&lt;style&gt;<br>.stream-XXXX #uf-item-container &gt; div &gt; div &gt; nav &gt; ol &gt; li.uf-breadcrumb-home<br>{<br>    display: none;<br>}<br>&lt;/style&gt;</code></pre>
+<h3 id="h_01FB81YNZNE4XFT0E5V3QX73Y6">Option 2: Hide the entire Breadcrumb links element</h3>
+<h4>Apply to all Item pages</h4>
+<p>Use the following code to hide the entire breadcrumb links element <strong>across all Item pages in all Streams</strong>.</p>
+<p><strong>For Front End V1 Hubs </strong></p>
+<pre><code>&lt;style&gt;<br>.bread-crumbs {<br>display: none;<br>}<br>&lt;/style&gt;</code></pre>
+<p><strong>For Front End V2 Hubs </strong></p>
+<pre><code>&lt;style&gt;<br>.uf-article-page .uf-article-page-header <br>.uf-breadcrumbs-container .uf-breadcrumbs {<br>display: none;<br>}<br>&lt;/style&gt;</code></pre>
+<h4>Apply to Item pages in a specific Stream only</h4>
+<p>Use the following code to hide the Stream-level link from the breadcrumb links element <strong>only on Items pages within a specified Stream</strong>.</p>
+<ul>
+<li>To specify the Streams, replace instances of <em>XXXX </em>in the code with the relevant Stream ID.</li>
+</ul>
+<p><strong>For Front End V1 Hubs </strong></p>
+<pre><code>&lt;style&gt;<br>.stream-XXXX .bread-crumbs {<br>display: none;<br>}<br>&lt;/style&gt;</code></pre>
+<p><strong>For Front End V2 Hubs </strong></p>
+<pre><code>&lt;style&gt;<br>body[data-stream-id="XXXX"].uf-article-page .uf-article-page-header <br>.uf-breadcrumbs-container .uf-breadcrumbs {<br>display: none;<br>}<br>&lt;/style&gt;</code></pre>]]></description>
+         <guid isPermaLink="false">4405494124813</guid>
+         <pubDate>Wed, 21 Jul 2021 23:40:10 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Rename default form field label &apos;Email&apos; in Form CTA</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360061905992-Hub-Hack-Rename-default-form-field-label-Email-in-Form-CTA</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312" target="_self">Custom Code</a> snippet as a workaround to rename the default form field label 'Email' in a Form CTA to one of your choice.</p>
+<p> </p>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<p> </p>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> JavaScript</li>
+<li>
+<strong>Placement:</strong> Body Bottom</li>
+<li>
+<strong>Notes: </strong>You'll need to choose the appropriate code snippet based on the version of the Uberflip Hub Front End that your Hub is using. If you're not sure which version you are on, <a href="https://help.uberflip.com/hc/en-us/articles/360051466431" target="_self">see this article for instructions</a>.</li>
+</ul>
+<h2>Code</h2>
+<h4><strong>For Front End V2 Hubs</strong></h4>
+<pre><code>&lt;script&gt; <br>function updateEmailCtaLabelLoad() {<br><br>// To add another CTA, copy and paste line below and replace the CTA ID<br>with new CTA ID<br><br>$("section[data-id='<strong>CTA ID GOES HERE</strong>'] <br>.uf-cta-label.uf-cta-activate-label").each(function() { <br>var text = $(this).text(); <br>text = text.replace("Email", "<strong>NEW CTA LABEL NAME</strong>"); <br>$(this).text(text);<br>});<br>}<br><br>function updateEmailCtaLabelActivate() {<br><br>// To add another CTA, copy and paste line below and replace the CTA ID<br>with new CTA ID<br><br>$('section[data-id="<strong>CTA ID GOES HERE</strong>"] <br>.uf-email-field label.uf-cta-label').text('<strong>NEW CTA LABEL NAME</strong>');<br>} <br><br>Hubs.Events.on('load', function(ctaId){ <br>updateEmailCtaLabelLoad(); <br>}); <br>Hubs.Events.on('ctaActivate', function(ctaId){ <br>updateEmailCtaLabelActivate(); <br>});<br><br>&lt;/script&gt;</code></pre>
+<p> </p>
+<h4><strong>For Front End V1 Hubs</strong></h4>
+<pre><code>&lt;script&gt;<br>function updateEmailCtaLabel() {<br><br><em>// To add another CTA, copy and paste line below and replace the CTA ID<br>with new CTA ID</em><br><br>$('div[data-cta-id="<strong><span class="hljs-selector-attr">CTA ID GOES HERE</span></strong>"] <br>div.email-field span').text('<strong>NEW <span class="hljs-selector-attr">CTA LABEL NAME</span></strong>:');<br>}<br><br>Hubs.Events.on('load', function(ctaId){<br>updateEmailCtaLabel();<br>});<br>Hubs.Events.on('ctaActivate', function(ctaId){<br>updateEmailCtaLabel();<br>});<br><br>&lt;/script&gt;</code></pre>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360061905992</guid>
+         <pubDate>Fri, 28 May 2021 21:44:25 GMT</pubDate>
+      </item>
+      <item>
+         <title>Temporarily Disable &apos;Download PDF&apos; button on Gated CTAs with Initial Delay</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360038731452-Temporarily-Disable-Download-PDF-button-on-Gated-CTAs-with-Initial-Delay</link>
+         <description><![CDATA[<hr>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code</a> snippet to prevent an end-user from downloading the PDF prior to the delayed gate displaying.<strong><br></strong></p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Hub Hacks are</strong> <strong>not compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> CSS &amp; Javascript</li>
+<li>
+<strong>Placement:</strong> Body Bottom</li>
+</ul>
+<p> </p>
+<h2>Code</h2>
+<pre class="c-mrkdwn__pre" data-stringify-type="pre">&lt;style&gt;<br>.single-page .uf-disabled {<br>    background: #ddd !<span class="c-mrkdwn__highlight">important</span>;<br>    color: #fff !<span class="c-mrkdwn__highlight">important</span>;<br>    pointer-events: none;<br>  }<br>&lt;/style&gt;<br>&lt;script&gt;<br>var fixGatedCtas = function fixGatedCtas() {<br>  if ($('.cta[data-init-delay]').length !== 0) {<br>    $('.download-pdf').addClass('uf-disabled');<br>    var ctaDelay = parseInt($('.cta[data-init-delay]').attr('data-init-delay')) * 1000;<br>    setTimeout(function () {<br>      $('.download-pdf').removeClass('uf-disabled');<br>    }, ctaDelay + 2000);<br>  }<br>};<br>fixGatedCtas();<br>&lt;/script&gt;</pre>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360038731452</guid>
+         <pubDate>Thu, 23 Jan 2020 18:26:20 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Add a Pulse Effect to All CTAs</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360038165272-Hub-Hack-Add-a-Pulse-Effect-to-All-CTAs</link>
+         <description><![CDATA[<hr>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code</a> snippet to add a subtle "pulsing" animation around all CTAs in a Hub to draw attention to them. <strong><br></strong></p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Hub Hacks are</strong> <strong>not compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> CSS</li>
+<li>
+<strong>Placement:</strong> Head</li>
+<li>
+<strong>Notes: </strong>
+<ul>
+<li>This Hub Hack will affect <strong>all</strong> CTAs (Form and Link) across the entire Hub where it is implemented.</li>
+<li>By default, the color of the pulse effect is a shade of cyan (RGB 0, 138, 189/ HEX <a href="https://www.colorhexa.com/008abd" target="_self">#008abd</a>). To customize the color, change the RGB values in <strong>all</strong> instances of the <a href="https://www.w3schools.com/cssref/func_rgba.asp" target="_self"><em>rgba() </em>function</a> in the code snippet (do not change the <em>alpha</em> value, if present, which is the last of the four values). For example, changing <code class="no-padding">rgba(0,138,189, 0.4)</code> to <code class="no-padding">rgba(206,0,88, 0.4)</code> would change the pulse color from cyan (<a href="https://www.colorhexa.com/008abd" target="_self">#008abd</a>) to rubine red (<a href="https://www.colorhexa.com/ce0058" target="_self">#ce0058</a>).</li>
+</ul>
+</li>
+</ul>
+<p> </p>
+<h2>Example</h2>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360046588732/cta_pulse.gif" alt="cta_pulse.gif"></p>
+<p> </p>
+<h2>Code</h2>
+<pre><code class="css">&lt;style&gt;<br>li.cta,
+.block-cta {
+  box-shadow: 0 0 0 rgba(0,138,189, 0.4);
+  animation: pulse 2s infinite;
+}
+li.cta:hover,
+.block-cta:hover {
+  animation: none;
+}
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0,138,189, 0.4);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 10px rgba(0,138,189, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(0,138,189, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(0,138,189, 0.4);
+    box-shadow: 0 0 0 0 rgba(0,138,189, 0.4);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(0,138,189, 0);
+      box-shadow: 0 0 0 10px rgba(0,138,189, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(0,138,189, 0);
+      box-shadow: 0 0 0 0 rgba(0,138,189, 0);
+  }<br>&lt;/style&gt;</code></pre>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360038165272</guid>
+         <pubDate>Tue, 07 Jan 2020 16:06:38 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Hide the Icon on Item Tile Footer Labels</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360033061072-Hub-Hack-Hide-the-Icon-on-Item-Tile-Footer-Labels</link>
+         <description><![CDATA[<hr>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code</a> snippet to hide the "service icon" that appears next to the button label (e.g. "Read Article", "Watch Video", etc.) on Item Tiles.<strong><br></strong></p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Hub Hacks are</strong> <strong>not compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> CSS</li>
+<li>
+<strong>Placement:</strong> Head</li>
+<li>
+<strong>Notes: </strong>This snippet will both hide the icon and shift the button label left, in line with the Item Tile's title text.</li>
+</ul>
+<p> </p>
+<h2>Screenshot</h2>
+<p><strong>Before:</strong></p>
+<p><strong><img src="https://help.uberflip.com/hc/article_attachments/360037809192/News.png" alt="News.png"></strong></p>
+<p><strong>After:</strong></p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360037799551/News.png" alt="News.png"></p>
+<h2>Code</h2>
+<pre><code class="css">&lt;style&gt;<br>/*-- Hide Icon from Tile Footers --*/
+div.tile.single &gt; a.view, li.tile.single &gt; a.view {<br> padding-left: 20px;<br> background-image: unset;<br>}<br>&lt;/style&gt;</code></pre>]]></description>
+         <guid isPermaLink="false">360033061072</guid>
+         <pubDate>Thu, 05 Sep 2019 20:12:38 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Display Title and Description Above Flipbook</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360030557492-Hub-Hack-Display-Title-and-Description-Above-Flipbook</link>
+         <description><![CDATA[<hr>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code</a> snippet to display the Item title and description above a Flipbook.<strong><br></strong></p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Hub Hacks are</strong> <strong>not compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> JavaScript</li>
+<li>
+<strong>Placement:</strong> Body Bottom (at Hub level) <strong>OR</strong> Item Content (at Item level)</li>
+<li>
+<strong>Notes: </strong>By default, viewing a Flipbook in a Hub will display the Item's title (and description, if present) below the Flipbook. This JavaScript snippet simply moves those elements <em>above</em> the Flipbook. You can choose to apply this behaviour to all Flipbooks in a Hub by placing this snippet at the Hub level, or only to specific Items by placing it at the Item level (see <a href="https://help.uberflip.com/hc/en-us/articles/360018841312#step-1-create-a-custom-code-block">the note in this article</a> for details on this pacement). </li>
+</ul>
+<h2>Code</h2>
+<pre><code>&lt;script&gt;<br>var flipbook = document.querySelector('.single-uberflip');<br> var entryWrapper = document.querySelector('.entry-wrapper');<br> var flipbookParent = flipbook.parentNode;<br> flipbookParent.parentNode.removeChild(flipbookParent);<br> entryWrapper.appendChild(flipbookParent);<br> &lt;/script&gt;</code></pre>]]></description>
+         <guid isPermaLink="false">360030557492</guid>
+         <pubDate>Thu, 11 Jul 2019 19:17:12 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Bypass CTAs on Gated Items With a URL Parameter</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360030101852-Hub-Hack-Bypass-CTAs-on-Gated-Items-With-a-URL-Parameter</link>
+         <description><![CDATA[<hr>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code</a> snippet to automatically dismiss a Form CTA gating an Item when that Item is accessed using a special link.<strong><br></strong></p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> JavaScript</li>
+<li>
+<strong>Placement:</strong> Body Bottom</li>
+</ul>
+<p>This Hub Hack allows you to automatically dismiss the CTA gating an Item when it is accessed from a link that contains a certain URL parameter (which you can customize, if needed).</p>
+<ul>
+<li>Determine <a href="https://help.uberflip.com/hc/en-us/articles/360051466431" target="_self">which version of the Uberflip Hub Front End your Hub is using</a>, then select the appropriate snippet below.</li>
+<li>You can copy and paste the whole code snippet into a Custom Code Block without making any changes. By default, the parameter name that triggers the CTA bypass is set to <code class="no-padding">bypassCta</code> — we recommend changing this to a parameter name of your choice, but it can also be left as-is.</li>
+<li>Once the Hub Hack is in place, you can bypass the CTA by adding <code class="no-padding">?bypassCta</code> (or whatever parameter name you choose) to the end of the URL of a gated Item in your Hub. For example, if the Item <em>My Book</em> is gated with a CTA, the CTA would appear if you go to <em>hub.mycompany.com/ebooks/my-book</em>, but not if you visit <em>hub.mycompany.com/ebooks/my-book<strong>?bypassCta</strong>. </em>
+</li>
+</ul>
+<p> </p>
+<h2>Code</h2>
+<h3>If your Hub uses Front End V1:</h3>
+<pre>&lt;script&gt;<br>/* start bypass CTA function code */<br>$(window).on('load', bypassCTA ); //must fire the bypassCTA function after everything loads, including the CTA<br>function bypassCTA(){<br>// CTA DELAY TIME<br>var ctaDelayMs = parseInt($('.tile.cta-form[data-init-delay]').attr('data-init-delay')*1000);<br>/* change bypassCta (on line below) to the chosen query string value to hide - e.g. ?bypassCta */<br>var hideWithThisParam = 'bypassCta';<br>var params = {};<br>$.each(location.search.substr(1).split('&amp;'), $.proxy(function(idx, pair) {<br>    if (pair === '') return;<br>var parts = pair.split('=');<br>    this[parts[0]] = parts[1] &amp;&amp; decodeURIComponent(parts[1].replace(/\+/g, ' '));<br>}, params));<br>// Delay trigger if CTA has a gating delay<br>if (ctaDelayMs &gt; 0) {   <br>    setTimeout(function(){     <br>            $.each(params, function(idx, val){<br>            if(idx == hideWithThisParam) {<br>        $('.blocking-cta').removeClass('blocking-cta');<br>        $('.hide-embed').removeClass('hide-embed');<br>        $('.block-cta').remove();<br>        $('.possible-block').removeClass('possible-block');<br>        $('.single-uberflip.possible-hidden-embed').removeClass('hide-embed');<br>            }<br>        }); <br>    },ctaDelayMs);<br>} else {<br>    $.each(params, function(idx, val){<br>        if(idx == hideWithThisParam) {<br>    $('.blocking-cta').removeClass('blocking-cta');<br>    $('.hide-embed').removeClass('hide-embed');<br>    $('.block-cta').remove();<br>    $('.possible-block').removeClass('possible-block');   <br>    $('.single-uberflip.possible-hidden-embed').removeClass('hide-embed');<br>        }<br>    });<br>    }<br>}<br>/* end bypass CTA function code */<br>&lt;/script&gt;</pre>
+<h3>If your Hub uses Front End V2:</h3>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p>This code snippet requires the <a href="https://marketplace.uberflip.com/details/compatibility-pack/">Compatibility Pack</a> app to be installed in your Uberflip account to function.</p>
+</div>
+<pre><code class="language-javascript">&lt;script&gt;<br>/* start bypass CTA function code */<br>const bypassCTA = () =&gt; {<br>console.log('event fired');<br>var hideWithThisParam = '<strong>bypassCta</strong>'; <br>/*change bypassCta to the URL parameter value you want to use to hide the CTA */<br>var params = {};<br>$.each(location.search.substr(1).split('&amp;'), $.proxy(function(idx, pair) {<br>if (pair === '') return;<br>console.log(pair);<br>var parts = pair.split('=');<br>this[parts[0]] = parts[1] &amp;&amp; decodeURIComponent(parts[1].replace(/\+/g, ' '));<br>}, params));<br>$.each(params, function(idx, val){<br>if(idx == hideWithThisParam) {<br>console.log('params match');<br>$('.uf-gated-content').removeClass('uf-gated-content');<br>$('.uf-is-gated').removeClass('uf-is-gated');<br>$('.uf-gated-cta-wrapper').remove();<br>}<br>});<br>}<br>window.addEventListener('uberflip.load', () =&gt; {<br>bypassCTA();<br>} ); //must fire the bypassCTA function after everything loads, including the CTA<br>/* end bypass CTA function code */<br>&lt;/script&gt;</code></pre>]]></description>
+         <guid isPermaLink="false">360030101852</guid>
+         <pubDate>Thu, 04 Jul 2019 21:00:24 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Hide Calendly Flipbot Tile in Specific Sales Streams</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360027552652-Hub-Hack-Hide-Calendly-Flipbot-Tile-in-Specific-Sales-Streams</link>
+         <description><![CDATA[<hr>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code</a> snippet if you want to prevent the Calendly Flipbot Tile from appearing in specific Sales Streams.<strong><br></strong></p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Hub Hacks are</strong> <strong>not compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> CSS</li>
+<li>
+<strong>Placement:</strong> Head</li>
+<li>
+<strong>Notes: </strong>You'll need the Stream ID of the Sales Stream that you want to apply this to. You can find it by opening the Sales Stream in your browser and looking at the URL:<br><img src="https://help.uberflip.com/hc/article_attachments/360027558691/mceclip1.png">
+</li>
+</ul>
+<p> </p>
+<h2>Code</h2>
+<pre><code class="css">&lt;style&gt;<br>/* To add a Sales Stream paste in the Stream ID over 'IdNumberHere' */<br>.stream-<span class="wysiwyg-color-red110"><strong>IdNumberHere</strong></span> .flipbot-calendly-cta { <br>display: none;<br>}<br>&lt;/style&gt;</code></pre>]]></description>
+         <guid isPermaLink="false">360027552652</guid>
+         <pubDate>Wed, 01 May 2019 20:58:03 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Customize Sticky Footer Colors</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360025576551-Hub-Hack-Customize-Sticky-Footer-Colors</link>
+         <description><![CDATA[<hr>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code</a> snippet to change the text and background colors of the <a href="https://help.uberflip.com/hc/en-us/articles/360019901772" target="_self">Hubs Lab</a> <strong>Sticky Footer</strong>.<strong><br></strong></p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Hub Hacks are</strong> <strong>not compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> CSS</li>
+<li>
+<strong>Placement:</strong> Head</li>
+</ul>
+<p> </p>
+<h2>Code</h2>
+<p>Remove <em>[background] </em>and <em>[text]</em> (including the square brackets) and replace with the hex codes of the colors you want to use instead.</p>
+<pre><code class="css">&lt;style&gt;<br> /* Custom Sticky Footer Background Color */<br>body.lab_sticky_footer&gt;footer {<br> background: #<strong>[background]</strong>;<br> color: #<strong>[text]</strong>;<br>}<br>&lt;/style&gt;</code></pre>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360025576551</guid>
+         <pubDate>Wed, 20 Mar 2019 21:09:24 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Always Display Full Flipbook Titles</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360024289091-Hub-Hack-Always-Display-Full-Flipbook-Titles</link>
+         <description><![CDATA[<hr>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code</a> snippet to force long Flipbook titles to be displayed in full on Item Tiles, rather than being truncated.<strong><br></strong></p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Hub Hacks are</strong> <strong>not compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> CSS</li>
+<li>
+<strong>Placement:</strong> Head</li>
+</ul>
+<p> </p>
+<h2>Code</h2>
+<pre><code class="css">&lt;style&gt;<br>/* START Always Show Full Title on Flipbook Tiles */<br>.tile.single.uberflip.portrait:not(.list) .description h3.h3like {<br> text-overflow: initial;<br> white-space: normal;<br>}<br>/* END Always Show Full Title on Flipbook Tiles */<br>&lt;/style&gt;</code></pre>]]></description>
+         <guid isPermaLink="false">360024289091</guid>
+         <pubDate>Thu, 21 Feb 2019 17:04:19 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Style the Stream Authentication Login Page</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360024199691-Hub-Hack-Style-the-Stream-Authentication-Login-Page</link>
+         <description><![CDATA[<hr>
+<p>Use these <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code</a> snippets to style the <a href="https://help.uberflip.com/hc/en-us/articles/360020069172">Stream Authentication</a> login page however you want.<strong><br></strong></p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Hub Hacks are</strong> <strong>not compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> CSS</li>
+<li>
+<strong>Placement:</strong> Body Top</li>
+<li>
+<strong>Notes</strong>: These code snippets can be used to target the <a href="https://help.uberflip.com/hc/en-us/articles/360020069172">Stream Authentication</a> login page, allowing you to change its appearance. Choose between two options: target the login pages for all Streams, or just the login page for a specific Stream. Both snippets are intended as a starting point for your own modifications — if you do not change anything, these will simply turn the background color for the login page blue.</li>
+</ul>
+<p> </p>
+<h2>Code</h2>
+<h3>Option 1: All Streams</h3>
+<p>This will modify the appearance of the login page for all Streams in the Hub.</p>
+<pre><code class="html">&lt;style&gt;<br>body.stream-login {<br>background-color: blue;<br>}<br>&lt;/style&gt;</code></pre>
+<p> </p>
+<h3>Option 2: Specific Stream Only</h3>
+<p>This will allow you to modify the appearance of the login page for a specified Stream only. Replace XXXXX in the code with the Stream ID.</p>
+<pre><code class="html">&lt;style&gt;<br>body.stream-login.stream-XXXXX {<br>background-color: blue;<br>}<br>&lt;/style&gt;</code></pre>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360024199691</guid>
+         <pubDate>Wed, 20 Feb 2019 17:15:24 GMT</pubDate>
+      </item>
+      <item>
+         <title>Reference: Uberflip Hub events for JavaScript</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360021648891-Reference-Uberflip-Hub-events-for-JavaScript</link>
+         <description><![CDATA[<hr>
+<p>A reference guide to the various Uberflip-specific HTML events that you can use with Custom Code.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>This article describes Uberflip Hub events that you can hook into when writing JavaScript Custom Code, along with the correct method to use them. To learn more about Custom Code and how to use it on your Hub, see <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">this article</a>.</li>
+</ul>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p>This article describes how to use Hub events in legacy <a href="https://help.uberflip.com/hc/en-us/articles/360051466431" target="_self">Front End V1 Hubs</a>. The same Hub events are available in Front End V2 Hubs, but their usage is different. As a result, the information provided in this article is <strong>not</strong> <strong>applicable if you are working with a Front End V2 Hub</strong>.</p>
+<p>For documentation on how to use Hub events in Front End V2 Hubs, see the <a href="https://developers.uberflip.com/docs/hub-events">Hub events reference guide</a> on <a href="https://developers.uberflip.com/">Uberflip Developers</a>.</p>
+</div>
+<p> </p>
+<h2>Hub events method and usage</h2>
+<p>You can use Uberflip-specific HTML events, called <strong>Hub events</strong>, as triggers for your JavaScript Custom Code. To create event handlers for Hub events, use the following method:</p>
+<pre><code>Hubs.Events.on('eventName', myFunction)</code></pre>
+<p>For <em>eventName</em>, substitute the Hub event to be used (<a href="#h_80344302861546970328603">see table below</a>).</p>
+<p>For <em>myFunction</em>, substitute your JS function. This must be a function <em>declaration</em>, <strong>not</strong> a function <em>call</em>. For example:</p>
+<p><strong>Acceptable (declaration):</strong></p>
+<pre><code>function myFunction() {/*Do action*/}</code></pre>
+<p><strong>Not acceptable (call):</strong></p>
+<pre><code>myFunction()</code></pre>
+<p> </p>
+<h2 id="h_80344302861546970328603">Available Hub events</h2>
+<p>This table lists the Hub events that you can use:</p>
+<ul>
+<li>
+<strong>eventName</strong> lists the eventName to be used in the event handler</li>
+<li>
+<strong>Parameters</strong> lists any parameters for which arguments will be passed to the handler function</li>
+</ul>
+<table style="height: 395px; width: 923px;">
+<tbody>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 10px;"><strong>eventName</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 643.3px;"><strong>Description</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 14.7px;"><strong>Parameters</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 465px;"><strong>Notes</strong></td>
+</tr>
+<tr>
+<td style="width: 10px;">
+<pre>load</pre>
+</td>
+<td style="width: 643.3px;">When major Hub elements are loaded</td>
+<td style="width: 14.7px;">None</td>
+<td style="width: 465px;"> </td>
+</tr>
+<tr>
+<td style="width: 10px;">
+<pre>resize</pre>
+</td>
+<td style="width: 643.3px;">When browser window <em>finishes </em>changing size</td>
+<td style="width: 14.7px;">None</td>
+<td style="width: 465px;">Debounced version of default browser event, i.e. won't fire as soon as or during a size change, only after</td>
+</tr>
+<tr>
+<td style="width: 10px;">
+<pre>scroll</pre>
+</td>
+<td style="width: 643.3px;">When a user <em>finishes</em> a scroll movement</td>
+<td style="width: 14.7px;">None</td>
+<td style="width: 465px;">Debounced version of default browser event, i.e. won't fire as soon as or while a user scrolls, only after</td>
+</tr>
+<tr>
+<td style="width: 10px;">
+<pre>ctaActivate</pre>
+</td>
+<td style="width: 643.3px;">When a user clicks on a Form CTA, and the CTA enters the "Focus" state</td>
+<td style="width: 14.7px;">
+<ul>
+<li>
+<pre><em>ctaId</em></pre>
+</li>
+</ul>
+</td>
+<td style="width: 465px;">Any changes aimed at Form CTAs must be on this event</td>
+</tr>
+<tr>
+<td style="width: 10px;">
+<pre>ctaFormSubmitSuccess</pre>
+</td>
+<td style="width: 643.3px;">When a user submits a Form CTA, and the CTA enters the "Success" state</td>
+<td style="width: 14.7px;">
+<ul>
+<li>
+<pre><em>ctaId</em></pre>
+</li>
+<li>
+<pre><em>ctaData</em></pre>
+</li>
+<li>
+<pre><em>ctaName</em></pre>
+</li>
+</ul>
+</td>
+<td style="width: 465px;"> </td>
+</tr>
+<tr>
+<td style="width: 10px;">
+<pre>itemsLoaded</pre>
+</td>
+<td style="width: 643.3px;">
+<p>When more Items in a Stream load, either when a user reaches the bottom of the page and more Items load automatically, or when the user clicks the "Load More" button</p>
+</td>
+<td style="width: 14.7px;">
+<ul>
+<li>
+<pre><em>itemIds</em></pre>
+</li>
+<li>
+<pre><em>selector</em></pre>
+</li>
+</ul>
+</td>
+<td style="width: 465px;">
+<ul>
+<li>Fires when the additional Items have <em>finished</em> loading, not as soon as they begin to load</li>
+<li>
+<em>itemIds </em>provides an array of the Items that were loaded</li>
+<li>
+<em>selector </em>can be used to get all the elements, e.g with jQuery:
+<pre>"$("+selector+")"</pre>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 10px;">
+<pre>recoItemsLoaded</pre>
+</td>
+<td style="width: 643.3px;">
+<p>When Items served by the <a href="https://help.uberflip.com/hc/en-us/articles/360022410572">Content Recommendations feature</a> <em>finish </em>loading</p>
+</td>
+<td style="width: 14.7px;">None</td>
+<td style="width: 465px;">
+<ul>
+<li>Depending on setup and user screen size, target Items may load in any of the recommendation panel, <em>More Content</em> carousel, or <em>Next Item</em> flyout</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2>Notes</h2>
+<ul>
+<li>Hub events can be chained like other jQuery functions, e.g.
+<pre><code>Hubs.Events<br>  .on('eventName', myFunction)<br>  .on('eventName', myFunction)<br>  ...</code></pre>
+</li>
+<li>Event listeners can be turned off, e.g.<br>
+<pre><code>Hubs.Events.off('scroll')</code></pre>
+</li>
+</ul>]]></description>
+         <guid isPermaLink="false">360021648891</guid>
+         <pubDate>Mon, 07 Jan 2019 23:59:04 GMT</pubDate>
+      </item>
+      <item>
+         <title>Understand and Customize Hub Item Tiles</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020161851-Understand-and-Customize-Hub-Item-Tiles</link>
+         <description><![CDATA[<hr>
+<p>Want to learn how to customize Item Tiles in your Hub? This primer will help you to understand the anatomy of an Item Tile.</p>
+<hr>
+<p> </p>
+<h2>Before you Begin</h2>
+<ul>
+<li>To customize Item Tiles, you'll need at least a basic understanding of HTML.</li>
+</ul>
+<p> </p>
+<h2>About Item Tile Customization</h2>
+<p>Tiles can come in many variations, but every Tile is made up of the same basic parts. In this article, we will look at the building blocks of an Uberflip Hub Item Tile. Once you understand how they're built, you will be able to use that knowledge to customize the Item Tiles in your own Hub. (To get you started, we'll also look at a few example customizations at the end of this article).</p>
+<p> </p>
+<h2>Anatomy of an Item Tile</h2>
+<p>Below is an HTML markup and diagram of an Item Tile:</p>
+<p><a href="https://help.uberflip.com/hc/article_attachments/360015878952/itemeditorimage_54d8e250c8aa0.png"><img src="https://help.uberflip.com/hc/article_attachments/360015878952/itemeditorimage_54d8e250c8aa0.png" alt="itemeditorimage_54d8e250c8aa0.png"></a></p>
+<p><strong>How to read this markup and diagram:</strong></p>
+<p>The <strong>markup</strong> on the left is a simplified HTML tree of a Tile. This is the code that determines the look and feel of the Tile.</p>
+<p>The <strong>diagram</strong> on the right represents the Tile that results from the HTML shown on the left. The numbered elements in the diagram correspond to the line numbers in the markup.</p>
+<p>Some other formatting notes:</p>
+<ul>
+<li>
+<p><span style="line-height: 1.5;">Any markup in <em>italics</em> denotes markup that doesn’t always exist for each tile</span></p>
+</li>
+<li>
+<p>Any <strong>bold</strong> tags denote that the tag isn’t always the same (e.g. sometimes the &lt;li&gt; tag is a &lt;div&gt;)</p>
+</li>
+<li>
+<p>Any [variables] in square brackets denote...you guessed it, variables! </p>
+<p> </p>
+</li>
+</ul>
+<h2>Line-by-Line</h2>
+<p>Let's look at the markup line-by-line to understand what each line does.</p>
+<p><strong>Tip: </strong>The image above is linked — right-click on it and open it in a new tab or window so you can easily refer to it as you read about each line below.</p>
+<h3>Line 1</h3>
+<p>This is the main container of a tile. Depending on where it lives within a Hub, this container can either be an &lt;li&gt; or a &lt;div&gt; but in either case both look exactly the same.</p>
+<p>The variable in the class list [item-service] is what you would expect - the service type of the Item - i.e. <em>instagram, facebook, blogpost, youtube</em>, etc. There are other classes which may be included that will get covered later on.</p>
+<p>​​The standard dimensions of a tile are 250 pixels wide by 330 pixels high. This varies under the following conditions:</p>
+<ul>
+<li>When a tile is “Highlighted” (using the Lab feature “Highlight first Item”) then these dimensions roughly double to 520 pixels wide by 680 pixels high. The &lt;li&gt; (or &lt;div&gt;) will include a class “highlight” in this case.</li>
+<li>On mobile, or more specifically on screens narrower than 560 pixels, the dimensions change to 100% wide by 370 pixels high.</li>
+</ul>
+<h3>Line 2</h3>
+<p>When an Item is featured on the home of your Hub, the star icon will display, otherwise this markup will not be rendered.</p>
+<h3>Line 3</h3>
+<p>If an Item has a thumbnail to display, the image container will be rendered. the &lt;li&gt; (or &lt;div&gt;) will also include a class “with-img”, otherwise a class “no-img”. The image container’s height is standardized for the most part at roughly 41% of the total height of the tile. Here are the exceptions:</p>
+<ul>
+<li>Instagram tiles have the image set 56% since they are always square (it’s more than 50% because the image itself is scaled larger than the width of the tile to account for any Instagram borders applied)</li>
+<li>Flipbooks (which confusingly have an &lt;li&gt; class “uberflip”) have their image height set to 88% because they’re predominantly portrait document covers. That said when a Flipbook cover is landscape the default height (41%) is used.</li>
+</ul>
+<h3>Line 4</h3>
+<p>For any video services (YouTube, Vimeo, Wistia, etc.) a play button displays overtop of the image.</p>
+<h3>Line 5</h3>
+<p>This is the thumbnail image itself. Uberflip uses an image proxy to resize and scale images from around the web to a standard size of 500 pixels wide by 272 pixels high. This is to ensure we don’t overload your visitors with massive images when in most cases only a 250 pixel wide area is visible. For example if one of your blog posts was an infographic, and that infographic was the image our system automatically picked us as the “thumbnail”, imagine what would happen if we squeezed that infographic into a tile - a lot of wasted bandwidth, and a bad user experience in general. That said, not all images are passed through this image proxy:</p>
+<ul>
+<li>YouTube, Vimeo, Slideshare, Instagram: All these services provide an already standardized thumbnail image through their API</li>
+<li>Uberflip Flipbooks: the cover image is already returned in a suitable size (since we’re in control over this image)</li>
+</ul>
+<h3>Line 6</h3>
+<p>Much like the play button, for any video tiles the duration of the video is displayed here.</p>
+<h3>Line 7</h3>
+<p>The Description container. This is always present as every tile has some form of a description. </p>
+<h3>Line 8</h3>
+<p>This container holds the friendly timestamp that represents the created or published date of the Item. This element is omitted when an Item is “featured” because a featured Item may have been created long ago and should not detract a visitor from clicking on a featured item.</p>
+<h3>Line 9</h3>
+<p>The friendly timestamp is displayed as either “about x hours ago”, “a day ago”, “x days ago”, “about a month ago” or “x months ago.</p>
+<h3>Line 10</h3>
+<p>Social avatar. This displays for any social Item tile such as Twitter, Facebook or Instagram. For all other types of tiles this element is omitted.</p>
+<h3>Line 11</h3>
+<p>The title or heading of the Item is always displayed, however it serves different purposes in different cases. For social tiles, where there is an avatar, this element is given the class “avatar” and is populated with the service’s user name. For example a Twitter account name (not the @handle). For non-social tiles, such as Blog Articles (blogpost), Videos (youtube, vimeo, wistiar, vidyard, etc.) or Docs (uberflip, slideshare) this is the title of the Item. The size in which it displays, both for social and non-social, depends on whether or not there’s an image for this tile (which as we learned from line 3, the &lt;li&gt; (or &lt;div&gt;) main container will include a class “no-img”.</p>
+<p>You should also note that this element is not always a &lt;h3&gt; - it may be a &lt;div&gt;. This is for SEO purposes depending on where tiles are displayed in a Hub. Regardless, this element will always have the class “h3like” so that it can share styling.</p>
+<h3>Line 12</h3>
+<p>The subtitle (Item description or social update) element, &lt;h4&gt;, is not always displayed. For social tiles, this represents the tweet, facebook update or first comment on an instagram photo. In those cases this element always displays. But like the title, its size is determined by whether or not an image exists for the tile. For non-social items, the subtitle or description may not display for the following reasons:</p>
+<ul>
+<li>There is no description! Most Flipbooks (unless given a description manually) will not have a description.</li>
+<li>The tile includes an image, and the title is longer than 30 characters. In this case the element renders, but is hidden by default. The &lt;h4&gt; will include a class “long-h3” in this case. With custom CSS you can easily override this behaviour and show the element.</li>
+</ul>
+<h3>Line 13</h3>
+<p>The share icons that display over top of the tile on hover (when the share option is enabled) is a set of elements that we won't dive deeply into here. The styling of these share buttons can however be altered just like any other element of a Tile.</p>
+<h3>Line 14</h3>
+<p>The footer of each tile, and also its main call-to-action, always displays. It is the container in which the Item’s service Icon, actionable label and arrow display, and is the main link to the content of this Item. The service icon is set as a background on this element, and is targeted by the main container &lt;li&gt; (or &lt;div&gt;) having the service name as a class value (i.e. &lt;li class=”tile ... twitter”&gt;).</p>
+<h3>Line 15</h3>
+<p>Using CSS magic, this element creates a fading effect for the description should it bleed below the start of the footer.</p>
+<h3>Line 16</h3>
+<p>This element holds the Verb and Noun for this title (i.e. “Read Article”). Each of these can be customized in the application under <em>Appearance &gt; Custom Labels</em>.</p>
+<h3>Line 17</h3>
+<p>This is how the arrow or chevron on the right of each tile’s footer is rendered.</p>
+<h3>Line 18</h3>
+<p>You may notice that more than just the tile’s footer is a link. This additional link element is positioned over the entire tile, making the whole area of a tile actionable.</p>
+<p> </p>
+<h2>Customization Examples</h2>
+<p>Now that you've got the basic knowledge of how an Item Tile is created, let's see how you can modify its appearance with a set of examples. These examples will not focus on best CSS practices - you know those already!</p>
+<p> </p>
+<h3>Example 1: Round the corners of your tiles</h3>
+<pre><code class="css">li.tile.single, div.tile.single{
+   border-radius:5px;
+}</code></pre>
+<p>This will round the corners of ALL tiles. Notice we covered our bases by include by &lt;li&gt; and &lt;div&gt; declarations. While you can get away with just "<em>.tile.single"</em> you're better off being as specific as possible. That said, for future examples we'll omit this to simplify the example.</p>
+<p>And, of course you'll want to add the <em>-moz</em> and <em>-webkit</em> variants for border-radius. You should note that this will also round the corners of your CTAs. If for any reason you didn't want that, you can do this:</p>
+<pre><code class="css">.tile.single:not(.cta){
+   border-radius:5px;
+}</code></pre>
+<p>Now let's say you wanted to round the corners of your Twitter tiles even more (i.e. 25px):</p>
+<pre><code class="css">.tile.single.twitter{
+   border-radius:25px;
+}</code></pre>
+<p> </p>
+<h3>Example 2: Hide the footer of all tiles</h3>
+<p>Not everyone loves the bottom of the tiles that read "Read Article" or "View Tweet" - you can get rid of the footer easily:</p>
+<pre><code class="css">.tile.single &gt; a.item-link.view{
+   display:none;
+}</code></pre>
+<p>Note this will also hide the fading effect for when the description bleeds since it lives within this element.</p>
+<p> </p>
+<h3>Example 3: Change the footer service icon</h3>
+<p>Not loving the little icons at the left of the footer for each service? Maybe you want your standard video icon instead of Wistia's logo. Easy fix:</p>
+<pre><code class="css">.tile.single.wistiar &gt; a.item-link.view{
+  background:transparent url(http://yoursite.com/your-icon.png) 3px 5px no-repeat;
+}</code></pre>
+<p><em>(A special note about Wistia's service tag. For reasons not worth explaining, the service tag for Wistia is wistia<strong>r </strong>with an "r" on the end.)</em></p>
+<p>That may need some tweaking based on the size of your icon and the desired look, but you should get the idea.</p>
+<p>And there you have it! Now that you have a good understanding of the way Hub Item Tiles work, feel free go and create your own customizations!</p>]]></description>
+         <guid isPermaLink="false">360020161851</guid>
+         <pubDate>Fri, 23 Nov 2018 18:06:18 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Stop Side CTAs from Scrolling</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360019922692-Hub-Hack-Stop-Side-CTAs-from-Scrolling</link>
+         <description><![CDATA[<hr>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code</a> snippet to stop Side CTAs from moving down as you scroll the page.<strong><br></strong></p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Hub Hacks are</strong> <strong>not compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> JavaScript</li>
+<li>
+<strong>Placement:</strong> Body Bottom</li>
+<li>
+<strong>Notes: </strong>By default, Side CTAs will float in the same place onscreen as a page is scrolled down. This Custom Code will instead fix the Side CTA to the right side of the screen so that it only appears if you're at the very top or very bottom of the page.</li>
+</ul>
+<p> </p>
+<h2>Code</h2>
+<pre><code class="javascript">&lt;script&gt;<br>function throttle(callback, limit) {
+	var wait = false;
+	return function () {
+		if (!wait) {
+			callback.call();
+			wait = true;
+			setTimeout(function () {
+				wait = false;
+			}, limit);
+		}
+	}
+}
+
+function addThisFixScroll() {
+	if ($(window).width() &gt; 1101 &amp;&amp; $('.entry-wrapper').length) {
+		var windowTop = $(window).scrollTop();
+		var addThis = $('.addthis_toolbox');
+		var sideCta = $('.cta-item-container .cta');
+		var addThisH = addThis.height()
+		var sideCtaH = sideCta.height()
+		var articleTop = $('article .meta-wrapper').eq(0).offset().top;
+		var articleBottom = $('article').eq(0).offset().top + $('article').height();
+		var topNavBuffer = $('#header').height();
+		addThis.css('top', articleTop - windowTop);
+		sideCta.css('top', articleTop - windowTop);
+		if (windowTop + topNavBuffer &gt; articleTop) {
+			addThis.css('top', topNavBuffer);
+			sideCta.css('top', topNavBuffer);
+		}
+		if (windowTop + topNavBuffer + Math.max(addThisH, sideCtaH) &gt; articleBottom) {
+			addThis.css('top', articleBottom - sideCtaH - windowTop);
+			sideCta.css('top', articleBottom - sideCtaH - windowTop);
+		}
+	}
+}
+$(function () {
+	$('.cta-item-container .cta,.addthis_toolbox').css({
+		transition: "all .2 ease-out"
+	})
+})
+$(window).on('resize scroll scrollstart scrollstop', throttle(function (e) {
+	addThisFixScroll();
+}, 12));<br>&lt;/script&gt;</code></pre>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360019922692</guid>
+         <pubDate>Fri, 23 Nov 2018 17:33:25 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Stop Images from Stretching on Mobile Devices</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020160731-Hub-Hack-Stop-Images-from-Stretching-on-Mobile-Devices</link>
+         <description><![CDATA[<hr>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code</a> snippet as a fix if your Hub's images are getting stretched when viewed on mobile devices.<strong><br></strong></p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Hub Hacks are</strong> <strong>not compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> CSS</li>
+<li>
+<strong>Placement:</strong> Head</li>
+<li>
+<strong>Notes: </strong>Can be placed in the Custom Code on individual Items if needed.</li>
+</ul>
+<p> </p>
+<h2>Code</h2>
+<pre><code class="css">&lt;style&gt;<br>.img {height: auto}<br>&lt;/style&gt;</code></pre>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360020160731</guid>
+         <pubDate>Fri, 23 Nov 2018 17:28:07 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Remove Your Logo on an Embedded Hub</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360019922092-Hub-Hack-Remove-Your-Logo-on-an-Embedded-Hub</link>
+         <description><![CDATA[<hr>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code</a> snippet to remove the logo from the top of a Hub (when the Hub is embedded in your website).<strong><br></strong></p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Hub Hacks are</strong> <strong>not compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> CSS</li>
+<li>
+<strong>Placement:</strong> Head</li>
+</ul>
+<p> </p>
+<h2>Code</h2>
+<pre><code class="css">&lt;style&gt;<br>.top-nav h1 a {display: none}<br>.top-nav .left-nav.desktop {left: inherit}<br>.left-nav {margin-left: 0}<br>&lt;/style&gt;</code></pre>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360019922092</guid>
+         <pubDate>Fri, 23 Nov 2018 17:08:11 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Remove the Timestamp on Tiles and Items</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020160331-Hub-Hack-Remove-the-Timestamp-on-Tiles-and-Items</link>
+         <description><![CDATA[<hr>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code</a> snippet to remove the timestamps displayed on Tiles and Items.</p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Hub Hacks are</strong> <strong>not compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> CSS</li>
+<li>
+<strong>Placement:</strong> Head</li>
+</ul>
+<p> </p>
+<h2>Code</h2>
+<h3>For Tiles</h3>
+<pre><code class="css">&lt;style&gt;<br>.friendly-timestamp {
+
+display:none;<br><br>}<br>&lt;/style&gt;</code></pre>
+<p> </p>
+<h3>For Items</h3>
+<pre><code class="css">&lt;style&gt;<br>span.date {
+
+display:none;
+
+}<br>&lt;/style&gt;</code></pre>]]></description>
+         <guid isPermaLink="false">360020160331</guid>
+         <pubDate>Fri, 23 Nov 2018 17:04:26 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Remove Sharing Buttons From a Specific Stream&apos;s Items</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020159891-Hub-Hack-Remove-Sharing-Buttons-From-a-Specific-Stream-s-Items</link>
+         <description><![CDATA[<hr>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code</a> snippet to remove the social sharing buttons from only a specific Stream (and the items inside).<strong><br></strong></p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Hub Hacks are</strong> <strong>not compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> CSS</li>
+<li>
+<strong>Placement:</strong> Head</li>
+<li>
+<strong>Notes: </strong>For each instance of <em>.stream-######</em>, replace the #s with the Stream ID.</li>
+</ul>
+<p> </p>
+<h2>Code</h2>
+<pre><code class="css">&lt;style&gt;<br>.stream-###### .right-side-btns,<br>.stream-###### .share-single,<br>.stream-######.single-page .right-side-btns,<br>.stream-######.single-page .addthis_internal_container {<br> display: none;<br>}<br>&lt;/style&gt;</code></pre>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360020159891</guid>
+         <pubDate>Fri, 23 Nov 2018 16:35:22 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Remove Logo in the Top Navigation Bar</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360019921412-Hub-Hack-Remove-Logo-in-the-Top-Navigation-Bar</link>
+         <description><![CDATA[<hr>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code</a> snippet to remove the logo (or company name) from the navigation bar at the top of the Hub.<strong><br></strong></p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Hub Hacks are</strong> <strong>not compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> CSS</li>
+<li>
+<strong>Placement:</strong> Head</li>
+</ul>
+<p> </p>
+<h2>Code</h2>
+<pre><code class="css">&lt;style&gt;<br>/*-- De-branded Top Nav --*/<br>.top-nav .secondary-logo {<br> display: none;<br>}<br>.top-nav .left-nav {<br> margin: 0!important;<br> left: 0!important<br>}<br>&lt;/style&gt;</code></pre>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360019921412</guid>
+         <pubDate>Fri, 23 Nov 2018 16:30:43 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Remove Featured Star</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360019905592-Hub-Hack-Remove-Featured-Star</link>
+         <description><![CDATA[<hr>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code</a> snippet to remove the star badge from Featured Items.<strong><br></strong></p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Hub Hacks are</strong> <strong>not compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> CSS</li>
+<li>
+<strong>Placement:</strong> Head</li>
+</ul>
+<p> </p>
+<h2>Code</h2>
+<pre><code class="css">&lt;style&gt;<br>.tile.single .icon{
+    display:none;
+}<br>&lt;/style&gt;</code></pre>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360019905592</guid>
+         <pubDate>Thu, 22 Nov 2018 23:22:52 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Open Tiles in a New Window When &quot;Auto Redirect to Item&apos;s Canonical URL&quot; is Enabled</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020047511-Hub-Hack-Open-Tiles-in-a-New-Window-When-Auto-Redirect-to-Item-s-Canonical-URL-is-Enabled</link>
+         <description><![CDATA[<hr>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code</a> snippet to force Tiles to open in a new browser window when clicked.<strong><br></strong></p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Hub Hacks are</strong> <strong>not compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> JavaScript</li>
+<li>
+<strong>Placement:</strong> Body Bottom</li>
+<li>
+<strong>Notes: </strong>If you're using the <em>Auto Redirect to Item's Canonical URL</em> option on a Stream, this will open the link in a new browser window when any Tile in the Stream is clicked.</li>
+</ul>
+<p> </p>
+<h2>Code</h2>
+<pre><code class="javascript">&lt;script&gt;<br>Hubs.onLoad = Hubs.onPageChange = Hubs.onItemsLoaded = function(){<br> $("a.item-link[data-internal=false]").attr("target", "_blank");<br>};<br>&lt;/script&gt;</code></pre>]]></description>
+         <guid isPermaLink="false">360020047511</guid>
+         <pubDate>Tue, 20 Nov 2018 21:51:45 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Open Tiles in a New Tab</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360019830592-Hub-Hack-Open-Tiles-in-a-New-Tab</link>
+         <description><![CDATA[<hr>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code</a> snippet to force Item Tiles to open in a new browser tab when clicked.<strong><br></strong></p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Hub Hacks are</strong> <strong>not compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> JavaScript</li>
+<li>
+<strong>Placement:</strong> Body Bottom</li>
+</ul>
+<p> </p>
+<h2>Code</h2>
+<pre><code class="javascript">&lt;script&gt;<br>/*-- Tiles open in new tabs, modify jQuery selector to specify target --*/<br>Hubs.onLoad = Hubs.onPageChange = Hubs.onItemsLoaded = function(){<br> console.log("DOM ready");<br> $('.tile a.item-link').attr({"target": "_blank", "data-internal": "false"}).removeClass('hooked').off();<br>};<br>&lt;/script&gt;</code></pre>]]></description>
+         <guid isPermaLink="false">360019830592</guid>
+         <pubDate>Tue, 20 Nov 2018 21:46:12 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Make Very Long Descriptions Appear on Tiles</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360019782912-Hub-Hack-Make-Very-Long-Descriptions-Appear-on-Tiles</link>
+         <description><![CDATA[<hr>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code</a> snippet to force the descriptions on Item Tiles to be displayed, even if they are longer than the normal truncation limit of 27 characters.<strong><br></strong></p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Hub Hacks are</strong> <strong>not compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> CSS</li>
+<li>
+<strong>Placement:</strong> Head</li>
+</ul>
+<p> </p>
+<h2>Code</h2>
+<pre><code class="css">&lt;style&gt;<br>.tile.single.with-img .description h4.long-h3 {
+display: block;
+}<br>&lt;/style&gt;</code></pre>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360019782912</guid>
+         <pubDate>Mon, 19 Nov 2018 21:57:24 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack:  Make Tile Descriptions Slide Up on Hover</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360019782652-Hub-Hack-Make-Tile-Descriptions-Slide-Up-on-Hover</link>
+         <description><![CDATA[<hr>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code</a> snippet to make the descriptions on Item Tiles expand (slide up) when the mouse is hovered over them.<strong><br></strong></p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Hub Hacks are</strong> <strong>not compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> CSS</li>
+<li>
+<strong>Placement:</strong> Head</li>
+</ul>
+<p> </p>
+<h2>Screenshot</h2>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360015628112/itemeditorimage_57f40d0719364.gif" alt="itemeditorimage_57f40d0719364.gif" width="699" height="510"></p>
+<p> </p>
+<h2>Code</h2>
+<pre><code class="css">&lt;style&gt;<br>/*-- Tile Description Pop-up Hover --*/
+#collection-items .tile .description {
+	-webkit-transition: all 0.4s ease-out;
+	transition: all 0.4s ease-out;
+}
+
+#collection-items .tile:hover .description {
+	height: 100%;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+#collection-items .tile .share-single {
+	display: none;
+}<br>&lt;/style&gt;</code></pre>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360019782652</guid>
+         <pubDate>Mon, 19 Nov 2018 21:53:30 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Import a Custom Font into a CTA</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020004271-Hub-Hack-Import-a-Custom-Font-into-a-CTA</link>
+         <description><![CDATA[<hr>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code</a> snippet to use a custom font in one (or multiple) CTAs.<strong><br></strong></p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Hub Hacks are</strong> <strong>not compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> CSS</li>
+<li>
+<strong>Placement:</strong> Head</li>
+<li>
+<strong>Notes: </strong>This method uses <em>@import</em> to bring in a web-hosted font using its URL, so you will need the URL for the font you want to use. The code snippet below uses a Google Font called <em>Lobster. </em>Replace the URL and <em>font-family</em> with the appropriate details for the font you want to use. Under <em>#hub-cta-#####</em>, replace the trailing series of hashes with the ID for your CTA(s).</li>
+</ul>
+<p> </p>
+<h2>Code</h2>
+<pre><code class="css">&lt;style&gt;<br>@import url('http://fonts.googleapis.com/css?family=Lobster');
+
+#hub-cta-##### p{
+    font-family: 'Lobster';
+}<br>&lt;/style&gt;</code></pre>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360020004271</guid>
+         <pubDate>Mon, 19 Nov 2018 21:49:50 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Force Link CTAs to Open in the Same Window</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360019782352-Hub-Hack-Force-Link-CTAs-to-Open-in-the-Same-Window</link>
+         <description><![CDATA[<hr>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code</a> snippet to force Link CTAs to open in the same window, rather than a new window.<strong><br></strong></p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Hub Hacks are</strong> <strong>not compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> JavaScript</li>
+<li>
+<strong>Placement:</strong> Body Bottom</li>
+</ul>
+<p> </p>
+<h2>Code</h2>
+<pre><code class="javascript">&lt;script&gt;<br>Hubs.onLoad = Hubs.onPageChange = Hubs.onItemsLoaded = function removeOpenInNewWindow() {
+   $('.cta-button').each(function()  {
+       $(this).attr('target', '_parent');
+   });
+}<br>&lt;/script&gt;</code></pre>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360019782352</guid>
+         <pubDate>Mon, 19 Nov 2018 21:44:13 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Force Descriptions for Flipbook Items to be the Same Height</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020003891-Hub-Hack-Force-Descriptions-for-Flipbook-Items-to-be-the-Same-Height</link>
+         <description><![CDATA[<hr>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code</a> snippet to force the descriptions on Flipbook Items to be a uniform height, regardless of the Flipbook's layout.<strong><br></strong></p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Hub Hacks are</strong> <strong>not compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> CSS</li>
+<li>
+<strong>Placement:</strong> Head</li>
+</ul>
+<p> </p>
+<h2>Code</h2>
+<pre><code class="css">&lt;style&gt;<br>/*--Same Height Descriptions--*/
+
+.tile.single.uberflip.portrait:not(.list) .description {
+	height: 58.90052356%;
+	background-color: #fff;
+}
+
+.tile.single.uberflip.portrait:not(.list) .description h3 {
+	overflow: visible;
+	white-space: normal;
+	font-size: 19px;
+}<br>&lt;/style&gt;</code></pre>]]></description>
+         <guid isPermaLink="false">360020003891</guid>
+         <pubDate>Mon, 19 Nov 2018 21:39:36 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Enlarge Small Blog Post Images in a Lightbox</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360019781812-Hub-Hack-Enlarge-Small-Blog-Post-Images-in-a-Lightbox</link>
+         <description><![CDATA[<hr>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code</a> snippet to allow users to enlarge small images on blog posts with a lightbox effect.<strong><br></strong></p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Hub Hacks are</strong> <strong>not compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> CSS, JavaScript</li>
+<li>
+<strong>Placement:</strong> Head (CSS), Body Bottom (JavaScript)</li>
+<li>
+<strong>Notes: </strong>Must be placed at the Item level - not in the Hub's Custom Code section.</li>
+</ul>
+<p> </p>
+<h2>Setup</h2>
+<p>You'll also have to do the following for each Item on which you want the hover effect to work:</p>
+<ol>
+<li>Log in to Uberflip and <strong>navigate to an Item on your Hub</strong> on which you want to enable the lightbox effect. This should be an item that <strong>contains an image.</strong>
+</li>
+<li>First, open the Item and grab the URL for the image that you want to enable the effect on.</li>
+<li>Now, return to the Stream view and click on <strong>Edit Item</strong>.</li>
+<li>In the <strong>Edit Article</strong> view, go to the <strong>Editor</strong> tab and click on the <strong>&lt;&gt;Source </strong>button in the menu bar.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360014929452/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png" width="853" height="86">
+</li>
+<li>This will open the HTML view of the post. Locate the image, and <strong>wrap it within &lt;a&gt; tags.</strong>
+</li>
+<li>Put a class of <em>lightbox_trigger</em> on the &lt;a&gt; tag.</li>
+<li>Lastly, put <strong>the URL for your image</strong> on the href in your &lt;a&gt; tag.</li>
+<li>Here's an <strong>example</strong> of what this might look like:<br>
+<pre>&lt;a class="lightbox_trigger" href="YOUR IMAGE SRC GOES HERE"&gt;<br> &lt;img alt="" class="image_edit" src="YOUR IMAGE SRC GOES HERE" /&gt;<br>&lt;/a&gt;</pre>
+</li>
+<li>Now, click on the <strong>Custom Code</strong> tab.<br>
+<ul>
+<li>This has to be the Custom Code tab on the <strong>Item</strong> - not Custom Code for your Hub!</li>
+</ul>
+</li>
+<li>
+<strong>Add the code snippets below</strong> to your Item's Custom Code.</li>
+</ol>
+<p> </p>
+<h2>Code</h2>
+<h3>CSS</h3>
+<pre><code class="css">&lt;style&gt;<br>#lightbox {
+    position:absolute;
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%; 
+    background: rgba(0, 0, 0, 0.75);
+    text-align:center;
+    z-index: 70000;
+    padding: 8em 0;
+}
+
+.little_lightbox {
+    display:inline-block;
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    padding: 1em;
+    position: absolute;
+    right: 0;
+}
+
+#lightbox img {
+    box-shadow:0 0 25px #111;
+    -webkit-box-shadow:0 0 25px #111;
+    -moz-box-shadow:0 0 25px #111;
+    max-width:940px;
+}<br>&lt;/style&gt;</code></pre>
+<p> </p>
+<h3>JavaScript</h3>
+<pre><code class="javascript">&lt;script&gt;<br>jQuery(document).ready(function($) {
+	
+	$('.lightbox_trigger').click(function(e) {
+		
+		e.preventDefault();
+		
+		var image_href = $(this).attr("href");
+		
+		var lightbox = 
+		'&lt;div id="lightbox"&gt;' +
+			'&lt;p class="little_lightbox"&gt;Click box to close&lt;/p&gt;' +
+			'&lt;div id="content"&gt;' + 
+				'&lt;img src="' + image_href +'" /&gt;' +
+			'&lt;/div&gt;' +	
+		'&lt;/div&gt;';
+				
+		//insert lightbox HTML into page
+		$('body').append(lightbox);
+
+		
+	});
+	
+	$('body').on('click', '#lightbox', function() { 
+		$('#lightbox').detach();
+	});
+	
+	 $(document).on("click", ".dialog", function(e) {
+        e.stopPropagation();
+        return false;
+    });   
+});,<br>&lt;/script&gt;</code></pre>]]></description>
+         <guid isPermaLink="false">360019781812</guid>
+         <pubDate>Mon, 19 Nov 2018 21:21:51 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Display Full Portrait Flipbook Covers on Tiles</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360018890592-Hub-Hack-Display-Full-Portrait-Flipbook-Covers-on-Tiles</link>
+         <description><![CDATA[<hr>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code</a> snippet to display the full cover of a Flipbook (in portrait orientation) on Item Tiles.<strong><br></strong></p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Hub Hacks are</strong> <strong>not compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> CSS</li>
+<li>
+<strong>Placement:</strong> Head</li>
+</ul>
+<p> </p>
+<h2>Code</h2>
+<pre><code class="css">&lt;style&gt;<br>#collection-items &gt; ul &gt; li.tile.single.uberflip.portrait &gt; a.item-link.view.hooked{<br>display:none;<br>}<br>#collection-items &gt; ul &gt; li.tile.single.uberflip.portrait &gt; div.description {<br>display:none;<br>}<br>&lt;/style&gt;</code></pre>
+<p><strong>Or:</strong></p>
+<pre><code class="css">&lt;style&gt;<br>#collection-items &gt; ul &gt; li.tile.single.uberflip.portrait &gt; a.item-link.view.hooked, #collection-items &gt; ul &gt; li.tile.single.uberflip.portrait &gt; div.description {<br>display:none;<br>}<br>&lt;/style&gt;</code></pre>]]></description>
+         <guid isPermaLink="false">360018890592</guid>
+         <pubDate>Wed, 07 Nov 2018 19:35:13 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Create a Hover Effect on Linked Images</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360019195191-Hub-Hack-Create-a-Hover-Effect-on-Linked-Images</link>
+         <description><![CDATA[<hr>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code</a> snippet to create an effect when a user hovers their mouse over an image in an Item.<strong><br></strong></p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Hub Hacks are</strong> <strong>not compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> CSS</li>
+<li>
+<strong>Placement:</strong> Head</li>
+<li>
+<strong>Notes: </strong>The hover effect is often used as a subtle way of indicating to users that clicking on an image does something, like linking to another article or site. You'll need at least <strong>a basic understanding of CSS</strong> to do this.</li>
+</ul>
+<p> </p>
+<h2>Setup</h2>
+<p>In addition to adding some Custom Code to your Hub, you'll also have to do the following for each Item on which you want the hover effect to work:</p>
+<ol>
+<li>Log in to Uberflip and <strong>navigate to an Item on your Hub</strong> on which you want to enable the hover effect. This should be an item that <strong>contains an image with a link,</strong> or to which you want to add an image with a link.</li>
+<li>Click on <strong>Edit Item</strong>.</li>
+<li>In the <strong>Edit Article</strong> view, go to the <strong>Editor</strong> tab and click on the <strong>&lt;&gt;Source </strong>button in the menu bar.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360014929452/Hubs___Edit_Article_-_Uberflip.png" alt="Hubs___Edit_Article_-_Uberflip.png" width="853" height="86">
+</li>
+<li>This will open the HTML view of the post. Locate the image, and <strong>wrap it within &lt;a&gt; tags</strong> to link it (e.g. <em>&lt;a href=[link url] &gt;[image]&lt;/a&gt;</em>).</li>
+<li>Then, <strong>wrap the linked image in a &lt;div&gt; or &lt;figure&gt;</strong> element.</li>
+<li>Lastly, <strong>put a class on that &lt;div&gt; or &lt;figure&gt; element</strong> and name it <strong>"rollover"</strong> (e.g. <em>&lt;figure class="rollover"&gt;[linked image]&lt;/figure&gt;</em>)</li>
+<li>Here's an <strong>example</strong> of what this might look like:<br><br><img src="https://help.uberflip.com/hc/article_attachments/360014930272/Create_a_Cool_Hover_Effect_on_Images.png" alt="Create_a_Cool_Hover_Effect_on_Images.png">
+</li>
+<li>
+<strong>Repeat the above steps</strong> for each linked image/Item on which you want to enable the hover effect.</li>
+<li>
+<strong>Add the code snippet below</strong> to your Hub's Custom Code.</li>
+</ol>
+<p> </p>
+<h2>Code</h2>
+<pre><code class="css">&lt;style&gt;<br>.rollover {<br> -webkit-transition: all .25s ease-out;<br> transition: all .25s ease-out;<br>}<br><br>.rollover:hover {<br> background: #343434; <br>}<br><br>.rollover:hover img {<br> opacity: 0.7; <br>}<br><br>a:hover {<br> color: #313131;<br> text-decoration: none;<br>}<br><br>.rollover img {<br> -webkit-transition: all .25s linear;<br> transition: all .25s linear;<br> -webkit-transform: translateZ(0);<br> transform: translateZ(0);<br>}<br>&lt;/style&gt;</code></pre>]]></description>
+         <guid isPermaLink="false">360019195191</guid>
+         <pubDate>Wed, 07 Nov 2018 18:32:54 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Change Search Results Background Transparency</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360018886892-Hub-Hack-Change-Search-Results-Background-Transparency</link>
+         <description><![CDATA[<hr>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code</a> snippet to change how transparent the background of the search results screen appears.<strong><br></strong></p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Hub Hacks are</strong> <strong>not compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> CSS</li>
+<li>
+<strong>Placement:</strong> Head</li>
+<li>
+<strong>Notes: </strong>By default, the background color on the search results screen is grey, with an opacity of 0.9 (slightly transparent). If you prefer no transparency, set the value to 1 (as in the snippet below). For more transparency, reduce the value towards 0 (the lower the value, the more transparent).</li>
+</ul>
+<p> </p>
+<h2>Code</h2>
+<pre><code class="css">&lt;style&gt;<br>.search-results-backdrop {<br> opacity: 1 !important; <br>}<br>&lt;/style&gt;</code></pre>]]></description>
+         <guid isPermaLink="false">360018886892</guid>
+         <pubDate>Wed, 07 Nov 2018 18:01:47 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Change Link Background Color on Tiles</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360018886712-Hub-Hack-Change-Link-Background-Color-on-Tiles</link>
+         <description><![CDATA[<hr>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code</a> snippet to change the background color of links on Item Tiles.<strong><br></strong></p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Hub Hacks are</strong> <strong>not compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> CSS</li>
+<li>
+<strong>Placement:</strong> Head</li>
+</ul>
+<p> </p>
+<h2>Code</h2>
+<pre><code class="css">&lt;style&gt;<br>.stream-173614 a.item-link.view.hooked {
+
+    background-color:blue !important;
+
+}
+
+.stream-YOUR STREAM ID HERE a.item-link.view.hooked {
+
+    background-color:green !important;
+
+}<br>&lt;/style&gt;</code></pre>]]></description>
+         <guid isPermaLink="false">360018886712</guid>
+         <pubDate>Wed, 07 Nov 2018 17:59:43 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Center Images in Blog Items</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360019190611-Hub-Hack-Center-Images-in-Blog-Items</link>
+         <description><![CDATA[<hr>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code</a> snippet to center-align images within blog Items.<strong><br></strong></p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Hub Hacks are</strong> <strong>not compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> CSS</li>
+<li>
+<strong>Placement:</strong> Head</li>
+</ul>
+<p> </p>
+<h2>Code</h2>
+<pre><code class="css">&lt;style&gt;<br>.entry img {<br>margin: 0 auto;<br>}<br>&lt;/style&gt;</code></pre>]]></description>
+         <guid isPermaLink="false">360019190611</guid>
+         <pubDate>Wed, 07 Nov 2018 17:11:03 GMT</pubDate>
+      </item>
+      <item>
+         <title>CSS Tip: Center a &lt;div&gt; With a Variable Width</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360019190171-CSS-Tip-Center-a-div-With-a-Variable-Width</link>
+         <description><![CDATA[<hr>
+<p>Learn how to center containers like divs when the width is variable.</p>
+<hr>
+<p> </p>
+<p>Conventional wisdom has it that if you want to center a container such as a div, your best bet is to define a width and set margin left and right to "auto". For example:</p>
+<pre><code class="html">&lt;div id="container" style="width:200px;margin:0 auto"&gt;<br> your centered, 200 pixel wide container<br>&lt;/div&gt;</code></pre>
+<p>This is fine when you have a defined width, but <strong>what happens when the width varies</strong>?</p>
+<p>There's a great example close to home - within a Hub, a set of floated Item tiles are contained in a div and are required to be centered on the page such that, for example, on a wide screen that can fit it, 6 tiles display on a single row.</p>
+<p>Since we want a maximum of 6 tiles to display on a row, and each tile has a width of 250px, and each tile should be 20px away from its neighbor, the container width is being set to (250 + 20) * 6 = 1620px.</p>
+<p>You'll find this in our CSS which defines the wrapper (.page-aligner) that houses the tiles container:</p>
+<pre><code class="css">@media only screen and (max-width: 9999px){<br> .page-aligner {<br> width: 1620px;<br> }<br>}</code></pre>
+<p>While this works, it's rather limiting. If for example a Hub has only 4 Items, those 4 tiles will be off center, because the container will still be 1620px, with the last 2 spots for tiles unfilled.</p>
+<p>There's a <em>better </em>way. And when I say better, I mean <em>different</em>.</p>
+<p>Rather, than forcing a width to the container, we could do something like this:</p>
+<pre><code class="html">&lt;div id="wrapper" style="text-align:center"&gt;<br> &lt;div id="container" style="display:inline-block;text-align:left"&gt;<br> your variable width, centered container<br> &lt;/div&gt;<br>&lt;/div&gt;</code></pre>
+<p>By setting your container to display<em> inline-block </em>(which is safe to use <a href="http://caniuse.com/#feat=inline-block" target="_blank" rel="noopener" data-internal="false">cross-browser</a>), it can be aligned according to the text-align property. You'll notice I set the #container's text alignment to "<em>left</em>" to return it to the default.</p>
+<p>In this example, rather than setting a width on the wrapper, we could set a <em>max-width</em> instead. That will force the 7th tile to wrap in this case.</p>
+<p>It will also mean not having to define any break-points for smaller screens as now the screen width will determine smaller widths for that wrapper.</p>]]></description>
+         <guid isPermaLink="false">360019190171</guid>
+         <pubDate>Wed, 07 Nov 2018 17:03:39 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Replace Links on Item Tiles With Buttons</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360019148051-Hub-Hack-Replace-Links-on-Item-Tiles-With-Buttons</link>
+         <description><![CDATA[<hr>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code</a> snippet to replace the standard 'Read Article', 'Read Flipbook' and 'View Presentation' links on each Item Tile in a Stream with a blue button.<strong><br></strong></p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Hub Hacks are</strong> <strong>not compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> CSS</li>
+<li>
+<strong>Placement:</strong> Head</li>
+<li>
+<strong>Note: </strong>Also includes a white gradient background behind the button. Both the button and the gradient can be changed to any color you prefer.</li>
+</ul>
+<p> </p>
+<h2>Screenshot</h2>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360014864212/itemeditorimage_57f7c8778b83f.png" alt="itemeditorimage_57f7c8778b83f.png" width="700" height="411"></p>
+<h2>Code</h2>
+<pre><code class="css">&lt;style&gt;<br>/*-- Tile Buttons --*/
+
+div.tile.single&gt;a.view,
+li.tile.single&gt;a.view {
+	background-image: none;
+	margin: 0 20px;
+	padding: 11px 10px;
+	font-size: 13px;
+	font-weight: bold;
+	width: auto;
+	border-radius: 0;
+	height: auto;
+	line-height: 1;
+	bottom: 20px;
+	white-space: nowrap;
+	color: #fff;
+	border-color: #0093D0;
+	background: #0093D0!Important;
+	border-width: 1px;
+	border-style: solid;
+	box-shadow: none;
+	-webkit-transition: 0.2s all;
+	transition: 0.2s all;
+	-webkit-font-smoothing: antialiased;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+}
+
+.tile.single:hover&gt;a.view {
+	background: #fff!Important;
+	color: #0093D0!important;
+	text-decoration: none;
+}
+
+.tile.single&gt;a.view:before {
+	display: none;
+}
+
+.tile.single&gt;a.view:after {
+	display: inline;
+	content: '';
+	position: relative;
+	top: -1px;
+	left: 3px;
+	right: auto;
+	bottom: auto;
+	background: none;
+}
+
+.tile .description {
+	border-top: 1px solid #ddd;
+}
+
+/*--Description Gradient--*/
+
+.tile.single&gt;.description:after {
+	content: '';
+	margin-left: -20px;
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 25%);
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 25%);
+	height: 8rem;
+	bottom: 0;
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+}<br>&lt;/style&gt;</code></pre>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360019148051</guid>
+         <pubDate>Tue, 06 Nov 2018 22:23:40 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Add a Row of Tiles From a Featured Stream to the Latest Content Stream</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360019147731-Hub-Hack-Add-a-Row-of-Tiles-From-a-Featured-Stream-to-the-Latest-Content-Stream</link>
+         <description><![CDATA[<hr>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code</a> snippet to take a row of Item Tiles from a Featured Stream and place it on the Latest Content Stream. <strong><br></strong></p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Hub Hacks are</strong> <strong>not compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> JavaScript &amp; CSS</li>
+<li>
+<strong>Placement:</strong> Body Bottom (JavaScript) / Head (CSS)</li>
+<li>
+<strong>Notes: </strong>Will not pull over CTAs, only Item Tiles.</li>
+</ul>
+<p> </p>
+<h2>Code</h2>
+<h3>JavaScript</h3>
+<pre class="hljs javascript"><code><span class="hljs-comment">&lt;script&gt;<br>/*-- Featured Stream --*/</span>
+<span class="hljs-comment">/*-- Replace collectionID with stream ID! --*/</span>
+<span class="hljs-keyword">if</span> (!$(<span class="hljs-string">'#featured-stream'</span>).length){
+$.get(<span class="hljs-string">'/hubsFront/ajax_loadAdditionalItems/?collectionId=XXXXX¤tPage=-1&amp;limit=6&amp;featuredItemCount=10&amp;embedded=0'</span>).success(<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">(data)</span> </span>{
+	$(<span class="hljs-string">'body'</span>).prepend(<span class="hljs-string">' Featured Content '</span> + data + <span class="hljs-string">''</span>).append(<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">()</span> </span>{
+		$(<span class="hljs-string">'#featured-stream .tile .img'</span>).css(<span class="hljs-string">'opacity'</span>, <span class="hljs-number">1</span>);
+	});
+});
+}<br><span class="hljs-comment">&lt;/script&gt;</span></code></pre>
+<p> </p>
+<h3>CSS</h3>
+<pre><code class="css">&lt;style&gt;<br>/*-- Featured Stream --*/#featured-stream .tile {
+display: none;
+}
+
+#featured-stream .tile:hover .share-single {
+opacity: 1;
+}
+
+@media only screen and (min-width:0) and (max-width: 560px) {
+#featured-stream .tile:nth-child(-n+1) {
+display: block;
+}
+}
+
+@media only screen and (min-width:561px) and (max-width: 860px) {
+#featured-stream .tile:nth-child(-n+2) {
+display: block;
+}
+}
+
+@media only screen and (min-width:861px) and (max-width: 1336px) {
+#featured-stream .tile:nth-child(-n+3) {
+display: block;
+}
+}
+
+@media only screen and (min-width:1337px) and (max-width: 1606px) {
+#featured-stream .tile:nth-child(-n+4) {
+display: block;
+}
+}
+
+@media only screen and (min-width:1607px) and (max-width: 1876px) {
+#featured-stream .tile:nth-child(-n+5) {
+display: block;
+}
+}
+
+@media only screen and (min-width:1876px) {
+#featured-stream .tile:nth-child(-n+6) {
+display: block;
+}
+}<br>&lt;/style&gt;</code></pre>]]></description>
+         <guid isPermaLink="false">360019147731</guid>
+         <pubDate>Tue, 06 Nov 2018 22:15:18 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Add a Custom Banner for All Streams</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360018842872-Hub-Hack-Add-a-Custom-Banner-for-All-Streams</link>
+         <description><![CDATA[<hr>
+<p>Hub Hack: Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code</a> snippet to add a custom screen-width image (banner) to all Streams. <strong><br></strong></p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Hub Hacks are</strong> <strong>not compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> CSS</li>
+<li>
+<strong>Placement:</strong> Head</li>
+<li>
+<strong>Notes: </strong>Do <strong>not</strong> use this if you have separately configured banners on Marketing/Sales streams, as they will display side-by-side. Replace the URL shown in the snippet with the URL where the banner you want to use is hosted.</li>
+</ul>
+<p> </p>
+<h2>Code</h2>
+<pre><code class="css">&lt;style&gt;<br>/*-- Custom Banner For All Stream Pages --*/
+.listing-page &gt; header:after{
+    content:'';
+    background-size:cover;
+    display:block;    
+    width:100vw;    
+    min-height:280px;    
+    background-image:url('https://unsplash.it/1200/768/?random'); /*Change this to your image's URL*/
+    height:33vh; /*Set the height of your banner, you can use PX, VH, or % */
+}<br>&lt;/style&gt;</code></pre>]]></description>
+         <guid isPermaLink="false">360018842872</guid>
+         <pubDate>Tue, 06 Nov 2018 22:02:33 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Add a Custom Banner on a Specific Stream</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360019146471-Hub-Hack-Add-a-Custom-Banner-on-a-Specific-Stream</link>
+         <description><![CDATA[<hr>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code</a> snippet to add a custom screen-width image (banner) to a stream. Can be useful for non-Marketing/Sales streams.<strong><br></strong></p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Hub Hacks are</strong> <strong>not compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> CSS</li>
+<li>
+<strong>Placement:</strong> Head</li>
+</ul>
+<p> </p>
+<h2>Code</h2>
+<pre><code class="css">&lt;style&gt;<br>/*-- Custom Banner For Specific Streams – Replace the XXXX with the stream number --*/
+.stream-XXXXX &gt; header:after{
+    content:'';
+    background-size:cover;
+    display:block;    
+    width:100vw;    
+    min-height:280px;    
+    background-image:url('https://unsplash.it/1200/768/?random'); /*Change this to your image's URL*/
+    height:33vh; /*Set the height of your banner, you can use PX, VH, or % */
+}<br>&lt;/style&gt;</code></pre>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360019146471</guid>
+         <pubDate>Tue, 06 Nov 2018 21:46:16 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hub Hack: Add a Different &quot;Back to Top&quot; Button to Your Hub</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360018841232-Hub-Hack-Add-a-Different-Back-to-Top-Button-to-Your-Hub</link>
+         <description><![CDATA[<hr>
+<p>Use this <a href="https://help.uberflip.com/hc/en-us/articles/360018841312">Custom Code</a> snippet to add a different style of "Back to Top" button to your Hub.</p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Hub Hacks are not official Uberflip features</strong>.</p>
+<p>Hub Hacks may not work on all Hubs, or may cause unexpected behavior. If you experience issues with a Hub Hack, available support is limited to helping you disable the Hub Hack only.</p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p><strong>Hub Hacks are</strong> <strong>not compatible with Front End V2 Hubs</strong>.</p>
+<p>If you are not sure if your Hub uses Front End V2, see <a href="https://help.uberflip.com/hc/en-us/articles/360051466431">this article</a> for help.</p>
+</div>
+<h2>Details</h2>
+<ul>
+<li>
+<strong>Type:</strong> CSS</li>
+<li>
+<strong>Placement:</strong> Head</li>
+</ul>
+<p> </p>
+<h2>Code</h2>
+<pre><code class="css">&lt;style&gt;<br>#moveToTop {
+	right: auto;
+	bottom: 2rem;
+	left: 1rem!important;
+	top: auto;
+	margin: 0!Important;
+	z-index: 2000;
+}
+
+#moveToTop:after {
+	content: 'top';
+	display: block;
+	font-size: 11px;
+	white-space: nowrap;
+	color: #f47920;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+#moveToTop a {
+	background: #f47920!important;
+	opacity: 1;
+}
+
+#moveToTop a:after {
+	content: '';
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 10px solid white;
+	top: -17px;
+	right: -6px;
+	position: relative;
+}<br>&lt;/style&gt;</code></pre>]]></description>
+         <guid isPermaLink="false">360018841232</guid>
+         <pubDate>Tue, 06 Nov 2018 21:27:13 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

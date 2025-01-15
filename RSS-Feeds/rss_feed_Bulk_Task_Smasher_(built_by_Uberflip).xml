@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Bulk Task Smasher (built by Uberflip)</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Bulk Task Smasher: Set up and run Export and special bulk actions</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4422794535309-Bulk-Task-Smasher-Set-up-and-run-Export-and-special-bulk-actions</link>
+         <description><![CDATA[<hr>
+<p>Learn how to use bulk actions in <a href="https://help.uberflip.com/hc/en-us/articles/4420438749197">Bulk Task Smasher</a> that are set up <strong>without a</strong> <strong>job template</strong>: the <strong><em>Export</em> </strong>and <strong>special</strong> actions.<strong><br></strong></p>
+<hr>
+<p> </p>
+<h2 id="h_b61f1927-db66-4d68-9b3b-b74794c4347b">Before you begin</h2>
+<ul>
+<li>This article provides instructions on how how to use bulk action functionality in Bulk Task Smasher that does not require the use of a job template, i.e. the <em>Export</em> and special bulk actions. If you're looking for more general information about using Bulk Task Smasher, including what the app does and how to install it, please see the article <a href="https://help.uberflip.com/hc/en-us/articles/4420438749197"><strong>Bulk Task Smasher: User Guide</strong></a>.</li>
+<li>To follow the instructions in this article, you must either:
+<ul>
+<li>Be a member of the <strong>Account Administrators</strong> user group in the Uberflip account where you are using Bulk Task Smasher, or</li>
+<li>Have the appropriate <a href="https://help.uberflip.com/hc/en-us/articles/4421919862925">permissions</a> to use any or all of the bulk actions described in this article.</li>
+</ul>
+</li>
+</ul>
+<p> </p>
+<h2>About the <em>Export</em> and special bulk actions</h2>
+<p>Some bulk actions available in Bulk Task Smasher <strong>do not require a job template</strong> to be set up. This includes:</p>
+<ul class="list-bullet">
+<li>All <strong><em>Export</em></strong> bulk actions</li>
+<li>All <strong>partially-automated</strong><strong> special</strong> bulk actions, e.g. <em>Delete Items Older Than Date </em>or<em> Hide/Show Items Older Than Date</em>
+</li>
+<li>All <strong>fully-automated</strong> <strong>special</strong> bulk actions, e.g <em>Delete All Tags </em>or<em> Delete All Unused Tags</em>
+</li>
+</ul>
+<p>When you select these bulk actions in Bulk Task Smasher, they do not provide the option to download or upload a job template: instead, you configure these bulk actions entirely within the Bulk Task Smasher app.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>Most bulk actions in Bulk Task Smasher <strong>need a job template to be set up</strong>: bulk actions that are set up using a job template follow a different setup process, which is outlined in the article <a href="https://help.uberflip.com/hc/en-us/articles/4422781484557"><strong>Bulk Task Smasher: Set up and run <em>Create</em>, <em>Update</em>, and <em>Delete</em> bulk actions</strong></a>.</p>
+</div>
+<p> </p>
+<h2>Set up and run an <em>Export</em> bulk action</h2>
+<p>Use this process to set up an <em>Export</em> bulk action for any of the resource types that Bulk Task Smasher works with. This will generate an <strong>export file</strong>, a spreadsheet file containing the data exported from your Uberflip account.</p>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>Unlike the other bulk action types that Bulk Task Smasher support, <strong><em>Export </em>bulk actions do not make any changes to your Uberflip account</strong>, and as a result are <strong>generally</strong> <strong>safe to use</strong>.</p>
+</div>
+<ol>
+<li>Open Bulk Task Smasher and go to the <strong>Run Jobs</strong> section of the app.</li>
+<li>Use the <strong>Resource </strong>dropdown menu to <strong>choose the type of Uberflip resource</strong> you'd like to work with:<br><img src="https://help.uberflip.com/hc/article_attachments/4422787644557/Hubs___Bulk_Task_Smasher_-_Uberflip.png" alt="Hubs___Bulk_Task_Smasher_-_Uberflip.png">
+</li>
+<li>Next, use the <strong>Action </strong>dropdown to <strong>choose the <em>Export</em> bulk action </strong>for the selected resource:<br><img src="https://help.uberflip.com/hc/article_attachments/4422782029197/image.png" alt="image.png">
+</li>
+<li>If any are available, you'll now see<strong> options for including additional data</strong> with the selected type of export. <strong>Apply any options </strong>you want using the checkboxes provided (or leave them all unchecked):<br><img src="https://help.uberflip.com/hc/article_attachments/4422782120205/Hubs___Bulk_Task_Smasher_-_Uberflip.png" alt="Hubs___Bulk_Task_Smasher_-_Uberflip.png">
+</li>
+<li>Click on the <strong>Export</strong> button to begin the export. Bulk Task Smasher will begin processing your export and then <strong>download the export file</strong> once it's ready.</li>
+</ol>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<ul>
+<li>Depending on the amount of data in your Uberflip account, and the selections you made when setting up the export, this process may take some time.</li>
+<li>While the export is being processed and downloaded<strong>, do not refresh the page or navigate to a different</strong> <strong>page</strong>, as this will cancel the export.</li>
+<li>Unlike other types of bulk actions, <em>Export</em> bulk actions are processed immediately, and are <strong>not recorded in the <a href="https://help.uberflip.com/hc/en-us/articles/4420438749197#check-on-the-status-of-submitted-jobs">jobs table</a></strong>.</li>
+</ul>
+</div>
+<p> </p>
+<h2 id="h_01FSWNB49KN0YVCAGY0Y1BZH64">Set up and run an <em>Export </em><em>Flipbooks/PDFs</em> bulk action</h2>
+<p>The <strong>Flipbooks/PDFs</strong> resource type in Bulk Task Smasher is a special case, because bulk actions involving this resource must use the Uberflip <strong>Legacy API</strong>. The Legacy API requires a separate login, and does not support the same types of actions as the current Uberflip REST API (which is used by all other Uberflip resources).</p>
+<p>As a result, the Flipbooks/PDFs resource <strong>only supports </strong><em><strong>Create </strong></em><strong>and <em>Export</em> actions</strong>, and the procedure for setting up the <em>Export Flipbooks/PDFs</em> action differs slightly from the other <em>Export</em> actions.</p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p>Only the <a href="https://help.uberflip.com/hc/en-us/articles/360018726352" target="_self">Primary User</a> of an Uberflip account can use the Legacy API, so these bulk actions are only available when you are logged in as the Primary User.</p>
+</div>
+<p>Use this process to set up an <em>Export </em><em>Flipbooks/PDFs</em> bulk action:</p>
+<ol>
+<li>To set up an <em>Export</em> <em>Flipbooks/PDFs</em> bulk action, open Bulk Task Smasher and go to the <strong>Run Jobs</strong> section.</li>
+<li>Use the <strong>Resources </strong>dropdown to select "<strong>Flipbooks/PDFs</strong>".</li>
+<li>Although Bulk Task Smasher can obtain your Uberflip REST API credentials automatically, it is not able to do so for your Legacy API credentials. As a result, you'll need to <strong>enter your Legacy API credentials</strong> to proceed. If you do not know your Legacy API credentials,<strong> click on the link provided to view them </strong>(and generate them if needed):<br><img src="https://help.uberflip.com/hc/article_attachments/10483557671309" alt="flipbook_creds.png">
+</li>
+<li>After entering your Legacy API credentials, click on <strong>Validate and Save Credentials</strong>.
+<ul>
+<li>The credentials you have entered will be saved for the rest of your session, so you won't need to enter them again if you run multiple <em>Flipbooks/PDFs</em> bulk actions.</li>
+</ul>
+</li>
+<li>Now, use the <strong>Actions</strong> dropdown to select <strong><em>Export Flipbooks/PDFs</em></strong><em>.</em>
+</li>
+<li>You'll now have the<strong> option to include additional data</strong> with the export. <strong>Check the box to include that additional data</strong>, or leave it empty to exclude it:<br><img src="https://help.uberflip.com/hc/article_attachments/10483739431053" alt="flipbook_options.png">
+</li>
+<li>Click on the <strong>Export PDFs</strong> button to begin the export. Bulk Task Smasher will begin processing your export and then <strong>download the export file</strong> once it's ready.</li>
+</ol>
+<h2>Set up and run a special bulk action</h2>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Always use this tool with caution</strong>.</p>
+<p>Bulk Task Smasher can<strong> rapidly make</strong> <strong>extensive changes </strong>to your Uberflip account. If you make a mistake, <strong>any unwanted changes may be</strong> <strong>difficult or even impossible to reverse</strong>.</p>
+<p>To reduce the chances of accidentally making unwanted changes to your Uberflip account, we strongly recommend that you <strong>read and use our <a href="https://help.uberflip.com/hc/en-us/articles/4422151590797">best practices for using Bulk Task Smasher</a></strong>.</p>
+<p>Before you run any bulk action in Bulk Task Smasher, <strong>always ensure that you understand exactly what will happen as a result</strong>.</p>
+</div>
+<p>Use this process to set up <strong>special bulk actions</strong>, which are partially- and fully-automated bulk actions that are <strong>set up entirely within Bulk Task Smasher</strong>, and therefore do not require job template.</p>
+<ol>
+<li>Open Bulk Task Smasher and go to the <strong>Run Jobs</strong> section of the app.</li>
+<li>Use the <strong>Resource </strong>dropdown menu to <strong>choose the type of Uberflip resource</strong> you'd like to work with:<br><img src="https://help.uberflip.com/hc/article_attachments/4422787644557/Hubs___Bulk_Task_Smasher_-_Uberflip.png" alt="Hubs___Bulk_Task_Smasher_-_Uberflip.png">
+</li>
+<li>Next, use the <strong>Action </strong>dropdown to <strong>choose a special bulk action </strong>for the selected resource. These are generally listed under the <em>Misc.</em> heading.</li>
+<li>You'll now see <strong>controls that are specific to special bulk action</strong> you selected, for example:<br><img src="https://help.uberflip.com/hc/article_attachments/4422788318861/hideshowcontrols.png" alt="hideshowcontrols.png">
+</li>
+<li>
+<strong>Use the controls</strong> to configure the selected bulk action. Then, <strong>click on the "Find" button to proceed</strong>.<br>
+<ul>
+<li>Clicking this button <strong>will only</strong> <strong>analyze your account</strong> for resources matching your setting. <strong>The bulk action will NOT be performed yet</strong>.</li>
+</ul>
+</li>
+<li>You will now see a <strong>preview of resources that would be affected</strong> by running this bulk action. If needed, you can <strong>make further changes</strong> using the controls provided, and Bulk Task Smasher will <strong>update the preview immediately</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/4422795605901/hideshowpreview.png" alt="hideshowpreview.png">
+</li>
+<li>For some special bulk actions, <strong>additional controls will appear. </strong>If applicable, <strong>use these controls to further configure the special bulk action</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/4422795606541/hideshowsetstatus.png" alt="hideshowsetstatus.png">
+</li>
+<li>Once the special bulk action is fully configured and ready to be submitted, the <strong>Submit Job</strong> button will activate. When you have verified that the special bulk action has been configured correctly, click on <strong>Submit Job</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/4422795540365/Hubs___Bulk_Task_Smasher_-_Uberflip.png" alt="Hubs___Bulk_Task_Smasher_-_Uberflip.png">
+</li>
+<li>You will see a confirmation window that summarizes the effect of submitting this job, and warns you that <strong>once you submit the job, you will NOT be able to stop or undo it:<br></strong><img src="https://help.uberflip.com/hc/article_attachments/4422788225549/Hubs___Bulk_Task_Smasher_-_Uberflip.png" alt="Hubs___Bulk_Task_Smasher_-_Uberflip.png" width="476" height="306">
+</li>
+<li>If you would like to receive an email notification when the job finishes, you can optionally enter an email address into the <strong>Recipient Email Address </strong>field. Leave this field blank if you do not wish to receive an email (you can <a href="https://help.uberflip.com/hc/en-us/articles/4420438749197#check-on-the-status-of-submitted-jobs" target="_self" rel="undefined">check job status at any time</a> from within Bulk Task Smasher).</li>
+<li>When you are <strong>absolutely sure that you</strong> <strong>understand what will be changed</strong> in your account as a result of running this job, type the word <strong>CONFIRM</strong> into the field provided, then click on the <strong>Confirm Job</strong> button to finish submitting the job:<br><img src="https://help.uberflip.com/hc/article_attachments/4422782680461/Hubs___Bulk_Task_Smasher_-_Uberflip.png" alt="Hubs___Bulk_Task_Smasher_-_Uberflip.png" width="475" height="306">
+</li>
+<li>Your job will be submitted to the Bulk Task Smasher queue for processing, and after a moment, you should see a <strong>confirmation message </strong>that your job has been successfully submitted.
+<ul>
+<li>The confirmation message contains the job's <strong>unique </strong><strong>job ID</strong>. You can use this ID to quickly find this job while viewing your account's record of submitted jobs:<br><img src="https://help.uberflip.com/hc/article_attachments/4422795556877/confirmation.png" alt="confirmation.png">
+</li>
+</ul>
+</li>
+</ol>
+<p>After you have submitted a job, Bulk Task Smasher will process it. Depending on the size of the job, this may take some time. At any time after submitting a job, you can <a href="https://help.uberflip.com/hc/en-us/articles/4420438749197#check-on-the-status-of-submitted-jobs" target="_self" rel="undefined"><strong>view the jobs table</strong></a> to check on its status.</p>]]></description>
+         <guid isPermaLink="false">4422794535309</guid>
+         <pubDate>Mon, 24 Jan 2022 22:50:09 GMT</pubDate>
+      </item>
+      <item>
+         <title>Bulk Task Smasher: Set up and run Create, Update, and Delete bulk actions</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4422781484557-Bulk-Task-Smasher-Set-up-and-run-Create-Update-and-Delete-bulk-actions</link>
+         <description><![CDATA[<hr>
+<p>Learn how to use bulk actions in <a href="https://help.uberflip.com/hc/en-us/articles/4420438749197">Bulk Task Smasher</a> that are <strong>set up using a</strong> <strong>job template</strong>: the <strong><em>Create</em>, <em>Update</em>, </strong>and <strong><em>Delete </em></strong>actions.</p>
+<hr>
+<p> </p>
+<h2 id="h_b61f1927-db66-4d68-9b3b-b74794c4347b">Before you begin</h2>
+<ul>
+<li>This article provides instructions on how how to use the <em>Create</em>, <em>Update</em>, and <em>Delete </em>bulk actions within Bulk Task Smasher. If you're looking for more general information about using Bulk Task Smasher, including what the app does and how to install it, please see the article <a href="https://help.uberflip.com/hc/en-us/articles/4420438749197"><strong>Bulk Task Smasher: User Guide</strong></a>.</li>
+<li>To follow the instructions in this article, you must either:
+<ul>
+<li>Be a member of the <strong>Account Administrators</strong> user group in the Uberflip account where you are using Bulk Task Smasher, or</li>
+<li>Have the appropriate <strong><a href="https://help.uberflip.com/hc/en-us/articles/4421919862925">permissions</a></strong> to use any or all of the bulk actions described in this article.</li>
+</ul>
+</li>
+</ul>
+<p> </p>
+<h2>About the <em>Create</em>, <em>Update</em>, and <em>Delete</em> bulk actions</h2>
+<p>The majority of available bulk actions in Bulk Task Smasher are <strong>set up using a job</strong> <strong>template</strong>, which is a specially formatted spreadsheet file. This includes:</p>
+<ul class="list-bullet">
+<li>All <em><strong>Create</strong></em> bulk actions</li>
+<li>All <strong><em>Update</em> </strong>bulk actions</li>
+<li>All <em><strong>Delete</strong></em>/<strong><em>Remove </em></strong>bulk actions, <strong>except <a href="https://help.uberflip.com/hc/en-us/articles/4422794535309" target="_self">special bulk actions</a><em>.</em></strong>
+</li>
+</ul>
+<p>The basic procedure for setting up and running a bulk action that uses a job template is:</p>
+<ol>
+<li>Select the <strong>resource</strong> you want to work with, and the <strong>bulk action</strong> you want to perform on it</li>
+<li>
+<strong>Configure</strong> and <strong>download</strong> the corresponding <strong>job template</strong>
+</li>
+<li>
+<strong>Fill out</strong> the job template</li>
+<li>
+<strong>Upload</strong> the completed job template to Bulk Task Smasher and <strong>submit the job</strong> for processing</li>
+</ol>
+<p>This procedure is the same for all bulk actions that use a job template except the <em>Create Flipbooks/PDFs</em> bulk action, which differs slightly.</p>
+<p>You can find detailed instructions for both variations of this procedure below.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p><strong>Not all bulk actions require a job template:</strong> bulk actions that don't use a job template follow a different setup process, which is outlined in the article <a href="https://help.uberflip.com/hc/en-us/articles/4422794535309"><strong>Bulk Task Smasher: Set up and run <em>Export</em> and special bulk actions</strong></a>.</p>
+</div>
+<p> </p>
+<h2 id="h_01FT74PT8DZY93PBPVJ6DJYHBN">Set up and run a <em>Create</em>, <em>Update</em>, or <em>Delete</em> bulk action</h2>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p><strong>Always use this tool with caution</strong>.</p>
+<p>Bulk Task Smasher can<strong> rapidly make</strong> <strong>extensive changes </strong>to your Uberflip account. If you make a mistake, <strong>any unwanted changes may be</strong> <strong>difficult or even impossible to reverse</strong>.</p>
+<p>To reduce the chances of accidentally making unwanted changes to your Uberflip account, we strongly recommend that you <strong>read and use our <a href="https://help.uberflip.com/hc/en-us/articles/4422151590797">best practices for using Bulk Task Smasher</a></strong>.</p>
+<p>Before you run any bulk action in Bulk Task Smasher, <strong>always ensure that you understand exactly what will happen as a result</strong>.</p>
+</div>
+<h3>Step 1: Select the resource and bulk action</h3>
+<ol>
+<li>Open Bulk Task Smasher and go to the <strong>Run Jobs</strong> section of the app.</li>
+<li>Use the <strong>Resource </strong>dropdown menu to <strong>choose the type of Uberflip resource</strong> you'd like to work with:<br><img src="https://help.uberflip.com/hc/article_attachments/4422794237197" alt="Hubs___Bulk_Task_Smasher_-_Uberflip.png">
+</li>
+<li>Next, use the <strong>Action </strong>dropdown to <strong>choose the type of bulk action (<em>Create</em></strong><em>, </em><strong><em>Update</em></strong><em>,</em> or<strong> <em>Delete</em></strong>) that you'd like to perform on the selected resource:<br><img src="https://help.uberflip.com/hc/article_attachments/4422781187469" alt="Hubs___Bulk_Task_Smasher_-_Uberflip2.png">
+</li>
+<li>You'll now see a <strong>description of the selected resource and action</strong> combination:<br><img src="https://help.uberflip.com/hc/article_attachments/4422781187725" alt="Hubs___Bulk_Task_Smasher_-_Uberflip3.png">
+</li>
+</ol>
+<p>From here, you can:</p>
+<ul>
+<li>
+<strong><a href="#h_01FSWQS56VCS15VQE1YCA8NB8G" target="_self">Download a job template</a>, </strong>if you are just starting to set up this bulk action, or</li>
+<li>
+<a href="#h_01FSWQSFR9HT9BPJ06MX5TD7YG" target="_self"><strong>Upload a job template</strong></a>, if you have already filled out the job template and are ready to run the bulk action</li>
+</ul>
+<h3 id="h_01FSWQS56VCS15VQE1YCA8NB8G">Step 2: Configure and download the job template</h3>
+<ol>
+<li>After you have selected the resource and bulk action you want to use, click on <strong>Download Job</strong> <strong>Templates</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/4422786978445" alt="Hubs___Bulk_Task_Smasher_-_Uberflip4.png">
+</li>
+<li>You'll now see more information about how this template works, as well as the <strong>checkboxes to set up the job template's headers</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/4422794237965" alt="Hubs___Bulk_Task_Smasher_-_Uberflip5.png">
+</li>
+<li>
+<strong>Use the checkboxes to</strong> <strong>choose which of the available column headers will be included in the downloaded file</strong>:
+<ul>
+<li>Bulk Task Smasher will pre-fill the top row of the job template with the headers that you select here. <strong>Select</strong> (check) a checkbox to <strong>include</strong> that header in the downloaded template, or <strong>deselect</strong> (uncheck) a checkbox to <strong>remove</strong> that column header.</li>
+<li>Checkboxes that are <strong>disabled</strong> (greyed out) represent <strong>mandatory headers</strong> that are required in the job template to perform the selected bulk action, so they can't be removed.</li>
+<li>All other headers are <strong>optional</strong>, and you can <strong>freely add or remove them</strong> depending on what you want to do as part of the bulk action. For example, if you are performing a <em>Create Stream</em> bulk action, check the box for the <em>description </em>header if you want to specify a description for each Stream, or uncheck that box if you don't want to specify Stream descriptions as part of the bulk action.</li>
+<li>If a header name is <strong>marked with an asterisk </strong>(e.g. <em>item*</em>), this means that you can <strong>add this header to the job template multiple times</strong> to specify multiple values (e.g. you can use the <em>item* </em>header multiple times in a <em>Create Stream</em> job template to add multiple Items to the Stream). When you select this type of header, <strong>click on the Edit (pencil)</strong><strong> icon </strong>that appears beside it to specify how many instances of the header you want to add:<br><img src="https://help.uberflip.com/hc/article_attachments/4422794238605" alt="Hubs___Bulk_Task_Smasher_-_Uberflip7.png">
+</li>
+<li>Use the <strong>Select All</strong> and <strong>Clear</strong> buttons to quickly check or uncheck all available optional headers.</li>
+</ul>
+</li>
+<li>Click on the <strong>download button </strong>to download your template as configured. The options available depend on the type of bulk action you chose:
+<ul>
+<li>For <em><strong>Create</strong></em> and <em><strong>Delete</strong></em> bulk actions, you can download a <strong>Blank Template</strong>, which is empty except for the column headers you selected:<br><img src="https://help.uberflip.com/hc/article_attachments/4422794238349" alt="Hubs___Bulk_Task_Smasher_-_Uberflip8.png">
+</li>
+<li>For <em><strong>Update</strong></em> bulk actions, you choose between either a <strong>Blank Template</strong>, which is empty, or a <strong>Populated Template</strong>, which is pre-filled with data from your Uberflip account. For <em>Update</em> bulk actions, the Populated Template is the default option:<br>
+<p><img src="https://help.uberflip.com/hc/article_attachments/4422786981005" alt="Hubs___Bulk_Task_Smasher_-_Uberflip9.png"></p>
+</li>
+</ul>
+</li>
+<li>The job template file will be downloaded, and you can <strong>find it in your <em>Downloads</em> folder</strong>.<br>
+<ul>
+<li>The filenames for all job templates generated by Bulk Task Smasher use the format <em>[Bulk Action] [Template Type] - YYYY-MM-DD HH.MM.SS AM/PM.xlsx</em>, e.g. <em>Update Streams Populated Template - 2022-01-31 12.45.10 PM.xlsx</em>.</li>
+<li>When you download a Populated Template, Bulk Task Smasher must first gather the data from your Uberflip account to populate the template. If you have a lot of data in your Uberflip account, <strong>this process may take a few moments to complete</strong> before the download begins.</li>
+</ul>
+</li>
+</ol>
+<h3>Step 3: Fill out the job template</h3>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>Bulk Task Smasher generates job template files as standard <strong>Microsoft Excel .XLSX</strong> spreadsheet files. This filetype is also <strong>compatible with most other common spreadsheet applications</strong>, including <strong>Google Sheets</strong>, <strong>Apple Numbers</strong>, <strong>LibreOffice/OpenOffice Calc</strong>, and others.</p>
+</div>
+<ol>
+<li>
+<strong>Open the downloaded job template file</strong> in your spreadsheet application of choice.</li>
+<li>
+<strong>Fill out the job template </strong>as needed:
+<ul>
+<li>Remember that each line represents a <strong>separate instance of the selected Uberflip resource</strong> (i.e. each line represents an individual Stream, Item, user, tag, or Flipbook/PDF) to which the selected action (create, update, delete) will be applied:<br><img src="https://help.uberflip.com/hc/article_attachments/4422781190925" alt="image10.png">
+</li>
+<li>The header above each column indicates the type of information that you must enter in that column on each line. Note that you <strong>must enter a value on every line for</strong> <strong>required</strong> <strong>headers</strong>, but under non-required headers, entering a value on any given line is optional.</li>
+<li>To erase the existing value for a given property (e.g. description), you must set the value to <em><strong>null</strong></em> (rather than leaving it blank) in the template.</li>
+<li>To help you, every job template includes a <strong>How To Use This Template</strong> sheet. Refer to this sheet for explanations of what each header does, what type of data it needs, and whether it is required; as well as example values for each header:<br>
+<p><img src="https://help.uberflip.com/hc/article_attachments/4422781186445" alt="Create_Streams_Blank_Template_-_2022-01-18_5_15_12_PM11.png"></p>
+</li>
+</ul>
+</li>
+<li>When you're done, <strong>save the job template </strong>to a location where you'll be able to find it later.</li>
+</ol>
+<h3 id="h_01FSWQSFR9HT9BPJ06MX5TD7YG">Step 4: Upload the job template and submit the job</h3>
+<ol>
+<li>
+<strong>Return to Bulk Task Smashe</strong>r and <strong>select the resource and bulk action</strong> again (if necessary).</li>
+<li>Click on <strong>Upload Job Templates</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/4422786976909" alt="Hubs___Bulk_Task_Smash12.png">
+</li>
+<li>Click on <strong>Upload File</strong>, and <strong>select the job template file</strong> you created.
+<ul>
+<li>If the file has multiple sheets, the app will prompt you to select the sheet that contains the bulk action instructions you want to use. Use the dropdown to select the sheet, then click on <strong>Confirm Sheet</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/4422786981261" alt="Hubs___Bulk_Task_Smasher_-_Uberflip13.png">
+</li>
+</ul>
+</li>
+<li>Bulk Task Smasher will analyze the uploaded file, and will display a <strong>preview</strong>, as well as any <strong>errors</strong> it has detected. <strong>Check the preview</strong> to <strong>ensure that you have uploaded the correct file</strong>, and to <strong>determine if there are any errors</strong> that need to be corrected before the file can be processed:<br><img src="https://help.uberflip.com/hc/article_attachments/4422794240397" alt="image14.png">
+</li>
+<li>When you have verified that you have uploaded the correct file and that it contains no errors, click on <strong>Submit Job</strong>. You will see a confirmation window that summarizes the effect of submitting this job, and warns you that <strong>once you submit the job, you will NOT be able to stop or undo it:<br><img src="https://help.uberflip.com/hc/article_attachments/4422794239757" alt="Hubs___Bulk_Task_Smasher_-_Uberflip15.png" width="475" height="289"><br></strong>
+</li>
+<li>If you would like to receive an email notification when the job finishes, you can optionally enter an email address into the <strong>Recipient Email Address </strong>field. Leave this field blank if you do not wish to receive an email (you can <a href="https://help.uberflip.com/hc/en-us/articles/4420438749197#check-on-the-status-of-submitted-jobs" target="_self" rel="undefined">check job status at any time</a> from within Bulk Task Smasher).</li>
+<li>When you are <strong>absolutely sure that you</strong> <strong>understand what will be changed</strong> in your account as a result of running this job, type the word <strong>CONFIRM</strong> into the field provided, then click on the <strong>Confirm Job</strong> button to finish submitting the job:<br><img src="https://help.uberflip.com/hc/article_attachments/4422781189773" alt="Hubs___Bulk_Task_Smasher_-_Uberflip16.png" width="476" height="290">
+</li>
+<li>Your job will be submitted to the Bulk Task Smasher queue for processing, and after a moment, you should see a <strong>confirmation message </strong>that your job has been successfully submitted.
+<ul>
+<li>The confirmation message contains the job's <strong>unique </strong><strong>job ID</strong>. You can use this ID to quickly find this job while viewing your account's record of submitted jobs:<br><img src="https://help.uberflip.com/hc/article_attachments/4422786982925" alt="Hubs___Bulk_Task_Smasher_-_Uberflip17.png">
+</li>
+</ul>
+</li>
+</ol>
+<p>After you have submitted a job, Bulk Task Smasher will process it. Depending on the size of the job, this may take some time. At any time after submitting a job, you can <a href="https://help.uberflip.com/hc/en-us/articles/4420438749197#check-on-the-status-of-submitted-jobs" target="_self" rel="undefined"><strong>view the jobs table</strong></a> to check on its status.</p>
+<p> </p>
+<h2 id="h_01FSWNB49KN0YVCAGY0Y1BZH64">Set up and run a <em>Create</em> <em>Flipbooks/PDFs</em> bulk action</h2>
+<p>The <strong>Flipbooks/PDFs</strong> resource type in Bulk Task Smasher is a special case, because bulk actions involving this resource must use the Uberflip <strong>Legacy API</strong>. The Legacy API requires a separate login, and does not support the same types of actions as the current Uberflip REST API (which is used by all other Uberflip resources).</p>
+<p>As a result, the Flipbooks/PDFs resource <strong>only supports </strong><em><strong>Create </strong></em><strong>and <em>Export</em> actions</strong>, and the procedure for setting up a <em>Create Flipbooks/PDFs</em> action differs slightly from the other <em>Create</em> actions.</p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p>Only the <a href="https://help.uberflip.com/hc/en-us/articles/360018726352" target="_self">Primary User</a> of an Uberflip account can use the Legacy API, so these bulk actions are only available when you are logged in as the Primary User.</p>
+</div>
+<p>Use this process to set up a <em>Create </em><em>Flipbooks/PDFs</em> bulk action:</p>
+<ol>
+<li>To set up a <em>Create </em><em>Flipbooks/PDFs</em> bulk action, open Bulk Task Smasher and go to the <strong>Run Jobs</strong> section.</li>
+<li>Use the <strong>Resources </strong>dropdown to select "<strong>Flipbooks/PDFs</strong>".</li>
+<li>Although Bulk Task Smasher can obtain your Uberflip REST API credentials automatically, it is not able to do so for your Legacy API credentials. As a result, you'll need to <strong>enter your Legacy API credentials</strong> to proceed. If you do not know your Legacy API credentials,<strong> click on the link provided to view them </strong>(and generate them if needed):<br><img src="https://help.uberflip.com/hc/article_attachments/10483210002317" alt="bts_legacy_credentials.png">
+</li>
+<li>After entering your Legacy API credentials, click on <strong>Validate and Save Credentials</strong>.
+<ul>
+<li>The credentials you have entered will be saved for the rest of your session, so you won't need to enter them again if you run multiple <em>Flipbooks/PDFs</em> bulk actions.</li>
+</ul>
+</li>
+<li>Now, use the <strong>Actions</strong> dropdown to select <strong><em>Create Flipbooks/PDFs</em></strong><em>.</em>
+</li>
+<li>Click on the <strong>Download Job Templates</strong> button, then <strong>download</strong>, <strong>open</strong>, and <strong>fill out the job template </strong>in the same way as any other bulk action that uses job templates.
+<ul>
+<li>See the section <strong><a href="#h_01FT74PT8DZY93PBPVJ6DJYHBN" target="_self" rel="undefined">Set up and run a <em>Create</em>, <em>Update</em>, or <em>Delete</em> bulk action</a></strong> for detailed instructions on how to fill out out a job template.</li>
+</ul>
+</li>
+<li>After you have completed the job template, <strong>return to Bulk Task Smasher</strong> and select <strong>Flipbooks/PDFs &gt; Create Flipbooks/PDFs</strong> again (if needed). Then, click on the <strong>Upload Job Templates</strong> button.</li>
+<li>From here, simply <strong>upload the job template file</strong> and <strong>submit the</strong><strong>job </strong><a href="https://help.uberflip.com/hc/en-us/articles/4422781484557#h_01FSWQSFR9HT9BPJ06MX5TD7YG" target="_self" rel="undefined">as you would with any other bulk action that requires a job template:</a><br><img src="https://help.uberflip.com/hc/article_attachments/4422787422861" alt="flipbooks4.png">
+</li>
+</ol>
+<p>After you have submitted a job, Bulk Task Smasher will process it. Depending on the size of the job, this may take some time. At any time after submitting a job, you can <a href="https://help.uberflip.com/hc/en-us/articles/4420438749197#check-on-the-status-of-submitted-jobs" target="_self" rel="undefined"><strong>view the jobs table</strong></a> to check on its status.</p>
+<p> </p>
+<h2>Notes</h2>
+<p>Some clarification on the behavior of the <strong><em>Delete </em>bulk actions</strong>:</p>
+<ul>
+<li>For <strong>Streams and</strong> <strong>Items</strong>, the <em>Delete </em>actions will <strong>archive</strong> the specified Streams and Items, rather than permanently deleting them. This means that Streams and Items deleted with Bulk Task Smasher <a href="https://help.uberflip.com/hc/en-us/articles/360020669872" target="_self">can still be recovered in most cases</a> (just like Streams and Items deleted through the Uberflip application).</li>
+<li>For <strong>Streams</strong>, the special actions labeled as <em>Remove</em> will <strong>not</strong> archive (or delete) Items, but only remove them from the specified Marketing and/or Sales Streams, while still keeping them in their respective Source Streams (as well as any other Marketing and/or Sales Streams not specified as part of the action).</li>
+<li>For <strong>tags and users</strong>, the <em>Delete </em>actions (including the special actions like <em>Delete All Unused Tags</em>) will <strong>permanently delete</strong> the specified tags or users. Tags and users deleted with Bulk Task Smasher can <strong>not</strong> be recovered (just like tags and users deleted through the Uberflip application).</li>
+</ul>]]></description>
+         <guid isPermaLink="false">4422781484557</guid>
+         <pubDate>Mon, 24 Jan 2022 22:49:58 GMT</pubDate>
+      </item>
+      <item>
+         <title>Bulk Task Smasher: Best practices for use</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4422151590797-Bulk-Task-Smasher-Best-practices-for-use</link>
+         <description><![CDATA[<hr>
+<p>When using Bulk Task Smasher, follow these best practices to help mitigate the risk of accidentally making unwanted changes to your Uberflip account.</p>
+<hr>
+<p> </p>
+<h2>Best practice 1: Set up permissions</h2>
+<p>Bulk Task Smasher comes with a permissions system that you can use to control who can access the app, and even which functionality within the app they have access to. We recommend setting up your permissions so that:</p>
+<ul>
+<li>Access to the app is <strong>restricted to only trusted users</strong>
+</li>
+<li>Users who have access to the app <strong>can only use the capabilities they need and have been trained on</strong>
+</li>
+</ul>
+<p>For more details about setting up Bulk Task Smasher's permissions, see <a href="https://help.uberflip.com/hc/en-us/articles/4421919862925"><strong>Bulk Task Smasher: Configure permissions to control access to app features</strong></a>.</p>
+<p> </p>
+<h2>Best practice 2: Always do a test run first</h2>
+<p>Before running any size of job in Bulk Task Smasher, <strong>always do a test run</strong> involving just a few instances of the target resource first.</p>
+<p>For example, say you want to update five hundred Items. First, run the exact same job on just five of the Items, then <strong>check that those five test Items were updated as expected</strong> <strong>before proceeding</strong>. This gives you the opportunity to find and fix any issues with your job template before they can impact hundreds of Items.</p>
+<p> </p>
+<h2>Best practice 3: Double-check your job templates</h2>
+<p>After building your job template, always run through it to again to<strong> check for problems </strong>before you upload it to Bulk Task Smasher (ideally, have a second person review the job template to catch anything you might have missed).</p>
+<p>Likewise, <strong>double-check the file name</strong> <strong>when selecting the job template file you're uploading </strong>to Bulk Task Smasher: since the file names of different job template files can be very similar, it's easy to pick the wrong one by mistake.</p>
+<p>As a final check, <strong>use the preview that appears in Bulk Task Smasher after uploading a file</strong> to verify that you have the correct file, and that the data it contains is correct.</p>
+<p> </p>
+<h2>Best practice 4: Run an <em>Export</em> action before running any <em>Update</em> action</h2>
+<p>Mistakes made with the <em>Update</em> bulk actions in Bulk Task Smasher can be the most devastating: these actions affect the existing resources in your Uberflip account, and there is no "undo" button to reverse them.</p>
+<p>However, you <em>can </em>(and should) set yourself up with a <strong>backup plan</strong> for <em>Update</em> actions by always <strong>running a corresponding <em>Export</em> action first</strong>. For example, if you want to update a number of Streams with the <em>Update Streams</em> action, you should first run the <em>Export Streams</em> action. The export file will contain <strong>a record of the state of your account before you ran the Update action</strong>, which gives you a way to recover to that state in case there is a problem with the outcome of the <em>Update</em> action.</p>
+<p>Make sure to keep the "backup" export file in a safe place, and don't delete it until you're sure that the <em>Update</em> action had the desired results!</p>
+<p> </p>
+<h2>Best practice 5: Only include essential headers and remove all unchanged data when using Populated Templates</h2>
+<p>When you run an <em>Update</em> bulk action in Bulk Task Smasher, you have the option of downloading a <strong>Populated Template</strong>, which is pre-populated with relevant data from your Uberflip account. This makes it easy to make changes, since you can just edit the existing data, rather than having to re-enter it.</p>
+<p>Whenever you use a Populated Template as the basis for your job template, you should always:</p>
+<ul>
+<li>
+<strong>Select only headers for data you want to update</strong> <strong>when configuring the Populated Template download</strong>. For example, if you want to run an <em>Update Items </em>action to update various Item descriptions, select the header for <em>description</em> when configuring the job template download, but do not select headers for data you don't want to update, such as <em>title</em>, <em>author_id</em>, <em>canonical_url</em>, etc.</li>
+<li>
+<strong>Remove any pre-populated data </strong><strong>from the job template </strong><strong>that you did not change</strong><strong> before you upload the file to Bulk Task Smasher</strong>. Make sure to remove any data that was pre-populated in the job template if you did not make any changes to that data. In the previous example, if you edited the descriptions for <em>Item 1, Item 2, and Item 3</em>, but not for <em>Item 5 </em>and <em>Item 6</em>, remove the lines representing <em>Item 5 </em>and <em>Item 6</em> from the job template.</li>
+</ul>
+<p>The reason for these practices is that <strong>Bulk Task Smasher will process</strong> <strong>everything that's included in a job template — even if there is no difference from what already exists in the account</strong>. </p>
+<p>Since Populated Templates will include pre-populated data for all the headers you select for every instance of the respective resource (e.g. for every Stream, every Item, etc.), all of this data will be used to update the corresponding fields, settings, etc. in Uberflip, even if there is no "real" change to be made.</p>
+<p>For most types of resources, the primary negative effect of this is that it slows down the processing of your bulk action (as Bulk Task Smasher still has to process all of the unnecessary updates). For Items specifically, there is an additional, potentially unwanted side effect: "updates" where no actual change is made will still <strong>change the published date of the Item</strong>. As a result, it's always best to exclude/remove any unchanged data when using a Populated Template.</p>]]></description>
+         <guid isPermaLink="false">4422151590797</guid>
+         <pubDate>Thu, 20 Jan 2022 20:54:20 GMT</pubDate>
+      </item>
+      <item>
+         <title>Bulk Task Smasher: Configure permissions to control access to app features</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4421919862925-Bulk-Task-Smasher-Configure-permissions-to-control-access-to-app-features</link>
+         <description><![CDATA[<hr>
+<p>Learn how to configure Bulk Task Smasher user permissions to determine which app features your users can access.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>To configure app permissions, you need to be a member of the <strong>Account Administrators</strong> or <strong>Content Managers</strong> user groups.</li>
+<li>To configure these settings, the <strong><a href="https://marketplace.uberflip.com/details/bulk-task-smasher-1/" target="_self" rel="undefined">Bulk Task Smasher Marketplace app</a> </strong>must be installed in your Hub.</li>
+</ul>
+<p> </p>
+<h2>About Bulk Task Smasher permissions</h2>
+<p><a href="https://help.uberflip.com/hc/en-us/articles/4420438749197">Bulk Task Smasher</a> is a very powerful tool, and can rapidly make extensive changes to an Uberflip account that may be difficult (or even impossible) to reverse. As a result, we strongly recommend that you <strong>restrict access to Bulk Task Smasher</strong> within your organization to <strong>only trusted users</strong> who understand how the tool works and how to use it.</p>
+<p>To help you do that, Bulk Task Smasher hooks into Uberflip's <strong>permissions system</strong>, and features <strong>app-specific permissions</strong> which you can configure to control access to the app itself, as well as to specific functions (bulk actions) within the app.</p>
+<p> </p>
+<h2>How Bulk Task Smasher permissions work</h2>
+<p>When you install the Bulk Task Smasher Marketplace app in your Uberflip account, the app will:</p>
+<ul>
+<li>
+<strong>Create</strong> a set of permissions in your account, each of which controls access to specific functionality in the Bulk Task Smasher app</li>
+<li>
+<strong>Grant </strong>the available permissions to the <strong>Account Administrators user group</strong> by default</li>
+</ul>
+<p>Below is a breakdown of the permissions Bulk Task Smasher creates, along with the functionality the permission controls:</p>
+<table>
+<tbody>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="height: 22px; width: 234.467px;">
+<p><strong>Permission</strong></p>
+</td>
+<td class="wysiwyg-text-align-center" style="height: 22px; width: 459.533px;">
+<p><strong>Allows the user to...</strong></p>
+</td>
+</tr>
+<tr style="height: 44px;">
+<td style="width: 234.467px; height: 44px;">Bulk Task Smasher</td>
+<td style="width: 459.533px; height: 44px;">Access the app (by making the "Bulk Task Smasher" option in the Uberflip sidebar menu visible) as well as <strong>Export</strong> bulk actions for all available resources in the app</td>
+</tr>
+<tr style="height: 44px;">
+<td style="width: 234.467px; height: 44px;">Create Operators</td>
+<td style="width: 459.533px; height: 44px;">Access <strong>Create</strong> bulk actions for all available resources in the app</td>
+</tr>
+<tr style="height: 22px;">
+<td style="height: 22px; width: 234.467px;">Update Operators</td>
+<td style="height: 22px; width: 459.533px;">Access <strong>Update</strong> bulk actions for all available resources in the app</td>
+</tr>
+<tr style="height: 44px;">
+<td style="height: 44px; width: 234.467px;">Delete Operators</td>
+<td style="height: 44px; width: 459.533px;">Access <strong>Delete</strong> bulk actions for all available resources in the app</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2>Configure Bulk Task Smasher permissions</h2>
+<p>By default, all members of the <strong>Account Administrators </strong>user group are granted all available Bulk Task Smasher permissions.</p>
+<p>If you want to use <strong>non-default user groups</strong> with Bulk Task Smasher, or if you want to <strong>restrict access to certain functions</strong>, you can configure Bulk Task Smasher's permissions by either granting or revoking permissions as needed. As with all Uberflip permissions, you can grant or revoke permissions at either the user group level (which affects all users within the user group), or at the individual user level (which affects only that user, unless they are also a member of a user group that grants the permissions).</p>
+<ol>
+<li>To configure permissions for Bulk Task Smasher, <strong>log in to the Uberflip backend</strong> (<a href="https://app.uberflip.com/" target="_self">app.uberflip.com</a>).</li>
+<li>In the top right, click on <strong>your name</strong>, then click on <strong>Account Settings</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360092084652/image.png" alt="image.png">
+</li>
+<li>In the sidebar menu, click on <strong>Organization</strong>. Then, click on:
+<ul>
+<li>
+<strong>Users</strong> if you want to configure permissions for specific users only.</li>
+<li>
+<strong>Groups</strong> if you want to configure permissions for all members of a user group.</li>
+</ul>
+</li>
+<li>Next, click on the <strong>user</strong> or <strong>user group</strong> (depending on your choice in the previous step) for which you want to modify permissions.</li>
+<li>While viewing the user or user group, click on the <strong>Permissions</strong> tab.</li>
+<li>Scroll to the bottom of the list of permissions, where you should see a <strong>Bulk Task Smasher</strong> section:<br><img src="https://help.uberflip.com/hc/article_attachments/4421909474573/image.png" alt="image.png">
+</li>
+<li>Here, simply <strong>grant</strong> or <strong>revoke</strong> permissions as required:
+<ul>
+<li>To <strong>give</strong> <strong>access</strong> to a feature for the selected user/user group, <strong>check the box </strong>beside the corresponding permission to grant it.</li>
+<li>To <strong>remove access</strong> to a feature for the selected user/user group, <strong>uncheck the box </strong>beside the corresponding permission to revoke it.</li>
+</ul>
+</li>
+<li>Your changes will be saved automatically, and will take effect immediately.</li>
+</ol>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p>If you grant any of the available child permissions (<em>Create/Update/Delete Operators</em>), you must <strong>also grant</strong> the parent <em>Bulk Task Smasher</em> permission. If you do not do this, the child permissions will have no effect, as users who do not have the parent permission will not be able to access the app.</p>
+</div>]]></description>
+         <guid isPermaLink="false">4421919862925</guid>
+         <pubDate>Wed, 19 Jan 2022 19:01:15 GMT</pubDate>
+      </item>
+      <item>
+         <title>Bulk Task Smasher: Stream Purpose ID codes</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4420439969549-Bulk-Task-Smasher-Stream-Purpose-ID-codes</link>
+         <description><![CDATA[<hr>
+<p>A reference guide to the Stream Purpose ID codes that must be used when setting the Stream Purpose for a Stream in Bulk Task Smasher.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>This article describes the special ID codes to use when setting a Stream Purpose on a Stream with Bulk Task Smasher's <strong>Streams &gt; Create Streams </strong>and <strong>Streams &gt; Update Streams</strong> bulk actions. For instructions on how to use these bulk actions, or the Bulk Task Smasher app in general, see the <a href="https://help.uberflip.com/hc/en-us/articles/4420438749197">user guide</a>.</li>
+</ul>
+<p> </p>
+<h2>Reference: Stream Purpose ID codes</h2>
+<p>When creating or updating a Stream using Bulk Task Smasher, you can also (optionally) set or change the <strong>Stream Purpose</strong> for that Stream, just as you can in Uberflip:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/4420432084109/image.png" alt="image.png"></p>
+<p>If you would like to set a Stream Purpose using Bulk Task Smasher, the Uberflip API (which Bulk Task Smasher uses to interact with your Uberflip account) requires that you specify the desired Stream Purpose using numeric <strong>Stream Purpose ID codes</strong>.</p>
+<p>Each available Stream Purpose setting has a corresponding Stream Purpose code, and these are outlined in the table below:</p>
+<table>
+<tbody>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="width: 63.5714%; height: 22px;"><strong>Stream Purpose setting</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 36.4286%; height: 22px;"><strong>Stream Purpose code</strong></td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 63.5714%;">
+<p data-renderer-start-pos="126">Account-Based Marketing</p>
+</td>
+<td class="wysiwyg-text-align-center" style="width: 36.4286%;">
+<p data-renderer-start-pos="153">1</p>
+</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 63.5714%;">
+<p data-renderer-start-pos="160">Demand Generation</p>
+</td>
+<td class="wysiwyg-text-align-center" style="width: 36.4286%;">
+<p data-renderer-start-pos="181">4</p>
+</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 63.5714%;">
+<p data-renderer-start-pos="188">Inbound Marketing</p>
+</td>
+<td class="wysiwyg-text-align-center" style="width: 36.4286%;">
+<p data-renderer-start-pos="209">7</p>
+</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 63.5714%;">
+<p data-renderer-start-pos="216">Sales Engagement</p>
+</td>
+<td class="wysiwyg-text-align-center" style="width: 36.4286%;">
+<p data-renderer-start-pos="236">10</p>
+</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 63.5714%;">
+<p data-renderer-start-pos="244">Customer Engagement</p>
+</td>
+<td class="wysiwyg-text-align-center" style="width: 36.4286%;">
+<p data-renderer-start-pos="267">13</p>
+</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 63.5714%;">
+<p data-renderer-start-pos="275">Internal</p>
+</td>
+<td class="wysiwyg-text-align-center" style="width: 36.4286%;">
+<p data-renderer-start-pos="287">16</p>
+</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 63.5714%;">
+<p data-renderer-start-pos="295">Other</p>
+</td>
+<td class="wysiwyg-text-align-center" style="width: 36.4286%;">
+<p data-renderer-start-pos="304">19</p>
+</td>
+</tr>
+</tbody>
+</table>]]></description>
+         <guid isPermaLink="false">4420439969549</guid>
+         <pubDate>Wed, 12 Jan 2022 23:23:38 GMT</pubDate>
+      </item>
+      <item>
+         <title>Bulk Task Smasher: User Guide</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4420438749197-Bulk-Task-Smasher-User-Guide</link>
+         <description><![CDATA[<hr>
+<p>Use the Bulk Task Smasher app to <span style="font-weight: 400;">automate repetitive manual actions with just a spreadsheet and a few clicks of your mouse.</span></p>
+<hr>
+<p> </p>
+<h2 id="h_b61f1927-db66-4d68-9b3b-b74794c4347b">Before you begin</h2>
+<ul>
+<li>To use Bulk Task Smasher, your Uberflip account must have <strong>API access</strong>. This feature is included with certain pack types, or may be added on to your Uberflip subscription. For more information, please speak with your Uberflip account representative.</li>
+<li>To follow the instructions in this article, you must be a member of the <strong>Account Administrators</strong> user group in the Uberflip account where you are using Bulk Task Smasher.
+<ul>
+<li>After installing the Bulk Task Smasher Marketplace app, you can also <strong>configure app permissions</strong> to give any user or user group access to the Bulk Task Smasher app, as well as to control access to particular bulk action categories within the app. For details, see <a href="https://help.uberflip.com/hc/en-us/articles/4421919862925">this article</a>.</li>
+</ul>
+</li>
+</ul>
+<p> </p>
+<h2 id="h_01J07GC6FDN2WEQXW9QYF18KWE">About Bulk Task Smasher</h2>
+<h3 id="h_01J07GC6FD98JPE1YQZAZD7AJ0">What is Bulk Task Smasher?</h3>
+<p>Bulk Task Smasher is an app that helps you to <strong>efficiently complete high-volume tasks in Uberflip</strong>. It works by <strong>automating repetitive and time-consuming manual actions</strong> for tasks like creating users, managing Streams, adding tags, and more.</p>
+<p>Rather than having to repeat the same manual actions over and over, Bulk Task Smasher lets you simply <strong>set up a spreadsheet with the details of the tasks you need to complete</strong>, then takes that spreadsheet and <strong>performs the actual tasks for you automatically</strong>.</p>
+<h3 id="h_01J07GC6FD1H4JYYJVPGK9KNJC">What can Bulk Task Smasher do?</h3>
+<p>Bulk Task Smasher can automate a variety of bulk tasks for your Uberflip <strong>Streams</strong>, <strong>Items</strong>, <strong>users </strong>and <strong>tags:</strong></p>
+<ul>
+<li>For each of these resources, Bulk Task Smasher can perform <strong>general bulk actions</strong> like <strong>create, update, export</strong>, and <strong>delete</strong>. These allow you to efficiently do things like create a large number of Streams, update many users, export all of your Items, or delete many tags at once.</li>
+<li>Certain resources also have <strong>special bulk actions </strong>available that are fully automated, such as "delete all unused tags", or "hide all Items older than a certain date".</li>
+<li>Bulk Task Smasher also has limited support for <strong>Flipbooks/PDFs</strong>, allowing you to easily upload document files in bulk.</li>
+</ul>
+<p>Here is an overview of all of the bulk actions that Bulk Task Smasher can perform (expand sections to view):</p>
+<div class="accordion accordion--colored">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Streams</strong></div>
+<div class="accordion__item-content">
+<table>
+<tbody>
+<tr style="height: 22px;">
+<td style="width: 50%; height: 22px;"><strong>Action</strong></td>
+<td style="width: 50%; height: 22px;"><strong>Allows you to...</strong></td>
+</tr>
+<tr style="height: 67px;">
+<td style="width: 50%; height: 67px;">Create Streams</td>
+<td style="width: 50%; height: 67px;">Create new Streams of any type and configure key details (name, description, etc.), as well as basic Stream options, plus add Items and <a href="https://help.uberflip.com/hc/en-us/articles/360035196932" target="_self">Multi-Language Links</a>
+</td>
+</tr>
+<tr style="height: 89px;">
+<td style="width: 50%; height: 89px;">Export Streams</td>
+<td style="width: 50%; height: 89px;">Export a spreadsheet with details of all existing Streams, as well as optional additional data about Items, Stream options, and Multi-Language Links</td>
+</tr>
+<tr style="height: 67px;">
+<td style="width: 50%; height: 67px;">Update Streams</td>
+<td style="width: 50%; height: 67px;">Modify the details of specified Streams as well as basic Stream options, plus add Items and manage Multi-Language Links</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 50%; height: 22px;">
+<p>Delete Streams</p>
+</td>
+<td style="width: 50%; height: 22px;">Delete (archive) specified Streams</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 50%; height: 22px;">Update Stream Options</td>
+<td style="width: 50%; height: 22px;">Modify additional Stream options for specified Streams</td>
+</tr>
+<tr style="height: 44px;">
+<td style="width: 50%; height: 44px;">
+<p>Remove Items from Marketing/Sales Streams</p>
+</td>
+<td style="width: 50%; height: 44px;">Remove all Items from specified Marketing and Sales Streams</td>
+</tr>
+<tr style="height: 44px;">
+<td style="width: 50%; height: 44px;">Remove Hidden Items from Marketing/Sales Streams</td>
+<td style="width: 50%; height: 44px;">Remove only hidden Items from specified Marketing and Sales Streams</td>
+</tr>
+<tr>
+<td style="width: 50%;">Remove Secondary URLs from Streams</td>
+<td style="width: 50%;">Remove previous/secondary URL paths from Streams</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Items</strong></div>
+<div class="accordion__item-content">
+<table>
+<tbody>
+<tr style="height: 22px;">
+<td style="width: 50%; height: 22px;"><strong>Action</strong></td>
+<td style="width: 50%; height: 22px;"><strong>Allows you to...</strong></td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 50%; height: 22px;">Create Items</td>
+<td style="width: 50%; height: 22px;">Create new Blog Items in specified Blog Streams and configure key details (author, title, content, etc.), plus add tags and Multi-Language Links</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 50%; height: 22px;">
+<p>Export Items</p>
+</td>
+<td style="width: 50%; height: 22px;">Export a spreadsheet with details of all existing Items, as well as optional additional data about attached tags, Streams, and Multi-Language Links</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 50%; height: 22px;">Update Items</td>
+<td style="width: 50%; height: 22px;">Modify the details of specified Items of any type, plus manage tags and Multi-Language Links</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 50%; height: 22px;">Delete Items</td>
+<td style="width: 50%; height: 22px;">Delete (archive) specified Items</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 50%; height: 22px;">Create Item-Level Custom Code Blocks</td>
+<td style="width: 50%; height: 22px;">Create and configure Item-Level Custom Code blocks on specified Items</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 50%; height: 22px;">Export Item-Level Custom Code Blocks</td>
+<td style="width: 50%; height: 22px;">Export a spreadsheet with details of all existing Item-Level Custom Code blocks</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 50%; height: 22px;">Update Item-Level Custom Code Blocks</td>
+<td style="width: 50%; height: 22px;">Modify the details of specified Item-Level Custom Code blocks</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 50%; height: 22px;">Delete Item-Level Custom Code Blocks</td>
+<td style="width: 50%; height: 22px;">Delete specified Item-Level Custom Code blocks</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 50%; height: 22px;">Hide/Show Items Older Than Date</td>
+<td style="width: 50%; height: 22px;">Automatically find all Items created before a specified date and hide them</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 50%; height: 22px;">Delete Items Older Than Date</td>
+<td style="width: 50%; height: 22px;">Automatically find all Items created before a specified date and delete (archive) them</td>
+</tr>
+<tr>
+<td style="width: 50%;">Remove Secondary URLs from Items</td>
+<td style="width: 50%;">Remove previous/secondary URL paths from Items</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Users</strong></div>
+<div class="accordion__item-content">
+<table>
+<tbody>
+<tr style="height: 22px;">
+<td style="width: 50%; height: 22px;"><strong>Action</strong></td>
+<td style="width: 50%; height: 22px;"><strong>Allows you to...</strong></td>
+</tr>
+<tr style="height: 21px;">
+<td style="width: 50%; height: 21px;">Create Users</td>
+<td style="width: 50%; height: 21px;">Create new users and configure their details (name, email, bio, etc.) as well as optionally assign them to existing user groups</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 50%; height: 22px;">Export Users</td>
+<td style="width: 50%; height: 22px;">Export a spreadsheet with details of all current users, as well as optional additional data about the user groups they belong to</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 50%; height: 22px;">Update Users</td>
+<td style="width: 50%; height: 22px;">Modify the details of specified users, including the user groups they belong to</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 50%; height: 22px;">Delete Users</td>
+<td style="width: 50%; height: 22px;">Delete specified users</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Tags</strong></div>
+<div class="accordion__item-content">
+<table>
+<tbody>
+<tr>
+<td style="width: 50%;"><strong>Action</strong></td>
+<td style="width: 50%;"><strong>Allows you to...</strong></td>
+</tr>
+<tr>
+<td style="width: 50%;">Create Tags</td>
+<td style="width: 50%;">Create new tags</td>
+</tr>
+<tr>
+<td style="width: 50%;">Export Tags</td>
+<td style="width: 50%;">Export a spreadsheet containing a list of all existing tags</td>
+</tr>
+<tr>
+<td style="width: 50%;">Update Tags</td>
+<td style="width: 50%;">Modify the details of specified existing tags</td>
+</tr>
+<tr>
+<td style="width: 50%;">Delete Tags</td>
+<td style="width: 50%;">Delete a specified set of tags</td>
+</tr>
+<tr>
+<td style="width: 50%;">Delete All Tags</td>
+<td style="width: 50%;">Automatically delete all tags</td>
+</tr>
+<tr>
+<td style="width: 50%;">Delete Unused Tags</td>
+<td style="width: 50%;">Automatically find all tags that are currently not attached to any Items and delete them</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Flipbooks/PDFs</strong></div>
+<div class="accordion__item-content">
+<table>
+<tbody>
+<tr>
+<td style="width: 50%;"><strong>Action</strong></td>
+<td style="width: 50%;"><strong>Allows you to...</strong></td>
+</tr>
+<tr>
+<td style="width: 50%;">Create Flipbooks/PDFs</td>
+<td style="width: 50%;">Download PDF files from specified URLs, then upload them to specified Folders to create corresponding Flipbooks (or PDFs)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<h3 id="h_01J07GC6FD6DEYJ0FGK3VT4D22">How does Bulk Task Smasher work?</h3>
+<p>To set up most bulk actions in Bulk Task Smasher, you fill out a <strong>job template</strong>. A job template is simply <strong>a specially formatted spreadsheet </strong>where you enter<strong> instructions</strong> for the actions you want the tool to perform.</p>
+<p>Job templates are specific to bulk actions, and you can download the necessary job template for each bulk action directly within the app.  Like all spreadsheets, job templates consist of <strong>columns</strong> and <strong>rows</strong>:</p>
+<ul>
+<li>Running across the top of the job template are the preset <strong>column headers</strong>. These specify the type of information that you enter into that column to configure each step of the bulk action. Every job template has at least one <strong>required</strong> <strong>header</strong>, and most also have a number of <strong>optional headers</strong> that you can configure to your needs when you download the job template.</li>
+<li>After the first row (which contains the column headers), every other row in the job template represents a <strong>distinct</strong> <strong>step</strong> in the bulk action: for example, if you're creating Streams, each row represents a different Stream to be created.</li>
+</ul>
+<p>For example, say you want to add a group of new users to your Uberflip account: to do this, you set up a job template where each row represents a user you want to create. On every row, you fill out the columns with the necessary details to create each user, such as their first name, last name, email, etc.:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/4421535437837" alt="image.png"></p>
+<p>Once your job template is ready, you simply upload it to Bulk Task Smasher. The tool then runs through every row in the job template, and automatically performs each required action as specified.</p>
+<div class="callout callout--info">
+<h4 id="h_01J07GC6FDS17091TMXJPA7M93" class="callout__title">Info</h4>
+<p>Not all bulk actions require a job template: some special bulk actions are <a href="#h_01FSN3QJTJ2CG2ZFMAVS3PSMED" target="_self" rel="undefined">configured directly within the Bulk Task Smasher app</a>, and therefore do not require a job template to be run.</p>
+</div>
+<p> </p>
+<h2 id="h_01J07GC6FDTNBJ0AB79MBHCYVB">Install Bulk Task Smasher</h2>
+<p>To use Bulk Task Smasher, you must first install the <strong>Bulk Task Smasher Marketplace app</strong>.</p>
+<ol>
+<li>
+<strong>Log in</strong> to your Uberflip account at <strong><a href="https://app.uberflip.com" target="_self">app.uberflip.com</a>.</strong>
+</li>
+<li>Head to the <a href="https://marketplace.uberflip.com/details/621984">Bulk Task Smasher in Marketplace</a>.</li>
+<li>Click on <strong>Install</strong>.</li>
+<li>If the app has been successfully installed, you'll see <strong>Bulk Task Smasher </strong>listed under <strong>Marketplace &gt; Installed Apps</strong> in Uberflip:<br><img src="https://help.uberflip.com/hc/article_attachments/4421527501581" alt="Account___Installed_Apps_-_Uberflip.png">
+</li>
+<li>In addition, you'll also see a new <strong>Bulk Task Smasher</strong> menu option in the sidebar menu in Uberflip:<br><img src="https://help.uberflip.com/hc/article_attachments/4421535919629" alt="Hubs___Bulk_Task_Smasher_-_Uberflip.png">
+</li>
+</ol>
+<p> </p>
+<h2 id="h_01J07GC6FD5MCA8K4WVPEMZQEF">Open Bulk Task Smasher</h2>
+<p>To use Bulk Task Smasher to set up and run bulk actions, begin by opening the app from within Uberflip.</p>
+<ol>
+<li>
+<strong>Log in</strong> to your Uberflip account at <strong><a href="https://app.uberflip.com" target="_self">app.uberflip.com</a>.</strong>
+</li>
+<li>Click on <strong>Bulk Task Smasher</strong> in the sidebar menu:<br><img src="https://help.uberflip.com/hc/article_attachments/4421535919629" alt="Hubs___Bulk_Task_Smasher_-_Uberflip.png">
+</li>
+<li>You will be logged in to Bulk Task Smasher automatically, and the Bulk Task Smasher app interface will appear on the right:<br><img src="https://help.uberflip.com/hc/article_attachments/4421535982221" alt="Hubs___Bulk_Task_Smasher_-_Uberflip.png">
+</li>
+</ol>
+<p>From here, you can <strong>set up and run bulk actions</strong>.</p>
+<div class="callout">
+<h4 id="h_01J07GC6FD1JK6XG8K92WTKKVE" class="callout__title">Info</h4>
+<p>Bulk Task Smasher accesses your account using your Uberflip API credentials. If you have not yet <a href="https://help.uberflip.com/hc/en-us/articles/360019084031" target="_self"><strong>generated API credentials</strong></a> for your user account, Bulk Task Smasher will automatically generate these for you the first time you open the app.</p>
+</div>
+<p> </p>
+<h2 id="h_01FSQWR3688DD701X9SNBNWEB9">Set up and run bulk actions with Bulk Task Smasher</h2>
+<div class="callout callout--danger">
+<h4 id="h_01J07GC6FDAFPAS1N0AFE5CNY7" class="callout__title">Warning</h4>
+<p><strong>Always use this tool with caution</strong>.</p>
+<p>Bulk Task Smasher can<strong> rapidly make</strong> <strong>extensive changes </strong>to your Uberflip account. If you make a mistake, <strong>any unwanted changes may be</strong> <strong>difficult or even impossible to reverse</strong>.</p>
+<p>To reduce the chances of accidentally making unwanted changes to your Uberflip account, we strongly recommend that you <strong>read and use our <a href="https://help.uberflip.com/hc/en-us/articles/4422151590797">best practices for using Bulk Task Smasher</a></strong>.</p>
+<p>Before you run any bulk action in Bulk Task Smasher, <strong>always ensure that you understand exactly what will happen as a result</strong>.</p>
+</div>
+<p>In Bulk Task Smasher, you begin setting up all available bulk actions the same way:</p>
+<ol>
+<li>First, <strong>select the type of Uberflip resource</strong> (Streams, Items, tags, users, or Flipbooks/PDFs) that you want to apply a bulk action to:<br>
+<p><img src="https://help.uberflip.com/hc/article_attachments/4421536524301" alt="Hubs___Bulk_Task_Smasher_-_Uberflip.png"></p>
+</li>
+<li>Then, <strong>choose from a list of available bulk actions</strong> for that resource:<br><img src="https://help.uberflip.com/hc/article_attachments/4422795793677" alt="Hubs___Bulk_Task_Smasher_-_Uberflip.png">
+</li>
+</ol>
+<p>From this point, the specific steps for setting up and running the bulk action<strong> vary depending on the type of bulk action you selected</strong>:</p>
+<p>For instructions on setting up the <strong><em>Create</em>, <em>Update</em>, and <em>Delete</em> bulk actions</strong> for any resource, see this article:</p>
+<p><a class="btn btn--primary" href="https://help.uberflip.com/hc/en-us/articles/4422781484557" target="_blank" rel="noopener noreferrer"><strong> Bulk Task Smasher: Set up and run<em> Create</em>, <em>Update</em>, and <em>Delete</em> bulk actions</strong> </a></p>
+<p>For instructions on setting up the <strong><em>Export</em> bulk actions</strong> for any resource, as well as the <strong>special bulk actions</strong> that are available for certain resources, see this article:</p>
+<p><a class="btn btn--primary" href="https://help.uberflip.com/hc/en-us/articles/4422794535309" target="_blank" rel="noopener noreferrer"><strong> Bulk Task Smasher: Set up and run <em>Export</em> and special bulk actions</strong> </a></p>
+<p> </p>
+<h2 id="h_01FSQSFZV2VH00AVCWMC84B2SJ">Check on the status of submitted jobs</h2>
+<p>After you set up and submit a bulk action (or "job") in Bulk Task Smasher, the app will process the job and<strong> automatically perform the necessary tasks</strong> to complete the bulk action you set up.</p>
+<p>All Bulk Task Smasher jobs submitted in your account are recorded in the <strong>jobs table</strong>, where you can check on the <strong>status</strong> of any job (whether it has been completed, and if so, if it completed successfully or with errors), as well as view details of all past jobs.</p>
+<div class="callout callout--info">
+<h4 id="h_01J07GC6FDAD9N93QY0KXKKQ91" class="callout__title">Note</h4>
+<p><em><strong>Export</strong></em> <strong>bulk </strong><strong>actions are not</strong><strong> recorded in the jobs table</strong>, because they are not submitted and processed like other bulk actions.</p>
+</div>
+<p>The jobs table displays the current status of all current and past jobs at a glance. The possible statuses are:</p>
+<dl class="dl-horizontal">
+<dt>Processing</dt>
+<dd>The job is still being processed by Bulk Task Smasher, and is not yet complete.</dd>
+<dt>Completed</dt>
+<dd>Bulk Task Smasher has completed the job, and was able to perform all steps in the job without errors.</dd>
+<dt>Warning</dt>
+<dd>Bulk Task Smasher has completed the job, but some steps could not be performed (typically due to errors in the job template).</dd>
+<dt>Failed</dt>
+<dd>Bulk Task Smasher encountered a critical error and was not able to complete the job.</dd>
+</dl>
+<ol>
+<li>To view the jobs table at any time, click on <strong>View Jobs</strong>:<br>
+<p><img src="https://help.uberflip.com/hc/article_attachments/4421762736269" alt="image.png"></p>
+</li>
+<li>This will display the jobs table, which lists all jobs submitted in your account:<br><img src="https://help.uberflip.com/hc/article_attachments/15425433198989">
+</li>
+<li>
+<strong>Click on the table entry of any completed job</strong> to view more information about that job. In this expanded view, you can review a detailed log of all the actions Bulk Task Smasher performed. <strong>Use the filter controls</strong> to view either all log entries for the job, only errors, or only fatal errors:<img src="https://help.uberflip.com/hc/article_attachments/15425563803917">
+</li>
+<li>In this view, you can also <strong>download the original job template file</strong> that was used to submit the job, as well as <strong>export a full log of actions performed as part of the job</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/4421763497997" alt="image.png">
+</li>
+<li>Lastly, you can also <strong>use the search box</strong> to search for any job by its<strong> job ID </strong>(which is provided in the confirmation message whenever you submit a job), and <strong>export the complete jobs table</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/15425607561997">
+</li>
+</ol>
+<p> </p>
+<h2 id="h_01J07GC6FECRXX6E26FEYPATRZ">Notes</h2>
+<ul>
+<li>The<strong> error messages</strong> shown in the job logs are provided by the Uberflip API, and are not modified by Bulk Task Smasher in any way. As these error messages were intended for API users (i.e. developers), they can often be difficult to interpret for a non-technical user. Here are some <strong>common error messages</strong> you might encounter, and what they typically mean:
+<ul>
+<li>
+<p><strong>Resource not found</strong>: Bulk Task Smasher couldn't perform the specified action on the specified resource (e.g. a specific Stream, Item, user, tag, or Flipbook/PDF), because it could not find that resource in the Uberflip account. This usually happens because the resource's identifier code (i.e. a Stream ID, Item ID, etc.) was entered incorrectly in the job template, or because the resource simply does not exist (or no longer exists) in the account. To resolve, check the provided ID(s) for the affected resource(s) and correct them as needed.</p>
+</li>
+<li>
+<p><strong>Delete blocked by dependencies</strong>: Bulk Task Smasher couldn't delete the specified resource, because other resources in the Uberflip account require this resource to exist and blocked the deletion. To resolve, check the error message for details of the resource that blocked the deletion, and delete it first if applicable.</p>
+</li>
+</ul>
+</li>
+</ul>]]></description>
+         <guid isPermaLink="false">4420438749197</guid>
+         <pubDate>Wed, 12 Jan 2022 23:02:41 GMT</pubDate>
+      </item>
+      <item>
+         <title>Bulk Task Smasher: What does the warning about the Excel character limit mean?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4411353508109-Bulk-Task-Smasher-What-does-the-warning-about-the-Excel-character-limit-mean</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>I am trying to download a file from Bulk Task Smasher, and the app is telling me there is some problem with Excel and a character limit. What does this mean?</p>
+<p> </p>
+<h2>Answer</h2>
+<h3>Background</h3>
+<p>Bulk Task Smasher can generate two kinds of files that incorporate data from your Uberflip account: <strong>Populated Templates</strong> and <strong>Exports</strong>. The generated files are <strong>Microsoft Excel</strong> spreadsheets in the <strong>.XLSX format</strong>, and data from your account is inserted into individual cells within the spreadsheets.</p>
+<p>However, <a href="https://support.microsoft.com/en-us/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3">Excel has a limit on the number of characters that a single cell can contain</a>: <strong>32,767 characters</strong>. If you attempt to open a spreadsheet file in Excel where any single cell has <strong>more</strong> than 32,767 characters, Excel will indicate that it found a problem, and will offer to "recover" the file:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/4413423250445/image.png" alt="image.png"></p>
+<p>If you click <em>Yes</em>, Excel will <strong>cut off the content of any cells with more than 32,767 characters</strong> to fit within the character limit. For example, if the cell originally contained 70,000 characters, Excel would cut this down to <strong>just the first 32,767 characters</strong>, and <strong>discard the rest</strong>.</p>
+<h3>The problem</h3>
+<p>In some cases, Bulk Task Smasher can generate files where individual cells exceed Excel's character limit (for example, in cells containing the body text of content Items). Opening these files in Excel and then using the "recover" option would cut down the contents of cells that exceed the character limit, but when this happens<strong> Excel does not indicate which cells were cut down</strong>.</p>
+<p>This creates a <strong>risk of</strong> <strong>data loss</strong> if you attempt to use a file affected by this issue as a job template in Bulk Task Smasher: if you are unaware of which cells were cut down and did not remove their contents from the file, Bulk Task Smasher would interpret the shortened cell contents as a change, and would update your Uberflip account accordingly. In practical terms, this means Bulk Task Smasher would <strong>shorten content Item body text or other data in your Uberflip account</strong> to match what was specified in the affected cells in the job template.</p>
+<h3>The solution</h3>
+<p>To help mitigate this risk, Bulk Task Smasher checks all of the files it generates for cells that exceed Excel's character limit and <strong>automatically removes the contents of any over-limit cells it finds</strong> before making the file available for download.</p>
+<p>Whenever this happens, Bulk Task Smasher will notify you with a prompt before the file is downloaded to your computer:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/4413404857101/Bulk_Task_Smasher_-_Uberflip.png" alt="Bulk_Task_Smasher_-_Uberflip.png" width="531" height="368"></p>
+<p>Removing over-limit cell contents ensures you can safely open and edit the file in Excel without the risk of unintentionally making unwanted changes to your Uberflip account due to truncated cell contents. While working with the file in Excel, <strong>all</strong> <strong>affected cells will be blank</strong>, and will be <strong>highlighted with a comment flag:</strong></p>
+<p><span class="wysiwyg-color-red"><img src="https://help.uberflip.com/hc/article_attachments/4413422268045/image.png" alt="image.png"></span></p>
+<h3>Alternative options for advanced users</h3>
+<p>The single-cell character limit of 32,767 characters <strong>only applies to Microsoft Excel</strong>: other spreadsheet programs have their own (often higher) limits  — or even no limit at all. For example, the single-cell character limit in Google Sheets is 50,000 characters, in OpenOffice Calc it is 65,535, and both LibreOffice Calc and Apple Numbers do not place any limit on the number of characters in a cell.</p>
+<p>If you want to use a spreadsheet program<strong> other than Excel</strong> to work with the files generated by Bulk Task Smasher, you can choose to download the files with the contents of over-limit cells left intact (not removed).</p>
+<p>To do this, click on <strong>Advanced options</strong> in the character limit warning, then <strong>check the box</strong> next to <em>I understand the risks, download this file with the over-limit cells included</em>. You will then be given the option of downloading a Non Excel Compatible version of the file:</p>
+<p><span class="wysiwyg-color-red"><img src="https://help.uberflip.com/hc/article_attachments/4413422186125/image.png" alt="image.png" width="531" height="429"></span></p>
+<p>Please note that <strong>using this option is at your own risk</strong>, and you should be aware of any cell character limits in the spreadsheet program you intend to use.</p>]]></description>
+         <guid isPermaLink="false">4411353508109</guid>
+         <pubDate>Thu, 14 Oct 2021 22:44:26 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Flipbook security</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Remote Authentication: Autoredirect to Another Website to Log In</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360022935031-Remote-Authentication-Autoredirect-to-Another-Website-to-Log-In</link>
+         <description><![CDATA[<p>When using remote authentication, you may want to prevent users from accessing the content directly and rather have them access content through a secure website.  </p>
+<p>This way you can build your own authentication method (eg. based on IP address, or  restrict number of accesses by a user) and utilize your own payment mechanism.</p>
+<p> </p>
+<h2>Step 1: Setup Remote Authentication with Redirect Script in Custom Message</h2>
+<p>Just set up <a href="https://help.uberflip.com/hc/en-us/articles/360022934251" target="_blank" rel="noopener">remote authentication</a>, or <a href="https://help.uberflip.com/hc/en-us/articles/360022931011" target="_blank" rel="noopener">Single Passphrase </a>and fill out all the required fields.  Note that one of these options must be turned on but you won't need to actually have a functioning remote script or utilize the passphrase challenge because you will be auto redirecting them to another site per below.  Note that in order to support the Annotation Tools, you should turn on the remote authentication rather than passphrase, and ensure 'return userid' option is checked.</p>
+<p>THEN, use the Optional <strong>Custom Login Screen Message</strong> to enter your script which will redirect automatically to the website of your choice.</p>
+<p><strong>NOTE:  Change the address in double quotes to the URL of your choice.  Standard use would be the login for your external website.</strong></p>
+<pre class="prettyprint javascript">window.top.location.href = "http://www.somesiteofyourchoice.com/anyfolder?anyscript";</pre>
+<p>An element with the Folder name will display briefly, then the target website will load instead.</p>
+<p> </p>
+<h2>Step 2: Use API to Bypass the Redirect from within Secure Webpage</h2>
+<p><a href="https://platform.uberflip.com/legacy_api/authentication_methods/AuthenticateRemoteUser.html" target="_blank" rel="noopener">Click Here for the article on AuthenticateRemoteUser API Method</a></p>
+<p>This method will return a token from our system that must be appended to your Folder or Flipbook URLs on your secure page. That token appended link will bypass that redirect and load the content for the user.</p>
+<p>An example method call could be:<br> <img style="float: left; width: 750px; height: 20px;" src="https://content.cdntwrk.com/files/aHViPTQyNjMxJmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzU0Y2FkMzQ0MjcwZTEucG5nJnZlcnNpb249MDAwMCZzaWc9ODk0MzMzNWFiNGM2MzYyMWJlYmYxYzUyM2NjMDk3ZTU%253D" alt="Example_Method_Call_-_Authenticate_Remote_User_-_2014-06-02.png"></p>
+<p>(xxxxx is where you would need to plug in your API Key, Signature, and TitleID/FolderID</p>
+<p><strong>NOTE: MASTER ACCOUNTS WILL USE https://api.cdntwrk.com/ instead of https://api.uberflip.com/</strong></p>
+<p>That method will return an XML response (or JSON if chosen) that contains a token. You must parse that XML response (or JSON) and add the token to the end of a Folder or Flipbook URL that is on that secure webpage using ?token=xxxxx</p>
+<p><img style="float: left; width: 469px; height: 19px;" src="https://content.cdntwrk.com/files/aHViPTQyNjMxJmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzU0Y2FkMzc2ZDE1ZGUucG5nJnZlcnNpb249MDAwMCZzaWc9YWVkNTlhZTU5ZTNhYTNiYWRkYzE1MjNlNzE5NjhhMTc%253D" alt="Token_Append_Example.png"></p>
+<p> </p>
+<p>You can dynamically build these token appended links whenever the secure page loads OR</p>
+<p><strong>Recommended:  </strong>Obtain and append the token on link click instead to reduce the number of API calls</p>
+<p>See diagram below:</p>
+<p><img style="float: left; width: 652px; height: 502px;" src="https://content.cdntwrk.com/files/aHViPTQyNjMxJmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzU0Y2FkM2EyZGFjMjMucG5nJnZlcnNpb249MDAwMCZzaWc9ZmQ0ZWEyOGJmOWIzYzc5YjAyZTA5MDBhNWZlMTc4MTA%253D" alt="Remote_Authentication_-_Bypass_Autentication_Diagram.png"></p>]]></description>
+         <guid isPermaLink="false">360022935031</guid>
+         <pubDate>Tue, 05 Feb 2019 18:45:07 GMT</pubDate>
+      </item>
+      <item>
+         <title>Remote Authentication: AuthenticateRemoteUser API Method (Avoid Double Login)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360022709832-Remote-Authentication-AuthenticateRemoteUser-API-Method-Avoid-Double-Login</link>
+         <description><![CDATA[<p><span style="line-height: 1.5;">If you have your own database, along with a website that your clients already login to, you can use Folder Remote Authentication along with the API method AuthenticateRemoteUser to avoid forcing your users to login for a second time to view your content hosted with us.</span></p>
+<p>Using Remote Authentication with the API method 'AuthenticateRemoteUser' will allow you to manage your own payment/subscriber database and integrate your Flipbooks into your website presence.</p>
+<p> </p>
+<h2>Step 1:  Setup Remote Authentication for Your Folder</h2>
+<p><a href="https://help.uberflip.com/hc/en-us/articles/360022934251" target="_blank" rel="noopener">Click Here for Article on Remote Authentication</a></p>
+<p>This is a requirement, because we must take into account folks that may try to access the Flipbook or Folder link outside of the secure website area, in which we would display our login challenge.</p>
+<p>That needs a custom script built that will take username/password posted from our system, and compare to your remote database, then return a value to our system indicating success or failure, to allow/block access.</p>
+<p>See diagram below:<br><br><img style="float: left; width: 613px; height: 487px;" src="https://content.cdntwrk.com/files/aHViPTQyNjMxJmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzU0Y2FjZTA1NTg4NzgucG5nJnZlcnNpb249MDAwMCZzaWc9YzBlNzI1ZTk2NmMxMzE1N2Q4ZDMwMTQ2ZGYyZTgwOTM%253D" alt="Remote_Authentication_Diagram.png"></p>
+<p> </p>
+<h2>Step 2: Use the AuthenticateRemoteUser method to call our system to obtain a token</h2>
+<p><a href="https://platform.uberflip.com/legacy_api/authentication_methods/AuthenticateRemoteUser.html" target="_blank" rel="noopener">Click Here for the article on AuthenticateRemoteUser API Method</a></p>
+<p>This method will return a token from our system that must be appended to your Flipbook or Folder links on your secure page, and that token appended link will bypass the second login (our Application).</p>
+<p>An example method call could be:<br><img style="float: left;" src="https://content.cdntwrk.com/files/aHViPTQyNjMxJmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzU0Y2FkMzQ0MjcwZTEucG5nJnZlcnNpb249MDAwMCZzaWc9ODk0MzMzNWFiNGM2MzYyMWJlYmYxYzUyM2NjMDk3ZTU%253D" alt="Example Method Call - Authenticate Remote User - 2014-06-02.png"></p>
+<p>(xxxxx is where you would need to plug in your API Key, Signature, and TitleID/FolderID)</p>
+<p><strong>NOTE: MASTER ACCOUNTS WILL USE https://api.cdntwrk.com/ instead of https://api.uberflip.com/</strong></p>
+<p>That method will return an XML response (or JSON if chosen) that contains a token. You must parse that XML response (or JSON) and add the token to the end of a Flipbook or Folder URL that is on that secure webpage using ?token=xxxxx</p>
+<p><img style="float: left;" src="https://content.cdntwrk.com/files/aHViPTQyNjMxJmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzU0Y2FkMzc2ZDE1ZGUucG5nJnZlcnNpb249MDAwMCZzaWc9YWVkNTlhZTU5ZTNhYTNiYWRkYzE1MjNlNzE5NjhhMTc%253D" alt="Token_Append_Example.png"></p>
+<p> </p>
+<p><span style="line-height: 1.5;">You can dynamically build these token appended links whenever the secure page loads OR</span></p>
+<p><strong>Recommended:  </strong>Obtain and append the token on link click instead to reduce the number of API calls</p>
+<p>See diagram below:<br><img style="float: left;" src="https://content.cdntwrk.com/files/aHViPTQyNjMxJmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzU0Y2FkM2EyZGFjMjMucG5nJnZlcnNpb249MDAwMCZzaWc9ZmQ0ZWEyOGJmOWIzYzc5YjAyZTA5MDBhNWZlMTc4MTA%253D" alt="Remote_Authentication_-_Bypass_Authentication_Diagram.png"></p>]]></description>
+         <guid isPermaLink="false">360022709832</guid>
+         <pubDate>Tue, 05 Feb 2019 18:40:42 GMT</pubDate>
+      </item>
+      <item>
+         <title>Remote Authentication Methods Explained</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360022706992-Remote-Authentication-Methods-Explained</link>
+         <description><![CDATA[<hr>
+<p>Depending on what you already have set up as far as external databases/payment integrations or how you want your end users to flow/access content, you have some options in how to utilize our Remote Authentication tools.</p>
+<hr>
+<p> </p>
+<h2>Option 1: Simply protect the content using our Remote Authentication Tool</h2>
+<p>This will present a challenge screen when an end user accesses a protected link directly.</p>
+<p>This requires a script to be written that will take a POST of username/password from the Flipbook challenge, compare to the remote 3rd party database, and return a string that matches what our system is looking for to allow access.</p>
+<p><a href="https://help.uberflip.com/hc/en-us/articles/360022934251">See this article for instructions</a>.</p>
+<p> </p>
+<h2>Option 2: End users could access content through multiple sources (from behind a gated website, from an email blast, Library App, elsewhere)</h2>
+<p>We would have to set up the Folder per Option 1 above and connect to an authentication script so end users are challenged if they try to access content directly through a link.</p>
+<p><span style="line-height: 1.5;">This method would also involve using the API to bypass the challenge for folks who access content from behind a gated website. </span></p>
+<p><span style="line-height: 1.5;">We use the API to bypass the challenge because we don't want users to have to login on the website then have to log in again to view the content through another challenge delivered by our system.</span></p>
+<p><span style="line-height: 1.5;"><a href="https://help.uberflip.com/hc/en-us/articles/360022709832">See this article for instructions</a>.</span></p>
+<p> </p>
+<h2>Option 3: End users will only be accessing content from behind gated website or through a custom payment integration</h2>
+<p>Instead of challenging users who access the link directly, we simply funnel them to the gated website login with a simple redirect script.</p>
+<p>No authentication script required here because you can use our pre-built single passphrase option and its custom message which will house the redirect script.  </p>
+<p>Some use of the API will be needed however to bypass that redirect script once content is accessed from behind that gated website.</p>
+<p><a href="https://help.uberflip.com/hc/en-us/articles/360022935031">See this article for instructions</a>.</p>]]></description>
+         <guid isPermaLink="false">360022706992</guid>
+         <pubDate>Tue, 05 Feb 2019 18:25:47 GMT</pubDate>
+      </item>
+      <item>
+         <title>Set Up Passphrase Authentication for Flipbook Folders</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360022931011-Set-Up-Passphrase-Authentication-for-Flipbook-Folders</link>
+         <description><![CDATA[<hr>
+<p>All account levels have access to the passphrase security control option, which gives you some control over access to your Flipbooks.</p>
+<hr>
+<p> </p>
+<h2>About Passphrase Authentication for Flipbook Folders</h2>
+<p>This security option can be turned on for a Folder and force users to enter a password or access code in order to view any Flipbook under that Folder.  It's a very simple way you can protect your content and only serve to those who are authorized.</p>
+<p> </p>
+<h2>Step 1: Access Security or Subscription Configuration</h2>
+<p>To configure access control for your Flipbooks:</p>
+<ol>
+<li>Click on "<strong>Flipbooks</strong>" &gt; "<strong>Manage Flipbooks</strong>" in the Top Menu Bar.</li>
+<li>Choose the Folder to which you want to control access (if you only have 1 Folder, it will already be chosen).</li>
+<li>Click on the "<strong>Edit</strong>" button in the "<strong>Security or Subscription</strong>" section.</li>
+</ol>
+<p><img style="width: 650px; height: 466px; float: left;" src="https://content.cdntwrk.com/files/aHViPTQyNjMxJmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzU0Y2FjNmExYzJlYmYucG5nJnZlcnNpb249MDAwMCZzaWc9MmEzNTU5ODEyZjBkNDI0YmRkZjIzOWVhM2MzNzlkM2M%253D" alt="screenshot.png"></p>
+<p> </p>
+<h2>Step 2: Choose the Passphrase Use-Case</h2>
+<p><img style="float: left;" src="https://content.cdntwrk.com/files/aHViPTQyNjMxJmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzU0Y2FjYWU3ZGQyYWEucG5nJnZlcnNpb249MDAwMCZzaWc9NWE5NjkyMzAzYzk3Zjg1YjUwYzg5ZTI5NmU3OGVjNWE%253D" alt="Use_Case_Select_-_Passphrase.png"></p>
+<p> </p>
+<h2>Step 3: Setup your Login Screen Challenge</h2>
+<p><img style="float: left;" src="https://content.cdntwrk.com/files/aHViPTQyNjMxJmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzU0Y2FjYjAxMmE5ZTgucG5nJnZlcnNpb249MDAwMCZzaWc9NmU1YmVmN2QwY2QxZTFhNjEyMDhkNDA0MTM1MTZiZDg%253D" alt="passphrase_-_login_settings.png"></p>
+<p>Click on the "<strong>Login Settings</strong>" and configure your login popup window:</p>
+<ol>
+<li>
+<strong>Your Passphrase: </strong>Enter the secret phrase/word that user is required to enter to view the content.</li>
+<li>
+<strong>Custom Login Screen Message (optional):  </strong>Enter any custom message using text, HTML, JS, CSS you want to appear on the passphrase challenge screen.</li>
+<li>
+<strong>'Help' website link  (optional): </strong>Enter a website users can access to obtain help or the secret passphrase and it will be displayed on the login challenge.</li>
+</ol>
+<p> </p>
+<h2>Step 4: Allow for Previewing of Pages without Logging In</h2>
+<p><img style="float: left;" src="https://content.cdntwrk.com/files/aHViPTQyNjMxJmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzU0Y2FjYjE2NWEwOWEucG5nJnZlcnNpb249MDAwMCZzaWc9NzMxZWZhZjEwMDJiYmQ2YmQ2N2I2ODQ1NjFlOGRhM2M%253D" alt="passphrase_-_Preview_Settings.png"></p>
+<p>You can allow visitors to preview the first few pages of your publication to give them a sneak peak into what they are in store for if they signup or obtain the password required to view the content.  There will be a 'Preview" button on the login popup if this option is enabled.</p>
+<p>Just click on the "<strong>Preview Settings</strong>" options then:</p>
+<ol>
+<li>Check the box to '<strong>Allow a short preview for non-members</strong>'.</li>
+<li>Set the number of pages that you want to allow visitors to view before the login challenge pops up again.</li>
+</ol>
+<p><span style="line-height: 1.5;">Whenever you are ready to apply the new settings, click the "<strong>Save</strong>" </span><span style="line-height: 1.5;">button and all Flipbooks under the Folder will be protected!</span></p>]]></description>
+         <guid isPermaLink="false">360022931011</guid>
+         <pubDate>Tue, 05 Feb 2019 18:18:50 GMT</pubDate>
+      </item>
+      <item>
+         <title>Control access to Flipbooks</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360022703872-Control-access-to-Flipbooks</link>
+         <description><![CDATA[<hr>
+<p>Controlling access to your Flipbooks can be done in a variety of ways.  Access control is defined at the Folder level and will apply to all Flipbooks that belong under that Folder.</p>
+<hr>
+<div class="callout callout--info">
+<h4 class="callout__title">Looking to disable or delete a Flipbook?</h4>
+<p>Check out: <a href="https://help.uberflip.com/hc/en-us/articles/9984366864141" target="_self">Disable or delete a Flipbook</a></p>
+</div>
+<p class="wysiwyg-text-align-left"> </p>
+<h2 class="wysiwyg-text-align-left">About Flipbook security</h2>
+<p class="wysiwyg-text-align-left">Flipbook Security options range from simple password protection, to email harvesting, to requiring a valid username and password to login, to leveraging the feature along with API for custom access solutions. There are options where you can leverage Uberflip's own Subscription System or connect to your own database of subscribers for a custom solution.</p>
+<p class="wysiwyg-text-align-left">Please note that not all features are available to all pack types - check your account permissions or <a href="https://help.uberflip.com/hc/en-us/requests/new"><strong>contact us</strong></a> if you're not sure.</p>
+<p class="wysiwyg-text-align-left"> </p>
+<h2 class="wysiwyg-text-align-left">Configure access control on a folder</h2>
+<p class="wysiwyg-text-align-left">To configure access control for your Flipbooks:</p>
+<ol class="wysiwyg-text-align-left">
+<li>Click <strong>Flipbooks</strong> &gt; <strong>Manage Flipbooks</strong> in the Top Menu Bar<br><img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" src="https://help.uberflip.com/hc/article_attachments/9980972749965" alt="mceclip0.png">
+</li>
+<li>Choose the Folder you want to control access to (if you only have 1 Folder, it will already be chosen)</li>
+<li>Click <strong>Edit</strong> button in the <strong>Security or Subscription</strong> section<br><img src="https://help.uberflip.com/hc/article_attachments/9981475613837" alt="mceclip1.png">
+</li>
+<li>Choose an access control method:<br><img src="https://content.cdntwrk.com/files/aHViPTQyNjMxJmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzU0Y2FjNzU2ZGNhMDUucG5nJnZlcnNpb249MDAwMCZzaWc9ZjFiZWE4MGQ4OWVlOWRlYjcwMmNiNzI4NmEzN2VmZDI%253D" alt="Security_and_Subscription_-_Use_Cases.png"><br>Depending on the level of account you have, you'll have access to a variety of ways to control access. All options available across all account levels are listed below. <br><br>Once you select your use-case, complete all configuration steps and click save to implement your access control.  
+<ol class="wysiwyg-text-align-left">
+<li>
+<strong>Passphrase:</strong>  Use a password or access code to protect content</li>
+<li>
+<strong>Email Harvesting - Passive (Desktop Support Only):</strong>  Visitors will have access to a "Subscribe" call-to-action button where they can voluntarily signup for email alerts</li>
+<li>
+<strong>Email Harvesting - Forced:</strong>  Visitors are required to fill out a form prior to gaining access to read your content</li>
+<li>
+<strong>Subscription Management - Free:</strong> Visitors can signup for free and choose their own username and password</li>
+<li>
+<strong>Subscription Management - Payment Required:  </strong>Require users to pay for access to the content through a Paypal Integration</li>
+<li>
+<strong>Remote Authentication:  </strong>Leverage your own member database or website login to control access.  A custom script that will link a Flipbook login to your own database is required.</li>
+</ol>
+</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360022703872</guid>
+         <pubDate>Tue, 05 Feb 2019 18:05:14 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

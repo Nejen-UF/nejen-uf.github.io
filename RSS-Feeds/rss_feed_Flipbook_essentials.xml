@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Flipbook essentials</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Disable or delete a Flipbook</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/9984366864141-Disable-or-delete-a-Flipbook</link>
+         <description><![CDATA[<p><span style="font-weight: 400;">Don’t want anyone seeing a Flipbook anymore? Want to remove it from your account entirely? This article will show you how to disable or delete it.</span></p>
+<div class="callout callout--info">
+<h4 class="callout__title">Looking to regain Flipbook upload space?</h4>
+<p><a href="https://help.uberflip.com/hc/en-us/articles/360025265112" target="_self">Removing a Flipbook from a <strong>Flipbook</strong> <strong>Stream</strong></a> won't regain a Flipbook upload space in your account. <strong>Disabling</strong> a Flipbook won't regain that space either. </p>
+<p>To regain Flipbook upload space, you must delete Flipbooks from the Flipbook folder using the <a href="#h_01H08HKKF6X9Z74JW7DP40VD4Z" target="_self">deletion method outlined in this article</a>.</p>
+</div>
+<h2><span style="font-weight: 400;">Disable a Flipbook</span></h2>
+<p><span style="font-weight: 400;">Disabling a Flipbook will remove it from your Hub and prevent anyone external from viewing it. But the Flipbook will remain in your account, allowing you to keep the Analytics data, and reactivate it in the future.</span></p>
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In Uberflip, click </span><strong>Flipbooks &gt; Manage Flipbooks</strong><span style="font-weight: 400;"> in the top menu bar<br><img src="https://help.uberflip.com/hc/article_attachments/9984400731533" alt="mceclip0.png"></span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Select the folder that contains the Flipbook you want to disable<br></span><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/9984508735885" alt="Screen_Shot_2022-10-18_at_12.19.31_PM.png" width="200" height="193"><br></span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Find and select the Flipbook thumbnail or title to open the Flipbook settings </span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In the </span><em><span style="font-weight: 400;">Flipbook Settings</span></em><span style="font-weight: 400;"> section, click </span><strong>disable</strong><span style="font-weight: 400;"> in the </span><em><span style="font-weight: 400;">Status </span></em><span style="font-weight: 400;">row<br><img src="https://help.uberflip.com/hc/article_attachments/9984405756813" alt="mceclip3.png" width="450" height="249"></span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Click <strong>OK </strong>to confirm you want to disable the Flipbook</span></li>
+</ol>
+<p><span style="font-weight: 400;">That’s it. Your Flipbook has been disabled. </span></p>
+<p><span style="font-weight: 400;">You can reactivate it at any time using the same steps above, but by clicking <strong>a</strong></span><strong>ctivate </strong><span style="font-weight: 400;">in step 4. </span></p>
+<p> </p>
+<h2 id="h_01H08HKKF6X9Z74JW7DP40VD4Z"><span style="font-weight: 400;">Delete a Flipbook</span></h2>
+<p><span style="font-weight: 400;">Want to </span><strong>permanently</strong><span style="font-weight: 400;"> remove a Flipbook from your account? Here’s How: </span></p>
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In Uberflip, click </span><strong>Flipbooks &gt; Manage Flipbooks</strong><span style="font-weight: 400;"> in the top menu bar<br><img src="https://help.uberflip.com/hc/article_attachments/9984414256269" alt="mceclip1.png"> </span><span style="font-weight: 400;"><br></span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Select the folder that contains the Flipbook you want to delete<br><img src="https://help.uberflip.com/hc/article_attachments/9984508735885" alt="Screen_Shot_2022-10-18_at_12.19.31_PM.png" width="200" height="193"></span><span style="font-weight: 400;"><br></span>
+</li>
+<li><span style="font-weight: 400;">Find and select the Flipbook thumbnail or title to open the Flipbook settings </span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click the </span><strong>trash icon</strong><span style="font-weight: 400;"> under <em>Flipbook Settings</em><br><img src="https://help.uberflip.com/hc/article_attachments/9984403046285" alt="mceclip2.png" width="450" height="249"> </span><span style="font-weight: 400;"><br></span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Confirm</strong><span style="font-weight: 400;"> that you’d like to delete the Flipbook in the modal that opens</span><span style="font-weight: 400;"><br></span>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning</h4>
+<p>This is permanent. <strong>Deleted Flipbooks can not be recovered.</strong></p>
+</div>
+</li>
+</ol>
+<p><span style="font-weight: 400;">That’s it, your Flipbook has been deleted. The space to upload a new Flipbook has also been added back to your account. </span></p>]]></description>
+         <guid isPermaLink="false">9984366864141</guid>
+         <pubDate>Tue, 18 Oct 2022 23:28:19 GMT</pubDate>
+      </item>
+      <item>
+         <title>Adjusting PDF Page Dimension</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4410908297613-Adjusting-PDF-Page-Dimension</link>
+         <description><![CDATA[<p>Are you receiving the following error when trying to upload a Flipbook:</p>
+<ul>
+<li>
+<strong>Page dimensions exceeded</strong>: The maximum page size is 430 square inches</li>
+</ul>
+<p>Learn how to adjust your PDFs to avoid page dimension issues.</p>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>To follow these guidelines, you will need <strong>Adobe Acrobat Pro</strong>.</li>
+<li>The settings described in this article <strong>may not be optimal for your specific PDF</strong>, and are only intended as guidelines. You should always ensure that your PDF is displaying content properly before uploading it to Uberflip.</li>
+<li>Some versions of Adobe Acrobat Pro have a bug where internal page links in the PDF are discarded during optimization. If you need internal page links, either create them after optimizing your PDF, or after converting it to a Flipbook with the <a href="https://help.uberflip.com/hc/en-us/articles/360020720231">Auto-Link</a> or <a href="https://help.uberflip.com/hc/en-us/articles/360020665071">Page Editor</a> tools.</li>
+</ul>
+<div class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text ">
+<p>1. Open the PDF file with Acrobat DC</p>
+<p> </p>
+<p><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">2.  Go to </span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Tools</strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"> &gt; </span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Print Production</strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">.</span></p>
+<p> </p>
+</div>
+</div>
+<div class="text">
+<div class="cmp-text ">
+<p>3.  Select <strong>Preflight</strong> from the right pane</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="The Preflight option in the right pane">
+<div>
+<div class="dexter-Image dexter-Image-left    ">     <img id="root_content_flex_items_position_position-par_procedure_proc_par_step_2_step_par_image" class=" dexter-LazyImage " title="The Preflight option in the right pane" src="https://helpx.adobe.com/content/dam/help/en/acrobat/kb/Change-PDF-page-size-in-MAC/jcr_content/main-pars/procedure/proc_par/step_2/step_par/image/untitled_picture.png.img.png" alt="The Preflight option in the right pane" data-src="/content/dam/help/en/acrobat/kb/Change-PDF-page-size-in-MAC/jcr_content/main-pars/procedure/proc_par/step_2/step_par/image/untitled_picture.png.img.png">
+</div>
+</div>
+<p class="callouts"> </p>
+</div>
+</div>
+</div>
+</div>
+<div class="step"> </div>
+<div class="step"> </div>
+<div class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text ">
+<p>4. In the Preflight dialog box, click <strong>Select single fixups</strong></p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="The Preflight dialog box">
+<div>
+<div class="dexter-Image dexter-Image-left    ">    <img id="root_content_flex_items_position_position-par_procedure_proc_par_step_3_step_par_image" class=" dexter-LazyImage " title="The Preflight dialog box" src="https://helpx.adobe.com/content/dam/help/en/acrobat/kb/Change-PDF-page-size-in-MAC/jcr_content/main-pars/procedure/proc_par/step_3/step_par/image/screenshot_2018-11-02at104021pm.png.img.png" alt="The Preflight dialog box" data-src="/content/dam/help/en/acrobat/kb/Change-PDF-page-size-in-MAC/jcr_content/main-pars/procedure/proc_par/step_3/step_par/image/screenshot_2018-11-02at104021pm.png.img.png">
+</div>
+</div>
+<p class="callouts"> </p>
+</div>
+</div>
+</div>
+</div>
+<div class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text ">
+<p>5. Now expand the heading that says "Pages"</p>
+<p> </p>
+</div>
+</div>
+</div>
+</div>
+<div class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text ">
+<p>6. Under pages, look for a fixup which says "Scale pages to specified size", and then click the <strong>Edit</strong>   button after highlighting the fixup</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title='Select "Scale pages to specific size"'>
+<div>
+<div class="dexter-Image dexter-Image-left    ">    <img id="root_content_flex_items_position_position-par_procedure_proc_par_step_step_par_image" class=" dexter-LazyImage " title='Select "Scale pages to specific size"' src="https://helpx.adobe.com/content/dam/help/en/acrobat/kb/Change-PDF-page-size-in-MAC/jcr_content/main-pars/procedure/proc_par/step/step_par/image/screenshot_2018-11-02at104108pm.png.img.png" alt='Select "Scale pages to specific size"' data-src="/content/dam/help/en/acrobat/kb/Change-PDF-page-size-in-MAC/jcr_content/main-pars/procedure/proc_par/step/step_par/image/screenshot_2018-11-02at104108pm.png.img.png">
+</div>
+</div>
+<p class="callouts"> </p>
+</div>
+</div>
+</div>
+</div>
+<div class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text ">
+<p>7. Now enter the page measurements in the Scale pages section:</p>
+<p>    - Short edge: Width</p>
+<p>    -Long edge: Height</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="The Edit fixup dialog box">
+<div>
+<div class="dexter-Image dexter-Image-left    ">      <img id="root_content_flex_items_position_position-par_procedure_proc_par_step_1549479529_step_par_image" class=" dexter-LazyImage " title="The Edit fixup dialog box" src="https://helpx.adobe.com/content/dam/help/en/acrobat/kb/Change-PDF-page-size-in-MAC/jcr_content/main-pars/procedure/proc_par/step_1549479529/step_par/image/screenshot_2018-11-02at104125pm.png.img.png" alt="The Edit fixup dialog box" width="660" height="457" data-src="/content/dam/help/en/acrobat/kb/Change-PDF-page-size-in-MAC/jcr_content/main-pars/procedure/proc_par/step_1549479529/step_par/image/screenshot_2018-11-02at104125pm.png.img.png">
+</div>
+</div>
+<p class="callouts"> </p>
+</div>
+</div>
+</div>
+</div>
+<div class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text ">
+<p>8. Now click on OK</p>
+</div>
+</div>
+</div>
+</div>
+<div class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text ">
+<p>9. Save the file using the Save dialog box.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="Save as the file">
+<div>
+<div class="dexter-Image dexter-Image-left    ">    <img id="root_content_flex_items_position_position-par_procedure_proc_par_step_316874603_step_par_image" class=" dexter-LazyImage " title="Save as the file" src="https://helpx.adobe.com/content/dam/help/en/acrobat/kb/Change-PDF-page-size-in-MAC/jcr_content/main-pars/procedure/proc_par/step_316874603/step_par/image/screenshot_2018-11-02at104146pm.png.img.png" alt="Save as the file" width="675" height="522" data-src="/content/dam/help/en/acrobat/kb/Change-PDF-page-size-in-MAC/jcr_content/main-pars/procedure/proc_par/step_316874603/step_par/image/screenshot_2018-11-02at104146pm.png.img.png">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>]]></description>
+         <guid isPermaLink="false">4410908297613</guid>
+         <pubDate>Fri, 08 Oct 2021 18:53:29 GMT</pubDate>
+      </item>
+      <item>
+         <title>Announcement: Retiring Adobe Flash Flipbooks</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360050496431-Announcement-Retiring-Adobe-Flash-Flipbooks</link>
+         <description><![CDATA[<hr>
+<p>We will be removing <strong>Adobe </strong><strong>Flash-based Flipbooks</strong> from the Uberflip platform on <strong>December 31, 2020</strong>. Learn why we're doing this, and how it affects you.</p>
+<hr>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p>This announcement is for <strong>an event that has already happened</strong>. It remains available for reference purposes only.</p>
+</div>
+<h2>What's changing?</h2>
+<p>Adobe has <a href="https://www.adobe.com/ca/products/flashplayer/end-of-life.html">announced that they will "end-of-life" Flash Player</a> on <strong>December 31, 2020</strong>. As a result, Uberflip's <strong>Flash-based Flipbooks viewer will stop working</strong> <strong>on </strong><strong>January 1, 2021</strong>, and we will be removing the Flash-based Flipbooks viewer functionality from the Uberflip platform in early January.</p>
+<p><strong>Only customers who are still using Flash Flipbooks are affected by this change</strong>. As of January 1, 2021, any Flipbooks that are still set up to use the Flash Flipbooks viewer will remain accessible, but <strong>visitors must choose to use the alternative HTML5-based Flipbooks viewer </strong>instead. To provide a better user experience, <strong>we strongly recommend configuring your Flipbooks to automatically open in the HTML5 viewer before this date</strong>. Please read on for further details.</p>
+<p>Additionally, note that some features which were available with Adobe Flash-based Flipbooks are not available with (or not applicable to) HTML5-based Flipbooks. Please refer to the <a href="#h_01EKWZQGGQ8JJNWX28Y88B4VRC" target="_self">Additional information</a> section for a full list.</p>
+<p> </p>
+<h2>Why is Uberflip making this change?</h2>
+<p>In July 2017, <a href="https://blog.adobe.com/en/publish/2017/07/25/adobe-flash-update.html#gs.hp6pkd">Adobe announced their plan to end-of-life Flash Player</a> by December 31, 2020. After this date, <strong>Adobe will consider Flash Player a "dead" technology</strong>, and will no longer distribute, update, or support it. Adobe will also<strong> prompt all remaining users to uninstall Flash Player</strong>, and will <strong>block Flash Player from displaying content </strong>after the end-of-life date even if it remains installed. For these reasons, Uberflip can no longer support the Flash-based version of the Flipbooks viewer, and must retire it.</p>
+<p>We understand that some of our customers are still using Flash-based Flipbooks, and will be disappointed by this news. However, <strong>better and more secure technologies</strong> (i.e. HTML5) have largely replaced Flash on the web, and most browser vendors have <strong>blocked Flash by default</strong> for several years now. In fact, <strong>Uberflip has already partly deprecated Flash Flipbooks</strong>: due to the increasing number of web users who do not have Flash (including mobile users), Uberflip has for some time now offered an alternative HTML5 version whenever a Flash Flipbook is displayed.</p>
+<p>Although Uberflip has supported the Flash-based Flipbooks viewer for as long as possible, the writing is on the wall: with the end-of-life date set by Adobe, <strong>Uberflip has no choice but to retire Flash-based Flipbooks at the end of 2020</strong>.</p>
+<p> </p>
+<h2 id="h_50a40ce7-374f-4d7f-b50f-ec1c3d51bcff">Who is affected by this change?</h2>
+<p>This change <strong>only affects customers who are still using Flash-based Flipbooks</strong>, i.e. those who have Flipbook Folders set to the <em>Flash on Desktop/HTML5 on Mobile </em>setting. </p>
+<p>Customers who are <strong>only using non-Flash Flipbooks types</strong> (i.e. HTML5, HTML5 (SVG) and Native PDF) are <strong>not affected by this change</strong>.</p>
+<p> </p>
+<h2>Does this mean I can't use Flipbooks at all anymore?</h2>
+<p><strong>The Flipbooks product is not going away</strong>: you will still be able to create and publish Flipbooks using any of the other available options, i.e. <strong>HTML5</strong>, <strong>HTML5 (SVG)</strong>, and <strong>Native PDF</strong>. Only the Adobe Flash option is being retired.</p>
+<p> </p>
+<h2>What do I need to do to prepare?</h2>
+<p>After December 31, 2020, your visitors will still be able to view Flipbooks configured to use the Flash-based viewer, but <strong>the viewer itself will no longer work</strong>. Instead, visitors must manually select the backup HTML5 option to view any Flash-based Flipbook:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360071476252/image.png" alt="image.png" width="229" height="269"></p>
+<p>This experience may be confusing to your visitors. As a result, <strong>we strongly recommend that you switch your Flash Flipbooks Folders to the HTML5 setting as soon as possible</strong>. This will automatically launch your Flipbooks in the HTML5 viewer, providing a much smoother experience for your visitors.</p>
+<p>To make the switch, simply <strong>change the <em>Reader Version</em> dropdown on any applicable Folder</strong> from <em>Flash on Desktop/HTML5 on Mobile</em>:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360075067892/image.png" alt="image.png"></p>
+<p> To <em>HTML5</em>:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360075067912/image.png" alt="image.png" width="710" height="68"></p>
+<p>The change will take effect immediately, and Flipbooks within that Folder will now automatically open in the HTML5 viewer right away.</p>
+<p>(You may also choose a different option, but we recommend using the <em>HTML5</em> option as it is the closest equivalent to Flash Flipbooks.)</p>
+<p>Because <strong>certain features of Flash Flipbooks are not available in HTML5</strong>, we also recommend that you <strong>review the <a href="#h_01EKWZQGGQ8JJNWX28Y88B4VRC" target="_self">Additional</a></strong><a href="#h_01EKWZQGGQ8JJNWX28Y88B4VRC" target="_self"><strong> information </strong><strong>section</strong></a> (below) prior to December 31, in order to understand how your and your visitors' experience may change.</p>
+<p> </p>
+<h2>What will happen if I don't do anything?</h2>
+<p>As noted above, Flipbooks set to use the Flash viewer will still be viewable with HTML5 after December 31, but the user experience will not be ideal.</p>
+<p>In addition, <strong>Uberflip will be retiring the Flash Flipbooks technology </strong>from our platform <strong>by January 15</strong>. In practical terms, this means that the <em>Flash on Desktop/HTML5 on Mobile</em> option will be removed from the product, and it will no longer be possible to create new Folders with this setting, or to enable this setting on existing Folders. At the same time, any Flipbooks Folders that are still set to the <em>Flash on Desktop/HTML5 on Mobile </em>setting will be<strong> switched to the <em>HTML5</em> setting automatically</strong>.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>Flipbooks Folders that are already set to HTML5, HTML5 (SVG), or Native PDF <strong>will not be affected by this change</strong> <strong>in any way.</strong></p>
+</div>
+<p> </p>
+<h2 id="h_01EKWZQGGQ8JJNWX28Y88B4VRC">Additional information</h2>
+<p>The HTML5 Flipbooks viewer supports the vast majority of features that were present in the Flash Flipbooks viewer. However, <strong>certain specific features are not available</strong>. These are primarily features that Uberflip has retired because they were not widely used, or were no longer necessary/applicable with HTML5.</p>
+<p>The main features from Flash Flipbooks that were <strong>not implemented in HTML5 Flipbooks</strong> are:</p>
+<ul>
+<li>The <strong>Custom Embed widget</strong> (sidebar displaying custom code)</li>
+<li>The <strong>Interface Language</strong> option (an option to change the language of the Flipbooks viewer UI)</li>
+<li>The <strong>My Account</strong> tab (an options tab displayed in the Flipbooks viewer UI as part of <em>Subscribers</em> functionality)</li>
+<li>Various Flash-specific <strong>Desktop Flipbooks toolbar</strong> functions and options</li>
+<li>Various Flash-specific <strong>PDF-to-Flipbook processing options</strong>
+</li>
+</ul>
+<p>Below is a detailed breakdown of the Flash Flipbooks viewer features that are not available in the HTML5 Flipbooks viewer. Any workarounds or alternatives are noted where available.</p>
+<p> </p>
+<h3>Settings: Basics &gt; Options</h3>
+<p>These settings are related to language options for Flipbooks. The overall feature has been <strong>retired</strong>, as the HTML5 viewer has few text labels, and does not have text tooltips.</p>
+<table class="table table--bordered">
+<tbody>
+<tr style="height: 20px;">
+<td class="wysiwyg-text-align-center" style="width: 50%; height: 20px;"><strong>Flash Feature</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 25%; height: 20px;"><strong>Description</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 25%;"><strong>HTML5 Alternative<br></strong></td>
+</tr>
+<tr style="height: 40px;">
+<td style="width: 50%; height: 40px;">Interface Language</td>
+<td style="width: 25%; height: 40px;">Sets the language of the Flipbooks interface (toolbar labels and text tooltops)</td>
+<td style="width: 25%;">None (retired feature)</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h3>Settings: Basics &gt; Options &gt; Desktop Flipbook Options</h3>
+<p>These settings are related to the behavior of the Flash Flipbooks viewer on desktop, in particular the toolbar shown at the top. Some portions of this feature have been <strong>retired</strong>, while for others, <strong>equivalent functionality</strong> is available in the HTML5 viewer or the browser.</p>
+<table class="table table--bordered">
+<tbody>
+<tr style="height: 20px;">
+<td class="wysiwyg-text-align-center" style="width: 50%; height: 20px;"><strong>Flash Feature</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 25%; height: 20px;"><strong>Description</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 25%; height: 20px;"><strong>HTML5 Alternative<br></strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 50%; height: 20px;">Enable crop, print/save tool</td>
+<td style="width: 25%; height: 20px;">Makes the <em>Crop</em> tool available in the toolbar</td>
+<td style="width: 25%; height: 20px;">Replaced with screenshot functionality (browser or third-party tool)</td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 50%; height: 20px;">Allow downloading selected pages</td>
+<td style="width: 25%; height: 20px;">Makes the <em>Download selected pages</em> tool available in the toolbar</td>
+<td style="width: 25%; height: 20px;">Replaced with <em>Allow downloading original PDF</em> option</td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 50%; height: 20px;">Allow printing</td>
+<td style="width: 25%; height: 20px;">Makes the <em>Print</em> tool available in the toolbar</td>
+<td style="width: 25%; height: 20px;">If <em>Allow downloading original PDF</em> option is enabled, users can download and print PDF</td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 50%; height: 20px;">Enable page-turning sound effect</td>
+<td style="width: 25%; height: 20px;">Makes a sound effect play when a Flipbook page is turned</td>
+<td style="width: 25%; height: 20px;">None (retired feature)</td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 50%; height: 20px;">Enable the links list</td>
+<td style="width: 25%; height: 20px;">Makes the <em>Links</em> tool available in the toolbar</td>
+<td style="width: 25%; height: 20px;">None (retired feature)</td>
+</tr>
+<tr style="height: 120px;">
+<td style="width: 50%; height: 120px;">Hide bottom thumbnail navigation</td>
+<td style="width: 25%; height: 120px;">Removes the thumbnail preview images of next/previous Flipbook pages shown at the bottom of the viewer</td>
+<td style="width: 25%; height: 120px;">None (retired feature)</td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 50%; height: 20px;">Page flipping speed</td>
+<td style="width: 25%; height: 20px;">Sets the speed of the page turn animation</td>
+<td style="width: 25%; height: 20px;">None (retired feature)</td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 50%; height: 20px;">Page flip effect</td>
+<td style="width: 25%; height: 20px;">Sets the type of effect used for the page turn animation</td>
+<td style="width: 25%; height: 20px;">Replaced with a more modern "slide" effect</td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 50%; height: 20px;">Default Zoom Level </td>
+<td style="width: 25%; height: 20px;">Sets the initial zoom level of the Flipbook when it is displayed</td>
+<td style="width: 25%; height: 20px;">None (retired feature)</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h3>Settings: Widgets &gt; Custom Embed</h3>
+<p>These settings are related to the <strong>Custom Embed</strong> <strong>widget</strong>, a banner shown to the left of the Flash Flipbooks viewer that can contain custom HTML, CSS, and JavaScript. The overall feature has been <strong>retired</strong>.</p>
+<table class="table table--bordered">
+<tbody>
+<tr style="height: 20px;">
+<td class="wysiwyg-text-align-center" style="width: 50%; height: 20px;"><strong>Flash Feature</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 25%; height: 20px;"><strong>Description</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 25%; height: 20px;"><strong>HTML5 Alternative<br></strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 50%; height: 20px;">Your Embed Code</td>
+<td style="width: 25%; height: 20px;">Specifies the code to be displayed in the embed widget banner</td>
+<td style="width: 25%; height: 20px;">None (retired feature)</td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 50%; height: 20px;">Specify a width</td>
+<td style="width: 25%; height: 20px;">Determines the width of the embed widget banner</td>
+<td style="width: 25%; height: 20px;">None (retired feature)</td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 50%; height: 20px;">Activate the custom embed widget</td>
+<td style="width: 25%; height: 20px;">Enables the embed widget banner</td>
+<td style="width: 25%; height: 20px;">None (retired feature)</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>The Custom Embed widget was designed for an experience in which Flipbooks are displayed in the standalone Flipbooks viewer. We no longer recommend this, as it is bad for SEO. Instead, we recommend <a href="https://help.uberflip.com/hc/en-us/articles/360037703151">embedding the Flipbooks viewer in another webpage</a>. Doing this also eliminates the need for the Custom Embed widget, as you can simply place the same content onto the page where the Flipbooks viewer is embedded.</p>
+</div>
+<p> </p>
+<h3>Settings: Advanced &gt; Parser Defaults</h3>
+<p>These settings are related to the Flash Flipbooks parser, which analyzes PDF content and processes it into a Flash Flipbook. Because these particular settings are <strong>not applicable to the HTML5 Flipbooks parser</strong>, they have been <strong>removed</strong>.</p>
+<table class="table table--bordered">
+<tbody>
+<tr style="height: 20px;">
+<td class="wysiwyg-text-align-center" style="width: 50%; height: 20px;"><strong>Flash Feature</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 25%; height: 20px;"><strong>Description</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 25%;"><strong>HTML5 Alternative</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 50%; height: 20px;">Default Image DPI</td>
+<td style="width: 25%; height: 20px;">Sets the quality level of images processed from a PDF into a Flash Flipbook</td>
+<td style="width: 25%;">All images rendered at 300 DPI and 100% quality by default</td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 50%; height: 20px;">Force Vectorization of Complex Objects</td>
+<td style="width: 25%; height: 20px;">Sets the page size threshold to turn complex objects present in the source PDF into vector images</td>
+<td style="width: 25%;">Use the <em>HTML5 (SVG)</em> Flipbooks Folder option to convert PDF text and shapes into vector images</td>
+</tr>
+</tbody>
+</table>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360050496431</guid>
+         <pubDate>Fri, 02 Oct 2020 19:14:57 GMT</pubDate>
+      </item>
+      <item>
+         <title>Best Practices for Flipbooks SEO</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360037703151-Best-Practices-for-Flipbooks-SEO</link>
+         <description><![CDATA[<hr>
+<p>Learn how to set up your Flipbooks to optimize the way they rank in search results.</p>
+<hr>
+<p> </p>
+<h2>Search Engine Optimization for Flipbooks</h2>
+<p>SEO for Flipbooks can be a little tricky. Although Flipbooks have their own SEO settings, <strong>using these settings usually won't give you the best results</strong>. In this article we'll explain why, and show you the key best practices we've learned for optimizing Flipbooks content for search.</p>
+<p> </p>
+<h2>Best Practice 1: Serve Flipbooks as Hub Items</h2>
+<p>We created Flipbooks before Uberflip Hubs came along, so they were designed to <strong>serve your PDF content directly</strong>. This meant that, if a Flipbook showed up on Google, clicking on it would simply open that content in the Flipbook viewer right away.</p>
+<p>That was fine at the time, but now there is a better way: <strong>serve Flipbooks through your Hub</strong>,<strong> by</strong> <strong>automatically</strong> <strong>embedding them in Hub Items</strong>. Doing this will allow you to <strong>better leverage the often high-value content that your Flipbooks represent</strong>.</p>
+<h4><strong>Why?</strong></h4>
+<p>There are a few benefits to embedding Flipbooks in Hub Items, rather than making them directly accessible. You can:</p>
+<ul>
+<li>
+<strong>Gate Flipbooks with <a href="https://help.uberflip.com/hc/en-us/articles/360020989871" target="_self">Form CTAs</a>:</strong> When you embed a Flipbook in an Item, you can place a Form CTA on the Flipbook that visitors must interact with before they can access the content. This allows you to leverage your high-value Flipbook content to help generate leads.</li>
+<li>
+<strong>Recommend related content:</strong> When you make Flipbook content part of your Hub, you can use <a href="https://help.uberflip.com/hc/en-us/articles/360022410572" target="_self">Content Recommendations</a> to recommend other content that visitors might be interested in. This keeps visitors interacting with your content for longer, raising their engagement.</li>
+<li>
+<strong>Improve SEO</strong>: There are far more <a href="https://help.uberflip.com/hc/en-us/articles/360028437152" target="_self">SEO options</a> available to you through your Hub than with Flipbooks alone, so Flipbooks embedded in Hub Items can potentially rank much better.</li>
+</ul>
+<h4><strong>Do This:</strong></h4>
+<ul class="list-bullet">
+<li>
+<strong>Add Flipbook Streams to your Hub, one for each Flipbook Folder you have.</strong> Each Flipbook Stream you add will automatically create individual Items for every Flipbook in the specified Folder.</li>
+</ul>
+<p>Once these Items have been created, you can <strong>flesh them out with blog content</strong> for SEO (<a href="#h_09efc554-e4a7-4ece-9701-baa15ce39840" target="_self">see below</a>) and <strong>add Form CTA gates</strong>, <strong>enable Content Recommendations</strong>, and so on. When a Flipbook Item is ready, you can publish it like any other Item in your Hub, and add it to your Marketing and Sales Streams.</p>
+<p> </p>
+<h2>Best Practice 2: Block Flipbook Indexing</h2>
+<p>After you've set up your Flipbooks to be served as Hub Items, you have to <strong>make sure this is the only way to access them</strong>. To do that, you need to change your Flipbook SEO settings to <strong>block indexing of the direct Flipbook URL</strong>.</p>
+<h4><strong>Why?</strong></h4>
+<p>Flipbooks have their own SEO settings, separate from those in your Hub. One of these settings is <em>Block search engines from indexing my content</em>, which is <strong>turned off by default</strong>. As a result, search engines <strong>can index the direct URL for Flipbooks</strong>, and the direct version of a Flipbook can appear in search results alongside the Hub Item version. This means that, if the Hub Item version is gated with a CTA, visitors could simply <strong>bypass the CTA</strong> by going to the direct version instead. For this reason, you should make sure to <strong>turn on this setting</strong> so that the direct version is not indexed.</p>
+<p>Another reason to block indexing of Flipbooks is that it's unreliable: Flipbooks have a <strong>separate URL for every page in the Flipbook</strong>, and Google can choose to <strong>index the URL for whichever page it deems most relevant</strong>. When this happens, clicking on the Flipbook in search results will take visitors to somewhere in the middle of the Flipbook, not the first page (cover) — not an ideal content experience.</p>
+<h4><strong>Do This:</strong></h4>
+<ul class="list-bullet">
+<li>Open your Flipbook SEO settings by going to <em>Flipbooks &gt; </em>select a <em>Folder &gt; </em><em>Edit &gt;</em><em> Basics &gt; Search Engine Optimization. </em><strong>Make sure that the setting </strong><em>Block search engines from indexing my content </em><strong>is</strong> <strong>checked </strong>(remember to click the <strong>Save</strong> button to apply the change):<br>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360047720671/Edit_an_existing_Folder_-_Uberflip.png" alt="Edit_an_existing_Folder_-_Uberflip.png"></p>
+</li>
+</ul>
+<p>This a Folder-specific setting, so <strong>you will need to</strong> <strong>change it separately for every Flipbooks Folder</strong> you have. Also, making this change will override any other SEO settings you might have previously configured here (e.g. keywords), so you don't need to worry about changing them. </p>
+<p> </p>
+<h2 id="h_09efc554-e4a7-4ece-9701-baa15ce39840">Best Practice 3: Write search-optimized content for your Flipbook Hub Items</h2>
+<p>Now that you are serving up your Flipbooks through Hub Items, you need to <strong>work on the Item content</strong> <strong>to optimize it for search engine</strong><strong>s</strong>. That means <strong>writing engaging content for the Item itself</strong>, as well as <strong>applying <a href="https://help.uberflip.com/hc/en-us/articles/360028437152">SEO best practices</a></strong>.</p>
+<h4><strong>Why?</strong></h4>
+<p>When you create a Flipbook Stream, every Item in that Stream is basically a blank blog post with an embedded Flipbook. <strong>Search engines can't see the contents of the Flipbook</strong>, so unless you add some content in the blog post itself, <strong>the Item will just look like an empty page </strong>from Google's perspective. If you want the Hub Items containing your Flipbooks to rank well, you'll need to add some search-optimized content.</p>
+<h4><strong>Do This:</strong></h4>
+<ul class="list-bullet">
+<li>
+<strong>Treat your Flipbook Items like you would any other blog post:</strong> create quality content for them that can stand on its own.</li>
+</ul>
+<p>Google needs to consider the content of these Items good enough to rank all by itself, as if the Flipbook wasn't there. At minimum, it needs to be <strong>long enough so that it's clearly real content</strong> (rather than just a bunch of keywords). As a general rule, we recommend aiming for <strong>no less than five paragraphs</strong>. Use the opportunity to write content that gets the reader excited about reading your Flipbook — and therefore more likely to submit your Form CTA, if the Flipbook is gated.</p>
+<p>You should also ensure that this content is <strong>optimized for search engines</strong>. Remember to <strong>apply the usual SEO best practices</strong>: identify the <strong>keywords</strong> you want to target and include them in your body text and headings; add <strong>meta descriptions</strong>, etc. Don't forget to <strong>leverage Uberflip's <a href="https://help.uberflip.com/hc/en-us/articles/360028437152" target="_self">built-in SEO functionality</a></strong>.</p>]]></description>
+         <guid isPermaLink="false">360037703151</guid>
+         <pubDate>Mon, 09 Dec 2019 15:34:23 GMT</pubDate>
+      </item>
+      <item>
+         <title>Requirements and Recommendations for PDFs</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020790171-Requirements-and-Recommendations-for-PDFs</link>
+         <description><![CDATA[<hr>
+<p>To get the best results when you convert your PDFs to Flipbooks, follow these requirements and formatting guidelines.</p>
+<hr>
+<p> </p>
+<h2>Basic Requirements</h2>
+<ul class="list-bullet">
+<li>All pages must be merged into one file (we recommend using an <a href="https://help.uberflip.com/hc/en-us/articles/360020510352">Optimized PDF</a>)
+<ul>
+<li>However, we do not recommend binding multiple PDF files into a <em>PDF Package</em>
+</li>
+</ul>
+</li>
+<li>Single-page cropped layout (no double-page spreads), with any crop marks removed</li>
+<li>All pages in the same orientation: either all-portrait or all-landscape, not mixed</li>
+<li>Pages in the correct order (can't be re-ordered after upload)</li>
+<li>Secured PDFs can be used, but security settings will be removed during conversion</li>
+</ul>
+<p> </p>
+<h2>Sizes and Dimensions</h2>
+<ul class="list-bullet">
+<li>Maximum page number is 1200 pages per file (but may be lower based on your specific subscription type)</li>
+<li>Maximum file size is 500 MB</li>
+<li>Maximum single-page surface area is 430 square inches</li>
+<li>No minimum size requirement for page area, but we recommend PDFs be at least 5 inches on all sides (wide/tall) for acceptable quality on larger displays</li>
+</ul>
+<p> </p>
+<h2>Text and Fonts</h2>
+<ul class="list-bullet">
+<li>Text should be "real" text (not images of text) to ensure it looks sharp when zoomed and can be parsed by search engines</li>
+<li>Embed all fonts used in the PDF</li>
+<li>Avoid CID and Embedded Open Type (EOT) fonts</li>
+</ul>
+<p> </p>
+<h2>Layout</h2>
+<ul class="list-bullet">
+<li>Use RGB Color Space for most accurate color conversion</li>
+<li>No minimum resolution for images, but we recommend at least 200 DPI for acceptable quality</li>
+<li>All layers merged</li>
+<li>All transparencies flattened</li>
+<li>Avoid overprint elements</li>
+<li>Delete clipping paths where possible to avoid white "ghost lines" which may appear after conversion</li>
+<li>Links and bookmarks, including to Named Destinations, will be maintained during conversion</li>
+<li>Embedded scripts, media (audio/video) and buttons will be removed during conversion, but can be added back post-conversion with the <a href="https://help.uberflip.com/hc/en-us/articles/360020665071">Page Editor</a>
+</li>
+<li>PDF Comments will be removed during conversion </li>
+</ul>]]></description>
+         <guid isPermaLink="false">360020790171</guid>
+         <pubDate>Mon, 10 Dec 2018 22:42:00 GMT</pubDate>
+      </item>
+      <item>
+         <title>Optimize PDFs to Resolve Flipbook Conversion Problems</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020510352-Optimize-PDFs-to-Resolve-Flipbook-Conversion-Problems</link>
+         <description><![CDATA[<hr>
+<p>Do your Flipbooks look different than the source PDF, or are you having upload problems? Learn how to optimize your PDFs to avoid Flipbook conversion issues.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>To follow these guidelines, you will need <strong>Adobe Acrobat Pro</strong>.</li>
+<li>The settings described in this article <strong>may not be optimal for your specific PDF</strong>, and are only intended as guidelines. You should always ensure that your PDF is displaying content properly before uploading it to Uberflip.</li>
+<li>Some versions of Adobe Acrobat Pro have a bug where internal page links in the PDF are discarded during optimization. If you need internal page links, either create them after optimizing your PDF, or after converting it to a Flipbook with the <a href="https://help.uberflip.com/hc/en-us/articles/360020720231">Auto-Link</a> or <a href="https://help.uberflip.com/hc/en-us/articles/360020665071">Page Editor</a> tools.</li>
+</ul>
+<p> </p>
+<h2>Common PDF Issues</h2>
+<p>When you upload a PDF and convert it to a Flipbook, you may encounter a number of different issues either during the upload/conversion or with the final Flipbook. Some common issues include:</p>
+<ul>
+<li>Processing errors</li>
+<li>Elements in the PDF not displaying or displaying in an unusual way</li>
+<li>Slow page loading</li>
+<li>Transparency issues</li>
+<li>General differences between the original PDF and the converted Flipbook</li>
+</ul>
+<p>You can resolve many of these issues by optimizing your PDF in Adobe Acrobat. Although it won't fix every issue, optimizing your PDFs is a recommended practice that can help to avoid conversion problems in many cases.</p>
+<p> </p>
+<h2>Optimize a PDF</h2>
+<p>To "optimize a PDF" means to use Adobe Acrobat Pro's <em>PDF Optimizer</em> function. While this can vary between versions, you can generally do this by opening the PDF in Acrobat, then going to <strong>File &gt; Save As Other &gt; Optimized PDF</strong>.</p>
+<p>This will open the <strong>PDF Optimizer</strong> window, where you can configure settings for the PDF. We recommend that you use the following settings:</p>
+<h3>General Settings</h3>
+<p>Under the <strong>Make compatible with:</strong> dropdown, choose <strong>Acrobat 5.0 and later</strong></p>
+<p><strong><img src="https://help.uberflip.com/hc/article_attachments/360016851331/PDF_Optimization_Setting_Guidelines.png" alt="PDF_Optimization_Setting_Guidelines.png"></strong></p>
+<h3>Images Settings</h3>
+<p>Leave settings as defaults.</p>
+<h3>Fonts Settings</h3>
+<p>Under <strong>Font Unembedding Settings</strong>, check the box next to <strong>Do not unembed any font</strong></p>
+<p><strong><img src="https://help.uberflip.com/hc/article_attachments/360017204972/PDF_Optimization_Setting_Guidelines.png" alt="PDF_Optimization_Setting_Guidelines.png"></strong></p>
+<h3>Transparency Settings</h3>
+<p>In the <strong>Preset:</strong> box, choose the option <strong>[Medium Resolution]</strong></p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017205492/PDF_Optimization_Setting_Guidelines.png" alt="PDF_Optimization_Setting_Guidelines.png"></p>
+<h3>Discard Objects Settings</h3>
+<p>Under <strong>Discard Objects</strong> settings, ensure only the following items are checked:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016854111/PDF_Optimization_Setting_Guidelines.png" alt="PDF_Optimization_Setting_Guidelines.png" width="333" height="265"></p>
+<p>Everything else should be <strong>unchecked</strong>.</p>
+<h3>Discard User Data Settings</h3>
+<p>Under <strong>Discard user related information</strong>, ensure only <strong>Discard hidden layer content and flatten visible layers</strong> is checked. Everything else should be<strong> unchecked.</strong></p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016854871/PDF_Optimization_Setting_Guidelines.png" alt="PDF_Optimization_Setting_Guidelines.png" width="418" height="190"></p>
+<h3>Clean Up Settings</h3>
+<p>Under <strong>Clean Up Settings</strong>, use the dropdown next to <strong>Object compression options:</strong> to select <strong>Compress document structure</strong>.</p>
+<p>Using the checkboxes, ensure that <strong>Discard unreferenced named destinations </strong>is <strong>unchecked</strong>. Leave everything else <strong>checked</strong>.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360017209852/PDF_Optimization_Setting_Guidelines.png" alt="PDF_Optimization_Setting_Guidelines.png" width="396" height="245"></p>
+<p> </p>
+<h2>What's Next?</h2>
+<p>When you have configured all the settings as described above, click on <strong>OK</strong> to create the optimized PDF, then review the result. Sometimes you may notice that your images appear pixelated. If that's the case, try choosing a different file type under the <strong>Images Settings</strong>.</p>
+<p>If everything looks as expected, try uploading the PDF to Uberflip again to see if the resulting Flipbook now displays correctly.</p>]]></description>
+         <guid isPermaLink="false">360020510352</guid>
+         <pubDate>Mon, 10 Dec 2018 18:47:48 GMT</pubDate>
+      </item>
+      <item>
+         <title>Upload a PDF to Create a Flipbook</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020776171-Upload-a-PDF-to-Create-a-Flipbook</link>
+         <description><![CDATA[<hr>
+<p>Your PDF content is displayed on your Hub as Flipbooks. Learn how to upload your PDFs to convert them to Flipbooks.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>To upload a Flipbook, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+<li>You will also need sufficient Flipbook upload credits remaining to upload a PDF. If you're unable to upload, you may need to <a href="https://help.uberflip.com/hc/en-us/articles/360019957591">add more uploads to your account</a>.</li>
+</ul>
+<p> </p>
+<h2>Upload a PDF</h2>
+<ol>
+<li>In the top menu of Uberflip, click on <strong>Flipbook</strong><strong>s</strong>, then click on <strong>Upload PDF</strong><br><img src="https://help.uberflip.com/hc/article_attachments/360017139932" alt="Fullscreen_2018-12-10__1_25_PM.png">
+</li>
+<li>The <strong>Create new Flipbook </strong>window will appear, where you will be on the <strong>Choose File</strong> page<br><img src="https://help.uberflip.com/hc/article_attachments/360017141892" alt="Hubs___Manage_-_Uberflip.png" width="617" height="401">
+</li>
+<li>Use the tabs on the left to choose your upload method. You can use any of the following methods to upload your PDF:
+<ul>
+<li>
+<strong>From My Computer</strong>: Use this option if you have the PDF file stored on your computer.</li>
+<li>
+<strong>Import from URL</strong>: If your PDF file is stored on a web server where it is directly accessible using a link, use this option to paste in the link. Note that FTP is not supported. To upload files via FTP, see <a href="https://help.uberflip.com/hc/en-us/articles/360020032611">this article</a>.</li>
+<li>
+<strong>From Dropbox/Box/Google Drive</strong>: Choose one of these options to connect a cloud storage account where the file is stored. When using one of these methods, you can choose to upload multiple PDFs at once.</li>
+</ul>
+</li>
+<li>When you have selected your PDF file, click <strong>Next</strong>
+</li>
+<li>Now on the <strong>Settings</strong> page:
+<ol>
+<li> <strong>Choose a folder </strong>for your Flipbook. Your flipbook will be kept in this folder, and will be added to any Stream created from this folder. All folder settings will apply to this Flipbook.</li>
+<li>
+<strong>Name your Flipbook</strong> in the field provided (this will be pre-populated using the filename of the PDF)</li>
+<li>Under <strong>When your should your Flipbook publish/activate</strong>, choose whether you want it to become available immediately after it is uploaded, or choose a specific date and time on which to publish it instead<br><img src="https://help.uberflip.com/hc/article_attachments/23629096763149" alt="1234.png" width="500" height="325">
+</li>
+</ol>
+</li>
+<li>When you're ready to proceed, click <strong>Next</strong>
+</li>
+<li>Now on the <strong>Options </strong>page, choose whether you want to run an <strong>Auto-Link job</strong> on your new Flipbook
+<ul>
+<li>See <a href="https://help.uberflip.com/hc/en-us/articles/360020720231">this article</a> to learn about the Auto-Link tool<br><img src="https://help.uberflip.com/hc/article_attachments/360017160572" alt="Hubs___Manage_-_Uberflip.png" width="500" height="323">
+</li>
+</ul>
+</li>
+<li>Finally, click <strong>Upload</strong>. After uploading, you'll be returned to the <strong>Manage Folder</strong> view. You'll see the new Flipbook listed here, where it will initially be shown as being in processing. Depending on the size of the PDF, this may take a little while.</li>
+</ol>
+<h2>Problems Uploading?</h2>
+<p>You may run into some trouble when you upload a PDF. If an problem occurs during upload or processing, an error message will be shown. Errors include:</p>
+<ul>
+<li>
+<strong>File size limit exceeded</strong>: The maximum PDF size is 500 MB</li>
+<li>
+<strong>Page dimensions exceeded</strong>: The maximum page size is 430 square inches</li>
+<li>
+<strong>File is corrupt/processing error:</strong> There is a problem with the PDF and/or it is not Adobe PDF compliant. Try reformatting it with Adobe Acrobat.</li>
+</ul>
+<p>If you have any problems uploading a PDF, make sure to also check on this article for guidelines on optimizing your PDFs for Uberflip:</p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360020510352">Optimize PDFs to Resolve Flipbook Conversion Problems</a></li>
+</ul>]]></description>
+         <guid isPermaLink="false">360020776171</guid>
+         <pubDate>Mon, 10 Dec 2018 18:23:11 GMT</pubDate>
+      </item>
+      <item>
+         <title>Crop Double-Page PDFs to Single-Page Format</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020394652-Crop-Double-Page-PDFs-to-Single-Page-Format</link>
+         <description><![CDATA[<hr>
+<p>To upload a PDF as a Flipbook, it needs to be in single-page format. If your PDF is formatted as a double-page spread, it won't be displayed correctly, so you'll need to crop it first.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>To crop a double-page spread PDF to single-page, you will need <strong>Adobe Acrobat</strong>.</li>
+</ul>
+<p> </p>
+<h2>Crop a Double-Page Spread PDF</h2>
+<p>If your PDF has any pages formatted as a double-page spread, it won't work with Flipbooks. To fix this, you'll need to crop all double-pages to two separate single pages of the same size, like this:</p>
+<p><strong>Double-page spread:</strong></p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016584172/Crop_Your_PDF_to_Single_Page_Format.png" alt="Crop_Your_PDF_to_Single_Page_Format.png"></p>
+<p><strong>Cropped to two single pages:</strong></p>
+<p> <img src="https://help.uberflip.com/hc/article_attachments/360016636831/Crop_Your_PDF_to_Single_Page_Format.png" alt="Crop_Your_PDF_to_Single_Page_Format.png"></p>
+<p>To crop the PDF you can use any tool you like, but we recommend using Adobe Acrobat. You can find instructions on how to crop PDF pages with Adobe Acrobat here:</p>
+<p><a href="https://helpx.adobe.com/acrobat/using/crop-pdf-pages.html">Adobe Acrobat: Crop PDF Pages</a></p>
+<p>If the entire PDF is formatted with double-page spreads, you can follow this process:</p>
+<ol>
+<li>Apply the left-hand crop to all pages, and save a "left-side only" copy of the PDF.</li>
+<li>Apply the right-hand crop to all pages, and save a "right-side only" copy of the PDF.</li>
+<li>Merge the left-side and right-side copies, placing the pages into the correct order. You can find instructions on how to do that with Adobe Acrobat here:
+<ul>
+<li><a href="https://helpx.adobe.com/acrobat/using/merging-files-single-pdf.html" target="_self">Adobe Acrobat: Combine or merge files into single PDF</a></li>
+</ul>
+</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360020394652</guid>
+         <pubDate>Thu, 06 Dec 2018 20:04:57 GMT</pubDate>
+      </item>
+      <item>
+         <title>Best Practices for Uploading Flipbooks</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360019819492-Best-Practices-for-Uploading-Flipbooks</link>
+         <description><![CDATA[<hr>
+<p>Learn how to create a great user experience for your visitors when they interact with your Flipbooks.</p>
+<hr>
+<p> </p>
+<h2>Before you Begin</h2>
+<ul>
+<li>To change some of the settings mentioned in this article, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+</ul>
+<p> </p>
+<h2>Create a Template Branding Folder</h2>
+<p>Before uploading any assets, we recommend creating a "Template Branding" Folder that has your default settings setup. You are looking for the Folder to have the correct brand colors (the bar along the top of the Flipbook and background color), have the correct toolbar options (is it downloadable?, etc.), and be setup as a one or two-page display.</p>
+<p>In your "Template Branding" Folder, you should set up the following:</p>
+<ul>
+<li>
+<strong>Flipbook Options:</strong> Decide whether you want your users to be able to print, expand fullscreen, share via email, share via social, and download the original PDF. Determine whether the Flipbooks should be displayed in a one-page view or two-page "book" style (one-page view is recommended for landscape assets or presentations).</li>
+<li>
+<strong>Appearance:</strong> Choose your banner and background color. We recommend keeping the background color neutral and not uploading a background image as this can distract from the Flipbook.</li>
+<li>
+<strong>Favicon:</strong> Upload a Favicon logo to your folder. This will add a logo to the banner of your Flipbook (when in fullscreen). It will also add a Favicon to the browser tab when viewing the Flipbook at the standalone URL.</li>
+</ul>
+<p><br> You will let be able to use this "Template Branding" folder as a template by cloning it when creating the rest of your Folders. We recommend that you create a Flipbook Folder for each type of PDF asset that you have. For example, you could create four folders for: Case Studies, White Papers, eBooks, Data Sheets, etc.</p>
+<p> </p>
+<h2>Best Practices for Uploading PDFs</h2>
+<ul>
+<li>
+<strong>As you upload PDFs, update the name at the same time. </strong>This will save you time down the road. Ideally, the file names are finalized before even being imported. For example, the PDF should be named 'The Ultimate Guide to Content Experience' instead of <em>uberflip_guide_content_experience-versionDec2018</em>. A few additional naming tips:<br>
+<ul>
+<li>Asset names are public facing and user-friendly - they should not use any internal codes or wording</li>
+<li>Remove any hyphens or underscores</li>
+<li>You likely will want to exclude your company name from the PDF asset as well (as it will be in your Hub)</li>
+</ul>
+</li>
+<li>
+<strong>You can customize the <em>download name</em> of the asset. </strong>We see a lot of companies add their name to the download name, which is the filename when the file is actually downloaded rather than viewed in the Hub.</li>
+<li>
+<strong>You can override the Folder settings for specific Flipbooks. </strong>For example, with some Flipbooks it might make sense to change the display style from two-page to one-page.</li>
+</ul>
+<p> </p>
+<h2>Best Practices for Flipbooks on Your Hub</h2>
+<ul>
+<li>
+<strong>Add a description to the body of the Flipbook</strong>. Summarize what it's about and why the reader would want to read it.</li>
+<li>
+<strong>Add a short "Meta description" to each Flipbook.</strong> This will be displayed on the Item Tile, and will help give readers an idea of what's in the Flipbook at a glance.</li>
+<li>
+<strong>Choose thumbnails</strong>: You'll need to decide whether to use the taller "cover" of the asset as the thumbnail for the Item, or to use an "image library" image instead.</li>
+</ul>
+<p>That's it! Follow these tips and best practices and you will be well on your way to creating an incredible user experience for your visitors to your Flipbook content.</p>]]></description>
+         <guid isPermaLink="false">360019819492</guid>
+         <pubDate>Tue, 20 Nov 2018 16:23:10 GMT</pubDate>
+      </item>
+      <item>
+         <title>Add More Flipbook Uploads</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360019957591-Add-More-Flipbook-Uploads</link>
+         <description><![CDATA[<hr>
+<p> Run out of PDF uploads on your account? Here's how to get more.</p>
+<hr>
+<p> </p>
+<h2>Before you Begin</h2>
+<ul>
+<li>To add more Flipbook uploads to your account, you need to be the <strong>Primary User</strong> of the account.</li>
+<li>You can only add more uploads once you have run out of uploads on your account.</li>
+</ul>
+<p> </p>
+<h2>Add More Uploads</h2>
+<ol>
+<li>Log in to your Uberflip account and go to <em>Flipbooks &gt; Manage Flipbooks</em>.</li>
+<li>If you have more than one folder, use the dropdown menu on the left to select any folder.</li>
+<li>If you see <em>0 Uploads Remaining</em> next to the <strong>Upload PDF </strong>button on the right, you need to purchase more uploads before you can upload more Flipbooks:<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015613492/Manage_Folder_-_Uberflip_-__Private_Browsing_.png" alt="Manage_Folder_-_Uberflip_-__Private_Browsing_.png">
+</li>
+<li>Click on the<strong> Upload PDF </strong>button. This will open up a menu where you can choose how many more uploads you would like to purchase:<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015670431/AddUploads.jpg" alt="AddUploads.jpg">
+</li>
+<li>Simply choose the amount you want, then click on <strong>Add Uploads</strong>. Once your uploads have been added, you will once again be able to upload Flipbooks as before.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360019957591</guid>
+         <pubDate>Mon, 19 Nov 2018 17:30:28 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

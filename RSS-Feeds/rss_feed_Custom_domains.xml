@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Custom domains</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Custom domains explained</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360018876192-Custom-domains-explained</link>
+         <description><![CDATA[<p>When you launch a Hub, you want it to be part of your website. To do that, you'll set up a custom domain for the Hub to live on. Here's how custom domains work, and how you can use them with your Hubs.</p>
+<p> </p>
+<h2 id="h_01HA382XSFSXEKXWQ252X3ABRH">What is a custom domain?</h2>
+<p>When you set up a brand new Hub, the default, co-branded domain usually looks something like this:</p>
+<pre><em>https://mycompany.uberflip.com/</em></pre>
+<p>This is fine for testing, but it's <em>your</em> Hub: you want your customers and prospects to consume your Hub content on your own website — not Uberflip's.</p>
+<p>To achieve this, you can replace the default domain with a <strong>custom domain</strong>. A custom domain allows you to cleanly integrate your Hub with your website by hosting it under a URL that is part of your website, for example <em>resources.mycompany.com.</em></p>
+<p> </p>
+<h2 id="h_01HA382XSFZBQW8VD07ZRF00P4">Why use a custom domain?</h2>
+<p>There are two main reasons to host your Hub on a custom domain:</p>
+<h3 id="h_01HA382XSFTHRR4JZQ7FRG93R3">SEO</h3>
+<p>Using a custom domain is good for your SEO. Having your Hub content be part of your website means that search engines will consider it <em>your</em> content instead of Uberflip's content. This can mean higher and more relevant search results for your content.</p>
+<h3 id="h_01HA382XSFPG3XXK9QH5354MHA">Aesthetics &amp; Branding</h3>
+<p>When you use a custom domain, anyone who visits your Hub will always see the domain you chose, no matter where in the Hub they go. They should never notice that the Hub is actually hosted on Uberflip's servers — from their perspective, it's all part of your website. All link references, email marketing and system notifications will reflect your domain. This allows your visitors to be entirely immersed in the content experience that you create.</p>
+<p> </p>
+<h2 id="h_01HA382XSFJX1D11Q0TVNKC1ZZ">How does a custom domain work?</h2>
+<p>Your website is hosted on your servers, but Uberflip Hubs are hosted on Uberflip's servers. So how do we bring them together?</p>
+<p>The answer is that we use a little web trickery: we make it seem to your Hub visitors like they're on your website, while the content they're seeing is actually coming from Uberflip's servers. This difference is totally unseen by your visitors — as far as they're concerned, they're still on your website.</p>
+<p>There are two main ways to do this. Depending on what <em>type</em> of custom domain you want, you can use a <strong>subdomain </strong>or a <strong>subdirectory</strong>.</p>
+<p> </p>
+<h2 id="h_01HA382XSFJPWMR0M2SBP38CB7">Subdomains vs. subdirectories</h2>
+<p>If you want to use a custom domain, you first have to choose what you want the URL for your Hub to look like. Specifically, you need to decide which <em>part </em>of the URL will point to your Hub. There are two options: <strong>subdomain</strong> or <strong>subdirectory</strong>.</p>
+<p>To understand what this means, let's look at a simple URL:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360057237231" alt="image.png"></p>
+<p>As you can see, a basic URL consists of the <strong>protocol</strong>, the <strong>domain name</strong>, and in some cases also a <strong>path</strong>:</p>
+<ul>
+<li>Within the domain name, each element separated by a period is a <strong>subdomain</strong> of the domain to its right. In the example URL above, <em>resources</em> is a subdomain of <em>mycompany.com</em> (and, in fact, <em>mycompany</em> is a subdomain of <em>com</em>).</li>
+<li>The path is anything after the domain name, separated by a slash. It typically refers to a file or folder on the web server associated with the domain name. If it's a folder, it's also called a <strong>subdirectory</strong>.</li>
+</ul>
+<p>Here's how this applies to your Hub and its URL. Say your website's domain is <em>mycompany</em>.<em>com</em>, and you want to incorporate your Hub's URL into that domain under the label <em>resources</em>:</p>
+<ul>
+<li>If you choose a URL based on a <strong>subdomain</strong>, it could look like this:<br><img src="https://help.uberflip.com/hc/article_attachments/360057237711" alt="Untitled_document_-_Google_Docs.png" width="553" height="77">
+</li>
+<li>Alternatively, if you choose a URL based on a <strong>subdirectory</strong>, it might look like this:<br><img src="https://help.uberflip.com/hc/article_attachments/360057239011" alt="Untitled_document_-_Google_Docs.png" width="644" height="78">
+</li>
+</ul>
+<p>So why does this distinction matter? Because <strong>the process for setting up a Hub on a subdomain is completely different than the process for a subdirectory</strong>, so your choice will determine how you proceed.</p>
+<div class="callout">
+<h4 id="h_01HA382XSGPWR57B1C63X107W7" class="callout__title">Info</h4>
+<p>It's worth mentioning that there's actually a third option: you can also choose to give your Hub its own, <strong>standalone domain</strong>. For example, your Hub could live on a URL like this:</p>
+<pre>https://www.mycompanyhub.com/</pre>
+<p>This option isn't very popular, as most Uberflip customers have an existing website that they want to integrate their Hub with. However, it <em>is</em> possible. In terms of setup this option is identical to the <em>subdomain</em> option, so if you want to go this route, proceed as if you're setting up your custom domain as a <strong>subdomain</strong>.</p>
+</div>
+<p> </p>
+<h2 id="h_01HA382XSG2R8RVBQMSQGMH0Q5">Which option should I choose?</h2>
+<p>In some ways, using a <strong>subdomain</strong> is the "default" option. It's much simpler from a technical standpoint, and is easy and fast to set up. We recommend this for most customers, as it should work no matter what your website hosting situation looks like.</p>
+<p>Using a <strong>subdirectory</strong> is the advanced option. It's much more technically complex to set up, and has certain prerequisites in terms of your website hosting configuration. However, using a subdirectory can offer SEO benefits compared to using a subdomain, because a Hub on a subdirectory of your primary domain will benefit from the existing SEO authority of that domain. In addition, some customers simply prefer the URL of a Hub on a subdirectory for aesthetic reasons.</p>
+<p>If you're not sure which one to choose, understanding a little more about the requirements and setup process for each option might help you to make your decision. See the links below for detailed information on each one.</p>
+<p> </p>
+<h2 id="h_01HA382XSG2YPGZ55HN47933XM">How do I set up a custom domain?</h2>
+<p>Ready to get started with setting up a custom domain? Learn how with these articles:</p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360018786372">Custom Domain: Set up Your Hub on a Subdomain</a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360019755751">Custom Domain: Set up Your Hub on a Subdirectory</a></li>
+</ul>
+<div class="callout callout--success">
+<h4 id="h_01HA3833F2Q3QWX8SAWD87TXXH" class="callout__title">Another way to learn 📺</h4>
+<p>Check out the <a href="https://academy.uberflip.com/">Uberflip Academy</a> for a <a href="https://academy.uberflip.com/domains/setting-up-a-custom-subdomain">video on setting up custom subdomains</a>.</p>
+</div>]]></description>
+         <guid isPermaLink="false">360018876192</guid>
+         <pubDate>Wed, 07 Nov 2018 15:14:26 GMT</pubDate>
+      </item>
+      <item>
+         <title>Custom Domain: Set up your Hub on a subdomain</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360018786372-Custom-Domain-Set-up-your-Hub-on-a-subdomain</link>
+         <description><![CDATA[<hr>
+<p>Learn how to set up a <a href="https://help.uberflip.com/hc/en-us/articles/360018876192">custom domain</a> to host your Hub on a <strong>subdomain </strong>of your website (like <em><strong>resources</strong>.mycompany.com)</em>.</p>
+<hr>
+<p> </p>
+<h2 id="h_01HA38AH01CRGDP5WSFQYKSNG3">Before you begin</h2>
+<ul>
+<li>To add a custom domain to your Hub, you need to a member of the <strong>Account Administrators </strong>user group.</li>
+<li>This article will assume that you already know what a custom domain is and have decided on the <strong>subdomain</strong> option. If you're not sure what a custom domain is and why you'd want to use it, read <a href="https://help.uberflip.com/hc/en-us/articles/360018876192">this article</a> first.</li>
+<li>The setup process outlined in this article involves making some changes to your website hosting configuration, so you will likely have to work with your IT or website team to complete the those steps.</li>
+</ul>
+<div class="callout callout--success">
+<h4 id="h_01HA3833F2Q3QWX8SAWD87TXXH" class="callout__title">Another way to learn 📺</h4>
+<p>Check out the <a href="https://academy.uberflip.com/" target="_blank" rel="noopener noreferrer">Uberflip Academy</a> for a <a href="https://academy.uberflip.com/domains/setting-up-a-custom-subdomain" target="_blank" rel="noopener noreferrer">video overview on setting up custom subdomains</a>.</p>
+</div>
+<p> </p>
+<h2 id="h_01HA38AH01C34ARGPXJN60PW8P">About setting up a Hub on a subdomain</h2>
+<p>In this article, we will look at the setup process for a custom domain if you have chosen to use the <strong>subdomain</strong> option. The purpose of setting up a custom domain is to make your Uberflip Hub look like it's part of your website, even though it's being hosted on Uberflip's servers. With a subdomain, this means making your Hub accessible under a URL like <em>resources.mycompany.com</em>, i.e. a <em>sub</em>domain of your website's main domain.</p>
+<p>To do this, you'll need to set up the subdomain to point at your Hub by creating a CNAME record with your web hosting provider. A CNAME record is essentially an alias: it tells a browser "if a user asks for <em>URL A</em>, tell them that they're looking at <em>URL A</em>, but actually show them content from <em>URL B</em> instead." In this case, <em>URL A</em> is your subdomain, and <em>URL B</em> points to your Hub on Uberflip's servers.</p>
+<p>Here's a breakdown of how this process works:</p>
+<ul class="list-bullet">
+<li>Your Hub is hosted on Uberflip's servers at <em>read.uberflip.com</em>. This is the domain where we host all Hubs.</li>
+<li>To get to your Hub, you want your users to visit a URL that's part of your website. This will be a subdomain of your website, in the form of <em>[something].mycompany.com.</em>
+</li>
+<li>First, you'll create the subdomain you want to use. Let's say you choose <em>resources.mycompany.com</em>.</li>
+<li>Next, you'll set up a CNAME record that points <em>resources.mycompany.com</em> at <em>read.uberflip.com</em>. This takes anyone who goes to <em>resources.mycompany.com</em> to <em>read.uberflip.com</em> instead, but makes it look like they're still on <em>resources.mycompany.com</em>.</li>
+<li>Finally, you register <em>resources.mycompany.com</em> as a custom domain on your Uberflip account, then associate it with the target Hub. This tells Uberflip's servers which Hub to serve up when a visitor arrives at <em>read.uberflip.com</em> from <em>resources.mycompany.com</em>.</li>
+</ul>
+<p> </p>
+<h2 id="h_01HA38AH01HHS2ZVJ6F5GYQ6T2">Step 1: Choose a subdomain name</h2>
+<p>The first step is deciding what to name your Hub's new subdomain. This is where your visitors will go to access your Hub, so it's time to get creative! We recommend choosing something that describes what your visitors can expect to find in your Hub. Here are some examples to get you started:</p>
+<ul>
+<li>
+<strong>resources</strong>.mycompany.com</li>
+<li>
+<strong>insights</strong>.mycompany.com</li>
+<li>
+<strong>learn</strong>.mycompany.com</li>
+<li>
+<strong>community</strong>.mycompany.com</li>
+<li>
+<strong>hub</strong>.mycompany.com</li>
+</ul>
+<p> </p>
+<h2 id="h_8190d454-2493-4df7-bab4-b93118d88521">Step 2: Create the subdomain and set up a CNAME record</h2>
+<p>When you have decided on the name for your Hub's subdomain, all that's left is to create it as a subdomain of your existing website. Initially, your newly created subdomain won't actually point at anything: anyone who goes there would see a <em>404 Not Found</em> error. To fix that, you'll also need to point the subdomain at Uberflip's servers by creating a CNAME record with your hosting service provider.</p>
+<p>In most cases, you'll need to have your website admin or IT team create the subdomain and set up the CNAME for you. Ask them to complete the following steps:</p>
+<ol>
+<li>
+<strong>Create a subdomain</strong> on the root domain. The specific subdomain name to be created is [<em>fill in subdomain you chose, e.g. hub.mywebsite.com</em>].</li>
+<li>
+<strong>Create a CNAME record</strong> with your domain provider that points [<em>fill in subdomain you chose</em>] to the hostname <strong>read.uberflip.com </strong>(e.g. <code class="no-padding">hub.mywebsite.com CNAME read.uberflip.com</code>) You can usually find instructions on how to create a CNAME record in your domain provider's help documentation.</li>
+</ol>
+<p>Once the subdomain and CNAME record have been set up, you can test if it's working properly:</p>
+<ol>
+<li><strong>Go to <a href="https://www.whatsmydns.net/">whatsmydns.net</a>. </strong></li>
+<li>In the URL field at the top, <strong>type in your new subdomain</strong>.</li>
+<li>Use the dropdown menu to <strong>select</strong> <em><strong>CNAME</strong></em>.<br><img src="https://help.uberflip.com/hc/article_attachments/4406952242573" alt="image.png">
+</li>
+<li>Click on <strong>Search</strong>.</li>
+<li>In the list of servers shown on the page, <strong>you should see <em>read.uberflip.com</em></strong> as the result for all servers, like this:<br><img src="https://help.uberflip.com/hc/article_attachments/4406959375373" alt="image.png">
+</li>
+<li>If you see any errors, let your website admin/IT team know so they can troubleshoot.</li>
+</ol>
+<p> </p>
+<h2 id="h_544727903291542035460322">Step 3: Link the subdomain to your Hub in Uberflip</h2>
+<p>You've now set up your new subdomain so that anyone who visits it will be taken to Uberflip's servers at <em>read.uberflip.com</em>. At this point, the subdomain isn't associated with a Hub on the Uberflip side yet, so anyone who goes there would see an error saying that the Hub couldn't be found. To fix this, you need to register the new subdomain in your Uberflip account, then link it to your Hub.</p>
+<ol>
+<li>Log in to your Uberflip account, click on <strong>Hubs</strong> in the menu bar at the top, then click on the Hub that you want to link to the new subdomain.</li>
+<li>In the sidebar menu on the left, click on <strong>Hub Options</strong> to expand that section, then click on <strong>Change D</strong><strong>omain</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/4406957415693" alt="image.png">
+</li>
+<li>This will open the <strong>Move Hub to another Domain</strong> page. Here, click on the <strong>+ Add a Domain</strong> button:<br><img src="https://help.uberflip.com/hc/article_attachments/4406950286733" alt="image.png">
+</li>
+<li>In the <strong>Add a Domain </strong>menu, <strong>type your custom subdomain</strong> into the field provided:<br><img src="https://help.uberflip.com/hc/article_attachments/4406959395725" alt="image.png"><br>
+<ul>
+<li>
+<strong>Should I check the <em>Secondary Domain</em> box? </strong>This is only used in specific situations, so leave this box <strong>unchecked</strong> unless an Uberflip representative has specifically instructed you to check it.</li>
+</ul>
+</li>
+<li>
+<strong>Check the box</strong> next to <em>I have read and agree to the Uberflip Terms of Use</em>, then click on the <strong>Add Domain</strong> button.</li>
+<li>You can now move your Hub onto the newly added domain. On the <strong>Move Hub to another Domain</strong> page, use the <strong>Select a Domain</strong> dropdown menu to choose the subdomain you just created.</li>
+<li>Finally, click on the <strong>Move Hub</strong> button to complete the process:<br><img src="https://help.uberflip.com/hc/article_attachments/4406952380941" alt="image.png">
+</li>
+<li>You should see a message at the top of the window confirming that you've successfully <strong>moved your Hub onto a custom domain</strong>. From now on, the subdomain URL you chose will be the <strong>main URL for your Hub</strong>.</li>
+</ol>
+<div class="callout">
+<h4 id="h_01HA38AH018BNGFCWPJVXXKP0P" class="callout__title">Info</h4>
+<p>When you add a domain to your account, it will <strong>have HTTPS encryption enabled</strong> <strong>on it by default</strong>. Uberflip will automatically provision and enable an SSL certificate (from <a href="https://letsencrypt.org/">Let's Encrypt</a>) for your new  domain, so you don't need to provide your own certificate or perform any further setup. For more details on how this works, see <a href="https://help.uberflip.com/hc/en-us/articles/360028190551" target="_self">this article</a>.</p>
+</div>
+<div class="callout callout--info">
+<h4 id="h_01HA38AH01KHT9BGNXDDCYZ6D7" class="callout__title">Note</h4>
+<p>When you move a Hub onto a new domain, Uberflip automatically creates a redirect on the old domain, so that any old bookmarks will still work.</p>
+</div>]]></description>
+         <guid isPermaLink="false">360018786372</guid>
+         <pubDate>Mon, 05 Nov 2018 19:43:38 GMT</pubDate>
+      </item>
+      <item>
+         <title>Custom Domain: Hubs on Subdirectories Explained</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360018964792-Custom-Domain-Hubs-on-Subdirectories-Explained</link>
+         <description><![CDATA[<hr>
+<p>Learn how a <a href="https://help.uberflip.com/hc/en-us/articles/360018876192">custom domain</a> for your Hub works if you want to use a <strong>subdirectory </strong>(like <em>www.mycompany.com/<strong>resources</strong></em>).</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>In this article, we'll assume that you already know what a custom domain is and have decided to set one up. If you're not sure what a custom domain is and why you'd want to use it, see <a href="https://help.uberflip.com/hc/en-us/articles/360018876192">this article</a> for help.</li>
+<li>Hosting a Hub on a subdirectory is an <strong>advanced option </strong>that may not work with your website as it is currently set up (or would require changes to your website hosting to work). To understand whether this option will work for you, you should have some familiarity with how your website hosting is set up, or have access to a resource who can help you get the necessary information.</li>
+</ul>
+<p> </p>
+<h2>About Hosting Your Hub on a Subdirectory</h2>
+<p>If you want to use a custom domain with your Uberflip Hub, there are two options: you can host your Hub on a <strong>subdirectory</strong>, or on a <a href="https://help.uberflip.com/hc/en-us/articles/360018786372"><strong>subdomain</strong></a>. </p>
+<p>This article will provide an overview of the setup process if you have chosen to use the <strong>subdirectory</strong> option. In other words, it will explain how you can make your Hub accessible under a URL that looks something like <em>www.mycompany.com</em>/<em>resources</em>.</p>
+<p>Compared to using a subdomain, the process for using a subdirectory to host your Hub is significantly more technical in nature. To explain how it works and how to set it up, we will need to look at web server technology and related concepts. That said, <strong>this article is specifically intended for a non-technical audience</strong>, so people with no technical background should be able to follow along without difficulty.</p>
+<p> </p>
+<h2>Why Hubs on Subdirectories Are More Complex</h2>
+<p>Although the actual setup processes for subdirectories and subdomains are completely different, these are really just different ways of achieving the same goal. In both cases, what we are doing is serving up a Hub as if it's part of your website, even though it's hosted on Uberflip's servers. So why are subdirectories more complicated to set up?</p>
+<p>When you go the subdomain route, we're able to take advantage of a web feature called <strong>CNAME record</strong> to achieve our goal. This quite literally makes it look like you're visiting one website while you're actually getting the content from another website. It's a function that's ready-made to do exactly what we need it to do, and it's very easy to set up.</p>
+<p>The problem is, CNAME records only work on subdomains — they can't be used with subdirectories. So if you want your Hub's URL to look like <em>www.mycompany.com/resources</em> (rather than <em>resources.mycompany.com</em>), an alternative solution is required. To host your Hub on a subdirectory, you need to use a <strong>reverse</strong> <strong>proxy</strong> instead.</p>
+<p> </p>
+<h2>What a Reverse Proxy Does</h2>
+<p>To understand what a reverse proxy does, we first need to look at what's happening under the hood when you visit a website. In a nutshell, a <em>client</em> (i.e. a user visiting a webpage with their browser) sends a <em>request </em>over the web to a <em>server</em>, and the server retrieves the requested <em>resource </em>(i.e. the webpage and all the content on it) and sends it back to the client.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360015238652/Client-Server_Diagram.png" alt="Client-Server_Diagram.png" width="479" height="124"></p>
+<p>This system can also contain other elements, like <em>proxies</em>. A proxy (technically a <em>proxy server</em>, but we'll just say proxy for short) is an intermediary that sits between the client and the server. At the most basic level, a proxy takes requests from the client and sends them on to the server, then takes the resources returned by the server and passes them back to the client.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360015285811/Client-Proxy-Server_Diagram.png" alt="Client-Proxy-Server_Diagram.png" width="628" height="139"></p>
+<p>Proxies can be used by either clients or servers. When a proxy is used by a server, it's called a <strong><em>reverse proxy</em></strong>. This is the type we're interested in, because a reverse proxy can pass requests to more than one server, and can <em>selectively</em> send requests to <em>different servers</em> based on certain criteria.</p>
+<p>This ability to route incoming requests is useful, because it means you can use it to direct requests for a subdirectory the same way you'd use a CNAME record on a subdomain. All you have to do is set up a reverse proxy in front of your web server, then create a rule on it that says: "pass through all other traffic to my regular server, but whenever you get a request for this specific subdirectory, send it to Uberflip's servers instead".</p>
+<p>The result is that for all regular traffic to your website (i.e. if someone asks for any page other than your Hub's subdirectory), the proxy simply sends the requests through to your normal servers:<br><br><img src="https://help.uberflip.com/hc/article_attachments/360015239572/Normal_Request_Diagram.png" alt="Normal_Request_Diagram.png" width="701" height="353"></p>
+<p>But whenever a request comes in for the particular subdirectory where your Hub lives (e.g. <em>mycompany.com/resources</em>), the proxy sends it to Uberflip's server, which seamlessly returns your Hub content to the client:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360015239552/Hub_Request_Diagram.png" alt="Hub_Request_Diagram.png" width="701" height="357"></p>
+<p>As far as the client is concerned, they went to <em>mycompany.com/resources</em> and got your Hub — they have no idea that it came from a different server than all the other pages on your website. And there it is: with the help of a reverse proxy, we can make it look like your Hub is part of your website.</p>
+<p> </p>
+<h2>Implementing a Reverse Proxy</h2>
+<p>Here's where things get a little more complicated. So far, we've looked at how it all works in the abstract, but in more practical terms, there are actually several different ways to use a reverse proxy with your website.</p>
+<p>Let's begin by taking a general look at the two main ways you can implement a reverse proxy:</p>
+<p> </p>
+<h3>Option 1: Proxy Server/Load Balancer or Reverse Proxy Module</h3>
+<p><strong>What it is: </strong>As we described above, a <em>reverse proxy</em> <em>server</em> is a server that sits between the web and one or more web servers. It takes client requests and forwards them on to the web server(s), then returns the responses to the clients.</p>
+<p>A <em>load balancer</em> is simply a specific type of reverse proxy. The term refers to a particular application where the reverse proxy is used to distribute the workload of high-traffic websites between multiple servers.</p>
+<p>A reverse proxy can also be implemented as part of the main web server, usually in the form of a <em>module</em>. The effect is exactly the same as having a dedicated reverse proxy server; the only difference is that it's part of the web server, rather than a separate entity.</p>
+<p><strong>How it works with your Hub: </strong>With a reverse proxy in place (whether it's implemented as a separate system, a load balancer, or an integrated module), you can configure it to route certain requests to specific servers, i.e. requests for your Hub subdirectory to Uberflip's server.</p>
+<p><strong>Examples: </strong>Commonly used reverse proxies/load balancers are <em>HAProxy</em> and <em>NGINX</em>. An example of a reverse proxy module on a web server is <em>mod_proxy</em> on Apache HTTP Server.</p>
+<p> </p>
+<h3>Option 2: Content Delivery Network (CDN)</h3>
+<p><strong>What it is: </strong>A <em>Content Delivery Network</em> is a service which maintains a network of proxy servers in various geographic locations, and can deliver your website to a client from any of those servers. There are various use cases for CDNs, but the most common one is based on the idea that a website will generally load faster when the server is physically closer to the client. By making sure there is a server fairly close to any possible client, CDNs can optimize load times for the websites they deliver.</p>
+<p><strong>How it works with your Hub: </strong>At its heart, a CDN is essentially a network of proxy servers. So, like any reverse proxy, most offer the ability to selectively route route requests.</p>
+<p><strong>Examples</strong>: Major CDNs include <em>Amazon CloudFront</em>, <em>Akamai</em>, <em>Cloudflare (Enterprise)</em>, <em>Limelight</em>, etc.</p>
+<p> </p>
+<h2>Which Reverse Proxy Option Should I Choose?</h2>
+<p>The bottom line is that you need to implement a reverse proxy of some sort. How you choose to do this will depend on your specific circumstances, and we can't provide a definitive, one-size-fits-all answer.</p>
+<p>However, this is our general recommendation: if you <strong>don't currently have reverse proxy functionality</strong> on your web server, <strong>use a CDN</strong>. Here's why:</p>
+<ul>
+<li>
+<strong>It's simple: </strong>With no other reverse proxy functionality currently in place, it's typically the simplest of the options to add to your web hosting setup.</li>
+<li>
+<strong>It works: </strong>We have experience with using a CDN for this purpose (CloudFront, specifically), and we know it works well.</li>
+<li>
+<strong>It's faster:</strong> By their nature, CDN servers are virtually always located closer to any given client than your own servers, and in most cases can offer faster load times for your Hub than a proxy server.</li>
+<li>
+<strong>Cost: </strong>Some CDNs offer a free service tier, so if your website is below a certain amount of volume, using a CDN may come at no extra cost. (For example, <a href="https://aws.amazon.com/free/">CloudFront's free tier</a> includes 50 GB data transfer and 2 million requests per month.) By comparison, adding a dedicated reverse proxy to your web server would likely be more expensive.</li>
+<li>
+<strong>Additional benefits: </strong>Aside from allowing you to host your Uberflip Hub on a subdirectory, you also get the primary benefits of using a CDN with your website, including generally faster load times for end users, load balancing, DDoS attack protection, etc.</li>
+</ul>
+<p>We strongly recommend going with a CDN if you want to host your Hub on a subdirectory, but that doesn't mean you <em>have</em> to use one. If you do already have some type of reverse proxy functionality in place, you can certainly leverage that instead.</p>
+<p>To help make your decision, here are some questions to ask your website/technical team:</p>
+<ol>
+<li>Does our web server use a load balancer or reverse proxy server like HAProxy or NGINX?
+<ul>
+<li>
+<strong>Yes: </strong>You can consider using it to direct requests for your Hub subdirectory.</li>
+<li>
+<strong>No</strong><strong>: </strong>Proceed to next question.</li>
+</ul>
+</li>
+<li>Does our web server have reverse proxy/gateway capabilities such as Apache's mod_proxy (or equivalent)?
+<ul>
+<li>
+<strong>Yes: </strong>You can consider using it to direct requests for your Hub subdirectory.</li>
+<li>
+<strong>No</strong><strong>: </strong>Proceed to next question.</li>
+</ul>
+</li>
+<li>Do we use a CDN with our website?<br>
+<ul>
+<li>
+<strong>Yes: </strong>Use your existing CDN to direct requests for your Hub subdirectory.</li>
+<li>
+<strong>No</strong><strong>: </strong>Add a CDN to your web hosting setup.</li>
+</ul>
+</li>
+</ol>
+<p> </p>
+<h2>Next Steps</h2>
+<p>Still not sure whether you should use a subdirectory custom domain? Check out <a href="https://help.uberflip.com/hc/en-us/articles/360023486351" target="_self">this article</a>, which outlines a few questions you can ask to determine if it's the right choice for you.</p>
+<p>If you've decided that you want to set up your Hub on a subdirectory custom domain, read our guide for setting up your Hub on a subdirectory custom domain to learn about the process and get started:</p>
+<p><a href="https://help.uberflip.com/hc/en-us/articles/360019755751" target="_self">Custom Domain: Set up Your Hub on a Subdirectory</a></p>]]></description>
+         <guid isPermaLink="false">360018964792</guid>
+         <pubDate>Thu, 08 Nov 2018 21:31:27 GMT</pubDate>
+      </item>
+      <item>
+         <title>Should I Host My Hub on a Subdirectory?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360023486351-Should-I-Host-My-Hub-on-a-Subdirectory</link>
+         <description><![CDATA[<hr>
+<p>Not sure whether using a subdirectory custom domain is right for you? Here are a few questions you can ask to help you decide.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>This article assumes you already know about <a href="https://help.uberflip.com/hc/en-us/articles/360018876192">custom domains and your options for implementing one</a>, and are considering the <strong>subdirectory </strong>option.</li>
+<li>We'll also assume that you understand <a href="https://help.uberflip.com/hc/en-us/articles/360018964792">how the subdirectory option works</a>, and why it's more technically challenging to implement than the default option (<a href="https://help.uberflip.com/hc/en-us/articles/360018786372">subdomain</a>).</li>
+</ul>
+<p> </p>
+<h2>Is a Subdirectory Custom Domain Right for Me?</h2>
+<p>So you've read all about <a href="https://help.uberflip.com/hc/en-us/articles/360018964792">how subdirectory custom domains work</a>, and are now wondering if you should use one. In other words: is the additional complexity, setup effort, and (in some cases) cost worth it?</p>
+<p>To help you decide whether a subdirectory custom domain is the right option for your particular situation, here are some questions you can ask that might clarify the answer.</p>
+<p> </p>
+<h3>How important is it to have your Hub on a subdirectory?</h3>
+<p>This is the fundamental question: do you absolutely <em>need</em> your Hub to be on a subdirectory?</p>
+<p>An important thing to consider is whether external factors will influence this decision. For example, perhaps it's already been decided that all your digital properties must live on a subdirectory of your top-level domain. This could be for SEO or technical reasons, or even due to factors like security policies or regulatory compliance. Whatever the reason, under these circumstances you would of course have to explore using a subdirectory custom domain.</p>
+<p> </p>
+<h3>Does it align with your go-to-market strategy?</h3>
+<p>Think about how your company goes to market. Do you have separate lines of business, products, or geographic regions that you operate in? If your company has a single brand, this could be a compelling reason to have all your content live under that top-level domain. In this case, a subdirectory custom domain would be the appropriate choice.</p>
+<p>Conversely, if you have multiple brands, using subdomains can help create a creater distinction between them than using subdirectories. Often SEO is given as a catch-all argument against using subdomains, but even Google uses them this way: their Google Ads brand, for example, lives at <a href="https://ads.google.com">https://ads.google.com</a>.</p>
+<h3> </h3>
+<h3>What kinds of content will you host on your Hub?</h3>
+<p>Consider your content. Is it directly related to the messaging and purpose of your top-level website? Or could it benefit from having its own unique destination?</p>
+<p>To illustrate the difference, here are two examples from Uberflip's own Hubs. On the one hand, we have our <strong>Culture Hub</strong>: we think of this as an extension of our company identity, so to emphasize this connection, we host it on a subdirectory at <a href="https://www.uberflip.com/culture">https://www.uberflip.com/culture</a>. On the other hand, there is our <strong>Resource Hub</strong>, which has a much broader scope: it focuses on best practices around content experience for the industry as a whole. As a result, it lives on its own subdomain at <a href="https://hub.uberflip.com/">https://hub.uberflip.com/</a>.</p>
+<p> </p>
+<h3>What are your brand preferences?</h3>
+<p>To many marketers, the structure of a domain is important simply from a brand and aesthetics perspective. Putting everything under one subdirectory allows you to keep everything tied under that one top level domain and brand. Think about where you and your team fall on this question. Is this a factor for you?</p>
+<p>It could well turn out that you have strong feelings on this matter: maybe a subdirectory just looks and feels more <em>right</em> for your brand than a subdomain does. This is as valid a reason to choose a subdirectory as any other, so make sure to take it into consideration as you make your decision.</p>]]></description>
+         <guid isPermaLink="false">360023486351</guid>
+         <pubDate>Wed, 13 Feb 2019 22:47:51 GMT</pubDate>
+      </item>
+      <item>
+         <title>Custom Domain: Set up Your Hub on a Subdirectory</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360019755751-Custom-Domain-Set-up-Your-Hub-on-a-Subdirectory</link>
+         <description><![CDATA[<hr>
+<p>Learn how to set up a <a href="https://help.uberflip.com/hc/en-us/articles/360018876192">custom domain</a> to host your Hub on a <strong>subdirectory</strong> of your website (like <em>www.mycompany.com/<strong>resources</strong></em>).<strong><br></strong></p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>In this article, we're assuming you already know about <a href="https://help.uberflip.com/hc/en-us/articles/360018876192">custom domains and your options for implementing one</a>, and have decided on the <strong>subdirectory </strong>option.</li>
+<li>Before you proceed, we strongly recommend reading <a href="https://help.uberflip.com/hc/en-us/articles/360018964792">this article</a> first. It explains how the subdirectory option works, and the instructions below will assume you are familiar with the concepts it covers.</li>
+<li>To follow these instructions, you need to be an <strong>Account Administrator</strong> (and ideally the <strong>Primary User</strong>) on your account.</li>
+<li>Some of the steps will require knowledge of your current website hosting setup as well as the ability to make changes to it. For these parts, you will most likely need to get help from your organization's web administrator.</li>
+<li>All the instructions in this article refer to a single Hub. If you have <strong>multiple Hubs</strong> that you want to set up on subdirectory custom domains, the instructions will be exactly the same — you just have to repeat the steps for each separate Hub (as needed).</li>
+</ul>
+<p> </p>
+<h2>What You'll Need</h2>
+<p>To host your Hub on a custom domain that is a subdirectory of your website, you will need <strong>reverse proxy capability</strong> on that website. The reverse proxy can be implemented in any form you choose (see <a href="https://help.uberflip.com/hc/en-us/articles/360018964792">this article</a> for more information about the various options), as long as it supports the functionality outlined in <a href="#h_404965782281542147304648">the checklist below</a>. Ask your web admin to review the checklist to confirm that your current setup will work.</p>
+<p>Note that the reverse proxy must <em>already be in place</em> before you proceed. This article will not cover how to add a reverse proxy to your website.</p>
+<h3 id="h_404965782281542147304648">Reverse Proxy Functionality Checklist</h3>
+<p>No matter what kind of reverse proxy you intend to use, it must be able to:</p>
+<ul>
+<li>
+<strong>Proxy requests under a given subdirectory to a specific origin server.</strong>
+<ul>
+<li>This means you must be able to set up a rule on the reverse proxy to take requests for
+<pre><em>http://</em><em>www.mycompany.com/resources/*</em></pre>
+and direct them to a server you specify (i.e. Uberflip's server). Note that the rule must also be applicable to requests for directories <em>under</em> the main subdirectory specified, such as
+<pre><em>http://</em><em>www.mycompany.com/resources<strong>/blog/posts</strong></em></pre>
+</li>
+</ul>
+</li>
+<li>
+<strong>Proxy requests with the following HTTP methods: <em>GET, POST, HEAD</em>, and <em>OPTIONS</em>.</strong>
+<ul>
+<li>This just means that <em>at minimum </em>these types of requests must be passed through to the origin server — you <em>do not</em> have to block other request types.</li>
+</ul>
+</li>
+<li><strong>Pass through requests to the origin server <em>unmodified</em> and <em>in their entirety</em>.</strong></li>
+<ul>
+<li>This means that the requests must come through with the full requested URL and all headers (user agent string, cookies, etc.) intact — the reverse proxy must not strip anything out or otherwise change the request in any way. This is important for accurate Hub metrics.</li>
+</ul>
+<li>
+<strong>Disable caching of the origin server.</strong>
+<ul>
+<li>This is mainly specific to CDNs, as their default behavior is usually to cache (make a copy) of the origin server and serve up the copy instead. If it does this, metrics for the Hub will be inaccurate, so make sure caching is turned off.</li>
+</ul>
+</li>
+</ul>
+<p>If your reverse proxy meets all these requirements, you're ready to set up your Hub on a subdirectory.</p>
+<p> </p>
+<h2>Step 1: Contact Us</h2>
+<p>To get started, reach out to your Uberflip Customer Success Manager and let them know that you're interested in setting up a custom domain on a subdirectory. They'll be able to provide guidance throughout the process, and will facilitate the parts of the setup process that need to happen on Uberflip's end.</p>
+<p> </p>
+<h2>Step 2: Choose and Create the Subdirectory</h2>
+<p>You'll need to begin by deciding what you want the subdirectory to be. This is where your visitors will go to access your Hub, so it's time to get creative! We recommend choosing something that describes what your visitors can expect to find in your Hub. Here are some examples to get you started:</p>
+<ul>
+<li>www.mycompany.com/<strong>resources</strong>
+</li>
+<li>www.mycompany.com/<strong>insights</strong>
+</li>
+<li>www.mycompany.com/<strong>learn</strong>
+</li>
+<li>www.mycompany.com/<strong>community</strong>
+</li>
+<li>www.mycompany.com/<strong>hub</strong>
+</li>
+</ul>
+<p>The subdirectory can be at any level in the directory structure. For example, if you want your Hub to be accessible under the subdirectory <em>hub</em>, but you want that to live under</p>
+<pre><em>www.mycompany.com/resources/insights/<strong>hub</strong>/</em></pre>
+<p>this is also possible.</p>
+<p>Once you've decided on the subdirectory you want, you have to create it on your website. Your website admin should be able to do this for you.</p>
+<p> </p>
+<h2>Step 3: Hand off to Uberflip to Create and Link the Custom Domain</h2>
+<p>At this point we'll need to do some setup work on our end, so your next step is to get back in touch with your Uberflip CSM.</p>
+<ol>
+<li>Let your CSM know that you've created the subdirectory on your website where your Hub will live.</li>
+<li>Provide the URL for the subdirectory, i.e. the URL you want to use for your Hub. For example:
+<ul>
+<li>Hub URL (Subdirectory): <em>www.mycompany.com/resources</em>
+</li>
+</ul>
+</li>
+<li>Indicate whether your website uses SSL (HTTPS).
+<ul>
+<li>If your website <em>does</em> use SSL, you do <strong>not</strong> have to provide us with a certificate. The certificate that applies to your main website will also cover the subdomain where your Hub will live.</li>
+</ul>
+</li>
+</ol>
+<p>Your Customer Success Manager or Implementation Specialist will link the custom domain you chose to your Hub as a <strong>secondary</strong> domain. This means that your Hub will remain accessible under its current domain, but will <em>also</em> become accessible under the new custom domain for testing (it will be set to not be indexed by search engines) once your reverse proxy is set up.</p>
+<p> </p>
+<h2>Step 4: Configure Your Reverse Proxy</h2>
+<p>When everything is ready to go on Uberflip's end, your CSM will let you know that you can now configure your reverse proxy. This will set it up so that requests for your Hub's new custom domain are sent to Uberflip's origin server, which will return your Hub.</p>
+<p>As it requires access to your website's hosting infrastructure, this step generally has to be performed by your web administrator. We've created a separate guide to help them do that, which you can find here:</p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360019729931">Configure Your Reverse Proxy for an Uberflip Hub</a></li>
+</ul>
+<p>Just provide the guide to your web admin and ask them to perform the setup for you.</p>
+<p> </p>
+<h2>Step 5: Test the Reverse Proxy Setup</h2>
+<p>When your web admin has finished setting up the reverse proxy, let your CSM know so they can help you test it. You can also do some initial testing at this stage: simply go to the Hub URL in your browser, and the Hub <em>should</em> come up. Navigate around the Hub a little to see if it's all working as expected.</p>
+<p>Once your CSM gives you the all-clear that the reverse proxy is configured properly, you just have to decide when you want to switch over.</p>
+<p> </p>
+<h2>Step 6: Switch Over to the New Custom Domain</h2>
+<p>Your CSM will work with you to decide on a date for the switch to the new custom domain. Once you have settled on a date and a cutover plan, here's what will happen next:</p>
+<ul>
+<li>Your CSM will remove your new (subdirectory) custom domain from your Hub as a secondary domain.</li>
+<li>They will then move your Hub off your old custom domain (if you were using one), and make the new custom domain (subdirectory) the primary domain. This will instantly make the new custom domain the active domain for your Hub.</li>
+<li>At the same time, they will set up a redirect on your Hub's previous domain so that any requests for it are automatically redirected to the new domain. They will also ensure any canonical URLs we have stored are updated to the new domain as well.</li>
+<li>When they've completed the cutover, your CSM will notify you that your Hub is ready on the new custom domain.</li>
+</ul>
+<p>At this point, you can verify that it's working properly: just go to your new custom domain's URL in your browser, and your Hub should load up (as it did before, during testing). Navigate around a little and make sure everything is working as expected.</p>
+<p>Does everything look good? If it does, congratulations — you've successfully set up your Hub on a subdirectory custom domain!</p>
+<p>If anything isn't working correctly, let your CSM know right away so they can start troubleshooting (and temporarily revert your Hub back to the old custom domain, if necessary).</p>
+<p> </p>
+<p> </p>
+<h2>Next Steps: SEO Settings</h2>
+<p>Once you have your Hub up and running on your subdirectory custom domain, the next thing you should do is make sure you have <a href="https://help.uberflip.com/hc/en-us/articles/360028437152" target="_self">set up your SEO settings</a> correctly. Even if you have already done this previously, there are some differences that are specific to subdirectory custom domains that you'll need to account for.</p>
+<p>The reason for this is that key SEO mechanisms (like sitemaps and <em>robots.txt</em>) generally apply to the entire domain, so search engines like Google look for them in the <em>root</em> (or lowest/main) <em>directory</em> of the domain. On a subdomain custom domain (e.g. <em>https://resources.mycompany.com/</em>), Uberflip has access to the root directory, and can place and modify sitemaps and <em>robots</em><em>.txt</em> here.</p>
+<p>However, on a <strong>subdirectory</strong> custom domain (e.g. <em>https://www.mycompany.com/resources</em>), the root directory is part of your website's domain — and Uberflip does not have access to it. This means that while Uberflip will still generate sitemaps and <em>robots.txt</em> for your Hub, they will be placed in the subdirectory. Google will not look for them there, so unless you take some action, they will have no effect.</p>
+<p>Here's what you will need to do:</p>
+<ul>
+<li>
+<strong>Sitemaps: </strong>Get your Hub's sitemap index file and <a href="https://support.google.com/webmasters/answer/7451001">submit it to Google Search Console</a>. You can get your sitemap index file by adding <code class="no-padding">sitemap_index.xml</code> to the end of your Hub's homepage URL, e.g. <code class="no-padding">https://www.mycompany.com/resources/sitemap_index.xml</code>. You'll only need to do this once — Google will automatically follow any changes to a previously submitted sitemap.</li>
+<li>
+<strong>Robots.txt:</strong> Uberflip uses <em>robots.txt</em> to block search engines from indexing your entire Hub (i.e. when the <a href="https://help.uberflip.com/hc/en-us/articles/360018840252#block-indexing-at-the-hub-level" target="_self">Hub-level No Robots Meta Tag setting</a> is turned on). If you want to do this, you will need to manually add a rule to your main website's <em>robots.txt </em>to prevent indexing of the subdirectory containing your Hub (and anything within it). If you want your Hub to be generally indexable and only specific Streams to be blocked, you can simply use the <a href="https://help.uberflip.com/hc/en-us/articles/360018840252#block-indexing-at-the-stream-level">Stream-level No Robots Meta Tag setting</a>, and do <strong>not</strong> need to make any changes to <em>robots.txt</em>.</li>
+</ul>
+<p>If you need some guidance on how to complete these steps, please <a href="https://help.uberflip.com/hc/en-us/requests/new">contact Uberflip Support</a>.</p>]]></description>
+         <guid isPermaLink="false">360019755751</guid>
+         <pubDate>Tue, 13 Nov 2018 16:20:21 GMT</pubDate>
+      </item>
+      <item>
+         <title>Custom Domain: Configure Your Reverse Proxy for an Uberflip Hub</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360019729931-Custom-Domain-Configure-Your-Reverse-Proxy-for-an-Uberflip-Hub</link>
+         <description><![CDATA[<hr>
+<p>Learn how to configure your reverse proxy to point requests for a specific subdirectory to Uberflip's origin server.</p>
+<hr>
+<p> </p>
+<h2 id="h_01HWTHJHZGKM0HY07824SW4STQ">Before You Begin</h2>
+<ul>
+<li>This article is intended for readers with a <strong>technical background</strong>. It assumes a general familiarity with web servers and related concepts and terminology.</li>
+<li>In most organizations, the person who can perform the steps described in this article will be a <strong>web administrator</strong> (or similar).</li>
+<li>This guide assumes that you have <strong>reverse proxy capability</strong> available and set up on your website. This can be implemented in various forms; specific requirements are laid out below.</li>
+</ul>
+<p> </p>
+<h2 id="h_01HWTHJHZGJWDH56DT7QRXCNNG">What This Guide is About</h2>
+<p>You have likely been provided this guide by your organization's Uberflip administrator. Uberflip is a SaaS provider that helps Marketing and Sales departments to create curated content experiences for prospects and customers. These content experiences are managed and delivered through a web-based interface called a Hub.</p>
+<p>For user experience and SEO reasons, we recommend unifying your Uberflip Hub with your website, which means delivering it on a URL that is part of your website's root domain. However, because Uberflip is SaaS, Hubs are hosted on servers managed by Uberflip. One way to solve this problem is to use a reverse proxy to integrate your Hub and your website.</p>
+<p>This article explains how to set up a reverse proxy so that it sends requests for a designated subdirectory (and anything under it) to a specific origin server. The ultimate purpose of doing this is to allow visitors to your website to request a certain subdirectory (e.g. <em>www.mycompany.com/resources</em>) and be served content from an Uberflip Hub that is hosted outside your website's hosting infrastructure.</p>
+<p> </p>
+<h2 id="h_01HWTHJHZG828PPDHK1K4XR6MM">Requirements</h2>
+<p>We don't require any specific type of reverse proxy, so you can choose the most appropriate option for your situation based on your preference or what you already have in place. The possible options include:</p>
+<ul>
+<li>A <em>Content Delivery Network</em> (CDN), e.g. <em>Amazon CloudFront, Akamai, Cloudflare (Enterprise), Limelight</em>, etc.</li>
+<li>A dedicated <em>load balancer</em> or <em>reverse proxy server</em>, e.g. <em>HAProxy</em> or <em>NGINX</em>.</li>
+<li>A reverse proxy/gateway <em>module </em>on your web server, e.g. <em>mod_proxy</em> on Apache HTTP Server.</li>
+</ul>
+<p>More information about these options (along with our recommendations) can be found in <a href="https://help.uberflip.com/hc/en-us/articles/360018964792">this article</a>.</p>
+<p>No matter which option you go with, your specific reverse proxy must support the following functionality to be used with Uberflip:</p>
+<ul class="list-bullet">
+<li>Proxy requests for a subdirectory and anything below it (e.g. <em>http://www.mycompany.com/hub/*</em>) to a specific origin server.</li>
+<li>Proxy GET, POST, HEAD and OPTIONS requests (at minimum these types required; others do not have to be excluded as they will be ignored).</li>
+<li>Disable caching of the origin server (for CDNs).</li>
+<li>Pass requests to the origin server intact, i.e. with the full request URL, and all original headers/parameters included.</li>
+</ul>
+<p>Specific reverse proxy services that are known <strong>not</strong> to work are listed in the <a href="#h_311895249391544624336650"><em>Frequently Asked Questions</em></a> section at the end of this article.</p>
+<p> </p>
+<h2 id="h_01HWTHJHZGV7N8RWA3P3Z5J3TG">Configure the Reverse Proxy</h2>
+<p>As the exact steps needed to configure your reverse proxy will vary depending on the type of reverse proxy you are using, we're not able to provide detailed, step-by-step instructions on how to do this. Instead, we will describe the general setup objectives you need to achieve, as well as the reasoning behind them.</p>
+<p>The reverse proxy technology you are using will have its own documentation that outlines the exact steps you need to follow to get the desired result. Use the objectives below to guide you as you configure the settings for your particular reverse proxy.</p>
+<h3 id="h_01HWTHJHZG0PJQSEXB3WKXRRKH"> </h3>
+<h3 id="h_01HWTHJHZGHKDEV6JFJC18RSK9">Objective 1: Proxy Requests for a Subdirectory to a Specific Origin Server</h3>
+<p><strong>What you need to do:</strong></p>
+<ul>
+<li>Create a rule in your reverse proxy. The rule must:
+<ul>
+<li>Apply to any request that involves a specific subdirectory on your root domain (including any further subdirectories nested under the designated subdirectory)</li>
+<li>Pass all requests that meet this criterion to a specific origin server</li>
+</ul>
+</li>
+<li>The <em>subdirectory</em> that will form the basis of the rule will be provided by your organization's Uberflip admin (e.g. <em>http://www.mycompany.com/hub/</em>)</li>
+<li>Specify the following <em>origin server</em>:
+<ul>
+<li><em>https://read.uberflip.com/</em></li>
+</ul>
+</li>
+</ul>
+<p><strong>Why you need to do it:</strong></p>
+<ul>
+<li>The underlying goal is to make your Uberflip Hub accessible under a subdirectory on your website's root domain</li>
+<li>Uberflip Hubs are actually hosted on Uberflip's servers, accessible via the URL <em>https://read.uberflip.com/</em>
+</li>
+<li>To serve a Hub when a visitor requests the specified subdirectory, you need to identify those requests and automatically send them to <em>https://read.uberflip.com/</em>
+</li>
+</ul>
+<p> </p>
+<h3 id="h_01HWTHJHZGAJ99JSSWCWV7F85Y">Objective 2: Ensure the Required Request Methods are Passed</h3>
+<p><strong>What you need to do:</strong></p>
+<ul>
+<li>Your rule must be able to pass all requests that use the following methods:<br>
+<ul>
+<li>GET</li>
+<li>POST</li>
+<li>HEAD</li>
+<li>OPTION</li>
+</ul>
+</li>
+<li>You do not need to set up a rule that passes <em>only</em> requests using these methods. Requests using any other method will simply be ignored by the Uberflip origin server.</li>
+</ul>
+<p><strong>Why you need to do it:</strong></p>
+<ul>
+<li>To ensure full Hub functionality, at minimum Uberflip needs to receive any and all requests that use the 4 methods ("verbs") listed above</li>
+<li>Therefore, your reverse proxy must be capable of passing these types of requests without omitting/filtering any</li>
+<li>Requests using any other method can also be passed safely, as they will simply be ignored by the Uberflip server</li>
+</ul>
+<p> </p>
+<h3 id="h_01HWTHJHZG7XB03XBRDAYP0QX0">Objective 3: Ensure Requests are Passed Intact</h3>
+<p><strong>What you need to do:</strong></p>
+<ul>
+<li>Your reverse proxy and/or your rule must be set up in such a way that requests passed to the Uberflip origin server are passed through as-is</li>
+<li>This means that the origin server must receive the original request exactly as it was sent by the client — the reverse proxy may not make any changes to it</li>
+<li>Some reverse proxies <em>add</em> header fields that were not part of the original request. This is fine, provided the change is only <em>additive </em>(i.e. no part of the original request is <em>modified</em> or <em>removed</em> as a result)</li>
+</ul>
+<p><strong>Why you need to do it:</strong></p>
+<ul>
+<li>Metrics around the way that visitors interact with your Uberflip Hub are very important to your Marketing department</li>
+<li>To report accurate data, Uberflip requires all of the information passed through by the client, as it allows us to identify users and their behaviour</li>
+<li>Passing the requests intact also allows us to ensure the correct Hub (and content within the Hub) is served to the client</li>
+</ul>
+<p> </p>
+<h3 id="h_01HWTHJHZG9K6PDQSRQBYEEVE5">Objective 4: Enable TLS ("SSL") Between Your Reverse Proxy and the Origin Server</h3>
+<p><strong>What you need to do:</strong></p>
+<ul>
+<li>Requests passed from the reverse proxy server to the origin server must use a secure connection (HTTPS over TLS)<br>
+<ul>
+<li>This is still commonly referred to as "SSL", but in the interest of clarity, you should specifically use the current standard TLS protocol rather than the deprecated SSL protocol</li>
+</ul>
+</li>
+<li>This specifically refers to the connection between the proxy server and the origin server only, i.e. it is a requirement even if your website does not use HTTPS</li>
+<li>The connection will be terminated at the origin server and is therefore covered by Uberflip's certificate, so you do not need to provide a certificate</li>
+</ul>
+<p><strong>Why you need to do it:</strong></p>
+<ul>
+<li>The Uberflip origin server (https://read.uberflip.com/) is configured to require HTTPS, so the connection to the reverse proxy should be set to use it</li>
+</ul>
+<p> </p>
+<h3 id="h_01HWTHJHZGR4TQ2AN4D15WXCBF">Objective 5: Disable Caching of the Origin Server (If Needed)</h3>
+<p><strong>What you need to do:</strong></p>
+<ul>
+<li>Your reverse proxy may support caching of origin servers (i.e. if you are using a CDN)</li>
+<li>If so, you must specifically disable this feature for the Uberflip origin server</li>
+</ul>
+<p><strong>Why you need to do it:</strong></p>
+<ul>
+<li>As with the "requests must be passed intact" requirement, this is to ensure accurate Hub metrics</li>
+<li>If caching is enabled, the proxy server will serve requests from its own cache of the origin server</li>
+<li>When a request is served from cache, the request is never passed to the origin server, so Uberflip does not receive the request headers requires to produce metrics</li>
+</ul>
+<p> </p>
+<h2 id="h_01HWTHJHZGDSH2PGZED79ATQ7C">Confirm Basic Functionality</h2>
+<p>When you have configured your reverse proxy to meet the objectives outlined above, you can test whether it is working by visiting the subdirectory URL in any browser. If you set everything up successfully, your Uberflip Hub (or, in certain cases, a testing Hub) should load.</p>
+<p>Once this test passes, you can notify your organization's Uberflip admin so that they can complete the remaining setup and testing steps.</p>
+<p> </p>
+<h2 id="h_01HWTHJHZGR95GGKR4WX3DGN7P">Common Problems</h2>
+<p>Below are some of the configuration problems we see most often with reverse proxies. These issues will generally either make the Hub inaccessible, or will break important functionality, so it's important to try and avoid them while setting up your reverse proxy.</p>
+<p> </p>
+<h3 id="h_01HWTHJHZHSSVM40QEMXC6CQ8A">Removing HTTP headers and changing the request method</h3>
+<p>Some proxy servers can be set up to change components of HTTP messages, including the <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods">method</a> and the values in the HTTP request and response <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers">header fields</a>.</p>
+<p>However, various functions of Uberflip Hubs rely on our origin server receiving this information exactly as it was sent by the client's browser (and vice-versa): for example, the <em>User-Agent</em> and <em>Cookie</em> header fields, among others, are used to collect visitor metrics.</p>
+<p>If your proxy server changes the HTTP messages in this way, this can either break particular functionality, cause security risks to the client's browser, or cause the Hub to stop working altogether. For example:</p>
+<ul>
+<li>If the proxy rewrites POST requests to GET requests, functionality like CTA submission and progressive profiling will break</li>
+<li>If the proxy modifies or removes header fields like <em>Accept-Encoding</em>, the server may return an encoding that the client's browser can't display</li>
+<li>If the proxy changes the <em>Host</em> header field, the Hub can't be displayed at all (see <a href="#h_09d37ceb-cad6-47fb-85fd-b549a973b94f" target="_self">below</a>)</li>
+</ul>
+<p>As a result, you should make sure that your proxy server is configured to <strong>not</strong> modify either the request or response messages in any way (though it may add its own headers if needed).</p>
+<p> </p>
+<h3 id="h_09d37ceb-cad6-47fb-85fd-b549a973b94f">Changing the value of the <em>Host</em> header field</h3>
+<p>In addition to generally ensuring that your reverse proxy is not changing <em>any</em> HTTP headers, it's particularly important that the <em>Host</em> header on HTTP requests is not modified in any way. When a request for a Hub reaches our origin server at <em>read.uberflip.com</em>, the server relies on the hostname listed in the original request to figure out which Hub the request is intended for. If this hostname has been changed by the reverse proxy, our server has no way of knowing which Hub to serve in response to the request, since the information it needs to do that is missing.</p>
+<p>Some reverse proxies (such as Apache's <em>mod_proxy</em>) will change the hostname on the request header by default, and replace it with the hostname of the origin server. For example, it would change</p>
+<p><code class="no-padding">Host: www.mycompany.com/hub/</code></p>
+<p>to</p>
+<p><code class="no-padding">Host: read.uberflip.com/</code></p>
+<p>With proxies that do this, you would generally need to specifically override this behavior by changing a setting (in <em>mod_proxy's</em> case, this setting is called <a href="https://httpd.apache.org/docs/2.4/mod/mod_proxy.html#proxypreservehost"><em>ProxyPreserveHost</em></a>) to ensure that the original host is kept on the proxied request.</p>
+<p> </p>
+<h3 id="h_01HWTHJHZH6E52AMC9YW5QGP5Q">Removing part of the request path</h3>
+<p>Keep in mind that the way your proxy works might cause part of the request path to be removed. For instance, consider this <em>mod_proxy</em> <a href="https://httpd.apache.org/docs/2.4/mod/mod_proxy.html#proxypass"><em>ProxyPass</em></a> directive:</p>
+<pre><code class="http">ProxyPass "/hub/" "https://read.uberflip.com"</code></pre>
+<p>This directive, as written, would redirect any request with <em>/hub/</em> in its path to <em>https://read.uberflip.com</em>. However, this would not work, because a request like:</p>
+<pre><code class="http">GET /hub/blog/ HTTP1.1<br>Host: www.mycompany.com</code></pre>
+<p>would be proxied to <em>https://read.uberflip.com</em> as:</p>
+<pre><code class="http">GET /blog/ HTTP1.1<br>Host: www.mycompany.com</code></pre>
+<p>As you can see, the <em>/hub</em><em>/</em> part of the path has been removed from the proxied request, so you end up with <code class="no-padding">GET /blog/</code> instead of <code class="no-padding">GET /hub/blog/</code>. Without the full path, Uberflip would be unable to identify the Hub that the request is intended for.</p>
+<p>The reason for this is that a proxy like ProxyPass requires you to specify a full <em>URL</em>, <strong>not</strong> just the origin server <em>domain. </em>ProxyPass works by appending the requested path to the URL you provide, but<em> </em>does so <em>after</em> removing the part of the path specified in the directive (e.g. /hub/).</p>
+<p>To avoid this issue, you would need to ensure that you set up your proxy in such a way that no part of the original request path is removed when the request is proxied to <em>read.uberflip.com</em>. In the case of a ProxyPass directive specifically, you would need to include the part of the path to be matched in the URL as well, like this:</p>
+<ul>
+<li>
+<strong>Incorrect: </strong><code class="no-padding">ProxyPass "/hub/" "https://read.uberflip.com"</code>
+</li>
+<li>
+<strong>Correct: </strong><code class="no-padding">ProxyPass "/hub/" "https://read.uberflip.com<strong>/hub/</strong>"</code>
+</li>
+</ul>
+<p> </p>
+<h3 id="h_01HWTHJHZHYRT7B7RCG7PHWCJD">Enabling caching on the proxy server</h3>
+<p>Some proxy servers, particularly those that are part of CDNs, offer the ability to cache server responses. With this functionality enabled, the proxy server can serve resources it has saved from its own cache, rather than requesting them from the origin server.</p>
+<p>Using a proxy server's cache can have performance benefits for many web properties, but with an Uberflip Hub, doing so will break important functionality. Specifically, client requests must hit the origin server for features like CTAs and visitor metrics to work: if these requests are served from cache, instead, this will result in data loss as you will be unable to collect CTA submissions and metrics.</p>
+<p>If your proxy server does have cache capabilities, you should therefore ensure that it is turned off specifically for any request that is proxied to Uberflip's origin server (though you can still enable it for any other request if desired).</p>
+<p> </p>
+<h2 id="h_311895249391544624336650">Frequently Asked Questions</h2>
+<p><strong>Q: The URL for our Hub is currently <em>[mycompany].uberflip.com</em>, not <em>read.uberflip.com.</em> Why do I set the origin server as <em>read.uberflip.com</em>?</strong></p>
+<p><strong>Q: I have multiple Hubs that I want to set up on subdirectories. Do I need to specify a different origin server for each one?</strong></p>
+<p><strong>A:</strong> The answer to both of these questions is that, for logistical reasons, we actually serve all Hubs from a single domain: <em>read.uberflip.com</em>.</p>
+<p>Every Hub is linked in the Uberflip interface (<em>Account Settings &gt; Services &gt; Domains</em>) to a particular domain under which it can be accessed — but in fact, each of these Hub domains are just aliases for <em>read.uberflip.com</em>. As a result, visiting any given Hub domain always routes the request to <em>read.uberflip.com. </em>We then simply look up which Hub that domain is linked to in Uberflip's database and serve up the appropriate Hub.</p>
+<p>For this reason, when you set up a reverse proxy to point requests for a Hub's domain at an origin server, you <strong>always</strong> specify the origin server as <em>read.uberflip.com: </em>this is the actual underlying server from which <strong>all</strong> Hubs are served.</p>
+<p> </p>
+<p><strong>Q: My website uses HTTPS (SSL/TLS). If I set up a custom domain for my Hub on a subdirectory of my website, do I need to send Uberflip a certificate?</strong></p>
+<p><strong>A: </strong>No, you don't have to send us a certificate in this case. While you do have to send us a certificate if you use a <em>subdomain</em> as your custom domain and want to use HTTPS on it, this is not necessary if your custom domain is a <em>subdirectory</em>. When a client requests the subdirectory for your Hub, the TLS connection is terminated at your domain, because the subdirectory is under that domain. This means that it is covered by your domain's certificate.</p>
+<p>The request is then passed on by your reverse proxy server to the Uberflip origin server (<em>read.uberflip.com</em>). This connection also uses HTTPS, and as it terminates on Uberflip's domain, it is covered by Uberflip's certificate.</p>
+<p> </p>
+<p><strong>Q: Are there any specific reverse proxies that do not work with custom domains?<br></strong></p>
+<p><strong>A: </strong>Yes. At present, we have confirmed that the following will not work:</p>
+<ul>
+<li>AWS ALB (Application Load Balancer), ELB (Elastic Load Balancer) and Classic Load Balancer. As an alternative, you can use CloudFront, which is confirmed to work and is also part of AWS.</li>
+</ul>
+<p>We will be adding to this list as we identify other reverse proxy services that are not compatible with Uberflip custom domains.</p>]]></description>
+         <guid isPermaLink="false">360019729931</guid>
+         <pubDate>Mon, 12 Nov 2018 23:18:45 GMT</pubDate>
+      </item>
+      <item>
+         <title>Add or remove trailing slashes from your Uberflip URLs</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/19684157111181-Add-or-remove-trailing-slashes-from-your-Uberflip-URLs</link>
+         <description><![CDATA[<p>A trailing slash is a forward slash ( / ) placed at the very end of a URL. Example:</p>
+<p><strong>URL with trailing slash: </strong><br>www.example.com/pizza<strong>/ </strong></p>
+<p><strong>URL without trailing slash: <br></strong>www.example.com/pizza</p>
+<p>Whether a URL contains a trailing slash or not is a choice each site creator will make for themselves.</p>
+<div class="callout callout--warning">
+<h4 id="h_01HAT7JYMXWQ5GZY813E2P6SZQ" class="callout__title">Impact on SEO</h4>
+<p>Choosing to include or omit a trailing slash won’t affect your SEO much, but changing this convention after your pages have already been indexed could. For this reason, we suggest setting this once when your account is set up, and avoiding further changes if possible.</p>
+</div>
+<p>In Uberflip, you can choose when or if the URLs generated by Uberflip should use a trailing slash. This setting can be changed for each Hub in your account. But because it can impact your SEO, <strong>we have restricted changing this setting to Uberflip employees only.</strong> </p>
+<p><strong>You must </strong><a href="https://help.uberflip.com/hc/en-us/requests/new" target="_blank" rel="noopener noreferrer"><strong><span style="color: #1155cc;">contact</span><span style="color: #1155cc;"> U</span><span style="color: #1155cc;">berflip</span></strong><strong><span style="color: #1155cc;"> Support</span></strong></a><strong> to discuss your options and have this setting changed. </strong></p>
+<p> </p>
+<h2 id="h_01HAT6XTN1WGSBFTBXDMF4EHAQ">Trailing slash options in Uberflip</h2>
+<p>Depending on the URL conventions your company has in place, you may want to add a trailing slash at the end of the URLs generated by Uberflip, or you may not. With Uberflip, you have three options for trailing slashes: </p>
+<ol>
+<li>
+<strong>Never:</strong><br>No trailing slash will ever be added to any URL</li>
+<li>
+<strong>Always: </strong><br>Every URL generated in Uberflip will include a trailing slash</li>
+<li>
+<strong>Yes, except Item page URLs:</strong><strong><br></strong>All Hub, Stream, and landing page URLs will include a trailing slash, but Item pages (which don’t lead to further pages or URL paths) will not include a trailing slash</li>
+</ol>
+<p>While you can see your current trailing slash setting in Uberflip, you can not change this yourself. <strong>You must <a href="https://help.uberflip.com/hc/en-us/requests/new" target="_blank" rel="noopener noreferrer">contact Uberflip Support</a> to discuss your options and have this setting changed.</strong></p>
+<p> </p>
+<h2 id="h_01HAT6YF6XYGDWP55J2S3H6EGS">See your current trailing slash setting</h2>
+<p>You can see your current setting for this on the Advanced Hub options page </p>
+<ol>
+<li>Go to the Hub you want to see the trailing slash settings for </li>
+<li>In the sidebar, click <strong>Hub Options &gt; Advanced </strong>
+</li>
+<li>In the <strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">SEO section </strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">you’ll find the </span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Add trailing slashes on URLs </strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">setting and the current setting<br><img src="https://help.uberflip.com/hc/article_attachments/19684151634573" width="649" height="221"><br></span>
+</li>
+</ol>
+<p><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"><strong>To change this setting,</strong> <a href="https://help.uberflip.com/hc/en-us/requests/new" target="_blank" rel="noopener noreferrer"><strong>contact Uberflip Support</strong></a><strong> to discuss your options and have this setting changed. </strong></span></p>
+<p> </p>]]></description>
+         <guid isPermaLink="false">19684157111181</guid>
+         <pubDate>Wed, 20 Sep 2023 21:22:52 GMT</pubDate>
+      </item>
+      <item>
+         <title>Can I use a custom domain without &quot;www&quot; in the URL?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360033186892-Can-I-use-a-custom-domain-without-www-in-the-URL</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>I want to use a custom domain that does not include "www" in the URL. For example, instead of <code class="no-padding">https://www.mycompany.com</code>, I just want <code class="no-padding">https://mycompany.com</code>. Is that possible?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>Yes, you can exclude "www" from your Hub's <a href="https://help.uberflip.com/hc/en-us/articles/360018876192" target="_self">custom domain</a> URL. There are three possible scenarios:</p>
+<h3>Scenario 1: Subdomain Custom Domain</h3>
+<p>If you choose a custom domain that is a <a href="https://help.uberflip.com/hc/en-us/articles/360018786372" target="_self">subdomain</a> of your main website, for example <code class="no-padding">https://<strong>resources</strong>.mycompany.com</code>, then the subdomain (in this case <code class="no-padding">resources</code>) will simply replace "www" in the URL.</p>
+<h3>Scenario 2: Subdirectory Custom Domain</h3>
+<p>If you go with a custom domain that is a <a href="https://help.uberflip.com/hc/en-us/articles/360018964792" target="_self">subdirectory</a> of your main website, and the website's URL already does not include the "www", then that would apply to the custom domain as well. For example, if your Hub will live in the subdirectory <code class="no-padding">resources</code> on your website at <code class="no-padding">https://mycompany.com</code>, then the full URL for your Hub would simply be <code class="no-padding">https://mycompany.com/<strong>resources</strong></code>.</p>
+<h3>Scenario 3: Standalone Custom Domain</h3>
+<p>Things get a little tricky if you want your Hub to function more like a standalone website, and live on a custom domain that is not associated with your existing website: for example, if your main website lives at <code class="no-padding">https://mycompany.com</code>, and you want your Hub to be on a URL like <code class="no-padding">https://mycompanyresources.com</code>.</p>
+<p>Although this kind of standalone custom domain does not include a subdomain (as www is technically a subdomain), you would still set it up the same way as a subdomain custom domain in practice. This presents two challenges:</p>
+<ol>
+<li>Uberflip's <em>Add A Domain</em> tool will only allow you to add domains in the format <em>a.b.c</em>, i.e. they must include a subdomain.</li>
+<li>The process for setting up a subdomain custom domain requires creating a CNAME record with your DNS provider. However, for technical reasons, most DNS providers will not allow you to create a CNAME record with a bare domain (e.g. a domain that lacks any subdomain element, including "www"). </li>
+</ol>
+<p>As a result, please <strong>contact your Customer Success Manager or Uberflip Support</strong> if you want to use a standalone custom domain without "www", as they will need to help you to set it up.</p>]]></description>
+         <guid isPermaLink="false">360033186892</guid>
+         <pubDate>Mon, 09 Sep 2019 15:35:03 GMT</pubDate>
+      </item>
+      <item>
+         <title>HTTPS for Hubs Explained</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360028190551-HTTPS-for-Hubs-Explained</link>
+         <description><![CDATA[<hr>
+<p>Did you know that Uberflip automatically protects traffic to your Hub with HTTPS? Here's why that matters, and how it works.</p>
+<hr>
+<p> </p>
+<h2>HTTP vs. HTTPS: A Quick Primer</h2>
+<p>If you've heard that you should be using <strong>HTTPS</strong> but aren't really sure <strong>what it is or why you need it</strong>, this primer is for you. If you're <strong>already familiar with this topic</strong>, you can <a href="#h_3a21c173-0f01-4518-946f-bfd92d9ccb89" target="_self"><strong>skip ahead</strong></a>.</p>
+<h3>What is HTTPS?</h3>
+<p>You've probably heard of HTTP, the <em>HyperText Transfer Protocol</em>. It's a system that web browsers and web servers use to talk to one another; a way for them to send requests (<em>"send me this webpage"</em>) and responses (<em>"here is the webpage you asked for"</em>) back and forth.</p>
+<p>Most websites don't use HTTP anymore, because it has a major security flaw: it's <strong>not encrypted</strong>. This means that, with HTTP,  anyone who's listening in can see exactly what's being sent back and forth between a browser and a web server. And it's not just three-letter government agencies who can do this: with HTTP, anyone on the open WiFi network at your local coffee shop could see which websites you're looking at.</p>
+<p>HTTPS fixes this problem. The <em>S</em> stands for <strong>secure</strong>, to indicate that all communications over HTTPS are <strong>encrypted</strong>. Only the two parties talking to each other (the browser and the server) can decrypt and read each other's messages — to any eavesdroppers, the encrypted messages just look like garbled nonsense.</p>
+<h3>Why is using HTTPS important?</h3>
+<p>In the past, only websites dealing with "sensitive" information (like banks or ecommerce sites) used HTTPS, and HTTP was considered "good enough" for everything else. But HTTP has inherent flaws that make it a huge security risk: for example, HTTP does not verify that you're actually connecting to the website you asked for, so there's little to stop an attacker from impersonating a website and stealing your data.</p>
+<p>In recognition of this problem, there has been a push over the last several years to use HTTPS for <strong>all</strong> kinds of websites. If you take a look at your browser's address bar, you should see something like this:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360044140311/HTTPS_for_Hubs_Explained___Uberflip_Help.png" alt="HTTPS_for_Hubs_Explained___Uberflip_Help.png"></p>
+<p>This padlock icon indicates that the website you're on uses HTTPS, and you're likely to see it on most websites you visit. In fact, as of 2019, the majority of the world's websites use HTTPS.</p>
+<p>This push towards HTTPS has been driven in large part by internet giants like Google. Starting in 2014, Google decided to <a href="https://security.googleblog.com/2014/08/https-as-ranking-signal_6.html">prioritize websites that use HTTPS in its search results</a>, effectively downranking sites that use HTTP. And since <a href="https://security.googleblog.com/2018/02/a-secure-web-is-here-to-stay.html">July 2018</a>, Chrome has displayed this message to highlight websites that don't use HTTPS:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360028119571/Example_Domain.png" alt="Example_Domain.png"></p>
+<p>On today's web, using HTTP is detrimental to your traffic, so you should make sure that all your web properties use HTTPS. The good news is, <strong>using HTTPS with an Uberflip Hub couldn't be easier</strong>.</p>
+<div class="callout callout--info">
+<h4 id="h_4a3a60d3-5ddc-45e9-85b0-75555bed064d" class="callout__title">A Quick Note on Terminology</h4>
+<p>You may have also seen the term <strong>SSL</strong> used in the context of HTTPS. This term refers to the <em>encryption technology</em> that HTTPS uses, and is sometimes used interchangeably with the term "HTTPS".</p>
+<p>SSL has actually been replaced by the more-secure <strong>TLS</strong> technology — but although it's technically incorrect, the term "SSL" is still widely used. Whenever you see the term "SSL" (including in Uberflip's documentation), you can generally assume that this refers to more-secure TLS technology.</p>
+</div>
+<p> </p>
+<h2 id="h_3a21c173-0f01-4518-946f-bfd92d9ccb89">How does HTTPS work on Uberflip Hubs?</h2>
+<p>If you have set up HTTPS for another website in the past, you already know that it can be a hassle: you have to buy an SSL certificate from a Certificate Authority (CA), install the certificate on your web server (or, more often, wait for your IT team to do it), and then do it all over again every time the certificate expires.</p>
+<p>You don't need to worry about any of this with your Uberflip Hub. Uberflip <strong>automatically obtains and sets up the SSL certificate</strong> for your Hub's domain, and <strong>automatically renews it when it expires</strong>. This means that you get all the benefits of HTTPS on your Hub, without the hassle of setting it up and maintaining it.</p>
+<p> </p>
+<h2>Where does Uberflip get the SSL certificate for my Hub?</h2>
+<p>To set up HTTPS for Hubs, we use certificates from <a href="https://letsencrypt.org/"><strong>Let's Encrypt</strong></a>. Let's Encrypt is a new kind of Certificate Authority run by the <a href="https://www.abetterinternet.org/">Internet Security Research Group</a>, a public-benefit corporation backed by a number of major organizations, including Mozilla, Cisco, Shopify, the Ford Foundation, and the EFF. Their mission is to encourage the wider use of HTTPS by making the entire setup and maintenance process much easier. To that end, Let's Encrypt certificates are:</p>
+<ul>
+<li>
+<strong>Free</strong>: Unlike traditional CAs, Let's Encrypt provides and validates certificates at no cost</li>
+<li>
+<strong>Automated</strong>: The entire enrollment process for certificates is automated, as is renewal of the certificate upon expiration</li>
+<li>
+<strong>Open: </strong>Let's Encrypt uses open standards, and their code is open source</li>
+<li>
+<strong>Simple</strong>: With Let's Encrypt certificates, you don't need to worry about payment, installation, or keeping track of expiring certificates</li>
+</ul>
+<p>Although they're free, Let's Encrypt certificates are <strong>just as secure</strong> as certificates from traditional CAs. And because they're automated, Uberflip can take care of provisioning, setting up and renewing your Let's Encrypt certificates for your Hub domains — you don't need to do a thing.</p>
+<p> </p>
+<h2>How do I set up HTTPS for my Hub?</h2>
+<h3>New Hubs</h3>
+<p>Whenever you add a new domain to your Hub (under <strong>Hub Options &gt; Change Domain &gt; Add a Domain</strong>), it will be automatically set up to use HTTPS:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360028427372/Hubs___Options_-_Change_Hub_Domain_-_Uberflip.png" alt="Hubs___Options_-_Change_Hub_Domain_-_Uberflip.png" width="492" height="275"></p>
+<p>Seriously, that's all there is to it. The domain you set up with be secured with HTTPS, and you never need to worry about it again: when it's time to renew the certificate, Uberflip will just seamlessly do it for you.</p>
+<h3>Existing HTTP Hubs</h3>
+<p>If you have an existing Hub that uses HTTP, and you want to <strong>switch to HTTPS</strong>, you can do so with the click of a button.</p>
+<p>To switch, click on your name in the top right corner of the Uberflip app, then go to <strong>Account Settings &gt; Services &gt; Domains</strong>. Find the domain in the list, then <strong>click on the <em>Enable HTTPS </em>button</strong> that appears beside it.</p>
+<p>If a pre-provisioned Let's Encrypt certificate is available for your Hub, this will enable HTTPS on the selected domain immediately. If your Let's Encrypt certificate has not yet been provisioned, HTTPS will be enabled as soon as the certificate is ready, typically within a few hours.</p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p>If your Hub <strong>currently uses HTTP</strong> and you have <strong>embedded Hub content elsewhere</strong> (e.g. using the <a href="https://help.uberflip.com/hc/en-us/articles/360023374631" target="_self">Stream Embed</a> or <a href="https://help.uberflip.com/hc/en-us/articles/360020859752" target="_self">CTA Embed</a> features), <strong>do NOT</strong><strong> proceed</strong>, as this will break your embeds.</p>
+<p>Instead, please <a href="https://help.uberflip.com/hc/en-us/requests/new">contact Uberflip Support</a> for guidance on what you need to do before making the switch to HTTPS.</p>
+</div>
+<p> </p>
+<h2>What if my Hub already uses HTTPS with a legacy certificate?</h2>
+<h3>Uberflip-Managed Legacy Certificates</h3>
+<p>If you set up HTTPS for your Hub in the past and chose to <strong>let Uberflip handle the certificate setup</strong>, you'll be automatically moved onto a new Let's Encrypt certificate once your current legacy certificate expires. This process is seamless, and you don't need to do anything to make it happen. You shouldn't notice any change, and everything will continue to work just as it did before.</p>
+<h3>Self-Managed Legacy Certificates</h3>
+<p>If you opted to use a <strong>self-managed certificate </strong>with your Hub (i.e. if you sent us a PEM file), you will continue to follow the same process as before: whenever your current certificate expires, you will need to send us a new PEM file.</p>
+<p>In addition, we have also <strong>provisioned a Let's Encrypt certificate for you </strong>as a fallback. If your self-managed certificate expires and you do <strong>not</strong> send us a new PEM file in time, we will automatically transition your Hub onto the Let's Encrypt certificate so that it remains secure.</p>
+<p>If you are currently on a self-managed certificate and want to <strong>switch to a Let's Encrypt certificate</strong>, you can do so at any time. There are a lot of good reasons to switch: you will no longer need to keep track of your certificate expirations, pay for renewals, or prepare and send us a PEM files. If you're interesting in moving from self-managed to automated HTTPS, please <a href="https://help.uberflip.com/hc/en-us/requests/new" target="_self">contact our Support Team</a>, or get in touch with your CSM.</p>]]></description>
+         <guid isPermaLink="false">360028190551</guid>
+         <pubDate>Thu, 09 May 2019 15:14:43 GMT</pubDate>
+      </item>
+      <item>
+         <title>Remove a Custom Domain From Your Account</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360019142971-Remove-a-Custom-Domain-From-Your-Account</link>
+         <description><![CDATA[<hr>
+<p>If you <a href="https://help.uberflip.com/hc/en-us/articles/360018786372">previously set up a custom domain</a> and don't need it any more, or if you need to make a change to it (e.g. if you made a typo), you can easily delete it.</p>
+<hr>
+<h2> </h2>
+<h2>Before you begin</h2>
+<ul>
+<li>To remove a custom domain, you need to be the <strong>Primary User</strong> on your Uberflip account.</li>
+<li>If the custom domain you're removing was previously the main domain for a Hub, <strong>any links to the removed domain will stop working</strong> as soon as you remove it from your Uberflip account. As a result, you'll need to update all previously distributed/promoted links.</li>
+<li>Removing the custom domain will only <strong>disassociate it with your Uberflip account</strong>. The domain itself will not be deleted, and will still continue to exist separately.</li>
+</ul>
+<p> </p>
+<h2>Remove a custom domain that is currently associated with a Hub</h2>
+<p>If the custom domain you want to remove is currently associated with a Hub, you need to move the Hub onto another domain before you can proceed. For instructions on how to do this, <a href="https://help.uberflip.com/hc/en-us/articles/360018786372#h_788499460411542128151632">see Step 4 in this article</a>.</p>
+<p> </p>
+<h2>Remove a custom domain that is not associated with a Hub</h2>
+<p>If the custom domain you're removing is not currently (or has never been) associated with any Hub, or if you've moved the Hub off the domain to be removed, just follow these simple steps to remove the custom domain.</p>
+<ol>
+<ol>
+<li>Log in to your Uberflip account.</li>
+<li>In the top right corner, hover the mouse over your name to expand the menu, then click on <strong>Account Settings</strong> to go to your<strong> My Profile</strong> page.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360014613891/blobid0.png" alt="">
+</li>
+<li>In the sidebar menu on the left, click on <strong>Services</strong> to expand that section, then click on <strong>Domains</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360014788912/Account___Domains_-_Uberflip.png" alt="Account___Domains_-_Uberflip.png"><br><br>
+</li>
+<li>Your list of domains will appear on the right. Find the domain you want to delete and click on the <strong>Delete </strong>button next to it. A confirmation dialog will appear.</li>
+<li>
+<strong>Check the box </strong>next to <em>I understand that I will lose the ability to use this domain with my services</em>, then click on <strong>Delete Domain</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360014895231/Account___Domains_-_Uberflip.png" alt="Account___Domains_-_Uberflip.png"><br><br>
+</li>
+<li>Your custom domain will be deleted and removed from the list, and you will see a <strong>confirmation that the domain was deleted </strong>at the top of the screen.</li>
+</ol>
+</ol>]]></description>
+         <guid isPermaLink="false">360019142971</guid>
+         <pubDate>Tue, 06 Nov 2018 20:19:58 GMT</pubDate>
+      </item>
+      <item>
+         <title>Generate and Send a Self-Managed SSL Certificate to Uberflip</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360018793512-Generate-and-Send-a-Self-Managed-SSL-Certificate-to-Uberflip</link>
+         <description><![CDATA[<hr>
+<p>Uberflip <a href="https://help.uberflip.com/hc/en-us/articles/360028190551" target="_self">automatically provisions all Hubs with free SSL certificates from Let's Encrypt</a>. But if you prefer to use your own SSL certificate, you'll need to send it to us. Here's how.<strong><br></strong></p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>To use self-managed SSL with your Hub, you must <strong>own an SSL</strong> <strong>certificate</strong>. If you do not have an SSL certificate, you will need to<strong> purchase one</strong> <strong>from a valid Certificate Authority (CA) vendor</strong> before you can proceed.</li>
+<li>If at all possible, <strong>we strongly recommend using the <em>Let's Encrypt</em> certificate</strong> that is <a href="https://help.uberflip.com/hc/en-us/articles/360028190551" target="_self">automatically provisioned for your Hub</a>. Doing so has numerous benefits over self-managed certificates, including lower cost (LE certificates are free of charge) and ease of maintenance (Uberflip automatically renews LE certificates for you).</li>
+<li>Although we use the term "SSL" throughout this article and elsewhere, this is only out of convention. More properly, any use of the term "SSL" in this context should always be taken to mean TLS, which is the technology that is actually used.</li>
+</ul>
+<p> </p>
+<h2 id="h_150083404321541458362814">Send Your SSL Certificate to Uberflip</h2>
+<p>Because Uberflip is a SaaS platform, your Hubs and the content on them are delivered from Uberflip's servers — even if visitors are accessing the Hub via your custom domain. This means that Uberflip needs to <strong>install your SSL certificate on our servers</strong>, so you must securely transmit it to Uberflip.</p>
+<h3>Certificate Format</h3>
+<p>You can send the certificate in any valid file format, but we prefer certificates in <strong>PEM format </strong>(i.e. certificate files with a <em>.pem, .crt, .cer,</em> or<em> .key </em>file extension). Since we can directly install PEM format certificates without needing to convert them, sending the certificate in this format allows us to complete the setup process faster.</p>
+<h3>Sending the SSL Certificate Securely</h3>
+<p>Because the SSL certificate is sensitive, you should use a secure method to send it to us. We recommend using a secure file sharing service to create a single-use download link that self-destructs once the file is downloaded. We like to use <a href="https://securesha.re/">Secureshar.re</a>, but if you prefer another service, you are welcome to use that instead.</p>
+<p><strong>Please make sure to include the following when sending your SSL certificate with Uberflip:</strong></p>
+<ul>
+<li>The <strong>SSL certificate</strong> file: This is the certificate itself, i.e. the PEM file (or similar).</li>
+<li>The <strong>private key</strong>: This is the encryption/decryption key required to use the certificate, and is generally a separate file (if you're not sure where to find your private key, see <a href="https://www.digicert.com/blog/where-is-your-private-key/">this article</a>).</li>
+</ul>
+<p>For additional security, we recommend sending these files to Uberflip separately.</p>
+<p>When you have generated secure download links for these files, please email them to <em>support@uberflip.com</em>. As soon as your certificate has been installed and your SSL setup completed, we will notify you by email.</p>]]></description>
+         <guid isPermaLink="false">360018793512</guid>
+         <pubDate>Mon, 05 Nov 2018 23:00:17 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

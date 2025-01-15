@@ -1,0 +1,1270 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Support Process & Reference</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Internal: Uberflip V1 vs. V2 Hubs explained </title>
+         <link>https://help.uberflip.com/hc/en-us/articles/20085227699853-Internal-Uberflip-V1-vs-V2-Hubs-explained</link>
+         <description><![CDATA[<p><span style="font-weight: 400;">Uberflip uses 2 different frontend technologies to render Hubs for visitors. This article outlines the difference between the two front end versions and what this may mean for you.</span></p>
+<p> </p>
+<h2 id="h_01HBX10QQ8DA6JXXPMAZVBSJ68"><span style="font-weight: 400;">What is Hub frontend V1 vs. V2? </span></h2>
+<p><span style="font-weight: 400;">The </span><span style="font-weight: 400;">Hub fronte</span><span style="font-weight: 400;">nd</span><span style="font-weight: 400;"> is the technology that powers the </span><strong>visitor-facing elements</strong><span style="font-weight: 400;"> of all Uberflip Hubs. This includes basically everything in your Hub that your visitors can see and interact with: the home page, the navigation menu, Stream and Item pages, Item and CTA tiles, and so on.</span></p>
+<p><span style="font-weight: 400;">There are currently </span><strong>two versions</strong><span style="font-weight: 400;"> of this technology:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Front End V1</strong><span style="font-weight: 400;"> was the original version of Uberflip's Hub front end technology. It was originally developed in 2012, when Uberflip first launched the Hubs product. </span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Front End V2</strong><span style="font-weight: 400;"> is Uberflip's next-generation Hub front end framework, which was redesigned from the ground up. Front end V2 brings essential additions such as:</span>
+</li>
+<ul>
+<li style="font-weight: 400;" aria-level="2"><span style="font-weight: 400;">Built in accessibility features</span></li>
+<li style="font-weight: 400;" aria-level="2"><span style="font-weight: 400;">Improved page speed </span></li>
+<li style="font-weight: 400;" aria-level="2"><span style="font-weight: 400;">Improved SEO performance</span></li>
+</ul>
+</ul>
+<p><strong>The differences between these two versions are almost entirely "under the hood"</strong><span style="font-weight: 400;">: while Front End V2 Hubs are more accessible and faster, they are designed to look and feel just like Front End V1 Hubs.</span></p>
+<p> </p>
+<h2 id="h_01HBX10QQ82R28SX8GEQ4MRN2C"><span style="font-weight: 400;">What are the benefits of V2 over V1?</span></h2>
+<p><span style="font-weight: 400;">Increased p</span><span style="font-weight: 400;">age performance and improved SEO are both benefits of V2 Hubs, but most important is the accessibility upgrades. </span></p>
+<p><span style="font-weight: 400;">Uberflip is committed to growing our accessibility capabilities, so you can deliver great content experiences to everyone. Uberflip uses </span><a href="https://www.w3.org/TR/WCAG21/" target="_self"><strong><em>Website Content Accessibility Guidelines </em></strong></a><a href="https://www.w3.org/TR/WCAG21/"><span style="font-weight: 400;">(</span></a><span style="font-weight: 400;">WCAG</span><a href="https://www.w3.org/TR/WCAG21/"><span style="font-weight: 400;">)</span></a><span style="font-weight: 400;"> to inform our accessibility choices.</span></p>
+<p><em><span style="font-weight: 400;">Website Content Accessibility Guidelines</span></em><span style="font-weight: 400;"> were developed as part of a global initiative that aims to make online content more accessible for everyone. This includes the use of screen readers, tabbed browsing, closed captioning, and more. To align with these standards, Front End V2 brings: </span></p>
+<ul class="list-bullet">
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Aria labels</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Screen reader compatibility </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">All necessary accessibility tags </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Accessibility features like skip links and improved tab abilities</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Improved page flow structure </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">And more</span></li>
+</ul>
+<p><span style="font-weight: 400;">Accessible content benefits everyone, including you and your Hubs. Webpages created within the Uberflip platform need to be at minimum </span><a href="https://www.w3.org/WAI/WCAG1AA-Conformance"><span style="font-weight: 400;">Double-A compliant. </span></a></p>
+<p><span style="font-weight: 400;"><strong>V2 Hubs are also required to access some newer functionalities that aren't available on V1 Hubs. </strong></span></p>
+<p> </p>
+<h2 id="h_01HBX10QQ8EYQ58W4PN09GMJ9T"><span style="font-weight: 400;">Is there anything on V1 that isn't included in V2 Hubs?</span></h2>
+<p><span style="font-weight: 400;">The following legacy features are<strong> not supported on V2 hubs</strong>. These are older, low use features that are being phased out:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Metrics (legacy)</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Left-side navigation Hub menu (only top nav is supported in V2 Hubs)</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Hubs Lab - Sticky Footer </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Hubs Lab - Hide banner on iframe embed</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Hubs Lab - Dark Theme</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Item Tile share links</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">AddThis sharing integration</span></li>
+</ul>
+<p> </p>
+<h2 id="h_01HBX10QQ8XNBAFXMX9TMPJJ6E"><span style="font-weight: 400;">Do I need to upgrade my V1 Hubs?</span></h2>
+<p><strong>Upgrading is not required. If you’re currently using any V1 Hubs, you're free to continue using those Hubs as they are. </strong></p>
+<p><strong>As of March 2020, all newly created Hubs run on Front End V2. </strong><span style="font-weight: 400;">So if all of your Hubs were created after that—you’re already living in the future.</span></p>
+<p> </p>
+<h2 id="h_01HBX10QQ82W7PVEET9NFKZAE5"><span style="font-weight: 400;">How can I know which Hub version I use?</span></h2>
+<p>If you want to check which version of the Uberflip Hub Front End your Hub is running, use the following method:</p>
+<ol>
+<li>In any browser, <strong>visit your hub's home page</strong>
+</li>
+<li>Right-click anywhere, then<strong> click on <em>View Source</em> or <em>View Page</em></strong><em><strong> Source</strong> </em>(depending on your browser) to view the page's source HTML</li>
+<li>When you're viewing the page source code, press <strong>Ctrl+F </strong>(<strong>Cmd+F </strong>on Mac) and search for <code class="no-padding">&lt;body</code>
+</li>
+<li>In the source HTML, the string <em>&lt;body</em> should be highlighted (there should only be one result) <strong>Take a look at the text that appears after this string</strong> to identify your Hub Front End version:<br>
+<ul>
+<li>If you see <code class="no-padding">&lt;body class="hub-page</code>, your Hub is running <strong>Front End V1:<br></strong><img src="https://help.uberflip.com/hc/article_attachments/20085238921613" alt="image.png">
+</li>
+<li>If you see <code class="no-padding">&lt;body id="uf-hub-page"</code>, your Hub is running <strong>Front End V2:</strong><br><img src="https://help.uberflip.com/hc/article_attachments/20085220936205" alt="image.png">
+</li>
+</ul>
+</li>
+</ol>]]></description>
+         <guid isPermaLink="false">20085227699853</guid>
+         <pubDate>Wed, 04 Oct 2023 10:48:31 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: UFA Acquisition Channel Troubleshooting Tools</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/11610182863885-Internal-UFA-Acquisition-Channel-Troubleshooting-Tools</link>
+         <description><![CDATA[<hr>
+<p>Use these tools to understand and troubleshoot how Uberflip Analytics assigns Acquisition Channels to incoming web traffic.</p>
+<hr>
+<h2>Introduction</h2>
+<p><strong>Acquisition channels</strong> are broad groupings of related traffic types, e.g. traffic from search engines like Google and Bing would be classified as "organic", traffic from sites like Facebook and Twitter would be classified as "social", etc.</p>
+<p>As of January 2023, <strong>Uberflip Analytics uses a new method (algorithm) to assign acquisition channels</strong> to incoming web traffic. The new algorithm looks at a variety of factors, in a particular order, to assign one of the following acquisition channels to all visits:</p>
+<ul>
+<li>paid-display</li>
+<li>paid-search</li>
+<li>paid-social</li>
+<li>social</li>
+<li>organic</li>
+<li>email</li>
+<li>display</li>
+<li>referrer</li>
+<li>other</li>
+<li>direct</li>
+</ul>
+<p>In some cases, customers may contact us asking why Uberflip Analytics assigned a particular acquisition channel to a given visit.</p>
+<p>This article contains the following tools to help you address these inquiries:</p>
+<ul>
+<li>A <strong>flowchart</strong> that<strong> explains how Uberflip Analytics assigns acquisition channels </strong>
+</li>
+<li>A <strong>table</strong> that contains the <strong>keywords referenced in the flowchart and their corresponding channels</strong>
+</li>
+<li>An <strong>internal report</strong> that allows you to <strong>review specific traffic and the factors that were used to assign an acquisition channel </strong>to that traffic</li>
+</ul>
+<h2 id="h_01GXCBSRR2CYYGKRMHPBNR31PN">Tool: Algorithm Flowchart</h2>
+<h3>What it is</h3>
+<p>A flowchart which explains the overall method and order used by the algorithm to assign acquisition channels to traffic.</p>
+<h3>How to use<strong><br></strong>
+</h3>
+<p>To view the flowchart, either <strong>click on the link below</strong>, or <strong>click on the attachment</strong> at the bottom of this article.</p>
+<p><strong><a href="https://help.uberflip.com/hc/article_attachments/14640278258189" target="_self" rel="undefined">UFA Flowchart - Understand how Acquisition Channels are set</a></strong></p>
+<ol>
+<li>Begin at <em>Start</em>
+</li>
+<li>Follow the decision branches to understand which factors lead to a particular channel being chosen</li>
+<li>Read and follow the <strong>appropriate use</strong> <strong>guidelines </strong>below before communicating with the customer</li>
+</ol>
+<h3>Appropriate use guidelines</h3>
+<div class="callout callout--danger">
+<h4 class="callout__title">Warning: Confidential — Internal Use Only</h4>
+<p><strong>The flowchart is </strong><strong>strictly for internal use only</strong>.</p>
+<p><strong>Do NOT share the flowchart, or any specific details from the flowchart, with customers or anyone else outside of Uberflip.</strong></p>
+</div>
+<p>The flowchart linked from this page contains <strong>confidential information about a proprietary Uberflip algorithm</strong>. The algorithm represents a potential competitive advantage over Uberflip's competitors. As a result, <strong>specific details about the algorithm and how it works must be kept secret</strong>.</p>
+<p><strong>When using the flowchart, please follow these Dos and Don'ts to ensure appropriate usage:</strong></p>
+<p><strong><span class="wysiwyg-color-green110">✓</span> DO </strong>refer to the flowchart to learn how UFA assigns acquisition channels, so that you are equipped to respond to customer inquiries.</p>
+<p><em>Example:</em> A customer contacts you with a question about UFA acquisition channels. <strong>Do</strong> refer to the flowchart to help you figure out the answer.</p>
+<p><strong><span class="wysiwyg-color-red">✘</span> DON'T </strong>share the flowchart itself.</p>
+<p><em>Example:</em> When providing your explanation to the customer, <strong>don't</strong> show them the flowchart as you explain the answer (e.g. via screen sharing) — and definitely <strong>don't</strong> send them the flowchart file (or even screenshots of it).</p>
+<p><strong><span class="wysiwyg-color-green110">✓</span> DO </strong>use your understanding of the algorithm to provide the customer with <em>just</em> <em>enough</em> information to answer their specific question.</p>
+<p><em>Example: </em>When you have determined why a particular acquisition channel was selected,<strong> do </strong>focus on specific details that explain the choice (e.g. "Looking at this traffic, I can see there was a parameter from Marketo attached to the URL. Those would usually only appear on links in emails sent from Marketo so that's most likely why it was set as <em>email.</em>")</p>
+<p><strong><span class="wysiwyg-color-red">✘</span> DON'T</strong> provide more information about the algorithm than necessary to answer the specific question.</p>
+<p><em>Example: </em>As part of your explanation, <strong>don't</strong> share details about the way the algorithm works generally (e.g. "So we first look at UTM source, and then UTM medium, and we compare those to a list of known keywords. And if we don't find a match there, we go and look at the referrer domain...")</p>
+<h2>Tool: UTM Parameter Keyword List</h2>
+<h3>What it is</h3>
+<p>A list of keywords that the algorithm looks for in the values of the <em>UTM Medium</em> and <em>UTM Source </em>parameters, along with the acquisition channel the keyword is associated with (see the <em>C</em><span style="white-space: pre-wrap;"><em>heck  UTM Medium &amp; Source for recognized keyword</em> of the flowchart</span>)<span style="white-space: pre-wrap;">.</span></p>
+<h3><span style="white-space: pre-wrap;">How to use</span></h3>
+<p><span style="white-space: pre-wrap;">One of the mechanisms the algorithm uses to assign an acquisition channel is to check the <em>UTM Medium</em> and <em>UTM Source </em>parameters (if present) to see if the values of these parameters match a known keyword that has a known association with a channel.</span></p>
+<p><span style="white-space: pre-wrap;">The keywords and their corresponding channels are listed in this table:</span></p>
+<table style="border-collapse: collapse; width: 100%; height: 748px;" border="1">
+<tbody>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 29.0001%; height: 22px;"><strong>UTM Parameter Keyword</strong></td>
+<td class="wysiwyg-text-align-center" style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 45.9999%; height: 22px;"><strong>Acquisition Channel</strong></td>
+</tr>
+<tr style="height: 21px;">
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 29.0001%; height: 22px;" data-sheets-value='{"1":2,"2":"cpc"}'>cpc</td>
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 45.9999%; height: 22px;" data-sheets-value='{"1":2,"2":"paid-display"}'>Paid-Display</td>
+</tr>
+<tr style="height: 21px;">
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 29.0001%; height: 22px;" data-sheets-value='{"1":2,"2":"ppc"}'>ppc</td>
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 45.9999%; height: 22px;" data-sheets-value='{"1":2,"2":"paid-display"}'>Paid-Display</td>
+</tr>
+<tr style="height: 21px;">
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 29.0001%; height: 22px;" data-sheets-value='{"1":2,"2":"paid"}'>paid</td>
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 45.9999%; height: 22px;" data-sheets-value='{"1":2,"2":"paid-display"}'>Paid-Display</td>
+</tr>
+<tr style="height: 21px;">
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 29.0001%; height: 22px;" data-sheets-value='{"1":2,"2":"advertis"}'>advertis</td>
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 45.9999%; height: 22px;" data-sheets-value='{"1":2,"2":"paid-display"}'>Paid-Display</td>
+</tr>
+<tr style="height: 21px;">
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 29.0001%; height: 22px;" data-sheets-value='{"1":2,"2":"partnership"}'>partnership</td>
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 45.9999%; height: 22px;" data-sheets-value='{"1":2,"2":"paid-display"}'>Paid-Display</td>
+</tr>
+<tr style="height: 21px;">
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 29.0001%; height: 22px;" data-sheets-value='{"1":2,"2":"sponsorship"}'>sponsorship</td>
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 45.9999%; height: 22px;" data-sheets-value='{"1":2,"2":"paid-display"}'>Paid-Display</td>
+</tr>
+<tr style="height: 21px;">
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 29.0001%; height: 22px;" data-sheets-value='{"1":2,"2":"placement"}'>placement</td>
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 45.9999%; height: 22px;" data-sheets-value='{"1":2,"2":"paid-display"}'>Paid-Display</td>
+</tr>
+<tr style="height: 21px;">
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 29.0001%; height: 22px;" data-sheets-value='{"1":2,"2":"adword"}'>adword</td>
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 45.9999%; height: 22px;" data-sheets-value='{"1":2,"2":"paid-display"}'>Paid-Display</td>
+</tr>
+<tr style="height: 21px;">
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 29.0001%; height: 22px;" data-sheets-value='{"1":2,"2":"google"}'>google</td>
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 45.9999%; height: 22px;" data-sheets-value='{"1":2,"2":"paid-search"}'>Paid-Search</td>
+</tr>
+<tr style="height: 21px;">
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 29.0001%; height: 22px;" data-sheets-value='{"1":2,"2":"bing"}'>bing</td>
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 45.9999%; height: 22px;" data-sheets-value='{"1":2,"2":"paid-search"}'>Paid-Search</td>
+</tr>
+<tr style="height: 21px;">
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 29.0001%; height: 22px;" data-sheets-value='{"1":2,"2":"duckduckgo"}'>duckduckgo</td>
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 45.9999%; height: 22px;" data-sheets-value='{"1":2,"2":"paid-search"}'>Paid-Search</td>
+</tr>
+<tr style="height: 21px;">
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 29.0001%; height: 22px;" data-sheets-value='{"1":2,"2":"yahoo"}'>yahoo</td>
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 45.9999%; height: 22px;" data-sheets-value='{"1":2,"2":"paid-search"}'>Paid-Search</td>
+</tr>
+<tr style="height: 21px;">
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 29.0001%; height: 22px;" data-sheets-value='{"1":2,"2":"social"}'>social</td>
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 45.9999%; height: 22px;" data-sheets-value='{"1":2,"2":"social"}'>Social</td>
+</tr>
+<tr style="height: 21px;">
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 29.0001%; height: 22px;" data-sheets-value='{"1":2,"2":"linkedin"}'>linkedin</td>
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 45.9999%; height: 22px;" data-sheets-value='{"1":2,"2":"social"}'>Social</td>
+</tr>
+<tr style="height: 21px;">
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 29.0001%; height: 22px;" data-sheets-value='{"1":2,"2":"facebook"}'>facebook</td>
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 45.9999%; height: 22px;" data-sheets-value='{"1":2,"2":"social"}'>Social</td>
+</tr>
+<tr style="height: 21px;">
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 29.0001%; height: 22px;" data-sheets-value='{"1":2,"2":"fb"}'>fb</td>
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 45.9999%; height: 22px;" data-sheets-value='{"1":2,"2":"social"}'>Social</td>
+</tr>
+<tr style="height: 21px;">
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 29.0001%; height: 22px;" data-sheets-value='{"1":2,"2":"twitter"}'>twitter</td>
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 45.9999%; height: 22px;" data-sheets-value='{"1":2,"2":"social"}'>Social</td>
+</tr>
+<tr style="height: 21px;">
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 29.0001%; height: 22px;" data-sheets-value='{"1":2,"2":"youtube"}'>youtube</td>
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 45.9999%; height: 22px;" data-sheets-value='{"1":2,"2":"social"}'>Social</td>
+</tr>
+<tr style="height: 21px;">
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 29.0001%; height: 22px;" data-sheets-value='{"1":2,"2":"instagram"}'>instagram</td>
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 45.9999%; height: 22px;" data-sheets-value='{"1":2,"2":"social"}'>Social</td>
+</tr>
+<tr style="height: 21px;">
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 29.0001%; height: 22px;" data-sheets-value='{"1":2,"2":"mail"}'>mail</td>
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 45.9999%; height: 22px;" data-sheets-value='{"1":2,"2":"email"}'>email</td>
+</tr>
+<tr style="height: 21px;">
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 29.0001%; height: 22px;" data-sheets-value='{"1":2,"2":"blog"}'>blog</td>
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 45.9999%; height: 22px;" data-sheets-value='{"1":2,"2":"display"}'>Display</td>
+</tr>
+<tr style="height: 21px;">
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 29.0001%; height: 22px;" data-sheets-value='{"1":2,"2":"display"}'>display</td>
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 45.9999%; height: 22px;" data-sheets-value='{"1":2,"2":"display"}'>Display</td>
+</tr>
+<tr style="height: 21px;">
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 29.0001%; height: 22px;" data-sheets-value='{"1":2,"2":"cpm"}'>cpm</td>
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 45.9999%; height: 22px;" data-sheets-value='{"1":2,"2":"display"}'>Display</td>
+</tr>
+<tr style="height: 21px;">
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 29.0001%; height: 22px;" data-sheets-value='{"1":2,"2":"banner"}'>banner</td>
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 45.9999%; height: 22px;" data-sheets-value='{"1":2,"2":"display"}'>Display</td>
+</tr>
+<tr style="height: 21px;">
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 29.0001%; height: 22px;" data-sheets-value='{"1":2,"2":"bot"}'>bot</td>
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 45.9999%; height: 22px;" data-sheets-value='{"1":2,"2":"display"}'>Display</td>
+</tr>
+<tr style="height: 21px;">
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 29.0001%; height: 22px;" data-sheets-value='{"1":2,"2":"embed"}'>embed</td>
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 45.9999%; height: 22px;" data-sheets-value='{"1":2,"2":"display"}'>Display</td>
+</tr>
+<tr style="height: 21px;">
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 29.0001%; height: 22px;" data-sheets-value='{"1":2,"2":"cpa"}'>cpa</td>
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 45.9999%; height: 22px;" data-sheets-value='{"1":2,"2":"referrer"}'>Referrer</td>
+</tr>
+<tr style="height: 21px;">
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 29.0001%; height: 22px;" data-sheets-value='{"1":2,"2":"cpp"}'>cpp</td>
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 45.9999%; height: 22px;" data-sheets-value='{"1":2,"2":"referrer"}'>Referrer</td>
+</tr>
+<tr style="height: 21px;">
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 29.0001%; height: 22px;" data-sheets-value='{"1":2,"2":"content"}'>content</td>
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 45.9999%; height: 22px;" data-sheets-value='{"1":2,"2":"referrer"}'>Referrer</td>
+</tr>
+<tr style="height: 21px;">
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 29.0001%; height: 22px;" data-sheets-value='{"1":2,"2":"cpv"}'>cpv</td>
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 45.9999%; height: 22px;" data-sheets-value='{"1":2,"2":"referrer"}'>Referrer</td>
+</tr>
+<tr style="height: 21px;">
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 29.0001%; height: 22px;" data-sheets-value='{"1":2,"2":"website"}'>website</td>
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 45.9999%; height: 22px;" data-sheets-value='{"1":2,"2":"referrer"}'>Referrer</td>
+</tr>
+<tr style="height: 21px;">
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 29.0001%; height: 22px;" data-sheets-value='{"1":2,"2":"other"}'>other</td>
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 45.9999%; height: 22px;" data-sheets-value='{"1":2,"2":"other"}'>Other</td>
+</tr>
+<tr style="height: 21px;">
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 29.0001%; height: 22px;" data-sheets-value='{"1":2,"2":"direct"}'>direct</td>
+<td style="overflow: hidden; padding: 2px 3px; vertical-align: bottom; width: 45.9999%; height: 22px;" data-sheets-value='{"1":2,"2":"direct"}'>Direct</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>The algorithm will consider a keyword a match if it matches <em>part</em> of a UTM parameter value. For example, <em>?utm_medium=advertising </em>and <em>?utm_medium=advertisment</em> would both be a match for the keyword <em>advertis.</em></p>
+<p>Typically, customers will want to understand <strong>which UTM values they should use to ensure that traffic is correctly assigned to the desired channel</strong>. To help them choose, use the table above:</p>
+</div>
+<ol>
+<li>Refer to the <a href="#h_01GXCBSRR2CYYGKRMHPBNR31PN" target="_self">flowchart</a> to understand how the algorithm matches <em>UTM Medium</em> and <em>UTM Source</em> parameters to keywords
+<ul>
+<li>For example, most channels can be assigned based on a keyword match in <em>either</em> UTM parameter, but the <strong>Paid-Display</strong>, <strong>Paid-Search</strong> and <strong>Paid-Social</strong> channels require specific combinations of keywords to be assigned</li>
+</ul>
+</li>
+<li>Review the table to understand which keywords will lead to which channel being assigned</li>
+<li>Use the keywords from the table above to suggest appropriate keywords to the customer based on their use case
+<ul>
+<li>For example, if the customer wants to ensure a link used in a Google ad is assigned to the channel <em>Paid-Search</em>, they should set the UTM parameters as: <em>?utm_medium=paid&amp;utm_source=google</em>
+</li>
+</ul>
+</li>
+</ol>
+<h2>Tool: Channel Debugging Report</h2>
+<h3>What it is</h3>
+<p>A report that shows all traffic (by default for the past 2 days) by session ID, along with the UFA-selected acquisition channel, and the factors taken into consideration to assign the acquisition channel (UTM source/medium, URL parameters, referrer domain).</p>
+<h3>How to use</h3>
+<p>You can find the internal report to review and troubleshoot acquisition channel assignments for specific traffic here:</p>
+<p><a href="https://uberflipinternal.looker.com/looks/304" target="_self"><strong>Acquisition Channel Debugging Report</strong></a></p>
+<ol>
+<li>Use the filter controls to narrow down the traffic shown to the desired scope, e.g. by account/Hub, date etc</li>
+<li>Locate the traffic for which you want to understand how the acquisition channel was chosen and review the values under the <em>UTM Medium</em>, <em>UTM Source</em>, <em>Referring Domain</em> and <em>URL Parameters</em> columns</li>
+<li>Reference the flowchart to understand how the assigned acquisition channel was determined by the algorithm</li>
+</ol>]]></description>
+         <guid isPermaLink="false">11610182863885</guid>
+         <pubDate>Tue, 20 Dec 2022 16:03:43 GMT</pubDate>
+      </item>
+      <item>
+         <title>OnBrand - Ticket and Escalation Process</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/9188409073805-OnBrand-Ticket-and-Escalation-Process</link>
+         <description><![CDATA[<hr>
+<p>Learn how to get help from Uberflip's OnBrand team for customer OnBrand work, and how to escalate urgent issues.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>The processes described in this article are intended for use by <strong>any internal Uberflip team</strong>.</li>
+</ul>
+<p> </p>
+<h2>Getting help from the OnBrand team</h2>
+<h3>How do I get support for a customer issue pertaining to Onbrand?</h3>
+<p>Uberflip's <strong>OnBrand team</strong> is responsible for all branding and design features of a hub that are not achieved via the platform's settings.  This includes new implementations and updates to existing hubs.</p>
+<h3>What are OnBrand tickets, and why are they important?</h3>
+<p>Uberflip's OnBrand team receives a lot of requests for help. To manage all of these requests, and to ensure nothing is missed or forgotten, we use a <strong>ticket </strong>system in Zendesk. In this system, every request for work is represented by its own ticket.</p>
+<p>Using tickets allows us to:</p>
+<ul class="list-bullet">
+<li>
+<strong>Keep track of all requests</strong>, so that we can make sure that all requests get a response.</li>
+<li>
+<strong>Centralize communication related to a </strong><strong>request</strong>, so that everyone involved has a definitive record of what's been discussed, and so we can ensure that every aspect of the request is addressed.</li>
+<li>
+<strong>Prioritize requests</strong>, so that we can handle the most urgent requests first (but without forgetting about requests that are less urgent, but equally important).</li>
+<li>
+<strong>Guarantee a response within a specific timeframe</strong>. In fact, an Onbrand ticket is the only way to get help from the Onbrand team that has a Service Level Agreement (SLA) behind it.  There is a 4-hour SLA for a first-response out to the customer.</li>
+<li>
+<strong>Measure </strong><strong>the business</strong>, so we know how well the OnBrand team is performing, and whether the business is growing.</li>
+</ul>
+<p><span class="text-primary">In short: tickets help the OnBrand team to help you and our customers.</span></p>
+<h3> </h3>
+<h3>Do I really have to submit tickets for OnBrand assistance?</h3>
+<p>We know that submitting a ticket to OnBrand seems inconvenient compared to just sending a Slack message. But<strong> without tickets, things can get missed or lost altogether </strong>— and that makes <strong>everyone</strong> unhappy (especially customers!). This is why we ask you to submit Onbrand tickets: <strong>they allow the OnBrand team to do the best possible job for both you and the customer</strong>.</p>
+<h3> </h3>
+<h3>Where do OnBrand tickets live?</h3>
+<p>We use <strong>Zendesk</strong> as our system of record for managing tickets for both product Support and Onbrand. That's why you might also see tickets referred to as <strong>"Zendesk tickets"</strong>.</p>
+<p>While it is mainly the Support and OnBrand teams that works in Zendesk, all members of the Customer Experience department also have access to this system to check on the status of open support tickets.</p>
+<h3> </h3>
+<h3>Who can submit an Onbrand ticket?</h3>
+<p>Tickets are to be submitted <span class="wysiwyg-underline">directly from customers</span> using the Support portal.  Some exceptions to this can be made for bugs identified in-house or for escalations.</p>
+<h3> </h3>
+<h3>How does a customer submit an Onbrand ticket?</h3>
+<p>There are two methods for <strong>customers</strong> to submit tickets:</p>
+<ul>
+<li>
+<strong>Email: </strong><a href="mailto:support@uberflip.com">support@uberflip.com</a>.  Support will intercept these and transfer to OnBrand's ticket queue.   This may have a slight delay in getting to Onbrand's queue for visibility.</li>
+<li>
+<strong>Help Portal </strong>(preferred because it goes straight to the OnBrand queue)<strong>: </strong><a href="https://help.uberflip.com">https://help.uberflip.com</a> (click on <em>Submit a Request &gt; OnBrand Request</em>)</li>
+</ul>
+<h3>How does an Uberflip team member submit a ticket?</h3>
+<p>Follow the the process for <strong>submitting an OnBrand support ticket </strong><strong>as an Uberflip team member </strong>below.</p>
+<h2 id="h_01EVHWDM53VA195FS9VWJ2CG2E">Process: Submit an OnBrand support ticket</h2>
+<p>Use this process to submit a new ticket.</p>
+<ol>
+<li>Log in to Zendesk at <a href="https://help.uberflip.com/">https://help.uberflip.com/</a>
+</li>
+<li>Click on <strong>+Add</strong>, then <strong>New &gt; Ticket</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360081212132/image.png" alt="image.png">
+</li>
+<li>Fill in the fields on the left side:
+<ul>
+<li>
+<strong>Requester: </strong>This is the <span class="wysiwyg-underline"><em>customer's </em></span>contact information (the person OnBrand should correspond with about the issue).  <em>This is a very critical piece of information.  Take the time to get this one correct.</em>
+</li>
+<li>
+<strong>CCs: </strong>Can be added for others who should be copied on all correspondence on this ticket.</li>
+<li>
+<strong>Form: </strong>Select Onbrand Form</li>
+<li>
+<strong>Customer Name:</strong> Enter the company name</li>
+<li>
+<strong>Account ID:</strong> Enter the Uberflip account ID (this is helpful for multi-account customers)</li>
+<li>
+<strong>Hub ID or Hub URL: </strong>Enter the hub ID or URL (also helpful for multi-hub accounts so we can make sure we're looking at the right one)</li>
+<li>
+<strong>Priority: </strong>See <a href="#h_01EVHZGYB7R1A84XXFKZYD8S0P" target="_self" rel="undefined">Setting priority</a> below.</li>
+</ul>
+</li>
+<li>Describing the issue/request -
+<ol>
+<li>If you do not want the customer to be able to see your note, use the <strong>Internal Note</strong> option (make sure the field turns yellow), then <strong>enter a detailed explanation of the issue</strong>.  You would use this option if you've flagged a bug internally and the customer may not be aware of it.</li>
+<li>If you do want the customer to see your message in the Zendesk ticket, use the <strong>Pubic Reply</strong> tab</li>
+</ol>
+</li>
+<li>Click on <strong>Submit as New</strong> to finish submitting the ticket.</li>
+</ol>
+<p> </p>
+<p><strong>Internal Note</strong> (will only be visible to internal users of Zendesk):</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/9192284048781/Screen_Shot_2022-09-15_at_12.55.20_PM.png" alt="Screen_Shot_2022-09-15_at_12.55.20_PM.png"></p>
+<p> </p>
+<p><strong>Public Reply</strong> (The customer contacts included on the ticket will receive this message):</p>
+<p> </p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/9192343049101/Screen_Shot_2022-09-15_at_12.57.07_PM.png" alt="Screen_Shot_2022-09-15_at_12.57.07_PM.png"></p>
+<p> </p>
+<h3 id="h_01EVHZGYB7R1A84XXFKZYD8S0P">Setting severity and priority</h3>
+<p>When you submit an Onbrand support ticket, you will need to specify the <strong>priority </strong>of the issue:</p>
+<dl class="dl-horizontal">
+<dt>Priority is a measure of how important an issue is from a <strong>business and customer impact perspective which determines the level of escalation</strong>.</dt>
+</dl>
+<p><strong>The Onbrand team relies on these fields to efficiently prioritize requests</strong>, so setting the correct priority for your ticket is very important.</p>
+<p>For each field, you will need to <strong>choose from a list of options</strong>. Each of the available options has a definition that outlines its criteria. You can find these below:</p>
+<p> </p>
+<h4>Priority level definitions</h4>
+<p>Use this table to help you <strong>choose the appropriate priority level</strong> for your request ticket. Remember: priority tells us <strong>how much the customer cares about this issue</strong> (regardless of how broken the affected system is).</p>
+<table>
+<tbody>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="width: 30.8571%; height: 22px;"><strong>Priority</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 69.1429%; height: 22px;"><strong>Definition</strong></td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="width: 30.8571%; height: 22px;">1 - Urgent</td>
+<td style="width: 69.1429%; height: 22px;">
+<p><strong>Immediate business impact</strong><span style="font-weight: 400;"> affecting multiple internal initiatives / business objectives. Data loss. Urgently time sensitive issues (i.e. needs to be addressed </span><strong>right now</strong><span style="font-weight: 400;"> - should be accompanied by an escalation via the #onbrand-escalations channel in Slack).</span></p>
+</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="width: 30.8571%; height: 22px;">2 - High</td>
+<td style="width: 69.1429%; height: 22px;">
+<p><span style="font-weight: 400;">Blockers/issues that cause major impact to the client’s continued use of the platform or affect other business objectives </span><strong>with no workaround</strong><span style="font-weight: 400;">. Highly time sensitive issues (2-3 business days).</span></p>
+</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="width: 30.8571%; height: 22px;">3 - Normal</td>
+<td style="width: 69.1429%; height: 22px;">
+<p><span style="font-weight: 400;"><strong>Standard support issue </strong><strong>or inquiry</strong>. This should be used for the majority of tickets.</span></p>
+</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="width: 30.8571%; height: 22px;">4 - Low</td>
+<td style="width: 69.1429%; height: 22px;">
+<p><span style="font-weight: 400;"><strong>General questions</strong> about the platform. Issues with very little to no impact</span>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Common mistakes</h3>
+<p>Here are some common mistakes to avoid when submitting an Onbrand ticket:</p>
+<ul>
+<li>
+<strong>Filing the ticket under your own name, instead of the customer's</strong>:<br>When you submit the ticket, remember to set the customer as the Requester, not yourself! We need this information to contact the client, and if it's missing, this causes delays.</li>
+<li>
+<strong>Creating a ticket by forwarding a customer's email to <a href="mailto:support@uberflip.com:">support@uberflip.com:</a><br></strong>This sets you (not the customer) as the Requester, and could cause delays in responding to the customer. In addition, often the customers email is not clear, or worse, consists of a long thread of messages.  Instead, please follow the instructions above for submitting a ticket and paste the customer's email into the Internal Note field when you create the ticket according to the process above or use the portal.</li>
+<li>
+<strong>Not providing any or enough details about the issue: </strong>If the ticket doesn't have enough information for us to go on, all we can do is ask you or the customer for the missing information. This typically results in back and forth that wastes time and is frustrating for the customer. To avoid this, please include as many details as possible, i.e. which Hub and/or specific assets are affected, steps to reproduce the issue, etc. <span style="font-weight: 400;">You should also: <br></span>
+<ul>
+<li><span style="font-weight: 400;">Verify that the issue exists as described by the client</span></li>
+<li><span style="font-weight: 400;">Describe the issue clearly and concisely in the ticket</span></li>
+<li><span style="font-weight: 400;">Provide a clear indication of the impact this issue is having for your client</span></li>
+</ul>
+</li>
+</ul>
+<p>As a general rule, a good ticket is one where OnBrand can get back to the customer with a first response directly, and <strong>does not have to follow up with you first</strong>.</p>
+<p> </p>
+<h2>Escalating Onbrand tickets</h2>
+<h3>What does it mean to escalate an OnBrand ticket?</h3>
+<p>From time to time, issues come up that are <strong>extremely urgent</strong>, and need to be <strong>resolved as soon as possible</strong>. For these issues, you have the ability to <strong>escalate an Onbrand ticket</strong>.</p>
+<p>When you ask for an Onbrand ticket to be escalated, you are effectively telling the OnBrand team:</p>
+<p><span class="text-primary">"I want you to drop what you're doing and work on this ticket ahead of all other ongoing activities."</span></p>
+<h3>Is there anything I need to consider before I request an escalation?</h3>
+<p>While tickets legitimately <em>need</em> to be escalated in some situations, always remember that <strong>escalations </strong><strong>come at a cost</strong>:</p>
+<ul>
+<li>Escalations are <strong>disruptive</strong>: they can have a negative effect on productivity due to shifting priorities.</li>
+<li>Escalations are <strong>expensive</strong>: they typically require expensive resources (management, developers, etc.) to take time away from their ongoing work to focus exclusively.</li>
+<li>Escalations result in <strong>poor customer experiences</strong>: an escalation makes one customer happy, but potentially makes <em>all other </em><em>customers </em>unhappy because work on their issues has to be delayed.</li>
+</ul>
+<p><strong>Before you escalate a ticket, keep the impact in mind</strong> and <strong>use your judgment </strong>to make sure that the situation really does call for an escalation. In some cases, this might mean reaching out to a customer to manage their expectations instead of escalating the ticket.</p>
+<h3>When should I escalate an OnBrand ticket?</h3>
+<p>There are many situations where an escalation is warranted, and a comprehensive list of these situations would be impractical and not very useful. As a result, the OnBrand team relies on you to <strong>use your judgment</strong> as to when an escalation is required.</p>
+<p>Below are a few examples of situations that would call for an escalation:</p>
+<ul>
+<li>The escalation is a bug</li>
+<li>
+<span style="font-weight: 400;">The issue is </span><span style="font-weight: 400;"><strong>high impact </strong>such as a non-functional or missing menu/CTAs, or tiles that don't respond to click.</span>
+</li>
+<li><span style="font-weight: 400;">The issue could <strong>impact churn or revenue</strong>, e.g. the customer is at high risk for churning, or will not discuss renewal/upgrade until the issue is resolved.</span></li>
+</ul>
+<h3><span style="font-weight: 400;">How do I escalate an OnBrand ticket?</span></h3>
+<p>Follow the <strong>process for escalating a ticket</strong> below.</p>
+<p> </p>
+<h2 id="h_01EVHWE20VTEQTYGTEFBQ74A4T">Process: Escalate an OnBrand ticket</h2>
+<p>Use this process to escalate an existing Onbrand ticket. Remember to <strong>use your judgment</strong> and make sure it's necessary to escalate the ticket before you proceed.</p>
+<ol>
+<li>In Slack, go to the <strong>#onbrand-escalations channel</strong>.</li>
+<li>Click on the <strong>Shortcuts button </strong>below the message box:</li>
+</ol>
+<p><img src="https://help.uberflip.com/hc/article_attachments/9192055146381/Screen_Shot_2022-09-15_at_12.47.25_PM.png" alt="Screen_Shot_2022-09-15_at_12.47.25_PM.png"></p>
+<p> </p>
+<ol>
+<li>Click on the <strong>OB Escalation Request </strong>shortcut:</li>
+</ol>
+<p><img src="https://help.uberflip.com/hc/article_attachments/9188871586573/Screen_Shot_2022-09-15_at_11.10.40_AM.png" alt="Screen_Shot_2022-09-15_at_11.10.40_AM.png"></p>
+<p> </p>
+<p><strong>2. Fill out the form</strong> with the details about the OnBrand ticket to be escalated, then click on <strong>Submit </strong>to post the escalation to the channel:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/9189066613005/Screen_Shot_2022-09-15_at_11.15.25_AM.png" alt="Screen_Shot_2022-09-15_at_11.15.25_AM.png" width="393" height="352"></p>
+<p> </p>
+<p>3. The Onbrand Development Coordinator (OBDC) Team Lead will review the escalation request. If it is deemed to be a valid escalation, the current OBDC on the escalated ticket, or the Team Lead will, acknowledge receipt and be in contact with you shortly after.</p>
+<p><span style="font-weight: 400;">4. Continue to monitor the ticket until it has been resolved.</span></p>
+<p> </p>
+<p><span style="font-weight: 400;"><strong>If you do not receive a response to your escalation within 30 minutes:</strong></span></p>
+<p><span style="font-weight: 400;">If required, reach out to the following individual Onbrand team members using Slack or email, in the following order:<br></span></p>
+<ol>
+<li>
+<strong>Team Lead, Onbrand Development Coordination</strong>
+<ul>
+<li><span style="font-weight: 400;">Aja Servais (Slack: <em>aja.servais</em>, Email: <em>aja.servais@uberflip.com</em>)</span></li>
+<li><strong>If no response:</strong></li>
+</ul>
+</li>
+<li>
+<strong>Director, Professional Services</strong>
+<ul>
+<li><span style="font-weight: 400;">Stacey Kimmett (Slack: s<em>tacey.kimmett</em>, Email: <em>stacey.kimmett@uberflip.com</em>)</span></li>
+</ul>
+</li>
+</ol>
+<p> </p>
+<h3>After hours escalations</h3>
+<p><span style="font-weight: 400;">The operating hours of the OnBrand team are currently <strong>9 AM to 5 PM Eastern Time, Monday to </strong><strong>Friday</strong>. Escalations are possible outside of these hours, and follow the normal procedure outlined above.</span></p>
+<p><span style="font-weight: 400;">If you do not receive a response from OnBrand to your <strong>after hours </strong><strong>escalation</strong> within a reasonable timeframe:</span></p>
+<ol>
+<li><span style="font-weight: 400;"><strong>Contact your manager</strong>. They will directly contact the Team Lead, OnBrand Coordination (Aja Servais), who will coordinate with the OnBrand team.  </span></li>
+<li><span style="font-weight: 400;">Continue to <strong>monitor the relevant Zendesk ticket for updates from the OBDC</strong></span></li>
+</ol>
+<h2>Additional information</h2>
+<h3>Quick reference: What to do when...</h3>
+<p>Here's a quick reference guide on what you should do in various common OnBrand-related situations:</p>
+<table>
+<tbody>
+<tr style="height: 22px;">
+<td style="width: 50%; height: 22px;"><strong>When a customer...</strong></td>
+<td style="width: 25%; height: 22px;"><strong>First, do this:</strong></td>
+<td style="width: 25%; height: 22px;"><strong>Then, do this:<br></strong></td>
+</tr>
+<tr style="height: 179px;">
+<td style="width: 50%; height: 179px;">Asks about an ongoing OnBrand ticket (Zendesk) </td>
+<td style="width: 25%; height: 179px;">
+<strong>Search Zendesk</strong> for the relevant OnBrand support ticket and check for updates</td>
+<td style="width: 25%; height: 179px;">If there is no recent update in the ticket or you aren't sure, <strong>@mention the assigned OBDC in the ticket's internal comments</strong> and ask for an update.</td>
+</tr>
+<tr style="height: 112px;">
+<td style="width: 50%; height: 112px;">Tells you about a new issue they are experiencing with their hub's branding/design</td>
+<td style="width: 25%; height: 112px;">
+<strong>Search Zendesk</strong> to check if there is already a ticket open about this issue for the customer</td>
+<td style="width: 25%; height: 112px;">If there is no existing ticket for the customer, you can  submit one on their behalf but <strong>it is strongly encouraged to have customers submit their own tickets via the portal.</strong>
+</td>
+</tr>
+<tr style="height: 44px;">
+<td style="width: 50%; height: 44px;">Asks for guidance on how to do something in a code block pertaining to custom features and you don't know the answer</td>
+<td style="width: 25%; height: 44px;">If you are not sure or comfortable answering code-related questions, that is ok!</td>
+<td style="width: 25%; height: 44px;">Ask the customer to submit their questions via the Zendesk portal and an OBDC will assist.</td>
+</tr>
+<tr>
+<td style="width: 50%;">Wants to have new customizations/features added to a hub.</td>
+<td style="width: 25%;">Teach the customer how to submit requests directly to OnBrand via the portal</td>
+<td style="width: 25%;">Ask the customer to submit their questions via the Zendesk portal and an OBDC will be assigned to assist.</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 50%; height: 22px;">Wants to discuss a rebrand project or review mock-ups to confirm feasibility and/or scope</td>
+<td style="width: 25%; height: 22px;">Teach the customer how to submit requests directly to OnBrand via the portal</td>
+<td style="width: 25%; height: 22px;">Ask the customer to submit their questions via the Zendesk portal and an OBDC will be assigned to assist and arrange a call.</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h3>Using Slack for Onbrand support</h3>
+<p>Your fellow Uberflippers have a lot of knowledge about our product, our company, and our customers, and <strong>Slack can be a useful tool for accessing that knowledge</strong>. </p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p>Remember that <strong>Zendesk tickets are the only official way to get help from the OnBrand team</strong>, and the only one where you're guaranteed to get a response within a specific timeframe.</p>
+<p>Members of the OnBrand Development Coordination (OBDC) team are typically present in the channels listed below:</p>
+<p> </p>
+</div>
+<table>
+<tbody>
+<tr style="height: 22px;">
+<td style="width: 50%; height: 22px;"><strong>Channel<br></strong></td>
+<td style="width: 50%; height: 22px;"><strong>Used for</strong></td>
+</tr>
+<tr style="height: 112px;">
+<td style="width: 50%; height: 112px;">
+<p>#onbrand-escalations</p>
+</td>
+<td style="width: 50%; height: 112px;">Requesting that a specific ticket, for a specific customer, is given more attention, higher visibility, and a greater sense of urgency.</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 50%; height: 22px;">#onbrand</td>
+<td style="width: 50%; height: 22px;">General questions about onBrand process, turnaround times, feature examples etc.  <strong>Posting requests for specific work to be done in this channel will not be actioned. </strong> </td>
+</tr>
+</tbody>
+</table>
+<h3> </h3>
+<h3>OnBrand Office Hours</h3>
+<p>OnBrand office hours are held daily Monday-Friday at 9:30am ET on a drop-in basis and everyone is welcome.  An OBDC and developer are in attendance to answer questions such as feasibility or scope of a customer request.</p>
+<p> </p>]]></description>
+         <guid isPermaLink="false">9188409073805</guid>
+         <pubDate>Thu, 15 Sep 2022 14:59:07 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: Logging in and out of Uberflip Marketplace</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/6599808981773-Internal-Logging-in-and-out-of-Uberflip-Marketplace</link>
+         <description><![CDATA[<p><span style="font-weight: 400;">While app.uberflip.com and the Uberflip Marketplace are intrinsically linked, they’re not the same thing. These are actually two different apps, with different sessions and cookies associated with each. </span></p>
+<p><span style="font-weight: 400;">Because of this </span><strong>you can be logged into Uberflip with one account, but logged into the Marketplace with another. This can cause problems and lost data. </strong></p>
+<p><span style="font-weight: 400;">This article outlines the issues that may arise and best practices to avoid them. </span></p>
+<h2><span style="font-weight: 400;">What’s happening?</span></h2>
+<p><span style="font-weight: 400;">When you log into Uberflip and head to the Marketplace, you’ll automatically be logged into the Marketplace with your Uberflip credentials. Simple!</span></p>
+<p><span style="font-weight: 400;">But if you then log out of Uberflip, </span><strong>you will not be automatically logged out of the Marketplace. </strong><span style="font-weight: 400;">That’s because this is actually a different web app that’s being displayed within Uberflip.</span></p>
+<p><span style="font-weight: 400;">As an Uberflip employee, it’s likely you’ll at times sign out of one Hub to log into another. But when you log into a new Hub, the Marketplace session persists from the previous log in, and </span><strong>won’t be overridden by logging into a new Hub</strong><span style="font-weight: 400;">.</span></p>
+<p><span style="font-weight: 400;">So now you’re logged into a Hub with one set of credentials, but you’re logged into the Marketplace with another. </span><strong>Any changes you make in the Marketplace will apply to the Hub connected to that Marketplace session. </strong></p>
+<h2><span style="font-weight: 400;">Why is this an issue?</span></h2>
+<p><span style="font-weight: 400;">If you’ve logged into a new Hub, but Marketplace is still logged into a session from another Hub, </span><strong>any changes you make will apply to the Hub you were previously logged into</strong><span style="font-weight: 400;">.</span></p>
+<p><span style="font-weight: 400;">This means that if you install, uninstall, update or edit a Marketplace app, you’re doing so for the previous Hub, not the one you’re currently logged into.</span></p>
+<p><strong>Example: </strong><span style="font-weight: 400;">You may want to delete an app from the Hub you’re currently working in, but if the Marketplace is still logged into a previous session, you would be deleting it from the previous Hub. This could cause broken functionality and lost data in that Hub. It can also cause confusion and frustration when expected changes don’t occur in the Hub you’re in. </span></p>
+<p><strong>This can create serious issues if you were previously working in a client or public Uberflip Hub. We suggest not working in Marketplace when logged into the admin backend, unless proper precautions have been taken.  </strong></p>
+<h2><span style="font-weight: 400;">How do I avoid issues?</span></h2>
+<p><span style="font-weight: 400;">To avoid cross-account issues, be sure you’re not carrying a Marketplace session between Hubs. Here are a few ways you can do this: </span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Use an incognito/private browsing window for each Hub/Marketplace session you open</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Clear your cookies (or just the specific Uberflip cookies) when logging in or out of an Uberflip Hub</span></li>
+<li style="font-weight: 400;" aria-level="1">Go to <a style="background-color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" href="https://app.uberflip.com/marketplace">https://app.uberflip.com/marketplace</a><span style="font-weight: 400;"> and click </span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Log out</strong><span style="font-weight: 400;"> (top right) to end the current session before working within a new Hub session</span><img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" src="https://help.uberflip.com/hc/article_attachments/6599817906701/ijmn.png" alt="ijmn.png" width="549" height="193">
+</li>
+</ul>
+<p> </p>]]></description>
+         <guid isPermaLink="false">6599808981773</guid>
+         <pubDate>Wed, 01 Jun 2022 07:21:42 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: Support and Escalation Processes</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360054004712-Internal-Support-and-Escalation-Processes</link>
+         <description><![CDATA[<hr>
+<p>Learn how to get help from Uberflip's Support team for customer issues, and how to escalate urgent issues.</p>
+<hr>
+<p> </p>
+<h2 id="h_01HQ8KGFJCEBEMQT842GTS66QA">Before you begin</h2>
+<ul>
+<li>The processes described in this article are intended for use by <strong>any internal Uberflip team</strong>.</li>
+</ul>
+<p> </p>
+<h2 id="h_01HQ8KGFJC3MVZ8AGJ24R9JFGN">Getting help from the Support team</h2>
+<h3 id="h_01HQ8KGFJCKHVQ5763RJP1E01F">How do I get support for a customer issue?</h3>
+<p>Uberflip's <strong>Support team</strong> is responsible for handling and resolving issues that our customers have with the Uberflip product. If you need help from the Support team, you can <strong>submit a support ticket</strong>.</p>
+<h3 id="h_01HQ8KGFJCT6S3S9CE9YQX5D2Q">What are support tickets, and why are they important?</h3>
+<p>Uberflip's Support team receives a lot of requests for help. To manage all of these requests, and to ensure nothing is missed or forgotten, we use a <strong>support ticket </strong>system. In this system, every request for help is represented by its own support ticket.</p>
+<p>Using support tickets allows us to:</p>
+<ul class="list-bullet">
+<li>
+<strong>Keep track of all requests</strong>, so that we can make sure that all requests get a response.</li>
+<li>
+<strong>Centralize communication related to a</strong> <strong>request</strong>, so that everyone involved has a definitive record of what's been discussed, and so we can ensure that every aspect of the request is addressed.</li>
+<li>
+<strong>Prioritize requests</strong>, so that we can handle the most urgent requests first (but without forgetting about requests that are less urgent, but equally important).</li>
+<li>
+<strong>Guarantee a response within a specific timeframe</strong>. In fact, a support ticket is the only way to get help from the Support team that has a Service Level Agreement (SLA) behind it.</li>
+<li>
+<strong>Measure</strong> <strong>the business</strong>, so we know how well the Support team is performing, and whether the business is growing.</li>
+<li>
+<strong>Maintain a historical record</strong>. This allows us to review past events at the individual customer, account level, and overall Uberflip company level; and serves as proof of interactions. It also provides opportunities to reduce duplication of efforts should the same issue arise again in the future.</li>
+</ul>
+<p><span class="text-primary">In short: support tickets help the Support team to help you.</span></p>
+<h3 id="h_01HQ8KGFJCV4XJBZZG31YATNWA">Do I really have to submit support tickets?</h3>
+<p>We know that submitting a support ticket seems inconvenient compared to just sending a Slack message. But<strong> without support tickets, things get missed or lost altogether </strong>— and that makes <strong>everyone</strong> unhappy (especially customers!). This is why we ask you to submit support tickets: <strong>they allow the Support team to do the best possible job for both you and the customer</strong>.</p>
+<h3 id="h_01HQ8KGFJCKPRRH6XQEF91AAW1">Where do support tickets live?</h3>
+<p>We use <strong>Zendesk</strong> as our system of record for managing support tickets. That's why you might also see support tickets referred to as <strong>"Zendesk tickets"</strong>.</p>
+<p>While it is mainly the Support team that works in Zendesk, all members of the Customer Experience department also have access to this system to check on the status of open support tickets.</p>
+<h3 id="h_01HQ8KGFJCZWPFZ5XHZ4QG9344">Who can submit a support ticket?</h3>
+<p>Anyone who needs help from Uberflip Support. This could either be an <strong>Uberflip customer</strong> themselves, or <strong>any Uberflip team member</strong> who is looking for help on behalf of their customer.</p>
+<h3 id="h_01HQ8KGFJC1R2N8QF0KP4X926G">How does a customer submit a support ticket?</h3>
+<p>There are three methods for <strong>customers</strong> to submit support tickets:</p>
+<ul>
+<li>
+<strong>Help Portal:</strong> <a href="https://help.uberflip.com">https://help.uberflip.com</a> (click on <em>Submit a Request</em>)</li>
+<li>
+<strong>Email: </strong><a href="mailto:support@uberflip.com">support@uberflip.com</a>
+</li>
+<li>
+<strong>Phone: </strong>1-888-694-2946 (dial extension 2)</li>
+</ul>
+<h3 id="h_01HQ8KGFJCNX34RPZM074QQ4MM">How does an Uberflip team member submit a support ticket?</h3>
+<p>Follow the the process for <strong>submitting a support ticket</strong> <strong>as an Uberflip team member </strong>below.</p>
+<p> </p>
+<h2 id="h_01EVHWDM53VA195FS9VWJ2CG2E">Process: Submit a support ticket</h2>
+<p>Use this process to submit a new support ticket.</p>
+<ol>
+<li>Log in to Zendesk at <a href="https://help.uberflip.com/">https://help.uberflip.com/</a>
+</li>
+<li>Click on <strong>+Add</strong>, then <strong>New &gt; Ticket</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360081212132" alt="image.png">
+</li>
+<li>Fill in the fields on the left side:
+<ul>
+<li>
+<strong>Requester: </strong>Add the <em>customer's </em>contact information (the person Support should correspond with about the issue).  <em>This is a very critical piece of information. Take the time to get this one correct.</em>
+</li>
+<li>
+<strong>CCs: </strong>Add yourself and any others who should be copied on all correspondence on this ticket.</li>
+<li>
+<strong>Type: </strong>Select <em>Question</em>.</li>
+<li>
+<strong>Severity: </strong>See <a href="#h_01EVHZGYB7R1A84XXFKZYD8S0P" target="_self">Setting severity and priority</a> below.</li>
+<li>
+<strong>Feature: </strong>Select the part of Uberflip that the issue pertains to.</li>
+<li>
+<strong>Priority: </strong>See <a href="#h_01EVHZGYB7R1A84XXFKZYD8S0P" target="_self">Setting severity and priority</a> below.</li>
+<li>
+<strong>Ticket Source: </strong>Select the appropriate option as it relates to you (i.e. choose <em>CSM</em> if you are a CSM).</li>
+</ul>
+</li>
+<li>On the right side, <strong>click on <em>Internal Note</em></strong> (make sure the field turns yellow), then <strong>enter a detailed explanation of the issue</strong>.</li>
+<li>Click on <strong>Submit as New</strong> to finish submitting the ticket.</li>
+</ol>
+<h3 id="h_01EVHZGYB7R1A84XXFKZYD8S0P">Setting severity and priority</h3>
+<p>When you submit a support ticket, you will need to specify the <strong>severity</strong> and <strong>priority </strong>of the issue:</p>
+<dl class="dl-horizontal">
+<dt>Severity</dt>
+<dd>A definition of the <strong>system impact</strong> of a particular issue.</dd>
+<dd><em>"How broken is it?"</em></dd>
+<dt>Priority</dt>
+<dd>A measure of how important an issue is from a <strong>business and customer impact perspective</strong>.</dd>
+<dd><em>“How much does the customer care?”</em></dd>
+</dl>
+<p><strong>The Support team relies on these fields to efficiently prioritize requests</strong>, so setting the correct severity and priority for your ticket is very important.</p>
+<p>For each field, you will need to <strong>choose from a list of options</strong>. Each of the available options has a definition that outlines its criteria. You can find these below:</p>
+<h4 id="h_01HQ8KGFJDE5KEMB9JJ8YNTDBW">Severity level definitions</h4>
+<p>Use this table to help you <strong>choose the appropriate severity level</strong> for your support ticket. Remember: severity tells us <strong>how broken the affected system is</strong>.</p>
+<p>Each severity level is associated with a specific SLA (how quickly the Support team will respond to the customer), which is indicated. In addition, the table also shows the recommended priority level range for each severity level, along with the suggested CSM action.</p>
+<table>
+<tbody>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 122.55px;"><strong>Severity</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 135.3px;"><strong>Definition</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 124.283px;"><strong>SLA</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 127.317px;"><strong>Priority</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 134.55px;"><strong>CS Action</strong></td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 122.55px;">1</td>
+<td style="width: 135.3px;"><span style="font-weight: 400;"><strong>Production system down</strong> or <strong>imminent production mission critical failure</strong>, no workaround available.</span></td>
+<td class="wysiwyg-text-align-center" style="width: 124.283px;">1 hour</td>
+<td class="wysiwyg-text-align-center" style="width: 127.317px;">1</td>
+<td class="wysiwyg-text-align-center" style="width: 134.55px;">Engage immediately</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 122.55px;">2</td>
+<td style="width: 135.3px;">
+<p><span style="font-weight: 400;"><strong>Loss of key functionality</strong> which <strong>affects significant aspects </strong>of the business or operations.</span></p>
+</td>
+<td class="wysiwyg-text-align-center" style="width: 124.283px;">3 hours</td>
+<td class="wysiwyg-text-align-center" style="width: 127.317px;">2-3</td>
+<td class="wysiwyg-text-align-center" style="width: 134.55px;">Engage proactively</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 122.55px;">3</td>
+<td style="width: 135.3px;">
+<p><span style="font-weight: 400;">Issue <strong>impacting an isolated component</strong> that does not affect the ability of the system to perform in accordance with the documentation.</span></p>
+</td>
+<td class="wysiwyg-text-align-center" style="width: 124.283px;">6 hours</td>
+<td class="wysiwyg-text-align-center" style="width: 127.317px;">2-4</td>
+<td class="wysiwyg-text-align-center" style="width: 134.55px;">Monitor closely/engage if needed</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 122.55px;">4</td>
+<td style="width: 135.3px;"><span style="font-weight: 400;">Product is <strong>usable with limitations and workarounds</strong> – also a placeholder for <strong>general inquiries</strong>.</span></td>
+<td class="wysiwyg-text-align-center" style="width: 124.283px;">24 hours</td>
+<td class="wysiwyg-text-align-center" style="width: 127.317px;">2-4</td>
+<td class="wysiwyg-text-align-center" style="width: 134.55px;">Monitor</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 122.55px;">5</td>
+<td style="width: 135.3px;">
+<p><span style="font-weight: 400;"><strong>No system impact identified</strong> (e.g. feature tequests, user account requests, software delivery, status reports, etc.).</span></p>
+</td>
+<td class="wysiwyg-text-align-center" style="width: 124.283px;">48 hours</td>
+<td class="wysiwyg-text-align-center" style="width: 127.317px;">2-4</td>
+<td class="wysiwyg-text-align-center" style="width: 134.55px;">Monitor</td>
+</tr>
+</tbody>
+</table>
+<h4 id="h_01HQ8KGFJDX6SZQGJ6N5NMDJVF">Priority level definitions</h4>
+<p>Use this table to help you <strong>choose the appropriate priority level</strong> for your support ticket. Remember: priority tells us <strong>how much the customer cares about this issue</strong> (regardless of how broken the affected system is).</p>
+<table>
+<tbody>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="width: 30.8571%; height: 22px;"><strong>Priority</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 69.1429%; height: 22px;"><strong>Definition</strong></td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="width: 30.8571%; height: 22px;">1 - Urgent</td>
+<td style="width: 69.1429%; height: 22px;">
+<p><strong>Immediate business impact</strong><span style="font-weight: 400;"> affecting multiple internal initiatives / business objectives. Data loss. Urgently time sensitive issues (i.e. needs to be addressed </span><strong>right now</strong><span style="font-weight: 400;"> - should be accompanied by an escalation).</span></p>
+</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="width: 30.8571%; height: 22px;">2 - High</td>
+<td style="width: 69.1429%; height: 22px;">
+<p><span style="font-weight: 400;">Blockers/issues that cause major impact to the client’s continued use of the platform or affect other business objectives </span><strong>with no workaround</strong><span style="font-weight: 400;">. Highly time sensitive issues (2-3 business days).</span></p>
+</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="width: 30.8571%; height: 22px;">3 - Normal</td>
+<td style="width: 69.1429%; height: 22px;">
+<p><span style="font-weight: 400;"><strong>Standard support issue</strong> <strong>or inquiry</strong>. This should be used for the vast majority of tickets.</span></p>
+</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="width: 30.8571%; height: 22px;">4 - Low</td>
+<td style="width: 69.1429%; height: 22px;">
+<p><span style="font-weight: 400;"><strong>General questions</strong> about the platform. Issues with very little to no impact</span>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id="h_01HQ8KGFJFGZR3GJMZ4XGTMTHD">Common mistakes</h3>
+<p>Here are some common mistakes to avoid when submitting a support ticket:</p>
+<ul>
+<li>
+<strong>Filing the ticket under your own name, instead of the customer's</strong>:<br>When you submit the ticket, remember to set the customer as the Requester, not yourself! We need this information to contact the client, and if it's missing, this causes delays.</li>
+<li>
+<strong>Creating a ticket by forwarding a customer email to <a href="mailto:support@uberflip.com:">support@uberflip.com:</a> <br></strong>This also sets you (not the customer) as the Requester, and causes delays as we have to fix the ticket. In addition, often the customer's email is not clear, or worse, consists of a long thread of messages.  Instead, please follow the instructions above for submitting a ticket and paste the customer's email address into the Internal Note field when you create the ticket according to the process above.</li>
+<li>
+<strong>Not providing any or enough details about the issue: </strong>If the ticket doesn't have enough information for us to go on, all we can do is ask you or the customer for the missing information. This typically results in back and forth that wastes time and is frustrating for the customer. To avoid this, please include as many details as possible, i.e. which Hub and/or specific assets are affected, steps to reproduce the issue, etc. <span style="font-weight: 400;">You should also: <br></span>
+<ul>
+<li><span style="font-weight: 400;">Verify that the issue exists as described by the client</span></li>
+<li><span style="font-weight: 400;">Describe the issue clearly and concisely in the ticket</span></li>
+<li><span style="font-weight: 400;">Provide a clear indication of the impact this issue is having for your client</span></li>
+</ul>
+</li>
+</ul>
+<p>As a general rule, a good support ticket is one where Support can get back to the customer with a first response directly, and <strong>does not have to follow up with you first</strong>.</p>
+<p> </p>
+<h2 id="h_01HQ8KGFJF4N6HJ0A68EFN4YNM">Escalating support tickets</h2>
+<h3 id="h_01HQ8KGFJFYT14VB2HYD1ZDZ2W">What does it mean to escalate a support ticket?</h3>
+<p>From time to time, issues come up that are <strong>extremely urgent</strong>, and need to be <strong>resolved as soon as possible</strong>. For these issues, you have the ability to <strong>escalate a support ticket</strong>.</p>
+<p>When you ask for a support ticket to be escalated, you are effectively telling the Support team:</p>
+<p><span class="text-primary">"I want you to drop what you're doing and work on this ticket ahead of all other ongoing activities."</span></p>
+<h3 id="h_01HQ8KGFJFFG8B4CN6BDBXZSMJ">Is there anything I need to consider before I request an escalation?</h3>
+<p>While tickets legitimately <em>need</em> to be escalated in some situations, always remember that <strong>escalations </strong><strong>come at a cost</strong>:</p>
+<ul>
+<li>Escalations are <strong>disruptive</strong>: they have a significant negative effect on productivity, often across multiple departments (Support, Product, Engineering, etc.), and force those involved to catch up on their regular duties after the escalation is resolved</li>
+<li>Escalations are <strong>expensive</strong>: they typically require expensive resources (management, developers, etc.) to take time away from their ongoing work to focus exclusively</li>
+<li>Escalations result in <strong>poor customer experiences</strong>: an escalation makes one customer happy, but potentially makes <em>all other</em> <em>customers </em>unhappy because work on their issues has to be delayed</li>
+</ul>
+<p><strong>Before you escalate a ticket, keep the impact in mind</strong> and <strong>use your judgment </strong>to make sure that the situation really does call for an escalation. In some cases, this might mean reaching out to a customer to manage their expectations instead of escalating the ticket.</p>
+<h3 id="h_01HQ8KGFJFN08FEQJ07C6KXJ7T">When should I escalate a support ticket?</h3>
+<p>There are many situations where an escalation is warranted, and a comprehensive list of these situations would be impractical and not very useful. As a result, the Support team relies on you to <strong>use your judgment</strong> as to when an escalation is required.</p>
+<p>Below are a few examples of situations that would call for an escalation:</p>
+<ul>
+<li><span style="font-weight: 400;">The customer has made it clear to you that this issue is <strong>critical to their business objectives</strong>, so much so that it should take precedence over everything else currently being worked on.</span></li>
+<li><span style="font-weight: 400;">The issue is <strong>time sensitive</strong>, e.g. the issue is preventing another process from being started or completed. In this case, it's important to indicate <em>how </em>time sensitive the issue is (one hour and one month require different levels or response).</span></li>
+<li><span style="font-weight: 400;">The issue could <strong>impact churn or revenue</strong>, e.g. the customer is at high risk for churning, or will not discuss renewal/upgrade until the issue is resolved.</span></li>
+</ul>
+<h3 id="h_01HQ8KGFJFEJHRMWNKF10AYSWF"><span style="font-weight: 400;">How do I escalate a support ticket?</span></h3>
+<p>Follow the <strong>process for escalating a support ticket</strong> below.</p>
+<p> </p>
+<h2 id="h_01EVHWE20VTEQTYGTEFBQ74A4T">Process: Escalate a support ticket</h2>
+<p>Use this process to escalate an existing support ticket. Remember to <strong>use your judgment</strong> and make sure it's necessary to escalate the ticket before you proceed.</p>
+<ol>
+<li>In Slack, go to the <strong>#support-escalation channel</strong>.</li>
+<li>Click on the <strong>Workflows</strong><strong> button </strong>at the top of the channel:<br><img src="https://help.uberflip.com/hc/article_attachments/24356518773261" width="370" height="75">
+</li>
+<li>Click on the <strong>Escalate Support Ticket </strong>shortcut from within the dropdown menu:<br><img src="https://help.uberflip.com/hc/article_attachments/24356529525645" width="370" height="144">
+</li>
+<li>
+<strong>Fill out the form</strong> with all relevant details about the support ticket to be escalated, including <strong>Business Impact</strong>, then click on <strong>Submit </strong>to post the escalation to the channel:<br><img src="https://help.uberflip.com/hc/article_attachments/24356518805645" width="370" height="336">
+</li>
+<li>In a follow-up message, <strong>@here</strong> and <strong>@mention the Support Representative</strong> who is assigned to the ticket currently.</li>
+<li>Support will review the escalation request. If it is deemed to be a valid escalation, the Support Representative will respond to your request for escalation within the #support-escalation channel and<span style="font-weight: 400;"> immediately proceed to work the ticket until a resolution is achieved.</span>
+</li>
+<li><span style="font-weight: 400;">Continue to monitor the ticket until it has been resolved.</span></li>
+</ol>
+<p><span style="font-weight: 400;"><strong>If you do not receive a response to your escalation within 30 minutes:</strong></span></p>
+<p><span style="font-weight: 400;">If required, reach out to the following individual Support team members using Slack or email, in the following order:<br></span></p>
+<ol>
+<li>
+<strong>Team Leads, Technical Support</strong>
+<ul>
+<li><span style="font-weight: 400;">Roshan Kathir (Slack: <em>Roshan</em>, Email: roshan.kathirgamasegaran@uberflip.com)</span></li>
+<li><span style="font-weight: 400;">Tommy Bozikis (Slack: <em>Tommy Bozikis</em>, Email: tommy.bozikis@uberflip.com)</span></li>
+<li><strong>If no response:</strong></li>
+</ul>
+</li>
+<li>
+<strong>Director, Technical Support</strong>
+<ul>
+<li><span style="font-weight: 400;">Wes Ivany (Slack: <em>Wes Ivany</em>, Email: <em>weston.ivany@uberflip.com</em>)</span></li>
+</ul>
+</li>
+</ol>
+<h3 id="h_01HQ8KGFJF3D898BCFAMVWH12M"><span style="font-weight: 400;">Rejected escalations</span></h3>
+<p><span style="font-weight: 400;">If your escalation is <strong>rejected</strong>, follow these next steps:</span></p>
+<ul>
+<li><span style="font-weight: 400;">Ensure <strong>all</strong> required information is present in the notification to <em>#support-escalation</em>. <br></span></li>
+<li><span style="font-weight: 400;">Work with the Support Representative to ensure the business impact is well defined. Support must have a clear understanding of how the issue is affecting the customer before a ticket can be escalated.<br></span></li>
+</ul>
+<p><span style="font-weight: 400;">Note also that Support will update the customer if required with appropriate information, regardless of whether the escalation is accepted.</span></p>
+<h3 id="h_01HQ8KGFJFQ8CS27QZ838CNTDQ">After hours escalations</h3>
+<p><span style="font-weight: 400;">The operating hours of the Support team are currently <strong>8 AM to 8 PM Eastern Time, Monday to</strong> <strong>Friday</strong>. (Excluding statutory holidays, which currently have operating hours of 9 AM to 5 PM Eastern Time) Escalations are possible outside of these hours, and follow the normal procedure outlined above.</span></p>
+<p><span style="font-weight: 400;">If you do not receive a response from Support to your <strong>after-hours</strong> <strong>escalation</strong> within a reasonable timeframe:</span></p>
+<ol>
+<li><span style="font-weight: 400;"><strong>Contact your manager</strong>. They will directly contact the Director of Technical Support (Wes Ivany), who will coordinate with the Support team. </span></li>
+<li><span style="font-weight: 400;">Continue to <strong>monitor the relevant support ticket</strong> as well as the <strong>#support-escalation channel </strong>for updates.</span></li>
+</ol>
+<h2 id="h_01HQ8KGFJF3XW6GK5ZQ784FHWA">Additional information</h2>
+<h3 id="h_01HQ8KGFJF8ARDWH77XJ97S7S4">Quick reference: What to do when...</h3>
+<p>Here's a quick reference guide on what you should do in various common support-related situations:</p>
+<table>
+<tbody>
+<tr style="height: 22px;">
+<td style="width: 50%; height: 22px;"><strong>When a customer...</strong></td>
+<td style="width: 25%; height: 22px;"><strong>First, do this:</strong></td>
+<td style="width: 25%; height: 22px;"><strong>Then, do this:<br></strong></td>
+</tr>
+<tr style="height: 179px;">
+<td style="width: 50%; height: 179px;">Asks about an ongoing support ticket (Zendesk) or development ticket (JIRA)</td>
+<td style="width: 25%; height: 179px;">
+<strong>Search Zendesk</strong> for the relevant support ticket and check for updates</td>
+<td style="width: 25%; height: 179px;">If there is no recent update in the ticket, <strong>@mention the assigned Support Representative in the ticket's internal comments</strong> and ask for an update</td>
+</tr>
+<tr style="height: 112px;">
+<td style="width: 50%; height: 112px;">Tells you about a new issue they are experiencing with their Uberflip account</td>
+<td style="width: 25%; height: 112px;">
+<strong>Search Zendesk</strong> to check if there is already a ticket open about this issue for the customer</td>
+<td style="width: 25%; height: 112px;">If there is no existing support ticket for the customer, <strong>submit one on their behalf</strong>
+</td>
+</tr>
+<tr style="height: 156px;">
+<td style="width: 50%; height: 156px;">Informs you about a defect in Uberflip's software</td>
+<td style="width: 25%; height: 156px;">
+<strong>Search Zendesk and JIRA</strong> to check if relevant tickets already exist</td>
+<td style="width: 25%; height: 156px;">If there is no existing ticket for the bug, <strong>submit a support ticket</strong> with a detailed description of the defect (do not create a JIRA ticket)</td>
+</tr>
+<tr style="height: 44px;">
+<td style="width: 50%; height: 44px;">Asks for guidance on how to do something in Uberflip, and you don't know the answer</td>
+<td style="width: 25%; height: 44px;">
+<strong>Search our <a href="https://help.uberflip.com/hc/en-us">Knowledge Base</a> </strong>for a relevant article</td>
+<td style="width: 25%; height: 44px;">If there is no relevant article, <strong>submit a support ticket </strong>(also, <a href="https://help.uberflip.com/hc/en-us/articles/4424580209165" target="_blank" rel="noopener noreferrer">submit a documentation request</a>)</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 50%; height: 22px;">Has in-depth questions about technical aspects of the Uberflip platform (e.g. integrations, SEO, etc.), and you don't know the answers</td>
+<td style="width: 25%; height: 22px;">
+<strong>Search our <a href="https://help.uberflip.com/hc/en-us">Knowledge Base</a> </strong>for a relevant article</td>
+<td style="width: 25%; height: 22px;">If there is no relevant article, or our documentation doesn't answer the customer's questions, <strong>submit a support ticket </strong>(also, <a href="https://help.uberflip.com/hc/en-us/articles/4424580209165" target="_blank" rel="noopener noreferrer">submit a documentation request</a>)<strong><br></strong>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h3 id="h_01HQ8KGFJFMVKZKQWGENXKNX7B">Using Slack for support</h3>
+<p>Your fellow Uberflippers have a lot of knowledge about our product, our company, and our customers, and <strong>Slack can be a useful tool for accessing that knowledge</strong>. Here are a few support-related Slack channels you should know about, and what they're used for:</p>
+<div class="callout callout--warning">
+<h4 id="h_01HQ8KGFJFRZF5Y3G8ASAH2MXE" class="callout__title">Important</h4>
+<p>Remember that <strong>support tickets are the only official way to get help from the Support team</strong>, and the only one where you're guaranteed to get a response within a specific timeframe.</p>
+<p>Members of the Support team are typically present in the channels listed below, but their main job is to work on support tickets, so <strong>they may not always be available to respond on Slack</strong>.</p>
+</div>
+<table style="height: 304px;">
+<tbody>
+<tr style="height: 22px;">
+<td style="width: 338.086px; height: 22px;"><strong>Channel<br></strong></td>
+<td style="width: 338.145px; height: 22px;"><strong>Used for</strong></td>
+</tr>
+<tr style="height: 67px;">
+<td style="width: 338.086px; height: 67px;">#success</td>
+<td style="width: 338.145px; height: 67px;">General questions about Uberflip's products, services, customers, and other topics related to Customer Experience.</td>
+</tr>
+<tr style="height: 112px;">
+<td style="width: 338.086px; height: 112px;">
+<p>#support-escalation</p>
+</td>
+<td style="width: 338.145px; height: 112px;">Requesting that a specific ticket, for a specific customer, is given more attention, higher visibility, and a greater sense of urgency. <strong>This is the only channel actively monitored by Support</strong>.</td>
+</tr>
+<tr style="height: 89px;">
+<td style="width: 338.086px; height: 61px;">#onbrand</td>
+<td style="width: 338.145px; height: 61px;">Questions about onBrand-related issues.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="h_01HQ8KGFJGSNR5F1RFGFHEFAY0"> </h3>
+<h3 id="h_01HQ8KGFJGQJ07Q0JK19KJTAEY">Submitting development (JIRA) tickets</h3>
+<p>In general, CSMs <strong>should not file JIRA tickets without consulting Support</strong>. This includes tickets for:</p>
+<ul>
+<li>Product bugs</li>
+<li>onBrand bugs</li>
+<li>Operations issues</li>
+</ul>
+<p>Support helps to refine these tickets, and ensures that Product/Engineering is getting the information they need to work on them, eliminating back-and-forth. In addition, <strong>all JIRA tickets filed on behalf of customers need to be attached to support tickets for communication purposes/visibility</strong>, and Zendesk users who are not part of the Support team do not have this ability.</p>
+<p>If you need to submit a JIRA ticket on behalf of a customer, <span style="font-weight: 400;">please make a note of it with details in a comment on an existing Zendesk ticket. If no ticket exists, please file a new Zendesk request with sufficient details to file a JIRA, including:</span></p>
+<ul>
+<li><span style="font-weight: 400;">Customer information</span></li>
+<li><span style="font-weight: 400;">Affected assets</span></li>
+<li><span style="font-weight: 400;">Business impact to customer</span></li>
+<li><span style="font-weight: 400;">Steps to reproduce</span></li>
+</ul>]]></description>
+         <guid isPermaLink="false">360054004712</guid>
+         <pubDate>Thu, 17 Dec 2020 22:35:11 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: What is the correct date format for HubSpot imports?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360044062292-Internal-What-is-the-correct-date-format-for-HubSpot-imports</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>I want to import an RSS feed from HubSpot. How do I set the date format for the feed in HubSpot so that it will import correctly?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>Use the following <strong>custom date format</strong> to successfully import a HubSpot RSS feed into Uberflip:</p>
+<pre>EEE, DD MMM YYYY hh:mm:ss ZZZZZ</pre>]]></description>
+         <guid isPermaLink="false">360044062292</guid>
+         <pubDate>Thu, 04 Jun 2020 19:37:25 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal Reference: Uberflip&apos;s Rate Limits</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360041080191-Internal-Reference-Uberflip-s-Rate-Limits</link>
+         <description><![CDATA[<hr>
+<p class="wysiwyg-text-align-left">An internal reference guide to the rate limits we set on our services.</p>
+<hr>
+<div class="callout callout--danger">
+<h4 class="callout__title">Internal Use Only</h4>
+<p><strong>The information in this article is for INTERNAL USE ONLY. It must not be shared outside of Uberflip.</strong> See <a href="#h_01b48499-fc9f-4b73-861a-cfd8970c5426" target="_self">here</a> for further details.</p>
+</div>
+<p> </p>
+<h2>About Uberflip's Rate Limits</h2>
+<h3>What is a rate limit?</h3>
+<p>A <strong>rate limit</strong> is simply the maximum number of requests that a server will accept and process from a given IP address over a given time period. Uberflip sets and enforces rate limits to prevent our servers from becoming overloaded with requests, which can lead to service outages.</p>
+<h3>What happens when a rate limit is exceeded?</h3>
+<p>Rate limits are expressed as <em>number of requests/time period</em>. If an IP address sends requests to Uberflip's servers at a rate that exceeds the rate limit, the server will stop processing requests from that IP, and will instead return an error for each request (<code class="no-padding">429 Too Many Requests</code>). The server will continue to return errors instead of processing requests until the IP address reduces the rate at which it sends requests to below the rate limit.</p>
+<h3>How do Uberflip's rate limits work?</h3>
+<p>Rate limits apply to all Uberflip frontend services, which are publicly-accessible, Uberflip-operated services that can directly receive requests from users sent over the internet.</p>
+<p>There are three categories of rate limits, <strong>high</strong>, <strong>medium</strong>, and <strong>low. </strong>Each Uberflip service falls into one of these categories, which defines the allowable rate limit for the services it contains. For example, services in the <em>high</em> category have a higher rate limit than those in the <em>medium</em> category, and so on.</p>
+<p>Within each category, the specific rate limit applies <strong>per service</strong> and <strong>per unique IP</strong> <strong>address</strong>. This means that the number of requests any single IP address makes to <em>Service A</em> does not impact the number of requests that same IP address can make to <em>Service B</em> in the same category. Likewise, requests made by <em>IP Address 1</em> to a service don't impact the requests that <em>IP Address 2</em> can make to the same service.</p>
+<p> </p>
+<h2>Rate Limits</h2>
+<p>Each category consists of two types of rate limit: the <strong>average rate</strong> and the <strong>burst rate</strong>. The average rate is the <em>maximum</em> <em>sustainable</em> rate of requests, so exceeding this rate will cause you to be rate limited <em>eventually</em>. The burst rate is the <em>absolute</em> <em>maximum</em> rate of requests — you can hit this limit very briefly, but if you exceed this rate, you will be rate limited <em>immediately</em>.</p>
+<div class="callout">
+<h4 class="callout__title">Why are there two types of rate limit?</h4>
+<p>Uberflip's rate limiting mechanism employs a <em>leaky bucket algorithm</em>, in which incoming requests go into a "bucket" that "leaks" a particular rate:</p>
+<ul>
+<li>When the bucket fills up, the rate limit has been exceeded. Any further requests will not go into the bucket (be processed), but will instead overflow (return an error).</li>
+<li>The <strong>average rate</strong> is the rate at which the bucket leaks: as long as requests leak out of the bucket faster than they are dripping into the bucket, the bucket can never fill up.</li>
+<li>The <strong>burst rate</strong> is the size of the bucket: if the rate at which requests drip into the bucket is the same as the size of the bucket, the bucket will fill up instantly. In practice, this means that the bucket can (very briefly) accept requests at a rate higher than the average, but this will lead to a "full bucket" situation much faster.</li>
+</ul>
+</div>
+<table style="height: 266px;" width="764">
+<tbody>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 179.75px;"><strong>Category</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 179.75px;"><strong>Average Rate</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 179.75px;"><strong>Burst Rate</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 179.75px;"><strong>Applies to</strong></td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 179.75px;">High</td>
+<td class="wysiwyg-text-align-center" style="width: 179.75px;">
+<strong>1200</strong> requests/minute</td>
+<td class="wysiwyg-text-align-center" style="width: 179.75px;">
+<strong>2400</strong> requests/minute</td>
+<td style="width: 179.75px;">High-demand services (API, UFA, etc.)</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 179.75px;">Medium</td>
+<td class="wysiwyg-text-align-center" style="width: 179.75px;">
+<strong>400</strong> requests/minute</td>
+<td class="wysiwyg-text-align-center" style="width: 179.75px;">
+<strong>800</strong> requests/minute</td>
+<td style="width: 179.75px;">Moderate-demand services (Uberflip front end)</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 179.75px;">Low</td>
+<td class="wysiwyg-text-align-center" style="width: 179.75px;">
+<strong>200</strong> requests/minute</td>
+<td class="wysiwyg-text-align-center" style="width: 179.75px;">
+<strong>400</strong> requests/minute</td>
+<td style="width: 179.75px;">Low-demand auxiliary services (certificate generation, etc.)</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout--warning">
+<h4 id="h_01b48499-fc9f-4b73-861a-cfd8970c5426" class="callout__title">Why can't I share these rate limits with customers?</h4>
+<p>The rate limits outlined on this page are intended to protect the Uberflip platform from attacks that may destabilize it. In general, legitimate users (customers) should never come close to these limits.</p>
+<p>In addition, these rate limits are experimental, and may be changed at any time if needed to ensure platform stability. Such adjustments may be made rapidly in response to emerging situations and without notice, so this article may not always reflect current rate limits.</p>
+For these reasons, please do not share any of the specific rate limits listed in this article with customers. Uberflip maintains a separate "public" rate limit that is <a href="https://developers.uberflip.com/reference#rate-limiting" target="_self">documented here</a>, and which you can provide to customers if requested.</div>]]></description>
+         <guid isPermaLink="false">360041080191</guid>
+         <pubDate>Tue, 17 Mar 2020 17:26:52 GMT</pubDate>
+      </item>
+      <item>
+         <title>Integration with Reachforce Smart Forms</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360028829791-Integration-with-Reachforce-Smart-Forms</link>
+         <description><![CDATA[<p>1.  Smartforms.js script, which is provided by Reach Force and looks something like below but with a unique data-token value per customer, needs to be present either via a Custom Code block&gt;Body Bottom or via Google Tag Manager</p>
+<p> </p>
+<pre>&lt;script type="text/javascript" src="//cdn.reachforce.com/SmartForms.js" data-token="999999"&gt;&lt;/script&gt;</pre>
+<p> </p>
+<p>2. This smartforms.js script requires a `name` attribute on each form field.  So we have this script which can run on ctaActivate, and that will add the name attribute to each form field, reflecting each field's `data-mapping` value</p>
+<p> </p>
+<pre><br>Hubs.Events.on('ctaActivate', function smartformsNameAddition(){<br> $('[data-mapping]').each(function() {<br> $(this).attr('name',$(this).attr('data-mapping'));<br> console.log(this);<br>});<br> });</pre>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360028829791</guid>
+         <pubDate>Mon, 27 May 2019 16:52:08 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: Enable HSTS (HTTP Strict Transport Security) on Customer Domains</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360027021112-Internal-Enable-HSTS-HTTP-Strict-Transport-Security-on-Customer-Domains</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p data-ghq-card-content-type="paragraph" data-slate-fragment="JTdCJTIya2luZCUyMiUzQSUyMmRvY3VtZW50JTIyJTJDJTIyZGF0YSUyMiUzQSU3QiU3RCUyQyUyMm5vZGVzJTIyJTNBJTVCJTdCJTIya2luZCUyMiUzQSUyMmJsb2NrJTIyJTJDJTIydHlwZSUyMiUzQSUyMnBhcmFncmFwaCUyMiUyQyUyMmlzVm9pZCUyMiUzQWZhbHNlJTJDJTIyZGF0YSUyMiUzQSU3QiU3RCUyQyUyMm5vZGVzJTIyJTNBJTVCJTdCJTIya2luZCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJraW5kJTIyJTNBJTIybGVhZiUyMiUyQyUyMnRleHQlMjIlM0ElMjJNYW55JTIwc2VjdXJpdHklMjBzY2FubmVycyUyMHdpbGwlMjB3YW50JTIwSFNUUyUyMGVuYWJsZWQlMjBhcyUyMGElMjBzZWN1cml0eSUyMGJlc3QlMjBwcmFjdGljZSUyMHNvJTIwd2UlMjBhcmUlMjBsaWtlbHklMjB0byUyMGhlYXIlMjBtb3JlJTIwYW5kJTIwbW9yZSUyMGN1c3RvbWVycyUyMHJlcXVlc3RpbmclMjB0aGlzJTIwZmVhdHVyZSUyMGJlJTIwYWRkZWQlMjB0byUyMHRoZWlyJTIwRG9tYWlucy4lMjAlMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCU3RCU1RCU3RCU1RCU3RCUyQyU3QiUyMmtpbmQlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMmtpbmQlMjIlM0ElMjJ0ZXh0JTIyJTJDJTIybGVhdmVzJTIyJTNBJTVCJTdCJTIya2luZCUyMiUzQSUyMmxlYWYlMjIlMkMlMjJ0ZXh0JTIyJTNBJTIyTW9yZSUyMG9uJTIwSFNUUyUyMGhlcmUlM0ElMjAlMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCU3RCU1RCU3RCUyQyU3QiUyMmtpbmQlMjIlM0ElMjJpbmxpbmUlMjIlMkMlMjJ0eXBlJTIyJTNBJTIyTElOSyUyMiUyQyUyMmlzVm9pZCUyMiUzQWZhbHNlJTJDJTIyZGF0YSUyMiUzQSU3QiUyMmhyZWYlMjIlM0ElMjJodHRwcyUzQSUyRiUyRmVuLndpa2lwZWRpYS5vcmclMkZ3aWtpJTJGSFRUUF9TdHJpY3RfVHJhbnNwb3J0X1NlY3VyaXR5JTIyJTJDJTIyaGFzUGxhY2Vob2xkZXIlMjIlM0FmYWxzZSUyQyUyMmVkaXRpbmclMjIlM0FmYWxzZSU3RCUyQyUyMm5vZGVzJTIyJTNBJTVCJTdCJTIya2luZCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJraW5kJTIyJTNBJTIybGVhZiUyMiUyQyUyMnRleHQlMjIlM0ElMjJodHRwcyUzQSUyRiUyRmVuLndpa2lwZWRpYS5vcmclMkZ3aWtpJTJGSFRUUF9TdHJpY3RfVHJhbnNwb3J0X1NlY3VyaXR5JTIyJTJDJTIybWFya3MlMjIlM0ElNUIlNUQlN0QlNUQlN0QlNUQlN0QlMkMlN0IlMjJraW5kJTIyJTNBJTIydGV4dCUyMiUyQyUyMmxlYXZlcyUyMiUzQSU1QiU3QiUyMmtpbmQlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMiUyMiUyQyUyMm1hcmtzJTIyJTNBJTVCJTVEJTdEJTVEJTdEJTVEJTdEJTJDJTdCJTIya2luZCUyMiUzQSUyMmJsb2NrJTIyJTJDJTIydHlwZSUyMiUzQSUyMnBhcmFncmFwaCUyMiUyQyUyMmlzVm9pZCUyMiUzQWZhbHNlJTJDJTIyZGF0YSUyMiUzQSU3QiU3RCUyQyUyMm5vZGVzJTIyJTNBJTVCJTdCJTIya2luZCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJraW5kJTIyJTNBJTIybGVhZiUyMiUyQyUyMnRleHQlMjIlM0ElMjJXZSUyMGNhbiUyMHN1cHBvcnQlMjBIU1RTJTIwdG9kYXklMjBidXQlMjB3ZSUyMG11c3QlMjBlbmFibGUlMjBvbiUyMGElMjBkb21haW4lMjBieSUyMGRvbWFpbiUyMGJhc2lzLiUyMiUyQyUyMm1hcmtzJTIyJTNBJTVCJTVEJTdEJTVEJTdEJTVEJTdEJTJDJTdCJTIya2luZCUyMiUzQSUyMmJsb2NrJTIyJTJDJTIydHlwZSUyMiUzQSUyMnBhcmFncmFwaCUyMiUyQyUyMmlzVm9pZCUyMiUzQWZhbHNlJTJDJTIyZGF0YSUyMiUzQSU3QiU3RCUyQyUyMm5vZGVzJTIyJTNBJTVCJTdCJTIya2luZCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJraW5kJTIyJTNBJTIybGVhZiUyMiUyQyUyMnRleHQlMjIlM0ElMjIlMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCU3RCU1RCU3RCU1RCU3RCU1RCU3RA==">Many security scanners will want HSTS enabled as a security best practice so we are likely to hear more and more customers requesting this feature be added to their Domains.</p>
+<p data-ghq-card-content-type="paragraph">More on HSTS here: <a href="https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security" target="_blank" rel="noreferrer noopener" data-ghq-card-content-type="LINK">https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security</a></p>
+<p data-ghq-card-content-type="paragraph">We can support HSTS today but we must enable on a domain by domain basis with a JIRA for OPS</p>
+<p> </p>
+<h2>Steps Required to Have HSTS enabled on Customer Domain(s)</h2>
+<ol>
+<li>
+<span data-slate-fragment="JTdCJTIya2luZCUyMiUzQSUyMmRvY3VtZW50JTIyJTJDJTIyZGF0YSUyMiUzQSU3QiU3RCUyQyUyMm5vZGVzJTIyJTNBJTVCJTdCJTIya2luZCUyMiUzQSUyMmJsb2NrJTIyJTJDJTIydHlwZSUyMiUzQSUyMk5VTUJFUkVEX0xJU1QlMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlMjJzdGFydCUyMiUzQSUyMjElMjIlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMmtpbmQlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJOVU1CRVJFRF9MSVNUX0lURU0lMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMmtpbmQlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMmtpbmQlMjIlM0ElMjJ0ZXh0JTIyJTJDJTIybGVhdmVzJTIyJTNBJTVCJTdCJTIya2luZCUyMiUzQSUyMmxlYWYlMjIlMkMlMjJ0ZXh0JTIyJTNBJTIyQXNrJTIwdGhlJTIwY3VzdG9tZXIlMjBmb3IlMjBzb21lJTIwaW5mb3JtYXRpb24lMjB3ZSUyMG5lZWQlMjB0byUyMGVuYWJsZWQlMjBIU1RTJTIyJTJDJTIybWFya3MlMjIlM0ElNUIlN0IlMjJraW5kJTIyJTNBJTIybWFyayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJCT0xEJTIyJTJDJTIyZGF0YSUyMiUzQSU3QiU3RCU3RCU1RCU3RCU1RCU3RCU1RCU3RCU1RCU3RCU1RCU3RCU1RCU3RA==">Ask the customer for some information we need to enabled HSTS:<br><br></span><span data-ghq-card-content-type="paragraph"><strong>`max_age`:</strong> How long should browsers remember to automatically upgrade HTTP requests to HTTPS for this domain? Our default is 1 year, max is 2 years.<br></span><span data-ghq-card-content-type="paragraph"><strong> <br>`include_subdomains`</strong>: Do they want browsers to automatically upgrade requests to subdomains of this domain? In most cases this won't matter because customers won't have subdomains of their hub domains.<br></span><span data-ghq-card-content-type="paragraph"><strong><br>`preload`</strong>: Do they want to eventually submit this domain to Google to include it in the HSTS preload list, so all Chrome users automatically get upgraded, without ever having seen the HSTS header<br><br></span>
+</li>
+<li><span data-ghq-card-content-type="paragraph">Gather the above and create an OPS JIRA ticket specifying the domain(s) customer wants HSTS on.<br></span></li>
+</ol>
+<p> </p>
+<h2>Additional Notes</h2>
+<p>Enabling HSTS is not something that we enable by default on Domains once they get HTTPS enabled, as it could cause the Hub to lose traffic if they ever want to turn https off for some reason (e.g. they switch https on, find broken/mixed-content links, and switch it off again to fix them).  This is why we do on a request by request basis, initiated by customers.</p>]]></description>
+         <guid isPermaLink="false">360027021112</guid>
+         <pubDate>Tue, 23 Apr 2019 15:10:50 GMT</pubDate>
+      </item>
+      <item>
+         <title>[Internal resource] Remote Authentication: Integrate With Your Own Database</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360022934251--Internal-resource-Remote-Authentication-Integrate-With-Your-Own-Database</link>
+         <description><![CDATA[<h2>What is Remote Authentication?</h2>
+<p>With this feature, you can protect your  Flipbooks by requiring a username and password (optional) to view. As with all Flipbook Security options, the set up is done at the Folder level and will apply to all Flipbooks belonging to that Folder.</p>
+<p>This feature is intended to leverage your existing database of registered members or subscribers.</p>
+<p>Rather than give us access to your database, if you are, or someone on your team is, able to write a simple script that is accessible over the web, the Flipbook reader can pass information (USERNAME and PASSWORD ONLY) via a POST to that script which can compare to your member database and return a response either indicating or preventing access. </p>
+<p> </p>
+<h3>Remote Authentication Flow</h3>
+<p><img style="float: left;" src="https://content.cdntwrk.com/files/aHViPTQyNjMxJmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzU0Y2FjZTA1NTg4NzgucG5nJnZlcnNpb249MDAwMCZzaWc9YzBlNzI1ZTk2NmMxMzE1N2Q4ZDMwMTQ2ZGYyZTgwOTM%253D" alt="Remote_Authentication_Diagram.png"></p>
+<p> </p>
+<h2>Step 1: Access Security/Subscription Settings for the Folder and Choose the 'Remote Authentication' Use-Case</h2>
+<p><img style="float: left;" src="https://content.cdntwrk.com/files/aHViPTQyNjMxJmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzU0Y2FjZWIxYTBjZWIucG5nJnZlcnNpb249MDAwMCZzaWc9YjU1MTU5ZThiOWJhM2ViNWI1YzZiMDRjNGQ3N2ZjNzI%253D" alt="edit_security_or_subscription_-_small.png"></p>
+<p><img style="line-height: 1.5; float: left;" src="https://content.cdntwrk.com/files/aHViPTQyNjMxJmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzU0Y2FjZWVhYzk5YzYucG5nJnZlcnNpb249MDAwMCZzaWc9MTNiYzU1ZTc0YWMxY2Y0MGY1Mzk1NzkzZmY5NDdiZDQ%253D" alt="Select_Use-Case_-_Remote_Authentication.png"></p>
+<p> </p>
+<h2>Step 2: Configure Login Screen and Script Settings</h2>
+<p><img style="float: left;" src="https://content.cdntwrk.com/files/aHViPTQyNjMxJmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzU0Y2FjZjBjNGY2YTkucG5nJnZlcnNpb249MDAwMCZzaWc9MjQzOTJkNDY5Y2U1ODU1Zjc2MDViZDJhNzlmNjE4NWM%253D" alt="Login_Settings_-_Remote_Authentication.png"></p>
+<p>Referencing the image above, the fields are:</p>
+<ol>
+<li>
+<strong>Your remote login script to POST to:</strong><br> Enter the URL of your script residing on your host system.  This script will need to accept the Username and Password(optional) variables from the Flipbook login screen via a POST command,  compare them to your member database, and return a value indicating valid or invalid credentials.</li>
+<li>
+<strong>Success return value:</strong><br> Value your script returns to the Flipbook indicating valid or invalid credentials.  You have two approaches:
+<ol>
+<li>Enter a string value in the text box our Application will look for to indicate valid credentials.  If the script returns a value matching that string, access will be granted.  All other values returned by the script will prevent access.</li>
+<li>Return user's ID.  Check this box and your script can return a username/user id corresponding to the credentials passed, which will allow the user to use<a href="https://learn.uberflip.com/h/i/40001657-annotation-tools" target="_blank" rel="noopener noreferrer"> Annotation tools</a> on the Flipbook (if you've turned them on).   If using this option your script MUST return a value of 0 (zero), for invalid credentials.  Any returned value other than 0 will allow access (<a href="#returnuserid">See this section below</a> for an example script).
+<ul>
+<li>
+<strong>NOTE:</strong> Only the following characters will be recognized when returning values so please keep your responses within this character set:<br>  A-Z<br>  a-z<br>  0-9<br>  @<br>  .<br>  _<br>  -<br>  space<br>  /<br>  \<br>  ,<br>  :<br>  ;<br>  ! <br>  =</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+<ul>
+<li>
+<strong>Username field name:</strong><br> Enter the variable name in your script that will be assigned the username submitted from the login screen.</li>
+<li>
+<strong>Password Field name (optional):</strong><br> Enter the variable name in your script that will be assigned the password (if required) submitted from the login screen.</li>
+<li>
+<strong>Custom login Screen message (optional):</strong><br> Enter a message that you want to display to end users on the login screen.  You can use HTML/CSS/Javascript to get fancy!</li>
+<li>
+<strong>Custom login Screen message (optional):</strong><br> Website for readers to navigate to for help in subscribing, logging in, or forgot password (optional).</li>
+<li><strong>Click "Save" button to apply settings/changes or click Close button to cancel.</strong></li>
+</ul>
+<p> </p>
+<h2>Step 3: Allow for Previewing of Pages without Logging In</h2>
+<p><img style="float: left;" src="https://content.cdntwrk.com/files/aHViPTQyNjMxJmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzU0Y2FjZmQxNTQ3YWIucG5nJnZlcnNpb249MDAwMCZzaWc9NDI4NjNmM2NlMWRmNWVkOTY1ZjlmNjhhNjgyZGQ3MDk%253D" alt="Preview_Settings_-_Remote_Authentication.png"></p>
+<ol>
+<li>Toggle on/off preview option and enter how many pages you would like non members to view without logging in.</li>
+<li>Click "<strong>Save</strong>" button to apply settings/changes or click Close button to cancel.</li>
+</ol>
+<h2> </h2>
+<h2>Reference Example</h2>
+<p>Let's take a fictional website "www.abc-co.com" as an example.<br><br> In this example:</p>
+<ul>
+<li>ABC Co. has a database of users who can gain access to a specific title</li>
+<li>ABC Co. creates a script that checks if a user has the necessary privileges</li>
+<li>the <strong>remote login script</strong> is <strong>http://www.abc-co.com/loginscript.php</strong>
+</li>
+<li>the <strong>username field name</strong> is <strong>uname</strong>
+</li>
+<li>the <strong>password field name</strong> is <strong>pword</strong>
+</li>
+<li>the <strong>string returned on success</strong> is <strong>welcome!</strong>
+</li>
+<li>Our system POSTS a form that can be assumed to look like<br><br> &lt;form method="post" action=" <strong>http://www.abc-co.com/loginscript.php</strong>"&gt;<br> &lt;input type="text" name="<strong>uname</strong>" value="<strong>bob</strong>" /&gt;<br> &lt;input type="password" name="<strong>pword</strong>" value="<strong>bob123</strong>" /&gt;<br> &lt;/form&gt;</li>
+<li>since user bob's password is "<strong>bob123</strong>", the script prints out <strong>"welcome!"</strong>. Whatever is printed out by the script will be returned as the value, so make sure to not print out any html.</li>
+</ul>
+<p>Our system will send the form using POST method (not GET) only from our backend, so you need not worry that anyone will ever see this script via client-side scripting.</p>
+<p><strong>An example php script:</strong> (for learning purposes only)</p>
+<div>&lt;?php<br>
+<div>//open connection to database<br> mysql_connect(…);<br><br> //select your database<br> mysql_select_db(…);<br><br> $sql = "SELECT count(*) FROM `user_table` where username='" . $_POST['<strong>uname</strong>'] . "' AND password='" . $_POST['<strong>pword</strong>'] . "' LIMIT 1";<br><br> $result = mysql_query($sql);<br> $count = mysql_result($result,0);<br><br> if($count==1){<br> echo "<strong>welcome!</strong>";<br> } else {<br> echo "username/password combo not found";<br> }</div>
+</div>
+<div>
+<br> ?&gt;</div>
+<h2><a id="returnuserid" name="returnuserid"></a></h2>
+<p> </p>
+<h2>Return User's ID as Success Message</h2>
+<p><span style="line-height: 1.5;">With the introduction of the Annotation Tools Widget comes the ability to return your users' ID instead of a generic success message. This will allow us to store information for your remote users on our system.</span></p>
+<p>If "return user's ID" is selected as the Success return value, your script should be modified to output the user's ID or username IF the credentials were found to be valid. </p>
+<p>Your script should return a value of  "0"  (zero) if the query FAILS then our system will deny access to the user.</p>
+<p>In the example above, the last code block could simply be changed to:</p>
+<blockquote>
+<ul>
+<li>...<br> if($count==1){<br> echo $_POST['uname'];<br> } else {<br> echo "0"; }<br> ...</li>
+</ul>
+</blockquote>]]></description>
+         <guid isPermaLink="false">360022934251</guid>
+         <pubDate>Tue, 05 Feb 2019 18:32:59 GMT</pubDate>
+      </item>
+      <item>
+         <title>Internal: Handle a Customer GDPR Request</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360022699331-Internal-Handle-a-Customer-GDPR-Request</link>
+         <description><![CDATA[<h2>Objective</h2>
+<p>I am working on a GDPR-related request from a customer and want to know what I need to do.</p>
+<p>Examples of GDPR requests include:</p>
+<ul>
+<li>Request to be forgotten</li>
+<li>Request for information</li>
+</ul>
+<p> </p>
+<h2>Resolve the GDPR Request</h2>
+<p>To resolve a customer GDPR request, follow the master process flowchart, then refer to the additional flowcharts below as instructed in the master process.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>You can click on each flowchart to view a larger version.</p>
+</div>
+<p> </p>
+<h2>Master GDPR Request Process</h2>
+<p><a href="https://help.uberflip.com/hc/article_attachments/360019974612/Fullscreen_2019-01-31__11_16_AM.png" target="_blank" rel="noopener"><img src="https://help.uberflip.com/hc/article_attachments/360019974612/Fullscreen_2019-01-31__11_16_AM.png" alt="Fullscreen_2019-01-31__11_16_AM.png"></a></p>
+<p> </p>
+<h2>GDPR Request to be Forgotten Process (Internal) 1</h2>
+<p><a href="https://help.uberflip.com/hc/article_attachments/360019977012/Fullscreen_2019-01-31__11_23_AM.png" target="_blank" rel="noopener"><img src="https://help.uberflip.com/hc/article_attachments/360019977012/Fullscreen_2019-01-31__11_23_AM.png" alt="Fullscreen_2019-01-31__11_23_AM.png"></a></p>
+<p> </p>
+<h2>GDPR Request to be Forgotten Process (Internal) 2</h2>
+<p><a href="https://help.uberflip.com/hc/article_attachments/360019981132/Screenshot_2019-01-31__11_29_AM.png" target="_blank" rel="noopener"><img src="https://help.uberflip.com/hc/article_attachments/360019981132/Screenshot_2019-01-31__11_29_AM.png" alt="Screenshot_2019-01-31__11_29_AM.png"></a></p>
+<p> </p>
+<h2>GDPR Request to be Forgotten Process (External)</h2>
+<p><a href="https://help.uberflip.com/hc/article_attachments/360019978172/Fullscreen_2019-01-31__11_25_AM.png" target="_blank" rel="noopener"><img src="https://help.uberflip.com/hc/article_attachments/360019978172/Fullscreen_2019-01-31__11_25_AM.png" alt="Fullscreen_2019-01-31__11_25_AM.png"></a></p>
+<p> </p>
+<h2>GDPR Request for Information Process (External)</h2>
+<p><a href="https://help.uberflip.com/hc/article_attachments/360019981712/Screenshot_2019-01-31__11_34_AM.png" target="_blank" rel="noopener"><img src="https://help.uberflip.com/hc/article_attachments/360019981712/Screenshot_2019-01-31__11_34_AM.png" alt="Screenshot_2019-01-31__11_34_AM.png"></a></p>
+<p> </p>
+<h2>GDPR Request Users Process (External)</h2>
+<p><a href="https://help.uberflip.com/hc/article_attachments/360019848871/Screenshot_2019-01-31__11_33_AM.png" target="_blank" rel="noopener"><img src="https://help.uberflip.com/hc/article_attachments/360019848871/Screenshot_2019-01-31__11_33_AM.png" alt="Screenshot_2019-01-31__11_33_AM.png"></a></p>
+<p> </p>
+<h2>Additional Notes</h2>
+<p>You can also download the flowcharts shown above in PDF format using the link below:</p>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360022699331</guid>
+         <pubDate>Thu, 31 Jan 2019 16:18:49 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

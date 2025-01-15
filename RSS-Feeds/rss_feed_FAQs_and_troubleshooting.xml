@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - FAQs and troubleshooting</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Why can&apos;t I see the &quot;Explore From Here&quot; option in Uberflip Analytics?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360053118192-Why-can-t-I-see-the-Explore-From-Here-option-in-Uberflip-Analytics</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>I want to use Uberflip Analytics Explore, but the <em>Explore From Here </em>option is missing from my Uberflip Analytics interface. Why is that?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>To use <a href="https://help.uberflip.com/hc/en-us/articles/360051891272" target="_self">Uberflip Analytics Explore</a>, your user account needs an <strong>Explore license</strong>. If your account doesn't have this license, you won't be able to access Explore, and as a result the "Explore From Here" options won't be visible when you use Uberflip Analytics.</p>
+<p>Some Uberflip pack types and modules have one or more Explore licenses included, but these may not be assigned to any user account by default. To assign a license to your user account, or to purchase licenses, please speak with your organization's Uberflip administrator, or your Uberflip Customer Success Manager.</p>]]></description>
+         <guid isPermaLink="false">360053118192</guid>
+         <pubDate>Thu, 10 Dec 2020 15:53:17 GMT</pubDate>
+      </item>
+      <item>
+         <title>Can&apos;t find scheduled reports in Uberflip Analytics</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360051584372-Can-t-find-scheduled-reports-in-Uberflip-Analytics</link>
+         <description><![CDATA[<h2>Issue</h2>
+<p>I have set up scheduled reports in Uberflip Analytics, but they are not listed under <em>Settings (gear icon) &gt; Schedule</em>.</p>
+<ul>
+<li>Can't see scheduled reports in Uberflip Analytics</li>
+<li>Scheduled reports missing in UFA</li>
+<li>Scheduled reports disappeared</li>
+</ul>
+<p> </p>
+<h2>Conditions</h2>
+<ul>
+<li>
+<strong>Where: </strong>Uberflip Analytics, under <em>Settings (gear icon) &gt; Schedule</em>
+</li>
+<li>
+<strong>Who: </strong>Users who have created scheduled reports for specific views in Uberflip Analytics</li>
+<li>
+<strong>When: </strong>When trying to find previously created scheduled reports</li>
+<li>Any browser</li>
+<li>Which operating systems are affected ("Any operating system" if nonspecific)?</li>
+</ul>
+<p> </p>
+<h2>Cause</h2>
+<p>The <em>Settings &gt; Schedule</em> section in Uberflip Analytics is contextual, i.e. it changes based on the dashboard you are currently viewing. If you go to <em>Settings &gt; Schedule</em> while viewing a given dashboard (including the Home dashboard), this will only show scheduled reports for the current dashboard, not for any other dashboards. In other words, if the scheduled dashboard you are looking for was created under another dashboard, it will not appear here. This can make it appear as though your previously created scheduled reports have disappeared.</p>
+<p> </p>
+<h2>Steps to Fix</h2>
+<ol>
+<li>In Uberflip, navigate to Uberflip Analytics.</li>
+<li>Go the dashboard for which you had created the scheduled report that you're trying to find.</li>
+<li>In the top right, click on <em>Settings (gear icon)</em>, then click on <em>Schedule</em>.</li>
+<li>In the window that appears, scheduled reports created for the current dashboard will appear in the left sidebar.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360051584372</guid>
+         <pubDate>Tue, 03 Nov 2020 20:23:04 GMT</pubDate>
+      </item>
+      <item>
+         <title>Can I delete data from Uberflip Analytics?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360042413951-Can-I-delete-data-from-Uberflip-Analytics</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>I want to delete data that was collected by Uberflip Analytics. Is this possible?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>Yes, it is possible to permanently delete data that was collected by Uberflip Analytics. There are two options:</p>
+<ul>
+<li>
+<strong>Delete data for a specific visitor</strong>: This option allows you to delete the data Uberflip Analytics has collected about a specific visitor to your Hub(s). It will delete all data pertaining to the visitor across all Hubs associated with your account, based on the unique identifier code that identifies the visitor's browser (the "UUID"). Use this option if you need to comply with a "right to be forgotten" request.</li>
+<li>
+<strong>Delete all data</strong>: This option will delete <strong>all</strong> data collected by Uberflip Analytics for all Hubs in your account. This cannot be reversed, and data deleted in this way is not recoverable, so this option is intended only for situations where you will never need this data again.</li>
+</ul>
+<p>If you would like to use either of these options to delete data from Uberflip Analytics, please <a href="https://help.uberflip.com/hc/en-us/requests/new" target="_self">contact Uberflip Support</a> for assistance.</p>]]></description>
+         <guid isPermaLink="false">360042413951</guid>
+         <pubDate>Thu, 16 Apr 2020 21:05:42 GMT</pubDate>
+      </item>
+      <item>
+         <title>Can I save the dashboard filters I have set up in Uberflip Analytics?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360039665371-Can-I-save-the-dashboard-filters-I-have-set-up-in-Uberflip-Analytics</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>Whenever I navigate away from a dashboard, the filters I've set are lost. Is there a way to save them to that they remain set when I come back to the dashboard later?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>Yes, you can retain the filters you have set on individual dashboards by turning on the <a href="https://help.uberflip.com/hc/en-us/articles/360040312352"><strong>Save Dashboard Filters</strong> setting</a>.</p>
+<p>In addition, you can also set <strong>persistent filters</strong>, which are filters you can set that apply to all dashboards, and which are saved to your browser so they are retained between sessions. To learn more, see <a href="https://help.uberflip.com/hc/en-us/articles/360039658671">this article</a>.</p>]]></description>
+         <guid isPermaLink="false">360039665371</guid>
+         <pubDate>Mon, 10 Feb 2020 22:12:22 GMT</pubDate>
+      </item>
+      <item>
+         <title>Where can I find information about new features in Uberflip Analytics?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360039008092-Where-can-I-find-information-about-new-features-in-Uberflip-Analytics</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>I want to keep up to date with new features being added to Uberflip Analytics. Where can I find these details?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>You can find a continuously updated list of new functionality in Uberflip Analytics in <a href="https://academy.uberflip.com/academy-hub-articles/uberflip-analytics-release-notes" target="_self" rel="undefined">this post on the Uberflip Hub</a> — just bookmark the post, and check back regularly to see what's new.</p>]]></description>
+         <guid isPermaLink="false">360039008092</guid>
+         <pubDate>Fri, 31 Jan 2020 19:15:00 GMT</pubDate>
+      </item>
+      <item>
+         <title>How do I request new filters on Uberflip Analytics dashboards?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360038755971-How-do-I-request-new-filters-on-Uberflip-Analytics-dashboards</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>I want to filter a dashboard in Uberflip Analytics by a certain parameter, but I can't find a suitable built-in filter. How can I request a new filter be added?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>We're always looking to make improvements to Uberflip Analytics, and will be rolling out more filters in upcoming releases based on customer feedback. If you would like to request a particular filter, we'd love to hear from you — please contact your Customer Success Manager to share any feedback, suggestions or request you have.</p>]]></description>
+         <guid isPermaLink="false">360038755971</guid>
+         <pubDate>Mon, 13 Jan 2020 20:06:09 GMT</pubDate>
+      </item>
+      <item>
+         <title>Can I compare data in Uberflip Analytics quarterly or yearly?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360038374272-Can-I-compare-data-in-Uberflip-Analytics-quarterly-or-yearly</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>I want to compare data in Uberflip Analytics year-over-year or quarter-over-quarter. Is this possible?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>It's not possible to do this yet. There are two reason for this:</p>
+<ol>
+<li>The data collection system for Uberflip Analytics was activated in July 2019, so it has only been able to collect data since this date. Because our old system for gathering data works very differently, the data collected for legacy Metrics isn't compatible with Uberflip Analytics, and can't be used to backfill data for dates earlier than July 2019. As a result, Uberflip Analytics will never contain metrics data for dates prior to July 2019. Yearly comparisons of data will therefore be possible once at least one year has passed, i.e. from July 2020 onward.</li>
+<li>The functionality for quarterly comparisons has not yet been implemented. We expect basic quarter-over-quarter comparisons (using date ranges to select individual quarters for export) to be available by Spring 2020. Our Product team is investigating how we can improve this going forward, and eventually we plan to support built-in quarter-over-quarter functionality.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360038374272</guid>
+         <pubDate>Mon, 13 Jan 2020 19:59:10 GMT</pubDate>
+      </item>
+      <item>
+         <title>Can I create my own Content Types in Uberflip Analytics?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360038743471-Can-I-create-my-own-Content-Types-in-Uberflip-Analytics</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>The default Content Types shown in some dashboard widgets (e.g. Blogpost, Flipbook, YouTube, etc.) don't work for the way content is structured in my Hub. Can I create my own Content Types?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>It's not possible to change the default Content Types that are used in the dashboard widgets. However, there is another method you can use to achieve the same result.</p>
+<p>In the Uberflip platform, <strong>tags</strong> are a powerful tool for effectively organizing your content for both buyers and internal needs. You can apply tags to Items in your Hub to define custom content types that are most relevant to your business. Uberflip Analytics can report on tags, so once you have implemented a tagging strategy, you can filter, aggregate and visualize data based on your tags. For information about creating custom reports, please speak with your Customer Success Manager.</p>]]></description>
+         <guid isPermaLink="false">360038743471</guid>
+         <pubDate>Mon, 13 Jan 2020 15:12:11 GMT</pubDate>
+      </item>
+      <item>
+         <title>How do I provide feedback, report a bug, or request a feature for Uberflip Analytics?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360038322112-How-do-I-provide-feedback-report-a-bug-or-request-a-feature-for-Uberflip-Analytics</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>If I have a suggestion, comment, or request concerning Uberflip Analytics, or if I've discovered a problem, who do I contact?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>Your feedback is extremely important to the continuous development of Uberflip Analytics. Working closely with our customers helps us to make Uberflip Analytics better, and much of what you see in the product today has been directly shaped by user feedback.</p>
+<p>If you have any feedback to share with us about Uberflip Analytics, please let your Customer Success Manager know.</p>]]></description>
+         <guid isPermaLink="false">360038322112</guid>
+         <pubDate>Fri, 10 Jan 2020 20:59:02 GMT</pubDate>
+      </item>
+      <item>
+         <title>Can I see Account or visitor data in Uberflip Analytics?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360038320752-Can-I-see-Account-or-visitor-data-in-Uberflip-Analytics</link>
+         <description><![CDATA[<h2 id="h_01HAQ2SKHAV2PCDTVRZ05ZAZ4P">Question</h2>
+<p>To be able to track ROI, I'd like to be able break down data by account or visitor. Can I do this in Uberflip Analytics?</p>
+<p> </p>
+<h2 id="h_01HAQ2SKHAYAG5HKGFJBJAMBM3">Answer</h2>
+<p>Knowing who and where your traffic is coming from is incredibly useful (for both marketing and sales teams). This is where Uberflip's suite of Enrichment features come in.</p>
+<p><strong>Data enrichment is adding supplementary data to an existing data set, to fill in missing/unknown data points.</strong> This allows you to expand on the insights you can draw, and actions you can take, from that data. This is exactly what Uberflip Enrichment tools do for you.</p>
+<p>Enrichment pulls in contact information from your MAP, or a firmographic database, to tie the numbers to companies and names. With that info, you can target the right prospects at the right time.</p>
+<p>— for more details, check out <a href="https://help.uberflip.com/hc/en-us/articles/10038158221709">Analytics Enrichment features explained</a>.</p>]]></description>
+         <guid isPermaLink="false">360038320752</guid>
+         <pubDate>Fri, 10 Jan 2020 20:25:45 GMT</pubDate>
+      </item>
+      <item>
+         <title>How is Uberflip Analytics different from Google Analytics?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360038306732-How-is-Uberflip-Analytics-different-from-Google-Analytics</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>How is Uberflip Analytics different from Google Analytics?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>Uberflip Analytics and Google Analytics seem like similar tools, but they differ fundamentally in terms of focus and purpose:</p>
+<ul>
+<li>Google Analytics is rooted in web page engagement, and is built for the broadest possible audience. It views websites in terms of web pages, not the content they contain, so it can't draw links between pages that contain the same content. For example, if you have a blog post that appears in three different places, Google Analytics simply sees this as three separate pages.</li>
+<li>By contrast, Uberflip Analytics was built with a content-first approach, so it knows that the blog post is the same piece of content in three different places. This helps you to understand how a piece of content is performing across all your web experiences, and ultimately to prove the value of content. Google Analytics <em>could</em> do this with custom filters and events, but that requires development work. With Uberflip Analytics, this capability is available out-of-the-box.</li>
+<li>They two systems are also different in terms of the numbers they display. Although both share certain metrics, you can expect the numbers to be different, because the way each system measures is not the same.</li>
+</ul>
+<p>For some concrete examples of how Uberflip Analytics and Google Analytics compare, see the tables below. These focus on two metrics areas that both systems have in common (<em>Tags</em> and <em>Time on Page</em>) and show how they are different:</p>
+<h3>Tags</h3>
+<table style="height: 316px; width: 668px; margin-left: 0px; margin-right: auto;" border="2">
+<tbody>
+<tr>
+<td style="width: 211.333px;"> </td>
+<td class="wysiwyg-text-align-center" style="width: 211.333px;"><img src="https://help.uberflip.com/hc/article_attachments/360047022371/Group_14.png" alt="Group_14.png" width="199" height="64"></td>
+<td style="width: 211.333px;"> <img src="https://help.uberflip.com/hc/article_attachments/360047023631/ga.png" alt="ga.png">
+</td>
+</tr>
+<tr>
+<td style="width: 211.333px;"><strong>Tag Collection<br></strong></td>
+<td style="width: 211.333px;">Add tags at any time</td>
+<td style="width: 211.333px;">Tags must be on-page at time of pageview for data to be collected</td>
+</tr>
+<tr>
+<td style="width: 211.333px;"><strong>Tag Filtering<br></strong></td>
+<td style="width: 211.333px;">Built-in filters with advanced logic</td>
+<td style="width: 211.333px;">Creating and applying filters is complex</td>
+</tr>
+<tr>
+<td style="width: 211.333px;"><strong>Tag Reporting<br></strong></td>
+<td style="width: 211.333px;">Built-in reports and flexibility to easily author your own</td>
+<td style="width: 211.333px;">Difficult to create roll-up tag reports and get tags in data exports</td>
+</tr>
+</tbody>
+</table>
+<h2> </h2>
+<h2>Time on Page</h2>
+<table style="height: 316px; width: 668px; margin-left: 0px; margin-right: auto;" border="2">
+<tbody>
+<tr>
+<td style="width: 211.333px;"> </td>
+<td class="wysiwyg-text-align-center" style="width: 211.333px;"><img src="https://help.uberflip.com/hc/article_attachments/360047022371/Group_14.png" alt="Group_14.png" width="199" height="64"></td>
+<td style="width: 211.333px;"> <img src="https://help.uberflip.com/hc/article_attachments/360047023631/ga.png" alt="ga.png">
+</td>
+</tr>
+<tr>
+<td style="width: 211.333px;"><strong>Time on Page Collection<br></strong></td>
+<td style="width: 211.333px;">Can track tab in focus, resumed viewing, and single page</td>
+<td style="width: 211.333px;">Time on Page requires a page transition, so can't track single page or last page</td>
+</tr>
+<tr>
+<td style="width: 211.333px;"><strong>Time on Page Reporting<br></strong></td>
+<td style="width: 211.333px;">Aggregates across Items, Streams and Tags, and can drill to a single visitor/page view</td>
+<td style="width: 211.333px;">Only shows Time on Page for a single URL</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360038306732</guid>
+         <pubDate>Fri, 10 Jan 2020 14:20:28 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

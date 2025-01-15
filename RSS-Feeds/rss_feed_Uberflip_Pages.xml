@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Uberflip Pages</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Pages: Personalization</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/27736710453133-Pages-Personalization</link>
+         <description><![CDATA[null]]></description>
+         <guid isPermaLink="false">27736710453133</guid>
+         <pubDate>Thu, 20 Jun 2024 16:50:31 GMT</pubDate>
+      </item>
+      <item>
+         <title>Responsiveness (grid vs. fluid)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/27357218333709-Responsiveness-grid-vs-fluid</link>
+         <description><![CDATA[null]]></description>
+         <guid isPermaLink="false">27357218333709</guid>
+         <pubDate>Thu, 06 Jun 2024 17:31:04 GMT</pubDate>
+      </item>
+      <item>
+         <title>Where to find API tokens [placeholder]</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/26777619752717-Where-to-find-API-tokens-placeholder</link>
+         <description><![CDATA[null]]></description>
+         <guid isPermaLink="false">26777619752717</guid>
+         <pubDate>Thu, 16 May 2024 15:56:41 GMT</pubDate>
+      </item>
+      <item>
+         <title>Uberflip Pages explained</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/17703415334669-Uberflip-Pages-explained</link>
+         <description><![CDATA[<p>Uberflip Pages is a tool for creating and managing specialized marketing pages at scale. These pages can be personalized and tailored to any audience or prospect, and contain hand-picked, relevant content. With Uberflip Pages, you create a content experience designed to control and speed up the buyer journey.</p>
+<p>This article will outline the basics of what Uberflip’s Pages feature is and does.</p>
+<div class="callout">
+<h4 id="h_01HHQ9AQX72CZNDD52JN3GB907" class="callout__title">Don't see Pages in your account yet?</h4>
+<p>Pages started rolling out in August 2023, but is not available in all accounts just yet. To ensure a smooth onboarding for all accounts, <strong>Pages is being rolled out slowly throughout the rest of 2023.</strong></p>
+<p>We understand that some users are keen to get their hands on this new feature. If you have any questions about the rollout, please reach out to your Customer Success Manager, or <a href="https://help.uberflip.com/hc/en-us/requests/new" target="_self">Uberflip Support</a> to discuss.  </p>
+</div>
+<div class="callout callout--warning">
+<h4 id="h_01HHQ9AQX7VD3M0XPQNV6PH9QX" class="callout__title">Browser restriction</h4>
+<p>In its initial release, <strong>Pages is only officially supported in the latest version of Chrome</strong>. Using other browsers at this time may result in a poor user experience. Further browser support will be added soon.</p>
+</div>
+<p> </p>
+<h2 id="h_01HHQ9AQX7KJCJYBPT0W0NM6JC">What is Pages?</h2>
+<p>Uberflip Pages is an all-in-one page builder and page management tool, used to create marketing pages (sometimes called landing or entry pages) for any audience or prospect. These pages can be filled with relevant content from your Uberflip account.</p>
+<p>In Pages, you’ll find the page management area and a page builder for designing your pages. </p>
+<p>With the page builder, drag &amp; drop sections and components allow you to build with a few clicks, populate with relevant content, and publish–all without the need for a web designer or any coding skills.</p>
+<p> </p>
+<h2 id="h_01HHQ9AQX792N3BYKWQZCEQ5B1">What can be added to a page?</h2>
+<p>Pages allows you to add all the basic elements found on any webpage, customize those elements, then fill the page with relevant content. You’ll create personalized destinations where your prospects find relevant content without distraction. All of this makes for a focused and controlled buyer journey.</p>
+<p><strong>Basic page components include: </strong></p>
+<ul>
+<li>Text blocks</li>
+<li>Buttons</li>
+<li>Images</li>
+<li>Containers</li>
+</ul>
+<p><strong>Content and engagement components from Uberflip include:</strong> </p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/17991109743629#add-an-item-tile-to-a-page" target="_self">Item tiles</a></li>
+<li>
+<a href="https://help.uberflip.com/hc/en-us/articles/17991109743629#add-a-content-collection-stream-to-a-page" target="_self">Tile grids</a> (for adding Streams)</li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/17991109743629-Uberflip-Pages-Add-Items-Streams-and-Form-CTAs-to-a-page#add-a-form-cta-to-a-page">Form CTAs</a></li>
+</ul>
+<p> </p>
+<h2 id="h_01HHQ9AQX8M5ENNNRRABRFWKEK">How customizable are pages?</h2>
+<p>Very! Every page element can be customized to your brand, or personalized to your prospect.</p>
+<p>You’ll see a list of customizable settings in the page builder for each element when you add or click on it. You can change colors, fonts, padding, radius, alignment, and much much more.</p>
+<p> </p>
+<h2 id="h_01HHQ9AQX8RB4GZW90CRWRJ209">Who can use the page builder?</h2>
+<p>Everyone! Marketers, Sales reps, CSM, etc. With our drag &amp; drop page builder, you can drop components onto the page, and customize them using various setting controls–no web design background needed. Then when you're ready, publish right from within the page builder as well. </p>
+<p> </p>
+<h2 id="h_01HHQ9AQX8FN2K45MTJTA5DGB7">How do I start creating pages?</h2>
+<p>To learn how to build a page, check out: <a href="https://help.uberflip.com/hc/en-us/articles/17703444581261" target="_self">​​<strong>Uberflip Pages: Create a new page</strong></a></p>
+<p>Or, head to the <a href="https://academy.uberflip.com/" target="_self">Uberflip Academy</a> to watch the <strong><a href="https://academy.uberflip.com/uberflip-pages/how-to-use-uberflip-pages" target="_self">Pages demo video</a></strong>.</p>
+<p>If you're unfamiliar with page building tools like Pages, check out <a href="https://help.uberflip.com/hc/en-us/articles/17703470962829" target="_self">Uberflip Pages: Get to know the page builder UI</a> to learn about the Pages UI and how to navigate it.</p>
+<p><strong>Don’t be afraid to spin up a test page and play around. It won’t take long to learn the ropes!</strong></p>]]></description>
+         <guid isPermaLink="false">17703415334669</guid>
+         <pubDate>Mon, 17 Jul 2023 23:26:09 GMT</pubDate>
+      </item>
+      <item>
+         <title>Uberflip Pages: Get to know the page builder UI</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/17703470962829-Uberflip-Pages-Get-to-know-the-page-builder-UI</link>
+         <description><![CDATA[<p>If you're unfamiliar with page building tools, or you want to know the specifics of the page builder in Uberflip Pages, this article will outline everything you need to know about the user interface (UI). </p>
+<div class="callout">
+<h4 class="callout__title">Don't see Pages in your account yet?</h4>
+<p>Pages started rolling out in August 2023, but is not available in all accounts just yet. To ensure a smooth onboarding for all accounts, <strong>Pages is being rolled out slowly throughout the rest of 2023.</strong></p>
+<p>We understand that some users are keen to get their hands on this new feature. If you have any questions about the rollout, please reach out to your Account Manager, or <a href="https://help.uberflip.com/hc/en-us/requests/new" target="_self">Uberflip Support</a> to discuss.  </p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Browser restriction</h4>
+<p>In its initial release, <strong>Pages is only officially supported in the latest version of Chrome</strong>. Using other browsers at this time may result in a poor user experience. Further browser support will be added soon.</p>
+</div>
+<p> </p>
+<h2>Open the page builder</h2>
+<p>To access the page builder:</p>
+<ol>
+<li>Log into Uberflip, and click <strong>Pages</strong> in the topbar menu<img src="https://help.uberflip.com/hc/article_attachments/17937767954061">
+</li>
+<li>Click <strong>Create a page</strong><strong><br></strong><strong><img style="width: 640px;" src="https://lh3.googleusercontent.com/TFRS2RZH74oV9tVVsY5j_x8Q4T0h_LMJzLgxisd8kMSzIa4uS4GTWjNdSSg-mLfyY1P1V7SxGGbxofmSNv6EVu1ONDDACVD4N_JJ08VhH0lgMwJESBviCC06NSKkzPUk07KBDveLlxBKiKQp55_4j5Y" height="187"></strong>
+</li>
+<li>Enter an internal name in the modal that opens, then click <strong>Next </strong><br><em>This name is required, but don’t worry, it won’t appear on the page.</em><em><br><img src="https://help.uberflip.com/hc/article_attachments/17937774750349" alt="Screen Shot 2023-07-25 at 1.37.52 PM.png" width="400" height="208"></em>
+</li>
+</ol>
+<p>Your new page has just popped into existence and you’re now in the page builder. Let’s take a quick look at the UI in the page builder so you know what’s what. <em><br></em></p>
+<p> </p>
+<h2>The page builder UI:</h2>
+<p>The page builder experience may be familiar if you’ve used other drag &amp; drop webpage editors in the past. But if not, here’s a quick rundown of what you’ll be using.</p>
+<h2><span style="color: #434343;">The status control bar</span></h2>
+<p><img src="https://help.uberflip.com/hc/article_attachments/17937767958925" alt="Untitled design.png" width="602" height="148"></p>
+<p>Across the top of the page builder you’ll see the status control bar. This is where you’ll see and change the status of your page. It contains the following information and controls: </p>
+<ul>
+<li>Exit button<em> (to return to the page list)</em>
+</li>
+<li>The current page status</li>
+<li>The preview button</li>
+<li>The publish button</li>
+<li>A meatball menu where you can archive the page</li>
+<li>Undo &amp; redo buttons</li>
+</ul>
+<p> </p>
+<h2><span style="color: #434343;">The elements sidebar</span></h2>
+<p><img src="https://help.uberflip.com/hc/article_attachments/17937681959309" width="600" height="282"></p>
+<p>Using the elements sidebar, you can:</p>
+<ul>
+<li>Add elements <em>(components and sections)</em>
+</li>
+<li>See the overall structure of your page at a glance</li>
+</ul>
+<p> </p>
+<h4><span style="color: #666666;">Add Elements:</span></h4>
+<p>Click the <strong>+ </strong>button (<img src="https://help.uberflip.com/hc/article_attachments/17937877639437" alt="Screen Shot 2023-07-25 at 3.52.15 PM.png" width="20" height="19">) to open the <strong><em>Add Elements</em></strong> panel. Then choose between the <strong><em>Sections</em></strong> or <strong><em>Components</em></strong> tabs. There you’ll find all the pre-built components and sections you can drag &amp; drop into your page. We’ll talk more about the specific elements and page design in the next section. </p>
+<p><strong><img src="https://help.uberflip.com/hc/article_attachments/17937774754573" width="600" height="282"></strong></p>
+<h4><span style="color: #666666;">View page structure:</span></h4>
+<p>Click<strong><em> Structure <img src="https://help.uberflip.com/hc/article_attachments/17937877641357" alt="Screen Shot 2023-07-25 at 4.35.36 PM.png" width="21" height="17"> </em></strong>to see a list view of all the elements of your page.<br>This gives you a structural overview of the page, showing a stacked view of the sections and the components within them. Click an element in this view to select it on the canvas.<br><img src="https://help.uberflip.com/hc/article_attachments/17937693803277" width="601" height="323"></p>
+<p> </p>
+<h2>The canvas</h2>
+<p>Front and center in the page builder you’ll find the page canvas. This is where you’ll build your page.<br><img src="https://help.uberflip.com/hc/article_attachments/17937740590861" width="600" height="259"></p>
+<p>Starting with a blank canvas, you’ll drag &amp; drop elements from the <em>Add elements</em> panel directly onto the canvas to add them. Then you can drag elements around the canvas to arrange them however you’d like. </p>
+<p>The canvas also acts as a dynamic preview, so you know what the page will look like when published.<img src="https://help.uberflip.com/hc/article_attachments/17938224586125" alt="Jul-25-2023 13-42-08.gif" width="715" height="273"></p>
+<p> </p>
+<h2>The properties panel</h2>
+<p>The properties panel is always open. This panel is dynamic, meaning for whatever element you click on, it’ll change to show the editable options for that element. This is where you’ll customize the elements to your brand and audience. </p>
+<p>Depending on the elements, you’ll have options to modify: text, colors, padding, radius, alignment and much more. <br><img src="https://help.uberflip.com/hc/article_attachments/17937754470669" width="600" height="462"></p>
+<p> </p>
+<h2>What’s next?</h2>
+<p>You're ready to start creating pages! We suggest making a test page and playing around. This is the best way to learn Uberflip’s Pages feature. </p>
+<p>But for a step-by-step on creating and publishing a page, check out: <a href="https://help.uberflip.com/hc/en-us/articles/17703444581261" target="_self">Uberflip Pages: Create a new page</a></p>
+<p>Or, check out the <a href="https://academy.uberflip.com/uberflip-pages/how-to-use-uberflip-pages" target="_self">Pages demo video</a> in the <a href="https://academy.uberflip.com/" target="_self">Uberflip Academy</a>.</p>]]></description>
+         <guid isPermaLink="false">17703470962829</guid>
+         <pubDate>Mon, 17 Jul 2023 23:27:32 GMT</pubDate>
+      </item>
+      <item>
+         <title>Uberflip Pages: Create and edit a page</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/17703444581261-Uberflip-Pages-Create-and-edit-a-page</link>
+         <description><![CDATA[<p>If you don’t know about Uberflip Pages, check out <a href="https://help.uberflip.com/hc/en-us/articles/17703415334669" target="_self">Uberflip Pages explained</a>. But if you do, and you’re ready to create a page, this article will show you how.</p>
+<div class="callout">
+<h4 id="h_01H9960E04HJVEVNAQQMBVRFWZ" class="callout__title">Don't see Pages in your account yet?</h4>
+<p>Pages started rolling out in August 2023, but is not available in all accounts just yet. To ensure a smooth onboarding for all accounts, <strong>Pages is being rolled out slowly throughout the rest of 2023.</strong></p>
+<p>We understand that some users are keen to get their hands on this new feature. If you have any questions about the rollout, please reach out to your Account Manager, or <a href="https://help.uberflip.com/hc/en-us/requests/new" target="_self">Uberflip Support</a> to discuss.  </p>
+</div>
+<div class="callout callout--warning">
+<h4 id="h_01H9960E04045JV0EQSJPMMH4P" class="callout__title">Browser restriction</h4>
+<p>In its initial release, <strong>Pages is only officially supported in the latest version of Chrome</strong>. Using other browsers at this time may result in a poor user experience. Further browser support will be added soon.</p>
+</div>
+<p> </p>
+<h2 id="h_01H9960E042V36P2GR23EKMBB1">Open a new page</h2>
+<p>Creating pages is easy, so let’s dive right in.</p>
+<ol>
+<li>Log into Uberflip, and click <strong>Pages</strong> in the topbar menu<br><img src="https://help.uberflip.com/hc/article_attachments/17932773707533">
+</li>
+<li>Click <strong>Create a page<br></strong><strong><strong><strong><img style="width: 640px;" src="https://help.uberflip.com/hc/article_attachments/21617617666445" height="187"><br></strong></strong></strong>
+</li>
+<li>Enter an internal name in the modal that opens, then click <strong>Next </strong><br><em>This name is required, but it won’t appear on the page.</em><em><br><img src="https://help.uberflip.com/hc/article_attachments/17937106910221" alt="Screen Shot 2023-07-25 at 1.37.52 PM.png" width="400" height="208"></em>
+</li>
+<li>
+<p>Choose a use-case template to use as a starting point, or choose a “Blank page” to start from scratch.<br><img src="https://help.uberflip.com/hc/article_attachments/21762140705165" width="489" height="354"></p>
+</li>
+</ol>
+<p>Your new page has just popped into existence! It’s not much yet, and it’s not published, but you’re well on your way now. Let’s build your page.<em><br></em></p>
+<p> </p>
+<h2 id="h_01H9960E046CWGBEMQ1QNEM18X">Design your page:</h2>
+<div class="callout callout--success">
+<h4 id="h_01H9960E04C4WDSMHXEDGCP310" class="callout__title">Tip</h4>
+<p>If you’re unfamiliar with page building UIs like the one in Uberflip Pages, check out: <a href="https://help.uberflip.com/hc/en-us/articles/17703470962829" target="_self">Uberflip Pages: Get to know the page builder UI</a>.</p>
+</div>
+<div class="callout callout--info">
+<h4 id="h_01H9960E043CXT09G4JJNKS3ME" class="callout__title">Good to know</h4>
+<p><strong>All changes you make to a page will be saved automatically, but not published.</strong> You can preview your changes at any time, but the change won’t be live for your visitors until you publish (or republish) the page.</p>
+</div>
+<p>This section will outline how to build, and customize a page.</p>
+<p> </p>
+<h2 id="h_01H9960E04AHKE3MVV24Z7RAHE"><span style="color: #434343;">Add page Elements</span></h2>
+<p>To build a page, you’ll be using prebuilt components and sections. We call these <strong>elements</strong>. To add an element, click the <img src="https://help.uberflip.com/hc/article_attachments/17937106911757" alt="Screen Shot 2023-07-25 at 3.52.15 PM.png" width="20" height="19"> <em>(+)</em> button to open the <em>Add Elements</em> panel.</p>
+<p>This panel has 2 tabs: <strong>Sections</strong> and <strong>Components<br><img src="https://help.uberflip.com/hc/article_attachments/17932025036813" width="600" height="282"><br></strong></p>
+<ul>
+<li>
+<strong>Sections: </strong><strong><br></strong>Sections are edge-to-edge containers for components. You can <strong>start with an empty section</strong> and fill it with the components you want to use. <strong>Or choose from prebuilt sections</strong> containing component groupings frequently used on the web, sections like: headers, footers, hero banners, content collections, and more.</li>
+<li>
+<strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Components:<br></strong>Components are the individual elements of a page. Components live within sections. Components include elements like: buttons, text blocks, images, and of course Item tiles, and tile grids.</li>
+</ul>
+<p>How you build your page is up to you. From the <em>Add elements</em> panel, drag &amp; drop the sections or components you want onto the page canvas.<br><img src="https://help.uberflip.com/hc/article_attachments/17937106914957" alt="Jul-25-2023 13-42-08.gif"></p>
+<div class="callout callout--warning">
+<h4 id="h_01H9960E05BJ9YGRX53F79564C" class="callout__title">Note</h4>
+<p>Every component needs to live within a section. If there is no section where a component is dropped, a blank section will be added automatically.</p>
+</div>
+<div class="callout callout--success">
+<h4 id="h_01HBC9Q1XQG9448TYG8XJKJFFP" class="callout__title">Tip</h4>
+<p>Build faster by <strong>copy &amp; pasting elements</strong> you've already customized to other areas of your page.</p>
+</div>
+<p> </p>
+<h2 id="h_01H9960E05JQHK8CTYP0MXG64S"><span style="color: #434343;">Position elements</span></h2>
+<p><strong>Rearrange page elements by dragging them to a new position</strong>, within or between sections. line-guides will appear as you drag to show you where you're dropping the element in relation to the nearby elements.<br><img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" src="https://help.uberflip.com/hc/article_attachments/17937106918285" alt="Jul-25-2023 14-04-56.gif"></p>
+<p><strong>Rearrange sections by drag &amp; dropping</strong> those as well. Or by using the up/down arrows that appear in the section element when selected.</p>
+<div class="callout callout--warning">
+<h4 id="h_01H9960E050YVYBRZQ47EQF446" class="callout__title">Note</h4>
+<p>Sections are always edge-to-edge, so they can’t be placed beside each other. But you can rearrange elements within them to achieve the same effect.</p>
+</div>
+<p><strong>Each section has a 12 column grid you can snap elements to.</strong> Components can be placed side-by-side and will space out automatically depending on how many components are in a section.<br><img src="https://help.uberflip.com/hc/article_attachments/17937134751501" alt="Screen Shot 2023-07-25 at 2.11.48 PM.png"></p>
+<p><strong>Example:</strong> If there are 3 components side-by-side in a section, each will occupy ⅓ of the page width (4 columns) automatically.  </p>
+<p><strong>You can adjust how wide an element is by selecting the section and dragging the column handles</strong> side to side to choose how many column widths that element will occupy. The surrounding elements will adjust automatically.<br><img src="https://help.uberflip.com/hc/article_attachments/18105176939277" alt="Jul-31-2023 16-13-22.gif"></p>
+<p> </p>
+<h3 id="h_01H9960E05Y4XJBC5M2RT8HCZZ"><span style="color: #434343;">Align elements within a section</span></h3>
+<p>When an element is selected, use the <strong>Align Element settings in the properties panel </strong>to choose where the element should be aligned within the sectioned area it occupies.<br><img style="height: 319px; width: 399px;" src="https://help.uberflip.com/hc/article_attachments/21617617671821"></p>
+<p> </p>
+<h2 id="h_01H9960E05RTAPVETH6MX2NE6F">Delete elements</h2>
+<p>To delete any component or section, click on it in the canvas, then click the trash icon <img src="https://help.uberflip.com/hc/article_attachments/17937134754317" alt="Screen Shot 2023-07-25 at 4.05.17 PM.png" width="25" height="24"> that appears over the element.<br><img src="https://help.uberflip.com/hc/article_attachments/17936263905933" width="496" height="265"><br>You can also use the backspace/delete key on your keyboard to delete the element when it's selected.</p>
+<p> </p>
+<h2 id="h_01H9960E05K2K062YD8VJS1ZBT">Customize page elements</h2>
+<p>Each page element has several properties that can be changed and customized for your brand and your prospect.</p>
+<p>Click any element on the page canvas and the <em>Properties </em>side panel will show the available options and settings for that element.<br><img style="height: 307px; width: 399px;" src="https://help.uberflip.com/hc/article_attachments/21617631713165"><br>Depending on the element, you can modify elements in various ways, including: size, padding, colors, labels, alignment and more.</p>
+<div class="callout callout--success">
+<h4 id="h_01H9960E055KW0S63MHW7XSJQZ" class="callout__title">Tip</h4>
+<p><strong>Sections and components are both <em>elements</em>.</strong> This means you’ll have elements within elements.</p>
+<p>When you click any element, the properties panel will show the available properties for that selection, either the component, section, or page.</p>
+</div>
+<p> </p>
+<h2 id="h_01H9960E05F13WRVYQA1TT0ZEX">Preview your page</h2>
+<p>Want to see how the page will look when published? This can be done at any time by clicking Preview in the Status bar.<br><img src="https://help.uberflip.com/hc/article_attachments/17936931112589" width="599" height="295"><br>The page preview will open in a new tab.</p>
+<p> </p>
+<h2 id="h_01H9960E05QMZ2SXDKKYFKHCZS">Publish your page</h2>
+<p>If your page is ready for prime time, click<strong> Publish</strong> in the Status bar.<br><img src="https://help.uberflip.com/hc/article_attachments/17936831853837" width="599" height="295"><br>This will open the publishing modal. Here you can choose which of your account domains to publish the page on, and the URL slug to publish it to (i.e. <em><span class="wysiwyg-color-black"><span style="color: #1155cc;">https://yourdomain.com/page/</span><span style="color: #1155cc;">URL-slug</span></span>). </em></p>
+<p><strong>Note: </strong>The URL always contains a /page/ path before your chosen slug.</p>
+<p> </p>
+<h2 id="h_01H9960E05JVH1TQYMJ6VAZ6BY">What’s next?</h2>
+<p>Now that you’ve have some pages published, learn how to manage your pages in: <a href="https://help.uberflip.com/hc/en-us/articles/17703497252749" target="_self">Uberflip Pages: Managing your pages </a></p>
+<p><strong>Curious how to add Uberflip specific elements like Streams and Items to your page? </strong>Check out: <a href="https://help.uberflip.com/hc/en-us/articles/17991109743629" target="_self">Uberflip Pages: Add Items and Streams to a page</a></p>
+<p><strong>Want to see Pages in action?</strong> Check out the <a href="https://academy.uberflip.com/uberflip-pages/how-to-use-uberflip-pages" target="_self">Pages demo video</a> in the <a href="https://academy.uberflip.com/" target="_self">Uberflip Academy</a>.</p>
+<p> </p>
+<p><br><br></p>]]></description>
+         <guid isPermaLink="false">17703444581261</guid>
+         <pubDate>Mon, 17 Jul 2023 23:27:01 GMT</pubDate>
+      </item>
+      <item>
+         <title>Uberflip Pages: Add Items, Streams, and Form CTAs to a page</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/17991109743629-Uberflip-Pages-Add-Items-Streams-and-Form-CTAs-to-a-page</link>
+         <description><![CDATA[<p>Pages lets you build marketing pages to show off your content, fast. The Uberflip advantage is being able to quickly grab existing Streams and Items from your account and drop them into a page in seconds. This article will show you how these Uberflip specific page elements work, and how to get them into a ready-to-publish page. </p>
+<div class="callout">
+<h4 id="h_01HGC30HF2CX6A92WW7XHHY1SX" class="callout__title">Don't see Pages in your account yet?</h4>
+<p>Pages started rolling out in August 2023, but is not available in all accounts just yet. To ensure a smooth onboarding for all accounts, <strong>Pages is being rolled out slowly throughout the rest of 2023.</strong></p>
+<p>We understand that some users are keen to get their hands on this new feature. If you have any questions about the rollout, please reach out to your Account Manager, or <a href="https://help.uberflip.com/hc/en-us/requests/new" target="_self">Uberflip Support</a> to discuss.  </p>
+</div>
+<div class="callout callout--warning">
+<h4 id="h_01HGC30HF2VAR0M98AADB96BCP" class="callout__title">Browser restriction</h4>
+<p>In its initial release, <strong>Pages is only officially supported in the latest version of Chrome</strong>. Using other browsers at this time may result in a poor user experience. Further browser support will be added soon.</p>
+</div>
+<p> </p>
+<h2 id="h_01HGC30HF2YX0NR0Y6GC9XY42N">Add an Item tile to a page</h2>
+<p>Want to highlight a single content Item on your page? The Item tile component allows you to do just that. Here’s how: </p>
+<ol>
+<li>Head into Pages from the topbar menu of Uberflip</li>
+<li>Create a new page, or open the page you want to add an Item tile to</li>
+<li>Click the <img src="https://help.uberflip.com/hc/article_attachments/18025891716621" alt="Screen Shot 2023-07-25 at 3.52.15 PM.png" width="20" height="18"><em> (+)</em> button to open the <em>Add Elements</em> panel</li>
+<li>Select the <strong>Components tab</strong>
+</li>
+<li>Select the<strong> Item tile component</strong> and drag it onto the canvas where you want it to appear. Adjust placement by drag &amp; dropping if needed.<br><img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" src="https://help.uberflip.com/hc/article_attachments/18088967318413" width="500" height="295">
+</li>
+<li>In the properties panel, <strong>click + beside</strong> <strong>Select an Item<br><img src="https://help.uberflip.com/hc/article_attachments/18022416163853" width="601" height="292"></strong>
+</li>
+<li>The <em>Choose an Item</em> modal will open. Start by selecting the Hub where the Item lives.<img src="https://help.uberflip.com/hc/article_attachments/18025876138381">
+</li>
+<li>Find the Item you want the tile to display and <strong>click Select Item<br><img src="https://help.uberflip.com/hc/article_attachments/18022457304845"><br>Note: </strong><em>On smaller screens, you may need to side scroll to find this button.</em>
+</li>
+</ol>
+<p>That’s it! Your Item tile will now show the thumbnail and title of the Item you chose. And your visitors can click the tile to be taken directly to the Item.<br><img src="https://help.uberflip.com/hc/article_attachments/18022478315533" width="662" height="246"><br>You can move the Item tile component anywhere on the page and the selection and settings will remain unchanged.</p>
+<p> </p>
+<h2 id="h_01HGC30HF2FK4GH81F550SQ51Q">Add a content collection (Stream) to a page</h2>
+<p>Want to add a Stream to your page? The Tile grid component allows you to do just that. Here’s how: </p>
+<ol>
+<li>Head into Pages from the topbar menu of Uberflip</li>
+<li>Create a new page, or open the page you want to add a Stream to</li>
+<li>Click the <img src="https://help.uberflip.com/hc/article_attachments/18025891716621" alt="Screen Shot 2023-07-25 at 3.52.15 PM.png" width="20" height="19"><em> (+)</em> button to open the <em>Add Elements</em> panel</li>
+<li>Select the <strong>Components tab</strong>
+</li>
+<li>Select the<strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"> Tile grid component</strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"> and drag it onto the canvas where you want it to appear. Adjust placement by drag &amp; dropping if needed.<br><img src="https://help.uberflip.com/hc/article_attachments/18022791491085" width="500" height="295"><br></span>
+</li>
+<li><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">In the properties panel, <strong>click + beside</strong> <strong>Select a Stream<br><img src="https://help.uberflip.com/hc/article_attachments/18023796824077" width="500" height="363"></strong></span></li>
+<li><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">The <em>Choose a Stream</em> modal will open. Start by selecting the Hub where the Stream lives<br><img src="https://help.uberflip.com/hc/article_attachments/18023928764685" width="600" height="157"><br></span></li>
+<li><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Find the Stream you want the tile grid to display, and <strong>click Select Stream</strong> beside it<br><img src="https://help.uberflip.com/hc/article_attachments/18024130840589" width="598" height="152"><br></span></li>
+<li>
+<span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">In the Properties panel, you can adjust the number of rows and columns in your grid in the <em>Grid layout</em> section, along with other specs for your grid<br></span></span>
+<div><img src="https://help.uberflip.com/hc/article_attachments/18025407111565" width="600" height="287"></div>
+</li>
+</ol>
+<p><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">That’s it! The tile grid will now show the thumbnails and titles of the Items in your chosen Stream. And your visitors can click the tile to be taken directly to the Item. </span></p>
+<p>You can reposition the grid anywhere on the page, and your Stream choice and settings will remain unchanged. </p>
+<p> </p>
+<h2 id="h_01HGC34PTNJ4WBHPCQGWAMH85D">Add a Form CTA to a page</h2>
+<p>Want to add a Form CTA to your page? The Form CTA component allows you to do just that. Here’s how: </p>
+<ol>
+<li>Head into Pages from the topbar menu of Uberflip</li>
+<li>Create a new page, or open the page you want to add a Form CTA tile to</li>
+<li>Click the <em> (+)</em> button to open the <em>Add Elements</em> panel</li>
+<li>Select the <strong>Components tab</strong>
+</li>
+<li>Select the<strong> Form CTA tile component</strong> and drag it onto the canvas where you want it to appear. Adjust placement by drag &amp; dropping if needed.<br><img src="https://help.uberflip.com/hc/article_attachments/21762334941325" width="600" height="318">
+</li>
+<li>In the properties panel, <strong>click + beside</strong> <strong>Select a Form CTA</strong><strong><br></strong><strong><img src="https://help.uberflip.com/hc/article_attachments/21762329851533" width="604" height="202"></strong>
+</li>
+<li>The <em>Choose a Form CTA</em> modal will open. Select the Hub where the Form CTA you want is found.</li>
+<li>Hover over the Form CTA you want to display and <strong>click Select CTA</strong><strong><br></strong><strong><img src="https://help.uberflip.com/hc/article_attachments/21762329852429" width="545" height="279"></strong><strong><br></strong><strong>Tip: </strong>Need a new CTA for this one? Click <strong>Create CTA</strong> in the modal to be taken to the CTA builder in Uberflip.</li>
+</ol>
+<p>That’s it! Your Form CTA will be shown on your page. When published, your visitors can enter their information and it will be sent directly to your MAP. <img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" src="https://help.uberflip.com/hc/article_attachments/21762329866509" width="559" height="352"><br>You can now edit the CTA to match your page aesthetic using the properties panel, and move the Form CTA tile component around the page if needed.<strong> </strong></p>
+<div class="callout callout--warning">
+<h4 id="h_01HGC39E1DBK1FCM997BEH06VY" class="callout__title">Caution</h4>
+<p>If you edit the CTA from the CTA editor in Uberflip, those changes will override the current appearance and display on the page. If you edit a From CTA in Uberflip, we suggest checking how it looks on your pages after.</p>
+</div>
+<p> </p>
+<h2 id="h_01HGC30HF2QF70RT3FK5V14P6V">What’s next?</h2>
+<p>Now that you’ve have some pages published, learn how to manage your pages in: <a href="https://help.uberflip.com/hc/en-us/articles/17703497252749" target="_self">Uberflip Pages: Managing your pages</a></p>
+<p><strong>Want to see Pages in action?</strong> Check out the <a href="https://academy.uberflip.com/uberflip-pages/how-to-use-uberflip-pages" target="_self">Pages demo video</a> in the <a href="https://academy.uberflip.com/" target="_self">Uberflip Academy</a>.</p>
+<p> </p>]]></description>
+         <guid isPermaLink="false">17991109743629</guid>
+         <pubDate>Thu, 27 Jul 2023 17:05:28 GMT</pubDate>
+      </item>
+      <item>
+         <title>Uberflip Pages: Manage your pages</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/17703497252749-Uberflip-Pages-Manage-your-pages</link>
+         <description><![CDATA[<p>In this article, we’ll look at how to manage your pages over their life cycle, and how to archive them when the time comes. </p>
+<div class="callout">
+<h4 class="callout__title">Don't see Pages in your account yet?</h4>
+<p>Pages started rolling out in August 2023, but is not available in all accounts just yet. To ensure a smooth onboarding for all accounts, <strong>Pages is being rolled out slowly throughout the rest of 2023.</strong></p>
+<p>We understand that some users are keen to get their hands on this new feature. If you have any questions about the rollout, please reach out to your Account Manager, or <a href="https://help.uberflip.com/hc/en-us/requests/new" target="_self">Uberflip Support</a> to discuss.  </p>
+</div>
+<div class="callout callout--warning">
+<h4 class="callout__title">Browser restriction</h4>
+<p>In its initial release, <strong>Pages is only officially supported in the latest version of Chrome</strong>. Using other browsers at this time may result in a poor user experience. Further browser support will be added soon.</p>
+</div>
+<p> </p>
+<h1>Manage pages</h1>
+<p>Log into Uberflip, and click <strong>Pages</strong> in the topbar menu.<img src="https://help.uberflip.com/hc/article_attachments/17962692858509"></p>
+<p>You’ll now see the page management area of Uberflip, including a list of all of your team’s pages.</p>
+<p><strong>Note:</strong> This area is for landing pages made in Uberflip’s Pages feature only. Legacy Stream and Hub pages are not managed here.<img src="https://help.uberflip.com/hc/article_attachments/17962738397965" alt="Screen Shot 2023-07-26 at 11.32.24 AM.png"></p>
+<p>For each page in the list you’ll see: </p>
+<ul>
+<li>A page thumbnail placeholder</li>
+<li>The internal page names</li>
+<li>The page owner </li>
+<li>The URL slug (if it’s been published to one)</li>
+<li>The current page status </li>
+</ul>
+<p> </p>
+<h2>Page statuses</h2>
+<p>There are<strong> 4 statuses </strong>a page can be in: </p>
+<ul>
+<li>
+<strong>Draft </strong><img src="https://help.uberflip.com/hc/article_attachments/17963457971213" alt="Screen Shot 2023-07-26 at 11.57.07 AM.png" width="55" height="21"><br>A page in Draft status is not published online. Any changes you make will be saved automatically, but not published to the web. </li>
+<li>
+<strong>Unpublished changes </strong><img src="https://help.uberflip.com/hc/article_attachments/17963414167821" alt="Screen Shot 2023-07-26 at 12.10.25 PM.png" width="133" height="21"><br>A page with an Unpublished Changes status is a page that is published, but recent changes have been made. In this case, the new changes are not available to page visitors yet. You'll need to republish the page for the pending changes to be live for your visitors.</li>
+<li>
+<strong>Published </strong><img src="https://help.uberflip.com/hc/article_attachments/17963457983885" alt="Screen Shot 2023-07-26 at 11.56.14 AM.png" width="79" height="21"><br>In a Published state, the page and all of its changes are currently live for visitors to see. There have been no changes made since it was last published.</li>
+<li>
+<strong>Archived </strong> <img src="https://help.uberflip.com/hc/article_attachments/17963414174477" alt="Screen Shot 2023-07-26 at 11.57.46 AM.png" width="72" height="21"><br>An archived page is <strong>no longer available online</strong> to view. It can’t be edited or viewed internally either. It can however be <strong>restored to a draft status</strong> at any time.</li>
+</ul>
+<p> </p>
+<h2>Edit a page</h2>
+<h3><span style="color: #434343;">Edit page design:</span></h3>
+<p>To edit a page’s design, click the thumbnail or title in the page list. This will open the page builder, where you can <a href="https://help.uberflip.com/hc/en-us/articles/17703444581261" target="_self">make changes in the same way you created the page initially</a>, using the drag &amp; drop editor.</p>
+<h3><span style="color: #434343;">Edit page details:</span></h3>
+<p>To edit the page’s details, click the thumbnail or title in the page list to open it in the page builder. The page details will be open in the Properties panel. <strong>There</strong> <strong>you can change the internal name, SEO title, and domain settings.</strong></p>
+<p>You can access these details at any time in the page builder by clicking <strong><em>Structure<img src="https://help.uberflip.com/hc/article_attachments/18133493900301" alt="Screen Shot 2023-07-25 at 4.35.36 PM.png" width="21" height="17"></em></strong> in the Elements side bar, and clicking the internal page name (first item in the list). These details will always open in the Properties panel.<br><img src="https://help.uberflip.com/hc/article_attachments/17962074067725"></p>
+<p> </p>
+<h2>Archive a page</h2>
+<p>To unpublish a page, you must archive it. Here’s how:</p>
+<ol>
+<li>Find it in the page list </li>
+<li>Select the meatball (three horizontal dots) menu at the end of the list row</li>
+<li>Click <strong>Archive</strong>
+</li>
+<li>A confirmation message will open. Review and <strong>click Archive.<br><img src="https://help.uberflip.com/hc/article_attachments/17962678468877"></strong>
+</li>
+</ol>
+<p>An archived page can’t be published, edited, or viewed. But you can <a href="#h_01H69T4J4H4PGW8EY8TEGY6XNN" target="_self">restore the page</a> at any time to edit and publish it again. </p>
+<p><strong>Note:</strong> Pages can’t be permanently deleted.</p>
+<p> </p>
+<h2 id="h_01H69T4J4H4PGW8EY8TEGY6XNN">Restore an archived page</h2>
+<p>To restore a page to <strong>draft status</strong>:</p>
+<ol>
+<li>Find it in the page list </li>
+<li>Click the meatball (three horizontal dots) menu icon</li>
+<li>Click <strong>Restore <br><img src="https://help.uberflip.com/hc/article_attachments/17962691725197"></strong>
+</li>
+</ol>]]></description>
+         <guid isPermaLink="false">17703497252749</guid>
+         <pubDate>Mon, 17 Jul 2023 23:28:38 GMT</pubDate>
+      </item>
+      <item>
+         <title>Uberflip Pages: Upload, crop, and insert images using Media</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/20896372993165-Uberflip-Pages-Upload-crop-and-insert-images-using-Media</link>
+         <description><![CDATA[<p>When working in Uberflip Pages, the Media feature lets you upload, edit, and insert images directly into your microsites. This article outlines how to use Media in Uberflip Pages.</p>
+<div class="callout">
+<h4 id="h_01HE3HY80SFEW84XXY4MNH6564" class="callout__title">Info</h4>
+<p>At this time, Media is only available in Uberflip’s Pages feature. This will be expanded to other areas of the Uberflip platform soon.</p>
+</div>
+<p> </p>
+<h2 id="h_01HE3J0FAPBPVPHF69W8QKVQ8P">Good to know</h2>
+<ul>
+<li>Media <strong>only supports image files </strong>(including GIFs) at this time </li>
+<li>The maximum file size for Media uploads is <strong>40MB</strong> <em>(more than you should ever need!)</em>
+</li>
+<li>Media supports most image file types, including JPEG, GIF, WEBP, PNG, and many more</li>
+<li>Media automatically optimizes your images before serving them in your pages and microsites. This means that some compression may occur, but it’s unlikely you or your visitors will notice any difference. </li>
+</ul>
+<p> </p>
+<h2 id="h_01HE3J0FAP356MX03T9RRDBWWW">Upload images in the Media modal</h2>
+<p>If you want to add an image to your page that you haven’t used in Pages before, you’ll need to upload it in the Media modal first. Here's how:</p>
+<div class="callout callout--info">
+<h4 id="h_01HE3J43RY9ZP94D2F29T5G9KA" class="callout__title">Note</h4>
+<p>After you’ve uploaded an image to Media, it will remain in your Media library and can be used again in other pages.</p>
+</div>
+<ol>
+<li>In the page builder, add an image component to your page<br><img src="https://help.uberflip.com/hc/article_attachments/20896855483533" width="601" height="319">
+</li>
+<li>In the properties panel, <strong>click the plus icon (+) </strong>in the <em>Image </em>section<strong><em><br></em></strong><img src="https://help.uberflip.com/hc/article_attachments/20896855494029" width="602" height="284">
+</li>
+<li>The Media modal will open. Click <strong>Upload</strong>.<br><img src="https://help.uberflip.com/hc/article_attachments/20896842017165" width="603" height="133">
+</li>
+<li>The upload window will open. <strong>Drag &amp; drop images (or folders of images) </strong>into the modal.<br><strong>Or</strong> select a different upload method at the top of the modal and follow the prompts.</li>
+</ol>
+<p>That’s it! Your image is now part of your Media library. From here you can <a href="https://help.uberflip.com/hc/en-us/articles/20896372993165#h_01HE3JQKG4PXPBZPPF88Y2AVFJ">crop the image</a>, or <a href="https://help.uberflip.com/hc/en-us/articles/20896372993165#h_01HE3KYGFK3933Z3VQFGMBH9YD">add it directly to your page</a>.<br><br></p>
+<h2 id="h_01HE3JQKG4PXPBZPPF88Y2AVFJ">Crop an image in the Media modal</h2>
+<p>Cropping is easy with Media. You can quickly crop an image, then save it as a new asset or add it to your page. Here’s how: </p>
+<ol>
+<li>Add an image component to your page</li>
+<li>In the properties panel, <strong>click the plus icon (+) </strong>in the <em>Image </em>section</li>
+<li>In the Media modal that opens, find and double click your image <br><strong>Note:</strong> Selecting more than one image will prevent you from inserting images into your page.</li>
+<li>The image will open in the modal. From here you have <strong>2 options:</strong>
+<ul>
+<li>
+<strong>Use a preset crop: </strong><br>Find a preset crop from the list and click <strong>Insert</strong> to add the cropped image to your page.<br><img src="https://help.uberflip.com/hc/article_attachments/20896999832461" width="599" height="308">
+</li>
+<li>
+<strong>Use a custom crop:</strong>
+<ol>
+<li>Click <strong>Edit &gt; Edit Image</strong><br><img src="https://help.uberflip.com/hc/article_attachments/20897014171533" width="593" height="62">
+</li>
+<li>In the <strong>Aspect</strong> dropdown, choose a preset aspect ratio. Choose <strong>Custom</strong> if you want to adjust the width and height freely.<br><img src="https://help.uberflip.com/hc/article_attachments/24516188757133" width="601" height="307"><br><strong>Tip: </strong>You can also flip the image or rotate it from here as well.</li>
+<li>Choose to save the asset (overwrites the original file), save as a new asset, or insert it into your page without saving this version for later.<br><img src="https://help.uberflip.com/hc/article_attachments/20896999851021" width="600" height="82">
+</li>
+</ol>
+</li>
+</ul>
+</li>
+</ol>
+<p>That’s it! Your cropped image is ready. If you saved the cropped image to your Media library, you can <a href="https://help.uberflip.com/hc/en-us/articles/20896372993165#h_01HE3KYGFK3933Z3VQFGMBH9YD">add it to your page</a> now.</p>
+<p> </p>
+<h2 id="h_01HE3KYGFK3933Z3VQFGMBH9YD">Add an image from Media to a page</h2>
+<p>With images uploaded to your Media library, you can now easily add them to your pages. Here’s how: </p>
+<ol>
+<li>In the page builder, add an image component to your page</li>
+<li>In the properties panel, <strong>click the plus icon (+) </strong>in the <em>Image</em> section<br><img src="https://help.uberflip.com/hc/article_attachments/20896855494029" width="600" height="283">
+</li>
+<li>From your Media library, select a <strong>single image</strong> to add<br>
+<div class="callout callout--success">
+<h4 id="h_01HE3M1RDF9SCW2FSTFHEX0VYA" class="callout__title">Tip</h4>
+<p>Use the Advanced Search options in the Media modal to find images fast.<br><img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" src="https://help.uberflip.com/hc/article_attachments/20898197092365" alt="Screen Shot 2023-10-27 at 10.07.09 AM.png" width="503" height="70"></p>
+</div>
+<img src="https://help.uberflip.com/hc/article_attachments/20902214294413" width="600" height="215"><br><strong>Note:</strong> Only 1 image can be added to each image component.</li>
+<li>Click<strong> Insert <br><img src="https://help.uberflip.com/hc/article_attachments/20902411861005" alt="Untitled design (5).png" width="602" height="143"></strong>
+</li>
+</ol>
+<p>That’s it! You can now adjust and move your image on the page the same way you’d <a href="https://help.uberflip.com/hc/en-us/articles/17703444581261#position-elements">adjust any page element</a>.<br><img src="https://help.uberflip.com/hc/article_attachments/20897965452429" alt="Screen Shot 2023-10-27 at 9.36.16 AM.png" width="601" height="319"></p>
+<p><strong>Image not lining up as you hoped?</strong> <a href="https://help.uberflip.com/hc/en-us/articles/20896372993165#h_01HE3JQKG4PXPBZPPF88Y2AVFJ">Crop the image in the Media modal</a> before adding it to your page.</p>]]></description>
+         <guid isPermaLink="false">20896372993165</guid>
+         <pubDate>Tue, 31 Oct 2023 19:05:29 GMT</pubDate>
+      </item>
+      <item>
+         <title>Uberflip Pages: Use templates and page duplication for faster building</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/21648092775565-Uberflip-Pages-Use-templates-and-page-duplication-for-faster-building</link>
+         <description><![CDATA[<p>You want to build pages faster? Get a head start on new pages using pre-built templates or by duplicate existing pages, then just customize and publish. These two powerful Pages tools will help you spin-up microsites even faster, and this article will show you how. </p>
+<p> </p>
+<h2 id="h_01HG1K0AD5GZDT5T9PH9K0WE1F">About templates and page duplication</h2>
+<p>Pages is made for quick and easy microsite creation. While starting from scratch gives you max flexibility in the beginning, as time goes, you can speed up page creation using pre-built templates or by copying existing pages, then customizing for a new audience.</p>
+<h3 id="h_01HG1K0AD5PRTPC2JSF9KZECRW"><span style="color: #434343;">About Templates</span></h3>
+<p>Uberflip has 5 built-in templates, pre-filled with sections and components we see used again and again for each use-case. Start with a template, then customize it for your audience in the same way you’d customize a page built from scratch. Faster building, still 100% brandable. </p>
+<h3 id="h_01HG1K0AD57ZJ6ZVB57KH9TQTG"><span style="color: #434343;">About page duplication</span></h3>
+<p>Once you’ve built a few pages, you’ll notice that they often follow the same branded patterns. Why build from scratch when you can just duplicate a page and customize for a new audience?! This is the power of page duplication. Create and reuse base pages again and again for max efficiency. </p>
+<p> </p>
+<h2 id="h_01HG1K0AD5Z99SBGN7PGNHMBKJ">Start a new page from a template</h2>
+<ol>
+<li>
+<span style="color: #1a304f;">Log into Uberflip, and </span><strong><span style="color: #1a304f;">click Pages in the topbar</span></strong><span style="color: #1a304f;"> menu</span><span style="color: #1a304f;"><br></span><span style="color: #1a304f;"><img src="https://help.uberflip.com/hc/article_attachments/21649033269645" width="624" height="56"></span>
+</li>
+<li>
+<span style="color: #1a304f;">Click </span><strong><span style="color: #1a304f;">Create a page</span></strong><span style="color: #1a304f;"><br></span><span style="color: #1a304f;"><img src="https://help.uberflip.com/hc/article_attachments/21649033273229" width="624" height="183"></span>
+</li>
+<li>
+<span style="color: #1a304f;">Enter an internal name in the modal that opens, then </span><strong><span style="color: #1a304f;">click Next</span></strong><span style="color: #1a304f;"><br></span><em><span style="color: #1a304f;">This name is required, but it won’t appear on the page.</span></em><em><span style="color: #1a304f;"><br></span></em><em><span style="color: #1a304f;"><img src="https://help.uberflip.com/hc/article_attachments/21649033274893" alt="Screen Shot 2023-07-25 at 1.37.52 PM.png" width="402" height="209"></span></em>
+</li>
+<li>Hover over the template you want to use and <strong>click Start with this template</strong><br><span style="color: #1a304f;"><img src="https://help.uberflip.com/hc/article_attachments/21649033283597" alt="Screen Shot 2023-11-23 at 5.41.01 PM.png" width="500" height="362"></span>
+</li>
+</ol>
+<p><span style="color: #1a304f;">Your new page has just popped into existence, including all the sections and components included in the template. It’s not published yet. Now you can customize the page for your new audience the same way you’d </span><a href="https://help.uberflip.com/hc/en-us/articles/17703444581261#design-your-page"><span style="color: #1155cc;">customize any page</span></a><span style="color: #1a304f;">.</span></p>
+<p> </p>
+<h2 id="h_01HG1M5BVDENMZPGC48TQGR11Y">Create a new page by duplicating an existing page</h2>
+<ol>
+<li>
+<span style="color: #1a304f; background-color: #ffffff;">Log into Uberflip, and click Pages in the topbar menu</span><span style="color: #1a304f; background-color: #ffffff;"><img src="https://help.uberflip.com/hc/article_attachments/21649049559949" width="624" height="56"></span>
+</li>
+<li><span style="color: #1a304f; background-color: #ffffff;">Find the page you want to duplicate in the page list </span></li>
+<li>
+<strong><span style="color: #1a304f; background-color: #ffffff;">Click the ‘more’ icon</span></strong><span style="color: #1a304f; background-color: #ffffff;"> (three horizontal dots) for the page</span><span style="color: #1a304f; background-color: #ffffff;"><br></span><span style="color: #1a304f; background-color: #ffffff;"><img src="https://help.uberflip.com/hc/article_attachments/21649033289997" width="624" height="105"></span>
+</li>
+<li><strong><span style="color: #1a304f; background-color: #ffffff;">Click Duplicate</span></strong></li>
+<li>Enter an internal name in the modal that opens, then <strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"><span style="color: #1a304f;">click Next<br></span></strong><em style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"><span style="color: #1a304f;">This name is required, but it won’t appear on the page.<br></span></em><em style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"><span style="color: #1a304f;"><img src="https://help.uberflip.com/hc/article_attachments/21649049565965" width="401" height="208"></span></em>
+</li>
+</ol>
+<p><span style="color: #1a304f;">Your new page has just popped into existence, including all the sections and components included in the original page. It’s not published yet. Now you can customize the page for your new audience the same way you’d </span><a href="https://help.uberflip.com/hc/en-us/articles/17703444581261#design-your-page"><span style="color: #1155cc;">customize any page</span></a><span style="color: #1a304f;">.</span></p>
+<div class="callout callout--warning">
+<h4 id="h_01HG1M99XYY74F6JHM87EF04AA" class="callout__title">Caution</h4>
+<p>All SEO settings and metadata from the original page has been duplicated as well. Be sure to update those if needed for your new audience or use-case.</p>
+</div>]]></description>
+         <guid isPermaLink="false">21648092775565</guid>
+         <pubDate>Fri, 24 Nov 2023 20:59:09 GMT</pubDate>
+      </item>
+      <item>
+         <title>Uberflip Pages: Choose how visitors view Items from your page</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/24102404899469-Uberflip-Pages-Choose-how-visitors-view-Items-from-your-page</link>
+         <description><![CDATA[<p>Uberflip Pages offers <strong>two ways</strong> for your visitors to consume the Items placed in a page: </p>
+<ul>
+<li>
+<strong>Lightbox: </strong>A smaller, highlighted window opened over the page </li>
+<li>
+<strong>New tab: </strong>Opens the Item page from your Hub in a new tab</li>
+</ul>
+<p>This article outlines the difference and how to choose which option a visitor receives. </p>
+<p> </p>
+<h2 id="h_01HPMFEVC5913JD3ZQFS1JFC29">Open Items in a lightbox vs. a new tab</h2>
+<p>When your visitors open an Item from any microsite you’ve created in Pages, there are two ways they can view the Item content. How they see the Item is specified by you in the page builder. </p>
+<p>These 2 options are: </p>
+<h3 id="h_01HPMFEVC5P122K9243M2YSEKQ"><span style="color: #434343;">New tab (default): </span></h3>
+<p>This option takes the visitor to the Item page that exists in your Hub. Opening in a new tab means the page you built is left open, so your visitors can easily return to it when they’re done consuming that content. </p>
+<p>This option is selected by default when any Tile Grid or Item component is added to a page.<br><img src="https://help.uberflip.com/hc/article_attachments/24122927427597" width="306" height="392"></p>
+<h3 id="h_01HPMFEVC52X7D17RT83RYWRXR"><span style="color: #434343;">Lightbox: </span></h3>
+<p>This option opens the Item in a smaller, focused window, overlaying your page. With this option, the visitor never has to leave the page or the experience you’ve created for them. </p>
+<p>When using the Lightbox option with a <strong>Tile Grid component</strong>, the other Items in that Stream <strong>that appear on the page</strong> are shown in a carousel style layout. This allows visitors to easily skip to the next or previous Item.<br><img src="https://help.uberflip.com/hc/article_attachments/24122891575309" width="601" height="314"></p>
+<p> </p>
+<h2 id="h_01HPMFEVC54M1H2H6TACSVEZHS">Change the Item view option in the page builder</h2>
+<p><strong>Note: </strong><em>When any Tile Grid or Item component is added, it’ll be set to the “New tab” option by default. </em></p>
+<ol>
+<li>Open the page in the page builder </li>
+<li>Select (<a href="https://help.uberflip.com/hc/en-us/articles/17703444581261-Uberflip-Pages-Create-and-edit-a-page#add-page-elements"><span style="color: #1155cc;">or add</span></a>) the Tile Grid or Item component you want to set</li>
+<li>In the properties panel, see the <strong>Open in </strong>field in the General section</li>
+<li>Click the <strong>Open in</strong> dropdown field </li>
+<li>Select <strong>New tab</strong> or <strong>Lightbox</strong>
+</li>
+</ol>
+<p>That’s it! Your setting will save automatically. When the page is published, a user will see Items in the view option you’ve chosen for them <em>(the visitor cannot change the view option themselves). </em></p>]]></description>
+         <guid isPermaLink="false">24102404899469</guid>
+         <pubDate>Wed, 14 Feb 2024 00:42:15 GMT</pubDate>
+      </item>
+      <item>
+         <title>Uberflip Pages: Embed a video on a page </title>
+         <link>https://help.uberflip.com/hc/en-us/articles/23368199777933-Uberflip-Pages-Embed-a-video-on-a-page</link>
+         <description><![CDATA[<p>Uberflip allows you to embed externally hosted videos from several supported hosts in your microsites made in Uberflip Pages. This article will guide you through everything you need to know. </p>
+<p> </p>
+<h2 id="h_01HPJCP7PH09YT9NZJB25F1G1X">Before you begin</h2>
+<ul>
+<li>Videos can only be added in Pages by URL at this time</li>
+<li>Only the 7 video platforms listed in this article are supported at this time</li>
+</ul>
+<p> </p>
+<h2 id="h_01HPJCP7PHC4RKME2PB1EMQCRJ">Supported video hosts and URL types</h2>
+<h3 id="h_01HPJCP7PJF76ZF8JPQCY7FXH0">Supported video hosts</h3>
+<p>Uberflip Pages <strong>currently supports 7 video hosting platforms</strong> for adding videos in Pages: </p>
+<ul>
+<li><a href="https://www.youtube.com/"><span style="color: #1155cc;">YouTube</span></a></li>
+<li>
+<a href="https://vimeo.com/"><span style="color: #1155cc;">Vimeo</span></a> </li>
+<li>
+<a href="https://wistia.com/"><span style="color: #1155cc;">Wistia</span></a> </li>
+<li>
+<a href="https://www.vidyard.com/"><span style="color: #1155cc;">Vidyard</span></a> </li>
+<li>
+<a href="https://www.dailymotion.com/"><span style="color: #1155cc;">Dailymotion</span></a> </li>
+<li><a href="https://www.loom.com/"><span style="color: #1155cc;">Loom </span></a></li>
+<li><a href="https://www.brightcove.com/en/"><span style="color: #1155cc;">Brightcove</span></a></li>
+</ul>
+<p>Don’t see your preferred video hosting platform here? Let us know by <a href="https://help.uberflip.com/hc/en-us/articles/4509433784845"><span style="color: #1155cc;">making a feature request</span></a>. <br><br></p>
+<h3 id="h_01HPJCP7PJ72P36TB34C22HB6J">Supported URL types</h3>
+<p>This part is easy!</p>
+<p><strong>Just grab the URL from the address bar of your browser</strong> while on the video page of your host site. Or click the <strong><em>Share button</em></strong>, usually found near the video on the video page, and use that URL.</p>
+<p>The Video URL field in Uberflip Pages also accepts the <strong><em>embed URL found in a video embed code</em></strong>.</p>
+<p><strong>URL Examples: </strong></p>
+<p><strong>From address bar:</strong> <em>https://www.youtube.com/watch?v=u9YkoTLIN04 </em><br><strong>From Share button:</strong> <em>https://youtu.be/u9YkoTLIN04?si=PZNY3VL7IGSzFuOE</em><br><strong>From embed code:</strong> <em>https://www.youtube.com/embed/u9YkoTLIN04?si=PZNY3VL7IGSzFuOE</em></p>
+<p>All of these URLs are for the same video, and will all work in Uberflip Pages.<br><br></p>
+<h2 id="h_01HPJCP7PJNE6FCMCBNDX3CGS3">Add a video to your page</h2>
+<ol>
+<li>In Pages, open the page you want to embed the video on</li>
+<li>Click the <strong>+ </strong>icon to open the elements sidebar<br><img src="https://help.uberflip.com/hc/article_attachments/24101148364813" width="477" height="224">
+</li>
+<li>Select <strong>Components</strong>, then find the <strong>Video </strong>component and drag it onto your page<br><img src="https://help.uberflip.com/hc/article_attachments/24101162836109" width="532" height="290">
+</li>
+<li>With the video component added/selected on the page, the video properties will open in the Properties panel. </li>
+<li>In the <strong>Video URL field</strong>, enter the URL for your hosted video<br><img src="https://help.uberflip.com/hc/article_attachments/24101148373901" width="373" height="246"><br><strong>Note:</strong> Your URL may change slightly after it’s entered into the Video URL field. This is normal and is just done to ensure we have the right URL format.</li>
+</ol>
+<p>That’s it! Your video is now embedded in the page.<br><img src="https://help.uberflip.com/hc/article_attachments/24101162850957" width="600" height="295"><br>You can move the video around the page as you would any other component without breaking anything. </p>]]></description>
+         <guid isPermaLink="false">23368199777933</guid>
+         <pubDate>Fri, 19 Jan 2024 22:32:56 GMT</pubDate>
+      </item>
+      <item>
+         <title>Uberflip Pages: Optimize a page for mobile</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/25191067662221-Uberflip-Pages-Optimize-a-page-for-mobile</link>
+         <description><![CDATA[<p>The mobile canvas allows you to optimize your microsites made in <a href="https://help.uberflip.com/hc/en-us/articles/17703415334669">Uberflip Pages</a> for mobile screen sizes. This article will show you everything you need to know.</p>
+<p> </p>
+<h2 id="h_01HYE0RG6JY2KPEM61ASW6S50N">Good to know</h2>
+<ul>
+<li>
+<strong>Mobile optimization is not available on all plans.</strong> Reach out to your Uberflip CSM if you want this feature but don’t currently have it. </li>
+<li>
+<strong>Not all page properties can be optimized for mobile</strong>. Check out the <a href="#h_01HYE151K5X3MW1KC0WVQ302FC">What page settings can be mobile optimized?</a> Section to see what can be customized</li>
+<li>The mobile version of your page will be shown on screens that are 639px wide or less</li>
+<li>The mobile canvas can be used to <strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">alter the properties of page elements</strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">,</span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"> but you can’t add or rearrange elements</strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"> from there. Element additions and rearrangements must be done on the desktop canvas.</span>
+</li>
+</ul>
+<p> </p>
+<h2 id="h_01HYE0X7MSW2VP7952VN7QHRSH">About mobile optimization in Pages</h2>
+<p>Mobile devices make up a major portion of how web pages are consumed today, so it’s important to ensure your pages look good on all devices. </p>
+<p>The mobile canvas in Pages allows you to define how <a href="#h_01HYE151K5X3MW1KC0WVQ302FC">certain page elements</a> look on smaller screens, without affecting the desktop version. </p>
+<p>Not all page elements need to be optimized, so we only allow optimization for elements that are affected by screen size. For example, colors generally don’t differ for mobile, but text properties such as size and alignment often do, so those text properties can be optimized. </p>
+<p>The next section outlines exactly which element properties can be optimized for mobile.</p>
+<div class="callout callout--info">
+<h4 id="h_01HYE0ZM8BJ291M7PJYX742KMC" class="callout__title">Note</h4>
+<p>The mobile canvas can be used to <strong>alter the properties of page elements, but you can’t add or rearrange elements</strong> from there. Elements must be added and rearranged on the desktop canvas.</p>
+</div>
+<p> </p>
+<h2 id="h_01HYE151K5X3MW1KC0WVQ302FC">What properties can be mobile optimized?</h2>
+<p>Not all page properties need to be optimized for mobile as some are universal across screen sizes <em>(like fonts and colors)</em>. For this reason, you can’t change all page properties, just the ones that change as a screen size changes. </p>
+<p><strong>The following properties can be optimized for mobile wherever they appear: </strong></p>
+<ul>
+<li>
+<strong>Text style </strong><em>(does not apply to Item tiles, Tile grids, or Form CTAs):</em>
+<ul>
+<li>Size</li>
+<li>Lineheight</li>
+<li>Alignment</li>
+</ul>
+</li>
+<li>
+<strong>Spacing:</strong>
+<ul>
+<li>Column Gap</li>
+<li>Row Gap</li>
+</ul>
+</li>
+<li>
+<strong>Align element:</strong>
+<ul>
+<li>Vertical</li>
+<li>Horizontal</li>
+</ul>
+</li>
+<li>
+<strong>Dimensions:</strong>
+<ul>
+<li>Sizing (Fit, Fill, Fix)</li>
+<li>Width</li>
+<li>Padding</li>
+</ul>
+</li>
+</ul>
+<p> </p>
+<h2 id="h_01HYE15W32JT3XN5ZD2NGR5367">Access the mobile canvas</h2>
+<p>The mobile canvas is accessed through the page builder. Here’s how to find it: </p>
+<ol>
+<li>Go to Pages from the topbar</li>
+<li>Find and open the page you want to optimize, or <a href="https://help.uberflip.com/hc/en-us/articles/17703444581261-Uberflip-Pages-Create-and-edit-a-page"><span style="color: #1155cc;">create a new page</span></a>. The page builder will open to the desktop version of your page.</li>
+<li>In the Status Control bar, click the mobile icon<br><img src="https://help.uberflip.com/hc/article_attachments/26910082363277" width="603" height="98">
+</li>
+</ol>
+<p>That’s it. You’ll now see the mobile canvas and can begin optimizing your page from here. </p>
+<p> </p>
+<h2 id="h_01HYE1ASGV90W6S4CJ5MTWPK4W">Optimize element properties for mobile </h2>
+<p>The mobile canvas works the same way as the desktop canva with a few key differences: </p>
+<p> </p>
+<h3 id="h_01HYE1ASGVNTMM4X27XB9Y908E"><span style="color: #434343;">The mobile canvas</span></h3>
+<p>The mobile canvas is 390px wide, an average size for handheld devices. This view takes your Desktop page and shows what it may look like on smaller screens, giving you a chance to optimize <a href="#h_01HYE151K5X3MW1KC0WVQ302FC">certain page elements</a> for smaller screens.</p>
+<div class="callout callout--info">
+<h4 id="h_01HYE1BGV4D04GMNBR4CRZRG2N" class="callout__title">Note</h4>
+<p>While the mobile canvas is 390px, the mobile version of your page will be shown to visitors on screens that are 639px and below.</p>
+<p> </p>
+</div>
+<h3 id="h_01HYE1CP8YFAKY5PPK7CTKWSME"><span style="color: #434343;">Changing property values for mobile</span></h3>
+<p>The properties panel will always show all properties for the selected element, regardless of whether you’re looking at the desktop or mobile canvas. Any property can be optimized from either canvas. </p>
+<p>But when altering a <a href="#h_01HYE151K5X3MW1KC0WVQ302FC">property that can be optimized for mobile</a> and desktop<strong> from the mobile canvas, a highlight will appear over the property when a mobile specific value is entered.<br></strong><img src="https://help.uberflip.com/hc/article_attachments/26910082374797" width="301" height="206"></p>
+<p> </p>
+<h3 id="h_01HYE1CP8Y0YCAKWNXKF95QN1A"><span style="color: #434343;">Revert the mobile value to the desktop value</span></h3>
+<p>Clicking the circle-with-arrow icon <strong><img src="https://help.uberflip.com/hc/article_attachments/26910050087181" width="20" height="21"></strong> beside a mobile specific value allows you to <strong>reset that value back</strong> <strong>to the desktop value.<br></strong><img src="https://help.uberflip.com/hc/article_attachments/26910082407565" width="300" height="226"></p>]]></description>
+         <guid isPermaLink="false">25191067662221</guid>
+         <pubDate>Wed, 20 Mar 2024 21:00:25 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

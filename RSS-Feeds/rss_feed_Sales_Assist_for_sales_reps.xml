@@ -1,0 +1,1776 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Sales Assist for sales reps</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Sales Assist + Salesforce: Using the Sales Assist app in SFDC</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/18131368602509-Sales-Assist-Salesforce-Using-the-Sales-Assist-app-in-SFDC</link>
+         <description><![CDATA[<p>Sales Assist works best when integrated into your current sales workflows. And since so many of our users are working in Salesforce.com (SFDC) daily, we want to meet you where you’re at. </p>
+<p>This article outlines how to use the Sales Assist app as a sales user in SFDC. </p>
+<p><strong>The Sales Assist app in SFDC can:</strong></p>
+<ul>
+<li>Auto-load existing Digital Sales Rooms (DSRs) for a prospect based on a Account, Contact, or Opportunity page </li>
+<li>Auto-load DSR Activity stats for that company based on domain</li>
+<li>Pre-populate the prospect details, like name, domain, or email in a new DSR</li>
+<li>Pre-populate the<strong> Account and Opportunity IDs</strong> in a new DSR </li>
+</ul>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>Some auto-fill abilities require your <a href="https://help.uberflip.com/hc/en-us/articles/360047293692"><span style="color: #1155cc;">Uberflip account to be</span><span style="color: #1155cc;"> connected</span><span style="color: #1155cc;"> to Salesforce</span></a>, and that your <a href="https://help.uberflip.com/hc/en-us/articles/18130956008717#3-choose-your-salesforce-settings-in-sales-assist"><span style="color: #1155cc;">admin has allowed API Lookups</span></a>, which are needed to grab information not found on the page you’re currently looking at. </li>
+<li>If your admin has not set up the API lookups needed, you’ll need to enter information not found on the current page into the DSR form manually.</li>
+<li>You must have sales rep permissions, and a sales license to create new DSRs. If you don’t have those, you likely won’t be able to leverage the Sales Assist for SFDC app in a meaningful way. Chat with your account admin if you want those permissions.</li>
+</ul>
+<p> </p>
+<h2>Find the Sales Assist app in SFDC</h2>
+<p>Depending on the settings your admin has set up for you, <strong>you can find the Sales Assist app </strong>when viewing a Contact, Opportunity, or Account Salesforce page. The app can be shown as a widget on the page, or <strong>in a custom tab</strong><em> (again, depending on how your admin has set it up)</em><strong>. </strong></p>
+<p>All of the options have the same functionality built in, and work in the same way. You have <a href="https://help.uberflip.com/hc/en-us/articles/360057767692-Sales-Assist-Get-started-as-a-Sales-User"><span style="color: #1155cc;">all of the functionality of the Sales Assist</span></a> you find when using it in Uberflip, a browser, or the Chrome extension.<br><img src="https://help.uberflip.com/hc/article_attachments/18203629384845" width="603" height="316"></p>
+<p> </p>
+<h2>Using Sales Assist in Salesforce</h2>
+<h3><span style="color: #434343;">Auto-search for existing DSRs:</span></h3>
+<p>When the Sales Assist app opens on any Salesforce page, it’ll automatically search for DSRs for the account associated with that page. This means that from the Account, Contact, and Opportunity pages, Sales Assist will always search by the domain (<em>e.g. “acme.com”</em>) for all DSRs created for that domain.</p>
+<p>If a DSR exists, and there’s been recent visitor activity in it, Sales Assist will show you the activity page so you can see exactly who’s been viewing what.<br><img src="https://help.uberflip.com/hc/article_attachments/18203704077453" width="601" height="314"></p>
+<p><strong>If no DSR is found</strong>, Sales Assist will give you the option to create one.<br><img src="https://help.uberflip.com/hc/article_attachments/18203693087117" width="601" height="314"></p>
+<p> </p>
+<h2><span style="color: #434343;">Create a new DSR from SFDC</span></h2>
+<p>When creating a DSR in the Sales Assist app for SFDC, you’ll have the prospect info pre-filled from Salesforce to get you started, including the:</p>
+<ul>
+<li>Company domain</li>
+<li>Email </li>
+<li>Salesforce Account ID</li>
+<li>Salesforce Opportunity ID</li>
+</ul>
+<p>To create a new DSR, click <strong>+ New Room </strong>in the Sales Assist app <em>(Rooms section).<br></em><img src="https://help.uberflip.com/hc/article_attachments/18203714374029" width="300" height="368"><br><em>Alternatively, you can go to the Rooms section in the app, clear the search, and click + New at any time to start a new DSR.</em></p>
+<p>The Create a Digital Sales Room form will open. All of the data Sales Assist can access will already be pre-filled for you.</p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Note</h4>
+<p>Some auto-fill abilities require your <a href="https://help.uberflip.com/hc/en-us/articles/360047293692" target="_self">Uberflip account to be connected to Salesforce</a>, and that your <a href="https://help.uberflip.com/hc/en-us/articles/18130956008717#3-choose-your-salesforce-settings-in-sales-assist" target="_self">admin has allowed API Lookups</a>, which are needed  to grab information not found on the page you’re currently looking at. </p>
+<p>If your admin has not set this up, you’ll need to manually fill out any details Sales Assist couldn’t grab from the page.</p>
+</div>
+<p><img src="https://help.uberflip.com/hc/article_attachments/18203754156941" width="301" height="369">  </p>
+<p><strong>If the account you’re working with has multiple opportunities</strong> associated with it, a dropdown menu will appear in the Opportunity ID field. Click there to select an opportunity to associate with that DSR.</p>
+<p>After the new DSR is created, customizing the DSR is done the same way it’s done in your Uberflip account, browser, or Chrome extension. Check out <a href="https://help.uberflip.com/hc/en-us/articles/4423799497485"><span style="color: #1155cc;">Sales Assist: Create, customize, and share Digital Sales Rooms (DSRs)</span></a> to see how it’s done.</p>
+<p> </p>
+<h2>Using Salesforce Account &amp; Opportunity IDs in Sales Assist &amp; Uberflip</h2>
+<p>With the Salesforce Account and Opportunity IDs attached to your DSR, you can use these IDs to find your DSR in Sales Assist (and Uberflip). </p>
+<p>In Uberflip, Account and Opportunity IDs are added to the DSR name, so searching those will bring up the DSR there. </p>
+<p>As a Sales Assist Admin, you can also see and search for these IDs in the Account Engagement table of your <strong>team</strong> <strong>Analytics.<br></strong><img src="https://help.uberflip.com/hc/article_attachments/18203802561165" width="599" height="322"></p>]]></description>
+         <guid isPermaLink="false">18131368602509</guid>
+         <pubDate>Tue, 01 Aug 2023 18:05:02 GMT</pubDate>
+      </item>
+      <item>
+         <title>Sales Assist: Get started as a Sales User</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360057767692-Sales-Assist-Get-started-as-a-Sales-User</link>
+         <description><![CDATA[<p>As a <strong>Sales User</strong>, you can use<strong> Sales Assist</strong> by Uberflip to easily find and share your organization's content with prospects. <strong>Get up and running</strong> with this handy quick start guide.</p>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>To use Sales Assist, you will need your <strong>Uberflip username and password</strong>. If you're not sure what they are, <strong>contact your Uberflip administrator </strong>for help.</li>
+<li>If you use Chrome, we recommend <strong>downloading the Sales Assist Chrome extension</strong>, which makes it really easy to share content by email or in the sales tool(s) you use. <a href="https://chrome.google.com/webstore/detail/sales-assist-by-uberflip/kcbkakmlohgokmebhdmhcffdpegnlobk">Click here to get the Sales Assist extension from the Chrome web store</a>.
+<ul>
+<li>Sales Assist is also fully responsive, so it works great on your mobile devices too!</li>
+</ul>
+</li>
+</ul>
+<p> </p>
+<h2>What is Sales Assist?</h2>
+<p>Sales Assist is Uberflip's<strong> sales engagement tool for creating Digital Sales Rooms (DSRs).</strong> </p>
+<p>Marketing teams use Uberflip to create content, and Sales Assist <strong>empowers sales representatives</strong> <strong>with that content </strong>by making it easy to find and use at any point during the sales cycle.</p>
+<p>With Sales Assist, you can:</p>
+<ul class="list-bullet">
+<li>
+<strong>Easily find content </strong>your prospects will love (or <a href="https://help.uberflip.com/hc/en-us/articles/4423816459149" target="_self"><strong>create your own</strong></a>)</li>
+<li>
+<strong>Personalize content</strong> in seconds</li>
+<li>
+<strong>Deliver content </strong>to prospects through <strong>personalized destinations (DSRs)</strong>
+</li>
+<li>
+<strong>Track engagement </strong>on content you've shared <strong>in real time</strong>
+</li>
+</ul>
+<p>Sales Assist <strong>works within your existing sales workflows and tools</strong>, so it seamlessly integrates into your day-to-day and won't slow you down.</p>
+<p> </p>
+<h2>Navigating the app</h2>
+<p>In this section, we'll look at how to <strong>navigate the app</strong>.</p>
+<h3>Basic navigation</h3>
+<p>Sales Assist has three main sections: <strong>Search</strong>, <strong>Rooms</strong>, and <strong>Activity</strong>.</p>
+<p><strong>Note:</strong> If you're a Sales Assist administrator, you'll also see an <strong>Admin</strong> section. See <a href="https://help.uberflip.com/hc/en-us/articles/360057767632" target="_self">Sales Assist: User Guide for Admins</a> for information on admin features and settings.</p>
+<ul>
+<li>To navigate between these three sections, <strong>use the navigation menu<br></strong><img src="https://help.uberflip.com/hc/article_attachments/16140265431693" width="599" height="364">
+</li>
+<li>
+<strong>Click your name in the top right</strong> to open the <strong>user menu</strong>, where you can edit your profile and access Sales Assist help and documentation.<br><img src="https://help.uberflip.com/hc/article_attachments/16140237752845" width="400" height="234">
+</li>
+</ul>
+<h3>Section overview</h3>
+<p>Here's a quick overview of what you'll find in each section:</p>
+<div class="tabs tabs--colored-2">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Search</span><span class="tabs-link"> Rooms</span> <span class="tabs-link">Activity</span>
+</div>
+<div class="tab">
+<p>Select <strong>Search</strong><em> (magnifying glass icon)</em> in the navigation menu to open the <em>Search</em> section<img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" src="https://help.uberflip.com/hc/article_attachments/4422928326669/1.png" alt="1.png" width="601" height="357"></p>
+<p>This section contains:</p>
+<ol>
+<li>The <strong>search tools</strong>, which allow you to find pieces of content ("Items"). You can search by <strong>keywords</strong>, <strong>tags</strong>, and <strong>content type</strong>, or just content within prebuilt content collections. You can also view the <strong>most shared Items</strong> in your organization, <strong>Items you've created yourself, </strong>or your<strong> favorited Items.</strong>
+</li>
+<li>The <strong>results panel</strong>, which lists all of the available content Items that match your search criteria. Here you can <strong>Add</strong> Items to your basket, see Items' <strong>preview or stats,</strong> or share Items directly. </li>
+<li>The <strong>basket</strong>, which is where you "save" Items (even across different searches) to include in a personalized <strong>destination</strong>.</li>
+</ol>
+</div>
+<div class="tab is-hidden">
+<p>Select <strong>Rooms</strong> <em>(target icon)</em> in the main navigation to see your existing Digital Sales Rooms (DSRs). </p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p><em>"Rooms" may be labeled differently in your Sales Assist if your admin has changed your environment labels. Check out <a href="https://help.uberflip.com/hc/en-us/articles/13894587662093" target="_self">Sales Assist: Change the environment labels used to describe page types in the Sale Assist UI</a> to learn more.</em></p>
+</div>
+<p><img src="https://help.uberflip.com/hc/article_attachments/13180688014093" alt="mceclip1.png" width="602" height="147"></p>
+<p>This section displays <strong>a list of your previously created Rooms</strong>, and allows you to <strong>view </strong>and <strong>edit</strong> them, as well as <strong>share </strong>them and <strong>see engagement activity</strong>.</p>
+</div>
+<div class="tab is-hidden">
+<p>Select <strong>Share Activity </strong><em>(bell icon)</em> in the navigation menu to open the<em> Shares</em> <em>Activity</em> section</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/16098493034893" width="600" height="216"></p>
+<p>This section shows you <strong>activity and stats on Items and Rooms you've shared</strong> in the past 48 hours, so you can follow up at the right time.</p>
+</div>
+</div>
+<p> </p>
+<h1>Sales Assist Quick Start Guide</h1>
+<p>Ready to get started with Sales Assist? <strong>Let's dive right in</strong>.</p>
+<h2>Step 1: Log in to Sales Assist</h2>
+<p>Because Sales Assist is a web app, there are multiple ways to access it. Simply choose the option(s) that best fit your outreach workflow:</p>
+<div class="tabs tabs--colored-2">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Browser (desktop and mobile)</span> <span class="tabs-link">Chrome extension</span> <span class="tabs-link">Outlook Add-in</span>
+</div>
+<div class="tab">
+<ul class="list-bullet">
+<li>Works with <strong>any browser</strong>, on <strong>any desktop or mobile device</strong>.</li>
+<li>Choose this option if want to use Sales Assist on a phone or tablet, or if you prefer to use a larger version of the Sales Assist interface on your desktop.</li>
+</ul>
+<p><strong>To access Sales Assist in a browser:</strong></p>
+<ul>
+<li>Go to <a href="https://sa.uberflip.com/" target="_self"><strong>https://sa.uberflip.com/</strong></a>
+</li>
+</ul>
+</div>
+<div class="tab is-hidden">
+<ul class="list-bullet">
+<li>Requires the <strong>Google Chrome browser</strong>.</li>
+<li>Opens Sales Assist in a sidebar, next to your current Chrome tab.</li>
+<li>Choose this option to use Sales Assist without having to leave the tab you're currently working in. This allows you to easily access Sales Assist while you're doing outreach by email (e.g. in Gmail), or using a web-based sales engagement tool (like Salesloft).</li>
+</ul>
+<p><strong>To access Sales Assist using the Chrome extension:</strong></p>
+<ul>
+<li>Go to the Chrome Web Store and <a href="https://chrome.google.com/webstore/detail/sales-assist-by-uberflip/kcbkakmlohgokmebhdmhcffdpegnlobk"><strong>download and install the Sales Assist extension</strong>.</a>
+</li>
+<li>Click on the <strong>Extensions (puzzle piece) </strong>button in Chrome, then click on <strong>Sales Assist by Uberflip</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/4472164646541/SA9.png" alt="SA9.png">
+</li>
+</ul>
+</div>
+<div class="tab is-hidden">
+<ul class="list-bullet">
+<li>Requires <strong>Outlook 2016 or newer</strong>, or <strong>Outlook Office 365 (Outlook on the web)</strong>, or <strong>Outlook.com</strong>.</li>
+<li>Opens Sales Assist in a sidebar within Outlook.</li>
+<li>Choose this option to use Sales Assist without having to leave Outlook. This allows you to easily access Sales Assist while you're doing email outreach.</li>
+</ul>
+<p><strong>To access Sales Assist using the Outlook Add-in:</strong></p>
+<ul>
+<li>
+<strong>Install the Sales Assist Add-in for Outlook</strong>: see <a href="https://help.uberflip.com/hc/en-us/articles/360058009392">this article</a> for detailed instructions on how to get and install the Add-in.</li>
+</ul>
+</div>
+</div>
+<p>No matter which option you choose to access Sales Assist, <strong>the login process is the same</strong>:</p>
+<ol>
+<li>Click on <strong>Login with Uberflip</strong>.</li>
+<li>Enter your <strong>Uberflip username (email) </strong>and click <strong>Next.</strong>
+</li>
+<li>Enter your <strong>password</strong> and click <strong>Log In</strong>.
+<ul>
+<li>If your organization uses a Single Sign-On service (like Okta) to log in to Uberflip, click on the <strong>Log in with...</strong> button instead of entering your password, then sign in as normal. After you sign in, you'll be redirected back to Sales Assist.</li>
+</ul>
+</li>
+</ol>
+<p>That's it! You're logged in to Sales Assist, and can begin using the app.</p>
+<h2>Step 2: Gather content to share</h2>
+<h3>Step 2.1: Search for content</h3>
+<p>Next, use <strong>Search</strong> to find some content to share with your prospects. First, choose how you want to find content:</p>
+<div class="tabs tabs--colored-2">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Search the content library</span> <span class="tabs-link">Search Marketing collections</span>
+</div>
+<div class="tab">
+<p>If you're looking for something specific, use the search tools.</p>
+<ol>
+<li>In the<strong> All Items </strong>tab<strong>, type one or more keywords</strong> into the search box <strong>(1)</strong>.<br><strong>Optional:</strong><strong> </strong>add<strong> tag</strong> <strong>(2)</strong> or <strong>content type (3)</strong> filters.<img src="https://help.uberflip.com/hc/article_attachments/4472175846157/SA3.png" alt="SA3.png" width="589" height="163">
+</li>
+<li>
+<strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Browse the list of search results</strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"> to find the content you want:</span><img src="https://help.uberflip.com/hc/article_attachments/4472183408653/SA13.png" alt="SA13.png" width="545" height="428"><br><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Tip:</strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"> By default, the search results will be </span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">sorted by</strong> <strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Most Shared</strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">. Use the sort buttons in the results area to </span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">sort the search results </strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">by </span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Newest</strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"> or </span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Alphabetical</strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"> instead.<img src="https://help.uberflip.com/hc/article_attachments/16140481533325" width="451" height="132"></span>
+</li>
+</ol>
+</div>
+<div class="tab is-hidden">
+<p>Go to the <em><strong>Marketing Streams</strong> </em>tab to search <strong>ready-made collections of content </strong>put together by your Marketing team.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/12297776202509" alt="mceclip0.png" width="601" height="169"></p>
+<ol>
+<li>
+<strong>Type one or more keywords</strong> into the search box to search for specific content collections.<br><strong>Note:</strong> If your admin has set up <em>quick search</em> terms, these will appear below the search field so you can quickly click-to-search!</li>
+<li>
+<strong>Browse the list of search results</strong> to see available collections.</li>
+<li>To view content within a collection, <strong>hover your mouse over it</strong> and then click on <strong>Items.<br></strong><img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" src="https://help.uberflip.com/hc/article_attachments/4472200430989/SA6.png" alt="SA6.png" width="600" height="205">
+</li>
+</ol>
+</div>
+</div>
+<p> </p>
+<h3 id="h_01F2SJXMWFS08GYE5SXWC82VMJ">Step 2.2: Add content to your basket</h3>
+<p>When you find some content that you want to share, add it to your basket. Content in the basket will be included in the custom, personalized destination you'll share with your prospect.</p>
+<ol>
+<ol>
+<ol>
+<li>To add content to your basket, <strong>hover over an Item</strong> and <strong>click Add</strong><img src="https://help.uberflip.com/hc/article_attachments/4472223634189/SA18.png" alt="SA18.png" width="553" height="127">
+<p class="callout__title"><strong>Note:</strong> If you want to preview the Item before adding it, hover the Item and click<strong> Details, </strong>then choose the<strong> Preview tab</strong>.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Don't see the Add button?</h4>
+<p>If you don't see the Add button, this means that your Sales Assist admin has disabled the ability to create content collections from scratch. Don't worry — just skip to <a href="#h_01H1AH1BSE0308MGWMR98PY5ZX" target="_self">step 3</a>.</p>
+</div>
+</li>
+<li>Your basket is shown at the bottom or right of the page (depending on where you're using Sales Assist).<br>Here you'll also see how many items you've already added:<br><img src="https://help.uberflip.com/hc/article_attachments/4472237153293/SA11.png" alt="SA11.png" width="541" height="293">
+</li>
+</ol>
+</ol>
+</ol>
+<h2 id="h_01H1AH1BSE0308MGWMR98PY5ZX">Step 3: Create a Digital Sales Room (DSR)</h2>
+<p>Use the content in your basket to create a personalized destination for your prospect. We call this destination a "Digital Sales Room" or "DSR" — a custom microsite that you can set up in seconds.<br><img src="https://help.uberflip.com/hc/article_attachments/4472218150029/SA16.png" alt="SA16.png" width="600" height="645"></p>
+<ol>
+<li>With content items in your basket, click <strong>+ New Room</strong><br><img src="https://help.uberflip.com/hc/article_attachments/16141319545101" width="399" height="105"><br><strong>Note:</strong> You can also create a new DSR by clicking <strong>+ New</strong> in the main navigation <em>(not available to admins)</em> or in the <strong><em>Rooms </em></strong>section.<br><img src="https://help.uberflip.com/hc/article_attachments/16141101249037" width="602" height="119"><br>(This option is especially useful if you couldn't add content to your basket in <a href="#h_01F2SJXMWFS08GYE5SXWC82VMJ" target="_self"><strong>Step 2</strong></a>.)</li>
+<li>Fill out the <strong>Create a Digital Sales Room </strong>form to personalize the destination for your prospect<br><img src="https://help.uberflip.com/hc/article_attachments/16140978976781" alt="Screen_Shot_2023-05-25_at_2.52.54_PM.png" width="400" height="272"><br>
+<ul>
+<li>
+<strong>Prospect</strong>: Enter the email or just the domain (the part of the email after the @ symbol) of your prospect. Don't worry, nothing will be sent to them yet! Sales Assist just uses this information to find the prospect's company logo.</li>
+<li>
+<strong>Heading: </strong>This is your destination's headline, shown in large text across the top.</li>
+<li>
+<strong>Message</strong>: Use this to enter a brief personalized message for your prospect. It's shown immediately below the heading.</li>
+<li>
+<strong>Template</strong>: Select a premade template to style your destination (i.e. the banner, colors, etc.).</li>
+</ul>
+</li>
+<li>Click <strong>Create Room</strong> when you're done</li>
+<li>Your DSR will be created, and you'll be taken to the <strong>Manage Room </strong>page. Here you can <a href="https://help.uberflip.com/hc/en-us/articles/4423799497485" target="_self">personalize</a> and preview the DSR you just made.<br><img src="https://help.uberflip.com/hc/article_attachments/4472273464973/SA1.png" alt="SA1.png" width="600" height="365"><br>For a more in-depth look at creating and personalizing DSRs, check out: <a href="https://help.uberflip.com/hc/en-us/articles/4423799497485" target="_self" rel="undefined">Sales Assist: Create and share DSRs</a>.</li>
+</ol>
+<p>When you're happy with how everything looks, your destination is <strong>ready to be shared</strong>!</p>
+<p> </p>
+<h2>Step 4: Share the DSR with your prospect</h2>
+<p>Now that you've set up the DSR, you'll create a trackable embed link to it that you can share with your prospect.</p>
+<ol>
+<li>On the <strong>Manage Room</strong> page, <strong>click Share</strong><br><img src="https://help.uberflip.com/hc/article_attachments/4472301115661/SA2.png" alt="SA2.png" width="599" height="364">
+</li>
+<li>
+<strong>Choose the embed option</strong> you want to use. There are five options, with previews:<br><img src="https://help.uberflip.com/hc/article_attachments/4426772562957/gfds1.png" alt="gfds1.png">
+<ol>
+<li>
+<strong>Banner Image with Logos*: </strong><span style="font-weight: 400;">Your logo and your prospect’s logo over your DSR's banner.</span><strong><span style="font-weight: 400;"><br></span></strong><em>*This option is only available when:</em><br>
+<ul class="list-bullet">
+<li>A logo has been uploaded to the <strong>Hub Thumbnail</strong> field in your Uberflip account  (Appearance &gt; Branding &gt; Images (photo icon) &gt; Hub Thumbnail)</li>
+<li>You have set a prospect logo on the <strong>Manage Room</strong> page</li>
+<li>The DSR has a <strong>banner image</strong> set</li>
+</ul>
+</li>
+<li>
+<strong>Image and Text</strong>: Link preview, with logos and DSR heading. <br><strong>Note:</strong> If a prospect logo or Hub Thumbnail is not set, logos will be replaced by DSR description.</li>
+<li>
+<strong>Tile Image</strong>: A compact image that functions as a clickable link to the content.</li>
+<li>
+<strong>Just Text</strong>: Just a text link, no image.</li>
+<li>
+<strong>Just the Link:</strong> No embed, just the underlying URL (including its share tracking code) that you can link to.</li>
+</ol>
+</li>
+<li>
+<strong>C</strong><strong>lick on <em>Copy to Clipboard</em></strong> under the option you want to use...</li>
+<li>...then just <strong>paste the link into an email</strong> (or anywhere else you want to share it):<br><img src="https://help.uberflip.com/hc/article_attachments/4472330336269/SA8.png" alt="SA8.png" width="450" height="472">
+</li>
+<li>Now, just hit <strong>Send</strong> and wait for your prospect to start engaging with your content!</li>
+</ol>
+<h2>Step 5: Track engagement and follow up</h2>
+<p>Every link you share through Sales Assist has tracking built in. Sales Assist will notify you anytime someone is checking out the content you've shared, so that you can follow up with the right people at just the right time.</p>
+<p>As long as you're still logged in to Sales Assist in at least one browser tab (or the Chrome extension is open), you'll get a <strong>notification</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/4472369670285/SA10.png" alt="SA10.png"><br>And<strong> if you miss a notification</strong>, you can always <strong>click</strong> <em><strong>Activity </strong><strong>&gt; Events Log</strong></em> to catch up on historical engagement and stats:<br><img src="https://help.uberflip.com/hc/article_attachments/16099777431053" width="600" height="364"><br>For more information on tracking engagement and stats, check out <a href="https://help.uberflip.com/hc/en-us/articles/4423803775245" target="_self">Sales Assist: Track Stream engagement. </a></p>
+<p> </p>
+<h2>What's next?</h2>
+<p><strong>Great job, you're up and running with Sales Assist!</strong></p>
+<p>We only covered the basics in this quick start guide, and there's a lot more you can do with Sales Assist:</p>
+<ul class="list-bullet">
+<li><a href="https://help.uberflip.com/hc/en-us/articles/4423816459149" target="_self">Create your own content and templates</a></li>
+<li>
+<a href="https://help.uberflip.com/hc/en-us/articles/4423799497485-Sales-Assist-Create-manage-and-share-Streams#customize-a-stream" target="_self" rel="undefined">Customize your DSRs with: </a>
+<ul class="list-bullet">
+<li>a welcome video </li>
+<li>DSR sections</li>
+<li>a passphrase </li>
+<li>and more</li>
+</ul>
+</li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/15903613955597" target="_self" rel="undefined">Manage your existing DSRs</a></li>
+<li>
+<a href="https://help.uberflip.com/hc/en-us/articles/4423803775245" target="_self">See the stats for your DSRs</a> to see how they're doing</li>
+</ul>
+<p>If you want to learn more about these features and more, check out the <a href="https://help.uberflip.com/hc/en-us/sections/360012900191-Sales-Assist" target="_self">Sales Assist section</a> of the Uberflip Help Center.</p>]]></description>
+         <guid isPermaLink="false">360057767692</guid>
+         <pubDate>Wed, 10 Mar 2021 17:09:39 GMT</pubDate>
+      </item>
+      <item>
+         <title>Sales Assist: Get started as a Sales User</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360057052132-Sales-Assist-Get-started-as-a-Sales-User</link>
+         <description><![CDATA[<hr>
+<p>As a <strong>Sales User</strong>, you can use<strong> Sales Assist</strong> by Uberflip to easily find and share your organization's content with prospects. <strong>Get up and running in under ten minutes</strong> with this handy quick start guide.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>To use Sales Assist, you will need your <strong>Uberflip username and password</strong>. If you're not sure what they are, <strong>contact your Uberflip administrator </strong>for help.</li>
+<li>If you use Chrome, we recommend <strong>downloading the Sales Assist Chrome extension</strong>, which makes it really easy to share content by email or in the sales tool(s) you use. <a href="https://chrome.google.com/webstore/detail/sales-assist-by-uberflip/kcbkakmlohgokmebhdmhcffdpegnlobk">Click here to get the Sales Assist extension from the Chrome web store</a>.
+<ul>
+<li>Sales Assist is also fully responsive, so it works great on your mobile devices too!</li>
+</ul>
+</li>
+</ul>
+<p> </p>
+<h2>What is Sales Assist?</h2>
+<p>Sales Assist is Uberflip's <strong>next-generation sales engagement tool</strong>. Marketing teams use Uberflip to create content, and Sales Assist <strong>empowers sales representatives</strong> <strong>with that content </strong>by making it easy to find and use at any point during the sales cycle.</p>
+<p>With Sales Assist, you can:</p>
+<ul>
+<li>
+<strong>Easily find content </strong>your prospects will love (or even <strong>create your own</strong>)</li>
+<li>
+<strong>Personalize content</strong> in seconds</li>
+<li>
+<strong>Deliver content </strong>to prospects through <strong>personalized destinations</strong>
+</li>
+<li>
+<strong>Track engagement </strong>on content you've shared <strong>in real time </strong>with desktop notifications</li>
+</ul>
+<p>Sales Assist <strong>works within your existing sales workflows and tools</strong>, so it seamlessly integrates into your day-to-day and won't slow you down.</p>
+<p> </p>
+<h2>Navigating the app</h2>
+<p>In this section, we'll look at how to <strong>navigate the app</strong>.</p>
+<h3>Basic navigation</h3>
+<p>Sales Assist has three main sections: <strong>Search</strong>, <strong>My</strong> <strong>Streams</strong>, and <strong>My Shares</strong>. </p>
+<ul>
+<li>To navigate between these three sections, <strong>use the navigation menu </strong>at the top:<br><img src="https://help.uberflip.com/hc/article_attachments/4422920152333/Untitled_design__8_.png" alt="Untitled_design__8_.png">
+</li>
+</ul>
+<p><strong>Note:</strong> If you're a Sales Assist administrator, you'll also see an <strong>Admin</strong> section. See <a href="https://help.uberflip.com/hc/en-us/articles/360057767632" target="_self">Sales Assist: User Guide for Admins</a> for more information.</p>
+<ul>
+<li>
+<strong>Click your name in the top right</strong> to open the <strong>user menu</strong>, where you can edit your profile, access Sales Assist help and documentation, or sign out of the app:<br><img src="https://help.uberflip.com/hc/article_attachments/360090283632/image.png" alt="image.png">
+</li>
+</ul>
+<p> </p>
+<h3>Section overview</h3>
+<p>Here's a quick overview of what you'll find in each section:</p>
+<div class="tabs tabs--colored-2">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Search section</span> <span class="tabs-link">My Streams section</span> <span class="tabs-link">My Shares section</span>
+</div>
+<div class="tab">
+<p>Click on <img src="https://help.uberflip.com/hc/article_attachments/360090302352/image.png" alt="Search button"> in the navigation menu to open the <em>Search</em> section:<img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" src="https://help.uberflip.com/hc/article_attachments/4422928326669/1.png" alt="1.png" width="601" height="357"></p>
+<p> </p>
+<p>This section contains:</p>
+<ol>
+<li>The <strong>search tools</strong>, which allow you to find pieces of content ("Items"). You can search by <strong>keywords</strong>, <strong>tags</strong>, and <strong>content type</strong>, or just content within predefined content collections (Marketing Streams). You can also view the <strong>most shared Items</strong> in your organization, <strong>Items you've created yourself, </strong>or your<strong> favorited Items.</strong>
+</li>
+<li>The <strong>results panel</strong>, which lists all of the available content Items that match your search criteria. Here you can <strong>Add</strong> Items to your basket, see Items' <strong>preview or stats,</strong> or share Items directly. </li>
+<li>The <strong>basket</strong>, which is where you "save" Items (even across different searches) to include in a personalized <strong>destination</strong> ("Stream").</li>
+</ol>
+</div>
+<div class="tab is-hidden">
+<p>Click on <img src="https://help.uberflip.com/hc/article_attachments/360090275811/image.png" alt="My Streams button"> in the navigation menu to open the <em>My Streams</em> section:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360090287731/image.png" alt="image.png"></p>
+<p>This section displays <strong>a list of your previously created Streams</strong>, and allows you to <strong>view </strong>and <strong>edit</strong> them, as well as <strong>share </strong>them and <strong>see activity </strong>on Streams you've shared.</p>
+</div>
+<div class="tab is-hidden">
+<p>Click on <em><img src="https://help.uberflip.com/hc/article_attachments/360090303532/image.png" alt="My Shares button"></em> in the navigation menu to open the <em>My Shares</em> section:</p>
+<p><img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" src="https://help.uberflip.com/hc/article_attachments/4422938841741/Untitled_design__9_.png" alt="Untitled_design__9_.png"></p>
+<p>This section shows you <strong>activity and stats on Items and Streams you've shared</strong> in the past 48 hours, so you can follow up at the right time.</p>
+</div>
+</div>
+<h1>Sales Assist Quick Start Guide</h1>
+<p>Ready to get started with Sales Assist? <strong>Let's dive right in</strong>.</p>
+<h2>Step 1: Log in to Sales Assist</h2>
+<p>Because Sales Assist is a web app, there are multiple ways to access it. Simply choose the option(s) that best fit your outreach workflow:</p>
+<div class="tabs tabs--colored-2">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Browser (desktop and mobile)</span> <span class="tabs-link">Chrome extension</span> <span class="tabs-link">Outlook Add-in</span>
+</div>
+<div class="tab">
+<ul class="list-bullet">
+<li>Works with <strong>any browser</strong>, on <strong>any desktop or mobile device</strong>.</li>
+<li>Choose this option if want to use Sales Assist on a phone or tablet, or if you prefer to use a larger version of the Sales Assist interface on your desktop.</li>
+</ul>
+<p><strong>To access Sales Assist in a browser:</strong></p>
+<ul>
+<li>Go to <a href="https://sa.uberflip.com/" target="_self"><strong>https://sa.uberflip.com/</strong></a>
+</li>
+</ul>
+</div>
+<div class="tab is-hidden">
+<ul class="list-bullet">
+<li>Requires the <strong>Google Chrome browser</strong>.</li>
+<li>Opens Sales Assist in a sidebar, next to your current Chrome tab.</li>
+<li>Choose this option to use Sales Assist without having to leave the tab you're currently working in. This allows you to easily access Sales Assist while you're doing outreach by email (e.g. in Gmail), or using a web-based sales engagement tool (like Salesloft).</li>
+</ul>
+<p><strong>To access Sales Assist using the Chrome extension:</strong></p>
+<ul>
+<li>Go to the Chrome Web Store and <a href="https://chrome.google.com/webstore/detail/sales-assist-by-uberflip/kcbkakmlohgokmebhdmhcffdpegnlobk"><strong>download and install the Sales Assist extension</strong>.</a>
+</li>
+<li>Click on the <strong>Extensions (puzzle piece) </strong>button in Chrome, then click on <strong>Sales Assist by Uberflip</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360088738211/image.png" alt="image.png">
+</li>
+</ul>
+</div>
+<div class="tab is-hidden">
+<ul class="list-bullet">
+<li>Requires <strong>Outlook 2016 or newer</strong>, or <strong>Outlook Office 365 (Outlook on the web)</strong>, or <strong>Outlook.com</strong>.</li>
+<li>Opens Sales Assist in a sidebar within Outlook.</li>
+<li>Choose this option to use Sales Assist without having to leave Outlook. This allows you to easily access Sales Assist while you're doing email outreach.</li>
+</ul>
+<p><strong>To access Sales Assist using the Outlook Add-in:</strong></p>
+<ul>
+<li>
+<strong>Install the Sales Assist Add-in for Outlook</strong>: see <a href="https://help.uberflip.com/hc/en-us/articles/360058009392">this article</a> for detailed instructions on how to get and install the Add-in.</li>
+</ul>
+</div>
+</div>
+<p>No matter which option you choose to access Sales Assist, <strong>the login process is the same</strong>:</p>
+<ol>
+<li>Click on <strong>Login with Uberflip</strong>.</li>
+<li>Enter your <strong>Uberflip username (email) </strong>and click <strong>Next.</strong>
+</li>
+<li>Enter your <strong>password</strong> and click <strong>Log In</strong>.
+<ul>
+<li>If your organization uses a Single Sign-On service (like Okta) to log in to Uberflip, click on the <strong>Log in with...</strong> button instead of entering your password, then sign in as normal. After you sign in, you'll be redirected back to Sales Assist.</li>
+</ul>
+</li>
+</ol>
+<p>That's it! You're logged in to Sales Assist, and can begin using the app.</p>
+<h2>Step 2: Gather content to share</h2>
+<h3>Step 2.1: Search for content</h3>
+<p>Next, use <strong>Search</strong> to find some content to share with your prospects. First, choose how you want to find content:</p>
+<div class="tabs tabs--colored-2">
+<div class="tabs-menu">
+<span class="tabs-link is-active">View the most shared content</span> <span class="tabs-link">Search the content library</span> <span class="tabs-link">Search Marketing Streams</span>
+</div>
+<div class="tab">
+<p>If you just need some content fast, <strong>click on the See Most Shared button</strong>:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360088393851/Search___Sales_Assist.png" alt="Search___Sales_Assist.png" width="550" height="291"></p>
+<p>This will show you the top content that's been<strong> shared the most often</strong> <strong>by other Sales Users</strong> in your organization.</p>
+</div>
+<div class="tab is-hidden">
+<p>If you're looking for something specific, use the search tools.</p>
+<ol>
+<li>In the<strong> All Items </strong>tab<strong>, type one or more keywords</strong> into the search box <strong>(1)</strong>.<br><strong>Optional:</strong><strong> </strong>add<strong> tag</strong> <strong>(2)</strong> or <strong>content type (3)</strong> filters.<img src="https://help.uberflip.com/hc/article_attachments/4411407619213/image.png" alt="image.png" width="600" height="166">
+</li>
+<li>
+<strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Browse the list of search results</strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"> to find the content you want:</span><img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" src="https://help.uberflip.com/hc/article_attachments/360088397331/Search___Sales_Assist_and_Sales_Assist__Quick_start_guide_for_sales_reps.png" alt="Search___Sales_Assist_and_Sales_Assist__Quick_start_guide_for_sales_reps.png" width="550" height="431"><br><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Tip:</strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"> By default, the list of search results will be </span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">sorted by</strong> <strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Most Shared</strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">. Use the dropdown menu in the top right to </span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">sort the search results </strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">by </span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Newest</strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"> or </span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Alphabetical</strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"> instead:</span><img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" src="https://help.uberflip.com/hc/article_attachments/4407930318221/image.png" alt="image.png">
+</li>
+</ol>
+</div>
+<div class="tab is-hidden">
+<p>Go to the <strong>Marketing Streams</strong> <strong>tab</strong> to search <strong>ready-made collections of content </strong>within your content library:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/4411407654669/image.png" alt="image.png"></p>
+<ol>
+<li>
+<strong>Type one or more keywords</strong> into the search box to search for specific content collections.</li>
+<li>
+<strong>Browse the list of search results</strong> to see available collections.</li>
+<li>To view content within a collection, <strong>hover your mouse over it</strong> and then click on <strong>Items</strong>:<br>
+<p><img src="https://help.uberflip.com/hc/article_attachments/4411407507213/image.png" alt="image.png"></p>
+</li>
+</ol>
+</div>
+</div>
+<p> </p>
+<h3 id="h_01F2SJXMWFS08GYE5SXWC82VMJ">Step 2.2: Add content to your basket</h3>
+<p>When you find some content that you want to share, add it to your basket. Content in the basket will be included in the custom, personalized destination you'll share with your prospect.</p>
+<ol>
+<ol>
+<ol>
+<li>To add some content to your basket, <strong>hover your mouse over that content</strong>, then <strong>click on <em>Add</em></strong>:<img src="https://help.uberflip.com/hc/article_attachments/4424084149261/Untitled_design.png" alt="Untitled_design.png" width="548" height="126">
+<div class="callout callout--info">
+<h4 class="callout__title">Can't see the <em>Add</em> button?</h4>
+<p>If you don't see the <em>Add</em> button, this means that your Sales Assist admin has disabled the ability to create Streams from scratch. Don't worry — just skip to step 3.</p>
+</div>
+</li>
+<li>Your basket is shown at the bottom or right of the page (depending on where you're using Sales Assist).<br>Here you'll also see how many items you've already added:<br><img src="https://help.uberflip.com/hc/article_attachments/360088410371/Search___Sales_Assist.png" alt="Search___Sales_Assist.png" width="550" height="298">
+</li>
+</ol>
+</ol>
+</ol>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>Not sure if a piece of content is exactly what you're looking for? <strong>Hover </strong>your mouse over it, click<strong> Details, </strong>then click the<strong> Preview tab</strong> to view it:<br><img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" src="https://help.uberflip.com/hc/article_attachments/4424088890765/Untitled_design.png" alt="Untitled_design.png" width="546" height="53"></p>
+</div>
+<h2>Step 3: Create a personalized destination</h2>
+<p>Use the content in your basket to create a personalized destination for your prospect. We call this destination a "Stream" — a custom microsite that you can set up in seconds:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360088626452/stream.png" alt="stream.png" width="650" height="699"></p>
+<ol>
+<li>With content items in your basket, click on the <strong>New Stream</strong> button:<br><img src="https://help.uberflip.com/hc/article_attachments/360088547451/Search___Sales_Assist.png" alt="Search___Sales_Assist.png" width="549" height="197">
+<ul>
+<li>You can also create a new Stream by clicking on <strong><em>Streams</em></strong> at the top, then clicking on the <strong>+New</strong> button:<br><img src="https://help.uberflip.com/hc/article_attachments/360091966911/image.png" alt="image.png" width="538" height="186"><br>(This option is especially useful if you couldn't add content to your basket in <a href="#h_01F2SJXMWFS08GYE5SXWC82VMJ" target="_self"><strong>Step 2</strong></a>.)</li>
+</ul>
+</li>
+<li>Fill out the <strong>Create a New Sales Stream </strong>form to personalize the destination for your prospect:<br><img src="https://help.uberflip.com/hc/article_attachments/360088693451/stream_creation.png" alt="stream_creation.png" width="534" height="380"><br>
+<ul>
+<li>
+<strong>Heading: </strong>This is your destination's headline, shown in large text across the top.</li>
+<li>
+<strong>Message</strong>: Use this to enter a brief personalized message for your prospect. It's shown immediately below the heading.</li>
+<li>
+<strong>Prospect</strong>: Enter the email or just the domain (the part of the email after the @ symbol) of your prospect. Don't worry, nothing will be sent to them yet! Sales Assist just uses this information to find the prospect's company logo.</li>
+<li>
+<strong>Template</strong>: Select a premade template to style your destination (i.e. the banner, colors, etc.).</li>
+</ul>
+</li>
+<li> When you're done, click <strong>Create Stream</strong>.</li>
+<li>Your destination will now be created, and you'll be taken to the <strong>Manage Stream </strong>page. Here you can make necessary tweaks, add a welcome video, and <strong>preview the Stream</strong> you just made:<br><img src="https://help.uberflip.com/hc/article_attachments/4424101644813/1.png" alt="1.png" width="600" height="365">
+</li>
+</ol>
+<p>When you're happy with how everything looks, your destination is <strong>ready to be shared</strong>!</p>
+<p>For a more in-depth look at creating and managing Streams, check out: <a href="https://help.uberflip.com/hc/en-us/articles/4423799497485" target="_self">Sales Assist: Create, manage, and share Streams</a>.</p>
+<p> </p>
+<h2>Step 4: Share the destination with your prospect</h2>
+<p>Now that you've set up the destination, you'll create a trackable embed link to it that you can share with your prospect.</p>
+<ol>
+<li>On the <strong>Manage Stream</strong> page, <strong>click on the Share</strong> <strong>button</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/4424098059405/2.png" alt="2.png" width="600" height="365">
+</li>
+<li>
+<strong>Choose the embed option</strong> you want to use. There are five options, with previews:<br><img src="https://help.uberflip.com/hc/article_attachments/4426772562957/gfds1.png" alt="gfds1.png">
+<ol>
+<li>
+<strong>Banner Image with Logos*: </strong><span style="font-weight: 400;">Your logo and your prospect’s logo over your Stream's banner.</span><strong><span style="font-weight: 400;"><br></span></strong><em>*This option is only available when:</em><br>
+<ul class="list-bullet">
+<li>A logo has been uploaded to the <strong>Hub Thumbnail</strong> field in your Uberflip account  (Appearance &gt; Branding &gt; Images (photo icon) &gt; Hub Thumbnail)</li>
+<li>You have set a prospect logo on the <strong>Manage Stream</strong> page</li>
+<li>The Stream has a <strong>banner image</strong> set</li>
+</ul>
+</li>
+<li>
+<strong>Image and Text</strong>: Link preview, with logos and Stream heading. <br><strong>Note:</strong> If a prospect logo or Hub Thumbnail is not set, logos will be replaced by Stream description.</li>
+<li>
+<strong>Tile Image</strong>: A compact image that functions as a clickable link to the content.</li>
+<li>
+<strong>Just Text</strong>: Just a text link, no image.</li>
+<li>
+<strong>Just the Link:</strong> No embed, just the underlying URL (including its share tracking code) that you can link to.</li>
+</ol>
+</li>
+<li>
+<strong>C</strong><strong>lick on <em>Copy to Clipboard</em></strong> under the option you want to use...</li>
+<li>...then just <strong>paste the link into an email</strong> (or anywhere else you want to share it):<br><img src="https://help.uberflip.com/hc/article_attachments/360088720872/image.png" alt="image.png">
+</li>
+<li>Now, just hit <strong>Send</strong> and wait for your prospect to start engaging with your content!</li>
+</ol>
+<p> </p>
+<h2>Step 5: Track engagement and follow up</h2>
+<p>Every link you share through Sales Assist has tracking built in. Sales Assist will notify you anytime someone is checking out the content you've shared, so that you can follow up with the right people at just the right time.</p>
+<ol>
+<li>As long as you're still logged in to Sales Assist in at least one browser tab (or if the extension is open), you'll get a <strong>notification</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360088721472/notification.png" alt="notification.png">
+</li>
+<li>And if you miss a notification, you can always <strong>click on</strong> <em><strong>Shares</strong> </em>to catch up on historical engagement and stats:<br><img src="https://help.uberflip.com/hc/article_attachments/4424103232397/Untitled_designk.png" alt="Untitled_designk.png" width="600" height="364">
+</li>
+</ol>
+<p>For more information on tracking engagement and stats, check out <a href="https://help.uberflip.com/hc/en-us/articles/4423803775245" target="_self">Sales Assist: Track Stream engagement. </a></p>
+<p> </p>
+<h2>What's next?</h2>
+<p><strong>Great job, you're up and running with Sales Assist!</strong></p>
+<p>We only covered the basics in this quick start guide, and there's a lot more you can do with Sales Assist:</p>
+<ul class="list-bullet">
+<li><a href="https://help.uberflip.com/hc/en-us/articles/4423816459149" target="_self">Create your own content and templates</a></li>
+<li>
+<a href="https://help.uberflip.com/hc/en-us/articles/4423799497485-Sales-Assist-Create-manage-and-share-Streams#customize-a-stream" target="_self" rel="undefined">Customize your Streams with: </a>
+<ul class="list-bullet">
+<li>a welcome video </li>
+<li>Stream sections</li>
+<li>a passphrase </li>
+<li>and more</li>
+</ul>
+</li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/4423799497485-Sales-Assist-Create-manage-and-share-Streams#manage-your-streams" target="_self">Manage your Streams </a></li>
+</ul>
+<p>If you want to learn more about these features and more, check out the <a href="https://help.uberflip.com/hc/en-us/sections/360012900191-Sales-Assist" target="_self">Sales Assist section</a> of the Uberflip Help Center.</p>]]></description>
+         <guid isPermaLink="false">360057052132</guid>
+         <pubDate>Wed, 24 Feb 2021 22:14:35 GMT</pubDate>
+      </item>
+      <item>
+         <title>Sales Assist: Create, customize, and share Digital Sales Rooms (DSRs)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4423799497485-Sales-Assist-Create-customize-and-share-Digital-Sales-Rooms-DSRs</link>
+         <description><![CDATA[<p>Using Sales Assist, you can <strong>create</strong> and <strong>customize</strong> your own <strong>personalized Digital Sales Rooms </strong>(DSRs) and <strong>share</strong> them with your prospects. This article will show you how.</p>
+<p> </p>
+<h2>Create a DSR</h2>
+<p>Sales Assist also allows you to <strong>collect multiple pieces of content</strong>, and use them to create a <strong>self-contained microsite</strong> called a Digital Sales Rooms (DSR).</p>
+<p>DSRs allow you to <strong>showcase a small collection of content</strong> that you've curated for your prospect. You can personalize a DSR with a custom headline and message, and use a template to make it look great:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/17697659390733" alt="image2.png" width="599" height="408"></p>
+<p>To <strong>create DSRs</strong>, follow these instructions:</p>
+<div class="accordion accordion--default">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Create a DSR from scratch</strong></div>
+<div class="accordion__item-content">
+<p>You can create your own DSRs to quickly build personalized destinations for your prospects.</p>
+<h4>Option 1: Start by selecting content</h4>
+<p>You can start creating a new DSR by first choosing the content that will be in it. This option is useful if you have some specific content in mind, or if you want to really personalize the DSR for your prospect.</p>
+<ol>
+<li>Head into the <em>Search</em> section of Sales Assist<br><img src="https://help.uberflip.com/hc/article_attachments/16375660582541" alt="Untitled_design__1_.png">
+</li>
+<li>Use the search features to find content you want to add to your DSR</li>
+<li>Hover over Items you want to add and click the <strong>Add</strong> button that appears<br><img src="https://help.uberflip.com/hc/article_attachments/17697659393933" alt="image3.png">
+</li>
+<li>This will add the content to your <strong>basket</strong>, which means it's selected to be included in your DSR. <strong>Repeat the process of adding content to your basket</strong> until you've added all the Items you want.<br>
+<ul>
+<li>You can add <strong>up to 20 Items</strong> to a DSR in total.</li>
+<li>
+<strong>Items that have been added to your basket will stay there</strong>, even if you change your search filters or perform a whole new search. Don't be afraid to keep searching to find the perfect content!</li>
+</ul>
+</li>
+<li>When you're ready to proceed, click the <strong>New Room</strong> button<br><img src="https://help.uberflip.com/hc/article_attachments/17697666772365" alt="Untitled_design__11_.png">
+</li>
+<li>Fill out the <strong>Create a New Digital Sales Room </strong>form to personalize the destination for your prospect<br><img src="https://help.uberflip.com/hc/article_attachments/7434474715021" alt="image.png" width="400" height="472"><br>
+<ul>
+<li>
+<strong>Prospect (optional)</strong>: Enter the email or just the domain (the part of the email after the @ symbol) of your prospect. Don't worry, nothing will be sent to them yet! Sales Assist just uses this information to find the prospect's company logo.</li>
+<li>
+<strong>Heading (required): </strong>This is your destination's headline, shown in large text across the top</li>
+<li>
+<strong>Message (optional)</strong>: Use this to enter a brief personalized message for your prospect. It's shown immediately below the heading</li>
+<li>
+<strong>Template (optional)</strong>: Select a premade template to style your destination (i.e. the banner, colors, etc.)</li>
+</ul>
+</li>
+<li>Click <strong>Create Room</strong>
+</li>
+<li>Your DSR will now be created, and the <strong>Manage Room </strong>page will be shown. Here, you can <strong>customize your DSR </strong>(see below) before <a href="#h_01F1K9WJ7EZ7VJPXFN0VXTTAHW" target="_self">sharing</a> it.</li>
+</ol>
+<h4>Option 2: Start without selecting content</h4>
+<p>You can also create a new DSR without first selecting content. This option is useful if your organization uses templates that "pre-fill" your DSR with selected content: in this case, just choose the appropriate template while creating the DSR, then either keep only the pre-filled content, or add/remove content as needed.</p>
+<ol>
+<li>In Sales Assist, click <strong>Rooms</strong> button in the navigation menu</li>
+<li>In the top right corner, click the <strong>+New</strong> button<br><img src="https://help.uberflip.com/hc/article_attachments/17697659403789" alt="image.png">
+</li>
+<li>This will open the <strong>Create a New Digital Sales Room</strong> form. Simply complete this form as described in <em>Option 1</em> above, then click on <strong>Create Room</strong>.</li>
+<li>Your DSR will be created, and you'll be taken to the <strong>Manage Room</strong> page. From here, you can <strong>customize your DSR </strong>(see below), for example by adding or removing Items.</li>
+</ol>
+<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>Once you've created at least one DSR, you'll also see an <strong>Existing</strong> button below the basket. Use this button to select an existing DSR to add the content in the basket to (rather than creating a new DSR):</p>
+</div>
+<h3 id="h_01F1K9Y6PX1JJXJYJYY181PA5H"><img src="https://help.uberflip.com/hc/article_attachments/17697659408141" alt="Untitled__840___260_px_.png" width="414" height="128"></h3>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Duplicate an existing DSR</strong></div>
+<div class="accordion__item-content">
+<p>You can copy any existing DSR to create a new one. This is useful if you have an existing DSR that you want to reuse for a different prospect.</p>
+<ol>
+<li>Go to the <strong>Rooms</strong> section<em> (target icon)</em> of Sales Assist</li>
+<li>Find the DSR you want to duplicate</li>
+<li>Hover over it, and click <strong>Duplicate<br><img src="https://help.uberflip.com/hc/article_attachments/9340216575885" alt="mceclip0.png" width="618" height="43"></strong>
+</li>
+<li>In the <strong>Duplicate Room</strong> window, enter a <strong>heading</strong>, <strong>message</strong>, and <strong>prospect</strong> for the new DSR<br><img src="https://help.uberflip.com/hc/article_attachments/16320776830093" alt="Screen_Shot_2023-06-01_at_9.05.18_AM.png" width="401" height="287">
+</li>
+<li>Click <strong>Duplicate Room</strong>
+</li>
+<li>Your <strong>new DSR will immediately be created</strong>. It'll have the new heading, message, and prospect and logo you just set, but will otherwise be an exact duplicate of the existing DSR (the same template, content, customizations, etc.). From here, you can either modify the DSR further, or just share it right away.</li>
+</ol>
+</div>
+</div>
+</div>
+<p> </p>
+<h2 id="h_01F1K9Y6PX1JJXJYJYY181PA5H">Customize a DSR</h2>
+<p>After creating a DSR, you can customize it in various ways. Sales Assist will show a live preview as you make changes so you can see how it looks. You can:</p>
+<ul class="list-bullet">
+<li>Change the <strong>heading</strong>, <strong>message</strong>, <strong>prospect</strong>, or <strong>template</strong>
+</li>
+<li>Add a <strong>welcome video</strong>
+</li>
+<li>Add<strong> content sections</strong>
+</li>
+<li>Choose an <strong>icon</strong> and add a <strong>custom banner image</strong>
+</li>
+<li>Add a <strong>passphrase</strong>, to protect DSRs with sensitive contents</li>
+<li>
+<strong>Add</strong>, <strong>remove</strong>, or <strong>change the order</strong> of Items in the DSR</li>
+</ul>
+<p>To customize a DSR, use the <strong>Manage Room</strong> page. This page is shown automatically whenever you create a DSR, but you can also reopen it manually at any time:</p>
+<ol>
+<li>In Sales Assist, click on the <strong>Rooms</strong> button in the navigation menu</li>
+<li>In the list of DSRs, <strong>hover your mouse over the DSR </strong>you want to customize</li>
+<li>Click the <strong>Edit button</strong><em> (pencil icon)</em><br><img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 15px;" src="https://help.uberflip.com/hc/article_attachments/17697666786061" alt="Screen_Shot_2023-05-18_at_2.48.57_PM.png" width="240" height="176">
+</li>
+<li>The <strong>Manage Room</strong> page for the selected DSR will open</li>
+</ol>
+<p>To learn <strong>how to use the various customization options</strong>, follow the instructions below:</p>
+<div class="accordion accordion--default">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Change a DSR's heading, message, or prospect logo</strong></div>
+<div class="accordion__item-content">
+<p>You can modify a DSR's heading, message, or prospect and logo at any time.</p>
+<ul>
+<li>Open the <strong>Manage Room</strong> page for the DSR you want to customize. Then:<br><img src="https://help.uberflip.com/hc/article_attachments/12293950677773" alt="mceclip4.png" width="600" height="365"><br>
+<ol>
+<li>
+<strong>To change the heading</strong>: Enter new text you want to use into the <strong>Heading</strong> field. The heading on the DSR will be updated immediately.</li>
+<li>
+<strong>To change the message</strong>: Enter the new text you want to use into the <strong>Message</strong> field (or remove the text). The message on the DSR will be updated immediately.</li>
+<li>
+<strong>To change the prospect logo</strong>: Click on the current logo to open the <strong>Set Room Logo</strong> window. Search for the company name and click the correct logo, or upload a logo from your computer. <br><img src="https://help.uberflip.com/hc/article_attachments/16321207149837" alt="Screen_Shot_2023-06-01_at_9.14.41_AM.png" width="324" height="165"><br>The new logo will appear in the preview to the right, and will be updated on the DSR immediately.<br>
+<ul>
+<li>You can also change the prospect by entering a new prospect email address (or domain) into the <strong>Prospect </strong>field. Doing this will not change the current prospect logo.</li>
+<li>If you want to just remove the prospect logo altogether, click on <strong>remove logo</strong> below the preview.</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Add a welcome video</strong></div>
+<div class="accordion__item-content">
+<p>Add a welcome video that will auto-open when your prospect visits your DSR for the first time. </p>
+<ol>
+<li>Go to the <strong>Rooms </strong>page in Sales Assist</li>
+<li>Hover over the DSR you want to add a welcome video to and click<strong> Edit</strong>
+</li>
+<li>Under the <strong>Details &gt; Basic</strong> tab, enter the video URL in the <strong>Welcome Video URL</strong> field<br><strong>Note:</strong> This can be hosted on any platform that supports embeddable video. <br><img src="https://help.uberflip.com/hc/article_attachments/12293146824845" alt="mceclip1.png" width="600" height="366">
+</li>
+</ol>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Add content section headings</strong></div>
+<div class="accordion__item-content">
+<p>Break your DSR's content into organized sections by adding section headings.</p>
+<ol>
+<li>Go to the<strong> Rooms </strong>page in Sales Assist</li>
+<li>Hover over the DSR you want to add a heading to and click<strong> Edit</strong>
+</li>
+<li>Click the <strong>Items</strong> tab</li>
+<li>Click <strong>Add Section</strong><br>A new section heading will appear at the top of the Items list.<br><img src="https://help.uberflip.com/hc/article_attachments/12293654221709" alt="mceclip2.png" width="499" height="210">
+</li>
+<li>Hover over the section heading Item and click <strong>Edit</strong><br><img src="https://help.uberflip.com/hc/article_attachments/17697659421965" alt="Untitled_design__20_.png" width="551" height="171">
+</li>
+<li>In the modal that appears, enter a heading name, then click <strong>Update</strong>
+</li>
+<li>Drag and drop your new section heading to where you'd like it in your DSR</li>
+<li>Drag and drop your other items into place if needed</li>
+</ol>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Add a calendar booking CTA</strong></div>
+<div class="accordion__item-content">
+<p>Add a calendar booking CTA to your DSR or Items, so your prospects can instantly book a meeting with you. </p>
+<ol>
+<li>Go to the<strong> Rooms </strong>page in Sales Assist</li>
+<li>Hover over the DSR you want to add a heading to and click<strong> Edit</strong>
+</li>
+<li>Select the <strong>Items</strong> tab</li>
+<li>Click the <strong>Add Calendar</strong> button<br><strong>Note:</strong> If the button is grayed out, there is already a Calendar Item in your DSR. Find it, hover over it, and click <strong>Configure </strong>to continue.<br><img src="https://help.uberflip.com/hc/article_attachments/17697659430541" alt="Untitled_design__21_.png" width="567" height="288">
+</li>
+<li>In the modal that opens, enter the URL of your calendar, then click <strong>Confirm</strong>.<br><strong>Note:</strong> Sales Assist can integrate with most embeddable calendar booking services.  </li>
+<li>Enter a tagline, button label, and choose to display the CTA at Item level, DSR level, or both.</li>
+<li>Drag and drop your calendar CTA where you'd like it displayed among your Items.</li>
+</ol>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Change a DSR's template</strong></div>
+<div class="accordion__item-content">
+<p>The template you have applied to a DSR determines its appearance. Even after you've created a DSR, you can change the template used by the DSR at any time.</p>
+<ol>
+<li>Open the <strong>Manage Rooms</strong> page for the DSR you want to customize</li>
+<li>Click <strong>Appearance</strong>
+</li>
+<li>Use the <em><strong>Template </strong></em>dropdown to select a new template:<br><img src="https://help.uberflip.com/hc/article_attachments/12293755810829" alt="mceclip3.png" width="400" height="332">
+</li>
+<li>The new template will be <strong>applied immediately</strong>. To see the change, click <strong>Preview Room</strong>.</li>
+</ol>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Edit or remove the banner image and icon</strong></div>
+<div class="accordion__item-content">
+<p>When you choose a template for your DSR, it'll (typically) include a preset hero banner. If you want, you can replace the image and icon with your ones choices. Or remove the hero banner (incl. logos/icon) all together.</p>
+<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>To add a new hero image, you'll need the URL where the new image is hosted. The URL must end with the image file extension (e.g.<em> .jpg</em>, <em>.png</em>, etc.) to work.</p>
+</div>
+<ol>
+<li>Open the <strong>Manage Room</strong> page for the DSR you want to customize</li>
+<li>In the <em>Details</em> tab, click <strong>Appearance:</strong>
+</li>
+</ol>
+<h3>Turn the hero banner and logos on/off:</h3>
+<p>Click the<strong> Banner &amp; Logos </strong>toggle to turn it on <em>(green)</em> or off <em>(grey).<br><img src="https://help.uberflip.com/hc/article_attachments/17697319787917" width="399" height="232"></em></p>
+<h3>Change the banner image and icon:</h3>
+<ol>
+<li>In the <em>Banner Image</em> field, enter the <strong>URL of the banner image</strong> you want to use</li>
+<li>Select a <em>Banner Icon</em> to use in your DSR banner (between yours and your prospects logos)<br><img src="https://help.uberflip.com/hc/article_attachments/17697617128717" width="399" height="375">
+</li>
+<li>The new banner will be <strong>applied immediately<br></strong>
+</li>
+</ol>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>If you change the template of this DSR <strong>after</strong> setting a custom banner, the custom banner will be removed and replaced with the banner specified in the template.</p>
+</div>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Add a passphrase to a DSR</strong></div>
+<div class="accordion__item-content">
+<p>If you need to ensure that only a specific audience can view the DSR, you can protect it by adding a passphrase: anyone who visits the link must enter the correct passphrase before they can view the content in the DSR.</p>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>This option is especially useful for DSRs that include sensitive content, such as pricing information.</p>
+</div>
+<ol>
+<li>Open the <strong>Manage Rooms</strong> page for the DSR you want to customize</li>
+<li>Under the<em><strong> Details</strong></em> tab, click <strong>Passphrase</strong>
+</li>
+<li>Enter the passphrase you want to use in the <strong>Passphrase Protect</strong> field<br><img src="https://help.uberflip.com/hc/article_attachments/17697666799117" alt="image.png">
+<ul>
+<li>The passphrase must be <strong>between 6 and 40 characters</strong> in length, and <strong>must contain at least one letter and one number</strong>.</li>
+</ul>
+</li>
+<li>If the passphrase meets the requirements, you'll see a green checkmark beside the Passphrase Protect field, and the passphrase will be <strong>applied immediately</strong>. To see the change, click on <strong>Preview</strong><br><img src="https://help.uberflip.com/hc/article_attachments/17697666802701" alt="image.png" width="402" height="271">
+</li>
+<li>Lastly, <strong>don't forget to tell your prospect what the passphrase is</strong>!</li>
+</ol>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Add, remove, or reorder Items in a DSR</strong></div>
+<div class="accordion__item-content">
+<h4>Add an Item</h4>
+<p>You can add Items to an existing DSR.</p>
+<ol>
+<li>Open the <strong>Manage Room</strong> page for the DSR to which you want to add Items</li>
+<li>Select the <strong>Items</strong> tab</li>
+<li>Click <strong>Add Items</strong><br>
+<p><img src="https://help.uberflip.com/hc/article_attachments/5812628320909" alt="mceclip0.png" width="500" height="254"></p>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>Want to create a new Item from a file? Click <strong>Create an Item</strong>.</p>
+</div>
+</li>
+<li>
+<strong>Add Items to your basket</strong> as usual.</li>
+<li>Below the basket, click on <strong>Current Room</strong><br>
+<h4 class="callout__title"><img src="https://help.uberflip.com/hc/article_attachments/17697659441037" alt="image.png"></h4>
+</li>
+<li>The new Items will be <strong>added to the DSR immediately</strong>.</li>
+</ol>
+<h4>Remove an Item</h4>
+<p>You can also remove Items from an existing DSR.</p>
+<ol>
+<li>Open the <strong>Manage Room</strong> page for the DSR from which you want to remove Items.</li>
+<li>Select the <strong>Items</strong> tab.</li>
+<li>In the basket, <strong>hover your mouse over the Item </strong>and click on<strong> Remove</strong><br><img src="https://help.uberflip.com/hc/article_attachments/17697666808845" alt="image.png">
+</li>
+<li>The Item will <strong>removed from the DSR immediately</strong>. </li>
+</ol>
+<h4 id="h_01F1NQRA2E520F6AKDW47GK164">Reorder Items in a DSR</h4>
+<p>The order of Items in the Items tab matches the order content appears in the DSR. You can change the order of Items in a DSR by drag &amp; dropping them in the list:</p>
+<ol>
+<li>Open the <strong>Manage Room</strong> page for the DSR you want to customize.</li>
+<li>Click on the <strong>Items</strong> tab.</li>
+<li>
+<strong>Click-and-hold </strong>on any Item you want to move to a different place in the order, then <strong>drag it to the desired position</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/17697659449997" alt="Items_Tab_Reorder.gif" width="599" height="348"><br>The new Item order will be <strong>applied immediately</strong>. </li>
+</ol>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>This works anywhere the basket is shown, so you can even determine the order of Items in your DSR <em>while</em> still filling the basket.</p>
+</div>
+</div>
+</div>
+</div>
+<p> </p>
+<h2 id="h_01F1K9WJ7EZ7VJPXFN0VXTTAHW">Share a DSR</h2>
+<p>When your DSR is ready, you can easily <strong>share it with your prospect</strong>. </p>
+<p>Sharing a DSR creates a variety of <strong>embed options</strong>. All you need to do is choose which embed option you want, then simply <strong>paste into an email</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/17697659455245" alt="image5.png" width="400" height="420"></p>
+<p>As with all content you share through Sales Assist, embed links for DSRs contain a unique <strong>share tracking code </strong>that allow the app to <a href="https://help.uberflip.com/hc/en-us/articles/4423803775245" target="_self" rel="undefined">keep track and notify you when a prospect engages</a> with your shared content.</p>
+<p>To <strong>share a DSR</strong>, follow these instructions:</p>
+<div class="accordion accordion--default">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>How to share a DSR</strong></div>
+<div class="accordion__item-content">
+<p>You can share any new or existing DSR that you've created in Sales Assist.</p>
+<ol>
+<li>From the <strong>Rooms</strong> page, hover over your DSR and click <strong>Share</strong><br>
+<h4><img src="https://help.uberflip.com/hc/article_attachments/9340677572493" alt="mceclip3.png" width="604" height="42"></h4>
+<strong>or</strong> from the <strong>Manage Room</strong> page, click <strong>Share</strong> at the bottom of the page<br><img src="https://help.uberflip.com/hc/article_attachments/17697659458189" alt="Untitled_design__14_.png" width="600" height="99">
+</li>
+<li>
+<strong>Choose the embed option</strong> you want to use. There are five options, with previews:<br><img src="https://help.uberflip.com/hc/article_attachments/4426772562957" alt="gfds1.png">
+<ol>
+<li>
+<strong>Banner Image with Logos*: </strong><span style="font-weight: 400;">Your logo and your prospect’s logo over your DSR's banner.</span><strong><span style="font-weight: 400;"><br></span></strong><em>*This option is only available when:</em><br>
+<ul class="list-bullet">
+<li>A logo has been uploaded to the <strong>Hub Thumbnail</strong> field in your Uberflip account  (Appearance &gt; Branding &gt; Images (photo icon) &gt; Hub Thumbnail)</li>
+<li>You have set a prospect logo on the <strong>Manage Room</strong> page</li>
+<li>The DSR has a <strong>banner image</strong> set</li>
+</ul>
+</li>
+<li>
+<strong>Image and Text</strong>: Link preview, with logos and DSR heading. <br><strong>Note:</strong> If a prospect logo or Hub Thumbnail is not set, logos will be replaced by DSR description.</li>
+<li>
+<strong>Tile Image</strong>: A compact image that functions as a clickable link to the content.</li>
+<li>
+<strong>Just Text</strong>: Just a text link, no image.</li>
+<li>
+<strong>Just the Link:</strong> No embed, just the underlying URL (including its share tracking code) that you can link to.</li>
+</ol>
+</li>
+<li>Each option will appear just as shown in its preview. Click on <strong>Copy to Clipboard</strong> below the option you want to use.</li>
+<li>Finally, just <strong>paste the embed</strong> into an email (or elsewhere) to share it with your prospect (e.g. right-click anywhere in the email and click <strong>Paste</strong>, or just press <em>Ctrl+V/Command+V</em>).</li>
+</ol>
+<div class="callout">
+<h4 class="callout__title">Share image</h4>
+<p>By default, the image used for the embed tile will be taken from the first Item in the DSR.<br><strong>Want to use a different image?</strong> Change the order of Items in the DSR, or add a <strong>custom image</strong> with these steps:</p>
+<ol>
+<li>On the <strong>Manage Room</strong> page, select the <strong>Details</strong> tab</li>
+<li>Select the <strong>Sharing</strong> sub-tab</li>
+<li>In the <strong>Custom Share Image </strong>field: paste a URL, select a preloaded image, or click the cloud icon to upload an image</li>
+</ol>
+</div>
+</div>
+</div>
+</div>]]></description>
+         <guid isPermaLink="false">4423799497485</guid>
+         <pubDate>Tue, 01 Feb 2022 22:25:55 GMT</pubDate>
+      </item>
+      <item>
+         <title>Sales Assist: Create an Item from a file</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/5842216279309-Sales-Assist-Create-an-Item-from-a-file</link>
+         <description><![CDATA[<p><span style="font-weight: 400;">Want to take a file from your device or the web, and put it directly into a Digital Sales Rooms (DSRs)? You can!</span></p>
+<p><span style="font-weight: 400;">In Sales Assist, you can upload: </span></p>
+<ul class="list-bullet">
+<li><span style="font-weight: 400;">PDFs</span></li>
+<li><span style="font-weight: 400;">PPT/PPTXs</span></li>
+<li><span style="font-weight: 400;">DOC/DOCXs</span></li>
+<li><span style="font-weight: 400;">XLS/XLSXs</span></li>
+</ul>
+<p><span style="font-weight: 400;">Each file uploaded can be<strong> up to 25MB </strong>in size. </span></p>
+<h2><span style="font-weight: 400;">Create an Item from a file</span></h2>
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Head to the </span><strong>Rooms</strong><span style="font-weight: 400;"> section<em> (target icon)</em> of Sales Assist </span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Select an existing DSR or <a href="https://help.uberflip.com/hc/en-us/articles/4423799497485" target="_self">create a new one</a></span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">On the Manage Digital Sales Room page, select the </span><strong>Items </strong>tab</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click</span><strong> Create an Item<br><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/5842145620877/efdzx.png" alt="efdzx.png" width="500" height="254"></span></strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In the modal that appears, enter a document URL, or click the cloud icon to upload a file<br></span><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/5842016359949/werfgvcx.png" alt="werfgvcx.png" width="300" height="353"></span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Enter a title and description, and choose (or upload) an image</span></li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Optional: </strong><span style="font-weight: 400;">Click</span><strong> Add Context for Prospect</strong><span style="font-weight: 400;"> to add contextual copy that will appear beneath the Item</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>Create and Insert</strong>
+</li>
+</ol>
+<p><span style="font-weight: 400;">That’s it! Your newly created Item has been added to the selected DSR.</span></p>]]></description>
+         <guid isPermaLink="false">5842216279309</guid>
+         <pubDate>Wed, 27 Apr 2022 20:35:55 GMT</pubDate>
+      </item>
+      <item>
+         <title>Sales Assist: Add a gate CTA or passphrase to a DSR</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/5123676873101-Sales-Assist-Add-a-gate-CTA-or-passphrase-to-a-DSR</link>
+         <description><![CDATA[<p><span style="font-weight: 400;">Want to gather information on a visitor before they dive into your content? Looking to ensure your Digital Sales Rooms (DSR) are only seen by prospects at the company you created them for? Gate CTAs and passphrase can help with that, and this article will show you how. </span></p>
+<h2><span style="font-weight: 400;">What is a gate CTA?</span></h2>
+<p><span style="font-weight: 400;">A gate CTA is a Form CTA (designed by you) that appears as a lightbox element over a DSR. It blocks the content of the DSR from being viewed until an unknown visitor submits the information you’ve requested (or a soft CTA is skipped).<br></span><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/5128098601357/Screen_Shot_2022-03-28_at_11.02.05_AM.png" alt="Screen_Shot_2022-03-28_at_11.02.05_AM.png" width="599" height="348"></span></p>
+<p><strong>Note:</strong><span style="font-weight: 400;"> Visitors who are already known in your MAP will skip the gate automatically. </span></p>
+<p><span style="font-weight: 400;">There are <strong>three gate options</strong> to choose from:</span></p>
+<ul class="list-bullet">
+<li>
+<strong>Soft</strong> <span style="font-weight: 400;"><br></span><span style="font-weight: 400;">A </span><em><span style="font-weight: 400;">soft</span></em><span style="font-weight: 400;"> gate will prompt your visitor for their information, but the visitor can choose to skip the gate if they’d like.</span>
+</li>
+<li>
+<strong>Hard <br></strong>A <em style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">hard</em><span style="font-weight: 400;"> gate requires an email (from any domain) to be entered by the user for them to access the DSR.</span>
+</li>
+<li>
+<strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Protect<br></strong>A <em style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">protect</em><span style="font-weight: 400;"> gate requires the viewer to enter an email </span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">from the prospect domain</strong><span style="font-weight: 400;"> you’ve set for that DSR.</span>
+</li>
+</ul>
+<div class="callout callout--warning">
+<h4 class="callout__title">Caution</h4>
+<p><span style="font-weight: 400;">While a </span><em><span style="font-weight: 400;">protect </span></em><span style="font-weight: 400;">gate</span><span style="font-weight: 400;"> is a great way to ensure you gather new contacts, a savvy visitor may be able to find their way around it. To protect a DSR containing sensitive information, use a </span><a href="https://help.uberflip.com/hc/en-us/articles/4423799497485-Sales-Assist-Create-manage-and-share-Streams#customize-a-stream"><span style="font-weight: 400;">passphrase</span></a><span style="font-weight: 400;">, or pair a </span><em><span style="font-weight: 400;">protect</span></em><span style="font-weight: 400;"> gate with a passphrase for max security.</span></p>
+</div>
+<h2><span style="font-weight: 400;">Configure a gate CTA</span></h2>
+<p><span style="font-weight: 400;">To enable your Sales Reps to add gate CTAs to their DSRs, you must first configure the gate CTA settings in Sales Assist, here’s how: </span></p>
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In the topbar menu of Uberflip, click </span><strong>Marketplace</strong><span style="font-weight: 400;"> &gt; </span><strong>Installed apps</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Find Sales Assist and click the pencil icon to the right of it</span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Scroll to the</span><strong> CTA ID</strong><span style="font-weight: 400;"> section </span>
+</li>
+<li style="font-weight: 400;" aria-level="1">Ensure the CTA ID listed is for the Form CTA you want to use as your gate. If it's not, grab the correct CTA ID (<strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Calls-to-Action </strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">&gt;</span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"> Form Calls-to-Action)</strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"> and enter it here. <br><br></span>
+<div class="callout">
+<h4 class="callout__title">Still using Flipbot?</h4>
+<p><span style="font-weight: 400;">Using the same CTA ID in Flipbot and Sales Assist will cause issues. </span><strong>We don’t recommend using these two apps together</strong><span style="font-weight: 400;"> at your company, and suggest using only Sales Assist moving forward. But if you’re not ready to give up Flipbot, please use a different CTA ID in Sales Assist.</span></p>
+</div>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Scroll to the </span><strong>Gate CTA</strong><span style="font-weight: 400;"> section</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Toggle on the Gate CTA feature<br></span><img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" src="https://help.uberflip.com/hc/article_attachments/5123533143181/Screen_Shot_2022-03-22_at_1.24.26_PM.png" alt="Screen_Shot_2022-03-22_at_1.24.26_PM.png" width="400" height="84">
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Optional:</strong><span style="font-weight: 400;"> Under </span><strong>GATE CTA &gt; Delay, </strong><span style="font-weight: 400;">choose the time delay (in seconds) for when the CTA will pop up for the visitor</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Optional: </strong><span style="font-weight: 400;">Under</span><strong> Gate CTA &gt; Dismiss Label, </strong><span style="font-weight: 400;">add a label that appears under </span><strong>soft gates, </strong><span style="font-weight: 400;">which indicates to the visitor that it can be skipped</span>
+</li>
+</ol>
+<h3><span style="font-weight: 400;">Pass the share token to your MAP</span></h3>
+<p><span style="font-weight: 400;">If you want to capture the share token in your Marketing Automation Platform (MAP), you can set up field mapping for this now. </span></p>
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">When </span><a href="https://help.uberflip.com/hc/en-us/articles/360020989871" target="_self" rel="undefined">creating</a><span style="font-weight: 400;"> or editing the CTA you’ll use as your gate CTA, add your MAP’s field of choice as a </span><strong>hidden field</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In the Sales Assist settings (from the above steps), under </span><em><strong style="font-weight: 400;">Gate CTA &gt; Share Token Field Mapping </strong></em><span style="font-weight: 400;">add the ‘API Name’ assigned to the hidden field in your MAP<br></span><span style="font-weight: 400;"><br></span>
+<div class="accordion accordion--default">
+<div class="accordion__item">
+<div class="accordion__item-title"><span style="font-weight: 400;"><strong>Find the 'API Name' in Uberflip</strong></span></div>
+<div class="accordion__item-content">
+<ol>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">In the sidebar menu of Uberflip, click <strong>Calls-to-action &gt; Form Calls-to-action</strong></span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Click the CTA you'll use as your gate</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">In the CTA editor, click the pencil icon <br><img src="https://help.uberflip.com/hc/article_attachments/6558883384461/iytfg.png" alt="iytfg.png" width="398" height="36"><br></span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Beside 'Form Fields' click<strong> Manage</strong></span></li>
+<li style="font-weight: 400;" aria-level="1">Click the edit (pencil) icon beside the hidden field you're using for the share token</li>
+<li style="font-weight: 400;" aria-level="1">In the <em>API Name</em> field, you'll see the API Name you're looking for</li>
+</ol>
+<p> </p>
+</div>
+</div>
+</div>
+</li>
+</ol>
+<h2><span style="font-weight: 400;">Add a gate CTA to a DSR</span></h2>
+<p><span style="font-weight: 400;">Once this feature is enabled in Sales Assist, DSR creators can add a gate CTA to any DSR they’d like with these steps:</span></p>
+<ol>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Go to the <strong>Manage Room</strong> page of the DSR you want to gate</span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In the </span><strong>Details</strong><span style="font-weight: 400;"> tab, click the </span><strong>Gate CTA </strong><span style="font-weight: 400;">subtab<br></span><span style="font-weight: 400;"><strong>Don’t see the gate CTA subtab?</strong> This feature may not be enabled. Contact your account administrator. </span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Choose which type of gate to place<br><img src="https://help.uberflip.com/hc/article_attachments/5123663518477/rew.png" alt="rew.png" width="362" height="255"></span></li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Optional: </strong><span style="font-weight: 400;">Add a custom tagline to your gate in the</span><strong> Override Tagline</strong><span style="font-weight: 400;"> field</span>
+</li>
+</ol>
+<p><span style="font-weight: 400;">Your settings will auto-save immediately.<br><br></span></p>
+<h2><span style="font-weight: 400;">Add a passphrase to a DSR</span></h2>
+<p>If you need to ensure that only a specific audience can view you SAR, you can protect it by adding a passphrase. Anyone who visits the DSR must enter the correct passphrase before they can view the content.</p>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>This option is especially useful for DSRs that include sensitive content, such as pricing information.</p>
+</div>
+<ol>
+<li>Open the <strong>Manage Room</strong> page for the DSR you want to customize</li>
+<li>Under the<em><strong> Details</strong></em> tab, click <strong>Passphrase</strong>
+</li>
+<li>Enter the passphrase you want to use in the <strong>Passphrase Protect</strong> field<br><img src="https://help.uberflip.com/hc/article_attachments/360090580672/image.png" alt="image.png">
+<ul>
+<li>The passphrase must be <strong>between 6 and 40 characters</strong> in length, and <strong>must contain at least one letter and one number</strong>.</li>
+</ul>
+</li>
+<li>If the passphrase meets the requirements, you'll see a green checkmark beside the Passphrase Protect field, and the passphrase will be <strong>applied immediately</strong>. To see the change, click <strong>Preview Room</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360090580852/image.png" alt="image.png" width="499" height="337">
+</li>
+<li>Lastly, <strong>don't forget to tell your prospect what the passphrase is</strong>!</li>
+</ol>]]></description>
+         <guid isPermaLink="false">5123676873101</guid>
+         <pubDate>Mon, 28 Mar 2022 15:45:12 GMT</pubDate>
+      </item>
+      <item>
+         <title>Sales Assist: Track DSR engagement </title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4423803775245-Sales-Assist-Track-DSR-engagement</link>
+         <description><![CDATA[<p>In this article, we'll look at how you can <strong>keep track of how prospects are engaging</strong> with content you've shared through Sales Assist. There are two ways to do this: </p>
+<ul>
+<li><a href="#h_01FZBTMMK9E0HPA9EZ57GX8666" target="_self">Track engagement in real-time with notifications</a></li>
+<li><a href="#h_01FZBTN3MP7N88NKVB4SB6HDMY" target="_self">View historical share activity and stats</a></li>
+</ul>
+<p>And if you're a Sales Assist <strong>admin</strong>, you can <a href="#h_01FZBTR1XJAVZW4WY99ERMQYH5" target="_self">view engagement stats across your team</a> in one easy to view dashboard. </p>
+<h2 id="h_01FZBTMMK9E0HPA9EZ57GX8666">Track engagement in real-time with notifications</h2>
+<p>Sales Assist is able to <strong>notify you in real-time </strong>whenever there is activity on a link you've shared through the app. And because links created by Sales Assist are unique to specific shares, Sales Assist can <strong>attribute activity to specific shares</strong> (and, by extension, to the prospect associated with a share). As a result, you'll <strong>know exactly when your prospects are engaging</strong> with the content you've shared, and can <strong>follow up at just the right time</strong>.</p>
+<p>Here's how it works:</p>
+<ul class="list-bullet">
+<li>When you share a link to content, Sales Assist starts<strong> monitoring that content</strong> for activity</li>
+<li>While the app is open, Sales Assist checks every two minutes if there has been<strong> new activity</strong> on your shares</li>
+<li>If there is new activity, and that activity came from a link that's tied to a particular share, <strong>Sales Assist will notify you in-app and by email.</strong>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 50%;"><strong><em>In-app:</em></strong></td>
+<td style="width: 50%;"><strong><em>Email:</em></strong></td>
+</tr>
+<tr>
+<td style="width: 50%; vertical-align: top;">
+<p><img src="https://help.uberflip.com/hc/article_attachments/360090829352/image.png" alt="image.png"></p>
+<ul>
+<li>If you're <strong>currently working in the app</strong>, it will send you an <strong>in-app notification</strong>.</li>
+<li>If the app is <strong>open, but not on the active tab</strong>, it will send you a <strong>desktop notification</strong>.</li>
+<li>Click the notification to see more</li>
+</ul>
+</td>
+<td style="width: 50%; vertical-align: top;">
+<p><img src="https://content.cdntwrk.com/files/aHViPTkyOTkwJmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzYyMjNhOWEwZTRiZTkucG5nJnZlcnNpb249MDAwMCZzaWc9MWY4YWFhNDY3MGE5MTk3ZjczNmU4MmM2YzYyNjQ3MGI%253D" width="328" height="338"></p>
+<ul>
+<li>When enabled, Sales Assist will send an <strong>email notification</strong> when someone visits your DSR</li>
+<li>In the email, click <strong>Go to Sales Assist</strong> to see how your visitor is engaging</li>
+</ul>
+<div class="accordion accordion--default">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Enable email notifications</strong></div>
+<div class="accordion__item-content">
+<ol>
+<li>In the Sales Assist app, click you profile icon &gt; <strong>Edit Profile<br></strong><img src="https://help.uberflip.com/hc/article_attachments/4740491828109/iuyfvb.png" alt="iuyfvb.png">
+</li>
+<li>Under <strong>Preferences</strong>, toggle <strong>Email Notifications</strong> on or off</li>
+</ol>
+</div>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<p>If the app is <strong>not open</strong>, you won't get a notification real-time notifications — but you can turn on email notifications so you can be informed when you're not using Uberflip. </p>
+<p>And you can always <strong>catch up on historical engagement</strong> <strong>records</strong> in the app when you log in again later.</p>
+<p> </p>
+<h2 id="h_01FZBTN3MP7N88NKVB4SB6HDMY">View historical share activity and stats</h2>
+<p>Your prospects won't always be checking out your shares while you have Sales Assist open. For activity that took place <strong>while you were logged off</strong>, or for <strong>notifications you missed</strong>, you can use the <em>My Shares</em> section in Sales Assist to catch up.</p>
+<p>To access the<em> My Shares</em> section, click on <strong>Shares </strong>in the navigation menu<img src="https://help.uberflip.com/hc/article_attachments/360090830092/image.png" alt="image.png" width="582" height="54"></p>
+<p>In this page, you'll see <strong>three tabs</strong>: </p>
+<div class="accordion accordion--default">
+<div class="accordion__item">
+<div class="accordion__item-title">
+<strong>Accounts: </strong>prospect engagement stats </div>
+<div class="accordion__item-content">
+<p>In this tab, you'll see the engagement stats for each prospect you sent a share to. This includes:</p>
+<ul>
+<li>The number of people who engaged from that organization</li>
+<li>How many pages they viewed</li>
+<li>How long they engaged with your share's content</li>
+</ul>
+<p><img src="https://help.uberflip.com/hc/article_attachments/5472338562061/gfds.png" alt="gfds.png" width="600" height="424"></p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title">
+<strong>Stats:</strong> overall engagement stats</div>
+<div class="accordion__item-content">
+<p>Here you'll see your DSR's activity stats for your selected day range. </p>
+<p>This includes <strong>Items views</strong>, how many <strong>people</strong> viewed your DSR, and for <strong>how long </strong>it was viewed. You'll also see <strong>performance over time</strong> and your <strong>top performing Items</strong>.<br><img src="https://help.uberflip.com/hc/article_attachments/5468065769869/few.png" alt="few.png" width="598" height="364"></p>
+<p>Filter by share to view stats for specific shares. </p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title">
+<strong>Events Log: </strong>historical share activity</div>
+<div class="accordion__item-content">
+<p>You can visit the <em>My Shares</em> section at any time to review past engagement activity on your shares.</p>
+<ul>
+<li>The <em>Event Log</em> tab displays <strong>prospects that have been viewing your share</strong> for any of your shares in your selected day range. </li>
+<li>Click the prospect to see detailed engagement activity<img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" src="https://help.uberflip.com/hc/article_attachments/5469543054861/oijh.png" alt="oijh.png" width="597" height="352"><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"> </span>
+</li>
+<li>
+<strong>Use the filter dropdown</strong> to view older share activity for other shares (which had at least some share activity in the past 90 days). By default, the filter dropdown lists just shares with recent activity. You can also use the <strong>search field </strong>in the filter dropdown to find shares that do not appear in this list<br><img src="https://help.uberflip.com/hc/article_attachments/360091083951/image.png" alt="image.png" width="498" height="285">
+</li>
+<li>You can also view historical share engagement for any DSR you've created directly from the <em>My Rooms</em> section. To do so, just click on <strong>Rooms</strong>, then <strong>hover your mouse over the DSR</strong> and click the <strong>Activity</strong> button<br><img src="https://help.uberflip.com/hc/article_attachments/360090831252/image.png" alt="image.png">
+</li>
+</ul>
+<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>Although Sales Assist attributes activity to specific prospects, keep in mind that <strong>this is an assumption</strong>: since the activity came from a link that's unique to your prospect, it's <em>most likely</em> that this is the person who visited the link — but Sales Assist has no way of knowing for certain.</p>
+</div>
+</div>
+</div>
+</div>
+<p> </p>
+<h2 id="h_01FZBTR1XJAVZW4WY99ERMQYH5">View team engagement stats (admins only)</h2>
+<p>As a Sales Assist <strong>admin,</strong> you can see how your team's <em>shares</em> are performing across the board. On larger screens only, you'll see an <strong>Analytics</strong> option in the main menu.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/6450084884493/efgfds.png" alt="efgfds.png" width="600" height="380"></p>
+<p>You can <strong>filter by day range, user group (if you've set those up), or by a single sales rep.</strong></p>
+<p>Across the top of the dashboard you'll see a summary of the share activity within your filtered range. And below that you'll find a table showing all the <em>share</em> stats for your team, group, or rep.</p>
+<p>Search and sort the table as needed. And click data points within the table to drill down and see more details.</p>
+<p><strong>Check out: <a href="https://help.uberflip.com/hc/en-us/articles/6450083020301" target="_self">Sales Assist: Team stats for admins</a> </strong>to learn more about team stats you can access as a Sales Assist admin.</p>]]></description>
+         <guid isPermaLink="false">4423803775245</guid>
+         <pubDate>Tue, 01 Feb 2022 22:27:00 GMT</pubDate>
+      </item>
+      <item>
+         <title>Sales Assist: Manage your existing DSRs</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/15903613955597-Sales-Assist-Manage-your-existing-DSRs</link>
+         <description><![CDATA[<p>In this article, we'll look at how to manage your existing Digital Sales Rooms (DSRs). <em>This is also applicable for Portals, Streams, and Modules made with Sales Assist.</em></p>
+<h2>Manage your DSRs</h2>
+<ol>
+<li>In Sales Assist, go to the <strong><em>Rooms (or Portals/Streams/Modules) </em></strong>page from the main navigation<br><img src="https://help.uberflip.com/hc/article_attachments/15903858477453" width="502" height="54">
+</li>
+<li>Here you'll see a list of DSRs you've created. <strong>Hover your mouse </strong>over the DSR you want to manage.</li>
+<li>Click the <strong>Edit</strong> button <em>(pencil icon)</em> that appears<br><img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 15px;" src="https://help.uberflip.com/hc/article_attachments/15904037494413" alt="Screen_Shot_2023-05-18_at_2.48.57_PM.png" width="240" height="176">
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>While hovering over the DSR, you can also click to <strong>preview</strong>, <a href="#h_01F1K9WJ7EZ7VJPXFN0VXTTAHW" target="_self"><strong>share</strong></a>, or duplicate the DSR, <strong><a href="https://help.uberflip.com/hc/en-us/articles/4423803775245" target="_self" rel="undefined">view engagement activity,</a> </strong>or add Items.</p>
+</div>
+</li>
+<li>The <strong>Manage Room </strong>page will open</li>
+</ol>
+<p>From the the<em> Manage Room</em> page you can <a href="https://help.uberflip.com/hc/en-us/articles/4423799497485#customize-a-stream" target="_self" rel="undefined">customize the room</a> in the same ways you did when you created it.</p>
+<p>You can also: </p>
+<div class="accordion accordion--default">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Archive the DSR</strong></div>
+<div class="accordion__item-content">
+<p>When you no longer need a DSR, you can archive it. This will effectively delete the DSR, removing it from your list of DSRs in Sales Assist.</p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Important</h4>
+<p>When you archive a DSR, a Sales Assist admin can still recover it for you if needed. However, any share data associated with the DSR will be lost forever as soon as you archive it.</p>
+</div>
+<ol>
+<li>Click the meatball (three dot) icon, then click<strong> Archive Room<br><img src="https://help.uberflip.com/hc/article_attachments/15905239443341" width="600" height="178"></strong>
+</li>
+<li>After confirming, the DSR will be <strong>removed from your rooms list immediately </strong>(and associated share data will be removed from the <em>My Shares</em> section).</li>
+</ol>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Transfer the DSR to a teammate</strong></div>
+<div class="accordion__item-content">
+<p>Transfer a DSR you've created to a teammate so they can continue the work.</p>
+<p><strong>Note:</strong> Transferring a DSR will remove it from your DSR list. You'll no longer have access to this DSR unless it's transferred back to you.</p>
+<ol>
+<li>Click the meatball (three dot) icon, then click <strong>Transfer to Teammate</strong> <img src="https://help.uberflip.com/hc/article_attachments/15905379603469" width="600" height="178">
+</li>
+<li>Search for your teammate, and click their name once you find them </li>
+<li>Click <strong>Confirm</strong>
+</li>
+</ol>
+<p>The DSR will now appear in your teammates Sales Assist account. Your teammate will be notified by email. </p>
+</div>
+</div>
+</div>]]></description>
+         <guid isPermaLink="false">15903613955597</guid>
+         <pubDate>Thu, 18 May 2023 21:31:49 GMT</pubDate>
+      </item>
+      <item>
+         <title>Sales Assist: Auto-fill contact domains from Gmail and Salesloft in the Sales Assist Chrome extension</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/11291954479629-Sales-Assist-Auto-fill-contact-domains-from-Gmail-and-Salesloft-in-the-Sales-Assist-Chrome-extension</link>
+         <description><![CDATA[<p><span style="font-weight: 400;">When crafting emails in Gmail, or perusing accounts in Salesloft, the Sales Assist Chrome extension will automatically search for Digital Sales Rooms (DSR) created for that company.</span></p>
+<p><span style="font-weight: 400;">No DSR for that company yet? Create a new DSR and the contact’s domain will be auto-filled to get you started. </span></p>
+<p><span style="font-weight: 400;">Read on to learn more about this feature. If you haven’t already, </span><a href="https://chrome.google.com/webstore/detail/sales-assist-by-uberflip/kcbkakmlohgokmebhdmhcffdpegnlobk"><span style="font-weight: 400;">download the Sales Assist Chrome extension here</span></a><span style="font-weight: 400;">. </span></p>
+<p> </p>
+<h2><span style="font-weight: 400;">Auto-fill from Gmail</span></h2>
+<p><span style="font-weight: 400;">Sales Assist knows who you’re emailing when Gmail is open in Chrome. When the Chrome extension is open, it’ll automatically search for any DSR created for the domain matching that email. </span></p>
+<p><span style="font-weight: 400;">Try this to see it in action:</span></p>
+<ol>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Open Gmail in Chrome</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Open the Sales Assist Chrome extension<br><img src="https://help.uberflip.com/hc/article_attachments/11291410494989" alt="mceclip0.png" width="313" height="61"><br></span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Click into the <strong><em>Rooms</em></strong> section <em>(target icon) </em>of the extension<br><img src="https://help.uberflip.com/hc/article_attachments/11291461732621" alt="mceclip1.png" width="313" height="56"></span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Start a new email</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Enter the email recipient address on the email as you normally would</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Click into the body area of the message</span></li>
+</ol>
+<p>The Sales Assist Chrome extension will automatically search for DSRs that match the domain of your recipient. <br><img src="https://help.uberflip.com/hc/article_attachments/11291473986957" alt="mceclip2.png" width="700" height="298"></p>
+<p><span style="font-weight: 400;">No DSRs for that company yet?</span></p>
+<p><a href="https://help.uberflip.com/hc/en-us/articles/4423799497485-Sales-Assist-Create-manage-and-share-Streams#create-a-stream"><span style="font-weight: 400;">Start a new DSR</span></a><span style="font-weight: 400;"> in the Chrome extension and the email will auto-fill in the new DSR form.<br><img src="https://help.uberflip.com/hc/article_attachments/11291530738957" alt="mceclip3.png" width="300" height="498"><br></span></p>
+<p> </p>
+<h2><span style="font-weight: 400;">Auto-fill from Salesloft</span></h2>
+<p><span style="font-weight: 400;">The Sales Assist Chrome extension can grab the domain of an account you're viewing in Salesloft, then automatically search for existing DSRs for that domain. </span></p>
+<p><span style="font-weight: 400;">Try this to see it in action:</span><span style="font-weight: 400;"><br></span></p>
+<ol>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Open Salesloft in Chrome</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Open the Sales Assist Chrome extension<br><img src="https://help.uberflip.com/hc/article_attachments/11291410494989" alt="mceclip0.png" width="313" height="61"><br></span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Click into the <strong><em>Rooms</em></strong> section <em>(target icon)</em> of the extension<br><img src="https://help.uberflip.com/hc/article_attachments/11291461732621" alt="mceclip1.png" width="313" height="56"></span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Open an <strong>account page</strong> in Salesloft</span></li>
+</ol>
+<p><span style="font-weight: 400;">The Sales Assist Chrome extension will automatically search for DSRs that match the domain of that Salesloft account.<br><img src="https://help.uberflip.com/hc/article_attachments/11383705502989" alt="mceclip0.png"><br></span></p>
+<p><span style="font-weight: 400;">No DSRs for that account yet?</span></p>
+<p><span style="font-weight: 400;"><a href="https://help.uberflip.com/hc/en-us/articles/4423799497485-Sales-Assist-Create-manage-and-share-Streams#create-a-stream">Start a new DSR</a> in the Chrome extension and the domain will auto-fill in the new DSR form.<br><img src="https://help.uberflip.com/hc/article_attachments/11291948987277" alt="growco.com.png" width="300" height="496"><br></span></p>]]></description>
+         <guid isPermaLink="false">11291954479629</guid>
+         <pubDate>Thu, 08 Dec 2022 16:27:56 GMT</pubDate>
+      </item>
+      <item>
+         <title>Sales Assist: Create your own content and templates</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/4423816459149-Sales-Assist-Create-your-own-content-and-templates</link>
+         <description><![CDATA[<p>In this article, we'll look at how you can <strong>create your own content Items</strong> <strong>and templates</strong> in Sales Assist.</p>
+<h2>Create and manage your own Items</h2>
+<p>You can <strong>create your own content Items</strong> directly within Sales Assist. This is useful for bringing documents you've created outside of Uberflip into Sales Assist, such as <strong>slide decks</strong>, <strong>spreadsheets</strong>, etc., or other <strong>one-off documents</strong> you've created especially for certain prospects. Unlike Items from your organization's content library, <strong>Items you create are available only to you</strong>.</p>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>This feature is great for bringing in pricing sheets — especially in combination with the <a href="https://help.uberflip.com/hc/en-us/articles/4423799497485#customizing-a-stream" target="_blank" rel="noopener noreferrer">passphrase protect feature.</a></p>
+</div>
+<p>Depending on the content you're working with, you have <strong>two options</strong> when creating your own Items:</p>
+<ul>
+<li><strong>Embed (iframe) the content</strong></li>
+<li><strong>Display a link to open the content in a new tab</strong></li>
+</ul>
+<h4>Embed the content</h4>
+<p>If the content you want to share is allowed to be embedded, you can simply <strong>enter the URL where the content is hosted</strong> (e.g. a Google Docs URL), and Sales Assist will display that content within the Item.<br><img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" src="https://help.uberflip.com/hc/article_attachments/360090720011/image.png" alt="image.png" width="600" height="596"><br>You can embed almost any content that is <strong>hosted on the web</strong> and which is <strong>allowed to be embedded </strong>(not all content can be displayed in an iframe):</p>
+<ul class="list-bullet">
+<li>URLs that end with a supported Office Document filetype extension (<em>.doc/.docx/.ppt/.pptx/.xls/.xlsx</em>) will be displayed using the Office Web Viewer</li>
+<li>URLs ending with <em>.pdf</em> will be displayed using the Google PDF Viewer</li>
+<li>URLs to Google Docs file (including Docs, Sheets, Slides, etc.) will be displayed using the relevant Google viewer for that file type</li>
+</ul>
+<div class="callout callout--info">
+<h4 class="callout__title">Embedding Dropbox files?</h4>
+<p>Due to Dropbox restrictions, <strong>Sales Assist can't display content hosted on Dropbox </strong>by default. If you want to bring in content from Dropbox, your Sales Assist admin must complete <a href="https://help.uberflip.com/hc/en-us/articles/360058465311#when-i-create-a-content-item-using-a-link-to-dropbox-why-does-it-show-view-file-on-dropbox-instead-of-the-file-itself">additional setup steps</a>.</p>
+</div>
+<h4>Display a Link</h4>
+<p>Some content <strong>can't be embedded</strong>, such as Zoom or Gong recordings. In these cases you have the option of <strong>displaying a placeholder </strong>within your Item instead, with a <strong>button that opens the content in a new tab</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/4411583458445/Open_in_New_Window_Demo.gif" alt="Open_in_New_Window_Demo.gif" width="601" height="424"><br>Using this option allows you to "embed" any kind of content in your Items, even if that content does not allow embedding.</p>
+<p>To <strong>create and manage your own Items</strong>, follow these instructions:</p>
+<div class="accordion accordion--default">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Create an Item</strong></div>
+<div class="accordion__item-content">
+<p>You can create your own Items, which you can share directly or add to DSRs like any other Item in Sales Assist.</p>
+<ol>
+<li>Click <strong>Search</strong> in the navigation menu</li>
+<li>Below the search box, click on the <strong>My Items</strong> button<br><img src="https://help.uberflip.com/hc/article_attachments/14363820999565">
+</li>
+<li>Click <strong>Create an Item <br><img src="https://help.uberflip.com/hc/article_attachments/14363906339085"><br></strong>
+</li>
+<li>In the modal that opens, <strong>paste the URL </strong>of your content into the <strong>Embed URL </strong>field <br><strong>or</strong><br>Click the upload (cloud) icon, to upload a file from your device<br><img src="https://help.uberflip.com/hc/article_attachments/14364529214989" width="499" height="530"><br>
+<ul>
+<li>Sales Assist will attempt to get an appropriate <strong>title</strong>, <strong>description</strong>, and <strong>thumbnail image</strong> for your content from the metadata of the URL you provided. If it can find these details, it will <strong>automatically prefill</strong><strong> the relevant fields</strong> for you.</li>
+</ul>
+</li>
+<li>Optional settings:
+<ul>
+<li>If the content <strong>can't be embedded</strong> (e.g. because the website prevents embedding of their content), toggle on the  <strong>Display Link instead of iFrame </strong>option to display a link to the content instead.</li>
+<li>Toggle on the <strong>Show download/edit buttons</strong> option to make this file downloadable or editable (i.e. a Google Sheet) by your prospects<br><img src="https://help.uberflip.com/hc/article_attachments/14364634512909" width="400" height="169">
+</li>
+</ul>
+</li>
+<li>If needed, <strong>complete (or edit) the Title and Description</strong> <strong>fields</strong>
+</li>
+<li>If you want to change the <strong>thumbnail image </strong>(or set one, if none was found) for your Item, either:
+<ul>
+<li>
+<strong>Enter the URL </strong>of the image you want to use (the URL must end in an image extension, like <em>.jpg, </em><em>.png</em>, etc.), or</li>
+<li>
+<strong>Click on an image</strong> in the image library created by your Sales Assist admin, to use it for your Item:<br><img src="https://help.uberflip.com/hc/article_attachments/360090719871/image.png" alt="image.png">
+</li>
+</ul>
+</li>
+<li>Optionally, you can also <strong>add some additional text</strong> that will be displayed below the embedded content. To do so, click on <strong>Add Context for Prospect</strong>, then type your text into the field that appears.</li>
+<li>Click <strong>Create</strong> </li>
+</ol>
+<p>That's it! You'll be returned to the <strong>My Items</strong> view in the <em>Search</em> section, where you'll see your new Item listed<br><img src="https://help.uberflip.com/hc/article_attachments/360090754592/image.png" alt="image.png" width="602" height="190"><br>From here, you can view <strong>details and a preview</strong> of your new Item, <strong>add it to a DSR</strong>, or <strong>share it directly</strong> — just like any other content Item.</p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Edit or delete your Items</strong></div>
+<div class="accordion__item-content">
+<p>You can modify or delete Items you have created at any time.</p>
+<ol>
+<li>Click on <strong>Search</strong> in the navigation menu.</li>
+<li>Below the search field, click on <strong>My Items</strong>.</li>
+<li>Find the Item you want to edit or delete in the list and <strong>hover your mouse over it</strong>.</li>
+<li>Click on the <strong>Edit</strong> button:<br><img src="https://help.uberflip.com/hc/article_attachments/360090765391/image.png" alt="image.png" width="601" height="209">
+</li>
+<li>The <strong>Edit Your Item</strong> window will open:<br>
+<ol>
+<li>To <strong>edit</strong> the Item: Use the fields to make any changes, then click on the <strong>Edit Item</strong> button to save your changes.</li>
+<li>To <strong>delete</strong> the Item: Click on the <strong>delete (trash) </strong>button in the lower left corner. After confirming that you want to continue, your Item will be deleted immediately (removing it from any DSRs you had placed it in).<br><img src="https://help.uberflip.com/hc/article_attachments/14364945156749" width="400" height="421">
+</li>
+</ol>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<p> </p>
+<h2>Create your own templates</h2>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>The primary account owner is<strong> not</strong> able to create templates using the steps below. The primary user (and all admin users) can <a href="https://help.uberflip.com/hc/en-us/articles/360057767632-Sales-Assist-Admin-Guide#set-up-your-sales-assist-environment" target="_self">create and manage templates in the Admin section of Sales Assist</a>, under the <strong>Templates</strong> tab.</p>
+</div>
+<p>In addition to the system templates that are created by your Sales Assist admins, you can also <strong>create personal templates</strong> to style your DSRs. Unlike system templates, <strong>personal templates are available only to you</strong>.</p>
+<p>To <strong>create and manage personal templates</strong>, follow these instructions:</p>
+<div class="accordion accordion--default">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Create and customize a personal template</strong></div>
+<div class="accordion__item-content">
+<p>You can create your own personal templates, which you can use just like system templates in Sales Assist.</p>
+<ol>
+<li>Click <strong>+ New </strong>in the main navigation bar<strong><br><img src="https://help.uberflip.com/hc/article_attachments/15453901525389"></strong>
+</li>
+<li>In the <strong>Create a New Digital Sales Room</strong> form, <strong>skip directly to the template</strong> <strong>dropdown </strong>and choose the option <strong>+ Create New Template</strong>:<strong><br></strong><strong><img src="https://help.uberflip.com/hc/article_attachments/7541267065613/oijokj.png" alt="oijokj.png" width="500" height="302"></strong>
+</li>
+<li>The Create a Template modal will appear. <strong>Enter a name</strong> for your template, then click <strong>Create New Template</strong><br><img src="https://help.uberflip.com/hc/article_attachments/7541397881741/Screen_Shot_2022-07-08_at_2.51.30_PM.png" alt="Screen_Shot_2022-07-08_at_2.51.30_PM.png">
+</li>
+<li>
+<p>In the Manage Template page that opens, you can edit your template. This is done the same way you'd <a href="https://help.uberflip.com/hc/en-us/articles/4423799497485#customizing-a-stream" target="_self"><strong>customize a DSR</strong></a>.</p>
+<h4><img src="https://help.uberflip.com/hc/article_attachments/15456702164493" width="601" height="280"></h4>
+<ul>
+<li>
+<p><strong>Details tab: </strong>Edit the basic details and appearance, and <a href="https://help.uberflip.com/hc/en-us/articles/5123676873101" target="_self">add a gate</a> or passphrase to the template. These settings will apply to all DSRs made using this template. </p>
+</li>
+<li>
+<p><strong>Content tab:</strong> Add content Items to be added to all DSRs made using this template. </p>
+</li>
+</ul>
+</li>
+<li>Any changes you make on this page will be <strong>saved automatically</strong>, so you can simply <strong>exit this page </strong>at any time (by navigating to another part of the app).</li>
+</ol>
+<p>That's it! Once created, <strong>your </strong><strong>templates will appear as an option</strong> when creating or editing a DSR.<br><img src="https://help.uberflip.com/hc/article_attachments/7541273481997/oijn.png" alt="oijn.png" width="501" height="303"></p>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>If you'd like to use the <strong>"Default" Stream appearance</strong>, instead of the Banner+Logo option, you can <a href="https://help.uberflip.com/hc/en-us/articles/360020637332#configure-a-streams-appearance" target="_self">change this setting on the Stream in Uberflip</a> after the template has been created.</p>
+</div>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>Edit or delete a personal template</strong></div>
+<div class="accordion__item-content">
+<p>You can modify or delete your personal templates at any time.</p>
+<ol>
+<li>Click <strong>Rooms</strong> <em>(target icon)</em> in the main navigation</li>
+<li>The <em>Your Rooms</em> page will list your personal templates alongside your DSRs, marked with a <strong>Template</strong> <em>(paint drop)</em> icon:<br><img src="https://help.uberflip.com/hc/article_attachments/7541847279757/ed2edq.png" alt="ed2edq.png">
+</li>
+<li>
+<strong>Hover your mouse</strong> over the template you want to manage, then click on the <strong>Edit </strong>button:<br><img src="https://help.uberflip.com/hc/article_attachments/7542085421069/wefgb.png" alt="wefgb.png">
+</li>
+<li>The <strong>Manage Template</strong> window will open. Here you can:<br>
+<ul>
+<li>
+<strong>Edit</strong> <strong>the template:</strong><br>Click the <strong>Details</strong> tab, and use the fields and tabs to make changes. Any changes you make are saved automatically.</li>
+<li>
+<strong>Add Items</strong>:<br>Click the <strong>Items</strong> tab, then click <strong>Add Items</strong>. Add the Items to your basket, then click <strong>Current Template.</strong><br><img src="https://help.uberflip.com/hc/article_attachments/7542228355597/Screen_Shot_2022-07-08_at_3.21.25_PM.png" alt="Screen_Shot_2022-07-08_at_3.21.25_PM.png">
+</li>
+<li>
+<strong>Remove Items</strong>:<br>In the <strong>Items</strong> tab, hover your mouse over the Item, then click <strong>Remove</strong>.</li>
+</ul>
+</li>
+</ol>
+</div>
+</div>
+</div>]]></description>
+         <guid isPermaLink="false">4423816459149</guid>
+         <pubDate>Tue, 01 Feb 2022 22:29:52 GMT</pubDate>
+      </item>
+      <item>
+         <title>Sales Assist: Configure engagement notifications</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360059624771-Sales-Assist-Configure-engagement-notifications</link>
+         <description><![CDATA[<hr>
+<p>Learn how to configure Sales Assist engagement notifications to enable <strong>enriched notifications</strong>, and how to <strong>disable tracking and notifications </strong>on Hubs where you don't use Sales Assist.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>To configure Sales Assist notifications settings, you need to be a member of the <strong>Account Administrators</strong> or <strong>Content Managers</strong> user groups.</li>
+<li>To configure these settings, the <a href="https://marketplace.uberflip.com/details/sales-assist-1/"><strong>Sales Assist </strong><strong>Marketplace app</strong></a> must be installed in your Hub.</li>
+<li>You must configure these settings <strong><a href="https://help.uberflip.com/hc/en-us/articles/360042582411" target="_self">at the Hub level</a></strong>, in the same Hub where you use Sales Assist.</li>
+</ul>
+<p> </p>
+<h2>About Sales Assist engagement notifications</h2>
+<p>When a Sales Assist user shares a link through the app, Sales Assist will notify that user anytime someone visits their link.</p>
+<p>By default, Sales Assist sends <strong>basic notifications</strong>. These simply indicate that someone viewed content that the user shared, along with that visitor's IP-based <strong>location</strong>, but do not contain any other information about the visitor:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360092113312/Shares___Sales_Assist.png" alt="Shares___Sales_Assist.png" width="426" height="101"></p>
+<p>Sales Assist can also send <strong>MAP-enriched notifications</strong> if you have integrated the Hub in which you use Sales Assist with a supported <strong>Marketing Automation Platform</strong>. As long as the visitor has been profiled in your MAP, Sales Assist will incorporate identifying information from their MAP profile into the notification:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360092089512/image.png" alt="image.png" width="337" height="132"></p>
+<p>If the <strong>visitor's email is known</strong>, but not their name, that email will be shown in the notification.</p>
+<p>In addition to MAP-enriched notifications (or as an alternative option), you can also configure a <strong>backup enrichment source</strong>. This allows Sales Assist to still display enriched notifications with less detail in cases where the visitor is not profiled in your MAP (or if you have not turned on MAP-enriched notifications):</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360092093972/image.png" alt="image.png" width="412" height="106"></p>
+<p>Lastly, you can also configure Sales Assist to <strong>disable the engagement tracking script</strong> in Hubs where you don't use Sales Assist.</p>
+<p> </p>
+<h2 id="h_01F2WAZVBDJAAGWEAAZ2K6N2NB">Configure Sales Assist notifications settings</h2>
+<p>To configure Sales Assist notifications settings, <strong>open the Sales Assist Marketplace app settings page</strong>.</p>
+<ol>
+<li>Log in to your Uberflip account.</li>
+<li>Iin the top menu bar, <strong>hover your mouse over <em>Marketplace</em></strong>, then click on <strong>Installed Apps</strong>.</li>
+<li>In the list of installed apps, <strong>hover your mouse over Sales Assist</strong>.</li>
+<li>
+<strong>Click on the</strong> <strong>Edit (pencil) button </strong>on the right to open the app settings page:<br>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360088852912/image.png" alt="image.png"></p>
+</li>
+<li>With the app settings page open, you can <a href="#h_01F0F6B9WA04TFXG2PCYANAAZ4" target="_self"><strong>enable MAP-enriched notifications</strong></a>, <a href="#h_01F2WBKDH0P0V7C4XDET7HCQQN" target="_self"><strong>configure a backup enrichment source</strong></a>, or <a href="#h_01F0HYJJC9GDSB6Z2WX4RX61GD" target="_self"><strong>disable notifications</strong></a>.</li>
+</ol>
+<p> </p>
+<h2 id="h_01F0F6B9WA04TFXG2PCYANAAZ4">Enable MAP-enriched notifications</h2>
+<p>If you want to use MAP-enriched notifications, the following requirements apply:</p>
+<ul>
+<li>The Hub in which you use Sales Assist must be <strong>integrated with a supported MAP </strong>(any one of <a href="https://help.uberflip.com/hc/en-us/articles/360022207231" target="_self">Oracle Eloqua</a>, <a href="https://help.uberflip.com/hc/en-us/articles/360022063751" target="_self">Marketo</a>, <a href="https://help.uberflip.com/hc/en-us/articles/360021942272" target="_self">Pardot</a>, or <a href="https://help.uberflip.com/hc/en-us/articles/360021562692" target="_self">HubSpot</a>), <strong>and </strong>
+</li>
+<li>The same Hub must have <strong>at least one Form CTA connected to that MAP</strong>
+</li>
+</ul>
+<p>When MAP-enriched notifications are turned on, Sales Assist will check if any visitor to a share has been profiled in your MAP. If a profile exists, Sales Assist will incorporate data from that profile into the corresponding engagement notification, including their <strong>first and last name</strong>, <strong>email</strong>, and <strong>company</strong> (if available). Additionally, Sales Assist will display the visitor's avatar image from Gravatar (if available), or the visitor's first initial (as a backup).</p>
+<p><strong>To enable MAP-enriched notifications:</strong></p>
+<ol>
+<li>Log in to Uberflip and navigate to the Hub which you are using with Sales Assist.</li>
+<li>In the sidebar, click on <strong>Calls-to-Action</strong>.</li>
+<li>Scroll down to <strong>Form CTAs</strong> and <strong>select a Form CTA</strong> to use:
+<ul>
+<li>Sales Assist will use this Form CTA to understad which MAP you're using, and which fields contain the information it needs to enrich notifications.</li>
+<li>You can select <strong>any</strong> Form CTA connected to your MAP fo this purpose</li>
+<li>The Form CTA can include <strong>any set of fields</strong>, but should at minimum contain <strong>first name</strong>, <strong>last name</strong>, <strong>email</strong>, and <strong>company</strong> fields in order for Sales Assist to be able to include all of these details in enriched notifications.</li>
+</ul>
+</li>
+<li>When you have selected the Form CTA you want to use, <strong>hover your mouse over its tile</strong> to see more information about the CTA. <strong>Make a note of the CTA ID</strong> that appears at the bottom of the tile:<br><img src="https://help.uberflip.com/hc/article_attachments/360092098251/image.png" alt="image.png">
+</li>
+<li>Exit the CTA section and <a href="#h_01F2WAZVBDJAAGWEAAZ2K6N2NB" target="_self"><strong>open the Sales Assist Marketplace app settings page</strong></a>.</li>
+<li>Ensure the <strong>Enable Tracking &amp; Notifications</strong> setting is turned <strong>on </strong>(it should be on by default).</li>
+<li>Find the <strong>CTA ID</strong> field, and <strong>enter the CTA ID</strong> of the CTA you selected earlier:<br><img src="https://help.uberflip.com/hc/article_attachments/360092098071/image.png" alt="image.png" width="545" height="118">
+</li>
+<li>Your settings will be saved automatically, and Sales Assist will begin enriching notifications with data from your MAP where available.</li>
+</ol>
+<p> </p>
+<h2 id="h_01F2WBKDH0P0V7C4XDET7HCQQN">Configure a backup enrichment source</h2>
+<p>If you have integrated your Hub with <strong>Bombora</strong>, or if you have a <strong>6Sense</strong> or <strong>Demandbase</strong> subscription, you can configure any of these services as a source of backup information in case a visitor is not known to your MAP.</p>
+<p>When you enable a backup enrichment source, Sales Assist will send enriched notifications that incorporate visitor information from the selected service (if available for the visitor). These notifications will not identify the specific visitor, but will display their <strong>company name</strong> (if it can be identified from their IP address).</p>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>You can set up a backup enrichment source even if you have not set up MAP-enriched notifications. This is useful if you don't use a supported MAP, but still want to more detailed notifications.</p>
+</div>
+<p><strong>To configure a backup enrichment source:</strong></p>
+<div class="tabs tabs--colored-2">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Using Bombora</span> <span class="tabs-link">Using 6Sense or Demandbase</span>
+</div>
+<div class="tab">
+<p>If your Hub is integrated with <a href="https://bombora.com/"><strong>Bombora</strong></a>, you can use Bombora as a backup enrichment source for Sales Assist notifications:</p>
+<ol>
+<li>Ensure that your Hub is <a href="https://help.uberflip.com/hc/en-us/articles/360022588451" target="_self">integrated with Bombora</a>.</li>
+<li>Log in to Uberflip and <strong>navigate to the Hub which you are using with Sales Assist</strong>.</li>
+<li>Open the <a href="#h_01F2WAZVBDJAAGWEAAZ2K6N2NB" target="_self"><strong>Sales Assist Marketplace app settings page</strong></a>.</li>
+<li>Ensure the <strong>Enable Tracking &amp; Notifications</strong> setting is turned <strong>on </strong>(it should be on by default).</li>
+<li>Using the <strong>Data Source</strong> dropdown, select the <strong>Bombora</strong> option:<img src="https://help.uberflip.com/hc/article_attachments/4411408463757/image.png" alt="image.png" width="352" height="92">
+</li>
+<li>Your settings will be saved automatically, and Sales Assist will begin enriching notifications with Bombora data where available.</li>
+</ol>
+</div>
+<div class="tab is-hidden">
+<p>If you have a <a href="https://6sense.com/"><strong>6Sense</strong></a> or <a href="https://www.demandbase.com/"><strong>Demandbase</strong></a> subscription, you can use either of these services as a backup enrichment source for Sales Assist notifications:</p>
+<ol>
+<li>Speak with your 6Sense or Demandbase representative to <strong>get your API Key</strong> for their service.<br>
+<ul>
+<li>For 6Sense, you will need a <strong>Company Details API Key</strong>.</li>
+<li>For Demandbase, you will need a <strong>IP API Key</strong>.</li>
+</ul>
+</li>
+<li>Log in to Uberflip and <strong>navigate to the Hub which you are using with Sales Assist</strong>.</li>
+<li>Open the <a href="#h_01F2WAZVBDJAAGWEAAZ2K6N2NB" target="_self"><strong>Sales Assist Marketplace app settings page</strong></a>.</li>
+<li>Ensure the <strong>Enable Tracking &amp; Notifications</strong> setting is turned <strong>on </strong>(it should be on by default).</li>
+<li>Using the <strong>Data Source</strong> dropdown, select either <strong>6sense</strong> or <strong>Demandbase</strong> (depending on the service you're using):<br><img src="https://help.uberflip.com/hc/article_attachments/4411419194637/image.png" alt="image.png" width="303" height="179">
+</li>
+<li>In the <strong>Data Source API Key</strong> field, enter your 6Sense IP API Key or Demandbase Company Details API Key:<br><img src="https://help.uberflip.com/hc/article_attachments/360088853812/image.png" alt="image.png" width="500" height="112">
+</li>
+<li>Your settings will be saved automatically, and Sales Assist will begin enriching notifications with data from 6Sense/Demandbase where available.</li>
+</ol>
+</div>
+</div>
+<p> </p>
+<h2 id="h_01F0HYJJC9GDSB6Z2WX4RX61GD">Disable tracking and notifications</h2>
+<p>Sales Assist can only be used with a single specified Hub, but Sales Assist's tracking and notifications script will load on all Hubs within your account by default. If you want, you can disable Sales Assist tracking and notifications on Hub where you are <strong>not</strong> using Sales Assist, in order to prevent the script from loading unnecessarily on those Hubs.</p>
+<ol>
+<li>Log in to Uberflip and <strong>navigate to a Hub which you are NOT using with Sales Assist</strong>.</li>
+<li>Open the <a href="#h_01F2WAZVBDJAAGWEAAZ2K6N2NB" target="_self"><strong>Sales Assist Marketplace app settings page</strong></a>.</li>
+<li>
+<strong>Click the toggle</strong> under <strong>Enable Tracking &amp; Notifications</strong> to turn it to the <strong>off</strong> position:<br><img src="https://help.uberflip.com/hc/article_attachments/360088854252/image.png" alt="image.png" width="384" height="111">
+</li>
+<li>Your settings will be saved automatically, and the Sales Assist tracking and notifications script will no longer load on this Hub.</li>
+</ol>
+<div class="callout callout--warning">
+<h4 class="callout__title">Caution</h4>
+<p><strong>Make sure to always keep this setting turned ON in the Hub where you're using Sales Assist!</strong> If you turn this setting off in the Sales Assist Hub, this will break basic app functionality.</p>
+</div>]]></description>
+         <guid isPermaLink="false">360059624771</guid>
+         <pubDate>Thu, 08 Apr 2021 21:36:14 GMT</pubDate>
+      </item>
+      <item>
+         <title>Sales Assist: Install the Outlook Add-in</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360058009392-Sales-Assist-Install-the-Outlook-Add-in</link>
+         <description><![CDATA[<hr>
+<p>If you primarily use Outlook for your email outreach, you can use the <strong>Sales Assist Add-in </strong>to easily share personalized content right inside Outlook.</p>
+<hr>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>This guide is intended for people who are <strong>already familiar with Sales Assist</strong>. Not sure what that is or why you'd use it? Check out our <strong><a href="https://help.uberflip.com/hc/en-us/articles/360057052132">Quick Start Guide for Sales Assist</a></strong>.</li>
+<li>To use this Add-in, you'll need <strong>one of the following versions of Outlook</strong>:<br>
+<ul>
+<li>Desktop<strong> Outlook for Microsoft 365 </strong>(subscription) on <strong>Windows 7/8.1/10</strong> or <strong>macOS</strong>
+</li>
+<li>Desktop<strong> Outlook 2016 or later </strong>(non-subscription) on<strong> Windows 7/8.1/10</strong> or<strong> macOS</strong>
+</li>
+<li>Web-based<strong> Outlook on the web</strong> (subscription) or<strong> Outlook.com</strong> (non-subscription/free) with<strong> any browser </strong>
+</li>
+</ul>
+</li>
+</ul>
+<div class="callout callout--warning">
+<h4 class="callout__title">Conflicts with other Add-ins</h4>
+<p>Certain Outlook Add-ins, such as <em>Salesforce for Outlook</em> and <em>Cisco ViewMail </em>may conflict with the Sales Assist Add-in.</p>
+<p>If you experience problems with the Sales Assist Add-in and you also use other Outlook Add-ins, try disabling the other Add-ins to see if they are conflicting with the Sales Assist Add-in.</p>
+</div>
+<p> </p>
+<h2 id="h_01F7CD1E0NJDCKFDBR7RDS3SPQ">Install Sales Assist in Outlook on the desktop</h2>
+<p>Use this installation process if you're using a <strong>desktop version</strong> of Outlook (subscription <em>Outlook for</em> <em>Microsoft 365 </em>desktop or non-subscription <em>Outlook 2016</em> or later), on <strong>Windows </strong>or <strong>Mac</strong>.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>Outlook Add-ins are universal, so this process will also make the Sales Assist Add-in available if you sign into the same email account in <em>Outlook on the web</em>.</p>
+</div>
+<ol>
+<li>Open Outlook 2016 (or later) or Outlook for Microsoft 365.</li>
+<li>Click on <strong>Get Add-ins</strong> in the ribbon menu:<br><img src="https://help.uberflip.com/hc/article_attachments/4402422528269/image.png" alt="image.png"><br>
+<ul>
+<li>Can't see the <strong>Get Add-ins </strong>button? Click on the <strong>Store</strong> button (if available), or click on <strong>File &gt; Manage Add-ins</strong>.</li>
+<li>Using <strong>new Outlook for Mac</strong>? <a href="#h_01F7CC9KAPDKEZZ5XHH2HTMMNC" target="_self">See below</a> for help.</li>
+</ul>
+</li>
+<li>The <strong>Add-Ins for Outlook</strong> window will appear. Click on <strong>My add-ins </strong>in the sidebar:<br><img src="https://help.uberflip.com/hc/article_attachments/360089658491/outlook4.png" alt="outlook4.png">
+</li>
+<li>On the right, find the <strong>Custom add-ins</strong> section. Click on <strong>+Add a custom add-in</strong>, then click on <strong>Add from URL...</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360089658711/image.png" alt="image.png">
+</li>
+<li>
+<strong>Paste in this URL into the text box</strong>:<br>
+<pre>https://sa.uberflip.com/extensions/outlook/manifest.xml</pre>
+<img src="https://help.uberflip.com/hc/article_attachments/360089658771/image.png" alt="image.png">
+</li>
+<li>In the next window, click on <strong>Install</strong>. After a brief moment, <strong>Sales Assist by Uberflip</strong> will appear under the <strong>Custom add-ins </strong>section:<br><img src="https://help.uberflip.com/hc/article_attachments/360089659772/image.png" alt="image.png">
+<ul>
+<li>Getting an <strong>error message</strong>? Try the <a href="#h_01F7CCXD0TTF33KDKSEAXH1YYA" target="_self">alternative installation method</a>.</li>
+</ul>
+</li>
+<li>The Sales Assist Add-in is now installed in your Outlook account. To open it, just <strong>click the Sales Assist by Uberflip button</strong> while composing an email to <a href="https://help.uberflip.com/hc/en-us/articles/360057052132">easily share personalized content with your prospects</a>:<br><img src="https://help.uberflip.com/hc/article_attachments/4402427847949/image.png" alt="image.png">
+</li>
+</ol>
+<div class="callout">
+<h4 id="h_01F7CC9KAPDKEZZ5XHH2HTMMNC" class="callout__title">Info: <em>Get Add-ins</em> in new Outlook for Mac</h4>
+<p>If you're using the <a href="https://support.microsoft.com/en-us/office/the-new-outlook-for-mac-6283be54-e74d-434e-babb-b70cefc77439">new Outlook for Mac experience</a>,<strong> click on the ... button</strong> below the Search bar to find the <strong>Get Add-ins</strong> button:<br><img src="https://help.uberflip.com/hc/article_attachments/4402427662989/image.png" alt="image.png"></p>
+</div>
+<p> </p>
+<h2 id="h_01F7CD1NNQ1G9R69QVT1PEN0BF">Install Sales Assist in Outlook on the web</h2>
+<p>Use this installation process if you're using a <strong>web-based version</strong> of Outlook (subscription <em>Outlook on the web</em> <em>for Microsoft 365</em>, or free <em>Outlook.com</em>), in <strong>any browser</strong>.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>Outlook Add-ins are universal, so this process will also make the Sales Assist Add-in available if you sign into the same email account in desktop <em>Outlook for Microsoft 365 </em>or <em>Outlook 2016 </em>or later.</p>
+</div>
+<ol>
+<ol>
+<li>Go to <a href="https://outlook.live.com/">https://outlook.live.com/</a> or <a href="https://outlook.office.com">https://outlook.office.com/</a> in any browser.</li>
+<li>Log in to your Microsoft Outlook email account.</li>
+<li>Click on <strong>New Message</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360089658892/image.png" alt="image.png">
+</li>
+<li>In the email editor window, click on the <strong>... button </strong>near the bottom:<br><img src="https://help.uberflip.com/hc/article_attachments/360089658211/image.png" alt="image.png">
+</li>
+<li>Click on <strong>Get Add-ins</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360089661211/image.png" alt="image.png">
+</li>
+<li>The <strong>Add-Ins for Outlook</strong> window will appear. Click on <strong>My add-ins </strong>in the sidebar:<br><img src="https://help.uberflip.com/hc/article_attachments/360089658491/outlook4.png" alt="outlook4.png">
+</li>
+<li>On the right, find the <strong>Custom add-ins</strong> section. Click on <strong>+Add a custom add-in</strong>, then click on <strong>Add from URL...</strong>:<br><img src="https://help.uberflip.com/hc/article_attachments/360089658711/image.png" alt="image.png">
+</li>
+<li>
+<strong>Paste in this URL into the text box</strong>:<br>
+<pre>https://sa.uberflip.com/extensions/outlook/manifest.xml</pre>
+<img src="https://help.uberflip.com/hc/article_attachments/360089658771/image.png" alt="image.png">
+</li>
+<li>In the next window, click on <strong>Install</strong>. After a brief moment, <strong>Sales Assist by Uberflip </strong>will appear under the <strong>Custom add-ins </strong>section:<br><img src="https://help.uberflip.com/hc/article_attachments/360089659772/image.png" alt="image.png">
+</li>
+<li>The Sales Assist Add-in is now installed in your Outlook account. To open it, just <strong>click the ... button</strong> while composing an email, then click on <strong>Sales Assist by Uberflip </strong>to <a href="https://help.uberflip.com/hc/en-us/articles/360057052132">easily share personalized content with your prospects</a>:
+<p><strong><img src="https://help.uberflip.com/hc/article_attachments/360089663532/image.png" alt="image.png"></strong></p>
+</li>
+</ol>
+</ol>
+<p> </p>
+<h2 id="h_01F7CCXD0TTF33KDKSEAXH1YYA">Alternative installation method (Add from file)</h2>
+<p>In some cases, the <em>Add from URL</em> method described above may not work (i.e. it may result in an error message). In this case, you can use the alternative <em>Add from file</em> method.</p>
+<ol>
+<li>Download the <strong>manifest.xml file</strong> for the Sales Assist Add-in to your computer. To do so, <strong>right-click the following link</strong>, then click on <strong>Save Link As</strong>:
+<ul>
+<li>
+<a href="https://sa.uberflip.com/extensions/outlook/manifest.xml">https://sa.uberflip.com/extensions/outlook/manifest.xml</a><br><img src="https://help.uberflip.com/hc/article_attachments/360097284732/image.png" alt="image.png">
+</li>
+</ul>
+</li>
+<li>Follow the instructions for installing on <a href="#h_01F7CD1E0NJDCKFDBR7RDS3SPQ" target="_self">desktop</a> or <a href="#h_01F7CD1NNQ1G9R69QVT1PEN0BF" target="_self">web</a> (as appropriate), until you reach the step where you click on the <strong>+Add a custom add-in</strong> button. After clicking on this button, click on  <strong>Add from file...</strong> (instead of <em>Add from URL...</em>):<img src="https://help.uberflip.com/hc/article_attachments/360097283232/image.png" alt="image.png">
+</li>
+<li>
+<strong>Select the manifest.xml file</strong> that you downloaded earlier, then <strong>click the Open button</strong>.</li>
+<li>In the next window, click on <strong>Install</strong>. After a brief moment, the <strong>Uberflip for Outlook</strong> extension will appear under the <strong>Custom add-ins </strong>section:<br><img src="https://help.uberflip.com/hc/article_attachments/360089659772/image.png" alt="image.png">
+</li>
+<li>The Sales Assist Add-in is now installed in your Outlook account.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360058009392</guid>
+         <pubDate>Sat, 13 Mar 2021 00:32:13 GMT</pubDate>
+      </item>
+      <item>
+         <title>Sales Assist: Frequently Asked Questions</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360058465311-Sales-Assist-Frequently-Asked-Questions</link>
+         <description><![CDATA[<hr>
+<p>Got a question about Sales Assist? Here are some answers to the most commonly asked questions about Sales Assist.</p>
+<hr>
+<p> </p>
+<h2>When I create my own content Items, how does Sales Assist set the thumbnail image?</h2>
+<p>When you create your own content Item, Sales Assist will look in the metadata of the content to try and find a thumbnail image. If it can find a suitable image, it uses it to create a thumbnail for the Item.</p>
+<p>If there is no suitable image in the metadata, Sales Assist can't create a thumbnail. When that happens, you can simply edit the Item to add an image of your choice (either from a URL, or from Sales Assist's image library).</p>
+<p> </p>
+<h2>I can't add an image to my content Item. What's going wrong?</h2>
+<p>The most common cause of this problem is using a URL that does not point directly to an image file. This usually happens with images you copy from Google Image Search. For example, this URL will display an image, but it's not the actual image URL, so it won't work:</p>
+<p><a href="https://images.app.goo.gl/ZH4t1ZkPNevDmG3v9">https://images.app.goo.gl/ZH4t1ZkPNevDmG3v9</a></p>
+<p>What you're looking for is a URL that ends with an image file extension, like<em> .jpg</em> or <em>.png</em>. In Chrome, you can get this by right-clicking on an image, then clicking on <em>Copy image address</em>. If you do that on the image in the link above, you'll get this (valid) image URL instead:</p>
+<p><a href="https://uberflip.com/assets/logos/uberflip-logo-white-rubine.png">https://uberflip.com/assets/logos/uberflip-logo-white-rubine.png</a></p>
+<p> </p>
+<h2>If I create a content Item using a link to Google Docs (or Slides, Sheets, etc.), what do I need to do before sharing it with a prospect?</h2>
+<p>To ensure that they can see the content, you need to set up the <em>Share </em>permissions for the Google Doc to give at least your recipient "Can view" permission. If you expect the recipient to share the content with others in their organization, you have two options:</p>
+<ul>
+<li>You can set the <em>Share</em> permissions for the Google Doc to "Anyone with the link can view", which allows the recipient to freely share it with others. If you choose this option, remember that <em>anyone</em> will be able to see the content, so be careful with sensitive content.</li>
+<li>As an alternative, you can also simply leave the permissions set to only your intended recipient initially. When they share the content, additional people who want to view it will be prompted to request permission: these requests will be sent to you, which allows you to capture new potential leads within a sales cycle (as well as retain access control over sensitive content).</li>
+</ul>
+<p> </p>
+<h2>When I create a content Item using a link to Dropbox, why does it show "View File on Dropbox" instead of the file itself?</h2>
+<p>Dropbox prevents content that it hosts from being displayed in an iframe, so when you create an Item in Sales Assist using a Dropbox link, it'll always show a "View File on Dropbox" message rather than the content itself.</p>
+<p>In general, we recommend using a service other than Dropbox to host files that you want to use with Sales Assist. If you must use Dropbox, the <a href="https://marketplace.uberflip.com/details/iframer/"><strong>iFramer</strong></a> app has a feature that allows content from Dropbox to be iframed. Sales Assist integrates automatically with iFramer, so if you install iFramer and configure it to display Dropbox content, Sales Assist will display Dropbox content as well.</p>
+<p> </p>
+<h2>What happens to notifications that come in while Sales Assist is not open?</h2>
+<p>Sales Assist will display notifications as long as it is open and logged in somewhere in your browser: either in an open tab (even if it's not the active tab), or in the Chrome extension.</p>
+<p>If Sales Assist is not currently logged in and open anywhere, it will hold any notifications that come in and display them the next time the user logs in to Sales Assist. Plus, you can also view past activity notifications in the <em>Shares</em> section of the app.</p>
+<p> </p>
+<h2>Why won't the Chrome extension open on some tabs?</h2>
+<p>The Chrome extension is basically an iframe of the Sales Assist app. Some websites, such as LinkedIn, do not allow iframes to be displayed. As a result, the Sales Assist extension won't open whenever the active browser tab is displaying a website that restricts iframes.</p>
+<p> </p>
+<h2>Why did Sales Assist not notify me when someone viewed a DSR or content Item that I shared with them?</h2>
+<p>Sales Assist can only notify you of views for links generated by Sales Assist. These links contain a special "share token" that allows the app to identify when someone visits the linked page. If you simply share the regular DSR or Item URL, this doesn't include the share token, so Sales Assist has no way of knowing (and notifying you) when someone visits the page.</p>
+<p> </p>
+<h2>Can I hide certain Items or Streams so that they don't show up in Sales Assist?</h2>
+<p>Sales Assist uses Uberflip's built-in <em>Show in Extensions</em> Stream setting to determine whether or not to surface content in Search: if this setting is turned off for a Stream, Items in that Stream won't be displayed in Sales Assist.</p>
+<p>To turn off this setting for any Stream, open the Stream in Uberflip and click on the <em>Options</em> tab, then toggle the <em>Show in Extensions </em>setting to the off position.</p>
+<p> </p>
+<h2>If an Uberflip Item is set up to redirect the visitor to its canonical URL, will Sales Assist send a notification if a recipient visits that Item?</h2>
+<p>In order to track whether a link was visited and send a notification to the user who shared it, Sales Assist needs the linked page to finish loading. With an Item that redirects to a canonical URL this wouldn't happen, so for these Items, Sales Assist is not able to do tracking and notifications.</p>
+<p> </p>
+<h2>In what order does Sales Assist show Items in the <em>Search</em> section? Can I change the way the search results are ordered?</h2>
+<p>By default, Sales Assist orders content search results (i.e. Items displayed in the <em>Search</em> section) based on how often they've been shared: the more an Item has been shared, the higher up it appears. Share count is determined by the number of Sales and Marketing Streams an Item has been added to, so an Item that has been added to a total of 10 Marketing and/or Sales Streams would rank higher than one that's only in 3 Streams.</p>
+<p>In addition, you can also order search results by publish date (newest first), or alphabetically by title.</p>]]></description>
+         <guid isPermaLink="false">360058465311</guid>
+         <pubDate>Sat, 13 Mar 2021 00:31:29 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

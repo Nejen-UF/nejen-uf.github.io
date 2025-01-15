@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Uberflip basics</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Media: Image management in Uberflip explained</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/25430157641741-Media-Image-management-in-Uberflip-explained</link>
+         <description><![CDATA[<p>The internet is a very visual place, so it’s no surprise that you’ll be dealing with images a lot in Uberflip. Uberflip’s Media feature makes curating and using your images in Uberflip easy.</p>
+<p> </p>
+<h2 id="h_01HYH52Y7M67DF9FP851VM5DDF">Good to know</h2>
+<ul>
+<li>All users in your Uberflip account are using and managing one Media library. Any changes and additions to the Media library can be seen and used by all users.  </li>
+</ul>
+<p> </p>
+<h2 id="h_01HYE9927F126HRECXXRBF108B">Media at a glance</h2>
+<p>Media is an all-in-one image manager built into Uberflip. Upload images to Media to use across your pages, content, and Hubs.<br><img src="https://help.uberflip.com/hc/article_attachments/26916501526541" width="600" height="314"><br>Got a lot of images? Keep them organized using folders and collections built into the Media library. Need to adjust to an image for your current use case? In Media, you can.</p>
+<p><strong>By default, Media takes care of optimization for your images</strong>, so you don’t need to worry about that part. Media will automatically optimize the image delivery to your page, Hub, or content visitor. </p>
+<p>Media ensures the image is served up at high quality while being optimized for fast loading. </p>
+<p> </p>
+<h2 id="h_01HYE9927FCCH6Q3XEWQ780S8Y">What can I do with Media?</h2>
+<ul>
+<li>Upload and store images </li>
+<li>Organize and tag images for easy access</li>
+<li>Crop and resize images (and more basic editing)</li>
+<li>Insert your images into your pages, Hubs, and blog posts</li>
+</ul>
+<p> </p>
+<h2 id="h_01HYE9927FHXTV1G2JYK5QEEK8">Where can I use Media in Uberflip?</h2>
+<p>Most places (with <a href="https://help.uberflip.com/hc/en-us/articles/25430198637197-Media-Upload-and-use-images#using-images-from-media-in-uberflip:~:text=Where%20can%E2%80%99t%20I%20use%20Media%20images%3F">a few exceptions</a>). Media allows you to use all of your images across your pages, Hubs, blog posts, and more. You can reuse your images over and over again, optimized for each use case.</p>
+<p><strong>When you see a button for choosing or adding an image in Uberflip, that button will launch the Media library,</strong> so you can choose an existing image or upload a new one. </p>
+<p>You can also access Media from the sidebar menu of the Hubs management area at anytime to manage your Media Library <em>(Hubs [topbar] &gt; choose a Hub &gt; sidebar menu &gt; Media).<br></em><img src="https://help.uberflip.com/hc/article_attachments/26984099382925" width="500" height="265"></p>
+<p> </p>
+<h2 id="h_01HYE9927F0Y7GXXAJE9Q9FZ4W">How do I get started?!</h2>
+<p>Check out these Media article to learn everything you need to know about Media: </p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/25430198637197">Media: Upload and use images</a></li>
+<li>Media: Manage and organize your images <em>(coming soon!)</em>
+</li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/25430226849549">Media: Crop images</a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/20896372993165"><span style="color: #1155cc;">Uberflip Pages: Upload, crop, and insert images using Media</span></a></li>
+</ul>]]></description>
+         <guid isPermaLink="false">25430157641741</guid>
+         <pubDate>Thu, 28 Mar 2024 19:54:31 GMT</pubDate>
+      </item>
+      <item>
+         <title>The Uberflip glossary: Definitions for Uberflip terms</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020491171-The-Uberflip-glossary-Definitions-for-Uberflip-terms</link>
+         <description><![CDATA[<hr>
+<p>Stumped by a term that you've seen somewhere in Uberflip or in our documentation? In this glossary, you can find definitions for Uberflip-specific terminology, as well as for some general terms that you might not be familiar with.</p>
+<hr>
+<p> </p>
+<h2 id="h_01HBX3TCTZ6YRJVH0M17YAKCWQ">A</h2>
+<h3 id="h_01HBX3TCTZJR47CDVXFBJDCZZK">Auto-Link Tool</h3>
+<p>A tool for <a href="#h_240562769121543853263154">Flipbooks</a> that automatically creates hyperlinks <a href="https://help.uberflip.com/hc/en-us/articles/360019781392">from URLs and email addresses</a> found in the text. It can also be used to automatically create links on specified keywords using a <a href="https://help.uberflip.com/hc/en-us/articles/360019998971">CSV file</a> or <a href="https://help.uberflip.com/hc/en-us/articles/360020001151">regular expressions</a>, or on <a href="https://help.uberflip.com/hc/en-us/articles/360020003231">Digital Object Identifiers</a>.</p>
+<p> </p>
+<h2 id="h_01HBX3TCTZB82EWP6FKG6YVJT2">C</h2>
+<h3 id="h_01HBX3TCTZB7A1B1WZBVHDEV92">Canonical URL</h3>
+<p>The "master" URL for a specific piece of web content (or, in the context of your <a href="#h_6017010691251543854208811">Hub</a>, an <a href="#h_8016386853651543854232749">Item</a>). If the same webpage can be accessed under multiple URLs, the canonical URL refers to the primary version, the authoritative URL for that page. Canonical URLs are mainly important for SEO, because search engines see the same webpage with multiple URLs as multiple separate webpages. Specifying a canonical URL for a webpage can help prevent dilution and improve ranking.</p>
+<h3 id="h_01EVCWJS92KQ0B1DFZW5NAJH42">Content Experience</h3>
+<p>A term to collectively describe all the factors associated with how your prospects and customers discover and consume your content. A content experience consists of the environment in which your content lives, how it's structured, and how it compels your prospects and customers to engage with your company.  Uberflip <a href="#h_6017010691251543854208811" target="_self">Hubs</a> are specifically designed to make it easy to build your own content experiences. For more details about content experience as a concept, see <a href="https://www.uberflip.com/content-experience/">this page</a>.</p>
+<h3 id="h_01HBX3TCV08G8V4J4TFA6QQDX7">Content Experience Framework</h3>
+<p>Uberflip's structure for creating successful, scalable <a href="#h_01EVCWJS92KQ0B1DFZW5NAJH42" target="_self">content experiences</a>. It consists of five steps: <a href="https://hub.uberflip.com/blog/the-content-experience-framework">centralize content, organize content, personalize experiences, distribute content, and generate results</a>. Your <a href="#h_6017010691251543854208811" target="_self">Hub</a> are built around this framework, and contain tools to help you perform each step.</p>
+<h3 id="h_01HBX3TCV0K6QA1RVD18ZNCCYD">Conversion Item</h3>
+<p>The <a href="#h_8016386853651543854232749">Item</a> to which a <a href="#h_6017010691251543854208811">Hub</a> visitor's conversion into a lead can be attributed. A conversion takes place when a visitor submits a <a href="#h_83629856613271543854742186">Form CTA</a>, so we can identify a conversion Item if that Form CTA was associated with a particular Item (for example if it was placed as a <a href="#h_77477154121781543856003664">gate</a>).</p>
+<h3 id="h_01HBX3TCV0RXY4CJ2CK7SP16VV">Curated Stream</h3>
+<p>Curated Streams are collections of content in a Hub, used to create targeted/personalized content experiences using different types of content. Marketing Streams and Sales Streams are both types of curated Streams. </p>
+<h3 id="h_01HBX3TCV0P6DQM2H7S6KBVJ76">Custom Code</h3>
+<p>Blocks of code which can be added to your <a href="#h_6017010691251543854208811">Hub</a> to customize its appearance beyond what is possible with the built-in tools. Using Custom Code, you can use HTML, CSS and JavaScript to override and extend the code that runs your Hub, to make it look and function essentially however you like.</p>
+<h3 id="h_01HBX3TCV0WX435K9MRBS8JXDE">Custom Domain</h3>
+<p>A customized URL that replaces the default co-branded URL for your Hub. <a href="https://help.uberflip.com/hc/en-us/articles/360018876192">Custom Domains</a> are usually used to integrate Hubs with existing websites, primarily for SEO and branding reasons.</p>
+<h3 id="h_8736808819301543855808057">CTA Tiles</h3>
+<p>Stands for <em>Call-To-Action</em>, a special kind of <a href="#h_5411741437351543854521748">Tile</a> in your <a href="#h_6017010691251543854208811">Hub</a>. Uberflip CTAs are designed to drive your visitors to specific <a href="#h_8016386853651543854232749">Items</a> or <a href="#h_37353125310431543854593027">Streams</a>, to contact you, or to submit personal/contact information for lead generation. Available in two types: <a href="#h_8577673394991543854353942">Link CTA</a> and <a href="#h_83629856613271543854742186">Form CTA</a>.</p>
+<p> </p>
+<h2 id="h_01HBX3TCV0PA78Z3G9P4N2Q3B8">D</h2>
+<h3 id="h_01H1SSE5WRS2AP8FPJBPFM2E7T">Digital Sales Room (DSR)</h3>
+<p>A Digital Sales Room<em> (or DSR)</em> is a personalized web destination that facilitates the sales process. It provides a centralized location where sales teams and potential customers can interact, collaborate, and exchange information to support the sales process. In Uberflip, DSRs are created using <a href="#h_01H1SSHPJM2G1G9JMEDH39Y02Y" target="_self">Sales Assist</a>.</p>
+<p> </p>
+<h2 id="h_01HBX3TCV0H7QPD5KYR5Z2JP9Z">F</h2>
+<h3 id="h_240562769121543853263154">Flipbook</h3>
+<p>A PDF converted to be displayed in Uberflip's web-based viewer. A Flipbook presents your PDF like an interactive digital magazine or book, and can be enhanced with links, rich media like embedded videos, clippings, page widgets, and more. Flipbooks also enable enhanced metrics on your PDF content, allowing you to track pages viewed and reading completion.</p>
+<h3 id="h_01HBX3TCV0APM7E70R9YBCK2FM">Folder</h3>
+<p>A location in which <a href="#h_240562769121543853263154">Flipbooks</a> are stored. Before you can upload a Flipbook to Uberflip, you must first create at least one Folder to contain the Flipbook. Whenever you upload a Flipbook to your account, you choose the Folder to upload it to. Settings for styling, widgets and other options are set at the Folder level, and all Flipbooks within a Folder inherit its settings. Each Folder also has a unique ID and link URL: when shared, the link will always serve up the latest Flipbook published in that Folder.</p>
+<h3 id="h_83629856613271543854742186">Form CTA</h3>
+<p>A type of <a href="#h_8736808819301543855808057">CTA</a> which contains a text input form. It's designed to collect information from <a href="#h_6017010691251543854208811">Hub</a> visitors and send it to a Marketing Automation Platform like Marketo or HubSpot. Form CTAs can be used to <a href="#h_77477154121781543856003664">gate</a> content or can be used for non-mandatory collections like newsletter subscription prompts.</p>
+<p> </p>
+<h2 id="h_01HBX3TCV0G4B6WH5NQV0G1GQY">G</h2>
+<h3 id="h_77477154121781543856003664">Gate</h3>
+<p>To place content behind a <a href="#h_83629856613271543854742186">Form CTA</a>, prompting visitors to interact with the CTA (and typically submit information) before they can view the content. Gating with CTA is useful for getting the most value out of premium content (like white papers and eBooks) by using it to generate leads.</p>
+<h3 id="h_01HBX3TCV09WC11Y9QT7RW3WD0">Groups</h3>
+<p>Predefined and custom groups of users in your Uberflip account. Groups are used to manage permissions in the Uberflip app for your users, typically based on their role.</p>
+<p> </p>
+<h2 id="h_01HBX3TCV0T4GJXGF3JDQM7EZH">H</h2>
+<h3 id="h_6017010691251543854208811">Hub</h3>
+<p>A high level organization level for related content and tools to manage that content. Hubs aggregate all of your marketing content into a single, centralized location. <a href="#h_8016386853651543854232749">Items</a> in your Hub can be organized into customizable content collections (known as <a href="https://help.uberflip.com/hc/en-us/articles/360020491171#h_37353125310431543854593027">Streams</a>). </p>
+<h2 id="h_01HBX3TCV03TZVPJA8YY41R9ZC">I</h2>
+<h3 id="h_8016386853651543854232749">Item</h3>
+<p>A single piece of content in your <a href="#h_6017010691251543854208811">Hub</a>. An Item can be any type of content: blog post, video, tweet, slide deck, <a href="#h_240562769121543853263154">Flipbook</a>, etc. Groups of Items are called <a href="#h_37353125310431543854593027">Streams</a>, and each Item is visually represented in a Stream or microsite by a <a href="#h_5411741437351543854521748">Tile</a>.</p>
+<p> </p>
+<h2 id="h_01HBX3TCV023G3TR6XA394880J">L</h2>
+<h3 id="h_8577673394991543854353942">Link CTA</h3>
+<p>A type of <a href="#h_8736808819301543855808057">CTA</a> which contains a hyperlink. Link CTAs can be used to send visitors to a webpage you specify, including other destinations within your <a href="#h_6017010691251543854208811">Hub</a> (or other Hubs). They are also useful for giving visitors a way to contact you.</p>
+<p> </p>
+<h2 id="h_01HBX3TCV0H7HG3H1VY4B0H1ZX">M</h2>
+<h3 id="h_11094920140301543865561751">Marketing Stream</h3>
+<p>A type of <a href="#h_37353125310431543854593027">Stream</a> that collects <a href="#h_8016386853651543854232749">Items</a> from one or more <a href="#h_75647391538571543865391289">Source Streams</a>, allowing you to curate collections of content for specific audiences. Unlike Source Streams, Marketing Streams combine content from multiple sources and can therefore contain a mix of different types of content.</p>
+<h3 id="h_01H1SSG4WVMQNNXXP5EB4ZTHCJ">Marketplace</h3>
+<p>Uberflip's app store, where you can get apps that extend the functionality of your <a href="#h_6017010691251543854208811" target="_self">Hub</a>, and allow you to create even more personalized and and customizable <a href="#h_01EVCWJS92KQ0B1DFZW5NAJH42" target="_self">content experiences</a>.</p>
+<p> </p>
+<h2 id="h_01HBX5YJHNFBZ4GM5JXBWART8V">P</h2>
+<h3 id="h_01HBX5Z54S6YB29PAVZSVFR5HD">Pages</h3>
+<p>Uberflip <a href="https://help.uberflip.com/hc/en-us/articles/17703415334669">Pages</a> is an all-in-one page builder and management tool, used to create microsites, filled with relevant content for any audience or prospect. </p>
+<p> </p>
+<h2 id="h_01HBX3TCV02YGSCG9Q1FK8HWR1">S</h2>
+<h3 id="h_01H1SSHPJM2G1G9JMEDH39Y02Y">Sales Assist</h3>
+<p>Sales Assist is a sales engagement app for Uberflip. It's used by sales teams to create <a href="#h_01H1SSE5WRS2AP8FPJBPFM2E7T" target="_self"><strong>Digital Sales Rooms (DSRs)</strong></a> that leverage the marketing content in your Uberflip account. Sales Assist can be added to an Uberflip account from the Uberflip <a href="#h_01H1SSG4WVMQNNXXP5EB4ZTHCJ" target="_self">Marketplace</a>.</p>
+<h3 id="h_38591456340951543865667316">Sales Stream</h3>
+<p>A variation of the <a href="#h_11094920140301543865561751">Marketing Stream</a> that allows for hyper-targeted <a href="#h_38591456340951543865667316">Streams</a> tailored for specific recipients. Sales Streams are hidden by default and can be used to privately share content with prospects, so they're very useful for sales enablement.</p>
+<h3 id="h_46170081952121543867058020">Smart Filter</h3>
+<p>A workflow automation tool that searches for <a href="#h_8016386853651543854232749">Items</a> in your <a href="#h_6017010691251543854208811">Hub</a> that match certain criteria, then performs an action on those Items, such as adding them to a <a href="#h_37353125310431543854593027">Stream</a> or applying <a href="#h_40534595243581543866386664">Tags</a>.</p>
+<h3 id="h_75647391538571543865391289">Source Stream</h3>
+<p>A type of <a href="#h_37353125310431543854593027">Stream</a> that is used to aggregate content <a href="#h_8016386853651543854232749">Items</a> into your <a href="#h_6017010691251543854208811">Hub</a> from a variety of sources, such as blogs, YouTube, social media, etc. Once pulled into your Hub, Items can be displayed in your Hub either as part of their original Source Stream, or you can mix together Items from one or more Source Streams to create <a href="#h_11094920140301543865561751">Marketing Streams</a> and <a href="#h_38591456340951543865667316">Sales Streams</a>.</p>
+<h3 id="h_37353125310431543854593027">Stream</h3>
+<p>A collection of <a href="#h_8016386853651543854232749">Items</a>, Streams are used to categorize the content in your <a href="#h_6017010691251543854208811">Hub</a> in various ways. The basic type of Stream is the <a href="#h_75647391538571543865391289">Source Stream</a>, which is used to pull different types of content into a Hub. Items from Source Streams can be curated into <a href="#h_11094920140301543865561751">Marketing Streams</a> and <a href="#h_38591456340951543865667316">Sales Streams</a>, which are customized for specific audiences. Streams can also have <a href="#h_8736808819301543855808057">CTAs</a> interspersed among the Items.</p>
+<p> </p>
+<h2 id="h_01HBX3TCV05X37C62WAR5K2G0Z">T</h2>
+<h3 id="h_40534595243581543866386664">Tag</h3>
+<p>Keywords which can be applied to specific <a href="#h_8016386853651543854232749">Items</a> in your <a href="#h_6017010691251543854208811">Hub</a>, allowing them to be sorted and filtered. Can be used with <a href="#h_46170081952121543867058020">Smart Filters</a> to automatically sort Items into different <a href="#h_37353125310431543854593027">Streams</a>. Tags applied to an Item are invisible to Hub visitors.</p>
+<h3 id="h_01HBX3TCV0H4WB0DDH4F66266E">Tag Group</h3>
+<p><span style="font-weight: 400;">Tag Groups are collections of tags with similar intents. They’re fully customizable and can be based on any topic or parameter you want.</span></p>
+<h3 id="h_01HBX3TCV098VKV1P4D72G6KN2">Tag Structure</h3>
+<p>The organized structure of <a href="https://help.uberflip.com/hc/en-us/articles/8129396439053#what-are-item-tags" target="_self">Item Tags</a> and the <a href="https://help.uberflip.com/hc/en-us/articles/8129396439053#what-are-tag-groups" target="_self">Tag Groups</a> they're organized into. This will look different for every Uberflip account and should be created based on your organizations needs. </p>
+<h3 id="h_5411741437351543854521748">Tile</h3>
+<p>The visual representation of a single <a href="#h_8016386853651543854232749">Item</a> or a <a href="#h_8736808819301543855808057">CTA</a>. A Tile associated with an Item consists of a thumbnail image and a short description, as well as a link to view the Item. <a href="#h_37353125310431543854593027">Streams</a> are made up of a collection of Items represented by their Tiles, which are displayed as a grid. Tiles are generally of uniform size, but featured Tiles are four times larger than normal tiles.</p>
+<p> </p>
+<h2 id="h_01HBX3TCV0GKNVYEY024681AXQ">U</h2>
+<h3 id="h_01EVCXTPXXG3RHDZ1PQNB3905X">Uberflip Analytics (UFA)</h3>
+<p>Uberflip's powerful business intelligence (BI) suite, powered by <a href="https://looker.com/">Looker</a>. Use it to track and measure the performance and impact of the <a href="#h_01EVCWJS92KQ0B1DFZW5NAJH42" target="_self">content experiences</a> you create in your <a href="#h_6017010691251543854208811" target="_self">Hub</a>, such as how well your <a href="#h_8736808819301543855808057" target="_self">CTAs</a> are converting visitors into leads, or what types of content are (or aren't) resonating with your visitors. Replaces Uberflip's older analytics technology, <a href="#h_01EVCXT57JX7GGW4DX9FYV5ZTC" target="_self">Legacy Metrics</a>.</p>]]></description>
+         <guid isPermaLink="false">360020491171</guid>
+         <pubDate>Mon, 03 Dec 2018 15:26:18 GMT</pubDate>
+      </item>
+      <item>
+         <title>Accessibility in Uberflip Hubs and Streams</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/5979845982989-Accessibility-in-Uberflip-Hubs-and-Streams</link>
+         <description><![CDATA[<h2 id="h_01HBX06YH7FB0HKJ6QVFX7B5C1"><span style="font-weight: 400;">Introduction</span></h2>
+<p><span style="font-weight: 400;">Accessibility is a must, both online and IRL. At Uberflip, we’re committed to helping you keep your Hubs and Streams accessible, so you can deliver great content experiences to everyone. </span></p>
+<p><strong><em>Website Content Accessibility Guidelines </em></strong><a href="https://www.w3.org/TR/WCAG21/"><span style="font-weight: 400;">(WCAG)</span></a><span style="font-weight: 400;"> were developed as part of a global initiative that aims to make online content more accessible for everyone. This includes the use of screen readers, tabbed browsing, closed captioning, and more. </span></p>
+<p><span style="font-weight: 400;">We use </span><em><span style="font-weight: 400;">Website Content Accessibility Guidelines</span></em><span style="font-weight: 400;"> to inform our accessibility choices and offerings.</span></p>
+<p><span style="font-weight: 400;">Accessible content affects everyone. This includes you and your hub. Web pages created within the Uberflip platform must be at minimum </span><a href="https://www.w3.org/WAI/WCAG1AA-Conformance"><span style="font-weight: 400;">Double-A compliant. </span></a></p>
+<div class="callout callout--success">
+<h4 id="h_01HBX06YH8E5V48T580Y6BNF2G" class="callout__title">Did you know?</h4>
+<p><span style="font-weight: 400;">Having an accessible Hub or website can increase your SEO ranking.</span></p>
+</div>
+<p> </p>
+<h2 id="h_01HBX06YH8EJQNWF07W4J2YMYA"><span style="font-weight: 400;">How does Uberflip help me stay accessible?</span></h2>
+<p><span style="font-weight: 400;">Uberflip's current front-end Hub technology (Front End V2) was built for accessibility, and</span><span style="font-weight: 400;"> includes accessibility features like: </span></p>
+<ul class="list-bullet">
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Aria labels</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Screen reader compatibility </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">All necessary accessibility tags </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Accessibility features like skip links and improved tab abilities</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Improved page flow structure </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">And more</span></li>
+</ul>
+<p><strong>All Hubs created after March 2020 are V2 Hubs</strong><span style="font-weight: 400;">, which include the above features. These features are built in and don’t require any set up from you. </span></p>
+<p><strong>Note:</strong><span style="font-weight: 400;"> Some Hubs created before March 2020 may be V1 Hubs. </span></p>
+<p> </p>
+<h2 id="h_01HBX06YH8Q4DJX1NAD8SGZJBY"><span style="font-weight: 400;">What can I do to keep my Hub accessible? </span></h2>
+<h3 id="h_01HBX06YH8H2XYDAJ3TEQV7YK6"><span style="font-weight: 400;">Add alt-text to images</span></h3>
+<p><span style="font-weight: 400;">When creating a blog post in Uberflip, you can add alt-text to any images you upload. This allows screen readers to describe the image (as outlined by you) to your visitor. To do this, just add an image as usual to a blog post and </span><strong>double-click it to open the image properties</strong><span style="font-weight: 400;">. </span></p>
+<p><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/5979755065613" alt="mceclip0.png" width="495" height="252"></span></p>
+<h3 id="h_01HBX06YH8BV6B12AHS7DSHBZ1"><span style="font-weight: 400;">Create accessible PDFs and make them downloadable</span></h3>
+<p><span style="font-weight: 400;">PDFs that have been converted to a Flipbook are not easily read by accessibility tools. To assist visitors who may want to consume your PDF using a screen reader, </span><strong>use</strong> <a href="https://www.w3.org/TR/WCAG21/"><strong><em>Website Content Accessibility Guidelines</em></strong></a><strong> when creating the original version of your PDF. </strong></p>
+<p><strong>Then, in Uberflip, turn on the ‘Download PDF’ option for your Flipbooks.</strong><span style="font-weight: 400;"> To do this:</span></p>
+<ol>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Go to the Stream editor page of a Marketing, Sales, or Flipbook Stream</span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Select the </span><strong>Options tab</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Toggle on the </span><strong><em>Show buttons to Download PDF and Expand Flipbook</em></strong><span style="font-weight: 400;"> option</span>
+</li>
+</ol>
+<p><span style="font-weight: 400;">This allows the original PDF version to be downloaded from the Hub, and used effectively with a screen reader.</span><span style="font-weight: 400;"><br></span></p>
+<h3 id="h_01HBX06YH8V4NSTKC6NYZG0P5N"><span style="font-weight: 400;">Check out the Uberflip Accessibility Resource Hub</span></h3>
+<p><span style="font-weight: 400;">For more tips and best practices for keeping an accessible Hub, check out the Uberflip </span><a href="https://academy.uberflip.com/accessibility-resources"><span style="font-weight: 400;">Accessibility Resource Hub</span></a><span style="font-weight: 400;">. </span></p>
+<p> </p>
+<h2 id="h_01HBX06YH8FS8C49SJ846ANSNR"><span style="font-weight: 400;">How can I learn more about accessibility?</span></h2>
+<p><span style="font-weight: 400;">The </span><a href="https://www.w3.org/TR/WCAG21/"><strong><em>Website Content Accessibility Guidelines</em></strong></a> <span style="font-weight: 400;">(WCAG) outline the current standards used by Uberflip and most reputable websites and apps. We suggest all marketers and web creators familiarize themselves with these. </span></p>
+<p><span style="font-weight: 400;">Many regions also have accessibility standards and rules you must follow to operate within them. Though many guidelines overlap with WCAG, some variations may exist. We recommend researching standards in your area to be sure you’re compliant. </span></p>]]></description>
+         <guid isPermaLink="false">5979845982989</guid>
+         <pubDate>Tue, 03 May 2022 21:01:51 GMT</pubDate>
+      </item>
+      <item>
+         <title>Can I perform bulk actions in Uberflip?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360033030731-Can-I-perform-bulk-actions-in-Uberflip</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>I want to perform an operation in Uberflip, but I need to do the same thing many times. For example, deleting Streams or Items, creating users, setting up redirect rules, creating tags, etc. Is there a way to automate these actions and do them in bulk, rather than manually one-by-one?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>Yes, you can perform a variety of bulk actions in your Uberflip account using the Bulk Task Smasher app. </p>
+<p>If you need to perform bulk actions that aren't currently supported by Bulk Task Smasher, please<strong> speak with your CSM</strong>, or <a href="https://help.uberflip.com/hc/en-us/requests/new?ticket_form_id=360000089411" target="_self" rel="undefined">contact Uberflip Support</a> directly.</p>]]></description>
+         <guid isPermaLink="false">360033030731</guid>
+         <pubDate>Wed, 28 Aug 2019 18:46:40 GMT</pubDate>
+      </item>
+      <item>
+         <title>SEO settings (and best practices) in Uberflip</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360028437152-SEO-settings-and-best-practices-in-Uberflip</link>
+         <description><![CDATA[<p><span style="font-weight: 400;">Uberflip Hubs, Streams, and Items contain a number of features and settings that impact SEO. This article will look at what each of these settings do, where to find them, and best practices for setting them for effective SEO. Let’s go!</span></p>
+<div class="callout callout--info">
+<h4 class="callout__title"><strong>Looking for info on Flipbook SEO?</strong></h4>
+<p><span style="font-weight: 400;">This article covers Hub, Stream, and Item SEO, but Flipbook SEO is a bit different. Check out: </span><a href="https://help.uberflip.com/hc/en-us/articles/360037703151"><span style="font-weight: 400;">Best Practices for Flipbooks SEO</span></a> to learn about that.</p>
+</div>
+<div class="callout callout--info">
+<h4 class="callout__title">
+<strong>FAQ: </strong>Will SEO setting changes break the RSS connection between an imported blog post and Uberflip?</h4>
+<p><span style="font-weight: 400;"><strong>Answer:</strong> Sometimes.</span></p>
+<p><strong>Find out when here: </strong><a href="https://help.uberflip.com/hc/en-us/articles/360045488551"><span style="font-weight: 400;">What changes cause an imported blog post to be disconnected from the original post?</span></a></p>
+</div>
+<p> </p>
+<h2 id="h_ff0001e4-6e76-470c-8c37-eb5a50bc8610">SEO Title and SEO Description</h2>
+<p><strong>Applies to: </strong><span class="text-primary"><strong>Hub | Stream | Item</strong></span></p>
+<h3>What these settings do</h3>
+<p><span style="font-weight: 400;">These Hub, Stream, and Item settings define the </span><strong>title and description that appear in search results</strong><span style="font-weight: 400;">: the SEO title is the clickable headline, and the SEO description is the short descriptive text that appears underneath. </span></p>
+<p><em><span style="font-weight: 400;">The title tag also appears on the browser tab when someone is viewing a Hub, Stream or Item page, and when the page is shared on most social networks.</span></em></p>
+<p><span style="font-weight: 400;">The copy in these fields tell visitors what they can expect on your page, so it's important to create interesting titles and descriptions to draw them in. Search engine algorithms also scan these for keywords, so they should contain keywords you're targeting.</span></p>
+<p><strong>Hub:<br><img src="https://help.uberflip.com/hc/article_attachments/360030193292/SEO.png" alt="SEO.png"></strong></p>
+<p><strong>Stream:<br><img src="https://help.uberflip.com/hc/article_attachments/360030193752/SEO.png" alt="SEO.png"><br></strong></p>
+<p><strong>Item:<br><img src="https://help.uberflip.com/hc/article_attachments/360030163231/Copy_of_Uberflip_SEO_Deck_-_Google_Slides.png" alt="Copy_of_Uberflip_SEO_Deck_-_Google_Slides.png" width="630" height="361"><br></strong></p>
+<h3>Best practices: SEO title and SEO description</h3>
+<p><strong>Title tags should:</strong></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Be </span><strong>unique</strong><span style="font-weight: 400;"> across your Hub (no duplicates) to avoid being down-ranked for duplicate content in search results</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Be under </span><strong>60 characters</strong><span style="font-weight: 400;"> in length (including spaces), as Google only displays the first 50-60 characters of a title tag</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Contain your </span><strong>keywords</strong><span style="font-weight: 400;">, but don't keyword-stuff as you risk the title being rewritten by Google</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Ideally use this </span><strong>optimized format</strong><span style="font-weight: 400;">:</span><em><span style="font-weight: 400;"> Primary Keyword - Secondary Keyword | Brand Name</span></em>
+</li>
+</ul>
+<p><strong>Description tags should:</strong></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Be </span><strong>unique</strong><span style="font-weight: 400;"> across your Hub (no duplicates) to avoid identical descriptions on multiple search results</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Be under </span><strong>160 characters</strong><span style="font-weight: 400;"> in length (including spaces), as Google only displays the first 155-160 characters of a description tag</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Both include the </span><strong>keywords</strong><span style="font-weight: 400;"> you're targeting and provide a </span><strong>descriptive, compelling overview</strong><span style="font-weight: 400;"> of the content on the page</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Not include double quotation marks</strong><span style="font-weight: 400;">, as Google cuts off the description where they appear</span>
+</li>
+</ul>
+<div class="accordion accordion--colored">
+<div class="accordion__item">
+<div class="accordion__item-title"><span style="font-weight: 400;">Configure Hub SEO Title and Description</span></div>
+<div class="accordion__item-content">
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>Appearance &gt; Branding</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Scroll to the </span><strong>SEO Title </strong><span style="font-weight: 400;">and </span><strong>SEO Description </strong><span style="font-weight: 400;">fields</span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Type your SEO title and description</span></li>
+</ol>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><span style="font-weight: 400;">Configure Stream SEO Title and Description</span></div>
+<div class="accordion__item-content">
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>Content</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In the </span><strong><em>Streams</em></strong><span style="font-weight: 400;"> tab, click on the Stream</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Select the </span><strong><em>Metadata</em></strong> tab</li>
+<li style="font-weight: 400;" aria-level="1">Type into the <strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">SEO Title </strong><span style="font-weight: 400;">and </span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">SEO Description </strong><span style="font-weight: 400;">fields</span>
+</li>
+</ol>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><span style="font-weight: 400;">Configure Item SEO Title and Description</span></div>
+<div class="accordion__item-content">
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>Content</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click the </span><strong><em>Items </em></strong><span style="font-weight: 400;">tab</span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Click the Item</span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Select the </span><strong><em>SEO </em></strong><span style="font-weight: 400;">tab</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Type into the </span><strong>SEO Title </strong><span style="font-weight: 400;">and </span><strong>SEO Description </strong><span style="font-weight: 400;">fields</span>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<p> </p>
+<h2 id="h_354b4d2d-bbdc-4be4-af10-f4ea65b165cd">H1 Headings</h2>
+<p><strong>Applies to: <span class="text-primary">Hub | Stream | Item</span></strong></p>
+<h3>What this setting does</h3>
+<p><span style="font-weight: 400;">In Uberflip, </span><strong>H1 headings are used for the title text on your Hub homepage, on the top level page of each Stream, and on Items</strong><span style="font-weight: 400;">. </span></p>
+<p><span style="font-weight: 400;">H1 Headings matter a bit less than title tags for SEO, but are important for SEO and user experience nonetheless. They give the visitor and search engine bots an idea of the page’s content.</span></p>
+<p><strong>Hub:<br><img src="https://help.uberflip.com/hc/article_attachments/360030270572/SEO.png" alt="SEO.png" width="630" height="358"></strong></p>
+<p><strong>Stream:<br></strong><img src="https://help.uberflip.com/hc/article_attachments/360030270732/Copy_of_Uberflip_SEO_Deck_-_Google_Slides.png" alt="Copy_of_Uberflip_SEO_Deck_-_Google_Slides.png" width="630" height="360"></p>
+<p><strong>Item:<br></strong><img src="https://help.uberflip.com/hc/article_attachments/360030270872/Copy_of_Uberflip_SEO_Deck_-_Google_Slides.png" alt="Copy_of_Uberflip_SEO_Deck_-_Google_Slides.png" width="629" height="366"></p>
+<h3>Best practices: H1 headings</h3>
+<p><strong>H1 headings should:</strong></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Be </span><strong>descriptive and readable</strong><span style="font-weight: 400;"> (the H1 is mainly intended for humans)</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Use </span><strong>different (but consistent) wording than the title</strong><span style="font-weight: 400;"> tag</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">Contain your <strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">keyword phrase</strong><span style="font-weight: 400;"> once (don't keyword-stuff)</span>
+</li>
+</ul>
+<div class="accordion accordion--colored">
+<div class="accordion__item">
+<div class="accordion__item-title"><span style="font-weight: 400;">Configure Hub H1 headings</span></div>
+<div class="accordion__item-content">
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>Appearance &gt; Custom Labels</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Scroll down and find the line for the </span><strong>Latest Content</strong><span style="font-weight: 400;"> field</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Type into the </span><strong>Custom Label</strong><span style="font-weight: 400;"> box</span>
+</li>
+</ol>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><span style="font-weight: 400;">Configure Stream H1 headings</span></div>
+<div class="accordion__item-content">
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>Content</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Select the </span><em><strong>Streams</strong></em><span style="font-weight: 400;"> tab</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click on </span><strong>the Stream</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Find the </span><strong>Stream name</strong><span style="font-weight: 400;"> at the top of the page</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click the </span><strong>pencil icon</strong><span style="font-weight: 400;"> next to the Stream name</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Type into the </span><strong>textbox</strong><span style="font-weight: 400;"> that appears</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click the </span><strong>checkmark icon</strong><span style="font-weight: 400;"> to save</span>
+</li>
+</ol>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><span style="font-weight: 400;">Configure Item H1 headings</span></div>
+<div class="accordion__item-content">
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>Content</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click the </span><em><strong>Items</strong></em><span style="font-weight: 400;"> tab</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click on </span>the Item</li>
+<li style="font-weight: 400;" aria-level="1">Type into the <strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Item title field</strong><span style="font-weight: 400;"> near the top of the page</span>
+</li>
+</ol>
+<p> </p>
+</div>
+</div>
+</div>
+<p> </p>
+<h2>H2-H5 Headings</h2>
+<p><strong>Applies to: </strong><span class="text-primary"><strong>Item</strong></span></p>
+<h3>What this setting does</h3>
+<p><span style="font-weight: 400;">Like H1 headings, H2 to H5 headings define sections in your content copy. </span></p>
+<p><strong>Headings below H1 have less impact on ranking</strong><span style="font-weight: 400;">, but Google has stated that they do use heading tags to understand the structure of a page when crawling it. </span></p>
+<p><span style="font-weight: 400;">More importantly, headings are prominently displayed on your content: this means that visitors tend to notice them, so they're a great way to grab attention.</span><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/360030593392/Copy_of_Uberflip_SEO_Deck_-_Google_Slides.png" alt="Copy_of_Uberflip_SEO_Deck_-_Google_Slides.png" width="630" height="420"></span></p>
+<h3>Best practices: H2 - H5 headings</h3>
+<ul>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Reserve H1 headings exclusively for your title — in your content, the </span><strong>highest-level sections should be</strong><strong>H2</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Structure headings in ascending numerical order</strong><span style="font-weight: 400;">, i.e. higher number headings should be nested within lower number headings, i.e. H4 should be under H3, which should be under H2</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Use </span><strong>keywords</strong><span style="font-weight: 400;"> in your headings, but don't keyword-stuff</span>
+</li>
+</ul>
+<div class="accordion accordion--colored">
+<div class="accordion__item">
+<div class="accordion__item-title"><span style="font-weight: 400;">Configure H2 - H5 Item headings</span></div>
+<div class="accordion__item-content">
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>Content</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Select the </span><strong><em>Items</em></strong><span style="font-weight: 400;"> tab</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>the Item</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Select the </span><strong><em>Editor</em></strong><span style="font-weight: 400;"> tab</span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Highlight the text you want to make into a heading</span></li>
+<li style="font-weight: 400;" aria-level="1">Use the <strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Paragraph Format dropdown</strong><span style="font-weight: 400;"> in the editor tools to choose the heading style:<br></span><img src="https://help.uberflip.com/hc/article_attachments/360030598372/Copy_of_Uberflip_SEO_Deck_-_Google_Slides.png" alt="Copy_of_Uberflip_SEO_Deck_-_Google_Slides.png" width="530" height="329">
+</li>
+</ol>
+</div>
+</div>
+</div>
+<p> </p>
+<h2 id="h_7acbeadd-cceb-4540-b67e-cfcd02269852">Robots Meta Tag <em>(allow/disallow indexing)</em>
+</h2>
+<p><strong>Applies to: <span class="text-primary">Hub | Stream<br></span></strong></p>
+<h3>What this setting does</h3>
+<p><em><span style="font-weight: 400;">Robots</span></em><span style="font-weight: 400;"> (also known as crawlers or spiders) are the programs used by search engines to automatically browse websites so they can be included in search results. The </span><a href="https://moz.com/learn/seo/robots-meta-directives"><span style="font-weight: 400;">robots meta tag</span></a><span style="font-weight: 400;"> is an HTML tag that can be used to tell these robots </span><em><span style="font-weight: 400;">how</span></em><span style="font-weight: 400;"> to crawl your website.</span></p>
+<p><span style="font-weight: 400;">You can enable/disable the robots meta tag at both the Hub and Stream level. </span></p>
+<p><strong>When enabled, the </strong><strong><em>No Robots Meta Tag</em></strong><strong> tells robots to not index the Hub or Stream</strong><span style="font-weight: 400;">, so that it’s </span><strong>not</strong><span style="font-weight: 400;"> included in search results, but that they can still use links within the Hub or Stream to discover additional content and influence search ranking for pages that can be indexed (follow).</span></p>
+<h3>Best practices: <em>No Robot Meta Tags</em> setting</h3>
+<ul>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">The <em><strong>No Robots Meta Tag </strong></em>options is </span><strong>enabled by default</strong><span style="font-weight: 400;"> on all new Hubs. <strong>M</strong></span><strong>ake sure it'</strong><strong>s turned off</strong><span style="font-weight: 400;"><strong> when you go live</strong> if you want the Hub crawled.</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">You should</span><strong> enable the </strong><strong><em>No robots meta tag </em></strong><span style="font-weight: 400;">option on any Hub or Stream that you </span><strong>don't want to show up on search engine results</strong><span style="font-weight: 400;"> (like a sandbox Hub or an internal resource center)</span>
+</li>
+</ul>
+<div class="accordion accordion--colored">
+<div class="accordion__item">
+<div class="accordion__item-title"><span style="font-weight: 400;">Control indexing (robots meta tag) for a Hub</span></div>
+<div class="accordion__item-content">
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>Hub Options &gt; Advanced</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Scroll down to the </span><strong>SEO </strong><span style="font-weight: 400;">section</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Check the box beside </span><strong>No Robots Meta Tag </strong><span style="font-weight: 400;">to enable the tag (blocks indexing) or uncheck to disable it (allows indexing)</span>
+</li>
+</ol>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><span style="font-weight: 400;">Control indexing (robots meta tag) for a Stream</span></div>
+<div class="accordion__item-content">
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>Content</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Select the </span><strong><em>Streams</em></strong><span style="font-weight: 400;"> tab</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>the Stream</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Select the </span><strong><em>Options</em></strong><strong> tab</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Scroll down to the setting </span><strong><em>No Robots Meta Tag</em></strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>the toggle switch</strong><span style="font-weight: 400;"> on the right to enable the tag (block indexing = green setting) or disable the tag (allow indexing = gray setting)</span>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p><span style="font-weight: 400;">The Stream-level setting will have no effect if the Hub-level setting is enabled, as the Hub-level setting will take precedence.</span></p>
+</div>
+<p> </p>
+<h2>Canonical settings <em>(handle duplicate content)</em>
+</h2>
+<p>(meta tags, URLs, Force self-canonical URL, Auto-redirect to canonical)</p>
+<p><strong>Applies to: </strong><span class="text-primary"><strong>Stream (Canonical Meta Tag/Force Self-Canonical URL) | Item (Canonical URL/Auto-redirect)<br></strong></span></p>
+<h3>What these settings do</h3>
+<p><span style="font-weight: 400;">Canonical settings work together to handle </span><a href="https://moz.com/learn/seo/duplicate-content"><span style="font-weight: 400;">duplicate content</span></a><span style="font-weight: 400;">. Duplicate content is a particular concern in a Hub, where the same piece of content will often appear in multiple places (i.e. an external blog, a Source Stream, and Marketing Streams). Duplicate content can cause SEO authority to be diluted, so it's important to mitigate this through </span><em><span style="font-weight: 400;">canonicalization</span></em><span style="font-weight: 400;">.</span></p>
+<p><span style="font-weight: 400;">Canonicalization means adding a </span><a href="https://moz.com/learn/seo/canonicalization"><span style="font-weight: 400;">canonical meta tag</span></a><span style="font-weight: 400;"> to a page's HTML. This tag indicates the canonical or "master" URL for that content, and is added by turning on the </span><strong>Enable Canonical Meta Tag</strong><span style="font-weight: 400;"> option for a Stream. There are 4 canonical settings in Uberflip: </span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><a href="#h_01GJ68XFY0TCZMMGCWP6WMG1P6" target="_self"><span style="font-weight: 400;">Canonical meta tags</span></a></li>
+<li style="font-weight: 400;" aria-level="1"><a href="#h_01GJ68XSM4BG3940G3K84ZACGD" target="_self"><span style="font-weight: 400;">Canonical URLs</span></a></li>
+<li style="font-weight: 400;" aria-level="1"><a href="#h_01GJ68Y1EPDGAGXBBCJ2F0BCJ0" target="_self"><span style="font-weight: 400;">Force self-canonical URL</span></a></li>
+<li style="font-weight: 400;" aria-level="1"><a href="#h_01GJ68YC138AXF3FTHP6HVFAZQ" target="_self"><span style="font-weight: 400;">Auto-Redirect to Item’s Canonical URL</span></a></li>
+</ul>
+<p><span style="font-weight: 400;">Here’s a closer look at each: <br><br></span></p>
+<h3 id="h_01GJ68XFY0TCZMMGCWP6WMG1P6"><span style="font-weight: 400;">Canonical meta tags</span></h3>
+<p><span style="font-weight: 400;">Canonical meta tags tell a search engine, "these pages with different URLs are duplicates, so here's the URL of the only copy I want you to care about". This allows you to specify which of the URLs for the duplicate pages will be crawled by the search engine, while the others are ignored.</span></p>
+<p><strong>By default the </strong><strong><em>Enable Canonical Meta Tag</em></strong><strong> option is: </strong></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;"><strong>Turned on</strong> for <strong>Source Blog Streams</strong> (importing from an RSS feed) and <strong>Marketing Streams</strong></span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;"><strong>Turned off</strong> by default on "<strong>from scratch" Blog Streams</strong> and <strong>all other Stream types</strong></span></li>
+</ul>
+<p><span style="font-weight: 400;">The URL that the </span><em><span style="font-weight: 400;">canonical meta tag</span></em><span style="font-weight: 400;"> points to as the "master" is the </span><strong>canonical URL</strong><span style="font-weight: 400;"> (set at the Item level). </span></p>
+<p> </p>
+<h3 id="h_01GJ68XSM4BG3940G3K84ZACGD"><span style="font-weight: 400;">Canonical URL</span></h3>
+<p><span style="font-weight: 400;">The </span><strong>canonical URL </strong><span style="font-weight: 400;">is the URL that the </span><em><span style="font-weight: 400;">canonical meta tag</span></em><span style="font-weight: 400;"> points to as the "master", which is set at the Item level.</span></p>
+<p><strong>By default, canonical URLs are set as:</strong></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Imported RSS blog Items</strong><span style="font-weight: 400;">: the URL of the blog post’s original location (original blog post gets SEO authority)</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>All other Item types:</strong><span style="font-weight: 400;"> No canonical is set (Item URL in Source Stream gets SEO authority)</span>
+</li>
+</ul>
+<p><span style="font-weight: 400;">In both cases, you can modify the canonical URL or add one on an Item-by-Item basis.</span></p>
+<p> </p>
+<h3 id="h_01GJ68Y1EPDGAGXBBCJ2F0BCJ0"><span style="font-weight: 400;">Force self-canonical URL option</span></h3>
+<p><span style="font-weight: 400;">If you’ve imported content from an external source (like a blog) and prefer for the corresponding Uberflip Items in your Hub to be the "master" copies by search engines, you can use the </span><strong>force self-canonical URL</strong><span style="font-weight: 400;"> option. When enabled, this setting:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Overrides the default canonical URL set at the Item level (e.g. the Item’s original source URL)</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Sets the canonical URL for every Item in the Stream to the URL of the Item within the Stream </span></li>
+</ul>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p><span style="font-weight: 400;">Keep in mind that </span><strong>all three of the above options require the </strong><strong><em>No robots meta tag</em></strong><strong> to be turned off to have any effect. </strong><span style="font-weight: 400;">If the </span><em><span style="font-weight: 400;">No robots meta tag</span></em><span style="font-weight: 400;"> is turned on, the canonical meta tag is ignored by search engine robots.</span></p>
+</div>
+<p> </p>
+<h3 id="h_01GJ68YC138AXF3FTHP6HVFAZQ"><span style="font-weight: 400;">Auto-Redirect to Item’s Canonical URL option</span></h3>
+<p><span style="font-weight: 400;">When enabled, Items in this Stream will 301 redirect to the Item’s Canonical URL (set at the Item level), if one exists.</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">This option takes you out of the Uberflip experience to an external webpage</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">This options allows the original content to gain all of the SEO authority</span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">If you choose to enable this option, </span><strong>no click or views metrics for Items in this Stream will be tracked in Uberflip Analytics</strong><span style="font-weight: 400;"> (assuming the Item’s canonical URL is an external page) </span>
+</li>
+</ul>
+<p> </p>
+<h3>Best practices: canonical settings</h3>
+<ul>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In general, we recommend that you </span><strong>turn on Enable Canonical Meta Tag on all Streams</strong><span style="font-weight: 400;">, as designating a canonical is better for SEO than not having one.</span>
+</li>
+<ul>
+<li style="font-weight: 400;" aria-level="2"><span style="font-weight: 400;">If a canonical URL has been set on an Item (e.g. on imported blog Items, or if you have specified it yourself), then the canonical meta tag will use it as the canonical URL.</span></li>
+<li style="font-weight: 400;" aria-level="2"><span style="font-weight: 400;">If no canonical URL has been explicitly set on an Item (the canonical URL field is blank), then the canonical meta tag will use the Source Stream Item’s URL.</span></li>
+</ul>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">The force self-canonical URL option is intended as </span><strong>an override if an explicit canonical URL is present</strong><span style="font-weight: 400;">. It's useful if you have imported content into Uberflip from an external blog, and now want the Uberflip Item to be the "master" that appears in search results (i.e. it overrides the external blog URL that's set as the canonical with the Item's Hub URL). If you prefer for the original blog page to remain the "master", leave this option turned off.</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">If you do choose to use the force self-canonical URL option, you should also </span><strong>create 301 redirects on the original blog</strong><span style="font-weight: 400;"> that point to the corresponding Items in your Hub, so that SEO authority can be passed over.</span>
+</li>
+</ul>
+<div class="accordion accordion--colored">
+<div class="accordion__item">
+<div class="accordion__item-title"><span style="font-weight: 400;">Set Canonical Meta Tag for a Stream</span></div>
+<div class="accordion__item-content">
+<p><span style="font-weight: 400;">To set the canonical meta tag for a Stream:</span></p>
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>Content</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Select the </span><strong><em>Streams</em></strong><span style="font-weight: 400;"> tab</span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Click the Stream</span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Select the </span><strong><em>Options</em></strong><span style="font-weight: 400;"> tab</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Scroll down to the setting </span><strong><em>Enable Canonical Meta Tag</em></strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">Click <strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">the toggle switch</strong><span style="font-weight: 400;"> on the right to enable the tag (set a canonical URL for all Items in the Stream = green setting) or disable the tag (no canonical URL = gray setting)</span>
+</li>
+</ol>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><span style="font-weight: 400;">Configure Canonical URL for an Item</span></div>
+<div class="accordion__item-content">
+<p><span style="font-weight: 400;">To add a canonical URL to an Item, or to change a default canonical URL:</span></p>
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>Content</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Select the </span><strong><em>Items </em></strong><span style="font-weight: 400;">tab</span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Click the Item</span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Select the </span><strong><em>SEO </em></strong><span style="font-weight: 400;">tab</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Find the </span><strong><em>Canonical URL </em></strong><span style="font-weight: 400;">field and enter the desired URL</span>
+</li>
+</ol>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title">
+<span style="font-weight: 400;">Enable </span><em><span style="font-weight: 400;">Force Self-Canonical</span></em>
+</div>
+<div class="accordion__item-content">
+<p><span style="font-weight: 400;">To override the default (external) canonical URLs for all Items in a Stream:</span></p>
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>Content</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Select the </span><strong>Streams</strong><span style="font-weight: 400;"> tab</span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Click the Stream</span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click the </span><strong><em>Options</em></strong><span style="font-weight: 400;"> tab</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Scroll down to the setting </span><strong><em>Force Self-Canonical URL</em></strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>the toggle switch</strong><span style="font-weight: 400;"> to enable the setting (override the default canonical URLs for all Items in the Stream = green setting) or disable the setting (use default canonical URLs = gray setting)</span>
+</li>
+</ol>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title">
+<span style="font-weight: 400;">Enable </span><em><span style="font-weight: 400;">Auto-Redirect to Item’s Canonical URL</span></em>
+</div>
+<div class="accordion__item-content">
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>Content</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Select the </span><strong>Streams</strong><span style="font-weight: 400;"> tab</span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Click the Stream</span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click the </span><strong><em>Options</em></strong><span style="font-weight: 400;"> tab</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Scroll down to the setting </span><strong><em>Force Self-Canonical URL</em></strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>the toggle switch</strong><span style="font-weight: 400;"> to enable the setting (override the default canonical URLs for all Items in the Stream = green setting) or disable the setting (use default canonical URLs = gray setting)</span>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<p> </p>
+<h2>URL Path</h2>
+<p><strong>Applies to: </strong><span class="text-primary"><strong>Stream | Item</strong></span></p>
+<h3>What this setting does</h3>
+<p><span style="font-weight: 400;">The </span><a href="https://moz.com/learn/seo/url"><span style="font-weight: 400;">URL path</span></a><span style="font-weight: 400;"> is the part of the URL for Streams and Items that appears after your Hub domain.</span></p>
+<p><strong>Example:<br></strong><strong>Stream URL path: </strong><em><span style="font-weight: 400;">resources.mycompany.com/</span></em><strong><em>an-example-stream</em></strong><em><span style="font-weight: 400;"><br></span></em><strong>Item URL path: </strong><em><span style="font-weight: 400;">resources.mycompany.com/an-example-stream</span></em><span style="font-weight: 400;">/</span><strong><em>an-example-item</em></strong></p>
+<p><span style="font-weight: 400;">Uberflip will automatically generate URL paths for your Streams and Items from their titles, but this can sometimes result in truncated or less-than-optimal URL paths. To fix this, you can set the URL path yourself.</span></p>
+<p><strong>The URL path has a minor impact on SEO</strong><span style="font-weight: 400;"> from a ranking standpoint, but it is important for the user experience. The URL path helps users quickly understand what a page is about. This is helpful not just in the context of search engine results, but also anytime you share a link to your content.</span></p>
+<h4>Stream<br><img src="https://help.uberflip.com/hc/article_attachments/360030532171/Copy_of_Uberflip_SEO_Deck_-_Google_Slides.png" alt="Copy_of_Uberflip_SEO_Deck_-_Google_Slides.png" width="630" height="108">
+</h4>
+<h4>Item<br><img src="https://help.uberflip.com/hc/article_attachments/360030532331/Copy_of_Uberflip_SEO_Deck_-_Google_Slides.png" alt="Copy_of_Uberflip_SEO_Deck_-_Google_Slides.png" width="645" height="70">
+</h4>
+<h3>Best practices: URL path</h3>
+<p><span style="font-weight: 400;">Your URL paths should:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Be as </span><strong>human-readable</strong><span style="font-weight: 400;"> as possible to give visitors a good idea of what to expect</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Contain your </span><strong>keywords</strong><span style="font-weight: 400;"> (but don't keyword-stuff), separated by hyphens (-)</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Be </span><strong>100 characters or less</strong><span style="font-weight: 400;"> in length for readability (aim to be concise but descriptive)</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Be in </span><strong>all lowercase</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Not contain </span><strong>punctuation, underscores or spaces</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Not contain </span><strong>stop words</strong><span style="font-weight: 400;"> (extremely common words like the, for, if, a, an, etc.), because Google ignores these — but don't eliminate stop words at the expense of readability</span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Match the title of the page as closely as possible</span></li>
+</ul>
+<div class="accordion accordion--colored">
+<div class="accordion__item">
+<div class="accordion__item-title"><span style="font-weight: 400;">Edit Stream URL path</span></div>
+<div class="accordion__item-content">
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>Content</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Select the </span><strong><em>Streams</em></strong><span style="font-weight: 400;"> tab</span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Click the Stream</span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Select the </span><strong><em>Metadata </em></strong><span style="font-weight: 400;">tab</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Find the </span><strong>URL Path</strong><span style="font-weight: 400;"> field and enter the desired URL path</span>
+</li>
+</ol>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><span style="font-weight: 400;">Edit Item URL path</span></div>
+<div class="accordion__item-content">
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>Content</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Select the </span><em><strong>Items</strong></em><span style="font-weight: 400;"> tab</span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Click on the Item</span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Select the </span><em><strong>Metadata </strong></em>tab</li>
+<li style="font-weight: 400;" aria-level="1">Find the <strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">URL Path</strong><span style="font-weight: 400;"> field and enter the desired URL path</span>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<p> </p>
+<h2>Alt Text</h2>
+<p><strong>Applies to: </strong><span class="text-primary"><strong>Item</strong></span></p>
+<h3>What this setting does</h3>
+<p><a href="https://moz.com/learn/seo/alt-text"><span style="font-weight: 400;">Alt image text</span></a><span style="font-weight: 400;">, also called "alt text" or "alt attributes", is used in a page's HTML to describe the contents and function of images. In terms of SEO, </span><strong>it helps search engine robots to index images and understand what they contain. </strong></p>
+<p><strong>Just as importantly, alt image text is crucial for making your content accessible for visually impaired users with screen readers</strong><span style="font-weight: 400;">: instead of just hearing that there is an image on the page, they'll be able to hear a description of that image.<br></span><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/360030609032/Copy_of_Uberflip_SEO_Deck_-_Google_Slides.png" alt="Copy_of_Uberflip_SEO_Deck_-_Google_Slides.png" width="630" height="433"></span></p>
+<h3>Best practices: alt text </h3>
+<ul>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">You should have </span><strong>alt image text for all your images</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Alt image text should </span><strong>primarily be descriptive</strong><span style="font-weight: 400;">: you want someone who can't see the image to be able to imagine it</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Include </span><strong>keywords</strong><span style="font-weight: 400;"> (but as always, don't keyword-stuff) for the benefit of search engine robots</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Make sure your </span><strong>image filenames </strong><span style="font-weight: 400;">are also SEO-friendly, to help with ranking in image search:</span>
+</li>
+<ul>
+<li style="font-weight: 400;" aria-level="2"><span style="font-weight: 400;">Descriptive and human-readable</span></li>
+<li style="font-weight: 400;" aria-level="2"><span style="font-weight: 400;">Avoid non-alphabetical characters (like %, $, &amp;, etc.)</span></li>
+<li style="font-weight: 400;" aria-level="2"><span style="font-weight: 400;">Use dashes (-) to separate words, not underscores (_)</span></li>
+</ul>
+</ul>
+<div class="accordion accordion--colored">
+<div class="accordion__item">
+<div class="accordion__item-title"><span style="font-weight: 400;">Add alt text to images</span></div>
+<div class="accordion__item-content">
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>Content</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Select the </span><strong><em>Items</em></strong><span style="font-weight: 400;"> tab</span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Click the Item</span></li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Select the </span><strong><em>Editor </em></strong><span style="font-weight: 400;">tab</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<strong>Double-click the image</strong><span style="font-weight: 400;"> you want to add alt text to</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In the </span><em><span style="font-weight: 400;">Image Properties</span></em><span style="font-weight: 400;"> pop-up, find the </span><strong>Alternative Text field</strong><span style="font-weight: 400;"> and enter your alt text</span>
+</li>
+<li style="font-weight: 400;" aria-level="1">Click <strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">OK<br></strong><img src="https://help.uberflip.com/hc/article_attachments/360030610412/Copy_of_Uberflip_SEO_Deck_-_Google_Slides.png" alt="Copy_of_Uberflip_SEO_Deck_-_Google_Slides.png" width="600" height="384">
+</li>
+</ol>
+</div>
+</div>
+</div>
+<p> </p>
+<h2>Hub locale</h2>
+<p><strong>Applies to: </strong><span class="text-primary"><strong>Hub</strong></span></p>
+<h3>What this setting does</h3>
+<p><span style="font-weight: 400;">Setting your Hub locale declares its language, region, and reading direction.</span></p>
+<p><span style="font-weight: 400;">This allows search engines to associate your content with a particular language, and serves content where language is spoken. </span><strong>This helps accessibility scores</strong><span style="font-weight: 400;">, and helps browsers serve correct characters. </span></p>
+<h3>Best practices: Hub locale </h3>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">If your Hub is targeting a specific locale, be sure to specify this as it will add lang tags to each page</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">If you’re targeting multiple countries/languages, best practice is to have a separate hub for each locale</span></li>
+</ul>
+<div class="accordion accordion--colored">
+<div class="accordion__item">
+<div class="accordion__item-title"><span style="font-weight: 400;">Configure hub locale</span></div>
+<div class="accordion__item-content">
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>Hub Options &gt; Advanced</strong>
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Scroll to </span><strong>Internationalization</strong><span style="font-weight: 400;"> section </span>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Choose a country from the dropdown menu </span></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="callout callout--success">
+<h4 class="callout__title">Creating multi-language Hubs, Streams, or Items?</h4>
+<p><span style="font-weight: 400;">Learn how to link multi-language destinations together to improve international SEO in this article: </span><a href="https://help.uberflip.com/hc/en-us/articles/360035196932"><span style="font-weight: 400;">Create Multi-Language Links Between Hubs, Streams, and Items</span></a></p>
+</div>]]></description>
+         <guid isPermaLink="false">360028437152</guid>
+         <pubDate>Thu, 23 May 2019 16:21:50 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

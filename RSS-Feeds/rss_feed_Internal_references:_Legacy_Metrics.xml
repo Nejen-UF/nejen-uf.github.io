@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Internal references: Legacy Metrics</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Reference: Differences Between Uberflip Analytics and Legacy Metrics </title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360040004712-Reference-Differences-Between-Uberflip-Analytics-and-Legacy-Metrics</link>
+         <description><![CDATA[<hr>
+<p>A reference guide to the data points that appear in both Uberflip Analytics and Legacy Metrics, and how they differ.</p>
+<hr>
+<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>Uberflip Analytics is in ongoing development, and data points may be added or changed at any time. This article is intended to be a living document that will be updated and added to as the Uberflip Analytics product evolves.</p>
+</div>
+<p> </p>
+<h2>Usage</h2>
+<p><a href="https://help.uberflip.com/hc/en-us/articles/360035433571" target="_self">Uberflip Analytics</a> (UFA) and <a href="https://help.uberflip.com/hc/en-us/articles/360020246972" target="_self">Legacy Metrics</a> use a number of "shared" data points, in the sense that these data points have the same name in both systems, and represent the same type of metric. However, if you compare these data points between the two systems, you will usually find that the numbers don't match. The reason for this is that UFA and Legacy Metrics each have their own, separate methods for measuring or calculating data points — including those that have the same name in both systems. <em><br></em></p>
+<p>This guide outlines these "shared" data points that appear in both systems, and describes how each one is measured or calculated.</p>
+<p> </p>
+<h2>Common Data Points: Known Differences</h2>
+<p>The table below lists data points that appear in both Uberflip Analytics and Legacy Metrics under the same name, whether you can expect differences when comparing these data points across the two systems, and if so, the reason why:</p>
+<table style="height: 499px;" width="818">
+<tbody>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 193.05px;"><strong>Name</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 194px;"><strong>Description</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 199.033px;"><strong> Differences</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 186.917px;"><strong>Reason</strong></td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 193.05px;">CTA Impressions</td>
+<td style="width: 194px;">The number of times CTAs were seen by visitors</td>
+<td class="wysiwyg-text-align-center" style="width: 199.033px;"><strong><span class="wysiwyg-color-red">Yes</span></strong></td>
+<td style="width: 186.917px;">Different measurement method (see below for details)</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 193.05px;">CTA Submissions</td>
+<td style="width: 194px;">The number of times Form CTAs were completed and submitted</td>
+<td class="wysiwyg-text-align-center" style="width: 199.033px;"><span class="wysiwyg-color-green120"><strong>No</strong></span></td>
+<td style="width: 186.917px;">Same measurement method in both systems</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 193.05px;">Time on Page</td>
+<td style="width: 194px;">The amount of time</td>
+<td class="wysiwyg-text-align-center" style="width: 199.033px;"><span class="wysiwyg-color-red"><strong>Yes</strong></span></td>
+<td style="width: 186.917px;">
+<p>Different measurement method (see below for details)</p>
+<p>Includes Flipbooks in Legacy Metrics, but not in Uberflip Analytics</p>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout--info">
+<h4 class="callout__title">Note: Custom code and CTA event collection</h4>
+<p>Many Hubs use <a href="https://help.uberflip.com/hc/en-us/articles/360018841312" target="_self">custom code</a> to implement non-standard functionality or change the Hub's default appearance. In some cases, this code may impact the way CTA events are collected by Uberflip Analytics, which may also cause discrepancies between Uberflip Analytics and Legacy Metrics beyond those noted above.</p>
+</div>
+<p> </p>
+<h2>Measurement Method Comparison</h2>
+<p>For data points where a discrepancy exists between UFA and Legacy Metrics due to different measurement methods, the table below describes the method used in each system:</p>
+<table style="height: 259px; width: 689px;">
+<tbody>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 163px;"><strong>Name</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 258.667px;"><strong>Measurement Method: Legacy Metrics</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 231.333px;"><strong>Measurement Method: UFA</strong></td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 163px;">CTA Impressions</td>
+<td style="width: 258.667px;">
+<ul>
+<li>Recorded on page load.</li>
+<li>If a CTA was not visible in the viewport on page load, it is still recorded as an impression, even if the visitor never scrolled down to view the CTA.</li>
+</ul>
+</td>
+<td style="width: 231.333px;">
+<ul>
+<li>Recorded only when a CTA is visible in the viewport.</li>
+<li>When a CTA is placed within a Stream, impressions are counted each time additional iterations of the same CTA appear in a Stream (e.g. as a visitor scrolls down a Stream).</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 163px;">Time on Page</td>
+<td style="width: 258.667px;">
+<ul>
+<li>Only for Flipbook pages, not Hub content pages.</li>
+<li>Calculated based on the time elapsed between when a page URL was loaded, and when the next page URL is loaded.</li>
+<li>Recorded on page exit (i.e. when a Flipbook is flipped to the next page).</li>
+<li>Average Time on Page uses the mean (not median) and excludes outliers (less than 1 second or more than 60 minutes).</li>
+</ul>
+</td>
+<td style="width: 231.333px;">
+<ul>
+<li>Only for Hub content pages. Includes Item pages that contain Flipbooks, but not pages <em>within</em> a Flipbook itself.</li>
+<li>Calculated based on time viewing a specific URL <strong>only</strong> while tab is in focus.</li>
+<li>Recorded continuously in 2-second intervals (anything less than 2 seconds is disregarded).</li>
+<li>Average Time on Page uses the mean (not median) but does not exclude outliers (except views under 2 seconds).</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360040004712</guid>
+         <pubDate>Mon, 02 Mar 2020 21:53:51 GMT</pubDate>
+      </item>
+      <item>
+         <title>Will legacy Metrics be retired and replaced by Uberflip Analytics?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360038751991-Will-legacy-Metrics-be-retired-and-replaced-by-Uberflip-Analytics</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>What will happen to legacy Metrics now that Uberflip Analytics is available?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>Over time, all the functionality available in legacy Metrics will be recreated in Uberflip Analytics (the only exception to this is Flipbook Metrics, which will not be transitioned over). Keep in mind that Uberflip Analytics uses a brand-new data collection system, so while the <em>functionality</em> of legacy Metrics will be transitioned to Uberflip Analytics, the <em>data itself</em> will not be migrated. However, if you need to view metrics data from before the launch of Uberflip Analytics, legacy Metrics will continue to be available for the foreseeable future.</p>]]></description>
+         <guid isPermaLink="false">360038751991</guid>
+         <pubDate>Mon, 13 Jan 2020 19:04:01 GMT</pubDate>
+      </item>
+      <item>
+         <title>Can I compare Uberflip Analytics data with legacy Metrics data?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360038366872-Can-I-compare-Uberflip-Analytics-data-with-legacy-Metrics-data</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>I'd like to do long-term comparisons of my data, but Uberflip Analytics only goes back as far as July 2019. Can I compare the data shown in Uberflip Analytics with the data from prior years that's available in legacy Metrics?</p>
+<h2> </h2>
+<h2>Answer</h2>
+<p>We don't recommend comparing data between Uberflip Analytics and legacy Metrics. To ensure the highest possible data quality and integrity, we built a brand-new data collection system for Uberflip Analytics. This system started to collect data in July 2019, so data in Uberflip Analytics is not available for dates earlier than this. While longer-term data is available in legacy Metrics, the way that this data was collected is very different from Uberflip Analytics, and this unfortunately means that the two are not generally comparable.</p>
+<p>Although comparing data <em>between</em> these two systems is not recommended, it's still possible to compare data internally <em>within</em> each system. As a result, you can use legacy Metrics to make longer-term comparisons, and legacy Metrics will continue to remain available for this purpose for the foreseeable future.</p>]]></description>
+         <guid isPermaLink="false">360038366872</guid>
+         <pubDate>Mon, 13 Jan 2020 17:44:15 GMT</pubDate>
+      </item>
+      <item>
+         <title>Why are numbers in Uberflip Analytics different from legacy Uberflip Metrics and Hub dashboards?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360038311392-Why-are-numbers-in-Uberflip-Analytics-different-from-legacy-Uberflip-Metrics-and-Hub-dashboards</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>When I look at the same (or similar) metrics in Uberflip Analytics and legacy Metrics or the Hub dashboards, the numbers are different. Why?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>The short answer is that these metrics are being collected not just differently, but in a way that is a lot more <em>accurate</em>.</p>
+<p>Metrics are based on recording when and how events happen, for example page views. This done by an event collection system, which is responsible for recording and measuring these events, and generating data from them, i.e. metrics.</p>
+<p>For Uberflip Analytics, we completely rebuilt our event collection system from the ground up. As a result, we're now able to test and audit all metrics, which means we can be confident that the numbers shown in Uberflip Analytics are accurate to a much greater degree than what was presented in legacy Metrics.</p>
+<p>On top of this, there are also specific cases where the numbers are different by design. These include:</p>
+<ul>
+<li>
+<strong>Changes to how certain metrics are calculated:</strong> For example, Time on Page in Uberflip Analytics is only calculated for Hub content pages, while the same metric in legacy metrics is only calculated for Flipbook pages.</li>
+<li>
+<strong>Changes to how date ranges work:</strong> When you select a date range in legacy Metrics, the period includes the end date, but in Uberflip Analytics it does not. For example, a date range of January 15 to February 15 would not include February 15 itself in Uberflip Analytics, but this date would be included in legacy Metrics.</li>
+<li>
+<strong>Availability of data</strong>: Some metrics in Uberflip Analytics only started to be collected after a certain date, so data from earlier than that date is not available. See <a href="https://help.uberflip.com/hc/en-us/articles/360038311372">this article</a> for information about when data collection started for different metrics.</li>
+</ul>]]></description>
+         <guid isPermaLink="false">360038311392</guid>
+         <pubDate>Fri, 10 Jan 2020 16:54:27 GMT</pubDate>
+      </item>
+      <item>
+         <title>Content Scores Explained</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020568071-Content-Scores-Explained</link>
+         <description><![CDATA[<hr>
+<p>Content Scores make it easy to see at a glance which content is engaging and converting. Learn where to find your Content Scores, and how they are calculated both for individual Items, and for your whole Hub.</p>
+<hr>
+<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p><strong>This feature has been replaced by <a href="https://help.uberflip.com/hc/en-us/articles/360035433571">Uberflip Analytics</a>, and is now considered a <em>legacy feature</em>. Legacy features are no longer supported, but still remain available to some users.<br></strong></p>
+<p>Uberflip Analytics allows for much more granular and transparent analysis of engagement and conversion, so we're phasing out Content Scores. The Content Score Dashboard is no longer shown on new Uberflip accounts created in or after June 2020.</p>
+</div>
+<h2>What is a Content Score?</h2>
+<p><em>Are we creating effective content experiences? What's our ROI?</em></p>
+<p>These questions aren't necessarily easy to answer. While Uberflip provides a variety of <a href="https://help.uberflip.com/hc/en-us/articles/360020505151">metrics</a> that can tell you all kinds of things about your Hub content, interpreting this data is time-consuming, and drawing actionable conclusions from it isn't always straightforward.</p>
+<p>To address this challenge, we created the Content Score. Content Score takes six separate metrics and synthesizes them into one easily digested number that reflects the overall effectiveness of the content. Content Scores are presented as a percentage scale, so the closer a score is to 100%, the better the content is performing. This makes it easy to understand, at a glance, which of your Items are engaging and converting your Hub visitors.</p>
+<p> </p>
+<h2>Find Your Content Scores</h2>
+<p>We use Content Scores to evaluate not just individual Items, but also your Hub content as a whole. You can access your Content Scores at any time by visiting <strong>Dashboard &gt; Content Performance</strong> in your Hub:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016515112/Fullscreen_2018-12-05__5_36_PM.png" alt="Fullscreen_2018-12-05__5_36_PM.png" width="700" height="234"></p>
+<p>This will show you the Overall Content Score, representing a holistic view of the performance of all the content in your Hub.</p>
+<p>Scroll down a little, and you can view your top performers based on Content Score, which you can break down by Items, Authors, and Tags:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016515192/Hubs___Content_Performance_-_Uberflip.png" alt="Hubs___Content_Performance_-_Uberflip.png" width="700" height="593"></p>
+<p>Next to each Item, you can see a breakdown of the metrics that went into calculating the Content Score.</p>
+<p>Content Scores are also shown for individual Items when viewed within Streams (provided that enough data exists to calculate a score — <a href="#h_d4250834-9553-42a0-9642-7cf207117c53" target="_self">see below</a> for details). Here, the Content Score is shown in the top right corner of the Item Tile:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016566651/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png"></p>
+<p>You can view a breakdown of the relevant metrics here, too: just click on the Content Score, and the breakdown will appear as an overlay.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016566791/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png" width="700" height="369"></p>
+<p> </p>
+<h2>How the Content Score Works</h2>
+<h3>Content Score Metrics Explained</h3>
+<p>The Content Score takes into account six metrics: Views, Shares, Landing Visits, Link CTA Clicks, Form CTA Submits, and Assists. Here's how each one influences the Content Score:</p>
+<ul>
+<li>
+<strong>Views</strong>: Page views are used as a basis for the Content Score. This is relative, so it doesn't matter if you have 50 page views or 50 thousand. As a result, your content can still achieve a high score even if you don't drive a ton of traffic to your content. The performance is calculated on the rest of the metrics relative to your page views.</li>
+<li>
+<strong>Shares</strong>: We look at how many shares a piece of content has received relative to the number of views. For this metric, we actually only look at the share intent from your actual Hub, not re-shares such as retweets that happen on social networks. Those effects are captured in the score when looking at Landing Visits.</li>
+<li>
+<strong>Landing Visits: </strong>Relative to a content Item's total pageviews for the month, we look at how many of those were also the entry for that visitor into your Hub. This is significant because it means that either your SEO, social networks, or email campaigns are driving traffic directly to this piece. The closer to a 1:1 relationship of pageviews and Landing Visits, the better your score.</li>
+<li>
+<strong>Link CTA Clicks &amp; Form CTA Submits</strong>: Content Score in general is highly influenced by conversions, so CTA activity will boost your score. There are two types of CTA metrics, as there are two kinds of CTA: Link CTA Clicks do not guarantee a lead, so they're not as impactful as Form CTA Submits which send a lead to your Marketing Automation Platform.</li>
+<li>
+<strong>Assists</strong>: Not every piece of content is designed for conversion, but it can still help to influence conversions indirectly. The Assists metric measures this effect. For example, if a visitor watches a video, then clicks on a link to read a blog post on which they convert into a lead, the video will be credited with an assist.</li>
+</ul>
+<p> </p>
+<h3 id="h_d4250834-9553-42a0-9642-7cf207117c53">How Content Score is Calculated for Items</h3>
+<p>Remember that the score is calculated using the metrics above relative to the number of views. In order to receive a Content Score, an Item must have a minimum of 25 views — any fewer, and there would be insufficient data for the score to be meaningful.</p>
+<p>For each Item, we compare the six metrics against an overall baseline figure for the Hub to determine how effective the Item was in each category. To determine the baseline, we look at the combined views for all Items in the Hub and apply a multiplier. If the result is above a certain minimum threshold, we use it as the baseline; otherwise, we use a set value of 25 (the minimum number of views).</p>
+<p>We then use the baseline to evaluate each individual metric for a qualifying Item, and determine where on the 0-100% scale the Item scores for each metric. Separate "perfect score" thresholds apply for each metric: the exact thresholds are proprietary, but if, for example, a perfect score for Landing Visits were defined as "50% of baseline", then any Item where Landing Views divided by baseline is greater than .5 would score 100% for that metric.</p>
+<p>After individual scores have been calculated for each metric, we then apply a weighting formula to arrive at an overall Content Score for the Item.</p>
+<p> </p>
+<h3>How Overall Content Score is Calculated for the Hub</h3>
+<p>The Overall Content Score for your Hub is derived from all of the individual Content Scores for Items: it is simply a weighted average of all the available Item Content Scores.</p>
+<p>One other factor that is taken into account for the Overall Content Score is Link CTA Clicks and Form CTA Submits that aren't tied to a specific Item. For example, if a visitor lands in your Hub and interacts with a CTA on the home page, this won't count towards the metrics for any particular Item. However, it will be reflected in the Overall Content Score for your Hub.</p>
+<p> </p>
+<h2>Use Your Content Scores</h2>
+<p>Okay, so you know what Content Scores are, where to find them, and even how they're calculated. But what do you do this with information?</p>
+<p>You'll get the most benefit from your Content Scores when you use them as a tool to help you learn from your content. To do that effectively, you first need to understand what Content Scores can and can't tell you. Content Scores are great for surfacing your most effective content, and can also tell you when content is underperforming (i.e. if it has a good number of views, but does poorly on the individual component metrics). However, a Content Score can't tell you the <em>reasons</em> behind why a particular Item resonated well with your audience, or why an Item is getting a lot of clicks but is failing to convert. To draw those conclusions, you'll need to do some further analysis.</p>
+<p>Here are some suggestions for ways you can use your Content Scores to learn from and improve your content:</p>
+<ul>
+<li>
+<strong>Review your top performers</strong>: Content Scores make it easy to identify the top performing Items on your Hub (<em>Hubs &gt; Dashboard &gt; Content Performance</em>). To learn what makes them effective, do a periodic analysis of these Items. What do they have in common? What type of content are they? Are you using particular keywords that are resonating with your audience? This is a great way to discover not just what your audience likes but also, more importantly, what makes them convert.</li>
+<li>
+<strong>Drill into low performers</strong>: Remember that Content Score measures effectiveness based on the interplay of a number of metrics, so understanding how these break down can lead to useful insights. Identify some low performing Items and view their metrics breakdowns. Look for discrepancies and weak individual metrics. For example, are overall Views high but Landing Visits low? This can indicate that visitors are interested in the content, but you might not be leveraging it enough with email, social media, or SEO.</li>
+<li>
+<strong>Remember that no score <span class="ILfuVd">≠</span> low score: </strong>The lack of a Content Score for some Items can also be helpful. Remember that a Content Score is only calculated when an Item reaches a minimum number of views, so no score doesn't mean that an Item is ineffective. A lack of a Content Score can be helpful for identifying Items which aren't being surfaced for some reason: you might have some content that <em>should </em>be performing, but hasn't had the chance to because it's buried in a Stream.</li>
+<li>
+<strong>Keep an eye on your Overall Content Score</strong>: Your Overall Content Score tells you how your Hub content is performing as a whole. This is an average of all your Item Content Scores, so a low overall score doesn't necessarily mean most of your content is underperforming — a few low performing Items might be dragging down the average, so the Overall Content Score can be a helpful indicator of their presence. Keep in mind as well that Content Score measures <em>effectiveness</em>, not <em>quality</em>. A low score might indeed indicate that an Item is deadwood, but it can also mean that the content just needs some tweaking to reach its full potential.</li>
+</ul>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360020568071</guid>
+         <pubDate>Tue, 04 Dec 2018 21:22:48 GMT</pubDate>
+      </item>
+      <item>
+         <title>Email Hub Metrics Reports on a Schedule</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020300912-Email-Hub-Metrics-Reports-on-a-Schedule</link>
+         <description><![CDATA[<hr>
+<p>Learn how to automatically send daily, weekly or monthly <a href="https://help.uberflip.com/hc/en-us/articles/360020505151">Hub Metrics</a> reports by email.</p>
+<hr>
+<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p><strong>This feature has been replaced by <a href="https://help.uberflip.com/hc/en-us/articles/360035433571">Uberflip Analytics</a>, and is now considered a <em>legacy feature</em>. Legacy features are no longer supported, but still remain available to some users.</strong></p>
+<p>The feature formerly called <em>Hub Metrics</em> is now officially known as <strong>Legacy Metrics</strong>. This feature is no longer shown on new Uberflip accounts created in or after June 2020.</p>
+</div>
+<h2>Before You Begin</h2>
+<ul>
+<li>To set up Metrics Emails, you need to be an <strong>Account Admin</strong>, <strong>Content Manager</strong>, or <strong>Analyst.</strong>
+</li>
+</ul>
+<p> </p>
+<h2>About Hub Metrics Emails</h2>
+<p>To help you keep tabs on your Hub metrics, you can set up scheduled email reports that are automatically sent out on a daily, weekly or monthly basis.</p>
+<p>The emailed reports can contain up to three sets, with each set consisting of up to three metrics (for a maximum total of nine). The selected metrics are displayed in the email as tiles, just like in the Hub Metrics Dashboard.</p>
+<p> </p>
+<h2>Set Up Hub Metrics Emails</h2>
+<h3>Add Sets of Metrics</h3>
+<p>To choose which specific metrics are displayed in the emailed reports, you create sets. A set consists of a group of 1-3 individual metrics, and each email can contain up to three sets.</p>
+<p> </p>
+<ol>
+<li>Log in to Uberflip.</li>
+<li>After logging in, click on <strong>Metrics</strong> in the top menu.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016434772/Metrics___Dashboard_-_Uberflip.png" alt="Metrics___Dashboard_-_Uberflip.png" width="511" height="53">
+</li>
+<li>On the Metrics Dashboard, find the <strong>Metrics Options</strong> box on the right. Here, click on <strong>Email Settings</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016488271/Metrics___Dashboard_-_Uberflip.png" alt="Metrics___Dashboard_-_Uberflip.png">
+</li>
+<li>The <strong>Metrics Email Settings </strong>window will appear. Click on <strong>Set 1 of 3</strong> to expand it:<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016437772/Metrics___Dashboard_-_Uberflip.png" alt="Metrics___Dashboard_-_Uberflip.png" width="701" height="486">
+</li>
+<li>Begin by choosing a name for the set, and type into the <strong>Name this set</strong> field.</li>
+<li>Next, use the dropdown next to <strong>Report on</strong> to specify the content type for the set(Hubs or Flipbooks), and the scope (which Hubs/Streams or Folders/Flipbooks to cover).</li>
+<li>Finally use the dropdown next to <strong>Report on these Metrics</strong> to choose <strong>up to three</strong> specific metrics for the set.</li>
+<li>To add more sets, click on the <strong>+Add Set</strong> button.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016488371/Metrics___Dashboard_-_Uberflip.png" alt="Metrics___Dashboard_-_Uberflip.png" width="699" height="234">
+</li>
+<li>You can add up to two additional sets, for a total of three. When you add a new set, repeat the steps above to specify the name, scope and metrics for the set.</li>
+</ol>
+<p> </p>
+<h3>Set Up Email Schedule and Recipients</h3>
+<p>Once your sets are configured, you just have to specify how often you want the emails to be sent out, and who should receive them.</p>
+<ol>
+<li>In the <strong>Metrics Email Settings</strong> window, scroll down to <strong>How often would you like to receive Metric emails? </strong>and check the box next to your preferred option.
+<ul>
+<li>You can choose between daily, weekly, and monthly.</li>
+<li>The option you choose will determine not just <strong>how often</strong> an email is sent, but also <strong>the reporting period</strong> that each email will cover.</li>
+<li>The emails should be received on the specified day, but it's not possible to set or guarantee a time.</li>
+</ul>
+</li>
+<li>Next, scroll down to <strong>Where should we sent these emails?</strong> and use the box to type in the email addresses of your intended recipients. Hit the <strong>Enter</strong> key after typing in each email to add it to the list.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016437992/Metrics___Dashboard_-_Uberflip.png" alt="Metrics___Dashboard_-_Uberflip.png" width="708" height="270">
+</li>
+<li>When you're finished, click on <strong>Save</strong>. Your schedule will take effect right away, and your recipients will begin getting the Metrics emails on the next day that meets your specified schedule.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360020300912</guid>
+         <pubDate>Tue, 04 Dec 2018 21:21:31 GMT</pubDate>
+      </item>
+      <item>
+         <title>Exclude Traffic From Specific IP Addresses in Legacy Metrics</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020568011-Exclude-Traffic-From-Specific-IP-Addresses-in-Legacy-Metrics</link>
+         <description><![CDATA[<hr>
+<p>Get more useful data from <a href="https://help.uberflip.com/hc/en-us/articles/360020505151">Hub Metrics</a> by ignoring traffic from your own internal IP addresses.</p>
+<hr>
+<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p><strong>This feature has been replaced by <a href="https://help.uberflip.com/hc/en-us/articles/360035433571">Uberflip Analytics</a>, and is now considered a <em>legacy feature</em>. Legacy features are no longer supported, but still remain available to some users.</strong></p>
+<p>The feature formerly called <em>Hub Metrics</em> is now officially known as <strong>Legacy Metrics</strong>. This feature is no longer shown on new Uberflip accounts created in or after June 2020.</p>
+<p>You can find an article about the equivalent feature in Uberflip Analytics <a href="https://help.uberflip.com/hc/en-us/articles/360039250291">here</a>.</p>
+</div>
+<h2>Before You Begin</h2>
+<ul>
+<li>To use this feature, you need to be an <strong>Account Admin</strong>, <strong>Content Manager</strong>, or <strong>Analyst.</strong>
+</li>
+<li>To do this, you'll need to know <strong>your organization's IP address(es)</strong>. You can usually obtain this information from your IT department.</li>
+<li>Any IP addresses you specify will be excluded not only from legacy <a href="https://help.uberflip.com/hc/en-us/articles/360020246972" target="_self"><strong>Metrics</strong></a>, but also from <a href="https://help.uberflip.com/hc/en-us/articles/360035433571" target="_self"><strong>Uberflip Analytics</strong></a> and the <a href="https://help.uberflip.com/hc/en-us/articles/360024366712" target="_self"><strong>Sales Activity Dashboard</strong></a>.</li>
+</ul>
+<p> </p>
+<h2>About Excluding IP Addresses</h2>
+<p>In most organizations, it's common for internal users to spend a lot of time browsing their own Hubs: aside from Marketing reviewing the content they create, Sales and Success teams will also routinely browse for content to share.</p>
+<p>The problem is, all of this internal traffic throws off your metrics: your internal users tend to have different browsing habits from your external visitors, which can skew the data and make your metrics unreliable. To avoid this, you should set your Hub Metrics filter out your organization's own IP addresses, which will exclude any data generated by internal visitors.</p>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>Do you <strong>work from home</strong>? Don't forget to <strong>add</strong> <strong>your own home IP address</strong> (and those of any coworkers who also work remotely) to your list of exclusions. (If you're not sure what your home IP address, simply Google "what is my IP?")</p>
+<p>If you do this, keep in mind that most home IP addresses aren't static, and may change from time to time.</p>
+</div>
+<p> </p>
+<h2>Set Hub Metrics to Exclude IP Addresses</h2>
+<p>You can exclude any individual IP address or range of IP addresses (the specified addresses must be IPv4). Excluding an IP address does not work retroactively, i.e. any previously collected data relating to an excluded IP address will not be removed from your existing metrics.</p>
+<ol>
+<li>Log in to Uberflip.</li>
+<li>After logging in, click on <strong>Metrics</strong> in the top menu.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016434772/Metrics___Dashboard_-_Uberflip.png" alt="Metrics___Dashboard_-_Uberflip.png" width="511" height="53">
+</li>
+<li>On the Metrics Dashboard, find the <strong>Metrics Options</strong> box on the right. Here, click on <strong>Exclude IP Addresses</strong>.<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016434732/Metrics___Dashboard_-_Uberflip.png" alt="Metrics___Dashboard_-_Uberflip.png">
+</li>
+<li>The <strong>Metrics Excluded IPs </strong>window will appear. Use the <strong>IP Addresses</strong> text box to type in your internal IP addresses that you want to exclude from metrics collection.
+<ul>
+<li>See the help text in the window for accepted formats.</li>
+<li>You can separate a list of multiple individual IPs with a comma, e.g.:
+<pre>127.0.0.1,127.0.1.1,127.1.1.1</pre>
+<br><img src="https://help.uberflip.com/hc/article_attachments/360016435052/Metrics___Dashboard_-_Uberflip.png" alt="Metrics___Dashboard_-_Uberflip.png" width="564" height="391">
+</li>
+</ul>
+</li>
+<li>When you are finished, click on <strong>Save</strong>. Your settings will take effect immediately.</li>
+</ol>]]></description>
+         <guid isPermaLink="false">360020568011</guid>
+         <pubDate>Tue, 04 Dec 2018 21:21:02 GMT</pubDate>
+      </item>
+      <item>
+         <title>Legacy Metrics Explained</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020246972-Legacy-Metrics-Explained</link>
+         <description><![CDATA[<hr>
+<p>A list of the various metrics tracked by the <a href="https://help.uberflip.com/hc/en-us/articles/360020505151">Legacy Metrics tool</a>, along with explanations of what exactly each one is measuring.</p>
+<hr>
+<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p><strong>This feature has been replaced by <a href="https://help.uberflip.com/hc/en-us/articles/360035433571">Uberflip Analytics</a>, and is now considered a <em>legacy feature</em>. Legacy features are no longer supported, but still remain available to some users.</strong></p>
+<p>The feature formerly called <em>Hub Metrics</em> is now officially known as <strong>Legacy Metrics</strong>. This feature is no longer shown on new Uberflip accounts created in or after June 2020.</p>
+<p>You can find the data dictionary for Uberflip Analytics <a href="https://help.uberflip.com/hc/en-us/sections/360008893132-Data-dictionary">here</a>.</p>
+</div>
+<p>Legacy Metrics divides metrics into Hub-specific and Flipbook-specific, so these metrics are listed separately below.</p>
+<p> </p>
+<h2>Hub Metrics Definitions</h2>
+<p>All metrics are relative to the specified selection of Hubs/Streams, for the selected reporting period.</p>
+<h3>Average Time per Visit</h3>
+<p>The average time, in minutes/seconds, visitors spent per session. To calculate total visit time, page views lasting less than 1 second or over 30 minutes are ignored.</p>
+<h3>CTA Conversions</h3>
+<p>The CTA Conversion Rate (CR%) is a calculation of the total number of CTA button clicks or form submissions divided by the total number of <a href="#h_2039470902601543938189841">CTA Impressions</a>. The overall CTA Conversions figure represents the value over the entire reporting period, which may differ from the sum of data points shown on graphs and in the CSV export.</p>
+<h3 id="h_2039470902601543938189841">CTA Impressions</h3>
+<p>The total number of CTA <em>impressions</em>, defined as page views of pages with one or more CTAs.</p>
+<h3>Pages per Visit</h3>
+<p>The average number of pages viewed per <a href="#h_144609834201543938537920">visit</a>.</p>
+<h3 id="h_4828994305681543938764765">Page Views</h3>
+<p>The total number of individual content pages viewed. Page views lasting less than 1 second or over 60 minutes are ignored.</p>
+<h3>Social Shares</h3>
+<p>The total number of times content was shared using the social sharing options (e.g. Twitter, Facebook, etc.)</p>
+<h3>Unique Visitors</h3>
+<p>The total number of visitors identified as unique, using a browser cookie.</p>
+<h3 id="h_144609834201543938537920">Visits</h3>
+<p>The total number of started sessions. If a visitor is inactive for a 30-minute period and then becomes active again, this is logged as a new visit. If a calendar day turns over and a user is still active, this is also counted as a new visit.</p>
+<p> </p>
+<h2>Flipbooks Metrics Definitions</h2>
+<p>All metrics are relative to the specified selection of Folders/Flipbooks, for the selected reporting period.</p>
+<h3>Average Time per Page</h3>
+<p>The average time, in minutes/seconds, visitors spent viewing an individual Flipbook page. <a href="#h_3209149139481543943173069">Page views</a> lasting less than 1 second or longer than 60 minutes are ignored.</p>
+<h3>Bookmarks Added/Bookmarks Deleted</h3>
+<p>The total number of Flipbook pages bookmarked, and the total number of bookmarks removed, using the Annotations Widget. See which specific pages were bookmarked most often using the Per-Page Report.</p>
+<h3>Crops Printed/Crops Saved</h3>
+<p>The total number of user-created crops printed or saved by visitors.</p>
+<h3>Flipbook Views</h3>
+<p>The total number of views of individual Flipbooks.</p>
+<h3>Links Clicked</h3>
+<p>The total number of links clicked in Flipbooks.</p>
+<h3>Notes Added/Modified/Deleted</h3>
+<p>The total number of notes added, modified, or deleted using the Annotations Widget.</p>
+<h3 id="h_3209149139481543943173069">Page Views</h3>
+<p>The total number of individual Flipbook pages viewed. Includes repeat views, i.e. multiple views of the same page by the same user. Page views lasting less than 1 second or longer than 60 minutes are ignored.</p>
+<h3>Page Widget Interactions</h3>
+<p>The total number of clicks/touches on the Page Widget in the Flipbook viewer. Only one interaction (click/touch) per Page Widget per Flipbook reading session is counted.</p>
+<h3>Pages Downloaded</h3>
+<p>The total number of individual Flipbook pages downloaded. See which specific pages were downloaded most often using the Per-Page Report.</p>
+<h3>Pages Printed</h3>
+<p>The total number of individual Flipbook pages printed. See which specific pages were printed most often using the Per-Page Report.</p>
+<h3>PDFs Downloaded</h3>
+<p>The total number of full Flipbooks downloaded as a PDF.</p>
+<h3>Social Shares</h3>
+<p>The total number of times Flipbook content was shared using the social sharing options (e.g. Twitter, Facebook, etc.). Use the Performance Report to view the specific social platforms that were shared to.</p>
+<h3>Text Mode Page Views</h3>
+<p>The total number of times the plain text versions of individual Flipbook pages were viewed (on mobile devices).</p>
+<h3>Search Queries</h3>
+<p>The total number of search queries submitted. See the actual search queries using the Performance Report.</p>
+<h3>Unique Page Views</h3>
+<p>The total number of unique individual Flipbook pages viewed. Defined as only first-time views of any given page by a <a href="#h_2132958796921543943152263">unique visitor</a>. Subsequent/repeated views of a page within the same session, and page views lasting less than 1 second or longer than 60 minutes, are ignored.</p>
+<h3 id="h_2132958796921543943152263">Unique Visitors</h3>
+<p>The total number of visitors identified as unique, using a browser cookie.</p>
+<h3>Zooms</h3>
+<p>The total number of times visitors zoomed in on Flipbook pages. See the specific areas where visitors zoomed in with the Page Heat Map Report.</p>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360020246972</guid>
+         <pubDate>Mon, 03 Dec 2018 22:00:14 GMT</pubDate>
+      </item>
+      <item>
+         <title>Get started with Legacy Metrics</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360020505151-Get-started-with-Legacy-Metrics</link>
+         <description><![CDATA[<hr>
+<p>Learn about the Legacy Metrics tool, which can help you to gain insights into how your content is performing.</p>
+<hr>
+<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p><strong>This feature has been replaced by <a href="https://help.uberflip.com/hc/en-us/articles/360035433571">Uberflip Analytics</a>, and is now considered a <em>legacy feature</em>. Legacy features are no longer supported, but still remain available to some users.</strong></p>
+<p>The feature formerly called <em>Hub Metrics</em> is now officially known as <strong>Legacy Metrics</strong>. This feature is no longer shown on new Uberflip accounts created in or after June 2020.</p>
+</div>
+<h2>Before you Begin</h2>
+<ul>
+<li>To access Hub Metrics, you need to be an <strong>Account Admin</strong>, <strong>Content Manager</strong>, or <strong>Analyst.</strong>
+</li>
+</ul>
+<p> </p>
+<h2>What is <em>Legacy Metrics</em>?</h2>
+<p>Your Uberflip Hub comes with a built-in Legacy Metrics tool. As the name suggests, this tool collects and displays metrics for your Hub. A metric is any quantifiable measure that can be used to track performance, and in the context of your Hub, this refers to the performance of your Hub content.</p>
+<p>Legacy Metrics shows you exactly how your prospects and customers are engaging with your content, and can help you to understand what resonates with them — and what doesn't. By leveraging these insights, you can shape your content to optimize it for your audience, which can help you to get more value from it.</p>
+<p> </p>
+<h2>What Metrics are Tracked?</h2>
+<p>Legacy Metrics tracks a number of key statistics related to your Hub visitors and their behavior. This ranges from raw stats like the number of visitors in a given period to calculated metrics like CTA Conversions (which measures the effectiveness of CTAs).</p>
+<p>Legacy Metrics divides the metrics it records into Hub-specific data and Flipbooks-specific data. You can find a list of all the different metrics that are tracked, along with an explanation of what each one means, in <a href="https://help.uberflip.com/hc/en-us/articles/360020246972">this article</a>.</p>
+<p> </p>
+<h2>Open Legacy Metrics</h2>
+<p>You can view Legacy Metrics at any time by simply clicking on the <strong>Metrics</strong> button in the menu bar at the top of the Uberflip app:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016465871/Metrics___Dashboard_-_Uberflip.png" alt="Metrics___Dashboard_-_Uberflip.png"></p>
+<p>Clicking on <strong>Metrics</strong> will display the <strong>Dashboard</strong>:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016469291/Metrics___Dashboard_-_Uberflip.png" alt="Metrics___Dashboard_-_Uberflip.png" width="701" height="277"></p>
+<p>This is the default view, which provides an at-a-glance overview of the various metrics available. From here, you can:</p>
+<ul>
+<li>Set the type/scope and reporting period for the metrics</li>
+<li>Drill down into specific metrics to view further details and more granular data</li>
+<li>Customize the Dashboard</li>
+<li>Access other tools and settings (view comparisons, exclude IP addresses, email reports)</li>
+</ul>
+<p> </p>
+<h2 id="h_306953259531543957940867">Filter Metrics</h2>
+<p>All the data shown within Legacy Metrics is controlled by two settings, which filter the data by <strong>type and scope</strong>, and set the <strong>reporting period</strong>. Both of these settings are global, so they apply to all views within the Legacy Metrics tool (e.g. if you drill into a metric), and can be changed from any view.</p>
+<p> </p>
+<h3>Set Metrics Type and Scope</h3>
+<p>Click on the <strong>Report on this Content</strong> dropdown to choose the type and scope of the data you want to view.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016422752/Metrics___Dashboard_-_Uberflip.png" alt="Metrics___Dashboard_-_Uberflip.png" width="269" height="75"></p>
+<p>This dropdown is split into three sections. In the first (left-most) section, use <strong>Content Type</strong> to choose between Hub-specific metrics and Flipbooks-specific metrics:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016417852/Metrics___Dashboard_-_Uberflip.png" alt="Metrics___Dashboard_-_Uberflip.png" width="247" height="243"></p>
+<p>Based on your selection, the other two sections in the dropdown will allow you to narrow down the data displayed to either:</p>
+<ul>
+<li>
+<strong>Hubs: </strong>One or more specific Hubs, and further to one or more specific Streams within the selected Hub(s):<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016419952/Metrics___Dashboard_-_Uberflip.png" alt="Metrics___Dashboard_-_Uberflip.png" width="619" height="224">
+</li>
+<li>
+<strong>Flipbooks: </strong>One or more specific Folders, and further to one or more specific Flipbooks within the selected Folder(s):<br><br><img src="https://help.uberflip.com/hc/article_attachments/360016473511/Metrics___Dashboard_-_Uberflip.png" alt="Metrics___Dashboard_-_Uberflip.png" width="619" height="226">
+</li>
+</ul>
+<p>When you have made your selections, click on the <strong>Select button</strong> to apply them.</p>
+<p> </p>
+<h3>Set Metrics Reporting Period</h3>
+<p>Click on the <strong>Date Range</strong> dropdown to set the reporting period.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016422652/Metrics___Dashboard_-_Uberflip.png" alt="Metrics___Dashboard_-_Uberflip.png" width="347" height="112"></p>
+<p>Use the date pickers under <strong>Date From </strong>and <strong>Date To</strong> to specify a range of time for which you want to view data.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016474991/Metrics___Dashboard_-_Uberflip.png" alt="Metrics___Dashboard_-_Uberflip.png"></p>
+<p>When you have made your selections, click on the <strong>Select button</strong> to apply them.</p>
+<p>Alternatively, you can also click on the reporting period <strong>shortcuts</strong> under the dropdown to quickly set a predefined, relative reporting period:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016475071/Metrics___Dashboard_-_Uberflip.png" alt="Metrics___Dashboard_-_Uberflip.png"></p>
+<p>When you click on one of these shortcuts, the reporting period will be set immediately (no need to click on <strong>Select</strong>).</p>
+<p> </p>
+<h2>Drill Down Into Metrics and View Reports</h2>
+<p>You can drill down into any metric by simply clicking on its tile in the Dashboard:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016426852/Fullscreen_2018-12-04__2_55_PM.png" alt="Fullscreen_2018-12-04__2_55_PM.png" width="638" height="274"></p>
+<p>This will open up the <strong>Reports</strong> view, where you can see a number of different reports for that specific metric, accessible via separate tabs:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016428352/Metrics___Report_-_Uberflip.png" alt="Metrics___Report_-_Uberflip.png" width="701" height="343"></p>
+<p>You can also export the report you are viewing by using the <strong>Export</strong> <strong>button</strong> in the top right, which allows you to download the report data in CSV format.</p>
+<p> </p>
+<h2>Customize the Metrics Dashboard</h2>
+<p>By default, your Metrics Dashboard will display a preset list of metrics. If you prefer, you can customize the Dashboard by adding, removing and rearranging metrics.</p>
+<p> </p>
+<h3>Add A Metric</h3>
+<p>To add a metric to the Dashboard, click on <strong>Add New Metric</strong> in the <strong>Metrics Options </strong>box on the right:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016481911/Metrics___Dashboard_-_Uberflip.png" alt="Metrics___Dashboard_-_Uberflip.png"></p>
+<p>Or, you can click on the <strong>Add a New Metric </strong>tile in the Dashboard itself:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016430532/Metrics___Dashboard_-_Uberflip.png" alt="Metrics___Dashboard_-_Uberflip.png"></p>
+<p>The <strong>Add New Metric</strong> menu will appear. Use the dropdown to select a new metric to add, then click on the <strong>Add Metric</strong> button:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016482031/Metrics___Dashboard_-_Uberflip.png" alt="Metrics___Dashboard_-_Uberflip.png"></p>
+<p>The new metric will be added to the Dashboard.</p>
+<p> </p>
+<h3>Rearrange and Remove Metrics</h3>
+<p>Metrics will appear in your Dashboard in a preset order, but you can easily change the order to suit your preference. Simply click on <strong>Rearrange Metrics</strong> in the <strong>Metrics Options </strong>box on the right:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016430932/Metrics___Dashboard_-_Uberflip.png" alt="Metrics___Dashboard_-_Uberflip.png"></p>
+<p>The borders of your metrics tiles will now become dashed, and you can drag-and-drop tiles to rearrange them:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016482451/Fullscreen_2018-12-04__4_00_PM.png" alt="Fullscreen_2018-12-04__4_00_PM.png" width="709" height="347"></p>
+<p>To <strong>remove a metric</strong> from the Dashboard, drag it over to the <strong>Drop here to remove metric</strong> area on the right:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016431272/Metrics___Dashboard_-_Uberflip.png" alt="Metrics___Dashboard_-_Uberflip.png"></p>
+<p>When you're finished rearranging or removing metrics from the Dashboard, click on <strong>Done Rearranging</strong> in the <strong>Metrics Options</strong> box.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360016482631/Metrics___Dashboard_-_Uberflip.png" alt="Metrics___Dashboard_-_Uberflip.png"></p>
+<p> </p>
+<h2>View a Comparison Matrix</h2>
+<p>Aside from the Dashboard, you can also view the <strong>Comparison Matrix</strong>, an overview report that compares a selection of metrics across different Hubs, Streams, Folders, or Flipbooks. To view it, click on the <strong>Comparison Matrix </strong>tab, next to <strong>Dashboard:</strong></p>
+<p><strong><img src="https://help.uberflip.com/hc/article_attachments/360016431692/Metrics___Comparison_Matrix_-_Uberflip.png" alt="Metrics___Comparison_Matrix_-_Uberflip.png" width="620" height="303"></strong></p>
+<p>As with all reports, this report is subject to the <a href="#h_306953259531543957940867">type/scope and reporting period filters</a>.</p>
+<p> </p>
+<h2>Next Steps</h2>
+<p>Legacy Metrics also has built-in tools to exclude data from certain IP addresses from your metrics, as well as to automatically email sets of reports on a schedule. See the articles below to learn more:</p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360020568011">Exclude Your Own IP Address From Metrics </a></li>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360020300912">Email Legacy Metrics Reports on a Schedule</a></li>
+</ul>
+<p>In addition, Legacy Metrics is not the only place on your Hub where you can view metrics: there is also the Hub Dashboard, where you can find your <strong>Content Performance</strong> reports and the <strong>Sales Activity Dashboard</strong>. You can find more information in the article below:</p>
+<ul>
+<li><a href="https://help.uberflip.com/hc/en-us/articles/360020568071">Content Scores Explained</a></li>
+</ul>]]></description>
+         <guid isPermaLink="false">360020505151</guid>
+         <pubDate>Mon, 03 Dec 2018 20:06:53 GMT</pubDate>
+      </item>
+      <item>
+         <title>The Sales Activity Dashboard Explained</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360024366712-The-Sales-Activity-Dashboard-Explained</link>
+         <description><![CDATA[<hr>
+<p>Learn about the Sales Activity Dashboard, and what it can tell you about the performance of your Hub's sales enablement tools.</p>
+<hr>
+<p> </p>
+<h2>About the Sales Activity Dashboard</h2>
+<p>A major use case for your Hub is sales enablement: giving your Sales team the ability to leverage your Hub content during the sales cycle by sharing it via Sales Streams and the <a href="https://help.uberflip.com/hc/en-us/articles/360020177492">Uberflip Extensions</a>. The Sales Activity Dashboard displays metrics around sales activity performed using these tools, and can provide you with valuable insight into how your sales enablement efforts are performing.</p>
+<p>The metrics shown on the Sales Activity Dashboard are split into four categories:</p>
+<ul>
+<li>Overview</li>
+<li>Users</li>
+<li>Streams</li>
+<li>Items</li>
+</ul>
+<p>You can find details about the metrics contained within each category, as well as what they mean, in the sections below.</p>
+<p>There are also two ways to filter the available metrics. Both of these filter types are global, so they affect all metrics across all categories.</p>
+<p>You can filter all metrics by date range using the selections along the top:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360022925391/Hubs___Sales_Activity_-_Uberflip_-__Private_Browsing_.png" alt="Hubs___Sales_Activity_-_Uberflip_-__Private_Browsing_.png" width="379" height="172"></p>
+<div class="callout">
+<h4 class="callout__title">Info</h4>
+<p>Note that <em>month</em> in each of these options refers to calendar months. For example, if today is December 18th:</p>
+<ul>
+<li>
+<strong>This Month:</strong> Dec. 1 - Dec. 17</li>
+<li>
+<strong>Last Month:</strong> Nov. 1 - Nov. 30</li>
+<li>
+<strong>Previous 3 Months:</strong> Sept. 1 - Nov 30</li>
+<li>
+<strong>Previous 6 Months:</strong> June 1 - Nov. 30</li>
+</ul>
+</div>
+<p>In addition, you can also filter by user groups and group members to narrow your focus to specific teams or sales reps:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360022925831/Hubs___Sales_Activity_-_Uberflip_-__Private_Browsing_.png" alt="Hubs___Sales_Activity_-_Uberflip_-__Private_Browsing_.png"></p>
+<p>(When filtering by member, note that the dropdown will only show members in the currently selected group.)</p>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>As a best practice, we recommend creating custom user groups for each team in your sales organization (and assigning the appropriate users to each one). Doing this will allow you to easily break down metrics by team in the Sales Activity Dashboard.</p>
+<p>These groups will primarily be used for filtering in the Sales Activity Dashboard, so you don't necessarily need to align them to your actual team structure. Instead, try to think about how you'd like to be able to break down your reporting, then create the groups necessary to accommodate this. Keep in mind as well that you can put any user into multiple groups, if needed.</p>
+</div>
+<p> </p>
+<h2>Overview Metrics</h2>
+<p>Four key metrics are highlighted at the top of the Sales Activity Dashboard, and are always visible. These provide an overview of how active Sales Reps have been in your Hub, and how prospects are engaging with the content they're sharing:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360022926491/Hubs___Sales_Activity_-_Uberflip_-__Private_Browsing_.png" alt="Hubs___Sales_Activity_-_Uberflip_-__Private_Browsing_.png" width="700" height="168"></p>
+<p><em>All data reflects the currently selected filters (i.e. the specific group or member and time range) and the current Hub.</em></p>
+<p>The metrics shown are:</p>
+<table style="height: 349px;" width="638">
+<tbody>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 315.5px;"><strong>Metric Name</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 315.5px;"><strong>Definition</strong></td>
+</tr>
+<tr>
+<td style="width: 315.5px;">Sales Streams Created</td>
+<td style="width: 315.5px;">The total number of Sales Streams created in this Hub.</td>
+</tr>
+<tr>
+<td style="width: 315.5px;">Users</td>
+<td style="width: 315.5px;">The total number of users who created these Sales Streams.</td>
+</tr>
+<tr>
+<td style="width: 315.5px;">Item Views</td>
+<td style="width: 315.5px;">The total number of page views on all Items within these Sales Streams</td>
+</tr>
+<tr>
+<td style="width: 315.5px;">Unique Visitors</td>
+<td style="width: 315.5px;">
+<p>The total number of unique visitors (identified using a browser cookie) who generated these page views.</p>
+<p>Excludes visitors who only viewed a Sales Stream page, but did not click into an Item.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2>User-Level Metrics</h2>
+<p>This category breaks down metrics by individual users, i.e. sales staff who are using the Uberflip for Sales tools. You can access it under the <strong>Users</strong> tab below the Overview metrics:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360022894832/Hubs___Sales_Activity_-_Uberflip_-__Private_Browsing_.png" alt="Hubs___Sales_Activity_-_Uberflip_-__Private_Browsing_.png"></p>
+<p>These metrics are shown in table form, and you can sort the table by any available metric by clicking on its column header (except for <em>Current avg. Items / Stream</em>).</p>
+<p><em>All data reflects the currently selected filters (i.e. the specific group or member and time range) and the current Hub, with some exceptions as noted.<br></em></p>
+<p>The metrics shown are:</p>
+<table style="height: 644px;" width="698">
+<tbody>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 226.867px;"><strong>Metric Name</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 232.883px;"><strong>Definition</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 228.25px;"><strong>Notes</strong></td>
+</tr>
+<tr>
+<td style="width: 226.867px;">Current avg. Items / Stream</td>
+<td style="width: 232.883px;">
+<p>The average number of Items contained in Sales Streams created by this user.</p>
+</td>
+<td style="width: 228.25px;">
+<p>This metric is <strong>real-time</strong>, and is not affected by the currently selected time range.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 226.867px;">Streams Created</td>
+<td style="width: 232.883px;">The total number of Sales Streams this user has created.</td>
+<td style="width: 228.25px;"> </td>
+</tr>
+<tr>
+<td style="width: 226.867px;">Streams Shared</td>
+<td style="width: 232.883px;">The total number of Sales Streams this user has shared using the Uberflip Extension.</td>
+<td style="width: 228.25px;"> </td>
+</tr>
+<tr>
+<td style="width: 226.867px;">Streams w/ Item Views</td>
+<td style="width: 232.883px;">The total number of Sales Streams created by this user which contain Items with at least one page view.</td>
+<td style="width: 228.25px;">This metric is <strong>all-time</strong>, and is not limited to the currently selected time range.</td>
+</tr>
+<tr>
+<td style="width: 226.867px;">Item Views</td>
+<td style="width: 232.883px;">The total number of page views on Items in this user's Sales Streams.</td>
+<td style="width: 228.25px;"> </td>
+</tr>
+<tr>
+<td style="width: 226.867px;">Unique Item Views</td>
+<td style="width: 232.883px;">The total number of unique page views by unique visitors on Items in this user's Sales Streams.</td>
+<td style="width: 228.25px;">Does not count repeated page views of the same item by a unique visitor.</td>
+</tr>
+<tr>
+<td style="width: 226.867px;">Unique Visitors (U.V.)</td>
+<td style="width: 232.883px;">The total number of unique visitors (identified using a browser cookie) who viewed Sales Streams shared by this user.</td>
+<td style="width: 228.25px;">
+<p>Includes visitors who viewed the Stream page but did not click into an Item.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 226.867px;">Avg. U.V. / Stream</td>
+<td style="width: 232.883px;">The average number of <em>Unique Visitors</em> this user's Sales Streams have received.</td>
+<td style="width: 228.25px;">Includes visitors who viewed the Stream page but did not click into an Item.</td>
+</tr>
+<tr>
+<td style="width: 226.867px;">Avg. Unique Items Viewed / U.V.</td>
+<td style="width: 232.883px;">The average number of <em>Unique Item Views </em>per <em>Unique Visitor </em>in this user's Sales Streams.</td>
+<td style="width: 228.25px;">Excludes visitors who viewed the Stream page but did not click into an Item.</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2>Stream-Level Metrics</h2>
+<p>This category breaks down metrics by individual Sales Stream. You can access it under the <strong>Streams</strong> tab below the Overview metrics:</p>
+<p><em><img src="https://help.uberflip.com/hc/article_attachments/360022949172/Hubs___Sales_Activity_-_Uberflip.png" alt="Hubs___Sales_Activity_-_Uberflip.png"></em></p>
+<p>These metrics are shown in table form, and you can sort the table by any available metric by clicking on its column header.</p>
+<p><em>All data reflects the currently selected filters (i.e. the specific group or member and time range) and the current Hub, with some exceptions as noted.<br></em></p>
+<p>The metrics shown are:</p>
+<table style="height: 367px;" width="699">
+<tbody>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 229.667px;"><strong>Metric Name</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 229.667px;"><strong>Definition</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 229.667px;"><strong>Notes</strong></td>
+</tr>
+<tr>
+<td style="width: 229.667px;">Current # of Items</td>
+<td style="width: 229.667px;">The number of Items currently contained within this Sales Stream.</td>
+<td style="width: 229.667px;">This metric is <strong>real-time</strong>, and is not affected by the currently selected time range.</td>
+</tr>
+<tr>
+<td style="width: 229.667px;">Unique Visitors (U.V.)</td>
+<td style="width: 229.667px;">The total number of unique visitors (identified using a browser cookie) who viewed this Sales Stream.</td>
+<td style="width: 229.667px;">Includes visitors who viewed the Stream page but did not click into an Item.</td>
+</tr>
+<tr>
+<td style="width: 229.667px;">Item Views</td>
+<td style="width: 229.667px;">The total number of page views on Items in this Sales Stream.</td>
+<td style="width: 229.667px;"> </td>
+</tr>
+<tr>
+<td style="width: 229.667px;">Unique Item Views</td>
+<td style="width: 229.667px;">The total number of non-repeat page views by unique visitors on Items in this Sales Stream.</td>
+<td style="width: 229.667px;"> </td>
+</tr>
+<tr>
+<td style="width: 229.667px;">Avg. Unique Item Views / U.V.</td>
+<td style="width: 229.667px;">The average number of <em>Unique Item Views </em>per <em>Unique Visitor </em>in this user's Sales Streams.</td>
+<td style="width: 229.667px;"> </td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2>Item-Level Metrics</h2>
+<p>This category breaks down metrics by individual Item. This includes both Items that are contained within Sales Streams, as well as individual Items that have been shared via the Uberflip Extensions. You can access it under the <strong>Items</strong> tab below the Overview metrics:</p>
+<p><em><img src="https://help.uberflip.com/hc/article_attachments/360022953952/Hubs___Sales_Activity_-_Uberflip_-__Private_Browsing_.png" alt="Hubs___Sales_Activity_-_Uberflip_-__Private_Browsing_.png"></em></p>
+<p>These metrics are shown in table form, and you can sort the table by any available metric by clicking on its column header.</p>
+<p><em>All data reflects the currently selected filters (i.e. the specific group or member and time range) and the current Hub, with some exceptions as noted.<br></em></p>
+<p>The metrics shown are:</p>
+<table style="height: 354px;" width="700">
+<tbody>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 230px;"><strong>Metric Name</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 230px;"><strong>Definition</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 230px;"><strong>Notes</strong></td>
+</tr>
+<tr>
+<td style="width: 230px;">Direct Shares</td>
+<td style="width: 230px;">The total number of times this Item has been shared as a single Tile only using the Uberflip Extensions.</td>
+<td style="width: 230px;"> </td>
+</tr>
+<tr>
+<td style="width: 230px;">Indirect Shares</td>
+<td style="width: 230px;">The total number of times this Item has been shared as part of a Sales Stream using the Uberflip Extensions.</td>
+<td style="width: 230px;"> </td>
+</tr>
+<tr>
+<td style="width: 230px;">Shares</td>
+<td style="width: 230px;">The total number of Direct and Indirect Shares of this Item.</td>
+<td style="width: 230px;"> </td>
+</tr>
+<tr>
+<td style="width: 230px;">Unique Visitors</td>
+<td style="width: 230px;">The total number of unique visitors (identified using a browser cookie) who viewed this Item.</td>
+<td style="width: 230px;"> </td>
+</tr>
+<tr>
+<td style="width: 230px;">Views</td>
+<td style="width: 230px;">The total number of (non-unique) page views on this Item when it has been shared on Sales Streams.</td>
+<td style="width: 230px;">Does not count page views on the Item outside the context of a Sales Stream, i.e. views of the Item when shared as a single Tile.</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2>Notes</h2>
+<ul>
+<li>Sales Activity Dashboard metrics are updated once every 24 hours (i.e. they are not updated in real time).</li>
+</ul>]]></description>
+         <guid isPermaLink="false">360024366712</guid>
+         <pubDate>Wed, 27 Feb 2019 21:41:53 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

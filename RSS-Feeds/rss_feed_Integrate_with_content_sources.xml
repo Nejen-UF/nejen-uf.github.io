@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Integrate with content sources</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Set Up a Vimeo Integration</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360041923392-Set-Up-a-Vimeo-Integration</link>
+         <description><![CDATA[<p>Learn how to integrate your Hub with Vimeo to pull in video content from your Vimeo account.</p>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>To integrate Vimeo with your Hub, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+<li>You will also need a <strong><a href="https://vimeo.com/">Vimeo account</a></strong>.</li>
+</ul>
+<p> </p>
+<h2>About the Vimeo Integration</h2>
+<p>Vimeo is an excellent free option for hosting your video content. If you're using Vimeo, you can easily make your Vimeo videos part of your content experiences by bringing them into your Hubs with our Vimeo integration.</p>
+<p> </p>
+<h2>Connect your Uberflip and Vimeo Accounts</h2>
+<p>To bring Vimeo content into your Uberflip account, your first step is to connect your Vimeo account with your Uberflip account. Because the connection takes place at the account level (rather than the Hub level), all Hubs in your Uberflip account will be able to import videos from the connected Vimeo account.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>You can only connect <strong>one</strong> Vimeo account to your Uberflip account at a time.</p>
+</div>
+<ol>
+<li>Log in to your Uberflip account and <strong>navigate to any Hub</strong>.
+<ul>
+<li>Although you have to start by choosing a Hub, this process is not specific to any particular Hub, so the results will be the same regardless of the Hub you choose here.</li>
+</ul>
+</li>
+<li>In the sidebar menu, click <strong>Content</strong>
+</li>
+<li>In the <strong>Streams</strong> tab of the content page, click <strong>New Stream</strong><br><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/8690833526925/abcd.png" alt="abcd.png"></span>
+</li>
+<li>A modal will open. Click <strong>Vimeo </strong>in the Source Streams list.<br><img src="https://help.uberflip.com/hc/article_attachments/12993813646349" alt="mceclip0.png" width="400" height="402">
+</li>
+<li>The <strong>Connect your Vimeo account</strong> modal will open. Click <strong>Connect.</strong><br><img src="https://help.uberflip.com/hc/article_attachments/12993862176141" alt="Screen_Shot_2023-02-09_at_3.57.00_PM.png" width="501" height="222">
+</li>
+<li>A Vimeo login page will open. <strong>Log in to the Vimeo account</strong> you want to connect using any of the available options<br>
+<ul>
+<li>If you're already logged in to Vimeo you won't see this screen, so skip ahead to the next step. Make sure you're logged in to the account you want to connect to Uberflip!</li>
+</ul>
+</li>
+<li>In the Vimeo<em><strong> Authorize </strong></em>screen that appears, click <strong>Allow</strong> to confirm that you want to give Uberflip access your Vimeo account<br><img src="https://help.uberflip.com/hc/article_attachments/12994056625421" alt="Screen_Shot_2023-02-09_at_4.04.16_PM.png" width="350" height="502">
+</li>
+</ol>
+<p>That's it! The login window will close automatically, and you'll be returned to the <strong>Content</strong> page, with a message that Vimeo was successfully connected.</p>
+<p> </p>
+<h2>Create a New Vimeo Stream</h2>
+<p>Once you have connected your Vimeo account to your Uberflip account, you can begin to pull in video content. To do that, simply create a new <strong>Vimeo Stream</strong> in Uberflip.</p>
+<p>When you create a Vimeo Stream, you can choose to import <strong>all videos in the account</strong>, or just videos in a specific group (including your own groups, and groups created by other Vimeo users). If you want, you can create multiple Vimeo Source Streams, each of which is connected to a different group. Note, however, that if a video appears in multiple groups, or if you create Streams for both specific groups and with the all videos option, you will have duplicate video Items in your Hub as a result.</p>
+<p>Regardless of the option you choose, the Vimeo Stream you create will remain connected to either the account as a whole or the specific group, and will continue to pull in any new content you publish there automatically.</p>
+<ol>
+<li>In Uberflip, <strong>navigate to the Hub</strong> where you want to create the new Vimeo Stream.
+<ul>
+<li>The new Vimeo Stream will be created under the Hub you choose, and will only be visible on the <em>Streams</em> tab of that Hub. However, the Items pulled into the Stream from Vimeo can be added to Marketing and Sales Stream in any other Hub under the same Uberflip account.</li>
+</ul>
+</li>
+<li>Click <strong>Content</strong> &gt; <strong>Streams tab </strong>&gt; <strong>New Stream </strong>and click on <strong>Vimeo </strong>again, as you did when you connected the Vimeo account.</li>
+<li>Because your Vimeo account is already connected, you'll now see the <strong>Add a Vimeo Stream</strong> screen<br><img src="https://help.uberflip.com/hc/article_attachments/12994664135437" alt="Screen_Shot_2023-02-09_at_4.32.22_PM.png" width="500" height="223">
+</li>
+<li>Under <strong><em>Create a Stream from</em></strong>, click the dropdown and choose what you want to import from your account</li>
+<li>After you've selected an option, click <strong>Import</strong>
+</li>
+<li>Uberflip will begin importing videos. When this is done, you'll see a confirmation message that shows the number of videos that were imported. To view the content Items that were created for these videos, click <strong>View Stream.</strong>
+</li>
+</ol>
+<p>That's it! Your Vimeo videos have been imported into your Hub, and are now available to be included in the content experiences you create.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>Are you finding that <strong>some groups are not showing up</strong> when you add a Vimeo Stream? See <a href="https://help.uberflip.com/hc/en-us/articles/360023368771-Some-groups-or-channels-are-missing-when-adding-a-Vimeo-Stream">this article</a> for details on why this is happening and how to fix it.</p>
+</div>]]></description>
+         <guid isPermaLink="false">360041923392</guid>
+         <pubDate>Wed, 15 Apr 2020 17:42:02 GMT</pubDate>
+      </item>
+      <item>
+         <title>Set Up a YouTube Integration</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360041233912-Set-Up-a-YouTube-Integration</link>
+         <description><![CDATA[<p>Learn how to integrate your Hub with YouTube to pull in video content from your YouTube account.</p>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>To integrate YouTube with your Hub, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+<li>You will also need a <a href="https://myaccount.google.com"><strong>Google account</strong></a>. The Google account must be associated with a <a href="https://support.google.com/youtube/answer/3027950?hl=en"><strong>YouTube channel</strong></a>, and the videos you want to import into your Hub must be in this channel.</li>
+</ul>
+<p> </p>
+<h2>About the YouTube integration</h2>
+<p>YouTube has incredible reach, so chances are you're already using it to host and share your video content. If you are, you can easily make your YouTube videos part of your content experiences by bringing them into your Hubs with our YouTube integration.</p>
+<p> </p>
+<h2>Connect your Google account to Uberflip</h2>
+<p>YouTube content is organized into <strong>channels</strong>, and all YouTube channels are associated with a <strong>Google account</strong>. As a result, the first step in bringing YouTube videos into your Hub(s) is to connect your Google account with your Uberflip account (your organization's Uberflip account as a whole, not an individual user account). Because the connection takes place at the account level (rather than the Hub level), all Hubs in your Uberflip account will be able to import videos from the channel owned by the connected Google account.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>You can only connect <strong>one</strong> Google account to your Uberflip account at a time.</p>
+</div>
+<ol>
+<li>Log in to your Uberflip account and <strong>navigate to any Hub</strong>
+<ul>
+<li>Although you have to start by choosing a Hub, this process is not specific to any particular Hub, so the results will be the same regardless of the Hub you choose here.</li>
+</ul>
+</li>
+<li>In the sidebar menu, click <strong>Content</strong>
+</li>
+<li>In the <em><strong>Streams</strong> </em>tab of the Content page, click the <strong>New Stream</strong> button<br><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/8690833526925/abcd.png" alt="abcd.png"></span>
+</li>
+<li>In the modal that opens, click <strong>YouTube</strong> in the <em>Source Streams</em> list<br><img src="https://help.uberflip.com/hc/article_attachments/12921603157261" alt="mceclip0.png" width="401" height="403">
+</li>
+<li>You'll see a <strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Connect</strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"> button in the modal. Clicking this will open a Google account login window. Login as you normally would to connect to YouTube.</span><img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" src="https://help.uberflip.com/hc/article_attachments/12921232294029" alt="Screen_Shot_2023-02-07_at_1.36.45_PM.png" width="502" height="220">
+</li>
+</ol>
+<p>After you've logged in successfully, you'll be taken back to the Content page. You can now create a YouTube Stream using the steps below.</p>
+<p> </p>
+<h2>Create a YouTube Stream</h2>
+<p>Once you have connected your Google account to your Uberflip account, you can begin to pull in video content from its YouTube channels. To do that, all you need to do is create a new <strong>YouTube Stream</strong> in Uberflip.</p>
+<p>When you create a YouTube Stream, you can choose between either <strong>all videos in the channel</strong>, or just videos in a specific playlist. If you want, you can create multiple YouTube Source Streams, each of which is connected to a different playlist. Note, however, that if the same video appears in multiple playlists, it will also be imported into your Hub multiple times (i.e. you will have duplicate Items for the video).</p>
+<p>Regardless of which option you choose, the YouTube Stream you create will remain connected to either the channel as a whole or the specific playlist, and will continue to pull in any new content you publish there automatically.</p>
+<ol>
+<li>In Uberflip, <strong>navigate to the Hub</strong> where you want to create the new YouTube Stream.
+<ul>
+<li>The new YouTube Stream will be created under the Hub you choose, and will only be visible on the <em>Streams</em> tab of that Hub. However, the Items pulled into the Stream from YouTube can be added to Marketing and Sales Stream in any other Hub under the same Uberflip account.</li>
+</ul>
+</li>
+<li>Click on <strong>Content</strong> &gt; <strong>Streams tab </strong>&gt; <strong>New Stream button </strong>and click on <strong>YouTube </strong>again, as you did when you connected your Google account.</li>
+<li>You will now see the <strong>Add a YouTube Stream</strong> modal<br><img src="https://help.uberflip.com/hc/article_attachments/12921287012621" alt="Screen_Shot_2023-02-07_at_1.38.02_PM.png" width="500" height="227">
+</li>
+<li>Click on the dropdown box, and choose what you want to import:<br>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>You can import public and unlisted videos (including live streams), but <strong>not</strong> private videos.</p>
+</div>
+<ol>
+<li>
+<strong>Import all your videos:</strong> Select the <strong>All Videos </strong>option to import all videos from the connected YouTube channel</li>
+<li>
+<strong>Import a playlist: </strong>Select <strong>a playlist</strong> from the list of playlists in the connected YouTube channel to import just the videos from that playlist</li>
+</ol>
+</li>
+<li>Once you have selected an option, Uberflip will begin importing videos. When this is done, you'll see a confirmation message that shows the number of videos that were imported.<img src="https://help.uberflip.com/hc/article_attachments/12921388564493" alt="Screen_Shot_2023-02-07_at_1.41.01_PM.png" width="400" height="401">
+</li>
+<li>To view the content Items that were created for these videos, click on the <strong>View Stream</strong> button</li>
+</ol>
+<p>That's it! Your YouTube videos have been imported into your Hub, and are now available to be included in the content experiences you create.</p>]]></description>
+         <guid isPermaLink="false">360041233912</guid>
+         <pubDate>Mon, 30 Mar 2020 17:23:24 GMT</pubDate>
+      </item>
+      <item>
+         <title>Set Up a Wistia Integration</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360029530871-Set-Up-a-Wistia-Integration</link>
+         <description><![CDATA[<hr>
+<p>Learn how to integrate your Hub with Wistia to pull in video content from your Wistia account.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>To integrate Wistia with your Hub, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+<li>You will also need a <strong><a href="https://wistia.com/">Wistia</a> account</strong>, and you must be the <a href="https://wistia.com/support/account/permissions"><strong>Account Owner</strong></a> in that account.</li>
+</ul>
+<p> </p>
+<h2>About the Wistia Integration</h2>
+<p>Wistia is a video hosting platform that allows you to create, manage, share, and track videos. If you're already hosting your video content on Wistia, you can easily make it part of your content experiences by bringing it into your Hub with our Wistia integration.</p>
+<p> </p>
+<h2 id="h_efca44e5-cfad-4c34-a33b-680b83acd4e1">Recommended: Create a Dedicated Uberflip User in Wistia</h2>
+<p>To integrate your Wistia account with your Hub and pull in your videos, Uberflip will access your Wistia account through a standard user account. This could be any account, but we recommend <strong>not</strong> using an account belonging to a specific person: if that person changes their password or their account is deactivated (i.e. if they leave your organization), the integration between Uberflip and Wistia will break.</p>
+<p>Instead, our recommendation is to create an "Uberflip Integration" user in your Wistia account that is dedicated to this integration. You can create this user with any name and other details you like, but it must have the <strong>Manager</strong> role. Once you've created your user, it's also a good idea to share its credentials with your team so that anyone can manage the integration if something goes wrong.</p>
+<p> </p>
+<h2>Create a Wistia Stream</h2>
+<p>All you have to do to connect your Hub to Wistia and pull in content from your account is create a new Wistia Stream. Once you have created a Wistia Stream, it will remain connected to the Wistia project you specify during creation, and will continue to pull in any new content you publish there automatically.</p>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>Each Wistia Stream you create will be associated with a particular Wistia project within the connected account. To bring in content to your Hub from multiple Wistia projects, simply create more Streams (one Stream per project).</p>
+</div>
+<ol>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">In Uberflip, head to the </span><strong>Content</strong><span style="font-weight: 400;"> page if you’re not already there <em>(found in the sidebar navigation)</em><br></span><img src="https://help.uberflip.com/hc/article_attachments/13017221398285" alt="mceclip0.png" width="250" height="281">
+</li>
+<li style="font-weight: 400;" aria-level="1">
+<span style="font-weight: 400;">Click </span><strong>New Stream</strong><strong><br></strong><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/8690833526925/abcd.png" alt="abcd.png"></span>
+</li>
+<li>The <strong>Add a Stream</strong> modal will open. Click <strong>Wistia</strong> in the <em>Source Streams</em> list<br><img src="https://help.uberflip.com/hc/article_attachments/13081455872653" alt="mceclip0.png" width="400" height="402">
+</li>
+<li>The <strong>Connect your Wistia account</strong> screen will appear. Click <strong>Connect</strong><br><img src="https://help.uberflip.com/hc/article_attachments/12918722284301" alt="Screen_Shot_2023-02-07_at_12.24.38_PM.png" width="449" height="197">
+</li>
+<li>A Wistia login page will appear in a new browser window. Type in the credentials for the dedicated <a href="#h_efca44e5-cfad-4c34-a33b-680b83acd4e1" target="_self">Uberflip Integration user you created earlier</a> and log in.</li>
+<li>On the next page, click on the <strong>Authorize</strong> button:<br><img src="https://help.uberflip.com/hc/article_attachments/360031064951/uberflip-1_-_Login.png" alt="uberflip-1_-_Login.png" width="393" height="276">
+</li>
+<li>The browser window will close automatically, and you should be returned to the <strong>Content</strong> section of Uberflip, with a message that Wistia was successfully connected.</li>
+<li>Click <strong>New Stream</strong> again, then click on the <strong>Wistia </strong>button once more </li>
+<li>The <strong>Add a Wistia Stream</strong> modal will open<br><img src="https://help.uberflip.com/hc/article_attachments/12917766306317" alt="Screen_Shot_2023-02-07_at_12.00.35_PM.png" width="399" height="401">
+</li>
+<li>Under<em> Import Videos by Project</em>,<strong> click the dropdown box and select the project</strong> you want to import videos from into this Stream.</li>
+<li>Uberflip will begin importing videos from the selected project (up to 100 most recent). When it's done, you'll see a confirmation message that shows the number of videos that were imported. <br><br>To view the content Items that were created for these players, click on the <strong>View Stream</strong> button</li>
+</ol>
+<p>That's it! Content from the selected Wistia project has been imported into your Hub, and is now available to be included in your content experiences. New videos uploaded to the connected project will be imported automatically. </p>
+<p>If you want to bring in content from other projects, simply create additional Wistia Streams.</p>]]></description>
+         <guid isPermaLink="false">360029530871</guid>
+         <pubDate>Fri, 14 Jun 2019 17:27:09 GMT</pubDate>
+      </item>
+      <item>
+         <title>Set Up a Brightcove Integration</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360027547452-Set-Up-a-Brightcove-Integration</link>
+         <description><![CDATA[<hr>
+<p>Learn how to integrate your Hub with Brightcove Video Cloud to pull in video content from your Brightcove account.</p>
+<hr>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>To integrate Brightcove with your Hub, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+<li>You will need a <strong><a href="https://www.brightcove.com/en/" target="_self">Brightcove</a> account</strong>, and you must have <strong>Admin</strong> access to the account.</li>
+<li>Your Brightcove plan must also <strong>include API access </strong>(included with Professional and Enterprise accounts). If you're not sure whether your plan includes API access, please contact your Brightcove representative for help.</li>
+<li>You can only connect your Hub to one Brightcove instance at a time (a Brightcove instance may contain multiple accounts, but they must all be accessible under the same login credentials).</li>
+</ul>
+<p> </p>
+<h2>About the Brightcove Integration</h2>
+<p>Brightcove Video Cloud is a video hosting platform. If you're already hosting your video content on Brightcove, you can easily make it part of your content experiences by bringing it into your Hub with our Brightcove integration.</p>
+<p> </p>
+<h2 id="h_efca44e5-cfad-4c34-a33b-680b83acd4e1">Prerequisite: Get Your Brightcove API Credentials</h2>
+<p>To pull your Brightcove videos into your Hub, Uberflip will access your account using the Brightcove API. To do this, we will need <strong>API credentials</strong>. You can get these from your Brightcove account, and use them to give third party services access to your account without having to share your login credentials.</p>
+<p>Specifically, you will need to get the following credentials from your Brightcove account:</p>
+<ul>
+<li><strong>Account Number</strong></li>
+<li><strong>Client ID</strong></li>
+<li><strong>Client Secret</strong></li>
+</ul>
+<h3>Step 1: Get Your Account Number</h3>
+<p>The first thing you'll need is your Brightcove account number, which is also referred to as your <strong>Account ID</strong>. It is readily available your Brightcove account. For detailed instructions on where to find it, see <strong>Steps 1 and 2</strong> in this article from Brightcove:</p>
+<p><strong><a href="https://studio.support.brightcove.com/admin/managing-account-information.html" target="_blank" rel="noopener noreferrer">Brightcove: Get Client Credentials</a></strong></p>
+<h3>Step 2: Get Your Client ID and Client Secret</h3>
+<p>To get your <strong>Client ID</strong> and <strong>Client Secret</strong>, you'll need to <strong>register a</strong> <strong>client</strong> in Brightcove. In this context, Uberflip is the "client", and registering a client for Uberflip effectively creates a special kind of user in your Brightcove account. Uberflip's integration will use this client to access your Brightcove account and pull your videos into your Hub.</p>
+<p>As with a regular user in your account, you will choose which permissions the client will have within your account. At the end of the setup process, Brightcove will generate a <strong>Client ID</strong> and <strong>Client Secret</strong> for the newly created client, which are essentially analogous to a username and password. You will use these to set up the integration in Uberflip.</p>
+<p>You can find detailed instructions on how to register a client in this article from Brightcove:</p>
+<p><strong><a href="https://apis.support.brightcove.com/general/managing-api-authentication-credentials.html" target="_blank" rel="noopener noreferrer">Brightcove: Creating client registrations</a></strong></p>
+<p>As you follow the steps in that article, keep the following notes in mind:</p>
+<ul>
+<li>
+<strong>Step 4: </strong>You can choose any name and description you like, but for ease of use in the future, we recommend indicating that this is the client you use for the Uberflip integration.</li>
+<li>
+<strong>Step 5: </strong>Make sure you select all of the accounts that contain videos you want to bring into your Hub.</li>
+<li>
+<strong>Step 6: </strong>The only permissions you need to grant to the client are <strong>CMS &gt; </strong><strong>Playlist Read</strong> and <strong>CMS &gt;</strong> <strong>Video</strong> <strong>Read</strong>, as well as <strong>Players &gt;</strong> <strong>Read</strong>. Ensure that the boxes next to these three permissions are checked. You can leave all other permissions unchecked.</li>
+<li>
+<strong>Step 8: </strong>In this step, you'll get the <strong>Client ID and Client Secret</strong> that you'll need to proceed. Make sure you copy these and paste them somewhere where you can easily retrieve them in a moment (for example, a text editor like Notepad/TextEdit). As soon as you click on the <strong>Okay, I copied it</strong> button, these details will no longer be accessible — if you didn't copy them, would have to generate new ones by creating a new client registration.</li>
+</ul>
+<p>When you have your <strong>Account Number</strong>, <strong>Client ID</strong> and <strong>Client Secret</strong>, proceed below.</p>
+<p> </p>
+<h2>Create a Brightcove Stream</h2>
+<p>All you have to do to connect your Hub to Brightcove and pull in your videos is create a new Brightcove Stream. Once you have created a Brightcove Stream, it will remain connected to your Brightcove account, and will continue to pull in any new content you publish there automatically.</p>
+<p>Each Brightcove Stream you create will pull in videos from one playlist within one Brightcove player. You can pull in videos from multiple Brightcove playlists by simply creating multiple Brightcove Streams in your Hub.</p>
+<ol>
+<li>Log in to Uberflip and navigate to the Hub where you want to add the Brightcove Stream.</li>
+<li>In the sidebar menu, click <strong>Content</strong>
+</li>
+<li>On the<strong> Content</strong>, you'll be on the <em><strong>Streams</strong></em> tab. Here, click <strong>New Stream</strong> <br><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/8690833526925/abcd.png" alt="abcd.png"></span>
+</li>
+<li>In the modal that opens, click <strong>Brightcove</strong> in the<em><strong> Source Streams</strong></em> list<br><img src="https://help.uberflip.com/hc/article_attachments/13022942082317" alt="mceclip0.png" width="400" height="402">
+</li>
+<li>In the <strong>Add a Brightcove Stream</strong> screen that appears, <strong>paste in the Account Number, Client ID, and Client Secret</strong> that you copied from Brightcove into the fields provided<img src="https://help.uberflip.com/hc/article_attachments/13023001688973" alt="Screen_Shot_2023-02-10_at_2.11.17_PM.png" width="400" height="402">
+</li>
+<li>Click <strong>Connect</strong> when you're ready</li>
+<li>
+<strong>Click the Select a Player dropdown</strong> to choose the player that contains the videos you want to import<br><img src="https://help.uberflip.com/hc/article_attachments/13077850410765" alt="mceclip0.png" width="500" height="224">
+</li>
+<li>After you've select a player, you'll see a list of playlists in that player. <strong>Click the dropdown and select the playlist</strong> you want to import videos from<br><img src="https://help.uberflip.com/hc/article_attachments/13078422985997" alt="mceclip1.png" width="400" height="402">
+</li>
+<li>Uberflip will begin importing videos from the Brightcove account(s) associated with the client you used. When it's done, you'll see a confirmation message that shows the number of videos that were imported.<br><br><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">To view the content Items that were created for these players, click </span><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">View Stream.</strong>
+</li>
+</ol>
+<p>That's it! Your Brightcove content has been imported into your Hub, and is now available to be included in the content experiences you create.</p>]]></description>
+         <guid isPermaLink="false">360027547452</guid>
+         <pubDate>Wed, 01 May 2019 17:40:06 GMT</pubDate>
+      </item>
+      <item>
+         <title>Set Up a Vidyard Integration</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360026763691-Set-Up-a-Vidyard-Integration</link>
+         <description><![CDATA[<p>Learn how to integrate your Hub with Vidyard to pull in video content from your Vidyard account.</p>
+<p> </p>
+<h2>Before You Begin</h2>
+<ul>
+<li>To integrate Vidyard with your Hub, you need to be an <strong>Account Admin</strong> or <strong>Content Manager</strong>.</li>
+<li>You will also need a <strong><a href="https://www.vidyard.com" target="_self">Vidyard</a> account</strong>, and your Vidyard plan must <strong>include API access</strong>. If you're not sure whether your plan includes API access, please contact your Vidyard representative for help.</li>
+</ul>
+<p> </p>
+<h2>About the Vidyard Integration</h2>
+<p>Vidyard is a video hosting platform specifically tailored to Marketing and Sales use cases. If you're already hosting your video content on Vidyard, you can easily make it part of your content experiences by bringing it into your Hub with our Vidyard integration.</p>
+<div class="callout callout--warning">
+<h4 class="callout__title">Vidyard plans with a limited number of embeds</h4>
+<p>This integration <strong>embeds</strong> videos from your Vidyard account into pages on your Uberflip Hub. Some Vidyard plans have a <strong>limit on the number of videos that you can embed</strong>.</p>
+<p>If you are on this type of plan, you must ensure that any Vidyard videos that you bring into your Hub are <strong>set to be embeddable in Vidyard</strong>, otherwise visitors will encounter an error when trying to view them.</p>
+<p>For more information and instructions, see this article from Vidyard:</p>
+<p class="wysiwyg-text-align-center"><a href="https://knowledge.vidyard.com/hc/en-us/articles/360033244534" target="_self" rel="undefined"><strong>Vidyard: Why is my video no longer available at its embedded location?</strong></a></p>
+</div>
+<p> </p>
+<h2 id="h_efca44e5-cfad-4c34-a33b-680b83acd4e1">Prerequisite: Get Your Vidyard API Token</h2>
+<p>To pull your Vidyard players into your Hub, Uberflip will access your Vidyard account using the Vidyard API. To do that, we'll need an <strong>API token</strong>. You use API tokens to give third party services access to your Vidyard account without needing to share your login credentials.</p>
+<p>In Vidyard, API tokens are specific to a <strong>sub-group </strong>and the players it contains. Vidyard controls access to a sub-group using <strong>roles</strong>, and each role has its own API token. You can use any default or custom role's API token with Uberflip, provided that the role has the <strong>View Organizations Assets</strong> permission enabled. If you would like to simply use a default system role's API token, choose the token belonging to the <strong>User</strong> role.</p>
+<p>Once you have chosen the role you want to use, simply <strong>copy its API token </strong>in Vidyard.</p>
+<p>To learn where you can find and copy the API token you'll need, see this article from Vidyard:</p>
+<p><a href="https://knowledge.vidyard.com/hc/en-us/articles/360009875814-Access-your-Vidyard-API-tokens" target="_self"><strong>Vidyard: Access your Vidyard API tokens</strong></a></p>
+<p> </p>
+<h2>Create a Vidyard Stream</h2>
+<p>All you have to do to connect your Uberflip account to Vidyard and pull in all available players is create a new Vidyard Stream. Once you have created a Vidyard Stream, it will remain connected to your Vidyard account, and will continue to pull in any new content you publish there automatically.</p>
+<p>Each time you create a new Vidyard Stream in your Hub, you'll be asked to enter an API token. This means you can create separate Vidyard Streams with different API tokens, for example if you need to import players from multiple Vidyard sub-groups.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note: Vidyard player and Video Structure</h4>
+<p>Vidyard organizes video content in the following way: <em>Parent group &gt; sub-group &gt; player &gt; individual videos</em>. In other words, a Parent group can contain multiple sub-groups, and each sub-group can contain multiple players, which in turn can contain multiple videos.</p>
+<p>Uberflip imports <strong>all players from a specified sub-group</strong>. Note that:</p>
+<ul>
+<li>API tokens are specific to a single sub-group, so adding a new Stream <strong>will only import players from the sub-group associated with the API token</strong> you provided. You would need to add additional Streams to import players in other sub-groups (using separate API tokens).</li>
+<li>Uberflip will create <strong>one Item per player</strong>. If a player contains multiple videos, they will all be contained within the one Item representing that player.</li>
+</ul>
+</div>
+<ol>
+<li>Log in to Uberflip and navigate to the Hub where you want to add the Vidyard Stream</li>
+<li>In the sidebar menu, click <strong>Content</strong>
+</li>
+<li>In the <strong>Streams</strong> tab of the Content page, click the <strong>New Stream</strong> button<br><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/8690833526925/abcd.png" alt="abcd.png"></span>
+</li>
+<li>In the modal that opens, select <strong>Vidyard</strong> in the <em>Source Streams</em> list<br><img src="https://help.uberflip.com/hc/article_attachments/12918299957901" alt="mceclip0.png" width="401" height="403">
+</li>
+<li>You'll now see the <strong>Add a Vidyard Stream</strong> window. Here, <strong>paste your <a href="https://help.uberflip.com/hc/en-us/articles/360026763691#prerequisite-get-your-vidyard-api-token" target="_self" rel="undefined">Vidyard API token</a></strong> into the field provided<br><img src="https://help.uberflip.com/hc/article_attachments/12917641839117" alt="mceclip2.png" width="400" height="402">
+</li>
+<li>Click <strong>Import</strong>
+</li>
+<li>Uberflip will begin importing players from the Vidyard account associated with the token. When it's done, you'll see a confirmation message. To view the Items that were created for these players, click <strong>View Stream</strong> </li>
+</ol>
+<p>That's it! Your Vidyard content has been imported into your Hub, and is now available to be included in the content experiences you create.</p>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>Does your Vidyard account contain a lot of players? By default, Vidyard Streams will pull in a <strong>maximum of 50 players</strong>. If you need to import more than that, please <a href="https://help.uberflip.com/hc/en-us/requests/new">contact Uberflip Support</a> for help.</p>
+</div>]]></description>
+         <guid isPermaLink="false">360026763691</guid>
+         <pubDate>Thu, 11 Apr 2019 14:04:15 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

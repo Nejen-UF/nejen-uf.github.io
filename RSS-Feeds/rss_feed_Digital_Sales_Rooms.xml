@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Digital Sales Rooms</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Get started with Digital Sales Rooms (DSRs) in Uberflip</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360030087932-Get-started-with-Digital-Sales-Rooms-DSRs-in-Uberflip</link>
+         <description><![CDATA[<p>Learn all about Digital Sales Rooms (DSRs): what they are, how they work, and how you can use them in Uberflip.</p>
+<p> </p>
+<h2>What are Digital Sales Rooms (DSRs)?</h2>
+<p>As with Marketing Streams in your Hub, a DSR is a collection of your content items, presented as an attractive content experience. But unlike Streams, which are typically intended for fairly wide audiences, Sales Streams are hyper-focused: they are created and personalized for a very specific audience, in many cases just a single person.</p>
+<p>As the name suggests, DSRs are primarily intended to be used by your sales team. By giving them access to your content library, along with a fast and convenient way to share that content with their leads and prospects, DSRs enable your sales team to sell more effectively by fostering conversations at all stages of the buyer journey.</p>
+<p> </p>
+<h2>How do DSRs work?</h2>
+<h3>Creation</h3>
+<p>You can create DSRs just like a Stream, from the <strong>Content</strong> section of the Uberflip app.  You can also copy a Marketing Stream as the base for a new DSR.</p>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>The best way to create DSRs and do sales engagement is with Sales Assist. Check out the <a href="https://help.uberflip.com/hc/en-us/categories/360003709111" target="_self">Sales Assist guides</a> to learn more.</p>
+</div>
+<p>To create and share DSRs in Uberflip, your users must have <strong>their own user account </strong>within your Uberflip account, and must be assigned to the <strong>Sales Reps</strong> user group (or otherwise be manually given the relevant permissions). You can assign as many users to the Sales Reps user group as you have purchased Sales seats (licenses). In addition, <strong>Admins</strong> and <strong>Content Managers</strong> can also create DSRs.</p>
+<p>Creating a DSR <strong>does not count towards your number of Marketing Streams</strong>, and your Sales Reps can create unlimited Sales Streams.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>Existing DSRs can only be viewed by the Sales Rep who created them, and the <a href="https://help.uberflip.com/hc/en-us/articles/360018726352" target="_self">Primary User</a> on the Uberflip account. When viewing a list of Streams, any type of user except the Primary User will only see DSRs that they have created themselves (if any).</p>
+</div>
+<p>For detailed instructions on creating and using DSRs, see <a href="#h_73dea419-7af5-4c06-b5f2-79cfdaf1ae49" target="_self">below</a>.</p>
+<h3>Appearance</h3>
+<p>Like Marketing Streams, DSRs consist of a homepage with a title, an optional description, and at least one Item tile.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360032904071" alt="Hi_John_.png" width="600" height="527"></p>
+<p>You can also go beyond this default appearance, and further <a href="https://help.uberflip.com/hc/en-us/articles/360020637332-Personalize-a-Marketing-or-Sales-Stream">personalize a DSR</a> by enhancing it with a customizable banner (and even the prospect organization's logo).</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360032740792" alt="Hi_John_.png" width="600" height="673"></p>
+<h3>Behavior</h3>
+<p>Because DSRs are designed to <strong>privately</strong> share content with a small audience of known individuals, they are:</p>
+<ul>
+<li>
+<strong>Hidden</strong>: Sales Streams are only accessible through a direct link, and can't be found or viewed by regular visitors to your Hub</li>
+<li>
+<strong>Isolated from your main Hub</strong>: Items within Sales Streams do not link to their original Source Streams</li>
+</ul>
+<p>As a result, clicking on any Item within a DSR will open the content on a new page which is still within the DSR, and there are no links out to the larger Hub (only to other content Items within the same DSR). This ensures that your target leads/prospects with whom you share the DSR are kept within the experience that you have specifically curated for them.</p>
+<p> </p>
+<h2 id="h_73dea419-7af5-4c06-b5f2-79cfdaf1ae49">Next steps</h2>
+<p>Ready to create a DSR? Check out: <a href="https://help.uberflip.com/hc/en-us/articles/360030092932">Create and share a DSR</a></p>]]></description>
+         <guid isPermaLink="false">360030087932</guid>
+         <pubDate>Thu, 04 Jul 2019 15:44:34 GMT</pubDate>
+      </item>
+      <item>
+         <title>Create and share a Digital Sales Room (DSR)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360030092932-Create-and-share-a-Digital-Sales-Room-DSR</link>
+         <description><![CDATA[<p>Learn how you can leverage content in your conversations with leads and prospects by creating personalized content experiences with <strong>Digital Sales Rooms (DSRs)</strong>.</p>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>To work with DSRs, you must be a member of the <strong>Sales Reps</strong>, <strong>Account Administrators</strong>, or <strong>Content Managers</strong> user groups.</li>
+</ul>
+<p> </p>
+<h2>About DSRs</h2>
+<p>Your marketing team creates a ton of content which is designed to generate leads, and to advance prospects through your funnel. Instead of just throwing all of that content onto the internet and hoping someone consumes it, they use Uberflip to create <strong>content experiences</strong>. This basically means presenting relevant content in a way that is <a href="https://hub.uberflip.com/blog/what-is-content-experience-definition">attractive, structured, and engaging</a>.</p>
+<p>As a salesperson, you can use <strong>DSRs</strong> to create your own content experiences in Uberflip. This allows you to share content with your prospects in a compelling way, helping to drive conversations with them. A DSR is essentially a self-contained "mini content experience" — a personalized collection of relevant content created just for a specific prospect</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360032720191" alt="Hi_John_.png" width="600" height="673"></p>
+<p>Once created, your new DSR will only be accessible from a specific (and customizable) URL that you can share with your prospect.</p>
+<p> </p>
+<h2>Create a new DSR</h2>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>The best way to create DSRs and do sales engagement is with Sales Assist. Check out the <a href="https://help.uberflip.com/hc/en-us/categories/360003709111" target="_self">Sales Assist guides</a> to learn more.</p>
+</div>
+<p>Creating a DSR in Uberflip is easy, and only takes a few minutes. There are two ways you can create a DSR:</p>
+<ul>
+<li>
+<strong>From scratch: </strong>Create a brand new DSR from the ground up using the Uberflip web app.</li>
+<li>
+<strong>By copying an existing Stream/DSR</strong>: Copy an existing Marketing Stream or DSR to form the basis of your new DSR, then customize and personalize it.</li>
+</ul>
+<div class="tabs">
+<div class="tabs-menu">
+<span class="tabs-link is-active">From scratch</span> B<span class="tabs-link">y copying an existing Stream/DSR</span>
+</div>
+<div class="tab">
+<p>Follow these steps to create a brand new DSR, where you choose each piece of content to be included yourself.</p>
+<ol>
+<li>Log in to Uberflip at <a href="https://app.uberflip.com/">https://app.uberflip.com</a>
+</li>
+<li>After you log in, you should be on the <strong>Content</strong> page in Uberflip, where you can see all the content that you have access to</li>
+<li>
+<span style="font-weight: 400;">Click </span><strong>New Stream</strong> (in the <em>Streams</em> tab)<strong><br></strong><span style="font-weight: 400;"><img src="https://help.uberflip.com/hc/article_attachments/17559778290061" alt="abcd.png"></span>
+</li>
+<li>The <strong>Add a Stream</strong> modal will open</li>
+<li>Click <strong>Digital sales room </strong>in the <em>Curated Streams</em> list<br><img src="https://help.uberflip.com/hc/article_attachments/13086580034189" alt="mceclip0.png" width="400" height="403">
+</li>
+<li>Fill out the DSR form that opens, which includes: <br>
+<ul>
+<li>
+<strong>Internal Stream Name</strong> <em>(optional)<br></em>A name for your DSR that <strong>won't</strong> be shown publicly. It's just for you and your team.</li>
+<li>
+<strong>Stream Page Title</strong> <em>(required)<br></em>A title for your DSR that will appear at the top of the DSR page. This will be seen by your prospect.</li>
+<li>
+<strong>Stream Page </strong><strong>Description</strong> <em>(optional)<br></em>A brief description of the DSR for your prospect. You can use this field to personalize your DSR and include a brief message to your prospect.</li>
+<li>
+<strong>Stream Purpose</strong> <em>(required)<br></em>Choose a purpose for this DSR. This won't be shown to your prospect.<img src="https://help.uberflip.com/hc/article_attachments/13086602415501" alt="Screen_Shot_2023-02-13_at_1.27.55_PM.png" width="399" height="400">
+</li>
+</ul>
+</li>
+<li>When done, click <strong>Create</strong>
+</li>
+<li>Your DSR is now created, and you'll be taken to its Stream menu where you can add content Items to it. To begin, click <strong>Add Items</strong> <br><img src="https://help.uberflip.com/hc/article_attachments/13087487336717" alt="mceclip2.png" width="500" height="267">
+</li>
+<li>The <strong>Add Items to Sales Stream</strong> modal will open, where you can choose which Items you want to include. Items from all Streams in your Hub(s) will be shown, and you can narrow this down by using the dropdown menus and search box along the top:<br><img src="https://help.uberflip.com/hc/article_attachments/360032726351" alt="Hubs___Manage_-_Uberflip.png" width="500" height="341">
+</li>
+<li>To add any Item to your DSR, click on it. A checkmark will appear in the top right corner of selected Items to indicate they will be added to the DSR. To remove any previously selected Item, just click on it again to remove the checkmark.</li>
+<li>You can see the number of Items currently selected in the lower right. Click <strong>Add</strong> to add them to the DSR<br><img src="https://help.uberflip.com/hc/article_attachments/360032746112" alt="Hubs___Manage_-_Uberflip.png" width="499" height="340">
+</li>
+<li>You'll be returned to the Stream view, where the content Items you added will now be shown. Content will be displayed in your DSR in the order shown here. To reorder Items, simply drag-and-drop their tiles into the desired order.</li>
+<li>To preview your DSR, click <strong>Open </strong>in the toolbar<br><img src="https://help.uberflip.com/hc/article_attachments/13090060911885" alt="mceclip3.png">
+</li>
+<li>Your DSR will open in a new tab, and you can see what it'll look like to your prospect<br><img src="https://help.uberflip.com/hc/article_attachments/360032746552" alt="Hi_John_.png" width="500" height="412">
+</li>
+</ol>
+<p>Now that everything is set up, you're ready to share your DSR!</p>
+</div>
+<div class="tab is-hidden">
+<p>Follow these steps to create a new DSR by copying an existing Stream or DSR.</p>
+<p>When you do this, your new DSR will be pre-populated with the content from the Stream or DSR you copied: from there, you can simply add or remove content to customize the DSR for your prospect. This is especially useful if you find yourself sharing the same pieces of (usually high-value) content with most of your prospects, for example.</p>
+<div class="callout callout--success">
+<h4 class="callout__title">Tip</h4>
+<p>To really save time, create a Stream that contains just the content Items you share the most. You can then create all your new DSRs by simply copying this "template Stream" every time.</p>
+</div>
+<ol>
+<li>Log in to Uberflip at <a href="https://app.uberflip.com/">https://app.uberflip.com</a>
+</li>
+<li>After you log in, you should be on the <strong>Content</strong> page in Uberflip, where you can see all the content that you have access to</li>
+<li>In <em>Streams</em> tab, find the Marketing Stream or DSR you want to duplicate and <strong>click it</strong> to open it</li>
+<li>In the Stream editor, click the three-dot "meatball" menu</li>
+<li>In the menu that opens, click <strong>Copy to Another Sales Stream </strong><em>(on a Sales Stream)</em> or <strong>Copy to a Sales Stream </strong><em>(on a Marketing Stream)</em><br><img src="https://help.uberflip.com/hc/article_attachments/13090701040909" alt="mceclip5.png" width="600" height="208">
+</li>
+<li>This will open the <strong>Copy to a Sales Stream</strong> modal. Fill out the form, which includes:
+<ul>
+<li>
+<strong>Internal Stream Name </strong><em>(optional)<br></em>A name for your DSR that <strong>won't</strong> be shown publicly. It's just for you and your team.</li>
+<li>
+<strong>Stream Page Title </strong><em>(required)<br></em>A title for your DSR that will appear at the top of the Stream page. This will be seen by your prospect.</li>
+<li>
+<strong>Stream Page </strong><strong>Description</strong> <em>(optional)<br></em>A brief description of the DSR for your prospect. You can use this field to personalize your Stream and include a brief message to your prospect.</li>
+<li>
+<strong>Pick a hub for this Sales Stream</strong><em> (If you have multiple Hubs in your account)</em><br>Use this to choose the Hub in you want to create the copied DSR in. By default, the same Hub you're copying from will be pre-selected.<br><img src="https://help.uberflip.com/hc/article_attachments/13090706715661" alt="Screen_Shot_2023-02-13_at_4.02.22_PM.png" width="400" height="401">
+</li>
+</ul>
+</li>
+<li>When you're done, click <strong>Copy</strong>
+</li>
+</ol>
+<p>Your DSR will be created, with all of the Items from the original Stream/DSR already included. From here, just add or move Items and <a href="https://help.uberflip.com/hc/en-us/articles/360030689211">customize the Stream</a> as needed, then you're ready to share your new DSR.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>While copying a Stream will bring over all the content Items from the original Stream, none of the other Stream or appearance options will be copied, so you would need to recreate these on the resulting DSR.</p>
+</div>
+</div>
+</div>
+<p> </p>
+<h2>Share a DSR</h2>
+<p>When your DSR is set up and ready, all that's left to do is share it with your intended prospect. There are two ways to share it, with the <strong>URL</strong> and with the built-in <strong>sharing options</strong>:</p>
+<div class="tabs">
+<div class="tabs-menu">
+<span class="tabs-link is-active">Direct (URL)</span> <span class="tabs-link">Sharing Options</span>
+</div>
+<div class="tab">
+<p>Follow these steps to simply share the direct URL for the DSR, for example in an email. You can also customize this URL if you want (<a href="https://help.uberflip.com/hc/en-us/articles/360030689211" target="_self">see this article</a>). </p>
+<ol>
+<li>Head to the <em>Content</em> page in Uberflip <em>(Content &gt; Streams tab)</em> and <strong>click on the Sales Stream</strong> you want to share</li>
+<li>In the Stream editor, click<strong> Open</strong> in the toolbar<img src="https://help.uberflip.com/hc/article_attachments/13090060911885" alt="mceclip3.png" width="600" height="177">
+</li>
+<li>While viewing the DSR in your browser, simply copy the URL from the address bar<br>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360032726831" alt="Hi_John_.png"></p>
+</li>
+<li>You can now paste the URL anywhere you want to share it (like an email), and anyone with the URL can view the DSR.</li>
+</ol>
+</div>
+<div class="tab is-hidden">
+<p>Follow these steps to share your DSR directly to Facebook, Twitter, LinkedIn, by email, or using HootSuite with the built-in sharing tool.</p>
+<ol>
+<li>Head to the <em>Content</em> page in Uberflip <em>(Content &gt; Streams tab)</em> and <strong>click on the Sales Stream</strong> you want to share</li>
+<li>In the Stream editor, click the three-dot "meatball" menu, then click <strong>Share </strong><br>
+<p><img src="https://help.uberflip.com/hc/article_attachments/13090338307725" alt="mceclip4.png"></p>
+</li>
+<li>In the <strong>Share this Stream </strong>menu that opens, click the option you want to use to share the DSR<br>
+<p><img src="https://help.uberflip.com/hc/article_attachments/13090277702157" alt="Screen_Shot_2023-02-13_at_3.40.34_PM.png" width="400" height="244"></p>
+</li>
+<li>Depending on your choice, the corresponding app will open, where you can then share the DSR</li>
+</ol>
+</div>
+</div>
+<p> </p>
+<h2>Next Steps</h2>
+<p>Now that you know how to create and share DSRs, learn how you can further enhance those content experiences by customizing their look and feel, and how you can work with your existing DSRs, in: <a href="https://help.uberflip.com/hc/en-us/articles/360030689211">Customize and Manage Your Sales Streams</a></p>]]></description>
+         <guid isPermaLink="false">360030092932</guid>
+         <pubDate>Thu, 04 Jul 2019 20:12:06 GMT</pubDate>
+      </item>
+      <item>
+         <title>Customize and manage your DSRs</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360030689211-Customize-and-manage-your-DSRs</link>
+         <description><![CDATA[<p>Learn how you can customize the look and feel of your Digital Sales Rooms (DSRs), as well as how to manage your existing DSRs.</p>
+<p> </p>
+<h2>Before you begin</h2>
+<ul>
+<li>To work with DSRs, you must be a member of the <strong>Sales Reps</strong>, <strong>Account Administrators</strong>, or <strong>Content Managers</strong> user groups.</li>
+</ul>
+<div class="callout callout--info">
+<h4 class="callout__title">Note: Who can manage DSRs?</h4>
+<p>DSRs are only visible to the user who created them, so <strong>all users can only manage their own DSRs</strong> (including Account Administrators).</p>
+<p>The only exception is the <a href="https://help.uberflip.com/hc/en-us/articles/360018726352" target="_self">Primary User</a> on the Uberflip account, who can see all DSRs created within the account by any user.</p>
+</div>
+<p> </p>
+<h2 id="h_b0a568cb-1e67-46fc-81c2-84eb0dfef12b">Customize a DSR</h2>
+<p>You can customize the look and feel or your DSRs in various ways to further personalize them for your intended audience. You can change the DSR's <strong>URL Path</strong>, customize different <strong>Stream Options</strong>, and modify the <strong>appearance</strong> of the DSR:</p>
+<div class="tabs">
+<div class="tabs-menu">
+<span class="tabs-link is-active">URL Path</span><span class="tabs-link"> DSR Options</span> <span class="tabs-link">DSR Appearance</span>
+</div>
+<div class="tab">
+<p>You can customize the last portion of the DSR's URL, after the slash (the URL path):</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/17561844854797" alt="Hi_John__and_Eurotrip_2019__Scandi_Wedding_Edition__Plan_-_Google_Docs.png"></p>
+<p>By default, the URL path is set to the <strong>name</strong> that you chose when you created the DSR, but you can change it to anything you like. To do that, open the DSR in the Uberflip app (<em>Content</em> &gt; <em>Streams</em> tab &gt; click on the DSR), then click on the <strong>Metadata tab</strong>. Here, type the URL path that you want to use instead into the <strong>URL Path</strong> field:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/17561843088397" alt="Hubs___Manage_-_Uberflip.png"></p>
+<p>Your change will be saved automatically, and will take effect immediately. Any previous URL paths for the DSR will be shown underneath the URL Path field:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/17561844860301" alt="Hubs___Manage_-_Uberflip.png"></p>
+<p>Any URL path shown here will remain active, and can be used to access this DSR. To remove a previous URL path, click on the <strong>x button</strong> to its right. Removing a URL path will mean that the DSR can no longer be accessed using that URL.</p>
+</div>
+<div class="tab is-hidden">
+<p>Your DSR has a number of different options that you can enable or disable. You can find these under the <strong>Options tab</strong> in the Stream editor:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/17561844865677" alt="Hubs___Manage_-_Uberflip.png"></p>
+<p>Each option's effect is described on that tab, and every option can be immediately turned on or off using its toggle switch on the right side.</p>
+</div>
+<div class="tab is-hidden">
+<p>You can go beyond the basic design of your DSR and customize its appearance in various ways, including adding a banner, personalizing it with your prospect's logo, etc. For full details on how to do this, see <a href="https://help.uberflip.com/hc/en-us/articles/360020637332" target="_self">this article</a>.</p>
+</div>
+</div>
+<p> </p>
+<h2>Modify content in an existing DSR</h2>
+<p>You can work on your existing DSRs at any time to add, remove, or rearrange content Items. To modify a DSR, open it in the Uberflip app (<em>Content</em> &gt; <em>Streams</em> tab &gt; click on the DSR).</p>
+<p>While viewing the DSR, you can rearrange the Item Tiles that represent each piece of content by simply dragging-and-dropping them into the desired order.</p>
+<p>To add or remove content Items in the DSR, click on the <strong>Manage Items</strong> button in the top left:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360032892791" alt="Hubs___Manage_-_Uberflip.png"></p>
+<p>The <strong>Update Sales Stream</strong> window will appear, where your currently selected Items will be indicated with checkmarks:</p>
+<ul>
+<li>To <strong>add</strong> new content to the DSR, click on an Item Tile to select it (selected Items are indicated with checkmarks)</li>
+<li>To <strong>remove</strong> a piece of content from the DSR, click on the Item Tile of a previously selected Item (the checkmark will be removed)</li>
+</ul>
+<p>To save your changes and return to the Stream view, click <strong>Update</strong>.</p>
+<p> </p>
+<h2>Archive a DSR</h2>
+<p>As you create DSR, your list of DSRs will grow<a href="#h_f5abd92f-39d2-43d2-8b01-d10e47c7c1c4" target="_self">.</a> But if you no longer need a DSR and want to declutter your list, you can archive it.</p>
+<p>To archive a DSR, open it in the Uberflip app (<em>Content</em> &gt; <em>Streams</em> tab &gt; click on the Sales Stream), then click on the <strong>three-dot "meatball" menu</strong> in the top right. In the menu that appears, click on <strong>Archive Stream</strong>:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/17561843095181" alt="Fullscreen_2019-07-08__10_11_AM.png" width="601" height="292"></p>
+<p>If you accidentally archived a DSR, or discover later that you still need it, you can <a href="https://help.uberflip.com/hc/en-us/articles/360020669872" target="_self">recover archived DSRs</a>.</p>]]></description>
+         <guid isPermaLink="false">360030689211</guid>
+         <pubDate>Mon, 08 Jul 2019 16:15:42 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

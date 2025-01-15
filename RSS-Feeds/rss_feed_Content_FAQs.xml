@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Content FAQs</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>Can I use Items from one Hub in a different Hub?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360033910331-Can-I-use-Items-from-one-Hub-in-a-different-Hub</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>I have multiple Hubs. There is an Item in a Stream in Hub A, and I want to use that Item in a Stream in Hub B. Is that possible?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>Yes! Items are account-wide, so any Item in your Uberflip account can be used in any Hub under that account.</p>
+<p>To use an Item that lives in one Hub in a different Hub, you'll need to use a <strong>Marketing Stream</strong> in the destination Hub (the Hub where you want to use the Item). Either create a new Marketing Stream, or use an existing one.</p>
+<p>Open up the Marketing Stream (in the destination Hub) by going to <em>Content &gt; Streams tab </em>and clicking on the Stream. While viewing the Marketing Stream, click on the <strong>Manage Items</strong> button in the menu bar:</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360038927352/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png"></p>
+<p>The <strong>Update Marketing Stream</strong> menu will appear in a pop-up window. Near the top, use the <strong>left drop-down menu</strong> to choose the Hub where the Item was originally added:</p>
+<p> <img src="https://help.uberflip.com/hc/article_attachments/360038927812/Hubs___Manage_-_Uberflip.png" alt="Hubs___Manage_-_Uberflip.png"></p>
+<p>Now, you can browse to the Item you want. Click on it to select it, then click on <strong>Update</strong> to add it to the Marketing Stream. There you have it: the Item from Hub A is now in a Stream in Hub B.</p>
+<div class="callout callout--info">
+<h4 class="callout__title">Note</h4>
+<p>Keep in mind that <strong>CTA placements are Hub-specific</strong>, so Item-related placements (i.e. Gate or Show Beside) will <strong>not</strong> carry over when the Item is used in a different Hub.</p>
+<p>For example, if you gate an Item with a CTA in Hub A, and then also use that Item in Hub B, the Item <strong>will not be gated in Hub B</strong> — you would need to set up the CTA gate separately for Hub B.</p>
+</div>]]></description>
+         <guid isPermaLink="false">360033910331</guid>
+         <pubDate>Thu, 19 Sep 2019 15:27:31 GMT</pubDate>
+      </item>
+      <item>
+         <title>Is there an easy way to update an Item across many different Streams?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360034011612-Is-there-an-easy-way-to-update-an-Item-across-many-different-Streams</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>I have an Item that has been added to many different Sales and/or Marketing Streams, and I need to make a change to that Item. Do I need to do this separately for every Stream?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>No! Items that you've added to Sales or Marketing Streams are always "reflections" of the original Item that was created in its source Stream (for example, a Blog Stream, or a Flipbooks Stream). This means that if you make any changes to the Item in its source Stream, those changes will also be reflected in any Sales or Marketing Stream which that Item appears in. This also applies if you delete the Item in its Source Stream, which will simultaneously delete it from any Sales or Marketing Streams, as well.</p>]]></description>
+         <guid isPermaLink="false">360034011612</guid>
+         <pubDate>Wed, 25 Sep 2019 13:49:06 GMT</pubDate>
+      </item>
+      <item>
+         <title>What changes cause an imported blog post to be disconnected from the original post?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360045488551-What-changes-cause-an-imported-blog-post-to-be-disconnected-from-the-original-post</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>If I edit an Uberflip blog post that was imported from an external RSS feed, <a href="https://help.uberflip.com/hc/en-us/articles/360022283332" target="_self">this will break the connection</a> between the Uberflip version of the post and original external post, and as a result the Uberflip blog post will no longer update if I change the external post.</p>
+<p>What specific changes will break the connection, and are there any changes that will <strong>not</strong> break it?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>In general, most of the things you can change on an Uberflip blog Item will change the GUID of that Item and break the connection to the original (external) blog post. However, there are also some changes that will not affect the GUID, and which you can therefore make without disconnecting the Item from the blog post.</p>
+<p>These <strong>breaking</strong> and <strong>non-breaking</strong> changes are outlined below:<br><br></p>
+<h3>Breaking Changes</h3>
+<p>While in the <em>Edit Article</em> view for an Item, <strong>changing any of the following will break the connection</strong> to the original blog post:</p>
+<h4>All tabs</h4>
+<ul>
+<li>
+<em>Title</em> field</li>
+</ul>
+<h4>Editor tab</h4>
+<ul>
+<li>Any change (i.e. changes to the article body text)</li>
+</ul>
+<h4>Metadata tab</h4>
+<ul>
+<li>
+<em>Description </em>field</li>
+<li>
+<em>Thumbnail URL</em> field</li>
+<li>
+<em>Author </em>dropdown</li>
+<li>
+<em>Status </em>dropdown</li>
+<li>
+<em>Publish Date </em>field</li>
+<li>
+<em>Hide Publish Date</em> checkbox</li>
+</ul>
+<h4>SEO tab</h4>
+<ul>
+<li>
+<em>Canonical URL</em> field</li>
+<li>
+<em>SEO Title</em> field</li>
+<li>
+<em>SEO Description</em> field</li>
+</ul>
+<h4>Custom Code tab</h4>
+<ul>
+<li>Any change (i.e. adding/removing/modifying Custom Code)</li>
+</ul>
+<p> </p>
+<h3>Non-Breaking Changes</h3>
+<p>While in the <em>Edit Article</em> view for an Item, <strong>changing any of the following will NOT break the connection</strong> to the original blog post:</p>
+<h4>Metadata tab</h4>
+<ul>
+<li>
+<em>URL Path </em>field</li>
+</ul>
+<h4>Tags tab</h4>
+<ul>
+<li>Any change (i.e. adding/removing tags)</li>
+</ul>
+<h4>SEO tab</h4>
+<ul>
+<li>
+<em>Auto redirect to Item's Canonical URL</em> checkbox</li>
+</ul>
+<h4>Custom Labels tab</h4>
+<ul>
+<li>Any change (i.e. adding/removing/modifying Custom Labels)</li>
+</ul>]]></description>
+         <guid isPermaLink="false">360045488551</guid>
+         <pubDate>Thu, 25 Jun 2020 21:02:55 GMT</pubDate>
+      </item>
+      <item>
+         <title>Can I automatically notify subscribers/followers when I publish a new blog post?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360052075131-Can-I-automatically-notify-subscribers-followers-when-I-publish-a-new-blog-post</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>I want to give visitors to my Hub the ability to subscribe to my blog, so that they get an email notification whenever I publish a new post. Can I do this with Uberflip?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>This functionality isn't built in to Uberflip, but there are various ways to achieve it using external tools. For example, if you're a Marketo user, one way to do this is by using <a href="https://digesto.io/">Digesto</a>. To learn how to set this up, see <a href="https://help.uberflip.com/hc/en-us/articles/360026830272">this article</a>.</p>
+<p>Another option is to use a task automation tool, such as Zapier, Microsoft Flow, automate.io, etc. These tools are designed to connect different software platforms, and to automatically perform an action whenever a specified trigger event occurs. While we can't provide detailed instructions for each such tool, a general setup might look like this:</p>
+<ol>
+<li>Use a Form CTA placed on your Uberflip blog to collect subscriber emails.</li>
+<li>Use emails collected with this Form CTA to populate a mailing list in your email marketing tool.</li>
+<li>Set up the task automation tool to monitor your blog's RSS feed (i.e. the <a href="https://help.uberflip.com/hc/en-us/articles/360052074531">RSS feed of your Uberflip Blog Stream</a>) for new posts.</li>
+<li>Configure the task automation tool to send a new email each time a new post is published in that RSS feed, using your email marketing tool and the mailing list generated for this purpose (i.e. the one created using the Form CTA).</li>
+</ol>
+<p>With this setup, your visitors can effectively subscribe to your blog by entering their email into the Form CTA, then receive an email notification whenever you publish a new post. For detailed instructions on how to set something like this up, please refer to the help resources of your preferred task automation tool.</p>]]></description>
+         <guid isPermaLink="false">360052075131</guid>
+         <pubDate>Tue, 03 Nov 2020 22:31:04 GMT</pubDate>
+      </item>
+      <item>
+         <title>Why is the image cropped when I share an Item?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360023203151-Why-is-the-image-cropped-when-I-share-an-Item</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>When I try to share content on social media or other websites, the thumbnail is not fully showing — it looks cut off. Why is this happening?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>When you share content from your Hub on the web, the service you're sharing on will look at the shared content's <a href="http://ogp.me/">Open Graph (OG) tags</a> to determine what to display in the preview. In most cases, the thumbnail for the preview will be taken from the <code class="no-padding">og:image</code> tag. Uberflip automatically populates the <code class="no-padding">og:image</code> tag with an image based on what's being shared: for example, if you share an Item, the Item's thumbnail will be used. (For more information about how this works, see <a href="https://help.uberflip.com/hc/en-us/articles/360021612952">this article</a>).</p>
+<p>Many websites and other services expect the the <code class="no-padding">og:image</code> tag to contain a rectangular image, typically with an aspect ratio of around 1.9:1 (or sometimes 2:1). For example, <a href="https://developers.facebook.com/docs/sharing/best-practices/">1.9:1 is what Facebook recommends</a>. As a result, if the image from your Hub (e.g. the Item thumbnail) is taller than this, it will be cropped down to 1.9:1 when shared, and will appear cut off.</p>
+<p>Unfortunately, there's currently no way to override the default image and use a custom image for the <code class="no-padding">og:image</code> tag. If you encounter this issue, you can resolve it by ensuring your Hub's images are as close as possible to a 1.9:1 ratio. You can also check out <a href="https://help.uberflip.com/hc/en-us/articles/360020030752">this article</a> to see what image dimensions we generally recommend for your Hub.</p>]]></description>
+         <guid isPermaLink="false">360023203151</guid>
+         <pubDate>Mon, 11 Feb 2019 16:16:25 GMT</pubDate>
+      </item>
+      <item>
+         <title>What happens if I delete a blog that I have imported into my Hub with RSS?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360021047471-What-happens-if-I-delete-a-blog-that-I-have-imported-into-my-Hub-with-RSS</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>I have created a Blog Stream in Uberflip by importing an RSS feed from my existing blog. If I now delete the original blog, what happens to the Blog Stream?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>When you import a blog into your Hub with RSS, Uberflip pulls in existing posts on that blog to create content Items in the Blog Stream. These Items are created <em>from</em> the original blog's posts, but are completely separate and no longer tied to them after creation. As a result, deleting the original blog will <strong>not</strong> cause the corresponding Items to be deleted from the Blog Stream.</p>
+<p>However, importing a blog with RSS also automatically brings in any associated images (post thumbnails and body images). Rather than importing and hosting these images, Uberflip displays them by linking to their location in the original blog. Deleting the original blog <strong>will also delete the images</strong>, which means that <strong>they will no longer be displayed</strong> in your Blog Stream.</p>
+<p>If you have imported a blog into your Hub with RSS and want to delete the original blog, you will need to migrate the images to Uberflip. To do that, please <a href="https://help.uberflip.com/hc/en-us/requests/new">contact us</a> for help.</p>]]></description>
+         <guid isPermaLink="false">360021047471</guid>
+         <pubDate>Mon, 17 Dec 2018 18:06:05 GMT</pubDate>
+      </item>
+      <item>
+         <title>If I hide an Item, will it still appear in search results?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360040964352-If-I-hide-an-Item-will-it-still-appear-in-search-results</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>When I <a href="https://help.uberflip.com/hc/en-us/articles/360025265112" target="_self">hide an Item</a>, can that Item still show up on Google?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>Yes and no — it depends on whether the Item had already been indexed.</p>
+<p>When you hide an Item, it is also automatically set to <a href="https://help.uberflip.com/hc/en-us/articles/360027859411" target="_self"><em>no-index</em></a> (even if its Source Stream, or any of the Marketing Streams it appears in are indexable). This means that, from the point in time when the Item was hidden onward, it should not be indexed by Google.</p>
+<p>However, if a hidden Item was indexed by Google <em>before</em> it was hidden, then that Item will still appear in search results until Google crawls your Hub again, which can take up to several months. If you need to remove the Item before this happens, Google provides a mechanism to do so: see <a href="https://support.google.com/webmasters/answer/9689846" target="_self">this article from Google</a> for details.</p>]]></description>
+         <guid isPermaLink="false">360040964352</guid>
+         <pubDate>Tue, 24 Mar 2020 15:42:57 GMT</pubDate>
+      </item>
+      <item>
+         <title>How often does the Embed Stream Tiles widget update to show new Items?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360028384832-How-often-does-the-Embed-Stream-Tiles-widget-update-to-show-new-Items</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>If I add a new Item to a Stream, how long will it take to appear on my Embed Stream Tiles widget?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>The Embed Stream Tiles widget has its own cache that should update and display new Items in the Stream within 30 minutes of publishing the new content.  </p>]]></description>
+         <guid isPermaLink="false">360028384832</guid>
+         <pubDate>Wed, 22 May 2019 15:59:07 GMT</pubDate>
+      </item>
+      <item>
+         <title>How do I make images automatically expand to the width of the screen on different devices?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360026694292-How-do-I-make-images-automatically-expand-to-the-width-of-the-screen-on-different-devices</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>How can I make my larger images expand to full width of the article section and display responsively on different screen sizes?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>By default, a Hub Item's article section width is 840px maximum width and any image you upload that is 840px or wider, will display as full width of the article section and will automatically be responsive across different screen widths.</p>
+<p>In a situation where your Hub design has the default Article section width set wider than 840px via custom code, you can edit the image width in the Item Editor&gt;right click&gt;image properties, and set the width and height of that image to 100%.  This will allow the image to expand to full width in that wider than usual article body.</p>
+<p><img src="https://help.uberflip.com/hc/article_attachments/360026342671/mceclip0.png"></p>
+<p> </p>
+<p>Just note that if you are going to set width of an image to 100%, and the original image is not as wide as the width of your Article body, that image can display with deteriorated quality because you are stretching the image beyond its original dimensions</p>]]></description>
+         <guid isPermaLink="false">360026694292</guid>
+         <pubDate>Mon, 15 Apr 2019 21:32:35 GMT</pubDate>
+      </item>
+      <item>
+         <title>Will an imported blog post be updated if the original blog post changes?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360022283332-Will-an-imported-blog-post-be-updated-if-the-original-blog-post-changes</link>
+         <description><![CDATA[<h2>Question</h2>
+<p>I imported posts from a blog into a Blog Stream using RSS. If I make a change to a post in the original blog, will the corresponding Item in Uberflip be updated as well?</p>
+<p> </p>
+<h2>Answer</h2>
+<p>In general, yes: if you import a blog post into Uberflip and then subsequently edit that post in the source blog, the post in Uberflip will also be updated automatically. For this to happen, the following conditions must be met:</p>
+<ul class="list-bullet">
+<li>
+<strong>The blog Item must not be edited in Uberflip</strong>: as soon as any changes are made to an imported blog Item in Uberflip, it is considered distinct from the original blog post, and the link between them is severed permanently. (However, <a href="https://help.uberflip.com/hc/en-us/articles/360045488551">there are some things you can change without breaking the connection</a>.)</li>
+<li>
+<strong>The original blog post must still be available in the RSS feed</strong>: once the original blog post drops off the RSS feed, we are no longer able to query it for updates.</li>
+<li>
+<strong>The original blog post must be within the most recent 200 items in the RSS feed</strong>: even if the original blog post is still in the RSS feed, Uberflip will only check the most recent 200 items for updates.</li>
+</ul>
+<p>This applies only to <strong>modifying</strong> the original post: if you <strong>delete</strong> (rather than change) the original blog post, the imported Item will <strong>not </strong>be deleted, and will remain in Uberflip.</p>
+<p>Finally, note that <strong>not all changes to the original blog post will trigger an update in Uberflip</strong>. See the <a href="#h_01F7YJC2HDS4F38WRWPNK2KGFS" target="_self">Technical details section</a> for specifics.</p>
+<div class="callout">
+<h4 class="callout__title">What about other types of Items?</h4>
+<p>The same principle applies to Items in all other types of Source Streams as well, e.g. Video, Social, and Docs (except Flipbooks): in general, modifying the source content will modify the imported Item in Uberflip, <strong>unless</strong> it has been modified in Uberflip first.</p>
+</div>
+<p> </p>
+<h2 id="h_01F7YJC2HDS4F38WRWPNK2KGFS">Technical details</h2>
+<p>If you're interested in the technical nuts and bolts behind this answer, here's how the process works:</p>
+<ul>
+<li>When you import a blog post via RSS, Uberflip takes the unique identifier of the post (the <em>GUID</em>) and saves it to the <em>External ID </em>field of the corresponding Uberflip Item. This shared identifier is what links the original blog post with the Uberflip Item.</li>
+<li>Every 1-2 hours (approx.), Uberflip runs an automation that checks the RSS feed connected to a Blog Stream for updates. In addition to looking for new posts in the feed, the automation also checks if any posts in the feed have the same GUID as an Item in the connected Blog Stream in Uberflip.</li>
+<li>For any post and Item pair with matching GUIDs, the automation then looks at the <em>&lt;title&gt;, &lt;content:encoded&gt;</em>, and <em>&lt;pubDate&gt;</em> fields for that post in the RSS feed. If the values in any of these fields are different from the corresponding values on the Uberflip Item, the automation assumes that the blog post must have been updated since the Uberflip Item was created or last updated. In such cases, Uberflip reimports the updated blog post and updates the Item's corresponding values to match.</li>
+<li>If you make any changes to an Uberflip Item that was imported from an RSS feed, Uberflip will remove that Item's original GUID from the <em>External ID</em> field, and replace it with a different GUID to indicate that the Uberflip Item is now distinct from the original blog post. This why Items that have been modified in Uberflip aren't updated if their original blog post is changed: because the post and Item no longer have matching GUIDs, the automation doesn't consider the blog post in the RSS feed to be the same as the Uberflip Item.</li>
+</ul>
+<div class="callout">
+<h4 class="callout__title">RSS feed changes that will <strong>not</strong> trigger an Uberflip Item update</h4>
+<p>The automation will only check the <em>&lt;title&gt;, &lt;content:encoded&gt;</em>, and <em>&lt;pubDate&gt; </em>fields in the RSS field for updates.</p>
+<p>The other fields that are present on each post in the RSS feed (i.e. <em>&lt;link&gt;</em>, <em>&lt;description&gt;</em><em>, &lt;author&gt;</em>, <em>&lt;dc:date&gt;</em>, and <em>&lt;category&gt;</em>) are ignored for this purpose, and therefore updating these fields will <strong>not </strong>cause the Uberflip item to be updated (unless any of the <em>&lt;title&gt;, &lt;content:encoded&gt;</em>, and <em>&lt;pubDate&gt; </em>fields is <strong>also</strong> updated at the same time).</p>
+</div>]]></description>
+         <guid isPermaLink="false">360022283332</guid>
+         <pubDate>Fri, 25 Jan 2019 16:43:01 GMT</pubDate>
+      </item>
+      <item>
+         <title>Why are my autoplay videos muted?</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360048856591-Why-are-my-autoplay-videos-muted</link>
+         <description><![CDATA[<h2>Question</h2>
+<p><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Videos in my Hub that are set to autoplay are being muted by default. How can I ensure the video has sound when the video is playing? </span></p>
+<p> </p>
+<h2>Answer</h2>
+<p data-renderer-start-pos="14">All major browsers now automatically mute videos that autoplay. For example, see <a href="https://developers.google.com/web/updates/2017/09/autoplay-policy-changes" target="_self">this article from Google</a>, which explains how this policy works in Chrome.</p>
+<p data-renderer-start-pos="14">Because this is a policy that’s enforced by the visitor’s browser, there is no way to force videos to autoplay with sound. If you want videos to autoplay, the visitor must manually unmute them.</p>
+<p data-renderer-start-pos="14">However, browsers will not mute a video that does <strong>not</strong> autoplay (i.e. videos that the visitor cooses to play). As a result, you can <strong>disable autoplay</strong> to ensure that your videos play with sound enabled.</p>
+<p data-renderer-start-pos="14">In Uberflip, you can disable autoplay on any video Source Stream (i.e. YouTube, Vimeo, Wistia, Vidyard or Brightcove). This is a Stream-level setting, so it will apply to all videos in the Stream, including when the videos are placed in Marketing or Sales Streams.</p>
+<p data-renderer-start-pos="14">Here's how to disable autoplay for a video Stream:</p>
+<ol>
+<li data-renderer-start-pos="14">Under <strong>Content</strong>, find and open the video Source Stream (not a Marketing or Sales Stream).</li>
+<li data-renderer-start-pos="14">Click on the <strong>Options tab</strong>.</li>
+<li data-renderer-start-pos="14">Find the setting <strong>Disable auto playback</strong>:<br>
+<p data-renderer-start-pos="237"><img src="https://help.uberflip.com/hc/article_attachments/360066747571/mceclip0.png" alt="mceclip0.png"></p>
+</li>
+<li data-renderer-start-pos="14">Turn this setting <strong>ON</strong> (green position). The change will save automatically, and will take effect right away.</li>
+</ol>
+<p>Remember that this is a per-Stream setting, so you must <strong>configure it separately for each video source Stream</strong> in your Hub. Repeat the steps above for each Source Stream where you want to disable video autoplay.</p>
+<p data-renderer-start-pos="237"> </p>
+<p data-renderer-start-pos="237"> </p>]]></description>
+         <guid isPermaLink="false">360048856591</guid>
+         <pubDate>Thu, 27 Aug 2020 16:42:58 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>

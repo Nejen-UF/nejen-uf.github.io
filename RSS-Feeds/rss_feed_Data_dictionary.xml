@@ -1,0 +1,2262 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Uberflip Help Center Articles - Data dictionary</title>
+      <link>https://help.uberflip.com/hc/en-us</link>
+      <description>Latest articles from Uberflip Help Center</description>
+      <language>en-us</language>
+      <lastBuildDate>Tue, 14 Jan 2025 16:05:25 GMT</lastBuildDate>
+      <item>
+         <title>The Uberflip data dictionary </title>
+         <link>https://help.uberflip.com/hc/en-us/articles/22856133467405-The-Uberflip-data-dictionary</link>
+         <description><![CDATA[<div class="accordion accordion--colored">
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>A</strong></div>
+<div class="accordion__item-content">
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr style="height: 21px;">
+<td style="width: 50%;" data-sheets-value='{"1":2,"2":"Account ID"}'>Account ID</td>
+<td style="width: 50%;" data-sheets-value='{"1":2,"2":"A unique identifier for an Uberflip Account, which may include multiple Hubs."}'>A unique identifier for an Uberflip Account, which may include multiple Hubs.</td>
+</tr>
+<tr style="height: 21px;">
+<td style="width: 50%;" data-sheets-value='{"1":2,"2":"Asset Name"}'>Asset Name</td>
+<td style="width: 50%;" data-sheets-value='{"1":2,"2":"Represents the name of any asset used"}'>Represents the name of any asset used</td>
+</tr>
+<tr>
+<td style="width: 50%;"> </td>
+<td style="width: 50%;"> </td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>B</strong></div>
+<div class="accordion__item-content">
+<p>Section 2 content goes here.</p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>C</strong></div>
+<div class="accordion__item-content">
+<p>Section 3 content goes here.</p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>D</strong></div>
+<div class="accordion__item-content">
+<p>Section 4 content goes here.</p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>E</strong></div>
+<div class="accordion__item-content">
+<p>Section 5 content goes here.</p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>F</strong></div>
+<div class="accordion__item-content">
+<p>Section 5 content goes here.</p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>G</strong></div>
+<div class="accordion__item-content">
+<p>Section 5 content goes here.</p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>H</strong></div>
+<div class="accordion__item-content">
+<p>Section 5 content goes here.</p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>I</strong></div>
+<div class="accordion__item-content">
+<p>Section 5 content goes here.</p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>J</strong></div>
+<div class="accordion__item-content">
+<p>Section 5 content goes here.</p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>K</strong></div>
+<div class="accordion__item-content">
+<p>Section 5 content goes here.</p>
+</div>
+</div>
+<div class="accordion__item">
+<div class="accordion__item-title"><strong>L</strong></div>
+<div class="accordion__item-content">
+<p>Section 5 content goes here.</p>
+</div>
+</div>
+</div>]]></description>
+         <guid isPermaLink="false">22856133467405</guid>
+         <pubDate>Tue, 02 Jan 2024 18:56:50 GMT</pubDate>
+      </item>
+      <item>
+         <title>Flipbooks (Content &gt; Analytics)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360049353592-Flipbooks-Content-Analytics</link>
+         <description><![CDATA[<p> </p>
+<h2>General Info</h2>
+<table style="width: 700px;">
+<tbody>
+<tr>
+<td style="width: 236px;"><strong>What it is</strong></td>
+<td style="width: 441px;">
+<p>Flipbook content is a set of attributes specific to Uberflip Flipbooks.  </p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Includes these data points</strong></td>
+<td style="width: 441px;">
+<ul>
+<li>Flipbook Created Date</li>
+<li>Flipbook Folder</li>
+<li>Flipbook ID</li>
+<li>Flipbook is Deleted (Yes / No)</li>
+<li>Flipbook Publish Date</li>
+<li>Flipbook Title</li>
+<li>Flipbook Total Pages</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Data Available After</strong></td>
+<td style="width: 441px;">
+<p>Always in sync with database.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Value</strong></td>
+<td style="width: 441px;">
+<p>Flipbook content attributes can provide information about flipbooks that is independent of Hubs or Item information.  </p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;">
+<strong>Google Analytics </strong><strong>Equivalent</strong>
+</td>
+<td style="width: 441px;">
+<p>Not Available.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2>Flipbook Created Date</h2>
+<p><strong>Data Type: </strong>Date</p>
+<p><strong>Description: </strong>When a Flipbook was created</p>
+<h2>
+<br>Flipbook Folder</h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description: </strong>The folder the Flipbook is located in.</p>
+<p> </p>
+<h2>Flipbook ID</h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description: </strong>The unique identifier for a flipbook, not to be confused with the Item ID.</p>
+<p> </p>
+<h2>Is Flipbook Deleted</h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description: </strong>If a Flipbook has been deleted from Uberflip.</p>
+<h2>
+<br>Flipbook Publish Date</h2>
+<p><strong>Data Type: </strong>Date</p>
+<p><strong>Description</strong> The date the Flipbook was Published</p>
+<h2>
+<br>Flipbook Title</h2>
+<p><strong>Data type:</strong> Dimension</p>
+<p><strong>Description: </strong>The title of the Flipbook, which is independent of the item title<br><br><br></p>
+<h2>Flipbook Total Pages</h2>
+<p><strong>Data Type:</strong> Dimension</p>
+<p><strong>Description: </strong>The total number of pages included with a Flipbook.</p>]]></description>
+         <guid isPermaLink="false">360049353592</guid>
+         <pubDate>Thu, 17 Sep 2020 15:32:44 GMT</pubDate>
+      </item>
+      <item>
+         <title> Filter-Only (Analytics &gt; Engagement)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360049007972--Filter-Only-Analytics-Engagement</link>
+         <description><![CDATA[<h2>General Info</h2>
+<table style="width: 700px;">
+<tbody>
+<tr>
+<td style="width: 236px;"><strong>What it is</strong></td>
+<td style="width: 441px;">
+<p>A set of fields that can only be used for filters</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Includes these data points</strong></td>
+<td style="width: 441px;">
+<ul>
+<li>View Date (Filter Only)</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Data Available After</strong></td>
+<td style="width: 441px;">
+<p>July 2019</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Value</strong></td>
+<td style="width: 441px;">
+<p>These  filters will allow to see information in a date range based on negative cases.  Such as show me all the events that didn't fire in a particular date range.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;">
+<strong>Google Analytics </strong><strong>Equivalent</strong>
+</td>
+<td style="width: 441px;">
+<p>It is not possible to see content that wasn't viewed in a time-frame with Google Analysis</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2> </h2>
+<h2>Item Creator</h2>
+<p><strong>Data Type: </strong>Date</p>
+<p><strong>Description: </strong>Use this as a filter to show items with 0 page views in date range.</p>]]></description>
+         <guid isPermaLink="false">360049007972</guid>
+         <pubDate>Thu, 10 Sep 2020 16:33:05 GMT</pubDate>
+      </item>
+      <item>
+         <title>Account ID (Analytics &gt; Content)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360044682651-Account-ID-Analytics-Content</link>
+         <description><![CDATA[<h2>General Info</h2>
+<table style="width: 700px;">
+<tbody>
+<tr>
+<td style="width: 192px;"><strong>What it is:<br></strong></td>
+<td style="width: 485px;">
+<p>The Account ID is the numerical ID used to distinguished Uberflip Accounts between each other. </p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Includes these data points<br></strong></td>
+<td style="width: 485px;">
+<ul>
+<li>Account ID</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Data available after<br></strong></td>
+<td style="width: 485px;">
+<p>Always in sync with database</p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Value</strong></td>
+<td style="width: 485px;">
+<p>Allows users with multiple accounts to differentiate between them and helps customer support debug issues easier.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;">
+<strong>Google Analytics e</strong><strong>quivalent/comparable</strong>
+</td>
+<td style="width: 485px;">Custom dimension required.</td>
+</tr>
+</tbody>
+</table>
+<h2> </h2>
+<h2> </h2>
+<h2>
+<br><br>
+</h2>]]></description>
+         <guid isPermaLink="false">360044682651</guid>
+         <pubDate>Mon, 08 Jun 2020 19:47:06 GMT</pubDate>
+      </item>
+      <item>
+         <title>CTAs: Forms (Analytics &gt; Content)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360044682931-CTAs-Forms-Analytics-Content</link>
+         <description><![CDATA[<h2>General Info</h2>
+<table style="width: 700px;">
+<tbody>
+<tr>
+<td style="width: 192px;"><strong>What it is:<br></strong></td>
+<td style="width: 485px;">
+<p>Form CTA content dimensions provide context to Form CTAs and helps distinguish them from one-another.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Includes these data points<br></strong></td>
+<td style="width: 485px;">
+<p>Dimensions</p>
+<ul>
+<li>CTA ID</li>
+<li>Form CTA Label</li>
+<li>Form CTA Position</li>
+<li>Form CTA Tagline</li>
+<li>Form CTA Tagline &amp; Button</li>
+<li>Form CTA Title</li>
+<li>Form CTA Title &amp; Link</li>
+<li>Is Form CTA Deleted</li>
+</ul>
+<p> </p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Data available after<br></strong></td>
+<td style="width: 485px;">
+<p>Always in sync with database</p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Value</strong></td>
+<td style="width: 485px;">
+<p>Leads generated from Form CTA submissions are one of the most important business oriented KPIs for marketers.  The details of those CTAs can illuminate what is working and what is not.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;">
+<strong>Google Analytics e</strong><strong>quivalent/comparable</strong>
+</td>
+<td style="width: 485px;">Requires custom dimensions and will not be in sync with the DB.</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<strong><br>CTA ID</strong> </h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description: </strong>The Unique identifier of a CTA.</p>
+<p> </p>
+<h2><strong>Form CTA Label</strong></h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description: </strong>Text shown on the Form CTA's submission button.</p>
+<p> </p>
+<h2><strong>Form CTA Position</strong></h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description: </strong>Where the CTA is included, which may be Gated, Show-beside, Stream or Embed.</p>
+<p> </p>
+<h2><strong>Form CTA Tagline</strong></h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description</strong><strong>: </strong>Text shown on the CTA to give context.</p>
+<p> </p>
+<h2><strong>Form CTA Tagline &amp; Button</strong></h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description: </strong>A data cell styled to include both the CTA Tagline &amp; button</p>
+<p> </p>
+<h2><strong>Form CTA Title: </strong></h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description</strong>: The internal title of a CTA.</p>
+<p> </p>
+<h2><strong>Form CTA Title &amp; Link</strong></h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description:</strong> A data cell that includes the CTA's title as well as a link to view the CTA in Uberflip.</p>
+<p> </p>
+<h2><strong>Is Form CTA Deleted</strong></h2>
+<p><strong>Description:</strong> An indication if the CTA has been deleted.</p>]]></description>
+         <guid isPermaLink="false">360044682931</guid>
+         <pubDate>Mon, 08 Jun 2020 19:50:21 GMT</pubDate>
+      </item>
+      <item>
+         <title>CTAs: Link (Analytics &gt; Content)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360044727451-CTAs-Link-Analytics-Content</link>
+         <description><![CDATA[<h2>General Info</h2>
+<table style="width: 700px;">
+<tbody>
+<tr>
+<td style="width: 192px;"><strong>What it is<br></strong></td>
+<td style="width: 485px;">
+<p>Link CTA Content information provides context to differentiate Link CTAs from each other.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Includes these data points<br></strong></td>
+<td style="width: 485px;">
+<ul>
+<li>CTA ID</li>
+<li>Link CTA Button Label</li>
+<li>Link CTA Position</li>
+<li>Link CTA Tagline</li>
+<li>Link CTA Tagline &amp; Button</li>
+<li>Link CTA Title</li>
+<li>Link CTA Title &amp; Link</li>
+<li>Is Link CTA Deleted</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Data available after<br></strong></td>
+<td style="width: 485px;">
+<p>Always in sync with database</p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Value</strong></td>
+<td style="width: 485px;">
+<p>CTA Content dimensions provide awareness of what Link CTAs visitors are seeing and where they see them.</p>
+<p>It is important to compare position and the content of a CTA when considering why it may have performed how it did.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;">
+<strong>Google Analytics e</strong><strong>quivalent/comparable</strong>
+</td>
+<td style="width: 485px;">Requires custom dimensions and will not be in sync with the DB.</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2>
+<strong>CTA ID</strong> </h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description: </strong>The Unique identifier of a CTA.</p>
+<h2> </h2>
+<h2><strong>Link CTA Button Label</strong></h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description: </strong>Text shown on the CTA's submission button.</p>
+<h2> </h2>
+<h2><strong>Form CTA Position</strong></h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description: </strong>Where the CTA is included, which may be Gated, Show-beside, Stream or Embed.</p>
+<p> </p>
+<h2><strong>Form CTA Tagline</strong></h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description</strong><strong>: </strong>Text shown on the CTA to give context.</p>
+<p> </p>
+<h2><strong>Form CTA Tagline &amp; Button</strong></h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description: </strong>A data cell styled to include both the CTA Tagline &amp; button</p>
+<p> </p>
+<h2><strong>Form CTA Title: </strong></h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description</strong>: The internal title of a CTA.</p>
+<p> </p>
+<h2><strong>Form CTA Title &amp; Link</strong></h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description:</strong> A data cell that includes the CTA's title as well as a link to view the CTA in Uberflip.</p>
+<p> </p>
+<h2><strong>Is Form CTA Deleted</strong></h2>
+<p><strong>Description:</strong> An indication if the CTA has been deleted.</p>]]></description>
+         <guid isPermaLink="false">360044727451</guid>
+         <pubDate>Tue, 09 Jun 2020 16:49:09 GMT</pubDate>
+      </item>
+      <item>
+         <title>Hubs (Analytics &gt; Content)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360044279352-Hubs-Analytics-Content</link>
+         <description><![CDATA[<h2>General Info</h2>
+<table style="width: 700px;">
+<tbody>
+<tr>
+<td style="width: 236px;"><strong>What it is</strong></td>
+<td style="width: 441px;">
+<p>Hub content dimensions help distinguished Uberflip Hubs from one another.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Includes these data points</strong></td>
+<td style="width: 441px;">
+<ul>
+<li>Hub ID</li>
+<li>Hub Name</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Data Available After</strong></td>
+<td style="width: 441px;">
+<p>Always in sync with database.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Value</strong></td>
+<td style="width: 441px;">
+<p>It's important to differentiate Hubs from one another because they are usually applied to either different business units or different use-cases.  </p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;">
+<strong>Google Analytics </strong><strong>Equivalent</strong>
+</td>
+<td style="width: 441px;">
+<p>Google usually handles each Hub as a different website.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><br> </p>
+<h2><strong>Hub ID</strong></h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description: </strong>The unique identifier used to distinguished hubs from one another.</p>
+<h2><strong><br>Hub Name</strong></h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description: </strong>The internal name used to identify a Hub</p>]]></description>
+         <guid isPermaLink="false">360044279352</guid>
+         <pubDate>Tue, 09 Jun 2020 16:55:52 GMT</pubDate>
+      </item>
+      <item>
+         <title>Item Created Date (Analytics &gt; Content)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360044279612-Item-Created-Date-Analytics-Content</link>
+         <description><![CDATA[<h2>General Info</h2>
+<table style="width: 700px;">
+<tbody>
+<tr>
+<td style="width: 236px;"><strong>What it is</strong></td>
+<td style="width: 441px;">
+<p>Item Created Date indicates when an item was initially made.  </p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Includes these data points</strong></td>
+<td style="width: 441px;">
+<p>Different intervals for when items were created.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Collection Start</strong></td>
+<td style="width: 441px;">
+<p>Always in sync with database.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Purpose / Value</strong></td>
+<td style="width: 441px;">
+<p>When auditing content it is important to understand when content was created to better understand how efforts impacted performance.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;">
+<strong>Google Analytics </strong><strong>Equivalent</strong>
+</td>
+<td style="width: 441px;">
+<p>Custom dimensions required.</p>
+</td>
+</tr>
+</tbody>
+</table>]]></description>
+         <guid isPermaLink="false">360044279612</guid>
+         <pubDate>Tue, 09 Jun 2020 17:03:45 GMT</pubDate>
+      </item>
+      <item>
+         <title>Item Modified Date (Analytics &gt; Content)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360044279752-Item-Modified-Date-Analytics-Content</link>
+         <description><![CDATA[<h2>General Info</h2>
+<table style="width: 700px;">
+<tbody>
+<tr>
+<td style="width: 236px;"><strong>What it is</strong></td>
+<td style="width: 441px;">
+<p>The Item Modified Date indicates when an item was last altered</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Includes these data points</strong></td>
+<td style="width: 441px;">
+<p>Different intervals for when items were modified.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Collection Start</strong></td>
+<td style="width: 441px;">
+<p>Always in sync with database.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Value</strong></td>
+<td style="width: 441px;">
+<p>To check if an item was modified leading it to perform differently based on that modification</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;">
+<strong>Google Analytics </strong><strong>Equivalent</strong>
+</td>
+<td style="width: 441px;">
+<p>Custom dimensions required.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><br><br></p>]]></description>
+         <guid isPermaLink="false">360044279752</guid>
+         <pubDate>Tue, 09 Jun 2020 17:08:40 GMT</pubDate>
+      </item>
+      <item>
+         <title>Item (Analytics &gt; Content)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360044280952-Item-Analytics-Content</link>
+         <description><![CDATA[<h2>General Info</h2>
+<table style="width: 700px;">
+<tbody>
+<tr>
+<td style="width: 236px;"><strong>What it is</strong></td>
+<td style="width: 441px;">
+<p>Item Content Dimensions are identifiers that help distinguish one piece of content from another.  </p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Includes these data points</strong></td>
+<td style="width: 441px;">
+<p>Dimensions</p>
+<ul>
+<li>Item Canonical Redirect</li>
+<li>Item Canonical URL</li>
+<li>Item Creator</li>
+<li>Item Description</li>
+<li>Item ID</li>
+<li>Item is Deleted (Yes/No)</li>
+<li>Item Is Hidden</li>
+<li>Item Title + Image</li>
+<li>Item Primary URL Slug</li>
+<li>Item SEO Description</li>
+<li>Item SEO Title</li>
+<li>Item Thumbnail URL</li>
+<li>Item Title</li>
+<li>Item Type</li>
+</ul>
+<p>Measures</p>
+<ul>
+<li>Items with Page Views</li>
+<li>List Items</li>
+<li>Total Items</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Collection Start</strong></td>
+<td style="width: 441px;">
+<p>Always in sync with database.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Value</strong></td>
+<td style="width: 441px;">
+<p>These fields are required to differentiate items and give Analytics context.  With these differentiators it's easy to aggregate metrics at the item level from across streams and also to see which items are being viewed by visitors.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;">
+<strong>Google Analytics </strong><strong>Equivalent</strong>
+</td>
+<td style="width: 441px;">
+<p>Requires custom dimensions to be set up for these data-points<br><br>You will also need to set up filters in Google Analytics to Aggregate data from. </p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2>Canonical Redirect</h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description: </strong>Does this Item have a canonical redirect set up for search engines.  <br><br></p>
+<h2>Item Canonical URL</h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description: </strong>The URL recognizes by Web browsers as the home for this content.  <br><br><br></p>
+<h2>Item Creator</h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description: </strong>The name of the Uberflip user that created an Item, which is different than the Item author.  <br><br></p>
+<h2>Item Description</h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description: </strong>The item's description exposed on the front-end of the application<br><br></p>
+<h2>Item ID</h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description: </strong>The unique identifier of an Item.</p>
+<p> </p>
+<h2>Item is Deleted (Yes/No)</h2>
+<p><strong>Data Type: </strong>Boolean</p>
+<p><strong>Description: </strong>An indication if the item has been deleted.<br><br></p>
+<h2>Item is Hidden (Yes/No)</h2>
+<p><strong>Data Type: </strong>Boolean<br><br><strong>Description: </strong>If an Item has been declared Hidden from viewing in a stream.<br><br></p>
+<h2>Item Title + Image</h2>
+<p><strong>Data Type: </strong>HTML </p>
+<p><strong>Description: </strong>An HTML enriched cell that can be used to visually list items.<br><br></p>
+<h2>Item Primary URL Slug</h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description: </strong>The item's representation in the URL<br><br></p>
+<h2>Item SEO Description</h2>
+<p><strong>Data Type: Dimension</strong></p>
+<p><strong>Description: </strong>The Description  displayed in search engines.<br><br></p>
+<h2>Item SEO Title</h2>
+<p><strong>Data Type: Dimension</strong></p>
+<p><strong>Description: </strong>The title displayed in Search Engines<br><br><br></p>
+<h2>Item Thumbnail URL</h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description: </strong>Generate a URL to view the item's thumbnail, which can help better identify the item.</p>
+<p> </p>
+<h2>Item Title</h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description: </strong>The visitor facing title of an item.<br><br></p>
+<h2>Item Type</h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description: </strong>This is based on system set Item items, which include Blogpost, Slideshare, Twitter, Youtube, Wistia etc...<br><br></p>
+<h2>Items with Page Views</h2>
+<p><strong>Data Type: </strong>count</p>
+<p><strong>Description: </strong>A count of items that have received at least 1 page view in a date range.</p>
+<h2> </h2>
+<h2>List Items</h2>
+<p><strong>Data Type: </strong>String</p>
+<p><strong>Description: </strong>A comma delimitated list of items</p>
+<p> </p>
+<h2>Total Items</h2>
+<p><strong>Data Type: </strong>Count</p>
+<p><strong>Description:</strong> A count of items regardless of views or not</p>
+<p> </p>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360044280952</guid>
+         <pubDate>Tue, 09 Jun 2020 17:31:54 GMT</pubDate>
+      </item>
+      <item>
+         <title>Page Type (Analytics &gt; Content)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360045938171-Page-Type-Analytics-Content</link>
+         <description><![CDATA[<h2>General Info</h2>
+<table style="width: 700px;">
+<tbody>
+<tr>
+<td style="width: 192px;"><strong>What is it</strong></td>
+<td style="width: 485px;">
+<p>Page Type is a content dimension that indicates if a page is a stream, an item, author, stream login etc..</p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Includes these data points</strong></td>
+<td style="width: 485px;">
+<ul>
+<li>Page Type</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Date available after</strong></td>
+<td style="width: 485px;">
+<p>Synced with Database</p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Purpose</strong></td>
+<td style="width: 485px;">
+<p>This allows the user to differentiate between different kinds of pages to analyze different kinds of pages, which are used for different purposes.  </p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;">
+<strong>Google Analytics </strong><strong>Equivalent</strong>
+</td>
+<td style="width: 485px;">
+<p>Requires custom Dimensions</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2>Page Type</h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description: </strong>A distinction given to different types of pages.</p>
+<h2> </h2>]]></description>
+         <guid isPermaLink="false">360045938171</guid>
+         <pubDate>Tue, 07 Jul 2020 17:47:22 GMT</pubDate>
+      </item>
+      <item>
+         <title>Stream Created Date (Analytics &gt; Content)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360044729251-Stream-Created-Date-Analytics-Content</link>
+         <description><![CDATA[<h2>General Info</h2>
+<table style="width: 700px;">
+<tbody>
+<tr>
+<td style="width: 192px;"><strong>What it is<br></strong></td>
+<td style="width: 485px;">
+<p>Stream created date is when a stream was originally made.  </p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Includes these data points<br></strong></td>
+<td style="width: 485px;">
+<p>Various date periods to analyze </p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Data available after<br></strong></td>
+<td style="width: 485px;">
+<p>Always in sync with database</p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Value</strong></td>
+<td style="width: 485px;">
+<p>It's important to understand when streams are being created to understand Uberflip Usage and to see recent content experiences being published.  </p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;">
+<strong>Google Analytics e</strong><strong>quivalent/comparable</strong>
+</td>
+<td style="width: 485px;">Custom Dimension Required.</td>
+</tr>
+</tbody>
+</table>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360044729251</guid>
+         <pubDate>Tue, 09 Jun 2020 17:34:19 GMT</pubDate>
+      </item>
+      <item>
+         <title>Stream (Analytics &gt; Content)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360044285232-Stream-Analytics-Content</link>
+         <description><![CDATA[<table style="width: 700px;">
+<tbody>
+<tr>
+<td style="width: 236px;"><strong>What is it</strong></td>
+<td style="width: 441px;">
+<p>Stream identifiers that help differentiate Streams from each other and provides contextual details. </p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Includes these data points</strong></td>
+<td style="width: 441px;">
+<p>Dimensions:</p>
+<ul>
+<li>Canonical Redirect</li>
+<li>Category</li>
+<li>Description</li>
+<li>Force Self Canonical</li>
+<li>ID</li>
+<li>Is Deleted</li>
+<li>Is Hidden </li>
+<li>Owner</li>
+<li>Primary URL Slug</li>
+<li>SEO Description</li>
+<li>SEO Settings</li>
+<li>SEO Title</li>
+<li>Stream Authentication</li>
+<li>Stream Purpose</li>
+<li>Stream Title &amp; Category</li>
+<li>Title</li>
+<li>Type</li>
+</ul>
+<p>Measures:</p>
+<ul>
+<li>Count Stream Owners</li>
+<li>Count Stream Owners with Views</li>
+<li>Count Streams</li>
+<li>Count Streams Incl Deleted</li>
+<li>List Streams </li>
+<li>Streams with Page Views</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong> Value</strong></td>
+<td style="width: 441px;">
+<p>As purposeful collections of content, Streams are an incredibly important tool in designing a content experience.</p>
+<p>Stream dimensions and measures make it easy to differentiate Streams and to aggregate them into counts.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;">
+<strong>Google Analytics </strong><strong>Equivalent</strong>
+</td>
+<td style="width: 441px;">
+<p>The closest equivalent to Streams in Google Analytics are pages. Significant customization through custom dimensions would be required to gather this data.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2>Canonical Redirect</h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description:</strong> If this Stream set up for canonical redirect.<br><br></p>
+<h2>Category</h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description:</strong> An<strong> </strong>aggregation of  types to high-level categories that include include Blogs, Documents, Marketing, Sales, Social and Video.<br><br></p>
+<h2>Description</h2>
+<h2>
+<strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 14px;">Data Type: </strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 14px;">Dimension</span>
+</h2>
+<p><strong>Description:</strong> An<strong> </strong>aggregation of  types to high-level categories that include include Blogs, Documents, Marketing, Sales, Social and Video.</p>
+<p> </p>
+<h2>Force Self Canonical</h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description</strong><strong>:  </strong>Does this Stream represent its self to search engines as it's canonical URL<br><br></p>
+<h2>ID</h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description</strong><strong>: </strong>Unique Identifier for an individual Stream.<br><br></p>
+<h2>Is Deleted</h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description: </strong>If the Stream has been deleted/archived or not.<br><br></p>
+<h2>Is Hidden</h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description:</strong> If the Stream has been hidden from search engines and navigation.</p>
+<p> </p>
+<h2>Owner </h2>
+<p><strong>Data Type:</strong> Dimension</p>
+<p><strong>Description:</strong> The Uberflip user who is assigned as the owner of the Stream.</p>
+<h2>
+<strong><br></strong>Primary URL Slug</h2>
+<p><strong>Data Type:</strong> Dimension</p>
+<p><strong>Description:</strong> How this Stream is represented in the URL<br><br></p>
+<h2>SEO Description</h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description:</strong> The Stream description displayed by search engines.</p>
+<p> </p>
+<h2>SEO Settings</h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description:</strong> How a Stream is configured to be viewed by search engines.</p>
+<p> </p>
+<h2>SEO Title</h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description:</strong> The title used for a Stream in search engines.  </p>
+<p> </p>
+<h2>Stream Authentication</h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description:</strong> Is a Stream configured to require authentication/password to access it.</p>
+<p> </p>
+<h2>Stream Purpose</h2>
+<p><strong>Data Type:</strong> Dimension</p>
+<p><strong>Description:</strong> The value assigned as the <em>Stream Purpose</em> for this Stream, indicating what it was intended to be used for.</p>
+<p> </p>
+<h2>Stream Title &amp; Category</h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description</strong>: An HTML cell that includes information about a Stream for clear context.</p>
+<p> </p>
+<h2>Title</h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description: </strong>The external title of a Stream.</p>
+<p> </p>
+<h2>Type </h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description: </strong>The type of Stream, e.g. Blog, YouTube, Marketing, Sales, etc. </p>
+<h2>
+<strong><br></strong>Count Stream Owners</h2>
+<p><strong>Data Type:</strong> Measure</p>
+<p><strong>Description:</strong> A sum of total Stream owners.<br><br></p>
+<h2>Count Stream Owners with Views</h2>
+<p><strong>Data Type:</strong> Measure</p>
+<p><strong>Description </strong>A sum of total Stream owners with views in a time-frame.</p>
+<p> </p>
+<h2>Count Streams</h2>
+<p><strong>Data Type: </strong>Measure</p>
+<p><strong>Description: </strong>A count of Streams that can be used in different contexts that doesn't include deleted Streams.</p>
+<p> </p>
+<h2>Count Streams Incl Deleted</h2>
+<p><strong>Data Type: </strong>Measure<strong><br><br>Description:</strong> A count of Streams that can be used in different contexts that includes deleted Streams.</p>
+<p> </p>
+<h2>List Streams</h2>
+<p><strong>Data Type:</strong> Measure</p>
+<p><strong>Description:</strong> A comma delineated list of Streams.</p>
+<p> </p>
+<h2>Streams with Page Views</h2>
+<p><strong>Data Type:</strong>  Measure</p>
+<p><strong>Description:</strong> A count/sum of Streams that have had page views within a time period.</p>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360044285232</guid>
+         <pubDate>Tue, 09 Jun 2020 18:33:07 GMT</pubDate>
+      </item>
+      <item>
+         <title>Tags (Analytics &gt; Content)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360044288072-Tags-Analytics-Content</link>
+         <description><![CDATA[<p> </p>
+<h2>General Info</h2>
+<table style="width: 700px;">
+<tbody>
+<tr>
+<td style="width: 236px;"><strong>What it is</strong></td>
+<td style="width: 441px;">
+<p>Tag content identifiers allow the usage of item tags within Uberflip analytics.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Includes these data points</strong></td>
+<td style="width: 441px;">
+<ul>
+<li>Item Tags</li>
+<li>Tag</li>
+<li>List Tags</li>
+<li>Count Tags</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Data Available After</strong></td>
+<td style="width: 441px;">
+<p>Always in sync with database.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Value</strong></td>
+<td style="width: 441px;">
+<p>Tags provide valuable valuable aggregation to content stored in Uberflip.  With Tags it's possible to identify groups of content to either exclusively analyze or exclude from analysis.  <br><br>It's also possible to surface tags in context of stream or item analytics to understand the the purposes of those.  </p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;">
+<strong>Google Analytics </strong><strong>Equivalent</strong>
+</td>
+<td style="width: 441px;">
+<p>Custom dimensions required.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2>Item Tags</h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description: </strong>A list of tags that are on the same item.  This is useful for identifying items that don't have a specific tag.</p>
+<h2>Tag</h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description: </strong>Provide a single item tag, which can be used to filter a dashboard or to analyze on its own.</p>
+<p> </p>
+<h2>List Tags</h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description: </strong>Provide a list of item tags in a comma delimited.</p>
+<p> </p>
+<h2>Count Tags</h2>
+<p><strong>Data Type: </strong>Count</p>
+<p><strong>Description: </strong>A sum of item tags that can be drilled into.</p>]]></description>
+         <guid isPermaLink="false">360044288072</guid>
+         <pubDate>Tue, 09 Jun 2020 18:56:39 GMT</pubDate>
+      </item>
+      <item>
+         <title>Form CTA Impression/Submission Date (Analytics &gt; Engagement)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360044779651-Form-CTA-Impression-Submission-Date-Analytics-Engagement</link>
+         <description><![CDATA[<h2>General Info</h2>
+<table style="width: 700px;">
+<tbody>
+<tr style="height: 109.062px;">
+<td style="width: 192px; height: 109.062px;"><strong>What it is:<br></strong></td>
+<td style="width: 485px; height: 109.062px;">
+<p>The Form CTA Impression date is when a form CTA was seen by a visitor, where as the submission date was when it was actually submitted.  </p>
+<p> </p>
+</td>
+</tr>
+<tr style="height: 44px;">
+<td style="width: 192px; height: 44px;"><strong>Includes these data points<br></strong></td>
+<td style="width: 485px; height: 44px;">
+<ul>
+<li>Form CTA Impression Date</li>
+<li>Link CTA Submission Date</li>
+</ul>
+</td>
+</tr>
+<tr style="height: 50px;">
+<td style="width: 192px; height: 50px;"><strong>Data available after<br></strong></td>
+<td style="width: 485px; height: 50px;">
+<p><strong>October 2019</strong> (Collection on Hubs)<br><br><strong>May 2020</strong> (Collection of Embedded CTAs)<br><br><strong>Pending</strong> (Collection of Embedded on Hubs)</p>
+</td>
+</tr>
+<tr style="height: 160px;">
+<td style="width: 192px; height: 160px;"><strong>Value</strong></td>
+<td style="width: 485px; height: 160px;">
+<p>By providing Form CTA event dates we can understand when they were interacted with.  This information can be utilized for the following purposes:</p>
+<p>- Graph Impressions or Submissions</p>
+<p>- See when a specific users had an impression or submission</p>
+<p>- See the time in-between seeing a CTA and actually submitting it.  </p>
+</td>
+</tr>
+<tr style="height: 44px;">
+<td style="width: 192px; height: 44px;">
+<strong>Google Analytics e</strong><strong>quivalent/comparable</strong>
+</td>
+<td style="width: 485px; height: 44px;">Custom event required</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2>Form CTA Impression Date</h2>
+<p><strong>Data type: </strong>Date</p>
+<p><strong>Description: </strong>When a Form CTA was at least 50% on screen for more than 1 second.</p>
+<h2>
+<br>Form CTA Submission Date</h2>
+<p><strong>Data type: </strong>Date</p>
+<p><strong>Description: </strong>When a Form CTA was successfully submitted.</p>
+<p> </p>
+<p> </p>
+<table style="width: 700px;">
+<tbody>
+<tr>
+<td style="width: 192px;"> </td>
+<td style="width: 485px;"> </td>
+</tr>
+</tbody>
+</table>]]></description>
+         <guid isPermaLink="false">360044779651</guid>
+         <pubDate>Wed, 10 Jun 2020 15:48:24 GMT</pubDate>
+      </item>
+      <item>
+         <title>Link CTA Impression / Click Date (Analytics &gt; Engagement)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360044333592-Link-CTA-Impression-Click-Date-Analytics-Engagement</link>
+         <description><![CDATA[<h2>General Info</h2>
+<table style="width: 700px;">
+<tbody>
+<tr style="height: 109.062px;">
+<td style="width: 192px; height: 109.062px;"><strong>What it is:<br></strong></td>
+<td style="width: 485px; height: 109.062px;">
+<p>Link CTA Impressions and Click Dates are when different CTA Events were tracked. </p>
+</td>
+</tr>
+<tr style="height: 44px;">
+<td style="width: 192px; height: 44px;"><strong>Includes these data points<br></strong></td>
+<td style="width: 485px; height: 44px;">
+<ul>
+<li>Link CTA Impression Date</li>
+<li>Link CTA Click Date</li>
+</ul>
+</td>
+</tr>
+<tr style="height: 50px;">
+<td style="width: 192px; height: 50px;"><strong>Data available after<br></strong></td>
+<td style="width: 485px; height: 50px;">
+<p>October 2019 (Collection on Hubs)<br><br>May 2020 (Collection of Embedded CTAs)<br><br>Pending (Collection of Embedded on Hubs)</p>
+</td>
+</tr>
+<tr style="height: 160px;">
+<td style="width: 192px; height: 160px;"><strong>Value</strong></td>
+<td style="width: 485px; height: 160px;">
+<p>By providing date information on Link CTAs we can better understand when they were interacted with.  We can use this information for graphing purposes or to simply state for a specific visitor when they interacted with a Link CTA.</p>
+</td>
+</tr>
+<tr style="height: 44px;">
+<td style="width: 192px; height: 44px;">
+<strong>Google Analytics e</strong><strong>quivalent/comparable</strong>
+</td>
+<td style="width: 485px; height: 44px;">Custom Even required</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<br>Link CTA Impression Date</h2>
+<p><strong>Data Type:</strong> Date</p>
+<p><strong>Description: </strong>When a Link CTA was at least 50% on screen for more than 1 second.</p>
+<h2> </h2>
+<h2>Link CTA Click Date</h2>
+<p><strong>Data Type:</strong> Date</p>
+<p><strong>Description: </strong>When a Link CTA was clicked.</p>]]></description>
+         <guid isPermaLink="false">360044333592</guid>
+         <pubDate>Wed, 10 Jun 2020 16:24:50 GMT</pubDate>
+      </item>
+      <item>
+         <title>Page View Date (Analytics &gt; Engagement)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360044334072-Page-View-Date-Analytics-Engagement</link>
+         <description><![CDATA[<h2>General Info</h2>
+<table style="width: 700px;">
+<tbody>
+<tr>
+<td style="width: 192px;"><strong>What it is:<br></strong></td>
+<td style="width: 485px;">
+<p>The Page View Date for when a single page/URL was viewed by a visitor.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Includes these data points<br></strong></td>
+<td style="width: 485px;">Various time frames for analysis.</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Data available after<br></strong></td>
+<td style="width: 485px;">
+<p><strong>July 2019</strong> (start collecting page view data)</p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Value</strong></td>
+<td style="width: 485px;">
+<p>Page View Date is the primary contextual date in Uberflip Analytics.  All dashboards use Page view date as the default date filter.  <br><br>The reason for this is that almost all activity in Uberflip Analytics is attached to a page view, therefore that is often the most appropriate date to filter traffic</p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;">
+<strong>Google Analytics e</strong><strong>quivalent/comparable</strong>
+</td>
+<td style="width: 485px;">Google analytics data is primarily based on page views by date.</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout--info">
+<h4 class="callout__title">The <em>View Date (filter only) </em>dimension</h4>
+<p>In addition to the dimensions available under <em>Engagement &gt; Page View Date</em>, there is also a separate dimension named <em>View Date (filter only)</em> that is available in Uberflip Analytics Explore. This dimension works the same way as as the dimensions under <em>Page View Date</em>, except:</p>
+<ul>
+<li>It can only be used as a filter in Explore</li>
+<li>It <strong>includes</strong> pages that had 0 page views during the selected timeframe, which the <em>Page View Date </em>dimensions do not</li>
+</ul>
+</div>]]></description>
+         <guid isPermaLink="false">360044334072</guid>
+         <pubDate>Wed, 10 Jun 2020 16:37:03 GMT</pubDate>
+      </item>
+      <item>
+         <title>Session Created Date (Analytics &gt; Engagement)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360044783631-Session-Created-Date-Analytics-Engagement</link>
+         <description><![CDATA[<h2>General Info</h2>
+<table style="width: 700px;">
+<tbody>
+<tr>
+<td style="width: 192px;"><strong>What it is<br></strong></td>
+<td style="width: 485px;">
+<p>The date and time for when a visitor session starts.  </p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Includes these data points<br></strong></td>
+<td style="width: 485px;">Various time frames for analysis</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Data available after<br></strong></td>
+<td style="width: 485px;">
+<p>July 2019 (start collecting session data)</p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Value</strong></td>
+<td style="width: 485px;">
+<p>The session start date allows for both graphing when sessions start, listing sessions by the most recent and also to filter out sessions that occurred in certain date/time ranges</p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;">
+<strong>Google Analytics e</strong><strong>quivalent/comparable:</strong>
+</td>
+<td style="width: 485px;">
+<p>Part of Google analytics core product</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360044783631</guid>
+         <pubDate>Wed, 10 Jun 2020 16:52:15 GMT</pubDate>
+      </item>
+      <item>
+         <title>Visitor Facts (Analytics &gt; Engagement) </title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360044346132-Visitor-Facts-Analytics-Engagement</link>
+         <description><![CDATA[<h2>General Info</h2>
+<table style="width: 700px;">
+<tbody>
+<tr>
+<td style="width: 192px;"><strong>What is it</strong></td>
+<td style="width: 485px;">
+<p>Visitor Facts are aggregated values that cover all of Uberflip recorded history, cannot be filtered and cannot be drilled</p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Collection Start</strong></td>
+<td style="width: 485px;">
+<p>July 2019: Started collection</p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Included fields</strong></td>
+<td style="width: 485px;">
+<ul>
+<li>Lifetime Distinct Items Viewed</li>
+<li>Lifetime Distinct Streams Viewed</li>
+<li>Lifetime Distinct Tags Viewed</li>
+<li>Lifetime Link CTAs Clicked</li>
+<li>Lifetime Form CTAs Submitted</li>
+<li>Lifetime Page Views<strong><br></strong>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Value</strong></td>
+<td style="width: 485px;">
+<p>When generating a list of visitor actives it's usually important to filter by a date range or other parameters. <br><br> Visitor facts let you see information outside of those filter parameters.  <br><br>For Example, if I filtered by Item &amp; Date, Visitor facts could show you a count of total items viewed by that visitor from all time.  </p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;">
+<strong>Google Analytics </strong><strong>Equivalent</strong>
+</td>
+<td style="width: 485px;">
+<p>These can be set up with a Combination of User Explore and custom dimensions.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2>Lifetime Distinct Items Viewed </h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description: </strong>For a single visitor, this is a count of all the different items they have ever viewed.</p>
+<h2> </h2>
+<h2>Lifetime Distinct Streams Viewed</h2>
+<p><strong>Data type: </strong>Dimension</p>
+<p><strong> Description: </strong>For a single visitor, this is a count of all the different streams they have ever viewed.</p>
+<h2> </h2>
+<h2>Lifetime Distinct Tags Viewed<strong><br></strong>
+</h2>
+<p><strong>Data type: </strong>Dimension</p>
+<p><strong>Description: </strong>For a single visitor this is a count of all the different tags they have ever viewed.<strong><br></strong></p>
+<p> </p>
+<h2>Lifetime Link CTAs Clicked</h2>
+<p><strong>Data type: </strong>Dimension</p>
+<p><strong>Description: </strong>For a single visitor this is a count of all the Link CTAs they clicked.</p>
+<p> </p>
+<h2>Lifetime Form CTAs Submitted</h2>
+<p><strong>Data type: </strong>Dimension</p>
+<p><strong>Description: </strong>For a single visitor this is a count of all the Form CTAs they clicked.</p>
+<p> </p>
+<h2>Lifetime Page Views<strong><br></strong>
+</h2>
+<p><strong>Data type: </strong>Dimension</p>
+<p><strong>Description:</strong> For a single visitor this is a count of all the Form CTAs they clicked.</p>]]></description>
+         <guid isPermaLink="false">360044346132</guid>
+         <pubDate>Wed, 10 Jun 2020 18:44:09 GMT</pubDate>
+      </item>
+      <item>
+         <title>Avg. Scroll Depth (Analytics &gt; Engagement)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360044794331-Avg-Scroll-Depth-Analytics-Engagement</link>
+         <description><![CDATA[<h2>General Info</h2>
+<table style="width: 700px;">
+<tbody>
+<tr>
+<td style="width: 192px;"><strong>What is it:</strong></td>
+<td style="width: 485px;">
+<p>Avg. Scroll Depth is how far down a page a visitor scrolled. This takes into account the page height at initial load and then the total of that percentage viewed by the visitor.</p>
+<p>If there is a "Read More" button, or there is auto-loaded content this may cause the page heigh to be above 100%.  </p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Includes these data points</strong></td>
+<td style="width: 485px;">
+<ul>
+<li>Avg. Scroll Depth</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Date available after</strong></td>
+<td style="width: 485px;">
+<p><strong>December 2019 </strong>(collection started of scroll depth)</p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Purpose</strong></td>
+<td style="width: 485px;">
+<p>Scroll depth is an important indicator especially for blogs/articles as it indicator if a visitor actually read the content.  </p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;">
+<strong>Google Analytics </strong><strong>Equivalent</strong>
+</td>
+<td style="width: 485px;">
+<p>This would need to be enabled with Google Tag Manager and possibly use some additional code.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2>Avg. Scroll Depth</h2>
+<p><strong>Data Type: </strong>Calculated</p>
+<p><strong>Description: </strong>An average of scroll depth percentages.</p>
+<h2> </h2>]]></description>
+         <guid isPermaLink="false">360044794331</guid>
+         <pubDate>Wed, 10 Jun 2020 18:56:48 GMT</pubDate>
+      </item>
+      <item>
+         <title>Bounce (Analytics &gt; Engagement) </title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360044795131-Bounce-Analytics-Engagement</link>
+         <description><![CDATA[<h2>General Info</h2>
+<table style="width: 700px;">
+<tbody>
+<tr>
+<td style="width: 192px;"><strong>What it is</strong></td>
+<td style="width: 485px;">
+<p>Bounce indicates if a visitor takes an action during their session.</p>
+<p>An Uberflip visitor is considered bounced if <span class="wysiwyg-underline">all</span> of the following are true:</p>
+<ul>
+<li>Only 1 page viewed</li>
+<li>No Form CTA Submitted</li>
+<li>No Link CTA Clicked</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Includes these data points</strong></td>
+<td style="width: 485px;">
+<ul>
+<li>Bounce Rate</li>
+<li>Bounces</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Data Available After</strong></td>
+<td style="width: 485px;">
+<p>July 2019 (Collection date started for Bounce Rate and Total Bounces)</p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Purpose</strong></td>
+<td style="width: 485px;">
+<p>A bounce is the clearest indication of visitor engagement.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;">
+<strong>Google Analytics </strong><strong>Equivalent</strong>
+</td>
+<td style="width: 485px;">
+<p>Google Analytics visitors are considered bounced if<span class="wysiwyg-underline"> all</span> the following are true:</p>
+<ul>
+<li>Only 1 page viewed</li>
+<li>No custom event fired (depends on implementation)</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<h2> </h2>
+<h2>Bounce Rate</h2>
+<p><strong>Data Type:</strong> Calculated</p>
+<p><strong>Description:</strong> An average of the bounce rate percentages.  </p>
+<p> </p>
+<h2>Bounce </h2>
+<p><strong>Data Type:</strong> Count</p>
+<p><strong>Description:</strong> A sum of total bounces.</p>]]></description>
+         <guid isPermaLink="false">360044795131</guid>
+         <pubDate>Wed, 10 Jun 2020 19:08:45 GMT</pubDate>
+      </item>
+      <item>
+         <title>Flipbooks (Analytics &gt; Engagement)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360044348372-Flipbooks-Analytics-Engagement</link>
+         <description><![CDATA[<h2>General Info</h2>
+<table style="width: 700px;">
+<tbody>
+<tr>
+<td style="width: 192px;"><strong>What it is:<br></strong></td>
+<td style="width: 485px;">Data points related to Uberflip Flipbook documents</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Includes these data points<br></strong></td>
+<td style="width: 485px;">
+<ul>
+<li>Total Flipbook Document Page Views</li>
+<li>Flipbook Downloads</li>
+<li>Avg. Flipbook Document Page Views</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Data available after<br></strong></td>
+<td style="width: 485px;">
+<p>May 2020 (collection start date for <em>Flipbook Downloads</em> and <em>Total Flipbook Document Page Views</em>)</p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Purpose</strong></td>
+<td style="width: 485px;">
+<p>Flipbooks require a specific set of metrics to understand as their level of engagement is tracked by visitors viewing multiple pages <strong>or</strong> by visitors downloading them for offline reading/circulation.  </p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;">
+<strong>Google Analytics e</strong><strong>quivalent/comparable</strong>
+</td>
+<td style="width: 485px;">
+<p>None (Google Analytics custom event required)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2>Total Flipbook Document Page Views </h2>
+<p><strong>Data Type: </strong>Count</p>
+<p><strong>Description:</strong> A count of total pages within a Flipbook document. </p>
+<p> </p>
+<h2>Flipbook Downloads </h2>
+<p><strong>Data Type:</strong> Count</p>
+<p><strong>Description:</strong> A count of how many times a Flipbook has been downloaded by visitors.</p>
+<p> </p>
+<h2>Avg. Flipbook Document Page Views </h2>
+<p><strong>Data Type: </strong>Calculated</p>
+<p><strong>Description:</strong>  An average of the amount of pages within Flipbook users have read.</p>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360044348372</guid>
+         <pubDate>Wed, 10 Jun 2020 19:24:13 GMT</pubDate>
+      </item>
+      <item>
+         <title>Views (Analytics &gt; Engagement) </title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360045160151-Views-Analytics-Engagement</link>
+         <description><![CDATA[<h2>General Info</h2>
+<table style="width: 700px;">
+<tbody>
+<tr>
+<td style="width: 236px;"><strong>What it is</strong></td>
+<td style="width: 441px;">
+<p>Views is an indicator of how many times a page or piece of content was loaded by a visitor. </p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Includes these data points</strong></td>
+<td style="width: 441px;">
+<ul>
+<li>Item Views</li>
+<li>Page Views</li>
+<li>Stream Views</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Collection Start</strong></td>
+<td style="width: 441px;">
+<p>July 2019</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Value</strong></td>
+<td style="width: 441px;">
+<p>A count that distinguishes different types of pages being viewed.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;">
+<strong>Google Analytics </strong><strong>Equivalent</strong>
+</td>
+<td style="width: 441px;">
+<p>While page views is possible in Google Analytics, both stream views and item views would require custom dimensions to be set.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2>Item Views</h2>
+<p><strong>Data Type: </strong>Count</p>
+<p><strong>Description: </strong>A drill-able sum of the number of times items were viewed</p>
+<p> </p>
+<h2>Page Views</h2>
+<p><strong>Data Type: </strong>Count</p>
+<p><strong>Description: </strong>A drill-able sum of the number of times pages were viewed.</p>
+<p> </p>
+<h2>Stream Views</h2>
+<p><strong>Data Type: </strong>Count</p>
+<p><strong>Description: </strong>A drill-able sum of the number of times streams were viewed.  </p>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360045160151</guid>
+         <pubDate>Thu, 18 Jun 2020 14:16:34 GMT</pubDate>
+      </item>
+      <item>
+         <title>Session (Analytics &gt; Engagement)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360044717872-Session-Analytics-Engagement</link>
+         <description><![CDATA[<h2>General Info</h2>
+<table style="width: 715px;">
+<tbody>
+<tr>
+<td style="width: 236px;"><strong>What it is</strong></td>
+<td style="width: 456px;">
+<p>Sessions engagement metrics capture KPIs for a single viewing period for a visitor.</p>
+<p>A session is based on a short-lived  60 minute cookie, which renewed based on last activity.  A user can navigate away from a page/or background a tab and as long as they return within an hour then that will be considered as the same session.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Includes these data points</strong></td>
+<td style="width: 456px;">
+<ul>
+<li>Avg. Session Duration</li>
+<li>Avg. Session Duration Formatted</li>
+<li>Count Sessions</li>
+<li>Items Per Session</li>
+<li>Pages Per Session</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Collection Start</strong></td>
+<td style="width: 456px;">
+<p>July 2019 <strong>- </strong>Started collecting view <br>December 2019 - Started collection Duration information</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Value</strong></td>
+<td style="width: 456px;">
+<p>Understand key information about sessions, both how many there were and also what those sessions entailed.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;">
+<strong>Google Analytics </strong><strong>Equivalent</strong>
+</td>
+<td style="width: 456px;">Google does track sessions.<br><br>Session duration is not very accurate in Google Analytics, as it is based strictly on the time stamp of page views.    <br><br>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2>Avg. Session Duration</h2>
+<p><strong>Data Type: </strong>Calculated</p>
+<p><strong>Description:  </strong>The Average length of user sessions, which is visualized in "mm:ss" format but exported as just "ss" format to allow for easy calculations.  The session duration is a sum of all active time viewing, which means if a tab is backgrounded then it does not count in the session duration.</p>
+<p> </p>
+<h2>Avg. Session Duration (Formatted)</h2>
+<p><strong>Data Type: </strong>Calculated</p>
+<p><strong>Description:  </strong>The Average length of user sessions, which is visualized in "mm:ss" and exported as the same "mm:ss" so it cannot be used for calculations. The session duration is a sum of all active time viewing, which means if a tab is backgrounded then it does not count in the session duration.</p>
+<p> </p>
+<h2>Count Sessions</h2>
+<p><strong>Data Type: </strong>Count</p>
+<p><strong>Description:  </strong>The total number of sessions. A session is a viewing period by a visitor that uses the same short-lived cookie (1-hour).  </p>
+<h2>
+<br>Items Per Session</h2>
+<p><strong>Data Type: </strong>Calculated</p>
+<p><strong>Description:  </strong>This is an average of the number of Items page views duration a session.  This is a very important KPI for differentiating what were navigation pages versus content pages.  Items are not distinct so a refresh of a page will count as another item view.</p>
+<p> </p>
+<h2>Pages Per Session</h2>
+<p><strong>Data Type: </strong>Calculated</p>
+<p><strong>Description:  </strong>This is an average of the number of URLs a user views during a session.  Pages are not counted as distinct so refreshing a page will count as another page view.  </p>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360044717872</guid>
+         <pubDate>Thu, 18 Jun 2020 14:58:24 GMT</pubDate>
+      </item>
+      <item>
+         <title>Link CTA Engagement(Analytics &gt; Engagement) </title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360045163451-Link-CTA-Engagement-Analytics-Engagement</link>
+         <description><![CDATA[<h2>General Info</h2>
+<table style="width: 700px;">
+<tbody>
+<tr>
+<td style="width: 236px;"><strong>What it is</strong></td>
+<td style="width: 441px;">
+<p>Link CTA Engagement KPIs specifically around Link CTAs to track how visitors interact with them. </p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Includes these data points</strong></td>
+<td style="width: 441px;">
+<ul>
+<li>Link CTA Click-Through Rate</li>
+<li>Link CTA Clicks</li>
+<li>Link CTA Impressions</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Collection Start</strong></td>
+<td style="width: 441px;">
+<p>July 2019</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Value</strong></td>
+<td style="width: 441px;">
+<p>Depending on use, Link CTAs can be your primary KPI.  It is important to track if visitors saw your link CTAs and if they actually clicked on them</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;">
+<strong>Google Analytics </strong><strong>Equivalent</strong>
+</td>
+<td style="width: 441px;">
+<p>Tracking CTA interactions would require custom events to be set up.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2>Link CTA Click-Through Rate</h2>
+<p><strong>Data Type: </strong>Calculated </p>
+<p><strong>Description: </strong>An average that indicates the percentage of visitors that had an impression of a CTA and subsequently clicked on it.</p>
+<p> </p>
+<h2>Link CTA Clicks</h2>
+<p><strong>Data Type: </strong>Count</p>
+<p><strong>Description: </strong>A sum of the number of times a visitor clicked on a Link CTA.</p>
+<p> </p>
+<h2>Link CTA Impressions</h2>
+<p><strong>Data Type: </strong>Count</p>
+<p><strong>Description: </strong>A sum of the number of times a visitor viewed a Link CTA, which was 50% on screen  for at least 1 second. </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360045163451</guid>
+         <pubDate>Thu, 18 Jun 2020 15:31:25 GMT</pubDate>
+      </item>
+      <item>
+         <title>Form CTA Engagement (Analytics &gt; Engagement)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360045164631-Form-CTA-Engagement-Analytics-Engagement</link>
+         <description><![CDATA[<h2>General Info</h2>
+<table style="width: 700px;">
+<tbody>
+<tr>
+<td style="width: 236px;"><strong>What it is</strong></td>
+<td style="width: 441px;">
+<p>Form CTA Engagement are KPIs for understanding how visitors interact with forms, generally utilized for lead collection.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Includes these data points</strong></td>
+<td style="width: 441px;">
+<ul>
+<li>Form CTA Activations</li>
+<li>Form CTA Convert Rate</li>
+<li>Form CTA Impressions</li>
+<li>Form CTA Submissions</li>
+<li>Gated Form CTA Convert Rate</li>
+<li>Gated Form CTA Impressions</li>
+<li>Gated Form CTA Submissions</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Collection Start</strong></td>
+<td style="width: 441px;">
+<p>July 2019</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Value</strong></td>
+<td style="width: 441px;">
+<p>Depending on use, Form CTAs can be your primary KPI, especially if used for lead collection.  It is important to track if visitors saw your forms, which activated them and then subsequently which actually submitted the form.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;">
+<strong>Google Analytics </strong><strong>Equivalent</strong>
+</td>
+<td style="width: 441px;">
+<p>Tracking CTA interactions would require custom events to be set up.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2>Form CTA Activations</h2>
+<p><strong>Data Type: </strong>Calculated </p>
+<p><strong>Description:</strong> A sum of the number of times a Form CTA was clicked-into to access the actual form.<strong> </strong></p>
+<p> </p>
+<h2>Form CTA Convert Rate</h2>
+<p><strong>Data Type: </strong>Calculated</p>
+<p><strong>Description: </strong>A percentage average of instances where a Form CTA had an Impression that subsequently led to a Form CTA Submission.   </p>
+<p> </p>
+<h2>Form CTA Impression</h2>
+<p><strong>Data Type: </strong>Count</p>
+<p><strong>Description: </strong>A sum of the number of times a Form CTA was viewed  50% on screen for at least 1 second. </p>
+<p> </p>
+<h2>Form CTA Submission</h2>
+<p><strong>Data Type: </strong>Count</p>
+<p><strong>Description: </strong>A sum of the number of times a Form CTA was successfully filled out and delivered.</p>
+<p> </p>
+<h2>Gated Form CTA Convert Rate</h2>
+<p><strong>Data Type: </strong>Calculated </p>
+<p><strong>Description: </strong>A percentage average of instances where a Gated Form CTA (one that blocks access to content) had an Impression that subsequently led to a Form CTA Submission.   </p>
+<p> </p>
+<h2>Gated Form CTA Impressions</h2>
+<p><strong>Data Type: </strong>Calculated </p>
+<p><strong>Description: </strong>A sum of the number of times a Gated Form CTA (one that blocks access to content) was viewed  50% on screen for at least 1 second. </p>
+<p> </p>
+<h2>Gated Form CTA Submission</h2>
+<p><strong>Data Type: </strong>Count</p>
+<p><strong>Description: </strong>A sum of the number of times a Gated Form CTA (one that blocks access to content) was successfully filled out and delivered.</p>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360045164631</guid>
+         <pubDate>Thu, 18 Jun 2020 15:57:21 GMT</pubDate>
+      </item>
+      <item>
+         <title>Time on Page (Analytics &gt; Engagement) </title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360045362731-Time-on-Page-Analytics-Engagement</link>
+         <description><![CDATA[<h2>General Info</h2>
+<table style="width: 700px;">
+<tbody>
+<tr>
+<td style="width: 236px;"><strong>What it is</strong></td>
+<td style="width: 441px;">
+<p>Time on Page is a calculation of the time spent viewing different content or pages in Uberflip.  <br><br>This metric is tracked in 2 second intervals and only registers when the page is actively being viewed.  </p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Includes these data points</strong></td>
+<td style="width: 441px;">
+<ul>
+<li>Avg. Time on Page</li>
+<li>Avg. Time on Page - Formatted</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Collection Start</strong></td>
+<td style="width: 441px;">
+<p>December 2019 - started collecting time on page</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Value</strong></td>
+<td style="width: 441px;">
+<p>Understand how long a visitor has been viewing a single piece of content or the average time multiple visitors have been viewing content. </p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;">
+<strong>Google Analytics </strong><strong>Equivalent</strong>
+</td>
+<td style="width: 441px;">Google utilizes timestamps to calculate time on page.  This means that they can't give you the time spent in a single page view session or the last page in a session.</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<br>Avg. Time on Page</h2>
+<p><strong>Data Type: </strong>Calculated</p>
+<p><strong>Description:  </strong>The average length users actively viewing a page in "mm:ss" format but exported as just "ss" format to allow for easy calculations.  </p>
+<p> </p>
+<h2>Avg. Session Duration (Formatted)</h2>
+<p><strong>Data Type: </strong>Calculated</p>
+<p><strong>Description: </strong>The average length users actively viewing a page in"mm:ss" and exported as the same "mm:ss" so it cannot be used for calculations. </p>
+<p> </p>
+<h2>Count Sessions</h2>
+<p><strong>Data Type: </strong>Count</p>
+<p><strong>Description:  </strong>The total number of sessions. A session is a viewing period by a visitor that uses the same short-lived cookie (1-hour).  </p>
+<h2>
+<br>Items Per Session</h2>
+<p><strong>Data Type: </strong>Calculated</p>
+<p><strong>Description:  </strong>This is an average of the number of Items page views duration a session.  This is a very important KPI for differentiating what were navigation pages versus content pages.  Items are not distinct so a refresh of a page will count as another item view.</p>
+<p> </p>
+<p> </p>
+<h2>Pages Per Session</h2>
+<p><strong>Data Type: </strong>Calculated</p>
+<p><strong>Description:  </strong>This is an average of the number of URLs a user views during a session.  Pages are not counted as distinct so refreshing a page will count as another page view.  </p>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360045362731</guid>
+         <pubDate>Tue, 23 Jun 2020 19:06:29 GMT</pubDate>
+      </item>
+      <item>
+         <title>Visitors (Engagement &gt; Analytics)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360044920032-Visitors-Engagement-Analytics</link>
+         <description><![CDATA[<h2>General Info</h2>
+<table style="width: 700px;">
+<tbody>
+<tr>
+<td style="width: 192px;"><strong>What it is<br></strong></td>
+<td style="width: 485px;">
+<p>Visitor Engagement KPIs help you understand what is happening for visitors across multiple sessions level.<br><br>A visitor is someone with a long-lived cookie, which will remain in the user's browser for 365 days.  This is renewed every time they return.  </p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Includes these data points<br></strong></td>
+<td style="width: 485px;">
+<ul>
+<li>New Visitors</li>
+<li>Pages Per Visitor</li>
+<li>Return Visitors</li>
+<li>Unique Visitors</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Data available after<br></strong></td>
+<td style="width: 485px;">
+<p>Always in sync with database.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;"><strong>Value</strong></td>
+<td style="width: 485px;">
+<p>Understand if your content is drawing new visitors or are they coming back for multiple sessions.  Also show how much content is being consumed by a visitor through multiple sessions.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 192px;">
+<strong>Google Analytics e</strong><strong>quivalent/comparable</strong>
+</td>
+<td style="width: 485px;">Part of Google Analytics.</td>
+</tr>
+</tbody>
+</table>
+<h2> </h2>
+<h2>New Visitors</h2>
+<p><strong>Data Type:</strong> Count</p>
+<p><strong>Description:  </strong>A visitor is new if a browser cookie was seen only once.  </p>
+<h2>
+<br>Pages Per Visitor</h2>
+<p><strong>Data Type:</strong> Count</p>
+<p><strong>Description:  </strong>The number of pages viewed by a visitor, which may include the same page multiple times  </p>
+<p> </p>
+<h2>Return Visitor</h2>
+<p><strong>Data Type:</strong> Count</p>
+<p><strong>Description:  </strong>A visitor is returned if their browser cookie has been seen before.</p>
+<p> </p>
+<h2>Unique Visitor</h2>
+<p><strong>Data Type:</strong> Count</p>
+<p><strong>Description:  </strong>A visitor is unique based on counting individual browser cookies</p>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360044920032</guid>
+         <pubDate>Tue, 23 Jun 2020 19:40:28 GMT</pubDate>
+      </item>
+      <item>
+         <title>Device Type (Analytics &gt; Traffic)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360044963212-Device-Type-Analytics-Traffic</link>
+         <description><![CDATA[<h2>General Info</h2>
+<table style="width: 700px;">
+<tbody>
+<tr>
+<td style="width: 236px;"><strong>What it is</strong></td>
+<td style="width: 441px;">
+<p>Device Type Indicates what the browser's user-agent says the visitor's device is.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Includes these data points</strong></td>
+<td style="width: 441px;">
+<ul>
+<li>Device type</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Collection Start</strong></td>
+<td style="width: 441px;">
+<p>July 2019</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Value</strong></td>
+<td style="width: 441px;">
+<p>It's possible to understand if a session is from a particular device, including desktop, laptop, mobile, tablet or console.  </p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;">
+<strong>Google Analytics </strong><strong>Equivalent</strong>
+</td>
+<td style="width: 441px;">
+<p>Google Analytics provides this information as well as hardware information, which Uberflip Analytics will implement at a future date.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2>Device Type</h2>
+<p><strong>Data Type:</strong> Dimension</p>
+<p><strong>Description: </strong>Identifies distinct device types based on a pre-defined list provided by Uberflip.  </p>]]></description>
+         <guid isPermaLink="false">360044963212</guid>
+         <pubDate>Wed, 24 Jun 2020 18:25:08 GMT</pubDate>
+      </item>
+      <item>
+         <title>Entry (Analytics &gt; Traffic)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360044967432-Entry-Analytics-Traffic</link>
+         <description><![CDATA[<h2>General Info</h2>
+<table style="width: 700px;">
+<tbody>
+<tr>
+<td style="width: 236px;"><strong>What it is</strong></td>
+<td style="width: 441px;">
+<p>An "Entry" is the first page or content viewed during a session.  </p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Includes these data points</strong></td>
+<td style="width: 441px;">
+<ul>
+<li>Entry Hub ID</li>
+<li>Entry Item</li>
+<li>Entry Item ID</li>
+<li>Entry Item Thumbnail URL</li>
+<li>Entry Page</li>
+<li>Entry Stream</li>
+<li>Entry Stream ID</li>
+<li>Entry URL</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Collection Start</strong></td>
+<td style="width: 441px;">
+<p>July 2019</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Value</strong></td>
+<td style="width: 441px;">
+<p>By understanding how visitors are entering the content experience, it is possible to see information. </p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;">
+<strong>Google Analytics </strong><strong>Equivalent</strong>
+</td>
+<td style="width: 441px;">
+<p>With google analytics, it's possible to utilize the Behavior functions to understand entry pages.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2>Entry Hub ID</h2>
+<p><strong>Data Type: </strong>Dimension </p>
+<p><strong>Description: </strong>The unique identifier of the Hub where a session started.</p>
+<p> </p>
+<h2>Entry Item</h2>
+<p><strong>Data Type: </strong>Dimension </p>
+<p><strong>Description: </strong>The distinct item title where a session started.</p>
+<p> </p>
+<h2>Entry Item ID</h2>
+<p><strong>Data Type: </strong>Dimension </p>
+<p><strong>Description: </strong>The distinct item title where a session started.</p>
+<p> </p>
+<h2>Entry Item Thumbnail URL</h2>
+<p><strong>Data Type: </strong>Dimension </p>
+<p><strong>Description: </strong>The thumbnail image representing the Entry Item.</p>
+<p> </p>
+<h2>Entry Page</h2>
+<p><strong>Data Type: </strong>Dimension </p>
+<p><strong>Description: </strong>A styled Cell that combines the Item Title, Stream Title and URL for where a session started.</p>
+<p> </p>
+<h2>Entry Stream</h2>
+<p><strong>Data Type: </strong>Dimension </p>
+<p><strong>Description: </strong>The distinct Stream title where a sessions started.</p>
+<p> </p>
+<h2>Entry Stream ID</h2>
+<p><strong>Data Type: </strong>Dimension </p>
+<p><strong>Description: </strong>The distinct Stream ID where sessions started.</p>
+<p> </p>
+<h2>Entry URL</h2>
+<p><strong>Data Type: </strong>Dimension </p>
+<p><strong>Description: </strong>The distinct URL where sessions started.</p>]]></description>
+         <guid isPermaLink="false">360044967432</guid>
+         <pubDate>Wed, 24 Jun 2020 19:25:16 GMT</pubDate>
+      </item>
+      <item>
+         <title>Geography (Analytics &gt; Traffic)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360045012132-Geography-Analytics-Traffic</link>
+         <description><![CDATA[<h2>General Info</h2>
+<table style="width: 700px;">
+<tbody>
+<tr>
+<td style="width: 236px;"><strong>What it is</strong></td>
+<td style="width: 441px;">
+<p>Geography data points identify the approximate location of a page view on based on IP address geo look-up.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Includes these data points</strong></td>
+<td style="width: 441px;">
+<ul>
+<li>City</li>
+<li>Country</li>
+<li>Country Code</li>
+<li>Country, Region, City</li>
+<li>Region</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Collection Start</strong></td>
+<td style="width: 441px;">
+<p>July 2019</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Value</strong></td>
+<td style="width: 441px;">
+<p>Understand where traffic is originating from.  </p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;">
+<strong>Google Analytics </strong><strong>Equivalent</strong>
+</td>
+<td style="width: 441px;">
+<p>Provides its own geography tools based on IP address.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2>City</h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description: </strong>The approximate city of where traffic is coming form.  </p>
+<p> </p>
+<h2>Country</h2>
+<p><strong>Data Type: </strong>Dimension </p>
+<p><strong>Description: </strong>The approximate country of where traffic is coming form.  </p>
+<p> </p>
+<h2>Country Code</h2>
+<p><strong>Data Type: </strong>Dimension </p>
+<p><strong>Description: </strong>A standardized 3-letter code using the ISO 3166 to put countries on a map.</p>
+<p> </p>
+<h2>Country, Region, City</h2>
+<p><strong>Data Type: </strong>Dimension </p>
+<p><strong>Description: </strong>Condenses Country, City and Region into a dimensions.   </p>
+<p> </p>
+<h2>Region</h2>
+<p><strong>Data Type: </strong>Dimension </p>
+<p><strong>Description:</strong>The approximate state or province where traffic is coming form.  </p>
+<p> </p>
+<h2>Cities</h2>
+<p><strong>Data Type:</strong> Cities</p>
+<p><strong>Description: </strong>A sum of cities where traffic originated from.  </p>
+<p> </p>
+<h2>Countries</h2>
+<p><strong>Data Type:</strong> Cities</p>
+<p><strong>Description: </strong>A sum of cities where traffic originated from.  </p>
+<p> </p>
+<h2>Regions</h2>
+<p><strong>Data Type:</strong> Countries</p>
+<p><strong>Description: </strong>A sum of  countries where traffic originated from.</p>]]></description>
+         <guid isPermaLink="false">360045012132</guid>
+         <pubDate>Thu, 25 Jun 2020 15:25:44 GMT</pubDate>
+      </item>
+      <item>
+         <title>ID Fields (Analytics &gt; Traffic)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360045026952-ID-Fields-Analytics-Traffic</link>
+         <description><![CDATA[<h2>General Info</h2>
+<table style="width: 700px;">
+<tbody>
+<tr>
+<td style="width: 236px;"><strong>What it is</strong></td>
+<td style="width: 441px;">
+<p>Different unique identifiers (IDs) used to understand clear distinctions in traffic.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Includes these data points</strong></td>
+<td style="width: 441px;">
+<ul>
+<li>Page View ID</li>
+<li>Session ID</li>
+<li>Visitor ID</li>
+<li>Visitor UUID</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Collection Start</strong></td>
+<td style="width: 441px;">
+<p>July 2019</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Value</strong></td>
+<td style="width: 441px;">
+<p>These IDs can be used to specifically target specific instances and differentiate them.  </p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;">
+<strong>Google Analytics </strong><strong>Equivalent</strong>
+</td>
+<td style="width: 441px;">
+<p>With google analytics, it's possible to utilize the Behavior functions to understand entry pages.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p> </p>
+<h2>Page View ID</h2>
+<p><strong>Data Type:</strong> Dimension </p>
+<p><strong>Description: </strong>A unique identifier for a specific instance of a page view. </p>
+<p> </p>
+<h2>Session ID</h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description: </strong>A unique identifier for a specific session.  </p>
+<h2>
+<br>Visitor ID</h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description: </strong>A short back-end only unique identifier for differentiating specific visitors.</p>
+<p> </p>
+<h2>Visitor UUID</h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>Description: </strong>A front-end exposed unique identifier that can be used to identify and delete visitors.  </p>]]></description>
+         <guid isPermaLink="false">360045026952</guid>
+         <pubDate>Thu, 25 Jun 2020 16:59:53 GMT</pubDate>
+      </item>
+      <item>
+         <title>UTM / URL (Anlaytics &gt; Traffic)</title>
+         <link>https://help.uberflip.com/hc/en-us/articles/360045468471-UTM-URL-Anlaytics-Traffic</link>
+         <description><![CDATA[<h2>General Info</h2>
+<table style="width: 700px;">
+<tbody>
+<tr>
+<td style="width: 236px;"><strong>What it is</strong></td>
+<td style="width: 441px;">
+<p>UTM / URL Anaytics provide Information pulled from URL parameters and referrals that indicate what the source of traffic was.</p>
+<p>Standard UTM Parameters are utilized as shown here:</p>
+<p><a href="https://ga-dev-tools.appspot.com/campaign-url-builder/">https://ga-dev-tools.appspot.com/campaign-url-builder/</a></p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Includes these data points</strong></td>
+<td style="width: 441px;">
+<p><strong>Dimensions</strong></p>
+<ul>
+<li>Full URL w/ Params</li>
+<li>URL</li>
+<li>URL Parameters</li>
+<li>UTM Campaign</li>
+<li>UTM Content</li>
+<li>UTM Medium</li>
+<li>UTM Source</li>
+<li>UTM Source &amp; Medium</li>
+</ul>
+<p><strong>Measures</strong></p>
+<ul>
+<li>Distinct URLs</li>
+<li>UTM Campaigns</li>
+<li>UTM Content</li>
+<li>UTM Source &amp; Medium</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Collection Start</strong></td>
+<td style="width: 441px;">
+<p>July 2019</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;"><strong>Value</strong></td>
+<td style="width: 441px;">
+<p>These parameters are vital in understanding what the source of traffic is coming from and where they are landing.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 236px;">
+<strong>Google Analytics </strong><strong>Equivalent</strong>
+</td>
+<td style="width: 441px;">
+<p>Google provides extensive tools to understand referral traffic </p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2> </h2>
+<h2>Full URL w/ Params</h2>
+<p><strong>Data Type</strong>: Dimension</p>
+<p><strong>Description: </strong>The entire URL as it's shown in the address bar.  This includes additional parameters a query strings, which are both standard UTM and custom.  This will show embed configurations as well.  </p>
+<p> </p>
+<h2>Full URL Parameters</h2>
+<p><strong>Data Type: </strong>Dimension</p>
+<p><strong>URL Parameters: </strong>The end of a page view URL that includes UTM and other parameters.  </p>
+<p> </p>
+<h2>URL</h2>
+<p><strong>Data type: </strong>Dimension</p>
+<p><strong>Description: </strong>The full URL of a page view. </p>
+<p> </p>
+<h2>UTM Campaign</h2>
+<p><strong>Data type: </strong>Dimension</p>
+<p><strong>Description: </strong>The UTM campaign parameter pulled from a page view.</p>
+<h2> </h2>
+<h2>UTM Content</h2>
+<p><strong>Data type: </strong>Dimension</p>
+<p><strong>Description: </strong>The UTM content parameter pulled from a URL used to link to the destination. This includes identifiers such as paid keywords or more specific identifiers for campaigns.</p>
+<p> </p>
+<h2>UTM Medium</h2>
+<p><strong>Data type: </strong>Dimension</p>
+<p><strong>Description: </strong>The UTM medium parameter pulled from the URL used to link to the destination.</p>
+<p>The medium refers to the type of platform referrals came from.  If the medium is in parentheses such as (none), (organic), (referral) then that means they were inferred by Uberflip. Those without such as email, referral, or social were explicitly provided.</p>
+<p> </p>
+<h2>UTM Source</h2>
+<p><strong>Data type: </strong>Dimension</p>
+<p><strong>Description: </strong>The UTM medium parameter pulled from the URL used to link to the destination.</p>
+<p>The source is the actual platform referring traffic.  This includes Google.com, yourwebsite.com, and if it's (direct) then that means someone typed in the actual URL manually.</p>
+<p> </p>
+<h2>Distinct URLs</h2>
+<p><strong>Data Type:</strong> Count</p>
+<p><strong>Description: </strong>A drill-able count of Distinct page view URLs that can be used to identify all the URLs where an item might be displayed. </p>
+<p> </p>
+<h2>UTM Campaigns</h2>
+<p><strong>Data Type: </strong>Count</p>
+<p><strong>Description: </strong>A sum of the number of distinct campaigns pulled from the campaign UTM parameter.  Campaigns are either manually set or set by your Marketing automation software / ad server.</p>
+<p> </p>
+<h2>UTM Source &amp; Mediums</h2>
+<p><strong>Data Type: </strong>Count</p>
+<p><strong>Description: </strong>A sum of the number of distinct UTM Source &amp; Medium pairs. </p>
+<p> </p>]]></description>
+         <guid isPermaLink="false">360045468471</guid>
+         <pubDate>Thu, 25 Jun 2020 17:51:12 GMT</pubDate>
+      </item>
+      <atom:link href="https://example.com/rssFeed.xml" rel="self" type="application/rss+xml"/>
+   </channel>
+</rss>
